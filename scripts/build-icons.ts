@@ -10,7 +10,7 @@ const INDEX_OUTPUT = join(process.cwd(), 'src/index.ts');
 function toPascalCase(str: string): string {
   return str
     .replace(/\.svg$/, '')
-    .replace(/[-_\s]+(\w)/g, (_, c) => c.toUpperCase())  // Handle dashes, underscores, and spaces
+    .replace(/[-_\s]+(\w)/g, (_, c) => c.toUpperCase())
     .replace(/^(\w)/, (_, c) => c.toUpperCase());
 }
 
@@ -31,7 +31,7 @@ function processSvg(svgContent: string): { viewBox: string; children: string } {
   const innerMatch = svgContent.match(/<svg[^>]*>([\s\S]*)<\/svg>/);
   let children = innerMatch ? innerMatch[1].trim() : '';
 
-  // Replace hardcoded colors with currentColor
+  // Replace all hardcoded colors with currentColor (preserves opacity attributes)
   children = children.replace(/fill="#[0-9A-Fa-f]{3,6}"/g, 'fill="currentColor"');
   children = children.replace(/stroke="#[0-9A-Fa-f]{3,6}"/g, 'stroke="currentColor"');
   children = children.replace(/fill="black"/g, 'fill="currentColor"');
@@ -49,14 +49,19 @@ function processSvg(svgContent: string): { viewBox: string; children: string } {
   children = children.replace(/stroke-miterlimit=/g, 'strokeMiterlimit=');
   children = children.replace(/stroke-dasharray=/g, 'strokeDasharray=');
   children = children.replace(/stroke-dashoffset=/g, 'strokeDashoffset=');
-  children = children.replace(/stroke-opacity=/g, 'strokeOpacity=');
-  children = children.replace(/fill-opacity=/g, 'fillOpacity=');
+
+  // Convert opacity attributes to use CSS custom properties for runtime control
+  // Elements with opacity get secondary color + opacity variables
+  children = children.replace(/stroke="currentColor" stroke-opacity="([^"]+)"/g, 'stroke="var(--foamicon-secondary-color, currentColor)" style={{ strokeOpacity: "var(--foamicon-secondary-opacity, $1)" }}');
+  children = children.replace(/fill="currentColor" fill-opacity="([^"]+)"/g, 'fill="var(--foamicon-secondary-color, currentColor)" style={{ fillOpacity: "var(--foamicon-secondary-opacity, $1)" }}');
+  // Handle reverse order (opacity before color)
+  children = children.replace(/stroke-opacity="([^"]+)" stroke="currentColor"/g, 'stroke="var(--foamicon-secondary-color, currentColor)" style={{ strokeOpacity: "var(--foamicon-secondary-opacity, $1)" }}');
+  children = children.replace(/fill-opacity="([^"]+)" fill="currentColor"/g, 'fill="var(--foamicon-secondary-color, currentColor)" style={{ fillOpacity: "var(--foamicon-secondary-opacity, $1)" }}');
 
   // Convert inline style strings to React style objects
   children = children.replace(/style="([^"]+)"/g, (_, styleStr: string) => {
     const styles = styleStr.split(';').filter(Boolean).map((s: string) => {
       const [prop, val] = s.split(':').map((p: string) => p.trim());
-      // Convert kebab-case to camelCase
       const camelProp = prop.replace(/-([a-z])/g, (_, c: string) => c.toUpperCase());
       return `${camelProp}: '${val}'`;
     });
@@ -134,7 +139,7 @@ export type { IconProps, Icon } from './types';
 ${iconNames.map((name) => `export { ${name} } from './icons/${name}';`).join('\n')}
 
 // Icon names for tooling
-export const iconNames = ${JSON.stringify(iconNames)} as const;
+export const iconNames = ${JSON.stringify(iconNames.sort())} as const;
 `;
 
   await writeFile(INDEX_OUTPUT, indexContent);
