@@ -166,9 +166,9 @@ function AppContent() {
   const isColorIcon = selectedIcon?.endsWith('Color');
 
   return (
-    <div className={`min-h-screen flex ${theme === 'dark' ? 'bg-zinc-950 text-zinc-100' : 'bg-white text-zinc-900'}`}>
+    <div className={`h-screen flex ${theme === 'dark' ? 'bg-zinc-950 text-zinc-100' : 'bg-white text-zinc-900'}`}>
       {/* Sidebar */}
-      <aside className={`w-64 border-r p-6 flex flex-col gap-6 ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}>
+      <aside className={`w-64 border-r p-6 flex flex-col gap-6 overflow-y-auto ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}>
         <div className="flex items-center justify-between">
           <h1 className="text-xl font-semibold">Foamicons</h1>
           <button
@@ -375,10 +375,10 @@ function AppContent() {
 
       {/* Detail Panel */}
       {selectedIcon && SelectedIconComponent && (
-        <aside className={`w-80 border-l flex flex-col ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}>
+        <aside className={`w-80 border-l flex flex-col overflow-y-auto ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}>
           {/* Preview */}
           <div
-            className={`flex-1 flex items-center justify-center border-b p-8 ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}
+            className={`shrink-0 h-64 flex items-center justify-center border-b p-8 ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}
             style={
               {
                 color,
@@ -394,7 +394,7 @@ function AppContent() {
           </div>
 
           {/* Info */}
-          <div className="p-4 space-y-4">
+          <div className="p-4 space-y-4 shrink-0">
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="text-lg font-medium">{toKebabCase(selectedIcon)}</h3>
