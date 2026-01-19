@@ -168,7 +168,7 @@ function AppContent() {
   return (
     <div className={`h-screen flex ${theme === 'dark' ? 'bg-zinc-950 text-zinc-100' : 'bg-white text-zinc-900'}`}>
       {/* Sidebar */}
-      <aside className={`w-64 border-r p-6 flex flex-col gap-6 overflow-y-auto ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}>
+      <aside className={`w-64 border-r p-6 flex flex-col gap-6 overflow-y-auto shrink-0 ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}>
         <div className="flex items-center justify-between">
           <h1 className="text-xl font-semibold">Foamicons</h1>
           <button
