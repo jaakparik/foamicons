@@ -285,6 +285,20 @@ function AppContent() {
           </div>
         </div>
 
+        {/* Installation */}
+        <div className="space-y-3">
+          <h2 className="text-sm font-medium text-zinc-400">Installation</h2>
+          <div className={`rounded-lg p-3 text-xs font-mono ${theme === 'dark' ? 'bg-zinc-900 text-zinc-300' : 'bg-zinc-100 text-zinc-700'}`}>
+            npm install foamicons
+          </div>
+          <div className={`text-xs ${theme === 'dark' ? 'text-zinc-500' : 'text-zinc-600'}`}>
+            <div className="mb-2">Import icons:</div>
+            <div className={`rounded-lg p-3 font-mono ${theme === 'dark' ? 'bg-zinc-900 text-zinc-400' : 'bg-zinc-100 text-zinc-600'}`}>
+              {`import { Bell } from 'foamicons';`}
+            </div>
+          </div>
+        </div>
+
         <div className="mt-auto text-xs text-zinc-600">
           <div>{regularIcons.length} regular icons</div>
           <div>{colorIcons.length} color icons</div>
