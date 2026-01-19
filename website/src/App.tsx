@@ -378,7 +378,7 @@ function AppContent() {
         <aside className={`w-80 border-l flex flex-col overflow-y-auto ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}>
           {/* Preview */}
           <div
-            className={`shrink-0 h-64 flex items-center justify-center border-b p-8 ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}
+            className={`shrink-0 h-64 flex items-start justify-center border-b p-8 pt-16 ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}
             style={
               {
                 color,
