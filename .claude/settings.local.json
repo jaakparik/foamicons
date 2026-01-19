@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev)",
+      "Bash(npm run generate:*)",
+      "Bash(npm run build:*)",
+      "Bash(ls:*)",
+      "Bash(npm view:*)",
+      "Bash(npm version:*)",
+      "Bash(npm publish:*)",
+      "Bash(~/.npmrc)",
+      "Bash(npm install)",
+      "Bash(grep:*)",
+      "Bash(npm ls:*)",
+      "Bash(xargs:*)"
+    ]
+  }
+}
