@@ -69,7 +69,16 @@ function parseElement(elementStr: string): { tag: string; attrs: Record<string, 
     }
 
     // Replace hardcoded colors with currentColor
-    if (attrName === 'fill' || attrName === 'stroke') {
+    // Note: Keep fill="white" as-is because it's used in clipPath/mask definitions
+    if (attrName === 'fill') {
+      if (
+        attrValue.match(/^#[0-9A-Fa-f]{3,6}$/) ||
+        attrValue === 'black'
+      ) {
+        attrValue = 'currentColor';
+      }
+      // Keep fill="white" unchanged for clipPath masks
+    } else if (attrName === 'stroke') {
       if (
         attrValue.match(/^#[0-9A-Fa-f]{3,6}$/) ||
         attrValue === 'black' ||
