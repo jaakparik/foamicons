@@ -5,6 +5,12 @@ import { iconNames, type IconProps, Sun, Moon } from 'foamicons';
 
 type IconComponent = React.ForwardRefExoticComponent<IconProps & React.RefAttributes<SVGSVGElement>>;
 
+// Type for CSS custom properties in React 19
+interface CustomCSSProperties extends React.CSSProperties {
+  '--foamicon-secondary-color'?: string;
+  '--foamicon-secondary-opacity'?: number;
+}
+
 // Convert PascalCase to kebab-case for display
 const toKebabCase = (str: string) =>
   str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
@@ -351,7 +357,7 @@ function AppContent() {
                   <Icon
                     size={size}
                     strokeWidth={strokeWidth}
-                    style={{ color, '--foamicon-secondary-color': secondaryColor, '--foamicon-secondary-opacity': fillOpacity } as React.CSSProperties}
+                    style={{ color, '--foamicon-secondary-color': secondaryColor, '--foamicon-secondary-opacity': fillOpacity } as CustomCSSProperties}
                     data-icon={toKebabCase(name)}
                   />
                 </button>
@@ -375,7 +381,7 @@ function AppContent() {
             <SelectedIconComponent
               size={Math.min(size * 4, 128)}
               strokeWidth={strokeWidth}
-              style={{ color, '--foamicon-secondary-color': secondaryColor, '--foamicon-secondary-opacity': fillOpacity } as React.CSSProperties}
+              style={{ color, '--foamicon-secondary-color': secondaryColor, '--foamicon-secondary-opacity': fillOpacity } as CustomCSSProperties}
             />
           </div>
 
