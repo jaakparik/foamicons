@@ -1,6 +1,6 @@
 import { readdir, readFile, writeFile, mkdir, rm } from 'fs/promises';
 import { existsSync } from 'fs';
-import { join, basename } from 'path';
+import { join } from 'path';
 
 const ICONS_SOURCE = join(process.cwd(), 'icons');
 const ICONS_OUTPUT = join(process.cwd(), 'src/icons');
@@ -16,87 +16,195 @@ function toPascalCase(str: string): string {
 
 // Convert PascalCase to kebab-case for class names
 function toKebabCase(str: string): string {
-  return str
-    .replace(/([a-z])([A-Z])/g, '$1-$2')
-    .toLowerCase();
+  return str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
 }
 
-// Extract SVG content and clean it up
-function processSvg(svgContent: string): { viewBox: string; children: string } {
+// Generate a deterministic short hash key for SVG elements
+function generateKey(tag: string, attrs: Record<string, string>, index: number): string {
+  const str = `${tag}-${JSON.stringify(attrs)}-${index}`;
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = ((hash << 5) - hash) + str.charCodeAt(i);
+    hash |= 0;
+  }
+  return Math.abs(hash).toString(36).slice(0, 6);
+}
+
+// Map of SVG attribute names to React camelCase equivalents
+const SVG_ATTR_MAP: Record<string, string> = {
+  'fill-rule': 'fillRule',
+  'clip-rule': 'clipRule',
+  'clip-path': 'clipPath',
+  'stroke-width': 'strokeWidth',
+  'stroke-linecap': 'strokeLinecap',
+  'stroke-linejoin': 'strokeLinejoin',
+  'stroke-miterlimit': 'strokeMiterlimit',
+  'stroke-dasharray': 'strokeDasharray',
+  'stroke-dashoffset': 'strokeDashoffset',
+  'stroke-opacity': 'strokeOpacity',
+  'fill-opacity': 'fillOpacity',
+};
+
+// Parse an SVG element string into tag and attributes
+function parseElement(elementStr: string): { tag: string; attrs: Record<string, string> } | null {
+  // Match self-closing tags like <path ... /> or <circle ... />
+  const match = elementStr.match(/^<(\w+)\s+([^>]*?)\s*\/?>$/s);
+  if (!match) return null;
+
+  const tag = match[1];
+  const attrsStr = match[2];
+
+  const attrs: Record<string, string> = {};
+
+  // Parse attributes - handle both single and double quoted values
+  const attrRegex = /(\S+?)=["']([^"']*?)["']/g;
+  let attrMatch;
+  while ((attrMatch = attrRegex.exec(attrsStr)) !== null) {
+    let attrName = attrMatch[1];
+    let attrValue = attrMatch[2];
+
+    // Convert attribute name to camelCase if needed
+    if (SVG_ATTR_MAP[attrName]) {
+      attrName = SVG_ATTR_MAP[attrName];
+    }
+
+    // Replace hardcoded colors with currentColor
+    if (attrName === 'fill' || attrName === 'stroke') {
+      if (
+        attrValue.match(/^#[0-9A-Fa-f]{3,6}$/) ||
+        attrValue === 'black' ||
+        attrValue === 'white'
+      ) {
+        attrValue = 'currentColor';
+      }
+    }
+
+    attrs[attrName] = attrValue;
+  }
+
+  return { tag, attrs };
+}
+
+// Extract SVG elements and convert to IconNode format
+function parseSvgToIconNode(
+  svgContent: string
+): { viewBox: string; iconNode: Array<[string, Record<string, string>]> } {
   // Extract viewBox
   const viewBoxMatch = svgContent.match(/viewBox="([^"]+)"/);
   const viewBox = viewBoxMatch ? viewBoxMatch[1] : '0 0 16 16';
 
   // Extract inner content (everything between <svg> and </svg>)
   const innerMatch = svgContent.match(/<svg[^>]*>([\s\S]*)<\/svg>/);
-  let children = innerMatch ? innerMatch[1].trim() : '';
+  const innerContent = innerMatch ? innerMatch[1].trim() : '';
 
-  // Replace all hardcoded colors with currentColor (preserves opacity attributes)
-  children = children.replace(/fill="#[0-9A-Fa-f]{3,6}"/g, 'fill="currentColor"');
-  children = children.replace(/stroke="#[0-9A-Fa-f]{3,6}"/g, 'stroke="currentColor"');
-  children = children.replace(/fill="black"/g, 'fill="currentColor"');
-  children = children.replace(/stroke="black"/g, 'stroke="currentColor"');
-  children = children.replace(/fill="white"/g, 'fill="currentColor"');
-  children = children.replace(/stroke="white"/g, 'stroke="currentColor"');
+  // Match all SVG elements (self-closing)
+  const elementRegex = /<(\w+)\s+[^>]*?\/?>/g;
+  const elements: Array<[string, Record<string, string>]> = [];
 
-  // Convert kebab-case attributes to camelCase for React
-  children = children.replace(/fill-rule=/g, 'fillRule=');
-  children = children.replace(/clip-rule=/g, 'clipRule=');
-  children = children.replace(/clip-path=/g, 'clipPath=');
-  children = children.replace(/stroke-width=/g, 'strokeWidth=');
-  children = children.replace(/stroke-linecap=/g, 'strokeLinecap=');
-  children = children.replace(/stroke-linejoin=/g, 'strokeLinejoin=');
-  children = children.replace(/stroke-miterlimit=/g, 'strokeMiterlimit=');
-  children = children.replace(/stroke-dasharray=/g, 'strokeDasharray=');
-  children = children.replace(/stroke-dashoffset=/g, 'strokeDashoffset=');
+  let elementMatch;
+  let index = 0;
+  while ((elementMatch = elementRegex.exec(innerContent)) !== null) {
+    const elementStr = elementMatch[0];
+    const parsed = parseElement(elementStr);
 
-  // Convert opacity attributes to use CSS custom properties for runtime control
-  // Elements with opacity get secondary color + opacity variables
-  children = children.replace(/stroke="currentColor" stroke-opacity="([^"]+)"/g, 'stroke="var(--foamicon-secondary-color, currentColor)" style={{ strokeOpacity: "var(--foamicon-secondary-opacity, $1)" }}');
-  children = children.replace(/fill="currentColor" fill-opacity="([^"]+)"/g, 'fill="var(--foamicon-secondary-color, currentColor)" style={{ fillOpacity: "var(--foamicon-secondary-opacity, $1)" }}');
-  // Handle reverse order (opacity before color)
-  children = children.replace(/stroke-opacity="([^"]+)" stroke="currentColor"/g, 'stroke="var(--foamicon-secondary-color, currentColor)" style={{ strokeOpacity: "var(--foamicon-secondary-opacity, $1)" }}');
-  children = children.replace(/fill-opacity="([^"]+)" fill="currentColor"/g, 'fill="var(--foamicon-secondary-color, currentColor)" style={{ fillOpacity: "var(--foamicon-secondary-opacity, $1)" }}');
+    if (parsed) {
+      // Add unique key for React
+      const key = generateKey(parsed.tag, parsed.attrs, index);
+      parsed.attrs.key = key;
 
-  // Convert inline style strings to React style objects
-  children = children.replace(/style="([^"]+)"/g, (_, styleStr: string) => {
-    const styles = styleStr.split(';').filter(Boolean).map((s: string) => {
-      const [prop, val] = s.split(':').map((p: string) => p.trim());
-      const camelProp = prop.replace(/-([a-z])/g, (_, c: string) => c.toUpperCase());
-      return `${camelProp}: '${val}'`;
-    });
-    return `style={{${styles.join(', ')}}}`;
-  });
+      elements.push([parsed.tag, parsed.attrs]);
+      index++;
+    }
+  }
 
-  return { viewBox, children };
+  return { viewBox, iconNode: elements };
 }
 
-// Generate component code
-function generateComponent(name: string, viewBox: string, children: string): string {
+// Generate base64-encoded SVG for JSDoc preview
+function generateBase64Preview(svgContent: string): string {
+  // Clean SVG for preview - replace black with currentColor for better visibility
+  const cleanedSvg = svgContent
+    .replace(/stroke="black"/g, 'stroke="currentColor"')
+    .replace(/fill="black"/g, 'fill="currentColor"')
+    .replace(/stroke="#[0-9A-Fa-f]{3,6}"/g, 'stroke="currentColor"')
+    .replace(/fill="#[0-9A-Fa-f]{3,6}"/g, 'fill="currentColor"');
+
+  return Buffer.from(cleanedSvg).toString('base64');
+}
+
+// Generate JSDoc comment for an icon
+function generateJsDoc(name: string, svgContent: string): string {
+  const base64 = generateBase64Preview(svgContent);
   const kebabName = toKebabCase(name);
-  return `import { forwardRef } from 'react';
-import type { IconProps } from '../types';
 
-export const ${name} = forwardRef<SVGSVGElement, IconProps>(
-  ({ size = 16, strokeWidth = 1, className, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="${viewBox}"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      strokeWidth={strokeWidth}
-      className={['foamicon', 'foamicon-${kebabName}', className].filter(Boolean).join(' ')}
-      aria-hidden="true"
-      {...props}
-    >
-      ${children}
-    </svg>
-  )
-);
+  return `/**
+ * @component @name ${name}
+ * @description Foamicon SVG icon component, renders a \`<svg>\` element
+ * @preview ![img](data:image/svg+xml;base64,${base64})
+ * @see https://foamicons.com/icons/${kebabName}
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */`;
+}
 
-${name}.displayName = '${name}';
+// Generate component code using createFoamicon
+function generateComponent(
+  name: string,
+  iconNode: Array<[string, Record<string, string>]>,
+  jsDoc: string
+): string {
+  // Format the icon node as a clean array of tuples
+  const iconNodeStr = JSON.stringify(iconNode, null, 2)
+    .replace(/"([^"]+)":/g, '$1:') // Remove quotes from keys
+    .replace(/"/g, "'"); // Use single quotes for values
+
+  return `import { createFoamicon } from '../createFoamicon';
+import type { IconNode } from '../types';
+
+const __iconNode: IconNode = ${iconNodeStr};
+
+${jsDoc}
+export const ${name} = createFoamicon('${name}', __iconNode);
+`;
+}
+
+// Generate icons/index.ts for barrel export
+function generateIconsIndex(iconNames: string[]): string {
+  const exports = iconNames.map((name) => `export { ${name} } from './${name}';`);
+  return `// Auto-generated - do not edit manually
+${exports.join('\n')}
+`;
+}
+
+// Generate main index.ts with all exports and aliases
+function generateMainIndex(iconNames: string[]): string {
+  const exports: string[] = [];
+
+  // Primary exports
+  iconNames.forEach((name) => {
+    exports.push(`export { ${name} } from './icons/${name}';`);
+  });
+
+  // Alias exports: {Name}Icon and Foam{Name}
+  iconNames.forEach((name) => {
+    exports.push(`export { ${name} as ${name}Icon } from './icons/${name}';`);
+    exports.push(`export { ${name} as Foam${name} } from './icons/${name}';`);
+  });
+
+  return `// Auto-generated - do not edit manually
+export type { IconProps, IconNode, FoamIcon } from './types';
+export { createFoamicon } from './createFoamicon';
+export { Icon } from './Icon';
+
+${exports.join('\n')}
+
+// Icon names for tooling
+export const iconNames = ${JSON.stringify(iconNames.sort())} as const;
 `;
 }
 
@@ -122,8 +230,9 @@ async function main() {
     const svgContent = await readFile(filePath, 'utf-8');
     const name = toPascalCase(file);
 
-    const { viewBox, children } = processSvg(svgContent);
-    const componentCode = generateComponent(name, viewBox, children);
+    const { iconNode } = parseSvgToIconNode(svgContent);
+    const jsDoc = generateJsDoc(name, svgContent);
+    const componentCode = generateComponent(name, iconNode, jsDoc);
 
     const outputPath = join(ICONS_OUTPUT, `${name}.tsx`);
     await writeFile(outputPath, componentCode);
@@ -132,20 +241,17 @@ async function main() {
     console.log(`  ✓ ${name}`);
   }
 
-  // Generate index.ts
-  const indexContent = `// Auto-generated - do not edit manually
-export type { IconProps, Icon } from './types';
+  // Generate icons/index.ts
+  const iconsIndexContent = generateIconsIndex(iconNames);
+  await writeFile(join(ICONS_OUTPUT, 'index.ts'), iconsIndexContent);
 
-${iconNames.map((name) => `export { ${name} } from './icons/${name}';`).join('\n')}
-
-// Icon names for tooling
-export const iconNames = ${JSON.stringify(iconNames.sort())} as const;
-`;
-
+  // Generate main index.ts
+  const indexContent = generateMainIndex(iconNames);
   await writeFile(INDEX_OUTPUT, indexContent);
 
   console.log(`\n✓ Generated ${iconNames.length} icon components`);
-  console.log('✓ Generated index.ts');
+  console.log('✓ Generated icons/index.ts');
+  console.log('✓ Generated index.ts with aliases');
 }
 
 main().catch(console.error);

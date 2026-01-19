@@ -1,6 +1,6 @@
 # Foamicons
 
-A React icon library with 120 icons, optimized for shadcn/ui and Tailwind CSS. Uses Lucide-style naming conventions.
+A React icon library with 240 icons, optimized for shadcn/ui and Tailwind CSS. Uses Lucide-style naming conventions.
 
 ## Installation
 
@@ -25,25 +25,65 @@ import { Bell, ChevronRight, Search, Mail } from 'foamicons';
 // Custom stroke width
 <Bell strokeWidth={1.5} />
 
-// With color
+// With color prop
+<Bell color="blue" />
+
+// With Tailwind color classes
 <Bell className="text-blue-500" />
+
+// Constant stroke width at any size (useful for larger icons)
+<Bell size={48} strokeWidth={1} absoluteStrokeWidth />
 
 // All SVG props are supported
 <Bell onClick={handleClick} aria-label="Notifications" />
 ```
 
+### Tree-Shakeable Per-Icon Imports
+
+For optimal bundle size, import icons individually:
+
+```tsx
+import { Alert } from 'foamicons/icons/Alert';
+import { Bell } from 'foamicons/icons/Bell';
+```
+
+### Export Aliases
+
+Each icon is available under multiple names:
+
+```tsx
+import { Alert, AlertIcon, FoamAlert } from 'foamicons';
+// All three reference the same component
+```
+
 ## Props
 
-| Prop          | Type             | Default | Description                     |
-| ------------- | ---------------- | ------- | ------------------------------- |
-| `size`        | `number\|string` | `16`    | Width and height of the icon    |
-| `strokeWidth` | `number`         | `1`     | Stroke width of the icon        |
-| `className`   | `string`         | -       | CSS classes (Tailwind-friendly) |
-| `...props`    | `SVGProps`       | -       | Any valid SVG attribute         |
+| Prop                  | Type             | Default          | Description                                        |
+| --------------------- | ---------------- | ---------------- | -------------------------------------------------- |
+| `size`                | `number\|string` | `16`             | Width and height of the icon                       |
+| `strokeWidth`         | `number\|string` | `1`              | Stroke width of the icon                           |
+| `absoluteStrokeWidth` | `boolean`        | `false`          | Keep stroke width constant regardless of icon size |
+| `color`               | `string`         | `'currentColor'` | Icon stroke color                                  |
+| `className`           | `string`         | -                | CSS classes (Tailwind-friendly)                    |
+| `...props`            | `SVGProps`       | -                | Any valid SVG attribute                            |
+
+### About `absoluteStrokeWidth`
+
+By default, when you scale an icon up, the stroke width scales proportionally. With `absoluteStrokeWidth`, the stroke maintains its visual thickness at any size:
+
+```tsx
+// Without absoluteStrokeWidth: stroke appears thicker at larger sizes
+<Bell size={48} strokeWidth={1} />
+
+// With absoluteStrokeWidth: stroke stays visually consistent
+<Bell size={48} strokeWidth={1} absoluteStrokeWidth />
+```
+
+The formula used: `adjustedStrokeWidth = strokeWidth * (16 / size)`
 
 ## Available Icons
 
-120 icons included. All icons use `currentColor` for easy styling with Tailwind CSS.
+240 icons included. All icons use `currentColor` for easy styling with Tailwind CSS.
 
 ## Naming Convention
 
