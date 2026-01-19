@@ -34,7 +34,7 @@ function AppContent() {
   const [color, setColor] = useState('#ffffff');
   const [secondaryColor, setSecondaryColor] = useState('#0084ff');
   const [fillOpacity, setFillOpacity] = useState(0.2);
-  const [filter, setFilter] = useState<FilterType>('all');
+  const [filter, setFilter] = useState<FilterType>('regular');
   const [theme, setTheme] = useState<'dark' | 'light'>(() => {
     if (typeof window !== 'undefined') {
       return (localStorage.getItem('theme') as 'dark' | 'light') || 'dark';
@@ -48,8 +48,8 @@ function AppContent() {
       setColor('#022D55');
       setSecondaryColor('#1E85F8');
     } else {
-      setColor('#C4E0FF');
-      setSecondaryColor('#0078FF');
+      setColor('#ffffff');
+      setSecondaryColor('#C4E0FF');
     }
   }, [theme]);
 
@@ -205,10 +205,10 @@ function AppContent() {
             </div>
           </div>
 
-          {/* Color */}
-          <div className="space-y-2">
-            <label className="text-sm text-zinc-400">Stroke color</label>
-              <div className="flex items-center gap-2">
+              {/* Color */}
+              <div className="space-y-2">
+                <label className="text-sm text-zinc-400">Border color</label>
+                  <div className="flex items-center gap-2">
                 <input
                   type="color"
                   value={color}
