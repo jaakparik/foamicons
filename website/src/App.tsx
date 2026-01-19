@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { BrowserRouter, useNavigate, useLocation } from 'react-router-dom';
 import * as icons from 'foamicons';
-import { iconNames, type IconProps, Sun, Moon } from 'foamicons';
+import { iconNames, type IconProps, Sun, Moon, Copy } from 'foamicons';
 
 type IconComponent = React.ForwardRefExoticComponent<IconProps & React.RefAttributes<SVGSVGElement>>;
 
@@ -170,7 +170,14 @@ function AppContent() {
       {/* Sidebar */}
       <aside className={`w-64 border-r p-6 flex flex-col gap-6 overflow-y-auto shrink-0 ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}>
         <div className="flex items-center justify-between">
-          <h1 className="text-xl font-semibold">Foamicons</h1>
+          <h1 className="text-xl font-semibold">
+            <button 
+              onClick={() => navigate('/')}
+              className="hover:opacity-70 transition-opacity"
+            >
+              foamicons
+            </button>
+          </h1>
           <button
             onClick={toggleTheme}
             className={`p-2 rounded-lg transition-colors ${theme === 'dark' ? 'hover:bg-zinc-800' : 'hover:bg-zinc-100'}`}
@@ -288,13 +295,35 @@ function AppContent() {
         {/* Installation */}
         <div className="space-y-3">
           <h2 className="text-sm font-medium text-zinc-400">Installation</h2>
-          <div className={`rounded-lg p-3 text-xs font-mono ${theme === 'dark' ? 'bg-zinc-900 text-zinc-300' : 'bg-zinc-100 text-zinc-700'}`}>
-            npm install foamicons
+          <div className="relative group">
+            <div className={`rounded-lg p-3 text-xs font-mono ${theme === 'dark' ? 'bg-zinc-900 text-zinc-300' : 'bg-zinc-100 text-zinc-700'}`}>
+              npm install foamicons
+            </div>
+            <button
+              onClick={() => copyToClipboard('npm install foamicons')}
+              className={`absolute top-2 right-2 p-1.5 rounded opacity-0 group-hover:opacity-100 transition-opacity ${
+                theme === 'dark' ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'
+              }`}
+              title="Copy to clipboard"
+            >
+              <Copy size={14} />
+            </button>
           </div>
           <div className={`text-xs ${theme === 'dark' ? 'text-zinc-500' : 'text-zinc-600'}`}>
             <div className="mb-2">Import icons:</div>
-            <div className={`rounded-lg p-3 font-mono ${theme === 'dark' ? 'bg-zinc-900 text-zinc-400' : 'bg-zinc-100 text-zinc-600'}`}>
-              {`import { Bell } from 'foamicons';`}
+            <div className="relative group">
+              <div className={`rounded-lg p-3 font-mono ${theme === 'dark' ? 'bg-zinc-900 text-zinc-400' : 'bg-zinc-100 text-zinc-600'}`}>
+                {`import { Bell } from 'foamicons';`}
+              </div>
+              <button
+                onClick={() => copyToClipboard(`import { Bell } from 'foamicons';`)}
+                className={`absolute top-2 right-2 p-1.5 rounded opacity-0 group-hover:opacity-100 transition-opacity ${
+                  theme === 'dark' ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'
+                }`}
+                title="Copy to clipboard"
+              >
+                <Copy size={14} />
+              </button>
             </div>
           </div>
         </div>
@@ -454,8 +483,19 @@ function AppContent() {
               Download SVG
             </button>
 
-            <div className={`rounded-lg p-3 text-sm font-mono ${theme === 'dark' ? 'bg-zinc-900 text-zinc-400' : 'bg-zinc-100 text-zinc-600'}`}>
-              {getJSXCode(selectedIcon)}
+            <div className="relative group">
+              <div className={`rounded-lg p-3 text-xs font-mono ${theme === 'dark' ? 'bg-zinc-900 text-zinc-400' : 'bg-zinc-100 text-zinc-600'}`}>
+                {getJSXCode(selectedIcon)}
+              </div>
+              <button
+                onClick={() => copyToClipboard(getJSXCode(selectedIcon))}
+                className={`absolute top-2 right-2 p-1.5 rounded opacity-0 group-hover:opacity-100 transition-opacity ${
+                  theme === 'dark' ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-200 hover:bg-zinc-300'
+                }`}
+                title="Copy to clipboard"
+              >
+                <Copy size={14} />
+              </button>
             </div>
           </div>
         </aside>
