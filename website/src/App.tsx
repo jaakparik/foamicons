@@ -18,11 +18,19 @@ const iconMap = iconNames.reduce((acc, name) => {
   return acc;
 }, {} as Record<string, IconComponent>);
 
-// Separate stroke and duotone icons
-const strokeIcons = iconNames.filter(name => !name.endsWith('Duotone'));
+// Separate stroke, duotone, and fill icons
+const strokeIcons = iconNames.filter(name => !name.endsWith('Duotone') && !name.endsWith('Fill'));
 const duotoneIcons = iconNames.filter(name => name.endsWith('Duotone'));
+const fillIcons = iconNames.filter(name => name.endsWith('Fill'));
 
-type FilterType = 'all' | 'stroke' | 'duotone';
+type FilterType = 'stroke' | 'duotone' | 'fill';
+
+// Display labels for filter buttons
+const filterLabels: Record<FilterType, string> = {
+  stroke: 'Stroked',
+  duotone: 'Duotone',
+  fill: 'Filled',
+};
 
 function AppContent() {
   const navigate = useNavigate();
@@ -44,14 +52,26 @@ function AppContent() {
 
   useEffect(() => {
     localStorage.setItem('theme', theme);
-    if (theme === 'light') {
-      setColor('#022D55');
-      setSecondaryColor('#1E85F8');
+    if (filter === 'fill') {
+      // Fill icons: fill color is primary, stroke details are secondary
+      if (theme === 'light') {
+        setColor('#000000');
+        setSecondaryColor('#ffffff');
+      } else {
+        setColor('#ffffff');
+        setSecondaryColor('#000000');
+      }
     } else {
-      setColor('#ffffff');
-      setSecondaryColor('#C4E0FF');
+      // Stroke and Duotone icons
+      if (theme === 'light') {
+        setColor('#022D55');
+        setSecondaryColor('#1E85F8');
+      } else {
+        setColor('#ffffff');
+        setSecondaryColor('#C4E0FF');
+      }
     }
-  }, [theme]);
+  }, [theme, filter]);
 
   // Sync URL with selected icon
   useEffect(() => {
@@ -79,7 +99,7 @@ function AppContent() {
     } else if (filter === 'duotone') {
       icons = duotoneIcons;
     } else {
-      icons = iconNames;
+      icons = fillIcons;
     }
 
     if (!search) return icons;
@@ -156,7 +176,8 @@ function AppContent() {
 
   const getJSXCode = (name: string) => {
     const isDuotone = name.endsWith('Duotone');
-    if (isDuotone) {
+    const isFill = name.endsWith('Fill');
+    if (isDuotone || isFill) {
       return `<${name} size={${size}} />`;
     }
     return `<${name} size={${size}} strokeWidth={${strokeWidth}} />`;
@@ -164,6 +185,7 @@ function AppContent() {
 
   const SelectedIconComponent = selectedIcon ? iconMap[selectedIcon] : null;
   const isDuotoneIcon = selectedIcon?.endsWith('Duotone');
+  const isFillIcon = selectedIcon?.endsWith('Fill');
 
   return (
     <div className={`h-screen flex ${theme === 'dark' ? 'bg-zinc-950 text-zinc-100' : 'bg-white text-zinc-900'}`}>
@@ -194,7 +216,7 @@ function AppContent() {
           <div className="space-y-2">
             <label className="text-sm text-zinc-400">Type</label>
             <div className="flex gap-1">
-              {(['all', 'stroke', 'duotone'] as FilterType[]).map((f) => (
+              {(['stroke', 'duotone', 'fill'] as FilterType[]).map((f) => (
                 <button
                   key={f}
                   onClick={() => setFilter(f)}
@@ -206,56 +228,60 @@ function AppContent() {
                       : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200'
                   }`}
                 >
-                  {f.charAt(0).toUpperCase() + f.slice(1)}
+                  {filterLabels[f]}
                 </button>
               ))}
             </div>
           </div>
 
-              {/* Color */}
-              <div className="space-y-2">
-                <label className="text-sm text-zinc-400">Border color</label>
-                  <div className="flex items-center gap-2">
-                <input
-                  type="color"
-                  value={color}
-                  onChange={(e) => setColor(e.target.value)}
-                  className={`w-8 h-8 rounded border bg-transparent cursor-pointer ${theme === 'dark' ? 'border-zinc-700' : 'border-zinc-300'}`}
-                />
-                <span className="text-sm text-zinc-500">{color}</span>
-              </div>
-          </div>
-
-          {/* Secondary Color */}
-          <div className="space-y-2">
-            <label className="text-sm text-zinc-400">Fill color</label>
+          {/* Fill Color - for Fill and Duotone */}
+          {(filter === 'fill' || filter === 'duotone') && (
+            <div className="space-y-2">
+              <label className="text-sm text-zinc-400">Fill color</label>
               <div className="flex items-center gap-2">
                 <input
                   type="color"
-                  value={secondaryColor}
-                  onChange={(e) => setSecondaryColor(e.target.value)}
+                  value={filter === 'fill' ? color : secondaryColor}
+                  onChange={(e) => filter === 'fill' ? setColor(e.target.value) : setSecondaryColor(e.target.value)}
                   className={`w-8 h-8 rounded border bg-transparent cursor-pointer ${theme === 'dark' ? 'border-zinc-700' : 'border-zinc-300'}`}
                 />
-                <span className="text-sm text-zinc-500">{secondaryColor}</span>
+                <span className="text-sm text-zinc-500">{filter === 'fill' ? color : secondaryColor}</span>
               </div>
-          </div>
+            </div>
+          )}
 
-          {/* Stroke Width */}
+          {/* Stroke Color */}
           <div className="space-y-2">
-            <label className="text-sm text-zinc-400">Stroke width</label>
-            <div className="flex items-center gap-3">
+            <label className="text-sm text-zinc-400">Stroke color</label>
+            <div className="flex items-center gap-2">
               <input
-                type="range"
-                min="0.5"
-                max="3"
-                step="0.25"
-                value={strokeWidth}
-                onChange={(e) => setStrokeWidth(parseFloat(e.target.value))}
-                className="flex-1 accent-[#155FEF]"
+                type="color"
+                value={filter === 'fill' ? secondaryColor : color}
+                onChange={(e) => filter === 'fill' ? setSecondaryColor(e.target.value) : setColor(e.target.value)}
+                className={`w-8 h-8 rounded border bg-transparent cursor-pointer ${theme === 'dark' ? 'border-zinc-700' : 'border-zinc-300'}`}
               />
-              <span className="text-sm text-zinc-500 w-10">{strokeWidth}px</span>
+              <span className="text-sm text-zinc-500">{filter === 'fill' ? secondaryColor : color}</span>
             </div>
           </div>
+
+          {/* Stroke Width - not for Fill */}
+          {filter !== 'fill' && (
+            <div className="space-y-2">
+              <label className="text-sm text-zinc-400">Stroke width</label>
+              <div className="flex items-center gap-3">
+                <input
+                  type="range"
+                  min="0.5"
+                  max="3"
+                  step="0.25"
+                  value={strokeWidth}
+                  onChange={(e) => setStrokeWidth(parseFloat(e.target.value))}
+                  className="flex-1 accent-[#155FEF]"
+                />
+                <span className="text-sm text-zinc-500 w-10">{strokeWidth}px</span>
+              </div>
+            </div>
+          )}
 
           {/* Size */}
           <div className="space-y-2">
@@ -274,22 +300,24 @@ function AppContent() {
             </div>
           </div>
 
-          {/* Fill Opacity */}
-          <div className="space-y-2">
-            <label className="text-sm text-zinc-400">Fill opacity</label>
-            <div className="flex items-center gap-3">
-              <input
-                type="range"
-                min="0"
-                max="1"
-                step="0.05"
-                value={fillOpacity}
-                onChange={(e) => setFillOpacity(parseFloat(e.target.value))}
-                className="flex-1 accent-[#155FEF]"
-              />
-              <span className="text-sm text-zinc-500 w-10">{Math.round(fillOpacity * 100)}%</span>
+          {/* Fill Opacity - only for Duotone */}
+          {filter === 'duotone' && (
+            <div className="space-y-2">
+              <label className="text-sm text-zinc-400">Fill opacity</label>
+              <div className="flex items-center gap-3">
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.05"
+                  value={fillOpacity}
+                  onChange={(e) => setFillOpacity(parseFloat(e.target.value))}
+                  className="flex-1 accent-[#155FEF]"
+                />
+                <span className="text-sm text-zinc-500 w-10">{Math.round(fillOpacity * 100)}%</span>
+              </div>
             </div>
-          </div>
+          )}
         </div>
 
         {/* Installation */}
@@ -331,6 +359,7 @@ function AppContent() {
         <div className="mt-auto text-xs text-zinc-600">
           <div>{strokeIcons.length} stroke icons</div>
           <div>{duotoneIcons.length} duotone icons</div>
+          <div>{fillIcons.length} fill icons</div>
           <div className="font-medium text-zinc-500">{iconNames.length} total</div>
         </div>
       </aside>
@@ -369,6 +398,7 @@ function AppContent() {
               const Icon = iconMap[name];
               if (!Icon) return null;
               const isDuotone = name.endsWith('Duotone');
+              const isFill = name.endsWith('Fill');
               return (
                 <button
                   key={name}
@@ -381,7 +411,7 @@ function AppContent() {
                       ? theme === 'dark'
                         ? 'border-[#155FEF] bg-zinc-800'
                         : 'border-[#155FEF] bg-zinc-100'
-                      : isDuotone
+                      : isDuotone || isFill
                       ? theme === 'dark'
                         ? 'border-zinc-700 bg-zinc-800/50 hover:bg-zinc-800'
                         : 'border-zinc-200 bg-zinc-50 hover:bg-zinc-100'
@@ -443,6 +473,9 @@ function AppContent() {
                 <h3 className="text-lg font-medium">{toKebabCase(selectedIcon)}</h3>
                 {isDuotoneIcon && (
                   <span className="text-xs text-zinc-500">Duotone variant</span>
+                )}
+                {isFillIcon && (
+                  <span className="text-xs text-zinc-500">Fill variant</span>
                 )}
               </div>
               <button

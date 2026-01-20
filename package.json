@@ -1,6 +1,6 @@
 {
   "name": "foamicons",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Foam icon library for React",
   "type": "module",
   "main": "./dist/index.cjs",

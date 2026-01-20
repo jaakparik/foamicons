@@ -46,7 +46,7 @@ const SVG_ATTR_MAP: Record<string, string> = {
 };
 
 // Parse an SVG element string into tag and attributes
-function parseElement(elementStr: string): { tag: string; attrs: Record<string, string> } | null {
+function parseElement(elementStr: string, isFillIcon: boolean = false): { tag: string; attrs: Record<string, string> } | null {
   // Match self-closing tags like <path ... /> or <circle ... />
   const match = elementStr.match(/^<(\w+)\s+([^>]*?)\s*\/?>$/s);
   if (!match) return null;
@@ -68,23 +68,41 @@ function parseElement(elementStr: string): { tag: string; attrs: Record<string, 
       attrName = SVG_ATTR_MAP[attrName];
     }
 
-    // Replace hardcoded colors with currentColor
-    // Note: Keep fill="white" as-is because it's used in clipPath/mask definitions
+    // Replace hardcoded colors with currentColor or CSS variables
     if (attrName === 'fill') {
-      if (
-        attrValue.match(/^#[0-9A-Fa-f]{3,6}$/) ||
-        attrValue === 'black'
-      ) {
-        attrValue = 'currentColor';
+      if (isFillIcon) {
+        // Fill icons: black → currentColor (fill), white → secondary color (details)
+        if (attrValue === 'black' || attrValue === '#000000' || attrValue === '#000') {
+          attrValue = 'currentColor';
+        } else if (attrValue === 'white' || attrValue === '#FFFFFF' || attrValue === '#FFF' || attrValue === '#ffffff' || attrValue === '#fff') {
+          attrValue = 'var(--foamicon-secondary-color, currentColor)';
+        }
+      } else {
+        // Stroke/Duotone icons: convert black/hex to currentColor, keep white for clipPath masks
+        if (
+          attrValue.match(/^#[0-9A-Fa-f]{3,6}$/) ||
+          attrValue === 'black'
+        ) {
+          attrValue = 'currentColor';
+        }
       }
-      // Keep fill="white" unchanged for clipPath masks
     } else if (attrName === 'stroke') {
-      if (
-        attrValue.match(/^#[0-9A-Fa-f]{3,6}$/) ||
-        attrValue === 'black' ||
-        attrValue === 'white'
-      ) {
-        attrValue = 'currentColor';
+      if (isFillIcon) {
+        // Fill icons: black → currentColor (fill), white → secondary color (details)
+        if (attrValue === 'black' || attrValue === '#000000' || attrValue === '#000') {
+          attrValue = 'currentColor';
+        } else if (attrValue === 'white' || attrValue === '#FFFFFF' || attrValue === '#FFF' || attrValue === '#ffffff' || attrValue === '#fff') {
+          attrValue = 'var(--foamicon-secondary-color, currentColor)';
+        }
+      } else {
+        // Stroke/Duotone icons: convert all colors to currentColor
+        if (
+          attrValue.match(/^#[0-9A-Fa-f]{3,6}$/) ||
+          attrValue === 'black' ||
+          attrValue === 'white'
+        ) {
+          attrValue = 'currentColor';
+        }
       }
     }
 
@@ -112,7 +130,8 @@ function parseElement(elementStr: string): { tag: string; attrs: Record<string, 
 
 // Extract SVG elements and convert to IconNode format
 function parseSvgToIconNode(
-  svgContent: string
+  svgContent: string,
+  isFillIcon: boolean = false
 ): { viewBox: string; iconNode: Array<[string, Record<string, string>]> } {
   // Extract viewBox
   const viewBoxMatch = svgContent.match(/viewBox="([^"]+)"/);
@@ -130,7 +149,7 @@ function parseSvgToIconNode(
   let index = 0;
   while ((elementMatch = elementRegex.exec(innerContent)) !== null) {
     const elementStr = elementMatch[0];
-    const parsed = parseElement(elementStr);
+    const parsed = parseElement(elementStr, isFillIcon);
 
     if (parsed) {
       // Add unique key for React
@@ -254,8 +273,9 @@ async function main() {
     const filePath = join(ICONS_SOURCE, file);
     const svgContent = await readFile(filePath, 'utf-8');
     const name = toPascalCase(file);
+    const isFillIcon = file.includes('-fill.svg');
 
-    const { iconNode } = parseSvgToIconNode(svgContent);
+    const { iconNode } = parseSvgToIconNode(svgContent, isFillIcon);
     const jsDoc = generateJsDoc(name, svgContent);
     const componentCode = generateComponent(name, iconNode, jsDoc);
 

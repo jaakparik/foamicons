@@ -1,6 +1,6 @@
 # Foamicons
 
-A React icon library with 240 icons, optimized for shadcn/ui and Tailwind CSS. Uses Lucide-style naming conventions.
+A React icon library with 360 icons in three styles, optimized for shadcn/ui and Tailwind CSS.
 
 ## Installation
 
@@ -8,34 +8,101 @@ A React icon library with 240 icons, optimized for shadcn/ui and Tailwind CSS. U
 npm install foamicons
 ```
 
+## Icon Styles
+
+Foamicons includes **120 base icons**, each available in three styles:
+
+| Style | Suffix | Example | Description |
+|-------|--------|---------|-------------|
+| **Stroked** | (none) | `Bell` | Outline icons with customizable stroke width |
+| **Duotone** | `Duotone` | `BellDuotone` | Two-color icons with stroke and semi-transparent fill |
+| **Filled** | `Fill` | `BellFill` | Solid filled icons with optional detail strokes |
+
 ## Usage
 
 ```tsx
-import { Bell, ChevronRight, Search, Mail } from 'foamicons';
+import { Bell, BellDuotone, BellFill } from 'foamicons';
 
-// Basic usage
-<Bell />
+// Stroked icon
+<Bell size={24} strokeWidth={1.5} />
+
+// Duotone icon
+<BellDuotone size={24} />
+
+// Filled icon
+<BellFill size={24} />
 
 // With Tailwind classes (shadcn pattern)
 <Bell className="h-4 w-4 text-muted-foreground" />
+```
 
-// Custom size
-<Bell size={24} />
+### Stroked Icons
 
-// Custom stroke width
-<Bell strokeWidth={1.5} />
+Basic outline icons with customizable stroke width:
 
-// With color prop
-<Bell color="blue" />
+```tsx
+import { Bell } from 'foamicons';
 
-// With Tailwind color classes
+<Bell />
+<Bell size={24} strokeWidth={1.5} />
 <Bell className="text-blue-500" />
+```
 
-// Constant stroke width at any size (useful for larger icons)
-<Bell size={48} strokeWidth={1} absoluteStrokeWidth />
+### Duotone Icons
 
-// All SVG props are supported
-<Bell onClick={handleClick} aria-label="Notifications" />
+Two-color icons with a stroke color and a semi-transparent fill:
+
+```tsx
+import { BellDuotone } from 'foamicons';
+
+// Basic usage - uses currentColor for both
+<BellDuotone />
+
+// Custom colors via CSS variables
+<div style={{
+  color: '#000000',
+  '--foamicon-secondary-color': '#3b82f6',
+  '--foamicon-secondary-opacity': 0.2
+}}>
+  <BellDuotone size={24} />
+</div>
+```
+
+### Filled Icons
+
+Solid filled icons with two colors - a fill color for the main shape and a stroke color for internal details:
+
+```tsx
+import { BellFill } from 'foamicons';
+
+// Basic usage
+<BellFill />
+
+// Custom colors via CSS variables
+<div style={{
+  color: '#000000',                              // Fill color (main shape)
+  '--foamicon-secondary-color': '#ffffff'        // Stroke color (details)
+}}>
+  <BellFill size={24} />
+</div>
+```
+
+**How Filled icons work:**
+- The `color` prop (or `currentColor`) controls the **fill color** of the main solid shape
+- The `--foamicon-secondary-color` CSS variable controls the **stroke/detail color** for internal elements (like the clapper inside a bell)
+- Default colors: In dark mode, fill is white and details are black. In light mode, fill is black and details are white.
+
+Example with explicit colors:
+```tsx
+// Dark background: white icon with black details
+<div style={{ color: '#ffffff', '--foamicon-secondary-color': '#000000' }}>
+  <AlertFill size={32} />
+</div>
+
+// Light background: black icon with white details
+<div style={{ color: '#000000', '--foamicon-secondary-color': '#ffffff' }}>
+  <AlertFill size={32} />
+</div>
 ```
 
 ### Tree-Shakeable Per-Icon Imports
@@ -44,7 +111,8 @@ For optimal bundle size, import icons individually:
 
 ```tsx
 import { Alert } from 'foamicons/icons/Alert';
-import { Bell } from 'foamicons/icons/Bell';
+import { AlertDuotone } from 'foamicons/icons/AlertDuotone';
+import { AlertFill } from 'foamicons/icons/AlertFill';
 ```
 
 ### Export Aliases
@@ -61,11 +129,18 @@ import { Alert, AlertIcon, FoamAlert } from 'foamicons';
 | Prop                  | Type             | Default          | Description                                        |
 | --------------------- | ---------------- | ---------------- | -------------------------------------------------- |
 | `size`                | `number\|string` | `16`             | Width and height of the icon                       |
-| `strokeWidth`         | `number\|string` | `1`              | Stroke width of the icon                           |
+| `strokeWidth`         | `number\|string` | `1`              | Stroke width (stroked icons only)                  |
 | `absoluteStrokeWidth` | `boolean`        | `false`          | Keep stroke width constant regardless of icon size |
-| `color`               | `string`         | `'currentColor'` | Icon stroke color                                  |
+| `color`               | `string`         | `'currentColor'` | Icon color                                         |
 | `className`           | `string`         | -                | CSS classes (Tailwind-friendly)                    |
 | `...props`            | `SVGProps`       | -                | Any valid SVG attribute                            |
+
+### CSS Variables
+
+| Variable | Used by | Description |
+|----------|---------|-------------|
+| `--foamicon-secondary-color` | Duotone, Filled | Secondary color for fills/details |
+| `--foamicon-secondary-opacity` | Duotone | Opacity of the secondary fill (0-1) |
 
 ### About `absoluteStrokeWidth`
 
@@ -79,29 +154,24 @@ By default, when you scale an icon up, the stroke width scales proportionally. W
 <Bell size={48} strokeWidth={1} absoluteStrokeWidth />
 ```
 
-The formula used: `adjustedStrokeWidth = strokeWidth * (16 / size)`
-
-## Available Icons
-
-240 icons included. All icons use `currentColor` for easy styling with Tailwind CSS.
-
 ## Naming Convention
 
 **Source files use kebab-case, React components use PascalCase:**
 
-- SVG source files: `arrow-down.svg`, `bell-color.svg`, `chevron-right.svg`
-- React imports: `import { ArrowDown, BellColor, ChevronRight } from 'foamicons'`
-- Downloaded files: `arrow-down.svg`, `bell-color.svg` (kebab-case)
-- URLs: `/arrow-down`, `/bell-color` (kebab-case)
+| Style | SVG File | React Import |
+|-------|----------|--------------|
+| Stroked | `bell.svg` | `import { Bell } from 'foamicons'` |
+| Duotone | `bell-duotone.svg` | `import { BellDuotone } from 'foamicons'` |
+| Filled | `bell-fill.svg` | `import { BellFill } from 'foamicons'` |
 
-**Examples:**
-- `arrow-down.svg` → `import { ArrowDown } from 'foamicons'` → downloads as `arrow-down.svg`
-- `chevron-right.svg` → `import { ChevronRight } from 'foamicons'` → downloads as `chevron-right.svg`
-- `mail-plus.svg` → `import { MailPlus } from 'foamicons'` → downloads as `mail-plus.svg`
+## Available Icons (120 base icons × 3 styles = 360 total)
 
-## Icon List
+alert, archive, archive-arrow-up, arrow-down, arrow-down-narrow-wide, arrow-down-up, arrow-down-wide-narrow, arrow-left, arrow-right, arrow-right-to-line, arrow-up, arrow-up-a-z, arrow-up-narrow-wide, arrow-up-wide-narrow, arrow-up-z-a, ban, bell, bold, bookmark, calendar, chart-column-square, checkbox, checkmark, chevron-down, chevron-left, chevron-right, chevron-up, circle-alert, circle-dollar-sign, circle-question-mark, circle-x, clock, cog, columns-3, command, content-plus, copy, download, eclipse, external-link, eye, eye-off, flame, frown, fullscreen, globe, grid-1x2, grid-2x2, history, hotspot, house, image, images, inbox, info, italic, link, list, list-filter, list-indent-decrease, list-indent-increase, list-ordered, loader-circle, lock, log-out, mail, mail-move, mail-plus, map-pin, maximize, media-kits, megaphone, megaphone-active, menu, message-square, messages-square, minus, moon, mouse-pointer-click, move, panel-left, panel-right, pencil, pin, play, plus, reach, reel, refresh-cw, remove-formatting, reply, rotate-cw, rows-2, save, search, search-user, share, sliders-horizontal, sparkles, square, square-pen, star, sun, text-align-center, text-align-end, text-align-justify, text-align-start, thumbs-down, thumbs-up, trash, trending-down, trending-up, triangle-down-up, unlink, unlock, upload, user, users, volume-2, volume-off
 
-alert, alert-color, archive, archive-arrow-up, archive-arrow-up-color, archive-color, arrow-down, arrow-down-color, arrow-down-narrow-wide, arrow-down-narrow-wide-color, arrow-down-up, arrow-down-up-color, arrow-down-wide-narrow, arrow-down-wide-narrow-color, arrow-left, arrow-left-color, arrow-right, arrow-right-color, arrow-right-to-line, arrow-right-to-line-color, arrow-up, arrow-up-a-z, arrow-up-a-z-color, arrow-up-color, arrow-up-narrow-wide, arrow-up-narrow-wide-color, arrow-up-wide-narrow, arrow-up-wide-narrow-color, arrow-up-z-a, arrow-up-z-a-color, ban, ban-color, bell, bell-color, bold, bold-color, bookmark, bookmark-color, calendar, calendar-color, chart-column-square, chart-column-square-color, checkbox, checkbox-color, checkmark, checkmark-color, chevron-down, chevron-down-color, chevron-left, chevron-left-color, chevron-right, chevron-right-color, chevron-up, chevron-up-color, circle-alert, circle-alert-color, circle-dollar-sign, circle-dollar-sign-color, circle-question-mark, circle-question-mark-color, circle-x, circle-x-color, clock, clock-color, cog, cog-color, columns-3, columns-3-color, command, command-color, content-plus, content-plus-color, copy, copy-color, download, download-color, eclipse, eclipse-color, external-link, external-link-color, eye, eye-color, eye-off, eye-off-color, flame, flame-color, frown, frown-color, fullscreen, fullscreen-color, globe, globe-color, grid-1x2, grid-1x2-color, grid-2x2, grid-2x2-color, history, history-color, hotspot, hotspot-color, house, house-color, image, image-color, images, images-color, inbox, inbox-color, info, info-color, italic, italic-color, link, link-color, list, list-color, list-filter, list-filter-color, list-indent-decrease, list-indent-decrease-color, list-indent-increase, list-indent-increase-color, list-ordered, list-ordered-color, loader-circle, loader-circle-color, lock, lock-color, log-out, log-out-color, mail, mail-color, mail-move, mail-move-color, mail-plus, mail-plus-color, map-pin, map-pin-color, maximize, maximize-color, media-kits, media-kits-color, megaphone, megaphone-active, megaphone-active-color, megaphone-color, menu, menu-color, message-square, message-square-color, messages-square, messages-square-color, minus, minus-color, moon, moon-color, mouse-pointer-click, mouse-pointer-click-color, move, move-color, panel-left, panel-left-color, panel-right, panel-right-color, pencil, pencil-color, pin, pin-color, play, play-color, plus, plus-color, reach, reach-color, reel, reel-color, refresh-cw, refresh-cw-color, remove-formatting, remove-formatting-color, reply, reply-color, rotate-cw, rotate-cw-color, rows-2, rows-2-color, save, save-color, search, search-color, search-user, search-user-color, share, share-color, sliders-horizontal, sliders-horizontal-color, sparkles, sparkles-color, square, square-color, square-pen, square-pen-color, star, star-color, sun, sun-color, text-align-center, text-align-center-color, text-align-end, text-align-end-color, text-align-justify, text-align-justify-color, text-align-start, text-align-start-color, thumbs-down, thumbs-down-color, thumbs-up, thumbs-up-color, trash, trash-color, trending-down, trending-down-color, trending-up, trending-up-color, triangle-down-up, triangle-down-up-color, unlink, unlink-color, unlock, unlock-color, upload, upload-color, user, user-color, users, users-color, volume-2, volume-2-color, volume-off, volume-off-color
+Each icon is available in three variants by adding the suffix:
+- `{icon}` - Stroked (e.g., `Bell`)
+- `{icon}Duotone` - Duotone (e.g., `BellDuotone`)
+- `{icon}Fill` - Filled (e.g., `BellFill`)
 
 ## Development
 
@@ -111,6 +181,9 @@ npm run generate
 
 # Build the package
 npm run build
+
+# Run tests
+npm test
 ```
 
 ## License
