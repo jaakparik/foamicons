@@ -6,12 +6,24 @@ import { iconNames, type IconProps, Sun, Moon, Copy } from 'foamicons';
 type IconComponent = React.ForwardRefExoticComponent<IconProps & React.RefAttributes<SVGSVGElement>>;
 
 // Convert PascalCase to kebab-case for display
-const toKebabCase = (str: string) =>
-  str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+const toKebabCase = (str: string) => {
+  let result = '';
+  for (let i = 0; i < str.length; i++) {
+    const char = str[i];
+    const prev = str[i - 1];
+
+    // Insert dash before uppercase if preceded by lowercase/digit OR another uppercase
+    if (i > 0 && /[A-Z]/.test(char) && /[a-zA-Z\d]/.test(prev)) {
+      result += '-';
+    }
+    result += char;
+  }
+  return result.toLowerCase();
+};
 
 // Convert kebab-case to PascalCase for component names
 const toPascalCase = (str: string) =>
-  str.replace(/(^|-)([a-z])/g, (_, __, c) => c.toUpperCase());
+  str.replace(/(^|-)([a-z\d])/gi, (_, __, c) => c.toUpperCase());
 
 const iconMap = iconNames.reduce((acc, name) => {
   acc[name] = icons[name as keyof typeof icons] as IconComponent;
@@ -264,24 +276,22 @@ function AppContent() {
             </div>
           </div>
 
-          {/* Stroke Width - not for Fill */}
-          {filter !== 'fill' && (
-            <div className="space-y-2">
-              <label className="text-sm text-zinc-400">Stroke width</label>
-              <div className="flex items-center gap-3">
-                <input
-                  type="range"
-                  min="0.5"
-                  max="3"
-                  step="0.25"
-                  value={strokeWidth}
-                  onChange={(e) => setStrokeWidth(parseFloat(e.target.value))}
-                  className="flex-1 accent-[#155FEF]"
-                />
-                <span className="text-sm text-zinc-500 w-10">{strokeWidth}px</span>
-              </div>
+          {/* Stroke Width */}
+          <div className="space-y-2">
+            <label className="text-sm text-zinc-400">Stroke width</label>
+            <div className="flex items-center gap-3">
+              <input
+                type="range"
+                min="0.5"
+                max="3"
+                step="0.25"
+                value={strokeWidth}
+                onChange={(e) => setStrokeWidth(parseFloat(e.target.value))}
+                className="flex-1 accent-[#155FEF]"
+              />
+              <span className="text-sm text-zinc-500 w-10">{strokeWidth}px</span>
             </div>
-          )}
+          </div>
 
           {/* Size */}
           <div className="space-y-2">

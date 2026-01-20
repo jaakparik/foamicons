@@ -1,6 +1,30 @@
+# Dependencies
 node_modules/
+
+# Build outputs
 dist/
-src/icons/
-src/index.ts
+
+# Generated files (foamicons package)
+packages/foamicons/src/icons/
+packages/foamicons/src/index.ts
+
+# Turborepo
+.turbo/
+
+# Logs
 *.log
+
+# OS
 .DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# pnpm
+pnpm-lock.yaml
+
+# Environment files
+.env
+.env.local
+.env*.local

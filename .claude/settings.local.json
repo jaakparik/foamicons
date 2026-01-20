@@ -12,7 +12,18 @@
       "Bash(npm install)",
       "Bash(grep:*)",
       "Bash(npm ls:*)",
-      "Bash(xargs:*)"
+      "Bash(xargs:*)",
+      "Bash(lsof:*)",
+      "Bash(npm test:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(git push:*)",
+      "Bash(pnpm run build:foamicons:*)",
+      "Bash(pnpm run build:website:*)",
+      "Bash(pnpm run build:figma:*)",
+      "Bash(pnpm run dev:website:*)",
+      "Bash(node test-icons.cjs:*)"
     ]
   }
 }

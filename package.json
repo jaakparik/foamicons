@@ -1,78 +1,21 @@
 {
-  "name": "foamicons",
-  "version": "0.6.0",
-  "description": "Foam icon library for React",
-  "type": "module",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      },
-      "require": {
-        "types": "./dist/index.d.cts",
-        "default": "./dist/index.cjs"
-      }
-    },
-    "./icons": {
-      "import": {
-        "types": "./dist/icons/index.d.ts",
-        "default": "./dist/icons/index.js"
-      },
-      "require": {
-        "types": "./dist/icons/index.d.cts",
-        "default": "./dist/icons/index.cjs"
-      }
-    },
-    "./icons/*": {
-      "import": {
-        "types": "./dist/icons/*.d.ts",
-        "default": "./dist/icons/*.js"
-      },
-      "require": {
-        "types": "./dist/icons/*.d.cts",
-        "default": "./dist/icons/*.cjs"
-      }
-    }
-  },
-  "files": [
-    "dist"
-  ],
-  "sideEffects": false,
+  "name": "foamicons-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Foamicons monorepo - React library, Figma plugin, and website",
   "scripts": {
-    "generate": "tsx scripts/build-icons.ts",
-    "build": "npm run generate && tsup",
-    "build:website": "npm run build && cd website && npm install && npm run build",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "prepublishOnly": "npm run build"
-  },
-  "keywords": [
-    "icons",
-    "react",
-    "svg",
-    "foam",
-    "foamicons",
-    "tailwind",
-    "shadcn"
-  ],
-  "license": "MIT",
-  "peerDependencies": {
-    "react": ">=16.8.0"
+    "build": "turbo run build",
+    "build:core": "turbo run build --filter=@foamicons/core",
+    "build:foamicons": "turbo run build --filter=foamicons",
+    "build:website": "turbo run build --filter=@foamicons/website",
+    "build:figma": "turbo run build --filter=@foamicons/figma-plugin",
+    "dev": "turbo run dev",
+    "dev:website": "turbo run dev --filter=@foamicons/website",
+    "test": "turbo run test",
+    "clean": "turbo run clean && rm -rf node_modules"
   },
   "devDependencies": {
-    "@testing-library/react": "^14.0.0",
-    "@types/react": "^18.2.0",
-    "@vitejs/plugin-react": "^4.0.0",
-    "jsdom": "^24.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tsup": "^8.0.0",
-    "tsx": "^4.7.0",
-    "typescript": "^5.3.0",
-    "vitest": "^2.0.0"
-  }
+    "turbo": "^2.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
 }

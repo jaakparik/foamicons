@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "@foamicons/website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
-    "foamicons": "file:..",
+    "foamicons": "workspace:*",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.12.0"
