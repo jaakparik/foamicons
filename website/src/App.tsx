@@ -18,11 +18,11 @@ const iconMap = iconNames.reduce((acc, name) => {
   return acc;
 }, {} as Record<string, IconComponent>);
 
-// Separate regular and color icons
-const regularIcons = iconNames.filter(name => !name.endsWith('Color'));
-const colorIcons = iconNames.filter(name => name.endsWith('Color'));
+// Separate stroke and duotone icons
+const strokeIcons = iconNames.filter(name => !name.endsWith('Duotone'));
+const duotoneIcons = iconNames.filter(name => name.endsWith('Duotone'));
 
-type FilterType = 'all' | 'regular' | 'color';
+type FilterType = 'all' | 'stroke' | 'duotone';
 
 function AppContent() {
   const navigate = useNavigate();
@@ -34,7 +34,7 @@ function AppContent() {
   const [color, setColor] = useState('#ffffff');
   const [secondaryColor, setSecondaryColor] = useState('#0084ff');
   const [fillOpacity, setFillOpacity] = useState(0.2);
-  const [filter, setFilter] = useState<FilterType>('regular');
+  const [filter, setFilter] = useState<FilterType>('stroke');
   const [theme, setTheme] = useState<'dark' | 'light'>(() => {
     if (typeof window !== 'undefined') {
       return (localStorage.getItem('theme') as 'dark' | 'light') || 'dark';
@@ -74,10 +74,10 @@ function AppContent() {
   const filteredIcons = useMemo(() => {
     let icons: readonly string[];
 
-    if (filter === 'regular') {
-      icons = regularIcons;
-    } else if (filter === 'color') {
-      icons = colorIcons;
+    if (filter === 'stroke') {
+      icons = strokeIcons;
+    } else if (filter === 'duotone') {
+      icons = duotoneIcons;
     } else {
       icons = iconNames;
     }
@@ -155,15 +155,15 @@ function AppContent() {
   };
 
   const getJSXCode = (name: string) => {
-    const isColor = name.endsWith('Color');
-    if (isColor) {
+    const isDuotone = name.endsWith('Duotone');
+    if (isDuotone) {
       return `<${name} size={${size}} />`;
     }
     return `<${name} size={${size}} strokeWidth={${strokeWidth}} />`;
   };
 
   const SelectedIconComponent = selectedIcon ? iconMap[selectedIcon] : null;
-  const isColorIcon = selectedIcon?.endsWith('Color');
+  const isDuotoneIcon = selectedIcon?.endsWith('Duotone');
 
   return (
     <div className={`h-screen flex ${theme === 'dark' ? 'bg-zinc-950 text-zinc-100' : 'bg-white text-zinc-900'}`}>
@@ -194,7 +194,7 @@ function AppContent() {
           <div className="space-y-2">
             <label className="text-sm text-zinc-400">Type</label>
             <div className="flex gap-1">
-              {(['all', 'regular', 'color'] as FilterType[]).map((f) => (
+              {(['all', 'stroke', 'duotone'] as FilterType[]).map((f) => (
                 <button
                   key={f}
                   onClick={() => setFilter(f)}
@@ -329,8 +329,8 @@ function AppContent() {
         </div>
 
         <div className="mt-auto text-xs text-zinc-600">
-          <div>{regularIcons.length} regular icons</div>
-          <div>{colorIcons.length} color icons</div>
+          <div>{strokeIcons.length} stroke icons</div>
+          <div>{duotoneIcons.length} duotone icons</div>
           <div className="font-medium text-zinc-500">{iconNames.length} total</div>
         </div>
       </aside>
@@ -368,7 +368,7 @@ function AppContent() {
             {filteredIcons.map((name) => {
               const Icon = iconMap[name];
               if (!Icon) return null;
-              const isColor = name.endsWith('Color');
+              const isDuotone = name.endsWith('Duotone');
               return (
                 <button
                   key={name}
@@ -381,7 +381,7 @@ function AppContent() {
                       ? theme === 'dark'
                         ? 'border-[#155FEF] bg-zinc-800'
                         : 'border-[#155FEF] bg-zinc-100'
-                      : isColor
+                      : isDuotone
                       ? theme === 'dark'
                         ? 'border-zinc-700 bg-zinc-800/50 hover:bg-zinc-800'
                         : 'border-zinc-200 bg-zinc-50 hover:bg-zinc-100'
@@ -441,8 +441,8 @@ function AppContent() {
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="text-lg font-medium">{toKebabCase(selectedIcon)}</h3>
-                {isColorIcon && (
-                  <span className="text-xs text-zinc-500">Color variant</span>
+                {isDuotoneIcon && (
+                  <span className="text-xs text-zinc-500">Duotone variant</span>
                 )}
               </div>
               <button
