@@ -4,7 +4,7 @@ import type { SVGProps, ForwardRefExoticComponent, RefAttributes } from 'react';
  * Represents the structure of an SVG icon's child elements.
  * Each tuple contains the element tag name and its attributes.
  */
-export type IconNode = [elementName: string, attrs: Record<string, string>][];
+export type IconNode = [elementName: string, attrs: Record<string, string | Record<string, string>>][];
 
 export interface IconProps extends SVGProps<SVGSVGElement> {
   /**

@@ -91,6 +91,22 @@ function parseElement(elementStr: string): { tag: string; attrs: Record<string, 
     attrs[attrName] = attrValue;
   }
 
+  // Handle secondary color for elements with opacity
+  // Convert fill/stroke with opacity to use CSS custom properties
+  if (attrs.fillOpacity && attrs.fill === 'currentColor') {
+    attrs.fill = 'var(--foamicon-secondary-color, currentColor)';
+    attrs.style = { fillOpacity: `var(--foamicon-secondary-opacity, ${attrs.fillOpacity})` };
+    delete attrs.fillOpacity;
+  }
+  if (attrs.strokeOpacity && attrs.stroke === 'currentColor') {
+    attrs.stroke = 'var(--foamicon-secondary-color, currentColor)';
+    attrs.style = {
+      ...attrs.style,
+      strokeOpacity: `var(--foamicon-secondary-opacity, ${attrs.strokeOpacity})`
+    };
+    delete attrs.strokeOpacity;
+  }
+
   return { tag, attrs };
 }
 
