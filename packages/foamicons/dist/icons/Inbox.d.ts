@@ -1,0 +1,19 @@
+import { F as FoamIcon } from '../types-Dox7zwnl.js';
+import 'react';
+
+/**
+ * @component @name Inbox
+ * @description Foamicon SVG icon component, renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMuODMzNTIgMy4xNjU5NkMzLjkzOTg0IDIuNzY5NyA0LjIwODU5IDIuNDQwNjUgNC42MDU1NyAyLjMzNzAzQzUuMTk1NTUgMi4xODMwMiA2LjI2MjI0IDIgOCAyQzkuNzM3NzYgMiAxMC44MDQ0IDIuMTgzMDIgMTEuMzk0NCAyLjMzNzAzQzExLjc5MTQgMi40NDA2NSAxMi4wNjAyIDIuNzY5NyAxMi4xNjY1IDMuMTY1OTZMMTMuOTQ4OCA5LjgwOTAzQzEzLjk4MjggOS45MzU4IDE0IDEwLjA2NjUgMTQgMTAuMTk3N1YxMi4yMDI3QzE0IDEyLjkyNzYgMTMuNDgyMSAxMy41NDY4IDEyLjc2MzggMTMuNjQ0OUMxMS42MTIzIDEzLjgwMjMgOS44MDYxNyAxNCA4IDE0QzYuMTkzODMgMTQgNC4zODc2NiAxMy44MDIzIDMuMjM2MTggMTMuNjQ0OUMyLjUxNzkyIDEzLjU0NjggMiAxMi45Mjc2IDIgMTIuMjAyN1YxMC4xOTc3QzIgMTAuMDY2NSAyLjAxNzIzIDkuOTM1OCAyLjA1MTI0IDkuODA5MDNMMy44MzM1MiAzLjE2NTk2WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMi4xMzU3NCAxMEg1LjE1ODc5QzUuNzQ3NiAxMCA2LjI5NzEyIDEwLjI5NTUgNi42MjE4MSAxMC43ODY3QzcuMzE1MTYgMTEuODM1NiA4Ljg1NDUyIDExLjgzNTYgOS41NDc4NiAxMC43ODY3QzkuODcyNTUgMTAuMjk1NSAxMC40MjIxIDEwIDExLjAxMDkgMTBIMTQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTQuNSA4SDExLjUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTUgNkgxMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNS41IDRIMTAuNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K)
+ * @see https://foamicons.com/icons/inbox
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */
+declare const Inbox: FoamIcon;
+
+export { Inbox };

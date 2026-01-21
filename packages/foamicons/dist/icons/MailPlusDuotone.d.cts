@@ -1,0 +1,19 @@
+import { F as FoamIcon } from '../types-Dox7zwnl.cjs';
+import 'react';
+
+/**
+ * @component @name MailPlusDuotone
+ * @description Foamicon SVG icon component, renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjQwNjggMy4zNzVDMTEuODU0NSAzLjE4ODQzIDkuMTg4MDggMyA3LjM1OTk2IDNDNS42NjE3MyAzIDMuNzc0MjMgMy4xNjM2NSAyLjYwOTMgMy4yOTQ1N0MyLjQ0MDY3IDMuMzEzNTIgMi4yNzY2NyAzLjM2MTE2IDIuMTMzNzMgMy40NTI2M0MyLjAxMzA0IDMuNTI5ODYgMS44Njc2NyAzLjYzMzUgMS43NDY2MSAzLjc0Nzg1QzEuNDkyMjcgMy45ODgxIDEuNjUyNyA0LjMzMDA5IDEuOTIzNDkgNC41NTE2Nkw2LjA5Mzg0IDcuOTY0MDFDNi44MzA0IDguNTY2NyA3Ljg4OTY1IDguNTY2ODcgOC42MjY0IDcuOTY0NDJMMTIuODA5NSA0LjU0Mzg4QzEzLjE1NzkgNC4yNTg5OSAxMy4yMTgxIDMuODcwODIgMTIuODQyIDMuNjIzNjFDMTIuNjUyNyAzLjQ5OTE1IDEyLjQ2OTQgMy4zOTYxMyAxMi40MDY4IDMuMzc1WiIgZmlsbD0iY3VycmVudENvbG9yIiBmaWxsLW9wYWNpdHk9IjAuMjUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEzLjUgOFY0Ljc0NDM5QzEzLjUgNC4wMDI3NCAxMi45NTc3IDMuMzc0MjggMTIuMjIwOCAzLjI5MTAxQzExLjA2NzYgMy4xNjA3MSA5LjI4MzgxIDMgNy41IDNDNS43MTYxOSAzIDMuOTMyMzggMy4xNjA3MSAyLjc3OTI0IDMuMjkxMDFDMi4wNDIyOCAzLjM3NDI4IDEuNSA0LjAwMjc0IDEuNSA0Ljc0NDM5VjExLjI1NTZDMS41IDExLjk5NzMgMi4wNDIyOCAxMi42MjU3IDIuNzc5MjQgMTIuNzA5QzMuOTMyMzggMTIuODM5MyA1LjcxNjE5IDEzIDcuNSAxM0M3Ljk3NDUgMTMgOC40NDg5OSAxMi45ODg2IDguOTExNjIgMTIuOTY5NSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTMuNDExNiAxMVYxNC41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xNS4xNjE2IDEyLjc1TDExLjY2MTYgMTIuNzUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==)
+ * @see https://foamicons.com/icons/mail-plus-duotone
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */
+declare const MailPlusDuotone: FoamIcon;
+
+export { MailPlusDuotone };

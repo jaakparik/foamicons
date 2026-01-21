@@ -1,12 +1,8 @@
 # Dependencies
 node_modules/
 
-# Build outputs
-dist/
-
-# Generated files (foamicons package)
-packages/foamicons/src/icons/
-packages/foamicons/src/index.ts
+# Source maps (not needed in repo)
+*.map
 
 # Turborepo
 .turbo/

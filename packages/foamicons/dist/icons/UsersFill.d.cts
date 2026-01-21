@@ -1,0 +1,19 @@
+import { F as FoamIcon } from '../types-Dox7zwnl.cjs';
+import 'react';
+
+/**
+ * @component @name UsersFill
+ * @description Foamicon SVG icon component, renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNS42NzY3NiIgY3k9IjQuNTIzNDQiIHI9IjEuNzI2NTYiIGZpbGw9ImN1cnJlbnRDb2xvciIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8Y2lyY2xlIGN4PSIxMS4yMzQ0IiBjeT0iNC45MjcyNSIgcj0iMS4zMjI3NSIgZmlsbD0iY3VycmVudENvbG9yIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMy45MTQxIDExLjcxNjZWMTEuMTAyOEMxMy45MTQxIDkuNTY4MTYgMTIuNzY5IDguMjQ5MDIgMTEuMjM0NCA4LjI0OTAyQzEwLjk4NCA4LjI0OTAyIDEwLjc1OTMgOC4yNjIxNSAxMC41NTkzIDguMjgzNTFDOS42OTI4OSA4LjM3NjA0IDkuMDQ1NzMgOS4wMDcwOSA4LjU3ODU0IDkuNzQyNTlDOC41NjM1NiA5Ljc2NjE2IDguNTYwODQgOS43OTU1IDguNTcxMjIgOS44MjE0M0w5LjAzODU3IDEwLjk4OUM5LjI0OTU5IDExLjUxNjIgOS43NDAwMiAxMS44ODMyIDEwLjMwNzIgMTEuOTEwMkMxMC42MDQ3IDExLjkyNDMgMTAuOTE5NSAxMS45MzM2IDExLjIzNDQgMTEuOTMzNkMxMi40MjQ1IDExLjkzMzYgMTMuNjE0NyAxMS44MDE0IDEzLjg2NTggMTEuNzcxOUMxMy44OTM5IDExLjc2ODYgMTMuOTE0MSAxMS43NDQ5IDEzLjkxNDEgMTEuNzE2NloiIGZpbGw9ImN1cnJlbnRDb2xvciIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMi4wODU5NCAxMi4wNzQyQzIuMDg1OTQgMTAuMDE3NyAzLjYyMDMyIDguMjUgNS42NzY4NSA4LjI1QzcuNzMzMzcgOC4yNSA5LjI2Nzc2IDEwLjAxNzcgOS4yNjc3NiAxMi4wNzQyVjEyLjg5NjdDOS4yNjc3NiAxMi45MzQ2IDkuMjQwNjcgMTIuOTY2NCA5LjIwMzA0IDEyLjk3MDhDOC44NjY2IDEzLjAxMDQgNy4yNzE3MiAxMy4xODc1IDUuNjc2ODUgMTMuMTg3NUM0LjA4MTk3IDEzLjE4NzUgMi40ODcwOSAxMy4wMTA0IDIuMTUwNjYgMTIuOTcwOEMyLjExMzAyIDEyLjk2NjQgMi4wODU5NCAxMi45MzQ2IDIuMDg1OTQgMTIuODk2N1YxMi4wNzQyWiIgZmlsbD0iY3VycmVudENvbG9yIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
+ * @see https://foamicons.com/icons/users-fill
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */
+declare const UsersFill: FoamIcon;
+
+export { UsersFill };

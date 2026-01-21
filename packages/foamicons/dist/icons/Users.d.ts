@@ -1,0 +1,19 @@
+import { F as FoamIcon } from '../types-Dox7zwnl.js';
+import 'react';
+
+/**
+ * @component @name Users
+ * @description Foamicon SVG icon component, renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNS42NzY3NiIgY3k9IjQuNTIzNDQiIHI9IjEuNzI2NTYiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iMTEuMjM0NCIgY3k9IjQuOTI3MjUiIHI9IjEuMzIyNzUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTkuMzgyODUgMTEuODQ5MUM5Ljg4NjMgMTEuODkxMiAxMC41NjAzIDExLjkzMzYgMTEuMjM0NCAxMS45MzM2QzEyLjQyNDUgMTEuOTMzNiAxMy42MTQ3IDExLjgwMTQgMTMuODY1OCAxMS43NzE5QzEzLjg5MzkgMTEuNzY4NiAxMy45MTQxIDExLjc0NDkgMTMuOTE0MSAxMS43MTY2VjExLjEwMjhDMTMuOTE0MSA5LjU2ODE2IDEyLjc2OSA4LjI0OTAyIDExLjIzNDQgOC4yNDkwMkMxMS4wMDIxIDguMjQ5MDIgMTAuNzkxOSA4LjI2MDMyIDEwLjYwMzEgOC4yNzkwMUM5LjcwNjg1IDguMzY3NjggOS4wMzc1OCA5LjAxOTkyIDguNTU0NjkgOS43ODAxMyIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMi4wODU5NCAxMi4wNzQyQzIuMDg1OTQgMTAuMDE3NyAzLjYyMDMyIDguMjUgNS42NzY4NSA4LjI1QzcuNzMzMzcgOC4yNSA5LjI2Nzc2IDEwLjAxNzcgOS4yNjc3NiAxMi4wNzQyVjEyLjg5NjdDOS4yNjc3NiAxMi45MzQ2IDkuMjQwNjcgMTIuOTY2NCA5LjIwMzA0IDEyLjk3MDhDOC44NjY2IDEzLjAxMDQgNy4yNzE3MiAxMy4xODc1IDUuNjc2ODUgMTMuMTg3NUM0LjA4MTk3IDEzLjE4NzUgMi40ODcwOSAxMy4wMTA0IDIuMTUwNjYgMTIuOTcwOEMyLjExMzAyIDEyLjk2NjQgMi4wODU5NCAxMi45MzQ2IDIuMDg1OTQgMTIuODk2N1YxMi4wNzQyWiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K)
+ * @see https://foamicons.com/icons/users
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */
+declare const Users: FoamIcon;
+
+export { Users };

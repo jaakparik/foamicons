@@ -1,0 +1,19 @@
+import { F as FoamIcon } from '../types-Dox7zwnl.cjs';
+import 'react';
+
+/**
+ * @component @name MailMoveFill
+ * @description Foamicon SVG icon component, renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIgMTIuNTQ1NUMyIDEyLjU0NTUgNSAxMyA4IDEzQzkuNzgzODEgMTMgMTEuNTY3NiAxMi44MzkzIDEyLjcyMDggMTIuNzA5QzEzLjQ1NzcgMTIuNjI1NyAxNCAxMS45OTczIDE0IDExLjI1NTZWNC43NDQzOUMxNCA0LjAwMjc0IDEzLjQ1NzcgMy4zNzQyOCAxMi43MjA4IDMuMjkxMDFDMTEuNTY3NiAzLjE2MDcxIDkuNzgzODEgMyA4IDNDNS42NjMzMiAzIDMuMzI2NjQgMy4yNzU3NiAyLjQwNzU3IDMuMzk3NzFDMi4xNzI3MyAzLjQyODg2IDIgMy42Mjk2NCAyIDMuODY2NTNDMiA0LjAxMDM0IDIuMDY0NTkgNC4xNDY1MyAyLjE3NTk0IDQuMjM3NTNMMy43ODI5NiA1LjU1MDc4IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMy4wNDY5IDMuMzc1QzEyLjQ5NDUgMy4xODg0MyA5LjgyODEyIDMgOCAzQzYuMzAxNzcgMyA0LjQxNDI3IDMuMTYzNjUgMy4yNDkzNSAzLjI5NDU3QzMuMDgwNzEgMy4zMTM1MiAyLjkxNjcyIDMuMzYxMTYgMi43NzM3OCAzLjQ1MjYzQzIuNjUzMDkgMy41Mjk4NiAyLjUwNzcxIDMuNjMzNSAyLjM4NjY2IDMuNzQ3ODVDMi4xMzIzMSAzLjk4ODEgMi4yOTI3NSA0LjMzMDA5IDIuNTYzNTMgNC41NTE2Nkw2LjczMzg4IDcuOTY0MDFDNy40NzA0NSA4LjU2NjcgOC41Mjk2OSA4LjU2Njg3IDkuMjY2NDUgNy45NjQ0MkwxMy40NDk1IDQuNTQzODhDMTMuNzk3OSA0LjI1ODk5IDEzLjg1ODEgMy44NzA4MiAxMy40ODIxIDMuNjIzNjFDMTMuMjkyNyAzLjQ5OTE1IDEzLjEwOTQgMy4zOTYxMyAxMy4wNDY5IDMuMzc1WiIgZmlsbD0iY3VycmVudENvbG9yIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xIDhIMi45MTE4NyIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMSAxMEg1LjUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==)
+ * @see https://foamicons.com/icons/mail-move-fill
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */
+declare const MailMoveFill: FoamIcon;
+
+export { MailMoveFill };

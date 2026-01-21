@@ -1,0 +1,19 @@
+import { F as FoamIcon } from '../types-Dox7zwnl.cjs';
+import 'react';
+
+/**
+ * @component @name BellFill
+ * @description Foamicon SVG icon component, renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDYuMDMyNzlDMTIuMDAwMSA2LjAyMTg3IDEyLjAwMDEgNi4wMTA5NCAxMi4wMDAxIDZDMTIuMDAwMSAzLjc5MDg2IDEwLjIwOTMgMiA4LjAwMDE0IDJDNS43OTEgMiA0LjAwMDE0IDMuNzkwODYgNC4wMDAxNCA2TDQuMDAwMDEgNi41QzQuMDAwMDEgNy43Nzg3MyAzLjU5OTk5IDguOTY0MDIgMi45MTgyNiA5LjkzNzU4QzIuNzE1NDcgMTAuMjI3MiAyLjgxOTk4IDEwLjY0NyAzLjE1Njk5IDEwLjc1MzlDNC4xMDE1NSAxMS4wNTM2IDUuMDg0MDkgMTEuMjY3OSA2LjA5NTU2IDExLjM4NzhDNi43MjAwNiAxMS40NjE5IDcuMzU1NTggMTEuNSA4LjAwMDAxIDExLjVDOC42NDQ1MiAxMS41IDkuMjgwMTMgMTEuNDYxOSA5LjkwNDcgMTEuMzg3OEMxMC45MTYxIDExLjI2NzggMTEuODk4NSAxMS4wNTM1IDEyLjg0MyAxMC43NTM5QzEzLjE4IDEwLjY0NyAxMy4yODQ1IDEwLjIyNzIgMTMuMDgxOCA5LjkzNzU4QzEyLjQgOC45NjQwMiAxMiA3Ljc3ODczIDEyIDYuNVY2LjAzMjc5WiIgZmlsbD0iY3VycmVudENvbG9yIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik04LjAwMDEyIDE0QzkuMTA0NjkgMTQgMTAuMDAwMSAxMy4xMDQ2IDEwLjAwMDEgMTJDMTAuMDAwMSAxMS45MjkxIDkuOTk2NDQgMTEuODU5MSA5Ljk4OTI0IDExLjc5MDJDOS45NjQ0MyAxMS41NTIyIDkuNzMzMzEgMTEuNDA5IDkuNDk1MTEgMTEuNDMxMUM5LjAwMjg3IDExLjQ3NjcgOC41MDQxNSAxMS41IDcuOTk5OTkgMTEuNUM3LjQ5NTkyIDExLjUgNi45OTcyOSAxMS40NzY3IDYuNTA1MTIgMTEuNDMxMUM2LjI2NjkyIDExLjQwOSA2LjAzNTggMTEuNTUyMyA2LjAxMSAxMS43OTAyQzYuMDAzODEgMTEuODU5MSA2LjAwMDEyIDExLjkyOTEgNi4wMDAxMiAxMkM2LjAwMDEyIDEzLjEwNDYgNi44OTU1NSAxNCA4LjAwMDEyIDE0WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K)
+ * @see https://foamicons.com/icons/bell-fill
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */
+declare const BellFill: FoamIcon;
+
+export { BellFill };

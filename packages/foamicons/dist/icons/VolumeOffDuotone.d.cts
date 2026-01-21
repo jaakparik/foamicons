@@ -1,0 +1,19 @@
+import { F as FoamIcon } from '../types-Dox7zwnl.cjs';
+import 'react';
+
+/**
+ * @component @name VolumeOffDuotone
+ * @description Foamicon SVG icon component, renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUuNzUgMTAuNUw3LjU1NDcgMTIuMzA0N0M3LjkwNjg2IDEyLjY1NjkgOC41NDg0MyAxMi4zMjU5IDguNDg3MTYgMTEuODMxN0M4LjM2NjU5IDEwLjg1OSA4LjI1IDkuNTI0MzIgOC4yNSA4TTguNDM2MzkgNC42MDM4MUM4LjQ1Mjk5IDQuNDUxOTggOC40Njk5OSA0LjMwNjkzIDguNDg3MDYgNC4xNjkxNEM4LjU0ODMxIDMuNjc0ODkgNy45MDY4NiAzLjM0MzE0IDcuNTU0NyAzLjY5NTNMNi4zMzU3OSA0LjkxNDIxQzUuOTYwNzEgNS4yODkyOSA1LjQ1MjAxIDUuNSA0LjkyMTU3IDUuNUgzLjE2Njc2QzIuOTAwMDQgNS41IDIuNjQ4MTcgNS42MTUyMSAyLjU1MDE2IDUuODYzMjdDMi40MTA5MSA2LjIxNTcxIDIuMjUgNi44Njc4OSAyLjI1IDhDMi4yNSA5LjIwMzE3IDIuNDMxNzQgOS44NjQyOCAyLjU3NjA5IDEwLjE5OTZDMi42NjQzOCAxMC40MDQ3IDIuODc1NjIgMTAuNSAzLjA5ODkzIDEwLjUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTExLjc1IDEyLjQ3MjNDMTEuODI3MSAxMi40MDMzIDExLjkwMjUgMTIuMzMyMyAxMS45NzU5IDEyLjI1OTRDMTMuMDcxNSAxMS4xNzIzIDEzLjc1IDkuNjY1NDMgMTMuNzUgOC4wMDAwOUMxMy43NSA2LjQ3OTg5IDEzLjE4NDYgNS4wOTE3NCAxMi4yNTI3IDQuMDM0NDIiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEwLjU3MzcgMTAuODMzMkMxMS4zMDA0IDEwLjEwOSAxMS43NSA5LjEwNzA2IDExLjc1IDguMDAwMDhDMTEuNzUgNy4wMDgxOSAxMS4zODkgNi4xMDA2MiAxMC43OTEyIDUuNDAxNjEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEzLjY2NjcgMi41TDIuNSAxMy42NyIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K)
+ * @see https://foamicons.com/icons/volume-off-duotone
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */
+declare const VolumeOffDuotone: FoamIcon;
+
+export { VolumeOffDuotone };

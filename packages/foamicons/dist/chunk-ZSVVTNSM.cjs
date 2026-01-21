@@ -1,0 +1,42 @@
+'use strict';
+
+var chunkBT732HOR_cjs = require('./chunk-BT732HOR.cjs');
+
+// src/icons/ImageFill.tsx
+var __iconNode = [
+  [
+    "path",
+    {
+      d: "M2 4.74439C2 4.00274 2.54228 3.37428 3.27924 3.29101C4.43238 3.16071 6.21619 3 8 3C9.78381 3 11.5676 3.16071 12.7208 3.29101C13.4577 3.37428 14 4.00274 14 4.74439V11.2556C14 11.9973 13.4577 12.6257 12.7208 12.709C11.5676 12.8393 9.78381 13 8 13C6.21619 13 4.43238 12.8393 3.27924 12.709C2.54228 12.6257 2 11.9973 2 11.2556V4.74439Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wsa55f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.0221 8.9779L3.45139 7.54861C4.28299 6.71701 5.64915 6.77898 6.40205 7.68245L6.62717 7.9526C7.14763 8.57716 8.01105 8.79558 8.7659 8.49364C9.5053 8.19788 10.3509 8.40098 10.8753 9.0003L13.2242 11.6849C13.3991 11.8847 13.4771 12.1515 13.4375 12.4141C13.4375 12.4141 12.9852 12.6528 12.8822 12.6905C11.7387 12.8235 9.86936 13 8 13C6.21619 13 4.43238 12.8393 3.27924 12.709C2.54228 12.6257 2 11.9973 2 11.2556V9.03125C2 9.01124 2.00795 8.99205 2.0221 8.9779Z",
+      fill: "currentColor",
+      key: "h57yg3"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.75",
+      cy: "5.75",
+      r: "0.5",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeWidth: "0.5",
+      key: "awljjq"
+    }
+  ]
+];
+var ImageFill = chunkBT732HOR_cjs.createFoamicon("ImageFill", __iconNode);
+
+exports.ImageFill = ImageFill;
+//# sourceMappingURL=chunk-ZSVVTNSM.cjs.map
+//# sourceMappingURL=chunk-ZSVVTNSM.cjs.map

@@ -1,0 +1,56 @@
+'use strict';
+
+var chunkBT732HOR_cjs = require('./chunk-BT732HOR.cjs');
+
+// src/icons/MailMoveDuotone.tsx
+var __iconNode = [
+  [
+    "path",
+    {
+      d: "M13.0469 3.375C12.4945 3.18843 9.82812 3 8 3C6.30177 3 4.41427 3.16365 3.24935 3.29457C3.08071 3.31352 2.91672 3.36116 2.77378 3.45263C2.65309 3.52986 2.50771 3.6335 2.38666 3.74785C2.13231 3.9881 2.29275 4.33009 2.56353 4.55166L6.73388 7.96401C7.47045 8.5667 8.52969 8.56687 9.26645 7.96442L13.4495 4.54388C13.7979 4.25899 13.8581 3.87082 13.4821 3.62361C13.2927 3.49915 13.1094 3.39613 13.0469 3.375Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "2qpdsa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12.5455C2 12.5455 5 13 8 13C9.78381 13 11.5676 12.8393 12.7208 12.709C13.4577 12.6257 14 11.9973 14 11.2556V4.74439C14 4.00274 13.4577 3.37428 12.7208 3.29101C11.5676 3.16071 9.78381 3 8 3C5.66332 3 3.32664 3.27576 2.40757 3.39771C2.17273 3.42886 2 3.62964 2 3.86653C2 4.01034 2.06459 4.14653 2.17594 4.23753L3.78296 5.55078",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n0gguj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1 8H2.91187",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "igemeh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1 10H5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7lek59"
+    }
+  ]
+];
+var MailMoveDuotone = chunkBT732HOR_cjs.createFoamicon("MailMoveDuotone", __iconNode);
+
+exports.MailMoveDuotone = MailMoveDuotone;
+//# sourceMappingURL=chunk-DQYRRATP.cjs.map
+//# sourceMappingURL=chunk-DQYRRATP.cjs.map

@@ -1,6 +1,6 @@
 {
   "name": "@foamicons/core",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Core SVG parsing utilities for Foamicons",
   "type": "module",
   "main": "./dist/index.cjs",

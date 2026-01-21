@@ -1,0 +1,19 @@
+import { F as FoamIcon } from '../types-Dox7zwnl.js';
+import 'react';
+
+/**
+ * @component @name LogOutDuotone
+ * @description Foamicon SVG icon component, renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkuNzI3MDUgMTRMNS43NDQxNyAxNEM1LjAwMjUyIDE0IDQuMzc0MDYgMTMuNDU3NyA0LjI5MDc4IDEyLjcyMDhDNC4xNjA0OCAxMS41Njc2IDMuOTk5NzggOS43ODM4MSAzLjk5OTc4IDhDMy45OTk3OCA2LjIxNjE5IDQuMTYwNDggNC40MzIzOCA0LjI5MDc4IDMuMjc5MjRDNC4zNzQwNiAyLjU0MjI4IDUuMDAyNTIgMiA1Ljc0NDE3IDJMOS43MjcwNSAyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMC44MzM0IDUuMzMzMzdMMTIuOTY5OCA3LjQ2OTcxQzEzLjI2MjYgNy43NjI2IDEzLjI2MjYgOC4yMzc0OCAxMi45Njk4IDguNTMwMzdMMTAuODMzNCAxMC42NjY3IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMi44MzMzIDhINy41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
+ * @see https://foamicons.com/icons/log-out-duotone
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */
+declare const LogOutDuotone: FoamIcon;
+
+export { LogOutDuotone };

@@ -25,7 +25,9 @@
       "Bash(pnpm run dev:website:*)",
       "Bash(node test-icons.cjs:*)",
       "Bash(pnpm run build:*)",
-      "Bash(pnpm run generate:*)"
+      "Bash(pnpm run generate:*)",
+      "Bash(du -sh:*)",
+      "Bash(find:*)"
     ]
   }
 }
