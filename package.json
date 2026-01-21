@@ -8,6 +8,7 @@
     "build:core": "turbo run build --filter=@foamicons/core",
     "build:foamicons": "turbo run build --filter=foamicons",
     "build:website": "turbo run build --filter=@foamicons/website",
+    "build:website:cf": "cd packages/website && npm run build",
     "build:figma": "turbo run build --filter=@foamicons/figma-plugin",
     "dev": "turbo run dev",
     "dev:website": "turbo run dev --filter=@foamicons/website",
