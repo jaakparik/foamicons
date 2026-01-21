@@ -3,8 +3,9 @@
   "version": "0.6.0",
   "description": "Figma plugin for Foamicons",
   "scripts": {
-    "build": "tsx scripts/build.ts",
-    "dev": "tsx scripts/build.ts --watch",
+    "generate": "tsx scripts/generate-icons.ts",
+    "build": "pnpm run generate && tsx scripts/build.ts",
+    "dev": "pnpm run generate && tsx scripts/build.ts --watch",
     "clean": "rm -rf dist"
   },
   "dependencies": {

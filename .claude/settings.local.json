@@ -23,7 +23,9 @@
       "Bash(pnpm run build:website:*)",
       "Bash(pnpm run build:figma:*)",
       "Bash(pnpm run dev:website:*)",
-      "Bash(node test-icons.cjs:*)"
+      "Bash(node test-icons.cjs:*)",
+      "Bash(pnpm run build:*)",
+      "Bash(pnpm run generate:*)"
     ]
   }
 }

@@ -1,35 +1,48 @@
 /// <reference types="@figma/plugin-typings" />
 
-// Figma API token (injected at build time from .env)
-declare const process: { env: { FIGMA_API_TOKEN: string } };
-const FIGMA_API_TOKEN = process.env.FIGMA_API_TOKEN;
-
 // Show the plugin UI
-figma.showUI(__html__, { width: 320, height: 480 });
+figma.showUI(__html__, { width: 308, height: 600, themeColors: true });
 
 // Handle messages from the UI
-figma.ui.onmessage = async (msg: { type: string; iconName?: string; svgContent?: string }) => {
+figma.ui.onmessage = async (msg: {
+  type: string;
+  svgString?: string;
+  name?: string;
+  size?: number;
+  message?: string;
+  error?: boolean;
+}) => {
   if (msg.type === 'insert-icon') {
-    if (!msg.svgContent || !msg.iconName) return;
+    const { svgString, name, size } = msg;
+
+    if (!svgString || !name) {
+      figma.notify('Missing icon data', { error: true });
+      return;
+    }
 
     try {
-      // Create a frame from SVG
-      const node = figma.createNodeFromSvg(msg.svgContent);
-      node.name = msg.iconName;
+      const node = figma.createNodeFromSvg(svgString);
+      node.name = name;
+
+      // SVG already has correct size and stroke-width, no resize needed
 
       // Center in viewport
       const center = figma.viewport.center;
       node.x = center.x - node.width / 2;
       node.y = center.y - node.height / 2;
 
-      // Select the new node
+      // Select and focus
       figma.currentPage.selection = [node];
       figma.viewport.scrollAndZoomIntoView([node]);
 
-      figma.notify(`Inserted ${msg.iconName}`);
+      figma.notify(`Inserted ${name}`);
     } catch (error) {
-      figma.notify(`Error inserting icon: ${error}`, { error: true });
+      figma.notify(`Error: ${error}`, { error: true });
     }
+  }
+
+  if (msg.type === 'notify') {
+    figma.notify(msg.message || 'Action completed', { error: msg.error });
   }
 
   if (msg.type === 'close') {

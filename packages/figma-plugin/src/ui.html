@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Foamicons</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 12px;
+      background: #ededed;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Search */
+    .search-row {
+      padding: 8px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 1px solid #d0d0d0;
+    }
+    .search-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #666;
+    }
+    .search-container svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+    }
+    #search {
+      flex: 1;
+      background: none;
+      border: none;
+      color: #000;
+      font-size: 13px;
+      outline: none;
+    }
+    #search::placeholder {
+      color: #888;
+    }
+    .clear-btn {
+      background: none;
+      border: none;
+      color: #999;
+      cursor: pointer;
+      padding: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .clear-btn:hover {
+      color: #000;
+    }
+    .clear-btn svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    /* Settings */
+    .settings {
+      padding: 12px 16px;
+      border-bottom: 1px solid #d0d0d0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .setting-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .setting-label {
+      font-size: 11px;
+      color: #666;
+      width: 50px;
+      flex-shrink: 0;
+    }
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+    .btn-option {
+      padding: 4px 8px;
+      background: #d8d8d8;
+      border: none;
+      border-radius: 4px;
+      color: #333;
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.15s;
+      min-width: 28px;
+      text-align: center;
+    }
+    .btn-option:hover {
+      background: #c8c8c8;
+    }
+    .btn-option.active {
+      background: #000;
+      color: #fff;
+    }
+    .toggle-settings {
+      background: none;
+      border: none;
+      color: #666;
+      cursor: pointer;
+      padding: 4px;
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s;
+    }
+    .toggle-settings:hover {
+      color: #000;
+    }
+    .toggle-settings.expanded {
+      transform: rotate(180deg);
+    }
+    #extraSettings {
+      display: none;
+      flex-direction: column;
+      gap: 8px;
+    }
+    #extraSettings.visible {
+      display: flex;
+    }
+    .color-input {
+      width: 24px;
+      height: 24px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      padding: 0;
+      background: none;
+    }
+    .color-input::-webkit-color-swatch-wrapper {
+      padding: 0;
+      border-radius: 50%;
+    }
+    .color-input::-webkit-color-swatch {
+      border: none;
+      border-radius: 50%;
+    }
+    .opacity-slider {
+      flex: 1;
+      height: 4px;
+      -webkit-appearance: none;
+      appearance: none;
+      background: #d0d0d0;
+      border-radius: 2px;
+      outline: none;
+    }
+    .opacity-slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 14px;
+      height: 14px;
+      background: #000;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .opacity-value {
+      font-size: 11px;
+      color: #666;
+      min-width: 32px;
+      text-align: right;
+    }
+
+    /* Icon Grid */
+    .icon-grid {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: start;
+      gap: 0;
+      padding: 8px 8px;
+      overflow-y: auto;
+      flex: 1;
+    }
+    .icon-item {
+      width: calc(100% / var(--grid-cols, 8));
+    }
+    .icon-item {
+      aspect-ratio: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .icon-item svg {
+      width: var(--icon-size, 24px);
+      height: var(--icon-size, 24px);
+    }
+    .icon-item:hover {
+      background: #d8d8d8;
+    }
+    .icon-item.selected {
+      background: #000;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 8px 16px;
+      border-top: 1px solid #d0d0d0;
+      font-size: 10px;
+      color: #888;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-link {
+      color: #666;
+      text-decoration: none;
+    }
+    .footer-link:hover {
+      color: #000;
+    }
+
+    /* Empty state */
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      color: #888;
+      padding: 32px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Search -->
+  <div class="search-row">
+    <div class="search-container">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="7" cy="7" r="4"/>
+        <path d="M10 10L13 13"/>
+      </svg>
+      <input type="text" id="search" placeholder="Search" />
+      <button class="clear-btn" id="clearSearch" style="display: none;">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="8" cy="8" r="6"/>
+          <path d="M10 6L6 10M6 6L10 10"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Settings -->
+  <div class="settings">
+    <!-- Variant -->
+    <div class="setting-row">
+      <div class="btn-group">
+        <button class="btn-option active" data-variant="stroke">STROKED</button>
+        <button class="btn-option" data-variant="duotone">DUALTONE</button>
+        <button class="btn-option" data-variant="fill">FILLED</button>
+      </div>
+      <button class="toggle-settings" id="toggleSettings">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M4 6L8 10L12 6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Collapsible settings -->
+    <div id="extraSettings">
+
+    <!-- Size -->
+    <div class="setting-row">
+      <div class="btn-group">
+        <button class="btn-option active" data-size="16">16</button>
+        <button class="btn-option" data-size="20">20</button>
+        <button class="btn-option" data-size="24">24</button>
+        <button class="btn-option" data-size="32">32</button>
+        <button class="btn-option" data-size="48">48</button>
+        <button class="btn-option" data-size="56">56</button>
+        <button class="btn-option" data-size="64">64</button>
+      </div>
+    </div>
+
+    <!-- Stroke Width -->
+    <div class="setting-row" id="strokeWidthRow">
+      <div class="btn-group">
+        <button class="btn-option" data-stroke="0.75">0.75</button>
+        <button class="btn-option active" data-stroke="1">1</button>
+        <button class="btn-option" data-stroke="1.25">1.25</button>
+        <button class="btn-option" data-stroke="1.5">1.5</button>
+        <button class="btn-option" data-stroke="2">2</button>
+        <button class="btn-option" data-stroke="3">3</button>
+        <button class="btn-option" data-stroke="4">4</button>
+      </div>
+    </div>
+
+    <!-- Colors -->
+    <div class="setting-row">
+      <input type="color" class="color-input" id="primaryColor" value="#000000">
+      <input type="color" class="color-input" id="secondaryColor" value="#3B82F6" style="display: none;">
+    </div>
+
+    <!-- Fill Opacity (for duotone only) -->
+    <div class="setting-row" id="fillOpacityRow" style="display: none;">
+      <input type="range" class="opacity-slider" id="fillOpacity" min="0" max="1" step="0.05" value="0.2">
+      <span class="opacity-value" id="fillOpacityValue">20%</span>
+    </div>
+    </div>
+  </div>
+
+  <!-- Icon Grid -->
+  <div class="icon-grid" id="iconGrid">
+    <p class="empty-state">Loading icons...</p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <span>foamicons v0.6.0</span>
+    <a href="https://github.com/jaakparik/foamicons" target="_blank" class="footer-link">Info</a>
+  </div>
+
+  <!-- UI_SCRIPT_PLACEHOLDER -->
+</body>
+</html>
