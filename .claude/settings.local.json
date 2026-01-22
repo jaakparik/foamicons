@@ -27,7 +27,12 @@
       "Bash(pnpm run build:*)",
       "Bash(pnpm run generate:*)",
       "Bash(du -sh:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(pnpm -w run build:website:*)",
+      "Bash(pnpm -w run build:figma:*)",
+      "Bash(echo:*)",
+      "Bash(gh api:*)",
+      "Bash(pnpm build:*)"
     ]
   }
 }

@@ -1,0 +1,1514 @@
+{
+  "alert": {
+    "aliases": [
+      "warning",
+      "caution",
+      "attention"
+    ],
+    "tags": [
+      "alert",
+      "warning",
+      "caution"
+    ]
+  },
+  "archive": {
+    "aliases": [
+      "box",
+      "storage"
+    ],
+    "tags": [
+      "archive",
+      "box",
+      "storage"
+    ]
+  },
+  "archive-arrow-up": {
+    "aliases": [
+      "direction",
+      "ascending"
+    ],
+    "tags": [
+      "archive",
+      "arrow",
+      "up",
+      "direction",
+      "pointer",
+      "ascending",
+      "increase"
+    ]
+  },
+  "arrow-down": {
+    "aliases": [
+      "down",
+      "south"
+    ],
+    "tags": [
+      "arrow",
+      "down",
+      "direction"
+    ]
+  },
+  "arrow-down-0-1": {
+    "aliases": [
+      "descending",
+      "sort-numeric"
+    ],
+    "tags": [
+      "arrow",
+      "down",
+      "direction",
+      "pointer",
+      "descending",
+      "decrease"
+    ]
+  },
+  "arrow-down-1-0": {
+    "aliases": [],
+    "tags": [
+      "arrow",
+      "down",
+      "direction",
+      "pointer",
+      "descending",
+      "decrease"
+    ]
+  },
+  "arrow-down-I-G": {
+    "aliases": [
+      "instagram-down",
+      "ig-down"
+    ],
+    "tags": [
+      "arrow",
+      "down",
+      "instagram",
+      "descending"
+    ]
+  },
+  "arrow-down-narrow-wide": {
+    "aliases": [
+      "sort-asc",
+      "sort-ascending"
+    ],
+    "tags": [
+      "sort",
+      "ascending",
+      "narrow"
+    ]
+  },
+  "arrow-down-S-C": {
+    "aliases": [
+      "snapchat"
+    ],
+    "tags": [
+      "arrow",
+      "sort",
+      "descending",
+      "snapchat"
+    ]
+  },
+  "arrow-down-T-T": {
+    "aliases": [
+      "tiktok"
+    ],
+    "tags": [
+      "sort",
+      "tiktok",
+      "descending"
+    ]
+  },
+  "arrow-down-up": {
+    "aliases": [
+      "sort",
+      "reorder",
+      "swap"
+    ],
+    "tags": [
+      "sort",
+      "reorder",
+      "swap"
+    ]
+  },
+  "arrow-down-wide-narrow": {
+    "aliases": [
+      "sort-desc-alt"
+    ],
+    "tags": [
+      "sort",
+      "descending",
+      "wide"
+    ]
+  },
+  "arrow-down-Y-T": {
+    "aliases": [
+      "youtube"
+    ],
+    "tags": [
+      "sort",
+      "youtube",
+      "descending"
+    ]
+  },
+  "arrow-left": {
+    "aliases": [
+      "left",
+      "back",
+      "west",
+      "previous"
+    ],
+    "tags": [
+      "arrow",
+      "left",
+      "back"
+    ]
+  },
+  "arrow-right": {
+    "aliases": [
+      "right",
+      "east",
+      "next"
+    ],
+    "tags": [
+      "arrow",
+      "right",
+      "forward"
+    ]
+  },
+  "arrow-right-to-line": {
+    "aliases": [
+      "indent",
+      "fold"
+    ],
+    "tags": [
+      "next",
+      "indent",
+      "fold"
+    ]
+  },
+  "arrow-up": {
+    "aliases": [
+      "up",
+      "north"
+    ],
+    "tags": [
+      "arrow",
+      "up",
+      "direction"
+    ]
+  },
+  "arrow-up-a-z": {
+    "aliases": [
+      "sort-alpha-asc",
+      "sort-a-z"
+    ],
+    "tags": [
+      "sort",
+      "alphabetical",
+      "ascending"
+    ]
+  },
+  "arrow-up-I-G": {
+    "aliases": [
+      "instagram-up",
+      "ig-up"
+    ],
+    "tags": [
+      "arrow",
+      "sort",
+      "instagram"
+    ]
+  },
+  "arrow-up-narrow-wide": {
+    "aliases": [
+      "sort-asc-alt"
+    ],
+    "tags": [
+      "sort",
+      "ascending",
+      "narrow"
+    ]
+  },
+  "arrow-up-S-C": {
+    "aliases": [],
+    "tags": [
+      "arrow",
+      "sort",
+      "snapchat"
+    ]
+  },
+  "arrow-up-T-T": {
+    "aliases": [],
+    "tags": [
+      "arrow",
+      "sort",
+      "tiktok"
+    ]
+  },
+  "arrow-up-wide-narrow": {
+    "aliases": [
+      "sort-desc",
+      "sort-descending"
+    ],
+    "tags": [
+      "sort",
+      "descending",
+      "wide"
+    ]
+  },
+  "arrow-up-Y-T": {
+    "aliases": [],
+    "tags": [
+      "arrow",
+      "sort",
+      "youtube",
+      "ascending"
+    ]
+  },
+  "arrow-up-z-a": {
+    "aliases": [
+      "sort-alpha-desc",
+      "sort-z-a"
+    ],
+    "tags": [
+      "sort",
+      "alphabetical",
+      "descending"
+    ]
+  },
+  "ban": {
+    "aliases": [
+      "block",
+      "forbidden",
+      "prohibited",
+      "not-allowed"
+    ],
+    "tags": [
+      "ban",
+      "block",
+      "forbidden"
+    ]
+  },
+  "bell": {
+    "aliases": [
+      "notification",
+      "alarm"
+    ],
+    "tags": [
+      "notification",
+      "bell",
+      "alert"
+    ]
+  },
+  "bold": {
+    "aliases": [
+      "strong",
+      "text-bold"
+    ],
+    "tags": [
+      "bold",
+      "text",
+      "format"
+    ]
+  },
+  "bookmark": {
+    "aliases": [
+      "flag",
+      "saved"
+    ],
+    "tags": [
+      "bookmark",
+      "save",
+      "flag"
+    ]
+  },
+  "calendar": {
+    "aliases": [
+      "date",
+      "schedule",
+      "event"
+    ],
+    "tags": [
+      "calendar",
+      "date",
+      "schedule"
+    ]
+  },
+  "chart-column-square": {
+    "aliases": [
+      "analytics",
+      "stats",
+      "graph",
+      "bar-chart"
+    ],
+    "tags": [
+      "chart",
+      "analytics",
+      "stats"
+    ]
+  },
+  "checkbox": {
+    "aliases": [
+      "check-square",
+      "task"
+    ],
+    "tags": [
+      "checkbox",
+      "check",
+      "task"
+    ]
+  },
+  "checkmark": {
+    "aliases": [
+      "check",
+      "done",
+      "complete",
+      "tick",
+      "success"
+    ],
+    "tags": [
+      "check",
+      "done",
+      "success"
+    ]
+  },
+  "chevron-down": {
+    "aliases": [
+      "caret-down",
+      "collapse",
+      "dropdown"
+    ],
+    "tags": [
+      "chevron",
+      "down",
+      "collapse"
+    ]
+  },
+  "chevron-left": {
+    "aliases": [
+      "caret-left"
+    ],
+    "tags": [
+      "chevron",
+      "left",
+      "previous"
+    ]
+  },
+  "chevron-right": {
+    "aliases": [
+      "caret-right"
+    ],
+    "tags": [
+      "chevron",
+      "right",
+      "next"
+    ]
+  },
+  "chevron-up": {
+    "aliases": [
+      "caret-up",
+      "expand"
+    ],
+    "tags": [
+      "chevron",
+      "up",
+      "expand"
+    ]
+  },
+  "circle-alert": {
+    "aliases": [
+      "warning-circle",
+      "caution-circle",
+      "attention-circle",
+      "error"
+    ],
+    "tags": [
+      "alert",
+      "warning",
+      "caution",
+      "error"
+    ]
+  },
+  "circle-dollar-sign": {
+    "aliases": [
+      "money",
+      "price",
+      "payment",
+      "dollar"
+    ],
+    "tags": [
+      "money",
+      "dollar",
+      "payment"
+    ]
+  },
+  "circle-question-mark": {
+    "aliases": [
+      "help",
+      "question",
+      "faq",
+      "support"
+    ],
+    "tags": [
+      "help",
+      "question",
+      "faq"
+    ]
+  },
+  "circle-x": {
+    "aliases": [
+      "close",
+      "cancel",
+      "x",
+      "times",
+      "clear"
+    ],
+    "tags": [
+      "close",
+      "cancel",
+      "clear"
+    ]
+  },
+  "clock": {
+    "aliases": [
+      "time",
+      "watch"
+    ],
+    "tags": [
+      "time",
+      "clock",
+      "schedule"
+    ]
+  },
+  "clock-arrow-down": {
+    "aliases": [],
+    "tags": [
+      "clock",
+      "history",
+      "arrow",
+      "sort"
+    ]
+  },
+  "clock-arrow-up": {
+    "aliases": [],
+    "tags": [
+      "clock",
+      "arrow",
+      "sort",
+      "history"
+    ]
+  },
+  "cog": {
+    "aliases": [
+      "settings",
+      "gear",
+      "preferences",
+      "config",
+      "configuration",
+      "options",
+      "cogwheel"
+    ],
+    "tags": [
+      "settings",
+      "configuration",
+      "preferences"
+    ]
+  },
+  "columns-3": {
+    "aliases": [
+      "column-layout",
+      "three-columns"
+    ],
+    "tags": [
+      "columns",
+      "layout",
+      "three"
+    ]
+  },
+  "command": {
+    "aliases": [
+      "cmd",
+      "keyboard",
+      "shortcut"
+    ],
+    "tags": [
+      "command",
+      "keyboard",
+      "shortcut"
+    ]
+  },
+  "content-plus": {
+    "aliases": [
+      "add-content",
+      "new-post",
+      "create-content"
+    ],
+    "tags": [
+      "content",
+      "add",
+      "create"
+    ]
+  },
+  "copy": {
+    "aliases": [
+      "duplicate",
+      "clone"
+    ],
+    "tags": [
+      "copy",
+      "duplicate",
+      "clone"
+    ]
+  },
+  "download": {
+    "aliases": [
+      "export",
+      "get",
+      "download-file"
+    ],
+    "tags": [
+      "download",
+      "save",
+      "export"
+    ]
+  },
+  "eclipse": {
+    "aliases": [
+      "half-moon",
+      "contrast"
+    ],
+    "tags": [
+      "eclipse",
+      "contrast",
+      "theme"
+    ]
+  },
+  "external-link": {
+    "aliases": [
+      "open-new",
+      "external"
+    ],
+    "tags": [
+      "external",
+      "link",
+      "new-tab"
+    ]
+  },
+  "eye": {
+    "aliases": [
+      "view",
+      "show",
+      "visible",
+      "visibility"
+    ],
+    "tags": [
+      "eye",
+      "view",
+      "visible"
+    ]
+  },
+  "eye-off": {
+    "aliases": [
+      "hide",
+      "hidden",
+      "invisible"
+    ],
+    "tags": [
+      "hide",
+      "invisible",
+      "hidden"
+    ]
+  },
+  "flame": {
+    "aliases": [
+      "fire",
+      "hot",
+      "trending"
+    ],
+    "tags": [
+      "flame",
+      "fire",
+      "hot"
+    ]
+  },
+  "frown": {
+    "aliases": [
+      "sad",
+      "unhappy",
+      "negative"
+    ],
+    "tags": [
+      "frown",
+      "sad",
+      "unhappy"
+    ]
+  },
+  "fullscreen": {
+    "aliases": [
+      "full-screen",
+      "maximize-screen"
+    ],
+    "tags": [
+      "fullscreen",
+      "expand",
+      "maximize"
+    ]
+  },
+  "globe": {
+    "aliases": [
+      "world",
+      "web",
+      "internet",
+      "language"
+    ],
+    "tags": [
+      "globe",
+      "world",
+      "web"
+    ]
+  },
+  "grid-1x2": {
+    "aliases": [
+      "design",
+      "cards"
+    ],
+    "tags": [
+      "layout",
+      "design",
+      "cards"
+    ]
+  },
+  "grid-2x2": {
+    "aliases": [
+      "grid",
+      "tiles",
+      "layout"
+    ],
+    "tags": [
+      "grid",
+      "tiles",
+      "layout"
+    ]
+  },
+  "heart": {
+    "aliases": [
+      "love",
+      "emotion",
+      "likes"
+    ],
+    "tags": [
+      "likes",
+      "love",
+      "like"
+    ]
+  },
+  "history": {
+    "aliases": [
+      "recent",
+      "past",
+      "undo"
+    ],
+    "tags": [
+      "history",
+      "recent",
+      "past"
+    ]
+  },
+  "hotspot": {
+    "aliases": [
+      "wifi",
+      "signal",
+      "wireless"
+    ],
+    "tags": [
+      "hotspot",
+      "wifi",
+      "signal"
+    ]
+  },
+  "house": {
+    "aliases": [
+      "home"
+    ],
+    "tags": [
+      "home",
+      "house",
+      "main"
+    ]
+  },
+  "image": {
+    "aliases": [
+      "photo",
+      "picture",
+      "media"
+    ],
+    "tags": [
+      "image",
+      "photo",
+      "picture"
+    ]
+  },
+  "images": {
+    "aliases": [
+      "photos",
+      "pictures",
+      "gallery"
+    ],
+    "tags": [
+      "images",
+      "photos",
+      "gallery"
+    ]
+  },
+  "inbox": {
+    "aliases": [
+      "mailbox",
+      "tray"
+    ],
+    "tags": [
+      "inbox",
+      "mail",
+      "tray"
+    ]
+  },
+  "info": {
+    "aliases": [
+      "information",
+      "about",
+      "details"
+    ],
+    "tags": [
+      "info",
+      "information",
+      "about"
+    ]
+  },
+  "italic": {
+    "aliases": [
+      "emphasis",
+      "text-italic"
+    ],
+    "tags": [
+      "italic",
+      "text",
+      "format"
+    ]
+  },
+  "link": {
+    "aliases": [
+      "url",
+      "chain",
+      "connect"
+    ],
+    "tags": [
+      "link",
+      "url",
+      "connect"
+    ]
+  },
+  "list": {
+    "aliases": [
+      "items",
+      "bullets"
+    ],
+    "tags": [
+      "list",
+      "items",
+      "bullets"
+    ]
+  },
+  "list-filter": {
+    "aliases": [
+      "filter",
+      "funnel"
+    ],
+    "tags": [
+      "filter",
+      "funnel",
+      "sort"
+    ]
+  },
+  "list-ordered": {
+    "aliases": [
+      "numbered-list",
+      "ol"
+    ],
+    "tags": [
+      "list",
+      "ordered",
+      "numbered"
+    ]
+  },
+  "loader-circle": {
+    "aliases": [
+      "loading",
+      "spinner",
+      "progress"
+    ],
+    "tags": [
+      "loader",
+      "loading",
+      "spinner"
+    ]
+  },
+  "lock": {
+    "aliases": [
+      "secure",
+      "locked",
+      "private",
+      "protected"
+    ],
+    "tags": [
+      "lock",
+      "secure",
+      "private"
+    ]
+  },
+  "log-out": {
+    "aliases": [
+      "logout",
+      "sign-out",
+      "exit",
+      "signout"
+    ],
+    "tags": [
+      "logout",
+      "sign-out",
+      "exit"
+    ]
+  },
+  "mail": {
+    "aliases": [
+      "email",
+      "envelope",
+      "message"
+    ],
+    "tags": [
+      "mail",
+      "email",
+      "message"
+    ]
+  },
+  "map-pin": {
+    "aliases": [
+      "location",
+      "marker",
+      "place",
+      "geo"
+    ],
+    "tags": [
+      "location",
+      "map",
+      "pin"
+    ]
+  },
+  "maximize": {
+    "aliases": [
+      "expand-window",
+      "enlarge"
+    ],
+    "tags": [
+      "maximize",
+      "expand",
+      "enlarge"
+    ]
+  },
+  "media-kits": {
+    "aliases": [
+      "press-kit",
+      "brand-assets",
+      "mediapacks"
+    ],
+    "tags": [
+      "media-kit",
+      "press",
+      "brand"
+    ]
+  },
+  "megaphone": {
+    "aliases": [
+      "announce",
+      "broadcast",
+      "marketing",
+      "promote"
+    ],
+    "tags": [
+      "megaphone",
+      "announce",
+      "broadcast",
+      "promote"
+    ]
+  },
+  "megaphone-active": {
+    "aliases": [],
+    "tags": [
+      "promote"
+    ]
+  },
+  "menu": {
+    "aliases": [
+      "hamburger",
+      "navigation",
+      "bars"
+    ],
+    "tags": [
+      "menu",
+      "hamburger",
+      "navigation"
+    ]
+  },
+  "message-square": {
+    "aliases": [
+      "comment",
+      "chat-single"
+    ],
+    "tags": [
+      "message",
+      "comment",
+      "chat"
+    ]
+  },
+  "messages-square": {
+    "aliases": [
+      "chat",
+      "conversation",
+      "comments",
+      "chats"
+    ],
+    "tags": [
+      "messages",
+      "chat",
+      "conversation"
+    ]
+  },
+  "minus": {
+    "aliases": [
+      "subtract",
+      "reduce",
+      "decrease"
+    ],
+    "tags": [
+      "minus",
+      "subtract",
+      "remove"
+    ]
+  },
+  "moon": {
+    "aliases": [
+      "dark",
+      "night",
+      "dark-mode"
+    ],
+    "tags": [
+      "moon",
+      "dark",
+      "night"
+    ]
+  },
+  "mouse-pointer-click": {
+    "aliases": [
+      "click",
+      "cursor",
+      "pointer"
+    ],
+    "tags": [
+      "click",
+      "cursor",
+      "pointer"
+    ]
+  },
+  "move": {
+    "aliases": [
+      "drag",
+      "reposition"
+    ],
+    "tags": [
+      "move",
+      "drag",
+      "reposition"
+    ]
+  },
+  "panel-left": {
+    "aliases": [
+      "sidebar-left",
+      "drawer-left"
+    ],
+    "tags": [
+      "panel",
+      "sidebar",
+      "left"
+    ]
+  },
+  "panel-right": {
+    "aliases": [
+      "sidebar-right",
+      "drawer-right"
+    ],
+    "tags": [
+      "panel",
+      "sidebar",
+      "right"
+    ]
+  },
+  "pencil": {
+    "aliases": [
+      "edit",
+      "write",
+      "modify"
+    ],
+    "tags": [
+      "pencil",
+      "edit",
+      "write"
+    ]
+  },
+  "pin": {
+    "aliases": [
+      "thumbtack",
+      "tack",
+      "stick"
+    ],
+    "tags": [
+      "pin",
+      "thumbtack",
+      "stick"
+    ]
+  },
+  "play": {
+    "aliases": [
+      "start",
+      "video",
+      "play-button"
+    ],
+    "tags": [
+      "play",
+      "start",
+      "video"
+    ]
+  },
+  "plus": {
+    "aliases": [
+      "add",
+      "new",
+      "create"
+    ],
+    "tags": [
+      "plus",
+      "add",
+      "create"
+    ]
+  },
+  "reach": {
+    "aliases": [
+      "audience",
+      "impressions",
+      "views"
+    ],
+    "tags": [
+      "reach",
+      "audience",
+      "impressions"
+    ]
+  },
+  "reel": {
+    "aliases": [
+      "film",
+      "short",
+      "short-video"
+    ],
+    "tags": [
+      "reel",
+      "video",
+      "film"
+    ]
+  },
+  "refresh-cw": {
+    "aliases": [
+      "refresh",
+      "reload",
+      "sync"
+    ],
+    "tags": [
+      "refresh",
+      "reload",
+      "sync"
+    ]
+  },
+  "remove-formatting": {
+    "aliases": [
+      "clear-format",
+      "plain-text"
+    ],
+    "tags": [
+      "format",
+      "clear",
+      "remove"
+    ]
+  },
+  "reply": {
+    "aliases": [
+      "respond",
+      "answer"
+    ],
+    "tags": [
+      "reply",
+      "respond",
+      "answer"
+    ]
+  },
+  "rotate-cw": {
+    "aliases": [
+      "rotate",
+      "turn",
+      "redo"
+    ],
+    "tags": [
+      "rotate",
+      "turn",
+      "redo"
+    ]
+  },
+  "rows-2": {
+    "aliases": [
+      "horizontal-split",
+      "rows"
+    ],
+    "tags": [
+      "rows",
+      "layout",
+      "split"
+    ]
+  },
+  "save": {
+    "aliases": [
+      "floppy",
+      "disk",
+      "preserve"
+    ],
+    "tags": [
+      "save",
+      "disk",
+      "preserve"
+    ]
+  },
+  "search": {
+    "aliases": [
+      "find",
+      "lookup",
+      "magnifying-glass",
+      "query",
+      "explore"
+    ],
+    "tags": [
+      "search",
+      "find",
+      "lookup"
+    ]
+  },
+  "search-user": {
+    "aliases": [
+      "find-user",
+      "user-search",
+      "lookup-person",
+      "search-person"
+    ],
+    "tags": [
+      "search",
+      "user",
+      "find"
+    ]
+  },
+  "share": {
+    "aliases": [
+      "forward",
+      "share-link"
+    ],
+    "tags": [
+      "share",
+      "send",
+      "forward"
+    ]
+  },
+  "sliders-horizontal": {
+    "aliases": [
+      "controls",
+      "adjust",
+      "filters",
+      "equalizer"
+    ],
+    "tags": [
+      "sliders",
+      "settings",
+      "adjust"
+    ]
+  },
+  "smile": {
+    "aliases": [
+      "happy",
+      "positive",
+      "smiley"
+    ],
+    "tags": [
+      "smile",
+      "happy",
+      "positive"
+    ]
+  },
+  "sparkles": {
+    "aliases": [
+      "magic",
+      "ai",
+      "shine",
+      "generate"
+    ],
+    "tags": [
+      "sparkles",
+      "magic",
+      "ai"
+    ]
+  },
+  "square": {
+    "aliases": [
+      "stop"
+    ],
+    "tags": [
+      "stop"
+    ]
+  },
+  "square-pen": {
+    "aliases": [
+      "compose",
+      "write-new",
+      "draft",
+      "editor"
+    ],
+    "tags": [
+      "compose",
+      "write",
+      "draft",
+      "editor"
+    ]
+  },
+  "star": {
+    "aliases": [
+      "favorite",
+      "favourite",
+      "rating"
+    ],
+    "tags": [
+      "star",
+      "favorite",
+      "rating"
+    ]
+  },
+  "sun": {
+    "aliases": [
+      "light",
+      "day",
+      "bright"
+    ],
+    "tags": [
+      "sun",
+      "light",
+      "day"
+    ]
+  },
+  "text-align-center": {
+    "aliases": [
+      "center"
+    ],
+    "tags": [
+      "align",
+      "center",
+      "text"
+    ]
+  },
+  "text-align-end": {
+    "aliases": [
+      "align-right"
+    ],
+    "tags": [
+      "align",
+      "right",
+      "text"
+    ]
+  },
+  "text-align-justify": {
+    "aliases": [
+      "justify"
+    ],
+    "tags": [
+      "align",
+      "justify",
+      "text"
+    ]
+  },
+  "text-align-start": {
+    "aliases": [
+      "align-left"
+    ],
+    "tags": [
+      "align",
+      "left",
+      "text"
+    ]
+  },
+  "thumbs-down": {
+    "aliases": [
+      "dislike",
+      "disapprove",
+      "no"
+    ],
+    "tags": [
+      "dislike",
+      "disapprove",
+      "thumbs-down"
+    ]
+  },
+  "thumbs-up": {
+    "aliases": [
+      "like",
+      "approve",
+      "yes"
+    ],
+    "tags": [
+      "like",
+      "approve",
+      "thumbs-up"
+    ]
+  },
+  "trash": {
+    "aliases": [
+      "delete",
+      "remove",
+      "bin",
+      "garbage"
+    ],
+    "tags": [
+      "trash",
+      "delete",
+      "remove"
+    ]
+  },
+  "trending-down": {
+    "aliases": [
+      "decline",
+      "falling",
+      "downtrend"
+    ],
+    "tags": [
+      "trending",
+      "decline",
+      "decrease"
+    ]
+  },
+  "trending-up": {
+    "aliases": [
+      "growth",
+      "increase",
+      "rising"
+    ],
+    "tags": [
+      "trending",
+      "growth",
+      "increase"
+    ]
+  },
+  "triangle-down-up": {
+    "aliases": [
+      "sort-toggle",
+      "order-toggle"
+    ],
+    "tags": [
+      "sort",
+      "toggle",
+      "order"
+    ]
+  },
+  "unlink": {
+    "aliases": [
+      "disconnect",
+      "break"
+    ],
+    "tags": [
+      "unlink",
+      "disconnect",
+      "break"
+    ]
+  },
+  "unlock": {
+    "aliases": [
+      "unsecure",
+      "unlocked",
+      "public"
+    ],
+    "tags": [
+      "unlock",
+      "unsecure",
+      "public"
+    ]
+  },
+  "upload": {
+    "aliases": [
+      "import",
+      "send"
+    ],
+    "tags": [
+      "upload",
+      "import",
+      "send"
+    ]
+  },
+  "user": {
+    "aliases": [
+      "person",
+      "profile",
+      "account"
+    ],
+    "tags": [
+      "user",
+      "person",
+      "profile",
+      "account"
+    ]
+  },
+  "users": {
+    "aliases": [
+      "people",
+      "group",
+      "team",
+      "persons"
+    ],
+    "tags": [
+      "users",
+      "people",
+      "group",
+      "team"
+    ]
+  },
+  "volume-2": {
+    "aliases": [
+      "sound",
+      "audio",
+      "speaker",
+      "volume"
+    ],
+    "tags": [
+      "volume",
+      "sound",
+      "audio"
+    ]
+  },
+  "volume-off": {
+    "aliases": [
+      "mute",
+      "silent",
+      "no-sound",
+      "speaker-off"
+    ],
+    "tags": [
+      "mute",
+      "silent",
+      "volume-off"
+    ]
+  }
+}

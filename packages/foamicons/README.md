@@ -117,11 +117,57 @@ import { AlertFill } from 'foamicons/icons/AlertFill';
 
 ### Export Aliases
 
-Each icon is available under multiple names:
+Each icon is available under multiple export names:
 
 ```tsx
 import { Alert, AlertIcon, FoamAlert } from 'foamicons';
 // All three reference the same component
+```
+
+### Semantic Aliases
+
+Icons can also be imported using semantic aliases that map to canonical icon names. This improves discoverability and allows you to use familiar names:
+
+```tsx
+// All of these import the same icon (Cog)
+import { Cog, Settings, Gear, Preferences, Config } from 'foamicons';
+
+// Aliases work with all variants
+import { Settings, SettingsDuotone, SettingsFill } from 'foamicons';
+
+// Aliases also have Icon/Foam prefixes
+import { SettingsIcon, FoamSettings } from 'foamicons';
+```
+
+**Common alias examples:**
+| Canonical Name | Aliases |
+|---------------|---------|
+| `Search` | `Find`, `Lookup`, `MagnifyingGlass`, `Query` |
+| `Cog` | `Settings`, `Gear`, `Preferences`, `Config` |
+| `House` | `Home` |
+| `User` | `Person`, `Profile`, `Account` |
+| `Trash` | `Delete`, `Remove`, `Bin`, `Garbage` |
+| `Checkmark` | `Check`, `Done`, `Complete`, `Tick`, `Success` |
+| `CircleX` | `Close`, `Cancel`, `X`, `Times`, `Clear` |
+| `CircleAlert` | `WarningCircle`, `Error` |
+
+See [`icons/aliases.json`](../../icons/aliases.json) for the complete list.
+
+### Alias Lookup Helpers
+
+For tooling and dynamic usage, the library exports helper maps:
+
+```tsx
+import {
+  iconAliases,      // { Search: ['Find', 'Lookup', ...], ... }
+  aliasToCanonical, // { Find: 'Search', Settings: 'Cog', ... }
+  iconTags,         // { Search: ['search', 'find'], ... }
+  getCanonicalName  // (alias: string) => canonicalName
+} from 'foamicons';
+
+// Get canonical name from an alias
+getCanonicalName('Settings'); // 'Cog'
+getCanonicalName('Search');   // 'Search' (already canonical)
 ```
 
 ## Props

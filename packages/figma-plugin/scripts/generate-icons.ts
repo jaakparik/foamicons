@@ -1,4 +1,5 @@
 import { readdir, readFile, writeFile } from 'fs/promises';
+import { existsSync } from 'fs';
 import { join } from 'path';
 import { toPascalCase, getIconVariant, type IconVariant } from '@foamicons/core';
 
@@ -11,14 +12,31 @@ interface IconData {
     fill?: string;
   };
   tags: string[];
+  aliases: string[];
 }
+
+// Type for alias data from aliases.json
+interface AliasEntry {
+  aliases: string[];
+  tags: string[];
+}
+type AliasData = Record<string, AliasEntry>;
 
 async function main() {
   const iconsDir = join(process.cwd(), '../../icons');
+  const aliasesFile = join(iconsDir, 'aliases.json');
   const files = await readdir(iconsDir);
   const svgFiles = files.filter(f => f.endsWith('.svg')).sort();
 
   console.log(`Found ${svgFiles.length} SVG files`);
+
+  // Load aliases if available
+  let aliasData: AliasData = {};
+  if (existsSync(aliasesFile)) {
+    const aliasContent = await readFile(aliasesFile, 'utf-8');
+    aliasData = JSON.parse(aliasContent) as AliasData;
+    console.log(`Loaded aliases for ${Object.keys(aliasData).length} icons`);
+  }
 
   // Group by base icon name
   const iconsMap = new Map<string, IconData>();
@@ -45,11 +63,21 @@ async function main() {
       .trim();
 
     if (!iconsMap.has(id)) {
+      // Get aliases and tags from aliases.json if available
+      const aliasEntry = aliasData[baseName];
+      const aliases = aliasEntry?.aliases || [];
+      const extraTags = aliasEntry?.tags || [];
+
+      // Combine: base name parts + aliases + tags from aliases.json
+      const baseTags = baseName.split('-').filter(t => t.length > 1);
+      const allTags = [...new Set([...baseTags, ...aliases, ...extraTags])];
+
       iconsMap.set(id, {
         id,
         name,
         variants: {},
-        tags: baseName.split('-').filter(t => t.length > 1)
+        tags: allTags,
+        aliases: aliases
       });
     }
 
@@ -85,6 +113,7 @@ export interface IconData {
     fill?: string;
   };
   tags: string[];
+  aliases: string[];
 }
 
 export const iconsData: IconData[] = ${JSON.stringify(icons, null, 2)};

@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { BrowserRouter, useNavigate, useLocation } from 'react-router-dom';
 import * as icons from 'foamicons';
-import { iconNames, type IconProps, Sun, Moon, Copy } from 'foamicons';
+import { iconNames, iconAliases, iconTags, type IconProps, Sun, Moon, Copy } from 'foamicons';
 
 type IconComponent = React.ForwardRefExoticComponent<IconProps & React.RefAttributes<SVGSVGElement>>;
 
@@ -103,23 +103,49 @@ function AppContent() {
 
   const toggleTheme = () => setTheme(theme === 'dark' ? 'light' : 'dark');
 
+  // Get aliases for an icon (handles variants by stripping suffix)
+  const getAliasesFor = (name: string): string[] => {
+    const baseName = name.replace(/(Duotone|Fill)$/, '');
+    return iconAliases[baseName] || [];
+  };
+
+  // Get tags for an icon (handles variants by stripping suffix)
+  const getTagsFor = (name: string): string[] => {
+    const baseName = name.replace(/(Duotone|Fill)$/, '');
+    return iconTags[baseName] || [];
+  };
+
   const filteredIcons = useMemo(() => {
-    let icons: readonly string[];
+    let iconsToFilter: readonly string[];
 
     if (filter === 'stroke') {
-      icons = strokeIcons;
+      iconsToFilter = strokeIcons;
     } else if (filter === 'duotone') {
-      icons = duotoneIcons;
+      iconsToFilter = duotoneIcons;
     } else {
-      icons = fillIcons;
+      iconsToFilter = fillIcons;
     }
 
-    if (!search) return icons;
+    if (!search) return iconsToFilter;
     const lower = search.toLowerCase();
-    return icons.filter((name) =>
-      name.toLowerCase().includes(lower) ||
-      toKebabCase(name).includes(lower)
-    );
+
+    return iconsToFilter.filter((name) => {
+      // Search by component name
+      if (name.toLowerCase().includes(lower)) return true;
+      // Search by kebab-case name
+      if (toKebabCase(name).includes(lower)) return true;
+      // Search by aliases
+      const aliases = getAliasesFor(name);
+      if (aliases.some(alias =>
+        alias.toLowerCase().includes(lower) ||
+        toKebabCase(alias).includes(lower)
+      )) return true;
+      // Search by tags
+      const tags = getTagsFor(name);
+      if (tags.some(tag => tag.toLowerCase().includes(lower))) return true;
+
+      return false;
+    });
   }, [search, filter]);
 
   const copyToClipboard = (text: string) => {
@@ -486,6 +512,11 @@ function AppContent() {
                 )}
                 {isFillIcon && (
                   <span className="text-xs text-zinc-500">Fill variant</span>
+                )}
+                {getAliasesFor(selectedIcon).length > 0 && (
+                  <div className="text-xs text-zinc-500 mt-1">
+                    Also known as: {getAliasesFor(selectedIcon).map(a => toKebabCase(a)).join(', ')}
+                  </div>
                 )}
               </div>
               <button

@@ -126,11 +126,9 @@ export { CircleQuestionMark } from './icons/CircleQuestionMark';
 export { CircleXDuotone } from './icons/CircleXDuotone';
 export { CircleXFill } from './icons/CircleXFill';
 export { CircleX } from './icons/CircleX';
-export { ClockArrowDown1 } from './icons/ClockArrowDown1';
 export { ClockArrowDownDuotone } from './icons/ClockArrowDownDuotone';
 export { ClockArrowDownFill } from './icons/ClockArrowDownFill';
 export { ClockArrowDown } from './icons/ClockArrowDown';
-export { ClockArrowUp1 } from './icons/ClockArrowUp1';
 export { ClockArrowUpDuotone } from './icons/ClockArrowUpDuotone';
 export { ClockArrowUpFill } from './icons/ClockArrowUpFill';
 export { ClockArrowUp } from './icons/ClockArrowUp';
@@ -185,6 +183,9 @@ export { Grid1x2 } from './icons/Grid1x2';
 export { Grid2x2Duotone } from './icons/Grid2x2Duotone';
 export { Grid2x2Fill } from './icons/Grid2x2Fill';
 export { Grid2x2 } from './icons/Grid2x2';
+export { HeartDuotone } from './icons/HeartDuotone';
+export { HeartFill } from './icons/HeartFill';
+export { Heart } from './icons/Heart';
 export { HistoryDuotone } from './icons/HistoryDuotone';
 export { HistoryFill } from './icons/HistoryFill';
 export { History } from './icons/History';
@@ -650,16 +651,12 @@ export { CircleXFill as CircleXFillIcon } from './icons/CircleXFill';
 export { CircleXFill as FoamCircleXFill } from './icons/CircleXFill';
 export { CircleX as CircleXIcon } from './icons/CircleX';
 export { CircleX as FoamCircleX } from './icons/CircleX';
-export { ClockArrowDown1 as ClockArrowDown1Icon } from './icons/ClockArrowDown1';
-export { ClockArrowDown1 as FoamClockArrowDown1 } from './icons/ClockArrowDown1';
 export { ClockArrowDownDuotone as ClockArrowDownDuotoneIcon } from './icons/ClockArrowDownDuotone';
 export { ClockArrowDownDuotone as FoamClockArrowDownDuotone } from './icons/ClockArrowDownDuotone';
 export { ClockArrowDownFill as ClockArrowDownFillIcon } from './icons/ClockArrowDownFill';
 export { ClockArrowDownFill as FoamClockArrowDownFill } from './icons/ClockArrowDownFill';
 export { ClockArrowDown as ClockArrowDownIcon } from './icons/ClockArrowDown';
 export { ClockArrowDown as FoamClockArrowDown } from './icons/ClockArrowDown';
-export { ClockArrowUp1 as ClockArrowUp1Icon } from './icons/ClockArrowUp1';
-export { ClockArrowUp1 as FoamClockArrowUp1 } from './icons/ClockArrowUp1';
 export { ClockArrowUpDuotone as ClockArrowUpDuotoneIcon } from './icons/ClockArrowUpDuotone';
 export { ClockArrowUpDuotone as FoamClockArrowUpDuotone } from './icons/ClockArrowUpDuotone';
 export { ClockArrowUpFill as ClockArrowUpFillIcon } from './icons/ClockArrowUpFill';
@@ -768,6 +765,12 @@ export { Grid2x2Fill as Grid2x2FillIcon } from './icons/Grid2x2Fill';
 export { Grid2x2Fill as FoamGrid2x2Fill } from './icons/Grid2x2Fill';
 export { Grid2x2 as Grid2x2Icon } from './icons/Grid2x2';
 export { Grid2x2 as FoamGrid2x2 } from './icons/Grid2x2';
+export { HeartDuotone as HeartDuotoneIcon } from './icons/HeartDuotone';
+export { HeartDuotone as FoamHeartDuotone } from './icons/HeartDuotone';
+export { HeartFill as HeartFillIcon } from './icons/HeartFill';
+export { HeartFill as FoamHeartFill } from './icons/HeartFill';
+export { Heart as HeartIcon } from './icons/Heart';
+export { Heart as FoamHeart } from './icons/Heart';
 export { HistoryDuotone as HistoryDuotoneIcon } from './icons/HistoryDuotone';
 export { HistoryDuotone as FoamHistoryDuotone } from './icons/HistoryDuotone';
 export { HistoryFill as HistoryFillIcon } from './icons/HistoryFill';
@@ -1206,6 +1209,4596 @@ export { VolumeOffFill as VolumeOffFillIcon } from './icons/VolumeOffFill';
 export { VolumeOffFill as FoamVolumeOffFill } from './icons/VolumeOffFill';
 export { VolumeOff as VolumeOffIcon } from './icons/VolumeOff';
 export { VolumeOff as FoamVolumeOff } from './icons/VolumeOff';
+export { AlertDuotone as WarningDuotone } from './icons/AlertDuotone';
+export { AlertDuotone as WarningDuotoneIcon } from './icons/AlertDuotone';
+export { AlertDuotone as FoamWarningDuotone } from './icons/AlertDuotone';
+export { AlertFill as WarningFill } from './icons/AlertFill';
+export { AlertFill as WarningFillIcon } from './icons/AlertFill';
+export { AlertFill as FoamWarningFill } from './icons/AlertFill';
+export { Alert as Warning } from './icons/Alert';
+export { Alert as WarningIcon } from './icons/Alert';
+export { Alert as FoamWarning } from './icons/Alert';
+export { AlertDuotone as CautionDuotone } from './icons/AlertDuotone';
+export { AlertDuotone as CautionDuotoneIcon } from './icons/AlertDuotone';
+export { AlertDuotone as FoamCautionDuotone } from './icons/AlertDuotone';
+export { AlertFill as CautionFill } from './icons/AlertFill';
+export { AlertFill as CautionFillIcon } from './icons/AlertFill';
+export { AlertFill as FoamCautionFill } from './icons/AlertFill';
+export { Alert as Caution } from './icons/Alert';
+export { Alert as CautionIcon } from './icons/Alert';
+export { Alert as FoamCaution } from './icons/Alert';
+export { AlertDuotone as AttentionDuotone } from './icons/AlertDuotone';
+export { AlertDuotone as AttentionDuotoneIcon } from './icons/AlertDuotone';
+export { AlertDuotone as FoamAttentionDuotone } from './icons/AlertDuotone';
+export { AlertFill as AttentionFill } from './icons/AlertFill';
+export { AlertFill as AttentionFillIcon } from './icons/AlertFill';
+export { AlertFill as FoamAttentionFill } from './icons/AlertFill';
+export { Alert as Attention } from './icons/Alert';
+export { Alert as AttentionIcon } from './icons/Alert';
+export { Alert as FoamAttention } from './icons/Alert';
+export { ArchiveDuotone as BoxDuotone } from './icons/ArchiveDuotone';
+export { ArchiveDuotone as BoxDuotoneIcon } from './icons/ArchiveDuotone';
+export { ArchiveDuotone as FoamBoxDuotone } from './icons/ArchiveDuotone';
+export { ArchiveFill as BoxFill } from './icons/ArchiveFill';
+export { ArchiveFill as BoxFillIcon } from './icons/ArchiveFill';
+export { ArchiveFill as FoamBoxFill } from './icons/ArchiveFill';
+export { Archive as Box } from './icons/Archive';
+export { Archive as BoxIcon } from './icons/Archive';
+export { Archive as FoamBox } from './icons/Archive';
+export { ArchiveDuotone as StorageDuotone } from './icons/ArchiveDuotone';
+export { ArchiveDuotone as StorageDuotoneIcon } from './icons/ArchiveDuotone';
+export { ArchiveDuotone as FoamStorageDuotone } from './icons/ArchiveDuotone';
+export { ArchiveFill as StorageFill } from './icons/ArchiveFill';
+export { ArchiveFill as StorageFillIcon } from './icons/ArchiveFill';
+export { ArchiveFill as FoamStorageFill } from './icons/ArchiveFill';
+export { Archive as Storage } from './icons/Archive';
+export { Archive as StorageIcon } from './icons/Archive';
+export { Archive as FoamStorage } from './icons/Archive';
+export { ArchiveArrowUpDuotone as DirectionDuotone } from './icons/ArchiveArrowUpDuotone';
+export { ArchiveArrowUpDuotone as DirectionDuotoneIcon } from './icons/ArchiveArrowUpDuotone';
+export { ArchiveArrowUpDuotone as FoamDirectionDuotone } from './icons/ArchiveArrowUpDuotone';
+export { ArchiveArrowUpFill as DirectionFill } from './icons/ArchiveArrowUpFill';
+export { ArchiveArrowUpFill as DirectionFillIcon } from './icons/ArchiveArrowUpFill';
+export { ArchiveArrowUpFill as FoamDirectionFill } from './icons/ArchiveArrowUpFill';
+export { ArchiveArrowUp as Direction } from './icons/ArchiveArrowUp';
+export { ArchiveArrowUp as DirectionIcon } from './icons/ArchiveArrowUp';
+export { ArchiveArrowUp as FoamDirection } from './icons/ArchiveArrowUp';
+export { ArchiveArrowUpDuotone as AscendingDuotone } from './icons/ArchiveArrowUpDuotone';
+export { ArchiveArrowUpDuotone as AscendingDuotoneIcon } from './icons/ArchiveArrowUpDuotone';
+export { ArchiveArrowUpDuotone as FoamAscendingDuotone } from './icons/ArchiveArrowUpDuotone';
+export { ArchiveArrowUpFill as AscendingFill } from './icons/ArchiveArrowUpFill';
+export { ArchiveArrowUpFill as AscendingFillIcon } from './icons/ArchiveArrowUpFill';
+export { ArchiveArrowUpFill as FoamAscendingFill } from './icons/ArchiveArrowUpFill';
+export { ArchiveArrowUp as Ascending } from './icons/ArchiveArrowUp';
+export { ArchiveArrowUp as AscendingIcon } from './icons/ArchiveArrowUp';
+export { ArchiveArrowUp as FoamAscending } from './icons/ArchiveArrowUp';
+export { ArrowDownDuotone as DownDuotone } from './icons/ArrowDownDuotone';
+export { ArrowDownDuotone as DownDuotoneIcon } from './icons/ArrowDownDuotone';
+export { ArrowDownDuotone as FoamDownDuotone } from './icons/ArrowDownDuotone';
+export { ArrowDownFill as DownFill } from './icons/ArrowDownFill';
+export { ArrowDownFill as DownFillIcon } from './icons/ArrowDownFill';
+export { ArrowDownFill as FoamDownFill } from './icons/ArrowDownFill';
+export { ArrowDown as Down } from './icons/ArrowDown';
+export { ArrowDown as DownIcon } from './icons/ArrowDown';
+export { ArrowDown as FoamDown } from './icons/ArrowDown';
+export { ArrowDownDuotone as SouthDuotone } from './icons/ArrowDownDuotone';
+export { ArrowDownDuotone as SouthDuotoneIcon } from './icons/ArrowDownDuotone';
+export { ArrowDownDuotone as FoamSouthDuotone } from './icons/ArrowDownDuotone';
+export { ArrowDownFill as SouthFill } from './icons/ArrowDownFill';
+export { ArrowDownFill as SouthFillIcon } from './icons/ArrowDownFill';
+export { ArrowDownFill as FoamSouthFill } from './icons/ArrowDownFill';
+export { ArrowDown as South } from './icons/ArrowDown';
+export { ArrowDown as SouthIcon } from './icons/ArrowDown';
+export { ArrowDown as FoamSouth } from './icons/ArrowDown';
+export { ArrowDown01Duotone as DescendingDuotone } from './icons/ArrowDown01Duotone';
+export { ArrowDown01Duotone as DescendingDuotoneIcon } from './icons/ArrowDown01Duotone';
+export { ArrowDown01Duotone as FoamDescendingDuotone } from './icons/ArrowDown01Duotone';
+export { ArrowDown01Fill as DescendingFill } from './icons/ArrowDown01Fill';
+export { ArrowDown01Fill as DescendingFillIcon } from './icons/ArrowDown01Fill';
+export { ArrowDown01Fill as FoamDescendingFill } from './icons/ArrowDown01Fill';
+export { ArrowDown01 as Descending } from './icons/ArrowDown01';
+export { ArrowDown01 as DescendingIcon } from './icons/ArrowDown01';
+export { ArrowDown01 as FoamDescending } from './icons/ArrowDown01';
+export { ArrowDown01Duotone as SortNumericDuotone } from './icons/ArrowDown01Duotone';
+export { ArrowDown01Duotone as SortNumericDuotoneIcon } from './icons/ArrowDown01Duotone';
+export { ArrowDown01Duotone as FoamSortNumericDuotone } from './icons/ArrowDown01Duotone';
+export { ArrowDown01Fill as SortNumericFill } from './icons/ArrowDown01Fill';
+export { ArrowDown01Fill as SortNumericFillIcon } from './icons/ArrowDown01Fill';
+export { ArrowDown01Fill as FoamSortNumericFill } from './icons/ArrowDown01Fill';
+export { ArrowDown01 as SortNumeric } from './icons/ArrowDown01';
+export { ArrowDown01 as SortNumericIcon } from './icons/ArrowDown01';
+export { ArrowDown01 as FoamSortNumeric } from './icons/ArrowDown01';
+export { ArrowDownIGDuotone as InstagramDownDuotone } from './icons/ArrowDownIGDuotone';
+export { ArrowDownIGDuotone as InstagramDownDuotoneIcon } from './icons/ArrowDownIGDuotone';
+export { ArrowDownIGDuotone as FoamInstagramDownDuotone } from './icons/ArrowDownIGDuotone';
+export { ArrowDownIGFill as InstagramDownFill } from './icons/ArrowDownIGFill';
+export { ArrowDownIGFill as InstagramDownFillIcon } from './icons/ArrowDownIGFill';
+export { ArrowDownIGFill as FoamInstagramDownFill } from './icons/ArrowDownIGFill';
+export { ArrowDownIG as InstagramDown } from './icons/ArrowDownIG';
+export { ArrowDownIG as InstagramDownIcon } from './icons/ArrowDownIG';
+export { ArrowDownIG as FoamInstagramDown } from './icons/ArrowDownIG';
+export { ArrowDownIGDuotone as IgDownDuotone } from './icons/ArrowDownIGDuotone';
+export { ArrowDownIGDuotone as IgDownDuotoneIcon } from './icons/ArrowDownIGDuotone';
+export { ArrowDownIGDuotone as FoamIgDownDuotone } from './icons/ArrowDownIGDuotone';
+export { ArrowDownIGFill as IgDownFill } from './icons/ArrowDownIGFill';
+export { ArrowDownIGFill as IgDownFillIcon } from './icons/ArrowDownIGFill';
+export { ArrowDownIGFill as FoamIgDownFill } from './icons/ArrowDownIGFill';
+export { ArrowDownIG as IgDown } from './icons/ArrowDownIG';
+export { ArrowDownIG as IgDownIcon } from './icons/ArrowDownIG';
+export { ArrowDownIG as FoamIgDown } from './icons/ArrowDownIG';
+export { ArrowDownNarrowWideDuotone as SortAscDuotone } from './icons/ArrowDownNarrowWideDuotone';
+export { ArrowDownNarrowWideDuotone as SortAscDuotoneIcon } from './icons/ArrowDownNarrowWideDuotone';
+export { ArrowDownNarrowWideDuotone as FoamSortAscDuotone } from './icons/ArrowDownNarrowWideDuotone';
+export { ArrowDownNarrowWideFill as SortAscFill } from './icons/ArrowDownNarrowWideFill';
+export { ArrowDownNarrowWideFill as SortAscFillIcon } from './icons/ArrowDownNarrowWideFill';
+export { ArrowDownNarrowWideFill as FoamSortAscFill } from './icons/ArrowDownNarrowWideFill';
+export { ArrowDownNarrowWide as SortAsc } from './icons/ArrowDownNarrowWide';
+export { ArrowDownNarrowWide as SortAscIcon } from './icons/ArrowDownNarrowWide';
+export { ArrowDownNarrowWide as FoamSortAsc } from './icons/ArrowDownNarrowWide';
+export { ArrowDownNarrowWideDuotone as SortAscendingDuotone } from './icons/ArrowDownNarrowWideDuotone';
+export { ArrowDownNarrowWideDuotone as SortAscendingDuotoneIcon } from './icons/ArrowDownNarrowWideDuotone';
+export { ArrowDownNarrowWideDuotone as FoamSortAscendingDuotone } from './icons/ArrowDownNarrowWideDuotone';
+export { ArrowDownNarrowWideFill as SortAscendingFill } from './icons/ArrowDownNarrowWideFill';
+export { ArrowDownNarrowWideFill as SortAscendingFillIcon } from './icons/ArrowDownNarrowWideFill';
+export { ArrowDownNarrowWideFill as FoamSortAscendingFill } from './icons/ArrowDownNarrowWideFill';
+export { ArrowDownNarrowWide as SortAscending } from './icons/ArrowDownNarrowWide';
+export { ArrowDownNarrowWide as SortAscendingIcon } from './icons/ArrowDownNarrowWide';
+export { ArrowDownNarrowWide as FoamSortAscending } from './icons/ArrowDownNarrowWide';
+export { ArrowDownSCDuotone as SnapchatDuotone } from './icons/ArrowDownSCDuotone';
+export { ArrowDownSCDuotone as SnapchatDuotoneIcon } from './icons/ArrowDownSCDuotone';
+export { ArrowDownSCDuotone as FoamSnapchatDuotone } from './icons/ArrowDownSCDuotone';
+export { ArrowDownSCFill as SnapchatFill } from './icons/ArrowDownSCFill';
+export { ArrowDownSCFill as SnapchatFillIcon } from './icons/ArrowDownSCFill';
+export { ArrowDownSCFill as FoamSnapchatFill } from './icons/ArrowDownSCFill';
+export { ArrowDownSC as Snapchat } from './icons/ArrowDownSC';
+export { ArrowDownSC as SnapchatIcon } from './icons/ArrowDownSC';
+export { ArrowDownSC as FoamSnapchat } from './icons/ArrowDownSC';
+export { ArrowDownTTDuotone as TiktokDuotone } from './icons/ArrowDownTTDuotone';
+export { ArrowDownTTDuotone as TiktokDuotoneIcon } from './icons/ArrowDownTTDuotone';
+export { ArrowDownTTDuotone as FoamTiktokDuotone } from './icons/ArrowDownTTDuotone';
+export { ArrowDownTTFill as TiktokFill } from './icons/ArrowDownTTFill';
+export { ArrowDownTTFill as TiktokFillIcon } from './icons/ArrowDownTTFill';
+export { ArrowDownTTFill as FoamTiktokFill } from './icons/ArrowDownTTFill';
+export { ArrowDownTT as Tiktok } from './icons/ArrowDownTT';
+export { ArrowDownTT as TiktokIcon } from './icons/ArrowDownTT';
+export { ArrowDownTT as FoamTiktok } from './icons/ArrowDownTT';
+export { ArrowDownUpDuotone as SortDuotone } from './icons/ArrowDownUpDuotone';
+export { ArrowDownUpDuotone as SortDuotoneIcon } from './icons/ArrowDownUpDuotone';
+export { ArrowDownUpDuotone as FoamSortDuotone } from './icons/ArrowDownUpDuotone';
+export { ArrowDownUpFill as SortFill } from './icons/ArrowDownUpFill';
+export { ArrowDownUpFill as SortFillIcon } from './icons/ArrowDownUpFill';
+export { ArrowDownUpFill as FoamSortFill } from './icons/ArrowDownUpFill';
+export { ArrowDownUp as Sort } from './icons/ArrowDownUp';
+export { ArrowDownUp as SortIcon } from './icons/ArrowDownUp';
+export { ArrowDownUp as FoamSort } from './icons/ArrowDownUp';
+export { ArrowDownUpDuotone as ReorderDuotone } from './icons/ArrowDownUpDuotone';
+export { ArrowDownUpDuotone as ReorderDuotoneIcon } from './icons/ArrowDownUpDuotone';
+export { ArrowDownUpDuotone as FoamReorderDuotone } from './icons/ArrowDownUpDuotone';
+export { ArrowDownUpFill as ReorderFill } from './icons/ArrowDownUpFill';
+export { ArrowDownUpFill as ReorderFillIcon } from './icons/ArrowDownUpFill';
+export { ArrowDownUpFill as FoamReorderFill } from './icons/ArrowDownUpFill';
+export { ArrowDownUp as Reorder } from './icons/ArrowDownUp';
+export { ArrowDownUp as ReorderIcon } from './icons/ArrowDownUp';
+export { ArrowDownUp as FoamReorder } from './icons/ArrowDownUp';
+export { ArrowDownUpDuotone as SwapDuotone } from './icons/ArrowDownUpDuotone';
+export { ArrowDownUpDuotone as SwapDuotoneIcon } from './icons/ArrowDownUpDuotone';
+export { ArrowDownUpDuotone as FoamSwapDuotone } from './icons/ArrowDownUpDuotone';
+export { ArrowDownUpFill as SwapFill } from './icons/ArrowDownUpFill';
+export { ArrowDownUpFill as SwapFillIcon } from './icons/ArrowDownUpFill';
+export { ArrowDownUpFill as FoamSwapFill } from './icons/ArrowDownUpFill';
+export { ArrowDownUp as Swap } from './icons/ArrowDownUp';
+export { ArrowDownUp as SwapIcon } from './icons/ArrowDownUp';
+export { ArrowDownUp as FoamSwap } from './icons/ArrowDownUp';
+export { ArrowDownWideNarrowDuotone as SortDescAltDuotone } from './icons/ArrowDownWideNarrowDuotone';
+export { ArrowDownWideNarrowDuotone as SortDescAltDuotoneIcon } from './icons/ArrowDownWideNarrowDuotone';
+export { ArrowDownWideNarrowDuotone as FoamSortDescAltDuotone } from './icons/ArrowDownWideNarrowDuotone';
+export { ArrowDownWideNarrowFill as SortDescAltFill } from './icons/ArrowDownWideNarrowFill';
+export { ArrowDownWideNarrowFill as SortDescAltFillIcon } from './icons/ArrowDownWideNarrowFill';
+export { ArrowDownWideNarrowFill as FoamSortDescAltFill } from './icons/ArrowDownWideNarrowFill';
+export { ArrowDownWideNarrow as SortDescAlt } from './icons/ArrowDownWideNarrow';
+export { ArrowDownWideNarrow as SortDescAltIcon } from './icons/ArrowDownWideNarrow';
+export { ArrowDownWideNarrow as FoamSortDescAlt } from './icons/ArrowDownWideNarrow';
+export { ArrowDownYTDuotone as YoutubeDuotone } from './icons/ArrowDownYTDuotone';
+export { ArrowDownYTDuotone as YoutubeDuotoneIcon } from './icons/ArrowDownYTDuotone';
+export { ArrowDownYTDuotone as FoamYoutubeDuotone } from './icons/ArrowDownYTDuotone';
+export { ArrowDownYTFill as YoutubeFill } from './icons/ArrowDownYTFill';
+export { ArrowDownYTFill as YoutubeFillIcon } from './icons/ArrowDownYTFill';
+export { ArrowDownYTFill as FoamYoutubeFill } from './icons/ArrowDownYTFill';
+export { ArrowDownYT as Youtube } from './icons/ArrowDownYT';
+export { ArrowDownYT as YoutubeIcon } from './icons/ArrowDownYT';
+export { ArrowDownYT as FoamYoutube } from './icons/ArrowDownYT';
+export { ArrowLeftDuotone as LeftDuotone } from './icons/ArrowLeftDuotone';
+export { ArrowLeftDuotone as LeftDuotoneIcon } from './icons/ArrowLeftDuotone';
+export { ArrowLeftDuotone as FoamLeftDuotone } from './icons/ArrowLeftDuotone';
+export { ArrowLeftFill as LeftFill } from './icons/ArrowLeftFill';
+export { ArrowLeftFill as LeftFillIcon } from './icons/ArrowLeftFill';
+export { ArrowLeftFill as FoamLeftFill } from './icons/ArrowLeftFill';
+export { ArrowLeft as Left } from './icons/ArrowLeft';
+export { ArrowLeft as LeftIcon } from './icons/ArrowLeft';
+export { ArrowLeft as FoamLeft } from './icons/ArrowLeft';
+export { ArrowLeftDuotone as BackDuotone } from './icons/ArrowLeftDuotone';
+export { ArrowLeftDuotone as BackDuotoneIcon } from './icons/ArrowLeftDuotone';
+export { ArrowLeftDuotone as FoamBackDuotone } from './icons/ArrowLeftDuotone';
+export { ArrowLeftFill as BackFill } from './icons/ArrowLeftFill';
+export { ArrowLeftFill as BackFillIcon } from './icons/ArrowLeftFill';
+export { ArrowLeftFill as FoamBackFill } from './icons/ArrowLeftFill';
+export { ArrowLeft as Back } from './icons/ArrowLeft';
+export { ArrowLeft as BackIcon } from './icons/ArrowLeft';
+export { ArrowLeft as FoamBack } from './icons/ArrowLeft';
+export { ArrowLeftDuotone as WestDuotone } from './icons/ArrowLeftDuotone';
+export { ArrowLeftDuotone as WestDuotoneIcon } from './icons/ArrowLeftDuotone';
+export { ArrowLeftDuotone as FoamWestDuotone } from './icons/ArrowLeftDuotone';
+export { ArrowLeftFill as WestFill } from './icons/ArrowLeftFill';
+export { ArrowLeftFill as WestFillIcon } from './icons/ArrowLeftFill';
+export { ArrowLeftFill as FoamWestFill } from './icons/ArrowLeftFill';
+export { ArrowLeft as West } from './icons/ArrowLeft';
+export { ArrowLeft as WestIcon } from './icons/ArrowLeft';
+export { ArrowLeft as FoamWest } from './icons/ArrowLeft';
+export { ArrowLeftDuotone as PreviousDuotone } from './icons/ArrowLeftDuotone';
+export { ArrowLeftDuotone as PreviousDuotoneIcon } from './icons/ArrowLeftDuotone';
+export { ArrowLeftDuotone as FoamPreviousDuotone } from './icons/ArrowLeftDuotone';
+export { ArrowLeftFill as PreviousFill } from './icons/ArrowLeftFill';
+export { ArrowLeftFill as PreviousFillIcon } from './icons/ArrowLeftFill';
+export { ArrowLeftFill as FoamPreviousFill } from './icons/ArrowLeftFill';
+export { ArrowLeft as Previous } from './icons/ArrowLeft';
+export { ArrowLeft as PreviousIcon } from './icons/ArrowLeft';
+export { ArrowLeft as FoamPrevious } from './icons/ArrowLeft';
+export { ArrowRightDuotone as RightDuotone } from './icons/ArrowRightDuotone';
+export { ArrowRightDuotone as RightDuotoneIcon } from './icons/ArrowRightDuotone';
+export { ArrowRightDuotone as FoamRightDuotone } from './icons/ArrowRightDuotone';
+export { ArrowRightFill as RightFill } from './icons/ArrowRightFill';
+export { ArrowRightFill as RightFillIcon } from './icons/ArrowRightFill';
+export { ArrowRightFill as FoamRightFill } from './icons/ArrowRightFill';
+export { ArrowRight as Right } from './icons/ArrowRight';
+export { ArrowRight as RightIcon } from './icons/ArrowRight';
+export { ArrowRight as FoamRight } from './icons/ArrowRight';
+export { ArrowRightDuotone as EastDuotone } from './icons/ArrowRightDuotone';
+export { ArrowRightDuotone as EastDuotoneIcon } from './icons/ArrowRightDuotone';
+export { ArrowRightDuotone as FoamEastDuotone } from './icons/ArrowRightDuotone';
+export { ArrowRightFill as EastFill } from './icons/ArrowRightFill';
+export { ArrowRightFill as EastFillIcon } from './icons/ArrowRightFill';
+export { ArrowRightFill as FoamEastFill } from './icons/ArrowRightFill';
+export { ArrowRight as East } from './icons/ArrowRight';
+export { ArrowRight as EastIcon } from './icons/ArrowRight';
+export { ArrowRight as FoamEast } from './icons/ArrowRight';
+export { ArrowRightDuotone as NextDuotone } from './icons/ArrowRightDuotone';
+export { ArrowRightDuotone as NextDuotoneIcon } from './icons/ArrowRightDuotone';
+export { ArrowRightDuotone as FoamNextDuotone } from './icons/ArrowRightDuotone';
+export { ArrowRightFill as NextFill } from './icons/ArrowRightFill';
+export { ArrowRightFill as NextFillIcon } from './icons/ArrowRightFill';
+export { ArrowRightFill as FoamNextFill } from './icons/ArrowRightFill';
+export { ArrowRight as Next } from './icons/ArrowRight';
+export { ArrowRight as NextIcon } from './icons/ArrowRight';
+export { ArrowRight as FoamNext } from './icons/ArrowRight';
+export { ArrowRightToLineDuotone as IndentDuotone } from './icons/ArrowRightToLineDuotone';
+export { ArrowRightToLineDuotone as IndentDuotoneIcon } from './icons/ArrowRightToLineDuotone';
+export { ArrowRightToLineDuotone as FoamIndentDuotone } from './icons/ArrowRightToLineDuotone';
+export { ArrowRightToLineFill as IndentFill } from './icons/ArrowRightToLineFill';
+export { ArrowRightToLineFill as IndentFillIcon } from './icons/ArrowRightToLineFill';
+export { ArrowRightToLineFill as FoamIndentFill } from './icons/ArrowRightToLineFill';
+export { ArrowRightToLine as Indent } from './icons/ArrowRightToLine';
+export { ArrowRightToLine as IndentIcon } from './icons/ArrowRightToLine';
+export { ArrowRightToLine as FoamIndent } from './icons/ArrowRightToLine';
+export { ArrowRightToLineDuotone as FoldDuotone } from './icons/ArrowRightToLineDuotone';
+export { ArrowRightToLineDuotone as FoldDuotoneIcon } from './icons/ArrowRightToLineDuotone';
+export { ArrowRightToLineDuotone as FoamFoldDuotone } from './icons/ArrowRightToLineDuotone';
+export { ArrowRightToLineFill as FoldFill } from './icons/ArrowRightToLineFill';
+export { ArrowRightToLineFill as FoldFillIcon } from './icons/ArrowRightToLineFill';
+export { ArrowRightToLineFill as FoamFoldFill } from './icons/ArrowRightToLineFill';
+export { ArrowRightToLine as Fold } from './icons/ArrowRightToLine';
+export { ArrowRightToLine as FoldIcon } from './icons/ArrowRightToLine';
+export { ArrowRightToLine as FoamFold } from './icons/ArrowRightToLine';
+export { ArrowUpDuotone as UpDuotone } from './icons/ArrowUpDuotone';
+export { ArrowUpDuotone as UpDuotoneIcon } from './icons/ArrowUpDuotone';
+export { ArrowUpDuotone as FoamUpDuotone } from './icons/ArrowUpDuotone';
+export { ArrowUpFill as UpFill } from './icons/ArrowUpFill';
+export { ArrowUpFill as UpFillIcon } from './icons/ArrowUpFill';
+export { ArrowUpFill as FoamUpFill } from './icons/ArrowUpFill';
+export { ArrowUp as Up } from './icons/ArrowUp';
+export { ArrowUp as UpIcon } from './icons/ArrowUp';
+export { ArrowUp as FoamUp } from './icons/ArrowUp';
+export { ArrowUpDuotone as NorthDuotone } from './icons/ArrowUpDuotone';
+export { ArrowUpDuotone as NorthDuotoneIcon } from './icons/ArrowUpDuotone';
+export { ArrowUpDuotone as FoamNorthDuotone } from './icons/ArrowUpDuotone';
+export { ArrowUpFill as NorthFill } from './icons/ArrowUpFill';
+export { ArrowUpFill as NorthFillIcon } from './icons/ArrowUpFill';
+export { ArrowUpFill as FoamNorthFill } from './icons/ArrowUpFill';
+export { ArrowUp as North } from './icons/ArrowUp';
+export { ArrowUp as NorthIcon } from './icons/ArrowUp';
+export { ArrowUp as FoamNorth } from './icons/ArrowUp';
+export { ArrowUpAZDuotone as SortAlphaAscDuotone } from './icons/ArrowUpAZDuotone';
+export { ArrowUpAZDuotone as SortAlphaAscDuotoneIcon } from './icons/ArrowUpAZDuotone';
+export { ArrowUpAZDuotone as FoamSortAlphaAscDuotone } from './icons/ArrowUpAZDuotone';
+export { ArrowUpAZFill as SortAlphaAscFill } from './icons/ArrowUpAZFill';
+export { ArrowUpAZFill as SortAlphaAscFillIcon } from './icons/ArrowUpAZFill';
+export { ArrowUpAZFill as FoamSortAlphaAscFill } from './icons/ArrowUpAZFill';
+export { ArrowUpAZ as SortAlphaAsc } from './icons/ArrowUpAZ';
+export { ArrowUpAZ as SortAlphaAscIcon } from './icons/ArrowUpAZ';
+export { ArrowUpAZ as FoamSortAlphaAsc } from './icons/ArrowUpAZ';
+export { ArrowUpAZDuotone as SortAZDuotone } from './icons/ArrowUpAZDuotone';
+export { ArrowUpAZDuotone as SortAZDuotoneIcon } from './icons/ArrowUpAZDuotone';
+export { ArrowUpAZDuotone as FoamSortAZDuotone } from './icons/ArrowUpAZDuotone';
+export { ArrowUpAZFill as SortAZFill } from './icons/ArrowUpAZFill';
+export { ArrowUpAZFill as SortAZFillIcon } from './icons/ArrowUpAZFill';
+export { ArrowUpAZFill as FoamSortAZFill } from './icons/ArrowUpAZFill';
+export { ArrowUpAZ as SortAZ } from './icons/ArrowUpAZ';
+export { ArrowUpAZ as SortAZIcon } from './icons/ArrowUpAZ';
+export { ArrowUpAZ as FoamSortAZ } from './icons/ArrowUpAZ';
+export { ArrowUpIGDuotone as InstagramUpDuotone } from './icons/ArrowUpIGDuotone';
+export { ArrowUpIGDuotone as InstagramUpDuotoneIcon } from './icons/ArrowUpIGDuotone';
+export { ArrowUpIGDuotone as FoamInstagramUpDuotone } from './icons/ArrowUpIGDuotone';
+export { ArrowUpIGFill as InstagramUpFill } from './icons/ArrowUpIGFill';
+export { ArrowUpIGFill as InstagramUpFillIcon } from './icons/ArrowUpIGFill';
+export { ArrowUpIGFill as FoamInstagramUpFill } from './icons/ArrowUpIGFill';
+export { ArrowUpIG as InstagramUp } from './icons/ArrowUpIG';
+export { ArrowUpIG as InstagramUpIcon } from './icons/ArrowUpIG';
+export { ArrowUpIG as FoamInstagramUp } from './icons/ArrowUpIG';
+export { ArrowUpIGDuotone as IgUpDuotone } from './icons/ArrowUpIGDuotone';
+export { ArrowUpIGDuotone as IgUpDuotoneIcon } from './icons/ArrowUpIGDuotone';
+export { ArrowUpIGDuotone as FoamIgUpDuotone } from './icons/ArrowUpIGDuotone';
+export { ArrowUpIGFill as IgUpFill } from './icons/ArrowUpIGFill';
+export { ArrowUpIGFill as IgUpFillIcon } from './icons/ArrowUpIGFill';
+export { ArrowUpIGFill as FoamIgUpFill } from './icons/ArrowUpIGFill';
+export { ArrowUpIG as IgUp } from './icons/ArrowUpIG';
+export { ArrowUpIG as IgUpIcon } from './icons/ArrowUpIG';
+export { ArrowUpIG as FoamIgUp } from './icons/ArrowUpIG';
+export { ArrowUpNarrowWideDuotone as SortAscAltDuotone } from './icons/ArrowUpNarrowWideDuotone';
+export { ArrowUpNarrowWideDuotone as SortAscAltDuotoneIcon } from './icons/ArrowUpNarrowWideDuotone';
+export { ArrowUpNarrowWideDuotone as FoamSortAscAltDuotone } from './icons/ArrowUpNarrowWideDuotone';
+export { ArrowUpNarrowWideFill as SortAscAltFill } from './icons/ArrowUpNarrowWideFill';
+export { ArrowUpNarrowWideFill as SortAscAltFillIcon } from './icons/ArrowUpNarrowWideFill';
+export { ArrowUpNarrowWideFill as FoamSortAscAltFill } from './icons/ArrowUpNarrowWideFill';
+export { ArrowUpNarrowWide as SortAscAlt } from './icons/ArrowUpNarrowWide';
+export { ArrowUpNarrowWide as SortAscAltIcon } from './icons/ArrowUpNarrowWide';
+export { ArrowUpNarrowWide as FoamSortAscAlt } from './icons/ArrowUpNarrowWide';
+export { ArrowUpWideNarrowDuotone as SortDescDuotone } from './icons/ArrowUpWideNarrowDuotone';
+export { ArrowUpWideNarrowDuotone as SortDescDuotoneIcon } from './icons/ArrowUpWideNarrowDuotone';
+export { ArrowUpWideNarrowDuotone as FoamSortDescDuotone } from './icons/ArrowUpWideNarrowDuotone';
+export { ArrowUpWideNarrowFill as SortDescFill } from './icons/ArrowUpWideNarrowFill';
+export { ArrowUpWideNarrowFill as SortDescFillIcon } from './icons/ArrowUpWideNarrowFill';
+export { ArrowUpWideNarrowFill as FoamSortDescFill } from './icons/ArrowUpWideNarrowFill';
+export { ArrowUpWideNarrow as SortDesc } from './icons/ArrowUpWideNarrow';
+export { ArrowUpWideNarrow as SortDescIcon } from './icons/ArrowUpWideNarrow';
+export { ArrowUpWideNarrow as FoamSortDesc } from './icons/ArrowUpWideNarrow';
+export { ArrowUpWideNarrowDuotone as SortDescendingDuotone } from './icons/ArrowUpWideNarrowDuotone';
+export { ArrowUpWideNarrowDuotone as SortDescendingDuotoneIcon } from './icons/ArrowUpWideNarrowDuotone';
+export { ArrowUpWideNarrowDuotone as FoamSortDescendingDuotone } from './icons/ArrowUpWideNarrowDuotone';
+export { ArrowUpWideNarrowFill as SortDescendingFill } from './icons/ArrowUpWideNarrowFill';
+export { ArrowUpWideNarrowFill as SortDescendingFillIcon } from './icons/ArrowUpWideNarrowFill';
+export { ArrowUpWideNarrowFill as FoamSortDescendingFill } from './icons/ArrowUpWideNarrowFill';
+export { ArrowUpWideNarrow as SortDescending } from './icons/ArrowUpWideNarrow';
+export { ArrowUpWideNarrow as SortDescendingIcon } from './icons/ArrowUpWideNarrow';
+export { ArrowUpWideNarrow as FoamSortDescending } from './icons/ArrowUpWideNarrow';
+export { ArrowUpZADuotone as SortAlphaDescDuotone } from './icons/ArrowUpZADuotone';
+export { ArrowUpZADuotone as SortAlphaDescDuotoneIcon } from './icons/ArrowUpZADuotone';
+export { ArrowUpZADuotone as FoamSortAlphaDescDuotone } from './icons/ArrowUpZADuotone';
+export { ArrowUpZAFill as SortAlphaDescFill } from './icons/ArrowUpZAFill';
+export { ArrowUpZAFill as SortAlphaDescFillIcon } from './icons/ArrowUpZAFill';
+export { ArrowUpZAFill as FoamSortAlphaDescFill } from './icons/ArrowUpZAFill';
+export { ArrowUpZA as SortAlphaDesc } from './icons/ArrowUpZA';
+export { ArrowUpZA as SortAlphaDescIcon } from './icons/ArrowUpZA';
+export { ArrowUpZA as FoamSortAlphaDesc } from './icons/ArrowUpZA';
+export { ArrowUpZADuotone as SortZADuotone } from './icons/ArrowUpZADuotone';
+export { ArrowUpZADuotone as SortZADuotoneIcon } from './icons/ArrowUpZADuotone';
+export { ArrowUpZADuotone as FoamSortZADuotone } from './icons/ArrowUpZADuotone';
+export { ArrowUpZAFill as SortZAFill } from './icons/ArrowUpZAFill';
+export { ArrowUpZAFill as SortZAFillIcon } from './icons/ArrowUpZAFill';
+export { ArrowUpZAFill as FoamSortZAFill } from './icons/ArrowUpZAFill';
+export { ArrowUpZA as SortZA } from './icons/ArrowUpZA';
+export { ArrowUpZA as SortZAIcon } from './icons/ArrowUpZA';
+export { ArrowUpZA as FoamSortZA } from './icons/ArrowUpZA';
+export { BanDuotone as BlockDuotone } from './icons/BanDuotone';
+export { BanDuotone as BlockDuotoneIcon } from './icons/BanDuotone';
+export { BanDuotone as FoamBlockDuotone } from './icons/BanDuotone';
+export { BanFill as BlockFill } from './icons/BanFill';
+export { BanFill as BlockFillIcon } from './icons/BanFill';
+export { BanFill as FoamBlockFill } from './icons/BanFill';
+export { Ban as Block } from './icons/Ban';
+export { Ban as BlockIcon } from './icons/Ban';
+export { Ban as FoamBlock } from './icons/Ban';
+export { BanDuotone as ForbiddenDuotone } from './icons/BanDuotone';
+export { BanDuotone as ForbiddenDuotoneIcon } from './icons/BanDuotone';
+export { BanDuotone as FoamForbiddenDuotone } from './icons/BanDuotone';
+export { BanFill as ForbiddenFill } from './icons/BanFill';
+export { BanFill as ForbiddenFillIcon } from './icons/BanFill';
+export { BanFill as FoamForbiddenFill } from './icons/BanFill';
+export { Ban as Forbidden } from './icons/Ban';
+export { Ban as ForbiddenIcon } from './icons/Ban';
+export { Ban as FoamForbidden } from './icons/Ban';
+export { BanDuotone as ProhibitedDuotone } from './icons/BanDuotone';
+export { BanDuotone as ProhibitedDuotoneIcon } from './icons/BanDuotone';
+export { BanDuotone as FoamProhibitedDuotone } from './icons/BanDuotone';
+export { BanFill as ProhibitedFill } from './icons/BanFill';
+export { BanFill as ProhibitedFillIcon } from './icons/BanFill';
+export { BanFill as FoamProhibitedFill } from './icons/BanFill';
+export { Ban as Prohibited } from './icons/Ban';
+export { Ban as ProhibitedIcon } from './icons/Ban';
+export { Ban as FoamProhibited } from './icons/Ban';
+export { BanDuotone as NotAllowedDuotone } from './icons/BanDuotone';
+export { BanDuotone as NotAllowedDuotoneIcon } from './icons/BanDuotone';
+export { BanDuotone as FoamNotAllowedDuotone } from './icons/BanDuotone';
+export { BanFill as NotAllowedFill } from './icons/BanFill';
+export { BanFill as NotAllowedFillIcon } from './icons/BanFill';
+export { BanFill as FoamNotAllowedFill } from './icons/BanFill';
+export { Ban as NotAllowed } from './icons/Ban';
+export { Ban as NotAllowedIcon } from './icons/Ban';
+export { Ban as FoamNotAllowed } from './icons/Ban';
+export { BellDuotone as NotificationDuotone } from './icons/BellDuotone';
+export { BellDuotone as NotificationDuotoneIcon } from './icons/BellDuotone';
+export { BellDuotone as FoamNotificationDuotone } from './icons/BellDuotone';
+export { BellFill as NotificationFill } from './icons/BellFill';
+export { BellFill as NotificationFillIcon } from './icons/BellFill';
+export { BellFill as FoamNotificationFill } from './icons/BellFill';
+export { Bell as Notification } from './icons/Bell';
+export { Bell as NotificationIcon } from './icons/Bell';
+export { Bell as FoamNotification } from './icons/Bell';
+export { BellDuotone as AlarmDuotone } from './icons/BellDuotone';
+export { BellDuotone as AlarmDuotoneIcon } from './icons/BellDuotone';
+export { BellDuotone as FoamAlarmDuotone } from './icons/BellDuotone';
+export { BellFill as AlarmFill } from './icons/BellFill';
+export { BellFill as AlarmFillIcon } from './icons/BellFill';
+export { BellFill as FoamAlarmFill } from './icons/BellFill';
+export { Bell as Alarm } from './icons/Bell';
+export { Bell as AlarmIcon } from './icons/Bell';
+export { Bell as FoamAlarm } from './icons/Bell';
+export { BoldDuotone as StrongDuotone } from './icons/BoldDuotone';
+export { BoldDuotone as StrongDuotoneIcon } from './icons/BoldDuotone';
+export { BoldDuotone as FoamStrongDuotone } from './icons/BoldDuotone';
+export { BoldFill as StrongFill } from './icons/BoldFill';
+export { BoldFill as StrongFillIcon } from './icons/BoldFill';
+export { BoldFill as FoamStrongFill } from './icons/BoldFill';
+export { Bold as Strong } from './icons/Bold';
+export { Bold as StrongIcon } from './icons/Bold';
+export { Bold as FoamStrong } from './icons/Bold';
+export { BoldDuotone as TextBoldDuotone } from './icons/BoldDuotone';
+export { BoldDuotone as TextBoldDuotoneIcon } from './icons/BoldDuotone';
+export { BoldDuotone as FoamTextBoldDuotone } from './icons/BoldDuotone';
+export { BoldFill as TextBoldFill } from './icons/BoldFill';
+export { BoldFill as TextBoldFillIcon } from './icons/BoldFill';
+export { BoldFill as FoamTextBoldFill } from './icons/BoldFill';
+export { Bold as TextBold } from './icons/Bold';
+export { Bold as TextBoldIcon } from './icons/Bold';
+export { Bold as FoamTextBold } from './icons/Bold';
+export { BookmarkDuotone as FlagDuotone } from './icons/BookmarkDuotone';
+export { BookmarkDuotone as FlagDuotoneIcon } from './icons/BookmarkDuotone';
+export { BookmarkDuotone as FoamFlagDuotone } from './icons/BookmarkDuotone';
+export { BookmarkFill as FlagFill } from './icons/BookmarkFill';
+export { BookmarkFill as FlagFillIcon } from './icons/BookmarkFill';
+export { BookmarkFill as FoamFlagFill } from './icons/BookmarkFill';
+export { Bookmark as Flag } from './icons/Bookmark';
+export { Bookmark as FlagIcon } from './icons/Bookmark';
+export { Bookmark as FoamFlag } from './icons/Bookmark';
+export { BookmarkDuotone as SavedDuotone } from './icons/BookmarkDuotone';
+export { BookmarkDuotone as SavedDuotoneIcon } from './icons/BookmarkDuotone';
+export { BookmarkDuotone as FoamSavedDuotone } from './icons/BookmarkDuotone';
+export { BookmarkFill as SavedFill } from './icons/BookmarkFill';
+export { BookmarkFill as SavedFillIcon } from './icons/BookmarkFill';
+export { BookmarkFill as FoamSavedFill } from './icons/BookmarkFill';
+export { Bookmark as Saved } from './icons/Bookmark';
+export { Bookmark as SavedIcon } from './icons/Bookmark';
+export { Bookmark as FoamSaved } from './icons/Bookmark';
+export { CalendarDuotone as DateDuotone } from './icons/CalendarDuotone';
+export { CalendarDuotone as DateDuotoneIcon } from './icons/CalendarDuotone';
+export { CalendarDuotone as FoamDateDuotone } from './icons/CalendarDuotone';
+export { CalendarFill as DateFill } from './icons/CalendarFill';
+export { CalendarFill as DateFillIcon } from './icons/CalendarFill';
+export { CalendarFill as FoamDateFill } from './icons/CalendarFill';
+export { Calendar as Date } from './icons/Calendar';
+export { Calendar as DateIcon } from './icons/Calendar';
+export { Calendar as FoamDate } from './icons/Calendar';
+export { CalendarDuotone as ScheduleDuotone } from './icons/CalendarDuotone';
+export { CalendarDuotone as ScheduleDuotoneIcon } from './icons/CalendarDuotone';
+export { CalendarDuotone as FoamScheduleDuotone } from './icons/CalendarDuotone';
+export { CalendarFill as ScheduleFill } from './icons/CalendarFill';
+export { CalendarFill as ScheduleFillIcon } from './icons/CalendarFill';
+export { CalendarFill as FoamScheduleFill } from './icons/CalendarFill';
+export { Calendar as Schedule } from './icons/Calendar';
+export { Calendar as ScheduleIcon } from './icons/Calendar';
+export { Calendar as FoamSchedule } from './icons/Calendar';
+export { CalendarDuotone as EventDuotone } from './icons/CalendarDuotone';
+export { CalendarDuotone as EventDuotoneIcon } from './icons/CalendarDuotone';
+export { CalendarDuotone as FoamEventDuotone } from './icons/CalendarDuotone';
+export { CalendarFill as EventFill } from './icons/CalendarFill';
+export { CalendarFill as EventFillIcon } from './icons/CalendarFill';
+export { CalendarFill as FoamEventFill } from './icons/CalendarFill';
+export { Calendar as Event } from './icons/Calendar';
+export { Calendar as EventIcon } from './icons/Calendar';
+export { Calendar as FoamEvent } from './icons/Calendar';
+export { ChartColumnSquareDuotone as AnalyticsDuotone } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareDuotone as AnalyticsDuotoneIcon } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareDuotone as FoamAnalyticsDuotone } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareFill as AnalyticsFill } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquareFill as AnalyticsFillIcon } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquareFill as FoamAnalyticsFill } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquare as Analytics } from './icons/ChartColumnSquare';
+export { ChartColumnSquare as AnalyticsIcon } from './icons/ChartColumnSquare';
+export { ChartColumnSquare as FoamAnalytics } from './icons/ChartColumnSquare';
+export { ChartColumnSquareDuotone as StatsDuotone } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareDuotone as StatsDuotoneIcon } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareDuotone as FoamStatsDuotone } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareFill as StatsFill } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquareFill as StatsFillIcon } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquareFill as FoamStatsFill } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquare as Stats } from './icons/ChartColumnSquare';
+export { ChartColumnSquare as StatsIcon } from './icons/ChartColumnSquare';
+export { ChartColumnSquare as FoamStats } from './icons/ChartColumnSquare';
+export { ChartColumnSquareDuotone as GraphDuotone } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareDuotone as GraphDuotoneIcon } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareDuotone as FoamGraphDuotone } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareFill as GraphFill } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquareFill as GraphFillIcon } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquareFill as FoamGraphFill } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquare as Graph } from './icons/ChartColumnSquare';
+export { ChartColumnSquare as GraphIcon } from './icons/ChartColumnSquare';
+export { ChartColumnSquare as FoamGraph } from './icons/ChartColumnSquare';
+export { ChartColumnSquareDuotone as BarChartDuotone } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareDuotone as BarChartDuotoneIcon } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareDuotone as FoamBarChartDuotone } from './icons/ChartColumnSquareDuotone';
+export { ChartColumnSquareFill as BarChartFill } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquareFill as BarChartFillIcon } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquareFill as FoamBarChartFill } from './icons/ChartColumnSquareFill';
+export { ChartColumnSquare as BarChart } from './icons/ChartColumnSquare';
+export { ChartColumnSquare as BarChartIcon } from './icons/ChartColumnSquare';
+export { ChartColumnSquare as FoamBarChart } from './icons/ChartColumnSquare';
+export { CheckboxDuotone as CheckSquareDuotone } from './icons/CheckboxDuotone';
+export { CheckboxDuotone as CheckSquareDuotoneIcon } from './icons/CheckboxDuotone';
+export { CheckboxDuotone as FoamCheckSquareDuotone } from './icons/CheckboxDuotone';
+export { CheckboxFill as CheckSquareFill } from './icons/CheckboxFill';
+export { CheckboxFill as CheckSquareFillIcon } from './icons/CheckboxFill';
+export { CheckboxFill as FoamCheckSquareFill } from './icons/CheckboxFill';
+export { Checkbox as CheckSquare } from './icons/Checkbox';
+export { Checkbox as CheckSquareIcon } from './icons/Checkbox';
+export { Checkbox as FoamCheckSquare } from './icons/Checkbox';
+export { CheckboxDuotone as TaskDuotone } from './icons/CheckboxDuotone';
+export { CheckboxDuotone as TaskDuotoneIcon } from './icons/CheckboxDuotone';
+export { CheckboxDuotone as FoamTaskDuotone } from './icons/CheckboxDuotone';
+export { CheckboxFill as TaskFill } from './icons/CheckboxFill';
+export { CheckboxFill as TaskFillIcon } from './icons/CheckboxFill';
+export { CheckboxFill as FoamTaskFill } from './icons/CheckboxFill';
+export { Checkbox as Task } from './icons/Checkbox';
+export { Checkbox as TaskIcon } from './icons/Checkbox';
+export { Checkbox as FoamTask } from './icons/Checkbox';
+export { CheckmarkDuotone as CheckDuotone } from './icons/CheckmarkDuotone';
+export { CheckmarkDuotone as CheckDuotoneIcon } from './icons/CheckmarkDuotone';
+export { CheckmarkDuotone as FoamCheckDuotone } from './icons/CheckmarkDuotone';
+export { CheckmarkFill as CheckFill } from './icons/CheckmarkFill';
+export { CheckmarkFill as CheckFillIcon } from './icons/CheckmarkFill';
+export { CheckmarkFill as FoamCheckFill } from './icons/CheckmarkFill';
+export { Checkmark as Check } from './icons/Checkmark';
+export { Checkmark as CheckIcon } from './icons/Checkmark';
+export { Checkmark as FoamCheck } from './icons/Checkmark';
+export { CheckmarkDuotone as DoneDuotone } from './icons/CheckmarkDuotone';
+export { CheckmarkDuotone as DoneDuotoneIcon } from './icons/CheckmarkDuotone';
+export { CheckmarkDuotone as FoamDoneDuotone } from './icons/CheckmarkDuotone';
+export { CheckmarkFill as DoneFill } from './icons/CheckmarkFill';
+export { CheckmarkFill as DoneFillIcon } from './icons/CheckmarkFill';
+export { CheckmarkFill as FoamDoneFill } from './icons/CheckmarkFill';
+export { Checkmark as Done } from './icons/Checkmark';
+export { Checkmark as DoneIcon } from './icons/Checkmark';
+export { Checkmark as FoamDone } from './icons/Checkmark';
+export { CheckmarkDuotone as CompleteDuotone } from './icons/CheckmarkDuotone';
+export { CheckmarkDuotone as CompleteDuotoneIcon } from './icons/CheckmarkDuotone';
+export { CheckmarkDuotone as FoamCompleteDuotone } from './icons/CheckmarkDuotone';
+export { CheckmarkFill as CompleteFill } from './icons/CheckmarkFill';
+export { CheckmarkFill as CompleteFillIcon } from './icons/CheckmarkFill';
+export { CheckmarkFill as FoamCompleteFill } from './icons/CheckmarkFill';
+export { Checkmark as Complete } from './icons/Checkmark';
+export { Checkmark as CompleteIcon } from './icons/Checkmark';
+export { Checkmark as FoamComplete } from './icons/Checkmark';
+export { CheckmarkDuotone as TickDuotone } from './icons/CheckmarkDuotone';
+export { CheckmarkDuotone as TickDuotoneIcon } from './icons/CheckmarkDuotone';
+export { CheckmarkDuotone as FoamTickDuotone } from './icons/CheckmarkDuotone';
+export { CheckmarkFill as TickFill } from './icons/CheckmarkFill';
+export { CheckmarkFill as TickFillIcon } from './icons/CheckmarkFill';
+export { CheckmarkFill as FoamTickFill } from './icons/CheckmarkFill';
+export { Checkmark as Tick } from './icons/Checkmark';
+export { Checkmark as TickIcon } from './icons/Checkmark';
+export { Checkmark as FoamTick } from './icons/Checkmark';
+export { CheckmarkDuotone as SuccessDuotone } from './icons/CheckmarkDuotone';
+export { CheckmarkDuotone as SuccessDuotoneIcon } from './icons/CheckmarkDuotone';
+export { CheckmarkDuotone as FoamSuccessDuotone } from './icons/CheckmarkDuotone';
+export { CheckmarkFill as SuccessFill } from './icons/CheckmarkFill';
+export { CheckmarkFill as SuccessFillIcon } from './icons/CheckmarkFill';
+export { CheckmarkFill as FoamSuccessFill } from './icons/CheckmarkFill';
+export { Checkmark as Success } from './icons/Checkmark';
+export { Checkmark as SuccessIcon } from './icons/Checkmark';
+export { Checkmark as FoamSuccess } from './icons/Checkmark';
+export { ChevronDownDuotone as CaretDownDuotone } from './icons/ChevronDownDuotone';
+export { ChevronDownDuotone as CaretDownDuotoneIcon } from './icons/ChevronDownDuotone';
+export { ChevronDownDuotone as FoamCaretDownDuotone } from './icons/ChevronDownDuotone';
+export { ChevronDownFill as CaretDownFill } from './icons/ChevronDownFill';
+export { ChevronDownFill as CaretDownFillIcon } from './icons/ChevronDownFill';
+export { ChevronDownFill as FoamCaretDownFill } from './icons/ChevronDownFill';
+export { ChevronDown as CaretDown } from './icons/ChevronDown';
+export { ChevronDown as CaretDownIcon } from './icons/ChevronDown';
+export { ChevronDown as FoamCaretDown } from './icons/ChevronDown';
+export { ChevronDownDuotone as CollapseDuotone } from './icons/ChevronDownDuotone';
+export { ChevronDownDuotone as CollapseDuotoneIcon } from './icons/ChevronDownDuotone';
+export { ChevronDownDuotone as FoamCollapseDuotone } from './icons/ChevronDownDuotone';
+export { ChevronDownFill as CollapseFill } from './icons/ChevronDownFill';
+export { ChevronDownFill as CollapseFillIcon } from './icons/ChevronDownFill';
+export { ChevronDownFill as FoamCollapseFill } from './icons/ChevronDownFill';
+export { ChevronDown as Collapse } from './icons/ChevronDown';
+export { ChevronDown as CollapseIcon } from './icons/ChevronDown';
+export { ChevronDown as FoamCollapse } from './icons/ChevronDown';
+export { ChevronDownDuotone as DropdownDuotone } from './icons/ChevronDownDuotone';
+export { ChevronDownDuotone as DropdownDuotoneIcon } from './icons/ChevronDownDuotone';
+export { ChevronDownDuotone as FoamDropdownDuotone } from './icons/ChevronDownDuotone';
+export { ChevronDownFill as DropdownFill } from './icons/ChevronDownFill';
+export { ChevronDownFill as DropdownFillIcon } from './icons/ChevronDownFill';
+export { ChevronDownFill as FoamDropdownFill } from './icons/ChevronDownFill';
+export { ChevronDown as Dropdown } from './icons/ChevronDown';
+export { ChevronDown as DropdownIcon } from './icons/ChevronDown';
+export { ChevronDown as FoamDropdown } from './icons/ChevronDown';
+export { ChevronLeftDuotone as CaretLeftDuotone } from './icons/ChevronLeftDuotone';
+export { ChevronLeftDuotone as CaretLeftDuotoneIcon } from './icons/ChevronLeftDuotone';
+export { ChevronLeftDuotone as FoamCaretLeftDuotone } from './icons/ChevronLeftDuotone';
+export { ChevronLeftFill as CaretLeftFill } from './icons/ChevronLeftFill';
+export { ChevronLeftFill as CaretLeftFillIcon } from './icons/ChevronLeftFill';
+export { ChevronLeftFill as FoamCaretLeftFill } from './icons/ChevronLeftFill';
+export { ChevronLeft as CaretLeft } from './icons/ChevronLeft';
+export { ChevronLeft as CaretLeftIcon } from './icons/ChevronLeft';
+export { ChevronLeft as FoamCaretLeft } from './icons/ChevronLeft';
+export { ChevronRightDuotone as CaretRightDuotone } from './icons/ChevronRightDuotone';
+export { ChevronRightDuotone as CaretRightDuotoneIcon } from './icons/ChevronRightDuotone';
+export { ChevronRightDuotone as FoamCaretRightDuotone } from './icons/ChevronRightDuotone';
+export { ChevronRightFill as CaretRightFill } from './icons/ChevronRightFill';
+export { ChevronRightFill as CaretRightFillIcon } from './icons/ChevronRightFill';
+export { ChevronRightFill as FoamCaretRightFill } from './icons/ChevronRightFill';
+export { ChevronRight as CaretRight } from './icons/ChevronRight';
+export { ChevronRight as CaretRightIcon } from './icons/ChevronRight';
+export { ChevronRight as FoamCaretRight } from './icons/ChevronRight';
+export { ChevronUpDuotone as CaretUpDuotone } from './icons/ChevronUpDuotone';
+export { ChevronUpDuotone as CaretUpDuotoneIcon } from './icons/ChevronUpDuotone';
+export { ChevronUpDuotone as FoamCaretUpDuotone } from './icons/ChevronUpDuotone';
+export { ChevronUpFill as CaretUpFill } from './icons/ChevronUpFill';
+export { ChevronUpFill as CaretUpFillIcon } from './icons/ChevronUpFill';
+export { ChevronUpFill as FoamCaretUpFill } from './icons/ChevronUpFill';
+export { ChevronUp as CaretUp } from './icons/ChevronUp';
+export { ChevronUp as CaretUpIcon } from './icons/ChevronUp';
+export { ChevronUp as FoamCaretUp } from './icons/ChevronUp';
+export { ChevronUpDuotone as ExpandDuotone } from './icons/ChevronUpDuotone';
+export { ChevronUpDuotone as ExpandDuotoneIcon } from './icons/ChevronUpDuotone';
+export { ChevronUpDuotone as FoamExpandDuotone } from './icons/ChevronUpDuotone';
+export { ChevronUpFill as ExpandFill } from './icons/ChevronUpFill';
+export { ChevronUpFill as ExpandFillIcon } from './icons/ChevronUpFill';
+export { ChevronUpFill as FoamExpandFill } from './icons/ChevronUpFill';
+export { ChevronUp as Expand } from './icons/ChevronUp';
+export { ChevronUp as ExpandIcon } from './icons/ChevronUp';
+export { ChevronUp as FoamExpand } from './icons/ChevronUp';
+export { CircleAlertDuotone as WarningCircleDuotone } from './icons/CircleAlertDuotone';
+export { CircleAlertDuotone as WarningCircleDuotoneIcon } from './icons/CircleAlertDuotone';
+export { CircleAlertDuotone as FoamWarningCircleDuotone } from './icons/CircleAlertDuotone';
+export { CircleAlertFill as WarningCircleFill } from './icons/CircleAlertFill';
+export { CircleAlertFill as WarningCircleFillIcon } from './icons/CircleAlertFill';
+export { CircleAlertFill as FoamWarningCircleFill } from './icons/CircleAlertFill';
+export { CircleAlert as WarningCircle } from './icons/CircleAlert';
+export { CircleAlert as WarningCircleIcon } from './icons/CircleAlert';
+export { CircleAlert as FoamWarningCircle } from './icons/CircleAlert';
+export { CircleAlertDuotone as CautionCircleDuotone } from './icons/CircleAlertDuotone';
+export { CircleAlertDuotone as CautionCircleDuotoneIcon } from './icons/CircleAlertDuotone';
+export { CircleAlertDuotone as FoamCautionCircleDuotone } from './icons/CircleAlertDuotone';
+export { CircleAlertFill as CautionCircleFill } from './icons/CircleAlertFill';
+export { CircleAlertFill as CautionCircleFillIcon } from './icons/CircleAlertFill';
+export { CircleAlertFill as FoamCautionCircleFill } from './icons/CircleAlertFill';
+export { CircleAlert as CautionCircle } from './icons/CircleAlert';
+export { CircleAlert as CautionCircleIcon } from './icons/CircleAlert';
+export { CircleAlert as FoamCautionCircle } from './icons/CircleAlert';
+export { CircleAlertDuotone as AttentionCircleDuotone } from './icons/CircleAlertDuotone';
+export { CircleAlertDuotone as AttentionCircleDuotoneIcon } from './icons/CircleAlertDuotone';
+export { CircleAlertDuotone as FoamAttentionCircleDuotone } from './icons/CircleAlertDuotone';
+export { CircleAlertFill as AttentionCircleFill } from './icons/CircleAlertFill';
+export { CircleAlertFill as AttentionCircleFillIcon } from './icons/CircleAlertFill';
+export { CircleAlertFill as FoamAttentionCircleFill } from './icons/CircleAlertFill';
+export { CircleAlert as AttentionCircle } from './icons/CircleAlert';
+export { CircleAlert as AttentionCircleIcon } from './icons/CircleAlert';
+export { CircleAlert as FoamAttentionCircle } from './icons/CircleAlert';
+export { CircleAlertDuotone as ErrorDuotone } from './icons/CircleAlertDuotone';
+export { CircleAlertDuotone as ErrorDuotoneIcon } from './icons/CircleAlertDuotone';
+export { CircleAlertDuotone as FoamErrorDuotone } from './icons/CircleAlertDuotone';
+export { CircleAlertFill as ErrorFill } from './icons/CircleAlertFill';
+export { CircleAlertFill as ErrorFillIcon } from './icons/CircleAlertFill';
+export { CircleAlertFill as FoamErrorFill } from './icons/CircleAlertFill';
+export { CircleAlert as Error } from './icons/CircleAlert';
+export { CircleAlert as ErrorIcon } from './icons/CircleAlert';
+export { CircleAlert as FoamError } from './icons/CircleAlert';
+export { CircleDollarSignDuotone as MoneyDuotone } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignDuotone as MoneyDuotoneIcon } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignDuotone as FoamMoneyDuotone } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignFill as MoneyFill } from './icons/CircleDollarSignFill';
+export { CircleDollarSignFill as MoneyFillIcon } from './icons/CircleDollarSignFill';
+export { CircleDollarSignFill as FoamMoneyFill } from './icons/CircleDollarSignFill';
+export { CircleDollarSign as Money } from './icons/CircleDollarSign';
+export { CircleDollarSign as MoneyIcon } from './icons/CircleDollarSign';
+export { CircleDollarSign as FoamMoney } from './icons/CircleDollarSign';
+export { CircleDollarSignDuotone as PriceDuotone } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignDuotone as PriceDuotoneIcon } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignDuotone as FoamPriceDuotone } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignFill as PriceFill } from './icons/CircleDollarSignFill';
+export { CircleDollarSignFill as PriceFillIcon } from './icons/CircleDollarSignFill';
+export { CircleDollarSignFill as FoamPriceFill } from './icons/CircleDollarSignFill';
+export { CircleDollarSign as Price } from './icons/CircleDollarSign';
+export { CircleDollarSign as PriceIcon } from './icons/CircleDollarSign';
+export { CircleDollarSign as FoamPrice } from './icons/CircleDollarSign';
+export { CircleDollarSignDuotone as PaymentDuotone } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignDuotone as PaymentDuotoneIcon } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignDuotone as FoamPaymentDuotone } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignFill as PaymentFill } from './icons/CircleDollarSignFill';
+export { CircleDollarSignFill as PaymentFillIcon } from './icons/CircleDollarSignFill';
+export { CircleDollarSignFill as FoamPaymentFill } from './icons/CircleDollarSignFill';
+export { CircleDollarSign as Payment } from './icons/CircleDollarSign';
+export { CircleDollarSign as PaymentIcon } from './icons/CircleDollarSign';
+export { CircleDollarSign as FoamPayment } from './icons/CircleDollarSign';
+export { CircleDollarSignDuotone as DollarDuotone } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignDuotone as DollarDuotoneIcon } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignDuotone as FoamDollarDuotone } from './icons/CircleDollarSignDuotone';
+export { CircleDollarSignFill as DollarFill } from './icons/CircleDollarSignFill';
+export { CircleDollarSignFill as DollarFillIcon } from './icons/CircleDollarSignFill';
+export { CircleDollarSignFill as FoamDollarFill } from './icons/CircleDollarSignFill';
+export { CircleDollarSign as Dollar } from './icons/CircleDollarSign';
+export { CircleDollarSign as DollarIcon } from './icons/CircleDollarSign';
+export { CircleDollarSign as FoamDollar } from './icons/CircleDollarSign';
+export { CircleQuestionMarkDuotone as HelpDuotone } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkDuotone as HelpDuotoneIcon } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkDuotone as FoamHelpDuotone } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkFill as HelpFill } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMarkFill as HelpFillIcon } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMarkFill as FoamHelpFill } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMark as Help } from './icons/CircleQuestionMark';
+export { CircleQuestionMark as HelpIcon } from './icons/CircleQuestionMark';
+export { CircleQuestionMark as FoamHelp } from './icons/CircleQuestionMark';
+export { CircleQuestionMarkDuotone as QuestionDuotone } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkDuotone as QuestionDuotoneIcon } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkDuotone as FoamQuestionDuotone } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkFill as QuestionFill } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMarkFill as QuestionFillIcon } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMarkFill as FoamQuestionFill } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMark as Question } from './icons/CircleQuestionMark';
+export { CircleQuestionMark as QuestionIcon } from './icons/CircleQuestionMark';
+export { CircleQuestionMark as FoamQuestion } from './icons/CircleQuestionMark';
+export { CircleQuestionMarkDuotone as FaqDuotone } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkDuotone as FaqDuotoneIcon } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkDuotone as FoamFaqDuotone } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkFill as FaqFill } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMarkFill as FaqFillIcon } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMarkFill as FoamFaqFill } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMark as Faq } from './icons/CircleQuestionMark';
+export { CircleQuestionMark as FaqIcon } from './icons/CircleQuestionMark';
+export { CircleQuestionMark as FoamFaq } from './icons/CircleQuestionMark';
+export { CircleQuestionMarkDuotone as SupportDuotone } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkDuotone as SupportDuotoneIcon } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkDuotone as FoamSupportDuotone } from './icons/CircleQuestionMarkDuotone';
+export { CircleQuestionMarkFill as SupportFill } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMarkFill as SupportFillIcon } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMarkFill as FoamSupportFill } from './icons/CircleQuestionMarkFill';
+export { CircleQuestionMark as Support } from './icons/CircleQuestionMark';
+export { CircleQuestionMark as SupportIcon } from './icons/CircleQuestionMark';
+export { CircleQuestionMark as FoamSupport } from './icons/CircleQuestionMark';
+export { CircleXDuotone as CloseDuotone } from './icons/CircleXDuotone';
+export { CircleXDuotone as CloseDuotoneIcon } from './icons/CircleXDuotone';
+export { CircleXDuotone as FoamCloseDuotone } from './icons/CircleXDuotone';
+export { CircleXFill as CloseFill } from './icons/CircleXFill';
+export { CircleXFill as CloseFillIcon } from './icons/CircleXFill';
+export { CircleXFill as FoamCloseFill } from './icons/CircleXFill';
+export { CircleX as Close } from './icons/CircleX';
+export { CircleX as CloseIcon } from './icons/CircleX';
+export { CircleX as FoamClose } from './icons/CircleX';
+export { CircleXDuotone as CancelDuotone } from './icons/CircleXDuotone';
+export { CircleXDuotone as CancelDuotoneIcon } from './icons/CircleXDuotone';
+export { CircleXDuotone as FoamCancelDuotone } from './icons/CircleXDuotone';
+export { CircleXFill as CancelFill } from './icons/CircleXFill';
+export { CircleXFill as CancelFillIcon } from './icons/CircleXFill';
+export { CircleXFill as FoamCancelFill } from './icons/CircleXFill';
+export { CircleX as Cancel } from './icons/CircleX';
+export { CircleX as CancelIcon } from './icons/CircleX';
+export { CircleX as FoamCancel } from './icons/CircleX';
+export { CircleXDuotone as XDuotone } from './icons/CircleXDuotone';
+export { CircleXDuotone as XDuotoneIcon } from './icons/CircleXDuotone';
+export { CircleXDuotone as FoamXDuotone } from './icons/CircleXDuotone';
+export { CircleXFill as XFill } from './icons/CircleXFill';
+export { CircleXFill as XFillIcon } from './icons/CircleXFill';
+export { CircleXFill as FoamXFill } from './icons/CircleXFill';
+export { CircleX as X } from './icons/CircleX';
+export { CircleX as XIcon } from './icons/CircleX';
+export { CircleX as FoamX } from './icons/CircleX';
+export { CircleXDuotone as TimesDuotone } from './icons/CircleXDuotone';
+export { CircleXDuotone as TimesDuotoneIcon } from './icons/CircleXDuotone';
+export { CircleXDuotone as FoamTimesDuotone } from './icons/CircleXDuotone';
+export { CircleXFill as TimesFill } from './icons/CircleXFill';
+export { CircleXFill as TimesFillIcon } from './icons/CircleXFill';
+export { CircleXFill as FoamTimesFill } from './icons/CircleXFill';
+export { CircleX as Times } from './icons/CircleX';
+export { CircleX as TimesIcon } from './icons/CircleX';
+export { CircleX as FoamTimes } from './icons/CircleX';
+export { CircleXDuotone as ClearDuotone } from './icons/CircleXDuotone';
+export { CircleXDuotone as ClearDuotoneIcon } from './icons/CircleXDuotone';
+export { CircleXDuotone as FoamClearDuotone } from './icons/CircleXDuotone';
+export { CircleXFill as ClearFill } from './icons/CircleXFill';
+export { CircleXFill as ClearFillIcon } from './icons/CircleXFill';
+export { CircleXFill as FoamClearFill } from './icons/CircleXFill';
+export { CircleX as Clear } from './icons/CircleX';
+export { CircleX as ClearIcon } from './icons/CircleX';
+export { CircleX as FoamClear } from './icons/CircleX';
+export { ClockDuotone as TimeDuotone } from './icons/ClockDuotone';
+export { ClockDuotone as TimeDuotoneIcon } from './icons/ClockDuotone';
+export { ClockDuotone as FoamTimeDuotone } from './icons/ClockDuotone';
+export { ClockFill as TimeFill } from './icons/ClockFill';
+export { ClockFill as TimeFillIcon } from './icons/ClockFill';
+export { ClockFill as FoamTimeFill } from './icons/ClockFill';
+export { Clock as Time } from './icons/Clock';
+export { Clock as TimeIcon } from './icons/Clock';
+export { Clock as FoamTime } from './icons/Clock';
+export { ClockDuotone as WatchDuotone } from './icons/ClockDuotone';
+export { ClockDuotone as WatchDuotoneIcon } from './icons/ClockDuotone';
+export { ClockDuotone as FoamWatchDuotone } from './icons/ClockDuotone';
+export { ClockFill as WatchFill } from './icons/ClockFill';
+export { ClockFill as WatchFillIcon } from './icons/ClockFill';
+export { ClockFill as FoamWatchFill } from './icons/ClockFill';
+export { Clock as Watch } from './icons/Clock';
+export { Clock as WatchIcon } from './icons/Clock';
+export { Clock as FoamWatch } from './icons/Clock';
+export { CogDuotone as SettingsDuotone } from './icons/CogDuotone';
+export { CogDuotone as SettingsDuotoneIcon } from './icons/CogDuotone';
+export { CogDuotone as FoamSettingsDuotone } from './icons/CogDuotone';
+export { CogFill as SettingsFill } from './icons/CogFill';
+export { CogFill as SettingsFillIcon } from './icons/CogFill';
+export { CogFill as FoamSettingsFill } from './icons/CogFill';
+export { Cog as Settings } from './icons/Cog';
+export { Cog as SettingsIcon } from './icons/Cog';
+export { Cog as FoamSettings } from './icons/Cog';
+export { CogDuotone as GearDuotone } from './icons/CogDuotone';
+export { CogDuotone as GearDuotoneIcon } from './icons/CogDuotone';
+export { CogDuotone as FoamGearDuotone } from './icons/CogDuotone';
+export { CogFill as GearFill } from './icons/CogFill';
+export { CogFill as GearFillIcon } from './icons/CogFill';
+export { CogFill as FoamGearFill } from './icons/CogFill';
+export { Cog as Gear } from './icons/Cog';
+export { Cog as GearIcon } from './icons/Cog';
+export { Cog as FoamGear } from './icons/Cog';
+export { CogDuotone as PreferencesDuotone } from './icons/CogDuotone';
+export { CogDuotone as PreferencesDuotoneIcon } from './icons/CogDuotone';
+export { CogDuotone as FoamPreferencesDuotone } from './icons/CogDuotone';
+export { CogFill as PreferencesFill } from './icons/CogFill';
+export { CogFill as PreferencesFillIcon } from './icons/CogFill';
+export { CogFill as FoamPreferencesFill } from './icons/CogFill';
+export { Cog as Preferences } from './icons/Cog';
+export { Cog as PreferencesIcon } from './icons/Cog';
+export { Cog as FoamPreferences } from './icons/Cog';
+export { CogDuotone as ConfigDuotone } from './icons/CogDuotone';
+export { CogDuotone as ConfigDuotoneIcon } from './icons/CogDuotone';
+export { CogDuotone as FoamConfigDuotone } from './icons/CogDuotone';
+export { CogFill as ConfigFill } from './icons/CogFill';
+export { CogFill as ConfigFillIcon } from './icons/CogFill';
+export { CogFill as FoamConfigFill } from './icons/CogFill';
+export { Cog as Config } from './icons/Cog';
+export { Cog as ConfigIcon } from './icons/Cog';
+export { Cog as FoamConfig } from './icons/Cog';
+export { CogDuotone as ConfigurationDuotone } from './icons/CogDuotone';
+export { CogDuotone as ConfigurationDuotoneIcon } from './icons/CogDuotone';
+export { CogDuotone as FoamConfigurationDuotone } from './icons/CogDuotone';
+export { CogFill as ConfigurationFill } from './icons/CogFill';
+export { CogFill as ConfigurationFillIcon } from './icons/CogFill';
+export { CogFill as FoamConfigurationFill } from './icons/CogFill';
+export { Cog as Configuration } from './icons/Cog';
+export { Cog as ConfigurationIcon } from './icons/Cog';
+export { Cog as FoamConfiguration } from './icons/Cog';
+export { CogDuotone as OptionsDuotone } from './icons/CogDuotone';
+export { CogDuotone as OptionsDuotoneIcon } from './icons/CogDuotone';
+export { CogDuotone as FoamOptionsDuotone } from './icons/CogDuotone';
+export { CogFill as OptionsFill } from './icons/CogFill';
+export { CogFill as OptionsFillIcon } from './icons/CogFill';
+export { CogFill as FoamOptionsFill } from './icons/CogFill';
+export { Cog as Options } from './icons/Cog';
+export { Cog as OptionsIcon } from './icons/Cog';
+export { Cog as FoamOptions } from './icons/Cog';
+export { CogDuotone as CogwheelDuotone } from './icons/CogDuotone';
+export { CogDuotone as CogwheelDuotoneIcon } from './icons/CogDuotone';
+export { CogDuotone as FoamCogwheelDuotone } from './icons/CogDuotone';
+export { CogFill as CogwheelFill } from './icons/CogFill';
+export { CogFill as CogwheelFillIcon } from './icons/CogFill';
+export { CogFill as FoamCogwheelFill } from './icons/CogFill';
+export { Cog as Cogwheel } from './icons/Cog';
+export { Cog as CogwheelIcon } from './icons/Cog';
+export { Cog as FoamCogwheel } from './icons/Cog';
+export { Columns3Duotone as ColumnLayoutDuotone } from './icons/Columns3Duotone';
+export { Columns3Duotone as ColumnLayoutDuotoneIcon } from './icons/Columns3Duotone';
+export { Columns3Duotone as FoamColumnLayoutDuotone } from './icons/Columns3Duotone';
+export { Columns3Fill as ColumnLayoutFill } from './icons/Columns3Fill';
+export { Columns3Fill as ColumnLayoutFillIcon } from './icons/Columns3Fill';
+export { Columns3Fill as FoamColumnLayoutFill } from './icons/Columns3Fill';
+export { Columns3 as ColumnLayout } from './icons/Columns3';
+export { Columns3 as ColumnLayoutIcon } from './icons/Columns3';
+export { Columns3 as FoamColumnLayout } from './icons/Columns3';
+export { Columns3Duotone as ThreeColumnsDuotone } from './icons/Columns3Duotone';
+export { Columns3Duotone as ThreeColumnsDuotoneIcon } from './icons/Columns3Duotone';
+export { Columns3Duotone as FoamThreeColumnsDuotone } from './icons/Columns3Duotone';
+export { Columns3Fill as ThreeColumnsFill } from './icons/Columns3Fill';
+export { Columns3Fill as ThreeColumnsFillIcon } from './icons/Columns3Fill';
+export { Columns3Fill as FoamThreeColumnsFill } from './icons/Columns3Fill';
+export { Columns3 as ThreeColumns } from './icons/Columns3';
+export { Columns3 as ThreeColumnsIcon } from './icons/Columns3';
+export { Columns3 as FoamThreeColumns } from './icons/Columns3';
+export { CommandDuotone as CmdDuotone } from './icons/CommandDuotone';
+export { CommandDuotone as CmdDuotoneIcon } from './icons/CommandDuotone';
+export { CommandDuotone as FoamCmdDuotone } from './icons/CommandDuotone';
+export { CommandFill as CmdFill } from './icons/CommandFill';
+export { CommandFill as CmdFillIcon } from './icons/CommandFill';
+export { CommandFill as FoamCmdFill } from './icons/CommandFill';
+export { Command as Cmd } from './icons/Command';
+export { Command as CmdIcon } from './icons/Command';
+export { Command as FoamCmd } from './icons/Command';
+export { CommandDuotone as KeyboardDuotone } from './icons/CommandDuotone';
+export { CommandDuotone as KeyboardDuotoneIcon } from './icons/CommandDuotone';
+export { CommandDuotone as FoamKeyboardDuotone } from './icons/CommandDuotone';
+export { CommandFill as KeyboardFill } from './icons/CommandFill';
+export { CommandFill as KeyboardFillIcon } from './icons/CommandFill';
+export { CommandFill as FoamKeyboardFill } from './icons/CommandFill';
+export { Command as Keyboard } from './icons/Command';
+export { Command as KeyboardIcon } from './icons/Command';
+export { Command as FoamKeyboard } from './icons/Command';
+export { CommandDuotone as ShortcutDuotone } from './icons/CommandDuotone';
+export { CommandDuotone as ShortcutDuotoneIcon } from './icons/CommandDuotone';
+export { CommandDuotone as FoamShortcutDuotone } from './icons/CommandDuotone';
+export { CommandFill as ShortcutFill } from './icons/CommandFill';
+export { CommandFill as ShortcutFillIcon } from './icons/CommandFill';
+export { CommandFill as FoamShortcutFill } from './icons/CommandFill';
+export { Command as Shortcut } from './icons/Command';
+export { Command as ShortcutIcon } from './icons/Command';
+export { Command as FoamShortcut } from './icons/Command';
+export { ContentPlusDuotone as AddContentDuotone } from './icons/ContentPlusDuotone';
+export { ContentPlusDuotone as AddContentDuotoneIcon } from './icons/ContentPlusDuotone';
+export { ContentPlusDuotone as FoamAddContentDuotone } from './icons/ContentPlusDuotone';
+export { ContentPlusFill as AddContentFill } from './icons/ContentPlusFill';
+export { ContentPlusFill as AddContentFillIcon } from './icons/ContentPlusFill';
+export { ContentPlusFill as FoamAddContentFill } from './icons/ContentPlusFill';
+export { ContentPlus as AddContent } from './icons/ContentPlus';
+export { ContentPlus as AddContentIcon } from './icons/ContentPlus';
+export { ContentPlus as FoamAddContent } from './icons/ContentPlus';
+export { ContentPlusDuotone as NewPostDuotone } from './icons/ContentPlusDuotone';
+export { ContentPlusDuotone as NewPostDuotoneIcon } from './icons/ContentPlusDuotone';
+export { ContentPlusDuotone as FoamNewPostDuotone } from './icons/ContentPlusDuotone';
+export { ContentPlusFill as NewPostFill } from './icons/ContentPlusFill';
+export { ContentPlusFill as NewPostFillIcon } from './icons/ContentPlusFill';
+export { ContentPlusFill as FoamNewPostFill } from './icons/ContentPlusFill';
+export { ContentPlus as NewPost } from './icons/ContentPlus';
+export { ContentPlus as NewPostIcon } from './icons/ContentPlus';
+export { ContentPlus as FoamNewPost } from './icons/ContentPlus';
+export { ContentPlusDuotone as CreateContentDuotone } from './icons/ContentPlusDuotone';
+export { ContentPlusDuotone as CreateContentDuotoneIcon } from './icons/ContentPlusDuotone';
+export { ContentPlusDuotone as FoamCreateContentDuotone } from './icons/ContentPlusDuotone';
+export { ContentPlusFill as CreateContentFill } from './icons/ContentPlusFill';
+export { ContentPlusFill as CreateContentFillIcon } from './icons/ContentPlusFill';
+export { ContentPlusFill as FoamCreateContentFill } from './icons/ContentPlusFill';
+export { ContentPlus as CreateContent } from './icons/ContentPlus';
+export { ContentPlus as CreateContentIcon } from './icons/ContentPlus';
+export { ContentPlus as FoamCreateContent } from './icons/ContentPlus';
+export { CopyDuotone as DuplicateDuotone } from './icons/CopyDuotone';
+export { CopyDuotone as DuplicateDuotoneIcon } from './icons/CopyDuotone';
+export { CopyDuotone as FoamDuplicateDuotone } from './icons/CopyDuotone';
+export { CopyFill as DuplicateFill } from './icons/CopyFill';
+export { CopyFill as DuplicateFillIcon } from './icons/CopyFill';
+export { CopyFill as FoamDuplicateFill } from './icons/CopyFill';
+export { Copy as Duplicate } from './icons/Copy';
+export { Copy as DuplicateIcon } from './icons/Copy';
+export { Copy as FoamDuplicate } from './icons/Copy';
+export { CopyDuotone as CloneDuotone } from './icons/CopyDuotone';
+export { CopyDuotone as CloneDuotoneIcon } from './icons/CopyDuotone';
+export { CopyDuotone as FoamCloneDuotone } from './icons/CopyDuotone';
+export { CopyFill as CloneFill } from './icons/CopyFill';
+export { CopyFill as CloneFillIcon } from './icons/CopyFill';
+export { CopyFill as FoamCloneFill } from './icons/CopyFill';
+export { Copy as Clone } from './icons/Copy';
+export { Copy as CloneIcon } from './icons/Copy';
+export { Copy as FoamClone } from './icons/Copy';
+export { DownloadDuotone as ExportDuotone } from './icons/DownloadDuotone';
+export { DownloadDuotone as ExportDuotoneIcon } from './icons/DownloadDuotone';
+export { DownloadDuotone as FoamExportDuotone } from './icons/DownloadDuotone';
+export { DownloadFill as ExportFill } from './icons/DownloadFill';
+export { DownloadFill as ExportFillIcon } from './icons/DownloadFill';
+export { DownloadFill as FoamExportFill } from './icons/DownloadFill';
+export { Download as Export } from './icons/Download';
+export { Download as ExportIcon } from './icons/Download';
+export { Download as FoamExport } from './icons/Download';
+export { DownloadDuotone as GetDuotone } from './icons/DownloadDuotone';
+export { DownloadDuotone as GetDuotoneIcon } from './icons/DownloadDuotone';
+export { DownloadDuotone as FoamGetDuotone } from './icons/DownloadDuotone';
+export { DownloadFill as GetFill } from './icons/DownloadFill';
+export { DownloadFill as GetFillIcon } from './icons/DownloadFill';
+export { DownloadFill as FoamGetFill } from './icons/DownloadFill';
+export { Download as Get } from './icons/Download';
+export { Download as GetIcon } from './icons/Download';
+export { Download as FoamGet } from './icons/Download';
+export { DownloadDuotone as DownloadFileDuotone } from './icons/DownloadDuotone';
+export { DownloadDuotone as DownloadFileDuotoneIcon } from './icons/DownloadDuotone';
+export { DownloadDuotone as FoamDownloadFileDuotone } from './icons/DownloadDuotone';
+export { DownloadFill as DownloadFileFill } from './icons/DownloadFill';
+export { DownloadFill as DownloadFileFillIcon } from './icons/DownloadFill';
+export { DownloadFill as FoamDownloadFileFill } from './icons/DownloadFill';
+export { Download as DownloadFile } from './icons/Download';
+export { Download as DownloadFileIcon } from './icons/Download';
+export { Download as FoamDownloadFile } from './icons/Download';
+export { EclipseDuotone as HalfMoonDuotone } from './icons/EclipseDuotone';
+export { EclipseDuotone as HalfMoonDuotoneIcon } from './icons/EclipseDuotone';
+export { EclipseDuotone as FoamHalfMoonDuotone } from './icons/EclipseDuotone';
+export { EclipseFill as HalfMoonFill } from './icons/EclipseFill';
+export { EclipseFill as HalfMoonFillIcon } from './icons/EclipseFill';
+export { EclipseFill as FoamHalfMoonFill } from './icons/EclipseFill';
+export { Eclipse as HalfMoon } from './icons/Eclipse';
+export { Eclipse as HalfMoonIcon } from './icons/Eclipse';
+export { Eclipse as FoamHalfMoon } from './icons/Eclipse';
+export { EclipseDuotone as ContrastDuotone } from './icons/EclipseDuotone';
+export { EclipseDuotone as ContrastDuotoneIcon } from './icons/EclipseDuotone';
+export { EclipseDuotone as FoamContrastDuotone } from './icons/EclipseDuotone';
+export { EclipseFill as ContrastFill } from './icons/EclipseFill';
+export { EclipseFill as ContrastFillIcon } from './icons/EclipseFill';
+export { EclipseFill as FoamContrastFill } from './icons/EclipseFill';
+export { Eclipse as Contrast } from './icons/Eclipse';
+export { Eclipse as ContrastIcon } from './icons/Eclipse';
+export { Eclipse as FoamContrast } from './icons/Eclipse';
+export { ExternalLinkDuotone as OpenNewDuotone } from './icons/ExternalLinkDuotone';
+export { ExternalLinkDuotone as OpenNewDuotoneIcon } from './icons/ExternalLinkDuotone';
+export { ExternalLinkDuotone as FoamOpenNewDuotone } from './icons/ExternalLinkDuotone';
+export { ExternalLinkFill as OpenNewFill } from './icons/ExternalLinkFill';
+export { ExternalLinkFill as OpenNewFillIcon } from './icons/ExternalLinkFill';
+export { ExternalLinkFill as FoamOpenNewFill } from './icons/ExternalLinkFill';
+export { ExternalLink as OpenNew } from './icons/ExternalLink';
+export { ExternalLink as OpenNewIcon } from './icons/ExternalLink';
+export { ExternalLink as FoamOpenNew } from './icons/ExternalLink';
+export { ExternalLinkDuotone as ExternalDuotone } from './icons/ExternalLinkDuotone';
+export { ExternalLinkDuotone as ExternalDuotoneIcon } from './icons/ExternalLinkDuotone';
+export { ExternalLinkDuotone as FoamExternalDuotone } from './icons/ExternalLinkDuotone';
+export { ExternalLinkFill as ExternalFill } from './icons/ExternalLinkFill';
+export { ExternalLinkFill as ExternalFillIcon } from './icons/ExternalLinkFill';
+export { ExternalLinkFill as FoamExternalFill } from './icons/ExternalLinkFill';
+export { ExternalLink as External } from './icons/ExternalLink';
+export { ExternalLink as ExternalIcon } from './icons/ExternalLink';
+export { ExternalLink as FoamExternal } from './icons/ExternalLink';
+export { EyeDuotone as ViewDuotone } from './icons/EyeDuotone';
+export { EyeDuotone as ViewDuotoneIcon } from './icons/EyeDuotone';
+export { EyeDuotone as FoamViewDuotone } from './icons/EyeDuotone';
+export { EyeFill as ViewFill } from './icons/EyeFill';
+export { EyeFill as ViewFillIcon } from './icons/EyeFill';
+export { EyeFill as FoamViewFill } from './icons/EyeFill';
+export { Eye as View } from './icons/Eye';
+export { Eye as ViewIcon } from './icons/Eye';
+export { Eye as FoamView } from './icons/Eye';
+export { EyeDuotone as ShowDuotone } from './icons/EyeDuotone';
+export { EyeDuotone as ShowDuotoneIcon } from './icons/EyeDuotone';
+export { EyeDuotone as FoamShowDuotone } from './icons/EyeDuotone';
+export { EyeFill as ShowFill } from './icons/EyeFill';
+export { EyeFill as ShowFillIcon } from './icons/EyeFill';
+export { EyeFill as FoamShowFill } from './icons/EyeFill';
+export { Eye as Show } from './icons/Eye';
+export { Eye as ShowIcon } from './icons/Eye';
+export { Eye as FoamShow } from './icons/Eye';
+export { EyeDuotone as VisibleDuotone } from './icons/EyeDuotone';
+export { EyeDuotone as VisibleDuotoneIcon } from './icons/EyeDuotone';
+export { EyeDuotone as FoamVisibleDuotone } from './icons/EyeDuotone';
+export { EyeFill as VisibleFill } from './icons/EyeFill';
+export { EyeFill as VisibleFillIcon } from './icons/EyeFill';
+export { EyeFill as FoamVisibleFill } from './icons/EyeFill';
+export { Eye as Visible } from './icons/Eye';
+export { Eye as VisibleIcon } from './icons/Eye';
+export { Eye as FoamVisible } from './icons/Eye';
+export { EyeDuotone as VisibilityDuotone } from './icons/EyeDuotone';
+export { EyeDuotone as VisibilityDuotoneIcon } from './icons/EyeDuotone';
+export { EyeDuotone as FoamVisibilityDuotone } from './icons/EyeDuotone';
+export { EyeFill as VisibilityFill } from './icons/EyeFill';
+export { EyeFill as VisibilityFillIcon } from './icons/EyeFill';
+export { EyeFill as FoamVisibilityFill } from './icons/EyeFill';
+export { Eye as Visibility } from './icons/Eye';
+export { Eye as VisibilityIcon } from './icons/Eye';
+export { Eye as FoamVisibility } from './icons/Eye';
+export { EyeOffDuotone as HideDuotone } from './icons/EyeOffDuotone';
+export { EyeOffDuotone as HideDuotoneIcon } from './icons/EyeOffDuotone';
+export { EyeOffDuotone as FoamHideDuotone } from './icons/EyeOffDuotone';
+export { EyeOffFill as HideFill } from './icons/EyeOffFill';
+export { EyeOffFill as HideFillIcon } from './icons/EyeOffFill';
+export { EyeOffFill as FoamHideFill } from './icons/EyeOffFill';
+export { EyeOff as Hide } from './icons/EyeOff';
+export { EyeOff as HideIcon } from './icons/EyeOff';
+export { EyeOff as FoamHide } from './icons/EyeOff';
+export { EyeOffDuotone as HiddenDuotone } from './icons/EyeOffDuotone';
+export { EyeOffDuotone as HiddenDuotoneIcon } from './icons/EyeOffDuotone';
+export { EyeOffDuotone as FoamHiddenDuotone } from './icons/EyeOffDuotone';
+export { EyeOffFill as HiddenFill } from './icons/EyeOffFill';
+export { EyeOffFill as HiddenFillIcon } from './icons/EyeOffFill';
+export { EyeOffFill as FoamHiddenFill } from './icons/EyeOffFill';
+export { EyeOff as Hidden } from './icons/EyeOff';
+export { EyeOff as HiddenIcon } from './icons/EyeOff';
+export { EyeOff as FoamHidden } from './icons/EyeOff';
+export { EyeOffDuotone as InvisibleDuotone } from './icons/EyeOffDuotone';
+export { EyeOffDuotone as InvisibleDuotoneIcon } from './icons/EyeOffDuotone';
+export { EyeOffDuotone as FoamInvisibleDuotone } from './icons/EyeOffDuotone';
+export { EyeOffFill as InvisibleFill } from './icons/EyeOffFill';
+export { EyeOffFill as InvisibleFillIcon } from './icons/EyeOffFill';
+export { EyeOffFill as FoamInvisibleFill } from './icons/EyeOffFill';
+export { EyeOff as Invisible } from './icons/EyeOff';
+export { EyeOff as InvisibleIcon } from './icons/EyeOff';
+export { EyeOff as FoamInvisible } from './icons/EyeOff';
+export { FlameDuotone as FireDuotone } from './icons/FlameDuotone';
+export { FlameDuotone as FireDuotoneIcon } from './icons/FlameDuotone';
+export { FlameDuotone as FoamFireDuotone } from './icons/FlameDuotone';
+export { FlameFill as FireFill } from './icons/FlameFill';
+export { FlameFill as FireFillIcon } from './icons/FlameFill';
+export { FlameFill as FoamFireFill } from './icons/FlameFill';
+export { Flame as Fire } from './icons/Flame';
+export { Flame as FireIcon } from './icons/Flame';
+export { Flame as FoamFire } from './icons/Flame';
+export { FlameDuotone as HotDuotone } from './icons/FlameDuotone';
+export { FlameDuotone as HotDuotoneIcon } from './icons/FlameDuotone';
+export { FlameDuotone as FoamHotDuotone } from './icons/FlameDuotone';
+export { FlameFill as HotFill } from './icons/FlameFill';
+export { FlameFill as HotFillIcon } from './icons/FlameFill';
+export { FlameFill as FoamHotFill } from './icons/FlameFill';
+export { Flame as Hot } from './icons/Flame';
+export { Flame as HotIcon } from './icons/Flame';
+export { Flame as FoamHot } from './icons/Flame';
+export { FlameDuotone as TrendingDuotone } from './icons/FlameDuotone';
+export { FlameDuotone as TrendingDuotoneIcon } from './icons/FlameDuotone';
+export { FlameDuotone as FoamTrendingDuotone } from './icons/FlameDuotone';
+export { FlameFill as TrendingFill } from './icons/FlameFill';
+export { FlameFill as TrendingFillIcon } from './icons/FlameFill';
+export { FlameFill as FoamTrendingFill } from './icons/FlameFill';
+export { Flame as Trending } from './icons/Flame';
+export { Flame as TrendingIcon } from './icons/Flame';
+export { Flame as FoamTrending } from './icons/Flame';
+export { FrownDuotone as SadDuotone } from './icons/FrownDuotone';
+export { FrownDuotone as SadDuotoneIcon } from './icons/FrownDuotone';
+export { FrownDuotone as FoamSadDuotone } from './icons/FrownDuotone';
+export { FrownFill as SadFill } from './icons/FrownFill';
+export { FrownFill as SadFillIcon } from './icons/FrownFill';
+export { FrownFill as FoamSadFill } from './icons/FrownFill';
+export { Frown as Sad } from './icons/Frown';
+export { Frown as SadIcon } from './icons/Frown';
+export { Frown as FoamSad } from './icons/Frown';
+export { FrownDuotone as UnhappyDuotone } from './icons/FrownDuotone';
+export { FrownDuotone as UnhappyDuotoneIcon } from './icons/FrownDuotone';
+export { FrownDuotone as FoamUnhappyDuotone } from './icons/FrownDuotone';
+export { FrownFill as UnhappyFill } from './icons/FrownFill';
+export { FrownFill as UnhappyFillIcon } from './icons/FrownFill';
+export { FrownFill as FoamUnhappyFill } from './icons/FrownFill';
+export { Frown as Unhappy } from './icons/Frown';
+export { Frown as UnhappyIcon } from './icons/Frown';
+export { Frown as FoamUnhappy } from './icons/Frown';
+export { FrownDuotone as NegativeDuotone } from './icons/FrownDuotone';
+export { FrownDuotone as NegativeDuotoneIcon } from './icons/FrownDuotone';
+export { FrownDuotone as FoamNegativeDuotone } from './icons/FrownDuotone';
+export { FrownFill as NegativeFill } from './icons/FrownFill';
+export { FrownFill as NegativeFillIcon } from './icons/FrownFill';
+export { FrownFill as FoamNegativeFill } from './icons/FrownFill';
+export { Frown as Negative } from './icons/Frown';
+export { Frown as NegativeIcon } from './icons/Frown';
+export { Frown as FoamNegative } from './icons/Frown';
+export { FullscreenDuotone as FullScreenDuotone } from './icons/FullscreenDuotone';
+export { FullscreenDuotone as FullScreenDuotoneIcon } from './icons/FullscreenDuotone';
+export { FullscreenDuotone as FoamFullScreenDuotone } from './icons/FullscreenDuotone';
+export { FullscreenFill as FullScreenFill } from './icons/FullscreenFill';
+export { FullscreenFill as FullScreenFillIcon } from './icons/FullscreenFill';
+export { FullscreenFill as FoamFullScreenFill } from './icons/FullscreenFill';
+export { Fullscreen as FullScreen } from './icons/Fullscreen';
+export { Fullscreen as FullScreenIcon } from './icons/Fullscreen';
+export { Fullscreen as FoamFullScreen } from './icons/Fullscreen';
+export { FullscreenDuotone as MaximizeScreenDuotone } from './icons/FullscreenDuotone';
+export { FullscreenDuotone as MaximizeScreenDuotoneIcon } from './icons/FullscreenDuotone';
+export { FullscreenDuotone as FoamMaximizeScreenDuotone } from './icons/FullscreenDuotone';
+export { FullscreenFill as MaximizeScreenFill } from './icons/FullscreenFill';
+export { FullscreenFill as MaximizeScreenFillIcon } from './icons/FullscreenFill';
+export { FullscreenFill as FoamMaximizeScreenFill } from './icons/FullscreenFill';
+export { Fullscreen as MaximizeScreen } from './icons/Fullscreen';
+export { Fullscreen as MaximizeScreenIcon } from './icons/Fullscreen';
+export { Fullscreen as FoamMaximizeScreen } from './icons/Fullscreen';
+export { GlobeDuotone as WorldDuotone } from './icons/GlobeDuotone';
+export { GlobeDuotone as WorldDuotoneIcon } from './icons/GlobeDuotone';
+export { GlobeDuotone as FoamWorldDuotone } from './icons/GlobeDuotone';
+export { GlobeFill as WorldFill } from './icons/GlobeFill';
+export { GlobeFill as WorldFillIcon } from './icons/GlobeFill';
+export { GlobeFill as FoamWorldFill } from './icons/GlobeFill';
+export { Globe as World } from './icons/Globe';
+export { Globe as WorldIcon } from './icons/Globe';
+export { Globe as FoamWorld } from './icons/Globe';
+export { GlobeDuotone as WebDuotone } from './icons/GlobeDuotone';
+export { GlobeDuotone as WebDuotoneIcon } from './icons/GlobeDuotone';
+export { GlobeDuotone as FoamWebDuotone } from './icons/GlobeDuotone';
+export { GlobeFill as WebFill } from './icons/GlobeFill';
+export { GlobeFill as WebFillIcon } from './icons/GlobeFill';
+export { GlobeFill as FoamWebFill } from './icons/GlobeFill';
+export { Globe as Web } from './icons/Globe';
+export { Globe as WebIcon } from './icons/Globe';
+export { Globe as FoamWeb } from './icons/Globe';
+export { GlobeDuotone as InternetDuotone } from './icons/GlobeDuotone';
+export { GlobeDuotone as InternetDuotoneIcon } from './icons/GlobeDuotone';
+export { GlobeDuotone as FoamInternetDuotone } from './icons/GlobeDuotone';
+export { GlobeFill as InternetFill } from './icons/GlobeFill';
+export { GlobeFill as InternetFillIcon } from './icons/GlobeFill';
+export { GlobeFill as FoamInternetFill } from './icons/GlobeFill';
+export { Globe as Internet } from './icons/Globe';
+export { Globe as InternetIcon } from './icons/Globe';
+export { Globe as FoamInternet } from './icons/Globe';
+export { GlobeDuotone as LanguageDuotone } from './icons/GlobeDuotone';
+export { GlobeDuotone as LanguageDuotoneIcon } from './icons/GlobeDuotone';
+export { GlobeDuotone as FoamLanguageDuotone } from './icons/GlobeDuotone';
+export { GlobeFill as LanguageFill } from './icons/GlobeFill';
+export { GlobeFill as LanguageFillIcon } from './icons/GlobeFill';
+export { GlobeFill as FoamLanguageFill } from './icons/GlobeFill';
+export { Globe as Language } from './icons/Globe';
+export { Globe as LanguageIcon } from './icons/Globe';
+export { Globe as FoamLanguage } from './icons/Globe';
+export { Grid1x2Duotone as DesignDuotone } from './icons/Grid1x2Duotone';
+export { Grid1x2Duotone as DesignDuotoneIcon } from './icons/Grid1x2Duotone';
+export { Grid1x2Duotone as FoamDesignDuotone } from './icons/Grid1x2Duotone';
+export { Grid1x2Fill as DesignFill } from './icons/Grid1x2Fill';
+export { Grid1x2Fill as DesignFillIcon } from './icons/Grid1x2Fill';
+export { Grid1x2Fill as FoamDesignFill } from './icons/Grid1x2Fill';
+export { Grid1x2 as Design } from './icons/Grid1x2';
+export { Grid1x2 as DesignIcon } from './icons/Grid1x2';
+export { Grid1x2 as FoamDesign } from './icons/Grid1x2';
+export { Grid1x2Duotone as CardsDuotone } from './icons/Grid1x2Duotone';
+export { Grid1x2Duotone as CardsDuotoneIcon } from './icons/Grid1x2Duotone';
+export { Grid1x2Duotone as FoamCardsDuotone } from './icons/Grid1x2Duotone';
+export { Grid1x2Fill as CardsFill } from './icons/Grid1x2Fill';
+export { Grid1x2Fill as CardsFillIcon } from './icons/Grid1x2Fill';
+export { Grid1x2Fill as FoamCardsFill } from './icons/Grid1x2Fill';
+export { Grid1x2 as Cards } from './icons/Grid1x2';
+export { Grid1x2 as CardsIcon } from './icons/Grid1x2';
+export { Grid1x2 as FoamCards } from './icons/Grid1x2';
+export { Grid2x2Duotone as GridDuotone } from './icons/Grid2x2Duotone';
+export { Grid2x2Duotone as GridDuotoneIcon } from './icons/Grid2x2Duotone';
+export { Grid2x2Duotone as FoamGridDuotone } from './icons/Grid2x2Duotone';
+export { Grid2x2Fill as GridFill } from './icons/Grid2x2Fill';
+export { Grid2x2Fill as GridFillIcon } from './icons/Grid2x2Fill';
+export { Grid2x2Fill as FoamGridFill } from './icons/Grid2x2Fill';
+export { Grid2x2 as Grid } from './icons/Grid2x2';
+export { Grid2x2 as GridIcon } from './icons/Grid2x2';
+export { Grid2x2 as FoamGrid } from './icons/Grid2x2';
+export { Grid2x2Duotone as TilesDuotone } from './icons/Grid2x2Duotone';
+export { Grid2x2Duotone as TilesDuotoneIcon } from './icons/Grid2x2Duotone';
+export { Grid2x2Duotone as FoamTilesDuotone } from './icons/Grid2x2Duotone';
+export { Grid2x2Fill as TilesFill } from './icons/Grid2x2Fill';
+export { Grid2x2Fill as TilesFillIcon } from './icons/Grid2x2Fill';
+export { Grid2x2Fill as FoamTilesFill } from './icons/Grid2x2Fill';
+export { Grid2x2 as Tiles } from './icons/Grid2x2';
+export { Grid2x2 as TilesIcon } from './icons/Grid2x2';
+export { Grid2x2 as FoamTiles } from './icons/Grid2x2';
+export { Grid2x2Duotone as LayoutDuotone } from './icons/Grid2x2Duotone';
+export { Grid2x2Duotone as LayoutDuotoneIcon } from './icons/Grid2x2Duotone';
+export { Grid2x2Duotone as FoamLayoutDuotone } from './icons/Grid2x2Duotone';
+export { Grid2x2Fill as LayoutFill } from './icons/Grid2x2Fill';
+export { Grid2x2Fill as LayoutFillIcon } from './icons/Grid2x2Fill';
+export { Grid2x2Fill as FoamLayoutFill } from './icons/Grid2x2Fill';
+export { Grid2x2 as Layout } from './icons/Grid2x2';
+export { Grid2x2 as LayoutIcon } from './icons/Grid2x2';
+export { Grid2x2 as FoamLayout } from './icons/Grid2x2';
+export { HeartDuotone as LoveDuotone } from './icons/HeartDuotone';
+export { HeartDuotone as LoveDuotoneIcon } from './icons/HeartDuotone';
+export { HeartDuotone as FoamLoveDuotone } from './icons/HeartDuotone';
+export { HeartFill as LoveFill } from './icons/HeartFill';
+export { HeartFill as LoveFillIcon } from './icons/HeartFill';
+export { HeartFill as FoamLoveFill } from './icons/HeartFill';
+export { Heart as Love } from './icons/Heart';
+export { Heart as LoveIcon } from './icons/Heart';
+export { Heart as FoamLove } from './icons/Heart';
+export { HeartDuotone as EmotionDuotone } from './icons/HeartDuotone';
+export { HeartDuotone as EmotionDuotoneIcon } from './icons/HeartDuotone';
+export { HeartDuotone as FoamEmotionDuotone } from './icons/HeartDuotone';
+export { HeartFill as EmotionFill } from './icons/HeartFill';
+export { HeartFill as EmotionFillIcon } from './icons/HeartFill';
+export { HeartFill as FoamEmotionFill } from './icons/HeartFill';
+export { Heart as Emotion } from './icons/Heart';
+export { Heart as EmotionIcon } from './icons/Heart';
+export { Heart as FoamEmotion } from './icons/Heart';
+export { HeartDuotone as LikesDuotone } from './icons/HeartDuotone';
+export { HeartDuotone as LikesDuotoneIcon } from './icons/HeartDuotone';
+export { HeartDuotone as FoamLikesDuotone } from './icons/HeartDuotone';
+export { HeartFill as LikesFill } from './icons/HeartFill';
+export { HeartFill as LikesFillIcon } from './icons/HeartFill';
+export { HeartFill as FoamLikesFill } from './icons/HeartFill';
+export { Heart as Likes } from './icons/Heart';
+export { Heart as LikesIcon } from './icons/Heart';
+export { Heart as FoamLikes } from './icons/Heart';
+export { HistoryDuotone as RecentDuotone } from './icons/HistoryDuotone';
+export { HistoryDuotone as RecentDuotoneIcon } from './icons/HistoryDuotone';
+export { HistoryDuotone as FoamRecentDuotone } from './icons/HistoryDuotone';
+export { HistoryFill as RecentFill } from './icons/HistoryFill';
+export { HistoryFill as RecentFillIcon } from './icons/HistoryFill';
+export { HistoryFill as FoamRecentFill } from './icons/HistoryFill';
+export { History as Recent } from './icons/History';
+export { History as RecentIcon } from './icons/History';
+export { History as FoamRecent } from './icons/History';
+export { HistoryDuotone as PastDuotone } from './icons/HistoryDuotone';
+export { HistoryDuotone as PastDuotoneIcon } from './icons/HistoryDuotone';
+export { HistoryDuotone as FoamPastDuotone } from './icons/HistoryDuotone';
+export { HistoryFill as PastFill } from './icons/HistoryFill';
+export { HistoryFill as PastFillIcon } from './icons/HistoryFill';
+export { HistoryFill as FoamPastFill } from './icons/HistoryFill';
+export { History as Past } from './icons/History';
+export { History as PastIcon } from './icons/History';
+export { History as FoamPast } from './icons/History';
+export { HistoryDuotone as UndoDuotone } from './icons/HistoryDuotone';
+export { HistoryDuotone as UndoDuotoneIcon } from './icons/HistoryDuotone';
+export { HistoryDuotone as FoamUndoDuotone } from './icons/HistoryDuotone';
+export { HistoryFill as UndoFill } from './icons/HistoryFill';
+export { HistoryFill as UndoFillIcon } from './icons/HistoryFill';
+export { HistoryFill as FoamUndoFill } from './icons/HistoryFill';
+export { History as Undo } from './icons/History';
+export { History as UndoIcon } from './icons/History';
+export { History as FoamUndo } from './icons/History';
+export { HotspotDuotone as WifiDuotone } from './icons/HotspotDuotone';
+export { HotspotDuotone as WifiDuotoneIcon } from './icons/HotspotDuotone';
+export { HotspotDuotone as FoamWifiDuotone } from './icons/HotspotDuotone';
+export { HotspotFill as WifiFill } from './icons/HotspotFill';
+export { HotspotFill as WifiFillIcon } from './icons/HotspotFill';
+export { HotspotFill as FoamWifiFill } from './icons/HotspotFill';
+export { Hotspot as Wifi } from './icons/Hotspot';
+export { Hotspot as WifiIcon } from './icons/Hotspot';
+export { Hotspot as FoamWifi } from './icons/Hotspot';
+export { HotspotDuotone as SignalDuotone } from './icons/HotspotDuotone';
+export { HotspotDuotone as SignalDuotoneIcon } from './icons/HotspotDuotone';
+export { HotspotDuotone as FoamSignalDuotone } from './icons/HotspotDuotone';
+export { HotspotFill as SignalFill } from './icons/HotspotFill';
+export { HotspotFill as SignalFillIcon } from './icons/HotspotFill';
+export { HotspotFill as FoamSignalFill } from './icons/HotspotFill';
+export { Hotspot as Signal } from './icons/Hotspot';
+export { Hotspot as SignalIcon } from './icons/Hotspot';
+export { Hotspot as FoamSignal } from './icons/Hotspot';
+export { HotspotDuotone as WirelessDuotone } from './icons/HotspotDuotone';
+export { HotspotDuotone as WirelessDuotoneIcon } from './icons/HotspotDuotone';
+export { HotspotDuotone as FoamWirelessDuotone } from './icons/HotspotDuotone';
+export { HotspotFill as WirelessFill } from './icons/HotspotFill';
+export { HotspotFill as WirelessFillIcon } from './icons/HotspotFill';
+export { HotspotFill as FoamWirelessFill } from './icons/HotspotFill';
+export { Hotspot as Wireless } from './icons/Hotspot';
+export { Hotspot as WirelessIcon } from './icons/Hotspot';
+export { Hotspot as FoamWireless } from './icons/Hotspot';
+export { HouseDuotone as HomeDuotone } from './icons/HouseDuotone';
+export { HouseDuotone as HomeDuotoneIcon } from './icons/HouseDuotone';
+export { HouseDuotone as FoamHomeDuotone } from './icons/HouseDuotone';
+export { HouseFill as HomeFill } from './icons/HouseFill';
+export { HouseFill as HomeFillIcon } from './icons/HouseFill';
+export { HouseFill as FoamHomeFill } from './icons/HouseFill';
+export { House as Home } from './icons/House';
+export { House as HomeIcon } from './icons/House';
+export { House as FoamHome } from './icons/House';
+export { ImageDuotone as PhotoDuotone } from './icons/ImageDuotone';
+export { ImageDuotone as PhotoDuotoneIcon } from './icons/ImageDuotone';
+export { ImageDuotone as FoamPhotoDuotone } from './icons/ImageDuotone';
+export { ImageFill as PhotoFill } from './icons/ImageFill';
+export { ImageFill as PhotoFillIcon } from './icons/ImageFill';
+export { ImageFill as FoamPhotoFill } from './icons/ImageFill';
+export { Image as Photo } from './icons/Image';
+export { Image as PhotoIcon } from './icons/Image';
+export { Image as FoamPhoto } from './icons/Image';
+export { ImageDuotone as PictureDuotone } from './icons/ImageDuotone';
+export { ImageDuotone as PictureDuotoneIcon } from './icons/ImageDuotone';
+export { ImageDuotone as FoamPictureDuotone } from './icons/ImageDuotone';
+export { ImageFill as PictureFill } from './icons/ImageFill';
+export { ImageFill as PictureFillIcon } from './icons/ImageFill';
+export { ImageFill as FoamPictureFill } from './icons/ImageFill';
+export { Image as Picture } from './icons/Image';
+export { Image as PictureIcon } from './icons/Image';
+export { Image as FoamPicture } from './icons/Image';
+export { ImageDuotone as MediaDuotone } from './icons/ImageDuotone';
+export { ImageDuotone as MediaDuotoneIcon } from './icons/ImageDuotone';
+export { ImageDuotone as FoamMediaDuotone } from './icons/ImageDuotone';
+export { ImageFill as MediaFill } from './icons/ImageFill';
+export { ImageFill as MediaFillIcon } from './icons/ImageFill';
+export { ImageFill as FoamMediaFill } from './icons/ImageFill';
+export { Image as Media } from './icons/Image';
+export { Image as MediaIcon } from './icons/Image';
+export { Image as FoamMedia } from './icons/Image';
+export { ImagesDuotone as PhotosDuotone } from './icons/ImagesDuotone';
+export { ImagesDuotone as PhotosDuotoneIcon } from './icons/ImagesDuotone';
+export { ImagesDuotone as FoamPhotosDuotone } from './icons/ImagesDuotone';
+export { ImagesFill as PhotosFill } from './icons/ImagesFill';
+export { ImagesFill as PhotosFillIcon } from './icons/ImagesFill';
+export { ImagesFill as FoamPhotosFill } from './icons/ImagesFill';
+export { Images as Photos } from './icons/Images';
+export { Images as PhotosIcon } from './icons/Images';
+export { Images as FoamPhotos } from './icons/Images';
+export { ImagesDuotone as PicturesDuotone } from './icons/ImagesDuotone';
+export { ImagesDuotone as PicturesDuotoneIcon } from './icons/ImagesDuotone';
+export { ImagesDuotone as FoamPicturesDuotone } from './icons/ImagesDuotone';
+export { ImagesFill as PicturesFill } from './icons/ImagesFill';
+export { ImagesFill as PicturesFillIcon } from './icons/ImagesFill';
+export { ImagesFill as FoamPicturesFill } from './icons/ImagesFill';
+export { Images as Pictures } from './icons/Images';
+export { Images as PicturesIcon } from './icons/Images';
+export { Images as FoamPictures } from './icons/Images';
+export { ImagesDuotone as GalleryDuotone } from './icons/ImagesDuotone';
+export { ImagesDuotone as GalleryDuotoneIcon } from './icons/ImagesDuotone';
+export { ImagesDuotone as FoamGalleryDuotone } from './icons/ImagesDuotone';
+export { ImagesFill as GalleryFill } from './icons/ImagesFill';
+export { ImagesFill as GalleryFillIcon } from './icons/ImagesFill';
+export { ImagesFill as FoamGalleryFill } from './icons/ImagesFill';
+export { Images as Gallery } from './icons/Images';
+export { Images as GalleryIcon } from './icons/Images';
+export { Images as FoamGallery } from './icons/Images';
+export { InboxDuotone as MailboxDuotone } from './icons/InboxDuotone';
+export { InboxDuotone as MailboxDuotoneIcon } from './icons/InboxDuotone';
+export { InboxDuotone as FoamMailboxDuotone } from './icons/InboxDuotone';
+export { InboxFill as MailboxFill } from './icons/InboxFill';
+export { InboxFill as MailboxFillIcon } from './icons/InboxFill';
+export { InboxFill as FoamMailboxFill } from './icons/InboxFill';
+export { Inbox as Mailbox } from './icons/Inbox';
+export { Inbox as MailboxIcon } from './icons/Inbox';
+export { Inbox as FoamMailbox } from './icons/Inbox';
+export { InboxDuotone as TrayDuotone } from './icons/InboxDuotone';
+export { InboxDuotone as TrayDuotoneIcon } from './icons/InboxDuotone';
+export { InboxDuotone as FoamTrayDuotone } from './icons/InboxDuotone';
+export { InboxFill as TrayFill } from './icons/InboxFill';
+export { InboxFill as TrayFillIcon } from './icons/InboxFill';
+export { InboxFill as FoamTrayFill } from './icons/InboxFill';
+export { Inbox as Tray } from './icons/Inbox';
+export { Inbox as TrayIcon } from './icons/Inbox';
+export { Inbox as FoamTray } from './icons/Inbox';
+export { InfoDuotone as InformationDuotone } from './icons/InfoDuotone';
+export { InfoDuotone as InformationDuotoneIcon } from './icons/InfoDuotone';
+export { InfoDuotone as FoamInformationDuotone } from './icons/InfoDuotone';
+export { InfoFill as InformationFill } from './icons/InfoFill';
+export { InfoFill as InformationFillIcon } from './icons/InfoFill';
+export { InfoFill as FoamInformationFill } from './icons/InfoFill';
+export { Info as Information } from './icons/Info';
+export { Info as InformationIcon } from './icons/Info';
+export { Info as FoamInformation } from './icons/Info';
+export { InfoDuotone as AboutDuotone } from './icons/InfoDuotone';
+export { InfoDuotone as AboutDuotoneIcon } from './icons/InfoDuotone';
+export { InfoDuotone as FoamAboutDuotone } from './icons/InfoDuotone';
+export { InfoFill as AboutFill } from './icons/InfoFill';
+export { InfoFill as AboutFillIcon } from './icons/InfoFill';
+export { InfoFill as FoamAboutFill } from './icons/InfoFill';
+export { Info as About } from './icons/Info';
+export { Info as AboutIcon } from './icons/Info';
+export { Info as FoamAbout } from './icons/Info';
+export { InfoDuotone as DetailsDuotone } from './icons/InfoDuotone';
+export { InfoDuotone as DetailsDuotoneIcon } from './icons/InfoDuotone';
+export { InfoDuotone as FoamDetailsDuotone } from './icons/InfoDuotone';
+export { InfoFill as DetailsFill } from './icons/InfoFill';
+export { InfoFill as DetailsFillIcon } from './icons/InfoFill';
+export { InfoFill as FoamDetailsFill } from './icons/InfoFill';
+export { Info as Details } from './icons/Info';
+export { Info as DetailsIcon } from './icons/Info';
+export { Info as FoamDetails } from './icons/Info';
+export { ItalicDuotone as EmphasisDuotone } from './icons/ItalicDuotone';
+export { ItalicDuotone as EmphasisDuotoneIcon } from './icons/ItalicDuotone';
+export { ItalicDuotone as FoamEmphasisDuotone } from './icons/ItalicDuotone';
+export { ItalicFill as EmphasisFill } from './icons/ItalicFill';
+export { ItalicFill as EmphasisFillIcon } from './icons/ItalicFill';
+export { ItalicFill as FoamEmphasisFill } from './icons/ItalicFill';
+export { Italic as Emphasis } from './icons/Italic';
+export { Italic as EmphasisIcon } from './icons/Italic';
+export { Italic as FoamEmphasis } from './icons/Italic';
+export { ItalicDuotone as TextItalicDuotone } from './icons/ItalicDuotone';
+export { ItalicDuotone as TextItalicDuotoneIcon } from './icons/ItalicDuotone';
+export { ItalicDuotone as FoamTextItalicDuotone } from './icons/ItalicDuotone';
+export { ItalicFill as TextItalicFill } from './icons/ItalicFill';
+export { ItalicFill as TextItalicFillIcon } from './icons/ItalicFill';
+export { ItalicFill as FoamTextItalicFill } from './icons/ItalicFill';
+export { Italic as TextItalic } from './icons/Italic';
+export { Italic as TextItalicIcon } from './icons/Italic';
+export { Italic as FoamTextItalic } from './icons/Italic';
+export { LinkDuotone as UrlDuotone } from './icons/LinkDuotone';
+export { LinkDuotone as UrlDuotoneIcon } from './icons/LinkDuotone';
+export { LinkDuotone as FoamUrlDuotone } from './icons/LinkDuotone';
+export { LinkFill as UrlFill } from './icons/LinkFill';
+export { LinkFill as UrlFillIcon } from './icons/LinkFill';
+export { LinkFill as FoamUrlFill } from './icons/LinkFill';
+export { Link as Url } from './icons/Link';
+export { Link as UrlIcon } from './icons/Link';
+export { Link as FoamUrl } from './icons/Link';
+export { LinkDuotone as ChainDuotone } from './icons/LinkDuotone';
+export { LinkDuotone as ChainDuotoneIcon } from './icons/LinkDuotone';
+export { LinkDuotone as FoamChainDuotone } from './icons/LinkDuotone';
+export { LinkFill as ChainFill } from './icons/LinkFill';
+export { LinkFill as ChainFillIcon } from './icons/LinkFill';
+export { LinkFill as FoamChainFill } from './icons/LinkFill';
+export { Link as Chain } from './icons/Link';
+export { Link as ChainIcon } from './icons/Link';
+export { Link as FoamChain } from './icons/Link';
+export { LinkDuotone as ConnectDuotone } from './icons/LinkDuotone';
+export { LinkDuotone as ConnectDuotoneIcon } from './icons/LinkDuotone';
+export { LinkDuotone as FoamConnectDuotone } from './icons/LinkDuotone';
+export { LinkFill as ConnectFill } from './icons/LinkFill';
+export { LinkFill as ConnectFillIcon } from './icons/LinkFill';
+export { LinkFill as FoamConnectFill } from './icons/LinkFill';
+export { Link as Connect } from './icons/Link';
+export { Link as ConnectIcon } from './icons/Link';
+export { Link as FoamConnect } from './icons/Link';
+export { ListDuotone as ItemsDuotone } from './icons/ListDuotone';
+export { ListDuotone as ItemsDuotoneIcon } from './icons/ListDuotone';
+export { ListDuotone as FoamItemsDuotone } from './icons/ListDuotone';
+export { ListFill as ItemsFill } from './icons/ListFill';
+export { ListFill as ItemsFillIcon } from './icons/ListFill';
+export { ListFill as FoamItemsFill } from './icons/ListFill';
+export { List as Items } from './icons/List';
+export { List as ItemsIcon } from './icons/List';
+export { List as FoamItems } from './icons/List';
+export { ListDuotone as BulletsDuotone } from './icons/ListDuotone';
+export { ListDuotone as BulletsDuotoneIcon } from './icons/ListDuotone';
+export { ListDuotone as FoamBulletsDuotone } from './icons/ListDuotone';
+export { ListFill as BulletsFill } from './icons/ListFill';
+export { ListFill as BulletsFillIcon } from './icons/ListFill';
+export { ListFill as FoamBulletsFill } from './icons/ListFill';
+export { List as Bullets } from './icons/List';
+export { List as BulletsIcon } from './icons/List';
+export { List as FoamBullets } from './icons/List';
+export { ListFilterDuotone as FilterDuotone } from './icons/ListFilterDuotone';
+export { ListFilterDuotone as FilterDuotoneIcon } from './icons/ListFilterDuotone';
+export { ListFilterDuotone as FoamFilterDuotone } from './icons/ListFilterDuotone';
+export { ListFilterFill as FilterFill } from './icons/ListFilterFill';
+export { ListFilterFill as FilterFillIcon } from './icons/ListFilterFill';
+export { ListFilterFill as FoamFilterFill } from './icons/ListFilterFill';
+export { ListFilter as Filter } from './icons/ListFilter';
+export { ListFilter as FilterIcon } from './icons/ListFilter';
+export { ListFilter as FoamFilter } from './icons/ListFilter';
+export { ListFilterDuotone as FunnelDuotone } from './icons/ListFilterDuotone';
+export { ListFilterDuotone as FunnelDuotoneIcon } from './icons/ListFilterDuotone';
+export { ListFilterDuotone as FoamFunnelDuotone } from './icons/ListFilterDuotone';
+export { ListFilterFill as FunnelFill } from './icons/ListFilterFill';
+export { ListFilterFill as FunnelFillIcon } from './icons/ListFilterFill';
+export { ListFilterFill as FoamFunnelFill } from './icons/ListFilterFill';
+export { ListFilter as Funnel } from './icons/ListFilter';
+export { ListFilter as FunnelIcon } from './icons/ListFilter';
+export { ListFilter as FoamFunnel } from './icons/ListFilter';
+export { ListOrderedDuotone as NumberedListDuotone } from './icons/ListOrderedDuotone';
+export { ListOrderedDuotone as NumberedListDuotoneIcon } from './icons/ListOrderedDuotone';
+export { ListOrderedDuotone as FoamNumberedListDuotone } from './icons/ListOrderedDuotone';
+export { ListOrderedFill as NumberedListFill } from './icons/ListOrderedFill';
+export { ListOrderedFill as NumberedListFillIcon } from './icons/ListOrderedFill';
+export { ListOrderedFill as FoamNumberedListFill } from './icons/ListOrderedFill';
+export { ListOrdered as NumberedList } from './icons/ListOrdered';
+export { ListOrdered as NumberedListIcon } from './icons/ListOrdered';
+export { ListOrdered as FoamNumberedList } from './icons/ListOrdered';
+export { ListOrderedDuotone as OlDuotone } from './icons/ListOrderedDuotone';
+export { ListOrderedDuotone as OlDuotoneIcon } from './icons/ListOrderedDuotone';
+export { ListOrderedDuotone as FoamOlDuotone } from './icons/ListOrderedDuotone';
+export { ListOrderedFill as OlFill } from './icons/ListOrderedFill';
+export { ListOrderedFill as OlFillIcon } from './icons/ListOrderedFill';
+export { ListOrderedFill as FoamOlFill } from './icons/ListOrderedFill';
+export { ListOrdered as Ol } from './icons/ListOrdered';
+export { ListOrdered as OlIcon } from './icons/ListOrdered';
+export { ListOrdered as FoamOl } from './icons/ListOrdered';
+export { LoaderCircleDuotone as LoadingDuotone } from './icons/LoaderCircleDuotone';
+export { LoaderCircleDuotone as LoadingDuotoneIcon } from './icons/LoaderCircleDuotone';
+export { LoaderCircleDuotone as FoamLoadingDuotone } from './icons/LoaderCircleDuotone';
+export { LoaderCircleFill as LoadingFill } from './icons/LoaderCircleFill';
+export { LoaderCircleFill as LoadingFillIcon } from './icons/LoaderCircleFill';
+export { LoaderCircleFill as FoamLoadingFill } from './icons/LoaderCircleFill';
+export { LoaderCircle as Loading } from './icons/LoaderCircle';
+export { LoaderCircle as LoadingIcon } from './icons/LoaderCircle';
+export { LoaderCircle as FoamLoading } from './icons/LoaderCircle';
+export { LoaderCircleDuotone as SpinnerDuotone } from './icons/LoaderCircleDuotone';
+export { LoaderCircleDuotone as SpinnerDuotoneIcon } from './icons/LoaderCircleDuotone';
+export { LoaderCircleDuotone as FoamSpinnerDuotone } from './icons/LoaderCircleDuotone';
+export { LoaderCircleFill as SpinnerFill } from './icons/LoaderCircleFill';
+export { LoaderCircleFill as SpinnerFillIcon } from './icons/LoaderCircleFill';
+export { LoaderCircleFill as FoamSpinnerFill } from './icons/LoaderCircleFill';
+export { LoaderCircle as Spinner } from './icons/LoaderCircle';
+export { LoaderCircle as SpinnerIcon } from './icons/LoaderCircle';
+export { LoaderCircle as FoamSpinner } from './icons/LoaderCircle';
+export { LoaderCircleDuotone as ProgressDuotone } from './icons/LoaderCircleDuotone';
+export { LoaderCircleDuotone as ProgressDuotoneIcon } from './icons/LoaderCircleDuotone';
+export { LoaderCircleDuotone as FoamProgressDuotone } from './icons/LoaderCircleDuotone';
+export { LoaderCircleFill as ProgressFill } from './icons/LoaderCircleFill';
+export { LoaderCircleFill as ProgressFillIcon } from './icons/LoaderCircleFill';
+export { LoaderCircleFill as FoamProgressFill } from './icons/LoaderCircleFill';
+export { LoaderCircle as Progress } from './icons/LoaderCircle';
+export { LoaderCircle as ProgressIcon } from './icons/LoaderCircle';
+export { LoaderCircle as FoamProgress } from './icons/LoaderCircle';
+export { LockDuotone as SecureDuotone } from './icons/LockDuotone';
+export { LockDuotone as SecureDuotoneIcon } from './icons/LockDuotone';
+export { LockDuotone as FoamSecureDuotone } from './icons/LockDuotone';
+export { LockFill as SecureFill } from './icons/LockFill';
+export { LockFill as SecureFillIcon } from './icons/LockFill';
+export { LockFill as FoamSecureFill } from './icons/LockFill';
+export { Lock as Secure } from './icons/Lock';
+export { Lock as SecureIcon } from './icons/Lock';
+export { Lock as FoamSecure } from './icons/Lock';
+export { LockDuotone as LockedDuotone } from './icons/LockDuotone';
+export { LockDuotone as LockedDuotoneIcon } from './icons/LockDuotone';
+export { LockDuotone as FoamLockedDuotone } from './icons/LockDuotone';
+export { LockFill as LockedFill } from './icons/LockFill';
+export { LockFill as LockedFillIcon } from './icons/LockFill';
+export { LockFill as FoamLockedFill } from './icons/LockFill';
+export { Lock as Locked } from './icons/Lock';
+export { Lock as LockedIcon } from './icons/Lock';
+export { Lock as FoamLocked } from './icons/Lock';
+export { LockDuotone as PrivateDuotone } from './icons/LockDuotone';
+export { LockDuotone as PrivateDuotoneIcon } from './icons/LockDuotone';
+export { LockDuotone as FoamPrivateDuotone } from './icons/LockDuotone';
+export { LockFill as PrivateFill } from './icons/LockFill';
+export { LockFill as PrivateFillIcon } from './icons/LockFill';
+export { LockFill as FoamPrivateFill } from './icons/LockFill';
+export { Lock as Private } from './icons/Lock';
+export { Lock as PrivateIcon } from './icons/Lock';
+export { Lock as FoamPrivate } from './icons/Lock';
+export { LockDuotone as ProtectedDuotone } from './icons/LockDuotone';
+export { LockDuotone as ProtectedDuotoneIcon } from './icons/LockDuotone';
+export { LockDuotone as FoamProtectedDuotone } from './icons/LockDuotone';
+export { LockFill as ProtectedFill } from './icons/LockFill';
+export { LockFill as ProtectedFillIcon } from './icons/LockFill';
+export { LockFill as FoamProtectedFill } from './icons/LockFill';
+export { Lock as Protected } from './icons/Lock';
+export { Lock as ProtectedIcon } from './icons/Lock';
+export { Lock as FoamProtected } from './icons/Lock';
+export { LogOutDuotone as LogoutDuotone } from './icons/LogOutDuotone';
+export { LogOutDuotone as LogoutDuotoneIcon } from './icons/LogOutDuotone';
+export { LogOutDuotone as FoamLogoutDuotone } from './icons/LogOutDuotone';
+export { LogOutFill as LogoutFill } from './icons/LogOutFill';
+export { LogOutFill as LogoutFillIcon } from './icons/LogOutFill';
+export { LogOutFill as FoamLogoutFill } from './icons/LogOutFill';
+export { LogOut as Logout } from './icons/LogOut';
+export { LogOut as LogoutIcon } from './icons/LogOut';
+export { LogOut as FoamLogout } from './icons/LogOut';
+export { LogOutDuotone as SignOutDuotone } from './icons/LogOutDuotone';
+export { LogOutDuotone as SignOutDuotoneIcon } from './icons/LogOutDuotone';
+export { LogOutDuotone as FoamSignOutDuotone } from './icons/LogOutDuotone';
+export { LogOutFill as SignOutFill } from './icons/LogOutFill';
+export { LogOutFill as SignOutFillIcon } from './icons/LogOutFill';
+export { LogOutFill as FoamSignOutFill } from './icons/LogOutFill';
+export { LogOut as SignOut } from './icons/LogOut';
+export { LogOut as SignOutIcon } from './icons/LogOut';
+export { LogOut as FoamSignOut } from './icons/LogOut';
+export { LogOutDuotone as ExitDuotone } from './icons/LogOutDuotone';
+export { LogOutDuotone as ExitDuotoneIcon } from './icons/LogOutDuotone';
+export { LogOutDuotone as FoamExitDuotone } from './icons/LogOutDuotone';
+export { LogOutFill as ExitFill } from './icons/LogOutFill';
+export { LogOutFill as ExitFillIcon } from './icons/LogOutFill';
+export { LogOutFill as FoamExitFill } from './icons/LogOutFill';
+export { LogOut as Exit } from './icons/LogOut';
+export { LogOut as ExitIcon } from './icons/LogOut';
+export { LogOut as FoamExit } from './icons/LogOut';
+export { LogOutDuotone as SignoutDuotone } from './icons/LogOutDuotone';
+export { LogOutDuotone as SignoutDuotoneIcon } from './icons/LogOutDuotone';
+export { LogOutDuotone as FoamSignoutDuotone } from './icons/LogOutDuotone';
+export { LogOutFill as SignoutFill } from './icons/LogOutFill';
+export { LogOutFill as SignoutFillIcon } from './icons/LogOutFill';
+export { LogOutFill as FoamSignoutFill } from './icons/LogOutFill';
+export { LogOut as Signout } from './icons/LogOut';
+export { LogOut as SignoutIcon } from './icons/LogOut';
+export { LogOut as FoamSignout } from './icons/LogOut';
+export { MailDuotone as EmailDuotone } from './icons/MailDuotone';
+export { MailDuotone as EmailDuotoneIcon } from './icons/MailDuotone';
+export { MailDuotone as FoamEmailDuotone } from './icons/MailDuotone';
+export { MailFill as EmailFill } from './icons/MailFill';
+export { MailFill as EmailFillIcon } from './icons/MailFill';
+export { MailFill as FoamEmailFill } from './icons/MailFill';
+export { Mail as Email } from './icons/Mail';
+export { Mail as EmailIcon } from './icons/Mail';
+export { Mail as FoamEmail } from './icons/Mail';
+export { MailDuotone as EnvelopeDuotone } from './icons/MailDuotone';
+export { MailDuotone as EnvelopeDuotoneIcon } from './icons/MailDuotone';
+export { MailDuotone as FoamEnvelopeDuotone } from './icons/MailDuotone';
+export { MailFill as EnvelopeFill } from './icons/MailFill';
+export { MailFill as EnvelopeFillIcon } from './icons/MailFill';
+export { MailFill as FoamEnvelopeFill } from './icons/MailFill';
+export { Mail as Envelope } from './icons/Mail';
+export { Mail as EnvelopeIcon } from './icons/Mail';
+export { Mail as FoamEnvelope } from './icons/Mail';
+export { MailDuotone as MessageDuotone } from './icons/MailDuotone';
+export { MailDuotone as MessageDuotoneIcon } from './icons/MailDuotone';
+export { MailDuotone as FoamMessageDuotone } from './icons/MailDuotone';
+export { MailFill as MessageFill } from './icons/MailFill';
+export { MailFill as MessageFillIcon } from './icons/MailFill';
+export { MailFill as FoamMessageFill } from './icons/MailFill';
+export { Mail as Message } from './icons/Mail';
+export { Mail as MessageIcon } from './icons/Mail';
+export { Mail as FoamMessage } from './icons/Mail';
+export { MapPinDuotone as LocationDuotone } from './icons/MapPinDuotone';
+export { MapPinDuotone as LocationDuotoneIcon } from './icons/MapPinDuotone';
+export { MapPinDuotone as FoamLocationDuotone } from './icons/MapPinDuotone';
+export { MapPinFill as LocationFill } from './icons/MapPinFill';
+export { MapPinFill as LocationFillIcon } from './icons/MapPinFill';
+export { MapPinFill as FoamLocationFill } from './icons/MapPinFill';
+export { MapPin as Location } from './icons/MapPin';
+export { MapPin as LocationIcon } from './icons/MapPin';
+export { MapPin as FoamLocation } from './icons/MapPin';
+export { MapPinDuotone as MarkerDuotone } from './icons/MapPinDuotone';
+export { MapPinDuotone as MarkerDuotoneIcon } from './icons/MapPinDuotone';
+export { MapPinDuotone as FoamMarkerDuotone } from './icons/MapPinDuotone';
+export { MapPinFill as MarkerFill } from './icons/MapPinFill';
+export { MapPinFill as MarkerFillIcon } from './icons/MapPinFill';
+export { MapPinFill as FoamMarkerFill } from './icons/MapPinFill';
+export { MapPin as Marker } from './icons/MapPin';
+export { MapPin as MarkerIcon } from './icons/MapPin';
+export { MapPin as FoamMarker } from './icons/MapPin';
+export { MapPinDuotone as PlaceDuotone } from './icons/MapPinDuotone';
+export { MapPinDuotone as PlaceDuotoneIcon } from './icons/MapPinDuotone';
+export { MapPinDuotone as FoamPlaceDuotone } from './icons/MapPinDuotone';
+export { MapPinFill as PlaceFill } from './icons/MapPinFill';
+export { MapPinFill as PlaceFillIcon } from './icons/MapPinFill';
+export { MapPinFill as FoamPlaceFill } from './icons/MapPinFill';
+export { MapPin as Place } from './icons/MapPin';
+export { MapPin as PlaceIcon } from './icons/MapPin';
+export { MapPin as FoamPlace } from './icons/MapPin';
+export { MapPinDuotone as GeoDuotone } from './icons/MapPinDuotone';
+export { MapPinDuotone as GeoDuotoneIcon } from './icons/MapPinDuotone';
+export { MapPinDuotone as FoamGeoDuotone } from './icons/MapPinDuotone';
+export { MapPinFill as GeoFill } from './icons/MapPinFill';
+export { MapPinFill as GeoFillIcon } from './icons/MapPinFill';
+export { MapPinFill as FoamGeoFill } from './icons/MapPinFill';
+export { MapPin as Geo } from './icons/MapPin';
+export { MapPin as GeoIcon } from './icons/MapPin';
+export { MapPin as FoamGeo } from './icons/MapPin';
+export { MaximizeDuotone as ExpandWindowDuotone } from './icons/MaximizeDuotone';
+export { MaximizeDuotone as ExpandWindowDuotoneIcon } from './icons/MaximizeDuotone';
+export { MaximizeDuotone as FoamExpandWindowDuotone } from './icons/MaximizeDuotone';
+export { MaximizeFill as ExpandWindowFill } from './icons/MaximizeFill';
+export { MaximizeFill as ExpandWindowFillIcon } from './icons/MaximizeFill';
+export { MaximizeFill as FoamExpandWindowFill } from './icons/MaximizeFill';
+export { Maximize as ExpandWindow } from './icons/Maximize';
+export { Maximize as ExpandWindowIcon } from './icons/Maximize';
+export { Maximize as FoamExpandWindow } from './icons/Maximize';
+export { MaximizeDuotone as EnlargeDuotone } from './icons/MaximizeDuotone';
+export { MaximizeDuotone as EnlargeDuotoneIcon } from './icons/MaximizeDuotone';
+export { MaximizeDuotone as FoamEnlargeDuotone } from './icons/MaximizeDuotone';
+export { MaximizeFill as EnlargeFill } from './icons/MaximizeFill';
+export { MaximizeFill as EnlargeFillIcon } from './icons/MaximizeFill';
+export { MaximizeFill as FoamEnlargeFill } from './icons/MaximizeFill';
+export { Maximize as Enlarge } from './icons/Maximize';
+export { Maximize as EnlargeIcon } from './icons/Maximize';
+export { Maximize as FoamEnlarge } from './icons/Maximize';
+export { MediaKitsDuotone as PressKitDuotone } from './icons/MediaKitsDuotone';
+export { MediaKitsDuotone as PressKitDuotoneIcon } from './icons/MediaKitsDuotone';
+export { MediaKitsDuotone as FoamPressKitDuotone } from './icons/MediaKitsDuotone';
+export { MediaKitsFill as PressKitFill } from './icons/MediaKitsFill';
+export { MediaKitsFill as PressKitFillIcon } from './icons/MediaKitsFill';
+export { MediaKitsFill as FoamPressKitFill } from './icons/MediaKitsFill';
+export { MediaKits as PressKit } from './icons/MediaKits';
+export { MediaKits as PressKitIcon } from './icons/MediaKits';
+export { MediaKits as FoamPressKit } from './icons/MediaKits';
+export { MediaKitsDuotone as BrandAssetsDuotone } from './icons/MediaKitsDuotone';
+export { MediaKitsDuotone as BrandAssetsDuotoneIcon } from './icons/MediaKitsDuotone';
+export { MediaKitsDuotone as FoamBrandAssetsDuotone } from './icons/MediaKitsDuotone';
+export { MediaKitsFill as BrandAssetsFill } from './icons/MediaKitsFill';
+export { MediaKitsFill as BrandAssetsFillIcon } from './icons/MediaKitsFill';
+export { MediaKitsFill as FoamBrandAssetsFill } from './icons/MediaKitsFill';
+export { MediaKits as BrandAssets } from './icons/MediaKits';
+export { MediaKits as BrandAssetsIcon } from './icons/MediaKits';
+export { MediaKits as FoamBrandAssets } from './icons/MediaKits';
+export { MediaKitsDuotone as MediapacksDuotone } from './icons/MediaKitsDuotone';
+export { MediaKitsDuotone as MediapacksDuotoneIcon } from './icons/MediaKitsDuotone';
+export { MediaKitsDuotone as FoamMediapacksDuotone } from './icons/MediaKitsDuotone';
+export { MediaKitsFill as MediapacksFill } from './icons/MediaKitsFill';
+export { MediaKitsFill as MediapacksFillIcon } from './icons/MediaKitsFill';
+export { MediaKitsFill as FoamMediapacksFill } from './icons/MediaKitsFill';
+export { MediaKits as Mediapacks } from './icons/MediaKits';
+export { MediaKits as MediapacksIcon } from './icons/MediaKits';
+export { MediaKits as FoamMediapacks } from './icons/MediaKits';
+export { MegaphoneDuotone as AnnounceDuotone } from './icons/MegaphoneDuotone';
+export { MegaphoneDuotone as AnnounceDuotoneIcon } from './icons/MegaphoneDuotone';
+export { MegaphoneDuotone as FoamAnnounceDuotone } from './icons/MegaphoneDuotone';
+export { MegaphoneFill as AnnounceFill } from './icons/MegaphoneFill';
+export { MegaphoneFill as AnnounceFillIcon } from './icons/MegaphoneFill';
+export { MegaphoneFill as FoamAnnounceFill } from './icons/MegaphoneFill';
+export { Megaphone as Announce } from './icons/Megaphone';
+export { Megaphone as AnnounceIcon } from './icons/Megaphone';
+export { Megaphone as FoamAnnounce } from './icons/Megaphone';
+export { MegaphoneDuotone as BroadcastDuotone } from './icons/MegaphoneDuotone';
+export { MegaphoneDuotone as BroadcastDuotoneIcon } from './icons/MegaphoneDuotone';
+export { MegaphoneDuotone as FoamBroadcastDuotone } from './icons/MegaphoneDuotone';
+export { MegaphoneFill as BroadcastFill } from './icons/MegaphoneFill';
+export { MegaphoneFill as BroadcastFillIcon } from './icons/MegaphoneFill';
+export { MegaphoneFill as FoamBroadcastFill } from './icons/MegaphoneFill';
+export { Megaphone as Broadcast } from './icons/Megaphone';
+export { Megaphone as BroadcastIcon } from './icons/Megaphone';
+export { Megaphone as FoamBroadcast } from './icons/Megaphone';
+export { MegaphoneDuotone as MarketingDuotone } from './icons/MegaphoneDuotone';
+export { MegaphoneDuotone as MarketingDuotoneIcon } from './icons/MegaphoneDuotone';
+export { MegaphoneDuotone as FoamMarketingDuotone } from './icons/MegaphoneDuotone';
+export { MegaphoneFill as MarketingFill } from './icons/MegaphoneFill';
+export { MegaphoneFill as MarketingFillIcon } from './icons/MegaphoneFill';
+export { MegaphoneFill as FoamMarketingFill } from './icons/MegaphoneFill';
+export { Megaphone as Marketing } from './icons/Megaphone';
+export { Megaphone as MarketingIcon } from './icons/Megaphone';
+export { Megaphone as FoamMarketing } from './icons/Megaphone';
+export { MegaphoneDuotone as PromoteDuotone } from './icons/MegaphoneDuotone';
+export { MegaphoneDuotone as PromoteDuotoneIcon } from './icons/MegaphoneDuotone';
+export { MegaphoneDuotone as FoamPromoteDuotone } from './icons/MegaphoneDuotone';
+export { MegaphoneFill as PromoteFill } from './icons/MegaphoneFill';
+export { MegaphoneFill as PromoteFillIcon } from './icons/MegaphoneFill';
+export { MegaphoneFill as FoamPromoteFill } from './icons/MegaphoneFill';
+export { Megaphone as Promote } from './icons/Megaphone';
+export { Megaphone as PromoteIcon } from './icons/Megaphone';
+export { Megaphone as FoamPromote } from './icons/Megaphone';
+export { MenuDuotone as HamburgerDuotone } from './icons/MenuDuotone';
+export { MenuDuotone as HamburgerDuotoneIcon } from './icons/MenuDuotone';
+export { MenuDuotone as FoamHamburgerDuotone } from './icons/MenuDuotone';
+export { MenuFill as HamburgerFill } from './icons/MenuFill';
+export { MenuFill as HamburgerFillIcon } from './icons/MenuFill';
+export { MenuFill as FoamHamburgerFill } from './icons/MenuFill';
+export { Menu as Hamburger } from './icons/Menu';
+export { Menu as HamburgerIcon } from './icons/Menu';
+export { Menu as FoamHamburger } from './icons/Menu';
+export { MenuDuotone as NavigationDuotone } from './icons/MenuDuotone';
+export { MenuDuotone as NavigationDuotoneIcon } from './icons/MenuDuotone';
+export { MenuDuotone as FoamNavigationDuotone } from './icons/MenuDuotone';
+export { MenuFill as NavigationFill } from './icons/MenuFill';
+export { MenuFill as NavigationFillIcon } from './icons/MenuFill';
+export { MenuFill as FoamNavigationFill } from './icons/MenuFill';
+export { Menu as Navigation } from './icons/Menu';
+export { Menu as NavigationIcon } from './icons/Menu';
+export { Menu as FoamNavigation } from './icons/Menu';
+export { MenuDuotone as BarsDuotone } from './icons/MenuDuotone';
+export { MenuDuotone as BarsDuotoneIcon } from './icons/MenuDuotone';
+export { MenuDuotone as FoamBarsDuotone } from './icons/MenuDuotone';
+export { MenuFill as BarsFill } from './icons/MenuFill';
+export { MenuFill as BarsFillIcon } from './icons/MenuFill';
+export { MenuFill as FoamBarsFill } from './icons/MenuFill';
+export { Menu as Bars } from './icons/Menu';
+export { Menu as BarsIcon } from './icons/Menu';
+export { Menu as FoamBars } from './icons/Menu';
+export { MessageSquareDuotone as CommentDuotone } from './icons/MessageSquareDuotone';
+export { MessageSquareDuotone as CommentDuotoneIcon } from './icons/MessageSquareDuotone';
+export { MessageSquareDuotone as FoamCommentDuotone } from './icons/MessageSquareDuotone';
+export { MessageSquareFill as CommentFill } from './icons/MessageSquareFill';
+export { MessageSquareFill as CommentFillIcon } from './icons/MessageSquareFill';
+export { MessageSquareFill as FoamCommentFill } from './icons/MessageSquareFill';
+export { MessageSquare as Comment } from './icons/MessageSquare';
+export { MessageSquare as CommentIcon } from './icons/MessageSquare';
+export { MessageSquare as FoamComment } from './icons/MessageSquare';
+export { MessageSquareDuotone as ChatSingleDuotone } from './icons/MessageSquareDuotone';
+export { MessageSquareDuotone as ChatSingleDuotoneIcon } from './icons/MessageSquareDuotone';
+export { MessageSquareDuotone as FoamChatSingleDuotone } from './icons/MessageSquareDuotone';
+export { MessageSquareFill as ChatSingleFill } from './icons/MessageSquareFill';
+export { MessageSquareFill as ChatSingleFillIcon } from './icons/MessageSquareFill';
+export { MessageSquareFill as FoamChatSingleFill } from './icons/MessageSquareFill';
+export { MessageSquare as ChatSingle } from './icons/MessageSquare';
+export { MessageSquare as ChatSingleIcon } from './icons/MessageSquare';
+export { MessageSquare as FoamChatSingle } from './icons/MessageSquare';
+export { MessagesSquareDuotone as ChatDuotone } from './icons/MessagesSquareDuotone';
+export { MessagesSquareDuotone as ChatDuotoneIcon } from './icons/MessagesSquareDuotone';
+export { MessagesSquareDuotone as FoamChatDuotone } from './icons/MessagesSquareDuotone';
+export { MessagesSquareFill as ChatFill } from './icons/MessagesSquareFill';
+export { MessagesSquareFill as ChatFillIcon } from './icons/MessagesSquareFill';
+export { MessagesSquareFill as FoamChatFill } from './icons/MessagesSquareFill';
+export { MessagesSquare as Chat } from './icons/MessagesSquare';
+export { MessagesSquare as ChatIcon } from './icons/MessagesSquare';
+export { MessagesSquare as FoamChat } from './icons/MessagesSquare';
+export { MessagesSquareDuotone as ConversationDuotone } from './icons/MessagesSquareDuotone';
+export { MessagesSquareDuotone as ConversationDuotoneIcon } from './icons/MessagesSquareDuotone';
+export { MessagesSquareDuotone as FoamConversationDuotone } from './icons/MessagesSquareDuotone';
+export { MessagesSquareFill as ConversationFill } from './icons/MessagesSquareFill';
+export { MessagesSquareFill as ConversationFillIcon } from './icons/MessagesSquareFill';
+export { MessagesSquareFill as FoamConversationFill } from './icons/MessagesSquareFill';
+export { MessagesSquare as Conversation } from './icons/MessagesSquare';
+export { MessagesSquare as ConversationIcon } from './icons/MessagesSquare';
+export { MessagesSquare as FoamConversation } from './icons/MessagesSquare';
+export { MessagesSquareDuotone as CommentsDuotone } from './icons/MessagesSquareDuotone';
+export { MessagesSquareDuotone as CommentsDuotoneIcon } from './icons/MessagesSquareDuotone';
+export { MessagesSquareDuotone as FoamCommentsDuotone } from './icons/MessagesSquareDuotone';
+export { MessagesSquareFill as CommentsFill } from './icons/MessagesSquareFill';
+export { MessagesSquareFill as CommentsFillIcon } from './icons/MessagesSquareFill';
+export { MessagesSquareFill as FoamCommentsFill } from './icons/MessagesSquareFill';
+export { MessagesSquare as Comments } from './icons/MessagesSquare';
+export { MessagesSquare as CommentsIcon } from './icons/MessagesSquare';
+export { MessagesSquare as FoamComments } from './icons/MessagesSquare';
+export { MessagesSquareDuotone as ChatsDuotone } from './icons/MessagesSquareDuotone';
+export { MessagesSquareDuotone as ChatsDuotoneIcon } from './icons/MessagesSquareDuotone';
+export { MessagesSquareDuotone as FoamChatsDuotone } from './icons/MessagesSquareDuotone';
+export { MessagesSquareFill as ChatsFill } from './icons/MessagesSquareFill';
+export { MessagesSquareFill as ChatsFillIcon } from './icons/MessagesSquareFill';
+export { MessagesSquareFill as FoamChatsFill } from './icons/MessagesSquareFill';
+export { MessagesSquare as Chats } from './icons/MessagesSquare';
+export { MessagesSquare as ChatsIcon } from './icons/MessagesSquare';
+export { MessagesSquare as FoamChats } from './icons/MessagesSquare';
+export { MinusDuotone as SubtractDuotone } from './icons/MinusDuotone';
+export { MinusDuotone as SubtractDuotoneIcon } from './icons/MinusDuotone';
+export { MinusDuotone as FoamSubtractDuotone } from './icons/MinusDuotone';
+export { MinusFill as SubtractFill } from './icons/MinusFill';
+export { MinusFill as SubtractFillIcon } from './icons/MinusFill';
+export { MinusFill as FoamSubtractFill } from './icons/MinusFill';
+export { Minus as Subtract } from './icons/Minus';
+export { Minus as SubtractIcon } from './icons/Minus';
+export { Minus as FoamSubtract } from './icons/Minus';
+export { MinusDuotone as ReduceDuotone } from './icons/MinusDuotone';
+export { MinusDuotone as ReduceDuotoneIcon } from './icons/MinusDuotone';
+export { MinusDuotone as FoamReduceDuotone } from './icons/MinusDuotone';
+export { MinusFill as ReduceFill } from './icons/MinusFill';
+export { MinusFill as ReduceFillIcon } from './icons/MinusFill';
+export { MinusFill as FoamReduceFill } from './icons/MinusFill';
+export { Minus as Reduce } from './icons/Minus';
+export { Minus as ReduceIcon } from './icons/Minus';
+export { Minus as FoamReduce } from './icons/Minus';
+export { MinusDuotone as DecreaseDuotone } from './icons/MinusDuotone';
+export { MinusDuotone as DecreaseDuotoneIcon } from './icons/MinusDuotone';
+export { MinusDuotone as FoamDecreaseDuotone } from './icons/MinusDuotone';
+export { MinusFill as DecreaseFill } from './icons/MinusFill';
+export { MinusFill as DecreaseFillIcon } from './icons/MinusFill';
+export { MinusFill as FoamDecreaseFill } from './icons/MinusFill';
+export { Minus as Decrease } from './icons/Minus';
+export { Minus as DecreaseIcon } from './icons/Minus';
+export { Minus as FoamDecrease } from './icons/Minus';
+export { MoonDuotone as DarkDuotone } from './icons/MoonDuotone';
+export { MoonDuotone as DarkDuotoneIcon } from './icons/MoonDuotone';
+export { MoonDuotone as FoamDarkDuotone } from './icons/MoonDuotone';
+export { MoonFill as DarkFill } from './icons/MoonFill';
+export { MoonFill as DarkFillIcon } from './icons/MoonFill';
+export { MoonFill as FoamDarkFill } from './icons/MoonFill';
+export { Moon as Dark } from './icons/Moon';
+export { Moon as DarkIcon } from './icons/Moon';
+export { Moon as FoamDark } from './icons/Moon';
+export { MoonDuotone as NightDuotone } from './icons/MoonDuotone';
+export { MoonDuotone as NightDuotoneIcon } from './icons/MoonDuotone';
+export { MoonDuotone as FoamNightDuotone } from './icons/MoonDuotone';
+export { MoonFill as NightFill } from './icons/MoonFill';
+export { MoonFill as NightFillIcon } from './icons/MoonFill';
+export { MoonFill as FoamNightFill } from './icons/MoonFill';
+export { Moon as Night } from './icons/Moon';
+export { Moon as NightIcon } from './icons/Moon';
+export { Moon as FoamNight } from './icons/Moon';
+export { MoonDuotone as DarkModeDuotone } from './icons/MoonDuotone';
+export { MoonDuotone as DarkModeDuotoneIcon } from './icons/MoonDuotone';
+export { MoonDuotone as FoamDarkModeDuotone } from './icons/MoonDuotone';
+export { MoonFill as DarkModeFill } from './icons/MoonFill';
+export { MoonFill as DarkModeFillIcon } from './icons/MoonFill';
+export { MoonFill as FoamDarkModeFill } from './icons/MoonFill';
+export { Moon as DarkMode } from './icons/Moon';
+export { Moon as DarkModeIcon } from './icons/Moon';
+export { Moon as FoamDarkMode } from './icons/Moon';
+export { MousePointerClickDuotone as ClickDuotone } from './icons/MousePointerClickDuotone';
+export { MousePointerClickDuotone as ClickDuotoneIcon } from './icons/MousePointerClickDuotone';
+export { MousePointerClickDuotone as FoamClickDuotone } from './icons/MousePointerClickDuotone';
+export { MousePointerClickFill as ClickFill } from './icons/MousePointerClickFill';
+export { MousePointerClickFill as ClickFillIcon } from './icons/MousePointerClickFill';
+export { MousePointerClickFill as FoamClickFill } from './icons/MousePointerClickFill';
+export { MousePointerClick as Click } from './icons/MousePointerClick';
+export { MousePointerClick as ClickIcon } from './icons/MousePointerClick';
+export { MousePointerClick as FoamClick } from './icons/MousePointerClick';
+export { MousePointerClickDuotone as CursorDuotone } from './icons/MousePointerClickDuotone';
+export { MousePointerClickDuotone as CursorDuotoneIcon } from './icons/MousePointerClickDuotone';
+export { MousePointerClickDuotone as FoamCursorDuotone } from './icons/MousePointerClickDuotone';
+export { MousePointerClickFill as CursorFill } from './icons/MousePointerClickFill';
+export { MousePointerClickFill as CursorFillIcon } from './icons/MousePointerClickFill';
+export { MousePointerClickFill as FoamCursorFill } from './icons/MousePointerClickFill';
+export { MousePointerClick as Cursor } from './icons/MousePointerClick';
+export { MousePointerClick as CursorIcon } from './icons/MousePointerClick';
+export { MousePointerClick as FoamCursor } from './icons/MousePointerClick';
+export { MousePointerClickDuotone as PointerDuotone } from './icons/MousePointerClickDuotone';
+export { MousePointerClickDuotone as PointerDuotoneIcon } from './icons/MousePointerClickDuotone';
+export { MousePointerClickDuotone as FoamPointerDuotone } from './icons/MousePointerClickDuotone';
+export { MousePointerClickFill as PointerFill } from './icons/MousePointerClickFill';
+export { MousePointerClickFill as PointerFillIcon } from './icons/MousePointerClickFill';
+export { MousePointerClickFill as FoamPointerFill } from './icons/MousePointerClickFill';
+export { MousePointerClick as Pointer } from './icons/MousePointerClick';
+export { MousePointerClick as PointerIcon } from './icons/MousePointerClick';
+export { MousePointerClick as FoamPointer } from './icons/MousePointerClick';
+export { MoveDuotone as DragDuotone } from './icons/MoveDuotone';
+export { MoveDuotone as DragDuotoneIcon } from './icons/MoveDuotone';
+export { MoveDuotone as FoamDragDuotone } from './icons/MoveDuotone';
+export { MoveFill as DragFill } from './icons/MoveFill';
+export { MoveFill as DragFillIcon } from './icons/MoveFill';
+export { MoveFill as FoamDragFill } from './icons/MoveFill';
+export { Move as Drag } from './icons/Move';
+export { Move as DragIcon } from './icons/Move';
+export { Move as FoamDrag } from './icons/Move';
+export { MoveDuotone as RepositionDuotone } from './icons/MoveDuotone';
+export { MoveDuotone as RepositionDuotoneIcon } from './icons/MoveDuotone';
+export { MoveDuotone as FoamRepositionDuotone } from './icons/MoveDuotone';
+export { MoveFill as RepositionFill } from './icons/MoveFill';
+export { MoveFill as RepositionFillIcon } from './icons/MoveFill';
+export { MoveFill as FoamRepositionFill } from './icons/MoveFill';
+export { Move as Reposition } from './icons/Move';
+export { Move as RepositionIcon } from './icons/Move';
+export { Move as FoamReposition } from './icons/Move';
+export { PanelLeftDuotone as SidebarLeftDuotone } from './icons/PanelLeftDuotone';
+export { PanelLeftDuotone as SidebarLeftDuotoneIcon } from './icons/PanelLeftDuotone';
+export { PanelLeftDuotone as FoamSidebarLeftDuotone } from './icons/PanelLeftDuotone';
+export { PanelLeftFill as SidebarLeftFill } from './icons/PanelLeftFill';
+export { PanelLeftFill as SidebarLeftFillIcon } from './icons/PanelLeftFill';
+export { PanelLeftFill as FoamSidebarLeftFill } from './icons/PanelLeftFill';
+export { PanelLeft as SidebarLeft } from './icons/PanelLeft';
+export { PanelLeft as SidebarLeftIcon } from './icons/PanelLeft';
+export { PanelLeft as FoamSidebarLeft } from './icons/PanelLeft';
+export { PanelLeftDuotone as DrawerLeftDuotone } from './icons/PanelLeftDuotone';
+export { PanelLeftDuotone as DrawerLeftDuotoneIcon } from './icons/PanelLeftDuotone';
+export { PanelLeftDuotone as FoamDrawerLeftDuotone } from './icons/PanelLeftDuotone';
+export { PanelLeftFill as DrawerLeftFill } from './icons/PanelLeftFill';
+export { PanelLeftFill as DrawerLeftFillIcon } from './icons/PanelLeftFill';
+export { PanelLeftFill as FoamDrawerLeftFill } from './icons/PanelLeftFill';
+export { PanelLeft as DrawerLeft } from './icons/PanelLeft';
+export { PanelLeft as DrawerLeftIcon } from './icons/PanelLeft';
+export { PanelLeft as FoamDrawerLeft } from './icons/PanelLeft';
+export { PanelRightDuotone as SidebarRightDuotone } from './icons/PanelRightDuotone';
+export { PanelRightDuotone as SidebarRightDuotoneIcon } from './icons/PanelRightDuotone';
+export { PanelRightDuotone as FoamSidebarRightDuotone } from './icons/PanelRightDuotone';
+export { PanelRightFill as SidebarRightFill } from './icons/PanelRightFill';
+export { PanelRightFill as SidebarRightFillIcon } from './icons/PanelRightFill';
+export { PanelRightFill as FoamSidebarRightFill } from './icons/PanelRightFill';
+export { PanelRight as SidebarRight } from './icons/PanelRight';
+export { PanelRight as SidebarRightIcon } from './icons/PanelRight';
+export { PanelRight as FoamSidebarRight } from './icons/PanelRight';
+export { PanelRightDuotone as DrawerRightDuotone } from './icons/PanelRightDuotone';
+export { PanelRightDuotone as DrawerRightDuotoneIcon } from './icons/PanelRightDuotone';
+export { PanelRightDuotone as FoamDrawerRightDuotone } from './icons/PanelRightDuotone';
+export { PanelRightFill as DrawerRightFill } from './icons/PanelRightFill';
+export { PanelRightFill as DrawerRightFillIcon } from './icons/PanelRightFill';
+export { PanelRightFill as FoamDrawerRightFill } from './icons/PanelRightFill';
+export { PanelRight as DrawerRight } from './icons/PanelRight';
+export { PanelRight as DrawerRightIcon } from './icons/PanelRight';
+export { PanelRight as FoamDrawerRight } from './icons/PanelRight';
+export { PencilDuotone as EditDuotone } from './icons/PencilDuotone';
+export { PencilDuotone as EditDuotoneIcon } from './icons/PencilDuotone';
+export { PencilDuotone as FoamEditDuotone } from './icons/PencilDuotone';
+export { PencilFill as EditFill } from './icons/PencilFill';
+export { PencilFill as EditFillIcon } from './icons/PencilFill';
+export { PencilFill as FoamEditFill } from './icons/PencilFill';
+export { Pencil as Edit } from './icons/Pencil';
+export { Pencil as EditIcon } from './icons/Pencil';
+export { Pencil as FoamEdit } from './icons/Pencil';
+export { PencilDuotone as WriteDuotone } from './icons/PencilDuotone';
+export { PencilDuotone as WriteDuotoneIcon } from './icons/PencilDuotone';
+export { PencilDuotone as FoamWriteDuotone } from './icons/PencilDuotone';
+export { PencilFill as WriteFill } from './icons/PencilFill';
+export { PencilFill as WriteFillIcon } from './icons/PencilFill';
+export { PencilFill as FoamWriteFill } from './icons/PencilFill';
+export { Pencil as Write } from './icons/Pencil';
+export { Pencil as WriteIcon } from './icons/Pencil';
+export { Pencil as FoamWrite } from './icons/Pencil';
+export { PencilDuotone as ModifyDuotone } from './icons/PencilDuotone';
+export { PencilDuotone as ModifyDuotoneIcon } from './icons/PencilDuotone';
+export { PencilDuotone as FoamModifyDuotone } from './icons/PencilDuotone';
+export { PencilFill as ModifyFill } from './icons/PencilFill';
+export { PencilFill as ModifyFillIcon } from './icons/PencilFill';
+export { PencilFill as FoamModifyFill } from './icons/PencilFill';
+export { Pencil as Modify } from './icons/Pencil';
+export { Pencil as ModifyIcon } from './icons/Pencil';
+export { Pencil as FoamModify } from './icons/Pencil';
+export { PinDuotone as ThumbtackDuotone } from './icons/PinDuotone';
+export { PinDuotone as ThumbtackDuotoneIcon } from './icons/PinDuotone';
+export { PinDuotone as FoamThumbtackDuotone } from './icons/PinDuotone';
+export { PinFill as ThumbtackFill } from './icons/PinFill';
+export { PinFill as ThumbtackFillIcon } from './icons/PinFill';
+export { PinFill as FoamThumbtackFill } from './icons/PinFill';
+export { Pin as Thumbtack } from './icons/Pin';
+export { Pin as ThumbtackIcon } from './icons/Pin';
+export { Pin as FoamThumbtack } from './icons/Pin';
+export { PinDuotone as TackDuotone } from './icons/PinDuotone';
+export { PinDuotone as TackDuotoneIcon } from './icons/PinDuotone';
+export { PinDuotone as FoamTackDuotone } from './icons/PinDuotone';
+export { PinFill as TackFill } from './icons/PinFill';
+export { PinFill as TackFillIcon } from './icons/PinFill';
+export { PinFill as FoamTackFill } from './icons/PinFill';
+export { Pin as Tack } from './icons/Pin';
+export { Pin as TackIcon } from './icons/Pin';
+export { Pin as FoamTack } from './icons/Pin';
+export { PinDuotone as StickDuotone } from './icons/PinDuotone';
+export { PinDuotone as StickDuotoneIcon } from './icons/PinDuotone';
+export { PinDuotone as FoamStickDuotone } from './icons/PinDuotone';
+export { PinFill as StickFill } from './icons/PinFill';
+export { PinFill as StickFillIcon } from './icons/PinFill';
+export { PinFill as FoamStickFill } from './icons/PinFill';
+export { Pin as Stick } from './icons/Pin';
+export { Pin as StickIcon } from './icons/Pin';
+export { Pin as FoamStick } from './icons/Pin';
+export { PlayDuotone as StartDuotone } from './icons/PlayDuotone';
+export { PlayDuotone as StartDuotoneIcon } from './icons/PlayDuotone';
+export { PlayDuotone as FoamStartDuotone } from './icons/PlayDuotone';
+export { PlayFill as StartFill } from './icons/PlayFill';
+export { PlayFill as StartFillIcon } from './icons/PlayFill';
+export { PlayFill as FoamStartFill } from './icons/PlayFill';
+export { Play as Start } from './icons/Play';
+export { Play as StartIcon } from './icons/Play';
+export { Play as FoamStart } from './icons/Play';
+export { PlayDuotone as VideoDuotone } from './icons/PlayDuotone';
+export { PlayDuotone as VideoDuotoneIcon } from './icons/PlayDuotone';
+export { PlayDuotone as FoamVideoDuotone } from './icons/PlayDuotone';
+export { PlayFill as VideoFill } from './icons/PlayFill';
+export { PlayFill as VideoFillIcon } from './icons/PlayFill';
+export { PlayFill as FoamVideoFill } from './icons/PlayFill';
+export { Play as Video } from './icons/Play';
+export { Play as VideoIcon } from './icons/Play';
+export { Play as FoamVideo } from './icons/Play';
+export { PlayDuotone as PlayButtonDuotone } from './icons/PlayDuotone';
+export { PlayDuotone as PlayButtonDuotoneIcon } from './icons/PlayDuotone';
+export { PlayDuotone as FoamPlayButtonDuotone } from './icons/PlayDuotone';
+export { PlayFill as PlayButtonFill } from './icons/PlayFill';
+export { PlayFill as PlayButtonFillIcon } from './icons/PlayFill';
+export { PlayFill as FoamPlayButtonFill } from './icons/PlayFill';
+export { Play as PlayButton } from './icons/Play';
+export { Play as PlayButtonIcon } from './icons/Play';
+export { Play as FoamPlayButton } from './icons/Play';
+export { PlusDuotone as AddDuotone } from './icons/PlusDuotone';
+export { PlusDuotone as AddDuotoneIcon } from './icons/PlusDuotone';
+export { PlusDuotone as FoamAddDuotone } from './icons/PlusDuotone';
+export { PlusFill as AddFill } from './icons/PlusFill';
+export { PlusFill as AddFillIcon } from './icons/PlusFill';
+export { PlusFill as FoamAddFill } from './icons/PlusFill';
+export { Plus as Add } from './icons/Plus';
+export { Plus as AddIcon } from './icons/Plus';
+export { Plus as FoamAdd } from './icons/Plus';
+export { PlusDuotone as NewDuotone } from './icons/PlusDuotone';
+export { PlusDuotone as NewDuotoneIcon } from './icons/PlusDuotone';
+export { PlusDuotone as FoamNewDuotone } from './icons/PlusDuotone';
+export { PlusFill as NewFill } from './icons/PlusFill';
+export { PlusFill as NewFillIcon } from './icons/PlusFill';
+export { PlusFill as FoamNewFill } from './icons/PlusFill';
+export { Plus as New } from './icons/Plus';
+export { Plus as NewIcon } from './icons/Plus';
+export { Plus as FoamNew } from './icons/Plus';
+export { PlusDuotone as CreateDuotone } from './icons/PlusDuotone';
+export { PlusDuotone as CreateDuotoneIcon } from './icons/PlusDuotone';
+export { PlusDuotone as FoamCreateDuotone } from './icons/PlusDuotone';
+export { PlusFill as CreateFill } from './icons/PlusFill';
+export { PlusFill as CreateFillIcon } from './icons/PlusFill';
+export { PlusFill as FoamCreateFill } from './icons/PlusFill';
+export { Plus as Create } from './icons/Plus';
+export { Plus as CreateIcon } from './icons/Plus';
+export { Plus as FoamCreate } from './icons/Plus';
+export { ReachDuotone as AudienceDuotone } from './icons/ReachDuotone';
+export { ReachDuotone as AudienceDuotoneIcon } from './icons/ReachDuotone';
+export { ReachDuotone as FoamAudienceDuotone } from './icons/ReachDuotone';
+export { ReachFill as AudienceFill } from './icons/ReachFill';
+export { ReachFill as AudienceFillIcon } from './icons/ReachFill';
+export { ReachFill as FoamAudienceFill } from './icons/ReachFill';
+export { Reach as Audience } from './icons/Reach';
+export { Reach as AudienceIcon } from './icons/Reach';
+export { Reach as FoamAudience } from './icons/Reach';
+export { ReachDuotone as ImpressionsDuotone } from './icons/ReachDuotone';
+export { ReachDuotone as ImpressionsDuotoneIcon } from './icons/ReachDuotone';
+export { ReachDuotone as FoamImpressionsDuotone } from './icons/ReachDuotone';
+export { ReachFill as ImpressionsFill } from './icons/ReachFill';
+export { ReachFill as ImpressionsFillIcon } from './icons/ReachFill';
+export { ReachFill as FoamImpressionsFill } from './icons/ReachFill';
+export { Reach as Impressions } from './icons/Reach';
+export { Reach as ImpressionsIcon } from './icons/Reach';
+export { Reach as FoamImpressions } from './icons/Reach';
+export { ReachDuotone as ViewsDuotone } from './icons/ReachDuotone';
+export { ReachDuotone as ViewsDuotoneIcon } from './icons/ReachDuotone';
+export { ReachDuotone as FoamViewsDuotone } from './icons/ReachDuotone';
+export { ReachFill as ViewsFill } from './icons/ReachFill';
+export { ReachFill as ViewsFillIcon } from './icons/ReachFill';
+export { ReachFill as FoamViewsFill } from './icons/ReachFill';
+export { Reach as Views } from './icons/Reach';
+export { Reach as ViewsIcon } from './icons/Reach';
+export { Reach as FoamViews } from './icons/Reach';
+export { ReelDuotone as FilmDuotone } from './icons/ReelDuotone';
+export { ReelDuotone as FilmDuotoneIcon } from './icons/ReelDuotone';
+export { ReelDuotone as FoamFilmDuotone } from './icons/ReelDuotone';
+export { ReelFill as FilmFill } from './icons/ReelFill';
+export { ReelFill as FilmFillIcon } from './icons/ReelFill';
+export { ReelFill as FoamFilmFill } from './icons/ReelFill';
+export { Reel as Film } from './icons/Reel';
+export { Reel as FilmIcon } from './icons/Reel';
+export { Reel as FoamFilm } from './icons/Reel';
+export { ReelDuotone as ShortDuotone } from './icons/ReelDuotone';
+export { ReelDuotone as ShortDuotoneIcon } from './icons/ReelDuotone';
+export { ReelDuotone as FoamShortDuotone } from './icons/ReelDuotone';
+export { ReelFill as ShortFill } from './icons/ReelFill';
+export { ReelFill as ShortFillIcon } from './icons/ReelFill';
+export { ReelFill as FoamShortFill } from './icons/ReelFill';
+export { Reel as Short } from './icons/Reel';
+export { Reel as ShortIcon } from './icons/Reel';
+export { Reel as FoamShort } from './icons/Reel';
+export { ReelDuotone as ShortVideoDuotone } from './icons/ReelDuotone';
+export { ReelDuotone as ShortVideoDuotoneIcon } from './icons/ReelDuotone';
+export { ReelDuotone as FoamShortVideoDuotone } from './icons/ReelDuotone';
+export { ReelFill as ShortVideoFill } from './icons/ReelFill';
+export { ReelFill as ShortVideoFillIcon } from './icons/ReelFill';
+export { ReelFill as FoamShortVideoFill } from './icons/ReelFill';
+export { Reel as ShortVideo } from './icons/Reel';
+export { Reel as ShortVideoIcon } from './icons/Reel';
+export { Reel as FoamShortVideo } from './icons/Reel';
+export { RefreshCwDuotone as RefreshDuotone } from './icons/RefreshCwDuotone';
+export { RefreshCwDuotone as RefreshDuotoneIcon } from './icons/RefreshCwDuotone';
+export { RefreshCwDuotone as FoamRefreshDuotone } from './icons/RefreshCwDuotone';
+export { RefreshCwFill as RefreshFill } from './icons/RefreshCwFill';
+export { RefreshCwFill as RefreshFillIcon } from './icons/RefreshCwFill';
+export { RefreshCwFill as FoamRefreshFill } from './icons/RefreshCwFill';
+export { RefreshCw as Refresh } from './icons/RefreshCw';
+export { RefreshCw as RefreshIcon } from './icons/RefreshCw';
+export { RefreshCw as FoamRefresh } from './icons/RefreshCw';
+export { RefreshCwDuotone as ReloadDuotone } from './icons/RefreshCwDuotone';
+export { RefreshCwDuotone as ReloadDuotoneIcon } from './icons/RefreshCwDuotone';
+export { RefreshCwDuotone as FoamReloadDuotone } from './icons/RefreshCwDuotone';
+export { RefreshCwFill as ReloadFill } from './icons/RefreshCwFill';
+export { RefreshCwFill as ReloadFillIcon } from './icons/RefreshCwFill';
+export { RefreshCwFill as FoamReloadFill } from './icons/RefreshCwFill';
+export { RefreshCw as Reload } from './icons/RefreshCw';
+export { RefreshCw as ReloadIcon } from './icons/RefreshCw';
+export { RefreshCw as FoamReload } from './icons/RefreshCw';
+export { RefreshCwDuotone as SyncDuotone } from './icons/RefreshCwDuotone';
+export { RefreshCwDuotone as SyncDuotoneIcon } from './icons/RefreshCwDuotone';
+export { RefreshCwDuotone as FoamSyncDuotone } from './icons/RefreshCwDuotone';
+export { RefreshCwFill as SyncFill } from './icons/RefreshCwFill';
+export { RefreshCwFill as SyncFillIcon } from './icons/RefreshCwFill';
+export { RefreshCwFill as FoamSyncFill } from './icons/RefreshCwFill';
+export { RefreshCw as Sync } from './icons/RefreshCw';
+export { RefreshCw as SyncIcon } from './icons/RefreshCw';
+export { RefreshCw as FoamSync } from './icons/RefreshCw';
+export { RemoveFormattingDuotone as ClearFormatDuotone } from './icons/RemoveFormattingDuotone';
+export { RemoveFormattingDuotone as ClearFormatDuotoneIcon } from './icons/RemoveFormattingDuotone';
+export { RemoveFormattingDuotone as FoamClearFormatDuotone } from './icons/RemoveFormattingDuotone';
+export { RemoveFormattingFill as ClearFormatFill } from './icons/RemoveFormattingFill';
+export { RemoveFormattingFill as ClearFormatFillIcon } from './icons/RemoveFormattingFill';
+export { RemoveFormattingFill as FoamClearFormatFill } from './icons/RemoveFormattingFill';
+export { RemoveFormatting as ClearFormat } from './icons/RemoveFormatting';
+export { RemoveFormatting as ClearFormatIcon } from './icons/RemoveFormatting';
+export { RemoveFormatting as FoamClearFormat } from './icons/RemoveFormatting';
+export { RemoveFormattingDuotone as PlainTextDuotone } from './icons/RemoveFormattingDuotone';
+export { RemoveFormattingDuotone as PlainTextDuotoneIcon } from './icons/RemoveFormattingDuotone';
+export { RemoveFormattingDuotone as FoamPlainTextDuotone } from './icons/RemoveFormattingDuotone';
+export { RemoveFormattingFill as PlainTextFill } from './icons/RemoveFormattingFill';
+export { RemoveFormattingFill as PlainTextFillIcon } from './icons/RemoveFormattingFill';
+export { RemoveFormattingFill as FoamPlainTextFill } from './icons/RemoveFormattingFill';
+export { RemoveFormatting as PlainText } from './icons/RemoveFormatting';
+export { RemoveFormatting as PlainTextIcon } from './icons/RemoveFormatting';
+export { RemoveFormatting as FoamPlainText } from './icons/RemoveFormatting';
+export { ReplyDuotone as RespondDuotone } from './icons/ReplyDuotone';
+export { ReplyDuotone as RespondDuotoneIcon } from './icons/ReplyDuotone';
+export { ReplyDuotone as FoamRespondDuotone } from './icons/ReplyDuotone';
+export { ReplyFill as RespondFill } from './icons/ReplyFill';
+export { ReplyFill as RespondFillIcon } from './icons/ReplyFill';
+export { ReplyFill as FoamRespondFill } from './icons/ReplyFill';
+export { Reply as Respond } from './icons/Reply';
+export { Reply as RespondIcon } from './icons/Reply';
+export { Reply as FoamRespond } from './icons/Reply';
+export { ReplyDuotone as AnswerDuotone } from './icons/ReplyDuotone';
+export { ReplyDuotone as AnswerDuotoneIcon } from './icons/ReplyDuotone';
+export { ReplyDuotone as FoamAnswerDuotone } from './icons/ReplyDuotone';
+export { ReplyFill as AnswerFill } from './icons/ReplyFill';
+export { ReplyFill as AnswerFillIcon } from './icons/ReplyFill';
+export { ReplyFill as FoamAnswerFill } from './icons/ReplyFill';
+export { Reply as Answer } from './icons/Reply';
+export { Reply as AnswerIcon } from './icons/Reply';
+export { Reply as FoamAnswer } from './icons/Reply';
+export { RotateCwDuotone as RotateDuotone } from './icons/RotateCwDuotone';
+export { RotateCwDuotone as RotateDuotoneIcon } from './icons/RotateCwDuotone';
+export { RotateCwDuotone as FoamRotateDuotone } from './icons/RotateCwDuotone';
+export { RotateCwFill as RotateFill } from './icons/RotateCwFill';
+export { RotateCwFill as RotateFillIcon } from './icons/RotateCwFill';
+export { RotateCwFill as FoamRotateFill } from './icons/RotateCwFill';
+export { RotateCw as Rotate } from './icons/RotateCw';
+export { RotateCw as RotateIcon } from './icons/RotateCw';
+export { RotateCw as FoamRotate } from './icons/RotateCw';
+export { RotateCwDuotone as TurnDuotone } from './icons/RotateCwDuotone';
+export { RotateCwDuotone as TurnDuotoneIcon } from './icons/RotateCwDuotone';
+export { RotateCwDuotone as FoamTurnDuotone } from './icons/RotateCwDuotone';
+export { RotateCwFill as TurnFill } from './icons/RotateCwFill';
+export { RotateCwFill as TurnFillIcon } from './icons/RotateCwFill';
+export { RotateCwFill as FoamTurnFill } from './icons/RotateCwFill';
+export { RotateCw as Turn } from './icons/RotateCw';
+export { RotateCw as TurnIcon } from './icons/RotateCw';
+export { RotateCw as FoamTurn } from './icons/RotateCw';
+export { RotateCwDuotone as RedoDuotone } from './icons/RotateCwDuotone';
+export { RotateCwDuotone as RedoDuotoneIcon } from './icons/RotateCwDuotone';
+export { RotateCwDuotone as FoamRedoDuotone } from './icons/RotateCwDuotone';
+export { RotateCwFill as RedoFill } from './icons/RotateCwFill';
+export { RotateCwFill as RedoFillIcon } from './icons/RotateCwFill';
+export { RotateCwFill as FoamRedoFill } from './icons/RotateCwFill';
+export { RotateCw as Redo } from './icons/RotateCw';
+export { RotateCw as RedoIcon } from './icons/RotateCw';
+export { RotateCw as FoamRedo } from './icons/RotateCw';
+export { Rows2Duotone as HorizontalSplitDuotone } from './icons/Rows2Duotone';
+export { Rows2Duotone as HorizontalSplitDuotoneIcon } from './icons/Rows2Duotone';
+export { Rows2Duotone as FoamHorizontalSplitDuotone } from './icons/Rows2Duotone';
+export { Rows2Fill as HorizontalSplitFill } from './icons/Rows2Fill';
+export { Rows2Fill as HorizontalSplitFillIcon } from './icons/Rows2Fill';
+export { Rows2Fill as FoamHorizontalSplitFill } from './icons/Rows2Fill';
+export { Rows2 as HorizontalSplit } from './icons/Rows2';
+export { Rows2 as HorizontalSplitIcon } from './icons/Rows2';
+export { Rows2 as FoamHorizontalSplit } from './icons/Rows2';
+export { Rows2Duotone as RowsDuotone } from './icons/Rows2Duotone';
+export { Rows2Duotone as RowsDuotoneIcon } from './icons/Rows2Duotone';
+export { Rows2Duotone as FoamRowsDuotone } from './icons/Rows2Duotone';
+export { Rows2Fill as RowsFill } from './icons/Rows2Fill';
+export { Rows2Fill as RowsFillIcon } from './icons/Rows2Fill';
+export { Rows2Fill as FoamRowsFill } from './icons/Rows2Fill';
+export { Rows2 as Rows } from './icons/Rows2';
+export { Rows2 as RowsIcon } from './icons/Rows2';
+export { Rows2 as FoamRows } from './icons/Rows2';
+export { SaveDuotone as FloppyDuotone } from './icons/SaveDuotone';
+export { SaveDuotone as FloppyDuotoneIcon } from './icons/SaveDuotone';
+export { SaveDuotone as FoamFloppyDuotone } from './icons/SaveDuotone';
+export { SaveFill as FloppyFill } from './icons/SaveFill';
+export { SaveFill as FloppyFillIcon } from './icons/SaveFill';
+export { SaveFill as FoamFloppyFill } from './icons/SaveFill';
+export { Save as Floppy } from './icons/Save';
+export { Save as FloppyIcon } from './icons/Save';
+export { Save as FoamFloppy } from './icons/Save';
+export { SaveDuotone as DiskDuotone } from './icons/SaveDuotone';
+export { SaveDuotone as DiskDuotoneIcon } from './icons/SaveDuotone';
+export { SaveDuotone as FoamDiskDuotone } from './icons/SaveDuotone';
+export { SaveFill as DiskFill } from './icons/SaveFill';
+export { SaveFill as DiskFillIcon } from './icons/SaveFill';
+export { SaveFill as FoamDiskFill } from './icons/SaveFill';
+export { Save as Disk } from './icons/Save';
+export { Save as DiskIcon } from './icons/Save';
+export { Save as FoamDisk } from './icons/Save';
+export { SaveDuotone as PreserveDuotone } from './icons/SaveDuotone';
+export { SaveDuotone as PreserveDuotoneIcon } from './icons/SaveDuotone';
+export { SaveDuotone as FoamPreserveDuotone } from './icons/SaveDuotone';
+export { SaveFill as PreserveFill } from './icons/SaveFill';
+export { SaveFill as PreserveFillIcon } from './icons/SaveFill';
+export { SaveFill as FoamPreserveFill } from './icons/SaveFill';
+export { Save as Preserve } from './icons/Save';
+export { Save as PreserveIcon } from './icons/Save';
+export { Save as FoamPreserve } from './icons/Save';
+export { SearchDuotone as FindDuotone } from './icons/SearchDuotone';
+export { SearchDuotone as FindDuotoneIcon } from './icons/SearchDuotone';
+export { SearchDuotone as FoamFindDuotone } from './icons/SearchDuotone';
+export { SearchFill as FindFill } from './icons/SearchFill';
+export { SearchFill as FindFillIcon } from './icons/SearchFill';
+export { SearchFill as FoamFindFill } from './icons/SearchFill';
+export { Search as Find } from './icons/Search';
+export { Search as FindIcon } from './icons/Search';
+export { Search as FoamFind } from './icons/Search';
+export { SearchDuotone as LookupDuotone } from './icons/SearchDuotone';
+export { SearchDuotone as LookupDuotoneIcon } from './icons/SearchDuotone';
+export { SearchDuotone as FoamLookupDuotone } from './icons/SearchDuotone';
+export { SearchFill as LookupFill } from './icons/SearchFill';
+export { SearchFill as LookupFillIcon } from './icons/SearchFill';
+export { SearchFill as FoamLookupFill } from './icons/SearchFill';
+export { Search as Lookup } from './icons/Search';
+export { Search as LookupIcon } from './icons/Search';
+export { Search as FoamLookup } from './icons/Search';
+export { SearchDuotone as MagnifyingGlassDuotone } from './icons/SearchDuotone';
+export { SearchDuotone as MagnifyingGlassDuotoneIcon } from './icons/SearchDuotone';
+export { SearchDuotone as FoamMagnifyingGlassDuotone } from './icons/SearchDuotone';
+export { SearchFill as MagnifyingGlassFill } from './icons/SearchFill';
+export { SearchFill as MagnifyingGlassFillIcon } from './icons/SearchFill';
+export { SearchFill as FoamMagnifyingGlassFill } from './icons/SearchFill';
+export { Search as MagnifyingGlass } from './icons/Search';
+export { Search as MagnifyingGlassIcon } from './icons/Search';
+export { Search as FoamMagnifyingGlass } from './icons/Search';
+export { SearchDuotone as QueryDuotone } from './icons/SearchDuotone';
+export { SearchDuotone as QueryDuotoneIcon } from './icons/SearchDuotone';
+export { SearchDuotone as FoamQueryDuotone } from './icons/SearchDuotone';
+export { SearchFill as QueryFill } from './icons/SearchFill';
+export { SearchFill as QueryFillIcon } from './icons/SearchFill';
+export { SearchFill as FoamQueryFill } from './icons/SearchFill';
+export { Search as Query } from './icons/Search';
+export { Search as QueryIcon } from './icons/Search';
+export { Search as FoamQuery } from './icons/Search';
+export { SearchDuotone as ExploreDuotone } from './icons/SearchDuotone';
+export { SearchDuotone as ExploreDuotoneIcon } from './icons/SearchDuotone';
+export { SearchDuotone as FoamExploreDuotone } from './icons/SearchDuotone';
+export { SearchFill as ExploreFill } from './icons/SearchFill';
+export { SearchFill as ExploreFillIcon } from './icons/SearchFill';
+export { SearchFill as FoamExploreFill } from './icons/SearchFill';
+export { Search as Explore } from './icons/Search';
+export { Search as ExploreIcon } from './icons/Search';
+export { Search as FoamExplore } from './icons/Search';
+export { SearchUserDuotone as FindUserDuotone } from './icons/SearchUserDuotone';
+export { SearchUserDuotone as FindUserDuotoneIcon } from './icons/SearchUserDuotone';
+export { SearchUserDuotone as FoamFindUserDuotone } from './icons/SearchUserDuotone';
+export { SearchUserFill as FindUserFill } from './icons/SearchUserFill';
+export { SearchUserFill as FindUserFillIcon } from './icons/SearchUserFill';
+export { SearchUserFill as FoamFindUserFill } from './icons/SearchUserFill';
+export { SearchUser as FindUser } from './icons/SearchUser';
+export { SearchUser as FindUserIcon } from './icons/SearchUser';
+export { SearchUser as FoamFindUser } from './icons/SearchUser';
+export { SearchUserDuotone as UserSearchDuotone } from './icons/SearchUserDuotone';
+export { SearchUserDuotone as UserSearchDuotoneIcon } from './icons/SearchUserDuotone';
+export { SearchUserDuotone as FoamUserSearchDuotone } from './icons/SearchUserDuotone';
+export { SearchUserFill as UserSearchFill } from './icons/SearchUserFill';
+export { SearchUserFill as UserSearchFillIcon } from './icons/SearchUserFill';
+export { SearchUserFill as FoamUserSearchFill } from './icons/SearchUserFill';
+export { SearchUser as UserSearch } from './icons/SearchUser';
+export { SearchUser as UserSearchIcon } from './icons/SearchUser';
+export { SearchUser as FoamUserSearch } from './icons/SearchUser';
+export { SearchUserDuotone as LookupPersonDuotone } from './icons/SearchUserDuotone';
+export { SearchUserDuotone as LookupPersonDuotoneIcon } from './icons/SearchUserDuotone';
+export { SearchUserDuotone as FoamLookupPersonDuotone } from './icons/SearchUserDuotone';
+export { SearchUserFill as LookupPersonFill } from './icons/SearchUserFill';
+export { SearchUserFill as LookupPersonFillIcon } from './icons/SearchUserFill';
+export { SearchUserFill as FoamLookupPersonFill } from './icons/SearchUserFill';
+export { SearchUser as LookupPerson } from './icons/SearchUser';
+export { SearchUser as LookupPersonIcon } from './icons/SearchUser';
+export { SearchUser as FoamLookupPerson } from './icons/SearchUser';
+export { SearchUserDuotone as SearchPersonDuotone } from './icons/SearchUserDuotone';
+export { SearchUserDuotone as SearchPersonDuotoneIcon } from './icons/SearchUserDuotone';
+export { SearchUserDuotone as FoamSearchPersonDuotone } from './icons/SearchUserDuotone';
+export { SearchUserFill as SearchPersonFill } from './icons/SearchUserFill';
+export { SearchUserFill as SearchPersonFillIcon } from './icons/SearchUserFill';
+export { SearchUserFill as FoamSearchPersonFill } from './icons/SearchUserFill';
+export { SearchUser as SearchPerson } from './icons/SearchUser';
+export { SearchUser as SearchPersonIcon } from './icons/SearchUser';
+export { SearchUser as FoamSearchPerson } from './icons/SearchUser';
+export { ShareDuotone as ForwardDuotone } from './icons/ShareDuotone';
+export { ShareDuotone as ForwardDuotoneIcon } from './icons/ShareDuotone';
+export { ShareDuotone as FoamForwardDuotone } from './icons/ShareDuotone';
+export { ShareFill as ForwardFill } from './icons/ShareFill';
+export { ShareFill as ForwardFillIcon } from './icons/ShareFill';
+export { ShareFill as FoamForwardFill } from './icons/ShareFill';
+export { Share as Forward } from './icons/Share';
+export { Share as ForwardIcon } from './icons/Share';
+export { Share as FoamForward } from './icons/Share';
+export { ShareDuotone as ShareLinkDuotone } from './icons/ShareDuotone';
+export { ShareDuotone as ShareLinkDuotoneIcon } from './icons/ShareDuotone';
+export { ShareDuotone as FoamShareLinkDuotone } from './icons/ShareDuotone';
+export { ShareFill as ShareLinkFill } from './icons/ShareFill';
+export { ShareFill as ShareLinkFillIcon } from './icons/ShareFill';
+export { ShareFill as FoamShareLinkFill } from './icons/ShareFill';
+export { Share as ShareLink } from './icons/Share';
+export { Share as ShareLinkIcon } from './icons/Share';
+export { Share as FoamShareLink } from './icons/Share';
+export { SlidersHorizontalDuotone as ControlsDuotone } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalDuotone as ControlsDuotoneIcon } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalDuotone as FoamControlsDuotone } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalFill as ControlsFill } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontalFill as ControlsFillIcon } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontalFill as FoamControlsFill } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontal as Controls } from './icons/SlidersHorizontal';
+export { SlidersHorizontal as ControlsIcon } from './icons/SlidersHorizontal';
+export { SlidersHorizontal as FoamControls } from './icons/SlidersHorizontal';
+export { SlidersHorizontalDuotone as AdjustDuotone } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalDuotone as AdjustDuotoneIcon } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalDuotone as FoamAdjustDuotone } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalFill as AdjustFill } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontalFill as AdjustFillIcon } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontalFill as FoamAdjustFill } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontal as Adjust } from './icons/SlidersHorizontal';
+export { SlidersHorizontal as AdjustIcon } from './icons/SlidersHorizontal';
+export { SlidersHorizontal as FoamAdjust } from './icons/SlidersHorizontal';
+export { SlidersHorizontalDuotone as FiltersDuotone } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalDuotone as FiltersDuotoneIcon } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalDuotone as FoamFiltersDuotone } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalFill as FiltersFill } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontalFill as FiltersFillIcon } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontalFill as FoamFiltersFill } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontal as Filters } from './icons/SlidersHorizontal';
+export { SlidersHorizontal as FiltersIcon } from './icons/SlidersHorizontal';
+export { SlidersHorizontal as FoamFilters } from './icons/SlidersHorizontal';
+export { SlidersHorizontalDuotone as EqualizerDuotone } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalDuotone as EqualizerDuotoneIcon } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalDuotone as FoamEqualizerDuotone } from './icons/SlidersHorizontalDuotone';
+export { SlidersHorizontalFill as EqualizerFill } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontalFill as EqualizerFillIcon } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontalFill as FoamEqualizerFill } from './icons/SlidersHorizontalFill';
+export { SlidersHorizontal as Equalizer } from './icons/SlidersHorizontal';
+export { SlidersHorizontal as EqualizerIcon } from './icons/SlidersHorizontal';
+export { SlidersHorizontal as FoamEqualizer } from './icons/SlidersHorizontal';
+export { SmileDuotone as HappyDuotone } from './icons/SmileDuotone';
+export { SmileDuotone as HappyDuotoneIcon } from './icons/SmileDuotone';
+export { SmileDuotone as FoamHappyDuotone } from './icons/SmileDuotone';
+export { SmileFill as HappyFill } from './icons/SmileFill';
+export { SmileFill as HappyFillIcon } from './icons/SmileFill';
+export { SmileFill as FoamHappyFill } from './icons/SmileFill';
+export { Smile as Happy } from './icons/Smile';
+export { Smile as HappyIcon } from './icons/Smile';
+export { Smile as FoamHappy } from './icons/Smile';
+export { SmileDuotone as PositiveDuotone } from './icons/SmileDuotone';
+export { SmileDuotone as PositiveDuotoneIcon } from './icons/SmileDuotone';
+export { SmileDuotone as FoamPositiveDuotone } from './icons/SmileDuotone';
+export { SmileFill as PositiveFill } from './icons/SmileFill';
+export { SmileFill as PositiveFillIcon } from './icons/SmileFill';
+export { SmileFill as FoamPositiveFill } from './icons/SmileFill';
+export { Smile as Positive } from './icons/Smile';
+export { Smile as PositiveIcon } from './icons/Smile';
+export { Smile as FoamPositive } from './icons/Smile';
+export { SmileDuotone as SmileyDuotone } from './icons/SmileDuotone';
+export { SmileDuotone as SmileyDuotoneIcon } from './icons/SmileDuotone';
+export { SmileDuotone as FoamSmileyDuotone } from './icons/SmileDuotone';
+export { SmileFill as SmileyFill } from './icons/SmileFill';
+export { SmileFill as SmileyFillIcon } from './icons/SmileFill';
+export { SmileFill as FoamSmileyFill } from './icons/SmileFill';
+export { Smile as Smiley } from './icons/Smile';
+export { Smile as SmileyIcon } from './icons/Smile';
+export { Smile as FoamSmiley } from './icons/Smile';
+export { SparklesDuotone as MagicDuotone } from './icons/SparklesDuotone';
+export { SparklesDuotone as MagicDuotoneIcon } from './icons/SparklesDuotone';
+export { SparklesDuotone as FoamMagicDuotone } from './icons/SparklesDuotone';
+export { SparklesFill as MagicFill } from './icons/SparklesFill';
+export { SparklesFill as MagicFillIcon } from './icons/SparklesFill';
+export { SparklesFill as FoamMagicFill } from './icons/SparklesFill';
+export { Sparkles as Magic } from './icons/Sparkles';
+export { Sparkles as MagicIcon } from './icons/Sparkles';
+export { Sparkles as FoamMagic } from './icons/Sparkles';
+export { SparklesDuotone as AiDuotone } from './icons/SparklesDuotone';
+export { SparklesDuotone as AiDuotoneIcon } from './icons/SparklesDuotone';
+export { SparklesDuotone as FoamAiDuotone } from './icons/SparklesDuotone';
+export { SparklesFill as AiFill } from './icons/SparklesFill';
+export { SparklesFill as AiFillIcon } from './icons/SparklesFill';
+export { SparklesFill as FoamAiFill } from './icons/SparklesFill';
+export { Sparkles as Ai } from './icons/Sparkles';
+export { Sparkles as AiIcon } from './icons/Sparkles';
+export { Sparkles as FoamAi } from './icons/Sparkles';
+export { SparklesDuotone as ShineDuotone } from './icons/SparklesDuotone';
+export { SparklesDuotone as ShineDuotoneIcon } from './icons/SparklesDuotone';
+export { SparklesDuotone as FoamShineDuotone } from './icons/SparklesDuotone';
+export { SparklesFill as ShineFill } from './icons/SparklesFill';
+export { SparklesFill as ShineFillIcon } from './icons/SparklesFill';
+export { SparklesFill as FoamShineFill } from './icons/SparklesFill';
+export { Sparkles as Shine } from './icons/Sparkles';
+export { Sparkles as ShineIcon } from './icons/Sparkles';
+export { Sparkles as FoamShine } from './icons/Sparkles';
+export { SparklesDuotone as GenerateDuotone } from './icons/SparklesDuotone';
+export { SparklesDuotone as GenerateDuotoneIcon } from './icons/SparklesDuotone';
+export { SparklesDuotone as FoamGenerateDuotone } from './icons/SparklesDuotone';
+export { SparklesFill as GenerateFill } from './icons/SparklesFill';
+export { SparklesFill as GenerateFillIcon } from './icons/SparklesFill';
+export { SparklesFill as FoamGenerateFill } from './icons/SparklesFill';
+export { Sparkles as Generate } from './icons/Sparkles';
+export { Sparkles as GenerateIcon } from './icons/Sparkles';
+export { Sparkles as FoamGenerate } from './icons/Sparkles';
+export { SquareDuotone as StopDuotone } from './icons/SquareDuotone';
+export { SquareDuotone as StopDuotoneIcon } from './icons/SquareDuotone';
+export { SquareDuotone as FoamStopDuotone } from './icons/SquareDuotone';
+export { SquareFill as StopFill } from './icons/SquareFill';
+export { SquareFill as StopFillIcon } from './icons/SquareFill';
+export { SquareFill as FoamStopFill } from './icons/SquareFill';
+export { Square as Stop } from './icons/Square';
+export { Square as StopIcon } from './icons/Square';
+export { Square as FoamStop } from './icons/Square';
+export { SquarePenDuotone as ComposeDuotone } from './icons/SquarePenDuotone';
+export { SquarePenDuotone as ComposeDuotoneIcon } from './icons/SquarePenDuotone';
+export { SquarePenDuotone as FoamComposeDuotone } from './icons/SquarePenDuotone';
+export { SquarePenFill as ComposeFill } from './icons/SquarePenFill';
+export { SquarePenFill as ComposeFillIcon } from './icons/SquarePenFill';
+export { SquarePenFill as FoamComposeFill } from './icons/SquarePenFill';
+export { SquarePen as Compose } from './icons/SquarePen';
+export { SquarePen as ComposeIcon } from './icons/SquarePen';
+export { SquarePen as FoamCompose } from './icons/SquarePen';
+export { SquarePenDuotone as WriteNewDuotone } from './icons/SquarePenDuotone';
+export { SquarePenDuotone as WriteNewDuotoneIcon } from './icons/SquarePenDuotone';
+export { SquarePenDuotone as FoamWriteNewDuotone } from './icons/SquarePenDuotone';
+export { SquarePenFill as WriteNewFill } from './icons/SquarePenFill';
+export { SquarePenFill as WriteNewFillIcon } from './icons/SquarePenFill';
+export { SquarePenFill as FoamWriteNewFill } from './icons/SquarePenFill';
+export { SquarePen as WriteNew } from './icons/SquarePen';
+export { SquarePen as WriteNewIcon } from './icons/SquarePen';
+export { SquarePen as FoamWriteNew } from './icons/SquarePen';
+export { SquarePenDuotone as DraftDuotone } from './icons/SquarePenDuotone';
+export { SquarePenDuotone as DraftDuotoneIcon } from './icons/SquarePenDuotone';
+export { SquarePenDuotone as FoamDraftDuotone } from './icons/SquarePenDuotone';
+export { SquarePenFill as DraftFill } from './icons/SquarePenFill';
+export { SquarePenFill as DraftFillIcon } from './icons/SquarePenFill';
+export { SquarePenFill as FoamDraftFill } from './icons/SquarePenFill';
+export { SquarePen as Draft } from './icons/SquarePen';
+export { SquarePen as DraftIcon } from './icons/SquarePen';
+export { SquarePen as FoamDraft } from './icons/SquarePen';
+export { SquarePenDuotone as EditorDuotone } from './icons/SquarePenDuotone';
+export { SquarePenDuotone as EditorDuotoneIcon } from './icons/SquarePenDuotone';
+export { SquarePenDuotone as FoamEditorDuotone } from './icons/SquarePenDuotone';
+export { SquarePenFill as EditorFill } from './icons/SquarePenFill';
+export { SquarePenFill as EditorFillIcon } from './icons/SquarePenFill';
+export { SquarePenFill as FoamEditorFill } from './icons/SquarePenFill';
+export { SquarePen as Editor } from './icons/SquarePen';
+export { SquarePen as EditorIcon } from './icons/SquarePen';
+export { SquarePen as FoamEditor } from './icons/SquarePen';
+export { StarDuotone as FavoriteDuotone } from './icons/StarDuotone';
+export { StarDuotone as FavoriteDuotoneIcon } from './icons/StarDuotone';
+export { StarDuotone as FoamFavoriteDuotone } from './icons/StarDuotone';
+export { StarFill as FavoriteFill } from './icons/StarFill';
+export { StarFill as FavoriteFillIcon } from './icons/StarFill';
+export { StarFill as FoamFavoriteFill } from './icons/StarFill';
+export { Star as Favorite } from './icons/Star';
+export { Star as FavoriteIcon } from './icons/Star';
+export { Star as FoamFavorite } from './icons/Star';
+export { StarDuotone as FavouriteDuotone } from './icons/StarDuotone';
+export { StarDuotone as FavouriteDuotoneIcon } from './icons/StarDuotone';
+export { StarDuotone as FoamFavouriteDuotone } from './icons/StarDuotone';
+export { StarFill as FavouriteFill } from './icons/StarFill';
+export { StarFill as FavouriteFillIcon } from './icons/StarFill';
+export { StarFill as FoamFavouriteFill } from './icons/StarFill';
+export { Star as Favourite } from './icons/Star';
+export { Star as FavouriteIcon } from './icons/Star';
+export { Star as FoamFavourite } from './icons/Star';
+export { StarDuotone as RatingDuotone } from './icons/StarDuotone';
+export { StarDuotone as RatingDuotoneIcon } from './icons/StarDuotone';
+export { StarDuotone as FoamRatingDuotone } from './icons/StarDuotone';
+export { StarFill as RatingFill } from './icons/StarFill';
+export { StarFill as RatingFillIcon } from './icons/StarFill';
+export { StarFill as FoamRatingFill } from './icons/StarFill';
+export { Star as Rating } from './icons/Star';
+export { Star as RatingIcon } from './icons/Star';
+export { Star as FoamRating } from './icons/Star';
+export { SunDuotone as LightDuotone } from './icons/SunDuotone';
+export { SunDuotone as LightDuotoneIcon } from './icons/SunDuotone';
+export { SunDuotone as FoamLightDuotone } from './icons/SunDuotone';
+export { SunFill as LightFill } from './icons/SunFill';
+export { SunFill as LightFillIcon } from './icons/SunFill';
+export { SunFill as FoamLightFill } from './icons/SunFill';
+export { Sun as Light } from './icons/Sun';
+export { Sun as LightIcon } from './icons/Sun';
+export { Sun as FoamLight } from './icons/Sun';
+export { SunDuotone as DayDuotone } from './icons/SunDuotone';
+export { SunDuotone as DayDuotoneIcon } from './icons/SunDuotone';
+export { SunDuotone as FoamDayDuotone } from './icons/SunDuotone';
+export { SunFill as DayFill } from './icons/SunFill';
+export { SunFill as DayFillIcon } from './icons/SunFill';
+export { SunFill as FoamDayFill } from './icons/SunFill';
+export { Sun as Day } from './icons/Sun';
+export { Sun as DayIcon } from './icons/Sun';
+export { Sun as FoamDay } from './icons/Sun';
+export { SunDuotone as BrightDuotone } from './icons/SunDuotone';
+export { SunDuotone as BrightDuotoneIcon } from './icons/SunDuotone';
+export { SunDuotone as FoamBrightDuotone } from './icons/SunDuotone';
+export { SunFill as BrightFill } from './icons/SunFill';
+export { SunFill as BrightFillIcon } from './icons/SunFill';
+export { SunFill as FoamBrightFill } from './icons/SunFill';
+export { Sun as Bright } from './icons/Sun';
+export { Sun as BrightIcon } from './icons/Sun';
+export { Sun as FoamBright } from './icons/Sun';
+export { TextAlignCenterDuotone as CenterDuotone } from './icons/TextAlignCenterDuotone';
+export { TextAlignCenterDuotone as CenterDuotoneIcon } from './icons/TextAlignCenterDuotone';
+export { TextAlignCenterDuotone as FoamCenterDuotone } from './icons/TextAlignCenterDuotone';
+export { TextAlignCenterFill as CenterFill } from './icons/TextAlignCenterFill';
+export { TextAlignCenterFill as CenterFillIcon } from './icons/TextAlignCenterFill';
+export { TextAlignCenterFill as FoamCenterFill } from './icons/TextAlignCenterFill';
+export { TextAlignCenter as Center } from './icons/TextAlignCenter';
+export { TextAlignCenter as CenterIcon } from './icons/TextAlignCenter';
+export { TextAlignCenter as FoamCenter } from './icons/TextAlignCenter';
+export { TextAlignEndDuotone as AlignRightDuotone } from './icons/TextAlignEndDuotone';
+export { TextAlignEndDuotone as AlignRightDuotoneIcon } from './icons/TextAlignEndDuotone';
+export { TextAlignEndDuotone as FoamAlignRightDuotone } from './icons/TextAlignEndDuotone';
+export { TextAlignEndFill as AlignRightFill } from './icons/TextAlignEndFill';
+export { TextAlignEndFill as AlignRightFillIcon } from './icons/TextAlignEndFill';
+export { TextAlignEndFill as FoamAlignRightFill } from './icons/TextAlignEndFill';
+export { TextAlignEnd as AlignRight } from './icons/TextAlignEnd';
+export { TextAlignEnd as AlignRightIcon } from './icons/TextAlignEnd';
+export { TextAlignEnd as FoamAlignRight } from './icons/TextAlignEnd';
+export { TextAlignJustifyDuotone as JustifyDuotone } from './icons/TextAlignJustifyDuotone';
+export { TextAlignJustifyDuotone as JustifyDuotoneIcon } from './icons/TextAlignJustifyDuotone';
+export { TextAlignJustifyDuotone as FoamJustifyDuotone } from './icons/TextAlignJustifyDuotone';
+export { TextAlignJustifyFill as JustifyFill } from './icons/TextAlignJustifyFill';
+export { TextAlignJustifyFill as JustifyFillIcon } from './icons/TextAlignJustifyFill';
+export { TextAlignJustifyFill as FoamJustifyFill } from './icons/TextAlignJustifyFill';
+export { TextAlignJustify as Justify } from './icons/TextAlignJustify';
+export { TextAlignJustify as JustifyIcon } from './icons/TextAlignJustify';
+export { TextAlignJustify as FoamJustify } from './icons/TextAlignJustify';
+export { TextAlignStartDuotone as AlignLeftDuotone } from './icons/TextAlignStartDuotone';
+export { TextAlignStartDuotone as AlignLeftDuotoneIcon } from './icons/TextAlignStartDuotone';
+export { TextAlignStartDuotone as FoamAlignLeftDuotone } from './icons/TextAlignStartDuotone';
+export { TextAlignStartFill as AlignLeftFill } from './icons/TextAlignStartFill';
+export { TextAlignStartFill as AlignLeftFillIcon } from './icons/TextAlignStartFill';
+export { TextAlignStartFill as FoamAlignLeftFill } from './icons/TextAlignStartFill';
+export { TextAlignStart as AlignLeft } from './icons/TextAlignStart';
+export { TextAlignStart as AlignLeftIcon } from './icons/TextAlignStart';
+export { TextAlignStart as FoamAlignLeft } from './icons/TextAlignStart';
+export { ThumbsDownDuotone as DislikeDuotone } from './icons/ThumbsDownDuotone';
+export { ThumbsDownDuotone as DislikeDuotoneIcon } from './icons/ThumbsDownDuotone';
+export { ThumbsDownDuotone as FoamDislikeDuotone } from './icons/ThumbsDownDuotone';
+export { ThumbsDownFill as DislikeFill } from './icons/ThumbsDownFill';
+export { ThumbsDownFill as DislikeFillIcon } from './icons/ThumbsDownFill';
+export { ThumbsDownFill as FoamDislikeFill } from './icons/ThumbsDownFill';
+export { ThumbsDown as Dislike } from './icons/ThumbsDown';
+export { ThumbsDown as DislikeIcon } from './icons/ThumbsDown';
+export { ThumbsDown as FoamDislike } from './icons/ThumbsDown';
+export { ThumbsDownDuotone as DisapproveDuotone } from './icons/ThumbsDownDuotone';
+export { ThumbsDownDuotone as DisapproveDuotoneIcon } from './icons/ThumbsDownDuotone';
+export { ThumbsDownDuotone as FoamDisapproveDuotone } from './icons/ThumbsDownDuotone';
+export { ThumbsDownFill as DisapproveFill } from './icons/ThumbsDownFill';
+export { ThumbsDownFill as DisapproveFillIcon } from './icons/ThumbsDownFill';
+export { ThumbsDownFill as FoamDisapproveFill } from './icons/ThumbsDownFill';
+export { ThumbsDown as Disapprove } from './icons/ThumbsDown';
+export { ThumbsDown as DisapproveIcon } from './icons/ThumbsDown';
+export { ThumbsDown as FoamDisapprove } from './icons/ThumbsDown';
+export { ThumbsDownDuotone as NoDuotone } from './icons/ThumbsDownDuotone';
+export { ThumbsDownDuotone as NoDuotoneIcon } from './icons/ThumbsDownDuotone';
+export { ThumbsDownDuotone as FoamNoDuotone } from './icons/ThumbsDownDuotone';
+export { ThumbsDownFill as NoFill } from './icons/ThumbsDownFill';
+export { ThumbsDownFill as NoFillIcon } from './icons/ThumbsDownFill';
+export { ThumbsDownFill as FoamNoFill } from './icons/ThumbsDownFill';
+export { ThumbsDown as No } from './icons/ThumbsDown';
+export { ThumbsDown as NoIcon } from './icons/ThumbsDown';
+export { ThumbsDown as FoamNo } from './icons/ThumbsDown';
+export { ThumbsUpDuotone as LikeDuotone } from './icons/ThumbsUpDuotone';
+export { ThumbsUpDuotone as LikeDuotoneIcon } from './icons/ThumbsUpDuotone';
+export { ThumbsUpDuotone as FoamLikeDuotone } from './icons/ThumbsUpDuotone';
+export { ThumbsUpFill as LikeFill } from './icons/ThumbsUpFill';
+export { ThumbsUpFill as LikeFillIcon } from './icons/ThumbsUpFill';
+export { ThumbsUpFill as FoamLikeFill } from './icons/ThumbsUpFill';
+export { ThumbsUp as Like } from './icons/ThumbsUp';
+export { ThumbsUp as LikeIcon } from './icons/ThumbsUp';
+export { ThumbsUp as FoamLike } from './icons/ThumbsUp';
+export { ThumbsUpDuotone as ApproveDuotone } from './icons/ThumbsUpDuotone';
+export { ThumbsUpDuotone as ApproveDuotoneIcon } from './icons/ThumbsUpDuotone';
+export { ThumbsUpDuotone as FoamApproveDuotone } from './icons/ThumbsUpDuotone';
+export { ThumbsUpFill as ApproveFill } from './icons/ThumbsUpFill';
+export { ThumbsUpFill as ApproveFillIcon } from './icons/ThumbsUpFill';
+export { ThumbsUpFill as FoamApproveFill } from './icons/ThumbsUpFill';
+export { ThumbsUp as Approve } from './icons/ThumbsUp';
+export { ThumbsUp as ApproveIcon } from './icons/ThumbsUp';
+export { ThumbsUp as FoamApprove } from './icons/ThumbsUp';
+export { ThumbsUpDuotone as YesDuotone } from './icons/ThumbsUpDuotone';
+export { ThumbsUpDuotone as YesDuotoneIcon } from './icons/ThumbsUpDuotone';
+export { ThumbsUpDuotone as FoamYesDuotone } from './icons/ThumbsUpDuotone';
+export { ThumbsUpFill as YesFill } from './icons/ThumbsUpFill';
+export { ThumbsUpFill as YesFillIcon } from './icons/ThumbsUpFill';
+export { ThumbsUpFill as FoamYesFill } from './icons/ThumbsUpFill';
+export { ThumbsUp as Yes } from './icons/ThumbsUp';
+export { ThumbsUp as YesIcon } from './icons/ThumbsUp';
+export { ThumbsUp as FoamYes } from './icons/ThumbsUp';
+export { TrashDuotone as DeleteDuotone } from './icons/TrashDuotone';
+export { TrashDuotone as DeleteDuotoneIcon } from './icons/TrashDuotone';
+export { TrashDuotone as FoamDeleteDuotone } from './icons/TrashDuotone';
+export { TrashFill as DeleteFill } from './icons/TrashFill';
+export { TrashFill as DeleteFillIcon } from './icons/TrashFill';
+export { TrashFill as FoamDeleteFill } from './icons/TrashFill';
+export { Trash as Delete } from './icons/Trash';
+export { Trash as DeleteIcon } from './icons/Trash';
+export { Trash as FoamDelete } from './icons/Trash';
+export { TrashDuotone as RemoveDuotone } from './icons/TrashDuotone';
+export { TrashDuotone as RemoveDuotoneIcon } from './icons/TrashDuotone';
+export { TrashDuotone as FoamRemoveDuotone } from './icons/TrashDuotone';
+export { TrashFill as RemoveFill } from './icons/TrashFill';
+export { TrashFill as RemoveFillIcon } from './icons/TrashFill';
+export { TrashFill as FoamRemoveFill } from './icons/TrashFill';
+export { Trash as Remove } from './icons/Trash';
+export { Trash as RemoveIcon } from './icons/Trash';
+export { Trash as FoamRemove } from './icons/Trash';
+export { TrashDuotone as BinDuotone } from './icons/TrashDuotone';
+export { TrashDuotone as BinDuotoneIcon } from './icons/TrashDuotone';
+export { TrashDuotone as FoamBinDuotone } from './icons/TrashDuotone';
+export { TrashFill as BinFill } from './icons/TrashFill';
+export { TrashFill as BinFillIcon } from './icons/TrashFill';
+export { TrashFill as FoamBinFill } from './icons/TrashFill';
+export { Trash as Bin } from './icons/Trash';
+export { Trash as BinIcon } from './icons/Trash';
+export { Trash as FoamBin } from './icons/Trash';
+export { TrashDuotone as GarbageDuotone } from './icons/TrashDuotone';
+export { TrashDuotone as GarbageDuotoneIcon } from './icons/TrashDuotone';
+export { TrashDuotone as FoamGarbageDuotone } from './icons/TrashDuotone';
+export { TrashFill as GarbageFill } from './icons/TrashFill';
+export { TrashFill as GarbageFillIcon } from './icons/TrashFill';
+export { TrashFill as FoamGarbageFill } from './icons/TrashFill';
+export { Trash as Garbage } from './icons/Trash';
+export { Trash as GarbageIcon } from './icons/Trash';
+export { Trash as FoamGarbage } from './icons/Trash';
+export { TrendingDownDuotone as DeclineDuotone } from './icons/TrendingDownDuotone';
+export { TrendingDownDuotone as DeclineDuotoneIcon } from './icons/TrendingDownDuotone';
+export { TrendingDownDuotone as FoamDeclineDuotone } from './icons/TrendingDownDuotone';
+export { TrendingDownFill as DeclineFill } from './icons/TrendingDownFill';
+export { TrendingDownFill as DeclineFillIcon } from './icons/TrendingDownFill';
+export { TrendingDownFill as FoamDeclineFill } from './icons/TrendingDownFill';
+export { TrendingDown as Decline } from './icons/TrendingDown';
+export { TrendingDown as DeclineIcon } from './icons/TrendingDown';
+export { TrendingDown as FoamDecline } from './icons/TrendingDown';
+export { TrendingDownDuotone as FallingDuotone } from './icons/TrendingDownDuotone';
+export { TrendingDownDuotone as FallingDuotoneIcon } from './icons/TrendingDownDuotone';
+export { TrendingDownDuotone as FoamFallingDuotone } from './icons/TrendingDownDuotone';
+export { TrendingDownFill as FallingFill } from './icons/TrendingDownFill';
+export { TrendingDownFill as FallingFillIcon } from './icons/TrendingDownFill';
+export { TrendingDownFill as FoamFallingFill } from './icons/TrendingDownFill';
+export { TrendingDown as Falling } from './icons/TrendingDown';
+export { TrendingDown as FallingIcon } from './icons/TrendingDown';
+export { TrendingDown as FoamFalling } from './icons/TrendingDown';
+export { TrendingDownDuotone as DowntrendDuotone } from './icons/TrendingDownDuotone';
+export { TrendingDownDuotone as DowntrendDuotoneIcon } from './icons/TrendingDownDuotone';
+export { TrendingDownDuotone as FoamDowntrendDuotone } from './icons/TrendingDownDuotone';
+export { TrendingDownFill as DowntrendFill } from './icons/TrendingDownFill';
+export { TrendingDownFill as DowntrendFillIcon } from './icons/TrendingDownFill';
+export { TrendingDownFill as FoamDowntrendFill } from './icons/TrendingDownFill';
+export { TrendingDown as Downtrend } from './icons/TrendingDown';
+export { TrendingDown as DowntrendIcon } from './icons/TrendingDown';
+export { TrendingDown as FoamDowntrend } from './icons/TrendingDown';
+export { TrendingUpDuotone as GrowthDuotone } from './icons/TrendingUpDuotone';
+export { TrendingUpDuotone as GrowthDuotoneIcon } from './icons/TrendingUpDuotone';
+export { TrendingUpDuotone as FoamGrowthDuotone } from './icons/TrendingUpDuotone';
+export { TrendingUpFill as GrowthFill } from './icons/TrendingUpFill';
+export { TrendingUpFill as GrowthFillIcon } from './icons/TrendingUpFill';
+export { TrendingUpFill as FoamGrowthFill } from './icons/TrendingUpFill';
+export { TrendingUp as Growth } from './icons/TrendingUp';
+export { TrendingUp as GrowthIcon } from './icons/TrendingUp';
+export { TrendingUp as FoamGrowth } from './icons/TrendingUp';
+export { TrendingUpDuotone as IncreaseDuotone } from './icons/TrendingUpDuotone';
+export { TrendingUpDuotone as IncreaseDuotoneIcon } from './icons/TrendingUpDuotone';
+export { TrendingUpDuotone as FoamIncreaseDuotone } from './icons/TrendingUpDuotone';
+export { TrendingUpFill as IncreaseFill } from './icons/TrendingUpFill';
+export { TrendingUpFill as IncreaseFillIcon } from './icons/TrendingUpFill';
+export { TrendingUpFill as FoamIncreaseFill } from './icons/TrendingUpFill';
+export { TrendingUp as Increase } from './icons/TrendingUp';
+export { TrendingUp as IncreaseIcon } from './icons/TrendingUp';
+export { TrendingUp as FoamIncrease } from './icons/TrendingUp';
+export { TrendingUpDuotone as RisingDuotone } from './icons/TrendingUpDuotone';
+export { TrendingUpDuotone as RisingDuotoneIcon } from './icons/TrendingUpDuotone';
+export { TrendingUpDuotone as FoamRisingDuotone } from './icons/TrendingUpDuotone';
+export { TrendingUpFill as RisingFill } from './icons/TrendingUpFill';
+export { TrendingUpFill as RisingFillIcon } from './icons/TrendingUpFill';
+export { TrendingUpFill as FoamRisingFill } from './icons/TrendingUpFill';
+export { TrendingUp as Rising } from './icons/TrendingUp';
+export { TrendingUp as RisingIcon } from './icons/TrendingUp';
+export { TrendingUp as FoamRising } from './icons/TrendingUp';
+export { TriangleDownUpDuotone as SortToggleDuotone } from './icons/TriangleDownUpDuotone';
+export { TriangleDownUpDuotone as SortToggleDuotoneIcon } from './icons/TriangleDownUpDuotone';
+export { TriangleDownUpDuotone as FoamSortToggleDuotone } from './icons/TriangleDownUpDuotone';
+export { TriangleDownUpFill as SortToggleFill } from './icons/TriangleDownUpFill';
+export { TriangleDownUpFill as SortToggleFillIcon } from './icons/TriangleDownUpFill';
+export { TriangleDownUpFill as FoamSortToggleFill } from './icons/TriangleDownUpFill';
+export { TriangleDownUp as SortToggle } from './icons/TriangleDownUp';
+export { TriangleDownUp as SortToggleIcon } from './icons/TriangleDownUp';
+export { TriangleDownUp as FoamSortToggle } from './icons/TriangleDownUp';
+export { TriangleDownUpDuotone as OrderToggleDuotone } from './icons/TriangleDownUpDuotone';
+export { TriangleDownUpDuotone as OrderToggleDuotoneIcon } from './icons/TriangleDownUpDuotone';
+export { TriangleDownUpDuotone as FoamOrderToggleDuotone } from './icons/TriangleDownUpDuotone';
+export { TriangleDownUpFill as OrderToggleFill } from './icons/TriangleDownUpFill';
+export { TriangleDownUpFill as OrderToggleFillIcon } from './icons/TriangleDownUpFill';
+export { TriangleDownUpFill as FoamOrderToggleFill } from './icons/TriangleDownUpFill';
+export { TriangleDownUp as OrderToggle } from './icons/TriangleDownUp';
+export { TriangleDownUp as OrderToggleIcon } from './icons/TriangleDownUp';
+export { TriangleDownUp as FoamOrderToggle } from './icons/TriangleDownUp';
+export { UnlinkDuotone as DisconnectDuotone } from './icons/UnlinkDuotone';
+export { UnlinkDuotone as DisconnectDuotoneIcon } from './icons/UnlinkDuotone';
+export { UnlinkDuotone as FoamDisconnectDuotone } from './icons/UnlinkDuotone';
+export { UnlinkFill as DisconnectFill } from './icons/UnlinkFill';
+export { UnlinkFill as DisconnectFillIcon } from './icons/UnlinkFill';
+export { UnlinkFill as FoamDisconnectFill } from './icons/UnlinkFill';
+export { Unlink as Disconnect } from './icons/Unlink';
+export { Unlink as DisconnectIcon } from './icons/Unlink';
+export { Unlink as FoamDisconnect } from './icons/Unlink';
+export { UnlinkDuotone as BreakDuotone } from './icons/UnlinkDuotone';
+export { UnlinkDuotone as BreakDuotoneIcon } from './icons/UnlinkDuotone';
+export { UnlinkDuotone as FoamBreakDuotone } from './icons/UnlinkDuotone';
+export { UnlinkFill as BreakFill } from './icons/UnlinkFill';
+export { UnlinkFill as BreakFillIcon } from './icons/UnlinkFill';
+export { UnlinkFill as FoamBreakFill } from './icons/UnlinkFill';
+export { Unlink as Break } from './icons/Unlink';
+export { Unlink as BreakIcon } from './icons/Unlink';
+export { Unlink as FoamBreak } from './icons/Unlink';
+export { UnlockDuotone as UnsecureDuotone } from './icons/UnlockDuotone';
+export { UnlockDuotone as UnsecureDuotoneIcon } from './icons/UnlockDuotone';
+export { UnlockDuotone as FoamUnsecureDuotone } from './icons/UnlockDuotone';
+export { UnlockFill as UnsecureFill } from './icons/UnlockFill';
+export { UnlockFill as UnsecureFillIcon } from './icons/UnlockFill';
+export { UnlockFill as FoamUnsecureFill } from './icons/UnlockFill';
+export { Unlock as Unsecure } from './icons/Unlock';
+export { Unlock as UnsecureIcon } from './icons/Unlock';
+export { Unlock as FoamUnsecure } from './icons/Unlock';
+export { UnlockDuotone as UnlockedDuotone } from './icons/UnlockDuotone';
+export { UnlockDuotone as UnlockedDuotoneIcon } from './icons/UnlockDuotone';
+export { UnlockDuotone as FoamUnlockedDuotone } from './icons/UnlockDuotone';
+export { UnlockFill as UnlockedFill } from './icons/UnlockFill';
+export { UnlockFill as UnlockedFillIcon } from './icons/UnlockFill';
+export { UnlockFill as FoamUnlockedFill } from './icons/UnlockFill';
+export { Unlock as Unlocked } from './icons/Unlock';
+export { Unlock as UnlockedIcon } from './icons/Unlock';
+export { Unlock as FoamUnlocked } from './icons/Unlock';
+export { UnlockDuotone as PublicDuotone } from './icons/UnlockDuotone';
+export { UnlockDuotone as PublicDuotoneIcon } from './icons/UnlockDuotone';
+export { UnlockDuotone as FoamPublicDuotone } from './icons/UnlockDuotone';
+export { UnlockFill as PublicFill } from './icons/UnlockFill';
+export { UnlockFill as PublicFillIcon } from './icons/UnlockFill';
+export { UnlockFill as FoamPublicFill } from './icons/UnlockFill';
+export { Unlock as Public } from './icons/Unlock';
+export { Unlock as PublicIcon } from './icons/Unlock';
+export { Unlock as FoamPublic } from './icons/Unlock';
+export { UploadDuotone as ImportDuotone } from './icons/UploadDuotone';
+export { UploadDuotone as ImportDuotoneIcon } from './icons/UploadDuotone';
+export { UploadDuotone as FoamImportDuotone } from './icons/UploadDuotone';
+export { UploadFill as ImportFill } from './icons/UploadFill';
+export { UploadFill as ImportFillIcon } from './icons/UploadFill';
+export { UploadFill as FoamImportFill } from './icons/UploadFill';
+export { Upload as Import } from './icons/Upload';
+export { Upload as ImportIcon } from './icons/Upload';
+export { Upload as FoamImport } from './icons/Upload';
+export { UploadDuotone as SendDuotone } from './icons/UploadDuotone';
+export { UploadDuotone as SendDuotoneIcon } from './icons/UploadDuotone';
+export { UploadDuotone as FoamSendDuotone } from './icons/UploadDuotone';
+export { UploadFill as SendFill } from './icons/UploadFill';
+export { UploadFill as SendFillIcon } from './icons/UploadFill';
+export { UploadFill as FoamSendFill } from './icons/UploadFill';
+export { Upload as Send } from './icons/Upload';
+export { Upload as SendIcon } from './icons/Upload';
+export { Upload as FoamSend } from './icons/Upload';
+export { UserDuotone as PersonDuotone } from './icons/UserDuotone';
+export { UserDuotone as PersonDuotoneIcon } from './icons/UserDuotone';
+export { UserDuotone as FoamPersonDuotone } from './icons/UserDuotone';
+export { UserFill as PersonFill } from './icons/UserFill';
+export { UserFill as PersonFillIcon } from './icons/UserFill';
+export { UserFill as FoamPersonFill } from './icons/UserFill';
+export { User as Person } from './icons/User';
+export { User as PersonIcon } from './icons/User';
+export { User as FoamPerson } from './icons/User';
+export { UserDuotone as ProfileDuotone } from './icons/UserDuotone';
+export { UserDuotone as ProfileDuotoneIcon } from './icons/UserDuotone';
+export { UserDuotone as FoamProfileDuotone } from './icons/UserDuotone';
+export { UserFill as ProfileFill } from './icons/UserFill';
+export { UserFill as ProfileFillIcon } from './icons/UserFill';
+export { UserFill as FoamProfileFill } from './icons/UserFill';
+export { User as Profile } from './icons/User';
+export { User as ProfileIcon } from './icons/User';
+export { User as FoamProfile } from './icons/User';
+export { UserDuotone as AccountDuotone } from './icons/UserDuotone';
+export { UserDuotone as AccountDuotoneIcon } from './icons/UserDuotone';
+export { UserDuotone as FoamAccountDuotone } from './icons/UserDuotone';
+export { UserFill as AccountFill } from './icons/UserFill';
+export { UserFill as AccountFillIcon } from './icons/UserFill';
+export { UserFill as FoamAccountFill } from './icons/UserFill';
+export { User as Account } from './icons/User';
+export { User as AccountIcon } from './icons/User';
+export { User as FoamAccount } from './icons/User';
+export { UsersDuotone as PeopleDuotone } from './icons/UsersDuotone';
+export { UsersDuotone as PeopleDuotoneIcon } from './icons/UsersDuotone';
+export { UsersDuotone as FoamPeopleDuotone } from './icons/UsersDuotone';
+export { UsersFill as PeopleFill } from './icons/UsersFill';
+export { UsersFill as PeopleFillIcon } from './icons/UsersFill';
+export { UsersFill as FoamPeopleFill } from './icons/UsersFill';
+export { Users as People } from './icons/Users';
+export { Users as PeopleIcon } from './icons/Users';
+export { Users as FoamPeople } from './icons/Users';
+export { UsersDuotone as GroupDuotone } from './icons/UsersDuotone';
+export { UsersDuotone as GroupDuotoneIcon } from './icons/UsersDuotone';
+export { UsersDuotone as FoamGroupDuotone } from './icons/UsersDuotone';
+export { UsersFill as GroupFill } from './icons/UsersFill';
+export { UsersFill as GroupFillIcon } from './icons/UsersFill';
+export { UsersFill as FoamGroupFill } from './icons/UsersFill';
+export { Users as Group } from './icons/Users';
+export { Users as GroupIcon } from './icons/Users';
+export { Users as FoamGroup } from './icons/Users';
+export { UsersDuotone as TeamDuotone } from './icons/UsersDuotone';
+export { UsersDuotone as TeamDuotoneIcon } from './icons/UsersDuotone';
+export { UsersDuotone as FoamTeamDuotone } from './icons/UsersDuotone';
+export { UsersFill as TeamFill } from './icons/UsersFill';
+export { UsersFill as TeamFillIcon } from './icons/UsersFill';
+export { UsersFill as FoamTeamFill } from './icons/UsersFill';
+export { Users as Team } from './icons/Users';
+export { Users as TeamIcon } from './icons/Users';
+export { Users as FoamTeam } from './icons/Users';
+export { UsersDuotone as PersonsDuotone } from './icons/UsersDuotone';
+export { UsersDuotone as PersonsDuotoneIcon } from './icons/UsersDuotone';
+export { UsersDuotone as FoamPersonsDuotone } from './icons/UsersDuotone';
+export { UsersFill as PersonsFill } from './icons/UsersFill';
+export { UsersFill as PersonsFillIcon } from './icons/UsersFill';
+export { UsersFill as FoamPersonsFill } from './icons/UsersFill';
+export { Users as Persons } from './icons/Users';
+export { Users as PersonsIcon } from './icons/Users';
+export { Users as FoamPersons } from './icons/Users';
+export { Volume2Duotone as SoundDuotone } from './icons/Volume2Duotone';
+export { Volume2Duotone as SoundDuotoneIcon } from './icons/Volume2Duotone';
+export { Volume2Duotone as FoamSoundDuotone } from './icons/Volume2Duotone';
+export { Volume2Fill as SoundFill } from './icons/Volume2Fill';
+export { Volume2Fill as SoundFillIcon } from './icons/Volume2Fill';
+export { Volume2Fill as FoamSoundFill } from './icons/Volume2Fill';
+export { Volume2 as Sound } from './icons/Volume2';
+export { Volume2 as SoundIcon } from './icons/Volume2';
+export { Volume2 as FoamSound } from './icons/Volume2';
+export { Volume2Duotone as AudioDuotone } from './icons/Volume2Duotone';
+export { Volume2Duotone as AudioDuotoneIcon } from './icons/Volume2Duotone';
+export { Volume2Duotone as FoamAudioDuotone } from './icons/Volume2Duotone';
+export { Volume2Fill as AudioFill } from './icons/Volume2Fill';
+export { Volume2Fill as AudioFillIcon } from './icons/Volume2Fill';
+export { Volume2Fill as FoamAudioFill } from './icons/Volume2Fill';
+export { Volume2 as Audio } from './icons/Volume2';
+export { Volume2 as AudioIcon } from './icons/Volume2';
+export { Volume2 as FoamAudio } from './icons/Volume2';
+export { Volume2Duotone as SpeakerDuotone } from './icons/Volume2Duotone';
+export { Volume2Duotone as SpeakerDuotoneIcon } from './icons/Volume2Duotone';
+export { Volume2Duotone as FoamSpeakerDuotone } from './icons/Volume2Duotone';
+export { Volume2Fill as SpeakerFill } from './icons/Volume2Fill';
+export { Volume2Fill as SpeakerFillIcon } from './icons/Volume2Fill';
+export { Volume2Fill as FoamSpeakerFill } from './icons/Volume2Fill';
+export { Volume2 as Speaker } from './icons/Volume2';
+export { Volume2 as SpeakerIcon } from './icons/Volume2';
+export { Volume2 as FoamSpeaker } from './icons/Volume2';
+export { Volume2Duotone as VolumeDuotone } from './icons/Volume2Duotone';
+export { Volume2Duotone as VolumeDuotoneIcon } from './icons/Volume2Duotone';
+export { Volume2Duotone as FoamVolumeDuotone } from './icons/Volume2Duotone';
+export { Volume2Fill as VolumeFill } from './icons/Volume2Fill';
+export { Volume2Fill as VolumeFillIcon } from './icons/Volume2Fill';
+export { Volume2Fill as FoamVolumeFill } from './icons/Volume2Fill';
+export { Volume2 as Volume } from './icons/Volume2';
+export { Volume2 as VolumeIcon } from './icons/Volume2';
+export { Volume2 as FoamVolume } from './icons/Volume2';
+export { VolumeOffDuotone as MuteDuotone } from './icons/VolumeOffDuotone';
+export { VolumeOffDuotone as MuteDuotoneIcon } from './icons/VolumeOffDuotone';
+export { VolumeOffDuotone as FoamMuteDuotone } from './icons/VolumeOffDuotone';
+export { VolumeOffFill as MuteFill } from './icons/VolumeOffFill';
+export { VolumeOffFill as MuteFillIcon } from './icons/VolumeOffFill';
+export { VolumeOffFill as FoamMuteFill } from './icons/VolumeOffFill';
+export { VolumeOff as Mute } from './icons/VolumeOff';
+export { VolumeOff as MuteIcon } from './icons/VolumeOff';
+export { VolumeOff as FoamMute } from './icons/VolumeOff';
+export { VolumeOffDuotone as SilentDuotone } from './icons/VolumeOffDuotone';
+export { VolumeOffDuotone as SilentDuotoneIcon } from './icons/VolumeOffDuotone';
+export { VolumeOffDuotone as FoamSilentDuotone } from './icons/VolumeOffDuotone';
+export { VolumeOffFill as SilentFill } from './icons/VolumeOffFill';
+export { VolumeOffFill as SilentFillIcon } from './icons/VolumeOffFill';
+export { VolumeOffFill as FoamSilentFill } from './icons/VolumeOffFill';
+export { VolumeOff as Silent } from './icons/VolumeOff';
+export { VolumeOff as SilentIcon } from './icons/VolumeOff';
+export { VolumeOff as FoamSilent } from './icons/VolumeOff';
+export { VolumeOffDuotone as NoSoundDuotone } from './icons/VolumeOffDuotone';
+export { VolumeOffDuotone as NoSoundDuotoneIcon } from './icons/VolumeOffDuotone';
+export { VolumeOffDuotone as FoamNoSoundDuotone } from './icons/VolumeOffDuotone';
+export { VolumeOffFill as NoSoundFill } from './icons/VolumeOffFill';
+export { VolumeOffFill as NoSoundFillIcon } from './icons/VolumeOffFill';
+export { VolumeOffFill as FoamNoSoundFill } from './icons/VolumeOffFill';
+export { VolumeOff as NoSound } from './icons/VolumeOff';
+export { VolumeOff as NoSoundIcon } from './icons/VolumeOff';
+export { VolumeOff as FoamNoSound } from './icons/VolumeOff';
+export { VolumeOffDuotone as SpeakerOffDuotone } from './icons/VolumeOffDuotone';
+export { VolumeOffDuotone as SpeakerOffDuotoneIcon } from './icons/VolumeOffDuotone';
+export { VolumeOffDuotone as FoamSpeakerOffDuotone } from './icons/VolumeOffDuotone';
+export { VolumeOffFill as SpeakerOffFill } from './icons/VolumeOffFill';
+export { VolumeOffFill as SpeakerOffFillIcon } from './icons/VolumeOffFill';
+export { VolumeOffFill as FoamSpeakerOffFill } from './icons/VolumeOffFill';
+export { VolumeOff as SpeakerOff } from './icons/VolumeOff';
+export { VolumeOff as SpeakerOffIcon } from './icons/VolumeOff';
+export { VolumeOff as FoamSpeakerOff } from './icons/VolumeOff';
 
 // Icon names for tooling
-export const iconNames = ["Alert","AlertDuotone","AlertFill","Archive","ArchiveArrowUp","ArchiveArrowUpDuotone","ArchiveArrowUpFill","ArchiveDuotone","ArchiveFill","ArrowDown","ArrowDown01","ArrowDown01Duotone","ArrowDown01Fill","ArrowDown10","ArrowDown10Duotone","ArrowDown10Fill","ArrowDownDuotone","ArrowDownFill","ArrowDownIG","ArrowDownIGDuotone","ArrowDownIGFill","ArrowDownNarrowWide","ArrowDownNarrowWideDuotone","ArrowDownNarrowWideFill","ArrowDownSC","ArrowDownSCDuotone","ArrowDownSCFill","ArrowDownTT","ArrowDownTTDuotone","ArrowDownTTFill","ArrowDownUp","ArrowDownUpDuotone","ArrowDownUpFill","ArrowDownWideNarrow","ArrowDownWideNarrowDuotone","ArrowDownWideNarrowFill","ArrowDownYT","ArrowDownYTDuotone","ArrowDownYTFill","ArrowLeft","ArrowLeftDuotone","ArrowLeftFill","ArrowRight","ArrowRightDuotone","ArrowRightFill","ArrowRightToLine","ArrowRightToLineDuotone","ArrowRightToLineFill","ArrowUp","ArrowUpAZ","ArrowUpAZDuotone","ArrowUpAZFill","ArrowUpDuotone","ArrowUpFill","ArrowUpIG","ArrowUpIGDuotone","ArrowUpIGFill","ArrowUpNarrowWide","ArrowUpNarrowWideDuotone","ArrowUpNarrowWideFill","ArrowUpSC","ArrowUpSCDuotone","ArrowUpSCFill","ArrowUpTT","ArrowUpTTDuotone","ArrowUpTTFill","ArrowUpWideNarrow","ArrowUpWideNarrowDuotone","ArrowUpWideNarrowFill","ArrowUpYT","ArrowUpYTDuotone","ArrowUpYTFill","ArrowUpZA","ArrowUpZADuotone","ArrowUpZAFill","Ban","BanDuotone","BanFill","Bell","BellDuotone","BellFill","Bold","BoldDuotone","BoldFill","Bookmark","BookmarkDuotone","BookmarkFill","Calendar","CalendarDuotone","CalendarFill","ChartColumnSquare","ChartColumnSquareDuotone","ChartColumnSquareFill","Checkbox","CheckboxDuotone","CheckboxFill","Checkmark","CheckmarkDuotone","CheckmarkFill","ChevronDown","ChevronDownDuotone","ChevronDownFill","ChevronLeft","ChevronLeftDuotone","ChevronLeftFill","ChevronRight","ChevronRightDuotone","ChevronRightFill","ChevronUp","ChevronUpDuotone","ChevronUpFill","CircleAlert","CircleAlertDuotone","CircleAlertFill","CircleDollarSign","CircleDollarSignDuotone","CircleDollarSignFill","CircleQuestionMark","CircleQuestionMarkDuotone","CircleQuestionMarkFill","CircleX","CircleXDuotone","CircleXFill","Clock","ClockArrowDown","ClockArrowDown1","ClockArrowDownDuotone","ClockArrowDownFill","ClockArrowUp","ClockArrowUp1","ClockArrowUpDuotone","ClockArrowUpFill","ClockDuotone","ClockFill","Cog","CogDuotone","CogFill","Columns3","Columns3Duotone","Columns3Fill","Command","CommandDuotone","CommandFill","ContentPlus","ContentPlusDuotone","ContentPlusFill","Copy","CopyDuotone","CopyFill","Download","DownloadDuotone","DownloadFill","Eclipse","EclipseDuotone","EclipseFill","ExternalLink","ExternalLinkDuotone","ExternalLinkFill","Eye","EyeDuotone","EyeFill","EyeOff","EyeOffDuotone","EyeOffFill","Flame","FlameDuotone","FlameFill","Frown","FrownDuotone","FrownFill","Fullscreen","FullscreenDuotone","FullscreenFill","Globe","GlobeDuotone","GlobeFill","Grid1x2","Grid1x2Duotone","Grid1x2Fill","Grid2x2","Grid2x2Duotone","Grid2x2Fill","History","HistoryDuotone","HistoryFill","Hotspot","HotspotDuotone","HotspotFill","House","HouseDuotone","HouseFill","Image","ImageDuotone","ImageFill","Images","ImagesDuotone","ImagesFill","Inbox","InboxDuotone","InboxFill","Info","InfoDuotone","InfoFill","Italic","ItalicDuotone","ItalicFill","Link","LinkDuotone","LinkFill","List","ListDuotone","ListFill","ListFilter","ListFilterDuotone","ListFilterFill","ListIndentDecrease","ListIndentDecreaseDuotone","ListIndentDecreaseFill","ListIndentIncrease","ListIndentIncreaseDuotone","ListIndentIncreaseFill","ListOrdered","ListOrderedDuotone","ListOrderedFill","LoaderCircle","LoaderCircleDuotone","LoaderCircleFill","Lock","LockDuotone","LockFill","LogOut","LogOutDuotone","LogOutFill","Mail","MailDuotone","MailFill","MailMove","MailMoveDuotone","MailMoveFill","MailPlus","MailPlusDuotone","MailPlusFill","MapPin","MapPinDuotone","MapPinFill","Maximize","MaximizeDuotone","MaximizeFill","MediaKits","MediaKitsDuotone","MediaKitsFill","Megaphone","MegaphoneActive","MegaphoneActiveDuotone","MegaphoneActiveFill","MegaphoneDuotone","MegaphoneFill","Menu","MenuDuotone","MenuFill","MessageSquare","MessageSquareDuotone","MessageSquareFill","MessagesSquare","MessagesSquareDuotone","MessagesSquareFill","Minus","MinusDuotone","MinusFill","Moon","MoonDuotone","MoonFill","MousePointerClick","MousePointerClickDuotone","MousePointerClickFill","Move","MoveDuotone","MoveFill","PanelLeft","PanelLeftDuotone","PanelLeftFill","PanelRight","PanelRightDuotone","PanelRightFill","Pencil","PencilDuotone","PencilFill","Pin","PinDuotone","PinFill","Play","PlayDuotone","PlayFill","Plus","PlusDuotone","PlusFill","Reach","ReachDuotone","ReachFill","Reel","ReelDuotone","ReelFill","RefreshCw","RefreshCwDuotone","RefreshCwFill","RemoveFormatting","RemoveFormattingDuotone","RemoveFormattingFill","Reply","ReplyDuotone","ReplyFill","RotateCw","RotateCwDuotone","RotateCwFill","Rows2","Rows2Duotone","Rows2Fill","Save","SaveDuotone","SaveFill","Search","SearchDuotone","SearchFill","SearchUser","SearchUserDuotone","SearchUserFill","Share","ShareDuotone","ShareFill","SlidersHorizontal","SlidersHorizontalDuotone","SlidersHorizontalFill","Smile","SmileDuotone","SmileFill","Sparkles","SparklesDuotone","SparklesFill","Square","SquareDuotone","SquareFill","SquarePen","SquarePenDuotone","SquarePenFill","Star","StarDuotone","StarFill","Sun","SunDuotone","SunFill","TextAlignCenter","TextAlignCenterDuotone","TextAlignCenterFill","TextAlignEnd","TextAlignEndDuotone","TextAlignEndFill","TextAlignJustify","TextAlignJustifyDuotone","TextAlignJustifyFill","TextAlignStart","TextAlignStartDuotone","TextAlignStartFill","ThumbsDown","ThumbsDownDuotone","ThumbsDownFill","ThumbsUp","ThumbsUpDuotone","ThumbsUpFill","Trash","TrashDuotone","TrashFill","TrendingDown","TrendingDownDuotone","TrendingDownFill","TrendingUp","TrendingUpDuotone","TrendingUpFill","TriangleDownUp","TriangleDownUpDuotone","TriangleDownUpFill","Unlink","UnlinkDuotone","UnlinkFill","Unlock","UnlockDuotone","UnlockFill","Upload","UploadDuotone","UploadFill","User","UserDuotone","UserFill","Users","UsersDuotone","UsersFill","Volume2","Volume2Duotone","Volume2Fill","VolumeOff","VolumeOffDuotone","VolumeOffFill"] as const;
+export const iconNames = ["Alert","AlertDuotone","AlertFill","Archive","ArchiveArrowUp","ArchiveArrowUpDuotone","ArchiveArrowUpFill","ArchiveDuotone","ArchiveFill","ArrowDown","ArrowDown01","ArrowDown01Duotone","ArrowDown01Fill","ArrowDown10","ArrowDown10Duotone","ArrowDown10Fill","ArrowDownDuotone","ArrowDownFill","ArrowDownIG","ArrowDownIGDuotone","ArrowDownIGFill","ArrowDownNarrowWide","ArrowDownNarrowWideDuotone","ArrowDownNarrowWideFill","ArrowDownSC","ArrowDownSCDuotone","ArrowDownSCFill","ArrowDownTT","ArrowDownTTDuotone","ArrowDownTTFill","ArrowDownUp","ArrowDownUpDuotone","ArrowDownUpFill","ArrowDownWideNarrow","ArrowDownWideNarrowDuotone","ArrowDownWideNarrowFill","ArrowDownYT","ArrowDownYTDuotone","ArrowDownYTFill","ArrowLeft","ArrowLeftDuotone","ArrowLeftFill","ArrowRight","ArrowRightDuotone","ArrowRightFill","ArrowRightToLine","ArrowRightToLineDuotone","ArrowRightToLineFill","ArrowUp","ArrowUpAZ","ArrowUpAZDuotone","ArrowUpAZFill","ArrowUpDuotone","ArrowUpFill","ArrowUpIG","ArrowUpIGDuotone","ArrowUpIGFill","ArrowUpNarrowWide","ArrowUpNarrowWideDuotone","ArrowUpNarrowWideFill","ArrowUpSC","ArrowUpSCDuotone","ArrowUpSCFill","ArrowUpTT","ArrowUpTTDuotone","ArrowUpTTFill","ArrowUpWideNarrow","ArrowUpWideNarrowDuotone","ArrowUpWideNarrowFill","ArrowUpYT","ArrowUpYTDuotone","ArrowUpYTFill","ArrowUpZA","ArrowUpZADuotone","ArrowUpZAFill","Ban","BanDuotone","BanFill","Bell","BellDuotone","BellFill","Bold","BoldDuotone","BoldFill","Bookmark","BookmarkDuotone","BookmarkFill","Calendar","CalendarDuotone","CalendarFill","ChartColumnSquare","ChartColumnSquareDuotone","ChartColumnSquareFill","Checkbox","CheckboxDuotone","CheckboxFill","Checkmark","CheckmarkDuotone","CheckmarkFill","ChevronDown","ChevronDownDuotone","ChevronDownFill","ChevronLeft","ChevronLeftDuotone","ChevronLeftFill","ChevronRight","ChevronRightDuotone","ChevronRightFill","ChevronUp","ChevronUpDuotone","ChevronUpFill","CircleAlert","CircleAlertDuotone","CircleAlertFill","CircleDollarSign","CircleDollarSignDuotone","CircleDollarSignFill","CircleQuestionMark","CircleQuestionMarkDuotone","CircleQuestionMarkFill","CircleX","CircleXDuotone","CircleXFill","Clock","ClockArrowDown","ClockArrowDownDuotone","ClockArrowDownFill","ClockArrowUp","ClockArrowUpDuotone","ClockArrowUpFill","ClockDuotone","ClockFill","Cog","CogDuotone","CogFill","Columns3","Columns3Duotone","Columns3Fill","Command","CommandDuotone","CommandFill","ContentPlus","ContentPlusDuotone","ContentPlusFill","Copy","CopyDuotone","CopyFill","Download","DownloadDuotone","DownloadFill","Eclipse","EclipseDuotone","EclipseFill","ExternalLink","ExternalLinkDuotone","ExternalLinkFill","Eye","EyeDuotone","EyeFill","EyeOff","EyeOffDuotone","EyeOffFill","Flame","FlameDuotone","FlameFill","Frown","FrownDuotone","FrownFill","Fullscreen","FullscreenDuotone","FullscreenFill","Globe","GlobeDuotone","GlobeFill","Grid1x2","Grid1x2Duotone","Grid1x2Fill","Grid2x2","Grid2x2Duotone","Grid2x2Fill","Heart","HeartDuotone","HeartFill","History","HistoryDuotone","HistoryFill","Hotspot","HotspotDuotone","HotspotFill","House","HouseDuotone","HouseFill","Image","ImageDuotone","ImageFill","Images","ImagesDuotone","ImagesFill","Inbox","InboxDuotone","InboxFill","Info","InfoDuotone","InfoFill","Italic","ItalicDuotone","ItalicFill","Link","LinkDuotone","LinkFill","List","ListDuotone","ListFill","ListFilter","ListFilterDuotone","ListFilterFill","ListIndentDecrease","ListIndentDecreaseDuotone","ListIndentDecreaseFill","ListIndentIncrease","ListIndentIncreaseDuotone","ListIndentIncreaseFill","ListOrdered","ListOrderedDuotone","ListOrderedFill","LoaderCircle","LoaderCircleDuotone","LoaderCircleFill","Lock","LockDuotone","LockFill","LogOut","LogOutDuotone","LogOutFill","Mail","MailDuotone","MailFill","MailMove","MailMoveDuotone","MailMoveFill","MailPlus","MailPlusDuotone","MailPlusFill","MapPin","MapPinDuotone","MapPinFill","Maximize","MaximizeDuotone","MaximizeFill","MediaKits","MediaKitsDuotone","MediaKitsFill","Megaphone","MegaphoneActive","MegaphoneActiveDuotone","MegaphoneActiveFill","MegaphoneDuotone","MegaphoneFill","Menu","MenuDuotone","MenuFill","MessageSquare","MessageSquareDuotone","MessageSquareFill","MessagesSquare","MessagesSquareDuotone","MessagesSquareFill","Minus","MinusDuotone","MinusFill","Moon","MoonDuotone","MoonFill","MousePointerClick","MousePointerClickDuotone","MousePointerClickFill","Move","MoveDuotone","MoveFill","PanelLeft","PanelLeftDuotone","PanelLeftFill","PanelRight","PanelRightDuotone","PanelRightFill","Pencil","PencilDuotone","PencilFill","Pin","PinDuotone","PinFill","Play","PlayDuotone","PlayFill","Plus","PlusDuotone","PlusFill","Reach","ReachDuotone","ReachFill","Reel","ReelDuotone","ReelFill","RefreshCw","RefreshCwDuotone","RefreshCwFill","RemoveFormatting","RemoveFormattingDuotone","RemoveFormattingFill","Reply","ReplyDuotone","ReplyFill","RotateCw","RotateCwDuotone","RotateCwFill","Rows2","Rows2Duotone","Rows2Fill","Save","SaveDuotone","SaveFill","Search","SearchDuotone","SearchFill","SearchUser","SearchUserDuotone","SearchUserFill","Share","ShareDuotone","ShareFill","SlidersHorizontal","SlidersHorizontalDuotone","SlidersHorizontalFill","Smile","SmileDuotone","SmileFill","Sparkles","SparklesDuotone","SparklesFill","Square","SquareDuotone","SquareFill","SquarePen","SquarePenDuotone","SquarePenFill","Star","StarDuotone","StarFill","Sun","SunDuotone","SunFill","TextAlignCenter","TextAlignCenterDuotone","TextAlignCenterFill","TextAlignEnd","TextAlignEndDuotone","TextAlignEndFill","TextAlignJustify","TextAlignJustifyDuotone","TextAlignJustifyFill","TextAlignStart","TextAlignStartDuotone","TextAlignStartFill","ThumbsDown","ThumbsDownDuotone","ThumbsDownFill","ThumbsUp","ThumbsUpDuotone","ThumbsUpFill","Trash","TrashDuotone","TrashFill","TrendingDown","TrendingDownDuotone","TrendingDownFill","TrendingUp","TrendingUpDuotone","TrendingUpFill","TriangleDownUp","TriangleDownUpDuotone","TriangleDownUpFill","Unlink","UnlinkDuotone","UnlinkFill","Unlock","UnlockDuotone","UnlockFill","Upload","UploadDuotone","UploadFill","User","UserDuotone","UserFill","Users","UsersDuotone","UsersFill","Volume2","Volume2Duotone","Volume2Fill","VolumeOff","VolumeOffDuotone","VolumeOffFill"] as const;
+
+// Alias lookup maps for tooling/search
+export const iconAliases: Record<string, string[]> = {
+  "Alert": [
+    "Warning",
+    "Caution",
+    "Attention"
+  ],
+  "Archive": [
+    "Box",
+    "Storage"
+  ],
+  "ArchiveArrowUp": [
+    "Direction",
+    "Ascending"
+  ],
+  "ArrowDown": [
+    "Down",
+    "South"
+  ],
+  "ArrowDown01": [
+    "Descending",
+    "SortNumeric"
+  ],
+  "ArrowDownIG": [
+    "InstagramDown",
+    "IgDown"
+  ],
+  "ArrowDownNarrowWide": [
+    "SortAsc",
+    "SortAscending"
+  ],
+  "ArrowDownSC": [
+    "Snapchat"
+  ],
+  "ArrowDownTT": [
+    "Tiktok"
+  ],
+  "ArrowDownUp": [
+    "Sort",
+    "Reorder",
+    "Swap"
+  ],
+  "ArrowDownWideNarrow": [
+    "SortDescAlt"
+  ],
+  "ArrowDownYT": [
+    "Youtube"
+  ],
+  "ArrowLeft": [
+    "Left",
+    "Back",
+    "West",
+    "Previous"
+  ],
+  "ArrowRight": [
+    "Right",
+    "East",
+    "Next"
+  ],
+  "ArrowRightToLine": [
+    "Indent",
+    "Fold"
+  ],
+  "ArrowUp": [
+    "Up",
+    "North"
+  ],
+  "ArrowUpAZ": [
+    "SortAlphaAsc",
+    "SortAZ"
+  ],
+  "ArrowUpIG": [
+    "InstagramUp",
+    "IgUp"
+  ],
+  "ArrowUpNarrowWide": [
+    "SortAscAlt"
+  ],
+  "ArrowUpWideNarrow": [
+    "SortDesc",
+    "SortDescending"
+  ],
+  "ArrowUpZA": [
+    "SortAlphaDesc",
+    "SortZA"
+  ],
+  "Ban": [
+    "Block",
+    "Forbidden",
+    "Prohibited",
+    "NotAllowed"
+  ],
+  "Bell": [
+    "Notification",
+    "Alarm"
+  ],
+  "Bold": [
+    "Strong",
+    "TextBold"
+  ],
+  "Bookmark": [
+    "Flag",
+    "Saved"
+  ],
+  "Calendar": [
+    "Date",
+    "Schedule",
+    "Event"
+  ],
+  "ChartColumnSquare": [
+    "Analytics",
+    "Stats",
+    "Graph",
+    "BarChart"
+  ],
+  "Checkbox": [
+    "CheckSquare",
+    "Task"
+  ],
+  "Checkmark": [
+    "Check",
+    "Done",
+    "Complete",
+    "Tick",
+    "Success"
+  ],
+  "ChevronDown": [
+    "CaretDown",
+    "Collapse",
+    "Dropdown"
+  ],
+  "ChevronLeft": [
+    "CaretLeft"
+  ],
+  "ChevronRight": [
+    "CaretRight"
+  ],
+  "ChevronUp": [
+    "CaretUp",
+    "Expand"
+  ],
+  "CircleAlert": [
+    "WarningCircle",
+    "CautionCircle",
+    "AttentionCircle",
+    "Error"
+  ],
+  "CircleDollarSign": [
+    "Money",
+    "Price",
+    "Payment",
+    "Dollar"
+  ],
+  "CircleQuestionMark": [
+    "Help",
+    "Question",
+    "Faq",
+    "Support"
+  ],
+  "CircleX": [
+    "Close",
+    "Cancel",
+    "X",
+    "Times",
+    "Clear"
+  ],
+  "Clock": [
+    "Time",
+    "Watch"
+  ],
+  "Cog": [
+    "Settings",
+    "Gear",
+    "Preferences",
+    "Config",
+    "Configuration",
+    "Options",
+    "Cogwheel"
+  ],
+  "Columns3": [
+    "ColumnLayout",
+    "ThreeColumns"
+  ],
+  "Command": [
+    "Cmd",
+    "Keyboard",
+    "Shortcut"
+  ],
+  "ContentPlus": [
+    "AddContent",
+    "NewPost",
+    "CreateContent"
+  ],
+  "Copy": [
+    "Duplicate",
+    "Clone"
+  ],
+  "Download": [
+    "Export",
+    "Get",
+    "DownloadFile"
+  ],
+  "Eclipse": [
+    "HalfMoon",
+    "Contrast"
+  ],
+  "ExternalLink": [
+    "OpenNew",
+    "External"
+  ],
+  "Eye": [
+    "View",
+    "Show",
+    "Visible",
+    "Visibility"
+  ],
+  "EyeOff": [
+    "Hide",
+    "Hidden",
+    "Invisible"
+  ],
+  "Flame": [
+    "Fire",
+    "Hot",
+    "Trending"
+  ],
+  "Frown": [
+    "Sad",
+    "Unhappy",
+    "Negative"
+  ],
+  "Fullscreen": [
+    "FullScreen",
+    "MaximizeScreen"
+  ],
+  "Globe": [
+    "World",
+    "Web",
+    "Internet",
+    "Language"
+  ],
+  "Grid1x2": [
+    "Design",
+    "Cards"
+  ],
+  "Grid2x2": [
+    "Grid",
+    "Tiles",
+    "Layout"
+  ],
+  "Heart": [
+    "Love",
+    "Emotion",
+    "Likes"
+  ],
+  "History": [
+    "Recent",
+    "Past",
+    "Undo"
+  ],
+  "Hotspot": [
+    "Wifi",
+    "Signal",
+    "Wireless"
+  ],
+  "House": [
+    "Home"
+  ],
+  "Image": [
+    "Photo",
+    "Picture",
+    "Media"
+  ],
+  "Images": [
+    "Photos",
+    "Pictures",
+    "Gallery"
+  ],
+  "Inbox": [
+    "Mailbox",
+    "Tray"
+  ],
+  "Info": [
+    "Information",
+    "About",
+    "Details"
+  ],
+  "Italic": [
+    "Emphasis",
+    "TextItalic"
+  ],
+  "Link": [
+    "Url",
+    "Chain",
+    "Connect"
+  ],
+  "List": [
+    "Items",
+    "Bullets"
+  ],
+  "ListFilter": [
+    "Filter",
+    "Funnel"
+  ],
+  "ListOrdered": [
+    "NumberedList",
+    "Ol"
+  ],
+  "LoaderCircle": [
+    "Loading",
+    "Spinner",
+    "Progress"
+  ],
+  "Lock": [
+    "Secure",
+    "Locked",
+    "Private",
+    "Protected"
+  ],
+  "LogOut": [
+    "Logout",
+    "SignOut",
+    "Exit",
+    "Signout"
+  ],
+  "Mail": [
+    "Email",
+    "Envelope",
+    "Message"
+  ],
+  "MapPin": [
+    "Location",
+    "Marker",
+    "Place",
+    "Geo"
+  ],
+  "Maximize": [
+    "ExpandWindow",
+    "Enlarge"
+  ],
+  "MediaKits": [
+    "PressKit",
+    "BrandAssets",
+    "Mediapacks"
+  ],
+  "Megaphone": [
+    "Announce",
+    "Broadcast",
+    "Marketing",
+    "Promote"
+  ],
+  "Menu": [
+    "Hamburger",
+    "Navigation",
+    "Bars"
+  ],
+  "MessageSquare": [
+    "Comment",
+    "ChatSingle"
+  ],
+  "MessagesSquare": [
+    "Chat",
+    "Conversation",
+    "Comments",
+    "Chats"
+  ],
+  "Minus": [
+    "Subtract",
+    "Reduce",
+    "Decrease"
+  ],
+  "Moon": [
+    "Dark",
+    "Night",
+    "DarkMode"
+  ],
+  "MousePointerClick": [
+    "Click",
+    "Cursor",
+    "Pointer"
+  ],
+  "Move": [
+    "Drag",
+    "Reposition"
+  ],
+  "PanelLeft": [
+    "SidebarLeft",
+    "DrawerLeft"
+  ],
+  "PanelRight": [
+    "SidebarRight",
+    "DrawerRight"
+  ],
+  "Pencil": [
+    "Edit",
+    "Write",
+    "Modify"
+  ],
+  "Pin": [
+    "Thumbtack",
+    "Tack",
+    "Stick"
+  ],
+  "Play": [
+    "Start",
+    "Video",
+    "PlayButton"
+  ],
+  "Plus": [
+    "Add",
+    "New",
+    "Create"
+  ],
+  "Reach": [
+    "Audience",
+    "Impressions",
+    "Views"
+  ],
+  "Reel": [
+    "Film",
+    "Short",
+    "ShortVideo"
+  ],
+  "RefreshCw": [
+    "Refresh",
+    "Reload",
+    "Sync"
+  ],
+  "RemoveFormatting": [
+    "ClearFormat",
+    "PlainText"
+  ],
+  "Reply": [
+    "Respond",
+    "Answer"
+  ],
+  "RotateCw": [
+    "Rotate",
+    "Turn",
+    "Redo"
+  ],
+  "Rows2": [
+    "HorizontalSplit",
+    "Rows"
+  ],
+  "Save": [
+    "Floppy",
+    "Disk",
+    "Preserve"
+  ],
+  "Search": [
+    "Find",
+    "Lookup",
+    "MagnifyingGlass",
+    "Query",
+    "Explore"
+  ],
+  "SearchUser": [
+    "FindUser",
+    "UserSearch",
+    "LookupPerson",
+    "SearchPerson"
+  ],
+  "Share": [
+    "Forward",
+    "ShareLink"
+  ],
+  "SlidersHorizontal": [
+    "Controls",
+    "Adjust",
+    "Filters",
+    "Equalizer"
+  ],
+  "Smile": [
+    "Happy",
+    "Positive",
+    "Smiley"
+  ],
+  "Sparkles": [
+    "Magic",
+    "Ai",
+    "Shine",
+    "Generate"
+  ],
+  "Square": [
+    "Stop"
+  ],
+  "SquarePen": [
+    "Compose",
+    "WriteNew",
+    "Draft",
+    "Editor"
+  ],
+  "Star": [
+    "Favorite",
+    "Favourite",
+    "Rating"
+  ],
+  "Sun": [
+    "Light",
+    "Day",
+    "Bright"
+  ],
+  "TextAlignCenter": [
+    "Center"
+  ],
+  "TextAlignEnd": [
+    "AlignRight"
+  ],
+  "TextAlignJustify": [
+    "Justify"
+  ],
+  "TextAlignStart": [
+    "AlignLeft"
+  ],
+  "ThumbsDown": [
+    "Dislike",
+    "Disapprove",
+    "No"
+  ],
+  "ThumbsUp": [
+    "Like",
+    "Approve",
+    "Yes"
+  ],
+  "Trash": [
+    "Delete",
+    "Remove",
+    "Bin",
+    "Garbage"
+  ],
+  "TrendingDown": [
+    "Decline",
+    "Falling",
+    "Downtrend"
+  ],
+  "TrendingUp": [
+    "Growth",
+    "Increase",
+    "Rising"
+  ],
+  "TriangleDownUp": [
+    "SortToggle",
+    "OrderToggle"
+  ],
+  "Unlink": [
+    "Disconnect",
+    "Break"
+  ],
+  "Unlock": [
+    "Unsecure",
+    "Unlocked",
+    "Public"
+  ],
+  "Upload": [
+    "Import",
+    "Send"
+  ],
+  "User": [
+    "Person",
+    "Profile",
+    "Account"
+  ],
+  "Users": [
+    "People",
+    "Group",
+    "Team",
+    "Persons"
+  ],
+  "Volume2": [
+    "Sound",
+    "Audio",
+    "Speaker",
+    "Volume"
+  ],
+  "VolumeOff": [
+    "Mute",
+    "Silent",
+    "NoSound",
+    "SpeakerOff"
+  ]
+};
+
+export const aliasToCanonical: Record<string, string> = {
+  "Warning": "Alert",
+  "Caution": "Alert",
+  "Attention": "Alert",
+  "Box": "Archive",
+  "Storage": "Archive",
+  "Direction": "ArchiveArrowUp",
+  "Ascending": "ArchiveArrowUp",
+  "Down": "ArrowDown",
+  "South": "ArrowDown",
+  "Descending": "ArrowDown01",
+  "SortNumeric": "ArrowDown01",
+  "InstagramDown": "ArrowDownIG",
+  "IgDown": "ArrowDownIG",
+  "SortAsc": "ArrowDownNarrowWide",
+  "SortAscending": "ArrowDownNarrowWide",
+  "Snapchat": "ArrowDownSC",
+  "Tiktok": "ArrowDownTT",
+  "Sort": "ArrowDownUp",
+  "Reorder": "ArrowDownUp",
+  "Swap": "ArrowDownUp",
+  "SortDescAlt": "ArrowDownWideNarrow",
+  "Youtube": "ArrowDownYT",
+  "Left": "ArrowLeft",
+  "Back": "ArrowLeft",
+  "West": "ArrowLeft",
+  "Previous": "ArrowLeft",
+  "Right": "ArrowRight",
+  "East": "ArrowRight",
+  "Next": "ArrowRight",
+  "Indent": "ArrowRightToLine",
+  "Fold": "ArrowRightToLine",
+  "Up": "ArrowUp",
+  "North": "ArrowUp",
+  "SortAlphaAsc": "ArrowUpAZ",
+  "SortAZ": "ArrowUpAZ",
+  "InstagramUp": "ArrowUpIG",
+  "IgUp": "ArrowUpIG",
+  "SortAscAlt": "ArrowUpNarrowWide",
+  "SortDesc": "ArrowUpWideNarrow",
+  "SortDescending": "ArrowUpWideNarrow",
+  "SortAlphaDesc": "ArrowUpZA",
+  "SortZA": "ArrowUpZA",
+  "Block": "Ban",
+  "Forbidden": "Ban",
+  "Prohibited": "Ban",
+  "NotAllowed": "Ban",
+  "Notification": "Bell",
+  "Alarm": "Bell",
+  "Strong": "Bold",
+  "TextBold": "Bold",
+  "Flag": "Bookmark",
+  "Saved": "Bookmark",
+  "Date": "Calendar",
+  "Schedule": "Calendar",
+  "Event": "Calendar",
+  "Analytics": "ChartColumnSquare",
+  "Stats": "ChartColumnSquare",
+  "Graph": "ChartColumnSquare",
+  "BarChart": "ChartColumnSquare",
+  "CheckSquare": "Checkbox",
+  "Task": "Checkbox",
+  "Check": "Checkmark",
+  "Done": "Checkmark",
+  "Complete": "Checkmark",
+  "Tick": "Checkmark",
+  "Success": "Checkmark",
+  "CaretDown": "ChevronDown",
+  "Collapse": "ChevronDown",
+  "Dropdown": "ChevronDown",
+  "CaretLeft": "ChevronLeft",
+  "CaretRight": "ChevronRight",
+  "CaretUp": "ChevronUp",
+  "Expand": "ChevronUp",
+  "WarningCircle": "CircleAlert",
+  "CautionCircle": "CircleAlert",
+  "AttentionCircle": "CircleAlert",
+  "Error": "CircleAlert",
+  "Money": "CircleDollarSign",
+  "Price": "CircleDollarSign",
+  "Payment": "CircleDollarSign",
+  "Dollar": "CircleDollarSign",
+  "Help": "CircleQuestionMark",
+  "Question": "CircleQuestionMark",
+  "Faq": "CircleQuestionMark",
+  "Support": "CircleQuestionMark",
+  "Close": "CircleX",
+  "Cancel": "CircleX",
+  "X": "CircleX",
+  "Times": "CircleX",
+  "Clear": "CircleX",
+  "Time": "Clock",
+  "Watch": "Clock",
+  "Settings": "Cog",
+  "Gear": "Cog",
+  "Preferences": "Cog",
+  "Config": "Cog",
+  "Configuration": "Cog",
+  "Options": "Cog",
+  "Cogwheel": "Cog",
+  "ColumnLayout": "Columns3",
+  "ThreeColumns": "Columns3",
+  "Cmd": "Command",
+  "Keyboard": "Command",
+  "Shortcut": "Command",
+  "AddContent": "ContentPlus",
+  "NewPost": "ContentPlus",
+  "CreateContent": "ContentPlus",
+  "Duplicate": "Copy",
+  "Clone": "Copy",
+  "Export": "Download",
+  "Get": "Download",
+  "DownloadFile": "Download",
+  "HalfMoon": "Eclipse",
+  "Contrast": "Eclipse",
+  "OpenNew": "ExternalLink",
+  "External": "ExternalLink",
+  "View": "Eye",
+  "Show": "Eye",
+  "Visible": "Eye",
+  "Visibility": "Eye",
+  "Hide": "EyeOff",
+  "Hidden": "EyeOff",
+  "Invisible": "EyeOff",
+  "Fire": "Flame",
+  "Hot": "Flame",
+  "Trending": "Flame",
+  "Sad": "Frown",
+  "Unhappy": "Frown",
+  "Negative": "Frown",
+  "FullScreen": "Fullscreen",
+  "MaximizeScreen": "Fullscreen",
+  "World": "Globe",
+  "Web": "Globe",
+  "Internet": "Globe",
+  "Language": "Globe",
+  "Design": "Grid1x2",
+  "Cards": "Grid1x2",
+  "Grid": "Grid2x2",
+  "Tiles": "Grid2x2",
+  "Layout": "Grid2x2",
+  "Love": "Heart",
+  "Emotion": "Heart",
+  "Likes": "Heart",
+  "Recent": "History",
+  "Past": "History",
+  "Undo": "History",
+  "Wifi": "Hotspot",
+  "Signal": "Hotspot",
+  "Wireless": "Hotspot",
+  "Home": "House",
+  "Photo": "Image",
+  "Picture": "Image",
+  "Media": "Image",
+  "Photos": "Images",
+  "Pictures": "Images",
+  "Gallery": "Images",
+  "Mailbox": "Inbox",
+  "Tray": "Inbox",
+  "Information": "Info",
+  "About": "Info",
+  "Details": "Info",
+  "Emphasis": "Italic",
+  "TextItalic": "Italic",
+  "Url": "Link",
+  "Chain": "Link",
+  "Connect": "Link",
+  "Items": "List",
+  "Bullets": "List",
+  "Filter": "ListFilter",
+  "Funnel": "ListFilter",
+  "NumberedList": "ListOrdered",
+  "Ol": "ListOrdered",
+  "Loading": "LoaderCircle",
+  "Spinner": "LoaderCircle",
+  "Progress": "LoaderCircle",
+  "Secure": "Lock",
+  "Locked": "Lock",
+  "Private": "Lock",
+  "Protected": "Lock",
+  "Logout": "LogOut",
+  "SignOut": "LogOut",
+  "Exit": "LogOut",
+  "Signout": "LogOut",
+  "Email": "Mail",
+  "Envelope": "Mail",
+  "Message": "Mail",
+  "Location": "MapPin",
+  "Marker": "MapPin",
+  "Place": "MapPin",
+  "Geo": "MapPin",
+  "ExpandWindow": "Maximize",
+  "Enlarge": "Maximize",
+  "PressKit": "MediaKits",
+  "BrandAssets": "MediaKits",
+  "Mediapacks": "MediaKits",
+  "Announce": "Megaphone",
+  "Broadcast": "Megaphone",
+  "Marketing": "Megaphone",
+  "Promote": "Megaphone",
+  "Hamburger": "Menu",
+  "Navigation": "Menu",
+  "Bars": "Menu",
+  "Comment": "MessageSquare",
+  "ChatSingle": "MessageSquare",
+  "Chat": "MessagesSquare",
+  "Conversation": "MessagesSquare",
+  "Comments": "MessagesSquare",
+  "Chats": "MessagesSquare",
+  "Subtract": "Minus",
+  "Reduce": "Minus",
+  "Decrease": "Minus",
+  "Dark": "Moon",
+  "Night": "Moon",
+  "DarkMode": "Moon",
+  "Click": "MousePointerClick",
+  "Cursor": "MousePointerClick",
+  "Pointer": "MousePointerClick",
+  "Drag": "Move",
+  "Reposition": "Move",
+  "SidebarLeft": "PanelLeft",
+  "DrawerLeft": "PanelLeft",
+  "SidebarRight": "PanelRight",
+  "DrawerRight": "PanelRight",
+  "Edit": "Pencil",
+  "Write": "Pencil",
+  "Modify": "Pencil",
+  "Thumbtack": "Pin",
+  "Tack": "Pin",
+  "Stick": "Pin",
+  "Start": "Play",
+  "Video": "Play",
+  "PlayButton": "Play",
+  "Add": "Plus",
+  "New": "Plus",
+  "Create": "Plus",
+  "Audience": "Reach",
+  "Impressions": "Reach",
+  "Views": "Reach",
+  "Film": "Reel",
+  "Short": "Reel",
+  "ShortVideo": "Reel",
+  "Refresh": "RefreshCw",
+  "Reload": "RefreshCw",
+  "Sync": "RefreshCw",
+  "ClearFormat": "RemoveFormatting",
+  "PlainText": "RemoveFormatting",
+  "Respond": "Reply",
+  "Answer": "Reply",
+  "Rotate": "RotateCw",
+  "Turn": "RotateCw",
+  "Redo": "RotateCw",
+  "HorizontalSplit": "Rows2",
+  "Rows": "Rows2",
+  "Floppy": "Save",
+  "Disk": "Save",
+  "Preserve": "Save",
+  "Find": "Search",
+  "Lookup": "Search",
+  "MagnifyingGlass": "Search",
+  "Query": "Search",
+  "Explore": "Search",
+  "FindUser": "SearchUser",
+  "UserSearch": "SearchUser",
+  "LookupPerson": "SearchUser",
+  "SearchPerson": "SearchUser",
+  "Forward": "Share",
+  "ShareLink": "Share",
+  "Controls": "SlidersHorizontal",
+  "Adjust": "SlidersHorizontal",
+  "Filters": "SlidersHorizontal",
+  "Equalizer": "SlidersHorizontal",
+  "Happy": "Smile",
+  "Positive": "Smile",
+  "Smiley": "Smile",
+  "Magic": "Sparkles",
+  "Ai": "Sparkles",
+  "Shine": "Sparkles",
+  "Generate": "Sparkles",
+  "Stop": "Square",
+  "Compose": "SquarePen",
+  "WriteNew": "SquarePen",
+  "Draft": "SquarePen",
+  "Editor": "SquarePen",
+  "Favorite": "Star",
+  "Favourite": "Star",
+  "Rating": "Star",
+  "Light": "Sun",
+  "Day": "Sun",
+  "Bright": "Sun",
+  "Center": "TextAlignCenter",
+  "AlignRight": "TextAlignEnd",
+  "Justify": "TextAlignJustify",
+  "AlignLeft": "TextAlignStart",
+  "Dislike": "ThumbsDown",
+  "Disapprove": "ThumbsDown",
+  "No": "ThumbsDown",
+  "Like": "ThumbsUp",
+  "Approve": "ThumbsUp",
+  "Yes": "ThumbsUp",
+  "Delete": "Trash",
+  "Remove": "Trash",
+  "Bin": "Trash",
+  "Garbage": "Trash",
+  "Decline": "TrendingDown",
+  "Falling": "TrendingDown",
+  "Downtrend": "TrendingDown",
+  "Growth": "TrendingUp",
+  "Increase": "TrendingUp",
+  "Rising": "TrendingUp",
+  "SortToggle": "TriangleDownUp",
+  "OrderToggle": "TriangleDownUp",
+  "Disconnect": "Unlink",
+  "Break": "Unlink",
+  "Unsecure": "Unlock",
+  "Unlocked": "Unlock",
+  "Public": "Unlock",
+  "Import": "Upload",
+  "Send": "Upload",
+  "Person": "User",
+  "Profile": "User",
+  "Account": "User",
+  "People": "Users",
+  "Group": "Users",
+  "Team": "Users",
+  "Persons": "Users",
+  "Sound": "Volume2",
+  "Audio": "Volume2",
+  "Speaker": "Volume2",
+  "Volume": "Volume2",
+  "Mute": "VolumeOff",
+  "Silent": "VolumeOff",
+  "NoSound": "VolumeOff",
+  "SpeakerOff": "VolumeOff"
+};
+
+export const iconTags: Record<string, string[]> = {
+  "Alert": [
+    "alert",
+    "warning",
+    "caution"
+  ],
+  "Archive": [
+    "archive",
+    "box",
+    "storage"
+  ],
+  "ArchiveArrowUp": [
+    "archive",
+    "arrow",
+    "up",
+    "direction",
+    "pointer",
+    "ascending",
+    "increase"
+  ],
+  "ArrowDown": [
+    "arrow",
+    "down",
+    "direction"
+  ],
+  "ArrowDown01": [
+    "arrow",
+    "down",
+    "direction",
+    "pointer",
+    "descending",
+    "decrease"
+  ],
+  "ArrowDown10": [
+    "arrow",
+    "down",
+    "direction",
+    "pointer",
+    "descending",
+    "decrease"
+  ],
+  "ArrowDownIG": [
+    "arrow",
+    "down",
+    "instagram",
+    "descending"
+  ],
+  "ArrowDownNarrowWide": [
+    "sort",
+    "ascending",
+    "narrow"
+  ],
+  "ArrowDownSC": [
+    "arrow",
+    "sort",
+    "descending",
+    "snapchat"
+  ],
+  "ArrowDownTT": [
+    "sort",
+    "tiktok",
+    "descending"
+  ],
+  "ArrowDownUp": [
+    "sort",
+    "reorder",
+    "swap"
+  ],
+  "ArrowDownWideNarrow": [
+    "sort",
+    "descending",
+    "wide"
+  ],
+  "ArrowDownYT": [
+    "sort",
+    "youtube",
+    "descending"
+  ],
+  "ArrowLeft": [
+    "arrow",
+    "left",
+    "back"
+  ],
+  "ArrowRight": [
+    "arrow",
+    "right",
+    "forward"
+  ],
+  "ArrowRightToLine": [
+    "next",
+    "indent",
+    "fold"
+  ],
+  "ArrowUp": [
+    "arrow",
+    "up",
+    "direction"
+  ],
+  "ArrowUpAZ": [
+    "sort",
+    "alphabetical",
+    "ascending"
+  ],
+  "ArrowUpIG": [
+    "arrow",
+    "sort",
+    "instagram"
+  ],
+  "ArrowUpNarrowWide": [
+    "sort",
+    "ascending",
+    "narrow"
+  ],
+  "ArrowUpSC": [
+    "arrow",
+    "sort",
+    "snapchat"
+  ],
+  "ArrowUpTT": [
+    "arrow",
+    "sort",
+    "tiktok"
+  ],
+  "ArrowUpWideNarrow": [
+    "sort",
+    "descending",
+    "wide"
+  ],
+  "ArrowUpYT": [
+    "arrow",
+    "sort",
+    "youtube",
+    "ascending"
+  ],
+  "ArrowUpZA": [
+    "sort",
+    "alphabetical",
+    "descending"
+  ],
+  "Ban": [
+    "ban",
+    "block",
+    "forbidden"
+  ],
+  "Bell": [
+    "notification",
+    "bell",
+    "alert"
+  ],
+  "Bold": [
+    "bold",
+    "text",
+    "format"
+  ],
+  "Bookmark": [
+    "bookmark",
+    "save",
+    "flag"
+  ],
+  "Calendar": [
+    "calendar",
+    "date",
+    "schedule"
+  ],
+  "ChartColumnSquare": [
+    "chart",
+    "analytics",
+    "stats"
+  ],
+  "Checkbox": [
+    "checkbox",
+    "check",
+    "task"
+  ],
+  "Checkmark": [
+    "check",
+    "done",
+    "success"
+  ],
+  "ChevronDown": [
+    "chevron",
+    "down",
+    "collapse"
+  ],
+  "ChevronLeft": [
+    "chevron",
+    "left",
+    "previous"
+  ],
+  "ChevronRight": [
+    "chevron",
+    "right",
+    "next"
+  ],
+  "ChevronUp": [
+    "chevron",
+    "up",
+    "expand"
+  ],
+  "CircleAlert": [
+    "alert",
+    "warning",
+    "caution",
+    "error"
+  ],
+  "CircleDollarSign": [
+    "money",
+    "dollar",
+    "payment"
+  ],
+  "CircleQuestionMark": [
+    "help",
+    "question",
+    "faq"
+  ],
+  "CircleX": [
+    "close",
+    "cancel",
+    "clear"
+  ],
+  "Clock": [
+    "time",
+    "clock",
+    "schedule"
+  ],
+  "ClockArrowDown": [
+    "clock",
+    "history",
+    "arrow",
+    "sort"
+  ],
+  "ClockArrowUp": [
+    "clock",
+    "arrow",
+    "sort",
+    "history"
+  ],
+  "Cog": [
+    "settings",
+    "configuration",
+    "preferences"
+  ],
+  "Columns3": [
+    "columns",
+    "layout",
+    "three"
+  ],
+  "Command": [
+    "command",
+    "keyboard",
+    "shortcut"
+  ],
+  "ContentPlus": [
+    "content",
+    "add",
+    "create"
+  ],
+  "Copy": [
+    "copy",
+    "duplicate",
+    "clone"
+  ],
+  "Download": [
+    "download",
+    "save",
+    "export"
+  ],
+  "Eclipse": [
+    "eclipse",
+    "contrast",
+    "theme"
+  ],
+  "ExternalLink": [
+    "external",
+    "link",
+    "new-tab"
+  ],
+  "Eye": [
+    "eye",
+    "view",
+    "visible"
+  ],
+  "EyeOff": [
+    "hide",
+    "invisible",
+    "hidden"
+  ],
+  "Flame": [
+    "flame",
+    "fire",
+    "hot"
+  ],
+  "Frown": [
+    "frown",
+    "sad",
+    "unhappy"
+  ],
+  "Fullscreen": [
+    "fullscreen",
+    "expand",
+    "maximize"
+  ],
+  "Globe": [
+    "globe",
+    "world",
+    "web"
+  ],
+  "Grid1x2": [
+    "layout",
+    "design",
+    "cards"
+  ],
+  "Grid2x2": [
+    "grid",
+    "tiles",
+    "layout"
+  ],
+  "Heart": [
+    "likes",
+    "love",
+    "like"
+  ],
+  "History": [
+    "history",
+    "recent",
+    "past"
+  ],
+  "Hotspot": [
+    "hotspot",
+    "wifi",
+    "signal"
+  ],
+  "House": [
+    "home",
+    "house",
+    "main"
+  ],
+  "Image": [
+    "image",
+    "photo",
+    "picture"
+  ],
+  "Images": [
+    "images",
+    "photos",
+    "gallery"
+  ],
+  "Inbox": [
+    "inbox",
+    "mail",
+    "tray"
+  ],
+  "Info": [
+    "info",
+    "information",
+    "about"
+  ],
+  "Italic": [
+    "italic",
+    "text",
+    "format"
+  ],
+  "Link": [
+    "link",
+    "url",
+    "connect"
+  ],
+  "List": [
+    "list",
+    "items",
+    "bullets"
+  ],
+  "ListFilter": [
+    "filter",
+    "funnel",
+    "sort"
+  ],
+  "ListOrdered": [
+    "list",
+    "ordered",
+    "numbered"
+  ],
+  "LoaderCircle": [
+    "loader",
+    "loading",
+    "spinner"
+  ],
+  "Lock": [
+    "lock",
+    "secure",
+    "private"
+  ],
+  "LogOut": [
+    "logout",
+    "sign-out",
+    "exit"
+  ],
+  "Mail": [
+    "mail",
+    "email",
+    "message"
+  ],
+  "MapPin": [
+    "location",
+    "map",
+    "pin"
+  ],
+  "Maximize": [
+    "maximize",
+    "expand",
+    "enlarge"
+  ],
+  "MediaKits": [
+    "media-kit",
+    "press",
+    "brand"
+  ],
+  "Megaphone": [
+    "megaphone",
+    "announce",
+    "broadcast",
+    "promote"
+  ],
+  "MegaphoneActive": [
+    "promote"
+  ],
+  "Menu": [
+    "menu",
+    "hamburger",
+    "navigation"
+  ],
+  "MessageSquare": [
+    "message",
+    "comment",
+    "chat"
+  ],
+  "MessagesSquare": [
+    "messages",
+    "chat",
+    "conversation"
+  ],
+  "Minus": [
+    "minus",
+    "subtract",
+    "remove"
+  ],
+  "Moon": [
+    "moon",
+    "dark",
+    "night"
+  ],
+  "MousePointerClick": [
+    "click",
+    "cursor",
+    "pointer"
+  ],
+  "Move": [
+    "move",
+    "drag",
+    "reposition"
+  ],
+  "PanelLeft": [
+    "panel",
+    "sidebar",
+    "left"
+  ],
+  "PanelRight": [
+    "panel",
+    "sidebar",
+    "right"
+  ],
+  "Pencil": [
+    "pencil",
+    "edit",
+    "write"
+  ],
+  "Pin": [
+    "pin",
+    "thumbtack",
+    "stick"
+  ],
+  "Play": [
+    "play",
+    "start",
+    "video"
+  ],
+  "Plus": [
+    "plus",
+    "add",
+    "create"
+  ],
+  "Reach": [
+    "reach",
+    "audience",
+    "impressions"
+  ],
+  "Reel": [
+    "reel",
+    "video",
+    "film"
+  ],
+  "RefreshCw": [
+    "refresh",
+    "reload",
+    "sync"
+  ],
+  "RemoveFormatting": [
+    "format",
+    "clear",
+    "remove"
+  ],
+  "Reply": [
+    "reply",
+    "respond",
+    "answer"
+  ],
+  "RotateCw": [
+    "rotate",
+    "turn",
+    "redo"
+  ],
+  "Rows2": [
+    "rows",
+    "layout",
+    "split"
+  ],
+  "Save": [
+    "save",
+    "disk",
+    "preserve"
+  ],
+  "Search": [
+    "search",
+    "find",
+    "lookup"
+  ],
+  "SearchUser": [
+    "search",
+    "user",
+    "find"
+  ],
+  "Share": [
+    "share",
+    "send",
+    "forward"
+  ],
+  "SlidersHorizontal": [
+    "sliders",
+    "settings",
+    "adjust"
+  ],
+  "Smile": [
+    "smile",
+    "happy",
+    "positive"
+  ],
+  "Sparkles": [
+    "sparkles",
+    "magic",
+    "ai"
+  ],
+  "Square": [
+    "stop"
+  ],
+  "SquarePen": [
+    "compose",
+    "write",
+    "draft",
+    "editor"
+  ],
+  "Star": [
+    "star",
+    "favorite",
+    "rating"
+  ],
+  "Sun": [
+    "sun",
+    "light",
+    "day"
+  ],
+  "TextAlignCenter": [
+    "align",
+    "center",
+    "text"
+  ],
+  "TextAlignEnd": [
+    "align",
+    "right",
+    "text"
+  ],
+  "TextAlignJustify": [
+    "align",
+    "justify",
+    "text"
+  ],
+  "TextAlignStart": [
+    "align",
+    "left",
+    "text"
+  ],
+  "ThumbsDown": [
+    "dislike",
+    "disapprove",
+    "thumbs-down"
+  ],
+  "ThumbsUp": [
+    "like",
+    "approve",
+    "thumbs-up"
+  ],
+  "Trash": [
+    "trash",
+    "delete",
+    "remove"
+  ],
+  "TrendingDown": [
+    "trending",
+    "decline",
+    "decrease"
+  ],
+  "TrendingUp": [
+    "trending",
+    "growth",
+    "increase"
+  ],
+  "TriangleDownUp": [
+    "sort",
+    "toggle",
+    "order"
+  ],
+  "Unlink": [
+    "unlink",
+    "disconnect",
+    "break"
+  ],
+  "Unlock": [
+    "unlock",
+    "unsecure",
+    "public"
+  ],
+  "Upload": [
+    "upload",
+    "import",
+    "send"
+  ],
+  "User": [
+    "user",
+    "person",
+    "profile",
+    "account"
+  ],
+  "Users": [
+    "users",
+    "people",
+    "group",
+    "team"
+  ],
+  "Volume2": [
+    "volume",
+    "sound",
+    "audio"
+  ],
+  "VolumeOff": [
+    "mute",
+    "silent",
+    "volume-off"
+  ]
+};
+
+// Get canonical name from alias
+export function getCanonicalName(nameOrAlias: string): string {
+  return aliasToCanonical[nameOrAlias] || nameOrAlias;
+}

@@ -12,8 +12,11 @@
     "build:figma": "turbo run build --filter=@foamicons/figma-plugin",
     "dev": "turbo run dev",
     "dev:website": "turbo run dev --filter=@foamicons/website",
+    "dev:figma": "turbo run dev --filter=@foamicons/figma-plugin",
     "test": "turbo run test",
-    "clean": "turbo run clean && rm -rf node_modules"
+    "clean": "turbo run clean && rm -rf node_modules",
+    "release": "node scripts/release.mjs",
+    "add-aliases": "node scripts/add-aliases.mjs"
   },
   "devDependencies": {
     "turbo": "^2.0.0"
