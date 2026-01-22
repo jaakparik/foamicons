@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkD5PXL4JE_cjs = require('../chunk-D5PXL4JE.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkB7TO5MCQ_cjs = require('../chunk-B7TO5MCQ.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "Trash", {
   enumerable: true,
-  get: function () { return chunkD5PXL4JE_cjs.Trash; }
+  get: function () { return chunkB7TO5MCQ_cjs.Trash; }
 });
 //# sourceMappingURL=Trash.cjs.map
 //# sourceMappingURL=Trash.cjs.map

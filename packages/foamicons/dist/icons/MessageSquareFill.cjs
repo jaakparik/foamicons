@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkQVMLYKFL_cjs = require('../chunk-QVMLYKFL.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkU4AGVF67_cjs = require('../chunk-U4AGVF67.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "MessageSquareFill", {
   enumerable: true,
-  get: function () { return chunkQVMLYKFL_cjs.MessageSquareFill; }
+  get: function () { return chunkU4AGVF67_cjs.MessageSquareFill; }
 });
 //# sourceMappingURL=MessageSquareFill.cjs.map
 //# sourceMappingURL=MessageSquareFill.cjs.map

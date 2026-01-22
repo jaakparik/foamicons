@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkJC7OTHG4_cjs = require('../chunk-JC7OTHG4.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkTGGH2QOM_cjs = require('../chunk-TGGH2QOM.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "HistoryDuotone", {
   enumerable: true,
-  get: function () { return chunkJC7OTHG4_cjs.HistoryDuotone; }
+  get: function () { return chunkTGGH2QOM_cjs.HistoryDuotone; }
 });
 //# sourceMappingURL=HistoryDuotone.cjs.map
 //# sourceMappingURL=HistoryDuotone.cjs.map

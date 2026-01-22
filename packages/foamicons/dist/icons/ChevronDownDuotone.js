@@ -1,4 +1,4 @@
-export { ChevronDownDuotone } from '../chunk-POA7XYRU.js';
-import '../chunk-N3CS4C56.js';
+export { ChevronDownDuotone } from '../chunk-Q6BCVRFJ.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=ChevronDownDuotone.js.map
 //# sourceMappingURL=ChevronDownDuotone.js.map

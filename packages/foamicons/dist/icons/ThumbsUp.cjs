@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkBD6YNY5D_cjs = require('../chunk-BD6YNY5D.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkHJIF53EV_cjs = require('../chunk-HJIF53EV.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ThumbsUp", {
   enumerable: true,
-  get: function () { return chunkBD6YNY5D_cjs.ThumbsUp; }
+  get: function () { return chunkHJIF53EV_cjs.ThumbsUp; }
 });
 //# sourceMappingURL=ThumbsUp.cjs.map
 //# sourceMappingURL=ThumbsUp.cjs.map

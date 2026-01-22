@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkN7XUZ77V_cjs = require('../chunk-N7XUZ77V.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkXMU6SWWU_cjs = require('../chunk-XMU6SWWU.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "MailPlus", {
   enumerable: true,
-  get: function () { return chunkN7XUZ77V_cjs.MailPlus; }
+  get: function () { return chunkXMU6SWWU_cjs.MailPlus; }
 });
 //# sourceMappingURL=MailPlus.cjs.map
 //# sourceMappingURL=MailPlus.cjs.map

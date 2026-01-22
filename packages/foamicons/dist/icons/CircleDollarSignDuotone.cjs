@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkLMCVVWWL_cjs = require('../chunk-LMCVVWWL.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkI5FZI3QS_cjs = require('../chunk-I5FZI3QS.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "CircleDollarSignDuotone", {
   enumerable: true,
-  get: function () { return chunkLMCVVWWL_cjs.CircleDollarSignDuotone; }
+  get: function () { return chunkI5FZI3QS_cjs.CircleDollarSignDuotone; }
 });
 //# sourceMappingURL=CircleDollarSignDuotone.cjs.map
 //# sourceMappingURL=CircleDollarSignDuotone.cjs.map

@@ -1,4 +1,4 @@
-export { FullscreenDuotone } from '../chunk-RAXUIUKP.js';
-import '../chunk-N3CS4C56.js';
+export { FullscreenDuotone } from '../chunk-LASY5IA3.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=FullscreenDuotone.js.map
 //# sourceMappingURL=FullscreenDuotone.js.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkELAQ7PUZ_cjs = require('../chunk-ELAQ7PUZ.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkCZFQY42V_cjs = require('../chunk-CZFQY42V.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "MousePointerClickDuotone", {
   enumerable: true,
-  get: function () { return chunkELAQ7PUZ_cjs.MousePointerClickDuotone; }
+  get: function () { return chunkCZFQY42V_cjs.MousePointerClickDuotone; }
 });
 //# sourceMappingURL=MousePointerClickDuotone.cjs.map
 //# sourceMappingURL=MousePointerClickDuotone.cjs.map

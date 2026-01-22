@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkES3SIRIU_cjs = require('../chunk-ES3SIRIU.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkDPX5MQTN_cjs = require('../chunk-DPX5MQTN.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "FlameDuotone", {
   enumerable: true,
-  get: function () { return chunkES3SIRIU_cjs.FlameDuotone; }
+  get: function () { return chunkDPX5MQTN_cjs.FlameDuotone; }
 });
 //# sourceMappingURL=FlameDuotone.cjs.map
 //# sourceMappingURL=FlameDuotone.cjs.map

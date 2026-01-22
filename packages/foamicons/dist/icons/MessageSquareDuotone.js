@@ -1,4 +1,4 @@
-export { MessageSquareDuotone } from '../chunk-A4SGWR3O.js';
-import '../chunk-N3CS4C56.js';
+export { MessageSquareDuotone } from '../chunk-BX2K4IGU.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=MessageSquareDuotone.js.map
 //# sourceMappingURL=MessageSquareDuotone.js.map

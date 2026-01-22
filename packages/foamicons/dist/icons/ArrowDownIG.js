@@ -1,4 +1,4 @@
-export { ArrowDownIG } from '../chunk-FKBHL55B.js';
-import '../chunk-N3CS4C56.js';
+export { ArrowDownIG } from '../chunk-VMVXGMHO.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=ArrowDownIG.js.map
 //# sourceMappingURL=ArrowDownIG.js.map

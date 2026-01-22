@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkZWQZIOBZ_cjs = require('../chunk-ZWQZIOBZ.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkNRZIMO4F_cjs = require('../chunk-NRZIMO4F.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "SmileDuotone", {
   enumerable: true,
-  get: function () { return chunkZWQZIOBZ_cjs.SmileDuotone; }
+  get: function () { return chunkNRZIMO4F_cjs.SmileDuotone; }
 });
 //# sourceMappingURL=SmileDuotone.cjs.map
 //# sourceMappingURL=SmileDuotone.cjs.map

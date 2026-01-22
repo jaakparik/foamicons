@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkOKFEYX5R_cjs = require('../chunk-OKFEYX5R.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkXFSSXHX4_cjs = require('../chunk-XFSSXHX4.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "Columns3Duotone", {
   enumerable: true,
-  get: function () { return chunkOKFEYX5R_cjs.Columns3Duotone; }
+  get: function () { return chunkXFSSXHX4_cjs.Columns3Duotone; }
 });
 //# sourceMappingURL=Columns3Duotone.cjs.map
 //# sourceMappingURL=Columns3Duotone.cjs.map

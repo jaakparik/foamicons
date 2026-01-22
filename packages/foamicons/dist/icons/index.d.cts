@@ -400,5 +400,5 @@ export { Volume2 } from './Volume2.cjs';
 export { VolumeOffDuotone } from './VolumeOffDuotone.cjs';
 export { VolumeOffFill } from './VolumeOffFill.cjs';
 export { VolumeOff } from './VolumeOff.cjs';
-import '../types-Dox7zwnl.cjs';
+import '../types-BTaf5YId.cjs';
 import 'react';

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk5MYISTII_cjs = require('../chunk-5MYISTII.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunk24OCJEWX_cjs = require('../chunk-24OCJEWX.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "BoldDuotone", {
   enumerable: true,
-  get: function () { return chunk5MYISTII_cjs.BoldDuotone; }
+  get: function () { return chunk24OCJEWX_cjs.BoldDuotone; }
 });
 //# sourceMappingURL=BoldDuotone.cjs.map
 //# sourceMappingURL=BoldDuotone.cjs.map

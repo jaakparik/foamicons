@@ -1,4 +1,4 @@
-export { ImageDuotone } from '../chunk-43HLLHBU.js';
-import '../chunk-N3CS4C56.js';
+export { ImageDuotone } from '../chunk-QWIYUMKT.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=ImageDuotone.js.map
 //# sourceMappingURL=ImageDuotone.js.map

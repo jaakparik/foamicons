@@ -1,4 +1,4 @@
-export { TextAlignEndDuotone } from '../chunk-25WZQDSC.js';
-import '../chunk-N3CS4C56.js';
+export { TextAlignEndDuotone } from '../chunk-Y2Q22OHW.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=TextAlignEndDuotone.js.map
 //# sourceMappingURL=TextAlignEndDuotone.js.map

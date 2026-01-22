@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkFXMMMAXR_cjs = require('../chunk-FXMMMAXR.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkWYXFARM2_cjs = require('../chunk-WYXFARM2.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ReplyDuotone", {
   enumerable: true,
-  get: function () { return chunkFXMMMAXR_cjs.ReplyDuotone; }
+  get: function () { return chunkWYXFARM2_cjs.ReplyDuotone; }
 });
 //# sourceMappingURL=ReplyDuotone.cjs.map
 //# sourceMappingURL=ReplyDuotone.cjs.map

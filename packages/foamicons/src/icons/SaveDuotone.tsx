@@ -15,21 +15,29 @@ const __iconNode: IconNode = [
   [
     'path',
     {
-      d: 'M5.5 2.5V4.5C5.5 5.05228 5.94772 5.5 6.5 5.5H8.5C9.05228 5.5 9.5 5.05228 9.5 4.5V2.5',
+      d: 'M6.5 5.5H8.5C9.05228 5.5 9.5 5.05228 9.5 4.5V2.5H5.5V4.5C5.5 5.05228 5.94772 5.5 6.5 5.5Z',
+      fill: 'var(--foamicon-secondary-color, currentColor)',
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: 'g8aw5v'
+      style: {
+        fillOpacity: 'var(--foamicon-secondary-opacity, 0.25)'
+      },
+      key: 'hnuds0'
     }
   ],
   [
     'path',
     {
-      d: 'M4.5 13.5V9.5C4.5 8.94772 4.94772 8.5 5.5 8.5H10.5C11.0523 8.5 11.5 8.94772 11.5 9.5V13.5',
+      d: 'M10.5 8.5H5.5C4.94772 8.5 4.5 8.94772 4.5 9.5V13.5H11.5V9.5C11.5 8.94772 11.0523 8.5 10.5 8.5Z',
+      fill: 'var(--foamicon-secondary-color, currentColor)',
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: 'dlqg9y'
+      style: {
+        fillOpacity: 'var(--foamicon-secondary-opacity, 0.25)'
+      },
+      key: 'ar27s5'
     }
   ]
 ];
@@ -37,7 +45,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name SaveDuotone
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIuNSA0QzIuNSAzLjE3MTU3IDMuMTcxNTcgMi41IDQgMi41SDhIMTAuMTM3M0MxMC41MyAyLjUgMTAuOTA3MSAyLjY1NDAxIDExLjE4NzUgMi45Mjg5N0wxMi4xNjggMy44OTAzOUwxMy4wNzE1IDQuODEyNkMxMy4zNDYyIDUuMDkyOTcgMTMuNSA1LjQ2OTgzIDEzLjUgNS44NjIzM1Y4VjEyQzEzLjUgMTIuODI4NCAxMi44Mjg0IDEzLjUgMTIgMTMuNUg0QzMuMTcxNTcgMTMuNSAyLjUgMTIuODI4NCAyLjUgMTJWNFoiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTUuNSAyLjVWNC41QzUuNSA1LjA1MjI4IDUuOTQ3NzIgNS41IDYuNSA1LjVIOC41QzkuMDUyMjggNS41IDkuNSA1LjA1MjI4IDkuNSA0LjVWMi41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik00LjUgMTMuNVY5LjVDNC41IDguOTQ3NzIgNC45NDc3MiA4LjUgNS41IDguNUgxMC41QzExLjA1MjMgOC41IDExLjUgOC45NDc3MiAxMS41IDkuNVYxMy41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIuNSA0QzIuNSAzLjE3MTU3IDMuMTcxNTcgMi41IDQgMi41SDhIMTAuMTM3M0MxMC41MyAyLjUgMTAuOTA3MSAyLjY1NDAxIDExLjE4NzUgMi45Mjg5N0wxMi4xNjggMy44OTAzOUwxMy4wNzE1IDQuODEyNkMxMy4zNDYyIDUuMDkyOTcgMTMuNSA1LjQ2OTgzIDEzLjUgNS44NjIzM1Y4VjEyQzEzLjUgMTIuODI4NCAxMi44Mjg0IDEzLjUgMTIgMTMuNUg0QzMuMTcxNTcgMTMuNSAyLjUgMTIuODI4NCAyLjUgMTJWNFoiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTYuNSA1LjVIOC41QzkuMDUyMjggNS41IDkuNSA1LjA1MjI4IDkuNSA0LjVWMi41SDUuNVY0LjVDNS41IDUuMDUyMjggNS45NDc3MiA1LjUgNi41IDUuNVoiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1vcGFjaXR5PSIwLjI1IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMC41IDguNUg1LjVDNC45NDc3MiA4LjUgNC41IDguOTQ3NzIgNC41IDkuNVYxMy41SDExLjVWOS41QzExLjUgOC45NDc3MiAxMS4wNTIzIDguNSAxMC41IDguNVoiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1vcGFjaXR5PSIwLjI1IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
  * @see https://foamicons.com/icons/save-duotone
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

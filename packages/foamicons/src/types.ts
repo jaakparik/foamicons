@@ -8,8 +8,8 @@ export type IconNode = [elementName: string, attrs: Record<string, string | Reco
 
 export interface IconProps extends SVGProps<SVGSVGElement> {
   /**
-   * Icon size (width and height)
-   * @default 16
+   * Icon size (width and height).
+   * If not provided, the icon can be sized via CSS classes (e.g., Tailwind's h-4 w-4).
    */
   size?: number | string;
   /**
@@ -28,6 +28,18 @@ export interface IconProps extends SVGProps<SVGSVGElement> {
    * @default 'currentColor'
    */
   color?: string;
+  /**
+   * Secondary color for duotone and fill icon variants.
+   * Sets the --foamicon-secondary-color CSS variable.
+   * @default 'currentColor'
+   */
+  secondaryColor?: string;
+  /**
+   * Opacity of the secondary color for duotone icons.
+   * Sets the --foamicon-secondary-opacity CSS variable.
+   * @default 0.4
+   */
+  secondaryOpacity?: number;
 }
 
 /**

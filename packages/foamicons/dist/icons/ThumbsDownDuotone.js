@@ -1,4 +1,4 @@
-export { ThumbsDownDuotone } from '../chunk-OXLBZXVT.js';
-import '../chunk-N3CS4C56.js';
+export { ThumbsDownDuotone } from '../chunk-QRAHH7CV.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=ThumbsDownDuotone.js.map
 //# sourceMappingURL=ThumbsDownDuotone.js.map

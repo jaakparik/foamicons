@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkKX3SKJL7_cjs = require('../chunk-KX3SKJL7.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkI3WCSXRJ_cjs = require('../chunk-I3WCSXRJ.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "MediaKitsDuotone", {
   enumerable: true,
-  get: function () { return chunkKX3SKJL7_cjs.MediaKitsDuotone; }
+  get: function () { return chunkI3WCSXRJ_cjs.MediaKitsDuotone; }
 });
 //# sourceMappingURL=MediaKitsDuotone.cjs.map
 //# sourceMappingURL=MediaKitsDuotone.cjs.map

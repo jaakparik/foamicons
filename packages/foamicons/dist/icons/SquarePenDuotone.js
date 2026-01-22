@@ -1,4 +1,4 @@
-export { SquarePenDuotone } from '../chunk-63PBABTM.js';
-import '../chunk-N3CS4C56.js';
+export { SquarePenDuotone } from '../chunk-F45BAYDK.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=SquarePenDuotone.js.map
 //# sourceMappingURL=SquarePenDuotone.js.map

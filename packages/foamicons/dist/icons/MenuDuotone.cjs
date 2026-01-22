@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkJW2CI4T5_cjs = require('../chunk-JW2CI4T5.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunk3XVX3UYM_cjs = require('../chunk-3XVX3UYM.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "MenuDuotone", {
   enumerable: true,
-  get: function () { return chunkJW2CI4T5_cjs.MenuDuotone; }
+  get: function () { return chunk3XVX3UYM_cjs.MenuDuotone; }
 });
 //# sourceMappingURL=MenuDuotone.cjs.map
 //# sourceMappingURL=MenuDuotone.cjs.map

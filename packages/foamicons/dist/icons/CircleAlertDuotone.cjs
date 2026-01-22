@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkUCE72YPQ_cjs = require('../chunk-UCE72YPQ.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunk7LQVOLEM_cjs = require('../chunk-7LQVOLEM.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "CircleAlertDuotone", {
   enumerable: true,
-  get: function () { return chunkUCE72YPQ_cjs.CircleAlertDuotone; }
+  get: function () { return chunk7LQVOLEM_cjs.CircleAlertDuotone; }
 });
 //# sourceMappingURL=CircleAlertDuotone.cjs.map
 //# sourceMappingURL=CircleAlertDuotone.cjs.map

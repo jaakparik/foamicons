@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk7FKIMAWL_cjs = require('../chunk-7FKIMAWL.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkLLICK35V_cjs = require('../chunk-LLICK35V.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "SearchDuotone", {
   enumerable: true,
-  get: function () { return chunk7FKIMAWL_cjs.SearchDuotone; }
+  get: function () { return chunkLLICK35V_cjs.SearchDuotone; }
 });
 //# sourceMappingURL=SearchDuotone.cjs.map
 //# sourceMappingURL=SearchDuotone.cjs.map

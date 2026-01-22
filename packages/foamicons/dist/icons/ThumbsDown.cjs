@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkJ3EGYOO7_cjs = require('../chunk-J3EGYOO7.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkQ3JIRHBU_cjs = require('../chunk-Q3JIRHBU.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ThumbsDown", {
   enumerable: true,
-  get: function () { return chunkJ3EGYOO7_cjs.ThumbsDown; }
+  get: function () { return chunkQ3JIRHBU_cjs.ThumbsDown; }
 });
 //# sourceMappingURL=ThumbsDown.cjs.map
 //# sourceMappingURL=ThumbsDown.cjs.map

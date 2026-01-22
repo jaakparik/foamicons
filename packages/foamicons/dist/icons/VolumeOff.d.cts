@@ -1,4 +1,4 @@
-import { F as FoamIcon } from '../types-Dox7zwnl.cjs';
+import { F as FoamIcon } from '../types-BTaf5YId.cjs';
 import 'react';
 
 /**

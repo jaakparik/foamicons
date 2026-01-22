@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk2N22EI4M_cjs = require('../chunk-2N22EI4M.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunk3YMKNXTX_cjs = require('../chunk-3YMKNXTX.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "SlidersHorizontalDuotone", {
   enumerable: true,
-  get: function () { return chunk2N22EI4M_cjs.SlidersHorizontalDuotone; }
+  get: function () { return chunk3YMKNXTX_cjs.SlidersHorizontalDuotone; }
 });
 //# sourceMappingURL=SlidersHorizontalDuotone.cjs.map
 //# sourceMappingURL=SlidersHorizontalDuotone.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkSI7KIJYL_cjs = require('../chunk-SI7KIJYL.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkMLOU4KCP_cjs = require('../chunk-MLOU4KCP.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "InboxDuotone", {
   enumerable: true,
-  get: function () { return chunkSI7KIJYL_cjs.InboxDuotone; }
+  get: function () { return chunkMLOU4KCP_cjs.InboxDuotone; }
 });
 //# sourceMappingURL=InboxDuotone.cjs.map
 //# sourceMappingURL=InboxDuotone.cjs.map

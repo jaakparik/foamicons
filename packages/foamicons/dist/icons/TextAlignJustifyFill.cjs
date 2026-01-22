@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkU2INUJ2Z_cjs = require('../chunk-U2INUJ2Z.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkHDCVJ3NS_cjs = require('../chunk-HDCVJ3NS.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "TextAlignJustifyFill", {
   enumerable: true,
-  get: function () { return chunkU2INUJ2Z_cjs.TextAlignJustifyFill; }
+  get: function () { return chunkHDCVJ3NS_cjs.TextAlignJustifyFill; }
 });
 //# sourceMappingURL=TextAlignJustifyFill.cjs.map
 //# sourceMappingURL=TextAlignJustifyFill.cjs.map

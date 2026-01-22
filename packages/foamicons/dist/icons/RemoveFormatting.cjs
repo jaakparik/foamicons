@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkJJARVHLL_cjs = require('../chunk-JJARVHLL.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkLFINHOPO_cjs = require('../chunk-LFINHOPO.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "RemoveFormatting", {
   enumerable: true,
-  get: function () { return chunkJJARVHLL_cjs.RemoveFormatting; }
+  get: function () { return chunkLFINHOPO_cjs.RemoveFormatting; }
 });
 //# sourceMappingURL=RemoveFormatting.cjs.map
 //# sourceMappingURL=RemoveFormatting.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkVR5RDF7D_cjs = require('../chunk-VR5RDF7D.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunk5ZWIM2BB_cjs = require('../chunk-5ZWIM2BB.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "Cog", {
   enumerable: true,
-  get: function () { return chunkVR5RDF7D_cjs.Cog; }
+  get: function () { return chunk5ZWIM2BB_cjs.Cog; }
 });
 //# sourceMappingURL=Cog.cjs.map
 //# sourceMappingURL=Cog.cjs.map

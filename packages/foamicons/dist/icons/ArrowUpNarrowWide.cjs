@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkOM3MRIQJ_cjs = require('../chunk-OM3MRIQJ.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkMVV5KDTY_cjs = require('../chunk-MVV5KDTY.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ArrowUpNarrowWide", {
   enumerable: true,
-  get: function () { return chunkOM3MRIQJ_cjs.ArrowUpNarrowWide; }
+  get: function () { return chunkMVV5KDTY_cjs.ArrowUpNarrowWide; }
 });
 //# sourceMappingURL=ArrowUpNarrowWide.cjs.map
 //# sourceMappingURL=ArrowUpNarrowWide.cjs.map

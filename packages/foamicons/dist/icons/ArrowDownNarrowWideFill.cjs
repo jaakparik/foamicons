@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk5NNQNDYI_cjs = require('../chunk-5NNQNDYI.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkNUEZWTZM_cjs = require('../chunk-NUEZWTZM.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ArrowDownNarrowWideFill", {
   enumerable: true,
-  get: function () { return chunk5NNQNDYI_cjs.ArrowDownNarrowWideFill; }
+  get: function () { return chunkNUEZWTZM_cjs.ArrowDownNarrowWideFill; }
 });
 //# sourceMappingURL=ArrowDownNarrowWideFill.cjs.map
 //# sourceMappingURL=ArrowDownNarrowWideFill.cjs.map

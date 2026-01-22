@@ -1,4 +1,4 @@
-export { ArrowUpWideNarrowFill } from '../chunk-KBXW4NSI.js';
-import '../chunk-N3CS4C56.js';
+export { ArrowUpWideNarrowFill } from '../chunk-BF4VZSOQ.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=ArrowUpWideNarrowFill.js.map
 //# sourceMappingURL=ArrowUpWideNarrowFill.js.map

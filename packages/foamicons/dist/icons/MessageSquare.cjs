@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkJ3UPJHEO_cjs = require('../chunk-J3UPJHEO.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkV3WCRYO7_cjs = require('../chunk-V3WCRYO7.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "MessageSquare", {
   enumerable: true,
-  get: function () { return chunkJ3UPJHEO_cjs.MessageSquare; }
+  get: function () { return chunkV3WCRYO7_cjs.MessageSquare; }
 });
 //# sourceMappingURL=MessageSquare.cjs.map
 //# sourceMappingURL=MessageSquare.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkXVSRM4O5_cjs = require('../chunk-XVSRM4O5.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkK3II2QOT_cjs = require('../chunk-K3II2QOT.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "PanelLeftDuotone", {
   enumerable: true,
-  get: function () { return chunkXVSRM4O5_cjs.PanelLeftDuotone; }
+  get: function () { return chunkK3II2QOT_cjs.PanelLeftDuotone; }
 });
 //# sourceMappingURL=PanelLeftDuotone.cjs.map
 //# sourceMappingURL=PanelLeftDuotone.cjs.map

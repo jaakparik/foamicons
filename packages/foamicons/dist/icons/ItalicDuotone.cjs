@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkNJK4MJMF_cjs = require('../chunk-NJK4MJMF.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkFSJJCX5R_cjs = require('../chunk-FSJJCX5R.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ItalicDuotone", {
   enumerable: true,
-  get: function () { return chunkNJK4MJMF_cjs.ItalicDuotone; }
+  get: function () { return chunkFSJJCX5R_cjs.ItalicDuotone; }
 });
 //# sourceMappingURL=ItalicDuotone.cjs.map
 //# sourceMappingURL=ItalicDuotone.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkVM7ZZDG6_cjs = require('../chunk-VM7ZZDG6.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkMITXBR6K_cjs = require('../chunk-MITXBR6K.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "MapPinDuotone", {
   enumerable: true,
-  get: function () { return chunkVM7ZZDG6_cjs.MapPinDuotone; }
+  get: function () { return chunkMITXBR6K_cjs.MapPinDuotone; }
 });
 //# sourceMappingURL=MapPinDuotone.cjs.map
 //# sourceMappingURL=MapPinDuotone.cjs.map

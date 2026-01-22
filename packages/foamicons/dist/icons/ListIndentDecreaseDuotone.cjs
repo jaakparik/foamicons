@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkBE57T2BA_cjs = require('../chunk-BE57T2BA.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkSABDXAKY_cjs = require('../chunk-SABDXAKY.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ListIndentDecreaseDuotone", {
   enumerable: true,
-  get: function () { return chunkBE57T2BA_cjs.ListIndentDecreaseDuotone; }
+  get: function () { return chunkSABDXAKY_cjs.ListIndentDecreaseDuotone; }
 });
 //# sourceMappingURL=ListIndentDecreaseDuotone.cjs.map
 //# sourceMappingURL=ListIndentDecreaseDuotone.cjs.map

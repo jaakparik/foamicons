@@ -1,4 +1,4 @@
-export { MailMoveFill } from '../chunk-YAONQCHC.js';
-import '../chunk-N3CS4C56.js';
+export { MailMoveFill } from '../chunk-JVCEHKSS.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=MailMoveFill.js.map
 //# sourceMappingURL=MailMoveFill.js.map

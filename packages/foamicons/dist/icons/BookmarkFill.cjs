@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkWS4BZ5HA_cjs = require('../chunk-WS4BZ5HA.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkJQRD5CEQ_cjs = require('../chunk-JQRD5CEQ.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "BookmarkFill", {
   enumerable: true,
-  get: function () { return chunkWS4BZ5HA_cjs.BookmarkFill; }
+  get: function () { return chunkJQRD5CEQ_cjs.BookmarkFill; }
 });
 //# sourceMappingURL=BookmarkFill.cjs.map
 //# sourceMappingURL=BookmarkFill.cjs.map

@@ -27,8 +27,9 @@ describe('createFoamicon', () => {
     render(<TestIcon data-testid="test-icon" />);
     const svg = screen.getByTestId('test-icon');
 
-    expect(svg.getAttribute('width')).toBe('16');
-    expect(svg.getAttribute('height')).toBe('16');
+    // Size is not set by default (allows Tailwind h-*/w-* classes to work)
+    expect(svg.getAttribute('width')).toBeNull();
+    expect(svg.getAttribute('height')).toBeNull();
     expect(svg.getAttribute('viewBox')).toBe('0 0 16 16');
     expect(svg.getAttribute('stroke')).toBe('currentColor');
     expect(svg.getAttribute('stroke-width')).toBe('1');
@@ -107,5 +108,34 @@ describe('createFoamicon', () => {
     const svg = screen.getByTestId('test-icon');
 
     expect(svg.getAttribute('aria-hidden')).toBe('true');
+  });
+
+  it('applies secondaryColor as CSS variable', () => {
+    render(<TestIcon data-testid="test-icon" secondaryColor="#3b82f6" />);
+    const svg = screen.getByTestId('test-icon');
+
+    expect(svg.style.getPropertyValue('--foamicon-secondary-color')).toBe('#3b82f6');
+  });
+
+  it('applies secondaryOpacity as CSS variable', () => {
+    render(<TestIcon data-testid="test-icon" secondaryOpacity={0.5} />);
+    const svg = screen.getByTestId('test-icon');
+
+    expect(svg.style.getPropertyValue('--foamicon-secondary-opacity')).toBe('0.5');
+  });
+
+  it('applies both secondary props together', () => {
+    render(<TestIcon data-testid="test-icon" secondaryColor="red" secondaryOpacity={0.3} />);
+    const svg = screen.getByTestId('test-icon');
+
+    expect(svg.style.getPropertyValue('--foamicon-secondary-color')).toBe('red');
+    expect(svg.style.getPropertyValue('--foamicon-secondary-opacity')).toBe('0.3');
+  });
+
+  it('does not set style when no secondary props provided', () => {
+    render(<TestIcon data-testid="test-icon" />);
+    const svg = screen.getByTestId('test-icon');
+
+    expect(svg.getAttribute('style')).toBeNull();
   });
 });

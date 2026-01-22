@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkC6EQUAA2_cjs = require('../chunk-C6EQUAA2.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkDITINQXZ_cjs = require('../chunk-DITINQXZ.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "CircleQuestionMarkDuotone", {
   enumerable: true,
-  get: function () { return chunkC6EQUAA2_cjs.CircleQuestionMarkDuotone; }
+  get: function () { return chunkDITINQXZ_cjs.CircleQuestionMarkDuotone; }
 });
 //# sourceMappingURL=CircleQuestionMarkDuotone.cjs.map
 //# sourceMappingURL=CircleQuestionMarkDuotone.cjs.map

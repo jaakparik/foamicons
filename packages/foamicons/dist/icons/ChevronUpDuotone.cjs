@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkZP3C7463_cjs = require('../chunk-ZP3C7463.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkKKE6UAKJ_cjs = require('../chunk-KKE6UAKJ.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ChevronUpDuotone", {
   enumerable: true,
-  get: function () { return chunkZP3C7463_cjs.ChevronUpDuotone; }
+  get: function () { return chunkKKE6UAKJ_cjs.ChevronUpDuotone; }
 });
 //# sourceMappingURL=ChevronUpDuotone.cjs.map
 //# sourceMappingURL=ChevronUpDuotone.cjs.map

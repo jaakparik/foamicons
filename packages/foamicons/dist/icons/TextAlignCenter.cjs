@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk242CARZN_cjs = require('../chunk-242CARZN.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkZUTTNC3T_cjs = require('../chunk-ZUTTNC3T.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "TextAlignCenter", {
   enumerable: true,
-  get: function () { return chunk242CARZN_cjs.TextAlignCenter; }
+  get: function () { return chunkZUTTNC3T_cjs.TextAlignCenter; }
 });
 //# sourceMappingURL=TextAlignCenter.cjs.map
 //# sourceMappingURL=TextAlignCenter.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkOBMV2MED_cjs = require('../chunk-OBMV2MED.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkCZLUPJWV_cjs = require('../chunk-CZLUPJWV.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ImageDuotone", {
   enumerable: true,
-  get: function () { return chunkOBMV2MED_cjs.ImageDuotone; }
+  get: function () { return chunkCZLUPJWV_cjs.ImageDuotone; }
 });
 //# sourceMappingURL=ImageDuotone.cjs.map
 //# sourceMappingURL=ImageDuotone.cjs.map

@@ -1,4 +1,4 @@
-export { DownloadDuotone } from '../chunk-K3NX47JD.js';
-import '../chunk-N3CS4C56.js';
+export { DownloadDuotone } from '../chunk-62PHQTH7.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=DownloadDuotone.js.map
 //# sourceMappingURL=DownloadDuotone.js.map

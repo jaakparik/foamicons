@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkKVX2ISCJ_cjs = require('../chunk-KVX2ISCJ.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkRC4GGRG5_cjs = require('../chunk-RC4GGRG5.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ListOrderedDuotone", {
   enumerable: true,
-  get: function () { return chunkKVX2ISCJ_cjs.ListOrderedDuotone; }
+  get: function () { return chunkRC4GGRG5_cjs.ListOrderedDuotone; }
 });
 //# sourceMappingURL=ListOrderedDuotone.cjs.map
 //# sourceMappingURL=ListOrderedDuotone.cjs.map

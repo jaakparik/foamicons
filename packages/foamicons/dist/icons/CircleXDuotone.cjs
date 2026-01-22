@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkZZA4LMFO_cjs = require('../chunk-ZZA4LMFO.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkWW523IM4_cjs = require('../chunk-WW523IM4.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "CircleXDuotone", {
   enumerable: true,
-  get: function () { return chunkZZA4LMFO_cjs.CircleXDuotone; }
+  get: function () { return chunkWW523IM4_cjs.CircleXDuotone; }
 });
 //# sourceMappingURL=CircleXDuotone.cjs.map
 //# sourceMappingURL=CircleXDuotone.cjs.map

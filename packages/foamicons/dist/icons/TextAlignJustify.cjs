@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk5RFBRXUK_cjs = require('../chunk-5RFBRXUK.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkYOJLNVPS_cjs = require('../chunk-YOJLNVPS.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "TextAlignJustify", {
   enumerable: true,
-  get: function () { return chunk5RFBRXUK_cjs.TextAlignJustify; }
+  get: function () { return chunkYOJLNVPS_cjs.TextAlignJustify; }
 });
 //# sourceMappingURL=TextAlignJustify.cjs.map
 //# sourceMappingURL=TextAlignJustify.cjs.map

@@ -1,4 +1,4 @@
-export { CalendarDuotone } from '../chunk-IYKFWC76.js';
-import '../chunk-N3CS4C56.js';
+export { CalendarDuotone } from '../chunk-EPTDARQK.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=CalendarDuotone.js.map
 //# sourceMappingURL=CalendarDuotone.js.map

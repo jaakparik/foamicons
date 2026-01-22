@@ -23,17 +23,47 @@ Foamicons includes **120 base icons**, each available in three styles:
 ```tsx
 import { Bell, BellDuotone, BellFill } from 'foamicons';
 
-// Stroked icon
+// With Tailwind classes (shadcn pattern) - recommended
+<Bell className="h-4 w-4 text-muted-foreground" />
+
+// With size prop
 <Bell size={24} strokeWidth={1.5} />
 
-// Duotone icon
-<BellDuotone size={24} />
+// Duotone with custom secondary color
+<BellDuotone className="h-5 w-5" secondaryColor="#3b82f6" secondaryOpacity={0.4} />
 
 // Filled icon
 <BellFill size={24} />
+```
 
-// With Tailwind classes (shadcn pattern)
+### With shadcn/ui and Tailwind
+
+Foamicons works seamlessly with shadcn/ui patterns:
+
+```tsx
+import { Bell, BellDuotone } from 'foamicons';
+import { Button } from '@/components/ui/button';
+
+// In buttons (like Lucide icons)
+<Button variant="outline" size="icon">
+  <Bell className="h-4 w-4" />
+</Button>
+
+// With text
+<Button>
+  <Bell className="mr-2 h-4 w-4" />
+  Notifications
+</Button>
+
+// Muted foreground color
 <Bell className="h-4 w-4 text-muted-foreground" />
+
+// Duotone with theme colors
+<BellDuotone
+  className="h-5 w-5 text-foreground"
+  secondaryColor="hsl(var(--primary))"
+  secondaryOpacity={0.3}
+/>
 ```
 
 ### Stroked Icons
@@ -43,9 +73,9 @@ Basic outline icons with customizable stroke width:
 ```tsx
 import { Bell } from 'foamicons';
 
-<Bell />
+<Bell className="h-4 w-4" />
+<Bell className="h-5 w-5 text-blue-500" strokeWidth={1.5} />
 <Bell size={24} strokeWidth={1.5} />
-<Bell className="text-blue-500" />
 ```
 
 ### Duotone Icons
@@ -55,16 +85,23 @@ Two-color icons with a stroke color and a semi-transparent fill:
 ```tsx
 import { BellDuotone } from 'foamicons';
 
-// Basic usage - uses currentColor for both
-<BellDuotone />
+// Basic usage - both colors inherit from currentColor
+// This creates a true "duotone" effect (two tones of the same color)
+<BellDuotone className="h-5 w-5 text-blue-500" />
 
-// Custom colors via CSS variables
+// Custom secondary color via props (recommended)
+<BellDuotone
+  className="h-5 w-5 text-blue-500"
+  secondaryColor="#93c5fd"
+  secondaryOpacity={0.4}
+/>
+
+// Custom colors via CSS variables (for theming)
 <div style={{
-  color: '#000000',
   '--foamicon-secondary-color': '#3b82f6',
-  '--foamicon-secondary-opacity': 0.2
+  '--foamicon-secondary-opacity': 0.4
 }}>
-  <BellDuotone size={24} />
+  <BellDuotone className="h-5 w-5" />
 </div>
 ```
 
@@ -75,35 +112,25 @@ Solid filled icons with two colors - a fill color for the main shape and a strok
 ```tsx
 import { BellFill } from 'foamicons';
 
-// Basic usage
-<BellFill />
+// Basic usage - inherits from text color
+<BellFill className="h-5 w-5 text-foreground" />
 
-// Custom colors via CSS variables
-<div style={{
-  color: '#000000',                              // Fill color (main shape)
-  '--foamicon-secondary-color': '#ffffff'        // Stroke color (details)
-}}>
-  <BellFill size={24} />
+// Custom detail color via props (recommended)
+<BellFill
+  className="h-5 w-5 text-white"
+  secondaryColor="#000000"
+/>
+
+// Custom colors via CSS variables (for theming)
+<div style={{ '--foamicon-secondary-color': '#ffffff' }}>
+  <BellFill className="h-5 w-5 text-black" />
 </div>
 ```
 
 **How Filled icons work:**
-- The `color` prop (or `currentColor`) controls the **fill color** of the main solid shape
-- The `--foamicon-secondary-color` CSS variable controls the **stroke/detail color** for internal elements (like the clapper inside a bell)
-- Default colors: In dark mode, fill is white and details are black. In light mode, fill is black and details are white.
-
-Example with explicit colors:
-```tsx
-// Dark background: white icon with black details
-<div style={{ color: '#ffffff', '--foamicon-secondary-color': '#000000' }}>
-  <AlertFill size={32} />
-</div>
-
-// Light background: black icon with white details
-<div style={{ color: '#000000', '--foamicon-secondary-color': '#ffffff' }}>
-  <AlertFill size={32} />
-</div>
-```
+- The `color` prop (or `currentColor` via Tailwind `text-*`) controls the **fill color** of the main solid shape
+- The `secondaryColor` prop (or `--foamicon-secondary-color` CSS variable) controls the **stroke/detail color** for internal elements (like the clapper inside a bell)
+- Default: both use `currentColor`, so details blend with the fill unless you specify a secondary color
 
 ### Tree-Shakeable Per-Icon Imports
 
@@ -174,19 +201,31 @@ getCanonicalName('Search');   // 'Search' (already canonical)
 
 | Prop                  | Type             | Default          | Description                                        |
 | --------------------- | ---------------- | ---------------- | -------------------------------------------------- |
-| `size`                | `number\|string` | `16`             | Width and height of the icon                       |
-| `strokeWidth`         | `number\|string` | `1`              | Stroke width (stroked icons only)                  |
+| `size`                | `number\|string` | -                | Width and height. If omitted, use Tailwind `h-* w-*` classes |
+| `strokeWidth`         | `number\|string` | `1`              | Stroke width                                       |
 | `absoluteStrokeWidth` | `boolean`        | `false`          | Keep stroke width constant regardless of icon size |
-| `color`               | `string`         | `'currentColor'` | Icon color                                         |
+| `color`               | `string`         | `'currentColor'` | Primary icon color (or use Tailwind `text-*`)      |
+| `secondaryColor`      | `string`         | `'currentColor'` | Secondary color for duotone/fill variants          |
+| `secondaryOpacity`    | `number`         | `0.4`            | Opacity of secondary color (duotone icons)         |
 | `className`           | `string`         | -                | CSS classes (Tailwind-friendly)                    |
 | `...props`            | `SVGProps`       | -                | Any valid SVG attribute                            |
 
-### CSS Variables
+### CSS Variables (Alternative to Props)
+
+For app-wide theming, you can set these CSS variables instead of using props:
 
 | Variable | Used by | Description |
 |----------|---------|-------------|
 | `--foamicon-secondary-color` | Duotone, Filled | Secondary color for fills/details |
 | `--foamicon-secondary-opacity` | Duotone | Opacity of the secondary fill (0-1) |
+
+```css
+/* In your globals.css */
+:root {
+  --foamicon-secondary-color: hsl(var(--primary));
+  --foamicon-secondary-opacity: 0.4;
+}
+```
 
 ### About `absoluteStrokeWidth`
 

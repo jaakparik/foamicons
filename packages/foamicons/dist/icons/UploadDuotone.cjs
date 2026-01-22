@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk3GUHKQJM_cjs = require('../chunk-3GUHKQJM.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkOREPYWLR_cjs = require('../chunk-OREPYWLR.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "UploadDuotone", {
   enumerable: true,
-  get: function () { return chunk3GUHKQJM_cjs.UploadDuotone; }
+  get: function () { return chunkOREPYWLR_cjs.UploadDuotone; }
 });
 //# sourceMappingURL=UploadDuotone.cjs.map
 //# sourceMappingURL=UploadDuotone.cjs.map

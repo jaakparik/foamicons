@@ -1,4 +1,4 @@
-export { TextAlignJustify } from '../chunk-IPWD4BEA.js';
-import '../chunk-N3CS4C56.js';
+export { TextAlignJustify } from '../chunk-5ADFVOFE.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=TextAlignJustify.js.map
 //# sourceMappingURL=TextAlignJustify.js.map

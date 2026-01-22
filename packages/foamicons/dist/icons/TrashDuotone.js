@@ -1,4 +1,4 @@
-export { TrashDuotone } from '../chunk-6KDJEORG.js';
-import '../chunk-N3CS4C56.js';
+export { TrashDuotone } from '../chunk-F5ZM7PQQ.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=TrashDuotone.js.map
 //# sourceMappingURL=TrashDuotone.js.map

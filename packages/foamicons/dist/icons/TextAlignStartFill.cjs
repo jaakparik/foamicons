@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkWI4VXXNA_cjs = require('../chunk-WI4VXXNA.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkDHINT2MS_cjs = require('../chunk-DHINT2MS.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "TextAlignStartFill", {
   enumerable: true,
-  get: function () { return chunkWI4VXXNA_cjs.TextAlignStartFill; }
+  get: function () { return chunkDHINT2MS_cjs.TextAlignStartFill; }
 });
 //# sourceMappingURL=TextAlignStartFill.cjs.map
 //# sourceMappingURL=TextAlignStartFill.cjs.map

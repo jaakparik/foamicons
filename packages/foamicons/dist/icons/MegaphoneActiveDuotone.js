@@ -1,4 +1,4 @@
-export { MegaphoneActiveDuotone } from '../chunk-SJNIYIEZ.js';
-import '../chunk-N3CS4C56.js';
+export { MegaphoneActiveDuotone } from '../chunk-XOY66NKD.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=MegaphoneActiveDuotone.js.map
 //# sourceMappingURL=MegaphoneActiveDuotone.js.map

@@ -1,0 +1,26 @@
+'use strict';
+
+var chunkHCQ35QXF_cjs = require('./chunk-HCQ35QXF.cjs');
+
+// src/icons/SquareDuotone.tsx
+var __iconNode = [
+  [
+    "path",
+    {
+      d: "M2.5 4.02087C2.5 3.2021 3.15565 2.53499 3.97435 2.52549C5.02654 2.51329 6.51327 2.5 8 2.5C9.48673 2.5 10.9735 2.51329 12.0256 2.52549C12.8444 2.53499 13.5 3.2021 13.5 4.02087V11.9791C13.5 12.7979 12.8444 13.465 12.0256 13.4745C10.9735 13.4867 9.48673 13.5 8 13.5C6.51327 13.5 5.02654 13.4867 3.97435 13.4745C3.15565 13.465 2.5 12.7979 2.5 11.9791V4.02087Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "tuoih1"
+    }
+  ]
+];
+var SquareDuotone = chunkHCQ35QXF_cjs.createFoamicon("SquareDuotone", __iconNode);
+
+exports.SquareDuotone = SquareDuotone;
+//# sourceMappingURL=chunk-F3DVN7T5.cjs.map
+//# sourceMappingURL=chunk-F3DVN7T5.cjs.map

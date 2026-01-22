@@ -1,4 +1,4 @@
-export { SlidersHorizontalDuotone } from '../chunk-XLIUFAOG.js';
-import '../chunk-N3CS4C56.js';
+export { SlidersHorizontalDuotone } from '../chunk-NLPLHHBA.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=SlidersHorizontalDuotone.js.map
 //# sourceMappingURL=SlidersHorizontalDuotone.js.map

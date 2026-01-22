@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkYKDYU5BZ_cjs = require('../chunk-YKDYU5BZ.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkQ4NCCJPR_cjs = require('../chunk-Q4NCCJPR.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "EclipseDuotone", {
   enumerable: true,
-  get: function () { return chunkYKDYU5BZ_cjs.EclipseDuotone; }
+  get: function () { return chunkQ4NCCJPR_cjs.EclipseDuotone; }
 });
 //# sourceMappingURL=EclipseDuotone.cjs.map
 //# sourceMappingURL=EclipseDuotone.cjs.map

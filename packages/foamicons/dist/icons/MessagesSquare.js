@@ -1,4 +1,4 @@
-export { MessagesSquare } from '../chunk-23PURW2Z.js';
-import '../chunk-N3CS4C56.js';
+export { MessagesSquare } from '../chunk-C3UKENCH.js';
+import '../chunk-4ZYNWAON.js';
 //# sourceMappingURL=MessagesSquare.js.map
 //# sourceMappingURL=MessagesSquare.js.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk44ZJVWJG_cjs = require('../chunk-44ZJVWJG.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkJQMPNBEC_cjs = require('../chunk-JQMPNBEC.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "StarDuotone", {
   enumerable: true,
-  get: function () { return chunk44ZJVWJG_cjs.StarDuotone; }
+  get: function () { return chunkJQMPNBEC_cjs.StarDuotone; }
 });
 //# sourceMappingURL=StarDuotone.cjs.map
 //# sourceMappingURL=StarDuotone.cjs.map

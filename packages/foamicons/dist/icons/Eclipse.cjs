@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk6ILXJEUD_cjs = require('../chunk-6ILXJEUD.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkCVODOF3C_cjs = require('../chunk-CVODOF3C.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "Eclipse", {
   enumerable: true,
-  get: function () { return chunk6ILXJEUD_cjs.Eclipse; }
+  get: function () { return chunkCVODOF3C_cjs.Eclipse; }
 });
 //# sourceMappingURL=Eclipse.cjs.map
 //# sourceMappingURL=Eclipse.cjs.map

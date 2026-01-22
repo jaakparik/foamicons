@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkSPVCPKA4_cjs = require('../chunk-SPVCPKA4.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunkQX32YQWA_cjs = require('../chunk-QX32YQWA.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ExternalLinkDuotone", {
   enumerable: true,
-  get: function () { return chunkSPVCPKA4_cjs.ExternalLinkDuotone; }
+  get: function () { return chunkQX32YQWA_cjs.ExternalLinkDuotone; }
 });
 //# sourceMappingURL=ExternalLinkDuotone.cjs.map
 //# sourceMappingURL=ExternalLinkDuotone.cjs.map

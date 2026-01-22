@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkYJ5MVSOV_cjs = require('../chunk-YJ5MVSOV.cjs');
-require('../chunk-BT732HOR.cjs');
+var chunk3XI4TEA4_cjs = require('../chunk-3XI4TEA4.cjs');
+require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "SquarePenDuotone", {
   enumerable: true,
-  get: function () { return chunkYJ5MVSOV_cjs.SquarePenDuotone; }
+  get: function () { return chunk3XI4TEA4_cjs.SquarePenDuotone; }
 });
 //# sourceMappingURL=SquarePenDuotone.cjs.map
 //# sourceMappingURL=SquarePenDuotone.cjs.map

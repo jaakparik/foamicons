@@ -1,0 +1,40 @@
+import { createFoamicon } from './chunk-4ZYNWAON.js';
+
+// src/icons/HistoryDuotone.tsx
+var __iconNode = [
+  [
+    "path",
+    {
+      d: "M8 5.25V8.25H9.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "881y6q"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.00003 5.3103L3.65514 5.31028C3.379 5.31027 3.15515 5.08642 3.15515 4.81028L3.15515 2.49997",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1h9ia8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 8C2.5 11.0376 4.96243 13.5 8 13.5C11.0376 13.5 13.5 11.0376 13.5 8C13.5 4.96243 11.0376 2.5 8 2.5C6.13984 2.5 4.49537 3.42345 3.5 4.83692",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "im5sg5"
+    }
+  ]
+];
+var HistoryDuotone = createFoamicon("HistoryDuotone", __iconNode);
+
+export { HistoryDuotone };
+//# sourceMappingURL=chunk-GGAUKSGQ.js.map
+//# sourceMappingURL=chunk-GGAUKSGQ.js.map
