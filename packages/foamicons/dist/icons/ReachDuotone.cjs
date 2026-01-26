@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkHZVSWW5D_cjs = require('../chunk-HZVSWW5D.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkDVBGRWBM_cjs = require('../chunk-DVBGRWBM.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ReachDuotone", {
   enumerable: true,
-  get: function () { return chunkHZVSWW5D_cjs.ReachDuotone; }
+  get: function () { return chunkDVBGRWBM_cjs.ReachDuotone; }
 });
 //# sourceMappingURL=ReachDuotone.cjs.map
 //# sourceMappingURL=ReachDuotone.cjs.map

@@ -1,6 +1,6 @@
 # Foamicons
 
-A React icon library with 360 icons in three styles, optimized for shadcn/ui and Tailwind CSS.
+A React icon library with 500+ icons and 14 brand logos in multiple styles, optimized for shadcn/ui and Tailwind CSS.
 
 ## Installation
 
@@ -10,7 +10,7 @@ npm install foamicons
 
 ## Icon Styles
 
-Foamicons includes **120 base icons**, each available in three styles:
+Foamicons includes **167 base icons**, each available in three styles:
 
 | Style | Suffix | Example | Description |
 |-------|--------|---------|-------------|
@@ -142,6 +142,46 @@ import { AlertDuotone } from 'foamicons/icons/AlertDuotone';
 import { AlertFill } from 'foamicons/icons/AlertFill';
 ```
 
+## Logos
+
+Foamicons includes **14 brand logos** with preserved brand colors. Logos are available in up to three variants:
+
+| Variant | Suffix | Example | Description |
+|---------|--------|---------|-------------|
+| **Color** | (none) | `LogoGoogle` | Original brand colors |
+| **Dark** | `Dark` | `LogoGoogleDark` | Dark theme brand colors |
+| **Fill** | `Fill` | `LogoGoogleFill` | Single color (uses currentColor) |
+
+### Usage
+
+```tsx
+// Import from the logos subpath
+import { LogoGoogle, LogoInstagram, LogoTiktok } from 'foamicons/logos';
+
+// Or import alongside icons from main entry
+import { Bell, LogoGoogle } from 'foamicons';
+
+// Logos preserve brand colors by default
+<LogoInstagram size={32} />
+
+// Dark variant for dark backgrounds
+<LogoInstagramDark size={32} />
+
+// Fill variant uses currentColor like regular icons
+<LogoInstagramFill className="h-8 w-8 text-pink-500" />
+```
+
+### Per-Logo Imports
+
+```tsx
+import { LogoGoogle } from 'foamicons/logos/LogoGoogle';
+import { LogoInstagramDark } from 'foamicons/logos/LogoInstagramDark';
+```
+
+### Available Logos
+
+Google, Gmail, Instagram, TikTok, YouTube, Snapchat, LinkedIn, Facebook, Microsoft, Foam, FoamSymbol
+
 ### Export Aliases
 
 Each icon is available under multiple export names:
@@ -202,8 +242,8 @@ getCanonicalName('Search');   // 'Search' (already canonical)
 | Prop                  | Type             | Default          | Description                                        |
 | --------------------- | ---------------- | ---------------- | -------------------------------------------------- |
 | `size`                | `number\|string` | -                | Width and height. If omitted, use Tailwind `h-* w-*` classes |
-| `strokeWidth`         | `number\|string` | `1`              | Stroke width                                       |
-| `absoluteStrokeWidth` | `boolean`        | `false`          | Keep stroke width constant regardless of icon size |
+| `strokeWidth`         | `number\|string` | `0.75`           | Stroke width                                       |
+| `absoluteStrokeWidth` | `boolean`        | `true`           | Keep stroke width constant regardless of icon size |
 | `color`               | `string`         | `'currentColor'` | Primary icon color (or use Tailwind `text-*`)      |
 | `secondaryColor`      | `string`         | `'currentColor'` | Secondary color for duotone/fill variants          |
 | `secondaryOpacity`    | `number`         | `0.4`            | Opacity of secondary color (duotone icons)         |
@@ -229,14 +269,14 @@ For app-wide theming, you can set these CSS variables instead of using props:
 
 ### About `absoluteStrokeWidth`
 
-By default, when you scale an icon up, the stroke width scales proportionally. With `absoluteStrokeWidth`, the stroke maintains its visual thickness at any size:
+By default, `absoluteStrokeWidth` is enabled, meaning the stroke maintains its visual thickness at any size. If you want the stroke to scale proportionally with the icon, disable it:
 
 ```tsx
-// Without absoluteStrokeWidth: stroke appears thicker at larger sizes
-<Bell size={48} strokeWidth={1} />
+// Default (absoluteStrokeWidth=true): stroke stays visually consistent
+<Bell size={48} strokeWidth={0.75} />
 
-// With absoluteStrokeWidth: stroke stays visually consistent
-<Bell size={48} strokeWidth={1} absoluteStrokeWidth />
+// With absoluteStrokeWidth disabled: stroke scales with icon size
+<Bell size={48} strokeWidth={0.75} absoluteStrokeWidth={false} />
 ```
 
 ## Naming Convention
@@ -249,9 +289,9 @@ By default, when you scale an icon up, the stroke width scales proportionally. W
 | Duotone | `bell-duotone.svg` | `import { BellDuotone } from 'foamicons'` |
 | Filled | `bell-fill.svg` | `import { BellFill } from 'foamicons'` |
 
-## Available Icons (120 base icons × 3 styles = 360 total)
+## Available Icons (167 base icons × 3 styles = 501 total)
 
-alert, archive, archive-arrow-up, arrow-down, arrow-down-narrow-wide, arrow-down-up, arrow-down-wide-narrow, arrow-left, arrow-right, arrow-right-to-line, arrow-up, arrow-up-a-z, arrow-up-narrow-wide, arrow-up-wide-narrow, arrow-up-z-a, ban, bell, bold, bookmark, calendar, chart-column-square, checkbox, checkmark, chevron-down, chevron-left, chevron-right, chevron-up, circle-alert, circle-dollar-sign, circle-question-mark, circle-x, clock, cog, columns-3, command, content-plus, copy, download, eclipse, external-link, eye, eye-off, flame, frown, fullscreen, globe, grid-1x2, grid-2x2, history, hotspot, house, image, images, inbox, info, italic, link, list, list-filter, list-indent-decrease, list-indent-increase, list-ordered, loader-circle, lock, log-out, mail, mail-move, mail-plus, map-pin, maximize, media-kits, megaphone, megaphone-active, menu, message-square, messages-square, minus, moon, mouse-pointer-click, move, panel-left, panel-right, pencil, pin, play, plus, reach, reel, refresh-cw, remove-formatting, reply, rotate-cw, rows-2, save, search, search-user, share, sliders-horizontal, sparkles, square, square-pen, star, sun, text-align-center, text-align-end, text-align-justify, text-align-start, thumbs-down, thumbs-up, trash, trending-down, trending-up, triangle-down-up, unlink, unlock, upload, user, users, volume-2, volume-off
+alert, archive, archive-arrow-up, arrow-down, arrow-down-0-1, arrow-down-1-0, arrow-down-I-G, arrow-down-S-C, arrow-down-T-T, arrow-down-Y-T, arrow-down-narrow-wide, arrow-down-up, arrow-down-wide-narrow, arrow-left, arrow-right, arrow-right-to-line, arrow-up, arrow-up-I-G, arrow-up-S-C, arrow-up-T-T, arrow-up-Y-T, arrow-up-a-z, arrow-up-narrow-wide, arrow-up-wide-narrow, arrow-up-z-a, at-sign, ban, bell, bold, bookmark, calendar, chart-column-square, checkbox, checkmark, chevron-down, chevron-left, chevron-right, chevron-up, circle-alert, circle-dollar-sign, circle-question-mark, circle-x, clock, clock-arrow-down, clock-arrow-up, cog, columns-3, command, content-heart, content-plus, content-user, copy, download, eclipse, ellipsis, ellipsis-vertical, external-link, eye, eye-off, file, file-arrow-down, file-arrow-left, file-arrow-left-right, file-arrow-right, file-arrow-up, file-check, file-cog, file-plus, file-user, file-x, flame, frown, fullscreen, globe, grid-1x2, grid-2x2, grip, grip-horizontal, grip-vertical, heart, history, hotspot, house, image, images, inbox, info, italic, link, list, list-filter, list-indent-decrease, list-indent-increase, list-ordered, loader-circle, lock, log-out, mail, mail-move, mail-plus, map-pin, maximize, megaphone, megaphone-active, menu, message-square, messages-square, minus, moon, mouse-pointer-click, move, notebook, office, panel-left, panel-right, pencil, pin, play, plus, pointer, quotation-mark-left, quotation-mark-right, reach, reel, refresh-cw, remove-formatting, reply, rolodex, rotate-cw, rows-2, save, search, search-user, share, sliders-horizontal, smile, sparkles, square, square-pen, star, sun, text-align-center, text-align-end, text-align-justify, text-align-start, thumbs-down, thumbs-up, trash, trash-empty, trending-down, trending-up, triangle-down, triangle-down-up, triangle-up, unlink, unlock, upload, user, user-arrow-left, user-arrow-left-right, user-arrow-out-up-right, user-arrow-right, user-cog, user-plus, users, volume-2, volume-off
 
 Each icon is available in three variants by adding the suffix:
 - `{icon}` - Stroked (e.g., `Bell`)

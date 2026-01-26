@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkHM2NUHSA_cjs = require('../chunk-HM2NUHSA.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkBWVRYULG_cjs = require('../chunk-BWVRYULG.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "MailPlusDuotone", {
   enumerable: true,
-  get: function () { return chunkHM2NUHSA_cjs.MailPlusDuotone; }
+  get: function () { return chunkBWVRYULG_cjs.MailPlusDuotone; }
 });
 //# sourceMappingURL=MailPlusDuotone.cjs.map
 //# sourceMappingURL=MailPlusDuotone.cjs.map

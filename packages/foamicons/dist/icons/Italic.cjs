@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkBJO34E6I_cjs = require('../chunk-BJO34E6I.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunk3HJTQRFJ_cjs = require('../chunk-3HJTQRFJ.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "Italic", {
   enumerable: true,
-  get: function () { return chunkBJO34E6I_cjs.Italic; }
+  get: function () { return chunk3HJTQRFJ_cjs.Italic; }
 });
 //# sourceMappingURL=Italic.cjs.map
 //# sourceMappingURL=Italic.cjs.map

@@ -1,6 +1,6 @@
 # Foamicons
 
-A React icon library with 360+ icons in three styles, optimized for shadcn/ui and Tailwind CSS.
+A React icon library with 500+ icons and 14 brand logos in multiple styles, optimized for shadcn/ui and Tailwind CSS.
 
 ## Packages
 
@@ -21,6 +21,9 @@ npm install foamicons
 
 # Use icons
 import { Bell, BellDuotone, BellFill } from 'foamicons';
+
+# Use logos (with preserved brand colors)
+import { LogoGoogle, LogoInstagram } from 'foamicons/logos';
 ```
 
 ## Icon Aliases
@@ -73,6 +76,19 @@ pnpm run dev:figma
 4. Test locally:
    - Website: `pnpm dev:website` (http://localhost:5173)
    - Figma: `pnpm dev:figma`, then import manifest in Figma
+
+## Adding Logos
+
+1. Add SVG files to the `icons/logos/` directory:
+   - `logo-name.svg` - Default color variant (brand colors preserved)
+   - `logo-name-dark.svg` - Dark theme variant (brand colors preserved)
+   - `logo-name-fill.svg` - Filled variant (uses currentColor)
+
+2. Add aliases in `icons/logos/aliases.json`
+
+3. Rebuild: `pnpm build`
+
+Logos are exported with a `Logo` prefix (e.g., `LogoGoogle`, `LogoInstagramDark`).
 
 ## Release
 

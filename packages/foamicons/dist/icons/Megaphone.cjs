@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkCU7ZFEE6_cjs = require('../chunk-CU7ZFEE6.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkIECGHS44_cjs = require('../chunk-IECGHS44.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "Megaphone", {
   enumerable: true,
-  get: function () { return chunkCU7ZFEE6_cjs.Megaphone; }
+  get: function () { return chunkIECGHS44_cjs.Megaphone; }
 });
 //# sourceMappingURL=Megaphone.cjs.map
 //# sourceMappingURL=Megaphone.cjs.map

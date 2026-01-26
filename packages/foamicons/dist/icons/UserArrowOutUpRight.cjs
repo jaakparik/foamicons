@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkH2OJRRGU_cjs = require('../chunk-H2OJRRGU.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkS4DM5Y6G_cjs = require('../chunk-S4DM5Y6G.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "UserArrowOutUpRight", {
   enumerable: true,
-  get: function () { return chunkH2OJRRGU_cjs.UserArrowOutUpRight; }
+  get: function () { return chunkS4DM5Y6G_cjs.UserArrowOutUpRight; }
 });
 //# sourceMappingURL=UserArrowOutUpRight.cjs.map
 //# sourceMappingURL=UserArrowOutUpRight.cjs.map

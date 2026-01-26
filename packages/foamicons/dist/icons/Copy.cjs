@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkBLDNDI3R_cjs = require('../chunk-BLDNDI3R.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkVAUFYXDK_cjs = require('../chunk-VAUFYXDK.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "Copy", {
   enumerable: true,
-  get: function () { return chunkBLDNDI3R_cjs.Copy; }
+  get: function () { return chunkVAUFYXDK_cjs.Copy; }
 });
 //# sourceMappingURL=Copy.cjs.map
 //# sourceMappingURL=Copy.cjs.map

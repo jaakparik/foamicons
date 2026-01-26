@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkAWLSHLWO_cjs = require('../chunk-AWLSHLWO.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkK2MYWX3M_cjs = require('../chunk-K2MYWX3M.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ClockArrowDownFill", {
   enumerable: true,
-  get: function () { return chunkAWLSHLWO_cjs.ClockArrowDownFill; }
+  get: function () { return chunkK2MYWX3M_cjs.ClockArrowDownFill; }
 });
 //# sourceMappingURL=ClockArrowDownFill.cjs.map
 //# sourceMappingURL=ClockArrowDownFill.cjs.map

@@ -1,4 +1,4 @@
-export { BanDuotone } from '../chunk-TLOFGR7Z.js';
-import '../chunk-4ZYNWAON.js';
+export { BanDuotone } from '../chunk-BH63TVFW.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=BanDuotone.js.map
 //# sourceMappingURL=BanDuotone.js.map

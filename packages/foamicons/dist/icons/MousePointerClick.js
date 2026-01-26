@@ -1,4 +1,4 @@
-export { MousePointerClick } from '../chunk-EFV6D3M5.js';
-import '../chunk-4ZYNWAON.js';
+export { MousePointerClick } from '../chunk-GPQODYKS.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=MousePointerClick.js.map
 //# sourceMappingURL=MousePointerClick.js.map

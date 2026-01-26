@@ -1,4 +1,4 @@
-export { ArrowDownSCDuotone } from '../chunk-HEGMP52N.js';
-import '../chunk-4ZYNWAON.js';
+export { ArrowDownSCDuotone } from '../chunk-NTQW2VFK.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=ArrowDownSCDuotone.js.map
 //# sourceMappingURL=ArrowDownSCDuotone.js.map

@@ -1,0 +1,25 @@
+import { createFoamicon } from '../createFoamicon';
+import type { IconNode } from '../types';
+
+const __iconNode: IconNode = [
+  [
+    'path',
+    {
+      d: 'M7.99966 13.3333C7.99966 13.3333 12.5864 13.333 13.7301 13.0345C14.3612 12.8701 14.8583 12.3864 15.027 11.7718C15.3335 10.6576 15.3336 8.33333 15.3336 8.33333C15.3336 8.33266 15.3335 6.00876 15.027 4.89485C14.8583 4.28019 14.3612 3.79644 13.7301 3.63216C12.5864 3.33361 7.99966 3.33333 7.99966 3.33333C7.95548 3.33334 3.40884 3.33513 2.27017 3.63216C1.63916 3.79643 1.14196 4.2802 0.973297 4.89485C0.666864 6.00875 0.666657 8.33265 0.666656 8.33333C0.666656 8.33333 0.666824 10.6576 0.973297 11.7718C1.14195 12.3864 1.63915 12.8702 2.27017 13.0345C3.40881 13.3315 7.95548 13.3333 7.99966 13.3333ZM6.49966 6.22298L10.3336 8.33333L6.49966 10.4437V6.22298Z',
+      fill: 'currentColor',
+      key: 'g4lunf'
+    }
+  ]
+];
+
+/**
+ * @component @name LogoYoutubeFill
+ * @description Foamicon logo component with single color (currentColor), renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuOTk5NjYgMTMuMzMzM0M3Ljk5OTY2IDEzLjMzMzMgMTIuNTg2NCAxMy4zMzMgMTMuNzMwMSAxMy4wMzQ1QzE0LjM2MTIgMTIuODcwMSAxNC44NTgzIDEyLjM4NjQgMTUuMDI3IDExLjc3MThDMTUuMzMzNSAxMC42NTc2IDE1LjMzMzYgOC4zMzMzMyAxNS4zMzM2IDguMzMzMzNDMTUuMzMzNiA4LjMzMjY2IDE1LjMzMzUgNi4wMDg3NiAxNS4wMjcgNC44OTQ4NUMxNC44NTgzIDQuMjgwMTkgMTQuMzYxMiAzLjc5NjQ0IDEzLjczMDEgMy42MzIxNkMxMi41ODY0IDMuMzMzNjEgNy45OTk2NiAzLjMzMzMzIDcuOTk5NjYgMy4zMzMzM0M3Ljk1NTQ4IDMuMzMzMzQgMy40MDg4NCAzLjMzNTEzIDIuMjcwMTcgMy42MzIxNkMxLjYzOTE2IDMuNzk2NDMgMS4xNDE5NiA0LjI4MDIgMC45NzMyOTcgNC44OTQ4NUMwLjY2Njg2NCA2LjAwODc1IDAuNjY2NjU3IDguMzMyNjUgMC42NjY2NTYgOC4zMzMzM0MwLjY2NjY1NiA4LjMzMzMzIDAuNjY2ODI0IDEwLjY1NzYgMC45NzMyOTcgMTEuNzcxOEMxLjE0MTk1IDEyLjM4NjQgMS42MzkxNSAxMi44NzAyIDIuMjcwMTcgMTMuMDM0NUMzLjQwODgxIDEzLjMzMTUgNy45NTU0OCAxMy4zMzMzIDcuOTk5NjYgMTMuMzMzM1pNNi40OTk2NiA2LjIyMjk4TDEwLjMzMzYgOC4zMzMzM0w2LjQ5OTY2IDEwLjQ0MzdWNi4yMjI5OFoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8L3N2Zz4K)
+ * @see https://foamicons.com/logos/logo-youtube-fill
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Logo size (width and height)
+ * @returns {React.ReactElement} SVG logo element
+ */
+export const LogoYoutubeFill = createFoamicon('LogoYoutubeFill', __iconNode);

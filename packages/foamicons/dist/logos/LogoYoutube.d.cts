@@ -1,0 +1,16 @@
+import { F as FoamIcon } from '../types-BNlc_vx-.cjs';
+import 'react';
+
+/**
+ * @component @name LogoYoutube
+ * @description Foamicon logo component with single color (currentColor), renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE1LjAyNjggNC44OTQ4OEMxNC44NTgyIDQuMjgwMiAxNC4zNjEyIDMuNzk2MTcgMTMuNzMwMiAzLjYzMTg5QzEyLjU4NjQgMy4zMzMzNCA3Ljk5OTk5IDMuMzMzMzQgNy45OTk5OSAzLjMzMzM0QzcuOTk5OTkgMy4zMzMzNCAzLjQxMzYgMy4zMzMzNCAyLjI2OTgxIDMuNjMxODlDMS42Mzg3OSAzLjc5NjE3IDEuMTQxNzkgNC4yODAyIDAuOTczMTM0IDQuODk0ODhDMC42NjY2NTYgNi4wMDg5MyAwLjY2NjY1NiA4LjMzMzM0IDAuNjY2NjU2IDguMzMzMzRDMC42NjY2NTYgOC4zMzMzNCAwLjY2NjY1NiAxMC42NTc3IDAuOTczMTM0IDExLjc3MTlDMS4xNDE3OSAxMi4zODY1IDEuNjM4NzkgMTIuODcwNSAyLjI2OTgxIDEzLjAzNDlDMy40MTM2IDEzLjMzMzMgNy45OTk5OSAxMy4zMzMzIDcuOTk5OTkgMTMuMzMzM0M3Ljk5OTk5IDEzLjMzMzMgMTIuNTg2NCAxMy4zMzMzIDEzLjczMDIgMTMuMDM0OUMxNC4zNjEyIDEyLjg3MDUgMTQuODU4MiAxMi4zODY1IDE1LjAyNjggMTEuNzcxOUMxNS4zMzMzIDEwLjY1NzcgMTUuMzMzMyA4LjMzMzM0IDE1LjMzMzMgOC4zMzMzNEMxNS4zMzMzIDguMzMzMzQgMTUuMzMzMyA2LjAwODkzIDE1LjAyNjggNC44OTQ4OFoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBkPSJNNi41IDEwLjQ0MzdMMTAuMzMzMyA4LjMzMzQ0TDYuNSA2LjIyMjk2VjEwLjQ0MzdaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)
+ * @see https://foamicons.com/logos/logo-youtube
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Logo size (width and height)
+ * @returns {React.ReactElement} SVG logo element
+ */
+declare const LogoYoutube: FoamIcon;
+
+export { LogoYoutube };

@@ -4,6 +4,11 @@ function getIconVariant(filename) {
   if (filename.includes("-duotone.svg")) return "duotone";
   return "stroke";
 }
+function getLogoVariant(filename) {
+  if (filename.includes("-dark.svg")) return "dark";
+  if (filename.includes("-fill.svg")) return "fill";
+  return "default";
+}
 
 // src/utils.ts
 function toPascalCase(str) {
@@ -34,7 +39,12 @@ var SVG_ATTR_MAP = {
   "stroke-dasharray": "strokeDasharray",
   "stroke-dashoffset": "strokeDashoffset",
   "stroke-opacity": "strokeOpacity",
-  "fill-opacity": "fillOpacity"
+  "fill-opacity": "fillOpacity",
+  "stop-color": "stopColor",
+  "stop-opacity": "stopOpacity",
+  "gradient-units": "gradientUnits",
+  "gradient-transform": "gradientTransform",
+  "xlink:href": "xlinkHref"
 };
 function transformColor(attrName, attrValue, variant) {
   const isBlack = attrValue === "black" || attrValue === "#000000" || attrValue === "#000";
@@ -52,7 +62,7 @@ function transformColor(attrName, attrValue, variant) {
   if (isHexColor || isBlack || isWhite) return "currentColor";
   return attrValue;
 }
-function parseElement(elementStr, variant = "stroke") {
+function parseElement(elementStr, variant = "stroke", preserveColors = false) {
   const match = elementStr.match(/^<(\w+)\s+([^>]*?)\s*\/?>$/s);
   if (!match) return null;
   const tag = match[1];
@@ -66,38 +76,129 @@ function parseElement(elementStr, variant = "stroke") {
     if (SVG_ATTR_MAP[attrName]) {
       attrName = SVG_ATTR_MAP[attrName];
     }
-    if (attrName === "fill" || attrName === "stroke") {
+    if (!preserveColors && (attrName === "fill" || attrName === "stroke")) {
       attrValue = transformColor(attrName, attrValue, variant);
     }
     attrs[attrName] = attrValue;
   }
-  if (attrs.fillOpacity && attrs.fill === "currentColor") {
-    attrs.fill = "var(--foamicon-secondary-color, currentColor)";
-    attrs.style = { fillOpacity: `var(--foamicon-secondary-opacity, ${attrs.fillOpacity})` };
-    delete attrs.fillOpacity;
-  }
-  if (attrs.strokeOpacity && attrs.stroke === "currentColor") {
-    attrs.stroke = "var(--foamicon-secondary-color, currentColor)";
-    attrs.style = {
-      ...typeof attrs.style === "object" ? attrs.style : {},
-      strokeOpacity: `var(--foamicon-secondary-opacity, ${attrs.strokeOpacity})`
-    };
-    delete attrs.strokeOpacity;
+  if (!preserveColors) {
+    if (attrs.fillOpacity && attrs.fill === "currentColor") {
+      attrs.fill = "var(--foamicon-secondary-color, currentColor)";
+      attrs.style = { fillOpacity: `var(--foamicon-secondary-opacity, ${attrs.fillOpacity})` };
+      delete attrs.fillOpacity;
+    }
+    if (attrs.strokeOpacity && attrs.stroke === "currentColor") {
+      attrs.stroke = "var(--foamicon-secondary-color, currentColor)";
+      attrs.style = {
+        ...typeof attrs.style === "object" ? attrs.style : {},
+        strokeOpacity: `var(--foamicon-secondary-opacity, ${attrs.strokeOpacity})`
+      };
+      delete attrs.strokeOpacity;
+    }
   }
   return { tag, attrs };
 }
-function parseSvg(svgContent, variant = "stroke") {
+function parseAttributes(attrsStr, variant, preserveColors) {
+  const attrs = {};
+  const attrRegex = /(\S+?)=["']([^"']*?)["']/g;
+  let attrMatch;
+  while ((attrMatch = attrRegex.exec(attrsStr)) !== null) {
+    let attrName = attrMatch[1];
+    let attrValue = attrMatch[2];
+    if (SVG_ATTR_MAP[attrName]) {
+      attrName = SVG_ATTR_MAP[attrName];
+    }
+    if (!preserveColors && (attrName === "fill" || attrName === "stroke")) {
+      attrValue = transformColor(attrName, attrValue, variant);
+    }
+    attrs[attrName] = attrValue;
+  }
+  if (!preserveColors) {
+    if (attrs.fillOpacity && attrs.fill === "currentColor") {
+      attrs.fill = "var(--foamicon-secondary-color, currentColor)";
+      attrs.style = { fillOpacity: `var(--foamicon-secondary-opacity, ${attrs.fillOpacity})` };
+      delete attrs.fillOpacity;
+    }
+    if (attrs.strokeOpacity && attrs.stroke === "currentColor") {
+      attrs.stroke = "var(--foamicon-secondary-color, currentColor)";
+      attrs.style = {
+        ...typeof attrs.style === "object" ? attrs.style : {},
+        strokeOpacity: `var(--foamicon-secondary-opacity, ${attrs.strokeOpacity})`
+      };
+      delete attrs.strokeOpacity;
+    }
+  }
+  return attrs;
+}
+function parseNestedElement(content, variant, preserveColors, keyPrefix) {
+  const openMatch = content.match(/^<(\w+)([^>]*)>/);
+  if (!openMatch) return null;
+  const tag = openMatch[1];
+  const attrsStr = openMatch[2];
+  const attrs = parseAttributes(attrsStr, variant, preserveColors);
+  attrs.key = keyPrefix;
+  const openTagEnd = openMatch[0].length;
+  const closeTagStart = content.lastIndexOf(`</${tag}>`);
+  if (closeTagStart === -1) {
+    return [tag, attrs];
+  }
+  const innerContent = content.slice(openTagEnd, closeTagStart).trim();
+  if (!innerContent) {
+    return [tag, attrs];
+  }
+  const children = [];
+  let childIndex = 0;
+  const childRegex = /<(\w+)([^>]*?)(?:\/>|>([\s\S]*?)<\/\1>)/g;
+  let childMatch;
+  while ((childMatch = childRegex.exec(innerContent)) !== null) {
+    const childTag = childMatch[1];
+    const childAttrsStr = childMatch[2];
+    const childInner = childMatch[3];
+    const childAttrs = parseAttributes(childAttrsStr, variant, preserveColors);
+    childAttrs.key = `${keyPrefix}-${childIndex}`;
+    if (childInner !== void 0 && childInner.trim()) {
+      const childElement = parseNestedElement(
+        childMatch[0],
+        variant,
+        preserveColors,
+        `${keyPrefix}-${childIndex}`
+      );
+      if (childElement) {
+        children.push(childElement);
+      }
+    } else {
+      children.push([childTag, childAttrs]);
+    }
+    childIndex++;
+  }
+  if (children.length > 0) {
+    return [tag, attrs, children];
+  }
+  return [tag, attrs];
+}
+function parseSvg(svgContent, variant = "stroke", options) {
+  const preserveColors = options?.preserveColors ?? false;
   const viewBoxMatch = svgContent.match(/viewBox="([^"]+)"/);
   const viewBox = viewBoxMatch ? viewBoxMatch[1] : "0 0 16 16";
   const innerMatch = svgContent.match(/<svg[^>]*>([\s\S]*)<\/svg>/);
   const innerContent = innerMatch ? innerMatch[1].trim() : "";
-  const elementRegex = /<(\w+)\s+[^>]*?\/?>/g;
   const iconNode = [];
-  let elementMatch;
   let index = 0;
-  while ((elementMatch = elementRegex.exec(innerContent)) !== null) {
+  const defsMatch = innerContent.match(/<defs>([\s\S]*?)<\/defs>/);
+  if (defsMatch) {
+    const defsContent = defsMatch[0];
+    const defsElement = parseNestedElement(defsContent, variant, preserveColors, `defs-${index}`);
+    if (defsElement) {
+      iconNode.push(defsElement);
+      index++;
+    }
+  }
+  const contentWithoutDefs = innerContent.replace(/<defs>[\s\S]*?<\/defs>/g, "");
+  const elementRegex = /<(\w+)\s+([^>]*?)\s*\/?>(?![^<]*<\/\1>)/g;
+  let elementMatch;
+  while ((elementMatch = elementRegex.exec(contentWithoutDefs)) !== null) {
     const elementStr = elementMatch[0];
-    const parsed = parseElement(elementStr, variant);
+    const parsed = parseElement(elementStr, variant, preserveColors);
     if (parsed) {
       const key = generateKey(parsed.tag, parsed.attrs, index);
       parsed.attrs.key = key;
@@ -116,6 +217,7 @@ export {
   generateBase64Preview,
   generateKey,
   getIconVariant,
+  getLogoVariant,
   parseElement,
   parseSvg,
   toKebabCase,

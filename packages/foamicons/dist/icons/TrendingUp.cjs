@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkI6FUJHUI_cjs = require('../chunk-I6FUJHUI.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkKCM6OOQN_cjs = require('../chunk-KCM6OOQN.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "TrendingUp", {
   enumerable: true,
-  get: function () { return chunkI6FUJHUI_cjs.TrendingUp; }
+  get: function () { return chunkKCM6OOQN_cjs.TrendingUp; }
 });
 //# sourceMappingURL=TrendingUp.cjs.map
 //# sourceMappingURL=TrendingUp.cjs.map

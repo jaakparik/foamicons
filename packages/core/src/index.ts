@@ -4,8 +4,9 @@ export type {
   IconNodeElement,
   ParsedSvg,
   IconVariant,
+  LogoVariant,
 } from './types';
-export { getIconVariant } from './types';
+export { getIconVariant, getLogoVariant } from './types';
 
 // Utils
 export { toPascalCase, toKebabCase, generateKey } from './utils';
@@ -18,4 +19,4 @@ export {
   parseSvg,
   generateBase64Preview,
 } from './parser';
-export type { ColorTransformOptions } from './parser';
+export type { ColorTransformOptions, ParseOptions } from './parser';

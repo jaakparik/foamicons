@@ -1,4 +1,4 @@
-export { StarDuotone } from '../chunk-HZ2UOQ7Y.js';
-import '../chunk-4ZYNWAON.js';
+export { StarDuotone } from '../chunk-57LGWTVD.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=StarDuotone.js.map
 //# sourceMappingURL=StarDuotone.js.map

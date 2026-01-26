@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkB3VS5KC4_cjs = require('../chunk-B3VS5KC4.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunk347HYYVJ_cjs = require('../chunk-347HYYVJ.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "HouseDuotone", {
   enumerable: true,
-  get: function () { return chunkB3VS5KC4_cjs.HouseDuotone; }
+  get: function () { return chunk347HYYVJ_cjs.HouseDuotone; }
 });
 //# sourceMappingURL=HouseDuotone.cjs.map
 //# sourceMappingURL=HouseDuotone.cjs.map

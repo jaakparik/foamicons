@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkL4VRLD7I_cjs = require('../chunk-L4VRLD7I.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkL6VFTS3I_cjs = require('../chunk-L6VFTS3I.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "FileDuotone", {
   enumerable: true,
-  get: function () { return chunkL4VRLD7I_cjs.FileDuotone; }
+  get: function () { return chunkL6VFTS3I_cjs.FileDuotone; }
 });
 //# sourceMappingURL=FileDuotone.cjs.map
 //# sourceMappingURL=FileDuotone.cjs.map

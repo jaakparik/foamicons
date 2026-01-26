@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkO3QYWV32_cjs = require('../chunk-O3QYWV32.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkZTEADQRR_cjs = require('../chunk-ZTEADQRR.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ClockArrowUpDuotone", {
   enumerable: true,
-  get: function () { return chunkO3QYWV32_cjs.ClockArrowUpDuotone; }
+  get: function () { return chunkZTEADQRR_cjs.ClockArrowUpDuotone; }
 });
 //# sourceMappingURL=ClockArrowUpDuotone.cjs.map
 //# sourceMappingURL=ClockArrowUpDuotone.cjs.map

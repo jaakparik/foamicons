@@ -1,4 +1,4 @@
-export { MailPlusFill } from '../chunk-DPIPF3MY.js';
-import '../chunk-4ZYNWAON.js';
+export { MailPlusFill } from '../chunk-IKOAUKYF.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=MailPlusFill.js.map
 //# sourceMappingURL=MailPlusFill.js.map

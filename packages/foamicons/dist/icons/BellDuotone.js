@@ -1,4 +1,4 @@
-export { BellDuotone } from '../chunk-3W66NHYE.js';
-import '../chunk-4ZYNWAON.js';
+export { BellDuotone } from '../chunk-CIWWHYUH.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=BellDuotone.js.map
 //# sourceMappingURL=BellDuotone.js.map

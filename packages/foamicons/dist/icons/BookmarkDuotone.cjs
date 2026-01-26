@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkSQXNWRPP_cjs = require('../chunk-SQXNWRPP.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkDWNJULWK_cjs = require('../chunk-DWNJULWK.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "BookmarkDuotone", {
   enumerable: true,
-  get: function () { return chunkSQXNWRPP_cjs.BookmarkDuotone; }
+  get: function () { return chunkDWNJULWK_cjs.BookmarkDuotone; }
 });
 //# sourceMappingURL=BookmarkDuotone.cjs.map
 //# sourceMappingURL=BookmarkDuotone.cjs.map

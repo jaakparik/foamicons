@@ -1,4 +1,4 @@
-export { Volume2Fill } from '../chunk-GTDBRQ52.js';
-import '../chunk-4ZYNWAON.js';
+export { Volume2Fill } from '../chunk-SXYHWQ7Y.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=Volume2Fill.js.map
 //# sourceMappingURL=Volume2Fill.js.map

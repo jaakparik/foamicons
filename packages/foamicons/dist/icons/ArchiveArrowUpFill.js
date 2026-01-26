@@ -1,4 +1,4 @@
-export { ArchiveArrowUpFill } from '../chunk-ACU4DF2U.js';
-import '../chunk-4ZYNWAON.js';
+export { ArchiveArrowUpFill } from '../chunk-J32QFFPS.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=ArchiveArrowUpFill.js.map
 //# sourceMappingURL=ArchiveArrowUpFill.js.map

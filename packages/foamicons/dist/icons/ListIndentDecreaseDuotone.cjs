@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkSABDXAKY_cjs = require('../chunk-SABDXAKY.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkTRI5PEZM_cjs = require('../chunk-TRI5PEZM.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ListIndentDecreaseDuotone", {
   enumerable: true,
-  get: function () { return chunkSABDXAKY_cjs.ListIndentDecreaseDuotone; }
+  get: function () { return chunkTRI5PEZM_cjs.ListIndentDecreaseDuotone; }
 });
 //# sourceMappingURL=ListIndentDecreaseDuotone.cjs.map
 //# sourceMappingURL=ListIndentDecreaseDuotone.cjs.map

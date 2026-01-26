@@ -18,22 +18,29 @@ const __iconNode: IconNode = [
   [
     'path',
     {
-      d: 'M8 8.43986L8 4.75003',
+      d: 'M8.01019 8.43986L8.01019 4.75003',
       stroke: 'var(--foamicon-secondary-color, currentColor)',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: 'n1ai03'
+      key: 'jd8x85'
     }
   ],
   [
-    'circle',
+    'path',
     {
-      cx: '8',
-      cy: '10.8623',
-      r: '0.625',
-      transform: 'rotate(-180 8 10.8623)',
+      d: 'M8.00687 10.9486H8.01353Z',
       fill: 'var(--foamicon-secondary-color, currentColor)',
-      key: 'witnue'
+      key: 'cg7b1l'
+    }
+  ],
+  [
+    'path',
+    {
+      d: 'M8.00687 10.9486H8.01353',
+      stroke: 'var(--foamicon-secondary-color, currentColor)',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      key: 'm5gkmb'
     }
   ]
 ];
@@ -41,7 +48,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name CircleAlertFill
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjYiIGZpbGw9ImN1cnJlbnRDb2xvciIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOCA4LjQzOTg2TDggNC43NTAwMyIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxjaXJjbGUgY3g9IjgiIGN5PSIxMC44NjIzIiByPSIwLjYyNSIgdHJhbnNmb3JtPSJyb3RhdGUoLTE4MCA4IDEwLjg2MjMpIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjYiIGZpbGw9ImN1cnJlbnRDb2xvciIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOC4wMTAxOSA4LjQzOTg2TDguMDEwMTkgNC43NTAwMyIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik04LjAwNjg3IDEwLjk0ODZIOC4wMTM1M1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik04LjAwNjg3IDEwLjk0ODZIOC4wMTM1MyIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
  * @see https://foamicons.com/icons/circle-alert-fill
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

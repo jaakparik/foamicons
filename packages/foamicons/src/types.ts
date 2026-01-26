@@ -2,9 +2,16 @@ import type { SVGProps, ForwardRefExoticComponent, RefAttributes } from 'react';
 
 /**
  * Represents the structure of an SVG icon's child elements.
- * Each tuple contains the element tag name and its attributes.
+ * Each tuple contains the element tag name, its attributes, and optional children for nested structures.
+ * Supports nested elements like <defs><linearGradient><stop/></linearGradient></defs> for logo gradients.
  */
-export type IconNode = [elementName: string, attrs: Record<string, string | Record<string, string>>][];
+export type IconNodeElement = [
+  elementName: string,
+  attrs: Record<string, string | Record<string, string>>,
+  children?: IconNodeElement[]
+];
+
+export type IconNode = IconNodeElement[];
 
 export interface IconProps extends SVGProps<SVGSVGElement> {
   /**

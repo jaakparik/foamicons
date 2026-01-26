@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkZOOWD4I6_cjs = require('../chunk-ZOOWD4I6.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunk53XHVMGN_cjs = require('../chunk-53XHVMGN.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "RolodexDuotone", {
   enumerable: true,
-  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+  get: function () { return chunk53XHVMGN_cjs.RolodexDuotone; }
 });
 //# sourceMappingURL=RolodexDuotone.cjs.map
 //# sourceMappingURL=RolodexDuotone.cjs.map

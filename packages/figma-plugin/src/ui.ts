@@ -1,11 +1,16 @@
 // Figma Plugin UI - Complete Implementation
-import { iconsData, type IconData } from './icons-data';
+import { iconsData, logosData, type IconData, type LogoData } from './icons-data';
+
+type ItemData = IconData | LogoData;
 
 // State Management
 interface State {
+  category: 'icons' | 'logos';
   icons: IconData[];
-  filteredIcons: IconData[];
+  logos: LogoData[];
+  filteredItems: ItemData[];
   variant: 'stroke' | 'duotone' | 'fill';
+  logoVariant: 'default' | 'dark' | 'fill';
   size: number;
   strokeWidth: number;
   primaryColor: string;
@@ -15,11 +20,14 @@ interface State {
 }
 
 const state: State = {
+  category: 'icons',
   icons: iconsData,
-  filteredIcons: iconsData,
+  logos: logosData,
+  filteredItems: iconsData,
   variant: 'stroke',
+  logoVariant: 'default',
   size: 16,
-  strokeWidth: 1,
+  strokeWidth: 0.75,
   primaryColor: '#000000',
   secondaryColor: '#3B82F6',
   fillOpacity: 0.2,
@@ -35,10 +43,11 @@ function postMessage(type: string, data?: Record<string, unknown>) {
 function customizeSvg(svg: string, forExport = false): string {
   let result = svg;
 
-  // Calculate stroke-width adjustment for scaling when exporting
-  // viewBox is 16x16, so if size is different, strokes need adjustment
+  // Calculate stroke-width adjustment for absolute stroke width
+  // viewBox is 16x16, so if displayed size is different, strokes need adjustment
+  // to maintain consistent visual thickness (same as React absoluteStrokeWidth)
   const viewBoxSize = 16;
-  const scale = forExport ? state.size / viewBoxSize : 1;
+  const scale = state.size / viewBoxSize;
   const strokeWidth = state.strokeWidth / scale;
 
   // Replace colors based on variant
@@ -85,14 +94,16 @@ function customizeSvg(svg: string, forExport = false): string {
   return result;
 }
 
-// Filter icons by search query
-function filterIcons(query: string): IconData[] {
-  if (!query) return state.icons;
+// Filter items by search query
+function filterItems(query: string): ItemData[] {
+  const items: ItemData[] = state.category === 'icons' ? state.icons : state.logos;
+  if (!query) return items;
   const lower = query.toLowerCase();
-  return state.icons.filter(icon =>
-    icon.id.includes(lower) ||
-    icon.name.toLowerCase().includes(lower) ||
-    icon.tags.some(tag => tag.includes(lower))
+  return items.filter(item =>
+    item.id.includes(lower) ||
+    item.name.toLowerCase().includes(lower) ||
+    item.tags.some(tag => tag.includes(lower)) ||
+    item.aliases.some(alias => alias.toLowerCase().includes(lower))
   );
 }
 
@@ -104,42 +115,48 @@ function renderGrid() {
   // Toggle search mode class for layout
   grid.classList.toggle('has-search', state.searchQuery.length > 0);
 
-  const html = state.filteredIcons.map(icon => {
-    const svg = icon.variants[state.variant];
+  const html = state.filteredItems.map(item => {
+    const isLogo = 'isLogo' in item && item.isLogo;
+    const variantKey = isLogo ? state.logoVariant : state.variant;
+    const svg = item.variants[variantKey as keyof typeof item.variants];
     if (!svg) return '';
 
-    const displaySvg = customizeSvg(svg);
+    // Logos don't need color customization (except fill variant)
+    const displaySvg = isLogo && state.logoVariant !== 'fill' ? svg : customizeSvg(svg);
 
-    return `<div class="icon-item" data-id="${icon.id}" title="${icon.name}">${displaySvg}</div>`;
+    return `<div class="icon-item" data-id="${item.id}" title="${item.name}">${displaySvg}</div>`;
   }).join('');
 
   grid.innerHTML = html || '<p class="empty-state">No icons found</p>';
 
   // Add click handlers
-  grid.querySelectorAll('.icon-item').forEach(item => {
-    const id = item.getAttribute('data-id');
+  grid.querySelectorAll('.icon-item').forEach(el => {
+    const id = el.getAttribute('data-id');
     if (!id) return;
 
-    item.addEventListener('click', () => {
-      const icon = state.icons.find(i => i.id === id);
-      if (icon) insertIcon(icon);
+    el.addEventListener('click', () => {
+      const item = state.filteredItems.find(i => i.id === id);
+      if (item) insertItem(item);
     });
   });
 }
 
-// Insert icon into Figma
-function insertIcon(icon: IconData) {
-  const svg = icon.variants[state.variant];
+// Insert icon/logo into Figma
+function insertItem(item: ItemData) {
+  const isLogo = 'isLogo' in item && item.isLogo;
+  const variantKey = isLogo ? state.logoVariant : state.variant;
+  const svg = item.variants[variantKey as keyof typeof item.variants];
   if (!svg) return;
 
-  // Apply customizations and set size (forExport=true adjusts stroke for scaling)
-  let customized = customizeSvg(svg, true);
+  // Apply customizations and set size
+  // Logos don't need color customization (except fill variant)
+  let customized = isLogo && state.logoVariant !== 'fill' ? svg : customizeSvg(svg, true);
   customized = customized.replace(/width="[^"]*"/, `width="${state.size}"`);
   customized = customized.replace(/height="[^"]*"/, `height="${state.size}"`);
 
   postMessage('insert-icon', {
     svgString: customized,
-    name: `${icon.id}-${state.variant}`,
+    name: `${item.id}-${variantKey}`,
     size: state.size
   });
 }
@@ -166,7 +183,7 @@ function init() {
 
     const handleSearch = debounce(() => {
       state.searchQuery = search.value;
-      state.filteredIcons = filterIcons(state.searchQuery);
+      state.filteredItems = filterItems(state.searchQuery);
       updateClearButton();
       renderGrid();
     }, 200);
@@ -176,14 +193,36 @@ function init() {
     clearBtn.addEventListener('click', () => {
       search.value = '';
       state.searchQuery = '';
-      state.filteredIcons = filterIcons('');
+      state.filteredItems = filterItems('');
       updateClearButton();
       renderGrid();
       search.focus();
     });
   }
 
-  // Variant buttons
+  // Category buttons (Icons/Logos)
+  document.querySelectorAll('[data-category]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const category = btn.getAttribute('data-category') as 'icons' | 'logos';
+      state.category = category;
+
+      document.querySelectorAll('[data-category]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      // Show/hide variant rows
+      const iconVariantRow = document.getElementById('iconVariantRow');
+      const logoVariantRow = document.getElementById('logoVariantRow');
+      if (iconVariantRow) iconVariantRow.style.display = category === 'icons' ? 'flex' : 'none';
+      if (logoVariantRow) logoVariantRow.style.display = category === 'logos' ? 'flex' : 'none';
+
+      // Update filtered items
+      state.filteredItems = filterItems(state.searchQuery);
+      updateVariantControls();
+      renderGrid();
+    });
+  });
+
+  // Icon variant buttons
   document.querySelectorAll('[data-variant]').forEach(btn => {
     btn.addEventListener('click', () => {
       const variant = btn.getAttribute('data-variant') as 'stroke' | 'duotone' | 'fill';
@@ -203,6 +242,19 @@ function init() {
       }
 
       updateVariantControls();
+      renderGrid();
+    });
+  });
+
+  // Logo variant buttons
+  document.querySelectorAll('[data-logo-variant]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const variant = btn.getAttribute('data-logo-variant') as 'default' | 'dark' | 'fill';
+      state.logoVariant = variant;
+
+      document.querySelectorAll('[data-logo-variant]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
       renderGrid();
     });
   });
@@ -268,10 +320,17 @@ function init() {
 
   // Toggle settings visibility
   const toggleBtn = document.getElementById('toggleSettings');
+  const toggleBtnLogo = document.getElementById('toggleSettingsLogo');
   const extraSettings = document.getElementById('extraSettings');
   if (toggleBtn && extraSettings) {
     toggleBtn.addEventListener('click', () => {
       toggleBtn.classList.toggle('expanded');
+      extraSettings.classList.toggle('visible');
+    });
+  }
+  if (toggleBtnLogo && extraSettings) {
+    toggleBtnLogo.addEventListener('click', () => {
+      toggleBtnLogo.classList.toggle('expanded');
       extraSettings.classList.toggle('visible');
     });
   }
@@ -297,12 +356,24 @@ function updateGridSize() {
 function updateVariantControls() {
   const secondaryColor = document.getElementById('secondaryColor') as HTMLInputElement;
   const opacityRow = document.getElementById('fillOpacityRow');
+  const strokeWidthRow = document.getElementById('strokeWidthRow');
+  const primaryColor = document.getElementById('primaryColor') as HTMLInputElement;
 
+  const isLogos = state.category === 'logos';
+
+  // Hide stroke/color controls for logos (except fill variant)
+  if (strokeWidthRow) {
+    strokeWidthRow.style.display = isLogos ? 'none' : 'flex';
+  }
+  if (primaryColor) {
+    primaryColor.style.display = (isLogos && state.logoVariant !== 'fill') ? 'none' : 'block';
+  }
   if (secondaryColor) {
-    secondaryColor.style.display = (state.variant === 'duotone' || state.variant === 'fill') ? 'block' : 'none';
+    const showSecondary = !isLogos && (state.variant === 'duotone' || state.variant === 'fill');
+    secondaryColor.style.display = showSecondary ? 'block' : 'none';
   }
   if (opacityRow) {
-    opacityRow.style.display = state.variant === 'duotone' ? 'flex' : 'none';
+    opacityRow.style.display = (!isLogos && state.variant === 'duotone') ? 'flex' : 'none';
   }
 }
 

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkQSYRLD2G_cjs = require('../chunk-QSYRLD2G.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkYC6FFPPH_cjs = require('../chunk-YC6FFPPH.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "MaximizeDuotone", {
   enumerable: true,
-  get: function () { return chunkQSYRLD2G_cjs.MaximizeDuotone; }
+  get: function () { return chunkYC6FFPPH_cjs.MaximizeDuotone; }
 });
 //# sourceMappingURL=MaximizeDuotone.cjs.map
 //# sourceMappingURL=MaximizeDuotone.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkPBIXLDII_cjs = require('../chunk-PBIXLDII.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunk6NLSBZZE_cjs = require('../chunk-6NLSBZZE.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "SlidersHorizontal", {
   enumerable: true,
-  get: function () { return chunkPBIXLDII_cjs.SlidersHorizontal; }
+  get: function () { return chunk6NLSBZZE_cjs.SlidersHorizontal; }
 });
 //# sourceMappingURL=SlidersHorizontal.cjs.map
 //# sourceMappingURL=SlidersHorizontal.cjs.map

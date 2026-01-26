@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkEWOLUHDG_cjs = require('../chunk-EWOLUHDG.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkHISL7D6H_cjs = require('../chunk-HISL7D6H.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "MegaphoneDuotone", {
   enumerable: true,
-  get: function () { return chunkEWOLUHDG_cjs.MegaphoneDuotone; }
+  get: function () { return chunkHISL7D6H_cjs.MegaphoneDuotone; }
 });
 //# sourceMappingURL=MegaphoneDuotone.cjs.map
 //# sourceMappingURL=MegaphoneDuotone.cjs.map

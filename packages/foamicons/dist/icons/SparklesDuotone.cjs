@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkS54N7IPJ_cjs = require('../chunk-S54N7IPJ.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkWTNNGGPU_cjs = require('../chunk-WTNNGGPU.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "SparklesDuotone", {
   enumerable: true,
-  get: function () { return chunkS54N7IPJ_cjs.SparklesDuotone; }
+  get: function () { return chunkWTNNGGPU_cjs.SparklesDuotone; }
 });
 //# sourceMappingURL=SparklesDuotone.cjs.map
 //# sourceMappingURL=SparklesDuotone.cjs.map

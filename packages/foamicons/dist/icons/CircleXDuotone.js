@@ -1,4 +1,4 @@
-export { CircleXDuotone } from '../chunk-QJGG5JLO.js';
-import '../chunk-4ZYNWAON.js';
+export { CircleXDuotone } from '../chunk-IUBYPP4K.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=CircleXDuotone.js.map
 //# sourceMappingURL=CircleXDuotone.js.map

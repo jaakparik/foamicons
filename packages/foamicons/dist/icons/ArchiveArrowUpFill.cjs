@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkG2S2ZE55_cjs = require('../chunk-G2S2ZE55.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkSY3IFEUM_cjs = require('../chunk-SY3IFEUM.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ArchiveArrowUpFill", {
   enumerable: true,
-  get: function () { return chunkG2S2ZE55_cjs.ArchiveArrowUpFill; }
+  get: function () { return chunkSY3IFEUM_cjs.ArchiveArrowUpFill; }
 });
 //# sourceMappingURL=ArchiveArrowUpFill.cjs.map
 //# sourceMappingURL=ArchiveArrowUpFill.cjs.map

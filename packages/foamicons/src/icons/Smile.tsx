@@ -25,23 +25,23 @@ const __iconNode: IconNode = [
     }
   ],
   [
-    'circle',
+    'path',
     {
-      cx: '6.25',
-      cy: '6.75',
-      r: '0.75',
-      fill: 'currentColor',
-      key: 'jnl0ux'
+      d: 'M6 6.72607H6.00667',
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      key: 'kqalb1'
     }
   ],
   [
-    'circle',
+    'path',
     {
-      cx: '9.75',
-      cy: '6.75',
-      r: '0.75',
-      fill: 'currentColor',
-      key: 'lhgkls'
+      d: 'M10 6.72607H10.0067',
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      key: 'wvt4t0'
     }
   ]
 ];
@@ -49,7 +49,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name Smile
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjUuNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgOS41MDAwMkM5LjQ2OTI0IDkuOTc1MDYgOC43NjgzNSAxMC4yNjM5IDggMTAuMjYzOUM3LjIzMTY1IDEwLjI2MzkgNi41MzA3NiA5Ljk3NTA2IDYgOS41MDAwMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8Y2lyY2xlIGN4PSI2LjI1IiBjeT0iNi43NSIgcj0iMC43NSIgZmlsbD0iY3VycmVudENvbG9yIi8+CjxjaXJjbGUgY3g9IjkuNzUiIGN5PSI2Ljc1IiByPSIwLjc1IiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+Cg==)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjUuNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgOS41MDAwMkM5LjQ2OTI0IDkuOTc1MDYgOC43NjgzNSAxMC4yNjM5IDggMTAuMjYzOUM3LjIzMTY1IDEwLjI2MzkgNi41MzA3NiA5Ljk3NTA2IDYgOS41MDAwMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNiA2LjcyNjA3SDYuMDA2NjciIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEwIDYuNzI2MDdIMTAuMDA2NyIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K)
  * @see https://foamicons.com/icons/smile
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

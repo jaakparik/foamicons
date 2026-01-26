@@ -1049,7 +1049,6 @@
   },
   "content-user": {
     "aliases": [
-      "media-kits",
       "media-packs",
       "press-kit",
       "brand-assets",
@@ -1146,8 +1145,7 @@
   "mouse-pointer-click": {
     "aliases": [
       "click",
-      "cursor",
-      "pointer"
+      "cursor"
     ],
     "tags": [
       "click",

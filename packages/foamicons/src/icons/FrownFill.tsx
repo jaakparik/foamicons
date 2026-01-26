@@ -26,23 +26,23 @@ const __iconNode: IconNode = [
     }
   ],
   [
-    'circle',
+    'path',
     {
-      cx: '6.25',
-      cy: '6.75',
-      r: '0.75',
-      fill: 'var(--foamicon-secondary-color, currentColor)',
-      key: 'b3q5du'
+      d: 'M6 6.72607H6.00667',
+      stroke: 'var(--foamicon-secondary-color, currentColor)',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      key: 'gfjc4m'
     }
   ],
   [
-    'circle',
+    'path',
     {
-      cx: '9.75',
-      cy: '6.75',
-      r: '0.75',
-      fill: 'var(--foamicon-secondary-color, currentColor)',
-      key: 'qvuxkr'
+      d: 'M10 6.72607H10.0067',
+      stroke: 'var(--foamicon-secondary-color, currentColor)',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      key: '69ewez'
     }
   ]
 ];
@@ -50,7 +50,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name FrownFill
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjUuNSIgZmlsbD0iY3VycmVudENvbG9yIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMCAxMC4yNjM5QzkuNDY5MjQgOS43ODg4NSA4Ljc2ODM1IDkuNSA4IDkuNUM3LjIzMTY1IDkuNSA2LjUzMDc2IDkuNzg4ODUgNiAxMC4yNjM5IiBzdHJva2U9IndoaXRlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iNi4yNSIgY3k9IjYuNzUiIHI9IjAuNzUiIGZpbGw9IndoaXRlIi8+CjxjaXJjbGUgY3g9IjkuNzUiIGN5PSI2Ljc1IiByPSIwLjc1IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjUuNSIgZmlsbD0iY3VycmVudENvbG9yIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMCAxMC4yNjM5QzkuNDY5MjQgOS43ODg4NSA4Ljc2ODM1IDkuNSA4IDkuNUM3LjIzMTY1IDkuNSA2LjUzMDc2IDkuNzg4ODUgNiAxMC4yNjM5IiBzdHJva2U9IndoaXRlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTYgNi43MjYwN0g2LjAwNjY3IiBzdHJva2U9IndoaXRlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEwIDYuNzI2MDdIMTAuMDA2NyIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
  * @see https://foamicons.com/icons/frown-fill
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

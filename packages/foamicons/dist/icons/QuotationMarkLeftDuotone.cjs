@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkQ3EZ2DGG_cjs = require('../chunk-Q3EZ2DGG.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkPFV2DUNC_cjs = require('../chunk-PFV2DUNC.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "QuotationMarkLeftDuotone", {
   enumerable: true,
-  get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
+  get: function () { return chunkPFV2DUNC_cjs.QuotationMarkLeftDuotone; }
 });
 //# sourceMappingURL=QuotationMarkLeftDuotone.cjs.map
 //# sourceMappingURL=QuotationMarkLeftDuotone.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkE536SRQP_cjs = require('../chunk-E536SRQP.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkOR6NG4MW_cjs = require('../chunk-OR6NG4MW.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ArrowDownIGFill", {
   enumerable: true,
-  get: function () { return chunkE536SRQP_cjs.ArrowDownIGFill; }
+  get: function () { return chunkOR6NG4MW_cjs.ArrowDownIGFill; }
 });
 //# sourceMappingURL=ArrowDownIGFill.cjs.map
 //# sourceMappingURL=ArrowDownIGFill.cjs.map

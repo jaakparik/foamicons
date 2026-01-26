@@ -28,10 +28,37 @@ function getIconEntries(): Record<string, string> {
   return entries;
 }
 
+// Build entry points for per-logo exports
+function getLogoEntries(): Record<string, string> {
+  const logosDir = join(process.cwd(), 'src/logos');
+
+  if (!existsSync(logosDir)) {
+    return {};
+  }
+
+  const entries: Record<string, string> = {};
+  const files = readdirSync(logosDir);
+
+  for (const file of files) {
+    if (file.endsWith('.tsx') && file !== 'index.ts') {
+      const name = basename(file, '.tsx');
+      entries[`logos/${name}`] = `src/logos/${file}`;
+    }
+  }
+
+  // Add logos barrel export
+  if (files.includes('index.ts')) {
+    entries['logos/index'] = 'src/logos/index.ts';
+  }
+
+  return entries;
+}
+
 export default defineConfig({
   entry: {
     index: 'src/index.ts',
     ...getIconEntries(),
+    ...getLogoEntries(),
   },
   format: ['esm', 'cjs'],
   dts: true,

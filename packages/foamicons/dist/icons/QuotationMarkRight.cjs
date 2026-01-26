@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkPVGSN77P_cjs = require('../chunk-PVGSN77P.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkIQFRACOO_cjs = require('../chunk-IQFRACOO.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "QuotationMarkRight", {
   enumerable: true,
-  get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
+  get: function () { return chunkIQFRACOO_cjs.QuotationMarkRight; }
 });
 //# sourceMappingURL=QuotationMarkRight.cjs.map
 //# sourceMappingURL=QuotationMarkRight.cjs.map

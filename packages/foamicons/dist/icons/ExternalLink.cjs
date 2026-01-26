@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk3COTVET4_cjs = require('../chunk-3COTVET4.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkCOKWISR7_cjs = require('../chunk-COKWISR7.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ExternalLink", {
   enumerable: true,
-  get: function () { return chunk3COTVET4_cjs.ExternalLink; }
+  get: function () { return chunkCOKWISR7_cjs.ExternalLink; }
 });
 //# sourceMappingURL=ExternalLink.cjs.map
 //# sourceMappingURL=ExternalLink.cjs.map

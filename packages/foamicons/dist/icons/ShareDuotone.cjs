@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkXCCRHGPD_cjs = require('../chunk-XCCRHGPD.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkFTZD5EMD_cjs = require('../chunk-FTZD5EMD.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ShareDuotone", {
   enumerable: true,
-  get: function () { return chunkXCCRHGPD_cjs.ShareDuotone; }
+  get: function () { return chunkFTZD5EMD_cjs.ShareDuotone; }
 });
 //# sourceMappingURL=ShareDuotone.cjs.map
 //# sourceMappingURL=ShareDuotone.cjs.map

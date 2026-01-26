@@ -1,4 +1,4 @@
-export { MoveDuotone } from '../chunk-DMOP5QBW.js';
-import '../chunk-4ZYNWAON.js';
+export { MoveDuotone } from '../chunk-ZUVAZURI.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=MoveDuotone.js.map
 //# sourceMappingURL=MoveDuotone.js.map

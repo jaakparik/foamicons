@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk7D7WR3P2_cjs = require('../chunk-7D7WR3P2.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkZWUP5W3H_cjs = require('../chunk-ZWUP5W3H.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "Inbox", {
   enumerable: true,
-  get: function () { return chunk7D7WR3P2_cjs.Inbox; }
+  get: function () { return chunkZWUP5W3H_cjs.Inbox; }
 });
 //# sourceMappingURL=Inbox.cjs.map
 //# sourceMappingURL=Inbox.cjs.map

@@ -70,7 +70,7 @@ describe('Build output', () => {
   describe('Index file structure', () => {
     it('main index exports types', () => {
       const content = readFileSync(INDEX_OUTPUT, 'utf-8');
-      expect(content).toContain('export type { IconProps, IconNode, FoamIcon }');
+      expect(content).toContain('export type { IconProps, IconNode, IconNodeElement, FoamIcon }');
     });
 
     it('main index exports createFoamicon', () => {

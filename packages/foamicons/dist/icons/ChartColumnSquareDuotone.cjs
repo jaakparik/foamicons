@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkDA5VVBVW_cjs = require('../chunk-DA5VVBVW.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunk3P5WCGJ5_cjs = require('../chunk-3P5WCGJ5.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ChartColumnSquareDuotone", {
   enumerable: true,
-  get: function () { return chunkDA5VVBVW_cjs.ChartColumnSquareDuotone; }
+  get: function () { return chunk3P5WCGJ5_cjs.ChartColumnSquareDuotone; }
 });
 //# sourceMappingURL=ChartColumnSquareDuotone.cjs.map
 //# sourceMappingURL=ChartColumnSquareDuotone.cjs.map

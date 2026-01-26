@@ -1,4 +1,4 @@
-export { BoldDuotone } from '../chunk-4T7FX3R5.js';
-import '../chunk-4ZYNWAON.js';
+export { BoldDuotone } from '../chunk-FLJPFF67.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=BoldDuotone.js.map
 //# sourceMappingURL=BoldDuotone.js.map

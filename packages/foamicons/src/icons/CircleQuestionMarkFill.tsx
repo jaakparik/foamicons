@@ -26,13 +26,21 @@ const __iconNode: IconNode = [
     }
   ],
   [
-    'circle',
+    'path',
     {
-      cx: '8.06641',
-      cy: '10.457',
-      r: '0.644531',
+      d: 'M8.00687 10.5H8.01353Z',
       fill: 'var(--foamicon-secondary-color, currentColor)',
-      key: '67thqm'
+      key: 'xn0rnd'
+    }
+  ],
+  [
+    'path',
+    {
+      d: 'M8.00687 10.5H8.01353',
+      stroke: 'var(--foamicon-secondary-color, currentColor)',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      key: 'pa0o8j'
     }
   ]
 ];
@@ -40,7 +48,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name CircleQuestionMarkFill
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjYiIGZpbGw9ImN1cnJlbnRDb2xvciIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOC4wNTQ1MyA4Ljg2MjkxQzguMTIwNDUgNy45MTgwNiA5LjIxOTQ0IDcuMjcwNjYgOS41MTMyMSA2Ljk1MDY5QzkuNzA4MjUgNi43MzgyNSA5LjgyMzM4IDYuNDc2MzggOS44MjMzOCA2LjE5MzEyQzkuODIzMzggNS40ODMyMSA5LjEwMDMgNC45MDc3MSA4LjIwODM0IDQuOTA3NzFDNy4zMTYzOCA0LjkwNzcxIDYuNTkzMzEgNS40ODMyMSA2LjU5MzMxIDYuMTkzMTIiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8Y2lyY2xlIGN4PSI4LjA2NjQxIiBjeT0iMTAuNDU3IiByPSIwLjY0NDUzMSIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjYiIGZpbGw9ImN1cnJlbnRDb2xvciIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOC4wNTQ1MyA4Ljg2MjkxQzguMTIwNDUgNy45MTgwNiA5LjIxOTQ0IDcuMjcwNjYgOS41MTMyMSA2Ljk1MDY5QzkuNzA4MjUgNi43MzgyNSA5LjgyMzM4IDYuNDc2MzggOS44MjMzOCA2LjE5MzEyQzkuODIzMzggNS40ODMyMSA5LjEwMDMgNC45MDc3MSA4LjIwODM0IDQuOTA3NzFDNy4zMTYzOCA0LjkwNzcxIDYuNTkzMzEgNS40ODMyMSA2LjU5MzMxIDYuMTkzMTIiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOC4wMDY4NyAxMC41SDguMDEzNTNaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNOC4wMDY4NyAxMC41SDguMDEzNTMiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K)
  * @see https://foamicons.com/icons/circle-question-mark-fill
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

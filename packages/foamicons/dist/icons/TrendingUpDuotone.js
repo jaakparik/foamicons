@@ -1,4 +1,4 @@
-export { TrendingUpDuotone } from '../chunk-C3XEOJB5.js';
-import '../chunk-4ZYNWAON.js';
+export { TrendingUpDuotone } from '../chunk-XFWRMOEW.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=TrendingUpDuotone.js.map
 //# sourceMappingURL=TrendingUpDuotone.js.map

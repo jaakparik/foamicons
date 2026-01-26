@@ -1,0 +1,16 @@
+import { F as FoamIcon } from '../types-BNlc_vx-.cjs';
+import 'react';
+
+/**
+ * @component @name LogoGoogleFill
+ * @description Foamicon logo component with single color (currentColor), renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTggMS4zMzMwMUM5Ljc5Njk3IDEuMzMzMDEgMTEuMzA2NCAxLjk5NDU2IDEyLjQ2MDkgMy4wNzAzMUwxMC41NDg4IDQuOTgyNDJDOS44NTc5MiA0LjMyMTgyIDguOTc4NzkgMy45ODUzNSA4IDMuOTg1MzVDNi4yNjM2NSAzLjk4NTM1IDQuNzkzNzkgNS4xNTc2NiA0LjI2OTUzIDYuNzMzNEw0LjE4MDY2IDcuMDM4MDlDNC4xMDMxMiA3LjM0NzU3IDQuMDYwNTUgNy42NzA0OSA0LjA2MDU1IDhDNC4wNjA1NyA4LjQzOTMyIDQuMTM2MjIgOC44NjY2NiA0LjI2OTUzIDkuMjY2NkM0Ljc5Mzc3IDEwLjg0MjQgNi4yNjM2NCAxMi4wMTQ2IDggMTIuMDE0NkM4Ljg5Njk3IDEyLjAxNDYgOS42NjA4NCAxMS43Nzg5IDEwLjI1NzggMTEuMzc4OUwxMC4zODY3IDExLjI4NzFDMTEuMDIwOCAxMC44MTcgMTEuNDQzIDEwLjE0NzYgMTEuNTg3OSA5LjM2NjIxSDhWNi43ODgwOUgxNC4yNzgzQzE0LjM1NzEgNy4yMjQzMyAxNC40MDA0IDcuNjc4NzggMTQuNDAwNCA4LjE1MTM3QzE0LjQwMDQgMTAuMTgxNSAxMy42NzI2IDExLjg5MDIgMTIuNDEyMSAxMy4wNTA4VjEzLjA1MThDMTEuMzA5MSAxNC4wNjk5IDkuNzk5OTEgMTQuNjY3IDggMTQuNjY3QzUuNDc1NCAxNC42NjcgMy4yODA0NiAxMy4yNjQ3IDIuMTQ4NDQgMTEuMTk2M0wyLjA0MTk5IDEwLjk5NDFMMS44ODI4MSAxMC42NTA0QzEuNTMxMTEgOS44Mzc5NyAxLjMzMzA0IDguOTQxMTQgMS4zMzMwMSA4QzEuMzMzMDEgNi45MjQzMSAxLjU5MDUzIDUuOTA1ODIgMi4wNDE5OSA1LjAwNTg2QzMuMTM4OTggMi44MjcxNCA1LjM5Mzk5IDEuMzMzMDEgOCAxLjMzMzAxWiIgZmlsbD0iY3VycmVudENvbG9yIi8+Cjwvc3ZnPgo=)
+ * @see https://foamicons.com/logos/logo-google-fill
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Logo size (width and height)
+ * @returns {React.ReactElement} SVG logo element
+ */
+declare const LogoGoogleFill: FoamIcon;
+
+export { LogoGoogleFill };

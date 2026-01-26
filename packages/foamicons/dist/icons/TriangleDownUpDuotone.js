@@ -1,4 +1,4 @@
-export { TriangleDownUpDuotone } from '../chunk-V3HCZQ4W.js';
-import '../chunk-4ZYNWAON.js';
+export { TriangleDownUpDuotone } from '../chunk-7W3FQTGY.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=TriangleDownUpDuotone.js.map
 //# sourceMappingURL=TriangleDownUpDuotone.js.map

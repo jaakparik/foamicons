@@ -1,6 +1,6 @@
 import { forwardRef, createElement } from 'react';
-import type { CSSProperties } from 'react';
-import type { IconProps, IconNode } from './types';
+import type { CSSProperties, ReactNode } from 'react';
+import type { IconProps, IconNode, IconNodeElement } from './types';
 
 const DEFAULT_SIZE = 16;
 
@@ -9,13 +9,32 @@ export interface IconComponentProps extends IconProps {
   iconName: string;
 }
 
+/**
+ * Recursively render an IconNodeElement with its children
+ */
+function renderIconElement(element: IconNodeElement): ReactNode {
+  const [tag, attrs, children] = element;
+
+  if (children && children.length > 0) {
+    // Element has children - render recursively
+    return createElement(
+      tag,
+      attrs,
+      children.map(child => renderIconElement(child))
+    );
+  }
+
+  // Leaf element - no children
+  return createElement(tag, attrs);
+}
+
 export const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
   (
     {
       color = 'currentColor',
       size,
-      strokeWidth = 1,
-      absoluteStrokeWidth,
+      strokeWidth = 0.75,
+      absoluteStrokeWidth = true,
       secondaryColor,
       secondaryOpacity,
       className = '',
@@ -58,7 +77,7 @@ export const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
         ...rest,
       },
       [
-        ...iconNode.map(([tag, attrs]) => createElement(tag, attrs)),
+        ...iconNode.map(element => renderIconElement(element)),
         ...(Array.isArray(children) ? children : children ? [children] : []),
       ]
     );

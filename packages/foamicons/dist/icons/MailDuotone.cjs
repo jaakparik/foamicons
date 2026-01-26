@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkIGOAZ2OE_cjs = require('../chunk-IGOAZ2OE.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkBXWV5BHT_cjs = require('../chunk-BXWV5BHT.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "MailDuotone", {
   enumerable: true,
-  get: function () { return chunkIGOAZ2OE_cjs.MailDuotone; }
+  get: function () { return chunkBXWV5BHT_cjs.MailDuotone; }
 });
 //# sourceMappingURL=MailDuotone.cjs.map
 //# sourceMappingURL=MailDuotone.cjs.map

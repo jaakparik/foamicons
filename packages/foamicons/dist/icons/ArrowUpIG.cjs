@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkWNAPDI3V_cjs = require('../chunk-WNAPDI3V.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkMLECU5OA_cjs = require('../chunk-MLECU5OA.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ArrowUpIG", {
   enumerable: true,
-  get: function () { return chunkWNAPDI3V_cjs.ArrowUpIG; }
+  get: function () { return chunkMLECU5OA_cjs.ArrowUpIG; }
 });
 //# sourceMappingURL=ArrowUpIG.cjs.map
 //# sourceMappingURL=ArrowUpIG.cjs.map

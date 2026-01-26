@@ -1,4 +1,4 @@
-export { Italic } from '../chunk-M6PNK2O3.js';
-import '../chunk-4ZYNWAON.js';
+export { Italic } from '../chunk-YRKFTFCW.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=Italic.js.map
 //# sourceMappingURL=Italic.js.map

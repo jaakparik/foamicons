@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkQHTID5JC_cjs = require('../chunk-QHTID5JC.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkLHERSTLV_cjs = require('../chunk-LHERSTLV.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "TriangleDownUp", {
   enumerable: true,
-  get: function () { return chunkQHTID5JC_cjs.TriangleDownUp; }
+  get: function () { return chunkLHERSTLV_cjs.TriangleDownUp; }
 });
 //# sourceMappingURL=TriangleDownUp.cjs.map
 //# sourceMappingURL=TriangleDownUp.cjs.map

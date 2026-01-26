@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkC3S2TVM6_cjs = require('../chunk-C3S2TVM6.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkX4JQTVK4_cjs = require('../chunk-X4JQTVK4.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "LogOutDuotone", {
   enumerable: true,
-  get: function () { return chunkC3S2TVM6_cjs.LogOutDuotone; }
+  get: function () { return chunkX4JQTVK4_cjs.LogOutDuotone; }
 });
 //# sourceMappingURL=LogOutDuotone.cjs.map
 //# sourceMappingURL=LogOutDuotone.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkBF3DBLY3_cjs = require('../chunk-BF3DBLY3.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkNULJB5Q7_cjs = require('../chunk-NULJB5Q7.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "MegaphoneActive", {
   enumerable: true,
-  get: function () { return chunkBF3DBLY3_cjs.MegaphoneActive; }
+  get: function () { return chunkNULJB5Q7_cjs.MegaphoneActive; }
 });
 //# sourceMappingURL=MegaphoneActive.cjs.map
 //# sourceMappingURL=MegaphoneActive.cjs.map

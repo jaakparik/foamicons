@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkWUBSBC6T_cjs = require('../chunk-WUBSBC6T.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunk3HRDIOJP_cjs = require('../chunk-3HRDIOJP.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "UnlinkDuotone", {
   enumerable: true,
-  get: function () { return chunkWUBSBC6T_cjs.UnlinkDuotone; }
+  get: function () { return chunk3HRDIOJP_cjs.UnlinkDuotone; }
 });
 //# sourceMappingURL=UnlinkDuotone.cjs.map
 //# sourceMappingURL=UnlinkDuotone.cjs.map

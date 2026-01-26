@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { BrowserRouter, useNavigate, useLocation } from 'react-router-dom';
 import * as icons from 'foamicons';
-import { iconNames, iconAliases, iconTags, type IconProps, Sun, Moon, Copy } from 'foamicons';
+import { iconNames, iconAliases, iconTags, logoNames, logoAliases, logoTags, type IconProps, Sun, Moon, Copy } from 'foamicons';
 
 type IconComponent = React.ForwardRefExoticComponent<IconProps & React.RefAttributes<SVGSVGElement>>;
 
@@ -30,15 +30,38 @@ const iconMap = iconNames.reduce((acc, name) => {
   return acc;
 }, {} as Record<string, IconComponent>);
 
+// Add logos to the map
+const logoMap = logoNames.reduce((acc, name) => {
+  acc[name] = icons[name as keyof typeof icons] as IconComponent;
+  return acc;
+}, {} as Record<string, IconComponent>);
+
+// Combined map for lookups
+const allComponentsMap = { ...iconMap, ...logoMap };
+
 // Separate stroke, duotone, and fill icons
 const strokeIcons = iconNames.filter(name => !name.endsWith('Duotone') && !name.endsWith('Fill'));
 const duotoneIcons = iconNames.filter(name => name.endsWith('Duotone'));
 const fillIcons = iconNames.filter(name => name.endsWith('Fill'));
 
-type FilterType = 'stroke' | 'duotone' | 'fill';
+// Separate logo variants
+// Default logos don't have a suffix (LogoInstagram), dark have Dark suffix, fill have Fill suffix
+const defaultLogos = logoNames.filter(name => !name.endsWith('Dark') && !name.endsWith('Fill'));
+const darkLogos = logoNames.filter(name => name.endsWith('Dark'));
+const fillLogos = logoNames.filter(name => name.endsWith('Fill'));
+
+type CategoryType = 'icons' | 'logos';
+type IconVariantType = 'stroke' | 'duotone' | 'fill';
+type LogoVariantType = 'default' | 'dark' | 'fill';
+
+const logoVariantLabels: Record<LogoVariantType, string> = {
+  default: 'Color',
+  dark: 'Dark',
+  fill: 'Filled',
+};
 
 // Display labels for filter buttons
-const filterLabels: Record<FilterType, string> = {
+const variantLabels: Record<IconVariantType, string> = {
   stroke: 'Stroked',
   duotone: 'Duotone',
   fill: 'Filled',
@@ -51,10 +74,13 @@ function AppContent() {
   const [selectedIcon, setSelectedIcon] = useState<string | null>(null);
   const [size, setSize] = useState(24);
   const [strokeWidth, setStrokeWidth] = useState(0.75);
+  const [absoluteStrokeWidth, setAbsoluteStrokeWidth] = useState(true);
   const [color, setColor] = useState('#ffffff');
   const [secondaryColor, setSecondaryColor] = useState('#0084ff');
   const [fillOpacity, setFillOpacity] = useState(0.2);
-  const [filter, setFilter] = useState<FilterType>('stroke');
+  const [category, setCategory] = useState<CategoryType>('icons');
+  const [iconVariant, setIconVariant] = useState<IconVariantType>('stroke');
+  const [logoVariant, setLogoVariant] = useState<LogoVariantType>('default');
   const [theme, setTheme] = useState<'dark' | 'light'>(() => {
     if (typeof window !== 'undefined') {
       return (localStorage.getItem('theme') as 'dark' | 'light') || 'dark';
@@ -64,7 +90,7 @@ function AppContent() {
 
   useEffect(() => {
     localStorage.setItem('theme', theme);
-    if (filter === 'fill') {
+    if (iconVariant === 'fill') {
       // Fill icons: fill color is primary, stroke details are secondary
       if (theme === 'light') {
         setColor('#000000');
@@ -83,15 +109,25 @@ function AppContent() {
         setSecondaryColor('#C4E0FF');
       }
     }
-  }, [theme, filter]);
+  }, [theme, iconVariant]);
 
   // Sync URL with selected icon
   useEffect(() => {
     const path = location.pathname.slice(1); // Remove leading /
     if (path) {
       const pascalName = toPascalCase(path);
-      if (iconNames.includes(pascalName as any)) {
+      if (iconNames.includes(pascalName as any) || logoNames.includes(pascalName as any)) {
         setSelectedIcon(pascalName);
+        // Auto-switch category if needed
+        if (logoNames.includes(pascalName as any) && category !== 'logos') {
+          setCategory('logos');
+        } else if (iconNames.includes(pascalName as any) && category === 'logos') {
+          setCategory('icons');
+          // Switch to appropriate icon variant
+          if (pascalName.endsWith('Duotone')) setIconVariant('duotone');
+          else if (pascalName.endsWith('Fill')) setIconVariant('fill');
+          else setIconVariant('stroke');
+        }
       } else {
         // Invalid icon name, go back to home
         navigate('/', { replace: true });
@@ -99,28 +135,48 @@ function AppContent() {
     } else {
       setSelectedIcon(null);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location.pathname, navigate]);
 
   const toggleTheme = () => setTheme(theme === 'dark' ? 'light' : 'dark');
 
-  // Get aliases for an icon (handles variants by stripping suffix)
+  // Get aliases for an icon or logo (handles variants by stripping suffix)
   const getAliasesFor = (name: string): string[] => {
+    const isLogo = name.startsWith('Logo');
+    if (isLogo) {
+      const baseName = name.replace(/(Dark|Fill)$/, '');
+      return logoAliases[baseName] || [];
+    }
     const baseName = name.replace(/(Duotone|Fill)$/, '');
     return iconAliases[baseName] || [];
   };
 
-  // Get tags for an icon (handles variants by stripping suffix)
+  // Get tags for an icon or logo (handles variants by stripping suffix)
   const getTagsFor = (name: string): string[] => {
+    const isLogo = name.startsWith('Logo');
+    if (isLogo) {
+      const baseName = name.replace(/(Dark|Fill)$/, '');
+      return logoTags[baseName] || [];
+    }
     const baseName = name.replace(/(Duotone|Fill)$/, '');
     return iconTags[baseName] || [];
   };
 
+
   const filteredIcons = useMemo(() => {
     let iconsToFilter: readonly string[];
 
-    if (filter === 'stroke') {
+    if (category === 'logos') {
+      if (logoVariant === 'default') {
+        iconsToFilter = defaultLogos;
+      } else if (logoVariant === 'dark') {
+        iconsToFilter = darkLogos;
+      } else {
+        iconsToFilter = fillLogos;
+      }
+    } else if (iconVariant === 'stroke') {
       iconsToFilter = strokeIcons;
-    } else if (filter === 'duotone') {
+    } else if (iconVariant === 'duotone') {
       iconsToFilter = duotoneIcons;
     } else {
       iconsToFilter = fillIcons;
@@ -146,7 +202,7 @@ function AppContent() {
 
       return false;
     });
-  }, [search, filter]);
+  }, [search, category, iconVariant, logoVariant]);
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text);
@@ -213,17 +269,31 @@ function AppContent() {
   };
 
   const getJSXCode = (name: string) => {
+    const isLogoComp = name.startsWith('Logo');
     const isDuotone = name.endsWith('Duotone');
-    const isFill = name.endsWith('Fill');
-    if (isDuotone || isFill) {
+    const isFill = name.endsWith('Fill') && !isLogoComp;
+    if (isLogoComp || isDuotone || isFill) {
       return `<${name} size={${size}} />`;
     }
-    return `<${name} size={${size}} strokeWidth={${strokeWidth}} />`;
+    const absStroke = absoluteStrokeWidth ? '' : ' absoluteStrokeWidth={false}';
+    return `<${name} size={${size}} strokeWidth={${strokeWidth}}${absStroke} />`;
   };
 
-  const SelectedIconComponent = selectedIcon ? iconMap[selectedIcon] : null;
+  const getImportCode = (name: string) => {
+    const isLogoComp = name.startsWith('Logo');
+    if (isLogoComp) {
+      return `import { ${name} } from 'foamicons/logos';`;
+    }
+    return `import { ${name} } from 'foamicons';`;
+  };
+
+  const SelectedIconComponent = selectedIcon ? allComponentsMap[selectedIcon] : null;
   const isDuotoneIcon = selectedIcon?.endsWith('Duotone');
-  const isFillIcon = selectedIcon?.endsWith('Fill');
+  const isFillIcon = selectedIcon?.endsWith('Fill') && !selectedIcon?.startsWith('Logo');
+  const isLogoIcon = selectedIcon?.startsWith('Logo');
+  const isDefaultLogo = isLogoIcon && !selectedIcon?.endsWith('Dark') && !selectedIcon?.endsWith('Fill');
+  const isDarkLogo = isLogoIcon && selectedIcon?.endsWith('Dark');
+  const isFillLogo = isLogoIcon && selectedIcon?.endsWith('Fill');
 
   return (
     <div className={`h-screen flex ${theme === 'dark' ? 'bg-zinc-950 text-zinc-100' : 'bg-white text-zinc-900'}`}>
@@ -250,76 +320,158 @@ function AppContent() {
         <div className="space-y-4">
           <h2 className="text-sm font-medium text-zinc-400">Customizer</h2>
 
-          {/* Filter */}
+          {/* Category: Icons / Logos */}
           <div className="space-y-2">
-            <label className="text-sm text-zinc-400">Type</label>
+            <label className="text-sm text-zinc-400">Category</label>
             <div className="flex gap-1">
-              {(['stroke', 'duotone', 'fill'] as FilterType[]).map((f) => (
+              {(['icons', 'logos'] as CategoryType[]).map((c) => (
                 <button
-                  key={f}
-                  onClick={() => setFilter(f)}
+                  type="button"
+                  key={c}
+                  onClick={() => setCategory(c)}
                   className={`flex-1 text-xs py-1.5 px-2 rounded transition-colors ${
-                    filter === f
+                    category === c
                       ? 'bg-[#155FEF] text-white'
                       : theme === 'dark'
                       ? 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'
                       : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200'
                   }`}
                 >
-                  {filterLabels[f]}
+                  {c === 'icons' ? 'Icons' : 'Logos'}
                 </button>
               ))}
             </div>
           </div>
 
-          {/* Fill Color - for Fill and Duotone */}
-          {(filter === 'fill' || filter === 'duotone') && (
+          {/* Variant filter - for icons */}
+          {category === 'icons' && (
             <div className="space-y-2">
-              <label className="text-sm text-zinc-400">Fill color</label>
-              <div className="flex items-center gap-2">
-                <input
-                  type="color"
-                  value={filter === 'fill' ? color : secondaryColor}
-                  onChange={(e) => filter === 'fill' ? setColor(e.target.value) : setSecondaryColor(e.target.value)}
-                  className={`w-8 h-8 rounded border bg-transparent cursor-pointer ${theme === 'dark' ? 'border-zinc-700' : 'border-zinc-300'}`}
-                />
-                <span className="text-sm text-zinc-500">{filter === 'fill' ? color : secondaryColor}</span>
+              <label className="text-sm text-zinc-400">Variant</label>
+              <div className="flex gap-1">
+                {(['stroke', 'duotone', 'fill'] as IconVariantType[]).map((v) => (
+                  <button
+                    key={v}
+                    onClick={() => setIconVariant(v)}
+                    className={`flex-1 text-xs py-1.5 px-2 rounded transition-colors ${
+                      iconVariant === v
+                        ? 'bg-[#155FEF] text-white'
+                        : theme === 'dark'
+                        ? 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'
+                        : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200'
+                    }`}
+                  >
+                    {variantLabels[v]}
+                  </button>
+                ))}
               </div>
             </div>
           )}
 
-          {/* Stroke Color */}
-          <div className="space-y-2">
-            <label className="text-sm text-zinc-400">Stroke color</label>
-            <div className="flex items-center gap-2">
-              <input
-                type="color"
-                value={filter === 'fill' ? secondaryColor : color}
-                onChange={(e) => filter === 'fill' ? setSecondaryColor(e.target.value) : setColor(e.target.value)}
-                className={`w-8 h-8 rounded border bg-transparent cursor-pointer ${theme === 'dark' ? 'border-zinc-700' : 'border-zinc-300'}`}
-              />
-              <span className="text-sm text-zinc-500">{filter === 'fill' ? secondaryColor : color}</span>
+          {/* Variant filter - for logos */}
+          {category === 'logos' && (
+            <div className="space-y-2">
+              <label className="text-sm text-zinc-400">Variant</label>
+              <div className="flex gap-1">
+                {(['default', 'dark', 'fill'] as LogoVariantType[]).map((v) => (
+                  <button
+                    key={v}
+                    onClick={() => setLogoVariant(v)}
+                    className={`flex-1 text-xs py-1.5 px-2 rounded transition-colors ${
+                      logoVariant === v
+                        ? 'bg-[#155FEF] text-white'
+                        : theme === 'dark'
+                        ? 'bg-zinc-800 text-zinc-400 hover:bg-zinc-700'
+                        : 'bg-zinc-100 text-zinc-600 hover:bg-zinc-200'
+                    }`}
+                  >
+                    {logoVariantLabels[v]}
+                  </button>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
 
-          {/* Stroke Width */}
-          <div className="space-y-2">
-            <label className="text-sm text-zinc-400">Stroke width</label>
-            <div className="flex items-center gap-3">
-              <input
-                type="range"
-                min="0.5"
-                max="3"
-                step="0.25"
-                value={strokeWidth}
-                onChange={(e) => setStrokeWidth(parseFloat(e.target.value))}
-                className="flex-1 accent-[#155FEF]"
-              />
-              <span className="text-sm text-zinc-500 w-10">{strokeWidth}px</span>
-            </div>
-          </div>
+          {/* Color customization - only for icons */}
+          {category === 'icons' && (
+            <>
+              {/* Fill Color - for Fill and Duotone */}
+              {(iconVariant === 'fill' || iconVariant === 'duotone') && (
+                <div className="space-y-2">
+                  <label className="text-sm text-zinc-400">Fill color</label>
+                  <div className="flex items-center gap-2">
+                    <input
+                      type="color"
+                      value={iconVariant === 'fill' ? color : secondaryColor}
+                      onChange={(e) => iconVariant === 'fill' ? setColor(e.target.value) : setSecondaryColor(e.target.value)}
+                      className={`w-8 h-8 rounded border bg-transparent cursor-pointer ${theme === 'dark' ? 'border-zinc-700' : 'border-zinc-300'}`}
+                    />
+                    <span className="text-sm text-zinc-500">{iconVariant === 'fill' ? color : secondaryColor}</span>
+                  </div>
+                </div>
+              )}
 
-          {/* Size */}
+              {/* Stroke Color */}
+              <div className="space-y-2">
+                <label className="text-sm text-zinc-400">Stroke color</label>
+                <div className="flex items-center gap-2">
+                  <input
+                    type="color"
+                    value={iconVariant === 'fill' ? secondaryColor : color}
+                    onChange={(e) => iconVariant === 'fill' ? setSecondaryColor(e.target.value) : setColor(e.target.value)}
+                    className={`w-8 h-8 rounded border bg-transparent cursor-pointer ${theme === 'dark' ? 'border-zinc-700' : 'border-zinc-300'}`}
+                  />
+                  <span className="text-sm text-zinc-500">{iconVariant === 'fill' ? secondaryColor : color}</span>
+                </div>
+              </div>
+
+              {/* Stroke Width */}
+              <div className="space-y-2">
+                <label className="text-sm text-zinc-400">Stroke width</label>
+                <div className="flex items-center gap-3">
+                  <input
+                    type="range"
+                    min="0.5"
+                    max="3"
+                    step="0.25"
+                    value={strokeWidth}
+                    onChange={(e) => setStrokeWidth(parseFloat(e.target.value))}
+                    className="flex-1 accent-[#155FEF]"
+                  />
+                  <span className="text-sm text-zinc-500 w-10">{strokeWidth}px</span>
+                </div>
+                <label className="flex items-center gap-2 text-sm text-zinc-400 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={absoluteStrokeWidth}
+                    onChange={(e) => setAbsoluteStrokeWidth(e.target.checked)}
+                    className="accent-[#155FEF]"
+                  />
+                  Absolute stroke width
+                </label>
+              </div>
+
+              {/* Fill Opacity - only for Duotone */}
+              {iconVariant === 'duotone' && (
+                <div className="space-y-2">
+                  <label className="text-sm text-zinc-400">Fill opacity</label>
+                  <div className="flex items-center gap-3">
+                    <input
+                      type="range"
+                      min="0"
+                      max="1"
+                      step="0.05"
+                      value={fillOpacity}
+                      onChange={(e) => setFillOpacity(parseFloat(e.target.value))}
+                      className="flex-1 accent-[#155FEF]"
+                    />
+                    <span className="text-sm text-zinc-500 w-10">{Math.round(fillOpacity * 100)}%</span>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+
+          {/* Size - applies to both icons and logos */}
           <div className="space-y-2">
             <label className="text-sm text-zinc-400">Size</label>
             <div className="flex items-center gap-3">
@@ -335,25 +487,6 @@ function AppContent() {
               <span className="text-sm text-zinc-500 w-10">{size}px</span>
             </div>
           </div>
-
-          {/* Fill Opacity - only for Duotone */}
-          {filter === 'duotone' && (
-            <div className="space-y-2">
-              <label className="text-sm text-zinc-400">Fill opacity</label>
-              <div className="flex items-center gap-3">
-                <input
-                  type="range"
-                  min="0"
-                  max="1"
-                  step="0.05"
-                  value={fillOpacity}
-                  onChange={(e) => setFillOpacity(parseFloat(e.target.value))}
-                  className="flex-1 accent-[#155FEF]"
-                />
-                <span className="text-sm text-zinc-500 w-10">{Math.round(fillOpacity * 100)}%</span>
-              </div>
-            </div>
-          )}
         </div>
 
         {/* Installation */}
@@ -396,7 +529,8 @@ function AppContent() {
           <div>{strokeIcons.length} stroke icons</div>
           <div>{duotoneIcons.length} duotone icons</div>
           <div>{fillIcons.length} fill icons</div>
-          <div className="font-medium text-zinc-500">{iconNames.length} total</div>
+          <div>{defaultLogos.length} color logos, {fillLogos.length} fill</div>
+          <div className="font-medium text-zinc-500">{iconNames.length + logoNames.length} total</div>
         </div>
       </aside>
 
@@ -431,10 +565,11 @@ function AppContent() {
         <div className="flex-1 overflow-auto p-4">
           <div className="grid grid-cols-[repeat(auto-fill,minmax(52px,1fr))] gap-2">
             {filteredIcons.map((name) => {
-              const Icon = iconMap[name];
+              const Icon = category === 'logos' ? logoMap[name] : iconMap[name];
               if (!Icon) return null;
               const isDuotone = name.endsWith('Duotone');
-              const isFill = name.endsWith('Fill');
+              const isFill = name.endsWith('Fill') && !name.startsWith('Logo');
+              const isLogoItem = name.startsWith('Logo');
               return (
                 <button
                   key={name}
@@ -447,6 +582,10 @@ function AppContent() {
                       ? theme === 'dark'
                         ? 'border-[#155FEF] bg-zinc-800'
                         : 'border-[#155FEF] bg-zinc-100'
+                      : isLogoItem
+                      ? theme === 'dark'
+                        ? 'border-zinc-700 bg-zinc-800/50 hover:bg-zinc-800'
+                        : 'border-zinc-200 bg-zinc-50 hover:bg-zinc-100'
                       : isDuotone || isFill
                       ? theme === 'dark'
                         ? 'border-zinc-700 bg-zinc-800/50 hover:bg-zinc-800'
@@ -457,16 +596,20 @@ function AppContent() {
                   }`}
                   title={toKebabCase(name)}
                   style={
-                    {
-                      color,
-                      '--foamicon-secondary-color': secondaryColor,
-                      '--foamicon-secondary-opacity': fillOpacity,
-                    } as React.CSSProperties
+                    isLogoItem
+                      ? undefined // Logos use their own colors
+                      : {
+                          color,
+                          '--foamicon-secondary-color': secondaryColor,
+                          '--foamicon-secondary-opacity': fillOpacity,
+                        } as React.CSSProperties
                   }
                 >
                   <Icon
                     size={size}
-                    strokeWidth={strokeWidth}
+                    strokeWidth={isLogoItem ? 0 : strokeWidth}
+                    absoluteStrokeWidth={absoluteStrokeWidth}
+                    stroke={isLogoItem ? 'none' : undefined}
                     data-icon={toKebabCase(name)}
                   />
                 </button>
@@ -489,16 +632,20 @@ function AppContent() {
           <div
             className={`shrink-0 h-64 flex items-start justify-center border-b p-8 pt-16 ${theme === 'dark' ? 'border-zinc-800' : 'border-zinc-200'}`}
             style={
-              {
-                color,
-                '--foamicon-secondary-color': secondaryColor,
-                '--foamicon-secondary-opacity': fillOpacity,
-              } as React.CSSProperties
+              isLogoIcon
+                ? undefined
+                : {
+                    color,
+                    '--foamicon-secondary-color': secondaryColor,
+                    '--foamicon-secondary-opacity': fillOpacity,
+                  } as React.CSSProperties
             }
           >
             <SelectedIconComponent
               size={Math.min(size * 4, 128)}
-              strokeWidth={strokeWidth}
+              strokeWidth={isLogoIcon ? 0 : strokeWidth}
+              absoluteStrokeWidth={absoluteStrokeWidth}
+              stroke={isLogoIcon ? 'none' : undefined}
             />
           </div>
 
@@ -512,6 +659,15 @@ function AppContent() {
                 )}
                 {isFillIcon && (
                   <span className="text-xs text-zinc-500">Fill variant</span>
+                )}
+                {isDefaultLogo && (
+                  <span className="text-xs text-zinc-500">Logo (brand colors)</span>
+                )}
+                {isDarkLogo && (
+                  <span className="text-xs text-zinc-500">Logo (dark theme)</span>
+                )}
+                {isFillLogo && (
+                  <span className="text-xs text-zinc-500">Logo (single color)</span>
                 )}
                 {getAliasesFor(selectedIcon).length > 0 && (
                   <div className="text-xs text-zinc-500 mt-1">
@@ -539,7 +695,7 @@ function AppContent() {
                 Copy JSX
               </button>
               <button
-                onClick={() => copyToClipboard(`import { ${selectedIcon} } from 'foamicons';`)}
+                onClick={() => copyToClipboard(getImportCode(selectedIcon))}
                 className={`flex-1 text-sm py-2 px-3 rounded-lg transition-colors ${
                   theme === 'dark' ? 'bg-zinc-800 hover:bg-zinc-700' : 'bg-zinc-100 hover:bg-zinc-200'
                 }`}

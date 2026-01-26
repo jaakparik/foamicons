@@ -1,7 +1,12 @@
 /**
- * Represents a single SVG element as a tuple of [tagName, attributes]
+ * Represents a single SVG element as a tuple of [tagName, attributes] or [tagName, attributes, children]
+ * The optional third element supports nested structures like <defs><linearGradient><stop/></linearGradient></defs>
  */
-type IconNodeElement = [string, Record<string, string | Record<string, string>>];
+type IconNodeElement = [
+    string,
+    Record<string, string | Record<string, string>>,
+    IconNodeElement[]?
+];
 /**
  * Represents the parsed structure of an SVG icon
  */
@@ -18,9 +23,17 @@ interface ParsedSvg {
  */
 type IconVariant = 'stroke' | 'duotone' | 'fill';
 /**
+ * Logo variant types - logos can have default (brand colors), dark, or fill variants
+ */
+type LogoVariant = 'default' | 'dark' | 'fill';
+/**
  * Determines the icon variant from a filename
  */
 declare function getIconVariant(filename: string): IconVariant;
+/**
+ * Determines the logo variant from a filename
+ */
+declare function getLogoVariant(filename: string): LogoVariant;
 
 /**
  * Convert filename to PascalCase component name
@@ -51,23 +64,32 @@ interface ColorTransformOptions {
     secondaryColor?: string;
 }
 /**
+ * Parse options for SVG parsing
+ */
+interface ParseOptions {
+    /** Icon variant for color transformation */
+    variant?: IconVariant;
+    /** Preserve original colors (for logo color variants) */
+    preserveColors?: boolean;
+}
+/**
  * Transform a color value based on icon variant
  */
 declare function transformColor(attrName: 'fill' | 'stroke', attrValue: string, variant: IconVariant): string;
 /**
  * Parse an SVG element string into tag and attributes
  */
-declare function parseElement(elementStr: string, variant?: IconVariant): {
+declare function parseElement(elementStr: string, variant?: IconVariant, preserveColors?: boolean): {
     tag: string;
     attrs: Record<string, string | Record<string, string>>;
 } | null;
 /**
  * Parse SVG content into IconNode format
  */
-declare function parseSvg(svgContent: string, variant?: IconVariant): ParsedSvg;
+declare function parseSvg(svgContent: string, variant?: IconVariant, options?: ParseOptions): ParsedSvg;
 /**
  * Generate base64-encoded SVG for previews
  */
 declare function generateBase64Preview(svgContent: string): string;
 
-export { type ColorTransformOptions, type IconNode, type IconNodeElement, type IconVariant, type ParsedSvg, SVG_ATTR_MAP, generateBase64Preview, generateKey, getIconVariant, parseElement, parseSvg, toKebabCase, toPascalCase, transformColor };
+export { type ColorTransformOptions, type IconNode, type IconNodeElement, type IconVariant, type LogoVariant, type ParseOptions, type ParsedSvg, SVG_ATTR_MAP, generateBase64Preview, generateKey, getIconVariant, getLogoVariant, parseElement, parseSvg, toKebabCase, toPascalCase, transformColor };

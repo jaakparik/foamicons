@@ -21,21 +21,29 @@ const __iconNode: IconNode = [
   [
     'path',
     {
-      d: 'M8.05452 8.86291C8.12044 7.91806 9.21944 7.27066 9.5132 6.95069C9.70825 6.73825 9.82337 6.47638 9.82337 6.19312C9.82337 5.48321 9.1003 4.90771 8.20834 4.90771C7.31638 4.90771 6.5933 5.48321 6.5933 6.19312',
+      d: 'M8.05453 8.86291C8.12045 7.91806 9.21944 7.27066 9.51321 6.95069C9.70825 6.73825 9.82338 6.47638 9.82338 6.19312C9.82338 5.48321 9.1003 4.90771 8.20834 4.90771C7.31638 4.90771 6.59331 5.48321 6.59331 6.19312',
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: 'r7x1g7'
+      key: 'eimvgx'
     }
   ],
   [
-    'circle',
+    'path',
     {
-      cx: '8.06641',
-      cy: '10.457',
-      r: '0.644531',
+      d: 'M8.00687 10.5H8.01353Z',
       fill: 'currentColor',
-      key: 'jlozh7'
+      key: 'x10jnm'
+    }
+  ],
+  [
+    'path',
+    {
+      d: 'M8.00687 10.5H8.01353',
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      key: 'g0wwbw'
     }
   ]
 ];
@@ -43,7 +51,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name CircleQuestionMarkDuotone
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjYiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1vcGFjaXR5PSIwLjI1IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik04LjA1NDUyIDguODYyOTFDOC4xMjA0NCA3LjkxODA2IDkuMjE5NDQgNy4yNzA2NiA5LjUxMzIgNi45NTA2OUM5LjcwODI1IDYuNzM4MjUgOS44MjMzNyA2LjQ3NjM4IDkuODIzMzcgNi4xOTMxMkM5LjgyMzM3IDUuNDgzMjEgOS4xMDAzIDQuOTA3NzEgOC4yMDgzNCA0LjkwNzcxQzcuMzE2MzggNC45MDc3MSA2LjU5MzMgNS40ODMyMSA2LjU5MzMgNi4xOTMxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8Y2lyY2xlIGN4PSI4LjA2NjQxIiBjeT0iMTAuNDU3IiByPSIwLjY0NDUzMSIgZmlsbD0iY3VycmVudENvbG9yIi8+Cjwvc3ZnPgo=)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjYiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1vcGFjaXR5PSIwLjI1IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik04LjA1NDUzIDguODYyOTFDOC4xMjA0NSA3LjkxODA2IDkuMjE5NDQgNy4yNzA2NiA5LjUxMzIxIDYuOTUwNjlDOS43MDgyNSA2LjczODI1IDkuODIzMzggNi40NzYzOCA5LjgyMzM4IDYuMTkzMTJDOS44MjMzOCA1LjQ4MzIxIDkuMTAwMyA0LjkwNzcxIDguMjA4MzQgNC45MDc3MUM3LjMxNjM4IDQuOTA3NzEgNi41OTMzMSA1LjQ4MzIxIDYuNTkzMzEgNi4xOTMxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOC4wMDY4NyAxMC41SDguMDEzNTNaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPHBhdGggZD0iTTguMDA2ODcgMTAuNUg4LjAxMzUzIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
  * @see https://foamicons.com/icons/circle-question-mark-duotone
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

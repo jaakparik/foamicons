@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkELGVKRWE_cjs = require('../chunk-ELGVKRWE.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkRVLRDD7Z_cjs = require('../chunk-RVLRDD7Z.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "UserArrowLeftRightDuotone", {
   enumerable: true,
-  get: function () { return chunkELGVKRWE_cjs.UserArrowLeftRightDuotone; }
+  get: function () { return chunkRVLRDD7Z_cjs.UserArrowLeftRightDuotone; }
 });
 //# sourceMappingURL=UserArrowLeftRightDuotone.cjs.map
 //# sourceMappingURL=UserArrowLeftRightDuotone.cjs.map

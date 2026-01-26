@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkANHMFTYN_cjs = require('../chunk-ANHMFTYN.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunk37YM5DIW_cjs = require('../chunk-37YM5DIW.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "ListFilterDuotone", {
   enumerable: true,
-  get: function () { return chunkANHMFTYN_cjs.ListFilterDuotone; }
+  get: function () { return chunk37YM5DIW_cjs.ListFilterDuotone; }
 });
 //# sourceMappingURL=ListFilterDuotone.cjs.map
 //# sourceMappingURL=ListFilterDuotone.cjs.map

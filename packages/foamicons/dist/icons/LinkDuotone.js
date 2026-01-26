@@ -1,4 +1,4 @@
-export { LinkDuotone } from '../chunk-FJQ3552A.js';
-import '../chunk-4ZYNWAON.js';
+export { LinkDuotone } from '../chunk-QFASYGAV.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=LinkDuotone.js.map
 //# sourceMappingURL=LinkDuotone.js.map

@@ -1,4 +1,4 @@
-export { TextAlignStart } from '../chunk-HQH6KWU2.js';
-import '../chunk-4ZYNWAON.js';
+export { TextAlignStart } from '../chunk-ONYSGWKX.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=TextAlignStart.js.map
 //# sourceMappingURL=TextAlignStart.js.map

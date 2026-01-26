@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkUT2YQDM7_cjs = require('../chunk-UT2YQDM7.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkIEBXTP4W_cjs = require('../chunk-IEBXTP4W.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "Volume2Duotone", {
   enumerable: true,
-  get: function () { return chunkUT2YQDM7_cjs.Volume2Duotone; }
+  get: function () { return chunkIEBXTP4W_cjs.Volume2Duotone; }
 });
 //# sourceMappingURL=Volume2Duotone.cjs.map
 //# sourceMappingURL=Volume2Duotone.cjs.map

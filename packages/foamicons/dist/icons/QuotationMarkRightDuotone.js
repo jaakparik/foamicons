@@ -1,4 +1,4 @@
-export { QuotationMarkRightDuotone } from '../chunk-VARCFRMT.js';
-import '../chunk-4ZYNWAON.js';
+export { QuotationMarkRightDuotone } from '../chunk-ZVFGGCBM.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=QuotationMarkRightDuotone.js.map
 //# sourceMappingURL=QuotationMarkRightDuotone.js.map

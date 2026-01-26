@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkAYPMK5WZ_cjs = require('../chunk-AYPMK5WZ.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkJVZY2OMN_cjs = require('../chunk-JVZY2OMN.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "GlobeDuotone", {
   enumerable: true,
-  get: function () { return chunkAYPMK5WZ_cjs.GlobeDuotone; }
+  get: function () { return chunkJVZY2OMN_cjs.GlobeDuotone; }
 });
 //# sourceMappingURL=GlobeDuotone.cjs.map
 //# sourceMappingURL=GlobeDuotone.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkYNV5NCLU_cjs = require('../chunk-YNV5NCLU.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkTEQDMER5_cjs = require('../chunk-TEQDMER5.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "Sparkles", {
   enumerable: true,
-  get: function () { return chunkYNV5NCLU_cjs.Sparkles; }
+  get: function () { return chunkTEQDMER5_cjs.Sparkles; }
 });
 //# sourceMappingURL=Sparkles.cjs.map
 //# sourceMappingURL=Sparkles.cjs.map

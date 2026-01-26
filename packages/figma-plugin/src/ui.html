@@ -262,14 +262,36 @@
 
   <!-- Settings -->
   <div class="settings">
-    <!-- Variant -->
+    <!-- Category -->
     <div class="setting-row">
+      <div class="btn-group">
+        <button class="btn-option active" data-category="icons">ICONS</button>
+        <button class="btn-option" data-category="logos">LOGOS</button>
+      </div>
+    </div>
+
+    <!-- Variant (for icons) -->
+    <div class="setting-row" id="iconVariantRow">
       <div class="btn-group">
         <button class="btn-option active" data-variant="stroke">STROKED</button>
         <button class="btn-option" data-variant="duotone">DUALTONE</button>
         <button class="btn-option" data-variant="fill">FILLED</button>
       </div>
       <button class="toggle-settings" id="toggleSettings">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M4 6L8 10L12 6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Variant (for logos) -->
+    <div class="setting-row" id="logoVariantRow" style="display: none;">
+      <div class="btn-group">
+        <button class="btn-option active" data-logo-variant="default">COLOR</button>
+        <button class="btn-option" data-logo-variant="dark">DARK</button>
+        <button class="btn-option" data-logo-variant="fill">FILLED</button>
+      </div>
+      <button class="toggle-settings" id="toggleSettingsLogo">
         <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
           <path d="M4 6L8 10L12 6" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>

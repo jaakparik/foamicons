@@ -1,4 +1,4 @@
-export { TextAlignCenter } from '../chunk-PU5PI6EL.js';
-import '../chunk-4ZYNWAON.js';
+export { TextAlignCenter } from '../chunk-BFN4CPKC.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=TextAlignCenter.js.map
 //# sourceMappingURL=TextAlignCenter.js.map

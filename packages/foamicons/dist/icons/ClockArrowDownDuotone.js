@@ -1,4 +1,4 @@
-export { ClockArrowDownDuotone } from '../chunk-LAZHQPI3.js';
-import '../chunk-4ZYNWAON.js';
+export { ClockArrowDownDuotone } from '../chunk-KZL5ELCD.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=ClockArrowDownDuotone.js.map
 //# sourceMappingURL=ClockArrowDownDuotone.js.map

@@ -1,4 +1,4 @@
-export { ArrowUpDuotone } from '../chunk-X24NREXK.js';
-import '../chunk-4ZYNWAON.js';
+export { ArrowUpDuotone } from '../chunk-2V4NP4Q5.js';
+import '../chunk-ZBTJ4ZW3.js';
 //# sourceMappingURL=ArrowUpDuotone.js.map
 //# sourceMappingURL=ArrowUpDuotone.js.map

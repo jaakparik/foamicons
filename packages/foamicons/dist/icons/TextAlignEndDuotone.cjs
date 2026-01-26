@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkVTT7GSWA_cjs = require('../chunk-VTT7GSWA.cjs');
-require('../chunk-HCQ35QXF.cjs');
+var chunkWCBZZKHX_cjs = require('../chunk-WCBZZKHX.cjs');
+require('../chunk-UPMMRKBS.cjs');
 
 
 
 Object.defineProperty(exports, "TextAlignEndDuotone", {
   enumerable: true,
-  get: function () { return chunkVTT7GSWA_cjs.TextAlignEndDuotone; }
+  get: function () { return chunkWCBZZKHX_cjs.TextAlignEndDuotone; }
 });
 //# sourceMappingURL=TextAlignEndDuotone.cjs.map
 //# sourceMappingURL=TextAlignEndDuotone.cjs.map
