@@ -593,6 +593,142 @@
       "new-tab"
     ]
   },
+  "file": {
+    "aliases": [
+      "document",
+      "page"
+    ],
+    "tags": [
+      "file",
+      "document",
+      "page"
+    ]
+  },
+  "file-arrow-down": {
+    "aliases": [
+      "download-file"
+    ],
+    "tags": [
+      "file",
+      "download",
+      "arrow",
+      "import"
+    ]
+  },
+  "file-arrow-left": {
+    "aliases": [
+      "file-back",
+      "file-previous"
+    ],
+    "tags": [
+      "file",
+      "arrow",
+      "left",
+      "back"
+    ]
+  },
+  "file-arrow-left-right": {
+    "aliases": [
+      "file-transfer",
+      "file-exchange",
+      "file-sync"
+    ],
+    "tags": [
+      "file",
+      "transfer",
+      "exchange",
+      "sync"
+    ]
+  },
+  "file-arrow-right": {
+    "aliases": [
+      "file-forward",
+      "file-next"
+    ],
+    "tags": [
+      "file",
+      "arrow",
+      "right",
+      "forward"
+    ]
+  },
+  "file-arrow-up": {
+    "aliases": [
+      "upload-file"
+    ],
+    "tags": [
+      "file",
+      "upload",
+      "arrow",
+      "export"
+    ]
+  },
+  "file-check": {
+    "aliases": [
+      "file-done",
+      "file-complete",
+      "file-verified"
+    ],
+    "tags": [
+      "file",
+      "check",
+      "complete",
+      "verified",
+      "approved"
+    ]
+  },
+  "file-cog": {
+    "aliases": [
+      "file-settings",
+      "file-config"
+    ],
+    "tags": [
+      "file",
+      "settings",
+      "configuration",
+      "cog"
+    ]
+  },
+  "file-plus": {
+    "aliases": [
+      "new-file",
+      "add-file",
+      "create-file"
+    ],
+    "tags": [
+      "file",
+      "add",
+      "new",
+      "create"
+    ]
+  },
+  "file-user": {
+    "aliases": [
+      "file-account",
+      "file-profile",
+      "user-document"
+    ],
+    "tags": [
+      "file",
+      "user",
+      "profile",
+      "account"
+    ]
+  },
+  "file-x": {
+    "aliases": [
+      "file-delete",
+      "file-remove",
+      "file-cancel"
+    ],
+    "tags": [
+      "file",
+      "delete",
+      "remove",
+      "cancel",
+      "close"
+    ]
+  },
   "eye": {
     "aliases": [
       "view",
@@ -1097,6 +1233,32 @@
       "create"
     ]
   },
+  "quotation-mark-left": {
+    "aliases": [
+      "quote-left",
+      "blockquote-start",
+      "open-quote"
+    ],
+    "tags": [
+      "quote",
+      "quotation",
+      "text",
+      "blockquote"
+    ]
+  },
+  "quotation-mark-right": {
+    "aliases": [
+      "quote-right",
+      "blockquote-end",
+      "close-quote"
+    ],
+    "tags": [
+      "quote",
+      "quotation",
+      "text",
+      "blockquote"
+    ]
+  },
   "reach": {
     "aliases": [
       "audience",
@@ -1142,6 +1304,20 @@
       "format",
       "clear",
       "remove"
+    ]
+  },
+  "rolodex": {
+    "aliases": [
+      "contacts",
+      "address-book",
+      "card-index",
+      "alphabet"
+    ],
+    "tags": [
+      "rolodex",
+      "contacts",
+      "address-book",
+      "directory"
     ]
   },
   "reply": {
