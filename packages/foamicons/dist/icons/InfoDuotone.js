@@ -1,4 +1,4 @@
-export { InfoDuotone } from '../chunk-KEYPTZHF.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { InfoDuotone } from '../chunk-4FPDFE33.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=InfoDuotone.js.map
 //# sourceMappingURL=InfoDuotone.js.map

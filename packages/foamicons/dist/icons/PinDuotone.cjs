@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk4C3LKVT3_cjs = require('../chunk-4C3LKVT3.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkF4FQLSJH_cjs = require('../chunk-F4FQLSJH.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "PinDuotone", {
   enumerable: true,
-  get: function () { return chunk4C3LKVT3_cjs.PinDuotone; }
+  get: function () { return chunkF4FQLSJH_cjs.PinDuotone; }
 });
 //# sourceMappingURL=PinDuotone.cjs.map
 //# sourceMappingURL=PinDuotone.cjs.map

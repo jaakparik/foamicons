@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkBN6WNDA4_cjs = require('../chunk-BN6WNDA4.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkHVHNNSK6_cjs = require('../chunk-HVHNNSK6.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "TextAlignEnd", {
   enumerable: true,
-  get: function () { return chunkBN6WNDA4_cjs.TextAlignEnd; }
+  get: function () { return chunkHVHNNSK6_cjs.TextAlignEnd; }
 });
 //# sourceMappingURL=TextAlignEnd.cjs.map
 //# sourceMappingURL=TextAlignEnd.cjs.map

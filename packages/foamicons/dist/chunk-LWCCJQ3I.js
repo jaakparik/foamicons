@@ -1,0 +1,18 @@
+import { createFoamicon } from './chunk-RYVBNFJH.js';
+
+// src/logos/LogoTiktokFill.tsx
+var __iconNode = [
+  [
+    "path",
+    {
+      d: "M10.4747 1.00029H8.31515V10.511C8.31515 11.7574 7.4514 12.5591 6.40089 12.5591C5.35038 12.5591 4.41659 11.7574 4.41659 10.511C4.41659 9.07101 5.50226 8.31065 6.94963 8.46809V6.05812C6.73953 6.02168 6.52943 6.00973 6.3542 6.00973C3.98458 6.00973 2 7.98207 2 10.4261C2 13.0157 3.96095 15 6.36573 15C8.47857 15 10.7199 13.3906 10.7199 10.3535V5.40447C11.6537 6.37242 12.7861 6.67505 14 6.67505V4.44847C12.5059 4.33943 10.8482 3.32308 10.4747 1V1.00029Z",
+      fill: "currentColor",
+      key: "26thnr"
+    }
+  ]
+];
+var LogoTiktokFill = createFoamicon("LogoTiktokFill", __iconNode);
+
+export { LogoTiktokFill };
+//# sourceMappingURL=chunk-LWCCJQ3I.js.map
+//# sourceMappingURL=chunk-LWCCJQ3I.js.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkWEXXCOXK_cjs = require('../chunk-WEXXCOXK.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkUFK37N6E_cjs = require('../chunk-UFK37N6E.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "Grid2x2", {
   enumerable: true,
-  get: function () { return chunkWEXXCOXK_cjs.Grid2x2; }
+  get: function () { return chunkUFK37N6E_cjs.Grid2x2; }
 });
 //# sourceMappingURL=Grid2x2.cjs.map
 //# sourceMappingURL=Grid2x2.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkOI2G7DJ6_cjs = require('../chunk-OI2G7DJ6.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkAGCCJCMU_cjs = require('../chunk-AGCCJCMU.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "Frown", {
   enumerable: true,
-  get: function () { return chunkOI2G7DJ6_cjs.Frown; }
+  get: function () { return chunkAGCCJCMU_cjs.Frown; }
 });
 //# sourceMappingURL=Frown.cjs.map
 //# sourceMappingURL=Frown.cjs.map

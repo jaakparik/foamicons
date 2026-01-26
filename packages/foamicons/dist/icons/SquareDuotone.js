@@ -1,4 +1,4 @@
-export { SquareDuotone } from '../chunk-LRRDKNAT.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { SquareDuotone } from '../chunk-CTKXUDVO.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=SquareDuotone.js.map
 //# sourceMappingURL=SquareDuotone.js.map

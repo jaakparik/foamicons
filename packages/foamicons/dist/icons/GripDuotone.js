@@ -1,4 +1,4 @@
-export { GripDuotone } from '../chunk-OVDN3OC3.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { GripDuotone } from '../chunk-JHW3OZPS.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=GripDuotone.js.map
 //# sourceMappingURL=GripDuotone.js.map

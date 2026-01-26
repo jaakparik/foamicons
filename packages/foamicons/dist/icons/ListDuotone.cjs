@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkRSEPVQCI_cjs = require('../chunk-RSEPVQCI.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk76IQR43Q_cjs = require('../chunk-76IQR43Q.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "ListDuotone", {
   enumerable: true,
-  get: function () { return chunkRSEPVQCI_cjs.ListDuotone; }
+  get: function () { return chunk76IQR43Q_cjs.ListDuotone; }
 });
 //# sourceMappingURL=ListDuotone.cjs.map
 //# sourceMappingURL=ListDuotone.cjs.map

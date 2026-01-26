@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkQTFPBGSS_cjs = require('../chunk-QTFPBGSS.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkMPFSO5PI_cjs = require('../chunk-MPFSO5PI.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "UserArrowLeftFill", {
   enumerable: true,
-  get: function () { return chunkQTFPBGSS_cjs.UserArrowLeftFill; }
+  get: function () { return chunkMPFSO5PI_cjs.UserArrowLeftFill; }
 });
 //# sourceMappingURL=UserArrowLeftFill.cjs.map
 //# sourceMappingURL=UserArrowLeftFill.cjs.map

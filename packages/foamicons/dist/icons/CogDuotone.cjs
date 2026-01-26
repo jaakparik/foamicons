@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkTFGXEFAV_cjs = require('../chunk-TFGXEFAV.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk73YQCSGG_cjs = require('../chunk-73YQCSGG.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "CogDuotone", {
   enumerable: true,
-  get: function () { return chunkTFGXEFAV_cjs.CogDuotone; }
+  get: function () { return chunk73YQCSGG_cjs.CogDuotone; }
 });
 //# sourceMappingURL=CogDuotone.cjs.map
 //# sourceMappingURL=CogDuotone.cjs.map

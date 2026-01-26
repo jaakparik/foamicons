@@ -1,4 +1,4 @@
-export { SunDuotone } from '../chunk-NHCKFK5Z.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { SunDuotone } from '../chunk-GRSGLAG6.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=SunDuotone.js.map
 //# sourceMappingURL=SunDuotone.js.map

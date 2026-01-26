@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkB4L4353T_cjs = require('../chunk-B4L4353T.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkU6JD7M5Y_cjs = require('../chunk-U6JD7M5Y.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LoaderCircleDuotone", {
   enumerable: true,
-  get: function () { return chunkB4L4353T_cjs.LoaderCircleDuotone; }
+  get: function () { return chunkU6JD7M5Y_cjs.LoaderCircleDuotone; }
 });
 //# sourceMappingURL=LoaderCircleDuotone.cjs.map
 //# sourceMappingURL=LoaderCircleDuotone.cjs.map

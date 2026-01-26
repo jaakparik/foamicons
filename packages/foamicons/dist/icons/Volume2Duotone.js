@@ -1,4 +1,4 @@
-export { Volume2Duotone } from '../chunk-UBWN2KV5.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { Volume2Duotone } from '../chunk-MYCPYPAN.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=Volume2Duotone.js.map
 //# sourceMappingURL=Volume2Duotone.js.map

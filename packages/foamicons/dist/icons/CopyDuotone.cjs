@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkSPYHDVNW_cjs = require('../chunk-SPYHDVNW.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkUFUJV2DO_cjs = require('../chunk-UFUJV2DO.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "CopyDuotone", {
   enumerable: true,
-  get: function () { return chunkSPYHDVNW_cjs.CopyDuotone; }
+  get: function () { return chunkUFUJV2DO_cjs.CopyDuotone; }
 });
 //# sourceMappingURL=CopyDuotone.cjs.map
 //# sourceMappingURL=CopyDuotone.cjs.map

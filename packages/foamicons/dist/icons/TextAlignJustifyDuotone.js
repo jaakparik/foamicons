@@ -1,4 +1,4 @@
-export { TextAlignJustifyDuotone } from '../chunk-XWGOY3O4.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { TextAlignJustifyDuotone } from '../chunk-YKIJUTC2.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=TextAlignJustifyDuotone.js.map
 //# sourceMappingURL=TextAlignJustifyDuotone.js.map

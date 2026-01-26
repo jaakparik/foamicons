@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkH746COZZ_cjs = require('../chunk-H746COZZ.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkKMLIRQ2N_cjs = require('../chunk-KMLIRQ2N.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LogoTiktokFill", {
   enumerable: true,
-  get: function () { return chunkH746COZZ_cjs.LogoTiktokFill; }
+  get: function () { return chunkKMLIRQ2N_cjs.LogoTiktokFill; }
 });
 //# sourceMappingURL=LogoTiktokFill.cjs.map
 //# sourceMappingURL=LogoTiktokFill.cjs.map

@@ -1,4 +1,4 @@
-export { PointerDuotone } from '../chunk-JIQZSZPC.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { PointerDuotone } from '../chunk-BCFHMENS.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=PointerDuotone.js.map
 //# sourceMappingURL=PointerDuotone.js.map

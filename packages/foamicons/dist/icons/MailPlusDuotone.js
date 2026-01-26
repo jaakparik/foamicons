@@ -1,4 +1,4 @@
-export { MailPlusDuotone } from '../chunk-DMKIJCXT.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { MailPlusDuotone } from '../chunk-DX4DWHD7.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=MailPlusDuotone.js.map
 //# sourceMappingURL=MailPlusDuotone.js.map

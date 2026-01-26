@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk3KUQTIQN_cjs = require('../chunk-3KUQTIQN.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk4GO24NQ5_cjs = require('../chunk-4GO24NQ5.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "FileUserDuotone", {
   enumerable: true,
-  get: function () { return chunk3KUQTIQN_cjs.FileUserDuotone; }
+  get: function () { return chunk4GO24NQ5_cjs.FileUserDuotone; }
 });
 //# sourceMappingURL=FileUserDuotone.cjs.map
 //# sourceMappingURL=FileUserDuotone.cjs.map

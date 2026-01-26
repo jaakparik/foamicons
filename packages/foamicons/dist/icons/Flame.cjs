@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkSNSYOWSK_cjs = require('../chunk-SNSYOWSK.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkAV2U3N7X_cjs = require('../chunk-AV2U3N7X.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "Flame", {
   enumerable: true,
-  get: function () { return chunkSNSYOWSK_cjs.Flame; }
+  get: function () { return chunkAV2U3N7X_cjs.Flame; }
 });
 //# sourceMappingURL=Flame.cjs.map
 //# sourceMappingURL=Flame.cjs.map

@@ -1,4 +1,4 @@
-export { CogDuotone } from '../chunk-KBNIIV55.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { CogDuotone } from '../chunk-V7PUFUIQ.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=CogDuotone.js.map
 //# sourceMappingURL=CogDuotone.js.map

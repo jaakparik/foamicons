@@ -1,4 +1,4 @@
-export { SquarePenFill } from '../chunk-JAYEPAXA.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { SquarePenFill } from '../chunk-D62WDKDT.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=SquarePenFill.js.map
 //# sourceMappingURL=SquarePenFill.js.map

@@ -1,4 +1,4 @@
-export { FlameDuotone } from '../chunk-AVGWFO3T.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { FlameDuotone } from '../chunk-MNGH5AHS.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=FlameDuotone.js.map
 //# sourceMappingURL=FlameDuotone.js.map

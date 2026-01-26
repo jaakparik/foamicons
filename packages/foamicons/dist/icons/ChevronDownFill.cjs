@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkM55WTZTF_cjs = require('../chunk-M55WTZTF.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk3SWA4CE2_cjs = require('../chunk-3SWA4CE2.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "ChevronDownFill", {
   enumerable: true,
-  get: function () { return chunkM55WTZTF_cjs.ChevronDownFill; }
+  get: function () { return chunk3SWA4CE2_cjs.ChevronDownFill; }
 });
 //# sourceMappingURL=ChevronDownFill.cjs.map
 //# sourceMappingURL=ChevronDownFill.cjs.map

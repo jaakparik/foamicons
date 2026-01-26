@@ -1,4 +1,4 @@
-export { Inbox } from '../chunk-FDA7FKRC.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { Inbox } from '../chunk-MXZ74D4D.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=Inbox.js.map
 //# sourceMappingURL=Inbox.js.map

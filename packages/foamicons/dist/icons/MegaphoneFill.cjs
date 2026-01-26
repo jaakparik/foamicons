@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkMFXA24BE_cjs = require('../chunk-MFXA24BE.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk4FLQ6FDL_cjs = require('../chunk-4FLQ6FDL.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "MegaphoneFill", {
   enumerable: true,
-  get: function () { return chunkMFXA24BE_cjs.MegaphoneFill; }
+  get: function () { return chunk4FLQ6FDL_cjs.MegaphoneFill; }
 });
 //# sourceMappingURL=MegaphoneFill.cjs.map
 //# sourceMappingURL=MegaphoneFill.cjs.map

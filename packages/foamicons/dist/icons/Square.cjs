@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkZFQ3IPIA_cjs = require('../chunk-ZFQ3IPIA.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkCL5V6HD5_cjs = require('../chunk-CL5V6HD5.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "Square", {
   enumerable: true,
-  get: function () { return chunkZFQ3IPIA_cjs.Square; }
+  get: function () { return chunkCL5V6HD5_cjs.Square; }
 });
 //# sourceMappingURL=Square.cjs.map
 //# sourceMappingURL=Square.cjs.map

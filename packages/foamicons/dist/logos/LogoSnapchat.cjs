@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk4NE4AZNG_cjs = require('../chunk-4NE4AZNG.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkFNF3RA6U_cjs = require('../chunk-FNF3RA6U.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LogoSnapchat", {
   enumerable: true,
-  get: function () { return chunk4NE4AZNG_cjs.LogoSnapchat; }
+  get: function () { return chunkFNF3RA6U_cjs.LogoSnapchat; }
 });
 //# sourceMappingURL=LogoSnapchat.cjs.map
 //# sourceMappingURL=LogoSnapchat.cjs.map

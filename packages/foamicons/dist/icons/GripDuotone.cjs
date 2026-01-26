@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk4DEZQLBA_cjs = require('../chunk-4DEZQLBA.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkF7ALTA6I_cjs = require('../chunk-F7ALTA6I.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "GripDuotone", {
   enumerable: true,
-  get: function () { return chunk4DEZQLBA_cjs.GripDuotone; }
+  get: function () { return chunkF7ALTA6I_cjs.GripDuotone; }
 });
 //# sourceMappingURL=GripDuotone.cjs.map
 //# sourceMappingURL=GripDuotone.cjs.map

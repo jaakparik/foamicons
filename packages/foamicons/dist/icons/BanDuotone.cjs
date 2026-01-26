@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkFMHSKNZR_cjs = require('../chunk-FMHSKNZR.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkBWAAYGXF_cjs = require('../chunk-BWAAYGXF.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "BanDuotone", {
   enumerable: true,
-  get: function () { return chunkFMHSKNZR_cjs.BanDuotone; }
+  get: function () { return chunkBWAAYGXF_cjs.BanDuotone; }
 });
 //# sourceMappingURL=BanDuotone.cjs.map
 //# sourceMappingURL=BanDuotone.cjs.map

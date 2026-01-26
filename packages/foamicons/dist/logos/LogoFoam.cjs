@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk6EKFRH74_cjs = require('../chunk-6EKFRH74.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkVXKHYC44_cjs = require('../chunk-VXKHYC44.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LogoFoam", {
   enumerable: true,
-  get: function () { return chunk6EKFRH74_cjs.LogoFoam; }
+  get: function () { return chunkVXKHYC44_cjs.LogoFoam; }
 });
 //# sourceMappingURL=LogoFoam.cjs.map
 //# sourceMappingURL=LogoFoam.cjs.map

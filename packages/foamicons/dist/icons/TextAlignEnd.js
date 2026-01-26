@@ -1,4 +1,4 @@
-export { TextAlignEnd } from '../chunk-NGO45U7T.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { TextAlignEnd } from '../chunk-GZNG55RY.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=TextAlignEnd.js.map
 //# sourceMappingURL=TextAlignEnd.js.map

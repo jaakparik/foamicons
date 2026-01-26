@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk5IUBSKOG_cjs = require('../chunk-5IUBSKOG.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkTHX2S4ZQ_cjs = require('../chunk-THX2S4ZQ.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "CommandDuotone", {
   enumerable: true,
-  get: function () { return chunk5IUBSKOG_cjs.CommandDuotone; }
+  get: function () { return chunkTHX2S4ZQ_cjs.CommandDuotone; }
 });
 //# sourceMappingURL=CommandDuotone.cjs.map
 //# sourceMappingURL=CommandDuotone.cjs.map

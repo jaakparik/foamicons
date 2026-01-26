@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkMDPDWRJO_cjs = require('../chunk-MDPDWRJO.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkAFBF5UPS_cjs = require('../chunk-AFBF5UPS.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LogoFacebookFill", {
   enumerable: true,
-  get: function () { return chunkMDPDWRJO_cjs.LogoFacebookFill; }
+  get: function () { return chunkAFBF5UPS_cjs.LogoFacebookFill; }
 });
 //# sourceMappingURL=LogoFacebookFill.cjs.map
 //# sourceMappingURL=LogoFacebookFill.cjs.map

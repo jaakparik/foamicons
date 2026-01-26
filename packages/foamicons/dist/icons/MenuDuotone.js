@@ -1,4 +1,4 @@
-export { MenuDuotone } from '../chunk-KV3ESMWF.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { MenuDuotone } from '../chunk-UOJ4EQKY.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=MenuDuotone.js.map
 //# sourceMappingURL=MenuDuotone.js.map

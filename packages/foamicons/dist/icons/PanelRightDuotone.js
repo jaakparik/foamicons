@@ -1,4 +1,4 @@
-export { PanelRightDuotone } from '../chunk-HZTISEKC.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { PanelRightDuotone } from '../chunk-QG3PMPOL.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=PanelRightDuotone.js.map
 //# sourceMappingURL=PanelRightDuotone.js.map

@@ -1,4 +1,4 @@
-export { FileArrowLeftRightFill } from '../chunk-VXL23BIM.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { FileArrowLeftRightFill } from '../chunk-ZGUZ33J2.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=FileArrowLeftRightFill.js.map
 //# sourceMappingURL=FileArrowLeftRightFill.js.map

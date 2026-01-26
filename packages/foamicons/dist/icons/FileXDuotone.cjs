@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkAZE7WKGT_cjs = require('../chunk-AZE7WKGT.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkQQHC7JMH_cjs = require('../chunk-QQHC7JMH.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "FileXDuotone", {
   enumerable: true,
-  get: function () { return chunkAZE7WKGT_cjs.FileXDuotone; }
+  get: function () { return chunkQQHC7JMH_cjs.FileXDuotone; }
 });
 //# sourceMappingURL=FileXDuotone.cjs.map
 //# sourceMappingURL=FileXDuotone.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkNO677L3B_cjs = require('../chunk-NO677L3B.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkPETSIN5I_cjs = require('../chunk-PETSIN5I.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "ArrowUpIGFill", {
   enumerable: true,
-  get: function () { return chunkNO677L3B_cjs.ArrowUpIGFill; }
+  get: function () { return chunkPETSIN5I_cjs.ArrowUpIGFill; }
 });
 //# sourceMappingURL=ArrowUpIGFill.cjs.map
 //# sourceMappingURL=ArrowUpIGFill.cjs.map

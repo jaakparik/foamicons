@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkPPYVYVAI_cjs = require('../chunk-PPYVYVAI.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkY3JZJTYK_cjs = require('../chunk-Y3JZJTYK.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LogoMicrosoft", {
   enumerable: true,
-  get: function () { return chunkPPYVYVAI_cjs.LogoMicrosoft; }
+  get: function () { return chunkY3JZJTYK_cjs.LogoMicrosoft; }
 });
 //# sourceMappingURL=LogoMicrosoft.cjs.map
 //# sourceMappingURL=LogoMicrosoft.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkJ6KE2RJS_cjs = require('../chunk-J6KE2RJS.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkR3BAG7RK_cjs = require('../chunk-R3BAG7RK.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LogoLinkedin", {
   enumerable: true,
-  get: function () { return chunkJ6KE2RJS_cjs.LogoLinkedin; }
+  get: function () { return chunkR3BAG7RK_cjs.LogoLinkedin; }
 });
 //# sourceMappingURL=LogoLinkedin.cjs.map
 //# sourceMappingURL=LogoLinkedin.cjs.map

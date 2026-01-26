@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkO6IHMAOI_cjs = require('../chunk-O6IHMAOI.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkJYHVQFS5_cjs = require('../chunk-JYHVQFS5.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "MailMove", {
   enumerable: true,
-  get: function () { return chunkO6IHMAOI_cjs.MailMove; }
+  get: function () { return chunkJYHVQFS5_cjs.MailMove; }
 });
 //# sourceMappingURL=MailMove.cjs.map
 //# sourceMappingURL=MailMove.cjs.map

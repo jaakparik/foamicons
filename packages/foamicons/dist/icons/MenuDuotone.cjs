@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkWGQFRUH3_cjs = require('../chunk-WGQFRUH3.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkKXDRBUWA_cjs = require('../chunk-KXDRBUWA.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "MenuDuotone", {
   enumerable: true,
-  get: function () { return chunkWGQFRUH3_cjs.MenuDuotone; }
+  get: function () { return chunkKXDRBUWA_cjs.MenuDuotone; }
 });
 //# sourceMappingURL=MenuDuotone.cjs.map
 //# sourceMappingURL=MenuDuotone.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkUBGR3ODV_cjs = require('../chunk-UBGR3ODV.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkTRTLU642_cjs = require('../chunk-TRTLU642.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "ClockDuotone", {
   enumerable: true,
-  get: function () { return chunkUBGR3ODV_cjs.ClockDuotone; }
+  get: function () { return chunkTRTLU642_cjs.ClockDuotone; }
 });
 //# sourceMappingURL=ClockDuotone.cjs.map
 //# sourceMappingURL=ClockDuotone.cjs.map

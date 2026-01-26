@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk6ZUO54UM_cjs = require('../chunk-6ZUO54UM.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkJIITEQ53_cjs = require('../chunk-JIITEQ53.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "ArrowDownIG", {
   enumerable: true,
-  get: function () { return chunk6ZUO54UM_cjs.ArrowDownIG; }
+  get: function () { return chunkJIITEQ53_cjs.ArrowDownIG; }
 });
 //# sourceMappingURL=ArrowDownIG.cjs.map
 //# sourceMappingURL=ArrowDownIG.cjs.map

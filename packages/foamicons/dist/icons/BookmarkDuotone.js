@@ -1,4 +1,4 @@
-export { BookmarkDuotone } from '../chunk-CTWGGVX5.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { BookmarkDuotone } from '../chunk-XGECU4M7.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=BookmarkDuotone.js.map
 //# sourceMappingURL=BookmarkDuotone.js.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkAFMRRSP4_cjs = require('../chunk-AFMRRSP4.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkOSHYQ6IS_cjs = require('../chunk-OSHYQ6IS.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "SquareDuotone", {
   enumerable: true,
-  get: function () { return chunkAFMRRSP4_cjs.SquareDuotone; }
+  get: function () { return chunkOSHYQ6IS_cjs.SquareDuotone; }
 });
 //# sourceMappingURL=SquareDuotone.cjs.map
 //# sourceMappingURL=SquareDuotone.cjs.map

@@ -1,4 +1,4 @@
-export { BookmarkFill } from '../chunk-LFJ5MDJE.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { BookmarkFill } from '../chunk-L4GH2GD5.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=BookmarkFill.js.map
 //# sourceMappingURL=BookmarkFill.js.map

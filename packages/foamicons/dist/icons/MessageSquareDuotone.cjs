@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkITS2VTX6_cjs = require('../chunk-ITS2VTX6.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkOAFARY7I_cjs = require('../chunk-OAFARY7I.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "MessageSquareDuotone", {
   enumerable: true,
-  get: function () { return chunkITS2VTX6_cjs.MessageSquareDuotone; }
+  get: function () { return chunkOAFARY7I_cjs.MessageSquareDuotone; }
 });
 //# sourceMappingURL=MessageSquareDuotone.cjs.map
 //# sourceMappingURL=MessageSquareDuotone.cjs.map

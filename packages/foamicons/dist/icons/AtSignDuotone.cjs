@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkQMGEYKCI_cjs = require('../chunk-QMGEYKCI.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkBVNWVKGN_cjs = require('../chunk-BVNWVKGN.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "AtSignDuotone", {
   enumerable: true,
-  get: function () { return chunkQMGEYKCI_cjs.AtSignDuotone; }
+  get: function () { return chunkBVNWVKGN_cjs.AtSignDuotone; }
 });
 //# sourceMappingURL=AtSignDuotone.cjs.map
 //# sourceMappingURL=AtSignDuotone.cjs.map

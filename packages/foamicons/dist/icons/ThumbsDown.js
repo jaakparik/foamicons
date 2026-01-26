@@ -1,4 +1,4 @@
-export { ThumbsDown } from '../chunk-3SRHBSO5.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { ThumbsDown } from '../chunk-2DZHITMP.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=ThumbsDown.js.map
 //# sourceMappingURL=ThumbsDown.js.map

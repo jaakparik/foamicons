@@ -1,4 +1,4 @@
-export { SparklesDuotone } from '../chunk-V7T4OAIJ.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { SparklesDuotone } from '../chunk-PJRIWVX7.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=SparklesDuotone.js.map
 //# sourceMappingURL=SparklesDuotone.js.map

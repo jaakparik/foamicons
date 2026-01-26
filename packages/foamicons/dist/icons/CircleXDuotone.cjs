@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkK7K4XR7N_cjs = require('../chunk-K7K4XR7N.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkV75HOBUO_cjs = require('../chunk-V75HOBUO.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "CircleXDuotone", {
   enumerable: true,
-  get: function () { return chunkK7K4XR7N_cjs.CircleXDuotone; }
+  get: function () { return chunkV75HOBUO_cjs.CircleXDuotone; }
 });
 //# sourceMappingURL=CircleXDuotone.cjs.map
 //# sourceMappingURL=CircleXDuotone.cjs.map

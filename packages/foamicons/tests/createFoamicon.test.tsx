@@ -27,12 +27,12 @@ describe('createFoamicon', () => {
     render(<TestIcon data-testid="test-icon" />);
     const svg = screen.getByTestId('test-icon');
 
-    // Size is not set by default (allows Tailwind h-*/w-* classes to work)
-    expect(svg.getAttribute('width')).toBeNull();
-    expect(svg.getAttribute('height')).toBeNull();
+    // Default size is 16
+    expect(svg.getAttribute('width')).toBe('16');
+    expect(svg.getAttribute('height')).toBe('16');
     expect(svg.getAttribute('viewBox')).toBe('0 0 16 16');
     expect(svg.getAttribute('stroke')).toBe('currentColor');
-    expect(svg.getAttribute('stroke-width')).toBe('0.75');
+    expect(svg.getAttribute('stroke-width')).toBe('1');
   });
 
   it('applies custom size prop', () => {

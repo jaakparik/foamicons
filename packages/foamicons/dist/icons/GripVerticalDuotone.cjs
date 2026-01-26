@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkN27M5GFN_cjs = require('../chunk-N27M5GFN.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk55ESYI2P_cjs = require('../chunk-55ESYI2P.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "GripVerticalDuotone", {
   enumerable: true,
-  get: function () { return chunkN27M5GFN_cjs.GripVerticalDuotone; }
+  get: function () { return chunk55ESYI2P_cjs.GripVerticalDuotone; }
 });
 //# sourceMappingURL=GripVerticalDuotone.cjs.map
 //# sourceMappingURL=GripVerticalDuotone.cjs.map

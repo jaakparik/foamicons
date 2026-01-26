@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkYQUKUV3O_cjs = require('../chunk-YQUKUV3O.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkEZ44VTFJ_cjs = require('../chunk-EZ44VTFJ.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "TrashEmpty", {
   enumerable: true,
-  get: function () { return chunkYQUKUV3O_cjs.TrashEmpty; }
+  get: function () { return chunkEZ44VTFJ_cjs.TrashEmpty; }
 });
 //# sourceMappingURL=TrashEmpty.cjs.map
 //# sourceMappingURL=TrashEmpty.cjs.map

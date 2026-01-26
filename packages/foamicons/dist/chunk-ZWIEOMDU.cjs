@@ -1,0 +1,34 @@
+'use strict';
+
+var chunkFGZDSWCH_cjs = require('./chunk-FGZDSWCH.cjs');
+
+// src/icons/Eye.tsx
+var __iconNode = [
+  [
+    "path",
+    {
+      d: "M15 8C15 9.66667 11.866 13 8 13C4.13401 13 1 9.66667 1 8C1 6.33333 4.13401 3 8 3C11.866 3 15 6.33333 15 8Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kyhq26"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "51bw8s"
+    }
+  ]
+];
+var Eye = chunkFGZDSWCH_cjs.createFoamicon("Eye", __iconNode);
+
+exports.Eye = Eye;
+//# sourceMappingURL=chunk-ZWIEOMDU.cjs.map
+//# sourceMappingURL=chunk-ZWIEOMDU.cjs.map

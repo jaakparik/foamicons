@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkNOA2DLRS_cjs = require('../chunk-NOA2DLRS.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkZOVFDWFZ_cjs = require('../chunk-ZOVFDWFZ.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "AlertDuotone", {
   enumerable: true,
-  get: function () { return chunkNOA2DLRS_cjs.AlertDuotone; }
+  get: function () { return chunkZOVFDWFZ_cjs.AlertDuotone; }
 });
 //# sourceMappingURL=AlertDuotone.cjs.map
 //# sourceMappingURL=AlertDuotone.cjs.map

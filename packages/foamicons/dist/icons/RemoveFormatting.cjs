@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkQBUBY6BB_cjs = require('../chunk-QBUBY6BB.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkKSDIJ7ZI_cjs = require('../chunk-KSDIJ7ZI.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "RemoveFormatting", {
   enumerable: true,
-  get: function () { return chunkQBUBY6BB_cjs.RemoveFormatting; }
+  get: function () { return chunkKSDIJ7ZI_cjs.RemoveFormatting; }
 });
 //# sourceMappingURL=RemoveFormatting.cjs.map
 //# sourceMappingURL=RemoveFormatting.cjs.map

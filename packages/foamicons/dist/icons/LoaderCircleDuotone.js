@@ -1,4 +1,4 @@
-export { LoaderCircleDuotone } from '../chunk-X5D6BOCW.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { LoaderCircleDuotone } from '../chunk-XSXLXEVK.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=LoaderCircleDuotone.js.map
 //# sourceMappingURL=LoaderCircleDuotone.js.map

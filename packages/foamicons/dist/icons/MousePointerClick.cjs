@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkYI4QE7P5_cjs = require('../chunk-YI4QE7P5.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkKL24F4S6_cjs = require('../chunk-KL24F4S6.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "MousePointerClick", {
   enumerable: true,
-  get: function () { return chunkYI4QE7P5_cjs.MousePointerClick; }
+  get: function () { return chunkKL24F4S6_cjs.MousePointerClick; }
 });
 //# sourceMappingURL=MousePointerClick.cjs.map
 //# sourceMappingURL=MousePointerClick.cjs.map

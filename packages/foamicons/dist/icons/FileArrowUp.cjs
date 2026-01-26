@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkYEUYFUIM_cjs = require('../chunk-YEUYFUIM.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkAFW5AOPY_cjs = require('../chunk-AFW5AOPY.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "FileArrowUp", {
   enumerable: true,
-  get: function () { return chunkYEUYFUIM_cjs.FileArrowUp; }
+  get: function () { return chunkAFW5AOPY_cjs.FileArrowUp; }
 });
 //# sourceMappingURL=FileArrowUp.cjs.map
 //# sourceMappingURL=FileArrowUp.cjs.map

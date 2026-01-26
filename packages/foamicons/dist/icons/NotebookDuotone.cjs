@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkM5XSFMMI_cjs = require('../chunk-M5XSFMMI.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkJ4GM5JAM_cjs = require('../chunk-J4GM5JAM.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "NotebookDuotone", {
   enumerable: true,
-  get: function () { return chunkM5XSFMMI_cjs.NotebookDuotone; }
+  get: function () { return chunkJ4GM5JAM_cjs.NotebookDuotone; }
 });
 //# sourceMappingURL=NotebookDuotone.cjs.map
 //# sourceMappingURL=NotebookDuotone.cjs.map

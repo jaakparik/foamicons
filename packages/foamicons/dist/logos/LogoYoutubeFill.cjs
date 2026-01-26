@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkP7RJT7IS_cjs = require('../chunk-P7RJT7IS.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkYRD5IMJK_cjs = require('../chunk-YRD5IMJK.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LogoYoutubeFill", {
   enumerable: true,
-  get: function () { return chunkP7RJT7IS_cjs.LogoYoutubeFill; }
+  get: function () { return chunkYRD5IMJK_cjs.LogoYoutubeFill; }
 });
 //# sourceMappingURL=LogoYoutubeFill.cjs.map
 //# sourceMappingURL=LogoYoutubeFill.cjs.map

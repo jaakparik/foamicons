@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkHX42QP6L_cjs = require('../chunk-HX42QP6L.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkO2EOPBBB_cjs = require('../chunk-O2EOPBBB.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "ArchiveDuotone", {
   enumerable: true,
-  get: function () { return chunkHX42QP6L_cjs.ArchiveDuotone; }
+  get: function () { return chunkO2EOPBBB_cjs.ArchiveDuotone; }
 });
 //# sourceMappingURL=ArchiveDuotone.cjs.map
 //# sourceMappingURL=ArchiveDuotone.cjs.map

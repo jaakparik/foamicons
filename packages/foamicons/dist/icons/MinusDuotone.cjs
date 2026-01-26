@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkMYSV65QE_cjs = require('../chunk-MYSV65QE.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk4RZTDGNQ_cjs = require('../chunk-4RZTDGNQ.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "MinusDuotone", {
   enumerable: true,
-  get: function () { return chunkMYSV65QE_cjs.MinusDuotone; }
+  get: function () { return chunk4RZTDGNQ_cjs.MinusDuotone; }
 });
 //# sourceMappingURL=MinusDuotone.cjs.map
 //# sourceMappingURL=MinusDuotone.cjs.map

@@ -32,8 +32,8 @@ export const Icon = forwardRef<SVGSVGElement, IconComponentProps>(
   (
     {
       color = 'currentColor',
-      size,
-      strokeWidth = 0.75,
+      size = DEFAULT_SIZE,
+      strokeWidth = 1,
       absoluteStrokeWidth = true,
       secondaryColor,
       secondaryOpacity,

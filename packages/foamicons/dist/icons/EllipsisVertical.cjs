@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkIHU2UP6R_cjs = require('../chunk-IHU2UP6R.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkNYUDLAII_cjs = require('../chunk-NYUDLAII.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "EllipsisVertical", {
   enumerable: true,
-  get: function () { return chunkIHU2UP6R_cjs.EllipsisVertical; }
+  get: function () { return chunkNYUDLAII_cjs.EllipsisVertical; }
 });
 //# sourceMappingURL=EllipsisVertical.cjs.map
 //# sourceMappingURL=EllipsisVertical.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkJM6YBB3V_cjs = require('../chunk-JM6YBB3V.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk22AJS3BP_cjs = require('../chunk-22AJS3BP.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "EllipsisVerticalDuotone", {
   enumerable: true,
-  get: function () { return chunkJM6YBB3V_cjs.EllipsisVerticalDuotone; }
+  get: function () { return chunk22AJS3BP_cjs.EllipsisVerticalDuotone; }
 });
 //# sourceMappingURL=EllipsisVerticalDuotone.cjs.map
 //# sourceMappingURL=EllipsisVerticalDuotone.cjs.map

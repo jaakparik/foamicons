@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkWWSTYWXN_cjs = require('../chunk-WWSTYWXN.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkLJUI42BR_cjs = require('../chunk-LJUI42BR.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LogoGmailFill", {
   enumerable: true,
-  get: function () { return chunkWWSTYWXN_cjs.LogoGmailFill; }
+  get: function () { return chunkLJUI42BR_cjs.LogoGmailFill; }
 });
 //# sourceMappingURL=LogoGmailFill.cjs.map
 //# sourceMappingURL=LogoGmailFill.cjs.map

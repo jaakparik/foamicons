@@ -1,4 +1,4 @@
-export { LogoMicrosoftFill } from '../chunk-3D662CVP.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { LogoMicrosoftFill } from '../chunk-VSBHX2G3.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=LogoMicrosoftFill.js.map
 //# sourceMappingURL=LogoMicrosoftFill.js.map

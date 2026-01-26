@@ -1,4 +1,4 @@
-export { ItalicDuotone } from '../chunk-EMRIROTR.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { ItalicDuotone } from '../chunk-F23QIFUC.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=ItalicDuotone.js.map
 //# sourceMappingURL=ItalicDuotone.js.map

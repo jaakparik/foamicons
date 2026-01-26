@@ -1,4 +1,4 @@
-export { PanelRight } from '../chunk-AIZMIHEC.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { PanelRight } from '../chunk-KDBA4DRR.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=PanelRight.js.map
 //# sourceMappingURL=PanelRight.js.map

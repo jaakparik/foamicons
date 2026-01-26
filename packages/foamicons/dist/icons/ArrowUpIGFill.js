@@ -1,4 +1,4 @@
-export { ArrowUpIGFill } from '../chunk-MT3JSXPX.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { ArrowUpIGFill } from '../chunk-5XDW3ER7.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=ArrowUpIGFill.js.map
 //# sourceMappingURL=ArrowUpIGFill.js.map

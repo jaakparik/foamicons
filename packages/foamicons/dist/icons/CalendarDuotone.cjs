@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkXOJ52GZW_cjs = require('../chunk-XOJ52GZW.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk6HQ7RNJV_cjs = require('../chunk-6HQ7RNJV.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "CalendarDuotone", {
   enumerable: true,
-  get: function () { return chunkXOJ52GZW_cjs.CalendarDuotone; }
+  get: function () { return chunk6HQ7RNJV_cjs.CalendarDuotone; }
 });
 //# sourceMappingURL=CalendarDuotone.cjs.map
 //# sourceMappingURL=CalendarDuotone.cjs.map

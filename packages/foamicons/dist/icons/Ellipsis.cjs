@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk7Q4ZWTJP_cjs = require('../chunk-7Q4ZWTJP.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkFHYB2QVH_cjs = require('../chunk-FHYB2QVH.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "Ellipsis", {
   enumerable: true,
-  get: function () { return chunk7Q4ZWTJP_cjs.Ellipsis; }
+  get: function () { return chunkFHYB2QVH_cjs.Ellipsis; }
 });
 //# sourceMappingURL=Ellipsis.cjs.map
 //# sourceMappingURL=Ellipsis.cjs.map

@@ -1,4 +1,4 @@
-export { UserArrowLeftRightFill } from '../chunk-WVIGDG33.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { UserArrowLeftRightFill } from '../chunk-3GZWCNWI.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=UserArrowLeftRightFill.js.map
 //# sourceMappingURL=UserArrowLeftRightFill.js.map

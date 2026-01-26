@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkM5Z3RZW4_cjs = require('../chunk-M5Z3RZW4.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkOX5TLFQM_cjs = require('../chunk-OX5TLFQM.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "HotspotDuotone", {
   enumerable: true,
-  get: function () { return chunkM5Z3RZW4_cjs.HotspotDuotone; }
+  get: function () { return chunkOX5TLFQM_cjs.HotspotDuotone; }
 });
 //# sourceMappingURL=HotspotDuotone.cjs.map
 //# sourceMappingURL=HotspotDuotone.cjs.map

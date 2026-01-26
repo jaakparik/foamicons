@@ -241,8 +241,8 @@ getCanonicalName('Search');   // 'Search' (already canonical)
 
 | Prop                  | Type             | Default          | Description                                        |
 | --------------------- | ---------------- | ---------------- | -------------------------------------------------- |
-| `size`                | `number\|string` | -                | Width and height. If omitted, use Tailwind `h-* w-*` classes |
-| `strokeWidth`         | `number\|string` | `0.75`           | Stroke width                                       |
+| `size`                | `number\|string` | `16`             | Width and height                                   |
+| `strokeWidth`         | `number\|string` | `1`              | Stroke width                                       |
 | `absoluteStrokeWidth` | `boolean`        | `true`           | Keep stroke width constant regardless of icon size |
 | `color`               | `string`         | `'currentColor'` | Primary icon color (or use Tailwind `text-*`)      |
 | `secondaryColor`      | `string`         | `'currentColor'` | Secondary color for duotone/fill variants          |

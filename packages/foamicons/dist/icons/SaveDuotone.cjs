@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkCE2WGWEI_cjs = require('../chunk-CE2WGWEI.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkX6EDQS42_cjs = require('../chunk-X6EDQS42.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "SaveDuotone", {
   enumerable: true,
-  get: function () { return chunkCE2WGWEI_cjs.SaveDuotone; }
+  get: function () { return chunkX6EDQS42_cjs.SaveDuotone; }
 });
 //# sourceMappingURL=SaveDuotone.cjs.map
 //# sourceMappingURL=SaveDuotone.cjs.map

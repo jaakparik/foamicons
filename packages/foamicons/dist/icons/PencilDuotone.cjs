@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkBNJU43V3_cjs = require('../chunk-BNJU43V3.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkWL4HNRUJ_cjs = require('../chunk-WL4HNRUJ.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "PencilDuotone", {
   enumerable: true,
-  get: function () { return chunkBNJU43V3_cjs.PencilDuotone; }
+  get: function () { return chunkWL4HNRUJ_cjs.PencilDuotone; }
 });
 //# sourceMappingURL=PencilDuotone.cjs.map
 //# sourceMappingURL=PencilDuotone.cjs.map

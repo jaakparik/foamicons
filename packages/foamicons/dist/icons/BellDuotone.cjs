@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkQW3DIIHA_cjs = require('../chunk-QW3DIIHA.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkU2PYFCZI_cjs = require('../chunk-U2PYFCZI.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "BellDuotone", {
   enumerable: true,
-  get: function () { return chunkQW3DIIHA_cjs.BellDuotone; }
+  get: function () { return chunkU2PYFCZI_cjs.BellDuotone; }
 });
 //# sourceMappingURL=BellDuotone.cjs.map
 //# sourceMappingURL=BellDuotone.cjs.map

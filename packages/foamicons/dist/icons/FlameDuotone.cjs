@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkHLYHEQIV_cjs = require('../chunk-HLYHEQIV.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkMZCLGQMC_cjs = require('../chunk-MZCLGQMC.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "FlameDuotone", {
   enumerable: true,
-  get: function () { return chunkHLYHEQIV_cjs.FlameDuotone; }
+  get: function () { return chunkMZCLGQMC_cjs.FlameDuotone; }
 });
 //# sourceMappingURL=FlameDuotone.cjs.map
 //# sourceMappingURL=FlameDuotone.cjs.map

@@ -1,4 +1,4 @@
-export { LogoInstagram } from '../chunk-7VJ7YNAA.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { LogoInstagram } from '../chunk-VCK4RQL4.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=LogoInstagram.js.map
 //# sourceMappingURL=LogoInstagram.js.map

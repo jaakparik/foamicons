@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkPUF3RYDE_cjs = require('../chunk-PUF3RYDE.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk3HUA7XNY_cjs = require('../chunk-3HUA7XNY.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LogoInstagramFill", {
   enumerable: true,
-  get: function () { return chunkPUF3RYDE_cjs.LogoInstagramFill; }
+  get: function () { return chunk3HUA7XNY_cjs.LogoInstagramFill; }
 });
 //# sourceMappingURL=LogoInstagramFill.cjs.map
 //# sourceMappingURL=LogoInstagramFill.cjs.map

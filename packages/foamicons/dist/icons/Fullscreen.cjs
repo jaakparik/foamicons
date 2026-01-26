@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkFCK2QDCD_cjs = require('../chunk-FCK2QDCD.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkPMX2PWVX_cjs = require('../chunk-PMX2PWVX.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "Fullscreen", {
   enumerable: true,
-  get: function () { return chunkFCK2QDCD_cjs.Fullscreen; }
+  get: function () { return chunkPMX2PWVX_cjs.Fullscreen; }
 });
 //# sourceMappingURL=Fullscreen.cjs.map
 //# sourceMappingURL=Fullscreen.cjs.map

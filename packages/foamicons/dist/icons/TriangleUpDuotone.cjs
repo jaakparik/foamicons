@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkT7Q5RCLW_cjs = require('../chunk-T7Q5RCLW.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkHZZCY65Q_cjs = require('../chunk-HZZCY65Q.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "TriangleUpDuotone", {
   enumerable: true,
-  get: function () { return chunkT7Q5RCLW_cjs.TriangleUpDuotone; }
+  get: function () { return chunkHZZCY65Q_cjs.TriangleUpDuotone; }
 });
 //# sourceMappingURL=TriangleUpDuotone.cjs.map
 //# sourceMappingURL=TriangleUpDuotone.cjs.map

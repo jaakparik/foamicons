@@ -1,4 +1,4 @@
-export { LogoGmail } from '../chunk-3JF2WBSL.js';
-import '../chunk-ZBTJ4ZW3.js';
+export { LogoGmail } from '../chunk-4YGCRWJT.js';
+import '../chunk-RYVBNFJH.js';
 //# sourceMappingURL=LogoGmail.js.map
 //# sourceMappingURL=LogoGmail.js.map

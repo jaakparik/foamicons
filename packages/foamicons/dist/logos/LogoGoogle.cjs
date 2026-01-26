@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkKZSFHRYC_cjs = require('../chunk-KZSFHRYC.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunk6PMLU2ZT_cjs = require('../chunk-6PMLU2ZT.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "LogoGoogle", {
   enumerable: true,
-  get: function () { return chunkKZSFHRYC_cjs.LogoGoogle; }
+  get: function () { return chunk6PMLU2ZT_cjs.LogoGoogle; }
 });
 //# sourceMappingURL=LogoGoogle.cjs.map
 //# sourceMappingURL=LogoGoogle.cjs.map

@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkR4227UCR_cjs = require('../chunk-R4227UCR.cjs');
-require('../chunk-UPMMRKBS.cjs');
+var chunkG6CGD5O3_cjs = require('../chunk-G6CGD5O3.cjs');
+require('../chunk-FGZDSWCH.cjs');
 
 
 
 Object.defineProperty(exports, "PanelRight", {
   enumerable: true,
-  get: function () { return chunkR4227UCR_cjs.PanelRight; }
+  get: function () { return chunkG6CGD5O3_cjs.PanelRight; }
 });
 //# sourceMappingURL=PanelRight.cjs.map
 //# sourceMappingURL=PanelRight.cjs.map
