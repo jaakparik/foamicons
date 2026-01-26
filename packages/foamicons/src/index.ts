@@ -144,9 +144,15 @@ export { Columns3 } from './icons/Columns3';
 export { CommandDuotone } from './icons/CommandDuotone';
 export { CommandFill } from './icons/CommandFill';
 export { Command } from './icons/Command';
+export { ContentHeartDuotone } from './icons/ContentHeartDuotone';
+export { ContentHeartFill } from './icons/ContentHeartFill';
+export { ContentHeart } from './icons/ContentHeart';
 export { ContentPlusDuotone } from './icons/ContentPlusDuotone';
 export { ContentPlusFill } from './icons/ContentPlusFill';
 export { ContentPlus } from './icons/ContentPlus';
+export { ContentUserDuotone } from './icons/ContentUserDuotone';
+export { ContentUserFill } from './icons/ContentUserFill';
+export { ContentUser } from './icons/ContentUser';
 export { CopyDuotone } from './icons/CopyDuotone';
 export { CopyFill } from './icons/CopyFill';
 export { Copy } from './icons/Copy';
@@ -285,9 +291,6 @@ export { MapPin } from './icons/MapPin';
 export { MaximizeDuotone } from './icons/MaximizeDuotone';
 export { MaximizeFill } from './icons/MaximizeFill';
 export { Maximize } from './icons/Maximize';
-export { MediaKitsDuotone } from './icons/MediaKitsDuotone';
-export { MediaKitsFill } from './icons/MediaKitsFill';
-export { MediaKits } from './icons/MediaKits';
 export { MegaphoneActiveDuotone } from './icons/MegaphoneActiveDuotone';
 export { MegaphoneActiveFill } from './icons/MegaphoneActiveFill';
 export { MegaphoneActive } from './icons/MegaphoneActive';
@@ -315,6 +318,9 @@ export { MousePointerClick } from './icons/MousePointerClick';
 export { MoveDuotone } from './icons/MoveDuotone';
 export { MoveFill } from './icons/MoveFill';
 export { Move } from './icons/Move';
+export { NotebookDuotone } from './icons/NotebookDuotone';
+export { NotebookFill } from './icons/NotebookFill';
+export { Notebook } from './icons/Notebook';
 export { PanelLeftDuotone } from './icons/PanelLeftDuotone';
 export { PanelLeftFill } from './icons/PanelLeftFill';
 export { PanelLeft } from './icons/PanelLeft';
@@ -437,6 +443,7 @@ export { UploadFill } from './icons/UploadFill';
 export { Upload } from './icons/Upload';
 export { UserDuotone } from './icons/UserDuotone';
 export { UserFill } from './icons/UserFill';
+export { UserPlusFill } from './icons/UserPlusFill';
 export { User } from './icons/User';
 export { UsersDuotone } from './icons/UsersDuotone';
 export { UsersFill } from './icons/UsersFill';
@@ -729,12 +736,24 @@ export { CommandFill as CommandFillIcon } from './icons/CommandFill';
 export { CommandFill as FoamCommandFill } from './icons/CommandFill';
 export { Command as CommandIcon } from './icons/Command';
 export { Command as FoamCommand } from './icons/Command';
+export { ContentHeartDuotone as ContentHeartDuotoneIcon } from './icons/ContentHeartDuotone';
+export { ContentHeartDuotone as FoamContentHeartDuotone } from './icons/ContentHeartDuotone';
+export { ContentHeartFill as ContentHeartFillIcon } from './icons/ContentHeartFill';
+export { ContentHeartFill as FoamContentHeartFill } from './icons/ContentHeartFill';
+export { ContentHeart as ContentHeartIcon } from './icons/ContentHeart';
+export { ContentHeart as FoamContentHeart } from './icons/ContentHeart';
 export { ContentPlusDuotone as ContentPlusDuotoneIcon } from './icons/ContentPlusDuotone';
 export { ContentPlusDuotone as FoamContentPlusDuotone } from './icons/ContentPlusDuotone';
 export { ContentPlusFill as ContentPlusFillIcon } from './icons/ContentPlusFill';
 export { ContentPlusFill as FoamContentPlusFill } from './icons/ContentPlusFill';
 export { ContentPlus as ContentPlusIcon } from './icons/ContentPlus';
 export { ContentPlus as FoamContentPlus } from './icons/ContentPlus';
+export { ContentUserDuotone as ContentUserDuotoneIcon } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as FoamContentUserDuotone } from './icons/ContentUserDuotone';
+export { ContentUserFill as ContentUserFillIcon } from './icons/ContentUserFill';
+export { ContentUserFill as FoamContentUserFill } from './icons/ContentUserFill';
+export { ContentUser as ContentUserIcon } from './icons/ContentUser';
+export { ContentUser as FoamContentUser } from './icons/ContentUser';
 export { CopyDuotone as CopyDuotoneIcon } from './icons/CopyDuotone';
 export { CopyDuotone as FoamCopyDuotone } from './icons/CopyDuotone';
 export { CopyFill as CopyFillIcon } from './icons/CopyFill';
@@ -1011,12 +1030,6 @@ export { MaximizeFill as MaximizeFillIcon } from './icons/MaximizeFill';
 export { MaximizeFill as FoamMaximizeFill } from './icons/MaximizeFill';
 export { Maximize as MaximizeIcon } from './icons/Maximize';
 export { Maximize as FoamMaximize } from './icons/Maximize';
-export { MediaKitsDuotone as MediaKitsDuotoneIcon } from './icons/MediaKitsDuotone';
-export { MediaKitsDuotone as FoamMediaKitsDuotone } from './icons/MediaKitsDuotone';
-export { MediaKitsFill as MediaKitsFillIcon } from './icons/MediaKitsFill';
-export { MediaKitsFill as FoamMediaKitsFill } from './icons/MediaKitsFill';
-export { MediaKits as MediaKitsIcon } from './icons/MediaKits';
-export { MediaKits as FoamMediaKits } from './icons/MediaKits';
 export { MegaphoneActiveDuotone as MegaphoneActiveDuotoneIcon } from './icons/MegaphoneActiveDuotone';
 export { MegaphoneActiveDuotone as FoamMegaphoneActiveDuotone } from './icons/MegaphoneActiveDuotone';
 export { MegaphoneActiveFill as MegaphoneActiveFillIcon } from './icons/MegaphoneActiveFill';
@@ -1071,6 +1084,12 @@ export { MoveFill as MoveFillIcon } from './icons/MoveFill';
 export { MoveFill as FoamMoveFill } from './icons/MoveFill';
 export { Move as MoveIcon } from './icons/Move';
 export { Move as FoamMove } from './icons/Move';
+export { NotebookDuotone as NotebookDuotoneIcon } from './icons/NotebookDuotone';
+export { NotebookDuotone as FoamNotebookDuotone } from './icons/NotebookDuotone';
+export { NotebookFill as NotebookFillIcon } from './icons/NotebookFill';
+export { NotebookFill as FoamNotebookFill } from './icons/NotebookFill';
+export { Notebook as NotebookIcon } from './icons/Notebook';
+export { Notebook as FoamNotebook } from './icons/Notebook';
 export { PanelLeftDuotone as PanelLeftDuotoneIcon } from './icons/PanelLeftDuotone';
 export { PanelLeftDuotone as FoamPanelLeftDuotone } from './icons/PanelLeftDuotone';
 export { PanelLeftFill as PanelLeftFillIcon } from './icons/PanelLeftFill';
@@ -1315,6 +1334,8 @@ export { UserDuotone as UserDuotoneIcon } from './icons/UserDuotone';
 export { UserDuotone as FoamUserDuotone } from './icons/UserDuotone';
 export { UserFill as UserFillIcon } from './icons/UserFill';
 export { UserFill as FoamUserFill } from './icons/UserFill';
+export { UserPlusFill as UserPlusFillIcon } from './icons/UserPlusFill';
+export { UserPlusFill as FoamUserPlusFill } from './icons/UserPlusFill';
 export { User as UserIcon } from './icons/User';
 export { User as FoamUser } from './icons/User';
 export { UsersDuotone as UsersDuotoneIcon } from './icons/UsersDuotone';
@@ -3279,33 +3300,51 @@ export { MaximizeFill as FoamEnlargeFill } from './icons/MaximizeFill';
 export { Maximize as Enlarge } from './icons/Maximize';
 export { Maximize as EnlargeIcon } from './icons/Maximize';
 export { Maximize as FoamEnlarge } from './icons/Maximize';
-export { MediaKitsDuotone as PressKitDuotone } from './icons/MediaKitsDuotone';
-export { MediaKitsDuotone as PressKitDuotoneIcon } from './icons/MediaKitsDuotone';
-export { MediaKitsDuotone as FoamPressKitDuotone } from './icons/MediaKitsDuotone';
-export { MediaKitsFill as PressKitFill } from './icons/MediaKitsFill';
-export { MediaKitsFill as PressKitFillIcon } from './icons/MediaKitsFill';
-export { MediaKitsFill as FoamPressKitFill } from './icons/MediaKitsFill';
-export { MediaKits as PressKit } from './icons/MediaKits';
-export { MediaKits as PressKitIcon } from './icons/MediaKits';
-export { MediaKits as FoamPressKit } from './icons/MediaKits';
-export { MediaKitsDuotone as BrandAssetsDuotone } from './icons/MediaKitsDuotone';
-export { MediaKitsDuotone as BrandAssetsDuotoneIcon } from './icons/MediaKitsDuotone';
-export { MediaKitsDuotone as FoamBrandAssetsDuotone } from './icons/MediaKitsDuotone';
-export { MediaKitsFill as BrandAssetsFill } from './icons/MediaKitsFill';
-export { MediaKitsFill as BrandAssetsFillIcon } from './icons/MediaKitsFill';
-export { MediaKitsFill as FoamBrandAssetsFill } from './icons/MediaKitsFill';
-export { MediaKits as BrandAssets } from './icons/MediaKits';
-export { MediaKits as BrandAssetsIcon } from './icons/MediaKits';
-export { MediaKits as FoamBrandAssets } from './icons/MediaKits';
-export { MediaKitsDuotone as MediapacksDuotone } from './icons/MediaKitsDuotone';
-export { MediaKitsDuotone as MediapacksDuotoneIcon } from './icons/MediaKitsDuotone';
-export { MediaKitsDuotone as FoamMediapacksDuotone } from './icons/MediaKitsDuotone';
-export { MediaKitsFill as MediapacksFill } from './icons/MediaKitsFill';
-export { MediaKitsFill as MediapacksFillIcon } from './icons/MediaKitsFill';
-export { MediaKitsFill as FoamMediapacksFill } from './icons/MediaKitsFill';
-export { MediaKits as Mediapacks } from './icons/MediaKits';
-export { MediaKits as MediapacksIcon } from './icons/MediaKits';
-export { MediaKits as FoamMediapacks } from './icons/MediaKits';
+export { ContentUserDuotone as MediaKitsDuotone } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as MediaKitsDuotoneIcon } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as FoamMediaKitsDuotone } from './icons/ContentUserDuotone';
+export { ContentUserFill as MediaKitsFill } from './icons/ContentUserFill';
+export { ContentUserFill as MediaKitsFillIcon } from './icons/ContentUserFill';
+export { ContentUserFill as FoamMediaKitsFill } from './icons/ContentUserFill';
+export { ContentUser as MediaKits } from './icons/ContentUser';
+export { ContentUser as MediaKitsIcon } from './icons/ContentUser';
+export { ContentUser as FoamMediaKits } from './icons/ContentUser';
+export { ContentUserDuotone as MediaPacksDuotone } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as MediaPacksDuotoneIcon } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as FoamMediaPacksDuotone } from './icons/ContentUserDuotone';
+export { ContentUserFill as MediaPacksFill } from './icons/ContentUserFill';
+export { ContentUserFill as MediaPacksFillIcon } from './icons/ContentUserFill';
+export { ContentUserFill as FoamMediaPacksFill } from './icons/ContentUserFill';
+export { ContentUser as MediaPacks } from './icons/ContentUser';
+export { ContentUser as MediaPacksIcon } from './icons/ContentUser';
+export { ContentUser as FoamMediaPacks } from './icons/ContentUser';
+export { ContentUserDuotone as PressKitDuotone } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as PressKitDuotoneIcon } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as FoamPressKitDuotone } from './icons/ContentUserDuotone';
+export { ContentUserFill as PressKitFill } from './icons/ContentUserFill';
+export { ContentUserFill as PressKitFillIcon } from './icons/ContentUserFill';
+export { ContentUserFill as FoamPressKitFill } from './icons/ContentUserFill';
+export { ContentUser as PressKit } from './icons/ContentUser';
+export { ContentUser as PressKitIcon } from './icons/ContentUser';
+export { ContentUser as FoamPressKit } from './icons/ContentUser';
+export { ContentUserDuotone as BrandAssetsDuotone } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as BrandAssetsDuotoneIcon } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as FoamBrandAssetsDuotone } from './icons/ContentUserDuotone';
+export { ContentUserFill as BrandAssetsFill } from './icons/ContentUserFill';
+export { ContentUserFill as BrandAssetsFillIcon } from './icons/ContentUserFill';
+export { ContentUserFill as FoamBrandAssetsFill } from './icons/ContentUserFill';
+export { ContentUser as BrandAssets } from './icons/ContentUser';
+export { ContentUser as BrandAssetsIcon } from './icons/ContentUser';
+export { ContentUser as FoamBrandAssets } from './icons/ContentUser';
+export { ContentUserDuotone as MediapacksDuotone } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as MediapacksDuotoneIcon } from './icons/ContentUserDuotone';
+export { ContentUserDuotone as FoamMediapacksDuotone } from './icons/ContentUserDuotone';
+export { ContentUserFill as MediapacksFill } from './icons/ContentUserFill';
+export { ContentUserFill as MediapacksFillIcon } from './icons/ContentUserFill';
+export { ContentUserFill as FoamMediapacksFill } from './icons/ContentUserFill';
+export { ContentUser as Mediapacks } from './icons/ContentUser';
+export { ContentUser as MediapacksIcon } from './icons/ContentUser';
+export { ContentUser as FoamMediapacks } from './icons/ContentUser';
 export { MegaphoneDuotone as AnnounceDuotone } from './icons/MegaphoneDuotone';
 export { MegaphoneDuotone as AnnounceDuotoneIcon } from './icons/MegaphoneDuotone';
 export { MegaphoneDuotone as FoamAnnounceDuotone } from './icons/MegaphoneDuotone';
@@ -4640,7 +4679,7 @@ export { VolumeOff as SpeakerOffIcon } from './icons/VolumeOff';
 export { VolumeOff as FoamSpeakerOff } from './icons/VolumeOff';
 
 // Icon names for tooling
-export const iconNames = ["Alert","AlertDuotone","AlertFill","Archive","ArchiveArrowUp","ArchiveArrowUpDuotone","ArchiveArrowUpFill","ArchiveDuotone","ArchiveFill","ArrowDown","ArrowDown01","ArrowDown01Duotone","ArrowDown01Fill","ArrowDown10","ArrowDown10Duotone","ArrowDown10Fill","ArrowDownDuotone","ArrowDownFill","ArrowDownIG","ArrowDownIGDuotone","ArrowDownIGFill","ArrowDownNarrowWide","ArrowDownNarrowWideDuotone","ArrowDownNarrowWideFill","ArrowDownSC","ArrowDownSCDuotone","ArrowDownSCFill","ArrowDownTT","ArrowDownTTDuotone","ArrowDownTTFill","ArrowDownUp","ArrowDownUpDuotone","ArrowDownUpFill","ArrowDownWideNarrow","ArrowDownWideNarrowDuotone","ArrowDownWideNarrowFill","ArrowDownYT","ArrowDownYTDuotone","ArrowDownYTFill","ArrowLeft","ArrowLeftDuotone","ArrowLeftFill","ArrowRight","ArrowRightDuotone","ArrowRightFill","ArrowRightToLine","ArrowRightToLineDuotone","ArrowRightToLineFill","ArrowUp","ArrowUpAZ","ArrowUpAZDuotone","ArrowUpAZFill","ArrowUpDuotone","ArrowUpFill","ArrowUpIG","ArrowUpIGDuotone","ArrowUpIGFill","ArrowUpNarrowWide","ArrowUpNarrowWideDuotone","ArrowUpNarrowWideFill","ArrowUpSC","ArrowUpSCDuotone","ArrowUpSCFill","ArrowUpTT","ArrowUpTTDuotone","ArrowUpTTFill","ArrowUpWideNarrow","ArrowUpWideNarrowDuotone","ArrowUpWideNarrowFill","ArrowUpYT","ArrowUpYTDuotone","ArrowUpYTFill","ArrowUpZA","ArrowUpZADuotone","ArrowUpZAFill","Ban","BanDuotone","BanFill","Bell","BellDuotone","BellFill","Bold","BoldDuotone","BoldFill","Bookmark","BookmarkDuotone","BookmarkFill","Calendar","CalendarDuotone","CalendarFill","ChartColumnSquare","ChartColumnSquareDuotone","ChartColumnSquareFill","Checkbox","CheckboxDuotone","CheckboxFill","Checkmark","CheckmarkDuotone","CheckmarkFill","ChevronDown","ChevronDownDuotone","ChevronDownFill","ChevronLeft","ChevronLeftDuotone","ChevronLeftFill","ChevronRight","ChevronRightDuotone","ChevronRightFill","ChevronUp","ChevronUpDuotone","ChevronUpFill","CircleAlert","CircleAlertDuotone","CircleAlertFill","CircleDollarSign","CircleDollarSignDuotone","CircleDollarSignFill","CircleQuestionMark","CircleQuestionMarkDuotone","CircleQuestionMarkFill","CircleX","CircleXDuotone","CircleXFill","Clock","ClockArrowDown","ClockArrowDownDuotone","ClockArrowDownFill","ClockArrowUp","ClockArrowUpDuotone","ClockArrowUpFill","ClockDuotone","ClockFill","Cog","CogDuotone","CogFill","Columns3","Columns3Duotone","Columns3Fill","Command","CommandDuotone","CommandFill","ContentPlus","ContentPlusDuotone","ContentPlusFill","Copy","CopyDuotone","CopyFill","Download","DownloadDuotone","DownloadFill","Eclipse","EclipseDuotone","EclipseFill","ExternalLink","ExternalLinkDuotone","ExternalLinkFill","Eye","EyeDuotone","EyeFill","EyeOff","EyeOffDuotone","EyeOffFill","File","FileArrowDown","FileArrowDownDuotone","FileArrowDownFill","FileArrowLeft","FileArrowLeftDuotone","FileArrowLeftFill","FileArrowLeftRight","FileArrowLeftRightDuotone","FileArrowLeftRightFill","FileArrowRight","FileArrowRightDuotone","FileArrowRightFill","FileArrowUp","FileArrowUpDuotone","FileArrowUpFill","FileCheck","FileCheckDuotone","FileCheckFill","FileCog","FileCogDuotone","FileCogFill","FileDuotone","FileFill","FilePlus","FilePlusDuotone","FilePlusFill","FileUser","FileUserDuotone","FileUserFill","FileX","FileXDuotone","FileXFill","Flame","FlameDuotone","FlameFill","Frown","FrownDuotone","FrownFill","Fullscreen","FullscreenDuotone","FullscreenFill","Globe","GlobeDuotone","GlobeFill","Grid1x2","Grid1x2Duotone","Grid1x2Fill","Grid2x2","Grid2x2Duotone","Grid2x2Fill","Heart","HeartDuotone","HeartFill","History","HistoryDuotone","HistoryFill","Hotspot","HotspotDuotone","HotspotFill","House","HouseDuotone","HouseFill","Image","ImageDuotone","ImageFill","Images","ImagesDuotone","ImagesFill","Inbox","InboxDuotone","InboxFill","Info","InfoDuotone","InfoFill","Italic","ItalicDuotone","ItalicFill","Link","LinkDuotone","LinkFill","List","ListDuotone","ListFill","ListFilter","ListFilterDuotone","ListFilterFill","ListIndentDecrease","ListIndentDecreaseDuotone","ListIndentDecreaseFill","ListIndentIncrease","ListIndentIncreaseDuotone","ListIndentIncreaseFill","ListOrdered","ListOrderedDuotone","ListOrderedFill","LoaderCircle","LoaderCircleDuotone","LoaderCircleFill","Lock","LockDuotone","LockFill","LogOut","LogOutDuotone","LogOutFill","Mail","MailDuotone","MailFill","MailMove","MailMoveDuotone","MailMoveFill","MailPlus","MailPlusDuotone","MailPlusFill","MapPin","MapPinDuotone","MapPinFill","Maximize","MaximizeDuotone","MaximizeFill","MediaKits","MediaKitsDuotone","MediaKitsFill","Megaphone","MegaphoneActive","MegaphoneActiveDuotone","MegaphoneActiveFill","MegaphoneDuotone","MegaphoneFill","Menu","MenuDuotone","MenuFill","MessageSquare","MessageSquareDuotone","MessageSquareFill","MessagesSquare","MessagesSquareDuotone","MessagesSquareFill","Minus","MinusDuotone","MinusFill","Moon","MoonDuotone","MoonFill","MousePointerClick","MousePointerClickDuotone","MousePointerClickFill","Move","MoveDuotone","MoveFill","PanelLeft","PanelLeftDuotone","PanelLeftFill","PanelRight","PanelRightDuotone","PanelRightFill","Pencil","PencilDuotone","PencilFill","Pin","PinDuotone","PinFill","Play","PlayDuotone","PlayFill","Plus","PlusDuotone","PlusFill","QuotationMarkLeft","QuotationMarkLeftDuotone","QuotationMarkLeftFill","QuotationMarkRight","QuotationMarkRightDuotone","QuotationMarkRightFill","Reach","ReachDuotone","ReachFill","Reel","ReelDuotone","ReelFill","RefreshCw","RefreshCwDuotone","RefreshCwFill","RemoveFormatting","RemoveFormattingDuotone","RemoveFormattingFill","Reply","ReplyDuotone","ReplyFill","Rolodex","RolodexDuotone","RolodexFill","RotateCw","RotateCwDuotone","RotateCwFill","Rows2","Rows2Duotone","Rows2Fill","Save","SaveDuotone","SaveFill","Search","SearchDuotone","SearchFill","SearchUser","SearchUserDuotone","SearchUserFill","Share","ShareDuotone","ShareFill","SlidersHorizontal","SlidersHorizontalDuotone","SlidersHorizontalFill","Smile","SmileDuotone","SmileFill","Sparkles","SparklesDuotone","SparklesFill","Square","SquareDuotone","SquareFill","SquarePen","SquarePenDuotone","SquarePenFill","Star","StarDuotone","StarFill","Sun","SunDuotone","SunFill","TextAlignCenter","TextAlignCenterDuotone","TextAlignCenterFill","TextAlignEnd","TextAlignEndDuotone","TextAlignEndFill","TextAlignJustify","TextAlignJustifyDuotone","TextAlignJustifyFill","TextAlignStart","TextAlignStartDuotone","TextAlignStartFill","ThumbsDown","ThumbsDownDuotone","ThumbsDownFill","ThumbsUp","ThumbsUpDuotone","ThumbsUpFill","Trash","TrashDuotone","TrashFill","TrendingDown","TrendingDownDuotone","TrendingDownFill","TrendingUp","TrendingUpDuotone","TrendingUpFill","TriangleDownUp","TriangleDownUpDuotone","TriangleDownUpFill","Unlink","UnlinkDuotone","UnlinkFill","Unlock","UnlockDuotone","UnlockFill","Upload","UploadDuotone","UploadFill","User","UserDuotone","UserFill","Users","UsersDuotone","UsersFill","Volume2","Volume2Duotone","Volume2Fill","VolumeOff","VolumeOffDuotone","VolumeOffFill"] as const;
+export const iconNames = ["Alert","AlertDuotone","AlertFill","Archive","ArchiveArrowUp","ArchiveArrowUpDuotone","ArchiveArrowUpFill","ArchiveDuotone","ArchiveFill","ArrowDown","ArrowDown01","ArrowDown01Duotone","ArrowDown01Fill","ArrowDown10","ArrowDown10Duotone","ArrowDown10Fill","ArrowDownDuotone","ArrowDownFill","ArrowDownIG","ArrowDownIGDuotone","ArrowDownIGFill","ArrowDownNarrowWide","ArrowDownNarrowWideDuotone","ArrowDownNarrowWideFill","ArrowDownSC","ArrowDownSCDuotone","ArrowDownSCFill","ArrowDownTT","ArrowDownTTDuotone","ArrowDownTTFill","ArrowDownUp","ArrowDownUpDuotone","ArrowDownUpFill","ArrowDownWideNarrow","ArrowDownWideNarrowDuotone","ArrowDownWideNarrowFill","ArrowDownYT","ArrowDownYTDuotone","ArrowDownYTFill","ArrowLeft","ArrowLeftDuotone","ArrowLeftFill","ArrowRight","ArrowRightDuotone","ArrowRightFill","ArrowRightToLine","ArrowRightToLineDuotone","ArrowRightToLineFill","ArrowUp","ArrowUpAZ","ArrowUpAZDuotone","ArrowUpAZFill","ArrowUpDuotone","ArrowUpFill","ArrowUpIG","ArrowUpIGDuotone","ArrowUpIGFill","ArrowUpNarrowWide","ArrowUpNarrowWideDuotone","ArrowUpNarrowWideFill","ArrowUpSC","ArrowUpSCDuotone","ArrowUpSCFill","ArrowUpTT","ArrowUpTTDuotone","ArrowUpTTFill","ArrowUpWideNarrow","ArrowUpWideNarrowDuotone","ArrowUpWideNarrowFill","ArrowUpYT","ArrowUpYTDuotone","ArrowUpYTFill","ArrowUpZA","ArrowUpZADuotone","ArrowUpZAFill","Ban","BanDuotone","BanFill","Bell","BellDuotone","BellFill","Bold","BoldDuotone","BoldFill","Bookmark","BookmarkDuotone","BookmarkFill","Calendar","CalendarDuotone","CalendarFill","ChartColumnSquare","ChartColumnSquareDuotone","ChartColumnSquareFill","Checkbox","CheckboxDuotone","CheckboxFill","Checkmark","CheckmarkDuotone","CheckmarkFill","ChevronDown","ChevronDownDuotone","ChevronDownFill","ChevronLeft","ChevronLeftDuotone","ChevronLeftFill","ChevronRight","ChevronRightDuotone","ChevronRightFill","ChevronUp","ChevronUpDuotone","ChevronUpFill","CircleAlert","CircleAlertDuotone","CircleAlertFill","CircleDollarSign","CircleDollarSignDuotone","CircleDollarSignFill","CircleQuestionMark","CircleQuestionMarkDuotone","CircleQuestionMarkFill","CircleX","CircleXDuotone","CircleXFill","Clock","ClockArrowDown","ClockArrowDownDuotone","ClockArrowDownFill","ClockArrowUp","ClockArrowUpDuotone","ClockArrowUpFill","ClockDuotone","ClockFill","Cog","CogDuotone","CogFill","Columns3","Columns3Duotone","Columns3Fill","Command","CommandDuotone","CommandFill","ContentHeart","ContentHeartDuotone","ContentHeartFill","ContentPlus","ContentPlusDuotone","ContentPlusFill","ContentUser","ContentUserDuotone","ContentUserFill","Copy","CopyDuotone","CopyFill","Download","DownloadDuotone","DownloadFill","Eclipse","EclipseDuotone","EclipseFill","ExternalLink","ExternalLinkDuotone","ExternalLinkFill","Eye","EyeDuotone","EyeFill","EyeOff","EyeOffDuotone","EyeOffFill","File","FileArrowDown","FileArrowDownDuotone","FileArrowDownFill","FileArrowLeft","FileArrowLeftDuotone","FileArrowLeftFill","FileArrowLeftRight","FileArrowLeftRightDuotone","FileArrowLeftRightFill","FileArrowRight","FileArrowRightDuotone","FileArrowRightFill","FileArrowUp","FileArrowUpDuotone","FileArrowUpFill","FileCheck","FileCheckDuotone","FileCheckFill","FileCog","FileCogDuotone","FileCogFill","FileDuotone","FileFill","FilePlus","FilePlusDuotone","FilePlusFill","FileUser","FileUserDuotone","FileUserFill","FileX","FileXDuotone","FileXFill","Flame","FlameDuotone","FlameFill","Frown","FrownDuotone","FrownFill","Fullscreen","FullscreenDuotone","FullscreenFill","Globe","GlobeDuotone","GlobeFill","Grid1x2","Grid1x2Duotone","Grid1x2Fill","Grid2x2","Grid2x2Duotone","Grid2x2Fill","Heart","HeartDuotone","HeartFill","History","HistoryDuotone","HistoryFill","Hotspot","HotspotDuotone","HotspotFill","House","HouseDuotone","HouseFill","Image","ImageDuotone","ImageFill","Images","ImagesDuotone","ImagesFill","Inbox","InboxDuotone","InboxFill","Info","InfoDuotone","InfoFill","Italic","ItalicDuotone","ItalicFill","Link","LinkDuotone","LinkFill","List","ListDuotone","ListFill","ListFilter","ListFilterDuotone","ListFilterFill","ListIndentDecrease","ListIndentDecreaseDuotone","ListIndentDecreaseFill","ListIndentIncrease","ListIndentIncreaseDuotone","ListIndentIncreaseFill","ListOrdered","ListOrderedDuotone","ListOrderedFill","LoaderCircle","LoaderCircleDuotone","LoaderCircleFill","Lock","LockDuotone","LockFill","LogOut","LogOutDuotone","LogOutFill","Mail","MailDuotone","MailFill","MailMove","MailMoveDuotone","MailMoveFill","MailPlus","MailPlusDuotone","MailPlusFill","MapPin","MapPinDuotone","MapPinFill","Maximize","MaximizeDuotone","MaximizeFill","Megaphone","MegaphoneActive","MegaphoneActiveDuotone","MegaphoneActiveFill","MegaphoneDuotone","MegaphoneFill","Menu","MenuDuotone","MenuFill","MessageSquare","MessageSquareDuotone","MessageSquareFill","MessagesSquare","MessagesSquareDuotone","MessagesSquareFill","Minus","MinusDuotone","MinusFill","Moon","MoonDuotone","MoonFill","MousePointerClick","MousePointerClickDuotone","MousePointerClickFill","Move","MoveDuotone","MoveFill","Notebook","NotebookDuotone","NotebookFill","PanelLeft","PanelLeftDuotone","PanelLeftFill","PanelRight","PanelRightDuotone","PanelRightFill","Pencil","PencilDuotone","PencilFill","Pin","PinDuotone","PinFill","Play","PlayDuotone","PlayFill","Plus","PlusDuotone","PlusFill","QuotationMarkLeft","QuotationMarkLeftDuotone","QuotationMarkLeftFill","QuotationMarkRight","QuotationMarkRightDuotone","QuotationMarkRightFill","Reach","ReachDuotone","ReachFill","Reel","ReelDuotone","ReelFill","RefreshCw","RefreshCwDuotone","RefreshCwFill","RemoveFormatting","RemoveFormattingDuotone","RemoveFormattingFill","Reply","ReplyDuotone","ReplyFill","Rolodex","RolodexDuotone","RolodexFill","RotateCw","RotateCwDuotone","RotateCwFill","Rows2","Rows2Duotone","Rows2Fill","Save","SaveDuotone","SaveFill","Search","SearchDuotone","SearchFill","SearchUser","SearchUserDuotone","SearchUserFill","Share","ShareDuotone","ShareFill","SlidersHorizontal","SlidersHorizontalDuotone","SlidersHorizontalFill","Smile","SmileDuotone","SmileFill","Sparkles","SparklesDuotone","SparklesFill","Square","SquareDuotone","SquareFill","SquarePen","SquarePenDuotone","SquarePenFill","Star","StarDuotone","StarFill","Sun","SunDuotone","SunFill","TextAlignCenter","TextAlignCenterDuotone","TextAlignCenterFill","TextAlignEnd","TextAlignEndDuotone","TextAlignEndFill","TextAlignJustify","TextAlignJustifyDuotone","TextAlignJustifyFill","TextAlignStart","TextAlignStartDuotone","TextAlignStartFill","ThumbsDown","ThumbsDownDuotone","ThumbsDownFill","ThumbsUp","ThumbsUpDuotone","ThumbsUpFill","Trash","TrashDuotone","TrashFill","TrendingDown","TrendingDownDuotone","TrendingDownFill","TrendingUp","TrendingUpDuotone","TrendingUpFill","TriangleDownUp","TriangleDownUpDuotone","TriangleDownUpFill","Unlink","UnlinkDuotone","UnlinkFill","Unlock","UnlockDuotone","UnlockFill","Upload","UploadDuotone","UploadFill","User","UserDuotone","UserFill","UserPlusFill","Users","UsersDuotone","UsersFill","Volume2","Volume2Duotone","Volume2Fill","VolumeOff","VolumeOffDuotone","VolumeOffFill"] as const;
 
 // Alias lookup maps for tooling/search
 export const iconAliases: Record<string, string[]> = {
@@ -5028,7 +5067,9 @@ export const iconAliases: Record<string, string[]> = {
     "ExpandWindow",
     "Enlarge"
   ],
-  "MediaKits": [
+  "ContentUser": [
+    "MediaKits",
+    "MediaPacks",
     "PressKit",
     "BrandAssets",
     "Mediapacks"
@@ -5504,9 +5545,11 @@ export const aliasToCanonical: Record<string, string> = {
   "Geo": "MapPin",
   "ExpandWindow": "Maximize",
   "Enlarge": "Maximize",
-  "PressKit": "MediaKits",
-  "BrandAssets": "MediaKits",
-  "Mediapacks": "MediaKits",
+  "MediaKits": "ContentUser",
+  "MediaPacks": "ContentUser",
+  "PressKit": "ContentUser",
+  "BrandAssets": "ContentUser",
+  "Mediapacks": "ContentUser",
   "Announce": "Megaphone",
   "Broadcast": "Megaphone",
   "Marketing": "Megaphone",
@@ -6136,7 +6179,9 @@ export const iconTags: Record<string, string[]> = {
     "expand",
     "enlarge"
   ],
-  "MediaKits": [
+  "ContentUser": [
+    "content",
+    "user",
     "media-kit",
     "press",
     "brand"

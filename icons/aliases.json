@@ -1047,13 +1047,17 @@
       "enlarge"
     ]
   },
-  "media-kits": {
+  "content-user": {
     "aliases": [
+      "media-kits",
+      "media-packs",
       "press-kit",
       "brand-assets",
       "mediapacks"
     ],
     "tags": [
+      "content",
+      "user",
       "media-kit",
       "press",
       "brand"

@@ -3,15 +3,6 @@ import type { IconNode } from '../types';
 
 const __iconNode: IconNode = [
   [
-    'rect',
-    {
-      width: '16',
-      height: '16',
-      fill: 'var(--foamicon-secondary-color, currentColor)',
-      key: 'ubarid'
-    }
-  ],
-  [
     'circle',
     {
       cx: '4.5',
@@ -21,7 +12,7 @@ const __iconNode: IconNode = [
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: '61f75t'
+      key: '61f75u'
     }
   ],
   [
@@ -34,7 +25,7 @@ const __iconNode: IconNode = [
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: '770es2'
+      key: '770es3'
     }
   ],
   [
@@ -44,7 +35,7 @@ const __iconNode: IconNode = [
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: 'axuhji'
+      key: 'axuhjj'
     }
   ],
   [
@@ -54,7 +45,7 @@ const __iconNode: IconNode = [
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: 'a517eq'
+      key: 'a517er'
     }
   ]
 ];
@@ -62,7 +53,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name QuotationMarkLeftFill
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSJ3aGl0ZSIvPgo8Y2lyY2xlIGN4PSI0LjUiIGN5PSI5LjUiIHI9IjIuNSIgZmlsbD0iY3VycmVudENvbG9yIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxjaXJjbGUgY3g9IjExLjUiIGN5PSI5LjUiIHI9IjIuNSIgZmlsbD0iY3VycmVudENvbG9yIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yIDkuNVY3LjVDMiA2LjcgMi44ODg4OSA0IDYgNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOSA5LjVWNy41QzkgNi43IDkuODg4ODkgNCAxMyA0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNC41IiBjeT0iOS41IiByPSIyLjUiIGZpbGw9ImN1cnJlbnRDb2xvciIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8Y2lyY2xlIGN4PSIxMS41IiBjeT0iOS41IiByPSIyLjUiIGZpbGw9ImN1cnJlbnRDb2xvciIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMiA5LjVWNy41QzIgNi43IDIuODg4ODkgNCA2IDQiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTkgOS41VjcuNUM5IDYuNyA5Ljg4ODg5IDQgMTMgNCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K)
  * @see https://foamicons.com/icons/quotation-mark-left-fill
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
