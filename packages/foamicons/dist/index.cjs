@@ -646,8 +646,7 @@ var iconAliases = {
   ],
   "Download": [
     "Export",
-    "Get",
-    "DownloadFile"
+    "Get"
   ],
   "Eclipse": [
     "HalfMoon",
@@ -656,6 +655,53 @@ var iconAliases = {
   "ExternalLink": [
     "OpenNew",
     "External"
+  ],
+  "File": [
+    "Document",
+    "Page"
+  ],
+  "FileArrowDown": [
+    "DownloadFile"
+  ],
+  "FileArrowLeft": [
+    "FileBack",
+    "FilePrevious"
+  ],
+  "FileArrowLeftRight": [
+    "FileTransfer",
+    "FileExchange",
+    "FileSync"
+  ],
+  "FileArrowRight": [
+    "FileForward",
+    "FileNext"
+  ],
+  "FileArrowUp": [
+    "UploadFile"
+  ],
+  "FileCheck": [
+    "FileDone",
+    "FileComplete",
+    "FileVerified"
+  ],
+  "FileCog": [
+    "FileSettings",
+    "FileConfig"
+  ],
+  "FilePlus": [
+    "NewFile",
+    "AddFile",
+    "CreateFile"
+  ],
+  "FileUser": [
+    "FileAccount",
+    "FileProfile",
+    "UserDocument"
+  ],
+  "FileX": [
+    "FileDelete",
+    "FileRemove",
+    "FileCancel"
   ],
   "Eye": [
     "View",
@@ -860,6 +906,16 @@ var iconAliases = {
     "New",
     "Create"
   ],
+  "QuotationMarkLeft": [
+    "QuoteLeft",
+    "BlockquoteStart",
+    "OpenQuote"
+  ],
+  "QuotationMarkRight": [
+    "QuoteRight",
+    "BlockquoteEnd",
+    "CloseQuote"
+  ],
   "Reach": [
     "Audience",
     "Impressions",
@@ -878,6 +934,12 @@ var iconAliases = {
   "RemoveFormatting": [
     "ClearFormat",
     "PlainText"
+  ],
+  "Rolodex": [
+    "Contacts",
+    "AddressBook",
+    "CardIndex",
+    "Alphabet"
   ],
   "Reply": [
     "Respond",
@@ -1141,11 +1203,35 @@ var aliasToCanonical = {
   "Clone": "Copy",
   "Export": "Download",
   "Get": "Download",
-  "DownloadFile": "Download",
   "HalfMoon": "Eclipse",
   "Contrast": "Eclipse",
   "OpenNew": "ExternalLink",
   "External": "ExternalLink",
+  "Document": "File",
+  "Page": "File",
+  "DownloadFile": "FileArrowDown",
+  "FileBack": "FileArrowLeft",
+  "FilePrevious": "FileArrowLeft",
+  "FileTransfer": "FileArrowLeftRight",
+  "FileExchange": "FileArrowLeftRight",
+  "FileSync": "FileArrowLeftRight",
+  "FileForward": "FileArrowRight",
+  "FileNext": "FileArrowRight",
+  "UploadFile": "FileArrowUp",
+  "FileDone": "FileCheck",
+  "FileComplete": "FileCheck",
+  "FileVerified": "FileCheck",
+  "FileSettings": "FileCog",
+  "FileConfig": "FileCog",
+  "NewFile": "FilePlus",
+  "AddFile": "FilePlus",
+  "CreateFile": "FilePlus",
+  "FileAccount": "FileUser",
+  "FileProfile": "FileUser",
+  "UserDocument": "FileUser",
+  "FileDelete": "FileX",
+  "FileRemove": "FileX",
+  "FileCancel": "FileX",
   "View": "Eye",
   "Show": "Eye",
   "Visible": "Eye",
@@ -1265,6 +1351,12 @@ var aliasToCanonical = {
   "Add": "Plus",
   "New": "Plus",
   "Create": "Plus",
+  "QuoteLeft": "QuotationMarkLeft",
+  "BlockquoteStart": "QuotationMarkLeft",
+  "OpenQuote": "QuotationMarkLeft",
+  "QuoteRight": "QuotationMarkRight",
+  "BlockquoteEnd": "QuotationMarkRight",
+  "CloseQuote": "QuotationMarkRight",
   "Audience": "Reach",
   "Impressions": "Reach",
   "Views": "Reach",
@@ -1276,6 +1368,10 @@ var aliasToCanonical = {
   "Sync": "RefreshCw",
   "ClearFormat": "RemoveFormatting",
   "PlainText": "RemoveFormatting",
+  "Contacts": "Rolodex",
+  "AddressBook": "Rolodex",
+  "CardIndex": "Rolodex",
+  "Alphabet": "Rolodex",
   "Respond": "Reply",
   "Answer": "Reply",
   "Rotate": "RotateCw",
@@ -1641,6 +1737,73 @@ var iconTags = {
     "link",
     "new-tab"
   ],
+  "File": [
+    "file",
+    "document",
+    "page"
+  ],
+  "FileArrowDown": [
+    "file",
+    "download",
+    "arrow",
+    "import"
+  ],
+  "FileArrowLeft": [
+    "file",
+    "arrow",
+    "left",
+    "back"
+  ],
+  "FileArrowLeftRight": [
+    "file",
+    "transfer",
+    "exchange",
+    "sync"
+  ],
+  "FileArrowRight": [
+    "file",
+    "arrow",
+    "right",
+    "forward"
+  ],
+  "FileArrowUp": [
+    "file",
+    "upload",
+    "arrow",
+    "export"
+  ],
+  "FileCheck": [
+    "file",
+    "check",
+    "complete",
+    "verified",
+    "approved"
+  ],
+  "FileCog": [
+    "file",
+    "settings",
+    "configuration",
+    "cog"
+  ],
+  "FilePlus": [
+    "file",
+    "add",
+    "new",
+    "create"
+  ],
+  "FileUser": [
+    "file",
+    "user",
+    "profile",
+    "account"
+  ],
+  "FileX": [
+    "file",
+    "delete",
+    "remove",
+    "cancel",
+    "close"
+  ],
   "Eye": [
     "eye",
     "view",
@@ -1855,6 +2018,18 @@ var iconTags = {
     "add",
     "create"
   ],
+  "QuotationMarkLeft": [
+    "quote",
+    "quotation",
+    "text",
+    "blockquote"
+  ],
+  "QuotationMarkRight": [
+    "quote",
+    "quotation",
+    "text",
+    "blockquote"
+  ],
   "Reach": [
     "reach",
     "audience",
@@ -1874,6 +2049,12 @@ var iconTags = {
     "format",
     "clear",
     "remove"
+  ],
+  "Rolodex": [
+    "rolodex",
+    "contacts",
+    "address-book",
+    "directory"
   ],
   "Reply": [
     "reply",
@@ -5960,6 +6141,54 @@ Object.defineProperty(exports, "UserSearchIcon", {
   enumerable: true,
   get: function () { return chunk2M64WXL2_cjs.SearchUser; }
 });
+Object.defineProperty(exports, "AddressBook", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "AddressBookIcon", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "Alphabet", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "AlphabetIcon", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "CardIndex", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "CardIndexIcon", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "Contacts", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "ContactsIcon", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "FoamAddressBook", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "FoamAlphabet", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "FoamCardIndex", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
+Object.defineProperty(exports, "FoamContacts", {
+  enumerable: true,
+  get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
+});
 Object.defineProperty(exports, "FoamRolodex", {
   enumerable: true,
   get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
@@ -5972,6 +6201,54 @@ Object.defineProperty(exports, "RolodexIcon", {
   enumerable: true,
   get: function () { return chunk4ARJEK3L_cjs.Rolodex; }
 });
+Object.defineProperty(exports, "AddressBookDuotone", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "AddressBookDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "AlphabetDuotone", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "AlphabetDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "CardIndexDuotone", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "CardIndexDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "ContactsDuotone", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "ContactsDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "FoamAddressBookDuotone", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "FoamAlphabetDuotone", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "FoamCardIndexDuotone", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "FoamContactsDuotone", {
+  enumerable: true,
+  get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
 Object.defineProperty(exports, "FoamRolodexDuotone", {
   enumerable: true,
   get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
@@ -5983,6 +6260,54 @@ Object.defineProperty(exports, "RolodexDuotone", {
 Object.defineProperty(exports, "RolodexDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkZOOWD4I6_cjs.RolodexDuotone; }
+});
+Object.defineProperty(exports, "AddressBookFill", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "AddressBookFillIcon", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "AlphabetFill", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "AlphabetFillIcon", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "CardIndexFill", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "CardIndexFillIcon", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "ContactsFill", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "ContactsFillIcon", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "FoamAddressBookFill", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "FoamAlphabetFill", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "FoamCardIndexFill", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
+});
+Object.defineProperty(exports, "FoamContactsFill", {
+  enumerable: true,
+  get: function () { return chunkS44YY2FT_cjs.RolodexFill; }
 });
 Object.defineProperty(exports, "FoamRolodexFill", {
   enumerable: true,
@@ -6524,7 +6849,35 @@ Object.defineProperty(exports, "RespondFillIcon", {
   enumerable: true,
   get: function () { return chunkVCUNQGEJ_cjs.ReplyFill; }
 });
+Object.defineProperty(exports, "BlockquoteEndFill", {
+  enumerable: true,
+  get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
+});
+Object.defineProperty(exports, "BlockquoteEndFillIcon", {
+  enumerable: true,
+  get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
+});
+Object.defineProperty(exports, "CloseQuoteFill", {
+  enumerable: true,
+  get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
+});
+Object.defineProperty(exports, "CloseQuoteFillIcon", {
+  enumerable: true,
+  get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
+});
+Object.defineProperty(exports, "FoamBlockquoteEndFill", {
+  enumerable: true,
+  get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
+});
+Object.defineProperty(exports, "FoamCloseQuoteFill", {
+  enumerable: true,
+  get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
+});
 Object.defineProperty(exports, "FoamQuotationMarkRightFill", {
+  enumerable: true,
+  get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
+});
+Object.defineProperty(exports, "FoamQuoteRightFill", {
   enumerable: true,
   get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
 });
@@ -6533,6 +6886,14 @@ Object.defineProperty(exports, "QuotationMarkRightFill", {
   get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
 });
 Object.defineProperty(exports, "QuotationMarkRightFillIcon", {
+  enumerable: true,
+  get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
+});
+Object.defineProperty(exports, "QuoteRightFill", {
+  enumerable: true,
+  get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
+});
+Object.defineProperty(exports, "QuoteRightFillIcon", {
   enumerable: true,
   get: function () { return chunkMUWZF4JE_cjs.QuotationMarkRightFill; }
 });
@@ -7016,7 +7377,35 @@ Object.defineProperty(exports, "PlusFillIcon", {
   enumerable: true,
   get: function () { return chunkU3TN6ENH_cjs.PlusFill; }
 });
+Object.defineProperty(exports, "BlockquoteStart", {
+  enumerable: true,
+  get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
+});
+Object.defineProperty(exports, "BlockquoteStartIcon", {
+  enumerable: true,
+  get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
+});
+Object.defineProperty(exports, "FoamBlockquoteStart", {
+  enumerable: true,
+  get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
+});
+Object.defineProperty(exports, "FoamOpenQuote", {
+  enumerable: true,
+  get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
+});
 Object.defineProperty(exports, "FoamQuotationMarkLeft", {
+  enumerable: true,
+  get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
+});
+Object.defineProperty(exports, "FoamQuoteLeft", {
+  enumerable: true,
+  get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
+});
+Object.defineProperty(exports, "OpenQuote", {
+  enumerable: true,
+  get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
+});
+Object.defineProperty(exports, "OpenQuoteIcon", {
   enumerable: true,
   get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
 });
@@ -7028,7 +7417,43 @@ Object.defineProperty(exports, "QuotationMarkLeftIcon", {
   enumerable: true,
   get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
 });
+Object.defineProperty(exports, "QuoteLeft", {
+  enumerable: true,
+  get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
+});
+Object.defineProperty(exports, "QuoteLeftIcon", {
+  enumerable: true,
+  get: function () { return chunkGNDBH37A_cjs.QuotationMarkLeft; }
+});
+Object.defineProperty(exports, "BlockquoteStartDuotone", {
+  enumerable: true,
+  get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
+});
+Object.defineProperty(exports, "BlockquoteStartDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
+});
+Object.defineProperty(exports, "FoamBlockquoteStartDuotone", {
+  enumerable: true,
+  get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
+});
+Object.defineProperty(exports, "FoamOpenQuoteDuotone", {
+  enumerable: true,
+  get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
+});
 Object.defineProperty(exports, "FoamQuotationMarkLeftDuotone", {
+  enumerable: true,
+  get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
+});
+Object.defineProperty(exports, "FoamQuoteLeftDuotone", {
+  enumerable: true,
+  get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
+});
+Object.defineProperty(exports, "OpenQuoteDuotone", {
+  enumerable: true,
+  get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
+});
+Object.defineProperty(exports, "OpenQuoteDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
 });
@@ -7040,7 +7465,43 @@ Object.defineProperty(exports, "QuotationMarkLeftDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
 });
+Object.defineProperty(exports, "QuoteLeftDuotone", {
+  enumerable: true,
+  get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
+});
+Object.defineProperty(exports, "QuoteLeftDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkQ3EZ2DGG_cjs.QuotationMarkLeftDuotone; }
+});
+Object.defineProperty(exports, "BlockquoteStartFill", {
+  enumerable: true,
+  get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
+});
+Object.defineProperty(exports, "BlockquoteStartFillIcon", {
+  enumerable: true,
+  get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
+});
+Object.defineProperty(exports, "FoamBlockquoteStartFill", {
+  enumerable: true,
+  get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
+});
+Object.defineProperty(exports, "FoamOpenQuoteFill", {
+  enumerable: true,
+  get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
+});
 Object.defineProperty(exports, "FoamQuotationMarkLeftFill", {
+  enumerable: true,
+  get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
+});
+Object.defineProperty(exports, "FoamQuoteLeftFill", {
+  enumerable: true,
+  get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
+});
+Object.defineProperty(exports, "OpenQuoteFill", {
+  enumerable: true,
+  get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
+});
+Object.defineProperty(exports, "OpenQuoteFillIcon", {
   enumerable: true,
   get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
 });
@@ -7052,7 +7513,43 @@ Object.defineProperty(exports, "QuotationMarkLeftFillIcon", {
   enumerable: true,
   get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
 });
+Object.defineProperty(exports, "QuoteLeftFill", {
+  enumerable: true,
+  get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
+});
+Object.defineProperty(exports, "QuoteLeftFillIcon", {
+  enumerable: true,
+  get: function () { return chunkJYXNR6ES_cjs.QuotationMarkLeftFill; }
+});
+Object.defineProperty(exports, "BlockquoteEnd", {
+  enumerable: true,
+  get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
+});
+Object.defineProperty(exports, "BlockquoteEndIcon", {
+  enumerable: true,
+  get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
+});
+Object.defineProperty(exports, "CloseQuote", {
+  enumerable: true,
+  get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
+});
+Object.defineProperty(exports, "CloseQuoteIcon", {
+  enumerable: true,
+  get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
+});
+Object.defineProperty(exports, "FoamBlockquoteEnd", {
+  enumerable: true,
+  get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
+});
+Object.defineProperty(exports, "FoamCloseQuote", {
+  enumerable: true,
+  get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
+});
 Object.defineProperty(exports, "FoamQuotationMarkRight", {
+  enumerable: true,
+  get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
+});
+Object.defineProperty(exports, "FoamQuoteRight", {
   enumerable: true,
   get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
 });
@@ -7064,7 +7561,43 @@ Object.defineProperty(exports, "QuotationMarkRightIcon", {
   enumerable: true,
   get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
 });
+Object.defineProperty(exports, "QuoteRight", {
+  enumerable: true,
+  get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
+});
+Object.defineProperty(exports, "QuoteRightIcon", {
+  enumerable: true,
+  get: function () { return chunkPVGSN77P_cjs.QuotationMarkRight; }
+});
+Object.defineProperty(exports, "BlockquoteEndDuotone", {
+  enumerable: true,
+  get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
+});
+Object.defineProperty(exports, "BlockquoteEndDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
+});
+Object.defineProperty(exports, "CloseQuoteDuotone", {
+  enumerable: true,
+  get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
+});
+Object.defineProperty(exports, "CloseQuoteDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
+});
+Object.defineProperty(exports, "FoamBlockquoteEndDuotone", {
+  enumerable: true,
+  get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
+});
+Object.defineProperty(exports, "FoamCloseQuoteDuotone", {
+  enumerable: true,
+  get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
+});
 Object.defineProperty(exports, "FoamQuotationMarkRightDuotone", {
+  enumerable: true,
+  get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
+});
+Object.defineProperty(exports, "FoamQuoteRightDuotone", {
   enumerable: true,
   get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
 });
@@ -7073,6 +7606,14 @@ Object.defineProperty(exports, "QuotationMarkRightDuotone", {
   get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
 });
 Object.defineProperty(exports, "QuotationMarkRightDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
+});
+Object.defineProperty(exports, "QuoteRightDuotone", {
+  enumerable: true,
+  get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
+});
+Object.defineProperty(exports, "QuoteRightDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkAGIDBD36_cjs.QuotationMarkRightDuotone; }
 });
@@ -12392,6 +12933,22 @@ Object.defineProperty(exports, "WorldFillIcon", {
   enumerable: true,
   get: function () { return chunk2O4DCFTB_cjs.GlobeFill; }
 });
+Object.defineProperty(exports, "FileAccountFill", {
+  enumerable: true,
+  get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
+});
+Object.defineProperty(exports, "FileAccountFillIcon", {
+  enumerable: true,
+  get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
+});
+Object.defineProperty(exports, "FileProfileFill", {
+  enumerable: true,
+  get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
+});
+Object.defineProperty(exports, "FileProfileFillIcon", {
+  enumerable: true,
+  get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
+});
 Object.defineProperty(exports, "FileUserFill", {
   enumerable: true,
   get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
@@ -12400,9 +12957,53 @@ Object.defineProperty(exports, "FileUserFillIcon", {
   enumerable: true,
   get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
 });
+Object.defineProperty(exports, "FoamFileAccountFill", {
+  enumerable: true,
+  get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
+});
+Object.defineProperty(exports, "FoamFileProfileFill", {
+  enumerable: true,
+  get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
+});
 Object.defineProperty(exports, "FoamFileUserFill", {
   enumerable: true,
   get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
+});
+Object.defineProperty(exports, "FoamUserDocumentFill", {
+  enumerable: true,
+  get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
+});
+Object.defineProperty(exports, "UserDocumentFill", {
+  enumerable: true,
+  get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
+});
+Object.defineProperty(exports, "UserDocumentFillIcon", {
+  enumerable: true,
+  get: function () { return chunkTKRASXDZ_cjs.FileUserFill; }
+});
+Object.defineProperty(exports, "FileCancel", {
+  enumerable: true,
+  get: function () { return chunkGQJLJ5JD_cjs.FileX; }
+});
+Object.defineProperty(exports, "FileCancelIcon", {
+  enumerable: true,
+  get: function () { return chunkGQJLJ5JD_cjs.FileX; }
+});
+Object.defineProperty(exports, "FileDelete", {
+  enumerable: true,
+  get: function () { return chunkGQJLJ5JD_cjs.FileX; }
+});
+Object.defineProperty(exports, "FileDeleteIcon", {
+  enumerable: true,
+  get: function () { return chunkGQJLJ5JD_cjs.FileX; }
+});
+Object.defineProperty(exports, "FileRemove", {
+  enumerable: true,
+  get: function () { return chunkGQJLJ5JD_cjs.FileX; }
+});
+Object.defineProperty(exports, "FileRemoveIcon", {
+  enumerable: true,
+  get: function () { return chunkGQJLJ5JD_cjs.FileX; }
 });
 Object.defineProperty(exports, "FileX", {
   enumerable: true,
@@ -12412,9 +13013,45 @@ Object.defineProperty(exports, "FileXIcon", {
   enumerable: true,
   get: function () { return chunkGQJLJ5JD_cjs.FileX; }
 });
+Object.defineProperty(exports, "FoamFileCancel", {
+  enumerable: true,
+  get: function () { return chunkGQJLJ5JD_cjs.FileX; }
+});
+Object.defineProperty(exports, "FoamFileDelete", {
+  enumerable: true,
+  get: function () { return chunkGQJLJ5JD_cjs.FileX; }
+});
+Object.defineProperty(exports, "FoamFileRemove", {
+  enumerable: true,
+  get: function () { return chunkGQJLJ5JD_cjs.FileX; }
+});
 Object.defineProperty(exports, "FoamFileX", {
   enumerable: true,
   get: function () { return chunkGQJLJ5JD_cjs.FileX; }
+});
+Object.defineProperty(exports, "FileCancelDuotone", {
+  enumerable: true,
+  get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
+});
+Object.defineProperty(exports, "FileCancelDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
+});
+Object.defineProperty(exports, "FileDeleteDuotone", {
+  enumerable: true,
+  get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
+});
+Object.defineProperty(exports, "FileDeleteDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
+});
+Object.defineProperty(exports, "FileRemoveDuotone", {
+  enumerable: true,
+  get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
+});
+Object.defineProperty(exports, "FileRemoveDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
 });
 Object.defineProperty(exports, "FileXDuotone", {
   enumerable: true,
@@ -12424,15 +13061,63 @@ Object.defineProperty(exports, "FileXDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
 });
+Object.defineProperty(exports, "FoamFileCancelDuotone", {
+  enumerable: true,
+  get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
+});
+Object.defineProperty(exports, "FoamFileDeleteDuotone", {
+  enumerable: true,
+  get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
+});
+Object.defineProperty(exports, "FoamFileRemoveDuotone", {
+  enumerable: true,
+  get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
+});
 Object.defineProperty(exports, "FoamFileXDuotone", {
   enumerable: true,
   get: function () { return chunkGVMH7665_cjs.FileXDuotone; }
+});
+Object.defineProperty(exports, "FileCancelFill", {
+  enumerable: true,
+  get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
+});
+Object.defineProperty(exports, "FileCancelFillIcon", {
+  enumerable: true,
+  get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
+});
+Object.defineProperty(exports, "FileDeleteFill", {
+  enumerable: true,
+  get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
+});
+Object.defineProperty(exports, "FileDeleteFillIcon", {
+  enumerable: true,
+  get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
+});
+Object.defineProperty(exports, "FileRemoveFill", {
+  enumerable: true,
+  get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
+});
+Object.defineProperty(exports, "FileRemoveFillIcon", {
+  enumerable: true,
+  get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
 });
 Object.defineProperty(exports, "FileXFill", {
   enumerable: true,
   get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
 });
 Object.defineProperty(exports, "FileXFillIcon", {
+  enumerable: true,
+  get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
+});
+Object.defineProperty(exports, "FoamFileCancelFill", {
+  enumerable: true,
+  get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
+});
+Object.defineProperty(exports, "FoamFileDeleteFill", {
+  enumerable: true,
+  get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
+});
+Object.defineProperty(exports, "FoamFileRemoveFill", {
   enumerable: true,
   get: function () { return chunkFOXYMEY6_cjs.FileXFill; }
 });
@@ -12640,9 +13325,41 @@ Object.defineProperty(exports, "FileCogFillIcon", {
   enumerable: true,
   get: function () { return chunkAD5TYCWG_cjs.FileCogFill; }
 });
+Object.defineProperty(exports, "FileConfigFill", {
+  enumerable: true,
+  get: function () { return chunkAD5TYCWG_cjs.FileCogFill; }
+});
+Object.defineProperty(exports, "FileConfigFillIcon", {
+  enumerable: true,
+  get: function () { return chunkAD5TYCWG_cjs.FileCogFill; }
+});
+Object.defineProperty(exports, "FileSettingsFill", {
+  enumerable: true,
+  get: function () { return chunkAD5TYCWG_cjs.FileCogFill; }
+});
+Object.defineProperty(exports, "FileSettingsFillIcon", {
+  enumerable: true,
+  get: function () { return chunkAD5TYCWG_cjs.FileCogFill; }
+});
 Object.defineProperty(exports, "FoamFileCogFill", {
   enumerable: true,
   get: function () { return chunkAD5TYCWG_cjs.FileCogFill; }
+});
+Object.defineProperty(exports, "FoamFileConfigFill", {
+  enumerable: true,
+  get: function () { return chunkAD5TYCWG_cjs.FileCogFill; }
+});
+Object.defineProperty(exports, "FoamFileSettingsFill", {
+  enumerable: true,
+  get: function () { return chunkAD5TYCWG_cjs.FileCogFill; }
+});
+Object.defineProperty(exports, "DocumentDuotone", {
+  enumerable: true,
+  get: function () { return chunkL4VRLD7I_cjs.FileDuotone; }
+});
+Object.defineProperty(exports, "DocumentDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkL4VRLD7I_cjs.FileDuotone; }
 });
 Object.defineProperty(exports, "FileDuotone", {
   enumerable: true,
@@ -12652,9 +13369,33 @@ Object.defineProperty(exports, "FileDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkL4VRLD7I_cjs.FileDuotone; }
 });
+Object.defineProperty(exports, "FoamDocumentDuotone", {
+  enumerable: true,
+  get: function () { return chunkL4VRLD7I_cjs.FileDuotone; }
+});
 Object.defineProperty(exports, "FoamFileDuotone", {
   enumerable: true,
   get: function () { return chunkL4VRLD7I_cjs.FileDuotone; }
+});
+Object.defineProperty(exports, "FoamPageDuotone", {
+  enumerable: true,
+  get: function () { return chunkL4VRLD7I_cjs.FileDuotone; }
+});
+Object.defineProperty(exports, "PageDuotone", {
+  enumerable: true,
+  get: function () { return chunkL4VRLD7I_cjs.FileDuotone; }
+});
+Object.defineProperty(exports, "PageDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkL4VRLD7I_cjs.FileDuotone; }
+});
+Object.defineProperty(exports, "DocumentFill", {
+  enumerable: true,
+  get: function () { return chunkZISM4RLY_cjs.FileFill; }
+});
+Object.defineProperty(exports, "DocumentFillIcon", {
+  enumerable: true,
+  get: function () { return chunkZISM4RLY_cjs.FileFill; }
 });
 Object.defineProperty(exports, "FileFill", {
   enumerable: true,
@@ -12664,9 +13405,41 @@ Object.defineProperty(exports, "FileFillIcon", {
   enumerable: true,
   get: function () { return chunkZISM4RLY_cjs.FileFill; }
 });
+Object.defineProperty(exports, "FoamDocumentFill", {
+  enumerable: true,
+  get: function () { return chunkZISM4RLY_cjs.FileFill; }
+});
 Object.defineProperty(exports, "FoamFileFill", {
   enumerable: true,
   get: function () { return chunkZISM4RLY_cjs.FileFill; }
+});
+Object.defineProperty(exports, "FoamPageFill", {
+  enumerable: true,
+  get: function () { return chunkZISM4RLY_cjs.FileFill; }
+});
+Object.defineProperty(exports, "PageFill", {
+  enumerable: true,
+  get: function () { return chunkZISM4RLY_cjs.FileFill; }
+});
+Object.defineProperty(exports, "PageFillIcon", {
+  enumerable: true,
+  get: function () { return chunkZISM4RLY_cjs.FileFill; }
+});
+Object.defineProperty(exports, "AddFile", {
+  enumerable: true,
+  get: function () { return chunkWK2YYM54_cjs.FilePlus; }
+});
+Object.defineProperty(exports, "AddFileIcon", {
+  enumerable: true,
+  get: function () { return chunkWK2YYM54_cjs.FilePlus; }
+});
+Object.defineProperty(exports, "CreateFile", {
+  enumerable: true,
+  get: function () { return chunkWK2YYM54_cjs.FilePlus; }
+});
+Object.defineProperty(exports, "CreateFileIcon", {
+  enumerable: true,
+  get: function () { return chunkWK2YYM54_cjs.FilePlus; }
 });
 Object.defineProperty(exports, "FilePlus", {
   enumerable: true,
@@ -12676,9 +13449,45 @@ Object.defineProperty(exports, "FilePlusIcon", {
   enumerable: true,
   get: function () { return chunkWK2YYM54_cjs.FilePlus; }
 });
+Object.defineProperty(exports, "FoamAddFile", {
+  enumerable: true,
+  get: function () { return chunkWK2YYM54_cjs.FilePlus; }
+});
+Object.defineProperty(exports, "FoamCreateFile", {
+  enumerable: true,
+  get: function () { return chunkWK2YYM54_cjs.FilePlus; }
+});
 Object.defineProperty(exports, "FoamFilePlus", {
   enumerable: true,
   get: function () { return chunkWK2YYM54_cjs.FilePlus; }
+});
+Object.defineProperty(exports, "FoamNewFile", {
+  enumerable: true,
+  get: function () { return chunkWK2YYM54_cjs.FilePlus; }
+});
+Object.defineProperty(exports, "NewFile", {
+  enumerable: true,
+  get: function () { return chunkWK2YYM54_cjs.FilePlus; }
+});
+Object.defineProperty(exports, "NewFileIcon", {
+  enumerable: true,
+  get: function () { return chunkWK2YYM54_cjs.FilePlus; }
+});
+Object.defineProperty(exports, "AddFileDuotone", {
+  enumerable: true,
+  get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
+});
+Object.defineProperty(exports, "AddFileDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
+});
+Object.defineProperty(exports, "CreateFileDuotone", {
+  enumerable: true,
+  get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
+});
+Object.defineProperty(exports, "CreateFileDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
 });
 Object.defineProperty(exports, "FilePlusDuotone", {
   enumerable: true,
@@ -12688,9 +13497,45 @@ Object.defineProperty(exports, "FilePlusDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
 });
+Object.defineProperty(exports, "FoamAddFileDuotone", {
+  enumerable: true,
+  get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
+});
+Object.defineProperty(exports, "FoamCreateFileDuotone", {
+  enumerable: true,
+  get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
+});
 Object.defineProperty(exports, "FoamFilePlusDuotone", {
   enumerable: true,
   get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
+});
+Object.defineProperty(exports, "FoamNewFileDuotone", {
+  enumerable: true,
+  get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
+});
+Object.defineProperty(exports, "NewFileDuotone", {
+  enumerable: true,
+  get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
+});
+Object.defineProperty(exports, "NewFileDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkKCONKJRX_cjs.FilePlusDuotone; }
+});
+Object.defineProperty(exports, "AddFileFill", {
+  enumerable: true,
+  get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
+});
+Object.defineProperty(exports, "AddFileFillIcon", {
+  enumerable: true,
+  get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
+});
+Object.defineProperty(exports, "CreateFileFill", {
+  enumerable: true,
+  get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
+});
+Object.defineProperty(exports, "CreateFileFillIcon", {
+  enumerable: true,
+  get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
 });
 Object.defineProperty(exports, "FilePlusFill", {
   enumerable: true,
@@ -12700,9 +13545,45 @@ Object.defineProperty(exports, "FilePlusFillIcon", {
   enumerable: true,
   get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
 });
+Object.defineProperty(exports, "FoamAddFileFill", {
+  enumerable: true,
+  get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
+});
+Object.defineProperty(exports, "FoamCreateFileFill", {
+  enumerable: true,
+  get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
+});
 Object.defineProperty(exports, "FoamFilePlusFill", {
   enumerable: true,
   get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
+});
+Object.defineProperty(exports, "FoamNewFileFill", {
+  enumerable: true,
+  get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
+});
+Object.defineProperty(exports, "NewFileFill", {
+  enumerable: true,
+  get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
+});
+Object.defineProperty(exports, "NewFileFillIcon", {
+  enumerable: true,
+  get: function () { return chunk2OJ2NWQE_cjs.FilePlusFill; }
+});
+Object.defineProperty(exports, "FileAccount", {
+  enumerable: true,
+  get: function () { return chunkK6HH3JLN_cjs.FileUser; }
+});
+Object.defineProperty(exports, "FileAccountIcon", {
+  enumerable: true,
+  get: function () { return chunkK6HH3JLN_cjs.FileUser; }
+});
+Object.defineProperty(exports, "FileProfile", {
+  enumerable: true,
+  get: function () { return chunkK6HH3JLN_cjs.FileUser; }
+});
+Object.defineProperty(exports, "FileProfileIcon", {
+  enumerable: true,
+  get: function () { return chunkK6HH3JLN_cjs.FileUser; }
 });
 Object.defineProperty(exports, "FileUser", {
   enumerable: true,
@@ -12712,9 +13593,45 @@ Object.defineProperty(exports, "FileUserIcon", {
   enumerable: true,
   get: function () { return chunkK6HH3JLN_cjs.FileUser; }
 });
+Object.defineProperty(exports, "FoamFileAccount", {
+  enumerable: true,
+  get: function () { return chunkK6HH3JLN_cjs.FileUser; }
+});
+Object.defineProperty(exports, "FoamFileProfile", {
+  enumerable: true,
+  get: function () { return chunkK6HH3JLN_cjs.FileUser; }
+});
 Object.defineProperty(exports, "FoamFileUser", {
   enumerable: true,
   get: function () { return chunkK6HH3JLN_cjs.FileUser; }
+});
+Object.defineProperty(exports, "FoamUserDocument", {
+  enumerable: true,
+  get: function () { return chunkK6HH3JLN_cjs.FileUser; }
+});
+Object.defineProperty(exports, "UserDocument", {
+  enumerable: true,
+  get: function () { return chunkK6HH3JLN_cjs.FileUser; }
+});
+Object.defineProperty(exports, "UserDocumentIcon", {
+  enumerable: true,
+  get: function () { return chunkK6HH3JLN_cjs.FileUser; }
+});
+Object.defineProperty(exports, "FileAccountDuotone", {
+  enumerable: true,
+  get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
+});
+Object.defineProperty(exports, "FileAccountDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
+});
+Object.defineProperty(exports, "FileProfileDuotone", {
+  enumerable: true,
+  get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
+});
+Object.defineProperty(exports, "FileProfileDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
 });
 Object.defineProperty(exports, "FileUserDuotone", {
   enumerable: true,
@@ -12724,7 +13641,27 @@ Object.defineProperty(exports, "FileUserDuotoneIcon", {
   enumerable: true,
   get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
 });
+Object.defineProperty(exports, "FoamFileAccountDuotone", {
+  enumerable: true,
+  get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
+});
+Object.defineProperty(exports, "FoamFileProfileDuotone", {
+  enumerable: true,
+  get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
+});
 Object.defineProperty(exports, "FoamFileUserDuotone", {
+  enumerable: true,
+  get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
+});
+Object.defineProperty(exports, "FoamUserDocumentDuotone", {
+  enumerable: true,
+  get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
+});
+Object.defineProperty(exports, "UserDocumentDuotone", {
+  enumerable: true,
+  get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
+});
+Object.defineProperty(exports, "UserDocumentDuotoneIcon", {
   enumerable: true,
   get: function () { return chunk6BINUQZ4_cjs.FileUserDuotone; }
 });
@@ -12740,6 +13677,18 @@ Object.defineProperty(exports, "FoamFileArrowUp", {
   enumerable: true,
   get: function () { return chunkTQUKSCCI_cjs.FileArrowUp; }
 });
+Object.defineProperty(exports, "FoamUploadFile", {
+  enumerable: true,
+  get: function () { return chunkTQUKSCCI_cjs.FileArrowUp; }
+});
+Object.defineProperty(exports, "UploadFile", {
+  enumerable: true,
+  get: function () { return chunkTQUKSCCI_cjs.FileArrowUp; }
+});
+Object.defineProperty(exports, "UploadFileIcon", {
+  enumerable: true,
+  get: function () { return chunkTQUKSCCI_cjs.FileArrowUp; }
+});
 Object.defineProperty(exports, "FileArrowUpDuotone", {
   enumerable: true,
   get: function () { return chunk2ANQZG76_cjs.FileArrowUpDuotone; }
@@ -12749,6 +13698,18 @@ Object.defineProperty(exports, "FileArrowUpDuotoneIcon", {
   get: function () { return chunk2ANQZG76_cjs.FileArrowUpDuotone; }
 });
 Object.defineProperty(exports, "FoamFileArrowUpDuotone", {
+  enumerable: true,
+  get: function () { return chunk2ANQZG76_cjs.FileArrowUpDuotone; }
+});
+Object.defineProperty(exports, "FoamUploadFileDuotone", {
+  enumerable: true,
+  get: function () { return chunk2ANQZG76_cjs.FileArrowUpDuotone; }
+});
+Object.defineProperty(exports, "UploadFileDuotone", {
+  enumerable: true,
+  get: function () { return chunk2ANQZG76_cjs.FileArrowUpDuotone; }
+});
+Object.defineProperty(exports, "UploadFileDuotoneIcon", {
   enumerable: true,
   get: function () { return chunk2ANQZG76_cjs.FileArrowUpDuotone; }
 });
@@ -12764,6 +13725,18 @@ Object.defineProperty(exports, "FoamFileArrowUpFill", {
   enumerable: true,
   get: function () { return chunkCZAHX7SR_cjs.FileArrowUpFill; }
 });
+Object.defineProperty(exports, "FoamUploadFileFill", {
+  enumerable: true,
+  get: function () { return chunkCZAHX7SR_cjs.FileArrowUpFill; }
+});
+Object.defineProperty(exports, "UploadFileFill", {
+  enumerable: true,
+  get: function () { return chunkCZAHX7SR_cjs.FileArrowUpFill; }
+});
+Object.defineProperty(exports, "UploadFileFillIcon", {
+  enumerable: true,
+  get: function () { return chunkCZAHX7SR_cjs.FileArrowUpFill; }
+});
 Object.defineProperty(exports, "FileCheck", {
   enumerable: true,
   get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
@@ -12772,7 +13745,43 @@ Object.defineProperty(exports, "FileCheckIcon", {
   enumerable: true,
   get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
 });
+Object.defineProperty(exports, "FileComplete", {
+  enumerable: true,
+  get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
+});
+Object.defineProperty(exports, "FileCompleteIcon", {
+  enumerable: true,
+  get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
+});
+Object.defineProperty(exports, "FileDone", {
+  enumerable: true,
+  get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
+});
+Object.defineProperty(exports, "FileDoneIcon", {
+  enumerable: true,
+  get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
+});
+Object.defineProperty(exports, "FileVerified", {
+  enumerable: true,
+  get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
+});
+Object.defineProperty(exports, "FileVerifiedIcon", {
+  enumerable: true,
+  get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
+});
 Object.defineProperty(exports, "FoamFileCheck", {
+  enumerable: true,
+  get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
+});
+Object.defineProperty(exports, "FoamFileComplete", {
+  enumerable: true,
+  get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
+});
+Object.defineProperty(exports, "FoamFileDone", {
+  enumerable: true,
+  get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
+});
+Object.defineProperty(exports, "FoamFileVerified", {
   enumerable: true,
   get: function () { return chunkMPGJJAVC_cjs.FileCheck; }
 });
@@ -12784,7 +13793,43 @@ Object.defineProperty(exports, "FileCheckDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
 });
+Object.defineProperty(exports, "FileCompleteDuotone", {
+  enumerable: true,
+  get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
+});
+Object.defineProperty(exports, "FileCompleteDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
+});
+Object.defineProperty(exports, "FileDoneDuotone", {
+  enumerable: true,
+  get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
+});
+Object.defineProperty(exports, "FileDoneDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
+});
+Object.defineProperty(exports, "FileVerifiedDuotone", {
+  enumerable: true,
+  get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
+});
+Object.defineProperty(exports, "FileVerifiedDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
+});
 Object.defineProperty(exports, "FoamFileCheckDuotone", {
+  enumerable: true,
+  get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
+});
+Object.defineProperty(exports, "FoamFileCompleteDuotone", {
+  enumerable: true,
+  get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
+});
+Object.defineProperty(exports, "FoamFileDoneDuotone", {
+  enumerable: true,
+  get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
+});
+Object.defineProperty(exports, "FoamFileVerifiedDuotone", {
   enumerable: true,
   get: function () { return chunkNJO7K6BY_cjs.FileCheckDuotone; }
 });
@@ -12796,7 +13841,43 @@ Object.defineProperty(exports, "FileCheckFillIcon", {
   enumerable: true,
   get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
 });
+Object.defineProperty(exports, "FileCompleteFill", {
+  enumerable: true,
+  get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
+});
+Object.defineProperty(exports, "FileCompleteFillIcon", {
+  enumerable: true,
+  get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
+});
+Object.defineProperty(exports, "FileDoneFill", {
+  enumerable: true,
+  get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
+});
+Object.defineProperty(exports, "FileDoneFillIcon", {
+  enumerable: true,
+  get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
+});
+Object.defineProperty(exports, "FileVerifiedFill", {
+  enumerable: true,
+  get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
+});
+Object.defineProperty(exports, "FileVerifiedFillIcon", {
+  enumerable: true,
+  get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
+});
 Object.defineProperty(exports, "FoamFileCheckFill", {
+  enumerable: true,
+  get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
+});
+Object.defineProperty(exports, "FoamFileCompleteFill", {
+  enumerable: true,
+  get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
+});
+Object.defineProperty(exports, "FoamFileDoneFill", {
+  enumerable: true,
+  get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
+});
+Object.defineProperty(exports, "FoamFileVerifiedFill", {
   enumerable: true,
   get: function () { return chunk5MKU3D5N_cjs.FileCheckFill; }
 });
@@ -12808,7 +13889,31 @@ Object.defineProperty(exports, "FileCogIcon", {
   enumerable: true,
   get: function () { return chunkLUP4ILZI_cjs.FileCog; }
 });
+Object.defineProperty(exports, "FileConfig", {
+  enumerable: true,
+  get: function () { return chunkLUP4ILZI_cjs.FileCog; }
+});
+Object.defineProperty(exports, "FileConfigIcon", {
+  enumerable: true,
+  get: function () { return chunkLUP4ILZI_cjs.FileCog; }
+});
+Object.defineProperty(exports, "FileSettings", {
+  enumerable: true,
+  get: function () { return chunkLUP4ILZI_cjs.FileCog; }
+});
+Object.defineProperty(exports, "FileSettingsIcon", {
+  enumerable: true,
+  get: function () { return chunkLUP4ILZI_cjs.FileCog; }
+});
 Object.defineProperty(exports, "FoamFileCog", {
+  enumerable: true,
+  get: function () { return chunkLUP4ILZI_cjs.FileCog; }
+});
+Object.defineProperty(exports, "FoamFileConfig", {
+  enumerable: true,
+  get: function () { return chunkLUP4ILZI_cjs.FileCog; }
+});
+Object.defineProperty(exports, "FoamFileSettings", {
   enumerable: true,
   get: function () { return chunkLUP4ILZI_cjs.FileCog; }
 });
@@ -12820,7 +13925,31 @@ Object.defineProperty(exports, "FileCogDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkXAMBKX3I_cjs.FileCogDuotone; }
 });
+Object.defineProperty(exports, "FileConfigDuotone", {
+  enumerable: true,
+  get: function () { return chunkXAMBKX3I_cjs.FileCogDuotone; }
+});
+Object.defineProperty(exports, "FileConfigDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkXAMBKX3I_cjs.FileCogDuotone; }
+});
+Object.defineProperty(exports, "FileSettingsDuotone", {
+  enumerable: true,
+  get: function () { return chunkXAMBKX3I_cjs.FileCogDuotone; }
+});
+Object.defineProperty(exports, "FileSettingsDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkXAMBKX3I_cjs.FileCogDuotone; }
+});
 Object.defineProperty(exports, "FoamFileCogDuotone", {
+  enumerable: true,
+  get: function () { return chunkXAMBKX3I_cjs.FileCogDuotone; }
+});
+Object.defineProperty(exports, "FoamFileConfigDuotone", {
+  enumerable: true,
+  get: function () { return chunkXAMBKX3I_cjs.FileCogDuotone; }
+});
+Object.defineProperty(exports, "FoamFileSettingsDuotone", {
   enumerable: true,
   get: function () { return chunkXAMBKX3I_cjs.FileCogDuotone; }
 });
@@ -12832,7 +13961,31 @@ Object.defineProperty(exports, "FileArrowLeftDuotoneIcon", {
   enumerable: true,
   get: function () { return chunk2MTYMDO2_cjs.FileArrowLeftDuotone; }
 });
+Object.defineProperty(exports, "FileBackDuotone", {
+  enumerable: true,
+  get: function () { return chunk2MTYMDO2_cjs.FileArrowLeftDuotone; }
+});
+Object.defineProperty(exports, "FileBackDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunk2MTYMDO2_cjs.FileArrowLeftDuotone; }
+});
+Object.defineProperty(exports, "FilePreviousDuotone", {
+  enumerable: true,
+  get: function () { return chunk2MTYMDO2_cjs.FileArrowLeftDuotone; }
+});
+Object.defineProperty(exports, "FilePreviousDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunk2MTYMDO2_cjs.FileArrowLeftDuotone; }
+});
 Object.defineProperty(exports, "FoamFileArrowLeftDuotone", {
+  enumerable: true,
+  get: function () { return chunk2MTYMDO2_cjs.FileArrowLeftDuotone; }
+});
+Object.defineProperty(exports, "FoamFileBackDuotone", {
+  enumerable: true,
+  get: function () { return chunk2MTYMDO2_cjs.FileArrowLeftDuotone; }
+});
+Object.defineProperty(exports, "FoamFilePreviousDuotone", {
   enumerable: true,
   get: function () { return chunk2MTYMDO2_cjs.FileArrowLeftDuotone; }
 });
@@ -12844,7 +13997,31 @@ Object.defineProperty(exports, "FileArrowLeftFillIcon", {
   enumerable: true,
   get: function () { return chunkWKIGAW6D_cjs.FileArrowLeftFill; }
 });
+Object.defineProperty(exports, "FileBackFill", {
+  enumerable: true,
+  get: function () { return chunkWKIGAW6D_cjs.FileArrowLeftFill; }
+});
+Object.defineProperty(exports, "FileBackFillIcon", {
+  enumerable: true,
+  get: function () { return chunkWKIGAW6D_cjs.FileArrowLeftFill; }
+});
+Object.defineProperty(exports, "FilePreviousFill", {
+  enumerable: true,
+  get: function () { return chunkWKIGAW6D_cjs.FileArrowLeftFill; }
+});
+Object.defineProperty(exports, "FilePreviousFillIcon", {
+  enumerable: true,
+  get: function () { return chunkWKIGAW6D_cjs.FileArrowLeftFill; }
+});
 Object.defineProperty(exports, "FoamFileArrowLeftFill", {
+  enumerable: true,
+  get: function () { return chunkWKIGAW6D_cjs.FileArrowLeftFill; }
+});
+Object.defineProperty(exports, "FoamFileBackFill", {
+  enumerable: true,
+  get: function () { return chunkWKIGAW6D_cjs.FileArrowLeftFill; }
+});
+Object.defineProperty(exports, "FoamFilePreviousFill", {
   enumerable: true,
   get: function () { return chunkWKIGAW6D_cjs.FileArrowLeftFill; }
 });
@@ -12856,7 +14033,43 @@ Object.defineProperty(exports, "FileArrowLeftRightIcon", {
   enumerable: true,
   get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
 });
+Object.defineProperty(exports, "FileExchange", {
+  enumerable: true,
+  get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
+});
+Object.defineProperty(exports, "FileExchangeIcon", {
+  enumerable: true,
+  get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
+});
+Object.defineProperty(exports, "FileSync", {
+  enumerable: true,
+  get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
+});
+Object.defineProperty(exports, "FileSyncIcon", {
+  enumerable: true,
+  get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
+});
+Object.defineProperty(exports, "FileTransfer", {
+  enumerable: true,
+  get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
+});
+Object.defineProperty(exports, "FileTransferIcon", {
+  enumerable: true,
+  get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
+});
 Object.defineProperty(exports, "FoamFileArrowLeftRight", {
+  enumerable: true,
+  get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
+});
+Object.defineProperty(exports, "FoamFileExchange", {
+  enumerable: true,
+  get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
+});
+Object.defineProperty(exports, "FoamFileSync", {
+  enumerable: true,
+  get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
+});
+Object.defineProperty(exports, "FoamFileTransfer", {
   enumerable: true,
   get: function () { return chunkYEHNIEN3_cjs.FileArrowLeftRight; }
 });
@@ -12868,7 +14081,43 @@ Object.defineProperty(exports, "FileArrowLeftRightDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
 });
+Object.defineProperty(exports, "FileExchangeDuotone", {
+  enumerable: true,
+  get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
+});
+Object.defineProperty(exports, "FileExchangeDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
+});
+Object.defineProperty(exports, "FileSyncDuotone", {
+  enumerable: true,
+  get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
+});
+Object.defineProperty(exports, "FileSyncDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
+});
+Object.defineProperty(exports, "FileTransferDuotone", {
+  enumerable: true,
+  get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
+});
+Object.defineProperty(exports, "FileTransferDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
+});
 Object.defineProperty(exports, "FoamFileArrowLeftRightDuotone", {
+  enumerable: true,
+  get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
+});
+Object.defineProperty(exports, "FoamFileExchangeDuotone", {
+  enumerable: true,
+  get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
+});
+Object.defineProperty(exports, "FoamFileSyncDuotone", {
+  enumerable: true,
+  get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
+});
+Object.defineProperty(exports, "FoamFileTransferDuotone", {
   enumerable: true,
   get: function () { return chunkOQ4D3VR7_cjs.FileArrowLeftRightDuotone; }
 });
@@ -12880,7 +14129,43 @@ Object.defineProperty(exports, "FileArrowLeftRightFillIcon", {
   enumerable: true,
   get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
 });
+Object.defineProperty(exports, "FileExchangeFill", {
+  enumerable: true,
+  get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
+});
+Object.defineProperty(exports, "FileExchangeFillIcon", {
+  enumerable: true,
+  get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
+});
+Object.defineProperty(exports, "FileSyncFill", {
+  enumerable: true,
+  get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
+});
+Object.defineProperty(exports, "FileSyncFillIcon", {
+  enumerable: true,
+  get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
+});
+Object.defineProperty(exports, "FileTransferFill", {
+  enumerable: true,
+  get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
+});
+Object.defineProperty(exports, "FileTransferFillIcon", {
+  enumerable: true,
+  get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
+});
 Object.defineProperty(exports, "FoamFileArrowLeftRightFill", {
+  enumerable: true,
+  get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
+});
+Object.defineProperty(exports, "FoamFileExchangeFill", {
+  enumerable: true,
+  get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
+});
+Object.defineProperty(exports, "FoamFileSyncFill", {
+  enumerable: true,
+  get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
+});
+Object.defineProperty(exports, "FoamFileTransferFill", {
   enumerable: true,
   get: function () { return chunkGG3F4AEW_cjs.FileArrowLeftRightFill; }
 });
@@ -12892,7 +14177,31 @@ Object.defineProperty(exports, "FileArrowRightIcon", {
   enumerable: true,
   get: function () { return chunkEHOSNU2Y_cjs.FileArrowRight; }
 });
+Object.defineProperty(exports, "FileForward", {
+  enumerable: true,
+  get: function () { return chunkEHOSNU2Y_cjs.FileArrowRight; }
+});
+Object.defineProperty(exports, "FileForwardIcon", {
+  enumerable: true,
+  get: function () { return chunkEHOSNU2Y_cjs.FileArrowRight; }
+});
+Object.defineProperty(exports, "FileNext", {
+  enumerable: true,
+  get: function () { return chunkEHOSNU2Y_cjs.FileArrowRight; }
+});
+Object.defineProperty(exports, "FileNextIcon", {
+  enumerable: true,
+  get: function () { return chunkEHOSNU2Y_cjs.FileArrowRight; }
+});
 Object.defineProperty(exports, "FoamFileArrowRight", {
+  enumerable: true,
+  get: function () { return chunkEHOSNU2Y_cjs.FileArrowRight; }
+});
+Object.defineProperty(exports, "FoamFileForward", {
+  enumerable: true,
+  get: function () { return chunkEHOSNU2Y_cjs.FileArrowRight; }
+});
+Object.defineProperty(exports, "FoamFileNext", {
   enumerable: true,
   get: function () { return chunkEHOSNU2Y_cjs.FileArrowRight; }
 });
@@ -12904,7 +14213,31 @@ Object.defineProperty(exports, "FileArrowRightDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkEIRR22CL_cjs.FileArrowRightDuotone; }
 });
+Object.defineProperty(exports, "FileForwardDuotone", {
+  enumerable: true,
+  get: function () { return chunkEIRR22CL_cjs.FileArrowRightDuotone; }
+});
+Object.defineProperty(exports, "FileForwardDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkEIRR22CL_cjs.FileArrowRightDuotone; }
+});
+Object.defineProperty(exports, "FileNextDuotone", {
+  enumerable: true,
+  get: function () { return chunkEIRR22CL_cjs.FileArrowRightDuotone; }
+});
+Object.defineProperty(exports, "FileNextDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkEIRR22CL_cjs.FileArrowRightDuotone; }
+});
 Object.defineProperty(exports, "FoamFileArrowRightDuotone", {
+  enumerable: true,
+  get: function () { return chunkEIRR22CL_cjs.FileArrowRightDuotone; }
+});
+Object.defineProperty(exports, "FoamFileForwardDuotone", {
+  enumerable: true,
+  get: function () { return chunkEIRR22CL_cjs.FileArrowRightDuotone; }
+});
+Object.defineProperty(exports, "FoamFileNextDuotone", {
   enumerable: true,
   get: function () { return chunkEIRR22CL_cjs.FileArrowRightDuotone; }
 });
@@ -12916,7 +14249,31 @@ Object.defineProperty(exports, "FileArrowRightFillIcon", {
   enumerable: true,
   get: function () { return chunk3UD5C5AK_cjs.FileArrowRightFill; }
 });
+Object.defineProperty(exports, "FileForwardFill", {
+  enumerable: true,
+  get: function () { return chunk3UD5C5AK_cjs.FileArrowRightFill; }
+});
+Object.defineProperty(exports, "FileForwardFillIcon", {
+  enumerable: true,
+  get: function () { return chunk3UD5C5AK_cjs.FileArrowRightFill; }
+});
+Object.defineProperty(exports, "FileNextFill", {
+  enumerable: true,
+  get: function () { return chunk3UD5C5AK_cjs.FileArrowRightFill; }
+});
+Object.defineProperty(exports, "FileNextFillIcon", {
+  enumerable: true,
+  get: function () { return chunk3UD5C5AK_cjs.FileArrowRightFill; }
+});
 Object.defineProperty(exports, "FoamFileArrowRightFill", {
+  enumerable: true,
+  get: function () { return chunk3UD5C5AK_cjs.FileArrowRightFill; }
+});
+Object.defineProperty(exports, "FoamFileForwardFill", {
+  enumerable: true,
+  get: function () { return chunk3UD5C5AK_cjs.FileArrowRightFill; }
+});
+Object.defineProperty(exports, "FoamFileNextFill", {
   enumerable: true,
   get: function () { return chunk3UD5C5AK_cjs.FileArrowRightFill; }
 });
@@ -13064,6 +14421,14 @@ Object.defineProperty(exports, "InvisibleFillIcon", {
   enumerable: true,
   get: function () { return chunk5I72WLMX_cjs.EyeOffFill; }
 });
+Object.defineProperty(exports, "Document", {
+  enumerable: true,
+  get: function () { return chunkFP4YR7UT_cjs.File; }
+});
+Object.defineProperty(exports, "DocumentIcon", {
+  enumerable: true,
+  get: function () { return chunkFP4YR7UT_cjs.File; }
+});
 Object.defineProperty(exports, "File", {
   enumerable: true,
   get: function () { return chunkFP4YR7UT_cjs.File; }
@@ -13072,9 +14437,33 @@ Object.defineProperty(exports, "FileIcon", {
   enumerable: true,
   get: function () { return chunkFP4YR7UT_cjs.File; }
 });
+Object.defineProperty(exports, "FoamDocument", {
+  enumerable: true,
+  get: function () { return chunkFP4YR7UT_cjs.File; }
+});
 Object.defineProperty(exports, "FoamFile", {
   enumerable: true,
   get: function () { return chunkFP4YR7UT_cjs.File; }
+});
+Object.defineProperty(exports, "FoamPage", {
+  enumerable: true,
+  get: function () { return chunkFP4YR7UT_cjs.File; }
+});
+Object.defineProperty(exports, "Page", {
+  enumerable: true,
+  get: function () { return chunkFP4YR7UT_cjs.File; }
+});
+Object.defineProperty(exports, "PageIcon", {
+  enumerable: true,
+  get: function () { return chunkFP4YR7UT_cjs.File; }
+});
+Object.defineProperty(exports, "DownloadFile", {
+  enumerable: true,
+  get: function () { return chunkWS6T3TT2_cjs.FileArrowDown; }
+});
+Object.defineProperty(exports, "DownloadFileIcon", {
+  enumerable: true,
+  get: function () { return chunkWS6T3TT2_cjs.FileArrowDown; }
 });
 Object.defineProperty(exports, "FileArrowDown", {
   enumerable: true,
@@ -13084,9 +14473,21 @@ Object.defineProperty(exports, "FileArrowDownIcon", {
   enumerable: true,
   get: function () { return chunkWS6T3TT2_cjs.FileArrowDown; }
 });
+Object.defineProperty(exports, "FoamDownloadFile", {
+  enumerable: true,
+  get: function () { return chunkWS6T3TT2_cjs.FileArrowDown; }
+});
 Object.defineProperty(exports, "FoamFileArrowDown", {
   enumerable: true,
   get: function () { return chunkWS6T3TT2_cjs.FileArrowDown; }
+});
+Object.defineProperty(exports, "DownloadFileDuotone", {
+  enumerable: true,
+  get: function () { return chunkYONQGK2K_cjs.FileArrowDownDuotone; }
+});
+Object.defineProperty(exports, "DownloadFileDuotoneIcon", {
+  enumerable: true,
+  get: function () { return chunkYONQGK2K_cjs.FileArrowDownDuotone; }
 });
 Object.defineProperty(exports, "FileArrowDownDuotone", {
   enumerable: true,
@@ -13096,15 +14497,31 @@ Object.defineProperty(exports, "FileArrowDownDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkYONQGK2K_cjs.FileArrowDownDuotone; }
 });
+Object.defineProperty(exports, "FoamDownloadFileDuotone", {
+  enumerable: true,
+  get: function () { return chunkYONQGK2K_cjs.FileArrowDownDuotone; }
+});
 Object.defineProperty(exports, "FoamFileArrowDownDuotone", {
   enumerable: true,
   get: function () { return chunkYONQGK2K_cjs.FileArrowDownDuotone; }
+});
+Object.defineProperty(exports, "DownloadFileFill", {
+  enumerable: true,
+  get: function () { return chunkKRIQPO7S_cjs.FileArrowDownFill; }
+});
+Object.defineProperty(exports, "DownloadFileFillIcon", {
+  enumerable: true,
+  get: function () { return chunkKRIQPO7S_cjs.FileArrowDownFill; }
 });
 Object.defineProperty(exports, "FileArrowDownFill", {
   enumerable: true,
   get: function () { return chunkKRIQPO7S_cjs.FileArrowDownFill; }
 });
 Object.defineProperty(exports, "FileArrowDownFillIcon", {
+  enumerable: true,
+  get: function () { return chunkKRIQPO7S_cjs.FileArrowDownFill; }
+});
+Object.defineProperty(exports, "FoamDownloadFileFill", {
   enumerable: true,
   get: function () { return chunkKRIQPO7S_cjs.FileArrowDownFill; }
 });
@@ -13120,7 +14537,31 @@ Object.defineProperty(exports, "FileArrowLeftIcon", {
   enumerable: true,
   get: function () { return chunk4MWSY3JQ_cjs.FileArrowLeft; }
 });
+Object.defineProperty(exports, "FileBack", {
+  enumerable: true,
+  get: function () { return chunk4MWSY3JQ_cjs.FileArrowLeft; }
+});
+Object.defineProperty(exports, "FileBackIcon", {
+  enumerable: true,
+  get: function () { return chunk4MWSY3JQ_cjs.FileArrowLeft; }
+});
+Object.defineProperty(exports, "FilePrevious", {
+  enumerable: true,
+  get: function () { return chunk4MWSY3JQ_cjs.FileArrowLeft; }
+});
+Object.defineProperty(exports, "FilePreviousIcon", {
+  enumerable: true,
+  get: function () { return chunk4MWSY3JQ_cjs.FileArrowLeft; }
+});
 Object.defineProperty(exports, "FoamFileArrowLeft", {
+  enumerable: true,
+  get: function () { return chunk4MWSY3JQ_cjs.FileArrowLeft; }
+});
+Object.defineProperty(exports, "FoamFileBack", {
+  enumerable: true,
+  get: function () { return chunk4MWSY3JQ_cjs.FileArrowLeft; }
+});
+Object.defineProperty(exports, "FoamFilePrevious", {
   enumerable: true,
   get: function () { return chunk4MWSY3JQ_cjs.FileArrowLeft; }
 });
@@ -13644,14 +15085,6 @@ Object.defineProperty(exports, "Download", {
   enumerable: true,
   get: function () { return chunkAKMESGLA_cjs.Download; }
 });
-Object.defineProperty(exports, "DownloadFile", {
-  enumerable: true,
-  get: function () { return chunkAKMESGLA_cjs.Download; }
-});
-Object.defineProperty(exports, "DownloadFileIcon", {
-  enumerable: true,
-  get: function () { return chunkAKMESGLA_cjs.Download; }
-});
 Object.defineProperty(exports, "DownloadIcon", {
   enumerable: true,
   get: function () { return chunkAKMESGLA_cjs.Download; }
@@ -13665,10 +15098,6 @@ Object.defineProperty(exports, "ExportIcon", {
   get: function () { return chunkAKMESGLA_cjs.Download; }
 });
 Object.defineProperty(exports, "FoamDownload", {
-  enumerable: true,
-  get: function () { return chunkAKMESGLA_cjs.Download; }
-});
-Object.defineProperty(exports, "FoamDownloadFile", {
   enumerable: true,
   get: function () { return chunkAKMESGLA_cjs.Download; }
 });
@@ -13696,14 +15125,6 @@ Object.defineProperty(exports, "DownloadDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkLJRCP7II_cjs.DownloadDuotone; }
 });
-Object.defineProperty(exports, "DownloadFileDuotone", {
-  enumerable: true,
-  get: function () { return chunkLJRCP7II_cjs.DownloadDuotone; }
-});
-Object.defineProperty(exports, "DownloadFileDuotoneIcon", {
-  enumerable: true,
-  get: function () { return chunkLJRCP7II_cjs.DownloadDuotone; }
-});
 Object.defineProperty(exports, "ExportDuotone", {
   enumerable: true,
   get: function () { return chunkLJRCP7II_cjs.DownloadDuotone; }
@@ -13713,10 +15134,6 @@ Object.defineProperty(exports, "ExportDuotoneIcon", {
   get: function () { return chunkLJRCP7II_cjs.DownloadDuotone; }
 });
 Object.defineProperty(exports, "FoamDownloadDuotone", {
-  enumerable: true,
-  get: function () { return chunkLJRCP7II_cjs.DownloadDuotone; }
-});
-Object.defineProperty(exports, "FoamDownloadFileDuotone", {
   enumerable: true,
   get: function () { return chunkLJRCP7II_cjs.DownloadDuotone; }
 });
@@ -13736,14 +15153,6 @@ Object.defineProperty(exports, "GetDuotoneIcon", {
   enumerable: true,
   get: function () { return chunkLJRCP7II_cjs.DownloadDuotone; }
 });
-Object.defineProperty(exports, "DownloadFileFill", {
-  enumerable: true,
-  get: function () { return chunkPC742E4J_cjs.DownloadFill; }
-});
-Object.defineProperty(exports, "DownloadFileFillIcon", {
-  enumerable: true,
-  get: function () { return chunkPC742E4J_cjs.DownloadFill; }
-});
 Object.defineProperty(exports, "DownloadFill", {
   enumerable: true,
   get: function () { return chunkPC742E4J_cjs.DownloadFill; }
@@ -13757,10 +15166,6 @@ Object.defineProperty(exports, "ExportFill", {
   get: function () { return chunkPC742E4J_cjs.DownloadFill; }
 });
 Object.defineProperty(exports, "ExportFillIcon", {
-  enumerable: true,
-  get: function () { return chunkPC742E4J_cjs.DownloadFill; }
-});
-Object.defineProperty(exports, "FoamDownloadFileFill", {
   enumerable: true,
   get: function () { return chunkPC742E4J_cjs.DownloadFill; }
 });

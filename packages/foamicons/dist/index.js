@@ -83,9 +83,9 @@ export { Search as Explore, Search as ExploreIcon, Search as Find, Search as Fin
 export { SearchDuotone as ExploreDuotone, SearchDuotone as ExploreDuotoneIcon, SearchDuotone as FindDuotone, SearchDuotone as FindDuotoneIcon, SearchDuotone as FoamExploreDuotone, SearchDuotone as FoamFindDuotone, SearchDuotone as FoamLookupDuotone, SearchDuotone as FoamMagnifyingGlassDuotone, SearchDuotone as FoamQueryDuotone, SearchDuotone as FoamSearchDuotone, SearchDuotone as LookupDuotone, SearchDuotone as LookupDuotoneIcon, SearchDuotone as MagnifyingGlassDuotone, SearchDuotone as MagnifyingGlassDuotoneIcon, SearchDuotone as QueryDuotone, SearchDuotone as QueryDuotoneIcon, SearchDuotone, SearchDuotone as SearchDuotoneIcon } from './chunk-OLTU6JJ4.js';
 export { SearchFill as ExploreFill, SearchFill as ExploreFillIcon, SearchFill as FindFill, SearchFill as FindFillIcon, SearchFill as FoamExploreFill, SearchFill as FoamFindFill, SearchFill as FoamLookupFill, SearchFill as FoamMagnifyingGlassFill, SearchFill as FoamQueryFill, SearchFill as FoamSearchFill, SearchFill as LookupFill, SearchFill as LookupFillIcon, SearchFill as MagnifyingGlassFill, SearchFill as MagnifyingGlassFillIcon, SearchFill as QueryFill, SearchFill as QueryFillIcon, SearchFill, SearchFill as SearchFillIcon } from './chunk-ACKYLOMO.js';
 export { SearchUser as FindUser, SearchUser as FindUserIcon, SearchUser as FoamFindUser, SearchUser as FoamLookupPerson, SearchUser as FoamSearchPerson, SearchUser as FoamSearchUser, SearchUser as FoamUserSearch, SearchUser as LookupPerson, SearchUser as LookupPersonIcon, SearchUser as SearchPerson, SearchUser as SearchPersonIcon, SearchUser, SearchUser as SearchUserIcon, SearchUser as UserSearch, SearchUser as UserSearchIcon } from './chunk-7CVPWGDR.js';
-export { Rolodex as FoamRolodex, Rolodex, Rolodex as RolodexIcon } from './chunk-ZX6FSKUW.js';
-export { RolodexDuotone as FoamRolodexDuotone, RolodexDuotone, RolodexDuotone as RolodexDuotoneIcon } from './chunk-LQQDOOSR.js';
-export { RolodexFill as FoamRolodexFill, RolodexFill, RolodexFill as RolodexFillIcon } from './chunk-3WWBIQTW.js';
+export { Rolodex as AddressBook, Rolodex as AddressBookIcon, Rolodex as Alphabet, Rolodex as AlphabetIcon, Rolodex as CardIndex, Rolodex as CardIndexIcon, Rolodex as Contacts, Rolodex as ContactsIcon, Rolodex as FoamAddressBook, Rolodex as FoamAlphabet, Rolodex as FoamCardIndex, Rolodex as FoamContacts, Rolodex as FoamRolodex, Rolodex, Rolodex as RolodexIcon } from './chunk-ZX6FSKUW.js';
+export { RolodexDuotone as AddressBookDuotone, RolodexDuotone as AddressBookDuotoneIcon, RolodexDuotone as AlphabetDuotone, RolodexDuotone as AlphabetDuotoneIcon, RolodexDuotone as CardIndexDuotone, RolodexDuotone as CardIndexDuotoneIcon, RolodexDuotone as ContactsDuotone, RolodexDuotone as ContactsDuotoneIcon, RolodexDuotone as FoamAddressBookDuotone, RolodexDuotone as FoamAlphabetDuotone, RolodexDuotone as FoamCardIndexDuotone, RolodexDuotone as FoamContactsDuotone, RolodexDuotone as FoamRolodexDuotone, RolodexDuotone, RolodexDuotone as RolodexDuotoneIcon } from './chunk-LQQDOOSR.js';
+export { RolodexFill as AddressBookFill, RolodexFill as AddressBookFillIcon, RolodexFill as AlphabetFill, RolodexFill as AlphabetFillIcon, RolodexFill as CardIndexFill, RolodexFill as CardIndexFillIcon, RolodexFill as ContactsFill, RolodexFill as ContactsFillIcon, RolodexFill as FoamAddressBookFill, RolodexFill as FoamAlphabetFill, RolodexFill as FoamCardIndexFill, RolodexFill as FoamContactsFill, RolodexFill as FoamRolodexFill, RolodexFill, RolodexFill as RolodexFillIcon } from './chunk-3WWBIQTW.js';
 export { RotateCw as FoamRedo, RotateCw as FoamRotate, RotateCw as FoamRotateCw, RotateCw as FoamTurn, RotateCw as Redo, RotateCw as RedoIcon, RotateCw as Rotate, RotateCw, RotateCw as RotateCwIcon, RotateCw as RotateIcon, RotateCw as Turn, RotateCw as TurnIcon } from './chunk-L7VXGHMS.js';
 export { RotateCwDuotone as FoamRedoDuotone, RotateCwDuotone as FoamRotateCwDuotone, RotateCwDuotone as FoamRotateDuotone, RotateCwDuotone as FoamTurnDuotone, RotateCwDuotone as RedoDuotone, RotateCwDuotone as RedoDuotoneIcon, RotateCwDuotone, RotateCwDuotone as RotateCwDuotoneIcon, RotateCwDuotone as RotateDuotone, RotateCwDuotone as RotateDuotoneIcon, RotateCwDuotone as TurnDuotone, RotateCwDuotone as TurnDuotoneIcon } from './chunk-7TLTLHXX.js';
 export { RotateCwFill as FoamRedoFill, RotateCwFill as FoamRotateCwFill, RotateCwFill as FoamRotateFill, RotateCwFill as FoamTurnFill, RotateCwFill as RedoFill, RotateCwFill as RedoFillIcon, RotateCwFill, RotateCwFill as RotateCwFillIcon, RotateCwFill as RotateFill, RotateCwFill as RotateFillIcon, RotateCwFill as TurnFill, RotateCwFill as TurnFillIcon } from './chunk-V4G4VZ5J.js';
@@ -99,7 +99,7 @@ export { RemoveFormattingFill as ClearFormatFill, RemoveFormattingFill as ClearF
 export { Reply as Answer, Reply as AnswerIcon, Reply as FoamAnswer, Reply as FoamReply, Reply as FoamRespond, Reply, Reply as ReplyIcon, Reply as Respond, Reply as RespondIcon } from './chunk-UMRSQ5DC.js';
 export { ReplyDuotone as AnswerDuotone, ReplyDuotone as AnswerDuotoneIcon, ReplyDuotone as FoamAnswerDuotone, ReplyDuotone as FoamReplyDuotone, ReplyDuotone as FoamRespondDuotone, ReplyDuotone, ReplyDuotone as ReplyDuotoneIcon, ReplyDuotone as RespondDuotone, ReplyDuotone as RespondDuotoneIcon } from './chunk-OWHYU6WB.js';
 export { ReplyFill as AnswerFill, ReplyFill as AnswerFillIcon, ReplyFill as FoamAnswerFill, ReplyFill as FoamReplyFill, ReplyFill as FoamRespondFill, ReplyFill, ReplyFill as ReplyFillIcon, ReplyFill as RespondFill, ReplyFill as RespondFillIcon } from './chunk-OPUAS7D2.js';
-export { QuotationMarkRightFill as FoamQuotationMarkRightFill, QuotationMarkRightFill, QuotationMarkRightFill as QuotationMarkRightFillIcon } from './chunk-6Y2VK4GN.js';
+export { QuotationMarkRightFill as BlockquoteEndFill, QuotationMarkRightFill as BlockquoteEndFillIcon, QuotationMarkRightFill as CloseQuoteFill, QuotationMarkRightFill as CloseQuoteFillIcon, QuotationMarkRightFill as FoamBlockquoteEndFill, QuotationMarkRightFill as FoamCloseQuoteFill, QuotationMarkRightFill as FoamQuotationMarkRightFill, QuotationMarkRightFill as FoamQuoteRightFill, QuotationMarkRightFill, QuotationMarkRightFill as QuotationMarkRightFillIcon, QuotationMarkRightFill as QuoteRightFill, QuotationMarkRightFill as QuoteRightFillIcon } from './chunk-6Y2VK4GN.js';
 export { Reach as Audience, Reach as AudienceIcon, Reach as FoamAudience, Reach as FoamImpressions, Reach as FoamReach, Reach as FoamViews, Reach as Impressions, Reach as ImpressionsIcon, Reach, Reach as ReachIcon, Reach as Views, Reach as ViewsIcon } from './chunk-ZIE4KNYQ.js';
 export { ReachDuotone as AudienceDuotone, ReachDuotone as AudienceDuotoneIcon, ReachDuotone as FoamAudienceDuotone, ReachDuotone as FoamImpressionsDuotone, ReachDuotone as FoamReachDuotone, ReachDuotone as FoamViewsDuotone, ReachDuotone as ImpressionsDuotone, ReachDuotone as ImpressionsDuotoneIcon, ReachDuotone, ReachDuotone as ReachDuotoneIcon, ReachDuotone as ViewsDuotone, ReachDuotone as ViewsDuotoneIcon } from './chunk-ZIBTYNA5.js';
 export { ReachFill as AudienceFill, ReachFill as AudienceFillIcon, ReachFill as FoamAudienceFill, ReachFill as FoamImpressionsFill, ReachFill as FoamReachFill, ReachFill as FoamViewsFill, ReachFill as ImpressionsFill, ReachFill as ImpressionsFillIcon, ReachFill, ReachFill as ReachFillIcon, ReachFill as ViewsFill, ReachFill as ViewsFillIcon } from './chunk-G6MY5XOK.js';
@@ -110,11 +110,11 @@ export { RefreshCw as FoamRefresh, RefreshCw as FoamRefreshCw, RefreshCw as Foam
 export { Plus as Add, Plus as AddIcon, Plus as Create, Plus as CreateIcon, Plus as FoamAdd, Plus as FoamCreate, Plus as FoamNew, Plus as FoamPlus, Plus as New, Plus as NewIcon, Plus, Plus as PlusIcon } from './chunk-YHTMVIWE.js';
 export { PlusDuotone as AddDuotone, PlusDuotone as AddDuotoneIcon, PlusDuotone as CreateDuotone, PlusDuotone as CreateDuotoneIcon, PlusDuotone as FoamAddDuotone, PlusDuotone as FoamCreateDuotone, PlusDuotone as FoamNewDuotone, PlusDuotone as FoamPlusDuotone, PlusDuotone as NewDuotone, PlusDuotone as NewDuotoneIcon, PlusDuotone, PlusDuotone as PlusDuotoneIcon } from './chunk-L2XQA4Q4.js';
 export { PlusFill as AddFill, PlusFill as AddFillIcon, PlusFill as CreateFill, PlusFill as CreateFillIcon, PlusFill as FoamAddFill, PlusFill as FoamCreateFill, PlusFill as FoamNewFill, PlusFill as FoamPlusFill, PlusFill as NewFill, PlusFill as NewFillIcon, PlusFill, PlusFill as PlusFillIcon } from './chunk-B7Y7QKYR.js';
-export { QuotationMarkLeft as FoamQuotationMarkLeft, QuotationMarkLeft, QuotationMarkLeft as QuotationMarkLeftIcon } from './chunk-TTOHUWNQ.js';
-export { QuotationMarkLeftDuotone as FoamQuotationMarkLeftDuotone, QuotationMarkLeftDuotone, QuotationMarkLeftDuotone as QuotationMarkLeftDuotoneIcon } from './chunk-LVXYJFBW.js';
-export { QuotationMarkLeftFill as FoamQuotationMarkLeftFill, QuotationMarkLeftFill, QuotationMarkLeftFill as QuotationMarkLeftFillIcon } from './chunk-6YVYIGOI.js';
-export { QuotationMarkRight as FoamQuotationMarkRight, QuotationMarkRight, QuotationMarkRight as QuotationMarkRightIcon } from './chunk-DJI5ZLKL.js';
-export { QuotationMarkRightDuotone as FoamQuotationMarkRightDuotone, QuotationMarkRightDuotone, QuotationMarkRightDuotone as QuotationMarkRightDuotoneIcon } from './chunk-VARCFRMT.js';
+export { QuotationMarkLeft as BlockquoteStart, QuotationMarkLeft as BlockquoteStartIcon, QuotationMarkLeft as FoamBlockquoteStart, QuotationMarkLeft as FoamOpenQuote, QuotationMarkLeft as FoamQuotationMarkLeft, QuotationMarkLeft as FoamQuoteLeft, QuotationMarkLeft as OpenQuote, QuotationMarkLeft as OpenQuoteIcon, QuotationMarkLeft, QuotationMarkLeft as QuotationMarkLeftIcon, QuotationMarkLeft as QuoteLeft, QuotationMarkLeft as QuoteLeftIcon } from './chunk-TTOHUWNQ.js';
+export { QuotationMarkLeftDuotone as BlockquoteStartDuotone, QuotationMarkLeftDuotone as BlockquoteStartDuotoneIcon, QuotationMarkLeftDuotone as FoamBlockquoteStartDuotone, QuotationMarkLeftDuotone as FoamOpenQuoteDuotone, QuotationMarkLeftDuotone as FoamQuotationMarkLeftDuotone, QuotationMarkLeftDuotone as FoamQuoteLeftDuotone, QuotationMarkLeftDuotone as OpenQuoteDuotone, QuotationMarkLeftDuotone as OpenQuoteDuotoneIcon, QuotationMarkLeftDuotone, QuotationMarkLeftDuotone as QuotationMarkLeftDuotoneIcon, QuotationMarkLeftDuotone as QuoteLeftDuotone, QuotationMarkLeftDuotone as QuoteLeftDuotoneIcon } from './chunk-LVXYJFBW.js';
+export { QuotationMarkLeftFill as BlockquoteStartFill, QuotationMarkLeftFill as BlockquoteStartFillIcon, QuotationMarkLeftFill as FoamBlockquoteStartFill, QuotationMarkLeftFill as FoamOpenQuoteFill, QuotationMarkLeftFill as FoamQuotationMarkLeftFill, QuotationMarkLeftFill as FoamQuoteLeftFill, QuotationMarkLeftFill as OpenQuoteFill, QuotationMarkLeftFill as OpenQuoteFillIcon, QuotationMarkLeftFill, QuotationMarkLeftFill as QuotationMarkLeftFillIcon, QuotationMarkLeftFill as QuoteLeftFill, QuotationMarkLeftFill as QuoteLeftFillIcon } from './chunk-6YVYIGOI.js';
+export { QuotationMarkRight as BlockquoteEnd, QuotationMarkRight as BlockquoteEndIcon, QuotationMarkRight as CloseQuote, QuotationMarkRight as CloseQuoteIcon, QuotationMarkRight as FoamBlockquoteEnd, QuotationMarkRight as FoamCloseQuote, QuotationMarkRight as FoamQuotationMarkRight, QuotationMarkRight as FoamQuoteRight, QuotationMarkRight, QuotationMarkRight as QuotationMarkRightIcon, QuotationMarkRight as QuoteRight, QuotationMarkRight as QuoteRightIcon } from './chunk-DJI5ZLKL.js';
+export { QuotationMarkRightDuotone as BlockquoteEndDuotone, QuotationMarkRightDuotone as BlockquoteEndDuotoneIcon, QuotationMarkRightDuotone as CloseQuoteDuotone, QuotationMarkRightDuotone as CloseQuoteDuotoneIcon, QuotationMarkRightDuotone as FoamBlockquoteEndDuotone, QuotationMarkRightDuotone as FoamCloseQuoteDuotone, QuotationMarkRightDuotone as FoamQuotationMarkRightDuotone, QuotationMarkRightDuotone as FoamQuoteRightDuotone, QuotationMarkRightDuotone, QuotationMarkRightDuotone as QuotationMarkRightDuotoneIcon, QuotationMarkRightDuotone as QuoteRightDuotone, QuotationMarkRightDuotone as QuoteRightDuotoneIcon } from './chunk-VARCFRMT.js';
 export { PencilDuotone as EditDuotone, PencilDuotone as EditDuotoneIcon, PencilDuotone as FoamEditDuotone, PencilDuotone as FoamModifyDuotone, PencilDuotone as FoamPencilDuotone, PencilDuotone as FoamWriteDuotone, PencilDuotone as ModifyDuotone, PencilDuotone as ModifyDuotoneIcon, PencilDuotone, PencilDuotone as PencilDuotoneIcon, PencilDuotone as WriteDuotone, PencilDuotone as WriteDuotoneIcon } from './chunk-V3VUKLYX.js';
 export { PencilFill as EditFill, PencilFill as EditFillIcon, PencilFill as FoamEditFill, PencilFill as FoamModifyFill, PencilFill as FoamPencilFill, PencilFill as FoamWriteFill, PencilFill as ModifyFill, PencilFill as ModifyFillIcon, PencilFill, PencilFill as PencilFillIcon, PencilFill as WriteFill, PencilFill as WriteFillIcon } from './chunk-KWDLFKC5.js';
 export { Pin as FoamPin, Pin as FoamStick, Pin as FoamTack, Pin as FoamThumbtack, Pin, Pin as PinIcon, Pin as Stick, Pin as StickIcon, Pin as Tack, Pin as TackIcon, Pin as Thumbtack, Pin as ThumbtackIcon } from './chunk-BA26PZ2T.js';
@@ -243,46 +243,46 @@ export { FullscreenFill as FoamFullScreenFill, FullscreenFill as FoamFullscreenF
 export { Globe as FoamGlobe, Globe as FoamInternet, Globe as FoamLanguage, Globe as FoamWeb, Globe as FoamWorld, Globe, Globe as GlobeIcon, Globe as Internet, Globe as InternetIcon, Globe as Language, Globe as LanguageIcon, Globe as Web, Globe as WebIcon, Globe as World, Globe as WorldIcon } from './chunk-GYP7HRAV.js';
 export { GlobeDuotone as FoamGlobeDuotone, GlobeDuotone as FoamInternetDuotone, GlobeDuotone as FoamLanguageDuotone, GlobeDuotone as FoamWebDuotone, GlobeDuotone as FoamWorldDuotone, GlobeDuotone, GlobeDuotone as GlobeDuotoneIcon, GlobeDuotone as InternetDuotone, GlobeDuotone as InternetDuotoneIcon, GlobeDuotone as LanguageDuotone, GlobeDuotone as LanguageDuotoneIcon, GlobeDuotone as WebDuotone, GlobeDuotone as WebDuotoneIcon, GlobeDuotone as WorldDuotone, GlobeDuotone as WorldDuotoneIcon } from './chunk-ITGPXKMP.js';
 export { GlobeFill as FoamGlobeFill, GlobeFill as FoamInternetFill, GlobeFill as FoamLanguageFill, GlobeFill as FoamWebFill, GlobeFill as FoamWorldFill, GlobeFill, GlobeFill as GlobeFillIcon, GlobeFill as InternetFill, GlobeFill as InternetFillIcon, GlobeFill as LanguageFill, GlobeFill as LanguageFillIcon, GlobeFill as WebFill, GlobeFill as WebFillIcon, GlobeFill as WorldFill, GlobeFill as WorldFillIcon } from './chunk-WQ4EXV7M.js';
-export { FileUserFill, FileUserFill as FileUserFillIcon, FileUserFill as FoamFileUserFill } from './chunk-BLHZUYMU.js';
-export { FileX, FileX as FileXIcon, FileX as FoamFileX } from './chunk-F6P7GQ6S.js';
-export { FileXDuotone, FileXDuotone as FileXDuotoneIcon, FileXDuotone as FoamFileXDuotone } from './chunk-WINTI6XG.js';
-export { FileXFill, FileXFill as FileXFillIcon, FileXFill as FoamFileXFill } from './chunk-K6DAHOXS.js';
+export { FileUserFill as FileAccountFill, FileUserFill as FileAccountFillIcon, FileUserFill as FileProfileFill, FileUserFill as FileProfileFillIcon, FileUserFill, FileUserFill as FileUserFillIcon, FileUserFill as FoamFileAccountFill, FileUserFill as FoamFileProfileFill, FileUserFill as FoamFileUserFill, FileUserFill as FoamUserDocumentFill, FileUserFill as UserDocumentFill, FileUserFill as UserDocumentFillIcon } from './chunk-BLHZUYMU.js';
+export { FileX as FileCancel, FileX as FileCancelIcon, FileX as FileDelete, FileX as FileDeleteIcon, FileX as FileRemove, FileX as FileRemoveIcon, FileX, FileX as FileXIcon, FileX as FoamFileCancel, FileX as FoamFileDelete, FileX as FoamFileRemove, FileX as FoamFileX } from './chunk-F6P7GQ6S.js';
+export { FileXDuotone as FileCancelDuotone, FileXDuotone as FileCancelDuotoneIcon, FileXDuotone as FileDeleteDuotone, FileXDuotone as FileDeleteDuotoneIcon, FileXDuotone as FileRemoveDuotone, FileXDuotone as FileRemoveDuotoneIcon, FileXDuotone, FileXDuotone as FileXDuotoneIcon, FileXDuotone as FoamFileCancelDuotone, FileXDuotone as FoamFileDeleteDuotone, FileXDuotone as FoamFileRemoveDuotone, FileXDuotone as FoamFileXDuotone } from './chunk-WINTI6XG.js';
+export { FileXFill as FileCancelFill, FileXFill as FileCancelFillIcon, FileXFill as FileDeleteFill, FileXFill as FileDeleteFillIcon, FileXFill as FileRemoveFill, FileXFill as FileRemoveFillIcon, FileXFill, FileXFill as FileXFillIcon, FileXFill as FoamFileCancelFill, FileXFill as FoamFileDeleteFill, FileXFill as FoamFileRemoveFill, FileXFill as FoamFileXFill } from './chunk-K6DAHOXS.js';
 export { Flame as Fire, Flame as FireIcon, Flame, Flame as FlameIcon, Flame as FoamFire, Flame as FoamFlame, Flame as FoamHot, Flame as FoamTrending, Flame as Hot, Flame as HotIcon, Flame as Trending, Flame as TrendingIcon } from './chunk-BRQ2G5IT.js';
 export { FlameDuotone as FireDuotone, FlameDuotone as FireDuotoneIcon, FlameDuotone, FlameDuotone as FlameDuotoneIcon, FlameDuotone as FoamFireDuotone, FlameDuotone as FoamFlameDuotone, FlameDuotone as FoamHotDuotone, FlameDuotone as FoamTrendingDuotone, FlameDuotone as HotDuotone, FlameDuotone as HotDuotoneIcon, FlameDuotone as TrendingDuotone, FlameDuotone as TrendingDuotoneIcon } from './chunk-UC7NSYDI.js';
 export { FlameFill as FireFill, FlameFill as FireFillIcon, FlameFill, FlameFill as FlameFillIcon, FlameFill as FoamFireFill, FlameFill as FoamFlameFill, FlameFill as FoamHotFill, FlameFill as FoamTrendingFill, FlameFill as HotFill, FlameFill as HotFillIcon, FlameFill as TrendingFill, FlameFill as TrendingFillIcon } from './chunk-M7O3N6S2.js';
 export { Frown as FoamFrown, Frown as FoamNegative, Frown as FoamSad, Frown as FoamUnhappy, Frown, Frown as FrownIcon, Frown as Negative, Frown as NegativeIcon, Frown as Sad, Frown as SadIcon, Frown as Unhappy, Frown as UnhappyIcon } from './chunk-ONACR6PC.js';
-export { FileCogFill, FileCogFill as FileCogFillIcon, FileCogFill as FoamFileCogFill } from './chunk-CSA2UCBW.js';
-export { FileDuotone, FileDuotone as FileDuotoneIcon, FileDuotone as FoamFileDuotone } from './chunk-VPBAMS6M.js';
-export { FileFill, FileFill as FileFillIcon, FileFill as FoamFileFill } from './chunk-CVAY6B63.js';
-export { FilePlus, FilePlus as FilePlusIcon, FilePlus as FoamFilePlus } from './chunk-WSOUBBVG.js';
-export { FilePlusDuotone, FilePlusDuotone as FilePlusDuotoneIcon, FilePlusDuotone as FoamFilePlusDuotone } from './chunk-XAQYURPP.js';
-export { FilePlusFill, FilePlusFill as FilePlusFillIcon, FilePlusFill as FoamFilePlusFill } from './chunk-FG2GMLYI.js';
-export { FileUser, FileUser as FileUserIcon, FileUser as FoamFileUser } from './chunk-JCGZ2WNZ.js';
-export { FileUserDuotone, FileUserDuotone as FileUserDuotoneIcon, FileUserDuotone as FoamFileUserDuotone } from './chunk-FTPVTV4S.js';
-export { FileArrowUp, FileArrowUp as FileArrowUpIcon, FileArrowUp as FoamFileArrowUp } from './chunk-4EBYB6M5.js';
-export { FileArrowUpDuotone, FileArrowUpDuotone as FileArrowUpDuotoneIcon, FileArrowUpDuotone as FoamFileArrowUpDuotone } from './chunk-RKJRFSDD.js';
-export { FileArrowUpFill, FileArrowUpFill as FileArrowUpFillIcon, FileArrowUpFill as FoamFileArrowUpFill } from './chunk-DOZTKVAM.js';
-export { FileCheck, FileCheck as FileCheckIcon, FileCheck as FoamFileCheck } from './chunk-UPXL4OKO.js';
-export { FileCheckDuotone, FileCheckDuotone as FileCheckDuotoneIcon, FileCheckDuotone as FoamFileCheckDuotone } from './chunk-Y2UB73ZC.js';
-export { FileCheckFill, FileCheckFill as FileCheckFillIcon, FileCheckFill as FoamFileCheckFill } from './chunk-RN44YZY7.js';
-export { FileCog, FileCog as FileCogIcon, FileCog as FoamFileCog } from './chunk-VZTOS4XG.js';
-export { FileCogDuotone, FileCogDuotone as FileCogDuotoneIcon, FileCogDuotone as FoamFileCogDuotone } from './chunk-2F2JVBAN.js';
-export { FileArrowLeftDuotone, FileArrowLeftDuotone as FileArrowLeftDuotoneIcon, FileArrowLeftDuotone as FoamFileArrowLeftDuotone } from './chunk-AT6UTE2P.js';
-export { FileArrowLeftFill, FileArrowLeftFill as FileArrowLeftFillIcon, FileArrowLeftFill as FoamFileArrowLeftFill } from './chunk-IFGTOZHD.js';
-export { FileArrowLeftRight, FileArrowLeftRight as FileArrowLeftRightIcon, FileArrowLeftRight as FoamFileArrowLeftRight } from './chunk-F6ITSGE4.js';
-export { FileArrowLeftRightDuotone, FileArrowLeftRightDuotone as FileArrowLeftRightDuotoneIcon, FileArrowLeftRightDuotone as FoamFileArrowLeftRightDuotone } from './chunk-Z3UHOTZB.js';
-export { FileArrowLeftRightFill, FileArrowLeftRightFill as FileArrowLeftRightFillIcon, FileArrowLeftRightFill as FoamFileArrowLeftRightFill } from './chunk-2RSDGX5Q.js';
-export { FileArrowRight, FileArrowRight as FileArrowRightIcon, FileArrowRight as FoamFileArrowRight } from './chunk-BXDEMGAZ.js';
-export { FileArrowRightDuotone, FileArrowRightDuotone as FileArrowRightDuotoneIcon, FileArrowRightDuotone as FoamFileArrowRightDuotone } from './chunk-GTDPGA6N.js';
-export { FileArrowRightFill, FileArrowRightFill as FileArrowRightFillIcon, FileArrowRightFill as FoamFileArrowRightFill } from './chunk-HDSVAZIV.js';
+export { FileCogFill, FileCogFill as FileCogFillIcon, FileCogFill as FileConfigFill, FileCogFill as FileConfigFillIcon, FileCogFill as FileSettingsFill, FileCogFill as FileSettingsFillIcon, FileCogFill as FoamFileCogFill, FileCogFill as FoamFileConfigFill, FileCogFill as FoamFileSettingsFill } from './chunk-CSA2UCBW.js';
+export { FileDuotone as DocumentDuotone, FileDuotone as DocumentDuotoneIcon, FileDuotone, FileDuotone as FileDuotoneIcon, FileDuotone as FoamDocumentDuotone, FileDuotone as FoamFileDuotone, FileDuotone as FoamPageDuotone, FileDuotone as PageDuotone, FileDuotone as PageDuotoneIcon } from './chunk-VPBAMS6M.js';
+export { FileFill as DocumentFill, FileFill as DocumentFillIcon, FileFill, FileFill as FileFillIcon, FileFill as FoamDocumentFill, FileFill as FoamFileFill, FileFill as FoamPageFill, FileFill as PageFill, FileFill as PageFillIcon } from './chunk-CVAY6B63.js';
+export { FilePlus as AddFile, FilePlus as AddFileIcon, FilePlus as CreateFile, FilePlus as CreateFileIcon, FilePlus, FilePlus as FilePlusIcon, FilePlus as FoamAddFile, FilePlus as FoamCreateFile, FilePlus as FoamFilePlus, FilePlus as FoamNewFile, FilePlus as NewFile, FilePlus as NewFileIcon } from './chunk-WSOUBBVG.js';
+export { FilePlusDuotone as AddFileDuotone, FilePlusDuotone as AddFileDuotoneIcon, FilePlusDuotone as CreateFileDuotone, FilePlusDuotone as CreateFileDuotoneIcon, FilePlusDuotone, FilePlusDuotone as FilePlusDuotoneIcon, FilePlusDuotone as FoamAddFileDuotone, FilePlusDuotone as FoamCreateFileDuotone, FilePlusDuotone as FoamFilePlusDuotone, FilePlusDuotone as FoamNewFileDuotone, FilePlusDuotone as NewFileDuotone, FilePlusDuotone as NewFileDuotoneIcon } from './chunk-XAQYURPP.js';
+export { FilePlusFill as AddFileFill, FilePlusFill as AddFileFillIcon, FilePlusFill as CreateFileFill, FilePlusFill as CreateFileFillIcon, FilePlusFill, FilePlusFill as FilePlusFillIcon, FilePlusFill as FoamAddFileFill, FilePlusFill as FoamCreateFileFill, FilePlusFill as FoamFilePlusFill, FilePlusFill as FoamNewFileFill, FilePlusFill as NewFileFill, FilePlusFill as NewFileFillIcon } from './chunk-FG2GMLYI.js';
+export { FileUser as FileAccount, FileUser as FileAccountIcon, FileUser as FileProfile, FileUser as FileProfileIcon, FileUser, FileUser as FileUserIcon, FileUser as FoamFileAccount, FileUser as FoamFileProfile, FileUser as FoamFileUser, FileUser as FoamUserDocument, FileUser as UserDocument, FileUser as UserDocumentIcon } from './chunk-JCGZ2WNZ.js';
+export { FileUserDuotone as FileAccountDuotone, FileUserDuotone as FileAccountDuotoneIcon, FileUserDuotone as FileProfileDuotone, FileUserDuotone as FileProfileDuotoneIcon, FileUserDuotone, FileUserDuotone as FileUserDuotoneIcon, FileUserDuotone as FoamFileAccountDuotone, FileUserDuotone as FoamFileProfileDuotone, FileUserDuotone as FoamFileUserDuotone, FileUserDuotone as FoamUserDocumentDuotone, FileUserDuotone as UserDocumentDuotone, FileUserDuotone as UserDocumentDuotoneIcon } from './chunk-FTPVTV4S.js';
+export { FileArrowUp, FileArrowUp as FileArrowUpIcon, FileArrowUp as FoamFileArrowUp, FileArrowUp as FoamUploadFile, FileArrowUp as UploadFile, FileArrowUp as UploadFileIcon } from './chunk-4EBYB6M5.js';
+export { FileArrowUpDuotone, FileArrowUpDuotone as FileArrowUpDuotoneIcon, FileArrowUpDuotone as FoamFileArrowUpDuotone, FileArrowUpDuotone as FoamUploadFileDuotone, FileArrowUpDuotone as UploadFileDuotone, FileArrowUpDuotone as UploadFileDuotoneIcon } from './chunk-RKJRFSDD.js';
+export { FileArrowUpFill, FileArrowUpFill as FileArrowUpFillIcon, FileArrowUpFill as FoamFileArrowUpFill, FileArrowUpFill as FoamUploadFileFill, FileArrowUpFill as UploadFileFill, FileArrowUpFill as UploadFileFillIcon } from './chunk-DOZTKVAM.js';
+export { FileCheck, FileCheck as FileCheckIcon, FileCheck as FileComplete, FileCheck as FileCompleteIcon, FileCheck as FileDone, FileCheck as FileDoneIcon, FileCheck as FileVerified, FileCheck as FileVerifiedIcon, FileCheck as FoamFileCheck, FileCheck as FoamFileComplete, FileCheck as FoamFileDone, FileCheck as FoamFileVerified } from './chunk-UPXL4OKO.js';
+export { FileCheckDuotone, FileCheckDuotone as FileCheckDuotoneIcon, FileCheckDuotone as FileCompleteDuotone, FileCheckDuotone as FileCompleteDuotoneIcon, FileCheckDuotone as FileDoneDuotone, FileCheckDuotone as FileDoneDuotoneIcon, FileCheckDuotone as FileVerifiedDuotone, FileCheckDuotone as FileVerifiedDuotoneIcon, FileCheckDuotone as FoamFileCheckDuotone, FileCheckDuotone as FoamFileCompleteDuotone, FileCheckDuotone as FoamFileDoneDuotone, FileCheckDuotone as FoamFileVerifiedDuotone } from './chunk-Y2UB73ZC.js';
+export { FileCheckFill, FileCheckFill as FileCheckFillIcon, FileCheckFill as FileCompleteFill, FileCheckFill as FileCompleteFillIcon, FileCheckFill as FileDoneFill, FileCheckFill as FileDoneFillIcon, FileCheckFill as FileVerifiedFill, FileCheckFill as FileVerifiedFillIcon, FileCheckFill as FoamFileCheckFill, FileCheckFill as FoamFileCompleteFill, FileCheckFill as FoamFileDoneFill, FileCheckFill as FoamFileVerifiedFill } from './chunk-RN44YZY7.js';
+export { FileCog, FileCog as FileCogIcon, FileCog as FileConfig, FileCog as FileConfigIcon, FileCog as FileSettings, FileCog as FileSettingsIcon, FileCog as FoamFileCog, FileCog as FoamFileConfig, FileCog as FoamFileSettings } from './chunk-VZTOS4XG.js';
+export { FileCogDuotone, FileCogDuotone as FileCogDuotoneIcon, FileCogDuotone as FileConfigDuotone, FileCogDuotone as FileConfigDuotoneIcon, FileCogDuotone as FileSettingsDuotone, FileCogDuotone as FileSettingsDuotoneIcon, FileCogDuotone as FoamFileCogDuotone, FileCogDuotone as FoamFileConfigDuotone, FileCogDuotone as FoamFileSettingsDuotone } from './chunk-2F2JVBAN.js';
+export { FileArrowLeftDuotone, FileArrowLeftDuotone as FileArrowLeftDuotoneIcon, FileArrowLeftDuotone as FileBackDuotone, FileArrowLeftDuotone as FileBackDuotoneIcon, FileArrowLeftDuotone as FilePreviousDuotone, FileArrowLeftDuotone as FilePreviousDuotoneIcon, FileArrowLeftDuotone as FoamFileArrowLeftDuotone, FileArrowLeftDuotone as FoamFileBackDuotone, FileArrowLeftDuotone as FoamFilePreviousDuotone } from './chunk-AT6UTE2P.js';
+export { FileArrowLeftFill, FileArrowLeftFill as FileArrowLeftFillIcon, FileArrowLeftFill as FileBackFill, FileArrowLeftFill as FileBackFillIcon, FileArrowLeftFill as FilePreviousFill, FileArrowLeftFill as FilePreviousFillIcon, FileArrowLeftFill as FoamFileArrowLeftFill, FileArrowLeftFill as FoamFileBackFill, FileArrowLeftFill as FoamFilePreviousFill } from './chunk-IFGTOZHD.js';
+export { FileArrowLeftRight, FileArrowLeftRight as FileArrowLeftRightIcon, FileArrowLeftRight as FileExchange, FileArrowLeftRight as FileExchangeIcon, FileArrowLeftRight as FileSync, FileArrowLeftRight as FileSyncIcon, FileArrowLeftRight as FileTransfer, FileArrowLeftRight as FileTransferIcon, FileArrowLeftRight as FoamFileArrowLeftRight, FileArrowLeftRight as FoamFileExchange, FileArrowLeftRight as FoamFileSync, FileArrowLeftRight as FoamFileTransfer } from './chunk-F6ITSGE4.js';
+export { FileArrowLeftRightDuotone, FileArrowLeftRightDuotone as FileArrowLeftRightDuotoneIcon, FileArrowLeftRightDuotone as FileExchangeDuotone, FileArrowLeftRightDuotone as FileExchangeDuotoneIcon, FileArrowLeftRightDuotone as FileSyncDuotone, FileArrowLeftRightDuotone as FileSyncDuotoneIcon, FileArrowLeftRightDuotone as FileTransferDuotone, FileArrowLeftRightDuotone as FileTransferDuotoneIcon, FileArrowLeftRightDuotone as FoamFileArrowLeftRightDuotone, FileArrowLeftRightDuotone as FoamFileExchangeDuotone, FileArrowLeftRightDuotone as FoamFileSyncDuotone, FileArrowLeftRightDuotone as FoamFileTransferDuotone } from './chunk-Z3UHOTZB.js';
+export { FileArrowLeftRightFill, FileArrowLeftRightFill as FileArrowLeftRightFillIcon, FileArrowLeftRightFill as FileExchangeFill, FileArrowLeftRightFill as FileExchangeFillIcon, FileArrowLeftRightFill as FileSyncFill, FileArrowLeftRightFill as FileSyncFillIcon, FileArrowLeftRightFill as FileTransferFill, FileArrowLeftRightFill as FileTransferFillIcon, FileArrowLeftRightFill as FoamFileArrowLeftRightFill, FileArrowLeftRightFill as FoamFileExchangeFill, FileArrowLeftRightFill as FoamFileSyncFill, FileArrowLeftRightFill as FoamFileTransferFill } from './chunk-2RSDGX5Q.js';
+export { FileArrowRight, FileArrowRight as FileArrowRightIcon, FileArrowRight as FileForward, FileArrowRight as FileForwardIcon, FileArrowRight as FileNext, FileArrowRight as FileNextIcon, FileArrowRight as FoamFileArrowRight, FileArrowRight as FoamFileForward, FileArrowRight as FoamFileNext } from './chunk-BXDEMGAZ.js';
+export { FileArrowRightDuotone, FileArrowRightDuotone as FileArrowRightDuotoneIcon, FileArrowRightDuotone as FileForwardDuotone, FileArrowRightDuotone as FileForwardDuotoneIcon, FileArrowRightDuotone as FileNextDuotone, FileArrowRightDuotone as FileNextDuotoneIcon, FileArrowRightDuotone as FoamFileArrowRightDuotone, FileArrowRightDuotone as FoamFileForwardDuotone, FileArrowRightDuotone as FoamFileNextDuotone } from './chunk-GTDPGA6N.js';
+export { FileArrowRightFill, FileArrowRightFill as FileArrowRightFillIcon, FileArrowRightFill as FileForwardFill, FileArrowRightFill as FileForwardFillIcon, FileArrowRightFill as FileNextFill, FileArrowRightFill as FileNextFillIcon, FileArrowRightFill as FoamFileArrowRightFill, FileArrowRightFill as FoamFileForwardFill, FileArrowRightFill as FoamFileNextFill } from './chunk-HDSVAZIV.js';
 export { EyeOff, EyeOff as EyeOffIcon, EyeOff as FoamEyeOff, EyeOff as FoamHidden, EyeOff as FoamHide, EyeOff as FoamInvisible, EyeOff as Hidden, EyeOff as HiddenIcon, EyeOff as Hide, EyeOff as HideIcon, EyeOff as Invisible, EyeOff as InvisibleIcon } from './chunk-6RSOVTHW.js';
 export { EyeOffDuotone, EyeOffDuotone as EyeOffDuotoneIcon, EyeOffDuotone as FoamEyeOffDuotone, EyeOffDuotone as FoamHiddenDuotone, EyeOffDuotone as FoamHideDuotone, EyeOffDuotone as FoamInvisibleDuotone, EyeOffDuotone as HiddenDuotone, EyeOffDuotone as HiddenDuotoneIcon, EyeOffDuotone as HideDuotone, EyeOffDuotone as HideDuotoneIcon, EyeOffDuotone as InvisibleDuotone, EyeOffDuotone as InvisibleDuotoneIcon } from './chunk-N4MYOCNW.js';
 export { EyeOffFill, EyeOffFill as EyeOffFillIcon, EyeOffFill as FoamEyeOffFill, EyeOffFill as FoamHiddenFill, EyeOffFill as FoamHideFill, EyeOffFill as FoamInvisibleFill, EyeOffFill as HiddenFill, EyeOffFill as HiddenFillIcon, EyeOffFill as HideFill, EyeOffFill as HideFillIcon, EyeOffFill as InvisibleFill, EyeOffFill as InvisibleFillIcon } from './chunk-JMJHBFWL.js';
-export { File, File as FileIcon, File as FoamFile } from './chunk-HBURASBI.js';
-export { FileArrowDown, FileArrowDown as FileArrowDownIcon, FileArrowDown as FoamFileArrowDown } from './chunk-ZP7Y2JZ5.js';
-export { FileArrowDownDuotone, FileArrowDownDuotone as FileArrowDownDuotoneIcon, FileArrowDownDuotone as FoamFileArrowDownDuotone } from './chunk-4AFSXKZN.js';
-export { FileArrowDownFill, FileArrowDownFill as FileArrowDownFillIcon, FileArrowDownFill as FoamFileArrowDownFill } from './chunk-G6KYLLR4.js';
-export { FileArrowLeft, FileArrowLeft as FileArrowLeftIcon, FileArrowLeft as FoamFileArrowLeft } from './chunk-YYNXY26M.js';
+export { File as Document, File as DocumentIcon, File, File as FileIcon, File as FoamDocument, File as FoamFile, File as FoamPage, File as Page, File as PageIcon } from './chunk-HBURASBI.js';
+export { FileArrowDown as DownloadFile, FileArrowDown as DownloadFileIcon, FileArrowDown, FileArrowDown as FileArrowDownIcon, FileArrowDown as FoamDownloadFile, FileArrowDown as FoamFileArrowDown } from './chunk-ZP7Y2JZ5.js';
+export { FileArrowDownDuotone as DownloadFileDuotone, FileArrowDownDuotone as DownloadFileDuotoneIcon, FileArrowDownDuotone, FileArrowDownDuotone as FileArrowDownDuotoneIcon, FileArrowDownDuotone as FoamDownloadFileDuotone, FileArrowDownDuotone as FoamFileArrowDownDuotone } from './chunk-4AFSXKZN.js';
+export { FileArrowDownFill as DownloadFileFill, FileArrowDownFill as DownloadFileFillIcon, FileArrowDownFill, FileArrowDownFill as FileArrowDownFillIcon, FileArrowDownFill as FoamDownloadFileFill, FileArrowDownFill as FoamFileArrowDownFill } from './chunk-G6KYLLR4.js';
+export { FileArrowLeft, FileArrowLeft as FileArrowLeftIcon, FileArrowLeft as FileBack, FileArrowLeft as FileBackIcon, FileArrowLeft as FilePrevious, FileArrowLeft as FilePreviousIcon, FileArrowLeft as FoamFileArrowLeft, FileArrowLeft as FoamFileBack, FileArrowLeft as FoamFilePrevious } from './chunk-YYNXY26M.js';
 export { EclipseDuotone as ContrastDuotone, EclipseDuotone as ContrastDuotoneIcon, EclipseDuotone, EclipseDuotone as EclipseDuotoneIcon, EclipseDuotone as FoamContrastDuotone, EclipseDuotone as FoamEclipseDuotone, EclipseDuotone as FoamHalfMoonDuotone, EclipseDuotone as HalfMoonDuotone, EclipseDuotone as HalfMoonDuotoneIcon } from './chunk-ZVKUDXGO.js';
 export { EclipseFill as ContrastFill, EclipseFill as ContrastFillIcon, EclipseFill, EclipseFill as EclipseFillIcon, EclipseFill as FoamContrastFill, EclipseFill as FoamEclipseFill, EclipseFill as FoamHalfMoonFill, EclipseFill as HalfMoonFill, EclipseFill as HalfMoonFillIcon } from './chunk-P3DLU3SM.js';
 export { ExternalLink as External, ExternalLink as ExternalIcon, ExternalLink, ExternalLink as ExternalLinkIcon, ExternalLink as FoamExternal, ExternalLink as FoamExternalLink, ExternalLink as FoamOpenNew, ExternalLink as OpenNew, ExternalLink as OpenNewIcon } from './chunk-7OJQOWVR.js';
@@ -295,9 +295,9 @@ export { ContentPlusFill as AddContentFill, ContentPlusFill as AddContentFillIco
 export { Copy as Clone, Copy as CloneIcon, Copy, Copy as CopyIcon, Copy as Duplicate, Copy as DuplicateIcon, Copy as FoamClone, Copy as FoamCopy, Copy as FoamDuplicate } from './chunk-33MBYWJ7.js';
 export { CopyDuotone as CloneDuotone, CopyDuotone as CloneDuotoneIcon, CopyDuotone, CopyDuotone as CopyDuotoneIcon, CopyDuotone as DuplicateDuotone, CopyDuotone as DuplicateDuotoneIcon, CopyDuotone as FoamCloneDuotone, CopyDuotone as FoamCopyDuotone, CopyDuotone as FoamDuplicateDuotone } from './chunk-SMW5VQ3Y.js';
 export { CopyFill as CloneFill, CopyFill as CloneFillIcon, CopyFill, CopyFill as CopyFillIcon, CopyFill as DuplicateFill, CopyFill as DuplicateFillIcon, CopyFill as FoamCloneFill, CopyFill as FoamCopyFill, CopyFill as FoamDuplicateFill } from './chunk-QPWYU4Z7.js';
-export { Download, Download as DownloadFile, Download as DownloadFileIcon, Download as DownloadIcon, Download as Export, Download as ExportIcon, Download as FoamDownload, Download as FoamDownloadFile, Download as FoamExport, Download as FoamGet, Download as Get, Download as GetIcon } from './chunk-MZ55FBWG.js';
-export { DownloadDuotone, DownloadDuotone as DownloadDuotoneIcon, DownloadDuotone as DownloadFileDuotone, DownloadDuotone as DownloadFileDuotoneIcon, DownloadDuotone as ExportDuotone, DownloadDuotone as ExportDuotoneIcon, DownloadDuotone as FoamDownloadDuotone, DownloadDuotone as FoamDownloadFileDuotone, DownloadDuotone as FoamExportDuotone, DownloadDuotone as FoamGetDuotone, DownloadDuotone as GetDuotone, DownloadDuotone as GetDuotoneIcon } from './chunk-62PHQTH7.js';
-export { DownloadFill as DownloadFileFill, DownloadFill as DownloadFileFillIcon, DownloadFill, DownloadFill as DownloadFillIcon, DownloadFill as ExportFill, DownloadFill as ExportFillIcon, DownloadFill as FoamDownloadFileFill, DownloadFill as FoamDownloadFill, DownloadFill as FoamExportFill, DownloadFill as FoamGetFill, DownloadFill as GetFill, DownloadFill as GetFillIcon } from './chunk-UG7XWVAH.js';
+export { Download, Download as DownloadIcon, Download as Export, Download as ExportIcon, Download as FoamDownload, Download as FoamExport, Download as FoamGet, Download as Get, Download as GetIcon } from './chunk-MZ55FBWG.js';
+export { DownloadDuotone, DownloadDuotone as DownloadDuotoneIcon, DownloadDuotone as ExportDuotone, DownloadDuotone as ExportDuotoneIcon, DownloadDuotone as FoamDownloadDuotone, DownloadDuotone as FoamExportDuotone, DownloadDuotone as FoamGetDuotone, DownloadDuotone as GetDuotone, DownloadDuotone as GetDuotoneIcon } from './chunk-62PHQTH7.js';
+export { DownloadFill, DownloadFill as DownloadFillIcon, DownloadFill as ExportFill, DownloadFill as ExportFillIcon, DownloadFill as FoamDownloadFill, DownloadFill as FoamExportFill, DownloadFill as FoamGetFill, DownloadFill as GetFill, DownloadFill as GetFillIcon } from './chunk-UG7XWVAH.js';
 export { Eclipse as Contrast, Eclipse as ContrastIcon, Eclipse, Eclipse as EclipseIcon, Eclipse as FoamContrast, Eclipse as FoamEclipse, Eclipse as FoamHalfMoon, Eclipse as HalfMoon, Eclipse as HalfMoonIcon } from './chunk-GDAZC5IE.js';
 export { Columns3 as ColumnLayout, Columns3 as ColumnLayoutIcon, Columns3, Columns3 as Columns3Icon, Columns3 as FoamColumnLayout, Columns3 as FoamColumns3, Columns3 as FoamThreeColumns, Columns3 as ThreeColumns, Columns3 as ThreeColumnsIcon } from './chunk-XLNYIVID.js';
 export { Columns3Duotone as ColumnLayoutDuotone, Columns3Duotone as ColumnLayoutDuotoneIcon, Columns3Duotone, Columns3Duotone as Columns3DuotoneIcon, Columns3Duotone as FoamColumnLayoutDuotone, Columns3Duotone as FoamColumns3Duotone, Columns3Duotone as FoamThreeColumnsDuotone, Columns3Duotone as ThreeColumnsDuotone, Columns3Duotone as ThreeColumnsDuotoneIcon } from './chunk-QROKFS25.js';
@@ -644,8 +644,7 @@ var iconAliases = {
   ],
   "Download": [
     "Export",
-    "Get",
-    "DownloadFile"
+    "Get"
   ],
   "Eclipse": [
     "HalfMoon",
@@ -654,6 +653,53 @@ var iconAliases = {
   "ExternalLink": [
     "OpenNew",
     "External"
+  ],
+  "File": [
+    "Document",
+    "Page"
+  ],
+  "FileArrowDown": [
+    "DownloadFile"
+  ],
+  "FileArrowLeft": [
+    "FileBack",
+    "FilePrevious"
+  ],
+  "FileArrowLeftRight": [
+    "FileTransfer",
+    "FileExchange",
+    "FileSync"
+  ],
+  "FileArrowRight": [
+    "FileForward",
+    "FileNext"
+  ],
+  "FileArrowUp": [
+    "UploadFile"
+  ],
+  "FileCheck": [
+    "FileDone",
+    "FileComplete",
+    "FileVerified"
+  ],
+  "FileCog": [
+    "FileSettings",
+    "FileConfig"
+  ],
+  "FilePlus": [
+    "NewFile",
+    "AddFile",
+    "CreateFile"
+  ],
+  "FileUser": [
+    "FileAccount",
+    "FileProfile",
+    "UserDocument"
+  ],
+  "FileX": [
+    "FileDelete",
+    "FileRemove",
+    "FileCancel"
   ],
   "Eye": [
     "View",
@@ -858,6 +904,16 @@ var iconAliases = {
     "New",
     "Create"
   ],
+  "QuotationMarkLeft": [
+    "QuoteLeft",
+    "BlockquoteStart",
+    "OpenQuote"
+  ],
+  "QuotationMarkRight": [
+    "QuoteRight",
+    "BlockquoteEnd",
+    "CloseQuote"
+  ],
   "Reach": [
     "Audience",
     "Impressions",
@@ -876,6 +932,12 @@ var iconAliases = {
   "RemoveFormatting": [
     "ClearFormat",
     "PlainText"
+  ],
+  "Rolodex": [
+    "Contacts",
+    "AddressBook",
+    "CardIndex",
+    "Alphabet"
   ],
   "Reply": [
     "Respond",
@@ -1139,11 +1201,35 @@ var aliasToCanonical = {
   "Clone": "Copy",
   "Export": "Download",
   "Get": "Download",
-  "DownloadFile": "Download",
   "HalfMoon": "Eclipse",
   "Contrast": "Eclipse",
   "OpenNew": "ExternalLink",
   "External": "ExternalLink",
+  "Document": "File",
+  "Page": "File",
+  "DownloadFile": "FileArrowDown",
+  "FileBack": "FileArrowLeft",
+  "FilePrevious": "FileArrowLeft",
+  "FileTransfer": "FileArrowLeftRight",
+  "FileExchange": "FileArrowLeftRight",
+  "FileSync": "FileArrowLeftRight",
+  "FileForward": "FileArrowRight",
+  "FileNext": "FileArrowRight",
+  "UploadFile": "FileArrowUp",
+  "FileDone": "FileCheck",
+  "FileComplete": "FileCheck",
+  "FileVerified": "FileCheck",
+  "FileSettings": "FileCog",
+  "FileConfig": "FileCog",
+  "NewFile": "FilePlus",
+  "AddFile": "FilePlus",
+  "CreateFile": "FilePlus",
+  "FileAccount": "FileUser",
+  "FileProfile": "FileUser",
+  "UserDocument": "FileUser",
+  "FileDelete": "FileX",
+  "FileRemove": "FileX",
+  "FileCancel": "FileX",
   "View": "Eye",
   "Show": "Eye",
   "Visible": "Eye",
@@ -1263,6 +1349,12 @@ var aliasToCanonical = {
   "Add": "Plus",
   "New": "Plus",
   "Create": "Plus",
+  "QuoteLeft": "QuotationMarkLeft",
+  "BlockquoteStart": "QuotationMarkLeft",
+  "OpenQuote": "QuotationMarkLeft",
+  "QuoteRight": "QuotationMarkRight",
+  "BlockquoteEnd": "QuotationMarkRight",
+  "CloseQuote": "QuotationMarkRight",
   "Audience": "Reach",
   "Impressions": "Reach",
   "Views": "Reach",
@@ -1274,6 +1366,10 @@ var aliasToCanonical = {
   "Sync": "RefreshCw",
   "ClearFormat": "RemoveFormatting",
   "PlainText": "RemoveFormatting",
+  "Contacts": "Rolodex",
+  "AddressBook": "Rolodex",
+  "CardIndex": "Rolodex",
+  "Alphabet": "Rolodex",
   "Respond": "Reply",
   "Answer": "Reply",
   "Rotate": "RotateCw",
@@ -1639,6 +1735,73 @@ var iconTags = {
     "link",
     "new-tab"
   ],
+  "File": [
+    "file",
+    "document",
+    "page"
+  ],
+  "FileArrowDown": [
+    "file",
+    "download",
+    "arrow",
+    "import"
+  ],
+  "FileArrowLeft": [
+    "file",
+    "arrow",
+    "left",
+    "back"
+  ],
+  "FileArrowLeftRight": [
+    "file",
+    "transfer",
+    "exchange",
+    "sync"
+  ],
+  "FileArrowRight": [
+    "file",
+    "arrow",
+    "right",
+    "forward"
+  ],
+  "FileArrowUp": [
+    "file",
+    "upload",
+    "arrow",
+    "export"
+  ],
+  "FileCheck": [
+    "file",
+    "check",
+    "complete",
+    "verified",
+    "approved"
+  ],
+  "FileCog": [
+    "file",
+    "settings",
+    "configuration",
+    "cog"
+  ],
+  "FilePlus": [
+    "file",
+    "add",
+    "new",
+    "create"
+  ],
+  "FileUser": [
+    "file",
+    "user",
+    "profile",
+    "account"
+  ],
+  "FileX": [
+    "file",
+    "delete",
+    "remove",
+    "cancel",
+    "close"
+  ],
   "Eye": [
     "eye",
     "view",
@@ -1853,6 +2016,18 @@ var iconTags = {
     "add",
     "create"
   ],
+  "QuotationMarkLeft": [
+    "quote",
+    "quotation",
+    "text",
+    "blockquote"
+  ],
+  "QuotationMarkRight": [
+    "quote",
+    "quotation",
+    "text",
+    "blockquote"
+  ],
   "Reach": [
     "reach",
     "audience",
@@ -1872,6 +2047,12 @@ var iconTags = {
     "format",
     "clear",
     "remove"
+  ],
+  "Rolodex": [
+    "rolodex",
+    "contacts",
+    "address-book",
+    "directory"
   ],
   "Reply": [
     "reply",

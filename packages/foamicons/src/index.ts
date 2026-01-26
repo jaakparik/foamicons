@@ -2334,15 +2334,6 @@ export { DownloadFill as FoamGetFill } from './icons/DownloadFill';
 export { Download as Get } from './icons/Download';
 export { Download as GetIcon } from './icons/Download';
 export { Download as FoamGet } from './icons/Download';
-export { DownloadDuotone as DownloadFileDuotone } from './icons/DownloadDuotone';
-export { DownloadDuotone as DownloadFileDuotoneIcon } from './icons/DownloadDuotone';
-export { DownloadDuotone as FoamDownloadFileDuotone } from './icons/DownloadDuotone';
-export { DownloadFill as DownloadFileFill } from './icons/DownloadFill';
-export { DownloadFill as DownloadFileFillIcon } from './icons/DownloadFill';
-export { DownloadFill as FoamDownloadFileFill } from './icons/DownloadFill';
-export { Download as DownloadFile } from './icons/Download';
-export { Download as DownloadFileIcon } from './icons/Download';
-export { Download as FoamDownloadFile } from './icons/Download';
 export { EclipseDuotone as HalfMoonDuotone } from './icons/EclipseDuotone';
 export { EclipseDuotone as HalfMoonDuotoneIcon } from './icons/EclipseDuotone';
 export { EclipseDuotone as FoamHalfMoonDuotone } from './icons/EclipseDuotone';
@@ -2379,6 +2370,231 @@ export { ExternalLinkFill as FoamExternalFill } from './icons/ExternalLinkFill';
 export { ExternalLink as External } from './icons/ExternalLink';
 export { ExternalLink as ExternalIcon } from './icons/ExternalLink';
 export { ExternalLink as FoamExternal } from './icons/ExternalLink';
+export { FileDuotone as DocumentDuotone } from './icons/FileDuotone';
+export { FileDuotone as DocumentDuotoneIcon } from './icons/FileDuotone';
+export { FileDuotone as FoamDocumentDuotone } from './icons/FileDuotone';
+export { FileFill as DocumentFill } from './icons/FileFill';
+export { FileFill as DocumentFillIcon } from './icons/FileFill';
+export { FileFill as FoamDocumentFill } from './icons/FileFill';
+export { File as Document } from './icons/File';
+export { File as DocumentIcon } from './icons/File';
+export { File as FoamDocument } from './icons/File';
+export { FileDuotone as PageDuotone } from './icons/FileDuotone';
+export { FileDuotone as PageDuotoneIcon } from './icons/FileDuotone';
+export { FileDuotone as FoamPageDuotone } from './icons/FileDuotone';
+export { FileFill as PageFill } from './icons/FileFill';
+export { FileFill as PageFillIcon } from './icons/FileFill';
+export { FileFill as FoamPageFill } from './icons/FileFill';
+export { File as Page } from './icons/File';
+export { File as PageIcon } from './icons/File';
+export { File as FoamPage } from './icons/File';
+export { FileArrowDownDuotone as DownloadFileDuotone } from './icons/FileArrowDownDuotone';
+export { FileArrowDownDuotone as DownloadFileDuotoneIcon } from './icons/FileArrowDownDuotone';
+export { FileArrowDownDuotone as FoamDownloadFileDuotone } from './icons/FileArrowDownDuotone';
+export { FileArrowDownFill as DownloadFileFill } from './icons/FileArrowDownFill';
+export { FileArrowDownFill as DownloadFileFillIcon } from './icons/FileArrowDownFill';
+export { FileArrowDownFill as FoamDownloadFileFill } from './icons/FileArrowDownFill';
+export { FileArrowDown as DownloadFile } from './icons/FileArrowDown';
+export { FileArrowDown as DownloadFileIcon } from './icons/FileArrowDown';
+export { FileArrowDown as FoamDownloadFile } from './icons/FileArrowDown';
+export { FileArrowLeftDuotone as FileBackDuotone } from './icons/FileArrowLeftDuotone';
+export { FileArrowLeftDuotone as FileBackDuotoneIcon } from './icons/FileArrowLeftDuotone';
+export { FileArrowLeftDuotone as FoamFileBackDuotone } from './icons/FileArrowLeftDuotone';
+export { FileArrowLeftFill as FileBackFill } from './icons/FileArrowLeftFill';
+export { FileArrowLeftFill as FileBackFillIcon } from './icons/FileArrowLeftFill';
+export { FileArrowLeftFill as FoamFileBackFill } from './icons/FileArrowLeftFill';
+export { FileArrowLeft as FileBack } from './icons/FileArrowLeft';
+export { FileArrowLeft as FileBackIcon } from './icons/FileArrowLeft';
+export { FileArrowLeft as FoamFileBack } from './icons/FileArrowLeft';
+export { FileArrowLeftDuotone as FilePreviousDuotone } from './icons/FileArrowLeftDuotone';
+export { FileArrowLeftDuotone as FilePreviousDuotoneIcon } from './icons/FileArrowLeftDuotone';
+export { FileArrowLeftDuotone as FoamFilePreviousDuotone } from './icons/FileArrowLeftDuotone';
+export { FileArrowLeftFill as FilePreviousFill } from './icons/FileArrowLeftFill';
+export { FileArrowLeftFill as FilePreviousFillIcon } from './icons/FileArrowLeftFill';
+export { FileArrowLeftFill as FoamFilePreviousFill } from './icons/FileArrowLeftFill';
+export { FileArrowLeft as FilePrevious } from './icons/FileArrowLeft';
+export { FileArrowLeft as FilePreviousIcon } from './icons/FileArrowLeft';
+export { FileArrowLeft as FoamFilePrevious } from './icons/FileArrowLeft';
+export { FileArrowLeftRightDuotone as FileTransferDuotone } from './icons/FileArrowLeftRightDuotone';
+export { FileArrowLeftRightDuotone as FileTransferDuotoneIcon } from './icons/FileArrowLeftRightDuotone';
+export { FileArrowLeftRightDuotone as FoamFileTransferDuotone } from './icons/FileArrowLeftRightDuotone';
+export { FileArrowLeftRightFill as FileTransferFill } from './icons/FileArrowLeftRightFill';
+export { FileArrowLeftRightFill as FileTransferFillIcon } from './icons/FileArrowLeftRightFill';
+export { FileArrowLeftRightFill as FoamFileTransferFill } from './icons/FileArrowLeftRightFill';
+export { FileArrowLeftRight as FileTransfer } from './icons/FileArrowLeftRight';
+export { FileArrowLeftRight as FileTransferIcon } from './icons/FileArrowLeftRight';
+export { FileArrowLeftRight as FoamFileTransfer } from './icons/FileArrowLeftRight';
+export { FileArrowLeftRightDuotone as FileExchangeDuotone } from './icons/FileArrowLeftRightDuotone';
+export { FileArrowLeftRightDuotone as FileExchangeDuotoneIcon } from './icons/FileArrowLeftRightDuotone';
+export { FileArrowLeftRightDuotone as FoamFileExchangeDuotone } from './icons/FileArrowLeftRightDuotone';
+export { FileArrowLeftRightFill as FileExchangeFill } from './icons/FileArrowLeftRightFill';
+export { FileArrowLeftRightFill as FileExchangeFillIcon } from './icons/FileArrowLeftRightFill';
+export { FileArrowLeftRightFill as FoamFileExchangeFill } from './icons/FileArrowLeftRightFill';
+export { FileArrowLeftRight as FileExchange } from './icons/FileArrowLeftRight';
+export { FileArrowLeftRight as FileExchangeIcon } from './icons/FileArrowLeftRight';
+export { FileArrowLeftRight as FoamFileExchange } from './icons/FileArrowLeftRight';
+export { FileArrowLeftRightDuotone as FileSyncDuotone } from './icons/FileArrowLeftRightDuotone';
+export { FileArrowLeftRightDuotone as FileSyncDuotoneIcon } from './icons/FileArrowLeftRightDuotone';
+export { FileArrowLeftRightDuotone as FoamFileSyncDuotone } from './icons/FileArrowLeftRightDuotone';
+export { FileArrowLeftRightFill as FileSyncFill } from './icons/FileArrowLeftRightFill';
+export { FileArrowLeftRightFill as FileSyncFillIcon } from './icons/FileArrowLeftRightFill';
+export { FileArrowLeftRightFill as FoamFileSyncFill } from './icons/FileArrowLeftRightFill';
+export { FileArrowLeftRight as FileSync } from './icons/FileArrowLeftRight';
+export { FileArrowLeftRight as FileSyncIcon } from './icons/FileArrowLeftRight';
+export { FileArrowLeftRight as FoamFileSync } from './icons/FileArrowLeftRight';
+export { FileArrowRightDuotone as FileForwardDuotone } from './icons/FileArrowRightDuotone';
+export { FileArrowRightDuotone as FileForwardDuotoneIcon } from './icons/FileArrowRightDuotone';
+export { FileArrowRightDuotone as FoamFileForwardDuotone } from './icons/FileArrowRightDuotone';
+export { FileArrowRightFill as FileForwardFill } from './icons/FileArrowRightFill';
+export { FileArrowRightFill as FileForwardFillIcon } from './icons/FileArrowRightFill';
+export { FileArrowRightFill as FoamFileForwardFill } from './icons/FileArrowRightFill';
+export { FileArrowRight as FileForward } from './icons/FileArrowRight';
+export { FileArrowRight as FileForwardIcon } from './icons/FileArrowRight';
+export { FileArrowRight as FoamFileForward } from './icons/FileArrowRight';
+export { FileArrowRightDuotone as FileNextDuotone } from './icons/FileArrowRightDuotone';
+export { FileArrowRightDuotone as FileNextDuotoneIcon } from './icons/FileArrowRightDuotone';
+export { FileArrowRightDuotone as FoamFileNextDuotone } from './icons/FileArrowRightDuotone';
+export { FileArrowRightFill as FileNextFill } from './icons/FileArrowRightFill';
+export { FileArrowRightFill as FileNextFillIcon } from './icons/FileArrowRightFill';
+export { FileArrowRightFill as FoamFileNextFill } from './icons/FileArrowRightFill';
+export { FileArrowRight as FileNext } from './icons/FileArrowRight';
+export { FileArrowRight as FileNextIcon } from './icons/FileArrowRight';
+export { FileArrowRight as FoamFileNext } from './icons/FileArrowRight';
+export { FileArrowUpDuotone as UploadFileDuotone } from './icons/FileArrowUpDuotone';
+export { FileArrowUpDuotone as UploadFileDuotoneIcon } from './icons/FileArrowUpDuotone';
+export { FileArrowUpDuotone as FoamUploadFileDuotone } from './icons/FileArrowUpDuotone';
+export { FileArrowUpFill as UploadFileFill } from './icons/FileArrowUpFill';
+export { FileArrowUpFill as UploadFileFillIcon } from './icons/FileArrowUpFill';
+export { FileArrowUpFill as FoamUploadFileFill } from './icons/FileArrowUpFill';
+export { FileArrowUp as UploadFile } from './icons/FileArrowUp';
+export { FileArrowUp as UploadFileIcon } from './icons/FileArrowUp';
+export { FileArrowUp as FoamUploadFile } from './icons/FileArrowUp';
+export { FileCheckDuotone as FileDoneDuotone } from './icons/FileCheckDuotone';
+export { FileCheckDuotone as FileDoneDuotoneIcon } from './icons/FileCheckDuotone';
+export { FileCheckDuotone as FoamFileDoneDuotone } from './icons/FileCheckDuotone';
+export { FileCheckFill as FileDoneFill } from './icons/FileCheckFill';
+export { FileCheckFill as FileDoneFillIcon } from './icons/FileCheckFill';
+export { FileCheckFill as FoamFileDoneFill } from './icons/FileCheckFill';
+export { FileCheck as FileDone } from './icons/FileCheck';
+export { FileCheck as FileDoneIcon } from './icons/FileCheck';
+export { FileCheck as FoamFileDone } from './icons/FileCheck';
+export { FileCheckDuotone as FileCompleteDuotone } from './icons/FileCheckDuotone';
+export { FileCheckDuotone as FileCompleteDuotoneIcon } from './icons/FileCheckDuotone';
+export { FileCheckDuotone as FoamFileCompleteDuotone } from './icons/FileCheckDuotone';
+export { FileCheckFill as FileCompleteFill } from './icons/FileCheckFill';
+export { FileCheckFill as FileCompleteFillIcon } from './icons/FileCheckFill';
+export { FileCheckFill as FoamFileCompleteFill } from './icons/FileCheckFill';
+export { FileCheck as FileComplete } from './icons/FileCheck';
+export { FileCheck as FileCompleteIcon } from './icons/FileCheck';
+export { FileCheck as FoamFileComplete } from './icons/FileCheck';
+export { FileCheckDuotone as FileVerifiedDuotone } from './icons/FileCheckDuotone';
+export { FileCheckDuotone as FileVerifiedDuotoneIcon } from './icons/FileCheckDuotone';
+export { FileCheckDuotone as FoamFileVerifiedDuotone } from './icons/FileCheckDuotone';
+export { FileCheckFill as FileVerifiedFill } from './icons/FileCheckFill';
+export { FileCheckFill as FileVerifiedFillIcon } from './icons/FileCheckFill';
+export { FileCheckFill as FoamFileVerifiedFill } from './icons/FileCheckFill';
+export { FileCheck as FileVerified } from './icons/FileCheck';
+export { FileCheck as FileVerifiedIcon } from './icons/FileCheck';
+export { FileCheck as FoamFileVerified } from './icons/FileCheck';
+export { FileCogDuotone as FileSettingsDuotone } from './icons/FileCogDuotone';
+export { FileCogDuotone as FileSettingsDuotoneIcon } from './icons/FileCogDuotone';
+export { FileCogDuotone as FoamFileSettingsDuotone } from './icons/FileCogDuotone';
+export { FileCogFill as FileSettingsFill } from './icons/FileCogFill';
+export { FileCogFill as FileSettingsFillIcon } from './icons/FileCogFill';
+export { FileCogFill as FoamFileSettingsFill } from './icons/FileCogFill';
+export { FileCog as FileSettings } from './icons/FileCog';
+export { FileCog as FileSettingsIcon } from './icons/FileCog';
+export { FileCog as FoamFileSettings } from './icons/FileCog';
+export { FileCogDuotone as FileConfigDuotone } from './icons/FileCogDuotone';
+export { FileCogDuotone as FileConfigDuotoneIcon } from './icons/FileCogDuotone';
+export { FileCogDuotone as FoamFileConfigDuotone } from './icons/FileCogDuotone';
+export { FileCogFill as FileConfigFill } from './icons/FileCogFill';
+export { FileCogFill as FileConfigFillIcon } from './icons/FileCogFill';
+export { FileCogFill as FoamFileConfigFill } from './icons/FileCogFill';
+export { FileCog as FileConfig } from './icons/FileCog';
+export { FileCog as FileConfigIcon } from './icons/FileCog';
+export { FileCog as FoamFileConfig } from './icons/FileCog';
+export { FilePlusDuotone as NewFileDuotone } from './icons/FilePlusDuotone';
+export { FilePlusDuotone as NewFileDuotoneIcon } from './icons/FilePlusDuotone';
+export { FilePlusDuotone as FoamNewFileDuotone } from './icons/FilePlusDuotone';
+export { FilePlusFill as NewFileFill } from './icons/FilePlusFill';
+export { FilePlusFill as NewFileFillIcon } from './icons/FilePlusFill';
+export { FilePlusFill as FoamNewFileFill } from './icons/FilePlusFill';
+export { FilePlus as NewFile } from './icons/FilePlus';
+export { FilePlus as NewFileIcon } from './icons/FilePlus';
+export { FilePlus as FoamNewFile } from './icons/FilePlus';
+export { FilePlusDuotone as AddFileDuotone } from './icons/FilePlusDuotone';
+export { FilePlusDuotone as AddFileDuotoneIcon } from './icons/FilePlusDuotone';
+export { FilePlusDuotone as FoamAddFileDuotone } from './icons/FilePlusDuotone';
+export { FilePlusFill as AddFileFill } from './icons/FilePlusFill';
+export { FilePlusFill as AddFileFillIcon } from './icons/FilePlusFill';
+export { FilePlusFill as FoamAddFileFill } from './icons/FilePlusFill';
+export { FilePlus as AddFile } from './icons/FilePlus';
+export { FilePlus as AddFileIcon } from './icons/FilePlus';
+export { FilePlus as FoamAddFile } from './icons/FilePlus';
+export { FilePlusDuotone as CreateFileDuotone } from './icons/FilePlusDuotone';
+export { FilePlusDuotone as CreateFileDuotoneIcon } from './icons/FilePlusDuotone';
+export { FilePlusDuotone as FoamCreateFileDuotone } from './icons/FilePlusDuotone';
+export { FilePlusFill as CreateFileFill } from './icons/FilePlusFill';
+export { FilePlusFill as CreateFileFillIcon } from './icons/FilePlusFill';
+export { FilePlusFill as FoamCreateFileFill } from './icons/FilePlusFill';
+export { FilePlus as CreateFile } from './icons/FilePlus';
+export { FilePlus as CreateFileIcon } from './icons/FilePlus';
+export { FilePlus as FoamCreateFile } from './icons/FilePlus';
+export { FileUserDuotone as FileAccountDuotone } from './icons/FileUserDuotone';
+export { FileUserDuotone as FileAccountDuotoneIcon } from './icons/FileUserDuotone';
+export { FileUserDuotone as FoamFileAccountDuotone } from './icons/FileUserDuotone';
+export { FileUserFill as FileAccountFill } from './icons/FileUserFill';
+export { FileUserFill as FileAccountFillIcon } from './icons/FileUserFill';
+export { FileUserFill as FoamFileAccountFill } from './icons/FileUserFill';
+export { FileUser as FileAccount } from './icons/FileUser';
+export { FileUser as FileAccountIcon } from './icons/FileUser';
+export { FileUser as FoamFileAccount } from './icons/FileUser';
+export { FileUserDuotone as FileProfileDuotone } from './icons/FileUserDuotone';
+export { FileUserDuotone as FileProfileDuotoneIcon } from './icons/FileUserDuotone';
+export { FileUserDuotone as FoamFileProfileDuotone } from './icons/FileUserDuotone';
+export { FileUserFill as FileProfileFill } from './icons/FileUserFill';
+export { FileUserFill as FileProfileFillIcon } from './icons/FileUserFill';
+export { FileUserFill as FoamFileProfileFill } from './icons/FileUserFill';
+export { FileUser as FileProfile } from './icons/FileUser';
+export { FileUser as FileProfileIcon } from './icons/FileUser';
+export { FileUser as FoamFileProfile } from './icons/FileUser';
+export { FileUserDuotone as UserDocumentDuotone } from './icons/FileUserDuotone';
+export { FileUserDuotone as UserDocumentDuotoneIcon } from './icons/FileUserDuotone';
+export { FileUserDuotone as FoamUserDocumentDuotone } from './icons/FileUserDuotone';
+export { FileUserFill as UserDocumentFill } from './icons/FileUserFill';
+export { FileUserFill as UserDocumentFillIcon } from './icons/FileUserFill';
+export { FileUserFill as FoamUserDocumentFill } from './icons/FileUserFill';
+export { FileUser as UserDocument } from './icons/FileUser';
+export { FileUser as UserDocumentIcon } from './icons/FileUser';
+export { FileUser as FoamUserDocument } from './icons/FileUser';
+export { FileXDuotone as FileDeleteDuotone } from './icons/FileXDuotone';
+export { FileXDuotone as FileDeleteDuotoneIcon } from './icons/FileXDuotone';
+export { FileXDuotone as FoamFileDeleteDuotone } from './icons/FileXDuotone';
+export { FileXFill as FileDeleteFill } from './icons/FileXFill';
+export { FileXFill as FileDeleteFillIcon } from './icons/FileXFill';
+export { FileXFill as FoamFileDeleteFill } from './icons/FileXFill';
+export { FileX as FileDelete } from './icons/FileX';
+export { FileX as FileDeleteIcon } from './icons/FileX';
+export { FileX as FoamFileDelete } from './icons/FileX';
+export { FileXDuotone as FileRemoveDuotone } from './icons/FileXDuotone';
+export { FileXDuotone as FileRemoveDuotoneIcon } from './icons/FileXDuotone';
+export { FileXDuotone as FoamFileRemoveDuotone } from './icons/FileXDuotone';
+export { FileXFill as FileRemoveFill } from './icons/FileXFill';
+export { FileXFill as FileRemoveFillIcon } from './icons/FileXFill';
+export { FileXFill as FoamFileRemoveFill } from './icons/FileXFill';
+export { FileX as FileRemove } from './icons/FileX';
+export { FileX as FileRemoveIcon } from './icons/FileX';
+export { FileX as FoamFileRemove } from './icons/FileX';
+export { FileXDuotone as FileCancelDuotone } from './icons/FileXDuotone';
+export { FileXDuotone as FileCancelDuotoneIcon } from './icons/FileXDuotone';
+export { FileXDuotone as FoamFileCancelDuotone } from './icons/FileXDuotone';
+export { FileXFill as FileCancelFill } from './icons/FileXFill';
+export { FileXFill as FileCancelFillIcon } from './icons/FileXFill';
+export { FileXFill as FoamFileCancelFill } from './icons/FileXFill';
+export { FileX as FileCancel } from './icons/FileX';
+export { FileX as FileCancelIcon } from './icons/FileX';
+export { FileX as FoamFileCancel } from './icons/FileX';
 export { EyeDuotone as ViewDuotone } from './icons/EyeDuotone';
 export { EyeDuotone as ViewDuotoneIcon } from './icons/EyeDuotone';
 export { EyeDuotone as FoamViewDuotone } from './icons/EyeDuotone';
@@ -3450,6 +3666,60 @@ export { PlusFill as FoamCreateFill } from './icons/PlusFill';
 export { Plus as Create } from './icons/Plus';
 export { Plus as CreateIcon } from './icons/Plus';
 export { Plus as FoamCreate } from './icons/Plus';
+export { QuotationMarkLeftDuotone as QuoteLeftDuotone } from './icons/QuotationMarkLeftDuotone';
+export { QuotationMarkLeftDuotone as QuoteLeftDuotoneIcon } from './icons/QuotationMarkLeftDuotone';
+export { QuotationMarkLeftDuotone as FoamQuoteLeftDuotone } from './icons/QuotationMarkLeftDuotone';
+export { QuotationMarkLeftFill as QuoteLeftFill } from './icons/QuotationMarkLeftFill';
+export { QuotationMarkLeftFill as QuoteLeftFillIcon } from './icons/QuotationMarkLeftFill';
+export { QuotationMarkLeftFill as FoamQuoteLeftFill } from './icons/QuotationMarkLeftFill';
+export { QuotationMarkLeft as QuoteLeft } from './icons/QuotationMarkLeft';
+export { QuotationMarkLeft as QuoteLeftIcon } from './icons/QuotationMarkLeft';
+export { QuotationMarkLeft as FoamQuoteLeft } from './icons/QuotationMarkLeft';
+export { QuotationMarkLeftDuotone as BlockquoteStartDuotone } from './icons/QuotationMarkLeftDuotone';
+export { QuotationMarkLeftDuotone as BlockquoteStartDuotoneIcon } from './icons/QuotationMarkLeftDuotone';
+export { QuotationMarkLeftDuotone as FoamBlockquoteStartDuotone } from './icons/QuotationMarkLeftDuotone';
+export { QuotationMarkLeftFill as BlockquoteStartFill } from './icons/QuotationMarkLeftFill';
+export { QuotationMarkLeftFill as BlockquoteStartFillIcon } from './icons/QuotationMarkLeftFill';
+export { QuotationMarkLeftFill as FoamBlockquoteStartFill } from './icons/QuotationMarkLeftFill';
+export { QuotationMarkLeft as BlockquoteStart } from './icons/QuotationMarkLeft';
+export { QuotationMarkLeft as BlockquoteStartIcon } from './icons/QuotationMarkLeft';
+export { QuotationMarkLeft as FoamBlockquoteStart } from './icons/QuotationMarkLeft';
+export { QuotationMarkLeftDuotone as OpenQuoteDuotone } from './icons/QuotationMarkLeftDuotone';
+export { QuotationMarkLeftDuotone as OpenQuoteDuotoneIcon } from './icons/QuotationMarkLeftDuotone';
+export { QuotationMarkLeftDuotone as FoamOpenQuoteDuotone } from './icons/QuotationMarkLeftDuotone';
+export { QuotationMarkLeftFill as OpenQuoteFill } from './icons/QuotationMarkLeftFill';
+export { QuotationMarkLeftFill as OpenQuoteFillIcon } from './icons/QuotationMarkLeftFill';
+export { QuotationMarkLeftFill as FoamOpenQuoteFill } from './icons/QuotationMarkLeftFill';
+export { QuotationMarkLeft as OpenQuote } from './icons/QuotationMarkLeft';
+export { QuotationMarkLeft as OpenQuoteIcon } from './icons/QuotationMarkLeft';
+export { QuotationMarkLeft as FoamOpenQuote } from './icons/QuotationMarkLeft';
+export { QuotationMarkRightDuotone as QuoteRightDuotone } from './icons/QuotationMarkRightDuotone';
+export { QuotationMarkRightDuotone as QuoteRightDuotoneIcon } from './icons/QuotationMarkRightDuotone';
+export { QuotationMarkRightDuotone as FoamQuoteRightDuotone } from './icons/QuotationMarkRightDuotone';
+export { QuotationMarkRightFill as QuoteRightFill } from './icons/QuotationMarkRightFill';
+export { QuotationMarkRightFill as QuoteRightFillIcon } from './icons/QuotationMarkRightFill';
+export { QuotationMarkRightFill as FoamQuoteRightFill } from './icons/QuotationMarkRightFill';
+export { QuotationMarkRight as QuoteRight } from './icons/QuotationMarkRight';
+export { QuotationMarkRight as QuoteRightIcon } from './icons/QuotationMarkRight';
+export { QuotationMarkRight as FoamQuoteRight } from './icons/QuotationMarkRight';
+export { QuotationMarkRightDuotone as BlockquoteEndDuotone } from './icons/QuotationMarkRightDuotone';
+export { QuotationMarkRightDuotone as BlockquoteEndDuotoneIcon } from './icons/QuotationMarkRightDuotone';
+export { QuotationMarkRightDuotone as FoamBlockquoteEndDuotone } from './icons/QuotationMarkRightDuotone';
+export { QuotationMarkRightFill as BlockquoteEndFill } from './icons/QuotationMarkRightFill';
+export { QuotationMarkRightFill as BlockquoteEndFillIcon } from './icons/QuotationMarkRightFill';
+export { QuotationMarkRightFill as FoamBlockquoteEndFill } from './icons/QuotationMarkRightFill';
+export { QuotationMarkRight as BlockquoteEnd } from './icons/QuotationMarkRight';
+export { QuotationMarkRight as BlockquoteEndIcon } from './icons/QuotationMarkRight';
+export { QuotationMarkRight as FoamBlockquoteEnd } from './icons/QuotationMarkRight';
+export { QuotationMarkRightDuotone as CloseQuoteDuotone } from './icons/QuotationMarkRightDuotone';
+export { QuotationMarkRightDuotone as CloseQuoteDuotoneIcon } from './icons/QuotationMarkRightDuotone';
+export { QuotationMarkRightDuotone as FoamCloseQuoteDuotone } from './icons/QuotationMarkRightDuotone';
+export { QuotationMarkRightFill as CloseQuoteFill } from './icons/QuotationMarkRightFill';
+export { QuotationMarkRightFill as CloseQuoteFillIcon } from './icons/QuotationMarkRightFill';
+export { QuotationMarkRightFill as FoamCloseQuoteFill } from './icons/QuotationMarkRightFill';
+export { QuotationMarkRight as CloseQuote } from './icons/QuotationMarkRight';
+export { QuotationMarkRight as CloseQuoteIcon } from './icons/QuotationMarkRight';
+export { QuotationMarkRight as FoamCloseQuote } from './icons/QuotationMarkRight';
 export { ReachDuotone as AudienceDuotone } from './icons/ReachDuotone';
 export { ReachDuotone as AudienceDuotoneIcon } from './icons/ReachDuotone';
 export { ReachDuotone as FoamAudienceDuotone } from './icons/ReachDuotone';
@@ -3549,6 +3819,42 @@ export { RemoveFormattingFill as FoamPlainTextFill } from './icons/RemoveFormatt
 export { RemoveFormatting as PlainText } from './icons/RemoveFormatting';
 export { RemoveFormatting as PlainTextIcon } from './icons/RemoveFormatting';
 export { RemoveFormatting as FoamPlainText } from './icons/RemoveFormatting';
+export { RolodexDuotone as ContactsDuotone } from './icons/RolodexDuotone';
+export { RolodexDuotone as ContactsDuotoneIcon } from './icons/RolodexDuotone';
+export { RolodexDuotone as FoamContactsDuotone } from './icons/RolodexDuotone';
+export { RolodexFill as ContactsFill } from './icons/RolodexFill';
+export { RolodexFill as ContactsFillIcon } from './icons/RolodexFill';
+export { RolodexFill as FoamContactsFill } from './icons/RolodexFill';
+export { Rolodex as Contacts } from './icons/Rolodex';
+export { Rolodex as ContactsIcon } from './icons/Rolodex';
+export { Rolodex as FoamContacts } from './icons/Rolodex';
+export { RolodexDuotone as AddressBookDuotone } from './icons/RolodexDuotone';
+export { RolodexDuotone as AddressBookDuotoneIcon } from './icons/RolodexDuotone';
+export { RolodexDuotone as FoamAddressBookDuotone } from './icons/RolodexDuotone';
+export { RolodexFill as AddressBookFill } from './icons/RolodexFill';
+export { RolodexFill as AddressBookFillIcon } from './icons/RolodexFill';
+export { RolodexFill as FoamAddressBookFill } from './icons/RolodexFill';
+export { Rolodex as AddressBook } from './icons/Rolodex';
+export { Rolodex as AddressBookIcon } from './icons/Rolodex';
+export { Rolodex as FoamAddressBook } from './icons/Rolodex';
+export { RolodexDuotone as CardIndexDuotone } from './icons/RolodexDuotone';
+export { RolodexDuotone as CardIndexDuotoneIcon } from './icons/RolodexDuotone';
+export { RolodexDuotone as FoamCardIndexDuotone } from './icons/RolodexDuotone';
+export { RolodexFill as CardIndexFill } from './icons/RolodexFill';
+export { RolodexFill as CardIndexFillIcon } from './icons/RolodexFill';
+export { RolodexFill as FoamCardIndexFill } from './icons/RolodexFill';
+export { Rolodex as CardIndex } from './icons/Rolodex';
+export { Rolodex as CardIndexIcon } from './icons/Rolodex';
+export { Rolodex as FoamCardIndex } from './icons/Rolodex';
+export { RolodexDuotone as AlphabetDuotone } from './icons/RolodexDuotone';
+export { RolodexDuotone as AlphabetDuotoneIcon } from './icons/RolodexDuotone';
+export { RolodexDuotone as FoamAlphabetDuotone } from './icons/RolodexDuotone';
+export { RolodexFill as AlphabetFill } from './icons/RolodexFill';
+export { RolodexFill as AlphabetFillIcon } from './icons/RolodexFill';
+export { RolodexFill as FoamAlphabetFill } from './icons/RolodexFill';
+export { Rolodex as Alphabet } from './icons/Rolodex';
+export { Rolodex as AlphabetIcon } from './icons/Rolodex';
+export { Rolodex as FoamAlphabet } from './icons/Rolodex';
 export { ReplyDuotone as RespondDuotone } from './icons/ReplyDuotone';
 export { ReplyDuotone as RespondDuotoneIcon } from './icons/ReplyDuotone';
 export { ReplyDuotone as FoamRespondDuotone } from './icons/ReplyDuotone';
@@ -4535,8 +4841,7 @@ export const iconAliases: Record<string, string[]> = {
   ],
   "Download": [
     "Export",
-    "Get",
-    "DownloadFile"
+    "Get"
   ],
   "Eclipse": [
     "HalfMoon",
@@ -4545,6 +4850,53 @@ export const iconAliases: Record<string, string[]> = {
   "ExternalLink": [
     "OpenNew",
     "External"
+  ],
+  "File": [
+    "Document",
+    "Page"
+  ],
+  "FileArrowDown": [
+    "DownloadFile"
+  ],
+  "FileArrowLeft": [
+    "FileBack",
+    "FilePrevious"
+  ],
+  "FileArrowLeftRight": [
+    "FileTransfer",
+    "FileExchange",
+    "FileSync"
+  ],
+  "FileArrowRight": [
+    "FileForward",
+    "FileNext"
+  ],
+  "FileArrowUp": [
+    "UploadFile"
+  ],
+  "FileCheck": [
+    "FileDone",
+    "FileComplete",
+    "FileVerified"
+  ],
+  "FileCog": [
+    "FileSettings",
+    "FileConfig"
+  ],
+  "FilePlus": [
+    "NewFile",
+    "AddFile",
+    "CreateFile"
+  ],
+  "FileUser": [
+    "FileAccount",
+    "FileProfile",
+    "UserDocument"
+  ],
+  "FileX": [
+    "FileDelete",
+    "FileRemove",
+    "FileCancel"
   ],
   "Eye": [
     "View",
@@ -4749,6 +5101,16 @@ export const iconAliases: Record<string, string[]> = {
     "New",
     "Create"
   ],
+  "QuotationMarkLeft": [
+    "QuoteLeft",
+    "BlockquoteStart",
+    "OpenQuote"
+  ],
+  "QuotationMarkRight": [
+    "QuoteRight",
+    "BlockquoteEnd",
+    "CloseQuote"
+  ],
   "Reach": [
     "Audience",
     "Impressions",
@@ -4767,6 +5129,12 @@ export const iconAliases: Record<string, string[]> = {
   "RemoveFormatting": [
     "ClearFormat",
     "PlainText"
+  ],
+  "Rolodex": [
+    "Contacts",
+    "AddressBook",
+    "CardIndex",
+    "Alphabet"
   ],
   "Reply": [
     "Respond",
@@ -5031,11 +5399,35 @@ export const aliasToCanonical: Record<string, string> = {
   "Clone": "Copy",
   "Export": "Download",
   "Get": "Download",
-  "DownloadFile": "Download",
   "HalfMoon": "Eclipse",
   "Contrast": "Eclipse",
   "OpenNew": "ExternalLink",
   "External": "ExternalLink",
+  "Document": "File",
+  "Page": "File",
+  "DownloadFile": "FileArrowDown",
+  "FileBack": "FileArrowLeft",
+  "FilePrevious": "FileArrowLeft",
+  "FileTransfer": "FileArrowLeftRight",
+  "FileExchange": "FileArrowLeftRight",
+  "FileSync": "FileArrowLeftRight",
+  "FileForward": "FileArrowRight",
+  "FileNext": "FileArrowRight",
+  "UploadFile": "FileArrowUp",
+  "FileDone": "FileCheck",
+  "FileComplete": "FileCheck",
+  "FileVerified": "FileCheck",
+  "FileSettings": "FileCog",
+  "FileConfig": "FileCog",
+  "NewFile": "FilePlus",
+  "AddFile": "FilePlus",
+  "CreateFile": "FilePlus",
+  "FileAccount": "FileUser",
+  "FileProfile": "FileUser",
+  "UserDocument": "FileUser",
+  "FileDelete": "FileX",
+  "FileRemove": "FileX",
+  "FileCancel": "FileX",
   "View": "Eye",
   "Show": "Eye",
   "Visible": "Eye",
@@ -5155,6 +5547,12 @@ export const aliasToCanonical: Record<string, string> = {
   "Add": "Plus",
   "New": "Plus",
   "Create": "Plus",
+  "QuoteLeft": "QuotationMarkLeft",
+  "BlockquoteStart": "QuotationMarkLeft",
+  "OpenQuote": "QuotationMarkLeft",
+  "QuoteRight": "QuotationMarkRight",
+  "BlockquoteEnd": "QuotationMarkRight",
+  "CloseQuote": "QuotationMarkRight",
   "Audience": "Reach",
   "Impressions": "Reach",
   "Views": "Reach",
@@ -5166,6 +5564,10 @@ export const aliasToCanonical: Record<string, string> = {
   "Sync": "RefreshCw",
   "ClearFormat": "RemoveFormatting",
   "PlainText": "RemoveFormatting",
+  "Contacts": "Rolodex",
+  "AddressBook": "Rolodex",
+  "CardIndex": "Rolodex",
+  "Alphabet": "Rolodex",
   "Respond": "Reply",
   "Answer": "Reply",
   "Rotate": "RotateCw",
@@ -5532,6 +5934,73 @@ export const iconTags: Record<string, string[]> = {
     "link",
     "new-tab"
   ],
+  "File": [
+    "file",
+    "document",
+    "page"
+  ],
+  "FileArrowDown": [
+    "file",
+    "download",
+    "arrow",
+    "import"
+  ],
+  "FileArrowLeft": [
+    "file",
+    "arrow",
+    "left",
+    "back"
+  ],
+  "FileArrowLeftRight": [
+    "file",
+    "transfer",
+    "exchange",
+    "sync"
+  ],
+  "FileArrowRight": [
+    "file",
+    "arrow",
+    "right",
+    "forward"
+  ],
+  "FileArrowUp": [
+    "file",
+    "upload",
+    "arrow",
+    "export"
+  ],
+  "FileCheck": [
+    "file",
+    "check",
+    "complete",
+    "verified",
+    "approved"
+  ],
+  "FileCog": [
+    "file",
+    "settings",
+    "configuration",
+    "cog"
+  ],
+  "FilePlus": [
+    "file",
+    "add",
+    "new",
+    "create"
+  ],
+  "FileUser": [
+    "file",
+    "user",
+    "profile",
+    "account"
+  ],
+  "FileX": [
+    "file",
+    "delete",
+    "remove",
+    "cancel",
+    "close"
+  ],
   "Eye": [
     "eye",
     "view",
@@ -5746,6 +6215,18 @@ export const iconTags: Record<string, string[]> = {
     "add",
     "create"
   ],
+  "QuotationMarkLeft": [
+    "quote",
+    "quotation",
+    "text",
+    "blockquote"
+  ],
+  "QuotationMarkRight": [
+    "quote",
+    "quotation",
+    "text",
+    "blockquote"
+  ],
   "Reach": [
     "reach",
     "audience",
@@ -5765,6 +6246,12 @@ export const iconTags: Record<string, string[]> = {
     "format",
     "clear",
     "remove"
+  ],
+  "Rolodex": [
+    "rolodex",
+    "contacts",
+    "address-book",
+    "directory"
   ],
   "Reply": [
     "reply",
