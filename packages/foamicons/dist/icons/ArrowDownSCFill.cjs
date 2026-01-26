@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkAMKX3K73_cjs = require('../chunk-AMKX3K73.cjs');
+var chunkAO43LA72_cjs = require('../chunk-AO43LA72.cjs');
 require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ArrowDownSCFill", {
   enumerable: true,
-  get: function () { return chunkAMKX3K73_cjs.ArrowDownSCFill; }
+  get: function () { return chunkAO43LA72_cjs.ArrowDownSCFill; }
 });
 //# sourceMappingURL=ArrowDownSCFill.cjs.map
 //# sourceMappingURL=ArrowDownSCFill.cjs.map

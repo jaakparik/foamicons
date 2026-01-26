@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk3UV4NY5G_cjs = require('../chunk-3UV4NY5G.cjs');
+var chunkJK2PKHOW_cjs = require('../chunk-JK2PKHOW.cjs');
 require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "LinkDuotone", {
   enumerable: true,
-  get: function () { return chunk3UV4NY5G_cjs.LinkDuotone; }
+  get: function () { return chunkJK2PKHOW_cjs.LinkDuotone; }
 });
 //# sourceMappingURL=LinkDuotone.cjs.map
 //# sourceMappingURL=LinkDuotone.cjs.map

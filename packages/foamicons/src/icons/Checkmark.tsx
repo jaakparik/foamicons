@@ -5,11 +5,11 @@ const __iconNode: IconNode = [
   [
     'path',
     {
-      d: 'M12.2712 5.5L6.89399 10.8772C6.68364 11.0876 6.33725 11.0689 6.15081 10.8371L4.27124 8.5',
+      d: 'M10.7606 5.01062L7.10479 10.0374C6.92408 10.2859 6.56412 10.3141 6.34686 10.0969L4.76062 8.51062',
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: 'mc2sqc'
+      key: 'n8pf5h'
     }
   ]
 ];
@@ -17,7 +17,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name Checkmark
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjI3MTIgNS41TDYuODkzOTkgMTAuODc3MkM2LjY4MzY0IDExLjA4NzYgNi4zMzcyNSAxMS4wNjg5IDYuMTUwODEgMTAuODM3MUw0LjI3MTI0IDguNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjc2MDYgNS4wMTA2Mkw3LjEwNDc5IDEwLjAzNzRDNi45MjQwOCAxMC4yODU5IDYuNTY0MTIgMTAuMzE0MSA2LjM0Njg2IDEwLjA5NjlMNC43NjA2MiA4LjUxMDYyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
  * @see https://foamicons.com/icons/checkmark
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

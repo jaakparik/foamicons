@@ -4,7 +4,7 @@ import 'react';
 /**
  * @component @name ListFilterFill
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMuMzMzMzMgNC42NjY2M0gxMi42NjY3TTUuMzMzMzMgNy45OTk5NkgxMC42NjY3TTYuNjY2NjYgMTEuMzMzM0g5LjMzMzMzIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMuMzMzMzMgNC42NjY3NUgxMi42NjY3TTUuMzMzMzMgOC4wMDAwOEgxMC42NjY3TTYuNjY2NjYgMTEuMzMzNEg5LjMzMzMzIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
  * @see https://foamicons.com/icons/list-filter-fill
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

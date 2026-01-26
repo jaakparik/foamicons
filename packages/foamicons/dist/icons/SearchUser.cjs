@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk2M64WXL2_cjs = require('../chunk-2M64WXL2.cjs');
+var chunkOVFSVNXL_cjs = require('../chunk-OVFSVNXL.cjs');
 require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "SearchUser", {
   enumerable: true,
-  get: function () { return chunk2M64WXL2_cjs.SearchUser; }
+  get: function () { return chunkOVFSVNXL_cjs.SearchUser; }
 });
 //# sourceMappingURL=SearchUser.cjs.map
 //# sourceMappingURL=SearchUser.cjs.map

@@ -5,11 +5,11 @@ const __iconNode: IconNode = [
   [
     'path',
     {
-      d: 'M7.66675 10.9998L5.35364 13.313C5.15837 13.5082 4.84179 13.5082 4.64653 13.313L2.33341 10.9998',
+      d: 'M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11',
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: 'vovna6'
+      key: '6i2axc'
     }
   ],
   [
@@ -47,7 +47,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name ArrowDownTTFill
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuNjY2NzUgMTAuOTk5OEw1LjM1MzY0IDEzLjMxM0M1LjE1ODM3IDEzLjUwODIgNC44NDE3OSAxMy41MDgyIDQuNjQ2NTMgMTMuMzEzTDIuMzMzNDEgMTAuOTk5OCIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNSAxM0w1IDIiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEwIDkuNUgxMS43NU0xMy41IDkuNUgxMS43NU0xMS43NSA5LjVWMTMuNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgMi41SDExLjc1TTEzLjUgMi41SDExLjc1TTExLjc1IDIuNVY2LjUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuNjY2NzUgMTFMNS4zNTM2NCAxMy4zMTMxQzUuMTU4MzcgMTMuNTA4MyA0Ljg0MTc5IDEzLjUwODMgNC42NDY1MyAxMy4zMTMxTDIuMzMzNDEgMTEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTUgMTNMNSAyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMCA5LjVIMTEuNzVNMTMuNSA5LjVIMTEuNzVNMTEuNzUgOS41VjEzLjUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEwIDIuNUgxMS43NU0xMy41IDIuNUgxMS43NU0xMS43NSAyLjVWNi41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
  * @see https://foamicons.com/icons/arrow-down-ttfill
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

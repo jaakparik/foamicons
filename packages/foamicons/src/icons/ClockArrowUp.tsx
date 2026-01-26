@@ -15,11 +15,11 @@ const __iconNode: IconNode = [
   [
     'path',
     {
-      d: 'M9.5 11.7116L12.0129 9.2M12.0129 9.2L14.5 11.7116M12.0129 9.2L12.0129 14.5116',
+      d: 'M9.5 11.7116L12.0129 9.19995M12.0129 9.19995L14.5 11.7116M12.0129 9.19995L12.0129 14.5116',
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: 'mou1ya'
+      key: '90muk9'
     }
   ],
   [
@@ -37,7 +37,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name ClockArrowUp
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTggNC43NVY4LjI1TDkuMjUgOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS41IDExLjcxMTZMMTIuMDEyOSA5LjJNMTIuMDEyOSA5LjJMMTQuNSAxMS43MTE2TTEyLjAxMjkgOS4yTDEyLjAxMjkgMTQuNTExNiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTQuNSA4QzE0LjUgNC40MTAxNSAxMS41ODk5IDEuNSA4IDEuNUM0LjQxMDE1IDEuNSAxLjUgNC40MTAxNSAxLjUgOEMxLjUgMTEuNTg5OSA0LjQxMDE1IDE0LjUgOCAxNC41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTggNC43NVY4LjI1TDkuMjUgOSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS41IDExLjcxMTZMMTIuMDEyOSA5LjE5OTk1TTEyLjAxMjkgOS4xOTk5NUwxNC41IDExLjcxMTZNMTIuMDEyOSA5LjE5OTk1TDEyLjAxMjkgMTQuNTExNiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTQuNSA4QzE0LjUgNC40MTAxNSAxMS41ODk5IDEuNSA4IDEuNUM0LjQxMDE1IDEuNSAxLjUgNC40MTAxNSAxLjUgOEMxLjUgMTEuNTg5OSA0LjQxMDE1IDE0LjUgOCAxNC41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
  * @see https://foamicons.com/icons/clock-arrow-up
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

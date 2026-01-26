@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk4GU6KC6M_cjs = require('../chunk-4GU6KC6M.cjs');
+var chunkJ73T74OT_cjs = require('../chunk-J73T74OT.cjs');
 require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ContentHeartDuotone", {
   enumerable: true,
-  get: function () { return chunk4GU6KC6M_cjs.ContentHeartDuotone; }
+  get: function () { return chunkJ73T74OT_cjs.ContentHeartDuotone; }
 });
 //# sourceMappingURL=ContentHeartDuotone.cjs.map
 //# sourceMappingURL=ContentHeartDuotone.cjs.map

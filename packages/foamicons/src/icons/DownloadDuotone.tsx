@@ -5,11 +5,11 @@ const __iconNode: IconNode = [
   [
     'path',
     {
-      d: 'M11.6667 7.00002L8.35355 10.3131C8.15829 10.5084 7.84171 10.5084 7.64644 10.3131L4.33333 7.00002',
+      d: 'M11.6667 6.99996L8.35355 10.3131C8.15829 10.5083 7.84171 10.5083 7.64644 10.3131L4.33333 6.99996',
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      key: 'hxzflg'
+      key: 'qc1r8w'
     }
   ],
   [
@@ -37,7 +37,7 @@ const __iconNode: IconNode = [
 /**
  * @component @name DownloadDuotone
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExLjY2NjcgNy4wMDAwMkw4LjM1MzU1IDEwLjMxMzFDOC4xNTgyOSAxMC41MDg0IDcuODQxNzEgMTAuNTA4NCA3LjY0NjQ0IDEwLjMxMzFMNC4zMzMzMyA3LjAwMDAyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik04IDEwVjMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE0IDExLjI3MjdWMTIuMjU1NkMxNCAxMi45OTcyIDEzLjQ1NzcgMTMuNjI1NyAxMi43MjA4IDEzLjcwOUMxMS41Njc2IDEzLjgzOTMgOS43ODM4MSAxNCA4IDE0QzYuMjE2MTkgMTQgNC40MzIzOCAxMy44MzkzIDMuMjc5MjQgMTMuNzA5QzIuNTQyMjggMTMuNjI1NyAyIDEyLjk5NzIgMiAxMi4yNTU2VjExLjI3MjciIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==)
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTExLjY2NjcgNi45OTk5Nkw4LjM1MzU1IDEwLjMxMzFDOC4xNTgyOSAxMC41MDgzIDcuODQxNzEgMTAuNTA4MyA3LjY0NjQ0IDEwLjMxMzFMNC4zMzMzMyA2Ljk5OTk2IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik04IDEwVjMiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE0IDExLjI3MjdWMTIuMjU1NkMxNCAxMi45OTcyIDEzLjQ1NzcgMTMuNjI1NyAxMi43MjA4IDEzLjcwOUMxMS41Njc2IDEzLjgzOTMgOS43ODM4MSAxNCA4IDE0QzYuMjE2MTkgMTQgNC40MzIzOCAxMy44MzkzIDMuMjc5MjQgMTMuNzA5QzIuNTQyMjggMTMuNjI1NyAyIDEyLjk5NzIgMiAxMi4yNTU2VjExLjI3MjciIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==)
  * @see https://foamicons.com/icons/download-duotone
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>

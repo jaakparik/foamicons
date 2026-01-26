@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk56RSQZGQ_cjs = require('../chunk-56RSQZGQ.cjs');
+var chunkG5UA7ZGN_cjs = require('../chunk-G5UA7ZGN.cjs');
 require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "ArrowLeftFill", {
   enumerable: true,
-  get: function () { return chunk56RSQZGQ_cjs.ArrowLeftFill; }
+  get: function () { return chunkG5UA7ZGN_cjs.ArrowLeftFill; }
 });
 //# sourceMappingURL=ArrowLeftFill.cjs.map
 //# sourceMappingURL=ArrowLeftFill.cjs.map

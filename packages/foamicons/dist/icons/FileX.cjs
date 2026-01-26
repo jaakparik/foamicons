@@ -1,13 +1,13 @@
 'use strict';
 
-var chunkGQJLJ5JD_cjs = require('../chunk-GQJLJ5JD.cjs');
+var chunkNDAUS7NM_cjs = require('../chunk-NDAUS7NM.cjs');
 require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "FileX", {
   enumerable: true,
-  get: function () { return chunkGQJLJ5JD_cjs.FileX; }
+  get: function () { return chunkNDAUS7NM_cjs.FileX; }
 });
 //# sourceMappingURL=FileX.cjs.map
 //# sourceMappingURL=FileX.cjs.map

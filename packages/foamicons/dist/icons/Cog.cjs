@@ -1,13 +1,13 @@
 'use strict';
 
-var chunk5ZWIM2BB_cjs = require('../chunk-5ZWIM2BB.cjs');
+var chunkPMN5I6RG_cjs = require('../chunk-PMN5I6RG.cjs');
 require('../chunk-HCQ35QXF.cjs');
 
 
 
 Object.defineProperty(exports, "Cog", {
   enumerable: true,
-  get: function () { return chunk5ZWIM2BB_cjs.Cog; }
+  get: function () { return chunkPMN5I6RG_cjs.Cog; }
 });
 //# sourceMappingURL=Cog.cjs.map
 //# sourceMappingURL=Cog.cjs.map
