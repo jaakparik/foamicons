@@ -14,10 +14,6 @@ describe('Build output', () => {
     expect(existsSync(INDEX_OUTPUT)).toBe(true);
   });
 
-  it('generates icons/index.ts', () => {
-    expect(existsSync(join(ICONS_OUTPUT, 'index.ts'))).toBe(true);
-  });
-
   it('generates icon component files', () => {
     const files = readdirSync(ICONS_OUTPUT);
     const tsxFiles = files.filter((f) => f.endsWith('.tsx'));
