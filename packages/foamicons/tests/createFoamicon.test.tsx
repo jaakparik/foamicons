@@ -32,7 +32,7 @@ describe('createFoamicon', () => {
     expect(svg.getAttribute('height')).toBeNull();
     expect(svg.getAttribute('viewBox')).toBe('0 0 16 16');
     expect(svg.getAttribute('stroke')).toBe('currentColor');
-    expect(svg.getAttribute('stroke-width')).toBe('1');
+    expect(svg.getAttribute('stroke-width')).toBe('0.75');
   });
 
   it('applies custom size prop', () => {
