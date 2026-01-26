@@ -562,8 +562,7 @@
   "download": {
     "aliases": [
       "export",
-      "get",
-      "download-file"
+      "get"
     ],
     "tags": [
       "download",
