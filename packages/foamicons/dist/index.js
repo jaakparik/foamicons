@@ -1,538 +1,21390 @@
-export { LogoSnapchat as FoamLogoSnapchat, LogoSnapchat, LogoSnapchat as LogoSnapchatIcon } from './chunk-OMRND6TU.js';
-export { LogoSnapchatDark as FoamLogoSnapchatDark, LogoSnapchatDark, LogoSnapchatDark as LogoSnapchatDarkIcon } from './chunk-QZTPSNVY.js';
-export { LogoSnapchatFill as FoamLogoSnapchatFill, LogoSnapchatFill, LogoSnapchatFill as LogoSnapchatFillIcon } from './chunk-UOMJLNEX.js';
-export { LogoTiktok as FoamLogoTiktok, LogoTiktok, LogoTiktok as LogoTiktokIcon } from './chunk-VUIUO4SD.js';
-export { LogoTiktokDark as FoamLogoTiktokDark, LogoTiktokDark, LogoTiktokDark as LogoTiktokDarkIcon } from './chunk-32RCVCCW.js';
-export { LogoTiktokFill as FoamLogoTiktokFill, LogoTiktokFill, LogoTiktokFill as LogoTiktokFillIcon } from './chunk-LWCCJQ3I.js';
-export { LogoYoutube as FoamLogoYoutube, LogoYoutube, LogoYoutube as LogoYoutubeIcon } from './chunk-5HKZ3BKI.js';
-export { LogoYoutubeFill as FoamLogoYoutubeFill, LogoYoutubeFill, LogoYoutubeFill as LogoYoutubeFillIcon } from './chunk-EFWW55GL.js';
-export { LogoInstagram as FoamLogoInstagram, LogoInstagram, LogoInstagram as LogoInstagramIcon } from './chunk-VCK4RQL4.js';
-export { LogoInstagramDark as FoamLogoInstagramDark, LogoInstagramDark, LogoInstagramDark as LogoInstagramDarkIcon } from './chunk-MUGYKMRM.js';
-export { LogoInstagramFill as FoamLogoInstagramFill, LogoInstagramFill, LogoInstagramFill as LogoInstagramFillIcon } from './chunk-6JQFIQBR.js';
-export { LogoLinkedin as FoamLogoLinkedin, LogoLinkedin, LogoLinkedin as LogoLinkedinIcon } from './chunk-QRQ23ZFH.js';
-export { LogoLinkedinDark as FoamLogoLinkedinDark, LogoLinkedinDark, LogoLinkedinDark as LogoLinkedinDarkIcon } from './chunk-VSMRGWTM.js';
-export { LogoLinkedinFill as FoamLogoLinkedinFill, LogoLinkedinFill, LogoLinkedinFill as LogoLinkedinFillIcon } from './chunk-WILMD5G2.js';
-export { LogoMicrosoft as FoamLogoMicrosoft, LogoMicrosoft, LogoMicrosoft as LogoMicrosoftIcon } from './chunk-RUM3HNSX.js';
-export { LogoMicrosoftFill as FoamLogoMicrosoftFill, LogoMicrosoftFill, LogoMicrosoftFill as LogoMicrosoftFillIcon } from './chunk-VSBHX2G3.js';
-export { LogoFoamDark as FoamLogoFoamDark, LogoFoamDark, LogoFoamDark as LogoFoamDarkIcon } from './chunk-FIPEKAE4.js';
-export { LogoFoamFill as FoamLogoFoamFill, LogoFoamFill, LogoFoamFill as LogoFoamFillIcon } from './chunk-V3CA3VSP.js';
-export { LogoFoamSymbol as FoamLogoFoamSymbol, LogoFoamSymbol, LogoFoamSymbol as LogoFoamSymbolIcon } from './chunk-BLROQXPS.js';
-export { LogoFoamSymbolDark as FoamLogoFoamSymbolDark, LogoFoamSymbolDark, LogoFoamSymbolDark as LogoFoamSymbolDarkIcon } from './chunk-HOKNNP3B.js';
-export { LogoGmail as FoamLogoGmail, LogoGmail, LogoGmail as LogoGmailIcon } from './chunk-4YGCRWJT.js';
-export { LogoGmailFill as FoamLogoGmailFill, LogoGmailFill, LogoGmailFill as LogoGmailFillIcon } from './chunk-LEJBPDLF.js';
-export { LogoGoogle as FoamLogoGoogle, LogoGoogle, LogoGoogle as LogoGoogleIcon } from './chunk-U3UF7AVK.js';
-export { LogoGoogleFill as FoamLogoGoogleFill, LogoGoogleFill, LogoGoogleFill as LogoGoogleFillIcon } from './chunk-SP6RPYNY.js';
-export { LogoFacebookFill as FoamLogoFacebookFill, LogoFacebookFill, LogoFacebookFill as LogoFacebookFillIcon } from './chunk-PQDZWOBA.js';
-export { LogoFile as FoamLogoFile, LogoFile, LogoFile as LogoFileIcon } from './chunk-XJ5EBBLL.js';
-export { LogoFileDark as FoamLogoFileDark, LogoFileDark, LogoFileDark as LogoFileDarkIcon } from './chunk-OQR7MLU2.js';
-export { LogoFilePdf as FoamLogoFilePdf, LogoFilePdf, LogoFilePdf as LogoFilePdfIcon } from './chunk-BSZL4F2L.js';
-export { LogoFilePdfDark as FoamLogoFilePdfDark, LogoFilePdfDark, LogoFilePdfDark as LogoFilePdfDarkIcon } from './chunk-2QRH5F7S.js';
-export { LogoFileSheet as FoamLogoFileSheet, LogoFileSheet, LogoFileSheet as LogoFileSheetIcon } from './chunk-LMFRY22P.js';
-export { LogoFileSheetDark as FoamLogoFileSheetDark, LogoFileSheetDark, LogoFileSheetDark as LogoFileSheetDarkIcon } from './chunk-7QZRKQNP.js';
-export { LogoFoam as FoamLogoFoam, LogoFoam, LogoFoam as LogoFoamIcon } from './chunk-WNF4W6ZH.js';
-export { Volume2 as Audio, Volume2 as AudioIcon, Volume2 as FoamAudio, Volume2 as FoamSound, Volume2 as FoamSpeaker, Volume2 as FoamVolume, Volume2 as FoamVolume2, Volume2 as Sound, Volume2 as SoundIcon, Volume2 as Speaker, Volume2 as SpeakerIcon, Volume2 as Volume, Volume2, Volume2 as Volume2Icon, Volume2 as VolumeIcon } from './chunk-JLUTHQY5.js';
-export { Volume2Duotone as AudioDuotone, Volume2Duotone as AudioDuotoneIcon, Volume2Duotone as FoamAudioDuotone, Volume2Duotone as FoamSoundDuotone, Volume2Duotone as FoamSpeakerDuotone, Volume2Duotone as FoamVolume2Duotone, Volume2Duotone as FoamVolumeDuotone, Volume2Duotone as SoundDuotone, Volume2Duotone as SoundDuotoneIcon, Volume2Duotone as SpeakerDuotone, Volume2Duotone as SpeakerDuotoneIcon, Volume2Duotone, Volume2Duotone as Volume2DuotoneIcon, Volume2Duotone as VolumeDuotone, Volume2Duotone as VolumeDuotoneIcon } from './chunk-MYCPYPAN.js';
-export { Volume2Fill as AudioFill, Volume2Fill as AudioFillIcon, Volume2Fill as FoamAudioFill, Volume2Fill as FoamSoundFill, Volume2Fill as FoamSpeakerFill, Volume2Fill as FoamVolume2Fill, Volume2Fill as FoamVolumeFill, Volume2Fill as SoundFill, Volume2Fill as SoundFillIcon, Volume2Fill as SpeakerFill, Volume2Fill as SpeakerFillIcon, Volume2Fill, Volume2Fill as Volume2FillIcon, Volume2Fill as VolumeFill, Volume2Fill as VolumeFillIcon } from './chunk-JBWLHRRW.js';
-export { VolumeOff as FoamMute, VolumeOff as FoamNoSound, VolumeOff as FoamSilent, VolumeOff as FoamSpeakerOff, VolumeOff as FoamVolumeOff, VolumeOff as Mute, VolumeOff as MuteIcon, VolumeOff as NoSound, VolumeOff as NoSoundIcon, VolumeOff as Silent, VolumeOff as SilentIcon, VolumeOff as SpeakerOff, VolumeOff as SpeakerOffIcon, VolumeOff, VolumeOff as VolumeOffIcon } from './chunk-2TVX7J4S.js';
-export { VolumeOffDuotone as FoamMuteDuotone, VolumeOffDuotone as FoamNoSoundDuotone, VolumeOffDuotone as FoamSilentDuotone, VolumeOffDuotone as FoamSpeakerOffDuotone, VolumeOffDuotone as FoamVolumeOffDuotone, VolumeOffDuotone as MuteDuotone, VolumeOffDuotone as MuteDuotoneIcon, VolumeOffDuotone as NoSoundDuotone, VolumeOffDuotone as NoSoundDuotoneIcon, VolumeOffDuotone as SilentDuotone, VolumeOffDuotone as SilentDuotoneIcon, VolumeOffDuotone as SpeakerOffDuotone, VolumeOffDuotone as SpeakerOffDuotoneIcon, VolumeOffDuotone, VolumeOffDuotone as VolumeOffDuotoneIcon } from './chunk-R4WPRE2Z.js';
-export { VolumeOffFill as FoamMuteFill, VolumeOffFill as FoamNoSoundFill, VolumeOffFill as FoamSilentFill, VolumeOffFill as FoamSpeakerOffFill, VolumeOffFill as FoamVolumeOffFill, VolumeOffFill as MuteFill, VolumeOffFill as MuteFillIcon, VolumeOffFill as NoSoundFill, VolumeOffFill as NoSoundFillIcon, VolumeOffFill as SilentFill, VolumeOffFill as SilentFillIcon, VolumeOffFill as SpeakerOffFill, VolumeOffFill as SpeakerOffFillIcon, VolumeOffFill, VolumeOffFill as VolumeOffFillIcon } from './chunk-B7WITSV5.js';
-export { LogoFacebook as FoamLogoFacebook, LogoFacebook, LogoFacebook as LogoFacebookIcon } from './chunk-LBWH4CPP.js';
-export { UserDuotone as AccountDuotone, UserDuotone as AccountDuotoneIcon, UserDuotone as FoamAccountDuotone, UserDuotone as FoamPersonDuotone, UserDuotone as FoamProfileDuotone, UserDuotone as FoamUserDuotone, UserDuotone as PersonDuotone, UserDuotone as PersonDuotoneIcon, UserDuotone as ProfileDuotone, UserDuotone as ProfileDuotoneIcon, UserDuotone, UserDuotone as UserDuotoneIcon } from './chunk-ZBM6WR6A.js';
-export { UserFill as AccountFill, UserFill as AccountFillIcon, UserFill as FoamAccountFill, UserFill as FoamPersonFill, UserFill as FoamProfileFill, UserFill as FoamUserFill, UserFill as PersonFill, UserFill as PersonFillIcon, UserFill as ProfileFill, UserFill as ProfileFillIcon, UserFill, UserFill as UserFillIcon } from './chunk-ONIEWL5T.js';
-export { UserPlus as FoamUserPlus, UserPlus, UserPlus as UserPlusIcon } from './chunk-TFL6R6E2.js';
-export { UserPlusDuotone as FoamUserPlusDuotone, UserPlusDuotone, UserPlusDuotone as UserPlusDuotoneIcon } from './chunk-I6CP4R3S.js';
-export { UserPlusFill as FoamUserPlusFill, UserPlusFill, UserPlusFill as UserPlusFillIcon } from './chunk-E7PUHVTG.js';
-export { Users as FoamGroup, Users as FoamPeople, Users as FoamPersons, Users as FoamTeam, Users as FoamUsers, Users as Group, Users as GroupIcon, Users as People, Users as PeopleIcon, Users as Persons, Users as PersonsIcon, Users as Team, Users as TeamIcon, Users, Users as UsersIcon } from './chunk-QB66MUL3.js';
-export { UsersDuotone as FoamGroupDuotone, UsersDuotone as FoamPeopleDuotone, UsersDuotone as FoamPersonsDuotone, UsersDuotone as FoamTeamDuotone, UsersDuotone as FoamUsersDuotone, UsersDuotone as GroupDuotone, UsersDuotone as GroupDuotoneIcon, UsersDuotone as PeopleDuotone, UsersDuotone as PeopleDuotoneIcon, UsersDuotone as PersonsDuotone, UsersDuotone as PersonsDuotoneIcon, UsersDuotone as TeamDuotone, UsersDuotone as TeamDuotoneIcon, UsersDuotone, UsersDuotone as UsersDuotoneIcon } from './chunk-KPX6WUNP.js';
-export { UsersFill as FoamGroupFill, UsersFill as FoamPeopleFill, UsersFill as FoamPersonsFill, UsersFill as FoamTeamFill, UsersFill as FoamUsersFill, UsersFill as GroupFill, UsersFill as GroupFillIcon, UsersFill as PeopleFill, UsersFill as PeopleFillIcon, UsersFill as PersonsFill, UsersFill as PersonsFillIcon, UsersFill as TeamFill, UsersFill as TeamFillIcon, UsersFill, UsersFill as UsersFillIcon } from './chunk-KD4RERLC.js';
-export { UserArrowOutUpRightDuotone as FoamUserArrowOutUpRightDuotone, UserArrowOutUpRightDuotone, UserArrowOutUpRightDuotone as UserArrowOutUpRightDuotoneIcon } from './chunk-7F6LD2PJ.js';
-export { UserArrowOutUpRightFill as FoamUserArrowOutUpRightFill, UserArrowOutUpRightFill, UserArrowOutUpRightFill as UserArrowOutUpRightFillIcon } from './chunk-3DTU3J3L.js';
-export { UserArrowRight as FoamUserArrowRight, UserArrowRight, UserArrowRight as UserArrowRightIcon } from './chunk-POGANPFK.js';
-export { UserArrowRightDuotone as FoamUserArrowRightDuotone, UserArrowRightDuotone, UserArrowRightDuotone as UserArrowRightDuotoneIcon } from './chunk-TMT77Q3C.js';
-export { UserArrowRightFill as FoamUserArrowRightFill, UserArrowRightFill, UserArrowRightFill as UserArrowRightFillIcon } from './chunk-4BRODCAG.js';
-export { UserCog as FoamUserCog, UserCog, UserCog as UserCogIcon } from './chunk-N4XFFRD2.js';
-export { UserCogDuotone as FoamUserCogDuotone, UserCogDuotone, UserCogDuotone as UserCogDuotoneIcon } from './chunk-5Y5OIU2P.js';
-export { UserCogFill as FoamUserCogFill, UserCogFill, UserCogFill as UserCogFillIcon } from './chunk-Y3CQTQ4F.js';
-export { User as Account, User as AccountIcon, User as FoamAccount, User as FoamPerson, User as FoamProfile, User as FoamUser, User as Person, User as PersonIcon, User as Profile, User as ProfileIcon, User, User as UserIcon } from './chunk-F6WLG6KR.js';
-export { UserArrowLeft as FoamUserArrowLeft, UserArrowLeft, UserArrowLeft as UserArrowLeftIcon } from './chunk-SOI7NARY.js';
-export { UserArrowLeftDuotone as FoamUserArrowLeftDuotone, UserArrowLeftDuotone, UserArrowLeftDuotone as UserArrowLeftDuotoneIcon } from './chunk-W7GVFIHM.js';
-export { UserArrowLeftFill as FoamUserArrowLeftFill, UserArrowLeftFill, UserArrowLeftFill as UserArrowLeftFillIcon } from './chunk-DZ4RKZJI.js';
-export { UserArrowLeftRight as FoamUserArrowLeftRight, UserArrowLeftRight, UserArrowLeftRight as UserArrowLeftRightIcon } from './chunk-IDGNTXZW.js';
-export { UserArrowLeftRightDuotone as FoamUserArrowLeftRightDuotone, UserArrowLeftRightDuotone, UserArrowLeftRightDuotone as UserArrowLeftRightDuotoneIcon } from './chunk-KOYI6VCN.js';
-export { UserArrowLeftRightFill as FoamUserArrowLeftRightFill, UserArrowLeftRightFill, UserArrowLeftRightFill as UserArrowLeftRightFillIcon } from './chunk-3GZWCNWI.js';
-export { UserArrowOutUpRight as FoamUserArrowOutUpRight, UserArrowOutUpRight, UserArrowOutUpRight as UserArrowOutUpRightIcon } from './chunk-O6WU22NR.js';
-export { UnlinkDuotone as BreakDuotone, UnlinkDuotone as BreakDuotoneIcon, UnlinkDuotone as DisconnectDuotone, UnlinkDuotone as DisconnectDuotoneIcon, UnlinkDuotone as FoamBreakDuotone, UnlinkDuotone as FoamDisconnectDuotone, UnlinkDuotone as FoamUnlinkDuotone, UnlinkDuotone, UnlinkDuotone as UnlinkDuotoneIcon } from './chunk-WV3UBIG2.js';
-export { UnlinkFill as BreakFill, UnlinkFill as BreakFillIcon, UnlinkFill as DisconnectFill, UnlinkFill as DisconnectFillIcon, UnlinkFill as FoamBreakFill, UnlinkFill as FoamDisconnectFill, UnlinkFill as FoamUnlinkFill, UnlinkFill, UnlinkFill as UnlinkFillIcon } from './chunk-U7K3HKSE.js';
-export { Unlock as FoamPublic, Unlock as FoamUnlock, Unlock as FoamUnlocked, Unlock as FoamUnsecure, Unlock as Public, Unlock as PublicIcon, Unlock, Unlock as UnlockIcon, Unlock as Unlocked, Unlock as UnlockedIcon, Unlock as Unsecure, Unlock as UnsecureIcon } from './chunk-5I524VBH.js';
-export { UnlockDuotone as FoamPublicDuotone, UnlockDuotone as FoamUnlockDuotone, UnlockDuotone as FoamUnlockedDuotone, UnlockDuotone as FoamUnsecureDuotone, UnlockDuotone as PublicDuotone, UnlockDuotone as PublicDuotoneIcon, UnlockDuotone, UnlockDuotone as UnlockDuotoneIcon, UnlockDuotone as UnlockedDuotone, UnlockDuotone as UnlockedDuotoneIcon, UnlockDuotone as UnsecureDuotone, UnlockDuotone as UnsecureDuotoneIcon } from './chunk-CHLYCTN5.js';
-export { UnlockFill as FoamPublicFill, UnlockFill as FoamUnlockFill, UnlockFill as FoamUnlockedFill, UnlockFill as FoamUnsecureFill, UnlockFill as PublicFill, UnlockFill as PublicFillIcon, UnlockFill, UnlockFill as UnlockFillIcon, UnlockFill as UnlockedFill, UnlockFill as UnlockedFillIcon, UnlockFill as UnsecureFill, UnlockFill as UnsecureFillIcon } from './chunk-WKTG5YQU.js';
-export { Upload as FoamImport, Upload as FoamSend, Upload as FoamUpload, Upload as Import, Upload as ImportIcon, Upload as Send, Upload as SendIcon, Upload, Upload as UploadIcon } from './chunk-2HIZABT7.js';
-export { UploadDuotone as FoamImportDuotone, UploadDuotone as FoamSendDuotone, UploadDuotone as FoamUploadDuotone, UploadDuotone as ImportDuotone, UploadDuotone as ImportDuotoneIcon, UploadDuotone as SendDuotone, UploadDuotone as SendDuotoneIcon, UploadDuotone, UploadDuotone as UploadDuotoneIcon } from './chunk-352ZWKIA.js';
-export { UploadFill as FoamImportFill, UploadFill as FoamSendFill, UploadFill as FoamUploadFill, UploadFill as ImportFill, UploadFill as ImportFillIcon, UploadFill as SendFill, UploadFill as SendFillIcon, UploadFill, UploadFill as UploadFillIcon } from './chunk-EIWTNH4K.js';
-export { TriangleDownFill as FoamTriangleDownFill, TriangleDownFill, TriangleDownFill as TriangleDownFillIcon } from './chunk-NKQTTZWC.js';
-export { TriangleDownUp as FoamOrderToggle, TriangleDownUp as FoamSortToggle, TriangleDownUp as FoamTriangleDownUp, TriangleDownUp as OrderToggle, TriangleDownUp as OrderToggleIcon, TriangleDownUp as SortToggle, TriangleDownUp as SortToggleIcon, TriangleDownUp, TriangleDownUp as TriangleDownUpIcon } from './chunk-DN6GLBYK.js';
-export { TriangleDownUpDuotone as FoamOrderToggleDuotone, TriangleDownUpDuotone as FoamSortToggleDuotone, TriangleDownUpDuotone as FoamTriangleDownUpDuotone, TriangleDownUpDuotone as OrderToggleDuotone, TriangleDownUpDuotone as OrderToggleDuotoneIcon, TriangleDownUpDuotone as SortToggleDuotone, TriangleDownUpDuotone as SortToggleDuotoneIcon, TriangleDownUpDuotone, TriangleDownUpDuotone as TriangleDownUpDuotoneIcon } from './chunk-XM6GEVTB.js';
-export { TriangleDownUpFill as FoamOrderToggleFill, TriangleDownUpFill as FoamSortToggleFill, TriangleDownUpFill as FoamTriangleDownUpFill, TriangleDownUpFill as OrderToggleFill, TriangleDownUpFill as OrderToggleFillIcon, TriangleDownUpFill as SortToggleFill, TriangleDownUpFill as SortToggleFillIcon, TriangleDownUpFill, TriangleDownUpFill as TriangleDownUpFillIcon } from './chunk-HZUKXF33.js';
-export { TriangleUp as FoamTriangleUp, TriangleUp, TriangleUp as TriangleUpIcon } from './chunk-RLS65ACS.js';
-export { TriangleUpDuotone as FoamTriangleUpDuotone, TriangleUpDuotone, TriangleUpDuotone as TriangleUpDuotoneIcon } from './chunk-NXBDFLUU.js';
-export { TriangleUpFill as FoamTriangleUpFill, TriangleUpFill, TriangleUpFill as TriangleUpFillIcon } from './chunk-CROXIKSF.js';
-export { Unlink as Break, Unlink as BreakIcon, Unlink as Disconnect, Unlink as DisconnectIcon, Unlink as FoamBreak, Unlink as FoamDisconnect, Unlink as FoamUnlink, Unlink, Unlink as UnlinkIcon } from './chunk-K5JQCYWY.js';
-export { TrendingDown as Decline, TrendingDown as DeclineIcon, TrendingDown as Downtrend, TrendingDown as DowntrendIcon, TrendingDown as Falling, TrendingDown as FallingIcon, TrendingDown as FoamDecline, TrendingDown as FoamDowntrend, TrendingDown as FoamFalling, TrendingDown as FoamTrendingDown, TrendingDown, TrendingDown as TrendingDownIcon } from './chunk-3GH4BWW7.js';
-export { TrendingDownDuotone as DeclineDuotone, TrendingDownDuotone as DeclineDuotoneIcon, TrendingDownDuotone as DowntrendDuotone, TrendingDownDuotone as DowntrendDuotoneIcon, TrendingDownDuotone as FallingDuotone, TrendingDownDuotone as FallingDuotoneIcon, TrendingDownDuotone as FoamDeclineDuotone, TrendingDownDuotone as FoamDowntrendDuotone, TrendingDownDuotone as FoamFallingDuotone, TrendingDownDuotone as FoamTrendingDownDuotone, TrendingDownDuotone, TrendingDownDuotone as TrendingDownDuotoneIcon } from './chunk-JZULZH2B.js';
-export { TrendingDownFill as DeclineFill, TrendingDownFill as DeclineFillIcon, TrendingDownFill as DowntrendFill, TrendingDownFill as DowntrendFillIcon, TrendingDownFill as FallingFill, TrendingDownFill as FallingFillIcon, TrendingDownFill as FoamDeclineFill, TrendingDownFill as FoamDowntrendFill, TrendingDownFill as FoamFallingFill, TrendingDownFill as FoamTrendingDownFill, TrendingDownFill, TrendingDownFill as TrendingDownFillIcon } from './chunk-R7EZOJLO.js';
-export { TrendingUp as FoamGrowth, TrendingUp as FoamIncrease, TrendingUp as FoamRising, TrendingUp as FoamTrendingUp, TrendingUp as Growth, TrendingUp as GrowthIcon, TrendingUp as Increase, TrendingUp as IncreaseIcon, TrendingUp as Rising, TrendingUp as RisingIcon, TrendingUp, TrendingUp as TrendingUpIcon } from './chunk-RS75WSP7.js';
-export { TrendingUpDuotone as FoamGrowthDuotone, TrendingUpDuotone as FoamIncreaseDuotone, TrendingUpDuotone as FoamRisingDuotone, TrendingUpDuotone as FoamTrendingUpDuotone, TrendingUpDuotone as GrowthDuotone, TrendingUpDuotone as GrowthDuotoneIcon, TrendingUpDuotone as IncreaseDuotone, TrendingUpDuotone as IncreaseDuotoneIcon, TrendingUpDuotone as RisingDuotone, TrendingUpDuotone as RisingDuotoneIcon, TrendingUpDuotone, TrendingUpDuotone as TrendingUpDuotoneIcon } from './chunk-PYQHAITO.js';
-export { TrendingUpFill as FoamGrowthFill, TrendingUpFill as FoamIncreaseFill, TrendingUpFill as FoamRisingFill, TrendingUpFill as FoamTrendingUpFill, TrendingUpFill as GrowthFill, TrendingUpFill as GrowthFillIcon, TrendingUpFill as IncreaseFill, TrendingUpFill as IncreaseFillIcon, TrendingUpFill as RisingFill, TrendingUpFill as RisingFillIcon, TrendingUpFill, TrendingUpFill as TrendingUpFillIcon } from './chunk-Z4ZM4GKJ.js';
-export { TriangleDown as FoamTriangleDown, TriangleDown, TriangleDown as TriangleDownIcon } from './chunk-2AW5K66V.js';
-export { TriangleDownDuotone as FoamTriangleDownDuotone, TriangleDownDuotone, TriangleDownDuotone as TriangleDownDuotoneIcon } from './chunk-6BQZJWMZ.js';
-export { ThumbsUpDuotone as ApproveDuotone, ThumbsUpDuotone as ApproveDuotoneIcon, ThumbsUpDuotone as FoamApproveDuotone, ThumbsUpDuotone as FoamLikeDuotone, ThumbsUpDuotone as FoamThumbsUpDuotone, ThumbsUpDuotone as FoamYesDuotone, ThumbsUpDuotone as LikeDuotone, ThumbsUpDuotone as LikeDuotoneIcon, ThumbsUpDuotone, ThumbsUpDuotone as ThumbsUpDuotoneIcon, ThumbsUpDuotone as YesDuotone, ThumbsUpDuotone as YesDuotoneIcon } from './chunk-Y54JYUEL.js';
-export { ThumbsUpFill as ApproveFill, ThumbsUpFill as ApproveFillIcon, ThumbsUpFill as FoamApproveFill, ThumbsUpFill as FoamLikeFill, ThumbsUpFill as FoamThumbsUpFill, ThumbsUpFill as FoamYesFill, ThumbsUpFill as LikeFill, ThumbsUpFill as LikeFillIcon, ThumbsUpFill, ThumbsUpFill as ThumbsUpFillIcon, ThumbsUpFill as YesFill, ThumbsUpFill as YesFillIcon } from './chunk-BNXUPO7O.js';
-export { Trash as Bin, Trash as BinIcon, Trash as Delete, Trash as DeleteIcon, Trash as FoamBin, Trash as FoamDelete, Trash as FoamGarbage, Trash as FoamRemove, Trash as FoamTrash, Trash as Garbage, Trash as GarbageIcon, Trash as Remove, Trash as RemoveIcon, Trash, Trash as TrashIcon } from './chunk-CPS2LV6S.js';
-export { TrashDuotone as BinDuotone, TrashDuotone as BinDuotoneIcon, TrashDuotone as DeleteDuotone, TrashDuotone as DeleteDuotoneIcon, TrashDuotone as FoamBinDuotone, TrashDuotone as FoamDeleteDuotone, TrashDuotone as FoamGarbageDuotone, TrashDuotone as FoamRemoveDuotone, TrashDuotone as FoamTrashDuotone, TrashDuotone as GarbageDuotone, TrashDuotone as GarbageDuotoneIcon, TrashDuotone as RemoveDuotone, TrashDuotone as RemoveDuotoneIcon, TrashDuotone, TrashDuotone as TrashDuotoneIcon } from './chunk-DIDPU4HT.js';
-export { TrashEmpty as FoamTrashEmpty, TrashEmpty, TrashEmpty as TrashEmptyIcon } from './chunk-OTPE53MY.js';
-export { TrashEmptyDuotone as FoamTrashEmptyDuotone, TrashEmptyDuotone, TrashEmptyDuotone as TrashEmptyDuotoneIcon } from './chunk-WIQF6S66.js';
-export { TrashEmptyFill as FoamTrashEmptyFill, TrashEmptyFill, TrashEmptyFill as TrashEmptyFillIcon } from './chunk-TWH7WGMV.js';
-export { TrashFill as BinFill, TrashFill as BinFillIcon, TrashFill as DeleteFill, TrashFill as DeleteFillIcon, TrashFill as FoamBinFill, TrashFill as FoamDeleteFill, TrashFill as FoamGarbageFill, TrashFill as FoamRemoveFill, TrashFill as FoamTrashFill, TrashFill as GarbageFill, TrashFill as GarbageFillIcon, TrashFill as RemoveFill, TrashFill as RemoveFillIcon, TrashFill, TrashFill as TrashFillIcon } from './chunk-2BDEX5EH.js';
-export { TextAlignJustifyFill as FoamJustifyFill, TextAlignJustifyFill as FoamTextAlignJustifyFill, TextAlignJustifyFill as JustifyFill, TextAlignJustifyFill as JustifyFillIcon, TextAlignJustifyFill, TextAlignJustifyFill as TextAlignJustifyFillIcon } from './chunk-2QHPHJ5W.js';
-export { TextAlignStart as AlignLeft, TextAlignStart as AlignLeftIcon, TextAlignStart as FoamAlignLeft, TextAlignStart as FoamTextAlignStart, TextAlignStart, TextAlignStart as TextAlignStartIcon } from './chunk-JNWKIHUL.js';
-export { TextAlignStartDuotone as AlignLeftDuotone, TextAlignStartDuotone as AlignLeftDuotoneIcon, TextAlignStartDuotone as FoamAlignLeftDuotone, TextAlignStartDuotone as FoamTextAlignStartDuotone, TextAlignStartDuotone, TextAlignStartDuotone as TextAlignStartDuotoneIcon } from './chunk-F4SONZWL.js';
-export { TextAlignStartFill as AlignLeftFill, TextAlignStartFill as AlignLeftFillIcon, TextAlignStartFill as FoamAlignLeftFill, TextAlignStartFill as FoamTextAlignStartFill, TextAlignStartFill, TextAlignStartFill as TextAlignStartFillIcon } from './chunk-GZAUDPI3.js';
-export { ThumbsDown as Disapprove, ThumbsDown as DisapproveIcon, ThumbsDown as Dislike, ThumbsDown as DislikeIcon, ThumbsDown as FoamDisapprove, ThumbsDown as FoamDislike, ThumbsDown as FoamNo, ThumbsDown as FoamThumbsDown, ThumbsDown as No, ThumbsDown as NoIcon, ThumbsDown, ThumbsDown as ThumbsDownIcon } from './chunk-2DZHITMP.js';
-export { ThumbsDownDuotone as DisapproveDuotone, ThumbsDownDuotone as DisapproveDuotoneIcon, ThumbsDownDuotone as DislikeDuotone, ThumbsDownDuotone as DislikeDuotoneIcon, ThumbsDownDuotone as FoamDisapproveDuotone, ThumbsDownDuotone as FoamDislikeDuotone, ThumbsDownDuotone as FoamNoDuotone, ThumbsDownDuotone as FoamThumbsDownDuotone, ThumbsDownDuotone as NoDuotone, ThumbsDownDuotone as NoDuotoneIcon, ThumbsDownDuotone, ThumbsDownDuotone as ThumbsDownDuotoneIcon } from './chunk-TAW3SZCV.js';
-export { ThumbsDownFill as DisapproveFill, ThumbsDownFill as DisapproveFillIcon, ThumbsDownFill as DislikeFill, ThumbsDownFill as DislikeFillIcon, ThumbsDownFill as FoamDisapproveFill, ThumbsDownFill as FoamDislikeFill, ThumbsDownFill as FoamNoFill, ThumbsDownFill as FoamThumbsDownFill, ThumbsDownFill as NoFill, ThumbsDownFill as NoFillIcon, ThumbsDownFill, ThumbsDownFill as ThumbsDownFillIcon } from './chunk-ILQDRK2T.js';
-export { ThumbsUp as Approve, ThumbsUp as ApproveIcon, ThumbsUp as FoamApprove, ThumbsUp as FoamLike, ThumbsUp as FoamThumbsUp, ThumbsUp as FoamYes, ThumbsUp as Like, ThumbsUp as LikeIcon, ThumbsUp, ThumbsUp as ThumbsUpIcon, ThumbsUp as Yes, ThumbsUp as YesIcon } from './chunk-JAKTE6KD.js';
-export { TextAlignCenter as Center, TextAlignCenter as CenterIcon, TextAlignCenter as FoamCenter, TextAlignCenter as FoamTextAlignCenter, TextAlignCenter, TextAlignCenter as TextAlignCenterIcon } from './chunk-JZQTXOVG.js';
-export { TextAlignCenterDuotone as CenterDuotone, TextAlignCenterDuotone as CenterDuotoneIcon, TextAlignCenterDuotone as FoamCenterDuotone, TextAlignCenterDuotone as FoamTextAlignCenterDuotone, TextAlignCenterDuotone, TextAlignCenterDuotone as TextAlignCenterDuotoneIcon } from './chunk-5EG7A62H.js';
-export { TextAlignCenterFill as CenterFill, TextAlignCenterFill as CenterFillIcon, TextAlignCenterFill as FoamCenterFill, TextAlignCenterFill as FoamTextAlignCenterFill, TextAlignCenterFill, TextAlignCenterFill as TextAlignCenterFillIcon } from './chunk-PGAIVRIF.js';
-export { TextAlignEnd as AlignRight, TextAlignEnd as AlignRightIcon, TextAlignEnd as FoamAlignRight, TextAlignEnd as FoamTextAlignEnd, TextAlignEnd, TextAlignEnd as TextAlignEndIcon } from './chunk-GZNG55RY.js';
-export { TextAlignEndDuotone as AlignRightDuotone, TextAlignEndDuotone as AlignRightDuotoneIcon, TextAlignEndDuotone as FoamAlignRightDuotone, TextAlignEndDuotone as FoamTextAlignEndDuotone, TextAlignEndDuotone, TextAlignEndDuotone as TextAlignEndDuotoneIcon } from './chunk-SYR3G2H2.js';
-export { TextAlignEndFill as AlignRightFill, TextAlignEndFill as AlignRightFillIcon, TextAlignEndFill as FoamAlignRightFill, TextAlignEndFill as FoamTextAlignEndFill, TextAlignEndFill, TextAlignEndFill as TextAlignEndFillIcon } from './chunk-BFXKHLHJ.js';
-export { TextAlignJustify as FoamJustify, TextAlignJustify as FoamTextAlignJustify, TextAlignJustify as Justify, TextAlignJustify as JustifyIcon, TextAlignJustify, TextAlignJustify as TextAlignJustifyIcon } from './chunk-UYXXDR7Z.js';
-export { TextAlignJustifyDuotone as FoamJustifyDuotone, TextAlignJustifyDuotone as FoamTextAlignJustifyDuotone, TextAlignJustifyDuotone as JustifyDuotone, TextAlignJustifyDuotone as JustifyDuotoneIcon, TextAlignJustifyDuotone, TextAlignJustifyDuotone as TextAlignJustifyDuotoneIcon } from './chunk-YKIJUTC2.js';
-export { SquarePenDuotone as ComposeDuotone, SquarePenDuotone as ComposeDuotoneIcon, SquarePenDuotone as DraftDuotone, SquarePenDuotone as DraftDuotoneIcon, SquarePenDuotone as EditorDuotone, SquarePenDuotone as EditorDuotoneIcon, SquarePenDuotone as FoamComposeDuotone, SquarePenDuotone as FoamDraftDuotone, SquarePenDuotone as FoamEditorDuotone, SquarePenDuotone as FoamSquarePenDuotone, SquarePenDuotone as FoamWriteNewDuotone, SquarePenDuotone, SquarePenDuotone as SquarePenDuotoneIcon, SquarePenDuotone as WriteNewDuotone, SquarePenDuotone as WriteNewDuotoneIcon } from './chunk-5HXX3FUO.js';
-export { SquarePenFill as ComposeFill, SquarePenFill as ComposeFillIcon, SquarePenFill as DraftFill, SquarePenFill as DraftFillIcon, SquarePenFill as EditorFill, SquarePenFill as EditorFillIcon, SquarePenFill as FoamComposeFill, SquarePenFill as FoamDraftFill, SquarePenFill as FoamEditorFill, SquarePenFill as FoamSquarePenFill, SquarePenFill as FoamWriteNewFill, SquarePenFill, SquarePenFill as SquarePenFillIcon, SquarePenFill as WriteNewFill, SquarePenFill as WriteNewFillIcon } from './chunk-D62WDKDT.js';
-export { Star as Favorite, Star as FavoriteIcon, Star as Favourite, Star as FavouriteIcon, Star as FoamFavorite, Star as FoamFavourite, Star as FoamRating, Star as FoamStar, Star as Rating, Star as RatingIcon, Star, Star as StarIcon } from './chunk-MPRCCLCG.js';
-export { StarDuotone as FavoriteDuotone, StarDuotone as FavoriteDuotoneIcon, StarDuotone as FavouriteDuotone, StarDuotone as FavouriteDuotoneIcon, StarDuotone as FoamFavoriteDuotone, StarDuotone as FoamFavouriteDuotone, StarDuotone as FoamRatingDuotone, StarDuotone as FoamStarDuotone, StarDuotone as RatingDuotone, StarDuotone as RatingDuotoneIcon, StarDuotone, StarDuotone as StarDuotoneIcon } from './chunk-6IMUSO7U.js';
-export { StarFill as FavoriteFill, StarFill as FavoriteFillIcon, StarFill as FavouriteFill, StarFill as FavouriteFillIcon, StarFill as FoamFavoriteFill, StarFill as FoamFavouriteFill, StarFill as FoamRatingFill, StarFill as FoamStarFill, StarFill as RatingFill, StarFill as RatingFillIcon, StarFill, StarFill as StarFillIcon } from './chunk-4SWKA2OC.js';
-export { Sun as Bright, Sun as BrightIcon, Sun as Day, Sun as DayIcon, Sun as FoamBright, Sun as FoamDay, Sun as FoamLight, Sun as FoamSun, Sun as Light, Sun as LightIcon, Sun, Sun as SunIcon } from './chunk-U3BDPFH7.js';
-export { SunDuotone as BrightDuotone, SunDuotone as BrightDuotoneIcon, SunDuotone as DayDuotone, SunDuotone as DayDuotoneIcon, SunDuotone as FoamBrightDuotone, SunDuotone as FoamDayDuotone, SunDuotone as FoamLightDuotone, SunDuotone as FoamSunDuotone, SunDuotone as LightDuotone, SunDuotone as LightDuotoneIcon, SunDuotone, SunDuotone as SunDuotoneIcon } from './chunk-GRSGLAG6.js';
-export { SunFill as BrightFill, SunFill as BrightFillIcon, SunFill as DayFill, SunFill as DayFillIcon, SunFill as FoamBrightFill, SunFill as FoamDayFill, SunFill as FoamLightFill, SunFill as FoamSunFill, SunFill as LightFill, SunFill as LightFillIcon, SunFill, SunFill as SunFillIcon } from './chunk-JBXDA5DK.js';
-export { SmileFill as FoamHappyFill, SmileFill as FoamPositiveFill, SmileFill as FoamSmileFill, SmileFill as FoamSmileyFill, SmileFill as HappyFill, SmileFill as HappyFillIcon, SmileFill as PositiveFill, SmileFill as PositiveFillIcon, SmileFill, SmileFill as SmileFillIcon, SmileFill as SmileyFill, SmileFill as SmileyFillIcon } from './chunk-DGQHZXLK.js';
-export { Sparkles as Ai, Sparkles as AiIcon, Sparkles as FoamAi, Sparkles as FoamGenerate, Sparkles as FoamMagic, Sparkles as FoamShine, Sparkles as FoamSparkles, Sparkles as Generate, Sparkles as GenerateIcon, Sparkles as Magic, Sparkles as MagicIcon, Sparkles as Shine, Sparkles as ShineIcon, Sparkles, Sparkles as SparklesIcon } from './chunk-XXNT34BH.js';
-export { SparklesDuotone as AiDuotone, SparklesDuotone as AiDuotoneIcon, SparklesDuotone as FoamAiDuotone, SparklesDuotone as FoamGenerateDuotone, SparklesDuotone as FoamMagicDuotone, SparklesDuotone as FoamShineDuotone, SparklesDuotone as FoamSparklesDuotone, SparklesDuotone as GenerateDuotone, SparklesDuotone as GenerateDuotoneIcon, SparklesDuotone as MagicDuotone, SparklesDuotone as MagicDuotoneIcon, SparklesDuotone as ShineDuotone, SparklesDuotone as ShineDuotoneIcon, SparklesDuotone, SparklesDuotone as SparklesDuotoneIcon } from './chunk-PJRIWVX7.js';
-export { SparklesFill as AiFill, SparklesFill as AiFillIcon, SparklesFill as FoamAiFill, SparklesFill as FoamGenerateFill, SparklesFill as FoamMagicFill, SparklesFill as FoamShineFill, SparklesFill as FoamSparklesFill, SparklesFill as GenerateFill, SparklesFill as GenerateFillIcon, SparklesFill as MagicFill, SparklesFill as MagicFillIcon, SparklesFill as ShineFill, SparklesFill as ShineFillIcon, SparklesFill, SparklesFill as SparklesFillIcon } from './chunk-PRBIYHWA.js';
-export { Square as FoamSquare, Square as FoamStop, Square, Square as SquareIcon, Square as Stop, Square as StopIcon } from './chunk-HKMNDEYQ.js';
-export { SquareDuotone as FoamSquareDuotone, SquareDuotone as FoamStopDuotone, SquareDuotone, SquareDuotone as SquareDuotoneIcon, SquareDuotone as StopDuotone, SquareDuotone as StopDuotoneIcon } from './chunk-CTKXUDVO.js';
-export { SquareFill as FoamSquareFill, SquareFill as FoamStopFill, SquareFill, SquareFill as SquareFillIcon, SquareFill as StopFill, SquareFill as StopFillIcon } from './chunk-HYP436UY.js';
-export { SquarePen as Compose, SquarePen as ComposeIcon, SquarePen as Draft, SquarePen as DraftIcon, SquarePen as Editor, SquarePen as EditorIcon, SquarePen as FoamCompose, SquarePen as FoamDraft, SquarePen as FoamEditor, SquarePen as FoamSquarePen, SquarePen as FoamWriteNew, SquarePen, SquarePen as SquarePenIcon, SquarePen as WriteNew, SquarePen as WriteNewIcon } from './chunk-4LYBFWGE.js';
-export { Share as FoamForward, Share as FoamShare, Share as FoamShareLink, Share as Forward, Share as ForwardIcon, Share, Share as ShareIcon, Share as ShareLink, Share as ShareLinkIcon } from './chunk-HLLBI6QC.js';
-export { ShareDuotone as FoamForwardDuotone, ShareDuotone as FoamShareDuotone, ShareDuotone as FoamShareLinkDuotone, ShareDuotone as ForwardDuotone, ShareDuotone as ForwardDuotoneIcon, ShareDuotone, ShareDuotone as ShareDuotoneIcon, ShareDuotone as ShareLinkDuotone, ShareDuotone as ShareLinkDuotoneIcon } from './chunk-R7MLWJ55.js';
-export { ShareFill as FoamForwardFill, ShareFill as FoamShareFill, ShareFill as FoamShareLinkFill, ShareFill as ForwardFill, ShareFill as ForwardFillIcon, ShareFill, ShareFill as ShareFillIcon, ShareFill as ShareLinkFill, ShareFill as ShareLinkFillIcon } from './chunk-ZJIPCCOV.js';
-export { SlidersHorizontal as Adjust, SlidersHorizontal as AdjustIcon, SlidersHorizontal as Controls, SlidersHorizontal as ControlsIcon, SlidersHorizontal as Equalizer, SlidersHorizontal as EqualizerIcon, SlidersHorizontal as Filters, SlidersHorizontal as FiltersIcon, SlidersHorizontal as FoamAdjust, SlidersHorizontal as FoamControls, SlidersHorizontal as FoamEqualizer, SlidersHorizontal as FoamFilters, SlidersHorizontal as FoamSlidersHorizontal, SlidersHorizontal, SlidersHorizontal as SlidersHorizontalIcon } from './chunk-R4NSUAZT.js';
-export { SlidersHorizontalDuotone as AdjustDuotone, SlidersHorizontalDuotone as AdjustDuotoneIcon, SlidersHorizontalDuotone as ControlsDuotone, SlidersHorizontalDuotone as ControlsDuotoneIcon, SlidersHorizontalDuotone as EqualizerDuotone, SlidersHorizontalDuotone as EqualizerDuotoneIcon, SlidersHorizontalDuotone as FiltersDuotone, SlidersHorizontalDuotone as FiltersDuotoneIcon, SlidersHorizontalDuotone as FoamAdjustDuotone, SlidersHorizontalDuotone as FoamControlsDuotone, SlidersHorizontalDuotone as FoamEqualizerDuotone, SlidersHorizontalDuotone as FoamFiltersDuotone, SlidersHorizontalDuotone as FoamSlidersHorizontalDuotone, SlidersHorizontalDuotone, SlidersHorizontalDuotone as SlidersHorizontalDuotoneIcon } from './chunk-5NKQ5I3I.js';
-export { SlidersHorizontalFill as AdjustFill, SlidersHorizontalFill as AdjustFillIcon, SlidersHorizontalFill as ControlsFill, SlidersHorizontalFill as ControlsFillIcon, SlidersHorizontalFill as EqualizerFill, SlidersHorizontalFill as EqualizerFillIcon, SlidersHorizontalFill as FiltersFill, SlidersHorizontalFill as FiltersFillIcon, SlidersHorizontalFill as FoamAdjustFill, SlidersHorizontalFill as FoamControlsFill, SlidersHorizontalFill as FoamEqualizerFill, SlidersHorizontalFill as FoamFiltersFill, SlidersHorizontalFill as FoamSlidersHorizontalFill, SlidersHorizontalFill, SlidersHorizontalFill as SlidersHorizontalFillIcon } from './chunk-U5VYLJJN.js';
-export { Smile as FoamHappy, Smile as FoamPositive, Smile as FoamSmile, Smile as FoamSmiley, Smile as Happy, Smile as HappyIcon, Smile as Positive, Smile as PositiveIcon, Smile, Smile as SmileIcon, Smile as Smiley, Smile as SmileyIcon } from './chunk-2C5ZKUCR.js';
-export { SmileDuotone as FoamHappyDuotone, SmileDuotone as FoamPositiveDuotone, SmileDuotone as FoamSmileDuotone, SmileDuotone as FoamSmileyDuotone, SmileDuotone as HappyDuotone, SmileDuotone as HappyDuotoneIcon, SmileDuotone as PositiveDuotone, SmileDuotone as PositiveDuotoneIcon, SmileDuotone, SmileDuotone as SmileDuotoneIcon, SmileDuotone as SmileyDuotone, SmileDuotone as SmileyDuotoneIcon } from './chunk-HDS6IA74.js';
-export { SaveDuotone as DiskDuotone, SaveDuotone as DiskDuotoneIcon, SaveDuotone as FloppyDuotone, SaveDuotone as FloppyDuotoneIcon, SaveDuotone as FoamDiskDuotone, SaveDuotone as FoamFloppyDuotone, SaveDuotone as FoamPreserveDuotone, SaveDuotone as FoamSaveDuotone, SaveDuotone as PreserveDuotone, SaveDuotone as PreserveDuotoneIcon, SaveDuotone, SaveDuotone as SaveDuotoneIcon } from './chunk-6URLBOTK.js';
-export { SaveFill as DiskFill, SaveFill as DiskFillIcon, SaveFill as FloppyFill, SaveFill as FloppyFillIcon, SaveFill as FoamDiskFill, SaveFill as FoamFloppyFill, SaveFill as FoamPreserveFill, SaveFill as FoamSaveFill, SaveFill as PreserveFill, SaveFill as PreserveFillIcon, SaveFill, SaveFill as SaveFillIcon } from './chunk-ZKB5D2ON.js';
-export { Search as Explore, Search as ExploreIcon, Search as Find, Search as FindIcon, Search as FoamExplore, Search as FoamFind, Search as FoamLookup, Search as FoamMagnifyingGlass, Search as FoamQuery, Search as FoamSearch, Search as Lookup, Search as LookupIcon, Search as MagnifyingGlass, Search as MagnifyingGlassIcon, Search as Query, Search as QueryIcon, Search, Search as SearchIcon } from './chunk-ERXGMR4F.js';
-export { SearchDuotone as ExploreDuotone, SearchDuotone as ExploreDuotoneIcon, SearchDuotone as FindDuotone, SearchDuotone as FindDuotoneIcon, SearchDuotone as FoamExploreDuotone, SearchDuotone as FoamFindDuotone, SearchDuotone as FoamLookupDuotone, SearchDuotone as FoamMagnifyingGlassDuotone, SearchDuotone as FoamQueryDuotone, SearchDuotone as FoamSearchDuotone, SearchDuotone as LookupDuotone, SearchDuotone as LookupDuotoneIcon, SearchDuotone as MagnifyingGlassDuotone, SearchDuotone as MagnifyingGlassDuotoneIcon, SearchDuotone as QueryDuotone, SearchDuotone as QueryDuotoneIcon, SearchDuotone, SearchDuotone as SearchDuotoneIcon } from './chunk-B7NUXXY5.js';
-export { SearchFill as ExploreFill, SearchFill as ExploreFillIcon, SearchFill as FindFill, SearchFill as FindFillIcon, SearchFill as FoamExploreFill, SearchFill as FoamFindFill, SearchFill as FoamLookupFill, SearchFill as FoamMagnifyingGlassFill, SearchFill as FoamQueryFill, SearchFill as FoamSearchFill, SearchFill as LookupFill, SearchFill as LookupFillIcon, SearchFill as MagnifyingGlassFill, SearchFill as MagnifyingGlassFillIcon, SearchFill as QueryFill, SearchFill as QueryFillIcon, SearchFill, SearchFill as SearchFillIcon } from './chunk-VPLCZFEO.js';
-export { SearchUser as FindUser, SearchUser as FindUserIcon, SearchUser as FoamFindUser, SearchUser as FoamLookupPerson, SearchUser as FoamSearchPerson, SearchUser as FoamSearchUser, SearchUser as FoamUserSearch, SearchUser as LookupPerson, SearchUser as LookupPersonIcon, SearchUser as SearchPerson, SearchUser as SearchPersonIcon, SearchUser, SearchUser as SearchUserIcon, SearchUser as UserSearch, SearchUser as UserSearchIcon } from './chunk-VOFLUKWZ.js';
-export { SearchUserDuotone as FindUserDuotone, SearchUserDuotone as FindUserDuotoneIcon, SearchUserDuotone as FoamFindUserDuotone, SearchUserDuotone as FoamLookupPersonDuotone, SearchUserDuotone as FoamSearchPersonDuotone, SearchUserDuotone as FoamSearchUserDuotone, SearchUserDuotone as FoamUserSearchDuotone, SearchUserDuotone as LookupPersonDuotone, SearchUserDuotone as LookupPersonDuotoneIcon, SearchUserDuotone as SearchPersonDuotone, SearchUserDuotone as SearchPersonDuotoneIcon, SearchUserDuotone, SearchUserDuotone as SearchUserDuotoneIcon, SearchUserDuotone as UserSearchDuotone, SearchUserDuotone as UserSearchDuotoneIcon } from './chunk-JNLUS2HF.js';
-export { SearchUserFill as FindUserFill, SearchUserFill as FindUserFillIcon, SearchUserFill as FoamFindUserFill, SearchUserFill as FoamLookupPersonFill, SearchUserFill as FoamSearchPersonFill, SearchUserFill as FoamSearchUserFill, SearchUserFill as FoamUserSearchFill, SearchUserFill as LookupPersonFill, SearchUserFill as LookupPersonFillIcon, SearchUserFill as SearchPersonFill, SearchUserFill as SearchPersonFillIcon, SearchUserFill, SearchUserFill as SearchUserFillIcon, SearchUserFill as UserSearchFill, SearchUserFill as UserSearchFillIcon } from './chunk-HJDQXZ54.js';
-export { RolodexFill as AddressBookFill, RolodexFill as AddressBookFillIcon, RolodexFill as AlphabetFill, RolodexFill as AlphabetFillIcon, RolodexFill as CardIndexFill, RolodexFill as CardIndexFillIcon, RolodexFill as ContactsFill, RolodexFill as ContactsFillIcon, RolodexFill as FoamAddressBookFill, RolodexFill as FoamAlphabetFill, RolodexFill as FoamCardIndexFill, RolodexFill as FoamContactsFill, RolodexFill as FoamRolodexFill, RolodexFill, RolodexFill as RolodexFillIcon } from './chunk-YPBTZMJW.js';
-export { RotateCw as FoamRedo, RotateCw as FoamRotate, RotateCw as FoamRotateCw, RotateCw as FoamTurn, RotateCw as Redo, RotateCw as RedoIcon, RotateCw as Rotate, RotateCw, RotateCw as RotateCwIcon, RotateCw as RotateIcon, RotateCw as Turn, RotateCw as TurnIcon } from './chunk-UDAQIGYB.js';
-export { RotateCwDuotone as FoamRedoDuotone, RotateCwDuotone as FoamRotateCwDuotone, RotateCwDuotone as FoamRotateDuotone, RotateCwDuotone as FoamTurnDuotone, RotateCwDuotone as RedoDuotone, RotateCwDuotone as RedoDuotoneIcon, RotateCwDuotone, RotateCwDuotone as RotateCwDuotoneIcon, RotateCwDuotone as RotateDuotone, RotateCwDuotone as RotateDuotoneIcon, RotateCwDuotone as TurnDuotone, RotateCwDuotone as TurnDuotoneIcon } from './chunk-GN772P5M.js';
-export { RotateCwFill as FoamRedoFill, RotateCwFill as FoamRotateCwFill, RotateCwFill as FoamRotateFill, RotateCwFill as FoamTurnFill, RotateCwFill as RedoFill, RotateCwFill as RedoFillIcon, RotateCwFill, RotateCwFill as RotateCwFillIcon, RotateCwFill as RotateFill, RotateCwFill as RotateFillIcon, RotateCwFill as TurnFill, RotateCwFill as TurnFillIcon } from './chunk-TVVKX6HL.js';
-export { Rows2 as FoamHorizontalSplit, Rows2 as FoamRows, Rows2 as FoamRows2, Rows2 as HorizontalSplit, Rows2 as HorizontalSplitIcon, Rows2 as Rows, Rows2, Rows2 as Rows2Icon, Rows2 as RowsIcon } from './chunk-JV2NJ2RQ.js';
-export { Rows2Duotone as FoamHorizontalSplitDuotone, Rows2Duotone as FoamRows2Duotone, Rows2Duotone as FoamRowsDuotone, Rows2Duotone as HorizontalSplitDuotone, Rows2Duotone as HorizontalSplitDuotoneIcon, Rows2Duotone, Rows2Duotone as Rows2DuotoneIcon, Rows2Duotone as RowsDuotone, Rows2Duotone as RowsDuotoneIcon } from './chunk-QEAWTWF5.js';
-export { Rows2Fill as FoamHorizontalSplitFill, Rows2Fill as FoamRows2Fill, Rows2Fill as FoamRowsFill, Rows2Fill as HorizontalSplitFill, Rows2Fill as HorizontalSplitFillIcon, Rows2Fill, Rows2Fill as Rows2FillIcon, Rows2Fill as RowsFill, Rows2Fill as RowsFillIcon } from './chunk-YD7U3WZZ.js';
-export { Save as Disk, Save as DiskIcon, Save as Floppy, Save as FloppyIcon, Save as FoamDisk, Save as FoamFloppy, Save as FoamPreserve, Save as FoamSave, Save as Preserve, Save as PreserveIcon, Save, Save as SaveIcon } from './chunk-LSTAISV6.js';
-export { RemoveFormatting as ClearFormat, RemoveFormatting as ClearFormatIcon, RemoveFormatting as FoamClearFormat, RemoveFormatting as FoamPlainText, RemoveFormatting as FoamRemoveFormatting, RemoveFormatting as PlainText, RemoveFormatting as PlainTextIcon, RemoveFormatting, RemoveFormatting as RemoveFormattingIcon } from './chunk-YCVJCCT4.js';
-export { RemoveFormattingDuotone as ClearFormatDuotone, RemoveFormattingDuotone as ClearFormatDuotoneIcon, RemoveFormattingDuotone as FoamClearFormatDuotone, RemoveFormattingDuotone as FoamPlainTextDuotone, RemoveFormattingDuotone as FoamRemoveFormattingDuotone, RemoveFormattingDuotone as PlainTextDuotone, RemoveFormattingDuotone as PlainTextDuotoneIcon, RemoveFormattingDuotone, RemoveFormattingDuotone as RemoveFormattingDuotoneIcon } from './chunk-EQIFGZKT.js';
-export { RemoveFormattingFill as ClearFormatFill, RemoveFormattingFill as ClearFormatFillIcon, RemoveFormattingFill as FoamClearFormatFill, RemoveFormattingFill as FoamPlainTextFill, RemoveFormattingFill as FoamRemoveFormattingFill, RemoveFormattingFill as PlainTextFill, RemoveFormattingFill as PlainTextFillIcon, RemoveFormattingFill, RemoveFormattingFill as RemoveFormattingFillIcon } from './chunk-ZFNHKCIS.js';
-export { Reply as Answer, Reply as AnswerIcon, Reply as FoamAnswer, Reply as FoamReply, Reply as FoamRespond, Reply, Reply as ReplyIcon, Reply as Respond, Reply as RespondIcon } from './chunk-3G2B45GG.js';
-export { ReplyDuotone as AnswerDuotone, ReplyDuotone as AnswerDuotoneIcon, ReplyDuotone as FoamAnswerDuotone, ReplyDuotone as FoamReplyDuotone, ReplyDuotone as FoamRespondDuotone, ReplyDuotone, ReplyDuotone as ReplyDuotoneIcon, ReplyDuotone as RespondDuotone, ReplyDuotone as RespondDuotoneIcon } from './chunk-6CP36Y3H.js';
-export { ReplyFill as AnswerFill, ReplyFill as AnswerFillIcon, ReplyFill as FoamAnswerFill, ReplyFill as FoamReplyFill, ReplyFill as FoamRespondFill, ReplyFill, ReplyFill as ReplyFillIcon, ReplyFill as RespondFill, ReplyFill as RespondFillIcon } from './chunk-AISPYN3N.js';
-export { Rolodex as AddressBook, Rolodex as AddressBookIcon, Rolodex as Alphabet, Rolodex as AlphabetIcon, Rolodex as CardIndex, Rolodex as CardIndexIcon, Rolodex as Contacts, Rolodex as ContactsIcon, Rolodex as FoamAddressBook, Rolodex as FoamAlphabet, Rolodex as FoamCardIndex, Rolodex as FoamContacts, Rolodex as FoamRolodex, Rolodex, Rolodex as RolodexIcon } from './chunk-7ZV36USE.js';
-export { RolodexDuotone as AddressBookDuotone, RolodexDuotone as AddressBookDuotoneIcon, RolodexDuotone as AlphabetDuotone, RolodexDuotone as AlphabetDuotoneIcon, RolodexDuotone as CardIndexDuotone, RolodexDuotone as CardIndexDuotoneIcon, RolodexDuotone as ContactsDuotone, RolodexDuotone as ContactsDuotoneIcon, RolodexDuotone as FoamAddressBookDuotone, RolodexDuotone as FoamAlphabetDuotone, RolodexDuotone as FoamCardIndexDuotone, RolodexDuotone as FoamContactsDuotone, RolodexDuotone as FoamRolodexDuotone, RolodexDuotone, RolodexDuotone as RolodexDuotoneIcon } from './chunk-ZYT7VDWS.js';
-export { ReachDuotone as AudienceDuotone, ReachDuotone as AudienceDuotoneIcon, ReachDuotone as FoamAudienceDuotone, ReachDuotone as FoamImpressionsDuotone, ReachDuotone as FoamReachDuotone, ReachDuotone as FoamViewsDuotone, ReachDuotone as ImpressionsDuotone, ReachDuotone as ImpressionsDuotoneIcon, ReachDuotone, ReachDuotone as ReachDuotoneIcon, ReachDuotone as ViewsDuotone, ReachDuotone as ViewsDuotoneIcon } from './chunk-SIANTPUT.js';
-export { ReachFill as AudienceFill, ReachFill as AudienceFillIcon, ReachFill as FoamAudienceFill, ReachFill as FoamImpressionsFill, ReachFill as FoamReachFill, ReachFill as FoamViewsFill, ReachFill as ImpressionsFill, ReachFill as ImpressionsFillIcon, ReachFill, ReachFill as ReachFillIcon, ReachFill as ViewsFill, ReachFill as ViewsFillIcon } from './chunk-RUNMFG66.js';
-export { Reel as Film, Reel as FilmIcon, Reel as FoamFilm, Reel as FoamReel, Reel as FoamShort, Reel as FoamShortVideo, Reel, Reel as ReelIcon, Reel as Short, Reel as ShortIcon, Reel as ShortVideo, Reel as ShortVideoIcon } from './chunk-LR2BIWYM.js';
-export { ReelDuotone as FilmDuotone, ReelDuotone as FilmDuotoneIcon, ReelDuotone as FoamFilmDuotone, ReelDuotone as FoamReelDuotone, ReelDuotone as FoamShortDuotone, ReelDuotone as FoamShortVideoDuotone, ReelDuotone, ReelDuotone as ReelDuotoneIcon, ReelDuotone as ShortDuotone, ReelDuotone as ShortDuotoneIcon, ReelDuotone as ShortVideoDuotone, ReelDuotone as ShortVideoDuotoneIcon } from './chunk-GEZVNUC4.js';
-export { ReelFill as FilmFill, ReelFill as FilmFillIcon, ReelFill as FoamFilmFill, ReelFill as FoamReelFill, ReelFill as FoamShortFill, ReelFill as FoamShortVideoFill, ReelFill, ReelFill as ReelFillIcon, ReelFill as ShortFill, ReelFill as ShortFillIcon, ReelFill as ShortVideoFill, ReelFill as ShortVideoFillIcon } from './chunk-ACJLVVEB.js';
-export { RefreshCw as FoamRefresh, RefreshCw as FoamRefreshCw, RefreshCw as FoamReload, RefreshCw as FoamSync, RefreshCw as Refresh, RefreshCw, RefreshCw as RefreshCwIcon, RefreshCw as RefreshIcon, RefreshCw as Reload, RefreshCw as ReloadIcon, RefreshCw as Sync, RefreshCw as SyncIcon } from './chunk-2BT7FBCD.js';
-export { RefreshCwDuotone as FoamRefreshCwDuotone, RefreshCwDuotone as FoamRefreshDuotone, RefreshCwDuotone as FoamReloadDuotone, RefreshCwDuotone as FoamSyncDuotone, RefreshCwDuotone, RefreshCwDuotone as RefreshCwDuotoneIcon, RefreshCwDuotone as RefreshDuotone, RefreshCwDuotone as RefreshDuotoneIcon, RefreshCwDuotone as ReloadDuotone, RefreshCwDuotone as ReloadDuotoneIcon, RefreshCwDuotone as SyncDuotone, RefreshCwDuotone as SyncDuotoneIcon } from './chunk-SI5OEMLQ.js';
-export { RefreshCwFill as FoamRefreshCwFill, RefreshCwFill as FoamRefreshFill, RefreshCwFill as FoamReloadFill, RefreshCwFill as FoamSyncFill, RefreshCwFill, RefreshCwFill as RefreshCwFillIcon, RefreshCwFill as RefreshFill, RefreshCwFill as RefreshFillIcon, RefreshCwFill as ReloadFill, RefreshCwFill as ReloadFillIcon, RefreshCwFill as SyncFill, RefreshCwFill as SyncFillIcon } from './chunk-VPYHARX6.js';
-export { PointerFill as FoamPointerFill, PointerFill, PointerFill as PointerFillIcon } from './chunk-PKFRA5I6.js';
-export { QuotationMarkLeft as BlockquoteStart, QuotationMarkLeft as BlockquoteStartIcon, QuotationMarkLeft as FoamBlockquoteStart, QuotationMarkLeft as FoamOpenQuote, QuotationMarkLeft as FoamQuotationMarkLeft, QuotationMarkLeft as FoamQuoteLeft, QuotationMarkLeft as OpenQuote, QuotationMarkLeft as OpenQuoteIcon, QuotationMarkLeft, QuotationMarkLeft as QuotationMarkLeftIcon, QuotationMarkLeft as QuoteLeft, QuotationMarkLeft as QuoteLeftIcon } from './chunk-FPK22OER.js';
-export { QuotationMarkLeftDuotone as BlockquoteStartDuotone, QuotationMarkLeftDuotone as BlockquoteStartDuotoneIcon, QuotationMarkLeftDuotone as FoamBlockquoteStartDuotone, QuotationMarkLeftDuotone as FoamOpenQuoteDuotone, QuotationMarkLeftDuotone as FoamQuotationMarkLeftDuotone, QuotationMarkLeftDuotone as FoamQuoteLeftDuotone, QuotationMarkLeftDuotone as OpenQuoteDuotone, QuotationMarkLeftDuotone as OpenQuoteDuotoneIcon, QuotationMarkLeftDuotone, QuotationMarkLeftDuotone as QuotationMarkLeftDuotoneIcon, QuotationMarkLeftDuotone as QuoteLeftDuotone, QuotationMarkLeftDuotone as QuoteLeftDuotoneIcon } from './chunk-35Z2W5QD.js';
-export { QuotationMarkLeftFill as BlockquoteStartFill, QuotationMarkLeftFill as BlockquoteStartFillIcon, QuotationMarkLeftFill as FoamBlockquoteStartFill, QuotationMarkLeftFill as FoamOpenQuoteFill, QuotationMarkLeftFill as FoamQuotationMarkLeftFill, QuotationMarkLeftFill as FoamQuoteLeftFill, QuotationMarkLeftFill as OpenQuoteFill, QuotationMarkLeftFill as OpenQuoteFillIcon, QuotationMarkLeftFill, QuotationMarkLeftFill as QuotationMarkLeftFillIcon, QuotationMarkLeftFill as QuoteLeftFill, QuotationMarkLeftFill as QuoteLeftFillIcon } from './chunk-AZH2IH2X.js';
-export { QuotationMarkRight as BlockquoteEnd, QuotationMarkRight as BlockquoteEndIcon, QuotationMarkRight as CloseQuote, QuotationMarkRight as CloseQuoteIcon, QuotationMarkRight as FoamBlockquoteEnd, QuotationMarkRight as FoamCloseQuote, QuotationMarkRight as FoamQuotationMarkRight, QuotationMarkRight as FoamQuoteRight, QuotationMarkRight, QuotationMarkRight as QuotationMarkRightIcon, QuotationMarkRight as QuoteRight, QuotationMarkRight as QuoteRightIcon } from './chunk-UFHOZ537.js';
-export { QuotationMarkRightDuotone as BlockquoteEndDuotone, QuotationMarkRightDuotone as BlockquoteEndDuotoneIcon, QuotationMarkRightDuotone as CloseQuoteDuotone, QuotationMarkRightDuotone as CloseQuoteDuotoneIcon, QuotationMarkRightDuotone as FoamBlockquoteEndDuotone, QuotationMarkRightDuotone as FoamCloseQuoteDuotone, QuotationMarkRightDuotone as FoamQuotationMarkRightDuotone, QuotationMarkRightDuotone as FoamQuoteRightDuotone, QuotationMarkRightDuotone, QuotationMarkRightDuotone as QuotationMarkRightDuotoneIcon, QuotationMarkRightDuotone as QuoteRightDuotone, QuotationMarkRightDuotone as QuoteRightDuotoneIcon } from './chunk-AFKCQUD7.js';
-export { QuotationMarkRightFill as BlockquoteEndFill, QuotationMarkRightFill as BlockquoteEndFillIcon, QuotationMarkRightFill as CloseQuoteFill, QuotationMarkRightFill as CloseQuoteFillIcon, QuotationMarkRightFill as FoamBlockquoteEndFill, QuotationMarkRightFill as FoamCloseQuoteFill, QuotationMarkRightFill as FoamQuotationMarkRightFill, QuotationMarkRightFill as FoamQuoteRightFill, QuotationMarkRightFill, QuotationMarkRightFill as QuotationMarkRightFillIcon, QuotationMarkRightFill as QuoteRightFill, QuotationMarkRightFill as QuoteRightFillIcon } from './chunk-WMQF2IBT.js';
-export { Reach as Audience, Reach as AudienceIcon, Reach as FoamAudience, Reach as FoamImpressions, Reach as FoamReach, Reach as FoamViews, Reach as Impressions, Reach as ImpressionsIcon, Reach, Reach as ReachIcon, Reach as Views, Reach as ViewsIcon } from './chunk-VBVX4NYP.js';
-export { Play as FoamPlay, Play as FoamPlayButton, Play as FoamStart, Play as FoamVideo, Play, Play as PlayButton, Play as PlayButtonIcon, Play as PlayIcon, Play as Start, Play as StartIcon, Play as Video, Play as VideoIcon } from './chunk-CBTQ6WPJ.js';
-export { PlayDuotone as FoamPlayButtonDuotone, PlayDuotone as FoamPlayDuotone, PlayDuotone as FoamStartDuotone, PlayDuotone as FoamVideoDuotone, PlayDuotone as PlayButtonDuotone, PlayDuotone as PlayButtonDuotoneIcon, PlayDuotone, PlayDuotone as PlayDuotoneIcon, PlayDuotone as StartDuotone, PlayDuotone as StartDuotoneIcon, PlayDuotone as VideoDuotone, PlayDuotone as VideoDuotoneIcon } from './chunk-QBSIEJFP.js';
-export { PlayFill as FoamPlayButtonFill, PlayFill as FoamPlayFill, PlayFill as FoamStartFill, PlayFill as FoamVideoFill, PlayFill as PlayButtonFill, PlayFill as PlayButtonFillIcon, PlayFill, PlayFill as PlayFillIcon, PlayFill as StartFill, PlayFill as StartFillIcon, PlayFill as VideoFill, PlayFill as VideoFillIcon } from './chunk-TWRKONE4.js';
-export { Plus as Add, Plus as AddIcon, Plus as Create, Plus as CreateIcon, Plus as FoamAdd, Plus as FoamCreate, Plus as FoamNew, Plus as FoamPlus, Plus as New, Plus as NewIcon, Plus, Plus as PlusIcon } from './chunk-Q7GZJOIA.js';
-export { PlusDuotone as AddDuotone, PlusDuotone as AddDuotoneIcon, PlusDuotone as CreateDuotone, PlusDuotone as CreateDuotoneIcon, PlusDuotone as FoamAddDuotone, PlusDuotone as FoamCreateDuotone, PlusDuotone as FoamNewDuotone, PlusDuotone as FoamPlusDuotone, PlusDuotone as NewDuotone, PlusDuotone as NewDuotoneIcon, PlusDuotone, PlusDuotone as PlusDuotoneIcon } from './chunk-5GZONIA6.js';
-export { PlusFill as AddFill, PlusFill as AddFillIcon, PlusFill as CreateFill, PlusFill as CreateFillIcon, PlusFill as FoamAddFill, PlusFill as FoamCreateFill, PlusFill as FoamNewFill, PlusFill as FoamPlusFill, PlusFill as NewFill, PlusFill as NewFillIcon, PlusFill, PlusFill as PlusFillIcon } from './chunk-M3G6DGPX.js';
-export { Pointer as FoamPointer, Pointer, Pointer as PointerIcon } from './chunk-5LNDCSQS.js';
-export { PointerDuotone as FoamPointerDuotone, PointerDuotone, PointerDuotone as PointerDuotoneIcon } from './chunk-BCFHMENS.js';
-export { PanelRightDuotone as DrawerRightDuotone, PanelRightDuotone as DrawerRightDuotoneIcon, PanelRightDuotone as FoamDrawerRightDuotone, PanelRightDuotone as FoamPanelRightDuotone, PanelRightDuotone as FoamSidebarRightDuotone, PanelRightDuotone, PanelRightDuotone as PanelRightDuotoneIcon, PanelRightDuotone as SidebarRightDuotone, PanelRightDuotone as SidebarRightDuotoneIcon } from './chunk-QG3PMPOL.js';
-export { PanelRightFill as DrawerRightFill, PanelRightFill as DrawerRightFillIcon, PanelRightFill as FoamDrawerRightFill, PanelRightFill as FoamPanelRightFill, PanelRightFill as FoamSidebarRightFill, PanelRightFill, PanelRightFill as PanelRightFillIcon, PanelRightFill as SidebarRightFill, PanelRightFill as SidebarRightFillIcon } from './chunk-VS6L4TU3.js';
-export { Pencil as Edit, Pencil as EditIcon, Pencil as FoamEdit, Pencil as FoamModify, Pencil as FoamPencil, Pencil as FoamWrite, Pencil as Modify, Pencil as ModifyIcon, Pencil, Pencil as PencilIcon, Pencil as Write, Pencil as WriteIcon } from './chunk-UNWVLQNC.js';
-export { PencilDuotone as EditDuotone, PencilDuotone as EditDuotoneIcon, PencilDuotone as FoamEditDuotone, PencilDuotone as FoamModifyDuotone, PencilDuotone as FoamPencilDuotone, PencilDuotone as FoamWriteDuotone, PencilDuotone as ModifyDuotone, PencilDuotone as ModifyDuotoneIcon, PencilDuotone, PencilDuotone as PencilDuotoneIcon, PencilDuotone as WriteDuotone, PencilDuotone as WriteDuotoneIcon } from './chunk-7AJ4KPYE.js';
-export { PencilFill as EditFill, PencilFill as EditFillIcon, PencilFill as FoamEditFill, PencilFill as FoamModifyFill, PencilFill as FoamPencilFill, PencilFill as FoamWriteFill, PencilFill as ModifyFill, PencilFill as ModifyFillIcon, PencilFill, PencilFill as PencilFillIcon, PencilFill as WriteFill, PencilFill as WriteFillIcon } from './chunk-YVA42VCR.js';
-export { Pin as FoamPin, Pin as FoamStick, Pin as FoamTack, Pin as FoamThumbtack, Pin, Pin as PinIcon, Pin as Stick, Pin as StickIcon, Pin as Tack, Pin as TackIcon, Pin as Thumbtack, Pin as ThumbtackIcon } from './chunk-KHPHG5BH.js';
-export { PinDuotone as FoamPinDuotone, PinDuotone as FoamStickDuotone, PinDuotone as FoamTackDuotone, PinDuotone as FoamThumbtackDuotone, PinDuotone, PinDuotone as PinDuotoneIcon, PinDuotone as StickDuotone, PinDuotone as StickDuotoneIcon, PinDuotone as TackDuotone, PinDuotone as TackDuotoneIcon, PinDuotone as ThumbtackDuotone, PinDuotone as ThumbtackDuotoneIcon } from './chunk-RWPSZAPO.js';
-export { PinFill as FoamPinFill, PinFill as FoamStickFill, PinFill as FoamTackFill, PinFill as FoamThumbtackFill, PinFill, PinFill as PinFillIcon, PinFill as StickFill, PinFill as StickFillIcon, PinFill as TackFill, PinFill as TackFillIcon, PinFill as ThumbtackFill, PinFill as ThumbtackFillIcon } from './chunk-QYFMKZFO.js';
-export { NotebookFill as FoamNotebookFill, NotebookFill, NotebookFill as NotebookFillIcon } from './chunk-K5KZEFM7.js';
-export { Office as FoamOffice, Office, Office as OfficeIcon } from './chunk-THCIPOVT.js';
-export { OfficeDuotone as FoamOfficeDuotone, OfficeDuotone, OfficeDuotone as OfficeDuotoneIcon } from './chunk-YN5Y6CEK.js';
-export { OfficeFill as FoamOfficeFill, OfficeFill, OfficeFill as OfficeFillIcon } from './chunk-WQTTAL2F.js';
-export { PanelLeft as DrawerLeft, PanelLeft as DrawerLeftIcon, PanelLeft as FoamDrawerLeft, PanelLeft as FoamPanelLeft, PanelLeft as FoamSidebarLeft, PanelLeft, PanelLeft as PanelLeftIcon, PanelLeft as SidebarLeft, PanelLeft as SidebarLeftIcon } from './chunk-HS6VDYYS.js';
-export { PanelLeftDuotone as DrawerLeftDuotone, PanelLeftDuotone as DrawerLeftDuotoneIcon, PanelLeftDuotone as FoamDrawerLeftDuotone, PanelLeftDuotone as FoamPanelLeftDuotone, PanelLeftDuotone as FoamSidebarLeftDuotone, PanelLeftDuotone, PanelLeftDuotone as PanelLeftDuotoneIcon, PanelLeftDuotone as SidebarLeftDuotone, PanelLeftDuotone as SidebarLeftDuotoneIcon } from './chunk-7CHAFJMT.js';
-export { PanelLeftFill as DrawerLeftFill, PanelLeftFill as DrawerLeftFillIcon, PanelLeftFill as FoamDrawerLeftFill, PanelLeftFill as FoamPanelLeftFill, PanelLeftFill as FoamSidebarLeftFill, PanelLeftFill, PanelLeftFill as PanelLeftFillIcon, PanelLeftFill as SidebarLeftFill, PanelLeftFill as SidebarLeftFillIcon } from './chunk-QCXDQOUO.js';
-export { PanelRight as DrawerRight, PanelRight as DrawerRightIcon, PanelRight as FoamDrawerRight, PanelRight as FoamPanelRight, PanelRight as FoamSidebarRight, PanelRight, PanelRight as PanelRightIcon, PanelRight as SidebarRight, PanelRight as SidebarRightIcon } from './chunk-KDBA4DRR.js';
-export { MousePointerClick as Click, MousePointerClick as ClickIcon, MousePointerClick as Cursor, MousePointerClick as CursorIcon, MousePointerClick as FoamClick, MousePointerClick as FoamCursor, MousePointerClick as FoamMousePointerClick, MousePointerClick, MousePointerClick as MousePointerClickIcon } from './chunk-FKWX6HVO.js';
-export { MousePointerClickDuotone as ClickDuotone, MousePointerClickDuotone as ClickDuotoneIcon, MousePointerClickDuotone as CursorDuotone, MousePointerClickDuotone as CursorDuotoneIcon, MousePointerClickDuotone as FoamClickDuotone, MousePointerClickDuotone as FoamCursorDuotone, MousePointerClickDuotone as FoamMousePointerClickDuotone, MousePointerClickDuotone, MousePointerClickDuotone as MousePointerClickDuotoneIcon } from './chunk-LOSF6TNY.js';
-export { MousePointerClickFill as ClickFill, MousePointerClickFill as ClickFillIcon, MousePointerClickFill as CursorFill, MousePointerClickFill as CursorFillIcon, MousePointerClickFill as FoamClickFill, MousePointerClickFill as FoamCursorFill, MousePointerClickFill as FoamMousePointerClickFill, MousePointerClickFill, MousePointerClickFill as MousePointerClickFillIcon } from './chunk-GF6S6Z2H.js';
-export { Move as Drag, Move as DragIcon, Move as FoamDrag, Move as FoamMove, Move as FoamReposition, Move, Move as MoveIcon, Move as Reposition, Move as RepositionIcon } from './chunk-I4R7LTJF.js';
-export { MoveDuotone as DragDuotone, MoveDuotone as DragDuotoneIcon, MoveDuotone as FoamDragDuotone, MoveDuotone as FoamMoveDuotone, MoveDuotone as FoamRepositionDuotone, MoveDuotone, MoveDuotone as MoveDuotoneIcon, MoveDuotone as RepositionDuotone, MoveDuotone as RepositionDuotoneIcon } from './chunk-7XXD7BIN.js';
-export { MoveFill as DragFill, MoveFill as DragFillIcon, MoveFill as FoamDragFill, MoveFill as FoamMoveFill, MoveFill as FoamRepositionFill, MoveFill, MoveFill as MoveFillIcon, MoveFill as RepositionFill, MoveFill as RepositionFillIcon } from './chunk-5YMZUVRP.js';
-export { Notebook as FoamNotebook, Notebook, Notebook as NotebookIcon } from './chunk-KSY47AMX.js';
-export { NotebookDuotone as FoamNotebookDuotone, NotebookDuotone, NotebookDuotone as NotebookDuotoneIcon } from './chunk-JYTO5Z4M.js';
-export { MessagesSquareDuotone as ChatDuotone, MessagesSquareDuotone as ChatDuotoneIcon, MessagesSquareDuotone as ChatsDuotone, MessagesSquareDuotone as ChatsDuotoneIcon, MessagesSquareDuotone as CommentsDuotone, MessagesSquareDuotone as CommentsDuotoneIcon, MessagesSquareDuotone as ConversationDuotone, MessagesSquareDuotone as ConversationDuotoneIcon, MessagesSquareDuotone as FoamChatDuotone, MessagesSquareDuotone as FoamChatsDuotone, MessagesSquareDuotone as FoamCommentsDuotone, MessagesSquareDuotone as FoamConversationDuotone, MessagesSquareDuotone as FoamMessagesSquareDuotone, MessagesSquareDuotone, MessagesSquareDuotone as MessagesSquareDuotoneIcon } from './chunk-GGOTBPD2.js';
-export { MessagesSquareFill as ChatFill, MessagesSquareFill as ChatFillIcon, MessagesSquareFill as ChatsFill, MessagesSquareFill as ChatsFillIcon, MessagesSquareFill as CommentsFill, MessagesSquareFill as CommentsFillIcon, MessagesSquareFill as ConversationFill, MessagesSquareFill as ConversationFillIcon, MessagesSquareFill as FoamChatFill, MessagesSquareFill as FoamChatsFill, MessagesSquareFill as FoamCommentsFill, MessagesSquareFill as FoamConversationFill, MessagesSquareFill as FoamMessagesSquareFill, MessagesSquareFill, MessagesSquareFill as MessagesSquareFillIcon } from './chunk-EYVN4HLU.js';
-export { Minus as Decrease, Minus as DecreaseIcon, Minus as FoamDecrease, Minus as FoamMinus, Minus as FoamReduce, Minus as FoamSubtract, Minus, Minus as MinusIcon, Minus as Reduce, Minus as ReduceIcon, Minus as Subtract, Minus as SubtractIcon } from './chunk-LPN67QSD.js';
-export { MinusDuotone as DecreaseDuotone, MinusDuotone as DecreaseDuotoneIcon, MinusDuotone as FoamDecreaseDuotone, MinusDuotone as FoamMinusDuotone, MinusDuotone as FoamReduceDuotone, MinusDuotone as FoamSubtractDuotone, MinusDuotone, MinusDuotone as MinusDuotoneIcon, MinusDuotone as ReduceDuotone, MinusDuotone as ReduceDuotoneIcon, MinusDuotone as SubtractDuotone, MinusDuotone as SubtractDuotoneIcon } from './chunk-5FH3EXNI.js';
-export { MinusFill as DecreaseFill, MinusFill as DecreaseFillIcon, MinusFill as FoamDecreaseFill, MinusFill as FoamMinusFill, MinusFill as FoamReduceFill, MinusFill as FoamSubtractFill, MinusFill, MinusFill as MinusFillIcon, MinusFill as ReduceFill, MinusFill as ReduceFillIcon, MinusFill as SubtractFill, MinusFill as SubtractFillIcon } from './chunk-MQA6VUBJ.js';
-export { Moon as Dark, Moon as DarkIcon, Moon as DarkMode, Moon as DarkModeIcon, Moon as FoamDark, Moon as FoamDarkMode, Moon as FoamMoon, Moon as FoamNight, Moon, Moon as MoonIcon, Moon as Night, Moon as NightIcon } from './chunk-OO7H2UQF.js';
-export { MoonDuotone as DarkDuotone, MoonDuotone as DarkDuotoneIcon, MoonDuotone as DarkModeDuotone, MoonDuotone as DarkModeDuotoneIcon, MoonDuotone as FoamDarkDuotone, MoonDuotone as FoamDarkModeDuotone, MoonDuotone as FoamMoonDuotone, MoonDuotone as FoamNightDuotone, MoonDuotone, MoonDuotone as MoonDuotoneIcon, MoonDuotone as NightDuotone, MoonDuotone as NightDuotoneIcon } from './chunk-5F3FPEDI.js';
-export { MoonFill as DarkFill, MoonFill as DarkFillIcon, MoonFill as DarkModeFill, MoonFill as DarkModeFillIcon, MoonFill as FoamDarkFill, MoonFill as FoamDarkModeFill, MoonFill as FoamMoonFill, MoonFill as FoamNightFill, MoonFill, MoonFill as MoonFillIcon, MoonFill as NightFill, MoonFill as NightFillIcon } from './chunk-IA7GXHMX.js';
-export { MegaphoneFill as AnnounceFill, MegaphoneFill as AnnounceFillIcon, MegaphoneFill as BroadcastFill, MegaphoneFill as BroadcastFillIcon, MegaphoneFill as FoamAnnounceFill, MegaphoneFill as FoamBroadcastFill, MegaphoneFill as FoamMarketingFill, MegaphoneFill as FoamMegaphoneFill, MegaphoneFill as FoamPromoteFill, MegaphoneFill as MarketingFill, MegaphoneFill as MarketingFillIcon, MegaphoneFill, MegaphoneFill as MegaphoneFillIcon, MegaphoneFill as PromoteFill, MegaphoneFill as PromoteFillIcon } from './chunk-ALGL3G7N.js';
-export { Menu as Bars, Menu as BarsIcon, Menu as FoamBars, Menu as FoamHamburger, Menu as FoamMenu, Menu as FoamNavigation, Menu as Hamburger, Menu as HamburgerIcon, Menu, Menu as MenuIcon, Menu as Navigation, Menu as NavigationIcon } from './chunk-JHXZNTUV.js';
-export { MenuDuotone as BarsDuotone, MenuDuotone as BarsDuotoneIcon, MenuDuotone as FoamBarsDuotone, MenuDuotone as FoamHamburgerDuotone, MenuDuotone as FoamMenuDuotone, MenuDuotone as FoamNavigationDuotone, MenuDuotone as HamburgerDuotone, MenuDuotone as HamburgerDuotoneIcon, MenuDuotone, MenuDuotone as MenuDuotoneIcon, MenuDuotone as NavigationDuotone, MenuDuotone as NavigationDuotoneIcon } from './chunk-UOJ4EQKY.js';
-export { MenuFill as BarsFill, MenuFill as BarsFillIcon, MenuFill as FoamBarsFill, MenuFill as FoamHamburgerFill, MenuFill as FoamMenuFill, MenuFill as FoamNavigationFill, MenuFill as HamburgerFill, MenuFill as HamburgerFillIcon, MenuFill, MenuFill as MenuFillIcon, MenuFill as NavigationFill, MenuFill as NavigationFillIcon } from './chunk-GGVJAL3T.js';
-export { MessageSquare as ChatSingle, MessageSquare as ChatSingleIcon, MessageSquare as Comment, MessageSquare as CommentIcon, MessageSquare as FoamChatSingle, MessageSquare as FoamComment, MessageSquare as FoamMessageSquare, MessageSquare, MessageSquare as MessageSquareIcon } from './chunk-OXBC36PZ.js';
-export { MessageSquareDuotone as ChatSingleDuotone, MessageSquareDuotone as ChatSingleDuotoneIcon, MessageSquareDuotone as CommentDuotone, MessageSquareDuotone as CommentDuotoneIcon, MessageSquareDuotone as FoamChatSingleDuotone, MessageSquareDuotone as FoamCommentDuotone, MessageSquareDuotone as FoamMessageSquareDuotone, MessageSquareDuotone, MessageSquareDuotone as MessageSquareDuotoneIcon } from './chunk-FC4WSSXC.js';
-export { MessageSquareFill as ChatSingleFill, MessageSquareFill as ChatSingleFillIcon, MessageSquareFill as CommentFill, MessageSquareFill as CommentFillIcon, MessageSquareFill as FoamChatSingleFill, MessageSquareFill as FoamCommentFill, MessageSquareFill as FoamMessageSquareFill, MessageSquareFill, MessageSquareFill as MessageSquareFillIcon } from './chunk-VXDC3ORY.js';
-export { MessagesSquare as Chat, MessagesSquare as ChatIcon, MessagesSquare as Chats, MessagesSquare as ChatsIcon, MessagesSquare as Comments, MessagesSquare as CommentsIcon, MessagesSquare as Conversation, MessagesSquare as ConversationIcon, MessagesSquare as FoamChat, MessagesSquare as FoamChats, MessagesSquare as FoamComments, MessagesSquare as FoamConversation, MessagesSquare as FoamMessagesSquare, MessagesSquare, MessagesSquare as MessagesSquareIcon } from './chunk-4WKZ7DKI.js';
-export { Maximize as Enlarge, Maximize as EnlargeIcon, Maximize as ExpandWindow, Maximize as ExpandWindowIcon, Maximize as FoamEnlarge, Maximize as FoamExpandWindow, Maximize as FoamMaximize, Maximize, Maximize as MaximizeIcon } from './chunk-VZQIGMVZ.js';
-export { MaximizeDuotone as EnlargeDuotone, MaximizeDuotone as EnlargeDuotoneIcon, MaximizeDuotone as ExpandWindowDuotone, MaximizeDuotone as ExpandWindowDuotoneIcon, MaximizeDuotone as FoamEnlargeDuotone, MaximizeDuotone as FoamExpandWindowDuotone, MaximizeDuotone as FoamMaximizeDuotone, MaximizeDuotone, MaximizeDuotone as MaximizeDuotoneIcon } from './chunk-N6PIJY6C.js';
-export { MaximizeFill as EnlargeFill, MaximizeFill as EnlargeFillIcon, MaximizeFill as ExpandWindowFill, MaximizeFill as ExpandWindowFillIcon, MaximizeFill as FoamEnlargeFill, MaximizeFill as FoamExpandWindowFill, MaximizeFill as FoamMaximizeFill, MaximizeFill, MaximizeFill as MaximizeFillIcon } from './chunk-JO2JM3BP.js';
-export { Megaphone as Announce, Megaphone as AnnounceIcon, Megaphone as Broadcast, Megaphone as BroadcastIcon, Megaphone as FoamAnnounce, Megaphone as FoamBroadcast, Megaphone as FoamMarketing, Megaphone as FoamMegaphone, Megaphone as FoamPromote, Megaphone as Marketing, Megaphone as MarketingIcon, Megaphone, Megaphone as MegaphoneIcon, Megaphone as Promote, Megaphone as PromoteIcon } from './chunk-6J6OGYYF.js';
-export { MegaphoneActive as FoamMegaphoneActive, MegaphoneActive, MegaphoneActive as MegaphoneActiveIcon } from './chunk-LAXMFRC2.js';
-export { MegaphoneActiveDuotone as FoamMegaphoneActiveDuotone, MegaphoneActiveDuotone, MegaphoneActiveDuotone as MegaphoneActiveDuotoneIcon } from './chunk-IEQLPG2F.js';
-export { MegaphoneActiveFill as FoamMegaphoneActiveFill, MegaphoneActiveFill, MegaphoneActiveFill as MegaphoneActiveFillIcon } from './chunk-OPECRQHJ.js';
-export { MegaphoneDuotone as AnnounceDuotone, MegaphoneDuotone as AnnounceDuotoneIcon, MegaphoneDuotone as BroadcastDuotone, MegaphoneDuotone as BroadcastDuotoneIcon, MegaphoneDuotone as FoamAnnounceDuotone, MegaphoneDuotone as FoamBroadcastDuotone, MegaphoneDuotone as FoamMarketingDuotone, MegaphoneDuotone as FoamMegaphoneDuotone, MegaphoneDuotone as FoamPromoteDuotone, MegaphoneDuotone as MarketingDuotone, MegaphoneDuotone as MarketingDuotoneIcon, MegaphoneDuotone, MegaphoneDuotone as MegaphoneDuotoneIcon, MegaphoneDuotone as PromoteDuotone, MegaphoneDuotone as PromoteDuotoneIcon } from './chunk-JUFDZHMI.js';
-export { MailMoveDuotone as FoamMailMoveDuotone, MailMoveDuotone, MailMoveDuotone as MailMoveDuotoneIcon } from './chunk-Z35XOXLP.js';
-export { MailMoveFill as FoamMailMoveFill, MailMoveFill, MailMoveFill as MailMoveFillIcon } from './chunk-RVAJTEBH.js';
-export { MailPlus as FoamMailPlus, MailPlus, MailPlus as MailPlusIcon } from './chunk-3IG2UGGS.js';
-export { MailPlusDuotone as FoamMailPlusDuotone, MailPlusDuotone, MailPlusDuotone as MailPlusDuotoneIcon } from './chunk-DX4DWHD7.js';
-export { MailPlusFill as FoamMailPlusFill, MailPlusFill, MailPlusFill as MailPlusFillIcon } from './chunk-3GIJ7BSY.js';
-export { MapPin as FoamGeo, MapPin as FoamLocation, MapPin as FoamMapPin, MapPin as FoamMarker, MapPin as FoamPlace, MapPin as Geo, MapPin as GeoIcon, MapPin as Location, MapPin as LocationIcon, MapPin, MapPin as MapPinIcon, MapPin as Marker, MapPin as MarkerIcon, MapPin as Place, MapPin as PlaceIcon } from './chunk-GYTCMUJB.js';
-export { MapPinDuotone as FoamGeoDuotone, MapPinDuotone as FoamLocationDuotone, MapPinDuotone as FoamMapPinDuotone, MapPinDuotone as FoamMarkerDuotone, MapPinDuotone as FoamPlaceDuotone, MapPinDuotone as GeoDuotone, MapPinDuotone as GeoDuotoneIcon, MapPinDuotone as LocationDuotone, MapPinDuotone as LocationDuotoneIcon, MapPinDuotone, MapPinDuotone as MapPinDuotoneIcon, MapPinDuotone as MarkerDuotone, MapPinDuotone as MarkerDuotoneIcon, MapPinDuotone as PlaceDuotone, MapPinDuotone as PlaceDuotoneIcon } from './chunk-23H2YMQD.js';
-export { MapPinFill as FoamGeoFill, MapPinFill as FoamLocationFill, MapPinFill as FoamMapPinFill, MapPinFill as FoamMarkerFill, MapPinFill as FoamPlaceFill, MapPinFill as GeoFill, MapPinFill as GeoFillIcon, MapPinFill as LocationFill, MapPinFill as LocationFillIcon, MapPinFill, MapPinFill as MapPinFillIcon, MapPinFill as MarkerFill, MapPinFill as MarkerFillIcon, MapPinFill as PlaceFill, MapPinFill as PlaceFillIcon } from './chunk-ZGHKLTSS.js';
-export { LockFill as FoamLockFill, LockFill as FoamLockedFill, LockFill as FoamPrivateFill, LockFill as FoamProtectedFill, LockFill as FoamSecureFill, LockFill, LockFill as LockFillIcon, LockFill as LockedFill, LockFill as LockedFillIcon, LockFill as PrivateFill, LockFill as PrivateFillIcon, LockFill as ProtectedFill, LockFill as ProtectedFillIcon, LockFill as SecureFill, LockFill as SecureFillIcon } from './chunk-CI6HHAT6.js';
-export { LogOut as Exit, LogOut as ExitIcon, LogOut as FoamExit, LogOut as FoamLogOut, LogOut as FoamLogout, LogOut as FoamSignOut, LogOut as FoamSignout, LogOut, LogOut as LogOutIcon, LogOut as Logout, LogOut as LogoutIcon, LogOut as SignOut, LogOut as SignOutIcon, LogOut as Signout, LogOut as SignoutIcon } from './chunk-QKHIIX4D.js';
-export { LogOutDuotone as ExitDuotone, LogOutDuotone as ExitDuotoneIcon, LogOutDuotone as FoamExitDuotone, LogOutDuotone as FoamLogOutDuotone, LogOutDuotone as FoamLogoutDuotone, LogOutDuotone as FoamSignOutDuotone, LogOutDuotone as FoamSignoutDuotone, LogOutDuotone, LogOutDuotone as LogOutDuotoneIcon, LogOutDuotone as LogoutDuotone, LogOutDuotone as LogoutDuotoneIcon, LogOutDuotone as SignOutDuotone, LogOutDuotone as SignOutDuotoneIcon, LogOutDuotone as SignoutDuotone, LogOutDuotone as SignoutDuotoneIcon } from './chunk-BOQNMCDO.js';
-export { LogOutFill as ExitFill, LogOutFill as ExitFillIcon, LogOutFill as FoamExitFill, LogOutFill as FoamLogOutFill, LogOutFill as FoamLogoutFill, LogOutFill as FoamSignOutFill, LogOutFill as FoamSignoutFill, LogOutFill, LogOutFill as LogOutFillIcon, LogOutFill as LogoutFill, LogOutFill as LogoutFillIcon, LogOutFill as SignOutFill, LogOutFill as SignOutFillIcon, LogOutFill as SignoutFill, LogOutFill as SignoutFillIcon } from './chunk-SOAOBVRS.js';
-export { Mail as Email, Mail as EmailIcon, Mail as Envelope, Mail as EnvelopeIcon, Mail as FoamEmail, Mail as FoamEnvelope, Mail as FoamMail, Mail as FoamMessage, Mail, Mail as MailIcon, Mail as Message, Mail as MessageIcon } from './chunk-KEY5SW5A.js';
-export { MailDuotone as EmailDuotone, MailDuotone as EmailDuotoneIcon, MailDuotone as EnvelopeDuotone, MailDuotone as EnvelopeDuotoneIcon, MailDuotone as FoamEmailDuotone, MailDuotone as FoamEnvelopeDuotone, MailDuotone as FoamMailDuotone, MailDuotone as FoamMessageDuotone, MailDuotone, MailDuotone as MailDuotoneIcon, MailDuotone as MessageDuotone, MailDuotone as MessageDuotoneIcon } from './chunk-HNLQKYG7.js';
-export { MailFill as EmailFill, MailFill as EmailFillIcon, MailFill as EnvelopeFill, MailFill as EnvelopeFillIcon, MailFill as FoamEmailFill, MailFill as FoamEnvelopeFill, MailFill as FoamMailFill, MailFill as FoamMessageFill, MailFill, MailFill as MailFillIcon, MailFill as MessageFill, MailFill as MessageFillIcon } from './chunk-OVBVW7E5.js';
-export { MailMove as FoamMailMove, MailMove, MailMove as MailMoveIcon } from './chunk-CAAEVZKE.js';
-export { ListOrdered as FoamListOrdered, ListOrdered as FoamNumberedList, ListOrdered as FoamOl, ListOrdered, ListOrdered as ListOrderedIcon, ListOrdered as NumberedList, ListOrdered as NumberedListIcon, ListOrdered as Ol, ListOrdered as OlIcon } from './chunk-GF7XSKQP.js';
-export { ListOrderedDuotone as FoamListOrderedDuotone, ListOrderedDuotone as FoamNumberedListDuotone, ListOrderedDuotone as FoamOlDuotone, ListOrderedDuotone, ListOrderedDuotone as ListOrderedDuotoneIcon, ListOrderedDuotone as NumberedListDuotone, ListOrderedDuotone as NumberedListDuotoneIcon, ListOrderedDuotone as OlDuotone, ListOrderedDuotone as OlDuotoneIcon } from './chunk-D2CPMDLD.js';
-export { ListOrderedFill as FoamListOrderedFill, ListOrderedFill as FoamNumberedListFill, ListOrderedFill as FoamOlFill, ListOrderedFill, ListOrderedFill as ListOrderedFillIcon, ListOrderedFill as NumberedListFill, ListOrderedFill as NumberedListFillIcon, ListOrderedFill as OlFill, ListOrderedFill as OlFillIcon } from './chunk-57DY7NEY.js';
-export { LoaderCircle as FoamLoaderCircle, LoaderCircle as FoamLoading, LoaderCircle as FoamProgress, LoaderCircle as FoamSpinner, LoaderCircle, LoaderCircle as LoaderCircleIcon, LoaderCircle as Loading, LoaderCircle as LoadingIcon, LoaderCircle as Progress, LoaderCircle as ProgressIcon, LoaderCircle as Spinner, LoaderCircle as SpinnerIcon } from './chunk-A7BQRJBW.js';
-export { LoaderCircleDuotone as FoamLoaderCircleDuotone, LoaderCircleDuotone as FoamLoadingDuotone, LoaderCircleDuotone as FoamProgressDuotone, LoaderCircleDuotone as FoamSpinnerDuotone, LoaderCircleDuotone, LoaderCircleDuotone as LoaderCircleDuotoneIcon, LoaderCircleDuotone as LoadingDuotone, LoaderCircleDuotone as LoadingDuotoneIcon, LoaderCircleDuotone as ProgressDuotone, LoaderCircleDuotone as ProgressDuotoneIcon, LoaderCircleDuotone as SpinnerDuotone, LoaderCircleDuotone as SpinnerDuotoneIcon } from './chunk-XSXLXEVK.js';
-export { LoaderCircleFill as FoamLoaderCircleFill, LoaderCircleFill as FoamLoadingFill, LoaderCircleFill as FoamProgressFill, LoaderCircleFill as FoamSpinnerFill, LoaderCircleFill, LoaderCircleFill as LoaderCircleFillIcon, LoaderCircleFill as LoadingFill, LoaderCircleFill as LoadingFillIcon, LoaderCircleFill as ProgressFill, LoaderCircleFill as ProgressFillIcon, LoaderCircleFill as SpinnerFill, LoaderCircleFill as SpinnerFillIcon } from './chunk-5YS7OV4R.js';
-export { Lock as FoamLock, Lock as FoamLocked, Lock as FoamPrivate, Lock as FoamProtected, Lock as FoamSecure, Lock, Lock as LockIcon, Lock as Locked, Lock as LockedIcon, Lock as Private, Lock as PrivateIcon, Lock as Protected, Lock as ProtectedIcon, Lock as Secure, Lock as SecureIcon } from './chunk-HLALJLF7.js';
-export { LockDuotone as FoamLockDuotone, LockDuotone as FoamLockedDuotone, LockDuotone as FoamPrivateDuotone, LockDuotone as FoamProtectedDuotone, LockDuotone as FoamSecureDuotone, LockDuotone, LockDuotone as LockDuotoneIcon, LockDuotone as LockedDuotone, LockDuotone as LockedDuotoneIcon, LockDuotone as PrivateDuotone, LockDuotone as PrivateDuotoneIcon, LockDuotone as ProtectedDuotone, LockDuotone as ProtectedDuotoneIcon, LockDuotone as SecureDuotone, LockDuotone as SecureDuotoneIcon } from './chunk-EGMSQYRR.js';
-export { ListFilterDuotone as FilterDuotone, ListFilterDuotone as FilterDuotoneIcon, ListFilterDuotone as FoamFilterDuotone, ListFilterDuotone as FoamFunnelDuotone, ListFilterDuotone as FoamListFilterDuotone, ListFilterDuotone as FunnelDuotone, ListFilterDuotone as FunnelDuotoneIcon, ListFilterDuotone, ListFilterDuotone as ListFilterDuotoneIcon } from './chunk-5YZGHP5F.js';
-export { ListFilterFill as FilterFill, ListFilterFill as FilterFillIcon, ListFilterFill as FoamFilterFill, ListFilterFill as FoamFunnelFill, ListFilterFill as FoamListFilterFill, ListFilterFill as FunnelFill, ListFilterFill as FunnelFillIcon, ListFilterFill, ListFilterFill as ListFilterFillIcon } from './chunk-H577WPWI.js';
-export { ListIndentDecrease as FoamListIndentDecrease, ListIndentDecrease, ListIndentDecrease as ListIndentDecreaseIcon } from './chunk-IFHW33BD.js';
-export { ListIndentDecreaseDuotone as FoamListIndentDecreaseDuotone, ListIndentDecreaseDuotone, ListIndentDecreaseDuotone as ListIndentDecreaseDuotoneIcon } from './chunk-UQ2ITKZY.js';
-export { ListIndentDecreaseFill as FoamListIndentDecreaseFill, ListIndentDecreaseFill, ListIndentDecreaseFill as ListIndentDecreaseFillIcon } from './chunk-GMWN7DJQ.js';
-export { ListIndentIncrease as FoamListIndentIncrease, ListIndentIncrease, ListIndentIncrease as ListIndentIncreaseIcon } from './chunk-BCJHZD6R.js';
-export { ListIndentIncreaseDuotone as FoamListIndentIncreaseDuotone, ListIndentIncreaseDuotone, ListIndentIncreaseDuotone as ListIndentIncreaseDuotoneIcon } from './chunk-Z75LNHZN.js';
-export { ListIndentIncreaseFill as FoamListIndentIncreaseFill, ListIndentIncreaseFill, ListIndentIncreaseFill as ListIndentIncreaseFillIcon } from './chunk-4PNDZUKC.js';
-export { ItalicFill as EmphasisFill, ItalicFill as EmphasisFillIcon, ItalicFill as FoamEmphasisFill, ItalicFill as FoamItalicFill, ItalicFill as FoamTextItalicFill, ItalicFill, ItalicFill as ItalicFillIcon, ItalicFill as TextItalicFill, ItalicFill as TextItalicFillIcon } from './chunk-BBJ6PVGQ.js';
-export { Link as Chain, Link as ChainIcon, Link as Connect, Link as ConnectIcon, Link as FoamChain, Link as FoamConnect, Link as FoamLink, Link as FoamUrl, Link, Link as LinkIcon, Link as Url, Link as UrlIcon } from './chunk-ZDOZOE27.js';
-export { LinkDuotone as ChainDuotone, LinkDuotone as ChainDuotoneIcon, LinkDuotone as ConnectDuotone, LinkDuotone as ConnectDuotoneIcon, LinkDuotone as FoamChainDuotone, LinkDuotone as FoamConnectDuotone, LinkDuotone as FoamLinkDuotone, LinkDuotone as FoamUrlDuotone, LinkDuotone, LinkDuotone as LinkDuotoneIcon, LinkDuotone as UrlDuotone, LinkDuotone as UrlDuotoneIcon } from './chunk-CWYFWOPQ.js';
-export { LinkFill as ChainFill, LinkFill as ChainFillIcon, LinkFill as ConnectFill, LinkFill as ConnectFillIcon, LinkFill as FoamChainFill, LinkFill as FoamConnectFill, LinkFill as FoamLinkFill, LinkFill as FoamUrlFill, LinkFill, LinkFill as LinkFillIcon, LinkFill as UrlFill, LinkFill as UrlFillIcon } from './chunk-KW2MCZXG.js';
-export { List as Bullets, List as BulletsIcon, List as FoamBullets, List as FoamItems, List as FoamList, List as Items, List as ItemsIcon, List, List as ListIcon } from './chunk-GIM7CRLQ.js';
-export { ListDuotone as BulletsDuotone, ListDuotone as BulletsDuotoneIcon, ListDuotone as FoamBulletsDuotone, ListDuotone as FoamItemsDuotone, ListDuotone as FoamListDuotone, ListDuotone as ItemsDuotone, ListDuotone as ItemsDuotoneIcon, ListDuotone, ListDuotone as ListDuotoneIcon } from './chunk-2NZ3CSTP.js';
-export { ListFill as BulletsFill, ListFill as BulletsFillIcon, ListFill as FoamBulletsFill, ListFill as FoamItemsFill, ListFill as FoamListFill, ListFill as ItemsFill, ListFill as ItemsFillIcon, ListFill, ListFill as ListFillIcon } from './chunk-XCWMLWMA.js';
-export { ListFilter as Filter, ListFilter as FilterIcon, ListFilter as FoamFilter, ListFilter as FoamFunnel, ListFilter as FoamListFilter, ListFilter as Funnel, ListFilter as FunnelIcon, ListFilter, ListFilter as ListFilterIcon } from './chunk-VMBRKGMD.js';
-export { Inbox as FoamInbox, Inbox as FoamMailbox, Inbox as FoamTray, Inbox, Inbox as InboxIcon, Inbox as Mailbox, Inbox as MailboxIcon, Inbox as Tray, Inbox as TrayIcon } from './chunk-MXZ74D4D.js';
-export { InboxDuotone as FoamInboxDuotone, InboxDuotone as FoamMailboxDuotone, InboxDuotone as FoamTrayDuotone, InboxDuotone, InboxDuotone as InboxDuotoneIcon, InboxDuotone as MailboxDuotone, InboxDuotone as MailboxDuotoneIcon, InboxDuotone as TrayDuotone, InboxDuotone as TrayDuotoneIcon } from './chunk-PSN7SOY5.js';
-export { InboxFill as FoamInboxFill, InboxFill as FoamMailboxFill, InboxFill as FoamTrayFill, InboxFill, InboxFill as InboxFillIcon, InboxFill as MailboxFill, InboxFill as MailboxFillIcon, InboxFill as TrayFill, InboxFill as TrayFillIcon } from './chunk-HW22AY3U.js';
-export { Info as About, Info as AboutIcon, Info as Details, Info as DetailsIcon, Info as FoamAbout, Info as FoamDetails, Info as FoamInfo, Info as FoamInformation, Info, Info as InfoIcon, Info as Information, Info as InformationIcon } from './chunk-YOIDTEOR.js';
-export { InfoDuotone as AboutDuotone, InfoDuotone as AboutDuotoneIcon, InfoDuotone as DetailsDuotone, InfoDuotone as DetailsDuotoneIcon, InfoDuotone as FoamAboutDuotone, InfoDuotone as FoamDetailsDuotone, InfoDuotone as FoamInfoDuotone, InfoDuotone as FoamInformationDuotone, InfoDuotone, InfoDuotone as InfoDuotoneIcon, InfoDuotone as InformationDuotone, InfoDuotone as InformationDuotoneIcon } from './chunk-4FPDFE33.js';
-export { InfoFill as AboutFill, InfoFill as AboutFillIcon, InfoFill as DetailsFill, InfoFill as DetailsFillIcon, InfoFill as FoamAboutFill, InfoFill as FoamDetailsFill, InfoFill as FoamInfoFill, InfoFill as FoamInformationFill, InfoFill, InfoFill as InfoFillIcon, InfoFill as InformationFill, InfoFill as InformationFillIcon } from './chunk-QPG4MEAJ.js';
-export { Italic as Emphasis, Italic as EmphasisIcon, Italic as FoamEmphasis, Italic as FoamItalic, Italic as FoamTextItalic, Italic, Italic as ItalicIcon, Italic as TextItalic, Italic as TextItalicIcon } from './chunk-XYW2H4ZD.js';
-export { ItalicDuotone as EmphasisDuotone, ItalicDuotone as EmphasisDuotoneIcon, ItalicDuotone as FoamEmphasisDuotone, ItalicDuotone as FoamItalicDuotone, ItalicDuotone as FoamTextItalicDuotone, ItalicDuotone, ItalicDuotone as ItalicDuotoneIcon, ItalicDuotone as TextItalicDuotone, ItalicDuotone as TextItalicDuotoneIcon } from './chunk-F23QIFUC.js';
-export { HouseDuotone as FoamHomeDuotone, HouseDuotone as FoamHouseDuotone, HouseDuotone as HomeDuotone, HouseDuotone as HomeDuotoneIcon, HouseDuotone, HouseDuotone as HouseDuotoneIcon } from './chunk-W5J5ONM2.js';
-export { HouseFill as FoamHomeFill, HouseFill as FoamHouseFill, HouseFill as HomeFill, HouseFill as HomeFillIcon, HouseFill, HouseFill as HouseFillIcon } from './chunk-THQH4XTO.js';
-export { Image as FoamImage, Image as FoamMedia, Image as FoamPhoto, Image as FoamPicture, Image, Image as ImageIcon, Image as Media, Image as MediaIcon, Image as Photo, Image as PhotoIcon, Image as Picture, Image as PictureIcon } from './chunk-WK4JB4XN.js';
-export { ImageDuotone as FoamImageDuotone, ImageDuotone as FoamMediaDuotone, ImageDuotone as FoamPhotoDuotone, ImageDuotone as FoamPictureDuotone, ImageDuotone, ImageDuotone as ImageDuotoneIcon, ImageDuotone as MediaDuotone, ImageDuotone as MediaDuotoneIcon, ImageDuotone as PhotoDuotone, ImageDuotone as PhotoDuotoneIcon, ImageDuotone as PictureDuotone, ImageDuotone as PictureDuotoneIcon } from './chunk-SI6VN4JJ.js';
-export { ImageFill as FoamImageFill, ImageFill as FoamMediaFill, ImageFill as FoamPhotoFill, ImageFill as FoamPictureFill, ImageFill, ImageFill as ImageFillIcon, ImageFill as MediaFill, ImageFill as MediaFillIcon, ImageFill as PhotoFill, ImageFill as PhotoFillIcon, ImageFill as PictureFill, ImageFill as PictureFillIcon } from './chunk-JTA7JME3.js';
-export { Images as FoamGallery, Images as FoamImages, Images as FoamPhotos, Images as FoamPictures, Images as Gallery, Images as GalleryIcon, Images, Images as ImagesIcon, Images as Photos, Images as PhotosIcon, Images as Pictures, Images as PicturesIcon } from './chunk-6ZYZWTEO.js';
-export { ImagesDuotone as FoamGalleryDuotone, ImagesDuotone as FoamImagesDuotone, ImagesDuotone as FoamPhotosDuotone, ImagesDuotone as FoamPicturesDuotone, ImagesDuotone as GalleryDuotone, ImagesDuotone as GalleryDuotoneIcon, ImagesDuotone, ImagesDuotone as ImagesDuotoneIcon, ImagesDuotone as PhotosDuotone, ImagesDuotone as PhotosDuotoneIcon, ImagesDuotone as PicturesDuotone, ImagesDuotone as PicturesDuotoneIcon } from './chunk-DFJV6SVU.js';
-export { ImagesFill as FoamGalleryFill, ImagesFill as FoamImagesFill, ImagesFill as FoamPhotosFill, ImagesFill as FoamPicturesFill, ImagesFill as GalleryFill, ImagesFill as GalleryFillIcon, ImagesFill, ImagesFill as ImagesFillIcon, ImagesFill as PhotosFill, ImagesFill as PhotosFillIcon, ImagesFill as PicturesFill, ImagesFill as PicturesFillIcon } from './chunk-ABNWMRGL.js';
-export { HeartFill as EmotionFill, HeartFill as EmotionFillIcon, HeartFill as FoamEmotionFill, HeartFill as FoamHeartFill, HeartFill as FoamLikesFill, HeartFill as FoamLoveFill, HeartFill, HeartFill as HeartFillIcon, HeartFill as LikesFill, HeartFill as LikesFillIcon, HeartFill as LoveFill, HeartFill as LoveFillIcon } from './chunk-XTULVPIB.js';
-export { History as FoamHistory, History as FoamPast, History as FoamRecent, History as FoamUndo, History, History as HistoryIcon, History as Past, History as PastIcon, History as Recent, History as RecentIcon, History as Undo, History as UndoIcon } from './chunk-5LT23NJW.js';
-export { HistoryDuotone as FoamHistoryDuotone, HistoryDuotone as FoamPastDuotone, HistoryDuotone as FoamRecentDuotone, HistoryDuotone as FoamUndoDuotone, HistoryDuotone, HistoryDuotone as HistoryDuotoneIcon, HistoryDuotone as PastDuotone, HistoryDuotone as PastDuotoneIcon, HistoryDuotone as RecentDuotone, HistoryDuotone as RecentDuotoneIcon, HistoryDuotone as UndoDuotone, HistoryDuotone as UndoDuotoneIcon } from './chunk-MQ6PDJGT.js';
-export { HistoryFill as FoamHistoryFill, HistoryFill as FoamPastFill, HistoryFill as FoamRecentFill, HistoryFill as FoamUndoFill, HistoryFill, HistoryFill as HistoryFillIcon, HistoryFill as PastFill, HistoryFill as PastFillIcon, HistoryFill as RecentFill, HistoryFill as RecentFillIcon, HistoryFill as UndoFill, HistoryFill as UndoFillIcon } from './chunk-YANDU5HF.js';
-export { Hotspot as FoamHotspot, Hotspot as FoamSignal, Hotspot as FoamWifi, Hotspot as FoamWireless, Hotspot, Hotspot as HotspotIcon, Hotspot as Signal, Hotspot as SignalIcon, Hotspot as Wifi, Hotspot as WifiIcon, Hotspot as Wireless, Hotspot as WirelessIcon } from './chunk-SP2JVQFM.js';
-export { HotspotDuotone as FoamHotspotDuotone, HotspotDuotone as FoamSignalDuotone, HotspotDuotone as FoamWifiDuotone, HotspotDuotone as FoamWirelessDuotone, HotspotDuotone, HotspotDuotone as HotspotDuotoneIcon, HotspotDuotone as SignalDuotone, HotspotDuotone as SignalDuotoneIcon, HotspotDuotone as WifiDuotone, HotspotDuotone as WifiDuotoneIcon, HotspotDuotone as WirelessDuotone, HotspotDuotone as WirelessDuotoneIcon } from './chunk-BBMMKTKX.js';
-export { HotspotFill as FoamHotspotFill, HotspotFill as FoamSignalFill, HotspotFill as FoamWifiFill, HotspotFill as FoamWirelessFill, HotspotFill, HotspotFill as HotspotFillIcon, HotspotFill as SignalFill, HotspotFill as SignalFillIcon, HotspotFill as WifiFill, HotspotFill as WifiFillIcon, HotspotFill as WirelessFill, HotspotFill as WirelessFillIcon } from './chunk-WWIBQNPQ.js';
-export { House as FoamHome, House as FoamHouse, House as Home, House as HomeIcon, House, House as HouseIcon } from './chunk-NP3Y73SB.js';
-export { GripHorizontal as FoamGripHorizontal, GripHorizontal, GripHorizontal as GripHorizontalIcon } from './chunk-24VXIUBZ.js';
-export { GripHorizontalDuotone as FoamGripHorizontalDuotone, GripHorizontalDuotone, GripHorizontalDuotone as GripHorizontalDuotoneIcon } from './chunk-4CNB5LOL.js';
-export { GripHorizontalFill as FoamGripHorizontalFill, GripHorizontalFill, GripHorizontalFill as GripHorizontalFillIcon } from './chunk-KDEFD363.js';
-export { GripVertical as FoamGripVertical, GripVertical, GripVertical as GripVerticalIcon } from './chunk-CYNPC6RT.js';
-export { GripVerticalDuotone as FoamGripVerticalDuotone, GripVerticalDuotone, GripVerticalDuotone as GripVerticalDuotoneIcon } from './chunk-WDDXEY2K.js';
-export { GripVerticalFill as FoamGripVerticalFill, GripVerticalFill, GripVerticalFill as GripVerticalFillIcon } from './chunk-QTGHS5IF.js';
-export { Heart as Emotion, Heart as EmotionIcon, Heart as FoamEmotion, Heart as FoamHeart, Heart as FoamLikes, Heart as FoamLove, Heart, Heart as HeartIcon, Heart as Likes, Heart as LikesIcon, Heart as Love, Heart as LoveIcon } from './chunk-GYXY5YMH.js';
-export { HeartDuotone as EmotionDuotone, HeartDuotone as EmotionDuotoneIcon, HeartDuotone as FoamEmotionDuotone, HeartDuotone as FoamHeartDuotone, HeartDuotone as FoamLikesDuotone, HeartDuotone as FoamLoveDuotone, HeartDuotone, HeartDuotone as HeartDuotoneIcon, HeartDuotone as LikesDuotone, HeartDuotone as LikesDuotoneIcon, HeartDuotone as LoveDuotone, HeartDuotone as LoveDuotoneIcon } from './chunk-BEJ5V7GS.js';
-export { Grid1x2Duotone as CardsDuotone, Grid1x2Duotone as CardsDuotoneIcon, Grid1x2Duotone as DesignDuotone, Grid1x2Duotone as DesignDuotoneIcon, Grid1x2Duotone as FoamCardsDuotone, Grid1x2Duotone as FoamDesignDuotone, Grid1x2Duotone as FoamGrid1x2Duotone, Grid1x2Duotone, Grid1x2Duotone as Grid1x2DuotoneIcon } from './chunk-TRKYSFCO.js';
-export { Grid1x2Fill as CardsFill, Grid1x2Fill as CardsFillIcon, Grid1x2Fill as DesignFill, Grid1x2Fill as DesignFillIcon, Grid1x2Fill as FoamCardsFill, Grid1x2Fill as FoamDesignFill, Grid1x2Fill as FoamGrid1x2Fill, Grid1x2Fill, Grid1x2Fill as Grid1x2FillIcon } from './chunk-BTMVCNMJ.js';
-export { Grid2x2 as FoamGrid, Grid2x2 as FoamGrid2x2, Grid2x2 as FoamLayout, Grid2x2 as FoamTiles, Grid2x2 as Grid, Grid2x2, Grid2x2 as Grid2x2Icon, Grid2x2 as GridIcon, Grid2x2 as Layout, Grid2x2 as LayoutIcon, Grid2x2 as Tiles, Grid2x2 as TilesIcon } from './chunk-2KQQYGD7.js';
-export { Grid2x2Duotone as FoamGrid2x2Duotone, Grid2x2Duotone as FoamGridDuotone, Grid2x2Duotone as FoamLayoutDuotone, Grid2x2Duotone as FoamTilesDuotone, Grid2x2Duotone, Grid2x2Duotone as Grid2x2DuotoneIcon, Grid2x2Duotone as GridDuotone, Grid2x2Duotone as GridDuotoneIcon, Grid2x2Duotone as LayoutDuotone, Grid2x2Duotone as LayoutDuotoneIcon, Grid2x2Duotone as TilesDuotone, Grid2x2Duotone as TilesDuotoneIcon } from './chunk-YUZSMCEO.js';
-export { Grid2x2Fill as FoamGrid2x2Fill, Grid2x2Fill as FoamGridFill, Grid2x2Fill as FoamLayoutFill, Grid2x2Fill as FoamTilesFill, Grid2x2Fill, Grid2x2Fill as Grid2x2FillIcon, Grid2x2Fill as GridFill, Grid2x2Fill as GridFillIcon, Grid2x2Fill as LayoutFill, Grid2x2Fill as LayoutFillIcon, Grid2x2Fill as TilesFill, Grid2x2Fill as TilesFillIcon } from './chunk-YHMSNSRV.js';
-export { Grip as FoamGrip, Grip, Grip as GripIcon } from './chunk-VLCG6NKC.js';
-export { GripDuotone as FoamGripDuotone, GripDuotone, GripDuotone as GripDuotoneIcon } from './chunk-JHW3OZPS.js';
-export { GripFill as FoamGripFill, GripFill, GripFill as GripFillIcon } from './chunk-O727YJ5R.js';
-export { FrownFill as FoamFrownFill, FrownFill as FoamNegativeFill, FrownFill as FoamSadFill, FrownFill as FoamUnhappyFill, FrownFill, FrownFill as FrownFillIcon, FrownFill as NegativeFill, FrownFill as NegativeFillIcon, FrownFill as SadFill, FrownFill as SadFillIcon, FrownFill as UnhappyFill, FrownFill as UnhappyFillIcon } from './chunk-IAO2YXEF.js';
-export { Fullscreen as FoamFullScreen, Fullscreen as FoamFullscreen, Fullscreen as FoamMaximizeScreen, Fullscreen as FullScreen, Fullscreen as FullScreenIcon, Fullscreen, Fullscreen as FullscreenIcon, Fullscreen as MaximizeScreen, Fullscreen as MaximizeScreenIcon } from './chunk-MCM7R2JC.js';
-export { FullscreenDuotone as FoamFullScreenDuotone, FullscreenDuotone as FoamFullscreenDuotone, FullscreenDuotone as FoamMaximizeScreenDuotone, FullscreenDuotone as FullScreenDuotone, FullscreenDuotone as FullScreenDuotoneIcon, FullscreenDuotone, FullscreenDuotone as FullscreenDuotoneIcon, FullscreenDuotone as MaximizeScreenDuotone, FullscreenDuotone as MaximizeScreenDuotoneIcon } from './chunk-L6BV6EHU.js';
-export { FullscreenFill as FoamFullScreenFill, FullscreenFill as FoamFullscreenFill, FullscreenFill as FoamMaximizeScreenFill, FullscreenFill as FullScreenFill, FullscreenFill as FullScreenFillIcon, FullscreenFill, FullscreenFill as FullscreenFillIcon, FullscreenFill as MaximizeScreenFill, FullscreenFill as MaximizeScreenFillIcon } from './chunk-4IMWOUIJ.js';
-export { Globe as FoamGlobe, Globe as FoamInternet, Globe as FoamLanguage, Globe as FoamWeb, Globe as FoamWorld, Globe, Globe as GlobeIcon, Globe as Internet, Globe as InternetIcon, Globe as Language, Globe as LanguageIcon, Globe as Web, Globe as WebIcon, Globe as World, Globe as WorldIcon } from './chunk-UE53YPT4.js';
-export { GlobeDuotone as FoamGlobeDuotone, GlobeDuotone as FoamInternetDuotone, GlobeDuotone as FoamLanguageDuotone, GlobeDuotone as FoamWebDuotone, GlobeDuotone as FoamWorldDuotone, GlobeDuotone, GlobeDuotone as GlobeDuotoneIcon, GlobeDuotone as InternetDuotone, GlobeDuotone as InternetDuotoneIcon, GlobeDuotone as LanguageDuotone, GlobeDuotone as LanguageDuotoneIcon, GlobeDuotone as WebDuotone, GlobeDuotone as WebDuotoneIcon, GlobeDuotone as WorldDuotone, GlobeDuotone as WorldDuotoneIcon } from './chunk-HLK3PDWR.js';
-export { GlobeFill as FoamGlobeFill, GlobeFill as FoamInternetFill, GlobeFill as FoamLanguageFill, GlobeFill as FoamWebFill, GlobeFill as FoamWorldFill, GlobeFill, GlobeFill as GlobeFillIcon, GlobeFill as InternetFill, GlobeFill as InternetFillIcon, GlobeFill as LanguageFill, GlobeFill as LanguageFillIcon, GlobeFill as WebFill, GlobeFill as WebFillIcon, GlobeFill as WorldFill, GlobeFill as WorldFillIcon } from './chunk-N673LC2U.js';
-export { Grid1x2 as Cards, Grid1x2 as CardsIcon, Grid1x2 as Design, Grid1x2 as DesignIcon, Grid1x2 as FoamCards, Grid1x2 as FoamDesign, Grid1x2 as FoamGrid1x2, Grid1x2, Grid1x2 as Grid1x2Icon } from './chunk-XSNPWGOP.js';
-export { FileX as FileCancel, FileX as FileCancelIcon, FileX as FileDelete, FileX as FileDeleteIcon, FileX as FileRemove, FileX as FileRemoveIcon, FileX, FileX as FileXIcon, FileX as FoamFileCancel, FileX as FoamFileDelete, FileX as FoamFileRemove, FileX as FoamFileX } from './chunk-7VK6JCJ7.js';
-export { FileXDuotone as FileCancelDuotone, FileXDuotone as FileCancelDuotoneIcon, FileXDuotone as FileDeleteDuotone, FileXDuotone as FileDeleteDuotoneIcon, FileXDuotone as FileRemoveDuotone, FileXDuotone as FileRemoveDuotoneIcon, FileXDuotone, FileXDuotone as FileXDuotoneIcon, FileXDuotone as FoamFileCancelDuotone, FileXDuotone as FoamFileDeleteDuotone, FileXDuotone as FoamFileRemoveDuotone, FileXDuotone as FoamFileXDuotone } from './chunk-4VJN77WT.js';
-export { FileXFill as FileCancelFill, FileXFill as FileCancelFillIcon, FileXFill as FileDeleteFill, FileXFill as FileDeleteFillIcon, FileXFill as FileRemoveFill, FileXFill as FileRemoveFillIcon, FileXFill, FileXFill as FileXFillIcon, FileXFill as FoamFileCancelFill, FileXFill as FoamFileDeleteFill, FileXFill as FoamFileRemoveFill, FileXFill as FoamFileXFill } from './chunk-DSIK2KPU.js';
-export { Flame as Fire, Flame as FireIcon, Flame, Flame as FlameIcon, Flame as FoamFire, Flame as FoamFlame, Flame as FoamHot, Flame as FoamTrending, Flame as Hot, Flame as HotIcon, Flame as Trending, Flame as TrendingIcon } from './chunk-ZRLLCVST.js';
-export { FlameDuotone as FireDuotone, FlameDuotone as FireDuotoneIcon, FlameDuotone, FlameDuotone as FlameDuotoneIcon, FlameDuotone as FoamFireDuotone, FlameDuotone as FoamFlameDuotone, FlameDuotone as FoamHotDuotone, FlameDuotone as FoamTrendingDuotone, FlameDuotone as HotDuotone, FlameDuotone as HotDuotoneIcon, FlameDuotone as TrendingDuotone, FlameDuotone as TrendingDuotoneIcon } from './chunk-MNGH5AHS.js';
-export { FlameFill as FireFill, FlameFill as FireFillIcon, FlameFill, FlameFill as FlameFillIcon, FlameFill as FoamFireFill, FlameFill as FoamFlameFill, FlameFill as FoamHotFill, FlameFill as FoamTrendingFill, FlameFill as HotFill, FlameFill as HotFillIcon, FlameFill as TrendingFill, FlameFill as TrendingFillIcon } from './chunk-FRG3R2GL.js';
-export { Frown as FoamFrown, Frown as FoamNegative, Frown as FoamSad, Frown as FoamUnhappy, Frown, Frown as FrownIcon, Frown as Negative, Frown as NegativeIcon, Frown as Sad, Frown as SadIcon, Frown as Unhappy, Frown as UnhappyIcon } from './chunk-PJNZYD3E.js';
-export { FrownDuotone as FoamFrownDuotone, FrownDuotone as FoamNegativeDuotone, FrownDuotone as FoamSadDuotone, FrownDuotone as FoamUnhappyDuotone, FrownDuotone, FrownDuotone as FrownDuotoneIcon, FrownDuotone as NegativeDuotone, FrownDuotone as NegativeDuotoneIcon, FrownDuotone as SadDuotone, FrownDuotone as SadDuotoneIcon, FrownDuotone as UnhappyDuotone, FrownDuotone as UnhappyDuotoneIcon } from './chunk-T52SCKSC.js';
-export { FileDuotone as DocumentDuotone, FileDuotone as DocumentDuotoneIcon, FileDuotone, FileDuotone as FileDuotoneIcon, FileDuotone as FoamDocumentDuotone, FileDuotone as FoamFileDuotone, FileDuotone as FoamPageDuotone, FileDuotone as PageDuotone, FileDuotone as PageDuotoneIcon } from './chunk-QH7MO3P5.js';
-export { FileFill as DocumentFill, FileFill as DocumentFillIcon, FileFill, FileFill as FileFillIcon, FileFill as FoamDocumentFill, FileFill as FoamFileFill, FileFill as FoamPageFill, FileFill as PageFill, FileFill as PageFillIcon } from './chunk-JOWGZIT5.js';
-export { FilePlus as AddFile, FilePlus as AddFileIcon, FilePlus as CreateFile, FilePlus as CreateFileIcon, FilePlus, FilePlus as FilePlusIcon, FilePlus as FoamAddFile, FilePlus as FoamCreateFile, FilePlus as FoamFilePlus, FilePlus as FoamNewFile, FilePlus as NewFile, FilePlus as NewFileIcon } from './chunk-BMABWCCB.js';
-export { FilePlusDuotone as AddFileDuotone, FilePlusDuotone as AddFileDuotoneIcon, FilePlusDuotone as CreateFileDuotone, FilePlusDuotone as CreateFileDuotoneIcon, FilePlusDuotone, FilePlusDuotone as FilePlusDuotoneIcon, FilePlusDuotone as FoamAddFileDuotone, FilePlusDuotone as FoamCreateFileDuotone, FilePlusDuotone as FoamFilePlusDuotone, FilePlusDuotone as FoamNewFileDuotone, FilePlusDuotone as NewFileDuotone, FilePlusDuotone as NewFileDuotoneIcon } from './chunk-IKEQDMPD.js';
-export { FilePlusFill as AddFileFill, FilePlusFill as AddFileFillIcon, FilePlusFill as CreateFileFill, FilePlusFill as CreateFileFillIcon, FilePlusFill, FilePlusFill as FilePlusFillIcon, FilePlusFill as FoamAddFileFill, FilePlusFill as FoamCreateFileFill, FilePlusFill as FoamFilePlusFill, FilePlusFill as FoamNewFileFill, FilePlusFill as NewFileFill, FilePlusFill as NewFileFillIcon } from './chunk-7V3U664T.js';
-export { FileUser as FileAccount, FileUser as FileAccountIcon, FileUser as FileProfile, FileUser as FileProfileIcon, FileUser, FileUser as FileUserIcon, FileUser as FoamFileAccount, FileUser as FoamFileProfile, FileUser as FoamFileUser, FileUser as FoamUserDocument, FileUser as UserDocument, FileUser as UserDocumentIcon } from './chunk-JCPG4GJS.js';
-export { FileUserDuotone as FileAccountDuotone, FileUserDuotone as FileAccountDuotoneIcon, FileUserDuotone as FileProfileDuotone, FileUserDuotone as FileProfileDuotoneIcon, FileUserDuotone, FileUserDuotone as FileUserDuotoneIcon, FileUserDuotone as FoamFileAccountDuotone, FileUserDuotone as FoamFileProfileDuotone, FileUserDuotone as FoamFileUserDuotone, FileUserDuotone as FoamUserDocumentDuotone, FileUserDuotone as UserDocumentDuotone, FileUserDuotone as UserDocumentDuotoneIcon } from './chunk-MEIR6SG3.js';
-export { FileUserFill as FileAccountFill, FileUserFill as FileAccountFillIcon, FileUserFill as FileProfileFill, FileUserFill as FileProfileFillIcon, FileUserFill, FileUserFill as FileUserFillIcon, FileUserFill as FoamFileAccountFill, FileUserFill as FoamFileProfileFill, FileUserFill as FoamFileUserFill, FileUserFill as FoamUserDocumentFill, FileUserFill as UserDocumentFill, FileUserFill as UserDocumentFillIcon } from './chunk-WWDFXGIB.js';
-export { FileArrowUpDuotone, FileArrowUpDuotone as FileArrowUpDuotoneIcon, FileArrowUpDuotone as FoamFileArrowUpDuotone, FileArrowUpDuotone as FoamUploadFileDuotone, FileArrowUpDuotone as UploadFileDuotone, FileArrowUpDuotone as UploadFileDuotoneIcon } from './chunk-2HL5FPKJ.js';
-export { FileArrowUpFill, FileArrowUpFill as FileArrowUpFillIcon, FileArrowUpFill as FoamFileArrowUpFill, FileArrowUpFill as FoamUploadFileFill, FileArrowUpFill as UploadFileFill, FileArrowUpFill as UploadFileFillIcon } from './chunk-7MBEXGCC.js';
-export { FileCheck, FileCheck as FileCheckIcon, FileCheck as FileComplete, FileCheck as FileCompleteIcon, FileCheck as FileDone, FileCheck as FileDoneIcon, FileCheck as FileVerified, FileCheck as FileVerifiedIcon, FileCheck as FoamFileCheck, FileCheck as FoamFileComplete, FileCheck as FoamFileDone, FileCheck as FoamFileVerified } from './chunk-PF3WTROP.js';
-export { FileCheckDuotone, FileCheckDuotone as FileCheckDuotoneIcon, FileCheckDuotone as FileCompleteDuotone, FileCheckDuotone as FileCompleteDuotoneIcon, FileCheckDuotone as FileDoneDuotone, FileCheckDuotone as FileDoneDuotoneIcon, FileCheckDuotone as FileVerifiedDuotone, FileCheckDuotone as FileVerifiedDuotoneIcon, FileCheckDuotone as FoamFileCheckDuotone, FileCheckDuotone as FoamFileCompleteDuotone, FileCheckDuotone as FoamFileDoneDuotone, FileCheckDuotone as FoamFileVerifiedDuotone } from './chunk-TU42TX4N.js';
-export { FileCheckFill, FileCheckFill as FileCheckFillIcon, FileCheckFill as FileCompleteFill, FileCheckFill as FileCompleteFillIcon, FileCheckFill as FileDoneFill, FileCheckFill as FileDoneFillIcon, FileCheckFill as FileVerifiedFill, FileCheckFill as FileVerifiedFillIcon, FileCheckFill as FoamFileCheckFill, FileCheckFill as FoamFileCompleteFill, FileCheckFill as FoamFileDoneFill, FileCheckFill as FoamFileVerifiedFill } from './chunk-6I3NRVB5.js';
-export { FileCog, FileCog as FileCogIcon, FileCog as FileConfig, FileCog as FileConfigIcon, FileCog as FileSettings, FileCog as FileSettingsIcon, FileCog as FoamFileCog, FileCog as FoamFileConfig, FileCog as FoamFileSettings } from './chunk-TGAXZZZ7.js';
-export { FileCogDuotone, FileCogDuotone as FileCogDuotoneIcon, FileCogDuotone as FileConfigDuotone, FileCogDuotone as FileConfigDuotoneIcon, FileCogDuotone as FileSettingsDuotone, FileCogDuotone as FileSettingsDuotoneIcon, FileCogDuotone as FoamFileCogDuotone, FileCogDuotone as FoamFileConfigDuotone, FileCogDuotone as FoamFileSettingsDuotone } from './chunk-LTAUGPKP.js';
-export { FileCogFill, FileCogFill as FileCogFillIcon, FileCogFill as FileConfigFill, FileCogFill as FileConfigFillIcon, FileCogFill as FileSettingsFill, FileCogFill as FileSettingsFillIcon, FileCogFill as FoamFileCogFill, FileCogFill as FoamFileConfigFill, FileCogFill as FoamFileSettingsFill } from './chunk-WWECYIZL.js';
-export { FileArrowLeftFill, FileArrowLeftFill as FileArrowLeftFillIcon, FileArrowLeftFill as FileBackFill, FileArrowLeftFill as FileBackFillIcon, FileArrowLeftFill as FilePreviousFill, FileArrowLeftFill as FilePreviousFillIcon, FileArrowLeftFill as FoamFileArrowLeftFill, FileArrowLeftFill as FoamFileBackFill, FileArrowLeftFill as FoamFilePreviousFill } from './chunk-FUV6YFQY.js';
-export { FileArrowLeftRight, FileArrowLeftRight as FileArrowLeftRightIcon, FileArrowLeftRight as FileExchange, FileArrowLeftRight as FileExchangeIcon, FileArrowLeftRight as FileSync, FileArrowLeftRight as FileSyncIcon, FileArrowLeftRight as FileTransfer, FileArrowLeftRight as FileTransferIcon, FileArrowLeftRight as FoamFileArrowLeftRight, FileArrowLeftRight as FoamFileExchange, FileArrowLeftRight as FoamFileSync, FileArrowLeftRight as FoamFileTransfer } from './chunk-F4BDQKCW.js';
-export { FileArrowLeftRightDuotone, FileArrowLeftRightDuotone as FileArrowLeftRightDuotoneIcon, FileArrowLeftRightDuotone as FileExchangeDuotone, FileArrowLeftRightDuotone as FileExchangeDuotoneIcon, FileArrowLeftRightDuotone as FileSyncDuotone, FileArrowLeftRightDuotone as FileSyncDuotoneIcon, FileArrowLeftRightDuotone as FileTransferDuotone, FileArrowLeftRightDuotone as FileTransferDuotoneIcon, FileArrowLeftRightDuotone as FoamFileArrowLeftRightDuotone, FileArrowLeftRightDuotone as FoamFileExchangeDuotone, FileArrowLeftRightDuotone as FoamFileSyncDuotone, FileArrowLeftRightDuotone as FoamFileTransferDuotone } from './chunk-ITNMB5Y7.js';
-export { FileArrowLeftRightFill, FileArrowLeftRightFill as FileArrowLeftRightFillIcon, FileArrowLeftRightFill as FileExchangeFill, FileArrowLeftRightFill as FileExchangeFillIcon, FileArrowLeftRightFill as FileSyncFill, FileArrowLeftRightFill as FileSyncFillIcon, FileArrowLeftRightFill as FileTransferFill, FileArrowLeftRightFill as FileTransferFillIcon, FileArrowLeftRightFill as FoamFileArrowLeftRightFill, FileArrowLeftRightFill as FoamFileExchangeFill, FileArrowLeftRightFill as FoamFileSyncFill, FileArrowLeftRightFill as FoamFileTransferFill } from './chunk-ZGUZ33J2.js';
-export { FileArrowRight, FileArrowRight as FileArrowRightIcon, FileArrowRight as FileForward, FileArrowRight as FileForwardIcon, FileArrowRight as FileNext, FileArrowRight as FileNextIcon, FileArrowRight as FoamFileArrowRight, FileArrowRight as FoamFileForward, FileArrowRight as FoamFileNext } from './chunk-VYBCCEEU.js';
-export { FileArrowRightDuotone, FileArrowRightDuotone as FileArrowRightDuotoneIcon, FileArrowRightDuotone as FileForwardDuotone, FileArrowRightDuotone as FileForwardDuotoneIcon, FileArrowRightDuotone as FileNextDuotone, FileArrowRightDuotone as FileNextDuotoneIcon, FileArrowRightDuotone as FoamFileArrowRightDuotone, FileArrowRightDuotone as FoamFileForwardDuotone, FileArrowRightDuotone as FoamFileNextDuotone } from './chunk-LA7U2ETZ.js';
-export { FileArrowRightFill, FileArrowRightFill as FileArrowRightFillIcon, FileArrowRightFill as FileForwardFill, FileArrowRightFill as FileForwardFillIcon, FileArrowRightFill as FileNextFill, FileArrowRightFill as FileNextFillIcon, FileArrowRightFill as FoamFileArrowRightFill, FileArrowRightFill as FoamFileForwardFill, FileArrowRightFill as FoamFileNextFill } from './chunk-RB5QGUHN.js';
-export { FileArrowUp, FileArrowUp as FileArrowUpIcon, FileArrowUp as FoamFileArrowUp, FileArrowUp as FoamUploadFile, FileArrowUp as UploadFile, FileArrowUp as UploadFileIcon } from './chunk-S6QC445C.js';
-export { EyeOffDuotone, EyeOffDuotone as EyeOffDuotoneIcon, EyeOffDuotone as FoamEyeOffDuotone, EyeOffDuotone as FoamHiddenDuotone, EyeOffDuotone as FoamHideDuotone, EyeOffDuotone as FoamInvisibleDuotone, EyeOffDuotone as HiddenDuotone, EyeOffDuotone as HiddenDuotoneIcon, EyeOffDuotone as HideDuotone, EyeOffDuotone as HideDuotoneIcon, EyeOffDuotone as InvisibleDuotone, EyeOffDuotone as InvisibleDuotoneIcon } from './chunk-HEC3H74C.js';
-export { EyeOffFill, EyeOffFill as EyeOffFillIcon, EyeOffFill as FoamEyeOffFill, EyeOffFill as FoamHiddenFill, EyeOffFill as FoamHideFill, EyeOffFill as FoamInvisibleFill, EyeOffFill as HiddenFill, EyeOffFill as HiddenFillIcon, EyeOffFill as HideFill, EyeOffFill as HideFillIcon, EyeOffFill as InvisibleFill, EyeOffFill as InvisibleFillIcon } from './chunk-XNI6SC5O.js';
-export { File as Document, File as DocumentIcon, File, File as FileIcon, File as FoamDocument, File as FoamFile, File as FoamPage, File as Page, File as PageIcon } from './chunk-VBGWKOAA.js';
-export { FileArrowDown as DownloadFile, FileArrowDown as DownloadFileIcon, FileArrowDown, FileArrowDown as FileArrowDownIcon, FileArrowDown as FoamDownloadFile, FileArrowDown as FoamFileArrowDown } from './chunk-M3UN2CN2.js';
-export { FileArrowDownDuotone as DownloadFileDuotone, FileArrowDownDuotone as DownloadFileDuotoneIcon, FileArrowDownDuotone, FileArrowDownDuotone as FileArrowDownDuotoneIcon, FileArrowDownDuotone as FoamDownloadFileDuotone, FileArrowDownDuotone as FoamFileArrowDownDuotone } from './chunk-OCKHOGRG.js';
-export { FileArrowDownFill as DownloadFileFill, FileArrowDownFill as DownloadFileFillIcon, FileArrowDownFill, FileArrowDownFill as FileArrowDownFillIcon, FileArrowDownFill as FoamDownloadFileFill, FileArrowDownFill as FoamFileArrowDownFill } from './chunk-G4KJOWF4.js';
-export { FileArrowLeft, FileArrowLeft as FileArrowLeftIcon, FileArrowLeft as FileBack, FileArrowLeft as FileBackIcon, FileArrowLeft as FilePrevious, FileArrowLeft as FilePreviousIcon, FileArrowLeft as FoamFileArrowLeft, FileArrowLeft as FoamFileBack, FileArrowLeft as FoamFilePrevious } from './chunk-I5GAADWM.js';
-export { FileArrowLeftDuotone, FileArrowLeftDuotone as FileArrowLeftDuotoneIcon, FileArrowLeftDuotone as FileBackDuotone, FileArrowLeftDuotone as FileBackDuotoneIcon, FileArrowLeftDuotone as FilePreviousDuotone, FileArrowLeftDuotone as FilePreviousDuotoneIcon, FileArrowLeftDuotone as FoamFileArrowLeftDuotone, FileArrowLeftDuotone as FoamFileBackDuotone, FileArrowLeftDuotone as FoamFilePreviousDuotone } from './chunk-3OSZXDVH.js';
-export { EllipsisVerticalFill, EllipsisVerticalFill as EllipsisVerticalFillIcon, EllipsisVerticalFill as FoamEllipsisVerticalFill } from './chunk-PLGL4ZFG.js';
-export { ExternalLink as External, ExternalLink as ExternalIcon, ExternalLink, ExternalLink as ExternalLinkIcon, ExternalLink as FoamExternal, ExternalLink as FoamExternalLink, ExternalLink as FoamOpenNew, ExternalLink as OpenNew, ExternalLink as OpenNewIcon } from './chunk-OF4KG326.js';
-export { ExternalLinkDuotone as ExternalDuotone, ExternalLinkDuotone as ExternalDuotoneIcon, ExternalLinkDuotone, ExternalLinkDuotone as ExternalLinkDuotoneIcon, ExternalLinkDuotone as FoamExternalDuotone, ExternalLinkDuotone as FoamExternalLinkDuotone, ExternalLinkDuotone as FoamOpenNewDuotone, ExternalLinkDuotone as OpenNewDuotone, ExternalLinkDuotone as OpenNewDuotoneIcon } from './chunk-T7Z5BOJX.js';
-export { ExternalLinkFill as ExternalFill, ExternalLinkFill as ExternalFillIcon, ExternalLinkFill, ExternalLinkFill as ExternalLinkFillIcon, ExternalLinkFill as FoamExternalFill, ExternalLinkFill as FoamExternalLinkFill, ExternalLinkFill as FoamOpenNewFill, ExternalLinkFill as OpenNewFill, ExternalLinkFill as OpenNewFillIcon } from './chunk-MOLMC3XZ.js';
-export { Eye, Eye as EyeIcon, Eye as FoamEye, Eye as FoamShow, Eye as FoamView, Eye as FoamVisibility, Eye as FoamVisible, Eye as Show, Eye as ShowIcon, Eye as View, Eye as ViewIcon, Eye as Visibility, Eye as VisibilityIcon, Eye as Visible, Eye as VisibleIcon } from './chunk-GBX4FPZS.js';
-export { EyeDuotone, EyeDuotone as EyeDuotoneIcon, EyeDuotone as FoamEyeDuotone, EyeDuotone as FoamShowDuotone, EyeDuotone as FoamViewDuotone, EyeDuotone as FoamVisibilityDuotone, EyeDuotone as FoamVisibleDuotone, EyeDuotone as ShowDuotone, EyeDuotone as ShowDuotoneIcon, EyeDuotone as ViewDuotone, EyeDuotone as ViewDuotoneIcon, EyeDuotone as VisibilityDuotone, EyeDuotone as VisibilityDuotoneIcon, EyeDuotone as VisibleDuotone, EyeDuotone as VisibleDuotoneIcon } from './chunk-LX2RCVKM.js';
-export { EyeFill, EyeFill as EyeFillIcon, EyeFill as FoamEyeFill, EyeFill as FoamShowFill, EyeFill as FoamViewFill, EyeFill as FoamVisibilityFill, EyeFill as FoamVisibleFill, EyeFill as ShowFill, EyeFill as ShowFillIcon, EyeFill as ViewFill, EyeFill as ViewFillIcon, EyeFill as VisibilityFill, EyeFill as VisibilityFillIcon, EyeFill as VisibleFill, EyeFill as VisibleFillIcon } from './chunk-PKTO7RQ6.js';
-export { EyeOff, EyeOff as EyeOffIcon, EyeOff as FoamEyeOff, EyeOff as FoamHidden, EyeOff as FoamHide, EyeOff as FoamInvisible, EyeOff as Hidden, EyeOff as HiddenIcon, EyeOff as Hide, EyeOff as HideIcon, EyeOff as Invisible, EyeOff as InvisibleIcon } from './chunk-I2DV4NHD.js';
-export { Eclipse as Contrast, Eclipse as ContrastIcon, Eclipse, Eclipse as EclipseIcon, Eclipse as FoamContrast, Eclipse as FoamEclipse, Eclipse as FoamHalfMoon, Eclipse as HalfMoon, Eclipse as HalfMoonIcon } from './chunk-JXK43YB2.js';
-export { EclipseDuotone as ContrastDuotone, EclipseDuotone as ContrastDuotoneIcon, EclipseDuotone, EclipseDuotone as EclipseDuotoneIcon, EclipseDuotone as FoamContrastDuotone, EclipseDuotone as FoamEclipseDuotone, EclipseDuotone as FoamHalfMoonDuotone, EclipseDuotone as HalfMoonDuotone, EclipseDuotone as HalfMoonDuotoneIcon } from './chunk-VMJ7B7B4.js';
-export { EclipseFill as ContrastFill, EclipseFill as ContrastFillIcon, EclipseFill, EclipseFill as EclipseFillIcon, EclipseFill as FoamContrastFill, EclipseFill as FoamEclipseFill, EclipseFill as FoamHalfMoonFill, EclipseFill as HalfMoonFill, EclipseFill as HalfMoonFillIcon } from './chunk-EWNBCKZE.js';
-export { Ellipsis, Ellipsis as EllipsisIcon, Ellipsis as FoamEllipsis } from './chunk-GANICISU.js';
-export { EllipsisDuotone, EllipsisDuotone as EllipsisDuotoneIcon, EllipsisDuotone as FoamEllipsisDuotone } from './chunk-IE4DLSVT.js';
-export { EllipsisFill, EllipsisFill as EllipsisFillIcon, EllipsisFill as FoamEllipsisFill } from './chunk-VD3DQYIU.js';
-export { EllipsisVertical, EllipsisVertical as EllipsisVerticalIcon, EllipsisVertical as FoamEllipsisVertical } from './chunk-Y63H6FE6.js';
-export { EllipsisVerticalDuotone, EllipsisVerticalDuotone as EllipsisVerticalDuotoneIcon, EllipsisVerticalDuotone as FoamEllipsisVerticalDuotone } from './chunk-PRUIIDJP.js';
-export { ContentUserDuotone as BrandAssetsDuotone, ContentUserDuotone as BrandAssetsDuotoneIcon, ContentUserDuotone, ContentUserDuotone as ContentUserDuotoneIcon, ContentUserDuotone as FoamBrandAssetsDuotone, ContentUserDuotone as FoamContentUserDuotone, ContentUserDuotone as FoamMediaPacksDuotone, ContentUserDuotone as FoamMediapacksDuotone, ContentUserDuotone as FoamPressKitDuotone, ContentUserDuotone as MediaPacksDuotone, ContentUserDuotone as MediaPacksDuotoneIcon, ContentUserDuotone as MediapacksDuotone, ContentUserDuotone as MediapacksDuotoneIcon, ContentUserDuotone as PressKitDuotone, ContentUserDuotone as PressKitDuotoneIcon } from './chunk-E5UM5XGC.js';
-export { ContentUserFill as BrandAssetsFill, ContentUserFill as BrandAssetsFillIcon, ContentUserFill, ContentUserFill as ContentUserFillIcon, ContentUserFill as FoamBrandAssetsFill, ContentUserFill as FoamContentUserFill, ContentUserFill as FoamMediaPacksFill, ContentUserFill as FoamMediapacksFill, ContentUserFill as FoamPressKitFill, ContentUserFill as MediaPacksFill, ContentUserFill as MediaPacksFillIcon, ContentUserFill as MediapacksFill, ContentUserFill as MediapacksFillIcon, ContentUserFill as PressKitFill, ContentUserFill as PressKitFillIcon } from './chunk-SAHO7ECM.js';
-export { Copy as Clone, Copy as CloneIcon, Copy, Copy as CopyIcon, Copy as Duplicate, Copy as DuplicateIcon, Copy as FoamClone, Copy as FoamCopy, Copy as FoamDuplicate } from './chunk-S6TX42A5.js';
-export { CopyDuotone as CloneDuotone, CopyDuotone as CloneDuotoneIcon, CopyDuotone, CopyDuotone as CopyDuotoneIcon, CopyDuotone as DuplicateDuotone, CopyDuotone as DuplicateDuotoneIcon, CopyDuotone as FoamCloneDuotone, CopyDuotone as FoamCopyDuotone, CopyDuotone as FoamDuplicateDuotone } from './chunk-J3W5EEAB.js';
-export { CopyFill as CloneFill, CopyFill as CloneFillIcon, CopyFill, CopyFill as CopyFillIcon, CopyFill as DuplicateFill, CopyFill as DuplicateFillIcon, CopyFill as FoamCloneFill, CopyFill as FoamCopyFill, CopyFill as FoamDuplicateFill } from './chunk-XACVIZD4.js';
-export { Download, Download as DownloadIcon, Download as Export, Download as ExportIcon, Download as FoamDownload, Download as FoamExport, Download as FoamGet, Download as Get, Download as GetIcon } from './chunk-HAWVTUFV.js';
-export { DownloadDuotone, DownloadDuotone as DownloadDuotoneIcon, DownloadDuotone as ExportDuotone, DownloadDuotone as ExportDuotoneIcon, DownloadDuotone as FoamDownloadDuotone, DownloadDuotone as FoamExportDuotone, DownloadDuotone as FoamGetDuotone, DownloadDuotone as GetDuotone, DownloadDuotone as GetDuotoneIcon } from './chunk-FKMU7BD4.js';
-export { DownloadFill, DownloadFill as DownloadFillIcon, DownloadFill as ExportFill, DownloadFill as ExportFillIcon, DownloadFill as FoamDownloadFill, DownloadFill as FoamExportFill, DownloadFill as FoamGetFill, DownloadFill as GetFill, DownloadFill as GetFillIcon } from './chunk-7P2RFQ7T.js';
-export { CommandFill as CmdFill, CommandFill as CmdFillIcon, CommandFill, CommandFill as CommandFillIcon, CommandFill as FoamCmdFill, CommandFill as FoamCommandFill, CommandFill as FoamKeyboardFill, CommandFill as FoamShortcutFill, CommandFill as KeyboardFill, CommandFill as KeyboardFillIcon, CommandFill as ShortcutFill, CommandFill as ShortcutFillIcon } from './chunk-MWPG4EVT.js';
-export { ContentHeart, ContentHeart as ContentHeartIcon, ContentHeart as FoamContentHeart } from './chunk-UKLJ2FDQ.js';
-export { ContentHeartDuotone, ContentHeartDuotone as ContentHeartDuotoneIcon, ContentHeartDuotone as FoamContentHeartDuotone } from './chunk-XFUWR553.js';
-export { ContentHeartFill, ContentHeartFill as ContentHeartFillIcon, ContentHeartFill as FoamContentHeartFill } from './chunk-DEWKJA3S.js';
-export { ContentPlus as AddContent, ContentPlus as AddContentIcon, ContentPlus, ContentPlus as ContentPlusIcon, ContentPlus as CreateContent, ContentPlus as CreateContentIcon, ContentPlus as FoamAddContent, ContentPlus as FoamContentPlus, ContentPlus as FoamCreateContent, ContentPlus as FoamNewPost, ContentPlus as NewPost, ContentPlus as NewPostIcon } from './chunk-SDHPVHKA.js';
-export { ContentPlusDuotone as AddContentDuotone, ContentPlusDuotone as AddContentDuotoneIcon, ContentPlusDuotone, ContentPlusDuotone as ContentPlusDuotoneIcon, ContentPlusDuotone as CreateContentDuotone, ContentPlusDuotone as CreateContentDuotoneIcon, ContentPlusDuotone as FoamAddContentDuotone, ContentPlusDuotone as FoamContentPlusDuotone, ContentPlusDuotone as FoamCreateContentDuotone, ContentPlusDuotone as FoamNewPostDuotone, ContentPlusDuotone as NewPostDuotone, ContentPlusDuotone as NewPostDuotoneIcon } from './chunk-LISDZW7W.js';
-export { ContentPlusFill as AddContentFill, ContentPlusFill as AddContentFillIcon, ContentPlusFill, ContentPlusFill as ContentPlusFillIcon, ContentPlusFill as CreateContentFill, ContentPlusFill as CreateContentFillIcon, ContentPlusFill as FoamAddContentFill, ContentPlusFill as FoamContentPlusFill, ContentPlusFill as FoamCreateContentFill, ContentPlusFill as FoamNewPostFill, ContentPlusFill as NewPostFill, ContentPlusFill as NewPostFillIcon } from './chunk-YNWKJ5I6.js';
-export { ContentUser as BrandAssets, ContentUser as BrandAssetsIcon, ContentUser, ContentUser as ContentUserIcon, ContentUser as FoamBrandAssets, ContentUser as FoamContentUser, ContentUser as FoamMediaPacks, ContentUser as FoamMediapacks, ContentUser as FoamPressKit, ContentUser as MediaPacks, ContentUser as MediaPacksIcon, ContentUser as Mediapacks, ContentUser as MediapacksIcon, ContentUser as PressKit, ContentUser as PressKitIcon } from './chunk-MT4Y6XUG.js';
-export { Cog, Cog as CogIcon, Cog as Cogwheel, Cog as CogwheelIcon, Cog as Config, Cog as ConfigIcon, Cog as Configuration, Cog as ConfigurationIcon, Cog as FoamCog, Cog as FoamCogwheel, Cog as FoamConfig, Cog as FoamConfiguration, Cog as FoamGear, Cog as FoamOptions, Cog as FoamPreferences, Cog as FoamSettings, Cog as Gear, Cog as GearIcon, Cog as Options, Cog as OptionsIcon, Cog as Preferences, Cog as PreferencesIcon, Cog as Settings, Cog as SettingsIcon } from './chunk-7IHEQ32J.js';
-export { CogDuotone, CogDuotone as CogDuotoneIcon, CogDuotone as CogwheelDuotone, CogDuotone as CogwheelDuotoneIcon, CogDuotone as ConfigDuotone, CogDuotone as ConfigDuotoneIcon, CogDuotone as ConfigurationDuotone, CogDuotone as ConfigurationDuotoneIcon, CogDuotone as FoamCogDuotone, CogDuotone as FoamCogwheelDuotone, CogDuotone as FoamConfigDuotone, CogDuotone as FoamConfigurationDuotone, CogDuotone as FoamGearDuotone, CogDuotone as FoamOptionsDuotone, CogDuotone as FoamPreferencesDuotone, CogDuotone as FoamSettingsDuotone, CogDuotone as GearDuotone, CogDuotone as GearDuotoneIcon, CogDuotone as OptionsDuotone, CogDuotone as OptionsDuotoneIcon, CogDuotone as PreferencesDuotone, CogDuotone as PreferencesDuotoneIcon, CogDuotone as SettingsDuotone, CogDuotone as SettingsDuotoneIcon } from './chunk-V7PUFUIQ.js';
-export { CogFill, CogFill as CogFillIcon, CogFill as CogwheelFill, CogFill as CogwheelFillIcon, CogFill as ConfigFill, CogFill as ConfigFillIcon, CogFill as ConfigurationFill, CogFill as ConfigurationFillIcon, CogFill as FoamCogFill, CogFill as FoamCogwheelFill, CogFill as FoamConfigFill, CogFill as FoamConfigurationFill, CogFill as FoamGearFill, CogFill as FoamOptionsFill, CogFill as FoamPreferencesFill, CogFill as FoamSettingsFill, CogFill as GearFill, CogFill as GearFillIcon, CogFill as OptionsFill, CogFill as OptionsFillIcon, CogFill as PreferencesFill, CogFill as PreferencesFillIcon, CogFill as SettingsFill, CogFill as SettingsFillIcon } from './chunk-N2TIJRGL.js';
-export { Columns3 as ColumnLayout, Columns3 as ColumnLayoutIcon, Columns3, Columns3 as Columns3Icon, Columns3 as FoamColumnLayout, Columns3 as FoamColumns3, Columns3 as FoamThreeColumns, Columns3 as ThreeColumns, Columns3 as ThreeColumnsIcon } from './chunk-YNSG4ZOW.js';
-export { Columns3Duotone as ColumnLayoutDuotone, Columns3Duotone as ColumnLayoutDuotoneIcon, Columns3Duotone, Columns3Duotone as Columns3DuotoneIcon, Columns3Duotone as FoamColumnLayoutDuotone, Columns3Duotone as FoamColumns3Duotone, Columns3Duotone as FoamThreeColumnsDuotone, Columns3Duotone as ThreeColumnsDuotone, Columns3Duotone as ThreeColumnsDuotoneIcon } from './chunk-YVTJWLUR.js';
-export { Columns3Fill as ColumnLayoutFill, Columns3Fill as ColumnLayoutFillIcon, Columns3Fill, Columns3Fill as Columns3FillIcon, Columns3Fill as FoamColumnLayoutFill, Columns3Fill as FoamColumns3Fill, Columns3Fill as FoamThreeColumnsFill, Columns3Fill as ThreeColumnsFill, Columns3Fill as ThreeColumnsFillIcon } from './chunk-7KVUUNFA.js';
-export { Command as Cmd, Command as CmdIcon, Command, Command as CommandIcon, Command as FoamCmd, Command as FoamCommand, Command as FoamKeyboard, Command as FoamShortcut, Command as Keyboard, Command as KeyboardIcon, Command as Shortcut, Command as ShortcutIcon } from './chunk-LOETHHO4.js';
-export { CommandDuotone as CmdDuotone, CommandDuotone as CmdDuotoneIcon, CommandDuotone, CommandDuotone as CommandDuotoneIcon, CommandDuotone as FoamCmdDuotone, CommandDuotone as FoamCommandDuotone, CommandDuotone as FoamKeyboardDuotone, CommandDuotone as FoamShortcutDuotone, CommandDuotone as KeyboardDuotone, CommandDuotone as KeyboardDuotoneIcon, CommandDuotone as ShortcutDuotone, CommandDuotone as ShortcutDuotoneIcon } from './chunk-LTMWFX7O.js';
-export { ClockArrowDown, ClockArrowDown as ClockArrowDownIcon, ClockArrowDown as FoamClockArrowDown } from './chunk-MTL6HDUG.js';
-export { ClockArrowDownDuotone, ClockArrowDownDuotone as ClockArrowDownDuotoneIcon, ClockArrowDownDuotone as FoamClockArrowDownDuotone } from './chunk-A3CPH62U.js';
-export { ClockArrowDownFill, ClockArrowDownFill as ClockArrowDownFillIcon, ClockArrowDownFill as FoamClockArrowDownFill } from './chunk-GEH72ENH.js';
-export { ClockArrowUp, ClockArrowUp as ClockArrowUpIcon, ClockArrowUp as FoamClockArrowUp } from './chunk-LHZ7WEPO.js';
-export { ClockArrowUpDuotone, ClockArrowUpDuotone as ClockArrowUpDuotoneIcon, ClockArrowUpDuotone as FoamClockArrowUpDuotone } from './chunk-EOHUVADD.js';
-export { ClockArrowUpFill, ClockArrowUpFill as ClockArrowUpFillIcon, ClockArrowUpFill as FoamClockArrowUpFill } from './chunk-76HBRHD6.js';
-export { ClockDuotone, ClockDuotone as ClockDuotoneIcon, ClockDuotone as FoamClockDuotone, ClockDuotone as FoamTimeDuotone, ClockDuotone as FoamWatchDuotone, ClockDuotone as TimeDuotone, ClockDuotone as TimeDuotoneIcon, ClockDuotone as WatchDuotone, ClockDuotone as WatchDuotoneIcon } from './chunk-TCA6P5W7.js';
-export { ClockFill, ClockFill as ClockFillIcon, ClockFill as FoamClockFill, ClockFill as FoamTimeFill, ClockFill as FoamWatchFill, ClockFill as TimeFill, ClockFill as TimeFillIcon, ClockFill as WatchFill, ClockFill as WatchFillIcon } from './chunk-VNHIALDV.js';
-export { CircleDollarSignFill, CircleDollarSignFill as CircleDollarSignFillIcon, CircleDollarSignFill as DollarFill, CircleDollarSignFill as DollarFillIcon, CircleDollarSignFill as FoamCircleDollarSignFill, CircleDollarSignFill as FoamDollarFill, CircleDollarSignFill as FoamMoneyFill, CircleDollarSignFill as FoamPaymentFill, CircleDollarSignFill as FoamPriceFill, CircleDollarSignFill as MoneyFill, CircleDollarSignFill as MoneyFillIcon, CircleDollarSignFill as PaymentFill, CircleDollarSignFill as PaymentFillIcon, CircleDollarSignFill as PriceFill, CircleDollarSignFill as PriceFillIcon } from './chunk-SODIXXB5.js';
-export { CircleQuestionMark, CircleQuestionMark as CircleQuestionMarkIcon, CircleQuestionMark as Faq, CircleQuestionMark as FaqIcon, CircleQuestionMark as FoamCircleQuestionMark, CircleQuestionMark as FoamFaq, CircleQuestionMark as FoamHelp, CircleQuestionMark as FoamQuestion, CircleQuestionMark as FoamSupport, CircleQuestionMark as Help, CircleQuestionMark as HelpIcon, CircleQuestionMark as Question, CircleQuestionMark as QuestionIcon, CircleQuestionMark as Support, CircleQuestionMark as SupportIcon } from './chunk-WIJDGTLP.js';
-export { CircleQuestionMarkDuotone, CircleQuestionMarkDuotone as CircleQuestionMarkDuotoneIcon, CircleQuestionMarkDuotone as FaqDuotone, CircleQuestionMarkDuotone as FaqDuotoneIcon, CircleQuestionMarkDuotone as FoamCircleQuestionMarkDuotone, CircleQuestionMarkDuotone as FoamFaqDuotone, CircleQuestionMarkDuotone as FoamHelpDuotone, CircleQuestionMarkDuotone as FoamQuestionDuotone, CircleQuestionMarkDuotone as FoamSupportDuotone, CircleQuestionMarkDuotone as HelpDuotone, CircleQuestionMarkDuotone as HelpDuotoneIcon, CircleQuestionMarkDuotone as QuestionDuotone, CircleQuestionMarkDuotone as QuestionDuotoneIcon, CircleQuestionMarkDuotone as SupportDuotone, CircleQuestionMarkDuotone as SupportDuotoneIcon } from './chunk-3XM5M4RS.js';
-export { CircleQuestionMarkFill, CircleQuestionMarkFill as CircleQuestionMarkFillIcon, CircleQuestionMarkFill as FaqFill, CircleQuestionMarkFill as FaqFillIcon, CircleQuestionMarkFill as FoamCircleQuestionMarkFill, CircleQuestionMarkFill as FoamFaqFill, CircleQuestionMarkFill as FoamHelpFill, CircleQuestionMarkFill as FoamQuestionFill, CircleQuestionMarkFill as FoamSupportFill, CircleQuestionMarkFill as HelpFill, CircleQuestionMarkFill as HelpFillIcon, CircleQuestionMarkFill as QuestionFill, CircleQuestionMarkFill as QuestionFillIcon, CircleQuestionMarkFill as SupportFill, CircleQuestionMarkFill as SupportFillIcon } from './chunk-4OTBD7OX.js';
-export { CircleX as Cancel, CircleX as CancelIcon, CircleX, CircleX as CircleXIcon, CircleX as Clear, CircleX as ClearIcon, CircleX as Close, CircleX as CloseIcon, CircleX as FoamCancel, CircleX as FoamCircleX, CircleX as FoamClear, CircleX as FoamClose, CircleX as FoamTimes, CircleX as FoamX, CircleX as Times, CircleX as TimesIcon, CircleX as X, CircleX as XIcon } from './chunk-7EM3SEU7.js';
-export { CircleXDuotone as CancelDuotone, CircleXDuotone as CancelDuotoneIcon, CircleXDuotone, CircleXDuotone as CircleXDuotoneIcon, CircleXDuotone as ClearDuotone, CircleXDuotone as ClearDuotoneIcon, CircleXDuotone as CloseDuotone, CircleXDuotone as CloseDuotoneIcon, CircleXDuotone as FoamCancelDuotone, CircleXDuotone as FoamCircleXDuotone, CircleXDuotone as FoamClearDuotone, CircleXDuotone as FoamCloseDuotone, CircleXDuotone as FoamTimesDuotone, CircleXDuotone as FoamXDuotone, CircleXDuotone as TimesDuotone, CircleXDuotone as TimesDuotoneIcon, CircleXDuotone as XDuotone, CircleXDuotone as XDuotoneIcon } from './chunk-3CBVLMSP.js';
-export { CircleXFill as CancelFill, CircleXFill as CancelFillIcon, CircleXFill, CircleXFill as CircleXFillIcon, CircleXFill as ClearFill, CircleXFill as ClearFillIcon, CircleXFill as CloseFill, CircleXFill as CloseFillIcon, CircleXFill as FoamCancelFill, CircleXFill as FoamCircleXFill, CircleXFill as FoamClearFill, CircleXFill as FoamCloseFill, CircleXFill as FoamTimesFill, CircleXFill as FoamXFill, CircleXFill as TimesFill, CircleXFill as TimesFillIcon, CircleXFill as XFill, CircleXFill as XFillIcon } from './chunk-JUN6PQXM.js';
-export { Clock, Clock as ClockIcon, Clock as FoamClock, Clock as FoamTime, Clock as FoamWatch, Clock as Time, Clock as TimeIcon, Clock as Watch, Clock as WatchIcon } from './chunk-42SC5LVB.js';
-export { ChevronUp as CaretUp, ChevronUp as CaretUpIcon, ChevronUp, ChevronUp as ChevronUpIcon, ChevronUp as Expand, ChevronUp as ExpandIcon, ChevronUp as FoamCaretUp, ChevronUp as FoamChevronUp, ChevronUp as FoamExpand } from './chunk-KL56FB6H.js';
-export { ChevronUpDuotone as CaretUpDuotone, ChevronUpDuotone as CaretUpDuotoneIcon, ChevronUpDuotone, ChevronUpDuotone as ChevronUpDuotoneIcon, ChevronUpDuotone as ExpandDuotone, ChevronUpDuotone as ExpandDuotoneIcon, ChevronUpDuotone as FoamCaretUpDuotone, ChevronUpDuotone as FoamChevronUpDuotone, ChevronUpDuotone as FoamExpandDuotone } from './chunk-R7QXMTWD.js';
-export { ChevronUpFill as CaretUpFill, ChevronUpFill as CaretUpFillIcon, ChevronUpFill, ChevronUpFill as ChevronUpFillIcon, ChevronUpFill as ExpandFill, ChevronUpFill as ExpandFillIcon, ChevronUpFill as FoamCaretUpFill, ChevronUpFill as FoamChevronUpFill, ChevronUpFill as FoamExpandFill } from './chunk-6G5BBXJ7.js';
-export { CircleAlert as AttentionCircle, CircleAlert as AttentionCircleIcon, CircleAlert as CautionCircle, CircleAlert as CautionCircleIcon, CircleAlert, CircleAlert as CircleAlertIcon, CircleAlert as Error, CircleAlert as ErrorIcon, CircleAlert as FoamAttentionCircle, CircleAlert as FoamCautionCircle, CircleAlert as FoamCircleAlert, CircleAlert as FoamError, CircleAlert as FoamWarningCircle, CircleAlert as WarningCircle, CircleAlert as WarningCircleIcon } from './chunk-LE5PIV56.js';
-export { CircleAlertDuotone as AttentionCircleDuotone, CircleAlertDuotone as AttentionCircleDuotoneIcon, CircleAlertDuotone as CautionCircleDuotone, CircleAlertDuotone as CautionCircleDuotoneIcon, CircleAlertDuotone, CircleAlertDuotone as CircleAlertDuotoneIcon, CircleAlertDuotone as ErrorDuotone, CircleAlertDuotone as ErrorDuotoneIcon, CircleAlertDuotone as FoamAttentionCircleDuotone, CircleAlertDuotone as FoamCautionCircleDuotone, CircleAlertDuotone as FoamCircleAlertDuotone, CircleAlertDuotone as FoamErrorDuotone, CircleAlertDuotone as FoamWarningCircleDuotone, CircleAlertDuotone as WarningCircleDuotone, CircleAlertDuotone as WarningCircleDuotoneIcon } from './chunk-MFS636I3.js';
-export { CircleAlertFill as AttentionCircleFill, CircleAlertFill as AttentionCircleFillIcon, CircleAlertFill as CautionCircleFill, CircleAlertFill as CautionCircleFillIcon, CircleAlertFill, CircleAlertFill as CircleAlertFillIcon, CircleAlertFill as ErrorFill, CircleAlertFill as ErrorFillIcon, CircleAlertFill as FoamAttentionCircleFill, CircleAlertFill as FoamCautionCircleFill, CircleAlertFill as FoamCircleAlertFill, CircleAlertFill as FoamErrorFill, CircleAlertFill as FoamWarningCircleFill, CircleAlertFill as WarningCircleFill, CircleAlertFill as WarningCircleFillIcon } from './chunk-5N4476P4.js';
-export { CircleDollarSign, CircleDollarSign as CircleDollarSignIcon, CircleDollarSign as Dollar, CircleDollarSign as DollarIcon, CircleDollarSign as FoamCircleDollarSign, CircleDollarSign as FoamDollar, CircleDollarSign as FoamMoney, CircleDollarSign as FoamPayment, CircleDollarSign as FoamPrice, CircleDollarSign as Money, CircleDollarSign as MoneyIcon, CircleDollarSign as Payment, CircleDollarSign as PaymentIcon, CircleDollarSign as Price, CircleDollarSign as PriceIcon } from './chunk-JDYWJ5HL.js';
-export { CircleDollarSignDuotone, CircleDollarSignDuotone as CircleDollarSignDuotoneIcon, CircleDollarSignDuotone as DollarDuotone, CircleDollarSignDuotone as DollarDuotoneIcon, CircleDollarSignDuotone as FoamCircleDollarSignDuotone, CircleDollarSignDuotone as FoamDollarDuotone, CircleDollarSignDuotone as FoamMoneyDuotone, CircleDollarSignDuotone as FoamPaymentDuotone, CircleDollarSignDuotone as FoamPriceDuotone, CircleDollarSignDuotone as MoneyDuotone, CircleDollarSignDuotone as MoneyDuotoneIcon, CircleDollarSignDuotone as PaymentDuotone, CircleDollarSignDuotone as PaymentDuotoneIcon, CircleDollarSignDuotone as PriceDuotone, CircleDollarSignDuotone as PriceDuotoneIcon } from './chunk-KBNPM6MQ.js';
-export { ChevronDownDuotone as CaretDownDuotone, ChevronDownDuotone as CaretDownDuotoneIcon, ChevronDownDuotone, ChevronDownDuotone as ChevronDownDuotoneIcon, ChevronDownDuotone as CollapseDuotone, ChevronDownDuotone as CollapseDuotoneIcon, ChevronDownDuotone as DropdownDuotone, ChevronDownDuotone as DropdownDuotoneIcon, ChevronDownDuotone as FoamCaretDownDuotone, ChevronDownDuotone as FoamChevronDownDuotone, ChevronDownDuotone as FoamCollapseDuotone, ChevronDownDuotone as FoamDropdownDuotone } from './chunk-CLZ2QIH5.js';
-export { ChevronDownFill as CaretDownFill, ChevronDownFill as CaretDownFillIcon, ChevronDownFill, ChevronDownFill as ChevronDownFillIcon, ChevronDownFill as CollapseFill, ChevronDownFill as CollapseFillIcon, ChevronDownFill as DropdownFill, ChevronDownFill as DropdownFillIcon, ChevronDownFill as FoamCaretDownFill, ChevronDownFill as FoamChevronDownFill, ChevronDownFill as FoamCollapseFill, ChevronDownFill as FoamDropdownFill } from './chunk-KEONIHEM.js';
-export { ChevronLeft as CaretLeft, ChevronLeft as CaretLeftIcon, ChevronLeft, ChevronLeft as ChevronLeftIcon, ChevronLeft as FoamCaretLeft, ChevronLeft as FoamChevronLeft } from './chunk-ILMEJLJJ.js';
-export { ChevronLeftDuotone as CaretLeftDuotone, ChevronLeftDuotone as CaretLeftDuotoneIcon, ChevronLeftDuotone, ChevronLeftDuotone as ChevronLeftDuotoneIcon, ChevronLeftDuotone as FoamCaretLeftDuotone, ChevronLeftDuotone as FoamChevronLeftDuotone } from './chunk-H76Y6AHR.js';
-export { ChevronLeftFill as CaretLeftFill, ChevronLeftFill as CaretLeftFillIcon, ChevronLeftFill, ChevronLeftFill as ChevronLeftFillIcon, ChevronLeftFill as FoamCaretLeftFill, ChevronLeftFill as FoamChevronLeftFill } from './chunk-DJ3I76YE.js';
-export { ChevronRight as CaretRight, ChevronRight as CaretRightIcon, ChevronRight, ChevronRight as ChevronRightIcon, ChevronRight as FoamCaretRight, ChevronRight as FoamChevronRight } from './chunk-KPWZ3PPU.js';
-export { ChevronRightDuotone as CaretRightDuotone, ChevronRightDuotone as CaretRightDuotoneIcon, ChevronRightDuotone, ChevronRightDuotone as ChevronRightDuotoneIcon, ChevronRightDuotone as FoamCaretRightDuotone, ChevronRightDuotone as FoamChevronRightDuotone } from './chunk-3X4U725G.js';
-export { ChevronRightFill as CaretRightFill, ChevronRightFill as CaretRightFillIcon, ChevronRightFill, ChevronRightFill as ChevronRightFillIcon, ChevronRightFill as FoamCaretRightFill, ChevronRightFill as FoamChevronRightFill } from './chunk-EKGEQD23.js';
-export { ChartColumnSquareFill as AnalyticsFill, ChartColumnSquareFill as AnalyticsFillIcon, ChartColumnSquareFill as BarChartFill, ChartColumnSquareFill as BarChartFillIcon, ChartColumnSquareFill, ChartColumnSquareFill as ChartColumnSquareFillIcon, ChartColumnSquareFill as FoamAnalyticsFill, ChartColumnSquareFill as FoamBarChartFill, ChartColumnSquareFill as FoamChartColumnSquareFill, ChartColumnSquareFill as FoamGraphFill, ChartColumnSquareFill as FoamStatsFill, ChartColumnSquareFill as GraphFill, ChartColumnSquareFill as GraphFillIcon, ChartColumnSquareFill as StatsFill, ChartColumnSquareFill as StatsFillIcon } from './chunk-J3WP36CF.js';
-export { Checkbox as CheckSquare, Checkbox as CheckSquareIcon, Checkbox, Checkbox as CheckboxIcon, Checkbox as FoamCheckSquare, Checkbox as FoamCheckbox, Checkbox as FoamTask, Checkbox as Task, Checkbox as TaskIcon } from './chunk-VDHUMIFO.js';
-export { CheckboxDuotone as CheckSquareDuotone, CheckboxDuotone as CheckSquareDuotoneIcon, CheckboxDuotone, CheckboxDuotone as CheckboxDuotoneIcon, CheckboxDuotone as FoamCheckSquareDuotone, CheckboxDuotone as FoamCheckboxDuotone, CheckboxDuotone as FoamTaskDuotone, CheckboxDuotone as TaskDuotone, CheckboxDuotone as TaskDuotoneIcon } from './chunk-PJABGM6Q.js';
-export { CheckboxFill as CheckSquareFill, CheckboxFill as CheckSquareFillIcon, CheckboxFill, CheckboxFill as CheckboxFillIcon, CheckboxFill as FoamCheckSquareFill, CheckboxFill as FoamCheckboxFill, CheckboxFill as FoamTaskFill, CheckboxFill as TaskFill, CheckboxFill as TaskFillIcon } from './chunk-5GAT4A7O.js';
-export { Checkmark as Check, Checkmark as CheckIcon, Checkmark, Checkmark as CheckmarkIcon, Checkmark as Complete, Checkmark as CompleteIcon, Checkmark as Done, Checkmark as DoneIcon, Checkmark as FoamCheck, Checkmark as FoamCheckmark, Checkmark as FoamComplete, Checkmark as FoamDone, Checkmark as FoamSuccess, Checkmark as FoamTick, Checkmark as Success, Checkmark as SuccessIcon, Checkmark as Tick, Checkmark as TickIcon } from './chunk-JS6KXTSX.js';
-export { CheckmarkDuotone as CheckDuotone, CheckmarkDuotone as CheckDuotoneIcon, CheckmarkDuotone, CheckmarkDuotone as CheckmarkDuotoneIcon, CheckmarkDuotone as CompleteDuotone, CheckmarkDuotone as CompleteDuotoneIcon, CheckmarkDuotone as DoneDuotone, CheckmarkDuotone as DoneDuotoneIcon, CheckmarkDuotone as FoamCheckDuotone, CheckmarkDuotone as FoamCheckmarkDuotone, CheckmarkDuotone as FoamCompleteDuotone, CheckmarkDuotone as FoamDoneDuotone, CheckmarkDuotone as FoamSuccessDuotone, CheckmarkDuotone as FoamTickDuotone, CheckmarkDuotone as SuccessDuotone, CheckmarkDuotone as SuccessDuotoneIcon, CheckmarkDuotone as TickDuotone, CheckmarkDuotone as TickDuotoneIcon } from './chunk-JV2YJJAI.js';
-export { CheckmarkFill as CheckFill, CheckmarkFill as CheckFillIcon, CheckmarkFill, CheckmarkFill as CheckmarkFillIcon, CheckmarkFill as CompleteFill, CheckmarkFill as CompleteFillIcon, CheckmarkFill as DoneFill, CheckmarkFill as DoneFillIcon, CheckmarkFill as FoamCheckFill, CheckmarkFill as FoamCheckmarkFill, CheckmarkFill as FoamCompleteFill, CheckmarkFill as FoamDoneFill, CheckmarkFill as FoamSuccessFill, CheckmarkFill as FoamTickFill, CheckmarkFill as SuccessFill, CheckmarkFill as SuccessFillIcon, CheckmarkFill as TickFill, CheckmarkFill as TickFillIcon } from './chunk-Y5W6OJKC.js';
-export { ChevronDown as CaretDown, ChevronDown as CaretDownIcon, ChevronDown, ChevronDown as ChevronDownIcon, ChevronDown as Collapse, ChevronDown as CollapseIcon, ChevronDown as Dropdown, ChevronDown as DropdownIcon, ChevronDown as FoamCaretDown, ChevronDown as FoamChevronDown, ChevronDown as FoamCollapse, ChevronDown as FoamDropdown } from './chunk-WKK3ZO7Y.js';
-export { Bookmark, Bookmark as BookmarkIcon, Bookmark as Flag, Bookmark as FlagIcon, Bookmark as FoamBookmark, Bookmark as FoamFlag, Bookmark as FoamSaved, Bookmark as Saved, Bookmark as SavedIcon } from './chunk-CQEYMKRQ.js';
-export { BookmarkDuotone, BookmarkDuotone as BookmarkDuotoneIcon, BookmarkDuotone as FlagDuotone, BookmarkDuotone as FlagDuotoneIcon, BookmarkDuotone as FoamBookmarkDuotone, BookmarkDuotone as FoamFlagDuotone, BookmarkDuotone as FoamSavedDuotone, BookmarkDuotone as SavedDuotone, BookmarkDuotone as SavedDuotoneIcon } from './chunk-XGECU4M7.js';
-export { BookmarkFill, BookmarkFill as BookmarkFillIcon, BookmarkFill as FlagFill, BookmarkFill as FlagFillIcon, BookmarkFill as FoamBookmarkFill, BookmarkFill as FoamFlagFill, BookmarkFill as FoamSavedFill, BookmarkFill as SavedFill, BookmarkFill as SavedFillIcon } from './chunk-L4GH2GD5.js';
-export { Calendar, Calendar as CalendarIcon, Calendar as Date, Calendar as DateIcon, Calendar as Event, Calendar as EventIcon, Calendar as FoamCalendar, Calendar as FoamDate, Calendar as FoamEvent, Calendar as FoamSchedule, Calendar as Schedule, Calendar as ScheduleIcon } from './chunk-HIQ56P7V.js';
-export { CalendarDuotone, CalendarDuotone as CalendarDuotoneIcon, CalendarDuotone as DateDuotone, CalendarDuotone as DateDuotoneIcon, CalendarDuotone as EventDuotone, CalendarDuotone as EventDuotoneIcon, CalendarDuotone as FoamCalendarDuotone, CalendarDuotone as FoamDateDuotone, CalendarDuotone as FoamEventDuotone, CalendarDuotone as FoamScheduleDuotone, CalendarDuotone as ScheduleDuotone, CalendarDuotone as ScheduleDuotoneIcon } from './chunk-XNTAU3FW.js';
-export { CalendarFill, CalendarFill as CalendarFillIcon, CalendarFill as DateFill, CalendarFill as DateFillIcon, CalendarFill as EventFill, CalendarFill as EventFillIcon, CalendarFill as FoamCalendarFill, CalendarFill as FoamDateFill, CalendarFill as FoamEventFill, CalendarFill as FoamScheduleFill, CalendarFill as ScheduleFill, CalendarFill as ScheduleFillIcon } from './chunk-G4T2TDKX.js';
-export { ChartColumnSquare as Analytics, ChartColumnSquare as AnalyticsIcon, ChartColumnSquare as BarChart, ChartColumnSquare as BarChartIcon, ChartColumnSquare, ChartColumnSquare as ChartColumnSquareIcon, ChartColumnSquare as FoamAnalytics, ChartColumnSquare as FoamBarChart, ChartColumnSquare as FoamChartColumnSquare, ChartColumnSquare as FoamGraph, ChartColumnSquare as FoamStats, ChartColumnSquare as Graph, ChartColumnSquare as GraphIcon, ChartColumnSquare as Stats, ChartColumnSquare as StatsIcon } from './chunk-XZBILZUY.js';
-export { ChartColumnSquareDuotone as AnalyticsDuotone, ChartColumnSquareDuotone as AnalyticsDuotoneIcon, ChartColumnSquareDuotone as BarChartDuotone, ChartColumnSquareDuotone as BarChartDuotoneIcon, ChartColumnSquareDuotone, ChartColumnSquareDuotone as ChartColumnSquareDuotoneIcon, ChartColumnSquareDuotone as FoamAnalyticsDuotone, ChartColumnSquareDuotone as FoamBarChartDuotone, ChartColumnSquareDuotone as FoamChartColumnSquareDuotone, ChartColumnSquareDuotone as FoamGraphDuotone, ChartColumnSquareDuotone as FoamStatsDuotone, ChartColumnSquareDuotone as GraphDuotone, ChartColumnSquareDuotone as GraphDuotoneIcon, ChartColumnSquareDuotone as StatsDuotone, ChartColumnSquareDuotone as StatsDuotoneIcon } from './chunk-Z32VWFXQ.js';
-export { BanDuotone, BanDuotone as BanDuotoneIcon, BanDuotone as BlockDuotone, BanDuotone as BlockDuotoneIcon, BanDuotone as FoamBanDuotone, BanDuotone as FoamBlockDuotone, BanDuotone as FoamForbiddenDuotone, BanDuotone as FoamNotAllowedDuotone, BanDuotone as FoamProhibitedDuotone, BanDuotone as ForbiddenDuotone, BanDuotone as ForbiddenDuotoneIcon, BanDuotone as NotAllowedDuotone, BanDuotone as NotAllowedDuotoneIcon, BanDuotone as ProhibitedDuotone, BanDuotone as ProhibitedDuotoneIcon } from './chunk-OBAODTJI.js';
-export { BanFill, BanFill as BanFillIcon, BanFill as BlockFill, BanFill as BlockFillIcon, BanFill as FoamBanFill, BanFill as FoamBlockFill, BanFill as FoamForbiddenFill, BanFill as FoamNotAllowedFill, BanFill as FoamProhibitedFill, BanFill as ForbiddenFill, BanFill as ForbiddenFillIcon, BanFill as NotAllowedFill, BanFill as NotAllowedFillIcon, BanFill as ProhibitedFill, BanFill as ProhibitedFillIcon } from './chunk-TPJO7N5R.js';
-export { Bell as Alarm, Bell as AlarmIcon, Bell, Bell as BellIcon, Bell as FoamAlarm, Bell as FoamBell, Bell as FoamNotification, Bell as Notification, Bell as NotificationIcon } from './chunk-AU3YWVSC.js';
-export { BellDuotone as AlarmDuotone, BellDuotone as AlarmDuotoneIcon, BellDuotone, BellDuotone as BellDuotoneIcon, BellDuotone as FoamAlarmDuotone, BellDuotone as FoamBellDuotone, BellDuotone as FoamNotificationDuotone, BellDuotone as NotificationDuotone, BellDuotone as NotificationDuotoneIcon } from './chunk-C2CYD2KR.js';
-export { BellFill as AlarmFill, BellFill as AlarmFillIcon, BellFill, BellFill as BellFillIcon, BellFill as FoamAlarmFill, BellFill as FoamBellFill, BellFill as FoamNotificationFill, BellFill as NotificationFill, BellFill as NotificationFillIcon } from './chunk-FPEW3UBP.js';
-export { Bold, Bold as BoldIcon, Bold as FoamBold, Bold as FoamStrong, Bold as FoamTextBold, Bold as Strong, Bold as StrongIcon, Bold as TextBold, Bold as TextBoldIcon } from './chunk-7WWH65QX.js';
-export { BoldDuotone, BoldDuotone as BoldDuotoneIcon, BoldDuotone as FoamBoldDuotone, BoldDuotone as FoamStrongDuotone, BoldDuotone as FoamTextBoldDuotone, BoldDuotone as StrongDuotone, BoldDuotone as StrongDuotoneIcon, BoldDuotone as TextBoldDuotone, BoldDuotone as TextBoldDuotoneIcon } from './chunk-S6S3JRVR.js';
-export { BoldFill, BoldFill as BoldFillIcon, BoldFill as FoamBoldFill, BoldFill as FoamStrongFill, BoldFill as FoamTextBoldFill, BoldFill as StrongFill, BoldFill as StrongFillIcon, BoldFill as TextBoldFill, BoldFill as TextBoldFillIcon } from './chunk-KVXOC6ER.js';
-export { ArrowUpYTFill, ArrowUpYTFill as ArrowUpYTFillIcon, ArrowUpYTFill as FoamArrowUpYTFill } from './chunk-Z5WY7SXL.js';
-export { ArrowUpZA, ArrowUpZA as ArrowUpZAIcon, ArrowUpZA as FoamArrowUpZA, ArrowUpZA as FoamSortAlphaDesc, ArrowUpZA as FoamSortZA, ArrowUpZA as SortAlphaDesc, ArrowUpZA as SortAlphaDescIcon, ArrowUpZA as SortZA, ArrowUpZA as SortZAIcon } from './chunk-NZAF76MU.js';
-export { ArrowUpZADuotone, ArrowUpZADuotone as ArrowUpZADuotoneIcon, ArrowUpZADuotone as FoamArrowUpZADuotone, ArrowUpZADuotone as FoamSortAlphaDescDuotone, ArrowUpZADuotone as FoamSortZADuotone, ArrowUpZADuotone as SortAlphaDescDuotone, ArrowUpZADuotone as SortAlphaDescDuotoneIcon, ArrowUpZADuotone as SortZADuotone, ArrowUpZADuotone as SortZADuotoneIcon } from './chunk-U5DDTC42.js';
-export { ArrowUpZAFill, ArrowUpZAFill as ArrowUpZAFillIcon, ArrowUpZAFill as FoamArrowUpZAFill, ArrowUpZAFill as FoamSortAlphaDescFill, ArrowUpZAFill as FoamSortZAFill, ArrowUpZAFill as SortAlphaDescFill, ArrowUpZAFill as SortAlphaDescFillIcon, ArrowUpZAFill as SortZAFill, ArrowUpZAFill as SortZAFillIcon } from './chunk-MJWLHLJH.js';
-export { AtSign, AtSign as AtSignIcon, AtSign as FoamAtSign } from './chunk-WZSKLVV2.js';
-export { AtSignDuotone, AtSignDuotone as AtSignDuotoneIcon, AtSignDuotone as FoamAtSignDuotone } from './chunk-PQE6FLIN.js';
-export { AtSignFill, AtSignFill as AtSignFillIcon, AtSignFill as FoamAtSignFill } from './chunk-LXEA3OPR.js';
-export { Ban, Ban as BanIcon, Ban as Block, Ban as BlockIcon, Ban as FoamBan, Ban as FoamBlock, Ban as FoamForbidden, Ban as FoamNotAllowed, Ban as FoamProhibited, Ban as Forbidden, Ban as ForbiddenIcon, Ban as NotAllowed, Ban as NotAllowedIcon, Ban as Prohibited, Ban as ProhibitedIcon } from './chunk-AVQU4X7M.js';
-export { ArrowUpTT, ArrowUpTT as ArrowUpTTIcon, ArrowUpTT as FoamArrowUpTT } from './chunk-UPHXJMPN.js';
-export { ArrowUpTTDuotone, ArrowUpTTDuotone as ArrowUpTTDuotoneIcon, ArrowUpTTDuotone as FoamArrowUpTTDuotone } from './chunk-VXUUKGFE.js';
-export { ArrowUpTTFill, ArrowUpTTFill as ArrowUpTTFillIcon, ArrowUpTTFill as FoamArrowUpTTFill } from './chunk-6A2IAQYU.js';
-export { ArrowUpWideNarrow, ArrowUpWideNarrow as ArrowUpWideNarrowIcon, ArrowUpWideNarrow as FoamArrowUpWideNarrow, ArrowUpWideNarrow as FoamSortDesc, ArrowUpWideNarrow as FoamSortDescending, ArrowUpWideNarrow as SortDesc, ArrowUpWideNarrow as SortDescIcon, ArrowUpWideNarrow as SortDescending, ArrowUpWideNarrow as SortDescendingIcon } from './chunk-QWA3EMYU.js';
-export { ArrowUpWideNarrowDuotone, ArrowUpWideNarrowDuotone as ArrowUpWideNarrowDuotoneIcon, ArrowUpWideNarrowDuotone as FoamArrowUpWideNarrowDuotone, ArrowUpWideNarrowDuotone as FoamSortDescDuotone, ArrowUpWideNarrowDuotone as FoamSortDescendingDuotone, ArrowUpWideNarrowDuotone as SortDescDuotone, ArrowUpWideNarrowDuotone as SortDescDuotoneIcon, ArrowUpWideNarrowDuotone as SortDescendingDuotone, ArrowUpWideNarrowDuotone as SortDescendingDuotoneIcon } from './chunk-LAJNXLGE.js';
-export { ArrowUpWideNarrowFill, ArrowUpWideNarrowFill as ArrowUpWideNarrowFillIcon, ArrowUpWideNarrowFill as FoamArrowUpWideNarrowFill, ArrowUpWideNarrowFill as FoamSortDescFill, ArrowUpWideNarrowFill as FoamSortDescendingFill, ArrowUpWideNarrowFill as SortDescFill, ArrowUpWideNarrowFill as SortDescFillIcon, ArrowUpWideNarrowFill as SortDescendingFill, ArrowUpWideNarrowFill as SortDescendingFillIcon } from './chunk-M7G2ZEKC.js';
-export { ArrowUpYT, ArrowUpYT as ArrowUpYTIcon, ArrowUpYT as FoamArrowUpYT } from './chunk-4N6JL3AZ.js';
-export { ArrowUpYTDuotone, ArrowUpYTDuotone as ArrowUpYTDuotoneIcon, ArrowUpYTDuotone as FoamArrowUpYTDuotone } from './chunk-2MT3FADQ.js';
-export { ArrowUpIGDuotone, ArrowUpIGDuotone as ArrowUpIGDuotoneIcon, ArrowUpIGDuotone as FoamArrowUpIGDuotone, ArrowUpIGDuotone as FoamIgUpDuotone, ArrowUpIGDuotone as FoamInstagramUpDuotone, ArrowUpIGDuotone as IgUpDuotone, ArrowUpIGDuotone as IgUpDuotoneIcon, ArrowUpIGDuotone as InstagramUpDuotone, ArrowUpIGDuotone as InstagramUpDuotoneIcon } from './chunk-DTTVPXXU.js';
-export { ArrowUpIGFill, ArrowUpIGFill as ArrowUpIGFillIcon, ArrowUpIGFill as FoamArrowUpIGFill, ArrowUpIGFill as FoamIgUpFill, ArrowUpIGFill as FoamInstagramUpFill, ArrowUpIGFill as IgUpFill, ArrowUpIGFill as IgUpFillIcon, ArrowUpIGFill as InstagramUpFill, ArrowUpIGFill as InstagramUpFillIcon } from './chunk-5XDW3ER7.js';
-export { ArrowUpNarrowWide, ArrowUpNarrowWide as ArrowUpNarrowWideIcon, ArrowUpNarrowWide as FoamArrowUpNarrowWide, ArrowUpNarrowWide as FoamSortAscAlt, ArrowUpNarrowWide as SortAscAlt, ArrowUpNarrowWide as SortAscAltIcon } from './chunk-J5N3WVIT.js';
-export { ArrowUpNarrowWideDuotone, ArrowUpNarrowWideDuotone as ArrowUpNarrowWideDuotoneIcon, ArrowUpNarrowWideDuotone as FoamArrowUpNarrowWideDuotone, ArrowUpNarrowWideDuotone as FoamSortAscAltDuotone, ArrowUpNarrowWideDuotone as SortAscAltDuotone, ArrowUpNarrowWideDuotone as SortAscAltDuotoneIcon } from './chunk-D54RO4TF.js';
-export { ArrowUpNarrowWideFill, ArrowUpNarrowWideFill as ArrowUpNarrowWideFillIcon, ArrowUpNarrowWideFill as FoamArrowUpNarrowWideFill, ArrowUpNarrowWideFill as FoamSortAscAltFill, ArrowUpNarrowWideFill as SortAscAltFill, ArrowUpNarrowWideFill as SortAscAltFillIcon } from './chunk-NS6IVX2N.js';
-export { ArrowUpSC, ArrowUpSC as ArrowUpSCIcon, ArrowUpSC as FoamArrowUpSC } from './chunk-XPTFMK7V.js';
-export { ArrowUpSCDuotone, ArrowUpSCDuotone as ArrowUpSCDuotoneIcon, ArrowUpSCDuotone as FoamArrowUpSCDuotone } from './chunk-EJB2MJPR.js';
-export { ArrowUpSCFill, ArrowUpSCFill as ArrowUpSCFillIcon, ArrowUpSCFill as FoamArrowUpSCFill } from './chunk-TIMRMISA.js';
-export { ArrowRightToLineFill, ArrowRightToLineFill as ArrowRightToLineFillIcon, ArrowRightToLineFill as FoamArrowRightToLineFill, ArrowRightToLineFill as FoamFoldFill, ArrowRightToLineFill as FoamIndentFill, ArrowRightToLineFill as FoldFill, ArrowRightToLineFill as FoldFillIcon, ArrowRightToLineFill as IndentFill, ArrowRightToLineFill as IndentFillIcon } from './chunk-QZR4VPMT.js';
-export { ArrowUp, ArrowUp as ArrowUpIcon, ArrowUp as FoamArrowUp, ArrowUp as FoamNorth, ArrowUp as FoamUp, ArrowUp as North, ArrowUp as NorthIcon, ArrowUp as Up, ArrowUp as UpIcon } from './chunk-O4HRAJPE.js';
-export { ArrowUpAZ, ArrowUpAZ as ArrowUpAZIcon, ArrowUpAZ as FoamArrowUpAZ, ArrowUpAZ as FoamSortAZ, ArrowUpAZ as FoamSortAlphaAsc, ArrowUpAZ as SortAZ, ArrowUpAZ as SortAZIcon, ArrowUpAZ as SortAlphaAsc, ArrowUpAZ as SortAlphaAscIcon } from './chunk-SSM56IFU.js';
-export { ArrowUpAZDuotone, ArrowUpAZDuotone as ArrowUpAZDuotoneIcon, ArrowUpAZDuotone as FoamArrowUpAZDuotone, ArrowUpAZDuotone as FoamSortAZDuotone, ArrowUpAZDuotone as FoamSortAlphaAscDuotone, ArrowUpAZDuotone as SortAZDuotone, ArrowUpAZDuotone as SortAZDuotoneIcon, ArrowUpAZDuotone as SortAlphaAscDuotone, ArrowUpAZDuotone as SortAlphaAscDuotoneIcon } from './chunk-EVJX22AW.js';
-export { ArrowUpAZFill, ArrowUpAZFill as ArrowUpAZFillIcon, ArrowUpAZFill as FoamArrowUpAZFill, ArrowUpAZFill as FoamSortAZFill, ArrowUpAZFill as FoamSortAlphaAscFill, ArrowUpAZFill as SortAZFill, ArrowUpAZFill as SortAZFillIcon, ArrowUpAZFill as SortAlphaAscFill, ArrowUpAZFill as SortAlphaAscFillIcon } from './chunk-2LAXDYHZ.js';
-export { ArrowUpDuotone, ArrowUpDuotone as ArrowUpDuotoneIcon, ArrowUpDuotone as FoamArrowUpDuotone, ArrowUpDuotone as FoamNorthDuotone, ArrowUpDuotone as FoamUpDuotone, ArrowUpDuotone as NorthDuotone, ArrowUpDuotone as NorthDuotoneIcon, ArrowUpDuotone as UpDuotone, ArrowUpDuotone as UpDuotoneIcon } from './chunk-4D743ND3.js';
-export { ArrowUpFill, ArrowUpFill as ArrowUpFillIcon, ArrowUpFill as FoamArrowUpFill, ArrowUpFill as FoamNorthFill, ArrowUpFill as FoamUpFill, ArrowUpFill as NorthFill, ArrowUpFill as NorthFillIcon, ArrowUpFill as UpFill, ArrowUpFill as UpFillIcon } from './chunk-7FJRE3HN.js';
-export { ArrowUpIG, ArrowUpIG as ArrowUpIGIcon, ArrowUpIG as FoamArrowUpIG, ArrowUpIG as FoamIgUp, ArrowUpIG as FoamInstagramUp, ArrowUpIG as IgUp, ArrowUpIG as IgUpIcon, ArrowUpIG as InstagramUp, ArrowUpIG as InstagramUpIcon } from './chunk-XYFL2KMB.js';
-export { ArrowLeft, ArrowLeft as ArrowLeftIcon, ArrowLeft as Back, ArrowLeft as BackIcon, ArrowLeft as FoamArrowLeft, ArrowLeft as FoamBack, ArrowLeft as FoamLeft, ArrowLeft as FoamPrevious, ArrowLeft as FoamWest, ArrowLeft as Left, ArrowLeft as LeftIcon, ArrowLeft as Previous, ArrowLeft as PreviousIcon, ArrowLeft as West, ArrowLeft as WestIcon } from './chunk-ZGCSWYDL.js';
-export { ArrowLeftDuotone, ArrowLeftDuotone as ArrowLeftDuotoneIcon, ArrowLeftDuotone as BackDuotone, ArrowLeftDuotone as BackDuotoneIcon, ArrowLeftDuotone as FoamArrowLeftDuotone, ArrowLeftDuotone as FoamBackDuotone, ArrowLeftDuotone as FoamLeftDuotone, ArrowLeftDuotone as FoamPreviousDuotone, ArrowLeftDuotone as FoamWestDuotone, ArrowLeftDuotone as LeftDuotone, ArrowLeftDuotone as LeftDuotoneIcon, ArrowLeftDuotone as PreviousDuotone, ArrowLeftDuotone as PreviousDuotoneIcon, ArrowLeftDuotone as WestDuotone, ArrowLeftDuotone as WestDuotoneIcon } from './chunk-W7IKZYVE.js';
-export { ArrowLeftFill, ArrowLeftFill as ArrowLeftFillIcon, ArrowLeftFill as BackFill, ArrowLeftFill as BackFillIcon, ArrowLeftFill as FoamArrowLeftFill, ArrowLeftFill as FoamBackFill, ArrowLeftFill as FoamLeftFill, ArrowLeftFill as FoamPreviousFill, ArrowLeftFill as FoamWestFill, ArrowLeftFill as LeftFill, ArrowLeftFill as LeftFillIcon, ArrowLeftFill as PreviousFill, ArrowLeftFill as PreviousFillIcon, ArrowLeftFill as WestFill, ArrowLeftFill as WestFillIcon } from './chunk-7OFPLADN.js';
-export { ArrowRight, ArrowRight as ArrowRightIcon, ArrowRight as East, ArrowRight as EastIcon, ArrowRight as FoamArrowRight, ArrowRight as FoamEast, ArrowRight as FoamNext, ArrowRight as FoamRight, ArrowRight as Next, ArrowRight as NextIcon, ArrowRight as Right, ArrowRight as RightIcon } from './chunk-NZDKH6AW.js';
-export { ArrowRightDuotone, ArrowRightDuotone as ArrowRightDuotoneIcon, ArrowRightDuotone as EastDuotone, ArrowRightDuotone as EastDuotoneIcon, ArrowRightDuotone as FoamArrowRightDuotone, ArrowRightDuotone as FoamEastDuotone, ArrowRightDuotone as FoamNextDuotone, ArrowRightDuotone as FoamRightDuotone, ArrowRightDuotone as NextDuotone, ArrowRightDuotone as NextDuotoneIcon, ArrowRightDuotone as RightDuotone, ArrowRightDuotone as RightDuotoneIcon } from './chunk-ZGYMQ4CT.js';
-export { ArrowRightFill, ArrowRightFill as ArrowRightFillIcon, ArrowRightFill as EastFill, ArrowRightFill as EastFillIcon, ArrowRightFill as FoamArrowRightFill, ArrowRightFill as FoamEastFill, ArrowRightFill as FoamNextFill, ArrowRightFill as FoamRightFill, ArrowRightFill as NextFill, ArrowRightFill as NextFillIcon, ArrowRightFill as RightFill, ArrowRightFill as RightFillIcon } from './chunk-MHVGVCZD.js';
-export { ArrowRightToLine, ArrowRightToLine as ArrowRightToLineIcon, ArrowRightToLine as FoamArrowRightToLine, ArrowRightToLine as FoamFold, ArrowRightToLine as FoamIndent, ArrowRightToLine as Fold, ArrowRightToLine as FoldIcon, ArrowRightToLine as Indent, ArrowRightToLine as IndentIcon } from './chunk-RWZZCEXA.js';
-export { ArrowRightToLineDuotone, ArrowRightToLineDuotone as ArrowRightToLineDuotoneIcon, ArrowRightToLineDuotone as FoamArrowRightToLineDuotone, ArrowRightToLineDuotone as FoamFoldDuotone, ArrowRightToLineDuotone as FoamIndentDuotone, ArrowRightToLineDuotone as FoldDuotone, ArrowRightToLineDuotone as FoldDuotoneIcon, ArrowRightToLineDuotone as IndentDuotone, ArrowRightToLineDuotone as IndentDuotoneIcon } from './chunk-WOPBRSPC.js';
-export { ArrowDownUpDuotone, ArrowDownUpDuotone as ArrowDownUpDuotoneIcon, ArrowDownUpDuotone as FoamArrowDownUpDuotone, ArrowDownUpDuotone as FoamReorderDuotone, ArrowDownUpDuotone as FoamSortDuotone, ArrowDownUpDuotone as FoamSwapDuotone, ArrowDownUpDuotone as ReorderDuotone, ArrowDownUpDuotone as ReorderDuotoneIcon, ArrowDownUpDuotone as SortDuotone, ArrowDownUpDuotone as SortDuotoneIcon, ArrowDownUpDuotone as SwapDuotone, ArrowDownUpDuotone as SwapDuotoneIcon } from './chunk-ZVDGDJRA.js';
-export { ArrowDownUpFill, ArrowDownUpFill as ArrowDownUpFillIcon, ArrowDownUpFill as FoamArrowDownUpFill, ArrowDownUpFill as FoamReorderFill, ArrowDownUpFill as FoamSortFill, ArrowDownUpFill as FoamSwapFill, ArrowDownUpFill as ReorderFill, ArrowDownUpFill as ReorderFillIcon, ArrowDownUpFill as SortFill, ArrowDownUpFill as SortFillIcon, ArrowDownUpFill as SwapFill, ArrowDownUpFill as SwapFillIcon } from './chunk-TEASY2U7.js';
-export { ArrowDownWideNarrow, ArrowDownWideNarrow as ArrowDownWideNarrowIcon, ArrowDownWideNarrow as FoamArrowDownWideNarrow, ArrowDownWideNarrow as FoamSortDescAlt, ArrowDownWideNarrow as SortDescAlt, ArrowDownWideNarrow as SortDescAltIcon } from './chunk-M6OV5CAQ.js';
-export { ArrowDownWideNarrowDuotone, ArrowDownWideNarrowDuotone as ArrowDownWideNarrowDuotoneIcon, ArrowDownWideNarrowDuotone as FoamArrowDownWideNarrowDuotone, ArrowDownWideNarrowDuotone as FoamSortDescAltDuotone, ArrowDownWideNarrowDuotone as SortDescAltDuotone, ArrowDownWideNarrowDuotone as SortDescAltDuotoneIcon } from './chunk-PJ7MRD4R.js';
-export { ArrowDownWideNarrowFill, ArrowDownWideNarrowFill as ArrowDownWideNarrowFillIcon, ArrowDownWideNarrowFill as FoamArrowDownWideNarrowFill, ArrowDownWideNarrowFill as FoamSortDescAltFill, ArrowDownWideNarrowFill as SortDescAltFill, ArrowDownWideNarrowFill as SortDescAltFillIcon } from './chunk-FVU2O7AK.js';
-export { ArrowDownYT, ArrowDownYT as ArrowDownYTIcon, ArrowDownYT as FoamArrowDownYT, ArrowDownYT as FoamYoutube, ArrowDownYT as Youtube, ArrowDownYT as YoutubeIcon } from './chunk-UVHZR7HI.js';
-export { ArrowDownYTDuotone, ArrowDownYTDuotone as ArrowDownYTDuotoneIcon, ArrowDownYTDuotone as FoamArrowDownYTDuotone, ArrowDownYTDuotone as FoamYoutubeDuotone, ArrowDownYTDuotone as YoutubeDuotone, ArrowDownYTDuotone as YoutubeDuotoneIcon } from './chunk-CCVZQM7B.js';
-export { ArrowDownYTFill, ArrowDownYTFill as ArrowDownYTFillIcon, ArrowDownYTFill as FoamArrowDownYTFill, ArrowDownYTFill as FoamYoutubeFill, ArrowDownYTFill as YoutubeFill, ArrowDownYTFill as YoutubeFillIcon } from './chunk-EUX7IVZP.js';
-export { ArrowDownNarrowWideFill, ArrowDownNarrowWideFill as ArrowDownNarrowWideFillIcon, ArrowDownNarrowWideFill as FoamArrowDownNarrowWideFill, ArrowDownNarrowWideFill as FoamSortAscFill, ArrowDownNarrowWideFill as FoamSortAscendingFill, ArrowDownNarrowWideFill as SortAscFill, ArrowDownNarrowWideFill as SortAscFillIcon, ArrowDownNarrowWideFill as SortAscendingFill, ArrowDownNarrowWideFill as SortAscendingFillIcon } from './chunk-RQM2C7FC.js';
-export { ArrowDownSC, ArrowDownSC as ArrowDownSCIcon, ArrowDownSC as FoamArrowDownSC, ArrowDownSC as FoamSnapchat, ArrowDownSC as Snapchat, ArrowDownSC as SnapchatIcon } from './chunk-ML56Z5HK.js';
-export { ArrowDownSCDuotone, ArrowDownSCDuotone as ArrowDownSCDuotoneIcon, ArrowDownSCDuotone as FoamArrowDownSCDuotone, ArrowDownSCDuotone as FoamSnapchatDuotone, ArrowDownSCDuotone as SnapchatDuotone, ArrowDownSCDuotone as SnapchatDuotoneIcon } from './chunk-DW32Q4HA.js';
-export { ArrowDownSCFill, ArrowDownSCFill as ArrowDownSCFillIcon, ArrowDownSCFill as FoamArrowDownSCFill, ArrowDownSCFill as FoamSnapchatFill, ArrowDownSCFill as SnapchatFill, ArrowDownSCFill as SnapchatFillIcon } from './chunk-I55375PK.js';
-export { ArrowDownTT, ArrowDownTT as ArrowDownTTIcon, ArrowDownTT as FoamArrowDownTT, ArrowDownTT as FoamTiktok, ArrowDownTT as Tiktok, ArrowDownTT as TiktokIcon } from './chunk-NGEERVBC.js';
-export { ArrowDownTTDuotone, ArrowDownTTDuotone as ArrowDownTTDuotoneIcon, ArrowDownTTDuotone as FoamArrowDownTTDuotone, ArrowDownTTDuotone as FoamTiktokDuotone, ArrowDownTTDuotone as TiktokDuotone, ArrowDownTTDuotone as TiktokDuotoneIcon } from './chunk-JRKJG7A5.js';
-export { ArrowDownTTFill, ArrowDownTTFill as ArrowDownTTFillIcon, ArrowDownTTFill as FoamArrowDownTTFill, ArrowDownTTFill as FoamTiktokFill, ArrowDownTTFill as TiktokFill, ArrowDownTTFill as TiktokFillIcon } from './chunk-4AVZCZAF.js';
-export { ArrowDownUp, ArrowDownUp as ArrowDownUpIcon, ArrowDownUp as FoamArrowDownUp, ArrowDownUp as FoamReorder, ArrowDownUp as FoamSort, ArrowDownUp as FoamSwap, ArrowDownUp as Reorder, ArrowDownUp as ReorderIcon, ArrowDownUp as Sort, ArrowDownUp as SortIcon, ArrowDownUp as Swap, ArrowDownUp as SwapIcon } from './chunk-SZ3IQNNZ.js';
-export { ArrowDown10Fill, ArrowDown10Fill as ArrowDown10FillIcon, ArrowDown10Fill as FoamArrowDown10Fill } from './chunk-NOAWFHAU.js';
-export { ArrowDownDuotone, ArrowDownDuotone as ArrowDownDuotoneIcon, ArrowDownDuotone as DownDuotone, ArrowDownDuotone as DownDuotoneIcon, ArrowDownDuotone as FoamArrowDownDuotone, ArrowDownDuotone as FoamDownDuotone, ArrowDownDuotone as FoamSouthDuotone, ArrowDownDuotone as SouthDuotone, ArrowDownDuotone as SouthDuotoneIcon } from './chunk-R273TBOI.js';
-export { ArrowDownFill, ArrowDownFill as ArrowDownFillIcon, ArrowDownFill as DownFill, ArrowDownFill as DownFillIcon, ArrowDownFill as FoamArrowDownFill, ArrowDownFill as FoamDownFill, ArrowDownFill as FoamSouthFill, ArrowDownFill as SouthFill, ArrowDownFill as SouthFillIcon } from './chunk-HD7VH4HM.js';
-export { ArrowDownIG, ArrowDownIG as ArrowDownIGIcon, ArrowDownIG as FoamArrowDownIG, ArrowDownIG as FoamIgDown, ArrowDownIG as FoamInstagramDown, ArrowDownIG as IgDown, ArrowDownIG as IgDownIcon, ArrowDownIG as InstagramDown, ArrowDownIG as InstagramDownIcon } from './chunk-EKWTCVYF.js';
-export { ArrowDownIGDuotone, ArrowDownIGDuotone as ArrowDownIGDuotoneIcon, ArrowDownIGDuotone as FoamArrowDownIGDuotone, ArrowDownIGDuotone as FoamIgDownDuotone, ArrowDownIGDuotone as FoamInstagramDownDuotone, ArrowDownIGDuotone as IgDownDuotone, ArrowDownIGDuotone as IgDownDuotoneIcon, ArrowDownIGDuotone as InstagramDownDuotone, ArrowDownIGDuotone as InstagramDownDuotoneIcon } from './chunk-RI66UJKN.js';
-export { ArrowDownIGFill, ArrowDownIGFill as ArrowDownIGFillIcon, ArrowDownIGFill as FoamArrowDownIGFill, ArrowDownIGFill as FoamIgDownFill, ArrowDownIGFill as FoamInstagramDownFill, ArrowDownIGFill as IgDownFill, ArrowDownIGFill as IgDownFillIcon, ArrowDownIGFill as InstagramDownFill, ArrowDownIGFill as InstagramDownFillIcon } from './chunk-BSSZES5X.js';
-export { ArrowDownNarrowWide, ArrowDownNarrowWide as ArrowDownNarrowWideIcon, ArrowDownNarrowWide as FoamArrowDownNarrowWide, ArrowDownNarrowWide as FoamSortAsc, ArrowDownNarrowWide as FoamSortAscending, ArrowDownNarrowWide as SortAsc, ArrowDownNarrowWide as SortAscIcon, ArrowDownNarrowWide as SortAscending, ArrowDownNarrowWide as SortAscendingIcon } from './chunk-KBRW7UQO.js';
-export { ArrowDownNarrowWideDuotone, ArrowDownNarrowWideDuotone as ArrowDownNarrowWideDuotoneIcon, ArrowDownNarrowWideDuotone as FoamArrowDownNarrowWideDuotone, ArrowDownNarrowWideDuotone as FoamSortAscDuotone, ArrowDownNarrowWideDuotone as FoamSortAscendingDuotone, ArrowDownNarrowWideDuotone as SortAscDuotone, ArrowDownNarrowWideDuotone as SortAscDuotoneIcon, ArrowDownNarrowWideDuotone as SortAscendingDuotone, ArrowDownNarrowWideDuotone as SortAscendingDuotoneIcon } from './chunk-H4VFQ7FS.js';
-export { ArchiveDuotone, ArchiveDuotone as ArchiveDuotoneIcon, ArchiveDuotone as BoxDuotone, ArchiveDuotone as BoxDuotoneIcon, ArchiveDuotone as FoamArchiveDuotone, ArchiveDuotone as FoamBoxDuotone, ArchiveDuotone as FoamStorageDuotone, ArchiveDuotone as StorageDuotone, ArchiveDuotone as StorageDuotoneIcon } from './chunk-A6TNS7TR.js';
-export { ArchiveFill, ArchiveFill as ArchiveFillIcon, ArchiveFill as BoxFill, ArchiveFill as BoxFillIcon, ArchiveFill as FoamArchiveFill, ArchiveFill as FoamBoxFill, ArchiveFill as FoamStorageFill, ArchiveFill as StorageFill, ArchiveFill as StorageFillIcon } from './chunk-LKYFF37Z.js';
-export { ArrowDown, ArrowDown as ArrowDownIcon, ArrowDown as Down, ArrowDown as DownIcon, ArrowDown as FoamArrowDown, ArrowDown as FoamDown, ArrowDown as FoamSouth, ArrowDown as South, ArrowDown as SouthIcon } from './chunk-LPNZBL4Y.js';
-export { ArrowDown01, ArrowDown01 as ArrowDown01Icon, ArrowDown01 as Descending, ArrowDown01 as DescendingIcon, ArrowDown01 as FoamArrowDown01, ArrowDown01 as FoamDescending, ArrowDown01 as FoamSortNumeric, ArrowDown01 as SortNumeric, ArrowDown01 as SortNumericIcon } from './chunk-QAEKVWAB.js';
-export { ArrowDown01Duotone, ArrowDown01Duotone as ArrowDown01DuotoneIcon, ArrowDown01Duotone as DescendingDuotone, ArrowDown01Duotone as DescendingDuotoneIcon, ArrowDown01Duotone as FoamArrowDown01Duotone, ArrowDown01Duotone as FoamDescendingDuotone, ArrowDown01Duotone as FoamSortNumericDuotone, ArrowDown01Duotone as SortNumericDuotone, ArrowDown01Duotone as SortNumericDuotoneIcon } from './chunk-3YXR4GL6.js';
-export { ArrowDown01Fill, ArrowDown01Fill as ArrowDown01FillIcon, ArrowDown01Fill as DescendingFill, ArrowDown01Fill as DescendingFillIcon, ArrowDown01Fill as FoamArrowDown01Fill, ArrowDown01Fill as FoamDescendingFill, ArrowDown01Fill as FoamSortNumericFill, ArrowDown01Fill as SortNumericFill, ArrowDown01Fill as SortNumericFillIcon } from './chunk-DKAQQ5CV.js';
-export { ArrowDown10, ArrowDown10 as ArrowDown10Icon, ArrowDown10 as FoamArrowDown10 } from './chunk-M3U5MTAP.js';
-export { ArrowDown10Duotone, ArrowDown10Duotone as ArrowDown10DuotoneIcon, ArrowDown10Duotone as FoamArrowDown10Duotone } from './chunk-XTEI2IPA.js';
-export { Alert, Alert as AlertIcon, Alert as Attention, Alert as AttentionIcon, Alert as Caution, Alert as CautionIcon, Alert as FoamAlert, Alert as FoamAttention, Alert as FoamCaution, Alert as FoamWarning, Alert as Warning, Alert as WarningIcon } from './chunk-5RRYODMH.js';
-export { AlertDuotone, AlertDuotone as AlertDuotoneIcon, AlertDuotone as AttentionDuotone, AlertDuotone as AttentionDuotoneIcon, AlertDuotone as CautionDuotone, AlertDuotone as CautionDuotoneIcon, AlertDuotone as FoamAlertDuotone, AlertDuotone as FoamAttentionDuotone, AlertDuotone as FoamCautionDuotone, AlertDuotone as FoamWarningDuotone, AlertDuotone as WarningDuotone, AlertDuotone as WarningDuotoneIcon } from './chunk-PV5U7J3H.js';
-export { AlertFill, AlertFill as AlertFillIcon, AlertFill as AttentionFill, AlertFill as AttentionFillIcon, AlertFill as CautionFill, AlertFill as CautionFillIcon, AlertFill as FoamAlertFill, AlertFill as FoamAttentionFill, AlertFill as FoamCautionFill, AlertFill as FoamWarningFill, AlertFill as WarningFill, AlertFill as WarningFillIcon } from './chunk-5OF4TPWQ.js';
-export { Archive, Archive as ArchiveIcon, Archive as Box, Archive as BoxIcon, Archive as FoamArchive, Archive as FoamBox, Archive as FoamStorage, Archive as Storage, Archive as StorageIcon } from './chunk-AFZNVNA7.js';
-export { ArchiveArrowUp, ArchiveArrowUp as ArchiveArrowUpIcon, ArchiveArrowUp as Ascending, ArchiveArrowUp as AscendingIcon, ArchiveArrowUp as Direction, ArchiveArrowUp as DirectionIcon, ArchiveArrowUp as FoamArchiveArrowUp, ArchiveArrowUp as FoamAscending, ArchiveArrowUp as FoamDirection } from './chunk-FSTZJANK.js';
-export { ArchiveArrowUpDuotone, ArchiveArrowUpDuotone as ArchiveArrowUpDuotoneIcon, ArchiveArrowUpDuotone as AscendingDuotone, ArchiveArrowUpDuotone as AscendingDuotoneIcon, ArchiveArrowUpDuotone as DirectionDuotone, ArchiveArrowUpDuotone as DirectionDuotoneIcon, ArchiveArrowUpDuotone as FoamArchiveArrowUpDuotone, ArchiveArrowUpDuotone as FoamAscendingDuotone, ArchiveArrowUpDuotone as FoamDirectionDuotone } from './chunk-OVF7WKMY.js';
-export { ArchiveArrowUpFill, ArchiveArrowUpFill as ArchiveArrowUpFillIcon, ArchiveArrowUpFill as AscendingFill, ArchiveArrowUpFill as AscendingFillIcon, ArchiveArrowUpFill as DirectionFill, ArchiveArrowUpFill as DirectionFillIcon, ArchiveArrowUpFill as FoamArchiveArrowUpFill, ArchiveArrowUpFill as FoamAscendingFill, ArchiveArrowUpFill as FoamDirectionFill } from './chunk-BPK6Z3GL.js';
-export { Icon, createFoamicon } from './chunk-RYVBNFJH.js';
+import { forwardRef, createElement } from 'react';
+
+// src/createFoamicon.tsx
+var DEFAULT_SIZE = 16;
+function renderIconElement(element) {
+  const [tag, attrs, children] = element;
+  if (children && children.length > 0) {
+    return createElement(
+      tag,
+      attrs,
+      children.map((child) => renderIconElement(child))
+    );
+  }
+  return createElement(tag, attrs);
+}
+var Icon = forwardRef(
+  ({
+    color = "currentColor",
+    size = DEFAULT_SIZE,
+    strokeWidth = 1,
+    absoluteStrokeWidth = true,
+    secondaryColor,
+    secondaryOpacity,
+    className = "",
+    style,
+    iconNode,
+    iconName,
+    children,
+    ...rest
+  }, ref) => {
+    const iconStyle = {
+      ...style,
+      ...secondaryColor !== void 0 && {
+        ["--foamicon-secondary-color"]: secondaryColor
+      },
+      ...secondaryOpacity !== void 0 && {
+        ["--foamicon-secondary-opacity"]: secondaryOpacity
+      }
+    };
+    return createElement(
+      "svg",
+      {
+        ref,
+        xmlns: "http://www.w3.org/2000/svg",
+        ...size !== void 0 && { width: size, height: size },
+        viewBox: "0 0 16 16",
+        fill: "none",
+        stroke: color,
+        strokeWidth: absoluteStrokeWidth && size !== void 0 ? Number(strokeWidth) * DEFAULT_SIZE / Number(size) : strokeWidth,
+        className: ["foamicon", `foamicon-${iconName}`, className].filter(Boolean).join(" "),
+        "aria-hidden": true,
+        style: Object.keys(iconStyle).length > 0 ? iconStyle : void 0,
+        ...rest
+      },
+      [
+        ...iconNode.map((element) => renderIconElement(element)),
+        ...Array.isArray(children) ? children : children ? [children] : []
+      ]
+    );
+  }
+);
+Icon.displayName = "Icon";
+
+// src/createFoamicon.tsx
+var createFoamicon = (name, iconNode) => {
+  const Component = forwardRef(
+    (props, ref) => createElement(Icon, {
+      ref,
+      iconNode,
+      iconName: toKebabCase(name),
+      ...props
+    })
+  );
+  Component.displayName = name;
+  return Component;
+};
+function toKebabCase(str) {
+  return str.replace(/([a-z])([A-Z])/g, "$1-$2").toLowerCase();
+}
+
+// src/icons/AlertDuotone.tsx
+var __iconNode = [
+  [
+    "path",
+    {
+      d: "M11.25 7.75C11.9574 8.92444 12.7917 10.5497 13.3543 11.6796C13.6688 12.3112 13.2374 13.0502 12.5329 13.0897C11.256 13.1614 9.39596 13.25 8 13.25C6.60404 13.25 4.74404 13.1614 3.46706 13.0897C2.76259 13.0502 2.33116 12.3112 2.64567 11.6796C3.20829 10.5497 4.04258 8.92444 4.75 7.75C5.45152 6.58536 6.49354 5.09165 7.20742 4.09313C7.59827 3.54644 8.40173 3.54644 8.79258 4.09313C9.50646 5.09165 10.5485 6.58536 11.25 7.75Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "lvj036"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 9V11.4873",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "k6k2eu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99667 6.875H8.00333Z",
+      fill: "currentColor",
+      key: "wdxwns"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99667 6.875H8.00333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y5cwqm"
+    }
+  ]
+];
+var AlertDuotone = createFoamicon("AlertDuotone", __iconNode);
+
+// src/icons/AlertFill.tsx
+var __iconNode2 = [
+  [
+    "path",
+    {
+      d: "M11.25 7.75C11.9574 8.92444 12.7917 10.5497 13.3543 11.6796C13.6688 12.3112 13.2374 13.0502 12.5329 13.0897C11.256 13.1614 9.39596 13.25 8 13.25C6.60404 13.25 4.74404 13.1614 3.46706 13.0897C2.76259 13.0502 2.33116 12.3112 2.64567 11.6796C3.20829 10.5497 4.04258 8.92444 4.75 7.75C5.45152 6.58536 6.49354 5.09165 7.20742 4.09313C7.59827 3.54644 8.40173 3.54644 8.79258 4.09313C9.50646 5.09165 10.5485 6.58536 11.25 7.75Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1x9an2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 9V11.4873",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gm48gl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99667 6.875H8.00334Z",
+      fill: "#003784",
+      key: "8l43xm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99667 6.875H8.00334",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "k2zwo"
+    }
+  ]
+];
+var AlertFill = createFoamicon("AlertFill", __iconNode2);
+
+// src/icons/Alert.tsx
+var __iconNode3 = [
+  [
+    "path",
+    {
+      d: "M11.25 7.75C11.9574 8.92444 12.7917 10.5497 13.3543 11.6796C13.6688 12.3112 13.2374 13.0502 12.5329 13.0897C11.256 13.1614 9.39596 13.25 8 13.25C6.60404 13.25 4.74404 13.1614 3.46706 13.0897C2.76259 13.0502 2.33116 12.3112 2.64567 11.6796C3.20829 10.5497 4.04258 8.92444 4.75 7.75C5.45152 6.58536 6.49354 5.09165 7.20742 4.09313C7.59827 3.54644 8.40173 3.54644 8.79258 4.09313C9.50646 5.09165 10.5485 6.58536 11.25 7.75Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "il6qh5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 9V11.4873",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "k6k2eu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99667 6.875H8.00333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y5cwqn"
+    }
+  ]
+];
+var Alert = createFoamicon("Alert", __iconNode3);
+
+// src/icons/ArchiveArrowUpDuotone.tsx
+var __iconNode4 = [
+  [
+    "path",
+    {
+      d: "M13.5 11.3426V5.5H2.5V11.3426C2.5 12.317 3.20217 13.1475 4.17017 13.2591C5.20659 13.3786 6.60329 13.5 8 13.5C9.39671 13.5 10.7934 13.3786 11.8298 13.2591C12.7978 13.1475 13.5 12.317 13.5 11.3426Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "xv911y"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.5 3.11582C1.5 2.84784 1.70959 2.62777 1.97741 2.618C2.99692 2.58079 5.49846 2.5 8 2.5C10.5015 2.5 13.0031 2.58079 14.0226 2.618C14.2904 2.62777 14.5 2.84784 14.5 3.11582V4.88418C14.5 5.15216 14.2904 5.37223 14.0226 5.382C13.0031 5.41921 10.5015 5.5 8 5.5C5.49846 5.5 2.99692 5.41921 1.97741 5.382C1.70959 5.37223 1.5 5.15216 1.5 4.88418V3.11582Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2rss4c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.33337 9.16667L7.64649 7.85355C7.84175 7.65829 8.15833 7.65829 8.35359 7.85355L9.66671 9.16667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kuo1zg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 8.66675V11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cxd7dx"
+    }
+  ]
+];
+var ArchiveArrowUpDuotone = createFoamicon("ArchiveArrowUpDuotone", __iconNode4);
+
+// src/icons/ArchiveArrowUpFill.tsx
+var __iconNode5 = [
+  [
+    "path",
+    {
+      d: "M13.5 11.3426V5.5H2.5V11.3426C2.5 12.317 3.20217 13.1475 4.17017 13.2591C5.20659 13.3786 6.60329 13.5 8 13.5C9.39671 13.5 10.7934 13.3786 11.8298 13.2591C12.7978 13.1475 13.5 12.317 13.5 11.3426Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u20b6y"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.5 3.11582C1.5 2.84784 1.70959 2.62777 1.97741 2.618C2.99692 2.58079 5.49846 2.5 8 2.5C10.5015 2.5 13.0031 2.58079 14.0226 2.618C14.2904 2.62777 14.5 2.84784 14.5 3.11582V4.88418C14.5 5.15216 14.2904 5.37223 14.0226 5.382C13.0031 5.41921 10.5015 5.5 8 5.5C5.49846 5.5 2.99692 5.41921 1.97741 5.382C1.70959 5.37223 1.5 5.15216 1.5 4.88418V3.11582Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2rss4c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.33337 9.16667L7.64649 7.85355C7.84175 7.65829 8.15833 7.65829 8.35359 7.85355L9.66671 9.16667",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wiruh7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 8.66675V11",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "b8tn5g"
+    }
+  ]
+];
+var ArchiveArrowUpFill = createFoamicon("ArchiveArrowUpFill", __iconNode5);
+
+// src/icons/ArchiveArrowUp.tsx
+var __iconNode6 = [
+  [
+    "path",
+    {
+      d: "M2.5 5.5V11.3426C2.5 12.317 3.20217 13.1475 4.17017 13.2591C5.20658 13.3786 6.60329 13.5 8 13.5C9.39671 13.5 10.7934 13.3786 11.8298 13.2591C12.7978 13.1475 13.5 12.317 13.5 11.3426V5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "awsfxk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.5 3.11582C1.5 2.84784 1.70959 2.62777 1.97741 2.618C2.99692 2.58079 5.49846 2.5 8 2.5C10.5015 2.5 13.0031 2.58079 14.0226 2.618C14.2904 2.62777 14.5 2.84784 14.5 3.11582V4.88418C14.5 5.15216 14.2904 5.37223 14.0226 5.382C13.0031 5.41921 10.5015 5.5 8 5.5C5.49846 5.5 2.99692 5.41921 1.97741 5.382C1.70959 5.37223 1.5 5.15216 1.5 4.88418V3.11582Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2rss4c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.33337 9.16667L7.64649 7.85355C7.84175 7.65829 8.15833 7.65829 8.35359 7.85355L9.66671 9.16667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kuo1zg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 8.66675V11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cxd7dx"
+    }
+  ]
+];
+var ArchiveArrowUp = createFoamicon("ArchiveArrowUp", __iconNode6);
+
+// src/icons/ArchiveDuotone.tsx
+var __iconNode7 = [
+  [
+    "path",
+    {
+      d: "M13.5 11.3426V5.5H2.5V11.3426C2.5 12.317 3.20217 13.1475 4.17017 13.2591C5.20659 13.3786 6.60329 13.5 8 13.5C9.39671 13.5 10.7934 13.3786 11.8298 13.2591C12.7978 13.1475 13.5 12.317 13.5 11.3426Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "xv911y"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.5 3.11582C1.5 2.84784 1.70959 2.62777 1.97741 2.618C2.99692 2.58079 5.49846 2.5 8 2.5C10.5015 2.5 13.0031 2.58079 14.0226 2.618C14.2904 2.62777 14.5 2.84784 14.5 3.11582V4.88418C14.5 5.15216 14.2904 5.37223 14.0226 5.382C13.0031 5.41921 10.5015 5.5 8 5.5C5.49846 5.5 2.99692 5.41921 1.97741 5.382C1.70959 5.37223 1.5 5.15216 1.5 4.88418V3.11582Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2rss4c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 8H9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ust7q1"
+    }
+  ]
+];
+var ArchiveDuotone = createFoamicon("ArchiveDuotone", __iconNode7);
+
+// src/icons/ArchiveFill.tsx
+var __iconNode8 = [
+  [
+    "path",
+    {
+      d: "M13.5 11.3426V5.5H2.5V11.3426C2.5 12.317 3.20217 13.1475 4.17017 13.2591C5.20659 13.3786 6.60329 13.5 8 13.5C9.39671 13.5 10.7934 13.3786 11.8298 13.2591C12.7978 13.1475 13.5 12.317 13.5 11.3426Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u20b6y"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.5 3.11582C1.5 2.84784 1.70959 2.62777 1.97741 2.618C2.99692 2.58079 5.49846 2.5 8 2.5C10.5015 2.5 13.0031 2.58079 14.0226 2.618C14.2904 2.62777 14.5 2.84784 14.5 3.11582V4.88418C14.5 5.15216 14.2904 5.37223 14.0226 5.382C13.0031 5.41921 10.5015 5.5 8 5.5C5.49846 5.5 2.99692 5.41921 1.97741 5.382C1.70959 5.37223 1.5 5.15216 1.5 4.88418V3.11582Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2rss4c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 8H9.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xp09io"
+    }
+  ]
+];
+var ArchiveFill = createFoamicon("ArchiveFill", __iconNode8);
+
+// src/icons/Archive.tsx
+var __iconNode9 = [
+  [
+    "path",
+    {
+      d: "M2.5 5.5V11.3426C2.5 12.317 3.20217 13.1475 4.17017 13.2591C5.20658 13.3786 6.60329 13.5 8 13.5C9.39671 13.5 10.7934 13.3786 11.8298 13.2591C12.7978 13.1475 13.5 12.317 13.5 11.3426V5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "awsfxk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.5 3.11582C1.5 2.84784 1.70959 2.62777 1.97741 2.618C2.99692 2.58079 5.49846 2.5 8 2.5C10.5015 2.5 13.0031 2.58079 14.0226 2.618C14.2904 2.62777 14.5 2.84784 14.5 3.11582V4.88418C14.5 5.15216 14.2904 5.37223 14.0226 5.382C13.0031 5.41921 10.5015 5.5 8 5.5C5.49846 5.5 2.99692 5.41921 1.97741 5.382C1.70959 5.37223 1.5 5.15216 1.5 4.88418V3.11582Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2rss4c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 8H9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ust7q1"
+    }
+  ]
+];
+var Archive = createFoamicon("Archive", __iconNode9);
+
+// src/icons/ArrowDown01Duotone.tsx
+var __iconNode10 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 9.33337H11.8C11.9105 9.33337 12 9.42292 12 9.53337V13.3334M12 13.3334H13.5M12 13.3334H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "862sa4"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "10",
+      y: "2.5",
+      width: "3.5",
+      height: "4.5",
+      rx: "1.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cpt0j9"
+    }
+  ]
+];
+var ArrowDown01Duotone = createFoamicon("ArrowDown01Duotone", __iconNode10);
+
+// src/icons/ArrowDown01Fill.tsx
+var __iconNode11 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 9.33337H11.8C11.9105 9.33337 12 9.42292 12 9.53337V13.3334M12 13.3334H13.5M12 13.3334H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "862sa4"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "10",
+      y: "2.5",
+      width: "3.5",
+      height: "4.5",
+      rx: "1.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cpt0j9"
+    }
+  ]
+];
+var ArrowDown01Fill = createFoamicon("ArrowDown01Fill", __iconNode11);
+
+// src/icons/ArrowDown01.tsx
+var __iconNode12 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 9.33337H11.8C11.9105 9.33337 12 9.42292 12 9.53337V13.3334M12 13.3334H13.5M12 13.3334H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "862sa4"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "10",
+      y: "2.5",
+      width: "3.5",
+      height: "4.5",
+      rx: "1.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cpt0j9"
+    }
+  ]
+];
+var ArrowDown01 = createFoamicon("ArrowDown01", __iconNode12);
+
+// src/icons/ArrowDown10Duotone.tsx
+var __iconNode13 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 2.83008H11.8C11.9105 2.83008 12 2.91962 12 3.03008V6.83008M12 6.83008H13.5M12 6.83008H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v6rvpb"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "10",
+      y: "9",
+      width: "3.5",
+      height: "4.5",
+      rx: "1.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cwpmd"
+    }
+  ]
+];
+var ArrowDown10Duotone = createFoamicon("ArrowDown10Duotone", __iconNode13);
+
+// src/icons/ArrowDown10Fill.tsx
+var __iconNode14 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 2.83008H11.8C11.9105 2.83008 12 2.91962 12 3.03008V6.83008M12 6.83008H13.5M12 6.83008H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v6rvpb"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "10",
+      y: "9",
+      width: "3.5",
+      height: "4.5",
+      rx: "1.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cwpmd"
+    }
+  ]
+];
+var ArrowDown10Fill = createFoamicon("ArrowDown10Fill", __iconNode14);
+
+// src/icons/ArrowDown10.tsx
+var __iconNode15 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 2.83H11.8C11.9105 2.83 12 2.91954 12 3.03V6.83M12 6.83H13.5M12 6.83H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ufhpz2"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "10",
+      y: "9",
+      width: "3.5",
+      height: "4.5",
+      rx: "1.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cwpmd"
+    }
+  ]
+];
+var ArrowDown10 = createFoamicon("ArrowDown10", __iconNode15);
+
+// src/icons/ArrowDownIGDuotone.tsx
+var __iconNode16 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 2.5H12M13 2.5H12M12 2.5V6.5M12 6.5H13M12 6.5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2vt5gr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H12.5C13.0523 13.5 13.5 13.0523 13.5 12.5C13.5 11.9477 13.0523 11.5 12.5 11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pxndho"
+    }
+  ]
+];
+var ArrowDownIGDuotone = createFoamicon("ArrowDownIGDuotone", __iconNode16);
+
+// src/icons/ArrowDownIGFill.tsx
+var __iconNode17 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 2.5H12M13 2.5H12M12 2.5V6.5M12 6.5H13M12 6.5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2vt5gr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H12.5C13.0523 13.5 13.5 13.0523 13.5 12.5C13.5 11.9477 13.0523 11.5 12.5 11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pxndho"
+    }
+  ]
+];
+var ArrowDownIGFill = createFoamicon("ArrowDownIGFill", __iconNode17);
+
+// src/icons/ArrowDownIG.tsx
+var __iconNode18 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 2.5H12M13 2.5H12M12 2.5V6.5M12 6.5H13M12 6.5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2vt5gr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H12.5C13.0523 13.5 13.5 13.0523 13.5 12.5C13.5 11.9477 13.0523 11.5 12.5 11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pxndho"
+    }
+  ]
+];
+var ArrowDownIG = createFoamicon("ArrowDownIG", __iconNode18);
+
+// src/icons/ArrowDownSCDuotone.tsx
+var __iconNode19 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ts8hl5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 2.5H11C10.4477 2.5 10 2.94772 10 3.5C10 4.05228 10.4477 4.5 11 4.5H12.5C13.0523 4.5 13.5 4.94772 13.5 5.5C13.5 6.05228 13.0523 6.5 12.5 6.5H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rkgdvu"
+    }
+  ]
+];
+var ArrowDownSCDuotone = createFoamicon("ArrowDownSCDuotone", __iconNode19);
+
+// src/icons/ArrowDownSCFill.tsx
+var __iconNode20 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ts8hl5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 2.5H11C10.4477 2.5 10 2.94772 10 3.5C10 4.05228 10.4477 4.5 11 4.5H12.5C13.0523 4.5 13.5 4.94772 13.5 5.5C13.5 6.05228 13.0523 6.5 12.5 6.5H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rkgdvu"
+    }
+  ]
+];
+var ArrowDownSCFill = createFoamicon("ArrowDownSCFill", __iconNode20);
+
+// src/icons/ArrowDownSC.tsx
+var __iconNode21 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ts8hl5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 2.5H11C10.4477 2.5 10 2.94772 10 3.5C10 4.05228 10.4477 4.5 11 4.5H12.5C13.0523 4.5 13.5 4.94772 13.5 5.5C13.5 6.05228 13.0523 6.5 12.5 6.5H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rkgdvu"
+    }
+  ]
+];
+var ArrowDownSC = createFoamicon("ArrowDownSC", __iconNode21);
+
+// src/icons/ArrowDownTTDuotone.tsx
+var __iconNode22 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y6cnxh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5H11.75M13.5 2.5H11.75M11.75 2.5V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sam16n"
+    }
+  ]
+];
+var ArrowDownTTDuotone = createFoamicon("ArrowDownTTDuotone", __iconNode22);
+
+// src/icons/ArrowDownTTFill.tsx
+var __iconNode23 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y6cnxh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5H11.75M13.5 2.5H11.75M11.75 2.5V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sam16n"
+    }
+  ]
+];
+var ArrowDownTTFill = createFoamicon("ArrowDownTTFill", __iconNode23);
+
+// src/icons/ArrowDownTT.tsx
+var __iconNode24 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y6cnxh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5H11.75M13.5 2.5H11.75M11.75 2.5V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sam16n"
+    }
+  ]
+];
+var ArrowDownTT = createFoamicon("ArrowDownTT", __iconNode24);
+
+// src/icons/ArrowDownYTDuotone.tsx
+var __iconNode25 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5L11.75 5M11.75 5L13.5 2.5M11.75 5V7M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2fttn4"
+    }
+  ]
+];
+var ArrowDownYTDuotone = createFoamicon("ArrowDownYTDuotone", __iconNode25);
+
+// src/icons/ArrowDownYTFill.tsx
+var __iconNode26 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5L11.75 5M11.75 5L13.5 2.5M11.75 5V7M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2fttn4"
+    }
+  ]
+];
+var ArrowDownYTFill = createFoamicon("ArrowDownYTFill", __iconNode26);
+
+// src/icons/ArrowDownYT.tsx
+var __iconNode27 = [
+  [
+    "path",
+    {
+      d: "M7.66675 11L5.35364 13.3131C5.15837 13.5083 4.84179 13.5083 4.64653 13.3131L2.33341 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6i2axc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 13L5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9q2irf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5L11.75 5M11.75 5L13.5 2.5M11.75 5V7M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2fttn4"
+    }
+  ]
+];
+var ArrowDownYT = createFoamicon("ArrowDownYT", __iconNode27);
+
+// src/icons/ArrowDownDuotone.tsx
+var __iconNode28 = [
+  [
+    "path",
+    {
+      d: "M11.6666 8.33333L8.35351 11.6464C8.15825 11.8417 7.84167 11.8417 7.64641 11.6464L4.33329 8.33333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7vp19g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99988 11.3333L7.99988 3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kys5yy"
+    }
+  ]
+];
+var ArrowDownDuotone = createFoamicon("ArrowDownDuotone", __iconNode28);
+
+// src/icons/ArrowDownFill.tsx
+var __iconNode29 = [
+  [
+    "path",
+    {
+      d: "M11.6666 8.33333L8.35351 11.6464C8.15825 11.8417 7.84167 11.8417 7.64641 11.6464L4.33329 8.33333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7vp19g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99988 11.3333L7.99988 3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kys5yy"
+    }
+  ]
+];
+var ArrowDownFill = createFoamicon("ArrowDownFill", __iconNode29);
+
+// src/icons/ArrowDownNarrowWideDuotone.tsx
+var __iconNode30 = [
+  [
+    "path",
+    {
+      d: "M9.66675 9.99996L6.35363 13.3131C6.15837 13.5083 5.84179 13.5083 5.64653 13.3131L2.33341 9.99996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "406299"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 13L6 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jpzmsl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 7H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xs28g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4k1ssx"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 3H9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gi4d83"
+    }
+  ]
+];
+var ArrowDownNarrowWideDuotone = createFoamicon("ArrowDownNarrowWideDuotone", __iconNode30);
+
+// src/icons/ArrowDownNarrowWideFill.tsx
+var __iconNode31 = [
+  [
+    "path",
+    {
+      d: "M9.66675 9.99996L6.35363 13.3131C6.15837 13.5083 5.84179 13.5083 5.64653 13.3131L2.33341 9.99996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "406299"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 13L6 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jpzmsl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 7H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xs28g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4k1ssx"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 3H9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gi4d83"
+    }
+  ]
+];
+var ArrowDownNarrowWideFill = createFoamicon("ArrowDownNarrowWideFill", __iconNode31);
+
+// src/icons/ArrowDownNarrowWide.tsx
+var __iconNode32 = [
+  [
+    "path",
+    {
+      d: "M9.66675 9.99996L6.35363 13.3131C6.15837 13.5083 5.84179 13.5083 5.64653 13.3131L2.33341 9.99996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "406299"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 13L6 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jpzmsl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 7H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xs28g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4k1ssx"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 3H9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gi4d83"
+    }
+  ]
+];
+var ArrowDownNarrowWide = createFoamicon("ArrowDownNarrowWide", __iconNode32);
+
+// src/icons/ArrowDownUpDuotone.tsx
+var __iconNode33 = [
+  [
+    "path",
+    {
+      d: "M8.5 5.66667L10.8131 3.35355C11.0084 3.15829 11.325 3.15829 11.5202 3.35355L13.8333 5.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kxagk2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.1667 3.66675V12.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ipcbde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.83337 10.3333L5.52026 12.6464C5.325 12.8417 5.00842 12.8417 4.81315 12.6464L2.50004 10.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "k5k5cz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.16663 12.3333L5.16663 3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "oxb72o"
+    }
+  ]
+];
+var ArrowDownUpDuotone = createFoamicon("ArrowDownUpDuotone", __iconNode33);
+
+// src/icons/ArrowDownUpFill.tsx
+var __iconNode34 = [
+  [
+    "path",
+    {
+      d: "M8.5 5.66667L10.8131 3.35355C11.0084 3.15829 11.325 3.15829 11.5202 3.35355L13.8333 5.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kxagk2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.1667 3.66675V12.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ipcbde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.83337 10.3333L5.52026 12.6464C5.325 12.8417 5.00842 12.8417 4.81315 12.6464L2.50004 10.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "k5k5cz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.16663 12.3333L5.16663 3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "oxb72o"
+    }
+  ]
+];
+var ArrowDownUpFill = createFoamicon("ArrowDownUpFill", __iconNode34);
+
+// src/icons/ArrowDownUp.tsx
+var __iconNode35 = [
+  [
+    "path",
+    {
+      d: "M8.5 5.66667L10.8131 3.35355C11.0084 3.15829 11.325 3.15829 11.5202 3.35355L13.8333 5.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kxagk2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.1667 3.66675V12.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ipcbde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.83337 10.3333L5.52026 12.6464C5.325 12.8417 5.00842 12.8417 4.81315 12.6464L2.50004 10.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "k5k5cz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.16663 12.3333L5.16663 3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "oxb72o"
+    }
+  ]
+];
+var ArrowDownUp = createFoamicon("ArrowDownUp", __iconNode35);
+
+// src/icons/ArrowDownWideNarrowDuotone.tsx
+var __iconNode36 = [
+  [
+    "path",
+    {
+      d: "M9.66675 9.99996L6.35363 13.3131C6.15837 13.5083 5.84179 13.5083 5.64653 13.3131L2.33341 9.99996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "406299"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 13L6 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jpzmsl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 3H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z3ppkk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4k1ssx"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 7H9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lab7v5"
+    }
+  ]
+];
+var ArrowDownWideNarrowDuotone = createFoamicon("ArrowDownWideNarrowDuotone", __iconNode36);
+
+// src/icons/ArrowDownWideNarrowFill.tsx
+var __iconNode37 = [
+  [
+    "path",
+    {
+      d: "M9.66675 9.99996L6.35363 13.3131C6.15837 13.5083 5.84179 13.5083 5.64653 13.3131L2.33341 9.99996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "406299"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 13L6 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jpzmsl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 3H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z3ppkk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4k1ssx"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 7H9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lab7v5"
+    }
+  ]
+];
+var ArrowDownWideNarrowFill = createFoamicon("ArrowDownWideNarrowFill", __iconNode37);
+
+// src/icons/ArrowDownWideNarrow.tsx
+var __iconNode38 = [
+  [
+    "path",
+    {
+      d: "M9.66675 9.99996L6.35363 13.3131C6.15837 13.5083 5.84179 13.5083 5.64653 13.3131L2.33341 9.99996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "406299"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 13L6 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jpzmsl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 3H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z3ppkk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4k1ssx"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 7H9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lab7v5"
+    }
+  ]
+];
+var ArrowDownWideNarrow = createFoamicon("ArrowDownWideNarrow", __iconNode38);
+
+// src/icons/ArrowDown.tsx
+var __iconNode39 = [
+  [
+    "path",
+    {
+      d: "M11.6666 8.33333L8.35351 11.6464C8.15825 11.8417 7.84167 11.8417 7.64641 11.6464L4.33329 8.33333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7vp19g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99988 11.3333L7.99988 3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kys5yy"
+    }
+  ]
+];
+var ArrowDown = createFoamicon("ArrowDown", __iconNode39);
+
+// src/icons/ArrowLeftDuotone.tsx
+var __iconNode40 = [
+  [
+    "path",
+    {
+      d: "M7.66667 12L4.35355 8.68689C4.15829 8.49162 4.15829 8.17504 4.35355 7.97978L7.66667 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xoqmsc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.66666 8.33334H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "p12dub"
+    }
+  ]
+];
+var ArrowLeftDuotone = createFoamicon("ArrowLeftDuotone", __iconNode40);
+
+// src/icons/ArrowLeftFill.tsx
+var __iconNode41 = [
+  [
+    "path",
+    {
+      d: "M7.66667 12L4.35355 8.68689C4.15829 8.49162 4.15829 8.17504 4.35355 7.97978L7.66667 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xoqmsc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.66667 8.33334H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "inmmxg"
+    }
+  ]
+];
+var ArrowLeftFill = createFoamicon("ArrowLeftFill", __iconNode41);
+
+// src/icons/ArrowLeft.tsx
+var __iconNode42 = [
+  [
+    "path",
+    {
+      d: "M7.66667 12L4.35355 8.68689C4.15829 8.49162 4.15829 8.17504 4.35355 7.97978L7.66667 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xoqmsc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.66667 8.33334H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "inmmxg"
+    }
+  ]
+];
+var ArrowLeft = createFoamicon("ArrowLeft", __iconNode42);
+
+// src/icons/ArrowRightDuotone.tsx
+var __iconNode43 = [
+  [
+    "path",
+    {
+      d: "M8.33333 4L11.6464 7.31311C11.8417 7.50838 11.8417 7.82496 11.6464 8.02022L8.33333 11.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1jse70"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.3333 7.66666L3 7.66666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v994w"
+    }
+  ]
+];
+var ArrowRightDuotone = createFoamicon("ArrowRightDuotone", __iconNode43);
+
+// src/icons/ArrowRightFill.tsx
+var __iconNode44 = [
+  [
+    "path",
+    {
+      d: "M8.33333 4L11.6464 7.31311C11.8417 7.50838 11.8417 7.82496 11.6464 8.02022L8.33333 11.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1jse70"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.3333 7.66666L3 7.66666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v994w"
+    }
+  ]
+];
+var ArrowRightFill = createFoamicon("ArrowRightFill", __iconNode44);
+
+// src/icons/ArrowRightToLineDuotone.tsx
+var __iconNode45 = [
+  [
+    "path",
+    {
+      d: "M6.83333 4L10.1464 7.31311C10.3417 7.50838 10.3417 7.82496 10.1464 8.02022L6.83333 11.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z6chu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.3333 7.66669L3 7.66669",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "62ujjt"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 2V14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l8f6xd"
+    }
+  ]
+];
+var ArrowRightToLineDuotone = createFoamicon("ArrowRightToLineDuotone", __iconNode45);
+
+// src/icons/ArrowRightToLineFill.tsx
+var __iconNode46 = [
+  [
+    "path",
+    {
+      d: "M6.83333 4L10.1464 7.31311C10.3417 7.50838 10.3417 7.82496 10.1464 8.02022L6.83333 11.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z6chu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.3333 7.66669L3.00001 7.66669",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q86o46"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 2V14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l8f6xd"
+    }
+  ]
+];
+var ArrowRightToLineFill = createFoamicon("ArrowRightToLineFill", __iconNode46);
+
+// src/icons/ArrowRightToLine.tsx
+var __iconNode47 = [
+  [
+    "path",
+    {
+      d: "M6.83333 4L10.1464 7.31311C10.3417 7.50838 10.3417 7.82496 10.1464 8.02022L6.83333 11.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z6chu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.3333 7.66669L3 7.66669",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "62ujjt"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 2V14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l8f6xd"
+    }
+  ]
+];
+var ArrowRightToLine = createFoamicon("ArrowRightToLine", __iconNode47);
+
+// src/icons/ArrowRight.tsx
+var __iconNode48 = [
+  [
+    "path",
+    {
+      d: "M8.33333 4L11.6464 7.31311C11.8417 7.50838 11.8417 7.82496 11.6464 8.02022L8.33333 11.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1jse70"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.3333 7.66666L3 7.66666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v994w"
+    }
+  ]
+];
+var ArrowRight = createFoamicon("ArrowRight", __iconNode48);
+
+// src/icons/ArrowUpIGDuotone.tsx
+var __iconNode49 = [
+  [
+    "path",
+    {
+      d: "M2.33341 4.66667L4.64653 2.35355C4.84179 2.15829 5.15837 2.15829 5.35363 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rf2mfh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00016 2.66663L5.00016 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h6hwas"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 2.5H12M13 2.5H12M12 2.5V6.5M12 6.5H13M12 6.5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2vt5gr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H12.5C13.0523 13.5 13.5 13.0523 13.5 12.5C13.5 11.9477 13.0523 11.5 12.5 11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pxndho"
+    }
+  ]
+];
+var ArrowUpIGDuotone = createFoamicon("ArrowUpIGDuotone", __iconNode49);
+
+// src/icons/ArrowUpIGFill.tsx
+var __iconNode50 = [
+  [
+    "path",
+    {
+      d: "M2.33342 4.66667L4.64653 2.35355C4.84179 2.15829 5.15838 2.15829 5.35364 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yk7axi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00017 2.66663L5.00017 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l2bdhe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 2.5H12M13 2.5H12M12 2.5V6.5M12 6.5H13M12 6.5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2vt5gr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H12.5C13.0523 13.5 13.5 13.0523 13.5 12.5C13.5 11.9477 13.0523 11.5 12.5 11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pxndho"
+    }
+  ]
+];
+var ArrowUpIGFill = createFoamicon("ArrowUpIGFill", __iconNode50);
+
+// src/icons/ArrowUpIG.tsx
+var __iconNode51 = [
+  [
+    "path",
+    {
+      d: "M2.33341 4.66667L4.64653 2.35355C4.84179 2.15829 5.15837 2.15829 5.35364 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bzdlm4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00016 2.66663L5.00016 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h6hwas"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 2.5H12M13 2.5H12M12 2.5V6.5M12 6.5H13M12 6.5H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2vt5gr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H12.5C13.0523 13.5 13.5 13.0523 13.5 12.5C13.5 11.9477 13.0523 11.5 12.5 11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pxndho"
+    }
+  ]
+];
+var ArrowUpIG = createFoamicon("ArrowUpIG", __iconNode51);
+
+// src/icons/ArrowUpSCDuotone.tsx
+var __iconNode52 = [
+  [
+    "path",
+    {
+      d: "M2.33341 4.66667L4.64653 2.35355C4.84179 2.15829 5.15837 2.15829 5.35363 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rf2mfh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00016 2.66663L5.00016 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h6hwas"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ts8hl5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 2.5H11C10.4477 2.5 10 2.94772 10 3.5C10 4.05228 10.4477 4.5 11 4.5H12.5C13.0523 4.5 13.5 4.94772 13.5 5.5C13.5 6.05228 13.0523 6.5 12.5 6.5H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rkgdvu"
+    }
+  ]
+];
+var ArrowUpSCDuotone = createFoamicon("ArrowUpSCDuotone", __iconNode52);
+
+// src/icons/ArrowUpSCFill.tsx
+var __iconNode53 = [
+  [
+    "path",
+    {
+      d: "M2.33342 4.66667L4.64653 2.35355C4.84179 2.15829 5.15838 2.15829 5.35364 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yk7axi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00017 2.66663L5.00017 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l2bdhe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ts8hl5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 2.5H11C10.4477 2.5 10 2.94772 10 3.5C10 4.05228 10.4477 4.5 11 4.5H12.5C13.0523 4.5 13.5 4.94772 13.5 5.5C13.5 6.05228 13.0523 6.5 12.5 6.5H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rkgdvu"
+    }
+  ]
+];
+var ArrowUpSCFill = createFoamicon("ArrowUpSCFill", __iconNode53);
+
+// src/icons/ArrowUpSC.tsx
+var __iconNode54 = [
+  [
+    "path",
+    {
+      d: "M2.33341 4.66667L4.64653 2.35355C4.84179 2.15829 5.15837 2.15829 5.35364 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bzdlm4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00016 2.66663L5.00016 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h6hwas"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 9.5H12C10.8954 9.5 10 10.3954 10 11.5C10 12.6046 10.8954 13.5 12 13.5H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ts8hl5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 2.5H11C10.4477 2.5 10 2.94772 10 3.5C10 4.05228 10.4477 4.5 11 4.5H12.5C13.0523 4.5 13.5 4.94772 13.5 5.5C13.5 6.05228 13.0523 6.5 12.5 6.5H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rkgdvu"
+    }
+  ]
+];
+var ArrowUpSC = createFoamicon("ArrowUpSC", __iconNode54);
+
+// src/icons/ArrowUpTTDuotone.tsx
+var __iconNode55 = [
+  [
+    "path",
+    {
+      d: "M2.33341 4.66667L4.64653 2.35355C4.84179 2.15829 5.15837 2.15829 5.35363 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rf2mfh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00016 2.66663L5.00016 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h6hwas"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y6cnxh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5H11.75M13.5 2.5H11.75M11.75 2.5V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sam16n"
+    }
+  ]
+];
+var ArrowUpTTDuotone = createFoamicon("ArrowUpTTDuotone", __iconNode55);
+
+// src/icons/ArrowUpTTFill.tsx
+var __iconNode56 = [
+  [
+    "path",
+    {
+      d: "M2.33342 4.66667L4.64653 2.35355C4.84179 2.15829 5.15838 2.15829 5.35364 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yk7axi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00017 2.66663L5.00017 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l2bdhe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y6cnxh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5H11.75M13.5 2.5H11.75M11.75 2.5V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sam16n"
+    }
+  ]
+];
+var ArrowUpTTFill = createFoamicon("ArrowUpTTFill", __iconNode56);
+
+// src/icons/ArrowUpTT.tsx
+var __iconNode57 = [
+  [
+    "path",
+    {
+      d: "M2.33341 4.66667L4.64653 2.35355C4.84179 2.15829 5.15837 2.15829 5.35364 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bzdlm4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00016 2.66663L5.00016 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h6hwas"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y6cnxh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5H11.75M13.5 2.5H11.75M11.75 2.5V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sam16n"
+    }
+  ]
+];
+var ArrowUpTT = createFoamicon("ArrowUpTT", __iconNode57);
+
+// src/icons/ArrowUpYTDuotone.tsx
+var __iconNode58 = [
+  [
+    "path",
+    {
+      d: "M2.33341 4.66667L4.64653 2.35355C4.84179 2.15829 5.15837 2.15829 5.35363 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rf2mfh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00016 2.66663L5.00016 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h6hwas"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5L11.75 5M11.75 5L13.5 2.5M11.75 5V7M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2fttn4"
+    }
+  ]
+];
+var ArrowUpYTDuotone = createFoamicon("ArrowUpYTDuotone", __iconNode58);
+
+// src/icons/ArrowUpYTFill.tsx
+var __iconNode59 = [
+  [
+    "path",
+    {
+      d: "M2.33342 4.66667L4.64653 2.35355C4.84179 2.15829 5.15838 2.15829 5.35364 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yk7axi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00017 2.66663L5.00017 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l2bdhe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5L11.75 5M11.75 5L13.5 2.5M11.75 5V7M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2fttn4"
+    }
+  ]
+];
+var ArrowUpYTFill = createFoamicon("ArrowUpYTFill", __iconNode59);
+
+// src/icons/ArrowUpYT.tsx
+var __iconNode60 = [
+  [
+    "path",
+    {
+      d: "M2.33341 4.66667L4.64653 2.35355C4.84179 2.15829 5.15837 2.15829 5.35364 2.35355L7.66675 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bzdlm4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.00016 2.66663L5.00016 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h6hwas"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5L11.75 5M11.75 5L13.5 2.5M11.75 5V7M10 9.5H11.75M13.5 9.5H11.75M11.75 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2fttn4"
+    }
+  ]
+];
+var ArrowUpYT = createFoamicon("ArrowUpYT", __iconNode60);
+
+// src/icons/ArrowUpAZDuotone.tsx
+var __iconNode61 = [
+  [
+    "path",
+    {
+      d: "M2.17 4.66667L4.48311 2.35355C4.67837 2.15829 4.99496 2.15829 5.19022 2.35355L7.50333 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xlly78"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.83675 2.66663L4.83675 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dscxj6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.3333 5.33337H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7f4vwn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 6.66663V4.33329C10 3.89127 10.1756 3.46734 10.4882 3.15478C10.8007 2.84222 11.2246 2.66663 11.6667 2.66663C12.1087 2.66663 12.5326 2.84222 12.8452 3.15478C13.1577 3.46734 13.3333 3.89127 13.3333 4.33329V6.66663",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uu7ys4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.33337H12.9063C13.0759 9.33337 13.1685 9.53115 13.06 9.66141L10.2734 13.0053C10.1648 13.1356 10.2574 13.3334 10.427 13.3334H13.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qx3xzb"
+    }
+  ]
+];
+var ArrowUpAZDuotone = createFoamicon("ArrowUpAZDuotone", __iconNode61);
+
+// src/icons/ArrowUpAZFill.tsx
+var __iconNode62 = [
+  [
+    "path",
+    {
+      d: "M2.17 4.66667L4.48311 2.35355C4.67837 2.15829 4.99496 2.15829 5.19022 2.35355L7.50333 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xlly78"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.83675 2.66663L4.83675 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dscxj6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.3333 5.33337H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7f4vwn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 6.66663V4.33329C10 3.89127 10.1756 3.46734 10.4882 3.15478C10.8007 2.84222 11.2246 2.66663 11.6667 2.66663C12.1087 2.66663 12.5326 2.84222 12.8452 3.15478C13.1577 3.46734 13.3333 3.89127 13.3333 4.33329V6.66663",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uu7ys4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.33337H12.9063C13.0759 9.33337 13.1685 9.53115 13.06 9.66141L10.2734 13.0053C10.1648 13.1356 10.2574 13.3334 10.427 13.3334H13.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qx3xzb"
+    }
+  ]
+];
+var ArrowUpAZFill = createFoamicon("ArrowUpAZFill", __iconNode62);
+
+// src/icons/ArrowUpAZ.tsx
+var __iconNode63 = [
+  [
+    "path",
+    {
+      d: "M2.17 4.66667L4.48311 2.35355C4.67838 2.15829 4.99496 2.15829 5.19022 2.35355L7.50333 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bgjlqd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.83675 2.66663L4.83675 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dscxj6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.3333 5.33337H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7f4vwn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 6.66663V4.33329C10 3.89127 10.1756 3.46734 10.4882 3.15478C10.8007 2.84222 11.2246 2.66663 11.6667 2.66663C12.1087 2.66663 12.5326 2.84222 12.8452 3.15478C13.1577 3.46734 13.3333 3.89127 13.3333 4.33329V6.66663",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uu7ys4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.33337H12.9063C13.0759 9.33337 13.1685 9.53115 13.06 9.66141L10.2734 13.0053C10.1648 13.1356 10.2574 13.3334 10.427 13.3334H13.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qx3xzb"
+    }
+  ]
+];
+var ArrowUpAZ = createFoamicon("ArrowUpAZ", __iconNode63);
+
+// src/icons/ArrowUpDuotone.tsx
+var __iconNode64 = [
+  [
+    "path",
+    {
+      d: "M4.33337 7.66667L7.64649 4.35355C7.84175 4.15829 8.15833 4.15829 8.35359 4.35355L11.6667 7.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ino5wy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00012 4.66666V13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "63p2zi"
+    }
+  ]
+];
+var ArrowUpDuotone = createFoamicon("ArrowUpDuotone", __iconNode64);
+
+// src/icons/ArrowUpFill.tsx
+var __iconNode65 = [
+  [
+    "path",
+    {
+      d: "M4.33337 7.66667L7.64649 4.35355C7.84175 4.15829 8.15833 4.15829 8.35359 4.35355L11.6667 7.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ino5wy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00012 4.66666V13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "63p2zi"
+    }
+  ]
+];
+var ArrowUpFill = createFoamicon("ArrowUpFill", __iconNode65);
+
+// src/icons/ArrowUpNarrowWideDuotone.tsx
+var __iconNode66 = [
+  [
+    "path",
+    {
+      d: "M5.66666 5.66667L8.97978 2.35355C9.17504 2.15829 9.49162 2.15829 9.68688 2.35355L13 5.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q8x25c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.33341 2.66663L9.33341 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xc6w3q"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 12.6666L2.33341 12.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q01u8b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 10.6666L4.33341 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5lgay8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 8.66663L6.33341 8.66663",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z4wcyb"
+    }
+  ]
+];
+var ArrowUpNarrowWideDuotone = createFoamicon("ArrowUpNarrowWideDuotone", __iconNode66);
+
+// src/icons/ArrowUpNarrowWideFill.tsx
+var __iconNode67 = [
+  [
+    "path",
+    {
+      d: "M5.66667 5.66667L8.97979 2.35355C9.17505 2.15829 9.49163 2.15829 9.68689 2.35355L13 5.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xbl42j"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.33342 2.66663L9.33342 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xt3oos"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83342 12.6666L2.33342 12.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "m48d1p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83342 10.6666L4.33342 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9h9s4u"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83342 8.66663L6.33342 8.66663",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w0e7u7"
+    }
+  ]
+];
+var ArrowUpNarrowWideFill = createFoamicon("ArrowUpNarrowWideFill", __iconNode67);
+
+// src/icons/ArrowUpNarrowWide.tsx
+var __iconNode68 = [
+  [
+    "path",
+    {
+      d: "M5.66667 5.66667L8.97978 2.35355C9.17504 2.15829 9.49162 2.15829 9.68689 2.35355L13 5.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jxnufy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.33342 2.66663L9.33341 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hwhvad"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 12.6666L2.33341 12.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q01u8b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 10.6666L4.33341 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5lgay8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 8.66663L6.33341 8.66663",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z4wcyb"
+    }
+  ]
+];
+var ArrowUpNarrowWide = createFoamicon("ArrowUpNarrowWide", __iconNode68);
+
+// src/icons/ArrowUpWideNarrowDuotone.tsx
+var __iconNode69 = [
+  [
+    "path",
+    {
+      d: "M5.66666 5.66667L8.97978 2.35355C9.17504 2.15829 9.49162 2.15829 9.68688 2.35355L13 5.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q8x25c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.33341 2.66663L9.33341 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xc6w3q"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 8.66663L2.33341 8.66663",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yy9z3f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 10.6666L4.33341 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5lgay8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 12.6666L6.33341 12.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qxzk5p"
+    }
+  ]
+];
+var ArrowUpWideNarrowDuotone = createFoamicon("ArrowUpWideNarrowDuotone", __iconNode69);
+
+// src/icons/ArrowUpWideNarrowFill.tsx
+var __iconNode70 = [
+  [
+    "path",
+    {
+      d: "M5.66667 5.66667L8.97979 2.35355C9.17505 2.15829 9.49163 2.15829 9.68689 2.35355L13 5.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xbl42j"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.33342 2.66663L9.33342 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xt3oos"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83342 8.66663L2.33342 8.66663",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v2ghwt"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83342 10.6666L4.33342 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9h9s4u"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83342 12.6666L6.33342 12.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n262z3"
+    }
+  ]
+];
+var ArrowUpWideNarrowFill = createFoamicon("ArrowUpWideNarrowFill", __iconNode70);
+
+// src/icons/ArrowUpWideNarrow.tsx
+var __iconNode71 = [
+  [
+    "path",
+    {
+      d: "M5.66667 5.66667L8.97978 2.35355C9.17504 2.15829 9.49162 2.15829 9.68689 2.35355L13 5.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jxnufy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.33342 2.66663L9.33341 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hwhvad"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 8.66663L2.33341 8.66663",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yy9z3f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 10.6666L4.33341 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5lgay8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.83341 12.6666L6.33341 12.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qxzk5p"
+    }
+  ]
+];
+var ArrowUpWideNarrow = createFoamicon("ArrowUpWideNarrow", __iconNode71);
+
+// src/icons/ArrowUpZADuotone.tsx
+var __iconNode72 = [
+  [
+    "path",
+    {
+      d: "M2.17 4.66667L4.48311 2.35355C4.67837 2.15829 4.99496 2.15829 5.19022 2.35355L7.50333 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xlly78"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.83675 2.66663L4.83675 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dscxj6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.3333 11.8367H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vmzqwd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 13.17V10.8366C10 10.3946 10.1756 9.9707 10.4882 9.65814C10.8007 9.34558 11.2246 9.16998 11.6667 9.16998C12.1087 9.16998 12.5326 9.34558 12.8452 9.65814C13.1577 9.9707 13.3333 10.3946 13.3333 10.8366V13.17",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "by4a5f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.83002H12.9063C13.0759 2.83002 13.1685 3.02779 13.06 3.15805L10.2734 6.50198C10.1648 6.63225 10.2574 6.83002 10.427 6.83002H13.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6cotny"
+    }
+  ]
+];
+var ArrowUpZADuotone = createFoamicon("ArrowUpZADuotone", __iconNode72);
+
+// src/icons/ArrowUpZAFill.tsx
+var __iconNode73 = [
+  [
+    "path",
+    {
+      d: "M2.17 4.66667L4.48311 2.35355C4.67837 2.15829 4.99496 2.15829 5.19022 2.35355L7.50333 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xlly78"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.83675 2.66663L4.83675 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dscxj6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.3333 11.8367H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vmzqwd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 13.17V10.8366C10 10.3946 10.1756 9.9707 10.4882 9.65814C10.8007 9.34558 11.2246 9.16998 11.6667 9.16998C12.1087 9.16998 12.5326 9.34558 12.8452 9.65814C13.1577 9.9707 13.3333 10.3946 13.3333 10.8366V13.17",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "by4a5f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.83002H12.9063C13.0759 2.83002 13.1685 3.02779 13.06 3.15805L10.2734 6.50198C10.1648 6.63225 10.2574 6.83002 10.427 6.83002H13.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6cotny"
+    }
+  ]
+];
+var ArrowUpZAFill = createFoamicon("ArrowUpZAFill", __iconNode73);
+
+// src/icons/ArrowUpZA.tsx
+var __iconNode74 = [
+  [
+    "path",
+    {
+      d: "M2.17 4.66667L4.48311 2.35355C4.67838 2.15829 4.99496 2.15829 5.19022 2.35355L7.50333 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bgjlqd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.83675 2.66663L4.83675 13.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dscxj6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.3333 11.8367H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vmzqwd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 13.17V10.8366C10 10.3946 10.1756 9.9707 10.4882 9.65814C10.8007 9.34558 11.2246 9.16998 11.6667 9.16998C12.1087 9.16998 12.5326 9.34558 12.8452 9.65814C13.1577 9.9707 13.3333 10.3946 13.3333 10.8366V13.17",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "by4a5f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.83002H12.9063C13.0759 2.83002 13.1685 3.02779 13.06 3.15805L10.2734 6.50198C10.1648 6.63225 10.2574 6.83002 10.427 6.83002H13.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6cotny"
+    }
+  ]
+];
+var ArrowUpZA = createFoamicon("ArrowUpZA", __iconNode74);
+
+// src/icons/ArrowUp.tsx
+var __iconNode75 = [
+  [
+    "path",
+    {
+      d: "M4.33337 7.66667L7.64649 4.35355C7.84175 4.15829 8.15833 4.15829 8.35359 4.35355L11.6667 7.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ino5wy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00012 4.66666V13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "63p2zi"
+    }
+  ]
+];
+var ArrowUp = createFoamicon("ArrowUp", __iconNode75);
+
+// src/icons/AtSignDuotone.tsx
+var __iconNode76 = [
+  [
+    "circle",
+    {
+      cx: "8.03072",
+      cy: "8",
+      r: "2.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w4x162"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5307 5.5C10.5307 5.5 10.5307 7 10.5307 8.5C10.5307 10 10.7807 10.5 11.7807 10.5C12.7807 10.5 13.0307 10 13.0307 8.5C13.0307 5.5 11.0614 3 8.03071 3C5 3 3 5.5 3 8C3 10.5 5 13 8.03071 13C8.75884 13 9.42628 12.8012 10.0196 12.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "atfih8"
+    }
+  ]
+];
+var AtSignDuotone = createFoamicon("AtSignDuotone", __iconNode76);
+
+// src/icons/AtSignFill.tsx
+var __iconNode77 = [
+  [
+    "circle",
+    {
+      cx: "8.03072",
+      cy: "8",
+      r: "2.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w4x162"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5307 5.5C10.5307 5.5 10.5307 7 10.5307 8.5C10.5307 10 10.7807 10.5 11.7807 10.5C12.7807 10.5 13.0307 10 13.0307 8.5C13.0307 5.5 11.0614 3 8.03071 3C5 3 3 5.5 3 8C3 10.5 5 13 8.03071 13C8.75884 13 9.42628 12.8012 10.0196 12.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "atfih8"
+    }
+  ]
+];
+var AtSignFill = createFoamicon("AtSignFill", __iconNode77);
+
+// src/icons/AtSign.tsx
+var __iconNode78 = [
+  [
+    "circle",
+    {
+      cx: "8.03072",
+      cy: "8",
+      r: "2.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w4x162"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5307 5.5C10.5307 5.5 10.5307 7 10.5307 8.5C10.5307 10 10.7807 10.5 11.7807 10.5C12.7807 10.5 13.0307 10 13.0307 8.5C13.0307 5.5 11.0614 3 8.03072 3C5 3 3 5.5 3 8C3 10.5 5 13 8.03072 13C8.75884 13 9.42628 12.8012 10.0196 12.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ht6t6a"
+    }
+  ]
+];
+var AtSign = createFoamicon("AtSign", __iconNode78);
+
+// src/icons/BanDuotone.tsx
+var __iconNode79 = [
+  [
+    "path",
+    {
+      d: "M12.2426 12.2426C9.89949 14.5858 6.10051 14.5858 3.75736 12.2426C1.41421 9.89949 1.41421 6.1005 3.75736 3.75735M12.2426 12.2426C14.5858 9.89949 14.5858 6.1005 12.2426 3.75735C9.89949 1.4142 6.10051 1.4142 3.75736 3.75735M12.2426 12.2426L3.75736 3.75735",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5twfxo"
+    }
+  ]
+];
+var BanDuotone = createFoamicon("BanDuotone", __iconNode79);
+
+// src/icons/BanFill.tsx
+var __iconNode80 = [
+  [
+    "path",
+    {
+      d: "M12.2426 12.2426C9.89949 14.5858 6.10051 14.5858 3.75736 12.2426C1.41421 9.89949 1.41421 6.1005 3.75736 3.75735M12.2426 12.2426C14.5858 9.89949 14.5858 6.1005 12.2426 3.75735C9.89949 1.4142 6.10051 1.4142 3.75736 3.75735M12.2426 12.2426L3.75736 3.75735",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5twfxo"
+    }
+  ]
+];
+var BanFill = createFoamicon("BanFill", __iconNode80);
+
+// src/icons/Ban.tsx
+var __iconNode81 = [
+  [
+    "path",
+    {
+      d: "M12.2426 12.2426C9.89949 14.5858 6.10051 14.5858 3.75736 12.2426C1.41421 9.89949 1.41421 6.1005 3.75736 3.75735M12.2426 12.2426C14.5858 9.89949 14.5858 6.1005 12.2426 3.75735C9.89949 1.4142 6.10051 1.4142 3.75736 3.75735M12.2426 12.2426L3.75736 3.75735",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5twfxo"
+    }
+  ]
+];
+var Ban = createFoamicon("Ban", __iconNode81);
+
+// src/icons/BellDuotone.tsx
+var __iconNode82 = [
+  [
+    "path",
+    {
+      d: "M12 6.03279C12.0001 6.02187 12.0001 6.01094 12.0001 6C12.0001 3.79086 10.2093 2 8.00013 2C5.79099 2 4.00013 3.79086 4.00013 6L4 6.5C4 7.77873 3.59998 8.96402 2.91825 9.93758C2.71546 10.2272 2.81998 10.647 3.15698 10.7539C4.10154 11.0536 5.08408 11.2679 6.09555 11.3878C6.72005 11.4619 7.35558 11.5 8 11.5C8.64451 11.5 9.28012 11.4619 9.9047 11.3878C10.9161 11.2678 11.8985 11.0535 12.843 10.7539C13.18 10.647 13.2845 10.2272 13.0817 9.93758C12.4 8.96402 12 7.77873 12 6.5V6.03279Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "cjrnvj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00013 14C9.1047 14 10.0001 13.1046 10.0001 12C10.0001 11.9291 9.99644 11.8591 9.98925 11.7902C9.96444 11.5522 9.73332 11.409 9.49512 11.4311C9.00287 11.4767 8.50416 11.5 8 11.5C7.49592 11.5 6.9973 11.4767 6.50513 11.4311C6.26693 11.409 6.03581 11.5523 6.011 11.7902C6.00382 11.8591 6.00013 11.9291 6.00013 12C6.00013 13.1046 6.89556 14 8.00013 14Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ax72sj"
+    }
+  ]
+];
+var BellDuotone = createFoamicon("BellDuotone", __iconNode82);
+
+// src/icons/BellFill.tsx
+var __iconNode83 = [
+  [
+    "path",
+    {
+      d: "M12 6.03279C12.0001 6.02187 12.0001 6.01094 12.0001 6C12.0001 3.79086 10.2093 2 8.00014 2C5.791 2 4.00014 3.79086 4.00014 6L4.00001 6.5C4.00001 7.77873 3.59999 8.96402 2.91826 9.93758C2.71547 10.2272 2.81998 10.647 3.15699 10.7539C4.10155 11.0536 5.08409 11.2679 6.09556 11.3878C6.72006 11.4619 7.35558 11.5 8.00001 11.5C8.64452 11.5 9.28013 11.4619 9.9047 11.3878C10.9161 11.2678 11.8985 11.0535 12.843 10.7539C13.18 10.647 13.2845 10.2272 13.0818 9.93758C12.4 8.96402 12 7.77873 12 6.5V6.03279Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gaozwp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00012 14C9.10469 14 10.0001 13.1046 10.0001 12C10.0001 11.9291 9.99644 11.8591 9.98924 11.7902C9.96443 11.5522 9.73331 11.409 9.49511 11.4311C9.00287 11.4767 8.50415 11.5 7.99999 11.5C7.49592 11.5 6.99729 11.4767 6.50512 11.4311C6.26692 11.409 6.0358 11.5523 6.011 11.7902C6.00381 11.8591 6.00012 11.9291 6.00012 12C6.00012 13.1046 6.89555 14 8.00012 14Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "p6zut2"
+    }
+  ]
+];
+var BellFill = createFoamicon("BellFill", __iconNode83);
+
+// src/icons/Bell.tsx
+var __iconNode84 = [
+  [
+    "path",
+    {
+      d: "M9.9047 11.3878C10.9161 11.2678 11.8985 11.0535 12.843 10.7539C13.18 10.647 13.2845 10.2272 13.0817 9.93758C12.4 8.96402 12 7.77873 12 6.5V6.03279C12.0001 6.02187 12.0001 6.01094 12.0001 6C12.0001 3.79086 10.2093 2 8.00013 2C5.79099 2 4.00013 3.79086 4.00013 6L4 6.5C4 7.77873 3.59998 8.96402 2.91826 9.93758C2.71546 10.2272 2.81998 10.647 3.15698 10.7539C4.10155 11.0536 5.08409 11.2679 6.09556 11.3878M9.9047 11.3878C9.28012 11.4619 8.64451 11.5 8 11.5C7.35558 11.5 6.72005 11.4619 6.09556 11.3878M9.9047 11.3878C9.96667 11.5807 10.0001 11.7865 10.0001 12C10.0001 13.1046 9.1047 14 8.00013 14C6.89556 14 6.00013 13.1046 6.00013 12C6.00013 11.7865 6.03359 11.5808 6.09556 11.3878",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "b15qij"
+    }
+  ]
+];
+var Bell = createFoamicon("Bell", __iconNode84);
+
+// src/icons/BoldDuotone.tsx
+var __iconNode85 = [
+  [
+    "path",
+    {
+      d: "M4.23624 8.00002H9.23624C9.94349 8.00002 10.6218 8.28097 11.1219 8.78107C11.622 9.28117 11.9029 9.95944 11.9029 10.6667C11.9029 11.3739 11.622 12.0522 11.1219 12.5523C10.6218 13.0524 9.94349 13.3334 9.23624 13.3334H4.90291C4.7261 13.3334 4.55653 13.2631 4.43151 13.1381C4.30648 13.0131 4.23624 12.8435 4.23624 12.6667V8.00002ZM4.23624 8.00002V3.33335C4.23624 3.15654 4.30648 2.98697 4.43151 2.86195C4.55653 2.73693 4.7261 2.66669 4.90291 2.66669H8.56958C9.27682 2.66669 9.9551 2.94764 10.4552 3.44774C10.9553 3.94783 11.2362 4.62611 11.2362 5.33335C11.2362 6.0406 10.9553 6.71888 10.4552 7.21897C9.9551 7.71907 9.27682 8.00002 8.56958 8.00002",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "41r0ry"
+    }
+  ]
+];
+var BoldDuotone = createFoamicon("BoldDuotone", __iconNode85);
+
+// src/icons/BoldFill.tsx
+var __iconNode86 = [
+  [
+    "path",
+    {
+      d: "M4.23624 8.00002H9.23624C9.94348 8.00002 10.6218 8.28097 11.1219 8.78107C11.622 9.28117 11.9029 9.95944 11.9029 10.6667C11.9029 11.3739 11.622 12.0522 11.1219 12.5523C10.6218 13.0524 9.94348 13.3334 9.23624 13.3334H4.9029C4.72609 13.3334 4.55652 13.2631 4.4315 13.1381C4.30647 13.0131 4.23624 12.8435 4.23624 12.6667V8.00002ZM4.23624 8.00002V3.33335C4.23624 3.15654 4.30647 2.98697 4.4315 2.86195C4.55652 2.73693 4.72609 2.66669 4.9029 2.66669H8.56957C9.27681 2.66669 9.95509 2.94764 10.4552 3.44774C10.9553 3.94783 11.2362 4.62611 11.2362 5.33335C11.2362 6.0406 10.9553 6.71888 10.4552 7.21897C9.95509 7.71907 9.27681 8.00002 8.56957 8.00002",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "10sev4"
+    }
+  ]
+];
+var BoldFill = createFoamicon("BoldFill", __iconNode86);
+
+// src/icons/Bold.tsx
+var __iconNode87 = [
+  [
+    "path",
+    {
+      d: "M4.23624 8.00002H9.23624C9.94349 8.00002 10.6218 8.28097 11.1219 8.78107C11.622 9.28117 11.9029 9.95944 11.9029 10.6667C11.9029 11.3739 11.622 12.0522 11.1219 12.5523C10.6218 13.0524 9.94349 13.3334 9.23624 13.3334H4.90291C4.7261 13.3334 4.55653 13.2631 4.43151 13.1381C4.30648 13.0131 4.23624 12.8435 4.23624 12.6667V3.33335C4.23624 3.15654 4.30648 2.98697 4.43151 2.86195C4.55653 2.73693 4.7261 2.66669 4.90291 2.66669H8.56958C9.27682 2.66669 9.9551 2.94764 10.4552 3.44774C10.9553 3.94783 11.2362 4.62611 11.2362 5.33335C11.2362 6.0406 10.9553 6.71888 10.4552 7.21897C9.9551 7.71907 9.27682 8.00002 8.56958 8.00002",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7758w8"
+    }
+  ]
+];
+var Bold = createFoamicon("Bold", __iconNode87);
+
+// src/icons/BookmarkDuotone.tsx
+var __iconNode88 = [
+  [
+    "path",
+    {
+      d: "M4.25 3.75425C4.25 3.51212 4.42325 3.30546 4.66273 3.26968C5.31772 3.17183 6.65886 3 8 3C9.34114 3 10.6823 3.17183 11.3373 3.26968C11.5767 3.30546 11.75 3.51212 11.75 3.75425V12.6058C11.75 13.0808 11.1392 13.2977 10.8308 12.9364C9.91058 11.8586 8.55417 10.3889 8 10.3889C7.44583 10.3889 6.08942 11.8586 5.16924 12.9364C4.86081 13.2977 4.25 13.0808 4.25 12.6058V3.75425Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "gme683"
+    }
+  ]
+];
+var BookmarkDuotone = createFoamicon("BookmarkDuotone", __iconNode88);
+
+// src/icons/BookmarkFill.tsx
+var __iconNode89 = [
+  [
+    "path",
+    {
+      d: "M4.25 3.75425C4.25 3.51212 4.42325 3.30546 4.66273 3.26968C5.31772 3.17183 6.65886 3 8 3C9.34114 3 10.6823 3.17183 11.3373 3.26968C11.5767 3.30546 11.75 3.51212 11.75 3.75425V12.6058C11.75 13.0808 11.1392 13.2977 10.8308 12.9364C9.91058 11.8586 8.55417 10.3889 8 10.3889C7.44583 10.3889 6.08942 11.8586 5.16924 12.9364C4.86081 13.2977 4.25 13.0808 4.25 12.6058V3.75425Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "elwzz"
+    }
+  ]
+];
+var BookmarkFill = createFoamicon("BookmarkFill", __iconNode89);
+
+// src/icons/Bookmark.tsx
+var __iconNode90 = [
+  [
+    "path",
+    {
+      d: "M4.25 3.75425C4.25 3.51212 4.42325 3.30546 4.66273 3.26968C5.31772 3.17183 6.65886 3 8 3C9.34114 3 10.6823 3.17183 11.3373 3.26968C11.5767 3.30546 11.75 3.51212 11.75 3.75425V12.6058C11.75 13.0808 11.1392 13.2977 10.8308 12.9364C9.91058 11.8586 8.55417 10.3889 8 10.3889C7.44583 10.3889 6.08942 11.8586 5.16924 12.9364C4.86081 13.2977 4.25 13.0808 4.25 12.6058V3.75425Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kldso8"
+    }
+  ]
+];
+var Bookmark = createFoamicon("Bookmark", __iconNode90);
+
+// src/icons/CalendarDuotone.tsx
+var __iconNode91 = [
+  [
+    "path",
+    {
+      d: "M5 3V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7683jg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 3V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d4jmia"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 6.17434C2 5.18547 2.7226 4.34728 3.70613 4.24462C4.84726 4.1255 6.42363 4 8 4C9.57637 4 11.1527 4.1255 12.2939 4.24462C13.2774 4.34728 14 5.18547 14 6.17434V11.8257C14 12.8145 13.2774 13.6527 12.2939 13.7554C11.1527 13.8745 9.57637 14 8 14C6.42363 14 4.84726 13.8745 3.70613 13.7554C2.7226 13.6527 2 12.8145 2 11.8257V6.17434Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lixvrn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8.6675C2 7.90032 2.57803 7.2585 3.34288 7.1987C4.49736 7.10843 6.24868 7 8 7C9.75132 7 11.5026 7.10843 12.6571 7.1987C13.422 7.2585 14 7.90032 14 8.6675V12.3325C14 13.0997 13.422 13.7415 12.6571 13.8013C11.5026 13.8916 9.75132 14 8 14C6.24868 14 4.49736 13.8916 3.34288 13.8013C2.57803 13.7415 2 13.0997 2 12.3325V8.6675Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "7fusj5"
+    }
+  ]
+];
+var CalendarDuotone = createFoamicon("CalendarDuotone", __iconNode91);
+
+// src/icons/CalendarFill.tsx
+var __iconNode92 = [
+  [
+    "path",
+    {
+      d: "M5 3V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7683jg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 3V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d4jmia"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 6.17434C2 5.18547 2.7226 4.34728 3.70613 4.24462C4.84726 4.1255 6.42363 4 8 4C9.57637 4 11.1527 4.1255 12.2939 4.24462C13.2774 4.34728 14 5.18547 14 6.17434V11.8257C14 12.8145 13.2774 13.6527 12.2939 13.7554C11.1527 13.8745 9.57637 14 8 14C6.42363 14 4.84726 13.8745 3.70613 13.7554C2.7226 13.6527 2 12.8145 2 11.8257V6.17434Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lixvrn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8.6675C2 7.90032 2.57803 7.2585 3.34288 7.1987C4.49736 7.10843 6.24868 7 8 7C9.75132 7 11.5026 7.10843 12.6571 7.1987C13.422 7.2585 14 7.90032 14 8.6675V12.3325C14 13.0997 13.422 13.7415 12.6571 13.8013C11.5026 13.8916 9.75132 14 8 14C6.24868 14 4.49736 13.8916 3.34288 13.8013C2.57803 13.7415 2 13.0997 2 12.3325V8.6675Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "83ukg1"
+    }
+  ]
+];
+var CalendarFill = createFoamicon("CalendarFill", __iconNode92);
+
+// src/icons/Calendar.tsx
+var __iconNode93 = [
+  [
+    "path",
+    {
+      d: "M5 3V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7683jg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 3V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d4jmia"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 6.17434C2 5.18547 2.7226 4.34728 3.70613 4.24462C4.84726 4.1255 6.42363 4 8 4C9.57637 4 11.1527 4.1255 12.2939 4.24462C13.2774 4.34728 14 5.18547 14 6.17434V11.8257C14 12.8145 13.2774 13.6527 12.2939 13.7554C11.1527 13.8745 9.57637 14 8 14C6.42363 14 4.84726 13.8745 3.70613 13.7554C2.7226 13.6527 2 12.8145 2 11.8257V6.17434Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lixvrn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8.6675C2 7.90032 2.57803 7.2585 3.34288 7.1987C4.49736 7.10843 6.24868 7 8 7C9.75132 7 11.5026 7.10843 12.6571 7.1987C13.422 7.2585 14 7.90032 14 8.6675V12.3325C14 13.0997 13.422 13.7415 12.6571 13.8013C11.5026 13.8916 9.75132 14 8 14C6.24868 14 4.49736 13.8916 3.34288 13.8013C2.57803 13.7415 2 13.0997 2 12.3325V8.6675Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "aw1jru"
+    }
+  ]
+];
+var Calendar = createFoamicon("Calendar", __iconNode93);
+
+// src/icons/ChartColumnSquareDuotone.tsx
+var __iconNode94 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.66915C2.5 3.70258 3.1911 2.87634 4.15044 2.75834C5.18882 2.63062 6.59441 2.5 8 2.5C9.40559 2.5 10.8112 2.63062 11.8496 2.75834C12.8089 2.87634 13.5 3.70258 13.5 4.66915V11.3308C13.5 12.2974 12.8089 13.1237 11.8496 13.2417C10.8112 13.3694 9.40559 13.5 8 13.5C6.59441 13.5 5.18882 13.3694 4.15044 13.2417C3.1911 13.1237 2.5 12.2974 2.5 11.3308V4.66915Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "tnfru1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 11V7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7s762f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 11V5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4p2gwz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 11V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qr8tkf"
+    }
+  ]
+];
+var ChartColumnSquareDuotone = createFoamicon("ChartColumnSquareDuotone", __iconNode94);
+
+// src/icons/ChartColumnSquareFill.tsx
+var __iconNode95 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.66915C2.5 3.70258 3.1911 2.87634 4.15044 2.75834C5.18882 2.63062 6.59441 2.5 8 2.5C9.40559 2.5 10.8112 2.63062 11.8496 2.75834C12.8089 2.87634 13.5 3.70258 13.5 4.66915V11.3308C13.5 12.2974 12.8089 13.1237 11.8496 13.2417C10.8112 13.3694 9.40559 13.5 8 13.5C6.59441 13.5 5.18882 13.3694 4.15044 13.2417C3.1911 13.1237 2.5 12.2974 2.5 11.3308V4.66915Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3kpnvn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 11V7.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "32lice"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 11V5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rijp2e"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 11V9.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8cwam0"
+    }
+  ]
+];
+var ChartColumnSquareFill = createFoamicon("ChartColumnSquareFill", __iconNode95);
+
+// src/icons/ChartColumnSquare.tsx
+var __iconNode96 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.66915C2.5 3.70258 3.1911 2.87634 4.15044 2.75834C5.18882 2.63062 6.59441 2.5 8 2.5C9.40559 2.5 10.8112 2.63062 11.8496 2.75834C12.8089 2.87634 13.5 3.70258 13.5 4.66915V11.3308C13.5 12.2974 12.8089 13.1237 11.8496 13.2417C10.8112 13.3694 9.40559 13.5 8 13.5C6.59441 13.5 5.18882 13.3694 4.15044 13.2417C3.1911 13.1237 2.5 12.2974 2.5 11.3308V4.66915Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vedvlo"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 11V7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7s762f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 11V5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4p2gwz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 11V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qr8tkf"
+    }
+  ]
+];
+var ChartColumnSquare = createFoamicon("ChartColumnSquare", __iconNode96);
+
+// src/icons/CheckboxDuotone.tsx
+var __iconNode97 = [
+  [
+    "path",
+    {
+      d: "M1.8953 2.70501C1.95365 2.28173 2.28173 1.95365 2.70501 1.8953C3.76842 1.7487 5.88421 1.5 8 1.5C10.1158 1.5 12.2316 1.7487 13.295 1.8953C13.7183 1.95365 14.0463 2.28173 14.1047 2.70501C14.2513 3.76842 14.5 5.88421 14.5 8C14.5 10.1158 14.2513 12.2316 14.1047 13.295C14.0463 13.7183 13.7183 14.0463 13.295 14.1047C12.2316 14.2513 10.1158 14.5 8 14.5C5.88421 14.5 3.76842 14.2513 2.70501 14.1047C2.28173 14.0463 1.95365 13.7183 1.8953 13.295C1.7487 12.2316 1.5 10.1158 1.5 8C1.5 5.88421 1.7487 3.76842 1.8953 2.70501Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "yfbsgy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.6719 5.76563L7.51604 10.1049C7.33533 10.3534 6.97537 10.3816 6.75812 10.1644L5.42188 8.82812",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z3wv5w"
+    }
+  ]
+];
+var CheckboxDuotone = createFoamicon("CheckboxDuotone", __iconNode97);
+
+// src/icons/CheckboxFill.tsx
+var __iconNode98 = [
+  [
+    "path",
+    {
+      d: "M1.8953 2.70501C1.95365 2.28173 2.28173 1.95365 2.70501 1.8953C3.76842 1.7487 5.88421 1.5 8 1.5C10.1158 1.5 12.2316 1.7487 13.295 1.8953C13.7183 1.95365 14.0463 2.28173 14.1047 2.70501C14.2513 3.76842 14.5 5.88421 14.5 8C14.5 10.1158 14.2513 12.2316 14.1047 13.295C14.0463 13.7183 13.7183 14.0463 13.295 14.1047C12.2316 14.2513 10.1158 14.5 8 14.5C5.88421 14.5 3.76842 14.2513 2.70501 14.1047C2.28173 14.0463 1.95365 13.7183 1.8953 13.295C1.7487 12.2316 1.5 10.1158 1.5 8C1.5 5.88421 1.7487 3.76842 1.8953 2.70501Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a8rpme"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.6719 5.76563L7.51604 10.1049C7.33533 10.3534 6.97537 10.3816 6.75812 10.1644L5.42188 8.82812",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z5yrqx"
+    }
+  ]
+];
+var CheckboxFill = createFoamicon("CheckboxFill", __iconNode98);
+
+// src/icons/Checkbox.tsx
+var __iconNode99 = [
+  [
+    "path",
+    {
+      d: "M10.6719 5.76563L7.51604 10.1049C7.33533 10.3534 6.97537 10.3816 6.75812 10.1644L5.42188 8.82812",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z3wv5x"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.8953 2.70501C1.95365 2.28173 2.28173 1.95365 2.70501 1.8953C3.76842 1.7487 5.88421 1.5 8 1.5C10.1158 1.5 12.2316 1.7487 13.295 1.8953C13.7183 1.95365 14.0463 2.28173 14.1047 2.70501C14.2513 3.76842 14.5 5.88421 14.5 8C14.5 10.1158 14.2513 12.2316 14.1047 13.295C14.0463 13.7183 13.7183 14.0463 13.295 14.1047C12.2316 14.2513 10.1158 14.5 8 14.5C5.88421 14.5 3.76842 14.2513 2.70501 14.1047C2.28173 14.0463 1.95365 13.7183 1.8953 13.295C1.7487 12.2316 1.5 10.1158 1.5 8C1.5 5.88421 1.7487 3.76842 1.8953 2.70501Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "19p0rg"
+    }
+  ]
+];
+var Checkbox = createFoamicon("Checkbox", __iconNode99);
+
+// src/icons/CheckmarkDuotone.tsx
+var __iconNode100 = [
+  [
+    "path",
+    {
+      d: "M10.7606 5.01062L7.10478 10.0374C6.92407 10.2859 6.56411 10.3141 6.34686 10.0969L4.76062 8.51062",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mih3o2"
+    }
+  ]
+];
+var CheckmarkDuotone = createFoamicon("CheckmarkDuotone", __iconNode100);
+
+// src/icons/CheckmarkFill.tsx
+var __iconNode101 = [
+  [
+    "path",
+    {
+      d: "M10.7606 5.01062L7.10478 10.0374C6.92407 10.2859 6.56411 10.3141 6.34686 10.0969L4.76062 8.51062",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mih3o2"
+    }
+  ]
+];
+var CheckmarkFill = createFoamicon("CheckmarkFill", __iconNode101);
+
+// src/icons/Checkmark.tsx
+var __iconNode102 = [
+  [
+    "path",
+    {
+      d: "M10.7606 5.01062L7.10479 10.0374C6.92408 10.2859 6.56412 10.3141 6.34686 10.0969L4.76062 8.51062",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n8pf5h"
+    }
+  ]
+];
+var Checkmark = createFoamicon("Checkmark", __iconNode102);
+
+// src/icons/ChevronDownDuotone.tsx
+var __iconNode103 = [
+  [
+    "path",
+    {
+      d: "M10.6667 7.33333L8.35356 9.64645C8.1583 9.84171 7.84171 9.84171 7.64645 9.64645L5.33334 7.33333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h40h2r"
+    }
+  ]
+];
+var ChevronDownDuotone = createFoamicon("ChevronDownDuotone", __iconNode103);
+
+// src/icons/ChevronDownFill.tsx
+var __iconNode104 = [
+  [
+    "path",
+    {
+      d: "M10.6667 7.33333L8.35356 9.64645C8.1583 9.84171 7.84171 9.84171 7.64645 9.64645L5.33334 7.33333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h40h2r"
+    }
+  ]
+];
+var ChevronDownFill = createFoamicon("ChevronDownFill", __iconNode104);
+
+// src/icons/ChevronDown.tsx
+var __iconNode105 = [
+  [
+    "path",
+    {
+      d: "M10.6667 7.33333L8.35356 9.64645C8.1583 9.84171 7.84171 9.84171 7.64645 9.64645L5.33334 7.33333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h40h2r"
+    }
+  ]
+];
+var ChevronDown = createFoamicon("ChevronDown", __iconNode105);
+
+// src/icons/ChevronLeftDuotone.tsx
+var __iconNode106 = [
+  [
+    "path",
+    {
+      d: "M8.66667 10.6667L6.35355 8.35357C6.15829 8.15831 6.15829 7.84173 6.35355 7.64647L8.66667 5.33335",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rp74ls"
+    }
+  ]
+];
+var ChevronLeftDuotone = createFoamicon("ChevronLeftDuotone", __iconNode106);
+
+// src/icons/ChevronLeftFill.tsx
+var __iconNode107 = [
+  [
+    "path",
+    {
+      d: "M8.66667 10.6667L6.35355 8.35357C6.15829 8.15831 6.15829 7.84173 6.35355 7.64647L8.66667 5.33335",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rp74ls"
+    }
+  ]
+];
+var ChevronLeftFill = createFoamicon("ChevronLeftFill", __iconNode107);
+
+// src/icons/ChevronLeft.tsx
+var __iconNode108 = [
+  [
+    "path",
+    {
+      d: "M8.66667 10.6667L6.35355 8.35357C6.15829 8.15831 6.15829 7.84173 6.35355 7.64647L8.66667 5.33335",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rp74ls"
+    }
+  ]
+];
+var ChevronLeft = createFoamicon("ChevronLeft", __iconNode108);
+
+// src/icons/ChevronRightDuotone.tsx
+var __iconNode109 = [
+  [
+    "path",
+    {
+      d: "M7.33333 5.33331L9.64645 7.64643C9.84171 7.84169 9.84171 8.15827 9.64645 8.35353L7.33333 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cux3n9"
+    }
+  ]
+];
+var ChevronRightDuotone = createFoamicon("ChevronRightDuotone", __iconNode109);
+
+// src/icons/ChevronRightFill.tsx
+var __iconNode110 = [
+  [
+    "path",
+    {
+      d: "M7.33333 5.33331L9.64645 7.64643C9.84171 7.84169 9.84171 8.15827 9.64645 8.35353L7.33333 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cux3n9"
+    }
+  ]
+];
+var ChevronRightFill = createFoamicon("ChevronRightFill", __iconNode110);
+
+// src/icons/ChevronRight.tsx
+var __iconNode111 = [
+  [
+    "path",
+    {
+      d: "M7.33333 5.33331L9.64645 7.64643C9.84171 7.84169 9.84171 8.15827 9.64645 8.35353L7.33333 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cux3n9"
+    }
+  ]
+];
+var ChevronRight = createFoamicon("ChevronRight", __iconNode111);
+
+// src/icons/ChevronUpDuotone.tsx
+var __iconNode112 = [
+  [
+    "path",
+    {
+      d: "M5.33333 8.66667L7.64644 6.35355C7.8417 6.15829 8.15829 6.15829 8.35355 6.35355L10.6667 8.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fvu3zp"
+    }
+  ]
+];
+var ChevronUpDuotone = createFoamicon("ChevronUpDuotone", __iconNode112);
+
+// src/icons/ChevronUpFill.tsx
+var __iconNode113 = [
+  [
+    "path",
+    {
+      d: "M5.33333 8.66667L7.64644 6.35355C7.8417 6.15829 8.15829 6.15829 8.35355 6.35355L10.6667 8.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fvu3zp"
+    }
+  ]
+];
+var ChevronUpFill = createFoamicon("ChevronUpFill", __iconNode113);
+
+// src/icons/ChevronUp.tsx
+var __iconNode114 = [
+  [
+    "path",
+    {
+      d: "M5.33333 8.66667L7.64644 6.35355C7.8417 6.15829 8.15829 6.15829 8.35355 6.35355L10.6667 8.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fvu3zp"
+    }
+  ]
+];
+var ChevronUp = createFoamicon("ChevronUp", __iconNode114);
+
+// src/icons/CircleAlertDuotone.tsx
+var __iconNode115 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "w97vay"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.01019 8.43986L8.01019 4.75003",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7eyveo"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00686 10.9486H8.01353",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9puncs"
+    }
+  ]
+];
+var CircleAlertDuotone = createFoamicon("CircleAlertDuotone", __iconNode115);
+
+// src/icons/CircleAlertFill.tsx
+var __iconNode116 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d9sdlm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.01019 8.43986L8.01019 4.75003",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jd8x85"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00687 10.9486H8.01353Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      key: "cg7b1l"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00687 10.9486H8.01353",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "m5gkmb"
+    }
+  ]
+];
+var CircleAlertFill = createFoamicon("CircleAlertFill", __iconNode116);
+
+// src/icons/CircleAlert.tsx
+var __iconNode117 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mpqwsf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.01019 8.43986L8.0102 4.75003",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4ssvve"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00686 10.9486H8.01353",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9puncs"
+    }
+  ]
+];
+var CircleAlert = createFoamicon("CircleAlert", __iconNode117);
+
+// src/icons/CircleDollarSignDuotone.tsx
+var __iconNode118 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "w97vay"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.18006 9.20677C6.18006 10.0275 6.99338 10.6928 7.99667 10.6928C8.99995 10.6928 9.81327 10.0275 9.81327 9.20677C9.81327 8.38604 8.99995 7.7207 7.99667 7.7207",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "amtmop"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.81327 6.24155C9.81327 5.42463 8.99995 4.76239 7.99667 4.76239C6.99338 4.76239 6.18006 5.42463 6.18006 6.24155C6.18006 7.05846 6.99338 7.7207 7.99667 7.7207",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nx2wqg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99966 3.96936V12.0306",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6c5zap"
+    }
+  ]
+];
+var CircleDollarSignDuotone = createFoamicon("CircleDollarSignDuotone", __iconNode118);
+
+// src/icons/CircleDollarSignFill.tsx
+var __iconNode119 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d9sdlm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.18007 9.20677C6.18007 10.0275 6.99339 10.6928 7.99667 10.6928C8.99996 10.6928 9.81328 10.0275 9.81328 9.20677C9.81328 8.38604 8.99996 7.7207 7.99667 7.7207",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "32xphm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.81328 6.24155C9.81328 5.42463 8.99996 4.76239 7.99667 4.76239C6.99339 4.76239 6.18007 5.42463 6.18007 6.24155C6.18007 7.05846 6.99339 7.7207 7.99667 7.7207",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "crkp93"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99966 3.96936V12.0306",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "enq9fu"
+    }
+  ]
+];
+var CircleDollarSignFill = createFoamicon("CircleDollarSignFill", __iconNode119);
+
+// src/icons/CircleDollarSign.tsx
+var __iconNode120 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mpqwsf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.18006 9.20677C6.18006 10.0275 6.99339 10.6928 7.99667 10.6928C8.99995 10.6928 9.81327 10.0275 9.81327 9.20677C9.81327 8.38604 8.99995 7.7207 7.99667 7.7207",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8dr9l2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.81327 6.24155C9.81327 5.42463 8.99995 4.76239 7.99667 4.76239C6.99339 4.76239 6.18006 5.42463 6.18006 6.24155C6.18006 7.05846 6.99339 7.7207 7.99667 7.7207",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d0xx1i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99966 3.96936V12.0306",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6c5zap"
+    }
+  ]
+];
+var CircleDollarSign = createFoamicon("CircleDollarSign", __iconNode120);
+
+// src/icons/CircleQuestionMarkDuotone.tsx
+var __iconNode121 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "w97vay"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.05453 8.86291C8.12045 7.91806 9.21944 7.27066 9.51321 6.95069C9.70825 6.73825 9.82338 6.47638 9.82338 6.19312C9.82338 5.48321 9.1003 4.90771 8.20834 4.90771C7.31638 4.90771 6.59331 5.48321 6.59331 6.19312",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "eimvgx"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00687 10.5H8.01353Z",
+      fill: "currentColor",
+      key: "x10jnm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00687 10.5H8.01353",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g0wwbw"
+    }
+  ]
+];
+var CircleQuestionMarkDuotone = createFoamicon("CircleQuestionMarkDuotone", __iconNode121);
+
+// src/icons/CircleQuestionMarkFill.tsx
+var __iconNode122 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d9sdlm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.05453 8.86291C8.12045 7.91806 9.21944 7.27066 9.51321 6.95069C9.70825 6.73825 9.82338 6.47638 9.82338 6.19312C9.82338 5.48321 9.1003 4.90771 8.20834 4.90771C7.31638 4.90771 6.59331 5.48321 6.59331 6.19312",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "48p6l6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00687 10.5H8.01353Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      key: "xn0rnd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00687 10.5H8.01353",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pa0o8j"
+    }
+  ]
+];
+var CircleQuestionMarkFill = createFoamicon("CircleQuestionMarkFill", __iconNode122);
+
+// src/icons/CircleQuestionMark.tsx
+var __iconNode123 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mpqwsf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.05453 8.86291C8.12045 7.91806 9.21944 7.27066 9.5132 6.95069C9.70825 6.73825 9.82337 6.47638 9.82337 6.19312C9.82337 5.48321 9.1003 4.90771 8.20834 4.90771C7.31638 4.90771 6.5933 5.48321 6.5933 6.19312",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "m02st5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.05453 8.86291C8.12045 7.91806 9.21944 7.27066 9.51321 6.95069C9.70825 6.73825 9.82338 6.47638 9.82338 6.19312C9.82338 5.48321 9.1003 4.90771 8.20834 4.90771C7.31638 4.90771 6.59331 5.48321 6.59331 6.19312",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "eimvgw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00687 10.5H8.01353Z",
+      fill: "currentColor",
+      key: "x10jnn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00687 10.5H8.01353",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g0wwbx"
+    }
+  ]
+];
+var CircleQuestionMark = createFoamicon("CircleQuestionMark", __iconNode123);
+
+// src/icons/CircleXDuotone.tsx
+var __iconNode124 = [
+  [
+    "path",
+    {
+      d: "M11.182 4.81799L4.81802 11.182",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s8899r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.182 11.182L4.81802 4.81805",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2qlg26"
+    }
+  ]
+];
+var CircleXDuotone = createFoamicon("CircleXDuotone", __iconNode124);
+
+// src/icons/CircleXFill.tsx
+var __iconNode125 = [
+  [
+    "path",
+    {
+      d: "M11.182 4.81799L4.81802 11.182",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s8899r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.182 11.182L4.81802 4.81805",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2qlg26"
+    }
+  ]
+];
+var CircleXFill = createFoamicon("CircleXFill", __iconNode125);
+
+// src/icons/CircleX.tsx
+var __iconNode126 = [
+  [
+    "path",
+    {
+      d: "M11.182 4.81799L4.81802 11.182",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s8899r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.182 11.182L4.81802 4.81805",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2qlg26"
+    }
+  ]
+];
+var CircleX = createFoamicon("CircleX", __iconNode126);
+
+// src/icons/ClockArrowDownDuotone.tsx
+var __iconNode127 = [
+  [
+    "path",
+    {
+      d: "M8 4.75V8.25L9.75 9.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jzq20a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 12L11.9871 14.5116M11.9871 14.5116L9.5 12M11.9871 14.5116L11.9871 9.19999",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hhm76r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 8C14.5 4.41015 11.5899 1.5 8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 11.5899 4.41015 14.5 8 14.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "loyuvl"
+    }
+  ]
+];
+var ClockArrowDownDuotone = createFoamicon("ClockArrowDownDuotone", __iconNode127);
+
+// src/icons/ClockArrowDownFill.tsx
+var __iconNode128 = [
+  [
+    "path",
+    {
+      d: "M8 4.75V8.25L9.75 9.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jzq20a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 12L11.9871 14.5116M11.9871 14.5116L9.5 12M11.9871 14.5116L11.9871 9.19999",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hhm76r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 8C14.5 4.41015 11.5899 1.5 8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 11.5899 4.41015 14.5 8 14.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "loyuvl"
+    }
+  ]
+];
+var ClockArrowDownFill = createFoamicon("ClockArrowDownFill", __iconNode128);
+
+// src/icons/ClockArrowDown.tsx
+var __iconNode129 = [
+  [
+    "path",
+    {
+      d: "M8 4.75V8.25L9.75 9.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jzq20a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 12L11.9871 14.5116M11.9871 14.5116L9.5 12M11.9871 14.5116L11.9871 9.19999",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hhm76r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 8C14.5 4.41015 11.5899 1.5 8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 11.5899 4.41015 14.5 8 14.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "loyuvl"
+    }
+  ]
+];
+var ClockArrowDown = createFoamicon("ClockArrowDown", __iconNode129);
+
+// src/icons/ClockArrowUpDuotone.tsx
+var __iconNode130 = [
+  [
+    "path",
+    {
+      d: "M8 4.75V8.25L9.25 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7k49yk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 11.7116L12.0129 9.19995M12.0129 9.19995L14.5 11.7116M12.0129 9.19995L12.0129 14.5116",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "90muk9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 8C14.5 4.41015 11.5899 1.5 8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 11.5899 4.41015 14.5 8 14.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "loyuvl"
+    }
+  ]
+];
+var ClockArrowUpDuotone = createFoamicon("ClockArrowUpDuotone", __iconNode130);
+
+// src/icons/ClockArrowUpFill.tsx
+var __iconNode131 = [
+  [
+    "path",
+    {
+      d: "M8 4.75V8.25L9.25 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7k49yk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 11.7116L12.0129 9.19995M12.0129 9.19995L14.5 11.7116M12.0129 9.19995L12.0129 14.5116",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "90muk9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 8C14.5 4.41015 11.5899 1.5 8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 11.5899 4.41015 14.5 8 14.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "loyuvl"
+    }
+  ]
+];
+var ClockArrowUpFill = createFoamicon("ClockArrowUpFill", __iconNode131);
+
+// src/icons/ClockArrowUp.tsx
+var __iconNode132 = [
+  [
+    "path",
+    {
+      d: "M8 4.75V8.25L9.25 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7k49yk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 11.7116L12.0129 9.19995M12.0129 9.19995L14.5 11.7116M12.0129 9.19995L12.0129 14.5116",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "90muk9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 8C14.5 4.41015 11.5899 1.5 8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 11.5899 4.41015 14.5 8 14.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "loyuvl"
+    }
+  ]
+];
+var ClockArrowUp = createFoamicon("ClockArrowUp", __iconNode132);
+
+// src/icons/ClockDuotone.tsx
+var __iconNode133 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "w97vay"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 4V7.58579C8 7.851 8.10536 8.10536 8.29289 8.29289L10 10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "zgxch4"
+    }
+  ]
+];
+var ClockDuotone = createFoamicon("ClockDuotone", __iconNode133);
+
+// src/icons/ClockFill.tsx
+var __iconNode134 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d9sdlm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 4V7.58579C8 7.851 8.10536 8.10536 8.29289 8.29289L10 10",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lm97pp"
+    }
+  ]
+];
+var ClockFill = createFoamicon("ClockFill", __iconNode134);
+
+// src/icons/Clock.tsx
+var __iconNode135 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mpqwsf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 4V7.58579C8 7.851 8.10536 8.10536 8.29289 8.29289L10 10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "zgxch4"
+    }
+  ]
+];
+var Clock = createFoamicon("Clock", __iconNode135);
+
+// src/icons/CogDuotone.tsx
+var __iconNode136 = [
+  [
+    "path",
+    {
+      fillRule: "evenodd",
+      clipRule: "evenodd",
+      d: "M12.3407 10.5061C12.1369 10.8544 12.0671 11.2755 12.2175 11.6498L12.6439 12.711C12.6717 12.7859 12.672 12.8682 12.6448 12.9434C12.6176 13.0185 12.5647 13.0816 12.4954 13.1214L10.1816 14.4558C10.1122 14.4947 10.0313 14.508 9.95316 14.4931C9.87498 14.4783 9.80455 14.4363 9.75428 14.3747L8.82164 13.1838C8.77004 13.1184 8.70302 13.0669 8.6266 13.0338C8.55017 13.0007 8.46673 12.9871 8.38375 12.9941C8.12457 13.0148 7.86419 13.0157 7.60487 12.9969C7.52329 12.9911 7.44154 13.0055 7.36683 13.0387C7.29212 13.072 7.22674 13.1232 7.17648 13.1877L6.24607 14.3786C6.19459 14.4401 6.12333 14.4819 6.04448 14.4967C5.96562 14.5115 5.88407 14.4985 5.81375 14.4599L3.49876 13.1233C3.43112 13.0827 3.37933 13.0202 3.35194 12.9462C3.32454 12.8722 3.32317 12.7911 3.34805 12.7162L3.91337 11.3171C3.9441 11.2402 3.95538 11.157 3.9462 11.0748C3.93702 10.9926 3.90766 10.9139 3.86074 10.8457C3.71476 10.6312 3.58622 10.4053 3.47636 10.1702C3.44108 10.0951 3.38767 10.03 3.32095 9.98073C3.25423 9.93144 3.17629 9.89952 3.09416 9.88785L1.59694 9.67548C1.51841 9.66283 1.44686 9.62286 1.39489 9.56263C1.34293 9.5024 1.31389 9.42576 1.31289 9.34622L1.31165 6.67526C1.31139 6.59533 1.33951 6.51791 1.391 6.45677C1.44248 6.39564 1.51399 6.35476 1.5928 6.34142L3.09563 6.12655C3.17825 6.11429 3.2565 6.08158 3.32327 6.03141C3.39005 5.98124 3.44324 5.91519 3.47801 5.83925C3.53343 5.72077 3.59247 5.60475 3.65763 5.4919C3.72278 5.37904 3.79253 5.27136 3.86629 5.16673C3.91367 5.09865 3.94338 5.01985 3.95272 4.93744C3.96207 4.85502 3.95077 4.77158 3.91983 4.69462L3.35503 3.286C3.32819 3.21136 3.32846 3.12964 3.35582 3.05518C3.38317 2.98072 3.43586 2.91826 3.50464 2.87875L5.81839 1.54435C5.88776 1.50537 5.96866 1.49213 6.04684 1.50697C6.12502 1.5218 6.19545 1.56376 6.24572 1.62544L7.17836 2.8163C7.22997 2.88167 7.29698 2.93322 7.37341 2.96632C7.44983 2.99942 7.53327 3.01305 7.61625 3.00597C7.87544 2.98534 8.13581 2.9844 8.39513 3.00316C8.47671 3.00898 8.55846 2.99462 8.63317 2.96136C8.70789 2.92809 8.77326 2.87694 8.82352 2.81243L9.75393 1.62152C9.80542 1.55998 9.87667 1.51823 9.95553 1.5034C10.0344 1.48857 10.1159 1.50159 10.1863 1.54023L12.5012 2.87679C12.5689 2.91742 12.6207 2.97988 12.6481 3.05387C12.6755 3.12787 12.6768 3.20899 12.652 3.28387L12.0866 4.68304C12.0559 4.75986 12.0446 4.84308 12.0538 4.92531C12.063 5.00754 12.0923 5.08623 12.1393 5.15438C12.2852 5.3689 12.4138 5.59479 12.5236 5.82987C12.5589 5.90495 12.6123 5.97007 12.6791 6.01937C12.7458 6.06866 12.8237 6.10058 12.9058 6.11225L14.4031 6.32462C14.4816 6.33727 14.5531 6.37723 14.6051 6.43747C14.6571 6.4977 14.6861 6.57434 14.6871 6.65388L14.6884 9.32484C14.6886 9.40477 14.6605 9.48219 14.609 9.54332C14.5575 9.60446 14.486 9.64534 14.4072 9.65868L12.9044 9.87355C12.8216 9.88552 12.7431 9.91801 12.6761 9.96805C12.6091 10.0181 12.5556 10.0841 12.5206 10.1601C12.4649 10.2773 12.4058 10.3933 12.3407 10.5061Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "huknff"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8.02673",
+      cy: "7.95837",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w1q6a3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.95508 1.50299C10.0339 1.48816 10.1162 1.50146 10.1865 1.54009L12.501 2.87701C12.5686 2.91763 12.621 2.97978 12.6484 3.05377C12.6758 3.12776 12.6772 3.20935 12.6523 3.28424L12.0869 4.68267C12.0562 4.75949 12.0445 4.84361 12.0537 4.92584C12.063 5.0079 12.0928 5.08633 12.1396 5.15435C12.2856 5.36884 12.4136 5.5951 12.5234 5.83013C12.5587 5.90512 12.6121 5.97033 12.6787 6.01959C12.7454 6.06888 12.8241 6.10069 12.9063 6.11236L14.4033 6.32427C14.4818 6.33696 14.5536 6.37737 14.6055 6.43756C14.6573 6.49776 14.6865 6.5749 14.6875 6.65435L14.6885 9.32525C14.6886 9.40488 14.6606 9.48204 14.6094 9.54302C14.5579 9.60413 14.486 9.6449 14.4072 9.65826L12.9043 9.87408C12.8216 9.88607 12.7428 9.91781 12.6758 9.96783C12.6088 10.0179 12.5555 10.0843 12.5205 10.1602C12.4648 10.2773 12.4059 10.3932 12.3408 10.5059C12.1371 10.854 12.0675 11.2752 12.2178 11.6495L12.6436 12.711C12.6713 12.7859 12.6717 12.8683 12.6445 12.9434C12.6173 13.0185 12.5644 13.0814 12.4951 13.1211L10.1816 14.4561C10.1123 14.495 10.0313 14.508 9.95313 14.4932C9.87497 14.4784 9.80417 14.4367 9.75391 14.3751L8.82129 13.1836C8.76982 13.1185 8.70308 13.0673 8.62695 13.0342C8.55054 13.0011 8.46676 12.9871 8.38379 12.9942C8.12461 13.0148 7.86382 13.0159 7.60449 12.9971C7.5231 12.9914 7.44174 13.006 7.36719 13.0391C7.29257 13.0723 7.22699 13.1232 7.17676 13.1876L6.24609 14.379C6.1947 14.4403 6.12355 14.4823 6.04492 14.4971C5.96607 14.512 5.8838 14.4987 5.81348 14.46L3.49902 13.1231C3.43138 13.0825 3.37896 13.0203 3.35156 12.9463C3.32419 12.8724 3.32279 12.7907 3.34766 12.7159L3.91309 11.3174C3.94377 11.2407 3.95539 11.1573 3.94629 11.0753C3.93711 10.993 3.90728 10.9139 3.86035 10.8458C3.71443 10.6313 3.58639 10.405 3.47656 10.17C3.4413 10.095 3.38792 10.0298 3.32129 9.98052C3.25457 9.93123 3.17588 9.89942 3.09375 9.88775L1.59668 9.67584C1.51823 9.66315 1.44645 9.62273 1.39453 9.56256C1.34281 9.50248 1.31361 9.426 1.3125 9.34674L1.31152 6.67486C1.31138 6.59524 1.33942 6.51805 1.39063 6.45709C1.44209 6.39597 1.514 6.35521 1.59277 6.34185L3.0957 6.12701C3.17832 6.11474 3.25647 6.08147 3.32324 6.03131C3.38999 5.98114 3.44277 5.91484 3.47754 5.83892C3.53287 5.72063 3.59218 5.60493 3.65723 5.49224C3.72234 5.37947 3.79251 5.27162 3.86621 5.16705C3.91359 5.09898 3.94378 5.01996 3.95313 4.93756C3.96247 4.85514 3.95086 4.77135 3.91992 4.69439L3.35547 3.28619C3.32869 3.21172 3.32831 3.13004 3.35547 3.05572C3.38282 2.98126 3.4361 2.91847 3.50488 2.87896L5.81836 1.544C5.8877 1.50509 5.96875 1.49207 6.04688 1.50689C6.12502 1.52172 6.19583 1.56342 6.24609 1.62506L7.17871 2.81646C7.23026 2.88168 7.29677 2.93379 7.37305 2.96685C7.44946 2.99995 7.53324 3.01298 7.61621 3.00591C7.87539 2.98528 8.13618 2.98422 8.39551 3.00299C8.47691 3.00873 8.55825 2.99416 8.63281 2.96099C8.70745 2.92776 8.773 2.87698 8.82324 2.81256L9.75391 1.62115C9.8053 1.55983 9.87646 1.51785 9.95508 1.50299ZM8.02637 5.95806C6.92209 5.95826 6.02656 6.85378 6.02637 7.95806C6.02637 9.06251 6.92197 9.95786 8.02637 9.95806C9.13094 9.95806 10.0264 9.06263 10.0264 7.95806C10.0262 6.85366 9.13082 5.95806 8.02637 5.95806Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "xfsmah"
+    }
+  ]
+];
+var CogDuotone = createFoamicon("CogDuotone", __iconNode136);
+
+// src/icons/CogFill.tsx
+var __iconNode137 = [
+  [
+    "path",
+    {
+      fillRule: "evenodd",
+      clipRule: "evenodd",
+      d: "M12.3407 10.5061C12.1369 10.8544 12.0671 11.2755 12.2175 11.6498L12.6439 12.711C12.6717 12.7859 12.672 12.8682 12.6448 12.9434C12.6176 13.0185 12.5647 13.0816 12.4954 13.1214L10.1816 14.4558C10.1122 14.4947 10.0313 14.508 9.95316 14.4931C9.87498 14.4783 9.80455 14.4363 9.75428 14.3747L8.82164 13.1838C8.77004 13.1184 8.70302 13.0669 8.6266 13.0338C8.55017 13.0007 8.46673 12.9871 8.38375 12.9941C8.12457 13.0148 7.86419 13.0157 7.60487 12.9969C7.52329 12.9911 7.44154 13.0055 7.36683 13.0387C7.29212 13.072 7.22674 13.1232 7.17648 13.1877L6.24607 14.3786C6.19459 14.4401 6.12333 14.4819 6.04448 14.4967C5.96562 14.5115 5.88407 14.4985 5.81375 14.4599L3.49876 13.1233C3.43112 13.0827 3.37933 13.0202 3.35194 12.9462C3.32454 12.8722 3.32317 12.7911 3.34805 12.7162L3.91337 11.3171C3.9441 11.2402 3.95538 11.157 3.9462 11.0748C3.93702 10.9926 3.90766 10.9139 3.86074 10.8457C3.71476 10.6312 3.58622 10.4053 3.47636 10.1702C3.44108 10.0951 3.38767 10.03 3.32095 9.98073C3.25423 9.93144 3.17629 9.89952 3.09416 9.88785L1.59694 9.67548C1.51841 9.66283 1.44686 9.62286 1.39489 9.56263C1.34293 9.5024 1.31389 9.42576 1.31289 9.34622L1.31165 6.67526C1.31139 6.59533 1.33951 6.51791 1.391 6.45677C1.44248 6.39564 1.51399 6.35476 1.5928 6.34142L3.09563 6.12655C3.17825 6.11429 3.2565 6.08158 3.32327 6.03141C3.39005 5.98124 3.44324 5.91519 3.47801 5.83925C3.53343 5.72077 3.59247 5.60475 3.65763 5.4919C3.72278 5.37904 3.79253 5.27136 3.86629 5.16673C3.91367 5.09865 3.94338 5.01985 3.95272 4.93744C3.96207 4.85502 3.95077 4.77158 3.91983 4.69462L3.35503 3.286C3.32819 3.21136 3.32846 3.12964 3.35582 3.05518C3.38317 2.98072 3.43586 2.91826 3.50464 2.87875L5.81839 1.54435C5.88776 1.50537 5.96866 1.49213 6.04684 1.50697C6.12502 1.5218 6.19545 1.56376 6.24572 1.62544L7.17836 2.8163C7.22997 2.88167 7.29698 2.93322 7.37341 2.96632C7.44983 2.99942 7.53327 3.01305 7.61625 3.00597C7.87544 2.98534 8.13581 2.9844 8.39513 3.00316C8.47671 3.00898 8.55846 2.99462 8.63317 2.96136C8.70789 2.92809 8.77326 2.87694 8.82352 2.81243L9.75393 1.62152C9.80542 1.55998 9.87667 1.51823 9.95553 1.5034C10.0344 1.48857 10.1159 1.50159 10.1863 1.54023L12.5012 2.87679C12.5689 2.91742 12.6207 2.97988 12.6481 3.05387C12.6755 3.12787 12.6768 3.20899 12.652 3.28387L12.0866 4.68304C12.0559 4.75986 12.0446 4.84308 12.0538 4.92531C12.063 5.00754 12.0923 5.08623 12.1393 5.15438C12.2852 5.3689 12.4138 5.59479 12.5236 5.82987C12.5589 5.90495 12.6123 5.97007 12.6791 6.01937C12.7458 6.06866 12.8237 6.10058 12.9058 6.11225L14.4031 6.32462C14.4816 6.33727 14.5531 6.37723 14.6051 6.43747C14.6571 6.4977 14.6861 6.57434 14.6871 6.65388L14.6884 9.32484C14.6886 9.40477 14.6605 9.48219 14.609 9.54332C14.5575 9.60446 14.486 9.64534 14.4072 9.65868L12.9044 9.87355C12.8216 9.88552 12.7431 9.91801 12.6761 9.96805C12.6091 10.0181 12.5556 10.0841 12.5206 10.1601C12.4649 10.2773 12.4058 10.3933 12.3407 10.5061Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "huknff"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8.02673",
+      cy: "7.95837",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w1q6a3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.95508 1.50299C10.0339 1.48816 10.1162 1.50146 10.1865 1.54009L12.501 2.87701C12.5686 2.91763 12.621 2.97978 12.6484 3.05377C12.6758 3.12776 12.6772 3.20935 12.6523 3.28424L12.0869 4.68267C12.0562 4.75949 12.0445 4.84361 12.0537 4.92584C12.063 5.0079 12.0928 5.08633 12.1396 5.15435C12.2856 5.36884 12.4136 5.5951 12.5234 5.83013C12.5587 5.90512 12.6121 5.97033 12.6787 6.01959C12.7454 6.06888 12.8241 6.10069 12.9063 6.11236L14.4033 6.32427C14.4818 6.33696 14.5536 6.37737 14.6055 6.43756C14.6573 6.49776 14.6865 6.5749 14.6875 6.65435L14.6885 9.32525C14.6886 9.40488 14.6606 9.48204 14.6094 9.54302C14.5579 9.60413 14.486 9.6449 14.4072 9.65826L12.9043 9.87408C12.8216 9.88607 12.7428 9.91781 12.6758 9.96783C12.6088 10.0179 12.5555 10.0843 12.5205 10.1602C12.4648 10.2773 12.4059 10.3932 12.3408 10.5059C12.1371 10.854 12.0675 11.2752 12.2178 11.6495L12.6436 12.711C12.6713 12.7859 12.6717 12.8683 12.6445 12.9434C12.6173 13.0185 12.5644 13.0814 12.4951 13.1211L10.1816 14.4561C10.1123 14.495 10.0313 14.508 9.95313 14.4932C9.87497 14.4784 9.80417 14.4367 9.75391 14.3751L8.82129 13.1836C8.76982 13.1185 8.70308 13.0673 8.62695 13.0342C8.55054 13.0011 8.46676 12.9871 8.38379 12.9942C8.12461 13.0148 7.86382 13.0159 7.60449 12.9971C7.5231 12.9914 7.44174 13.006 7.36719 13.0391C7.29257 13.0723 7.22699 13.1232 7.17676 13.1876L6.24609 14.379C6.1947 14.4403 6.12355 14.4823 6.04492 14.4971C5.96607 14.512 5.8838 14.4987 5.81348 14.46L3.49902 13.1231C3.43138 13.0825 3.37896 13.0203 3.35156 12.9463C3.32419 12.8724 3.32279 12.7907 3.34766 12.7159L3.91309 11.3174C3.94377 11.2407 3.95539 11.1573 3.94629 11.0753C3.93711 10.993 3.90728 10.9139 3.86035 10.8458C3.71443 10.6313 3.58639 10.405 3.47656 10.17C3.4413 10.095 3.38792 10.0298 3.32129 9.98052C3.25457 9.93123 3.17588 9.89942 3.09375 9.88775L1.59668 9.67584C1.51823 9.66315 1.44645 9.62273 1.39453 9.56256C1.34281 9.50248 1.31361 9.426 1.3125 9.34674L1.31152 6.67486C1.31138 6.59524 1.33942 6.51805 1.39063 6.45709C1.44209 6.39597 1.514 6.35521 1.59277 6.34185L3.0957 6.12701C3.17832 6.11474 3.25647 6.08147 3.32324 6.03131C3.38999 5.98114 3.44277 5.91484 3.47754 5.83892C3.53287 5.72063 3.59218 5.60493 3.65723 5.49224C3.72234 5.37947 3.79251 5.27162 3.86621 5.16705C3.91359 5.09898 3.94378 5.01996 3.95313 4.93756C3.96247 4.85514 3.95086 4.77135 3.91992 4.69439L3.35547 3.28619C3.32869 3.21172 3.32831 3.13004 3.35547 3.05572C3.38282 2.98126 3.4361 2.91847 3.50488 2.87896L5.81836 1.544C5.8877 1.50509 5.96875 1.49207 6.04688 1.50689C6.12502 1.52172 6.19583 1.56342 6.24609 1.62506L7.17871 2.81646C7.23026 2.88168 7.29677 2.93379 7.37305 2.96685C7.44946 2.99995 7.53324 3.01298 7.61621 3.00591C7.87539 2.98528 8.13618 2.98422 8.39551 3.00299C8.47691 3.00873 8.55825 2.99416 8.63281 2.96099C8.70745 2.92776 8.773 2.87698 8.82324 2.81256L9.75391 1.62115C9.8053 1.55983 9.87646 1.51785 9.95508 1.50299ZM8.02637 5.95806C6.92209 5.95826 6.02656 6.85378 6.02637 7.95806C6.02637 9.06251 6.92197 9.95786 8.02637 9.95806C9.13094 9.95806 10.0264 9.06263 10.0264 7.95806C10.0262 6.85366 9.13082 5.95806 8.02637 5.95806Z",
+      fill: "currentColor",
+      key: "f1bq03"
+    }
+  ]
+];
+var CogFill = createFoamicon("CogFill", __iconNode137);
+
+// src/icons/Cog.tsx
+var __iconNode138 = [
+  [
+    "path",
+    {
+      fillRule: "evenodd",
+      clipRule: "evenodd",
+      d: "M12.3407 10.5061C12.1369 10.8544 12.0671 11.2755 12.2175 11.6498L12.6439 12.711C12.6717 12.7859 12.672 12.8682 12.6448 12.9434C12.6176 13.0185 12.5647 13.0816 12.4954 13.1214L10.1816 14.4558C10.1122 14.4947 10.0313 14.508 9.95316 14.4931C9.87498 14.4783 9.80455 14.4363 9.75428 14.3747L8.82164 13.1838C8.77003 13.1184 8.70302 13.0669 8.6266 13.0338C8.55017 13.0007 8.46673 12.9871 8.38375 12.9941C8.12457 13.0148 7.86419 13.0157 7.60487 12.9969C7.52329 12.9911 7.44154 13.0055 7.36683 13.0387C7.29212 13.072 7.22674 13.1232 7.17648 13.1877L6.24607 14.3786C6.19459 14.4401 6.12333 14.4819 6.04448 14.4967C5.96562 14.5115 5.88407 14.4985 5.81375 14.4599L3.49876 13.1233C3.43112 13.0827 3.37933 13.0202 3.35194 12.9462C3.32454 12.8722 3.32317 12.7911 3.34804 12.7162L3.91337 11.3171C3.9441 11.2402 3.95538 11.157 3.9462 11.0748C3.93701 10.9926 3.90766 10.9139 3.86073 10.8457C3.71476 10.6312 3.58622 10.4053 3.47636 10.1702C3.44108 10.0951 3.38767 10.03 3.32095 9.98073C3.25423 9.93144 3.17629 9.89952 3.09416 9.88785L1.59694 9.67548C1.51841 9.66283 1.44686 9.62286 1.39489 9.56263C1.34293 9.5024 1.31389 9.42576 1.31289 9.34622L1.31165 6.67526C1.31139 6.59533 1.33951 6.51791 1.39099 6.45677C1.44248 6.39564 1.51399 6.35476 1.59279 6.34142L3.09563 6.12655C3.17825 6.11429 3.2565 6.08158 3.32327 6.03141C3.39005 5.98124 3.44324 5.91519 3.47801 5.83925C3.53342 5.72077 3.59247 5.60475 3.65763 5.4919C3.72278 5.37904 3.79253 5.27136 3.86629 5.16673C3.91367 5.09865 3.94337 5.01985 3.95272 4.93744C3.96207 4.85502 3.95076 4.77158 3.91983 4.69462L3.35503 3.286C3.32818 3.21136 3.32846 3.12964 3.35582 3.05518C3.38317 2.98072 3.43586 2.91826 3.50464 2.87875L5.81839 1.54435C5.88776 1.50537 5.96866 1.49213 6.04684 1.50697C6.12502 1.5218 6.19545 1.56376 6.24572 1.62544L7.17836 2.8163C7.22996 2.88167 7.29698 2.93322 7.3734 2.96632C7.44983 2.99942 7.53327 3.01305 7.61625 3.00597C7.87543 2.98534 8.13581 2.9844 8.39513 3.00316C8.47671 3.00898 8.55846 2.99462 8.63317 2.96136C8.70788 2.92809 8.77326 2.87694 8.82352 2.81243L9.75393 1.62152C9.80541 1.55998 9.87667 1.51823 9.95552 1.5034C10.0344 1.48857 10.1159 1.50159 10.1863 1.54023L12.5012 2.87679C12.5689 2.91742 12.6207 2.97988 12.6481 3.05387C12.6755 3.12787 12.6768 3.20899 12.652 3.28387L12.0866 4.68304C12.0559 4.75986 12.0446 4.84308 12.0538 4.92531C12.063 5.00754 12.0923 5.08623 12.1393 5.15438C12.2852 5.3689 12.4138 5.59479 12.5236 5.82987C12.5589 5.90495 12.6123 5.97007 12.6791 6.01937C12.7458 6.06866 12.8237 6.10058 12.9058 6.11225L14.4031 6.32462C14.4816 6.33727 14.5531 6.37723 14.6051 6.43747C14.6571 6.4977 14.6861 6.57434 14.6871 6.65388L14.6884 9.32484C14.6886 9.40477 14.6605 9.48219 14.609 9.54332C14.5575 9.60446 14.486 9.64534 14.4072 9.65868L12.9044 9.87355C12.8216 9.88552 12.7431 9.91801 12.6761 9.96805C12.6091 10.0181 12.5556 10.0841 12.5206 10.1601C12.4649 10.2773 12.4058 10.3933 12.3407 10.5061Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t4ej4"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8.02673",
+      cy: "7.95837",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w1q6a3"
+    }
+  ]
+];
+var Cog = createFoamicon("Cog", __iconNode138);
+
+// src/icons/Columns3Duotone.tsx
+var __iconNode139 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.44152C2.5 3.58066 3.06061 2.84096 3.91395 2.72739C4.79328 2.61036 6.12073 2.5 8 2.5C9.87927 2.5 11.2067 2.61036 12.0861 2.72739C12.9394 2.84096 13.5 3.58066 13.5 4.44152V11.5585C13.5 12.4193 12.9394 13.159 12.0861 13.2726C11.2067 13.3896 9.87927 13.5 8 13.5C6.12073 13.5 4.79328 13.3896 3.91395 13.2726C3.06061 13.159 2.5 12.4193 2.5 11.5585V4.44152Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "oh7cjc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5V13.5",
+      stroke: "currentColor",
+      strokeLinejoin: "round",
+      key: "ctqvaa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 2.5V13.5",
+      stroke: "currentColor",
+      strokeLinejoin: "round",
+      key: "cdp7ei"
+    }
+  ]
+];
+var Columns3Duotone = createFoamicon("Columns3Duotone", __iconNode139);
+
+// src/icons/Columns3Fill.tsx
+var __iconNode140 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.44152C2.5 3.58066 3.06061 2.84096 3.91395 2.72739C4.79328 2.61036 6.12073 2.5 8 2.5C9.87927 2.5 11.2067 2.61036 12.0861 2.72739C12.9394 2.84096 13.5 3.58066 13.5 4.44152V11.5585C13.5 12.4193 12.9394 13.159 12.0861 13.2726C11.2067 13.3896 9.87927 13.5 8 13.5C6.12073 13.5 4.79328 13.3896 3.91395 13.2726C3.06061 13.159 2.5 12.4193 2.5 11.5585V4.44152Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4bgzkc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2V14",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinejoin: "round",
+      key: "u6tzoc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 2V14",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinejoin: "round",
+      key: "vqjwmi"
+    }
+  ]
+];
+var Columns3Fill = createFoamicon("Columns3Fill", __iconNode140);
+
+// src/icons/Columns3.tsx
+var __iconNode141 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.44152C2.5 3.58066 3.06061 2.84096 3.91395 2.72739C4.79328 2.61036 6.12073 2.5 8 2.5C9.87927 2.5 11.2067 2.61036 12.0861 2.72739C12.9394 2.84096 13.5 3.58066 13.5 4.44152V11.5585C13.5 12.4193 12.9394 13.159 12.0861 13.2726C11.2067 13.3896 9.87927 13.5 8 13.5C6.12073 13.5 4.79328 13.3896 3.91395 13.2726C3.06061 13.159 2.5 12.4193 2.5 11.5585V4.44152Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jco4p9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 2.5V13.5",
+      stroke: "currentColor",
+      strokeLinejoin: "round",
+      key: "ctqvaa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 2.5V13.5",
+      stroke: "currentColor",
+      strokeLinejoin: "round",
+      key: "cdp7ei"
+    }
+  ]
+];
+var Columns3 = createFoamicon("Columns3", __iconNode141);
+
+// src/icons/CommandDuotone.tsx
+var __iconNode142 = [
+  [
+    "path",
+    {
+      d: "M3 4.75C3 3.7835 3.7835 3 4.75 3V3C5.7165 3 6.5 3.7835 6.5 4.75V6.5H4.75C3.7835 6.5 3 5.7165 3 4.75V4.75Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "397r7t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 4.75C9.5 3.7835 10.2835 3 11.25 3V3C12.2165 3 13 3.7835 13 4.75V4.75C13 5.7165 12.2165 6.5 11.25 6.5H9.5V4.75Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uxdw8f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 11.25C3 10.2835 3.7835 9.5 4.75 9.5H6.5V11.25C6.5 12.2165 5.7165 13 4.75 13V13C3.7835 13 3 12.2165 3 11.25V11.25Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8m4mzg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 9.5H11.25C12.2165 9.5 13 10.2835 13 11.25V11.25C13 12.2165 12.2165 13 11.25 13V13C10.2835 13 9.5 12.2165 9.5 11.25V9.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "goobuj"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "6.5",
+      y: "6.5",
+      width: "3",
+      height: "3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "odg9o"
+    }
+  ]
+];
+var CommandDuotone = createFoamicon("CommandDuotone", __iconNode142);
+
+// src/icons/CommandFill.tsx
+var __iconNode143 = [
+  [
+    "path",
+    {
+      d: "M3 4.75C3 3.7835 3.7835 3 4.75 3V3C5.7165 3 6.5 3.7835 6.5 4.75V6.5H4.75C3.7835 6.5 3 5.7165 3 4.75V4.75Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "397r7t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 4.75C9.5 3.7835 10.2835 3 11.25 3V3C12.2165 3 13 3.7835 13 4.75V4.75C13 5.7165 12.2165 6.5 11.25 6.5H9.5V4.75Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uxdw8f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 11.25C3 10.2835 3.7835 9.5 4.75 9.5H6.5V11.25C6.5 12.2165 5.7165 13 4.75 13V13C3.7835 13 3 12.2165 3 11.25V11.25Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8m4mzg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 9.5H11.25C12.2165 9.5 13 10.2835 13 11.25V11.25C13 12.2165 12.2165 13 11.25 13V13C10.2835 13 9.5 12.2165 9.5 11.25V9.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "goobuj"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "6.5",
+      y: "6.5",
+      width: "3",
+      height: "3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "odg9o"
+    }
+  ]
+];
+var CommandFill = createFoamicon("CommandFill", __iconNode143);
+
+// src/icons/Command.tsx
+var __iconNode144 = [
+  [
+    "path",
+    {
+      d: "M3 4.75C3 3.7835 3.7835 3 4.75 3V3C5.7165 3 6.5 3.7835 6.5 4.75V6.5H4.75C3.7835 6.5 3 5.7165 3 4.75V4.75Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "397r7t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 4.75C9.5 3.7835 10.2835 3 11.25 3V3C12.2165 3 13 3.7835 13 4.75V4.75C13 5.7165 12.2165 6.5 11.25 6.5H9.5V4.75Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uxdw8f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 11.25C3 10.2835 3.7835 9.5 4.75 9.5H6.5V11.25C6.5 12.2165 5.7165 13 4.75 13V13C3.7835 13 3 12.2165 3 11.25V11.25Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8m4mzg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 9.5H11.25C12.2165 9.5 13 10.2835 13 11.25V11.25C13 12.2165 12.2165 13 11.25 13V13C10.2835 13 9.5 12.2165 9.5 11.25V9.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "goobuj"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "6.5",
+      y: "6.5",
+      width: "3",
+      height: "3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "odg9o"
+    }
+  ]
+];
+var Command = createFoamicon("Command", __iconNode144);
+
+// src/icons/ContentHeartDuotone.tsx
+var __iconNode145 = [
+  [
+    "path",
+    {
+      d: "M13 2C13.5523 2 14 2.44772 14 3V11C14 11.5523 13.5523 12 13 12H7C6.44772 12 6 11.5523 6 11V3C6 2.44772 6.44772 2 7 2H13ZM10.75 4.625C10.2501 4.625 10.0001 4.9999 10 5C9.99993 4.9999 9.74995 4.62499 9.25 4.625C8.74998 4.62501 8.49998 5 8.5 5.5C8.50004 6.39159 9.69264 7.18343 9.95117 7.34473C9.98176 7.36381 10.0182 7.36381 10.0488 7.34473C10.3074 7.18344 11.5 6.39159 11.5 5.5C11.5 5 11.25 4.625 10.75 4.625Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "urrtb9"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "8",
+      height: "10",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uw9a55"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45189 13.6945L5.55412 14.471C5.02065 14.6139 4.47231 14.2974 4.32937 13.7639L2.25882 6.03648C2.11588 5.50302 2.43246 4.95468 2.96593 4.81174L3.93185 4.55292",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f3bcar"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5 5.5C11.5 6.39174 10.3072 7.18408 10.0489 7.34519C10.0184 7.36426 9.98165 7.36426 9.95107 7.34519C9.69281 7.18408 8.50004 6.39174 8.5 5.5C8.49998 5 8.74998 4.62501 9.25 4.625C9.75002 4.62499 10 5 10 5C10 5 10.25 4.625 10.75 4.625C11.25 4.625 11.5 5 11.5 5.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wzxgss"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 9.5H11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xdejbe"
+    }
+  ]
+];
+var ContentHeartDuotone = createFoamicon("ContentHeartDuotone", __iconNode145);
+
+// src/icons/ContentHeartFill.tsx
+var __iconNode146 = [
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "8",
+      height: "10",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uw9a54"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45189 13.6945L5.55412 14.471C5.02065 14.6139 4.47231 14.2974 4.32937 13.7639L2.25882 6.03648C2.11588 5.50302 2.43246 4.95468 2.96593 4.81174L3.93185 4.55292",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f3bcaq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5 5.5C11.5 6.39174 10.3072 7.18408 10.0489 7.34519C10.0184 7.36426 9.98165 7.36426 9.95107 7.34519C9.69281 7.18408 8.50004 6.39174 8.5 5.5C8.49998 5 8.74998 4.62501 9.25 4.625C9.75002 4.62499 10 5 10 5C10 5 10.25 4.625 10.75 4.625C11.25 4.625 11.5 5 11.5 5.5Z",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "58558c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 2C13.5523 2 14 2.44772 14 3V11C14 11.5523 13.5523 12 13 12H7C6.44772 12 6 11.5523 6 11V3C6 2.44772 6.44772 2 7 2H13ZM10.75 4.625C10.2501 4.625 10.0001 4.9999 10 5C9.99993 4.9999 9.74995 4.62499 9.25 4.625C8.74998 4.62501 8.49998 5 8.5 5.5C8.50004 6.39159 9.69264 7.18343 9.95117 7.34473C9.98176 7.36381 10.0182 7.36381 10.0488 7.34473C10.3074 7.18344 11.5 6.39159 11.5 5.5C11.5 5 11.25 4.625 10.75 4.625Z",
+      fill: "currentColor",
+      key: "ds994e"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 9.5H11.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v4both"
+    }
+  ]
+];
+var ContentHeartFill = createFoamicon("ContentHeartFill", __iconNode146);
+
+// src/icons/ContentHeart.tsx
+var __iconNode147 = [
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "8",
+      height: "10",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uw9a54"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45189 13.6945L5.55412 14.471C5.02065 14.6139 4.47231 14.2974 4.32937 13.7639L2.25882 6.03648C2.11588 5.50302 2.43246 4.95468 2.96593 4.81174L3.93185 4.55292",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f3bcaq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5 5.5C11.5 6.39174 10.3072 7.18408 10.0489 7.34519C10.0184 7.36426 9.98165 7.36426 9.95107 7.34519C9.69281 7.18408 8.50004 6.39174 8.5 5.5C8.49998 5 8.74998 4.62501 9.25 4.625C9.75002 4.62499 10 5 10 5C10 5 10.25 4.625 10.75 4.625C11.25 4.625 11.5 5 11.5 5.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wzxgst"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.5 9.5H11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xdejbf"
+    }
+  ]
+];
+var ContentHeart = createFoamicon("ContentHeart", __iconNode147);
+
+// src/icons/ContentPlusDuotone.tsx
+var __iconNode148 = [
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "8",
+      height: "10",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "lqpmml"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45189 13.6945L5.55412 14.471C5.02065 14.6139 4.47231 14.2974 4.32937 13.7639L2.25882 6.03648C2.11588 5.50302 2.43246 4.95468 2.96593 4.81174L3.93185 4.55292",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f3bcaq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 5L10 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "augdms"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 7H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "brmtoj"
+    }
+  ]
+];
+var ContentPlusDuotone = createFoamicon("ContentPlusDuotone", __iconNode148);
+
+// src/icons/ContentPlusFill.tsx
+var __iconNode149 = [
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "8",
+      height: "10",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yxm2rj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45189 13.6945L5.55412 14.471C5.02065 14.6139 4.47231 14.2974 4.32937 13.7639L2.25882 6.03648C2.11588 5.50302 2.43246 4.95468 2.96593 4.81174L3.93185 4.55292",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f3bcaq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 5L10 9",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1tj5eb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 7H8",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cb3jfo"
+    }
+  ]
+];
+var ContentPlusFill = createFoamicon("ContentPlusFill", __iconNode149);
+
+// src/icons/ContentPlus.tsx
+var __iconNode150 = [
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "8",
+      height: "10",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uw9a54"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45189 13.6945L5.55412 14.471C5.02065 14.6139 4.47231 14.2974 4.32937 13.7639L2.25882 6.03648C2.11588 5.50302 2.43246 4.95468 2.96593 4.81174L3.93185 4.55292",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f3bcaq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 5L10 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "augdms"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 7H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "brmtoj"
+    }
+  ]
+];
+var ContentPlus = createFoamicon("ContentPlus", __iconNode150);
+
+// src/icons/ContentUserDuotone.tsx
+var __iconNode151 = [
+  [
+    "path",
+    {
+      d: "M13 2C13.5523 2 14 2.44772 14 3V11C14 11.5523 13.5523 12 13 12H7C6.44772 12 6 11.5523 6 11V3C6 2.44772 6.44772 2 7 2H13ZM9.90918 7.33887C8.82679 7.33887 8.01953 8.26917 8.01953 9.35156V9.78418C8.01954 9.80398 8.03315 9.82073 8.05273 9.82324C8.22981 9.84407 9.06976 9.9375 9.90918 9.9375C10.748 9.93749 11.5869 9.84414 11.7646 9.82324C11.7845 9.82091 11.7988 9.80412 11.7988 9.78418V9.35156C11.7988 8.26921 10.9915 7.33892 9.90918 7.33887ZM9.90918 4.0625C9.39394 4.0625 8.97656 4.48085 8.97656 4.99609C8.97679 5.51114 9.39408 5.92871 9.90918 5.92871C10.4242 5.92865 10.8416 5.51111 10.8418 4.99609C10.8418 4.48089 10.4244 4.06256 9.90918 4.0625Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "t6jyn3"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "8",
+      height: "10",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uw9a55"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45189 13.6945L5.55412 14.471C5.02065 14.6139 4.47231 14.2974 4.32937 13.7639L2.25882 6.03648C2.11588 5.50302 2.43246 4.95468 2.96593 4.81174L3.93185 4.55292",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f3bcar"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "9.90907",
+      cy: "4.99568",
+      r: "0.932931",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "i554du"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.01911 9.35127C8.01911 8.26888 8.82669 7.3385 9.90908 7.3385C10.9915 7.3385 11.799 8.26888 11.799 9.35127V9.78417C11.799 9.80412 11.7848 9.82085 11.765 9.82318C11.5879 9.844 10.7485 9.93721 9.90908 9.93721C9.06966 9.93721 8.23025 9.844 8.05317 9.82318C8.03337 9.82085 8.01911 9.80412 8.01911 9.78417V9.35127Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "odo1qy"
+    }
+  ]
+];
+var ContentUserDuotone = createFoamicon("ContentUserDuotone", __iconNode151);
+
+// src/icons/ContentUserFill.tsx
+var __iconNode152 = [
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "8",
+      height: "10",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uw9a54"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45189 13.6945L5.55412 14.471C5.02065 14.6139 4.47231 14.2974 4.32937 13.7639L2.25882 6.03648C2.11588 5.50302 2.43246 4.95468 2.96593 4.81174L3.93185 4.55292",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f3bcaq"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "9.90907",
+      cy: "4.99568",
+      r: "0.932931",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nfygc4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.0191 9.35127C8.0191 8.26888 8.82668 7.3385 9.90907 7.3385C10.9915 7.3385 11.799 8.26888 11.799 9.35127V9.78417C11.799 9.80412 11.7848 9.82085 11.765 9.82318C11.5879 9.844 10.7485 9.93721 9.90907 9.93721C9.06966 9.93721 8.23024 9.844 8.05317 9.82318C8.03336 9.82085 8.0191 9.80412 8.0191 9.78417V9.35127Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ftclf3"
+    }
+  ]
+];
+var ContentUserFill = createFoamicon("ContentUserFill", __iconNode152);
+
+// src/icons/ContentUser.tsx
+var __iconNode153 = [
+  [
+    "circle",
+    {
+      cx: "9.90907",
+      cy: "4.99568",
+      r: "0.932931",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "i554dx"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.01911 9.35127C8.01911 8.26888 8.82669 7.3385 9.90908 7.3385C10.9915 7.3385 11.799 8.26888 11.799 9.35127V9.78417C11.799 9.80412 11.7848 9.82085 11.765 9.82318C11.5879 9.844 10.7485 9.93721 9.90908 9.93721C9.06966 9.93721 8.23024 9.844 8.05317 9.82318C8.03336 9.82085 8.01911 9.80412 8.01911 9.78417V9.35127Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bvl10h"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "8",
+      height: "10",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uw9a56"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45189 13.6945L5.55412 14.471C5.02065 14.6139 4.47231 14.2974 4.32937 13.7639L2.25882 6.03648C2.11588 5.50302 2.43246 4.95468 2.96593 4.81174L3.93185 4.55292",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f3bcas"
+    }
+  ]
+];
+var ContentUser = createFoamicon("ContentUser", __iconNode153);
+
+// src/icons/CopyDuotone.tsx
+var __iconNode154 = [
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "7",
+      height: "9",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "8dtsp0"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 4H5C4.44772 4 4 4.44772 4 5V12C4 12.5523 4.44772 13 5 13H10C10.5523 13 11 12.5523 11 12V11.5",
+      stroke: "currentColor",
+      key: "t532k5"
+    }
+  ]
+];
+var CopyDuotone = createFoamicon("CopyDuotone", __iconNode154);
+
+// src/icons/CopyFill.tsx
+var __iconNode155 = [
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "7",
+      height: "9",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "j8oguu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 4H5C4.44772 4 4 4.44772 4 5V12C4 12.5523 4.44772 13 5 13H10C10.5523 13 11 12.5523 11 12V11.5",
+      stroke: "currentColor",
+      key: "t532k5"
+    }
+  ]
+];
+var CopyFill = createFoamicon("CopyFill", __iconNode155);
+
+// src/icons/Copy.tsx
+var __iconNode156 = [
+  [
+    "rect",
+    {
+      x: "6",
+      y: "2",
+      width: "7",
+      height: "9",
+      rx: "1",
+      stroke: "currentColor",
+      key: "547f0v"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 4H5C4.44772 4 4 4.44772 4 5V12C4 12.5523 4.44772 13 5 13H10C10.5523 13 11 12.5523 11 12V11.5",
+      stroke: "currentColor",
+      key: "t532k5"
+    }
+  ]
+];
+var Copy = createFoamicon("Copy", __iconNode156);
+
+// src/icons/DownloadDuotone.tsx
+var __iconNode157 = [
+  [
+    "path",
+    {
+      d: "M11.6667 6.99996L8.35355 10.3131C8.15829 10.5083 7.84171 10.5083 7.64644 10.3131L4.33333 6.99996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qc1r8w"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 10V3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "94hz5t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 11.2727V12.2556C14 12.9972 13.4577 13.6257 12.7208 13.709C11.5676 13.8393 9.78381 14 8 14C6.21619 14 4.43238 13.8393 3.27924 13.709C2.54228 13.6257 2 12.9972 2 12.2556V11.2727",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nk6el5"
+    }
+  ]
+];
+var DownloadDuotone = createFoamicon("DownloadDuotone", __iconNode157);
+
+// src/icons/DownloadFill.tsx
+var __iconNode158 = [
+  [
+    "path",
+    {
+      d: "M11.6667 6.99996L8.35356 10.3131C8.1583 10.5083 7.84171 10.5083 7.64645 10.3131L4.33334 6.99996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yplrxl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 10V3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "94hz5t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 11.2727V12.2556C14 12.9972 13.4577 13.6257 12.7208 13.709C11.5676 13.8393 9.78381 14 8 14C6.21619 14 4.43238 13.8393 3.27924 13.709C2.54228 13.6257 2 12.9972 2 12.2556V11.2727",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nk6el5"
+    }
+  ]
+];
+var DownloadFill = createFoamicon("DownloadFill", __iconNode158);
+
+// src/icons/Download.tsx
+var __iconNode159 = [
+  [
+    "path",
+    {
+      d: "M11.6667 6.99996L8.35355 10.3131C8.15829 10.5083 7.84171 10.5083 7.64645 10.3131L4.33333 6.99996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "awcqfj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 10V3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "94hz5t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 11.2727V12.2556C14 12.9972 13.4577 13.6257 12.7208 13.709C11.5676 13.8393 9.78381 14 8 14C6.21619 14 4.43238 13.8393 3.27924 13.709C2.54228 13.6257 2 12.9972 2 12.2556V11.2727",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nk6el5"
+    }
+  ]
+];
+var Download = createFoamicon("Download", __iconNode159);
+
+// src/icons/EclipseDuotone.tsx
+var __iconNode160 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "2hp0ms"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 13.5C4.96243 13.5 2.5 11.0376 2.5 8C2.5 4.96243 4.96243 2.5 8 2.5L8 13.5Z",
+      fill: "currentColor",
+      key: "prhwac"
+    }
+  ]
+];
+var EclipseDuotone = createFoamicon("EclipseDuotone", __iconNode160);
+
+// src/icons/EclipseFill.tsx
+var __iconNode161 = [
+  [
+    "path",
+    {
+      d: "M8 13.5C4.96243 13.5 2.5 11.0376 2.5 8C2.5 4.96243 4.96243 2.5 8 2.5L8 13.5Z",
+      fill: "currentColor",
+      key: "prhwad"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qiqtx6"
+    }
+  ]
+];
+var EclipseFill = createFoamicon("EclipseFill", __iconNode161);
+
+// src/icons/Eclipse.tsx
+var __iconNode162 = [
+  [
+    "path",
+    {
+      d: "M8 13.5C4.96243 13.5 2.5 11.0376 2.5 8C2.5 4.96243 4.96243 2.5 8 2.5L8 13.5Z",
+      fill: "currentColor",
+      key: "prhwad"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qiqtx6"
+    }
+  ]
+];
+var Eclipse = createFoamicon("Eclipse", __iconNode162);
+
+// src/icons/EllipsisDuotone.tsx
+var __iconNode163 = [
+  [
+    "path",
+    {
+      d: "M8 8.66671C8.36819 8.66671 8.66667 8.36823 8.66667 8.00004C8.66667 7.63185 8.36819 7.33337 8 7.33337C7.63181 7.33337 7.33334 7.63185 7.33334 8.00004C7.33334 8.36823 7.63181 8.66671 8 8.66671Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yr41mf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.6667 8.66671C13.0349 8.66671 13.3333 8.36823 13.3333 8.00004C13.3333 7.63185 13.0349 7.33337 12.6667 7.33337C12.2985 7.33337 12 7.63185 12 8.00004C12 8.36823 12.2985 8.66671 12.6667 8.66671Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "anr9jd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.33333 8.66671C3.70152 8.66671 4 8.36823 4 8.00004C4 7.63185 3.70152 7.33337 3.33333 7.33337C2.96514 7.33337 2.66666 7.63185 2.66666 8.00004C2.66666 8.36823 2.96514 8.66671 3.33333 8.66671Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "st89fj"
+    }
+  ]
+];
+var EllipsisDuotone = createFoamicon("EllipsisDuotone", __iconNode163);
+
+// src/icons/EllipsisFill.tsx
+var __iconNode164 = [
+  [
+    "path",
+    {
+      d: "M7.99999 8.66671C8.36818 8.66671 8.66666 8.36823 8.66666 8.00004C8.66666 7.63185 8.36818 7.33337 7.99999 7.33337C7.63181 7.33337 7.33333 7.63185 7.33333 8.00004C7.33333 8.36823 7.63181 8.66671 7.99999 8.66671Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "diok0d"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.6667 8.66671C13.0349 8.66671 13.3333 8.36823 13.3333 8.00004C13.3333 7.63185 13.0349 7.33337 12.6667 7.33337C12.2985 7.33337 12 7.63185 12 8.00004C12 8.36823 12.2985 8.66671 12.6667 8.66671Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "anr9jd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.33334 8.66671C3.70153 8.66671 4.00001 8.36823 4.00001 8.00004C4.00001 7.63185 3.70153 7.33337 3.33334 7.33337C2.96515 7.33337 2.66667 7.63185 2.66667 8.00004C2.66667 8.36823 2.96515 8.66671 3.33334 8.66671Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3fer6c"
+    }
+  ]
+];
+var EllipsisFill = createFoamicon("EllipsisFill", __iconNode164);
+
+// src/icons/EllipsisVerticalDuotone.tsx
+var __iconNode165 = [
+  [
+    "path",
+    {
+      d: "M7.33333 8.00004C7.33333 8.36823 7.63181 8.66671 8 8.66671C8.36819 8.66671 8.66666 8.36823 8.66666 8.00004C8.66666 7.63185 8.36819 7.33337 8 7.33337C7.63181 7.33337 7.33333 7.63185 7.33333 8.00004Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kyrjs7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.33333 12.6667C7.33333 13.0349 7.63181 13.3333 8 13.3333C8.36819 13.3333 8.66666 13.0349 8.66666 12.6667C8.66666 12.2985 8.36819 12 8 12C7.63181 12 7.33333 12.2985 7.33333 12.6667Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u53sg7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.33333 3.33341C7.33333 3.7016 7.63181 4.00008 8 4.00008C8.36819 4.00008 8.66666 3.7016 8.66666 3.33341C8.66666 2.96522 8.36819 2.66675 8 2.66675C7.63181 2.66675 7.33333 2.96522 7.33333 3.33341Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w2u4yo"
+    }
+  ]
+];
+var EllipsisVerticalDuotone = createFoamicon("EllipsisVerticalDuotone", __iconNode165);
+
+// src/icons/EllipsisVerticalFill.tsx
+var __iconNode166 = [
+  [
+    "path",
+    {
+      d: "M7.33334 8.00004C7.33334 8.36823 7.63182 8.66671 8.00001 8.66671C8.36819 8.66671 8.66667 8.36823 8.66667 8.00004C8.66667 7.63185 8.36819 7.33337 8.00001 7.33337C7.63182 7.33337 7.33334 7.63185 7.33334 8.00004Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2v53rs"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.33334 12.6667C7.33334 13.0349 7.63182 13.3333 8.00001 13.3333C8.36819 13.3333 8.66667 13.0349 8.66667 12.6667C8.66667 12.2985 8.36819 12 8.00001 12C7.63182 12 7.33334 12.2985 7.33334 12.6667Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rl5gc4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.33334 3.33341C7.33334 3.7016 7.63182 4.00008 8.00001 4.00008C8.36819 4.00008 8.66667 3.7016 8.66667 3.33341C8.66667 2.96522 8.36819 2.66675 8.00001 2.66675C7.63182 2.66675 7.33334 2.96522 7.33334 3.33341Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "k19e6d"
+    }
+  ]
+];
+var EllipsisVerticalFill = createFoamicon("EllipsisVerticalFill", __iconNode166);
+
+// src/icons/EllipsisVertical.tsx
+var __iconNode167 = [
+  [
+    "path",
+    {
+      d: "M7.33333 8.00004C7.33333 8.36823 7.63181 8.66671 8 8.66671C8.36819 8.66671 8.66667 8.36823 8.66667 8.00004C8.66667 7.63185 8.36819 7.33337 8 7.33337C7.63181 7.33337 7.33333 7.63185 7.33333 8.00004Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "926uck"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.33333 12.6667C7.33333 13.0349 7.63181 13.3333 8 13.3333C8.36819 13.3333 8.66667 13.0349 8.66667 12.6667C8.66667 12.2985 8.36819 12 8 12C7.63181 12 7.33333 12.2985 7.33333 12.6667Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e1aj86"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.33333 3.33341C7.33333 3.7016 7.63181 4.00008 8 4.00008C8.36819 4.00008 8.66667 3.7016 8.66667 3.33341C8.66667 2.96522 8.36819 2.66675 8 2.66675C7.63181 2.66675 7.33333 2.96522 7.33333 3.33341Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "goeyp"
+    }
+  ]
+];
+var EllipsisVertical = createFoamicon("EllipsisVertical", __iconNode167);
+
+// src/icons/Ellipsis.tsx
+var __iconNode168 = [
+  [
+    "path",
+    {
+      d: "M8 8.66671C8.36819 8.66671 8.66667 8.36823 8.66667 8.00004C8.66667 7.63185 8.36819 7.33337 8 7.33337C7.63181 7.33337 7.33333 7.63185 7.33333 8.00004C7.33333 8.36823 7.63181 8.66671 8 8.66671Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cnglfw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.6667 8.66671C13.0349 8.66671 13.3333 8.36823 13.3333 8.00004C13.3333 7.63185 13.0349 7.33337 12.6667 7.33337C12.2985 7.33337 12 7.63185 12 8.00004C12 8.36823 12.2985 8.66671 12.6667 8.66671Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "anr9jd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.33333 8.66671C3.70152 8.66671 4 8.36823 4 8.00004C4 7.63185 3.70152 7.33337 3.33333 7.33337C2.96514 7.33337 2.66667 7.63185 2.66667 8.00004C2.66667 8.36823 2.96514 8.66671 3.33333 8.66671Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mw0hmk"
+    }
+  ]
+];
+var Ellipsis = createFoamicon("Ellipsis", __iconNode168);
+
+// src/icons/ExternalLinkDuotone.tsx
+var __iconNode169 = [
+  [
+    "path",
+    {
+      d: "M7 4C5.63076 4 4.26152 4.18148 3.38927 4.32577C2.81611 4.42059 2.37338 4.86121 2.28326 5.43512C2.15443 6.25552 2 7.54283 2 9C2 10.4572 2.15443 11.7445 2.28326 12.5649C2.37338 13.1388 2.81611 13.5794 3.38927 13.6742C4.26152 13.8185 5.63076 14 7 14C8.36924 14 9.73848 13.8185 10.6107 13.6742C11.1839 13.5794 11.6266 13.1388 11.7167 12.5649C11.8456 11.7445 12 10.4572 12 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bgm6c1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 2.5L7.72876 8.27124",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2u10s0"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 2H13.25C13.6642 2 14 2.33579 14 2.75V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1i9v2y"
+    }
+  ]
+];
+var ExternalLinkDuotone = createFoamicon("ExternalLinkDuotone", __iconNode169);
+
+// src/icons/ExternalLinkFill.tsx
+var __iconNode170 = [
+  [
+    "path",
+    {
+      d: "M7 4C5.63076 4 4.26152 4.18148 3.38927 4.32577C2.81611 4.42059 2.37338 4.86121 2.28326 5.43512C2.15443 6.25552 2 7.54283 2 9C2 10.4572 2.15443 11.7445 2.28326 12.5649C2.37338 13.1388 2.81611 13.5794 3.38927 13.6742C4.26152 13.8185 5.63076 14 7 14C8.36924 14 9.73848 13.8185 10.6107 13.6742C11.1839 13.5794 11.6266 13.1388 11.7167 12.5649C11.8456 11.7445 12 10.4572 12 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bgm6c1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 2.5L7.72876 8.27124",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2u10s0"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 2H13.25C13.6642 2 14 2.33579 14 2.75V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1i9v2y"
+    }
+  ]
+];
+var ExternalLinkFill = createFoamicon("ExternalLinkFill", __iconNode170);
+
+// src/icons/ExternalLink.tsx
+var __iconNode171 = [
+  [
+    "path",
+    {
+      d: "M7 4C5.63076 4 4.26152 4.18148 3.38927 4.32577C2.81611 4.42059 2.37338 4.86121 2.28326 5.43512C2.15443 6.25552 2 7.54283 2 9C2 10.4572 2.15443 11.7445 2.28326 12.5649C2.37338 13.1388 2.81611 13.5794 3.38927 13.6742C4.26152 13.8185 5.63076 14 7 14C8.36924 14 9.73848 13.8185 10.6107 13.6742C11.1839 13.5794 11.6266 13.1388 11.7167 12.5649C11.8456 11.7445 12 10.4572 12 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bgm6c1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 2.5L7.72876 8.27124",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2u10s0"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 2H13.25C13.6642 2 14 2.33579 14 2.75V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1i9v2y"
+    }
+  ]
+];
+var ExternalLink = createFoamicon("ExternalLink", __iconNode171);
+
+// src/icons/EyeDuotone.tsx
+var __iconNode172 = [
+  [
+    "path",
+    {
+      d: "M15 8C15 9.66667 11.866 13 8 13C4.13401 13 1 9.66667 1 8C1 6.33333 4.13401 3 8 3C11.866 3 15 6.33333 15 8Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kyhq26"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "51bw8s"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 3C11.866 3 15 6.33333 15 8C15 9.66667 11.866 13 8 13C4.13401 13 1 9.66667 1 8C1 6.33333 4.13401 3 8 3ZM8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "e9d8ep"
+    }
+  ]
+];
+var EyeDuotone = createFoamicon("EyeDuotone", __iconNode172);
+
+// src/icons/EyeFill.tsx
+var __iconNode173 = [
+  [
+    "path",
+    {
+      d: "M15 8C15 9.66667 11.866 13 8 13C4.13401 13 1 9.66667 1 8C1 6.33333 4.13401 3 8 3C11.866 3 15 6.33333 15 8Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dr7paf"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "2",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tqwf8x"
+    }
+  ]
+];
+var EyeFill = createFoamicon("EyeFill", __iconNode173);
+
+// src/icons/EyeOffDuotone.tsx
+var __iconNode174 = [
+  [
+    "path",
+    {
+      d: "M6.08844 7.41004C6.06943 7.47169 6.05333 7.53461 6.04028 7.59865L6.08844 7.41004ZM6.08844 7.41004C6.29471 6.74093 6.84265 6.22165 7.52854 6.05591M9.50083 6.67805C9.81151 7.0305 10 7.49325 10 8.00002C10 9.10459 9.10457 10 8 10C7.49772 10 7.03868 9.81486 6.68742 9.50908",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ltrg2i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.6667 2.5L11.9859 4.18124M2.5 13.67L4.23127 11.9382M4.23127 11.9382L4.24047 11.9483M4.23127 11.9382L11.9859 4.18124M10.0596 3.31191C9.40844 3.11459 8.7168 3 8 3C4.13401 3 1 6.33333 1 8C1 8.7316 1.60388 9.78435 2.60847 10.7353M4.24047 11.9483C4.27747 11.9696 4.31469 11.9906 4.35216 12.0114M4.24047 11.9483L4.35216 12.0114M4.35216 12.0114C5.41446 12.6016 6.66349 13 8 13C11.866 13 15 9.66667 15 8C15 6.97666 13.8185 5.325 12.0115 4.20239L11.9859 4.18124",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ejf52n"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.0117 4.20215C13.8187 5.32476 15 6.97668 15 8C15 9.66667 11.866 13 8 13C6.66366 13 5.41475 12.6018 4.35254 12.0117C4.31508 11.9909 4.27723 11.9695 4.24023 11.9482L4.23145 11.9385L6.67383 9.49414C7.02698 9.80782 7.4905 10 8 10C9.10457 10 10 9.10457 10 8C10 7.4905 9.80782 7.02698 9.49414 6.67383L11.9863 4.18164L12.0117 4.20215Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "pdg9v7"
+    }
+  ]
+];
+var EyeOffDuotone = createFoamicon("EyeOffDuotone", __iconNode174);
+
+// src/icons/EyeOffFill.tsx
+var __iconNode175 = [
+  [
+    "path",
+    {
+      d: "M6.08844 7.41004C6.06943 7.47169 6.05333 7.53461 6.04028 7.59865L6.08844 7.41004ZM6.08844 7.41004C6.29471 6.74093 6.84265 6.22165 7.52854 6.05591M9.50083 6.67805C9.81151 7.0305 10 7.49325 10 8.00002C10 9.10459 9.10457 10 8 10C7.49772 10 7.03868 9.81486 6.68742 9.50908",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ltrg2i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.50083 6.6781C9.81152 7.03055 10 7.4933 10 8.00007C10 9.10464 9.10457 10.0001 8 10.0001C7.49772 10.0001 7.03868 9.81491 6.68742 9.50913",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lh272y"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.6667 2.5L11.9859 4.18124M2.5 13.67L4.23127 11.9382M4.23127 11.9382L4.24047 11.9483M4.23127 11.9382L11.9859 4.18124M10.0596 3.31191C9.40844 3.11459 8.7168 3 8 3C4.13401 3 1 6.33333 1 8C1 8.7316 1.60388 9.78435 2.60847 10.7353M4.24047 11.9483C4.27747 11.9696 4.31469 11.9906 4.35216 12.0114M4.24047 11.9483L4.35216 12.0114M4.35216 12.0114C5.41446 12.6016 6.66349 13 8 13C11.866 13 15 9.66667 15 8C15 6.97666 13.8185 5.325 12.0115 4.20239L11.9859 4.18124",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ejf52m"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.0117 4.20215C13.8187 5.32476 15 6.97668 15 8C15 9.66667 11.866 13 8 13C6.66366 13 5.41475 12.6018 4.35254 12.0117C4.31508 11.9909 4.27723 11.9695 4.24023 11.9482L4.23145 11.9385L6.67383 9.49414C7.02698 9.80782 7.4905 10 8 10C9.10457 10 10 9.10457 10 8C10 7.4905 9.80782 7.02698 9.49414 6.67383L11.9863 4.18164L12.0117 4.20215Z",
+      fill: "currentColor",
+      key: "1d2cyg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.08844 7.41004C6.06943 7.47169 6.05333 7.53461 6.04028 7.59865L6.08844 7.41004ZM6.08844 7.41004C6.29471 6.74093 6.84265 6.22165 7.52854 6.05591",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u4zw31"
+    }
+  ]
+];
+var EyeOffFill = createFoamicon("EyeOffFill", __iconNode175);
+
+// src/icons/EyeOff.tsx
+var __iconNode176 = [
+  [
+    "path",
+    {
+      d: "M10.0596 3.31191C9.40844 3.11459 8.7168 3 8 3C4.13401 3 1 6.33333 1 8C1 8.7316 1.60388 9.78435 2.60847 10.7353M11.9704 4.17702C13.8006 5.29999 15 6.96893 15 8C15 9.66667 11.866 13 8 13C6.66349 13 5.41446 12.6016 4.35216 12.0114M4.35216 12.0114C4.31469 11.9906 4.27747 11.9696 4.24047 11.9483L4.35216 12.0114Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6o5w9n"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.08844 7.41004C6.06944 7.47169 6.05333 7.53461 6.04029 7.59865L6.08844 7.41004ZM6.08844 7.41004C6.29472 6.74093 6.84265 6.22165 7.52854 6.05591M9.50083 6.67805C9.81152 7.0305 10 7.49325 10 8.00002C10 9.10459 9.10457 10 8 10C7.49772 10 7.03868 9.81486 6.68742 9.50908",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f5k7a1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.6667 2.5L2.5 13.67",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "b7wzx0"
+    }
+  ]
+];
+var EyeOff = createFoamicon("EyeOff", __iconNode176);
+
+// src/icons/Eye.tsx
+var __iconNode177 = [
+  [
+    "path",
+    {
+      d: "M15 8C15 9.66667 11.866 13 8 13C4.13401 13 1 9.66667 1 8C1 6.33333 4.13401 3 8 3C11.866 3 15 6.33333 15 8Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kyhq26"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "51bw8s"
+    }
+  ]
+];
+var Eye = createFoamicon("Eye", __iconNode177);
+
+// src/icons/FileArrowDownDuotone.tsx
+var __iconNode178 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.10055 11.6003L8.10055 8.10034M8.10055 11.6003L6.25 9.74982M8.10055 11.6003L9.95094 9.74982",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "b6f20u"
+    }
+  ]
+];
+var FileArrowDownDuotone = createFoamicon("FileArrowDownDuotone", __iconNode178);
+
+// src/icons/FileArrowDownFill.tsx
+var __iconNode179 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.10055 11.6003L8.10055 8.10034M8.10055 11.6003L6.25 9.74982M8.10055 11.6003L9.95094 9.74982",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hxfiah"
+    }
+  ]
+];
+var FileArrowDownFill = createFoamicon("FileArrowDownFill", __iconNode179);
+
+// src/icons/FileArrowDown.tsx
+var __iconNode180 = [
+  [
+    "path",
+    {
+      d: "M8.10055 11.6003L8.10055 8.10034M8.10055 11.6003L6.25 9.74982M8.10055 11.6003L9.95094 9.74982",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "b6f20s"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcqm"
+    }
+  ]
+];
+var FileArrowDown = createFoamicon("FileArrowDown", __iconNode180);
+
+// src/icons/FileArrowLeftDuotone.tsx
+var __iconNode181 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.25 9.85055H9.75M6.25 9.85055L8.10052 8M6.25 9.85055L8.10052 11.7009",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "saqskm"
+    }
+  ]
+];
+var FileArrowLeftDuotone = createFoamicon("FileArrowLeftDuotone", __iconNode181);
+
+// src/icons/FileArrowLeftFill.tsx
+var __iconNode182 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.25 9.85055H9.75M6.25 9.85055L8.10052 8M6.25 9.85055L8.10052 11.7009",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "b35t6l"
+    }
+  ]
+];
+var FileArrowLeftFill = createFoamicon("FileArrowLeftFill", __iconNode182);
+
+// src/icons/FileArrowLeftRightDuotone.tsx
+var __iconNode183 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 11.25L7.5 11.25M11 11.25L9.14948 13.1006M11 11.25L9.14948 9.39965",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5lwoas"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 7.25021H9M5.5 7.25021L7.35052 5.39966M5.5 7.25021L7.35052 9.1006",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cxgnr5"
+    }
+  ]
+];
+var FileArrowLeftRightDuotone = createFoamicon("FileArrowLeftRightDuotone", __iconNode183);
+
+// src/icons/FileArrowLeftRightFill.tsx
+var __iconNode184 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11 11.25L7.5 11.25M11 11.25L9.14948 13.1006M11 11.25L9.14948 9.39965",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "58psrx"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 7.25021H9M5.5 7.25021L7.35052 5.39966M5.5 7.25021L7.35052 9.1006",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ifaezq"
+    }
+  ]
+];
+var FileArrowLeftRightFill = createFoamicon("FileArrowLeftRightFill", __iconNode184);
+
+// src/icons/FileArrowLeftRight.tsx
+var __iconNode185 = [
+  [
+    "path",
+    {
+      d: "M11 11.25L7.5 11.25M11 11.25L9.14948 13.1006M11 11.25L9.14948 9.39965",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5lwoaq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 7.25021H9M5.5 7.25021L7.35052 5.39966M5.5 7.25021L7.35052 9.1006",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cxgnr7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83de"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcql"
+    }
+  ]
+];
+var FileArrowLeftRight = createFoamicon("FileArrowLeftRight", __iconNode185);
+
+// src/icons/FileArrowLeft.tsx
+var __iconNode186 = [
+  [
+    "path",
+    {
+      d: "M6.25 9.85055H9.75M6.25 9.85055L8.10052 8M6.25 9.85055L8.10052 11.7009",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "saqsko"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcqm"
+    }
+  ]
+];
+var FileArrowLeft = createFoamicon("FileArrowLeft", __iconNode186);
+
+// src/icons/FileArrowRightDuotone.tsx
+var __iconNode187 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.75 9.85037L6.25 9.85037M9.75 9.85037L7.89948 11.7009M9.75 9.85037L7.89948 7.99999",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mr573i"
+    }
+  ]
+];
+var FileArrowRightDuotone = createFoamicon("FileArrowRightDuotone", __iconNode187);
+
+// src/icons/FileArrowRightFill.tsx
+var __iconNode188 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.75 9.85037L6.25 9.85037M9.75 9.85037L7.89948 11.7009M9.75 9.85037L7.89948 7.99999",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "61y2ax"
+    }
+  ]
+];
+var FileArrowRightFill = createFoamicon("FileArrowRightFill", __iconNode188);
+
+// src/icons/FileArrowRight.tsx
+var __iconNode189 = [
+  [
+    "path",
+    {
+      d: "M9.75 9.85037L6.25 9.85037M9.75 9.85037L7.89948 11.7009M9.75 9.85037L7.89948 7.99999",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mr573g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcqm"
+    }
+  ]
+];
+var FileArrowRight = createFoamicon("FileArrowRight", __iconNode189);
+
+// src/icons/FileArrowUpDuotone.tsx
+var __iconNode190 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.10039 8.10034L8.10039 11.6003M8.10039 8.10034L9.95094 9.95086M8.10039 8.10034L6.25 9.95086",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qvisg8"
+    }
+  ]
+];
+var FileArrowUpDuotone = createFoamicon("FileArrowUpDuotone", __iconNode190);
+
+// src/icons/FileArrowUpFill.tsx
+var __iconNode191 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.10039 8.10034L8.10039 11.6003M8.10039 8.10034L9.95094 9.95086M8.10039 8.10034L6.25 9.95086",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g5rllb"
+    }
+  ]
+];
+var FileArrowUpFill = createFoamicon("FileArrowUpFill", __iconNode191);
+
+// src/icons/FileArrowUp.tsx
+var __iconNode192 = [
+  [
+    "path",
+    {
+      d: "M8.10039 8.10034L8.10039 11.6003M8.10039 8.10034L9.95094 9.95086M8.10039 8.10034L6.25 9.95086",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qvisg6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcqm"
+    }
+  ]
+];
+var FileArrowUp = createFoamicon("FileArrowUp", __iconNode192);
+
+// src/icons/FileCheckDuotone.tsx
+var __iconNode193 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.3881 7.64653L7.97353 10.9665C7.79282 11.215 7.43286 11.2433 7.21561 11.026L6.25 10.0604",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "r9z65x"
+    }
+  ]
+];
+var FileCheckDuotone = createFoamicon("FileCheckDuotone", __iconNode193);
+
+// src/icons/FileCheckFill.tsx
+var __iconNode194 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.3881 7.64653L7.97353 10.9665C7.79282 11.215 7.43286 11.2433 7.21561 11.026L6.25 10.0604",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xs0aiq"
+    }
+  ]
+];
+var FileCheckFill = createFoamicon("FileCheckFill", __iconNode194);
+
+// src/icons/FileCheck.tsx
+var __iconNode195 = [
+  [
+    "path",
+    {
+      d: "M10.3881 7.64653L7.97353 10.9665C7.79282 11.215 7.43286 11.2433 7.2156 11.026L6.25 10.0604",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9i1zr8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcqm"
+    }
+  ]
+];
+var FileCheck = createFoamicon("FileCheck", __iconNode195);
+
+// src/icons/FileCogDuotone.tsx
+var __iconNode196 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.79904 8L7.08772 8.5M9.39712 12.5L9.10844 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nap8ta"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.39712 8L9.10844 8.5M6.79904 12.5L7.08772 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3lrfa7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.6962 10.25L10 10.25M5.5 10.25L6.13062 10.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "oaaas0"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8.04904",
+      cy: "10.25",
+      r: "1.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5g8mi0"
+    }
+  ]
+];
+var FileCogDuotone = createFoamicon("FileCogDuotone", __iconNode196);
+
+// src/icons/FileCogFill.tsx
+var __iconNode197 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.79904 8L7.08772 8.5M9.39712 12.5L9.10844 12",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e1nhvv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.39711 8L9.10843 8.5M6.79903 12.5L7.08771 12",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cprm6u"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.6962 10.25L10 10.25M5.5 10.25L6.13062 10.25",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ky9sb9"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8.04904",
+      cy: "10.25",
+      r: "1.75",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gzujad"
+    }
+  ]
+];
+var FileCogFill = createFoamicon("FileCogFill", __iconNode197);
+
+// src/icons/FileCog.tsx
+var __iconNode198 = [
+  [
+    "path",
+    {
+      d: "M6.79904 8L7.08771 8.5M9.39711 12.5L9.10844 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "urcg9u"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.39711 8L9.10844 8.5M6.79904 12.5L7.08771 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rme16p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.6962 10.25L10 10.25M5.5 10.25L6.13062 10.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "oaaas2"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8.04904",
+      cy: "10.25",
+      r: "1.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5g8mi2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcqj"
+    }
+  ]
+];
+var FileCog = createFoamicon("FileCog", __iconNode198);
+
+// src/icons/FileDuotone.tsx
+var __iconNode199 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ]
+];
+var FileDuotone = createFoamicon("FileDuotone", __iconNode199);
+
+// src/icons/FileFill.tsx
+var __iconNode200 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ]
+];
+var FileFill = createFoamicon("FileFill", __iconNode200);
+
+// src/icons/FilePlusDuotone.tsx
+var __iconNode201 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 8V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cl10yr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 10H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z69fkn"
+    }
+  ]
+];
+var FilePlusDuotone = createFoamicon("FilePlusDuotone", __iconNode201);
+
+// src/icons/FilePlusFill.tsx
+var __iconNode202 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 8V12",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g872oq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 10H10",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "thha9u"
+    }
+  ]
+];
+var FilePlusFill = createFoamicon("FilePlusFill", __iconNode202);
+
+// src/icons/FilePlus.tsx
+var __iconNode203 = [
+  [
+    "path",
+    {
+      d: "M8 8V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cl10yt"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 10H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z69fkl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83de"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcql"
+    }
+  ]
+];
+var FilePlus = createFoamicon("FilePlus", __iconNode203);
+
+// src/icons/FileUserDuotone.tsx
+var __iconNode204 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "7.5582",
+      r: "1.0582",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5dcvfg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 12.3999C10 11.9999 9.6 10.3999 8 10.3999C6.4 10.3999 6 11.9999 6 12.3999C6 12.3999 7.15878 12.7999 8 12.7999C8.84122 12.7999 10 12.3999 10 12.3999Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "iwq1f8"
+    }
+  ]
+];
+var FileUserDuotone = createFoamicon("FileUserDuotone", __iconNode204);
+
+// src/icons/FileUserFill.tsx
+var __iconNode205 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8.00001",
+      cy: "7.5582",
+      r: "1.0582",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "exxqfk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 12.4C10 12 9.6 10.4 8 10.4C6.4 10.4 6 12 6 12.4C6 12.4 7.15878 12.8 8 12.8C8.84122 12.8 10 12.4 10 12.4Z",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hiur55"
+    }
+  ]
+];
+var FileUserFill = createFoamicon("FileUserFill", __iconNode205);
+
+// src/icons/FileUser.tsx
+var __iconNode206 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "7.5582",
+      r: "1.0582",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5dcvfi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 12.4C10 12 9.6 10.4 8 10.4C6.4 10.4 6 12 6 12.4C6 12.4 7.15878 12.8 8 12.8C8.84122 12.8 10 12.4 10 12.4Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "j5sae8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83de"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcql"
+    }
+  ]
+];
+var FileUser = createFoamicon("FileUser", __iconNode206);
+
+// src/icons/FileXDuotone.tsx
+var __iconNode207 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "1aphyi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 8.68994L6.5 11.6898",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tf77bs"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 11.6897L6.5 8.68988",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cm1jzp"
+    }
+  ]
+];
+var FileXDuotone = createFoamicon("FileXDuotone", __iconNode207);
+
+// src/icons/FileXFill.tsx
+var __iconNode208 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "jtl2iu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 8.69006L6.5 11.6899",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "whr70h"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 11.6897L6.5 8.68988",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "c6nexo"
+    }
+  ]
+];
+var FileXFill = createFoamicon("FileXFill", __iconNode208);
+
+// src/icons/FileX.tsx
+var __iconNode209 = [
+  [
+    "path",
+    {
+      d: "M9.5 8.69006L6.5 11.6899",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6gaep8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 11.6897L6.5 8.68988",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cm1jzn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83de"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcql"
+    }
+  ]
+];
+var FileX = createFoamicon("FileX", __iconNode209);
+
+// src/icons/File.tsx
+var __iconNode210 = [
+  [
+    "path",
+    {
+      d: "M13 6V4.5L9.5 1H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yt83dc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H8C8.55228 1 9 1.44772 9 2V4C9 4.55228 9.44772 5 10 5H12C12.5523 5 13 5.44772 13 6V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      stroke: "currentColor",
+      key: "pevcqn"
+    }
+  ]
+];
+var File = createFoamicon("File", __iconNode210);
+
+// src/icons/FlameDuotone.tsx
+var __iconNode211 = [
+  [
+    "path",
+    {
+      d: "M10.6789 5.48876C10.6789 2.84913 8.73617 1.49944 7.93088 1.1453C7.89847 1.13105 7.86344 1.15411 7.8635 1.18952C7.8643 1.65667 7.80397 3.98308 5.92815 5.15944C3.01348 6.98729 3.35928 9.33385 3.35928 9.74548C3.35928 10.3383 4.00973 14.0846 8.31587 14.0846C10.0978 14.0846 11.7484 12.5306 12.3421 11.2523C12.9434 9.64866 12.5688 8.20773 12.4062 7.72152C12.3809 7.64595 12.283 7.63528 12.2353 7.69905C11.5472 8.61748 10.2007 9.37035 8.4791 9.43618C8.42469 9.43826 8.40717 9.3616 8.45561 9.33673C9.76971 8.66197 10.6789 7.12849 10.6789 5.48876Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "in4f82"
+    }
+  ]
+];
+var FlameDuotone = createFoamicon("FlameDuotone", __iconNode211);
+
+// src/icons/FlameFill.tsx
+var __iconNode212 = [
+  [
+    "path",
+    {
+      d: "M10.6789 5.48876C10.6789 2.84913 8.73616 1.49944 7.93088 1.1453C7.89846 1.13105 7.86343 1.15411 7.86349 1.18952C7.86429 1.65667 7.80396 3.98308 5.92814 5.15944C3.01347 6.98729 3.35928 9.33385 3.35928 9.74548C3.35928 10.3383 4.00973 14.0846 8.31586 14.0846C10.0978 14.0846 11.7484 12.5306 12.3421 11.2523C12.9434 9.64866 12.5687 8.20773 12.4062 7.72152C12.3809 7.64595 12.283 7.63528 12.2353 7.69905C11.5472 8.61748 10.2007 9.37035 8.47909 9.43618C8.42468 9.43826 8.40716 9.3616 8.4556 9.33673C9.7697 8.66197 10.6789 7.12849 10.6789 5.48876Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "f10b8a"
+    }
+  ]
+];
+var FlameFill = createFoamicon("FlameFill", __iconNode212);
+
+// src/icons/Flame.tsx
+var __iconNode213 = [
+  [
+    "path",
+    {
+      d: "M10.6789 5.48876C10.6789 2.84913 8.73616 1.49944 7.93088 1.1453C7.89846 1.13105 7.86343 1.15411 7.8635 1.18952C7.86429 1.65667 7.80397 3.98308 5.92814 5.15944C3.01347 6.98729 3.35928 9.33385 3.35928 9.74548C3.35928 10.3383 4.00973 14.0846 8.31587 14.0846C10.0978 14.0846 11.7484 12.5306 12.3421 11.2523C12.9434 9.64866 12.5688 8.20773 12.4062 7.72152C12.3809 7.64595 12.283 7.63528 12.2353 7.69905C11.5472 8.61748 10.2007 9.37035 8.47909 9.43618C8.42468 9.43826 8.40717 9.3616 8.45561 9.33673C9.76971 8.66197 10.6789 7.12849 10.6789 5.48876Z",
+      stroke: "currentColor",
+      key: "1mchdx"
+    }
+  ]
+];
+var Flame = createFoamicon("Flame", __iconNode213);
+
+// src/icons/FrownDuotone.tsx
+var __iconNode214 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "2hp0ms"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 10.2639C9.46924 9.78885 8.76835 9.5 8 9.5C7.23165 9.5 6.53076 9.78885 6 10.2639",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h2tpam"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 6.72607H6.00667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kqalb1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 6.72607H10.0067",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wvt4t0"
+    }
+  ]
+];
+var FrownDuotone = createFoamicon("FrownDuotone", __iconNode214);
+
+// src/icons/FrownFill.tsx
+var __iconNode215 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4e5q8w"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 10.2639C9.46924 9.78885 8.76835 9.5 8 9.5C7.23165 9.5 6.53076 9.78885 6 10.2639",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ij2xfh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 6.72607H6.00667",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gfjc4m"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 6.72607H10.0067",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "69ewez"
+    }
+  ]
+];
+var FrownFill = createFoamicon("FrownFill", __iconNode215);
+
+// src/icons/Frown.tsx
+var __iconNode216 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qiqtx5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 10.2639C9.46924 9.78885 8.76835 9.5 8 9.5C7.23165 9.5 6.53076 9.78885 6 10.2639",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h2tpam"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 6.72607H6.00667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kqalb1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 6.72607H10.0067",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wvt4t0"
+    }
+  ]
+];
+var Frown = createFoamicon("Frown", __iconNode216);
+
+// src/icons/FullscreenDuotone.tsx
+var __iconNode217 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.66915C2.5 3.70258 3.1911 2.87634 4.15044 2.75834C5.18882 2.63062 6.59441 2.5 8 2.5C9.40559 2.5 10.8112 2.63062 11.8496 2.75834C12.8089 2.87634 13.5 3.70258 13.5 4.66915V11.3308C13.5 12.2974 12.8089 13.1237 11.8496 13.2417C10.8112 13.3694 9.40559 13.5 8 13.5C6.59441 13.5 5.18882 13.3694 4.15044 13.2417C3.1911 13.1237 2.5 12.2974 2.5 11.3308V4.66915Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "tnfru1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5004 9.4187C4.5004 9.4187 4.50063 10.4626 4.50055 11.0076C4.50052 11.1939 4.60917 11.354 4.79319 11.3831C5.33766 11.4692 6.36946 11.5106 6.36946 11.5106",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "qz4err"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.4996 9.4187C11.4996 9.4187 11.4994 10.4626 11.4995 11.0076C11.4995 11.1939 11.3908 11.354 11.2068 11.3831C10.6623 11.4692 9.63054 11.5106 9.63054 11.5106",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "py1d7p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5004 6.5813C4.5004 6.5813 4.50063 5.53741 4.50055 4.99241C4.50052 4.80611 4.60917 4.64598 4.79319 4.61689C5.33766 4.53082 6.36946 4.48943 6.36946 4.48943",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "7tlkmj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.4996 6.5813C11.4996 6.5813 11.4994 5.53741 11.4995 4.99241C11.4995 4.80611 11.3908 4.64598 11.2068 4.61689C10.6623 4.53082 9.63054 4.48943 9.63054 4.48943",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "u3oumh"
+    }
+  ]
+];
+var FullscreenDuotone = createFoamicon("FullscreenDuotone", __iconNode217);
+
+// src/icons/FullscreenFill.tsx
+var __iconNode218 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.66915C2.5 3.70258 3.1911 2.87634 4.15044 2.75834C5.18882 2.63062 6.59441 2.5 8 2.5C9.40559 2.5 10.8112 2.63062 11.8496 2.75834C12.8089 2.87634 13.5 3.70258 13.5 4.66915V11.3308C13.5 12.2974 12.8089 13.1237 11.8496 13.2417C10.8112 13.3694 9.40559 13.5 8 13.5C6.59441 13.5 5.18882 13.3694 4.15044 13.2417C3.1911 13.1237 2.5 12.2974 2.5 11.3308V4.66915Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3kpnvn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5004 9.4187C4.5004 9.4187 4.50063 10.4626 4.50055 11.0076C4.50052 11.1939 4.60917 11.354 4.79319 11.3831C5.33766 11.4692 6.36946 11.5106 6.36946 11.5106",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      key: "5mzz1g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.4996 9.4187C11.4996 9.4187 11.4994 10.4626 11.4995 11.0076C11.4995 11.1939 11.3908 11.354 11.2068 11.3831C10.6623 11.4692 9.63054 11.5106 9.63054 11.5106",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      key: "pl077y"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5004 6.5813C4.5004 6.5813 4.50063 5.53741 4.50055 4.99241C4.50052 4.80611 4.60917 4.64598 4.79319 4.61689C5.33766 4.53082 6.36946 4.48943 6.36946 4.48943",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      key: "8e8q6c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.4996 6.5813C11.4996 6.5813 11.4994 5.53741 11.4995 4.99241C11.4995 4.80611 11.3908 4.64598 11.2068 4.61689C10.6623 4.53082 9.63054 4.48943 9.63054 4.48943",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      key: "nw94ey"
+    }
+  ]
+];
+var FullscreenFill = createFoamicon("FullscreenFill", __iconNode218);
+
+// src/icons/Fullscreen.tsx
+var __iconNode219 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.66915C2.5 3.70258 3.1911 2.87634 4.15044 2.75834C5.18882 2.63062 6.59441 2.5 8 2.5C9.40559 2.5 10.8112 2.63062 11.8496 2.75834C12.8089 2.87634 13.5 3.70258 13.5 4.66915V11.3308C13.5 12.2974 12.8089 13.1237 11.8496 13.2417C10.8112 13.3694 9.40559 13.5 8 13.5C6.59441 13.5 5.18882 13.3694 4.15044 13.2417C3.1911 13.1237 2.5 12.2974 2.5 11.3308V4.66915Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vedvlo"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5004 9.4187C4.5004 9.4187 4.50063 10.4626 4.50055 11.0076C4.50052 11.1939 4.60917 11.354 4.79319 11.3831C5.33766 11.4692 6.36946 11.5106 6.36946 11.5106",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "qz4err"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.4996 9.4187C11.4996 9.4187 11.4994 10.4626 11.4995 11.0076C11.4995 11.1939 11.3908 11.354 11.2068 11.3831C10.6623 11.4692 9.63054 11.5106 9.63054 11.5106",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "py1d7p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5004 6.5813C4.5004 6.5813 4.50063 5.53741 4.50055 4.99241C4.50052 4.80611 4.60917 4.64598 4.79319 4.61689C5.33766 4.53082 6.36946 4.48943 6.36946 4.48943",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "7tlkmj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.4996 6.5813C11.4996 6.5813 11.4994 5.53741 11.4995 4.99241C11.4995 4.80611 11.3908 4.64598 11.2068 4.61689C10.6623 4.53082 9.63054 4.48943 9.63054 4.48943",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "u3oumh"
+    }
+  ]
+];
+var Fullscreen = createFoamicon("Fullscreen", __iconNode219);
+
+// src/icons/GlobeDuotone.tsx
+var __iconNode220 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "2hp0ms"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "8",
+      cy: "8",
+      rx: "2.5",
+      ry: "5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wnnr6c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 6H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h7kdq5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 10H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3xx3jd"
+    }
+  ]
+];
+var GlobeDuotone = createFoamicon("GlobeDuotone", __iconNode220);
+
+// src/icons/GlobeFill.tsx
+var __iconNode221 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qiqtx5"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "8",
+      cy: "8",
+      rx: "2.5",
+      ry: "5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wnnr6c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 6H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h7kdq5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 10H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3xx3jd"
+    }
+  ]
+];
+var GlobeFill = createFoamicon("GlobeFill", __iconNode221);
+
+// src/icons/Globe.tsx
+var __iconNode222 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qiqtx5"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "8",
+      cy: "8",
+      rx: "2.5",
+      ry: "5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wnnr6c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 6H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h7kdq5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 10H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3xx3jd"
+    }
+  ]
+];
+var Globe = createFoamicon("Globe", __iconNode222);
+
+// src/icons/Grid1x2Duotone.tsx
+var __iconNode223 = [
+  [
+    "rect",
+    {
+      x: "2",
+      y: "2",
+      width: "5",
+      height: "12",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "2fxtji"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "2",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "unz6io"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "9",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "b2ln08"
+    }
+  ]
+];
+var Grid1x2Duotone = createFoamicon("Grid1x2Duotone", __iconNode223);
+
+// src/icons/Grid1x2Fill.tsx
+var __iconNode224 = [
+  [
+    "rect",
+    {
+      x: "2",
+      y: "2",
+      width: "5",
+      height: "12",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hqblxi"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "2",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a3u0tu"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "9",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2teai0"
+    }
+  ]
+];
+var Grid1x2Fill = createFoamicon("Grid1x2Fill", __iconNode224);
+
+// src/icons/Grid1x2.tsx
+var __iconNode225 = [
+  [
+    "rect",
+    {
+      x: "2",
+      y: "2",
+      width: "5",
+      height: "12",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1yv4pf"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "2",
+      width: "5",
+      height: "5",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kyzo4n"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "9",
+      width: "5",
+      height: "5",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mrwkqn"
+    }
+  ]
+];
+var Grid1x2 = createFoamicon("Grid1x2", __iconNode225);
+
+// src/icons/Grid2x2Duotone.tsx
+var __iconNode226 = [
+  [
+    "rect",
+    {
+      x: "2",
+      y: "2",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "rz2ofs"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "2",
+      y: "9",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "ngnu0w"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "2",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "unz6in"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "9",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "b2ln07"
+    }
+  ]
+];
+var Grid2x2Duotone = createFoamicon("Grid2x2Duotone", __iconNode226);
+
+// src/icons/Grid2x2Fill.tsx
+var __iconNode227 = [
+  [
+    "rect",
+    {
+      x: "2",
+      y: "2",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ec8kjw"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "2",
+      y: "9",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1f0982"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "2",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a3u0tt"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "9",
+      width: "5",
+      height: "5",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2teai1"
+    }
+  ]
+];
+var Grid2x2Fill = createFoamicon("Grid2x2Fill", __iconNode227);
+
+// src/icons/Grid2x2.tsx
+var __iconNode228 = [
+  [
+    "rect",
+    {
+      x: "2",
+      y: "2",
+      width: "5",
+      height: "5",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mbu1bn"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "2",
+      y: "9",
+      width: "5",
+      height: "5",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4ydrs7"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "2",
+      width: "5",
+      height: "5",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kyzo4o"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "9",
+      y: "9",
+      width: "5",
+      height: "5",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mrwkqm"
+    }
+  ]
+];
+var Grid2x2 = createFoamicon("Grid2x2", __iconNode228);
+
+// src/icons/GripDuotone.tsx
+var __iconNode229 = [
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "8",
+      r: "0.75",
+      transform: "rotate(90 13 8)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "npz7k1"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "13",
+      r: "0.75",
+      transform: "rotate(90 13 13)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q5fb7m"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "0.75",
+      transform: "rotate(90 8 8)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "914y1d"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "13",
+      r: "0.75",
+      transform: "rotate(90 8 13)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kydlio"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "8",
+      r: "0.75",
+      transform: "rotate(90 3 8)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nkjtuv"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "3",
+      r: "0.75",
+      transform: "rotate(90 13 3)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mbxd6s"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "3",
+      r: "0.75",
+      transform: "rotate(90 8 3)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s1ajbn"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "3",
+      r: "0.75",
+      transform: "rotate(90 3 3)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ae4qra"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "13",
+      r: "0.75",
+      transform: "rotate(90 3 13)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3utws5"
+    }
+  ]
+];
+var GripDuotone = createFoamicon("GripDuotone", __iconNode229);
+
+// src/icons/GripFill.tsx
+var __iconNode230 = [
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "8",
+      r: "0.75",
+      transform: "rotate(90 13 8)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "npz7k1"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "13",
+      r: "0.75",
+      transform: "rotate(90 13 13)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q5fb7m"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "0.75",
+      transform: "rotate(90 8 8)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "914y1d"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "13",
+      r: "0.75",
+      transform: "rotate(90 8 13)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kydlio"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "8",
+      r: "0.75",
+      transform: "rotate(90 3 8)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nkjtuv"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "3",
+      r: "0.75",
+      transform: "rotate(90 13 3)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mbxd6s"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "3",
+      r: "0.75",
+      transform: "rotate(90 8 3)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s1ajbn"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "3",
+      r: "0.75",
+      transform: "rotate(90 3 3)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ae4qra"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "13",
+      r: "0.75",
+      transform: "rotate(90 3 13)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3utws5"
+    }
+  ]
+];
+var GripFill = createFoamicon("GripFill", __iconNode230);
+
+// src/icons/GripHorizontalDuotone.tsx
+var __iconNode231 = [
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "5.5",
+      r: "0.75",
+      transform: "rotate(90 13 5.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sf64c7"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "10.5",
+      r: "0.75",
+      transform: "rotate(90 13 10.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4chp1a"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "5.5",
+      r: "0.75",
+      transform: "rotate(90 8 5.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "eq9dch"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "10.5",
+      r: "0.75",
+      transform: "rotate(90 8 10.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d7z8vc"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "5.5",
+      r: "0.75",
+      transform: "rotate(90 3 5.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wk4mah"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "10.5",
+      r: "0.75",
+      transform: "rotate(90 3 10.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ku6tc6"
+    }
+  ]
+];
+var GripHorizontalDuotone = createFoamicon("GripHorizontalDuotone", __iconNode231);
+
+// src/icons/GripHorizontalFill.tsx
+var __iconNode232 = [
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "5.5",
+      r: "0.75",
+      transform: "rotate(90 13 5.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sf64c7"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "10.5",
+      r: "0.75",
+      transform: "rotate(90 13 10.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4chp1a"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "5.5",
+      r: "0.75",
+      transform: "rotate(90 8 5.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "eq9dch"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "10.5",
+      r: "0.75",
+      transform: "rotate(90 8 10.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d7z8vc"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "5.5",
+      r: "0.75",
+      transform: "rotate(90 3 5.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wk4mah"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "10.5",
+      r: "0.75",
+      transform: "rotate(90 3 10.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ku6tc6"
+    }
+  ]
+];
+var GripHorizontalFill = createFoamicon("GripHorizontalFill", __iconNode232);
+
+// src/icons/GripHorizontal.tsx
+var __iconNode233 = [
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "5.5",
+      r: "0.75",
+      transform: "rotate(90 13 5.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sf64c7"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "10.5",
+      r: "0.75",
+      transform: "rotate(90 13 10.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4chp1a"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "5.5",
+      r: "0.75",
+      transform: "rotate(90 8 5.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "eq9dch"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "10.5",
+      r: "0.75",
+      transform: "rotate(90 8 10.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d7z8vc"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "5.5",
+      r: "0.75",
+      transform: "rotate(90 3 5.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wk4mah"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "10.5",
+      r: "0.75",
+      transform: "rotate(90 3 10.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ku6tc6"
+    }
+  ]
+];
+var GripHorizontal = createFoamicon("GripHorizontal", __iconNode233);
+
+// src/icons/GripVerticalDuotone.tsx
+var __iconNode234 = [
+  [
+    "circle",
+    {
+      cx: "5.5",
+      cy: "3",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "x3efdt"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.5",
+      cy: "3",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s0j5me"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "5.5",
+      cy: "8",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z0lc2g"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.5",
+      cy: "8",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uxng59"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "5.5",
+      cy: "13",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "69irjy"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.5",
+      cy: "13",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lo828h"
+    }
+  ]
+];
+var GripVerticalDuotone = createFoamicon("GripVerticalDuotone", __iconNode234);
+
+// src/icons/GripVerticalFill.tsx
+var __iconNode235 = [
+  [
+    "circle",
+    {
+      cx: "5.5",
+      cy: "3",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "x3efdt"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.5",
+      cy: "3",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s0j5me"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "5.5",
+      cy: "8",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z0lc2g"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.5",
+      cy: "8",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uxng59"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "5.5",
+      cy: "13",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "69irjy"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.5",
+      cy: "13",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lo828h"
+    }
+  ]
+];
+var GripVerticalFill = createFoamicon("GripVerticalFill", __iconNode235);
+
+// src/icons/GripVertical.tsx
+var __iconNode236 = [
+  [
+    "circle",
+    {
+      cx: "5.5",
+      cy: "3",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "x3efdt"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.5",
+      cy: "3",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s0j5me"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "5.5",
+      cy: "8",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z0lc2g"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.5",
+      cy: "8",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uxng59"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "5.5",
+      cy: "13",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "69irjy"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.5",
+      cy: "13",
+      r: "0.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lo828h"
+    }
+  ]
+];
+var GripVertical = createFoamicon("GripVertical", __iconNode236);
+
+// src/icons/Grip.tsx
+var __iconNode237 = [
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "8",
+      r: "0.75",
+      transform: "rotate(90 13 8)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "npz7k1"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "13",
+      r: "0.75",
+      transform: "rotate(90 13 13)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q5fb7m"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "0.75",
+      transform: "rotate(90 8 8)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "914y1d"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "13",
+      r: "0.75",
+      transform: "rotate(90 8 13)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kydlio"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "8",
+      r: "0.75",
+      transform: "rotate(90 3 8)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nkjtuv"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "13",
+      cy: "3",
+      r: "0.75",
+      transform: "rotate(90 13 3)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mbxd6s"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "3",
+      r: "0.75",
+      transform: "rotate(90 8 3)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s1ajbn"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "3",
+      r: "0.75",
+      transform: "rotate(90 3 3)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ae4qra"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "3",
+      cy: "13",
+      r: "0.75",
+      transform: "rotate(90 3 13)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3utws5"
+    }
+  ]
+];
+var Grip = createFoamicon("Grip", __iconNode237);
+
+// src/icons/HeartDuotone.tsx
+var __iconNode238 = [
+  [
+    "path",
+    {
+      d: "M14 6C14 9.79309 8.60468 13.1366 8.0465 13.4723C8.01561 13.4909 7.98439 13.4909 7.9535 13.4723C7.39533 13.1366 2.00016 9.79309 2 6C1.99992 4 2.99992 2.50002 5 2.5C7.00008 2.49998 8 4 8 4C8 4 9.00008 2.5 11 2.5C12.9999 2.5 14 4 14 6Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "2re8nx"
+    }
+  ]
+];
+var HeartDuotone = createFoamicon("HeartDuotone", __iconNode238);
+
+// src/icons/HeartFill.tsx
+var __iconNode239 = [
+  [
+    "path",
+    {
+      d: "M14 6C14 9.79309 8.60468 13.1366 8.0465 13.4723C8.01561 13.4909 7.98439 13.4909 7.9535 13.4723C7.39533 13.1366 2.00016 9.79309 2 6C1.99992 4 2.99992 2.50002 5 2.5C7.00008 2.49998 8 4 8 4C8 4 9.00008 2.5 11 2.5C12.9999 2.5 14 4 14 6Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hwd17t"
+    }
+  ]
+];
+var HeartFill = createFoamicon("HeartFill", __iconNode239);
+
+// src/icons/Heart.tsx
+var __iconNode240 = [
+  [
+    "path",
+    {
+      d: "M14 6C14 9.79309 8.60468 13.1366 8.0465 13.4723C8.01561 13.4909 7.98439 13.4909 7.9535 13.4723C7.39533 13.1366 2.00016 9.79309 2 6C1.99992 4 2.99992 2.50002 5 2.5C7.00008 2.49998 8 4 8 4C8 4 9.00008 2.5 11 2.5C12.9999 2.5 14 4 14 6Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sicc1u"
+    }
+  ]
+];
+var Heart = createFoamicon("Heart", __iconNode240);
+
+// src/icons/HistoryDuotone.tsx
+var __iconNode241 = [
+  [
+    "path",
+    {
+      d: "M8 5.25V8.25H9.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "881y6q"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.00003 5.3103L3.65514 5.31028C3.379 5.31027 3.15515 5.08642 3.15515 4.81028L3.15515 2.49997",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1h9ia8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 8C2.5 11.0376 4.96243 13.5 8 13.5C11.0376 13.5 13.5 11.0376 13.5 8C13.5 4.96243 11.0376 2.5 8 2.5C6.13984 2.5 4.49537 3.42345 3.5 4.83692",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "im5sg5"
+    }
+  ]
+];
+var HistoryDuotone = createFoamicon("HistoryDuotone", __iconNode241);
+
+// src/icons/HistoryFill.tsx
+var __iconNode242 = [
+  [
+    "path",
+    {
+      d: "M8 5.25V8.25H9.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "881y6q"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.00003 5.3103L3.65514 5.31028C3.379 5.31027 3.15515 5.08642 3.15515 4.81028L3.15515 2.49997",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1h9ia8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 8C2.5 11.0376 4.96243 13.5 8 13.5C11.0376 13.5 13.5 11.0376 13.5 8C13.5 4.96243 11.0376 2.5 8 2.5C6.13984 2.5 4.49537 3.42345 3.5 4.83692",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "im5sg5"
+    }
+  ]
+];
+var HistoryFill = createFoamicon("HistoryFill", __iconNode242);
+
+// src/icons/History.tsx
+var __iconNode243 = [
+  [
+    "path",
+    {
+      d: "M8 5.25V8.25H9.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "881y6q"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.00003 5.3103L3.65515 5.31028C3.37901 5.31027 3.15515 5.08642 3.15515 4.81028L3.15515 2.49997",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "blfzke"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 8C2.5 11.0376 4.96243 13.5 8 13.5C11.0376 13.5 13.5 11.0376 13.5 8C13.5 4.96243 11.0376 2.5 8 2.5C6.13984 2.5 4.49537 3.42345 3.5 4.83692",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "im5sg5"
+    }
+  ]
+];
+var History = createFoamicon("History", __iconNode243);
+
+// src/icons/HotspotDuotone.tsx
+var __iconNode244 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6pxmyr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.35418 11C4.52375 10.2671 4 9.19469 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8C12 9.11849 11.5409 10.1298 10.8009 10.8557",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "umdn1o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 12.6904C13.7327 11.5075 14.5 9.84336 14.5 8C14.5 4.41015 11.5899 1.5 8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 9.84336 2.26733 11.5075 3.5 12.6904",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "32ez4c"
+    }
+  ]
+];
+var HotspotDuotone = createFoamicon("HotspotDuotone", __iconNode244);
+
+// src/icons/HotspotFill.tsx
+var __iconNode245 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6pxmyr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.35418 11C4.52375 10.2671 4 9.19469 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8C12 9.11849 11.5409 10.1298 10.8009 10.8557",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "umdn1o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 12.6904C13.7327 11.5075 14.5 9.84336 14.5 8C14.5 4.41015 11.5899 1.5 8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 9.84336 2.26733 11.5075 3.5 12.6904",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "32ez4c"
+    }
+  ]
+];
+var HotspotFill = createFoamicon("HotspotFill", __iconNode245);
+
+// src/icons/Hotspot.tsx
+var __iconNode246 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6pxmyr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.35418 11C4.52375 10.2671 4 9.19469 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8C12 9.11849 11.5409 10.1298 10.8009 10.8557",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "umdn1o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 12.6904C13.7327 11.5075 14.5 9.84336 14.5 8C14.5 4.41015 11.5899 1.5 8 1.5C4.41015 1.5 1.5 4.41015 1.5 8C1.5 9.84336 2.26733 11.5075 3.5 12.6904",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "32ez4c"
+    }
+  ]
+];
+var Hotspot = createFoamicon("Hotspot", __iconNode246);
+
+// src/icons/HouseDuotone.tsx
+var __iconNode247 = [
+  [
+    "path",
+    {
+      d: "M2.5 7.35696C2.5 7.12612 2.57775 6.90489 2.72543 6.72747C3.64888 5.61799 7.13471 1.5 8 1.5C8.86529 1.5 12.3511 5.61799 13.2746 6.72747C13.4222 6.90489 13.5 7.12612 13.5 7.35696V12.1654C13.5 12.6487 13.1546 13.0615 12.6764 13.1309C12.2583 13.1916 11.7046 13.2645 11.0708 13.3295C10.4932 13.3887 10 12.9292 10 12.3486V9.49612C10 8.93235 9.53477 8.47607 8.97102 8.48151C8.34823 8.48752 7.58993 8.4922 6.99531 8.49535C6.44452 8.49827 6 8.94539 6 9.49618L6 12.3486C5.99999 12.9292 5.50675 13.3887 4.92916 13.3295C4.2954 13.2645 3.7417 13.1916 3.32363 13.1309C2.84536 13.0615 2.5 12.6487 2.5 12.1654V7.35696Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "8vu60e"
+    }
+  ]
+];
+var HouseDuotone = createFoamicon("HouseDuotone", __iconNode247);
+
+// src/icons/HouseFill.tsx
+var __iconNode248 = [
+  [
+    "path",
+    {
+      d: "M2.5 7.35696C2.5 7.12612 2.57775 6.90489 2.72543 6.72747C3.64888 5.61799 7.13471 1.5 8 1.5C8.86529 1.5 12.3511 5.61799 13.2746 6.72747C13.4222 6.90489 13.5 7.12612 13.5 7.35696V12.1654C13.5 12.6487 13.1546 13.0615 12.6764 13.1309C12.2583 13.1916 11.7046 13.2645 11.0708 13.3295C10.4932 13.3887 10 12.9292 10 12.3486V9.49612C10 8.93235 9.53477 8.47607 8.97102 8.48151C8.34823 8.48752 7.58993 8.4922 6.99531 8.49535C6.44452 8.49827 6 8.94539 6 9.49618L6 12.3486C5.99999 12.9292 5.50675 13.3887 4.92916 13.3295C4.2954 13.2645 3.7417 13.1916 3.32363 13.1309C2.84536 13.0615 2.5 12.6487 2.5 12.1654V7.35696Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fwzthe"
+    }
+  ]
+];
+var HouseFill = createFoamicon("HouseFill", __iconNode248);
+
+// src/icons/House.tsx
+var __iconNode249 = [
+  [
+    "path",
+    {
+      d: "M2.5 7.35696C2.5 7.12612 2.57775 6.90489 2.72543 6.72747C3.64888 5.61799 7.13471 1.5 8 1.5C8.86529 1.5 12.3511 5.61799 13.2746 6.72747C13.4222 6.90489 13.5 7.12612 13.5 7.35696V12.1654C13.5 12.6487 13.1546 13.0615 12.6764 13.1309C12.2583 13.1916 11.7046 13.2645 11.0708 13.3295C10.4932 13.3887 10 12.9292 10 12.3486V9.49612C10 8.93235 9.53477 8.47607 8.97102 8.48151C8.34823 8.48752 7.58993 8.4922 6.99531 8.49535C6.44452 8.49827 6 8.94539 6 9.49618L6 12.3486C5.99999 12.9292 5.50675 13.3887 4.92916 13.3295C4.2954 13.2645 3.7417 13.1916 3.32363 13.1309C2.84536 13.0615 2.5 12.6487 2.5 12.1654V7.35696Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yopa5l"
+    }
+  ]
+];
+var House = createFoamicon("House", __iconNode249);
+
+// src/icons/ImageDuotone.tsx
+var __iconNode250 = [
+  [
+    "path",
+    {
+      d: "M2 4.74439C2 4.00274 2.54228 3.37428 3.27924 3.29101C4.43238 3.16071 6.21619 3 8 3C9.78381 3 11.5676 3.16071 12.7208 3.29101C13.4577 3.37428 14 4.00274 14 4.74439V11.2556C14 11.9973 13.4577 12.6257 12.7208 12.709C11.5676 12.8393 9.78381 13 8 13C6.21619 13 4.43238 12.8393 3.27924 12.709C2.54228 12.6257 2 11.9973 2 11.2556V4.74439Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wsa55f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.0221 8.9779L3.45139 7.54861C4.28299 6.71701 5.64915 6.77898 6.40205 7.68245L6.62717 7.9526C7.14763 8.57716 8.01105 8.79558 8.7659 8.49364C9.5053 8.19788 10.3509 8.40098 10.8753 9.0003L13.2242 11.6849C13.3991 11.8847 13.4771 12.1515 13.4375 12.4141C13.4375 12.4141 12.9852 12.6528 12.8822 12.6905C11.7387 12.8235 9.86936 13 8 13C6.21619 13 4.43238 12.8393 3.27924 12.709C2.54228 12.6257 2 11.9973 2 11.2556V9.03125C2 9.01124 2.00795 8.99205 2.0221 8.9779Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "cj5wp1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.4375 12.4141C13.4375 12.4141 12.9852 12.6528 12.8822 12.6905M13.4375 12.4141L12.8822 12.6905M13.4375 12.4141C13.4771 12.1515 13.3991 11.8847 13.2242 11.6849L10.8753 9.0003C10.3509 8.40098 9.5053 8.19788 8.7659 8.49364C8.01105 8.79558 7.14763 8.57716 6.62717 7.9526L6.40205 7.68245C5.64915 6.77898 4.28299 6.71701 3.45139 7.54861L2.0221 8.9779C2.00795 8.99205 2 9.01124 2 9.03125V11.2556C2 11.9973 2.54228 12.6257 3.27924 12.709C4.43238 12.8393 6.21619 13 8 13C9.86936 13 11.7387 12.8235 12.8822 12.6905",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s12fha"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.75",
+      cy: "5.75",
+      r: "0.75",
+      fill: "currentColor",
+      key: "225847"
+    }
+  ]
+];
+var ImageDuotone = createFoamicon("ImageDuotone", __iconNode250);
+
+// src/icons/ImageFill.tsx
+var __iconNode251 = [
+  [
+    "path",
+    {
+      d: "M2 4.74439C2 4.00274 2.54228 3.37428 3.27924 3.29101C4.43238 3.16071 6.21619 3 8 3C9.78381 3 11.5676 3.16071 12.7208 3.29101C13.4577 3.37428 14 4.00274 14 4.74439V11.2556C14 11.9973 13.4577 12.6257 12.7208 12.709C11.5676 12.8393 9.78381 13 8 13C6.21619 13 4.43238 12.8393 3.27924 12.709C2.54228 12.6257 2 11.9973 2 11.2556V4.74439Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wsa55f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.0221 8.9779L3.45139 7.54861C4.28299 6.71701 5.64915 6.77898 6.40205 7.68245L6.62717 7.9526C7.14763 8.57716 8.01105 8.79558 8.7659 8.49364C9.5053 8.19788 10.3509 8.40098 10.8753 9.0003L13.2242 11.6849C13.3991 11.8847 13.4771 12.1515 13.4375 12.4141C13.4375 12.4141 12.9852 12.6528 12.8822 12.6905C11.7387 12.8235 9.86936 13 8 13C6.21619 13 4.43238 12.8393 3.27924 12.709C2.54228 12.6257 2 11.9973 2 11.2556V9.03125C2 9.01124 2.00795 8.99205 2.0221 8.9779Z",
+      fill: "currentColor",
+      key: "h57yg3"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.75",
+      cy: "5.75",
+      r: "0.5",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeWidth: "0.5",
+      key: "awljjq"
+    }
+  ]
+];
+var ImageFill = createFoamicon("ImageFill", __iconNode251);
+
+// src/icons/Image.tsx
+var __iconNode252 = [
+  [
+    "path",
+    {
+      d: "M2 4.74439C2 4.00274 2.54228 3.37428 3.27924 3.29101C4.43238 3.16071 6.21619 3 8 3C9.78381 3 11.5676 3.16071 12.7208 3.29101C13.4577 3.37428 14 4.00274 14 4.74439V11.2556C14 11.9973 13.4577 12.6257 12.7208 12.709C11.5676 12.8393 9.78381 13 8 13C6.21619 13 4.43238 12.8393 3.27924 12.709C2.54228 12.6257 2 11.9973 2 11.2556V4.74439Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wsa55f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 9L3.45139 7.54861C4.28299 6.71701 5.64915 6.77898 6.40205 7.68245L6.62717 7.9526C7.14763 8.57716 8.01105 8.79558 8.7659 8.49364C9.5053 8.19788 10.3509 8.40098 10.8753 9.0003L13.5 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e2af5f"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.75",
+      cy: "5.75",
+      r: "0.75",
+      fill: "currentColor",
+      key: "225846"
+    }
+  ]
+];
+var Image = createFoamicon("Image", __iconNode252);
+
+// src/icons/ImagesDuotone.tsx
+var __iconNode253 = [
+  [
+    "path",
+    {
+      d: "M3.2 4.69894C3.2 3.95729 3.74155 3.32886 4.47875 3.24769C5.51778 3.13328 7.05889 3 8.6 3C10.1411 3 11.6822 3.13328 12.7212 3.24769C13.4584 3.32886 14 3.95729 14 4.69894V10.3011C14 11.0427 13.4584 11.6711 12.7212 11.7523C11.6822 11.8667 10.1411 12 8.6 12C7.05889 12 5.51778 11.8667 4.47875 11.7523C3.74155 11.6711 3.2 11.0427 3.2 10.3011V4.69894Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bm3cxb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.40598 7.19397L3.22655 8.3734C3.20955 8.3904 3.2 8.41346 3.2 8.4375V9.87108C3.2 10.8599 3.92296 11.6984 4.90686 11.7974C5.91717 11.899 7.25858 12 8.6 12C10.7318 12 12.3716 11.7857 12.9675 11.6955C13.1232 11.6719 13.2578 11.5793 13.3398 11.4448C13.4649 11.2396 13.4423 10.9769 13.284 10.796L11.1877 8.40022C10.7158 7.86083 9.95477 7.67804 9.2893 7.94423C8.60994 8.21597 7.83286 8.01939 7.36445 7.45729L7.25262 7.32309C6.52626 6.45147 5.20826 6.39168 4.40598 7.19397Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "hmv2e6"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "11.125",
+      cy: "5.69995",
+      r: "0.75",
+      fill: "currentColor",
+      key: "p6kfs1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.19104 5.5144C1.19104 5.5144 1.19101 5.87688 1.19104 6.10915C1.19124 7.42246 1.17849 8.53554 1.23113 9.47261C1.19923 11.9535 2.27253 13.3008 4.55519 13.7588C5.14063 13.8762 5.7439 13.8414 6.50112 13.8626C9.08753 13.8626 9.27153 13.8675 11.1581 13.7588C11.382 13.7459 11.8633 13.707 11.8633 13.707",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "gk75s9"
+    }
+  ]
+];
+var ImagesDuotone = createFoamicon("ImagesDuotone", __iconNode253);
+
+// src/icons/ImagesFill.tsx
+var __iconNode254 = [
+  [
+    "path",
+    {
+      d: "M3.2 4.69894C3.2 3.95729 3.74155 3.32886 4.47875 3.24769C5.51778 3.13328 7.05889 3 8.6 3C10.1411 3 11.6822 3.13328 12.7212 3.24769C13.4584 3.32886 14 3.95729 14 4.69894V10.3011C14 11.0427 13.4584 11.6711 12.7212 11.7523C11.6822 11.8667 10.1411 12 8.6 12C7.05889 12 5.51778 11.8667 4.47875 11.7523C3.74155 11.6711 3.2 11.0427 3.2 10.3011V4.69894Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bm3cxb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.40598 7.19397L3.22655 8.3734C3.20955 8.3904 3.2 8.41346 3.2 8.4375V9.87108C3.2 10.8599 3.92296 11.6984 4.90686 11.7974C5.91717 11.899 7.25858 12 8.6 12C10.7318 12 12.3716 11.7857 12.9675 11.6955C13.1232 11.6719 13.2578 11.5793 13.3398 11.4448C13.4649 11.2396 13.4423 10.9769 13.284 10.796L11.1877 8.40022C10.7158 7.86083 9.95477 7.67804 9.2893 7.94423C8.60994 8.21597 7.83286 8.01939 7.36445 7.45729L7.25262 7.32309C6.52626 6.45147 5.20826 6.39168 4.40598 7.19397Z",
+      fill: "currentColor",
+      key: "cgsviu"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "11.125",
+      cy: "5.69995",
+      r: "0.5",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeWidth: "0.5",
+      key: "mmewxf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.19104 5.5144C1.19104 5.5144 1.19101 5.87688 1.19104 6.10915C1.19124 7.42246 1.17849 8.53554 1.23113 9.47261C1.19923 11.9535 2.27253 13.3008 4.55519 13.7588C5.14063 13.8762 5.7439 13.8414 6.50112 13.8626C9.08753 13.8626 9.27153 13.8675 11.1581 13.7588C11.382 13.7459 11.8633 13.707 11.8633 13.707",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "gk75s9"
+    }
+  ]
+];
+var ImagesFill = createFoamicon("ImagesFill", __iconNode254);
+
+// src/icons/Images.tsx
+var __iconNode255 = [
+  [
+    "path",
+    {
+      d: "M3.2 4.69894C3.2 3.95729 3.74155 3.32886 4.47875 3.24769C5.51778 3.13328 7.05889 3 8.6 3C10.1411 3 11.6822 3.13328 12.7212 3.24769C13.4584 3.32886 14 3.95729 14 4.69894V10.3011C14 11.0427 13.4584 11.6711 12.7213 11.7523C11.6822 11.8667 10.1411 12 8.6 12C7.05889 12 5.51778 11.8667 4.47875 11.7523C3.74155 11.6711 3.2 11.0427 3.2 10.3011V4.69894Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "du7xlc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.2 8.39995L4.40598 7.19397C5.20827 6.39168 6.52626 6.45147 7.25262 7.32309L7.36445 7.45729C7.83287 8.01939 8.60995 8.21597 9.28931 7.94423C9.95477 7.67804 10.7158 7.86083 11.1877 8.40022L13.55 11.1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "o3w2xy"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "11.125",
+      cy: "5.69995",
+      r: "0.75",
+      fill: "currentColor",
+      key: "p6kfs1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.19104 5.5144C1.19104 5.5144 1.19101 5.87688 1.19104 6.10915C1.19124 7.42246 1.17849 8.53554 1.23113 9.47261C1.19923 11.9535 2.27253 13.3008 4.55519 13.7588C5.14063 13.8762 5.7439 13.8414 6.50112 13.8626C9.08753 13.8626 9.27153 13.8675 11.1581 13.7588C11.382 13.7459 11.8633 13.707 11.8633 13.707",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "gk75s9"
+    }
+  ]
+];
+var Images = createFoamicon("Images", __iconNode255);
+
+// src/icons/InboxDuotone.tsx
+var __iconNode256 = [
+  [
+    "path",
+    {
+      d: "M3.83352 3.16596C3.93984 2.7697 4.20859 2.44065 4.60557 2.33703C5.19555 2.18302 6.26224 2 8 2C9.73776 2 10.8044 2.18302 11.3944 2.33703C11.7914 2.44065 12.0602 2.7697 12.1665 3.16596L13.9488 9.80903C13.9828 9.9358 14 10.0665 14 10.1977V12.2027C14 12.9276 13.4821 13.5468 12.7638 13.6449C11.6123 13.8023 9.80617 14 8 14C6.19383 14 4.38766 13.8023 3.23618 13.6449C2.51792 13.5468 2 12.9276 2 12.2027V10.1977C2 10.0665 2.01723 9.9358 2.05124 9.80903L3.83352 3.16596Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xjo7wr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 2C5.7388 2 4.61383 2.30988 4.19688 2.46251C4.06845 2.50952 3.97995 2.6202 3.94451 2.75229L2.03517 9.86889C2.01743 9.93503 2.06726 10 2.13574 10H5.83295C6.00082 10 6.15749 10.0842 6.25006 10.2243L6.83351 11.1069C7.42653 12.0041 8.74315 12.0041 9.33617 11.1069L9.91962 10.2243C10.0122 10.0842 10.1689 10 10.3367 10H13.3482C13.677 10 13.9163 9.68803 13.8311 9.37044L12.0555 2.75229C12.0201 2.6202 11.9315 2.50952 11.8031 2.46251C11.3862 2.30988 10.2612 2 8 2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "tzg9c8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 8H11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dpcumw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 6H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "96bins"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 4H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hesfco"
+    }
+  ]
+];
+var InboxDuotone = createFoamicon("InboxDuotone", __iconNode256);
+
+// src/icons/InboxFill.tsx
+var __iconNode257 = [
+  [
+    "path",
+    {
+      d: "M3.83352 3.16596C3.93984 2.7697 4.20859 2.44065 4.60557 2.33703C5.19555 2.18302 6.26224 2 8 2C9.73776 2 10.8044 2.18302 11.3944 2.33703C11.7914 2.44065 12.0602 2.7697 12.1665 3.16596L13.9488 9.80903C13.9828 9.9358 14 10.0665 14 10.1977V12.2027C14 12.9276 13.4821 13.5468 12.7638 13.6449C11.6123 13.8023 9.80617 14 8 14C6.19383 14 4.38766 13.8023 3.23618 13.6449C2.51792 13.5468 2 12.9276 2 12.2027V10.1977C2 10.0665 2.01723 9.9358 2.05124 9.80903L3.83352 3.16596Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xjo7wr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 2C5.7388 2 4.61383 2.30988 4.19688 2.46251C4.06845 2.50952 3.97995 2.6202 3.94451 2.75229L2.03517 9.86889C2.01743 9.93503 2.06726 10 2.13574 10H5.83295C6.00082 10 6.15749 10.0842 6.25006 10.2243L6.83351 11.1069C7.42653 12.0041 8.74315 12.0041 9.33617 11.1069L9.91962 10.2243C10.0122 10.0842 10.1689 10 10.3367 10H13.3482C13.677 10 13.9163 9.68803 13.8311 9.37044L12.0555 2.75229C12.0201 2.6202 11.9315 2.50952 11.8031 2.46251C11.3862 2.30988 10.2612 2 8 2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "imgxty"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 8H11.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gorj5b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 6H11",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hdi8gf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 4H10.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4dg36b"
+    }
+  ]
+];
+var InboxFill = createFoamicon("InboxFill", __iconNode257);
+
+// src/icons/Inbox.tsx
+var __iconNode258 = [
+  [
+    "path",
+    {
+      d: "M3.83352 3.16596C3.93984 2.7697 4.20859 2.44065 4.60557 2.33703C5.19555 2.18302 6.26224 2 8 2C9.73776 2 10.8044 2.18302 11.3944 2.33703C11.7914 2.44065 12.0602 2.7697 12.1665 3.16596L13.9488 9.80903C13.9828 9.9358 14 10.0665 14 10.1977V12.2027C14 12.9276 13.4821 13.5468 12.7638 13.6449C11.6123 13.8023 9.80617 14 8 14C6.19383 14 4.38766 13.8023 3.23618 13.6449C2.51792 13.5468 2 12.9276 2 12.2027V10.1977C2 10.0665 2.01723 9.9358 2.05124 9.80903L3.83352 3.16596Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xjo7wr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.13574 10H5.15879C5.7476 10 6.29712 10.2955 6.62181 10.7867C7.31516 11.8356 8.85452 11.8356 9.54786 10.7867C9.87255 10.2955 10.4221 10 11.0109 10H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5xjcds"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 8H11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dpcumw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 6H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "96bins"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 4H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hesfco"
+    }
+  ]
+];
+var Inbox = createFoamicon("Inbox", __iconNode258);
+
+// src/icons/InfoDuotone.tsx
+var __iconNode259 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "w97vay"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00833 7.79739V11.4872",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yrbzfa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.005 5.5H8.025Z",
+      fill: "currentColor",
+      key: "bnmxut"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.005 5.5H8.025",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jmkmx1"
+    }
+  ]
+];
+var InfoDuotone = createFoamicon("InfoDuotone", __iconNode259);
+
+// src/icons/InfoFill.tsx
+var __iconNode260 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d9sdlm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00833 7.79739V11.4872",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sbr6n3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.005 5.5H8.025Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      key: "hckdce"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.005 5.5H8.025",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z1m224"
+    }
+  ]
+];
+var InfoFill = createFoamicon("InfoFill", __iconNode260);
+
+// src/icons/Info.tsx
+var __iconNode261 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mpqwsf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00833 7.79739V11.4872",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yrbzfa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.005 5.5H8.025Z",
+      fill: "currentColor",
+      key: "bnmxut"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.005 5.5H8.025",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jmkmx1"
+    }
+  ]
+];
+var Info = createFoamicon("Info", __iconNode261);
+
+// src/icons/ItalicDuotone.tsx
+var __iconNode262 = [
+  [
+    "path",
+    {
+      d: "M8 3H11M14 3H11M3 13H6M9 13H6M6 13L11 3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "tzser2"
+    }
+  ]
+];
+var ItalicDuotone = createFoamicon("ItalicDuotone", __iconNode262);
+
+// src/icons/ItalicFill.tsx
+var __iconNode263 = [
+  [
+    "path",
+    {
+      d: "M8 3H11M14 3H11M3 13H6M9 13H6M6 13L11 3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "tzser2"
+    }
+  ]
+];
+var ItalicFill = createFoamicon("ItalicFill", __iconNode263);
+
+// src/icons/Italic.tsx
+var __iconNode264 = [
+  [
+    "path",
+    {
+      d: "M8 3H11M14 3H11M3 13H6M9 13H6M6 13L11 3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "tzser2"
+    }
+  ]
+];
+var Italic = createFoamicon("Italic", __iconNode264);
+
+// src/icons/LinkDuotone.tsx
+var __iconNode265 = [
+  [
+    "path",
+    {
+      d: "M11.88 8.12988L12.7553 7.25159C13.8576 6.1455 13.856 4.35572 12.7518 3.25153C11.6463 2.14598 9.85384 2.146 8.74831 3.25156L7.88001 4.11988M8.12 11.8799L7.24996 12.75C6.14539 13.8546 4.35448 13.8546 3.24989 12.75C2.1453 11.6454 2.14531 9.85452 3.24991 8.74994L4.12 7.87987",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sbs6xb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.84372 6.15601L5.84372 10.156",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "czh5bp"
+    }
+  ]
+];
+var LinkDuotone = createFoamicon("LinkDuotone", __iconNode265);
+
+// src/icons/LinkFill.tsx
+var __iconNode266 = [
+  [
+    "path",
+    {
+      d: "M11.88 8.12988L12.7553 7.25159C13.8576 6.1455 13.856 4.35572 12.7518 3.25153C11.6463 2.14598 9.85384 2.146 8.74831 3.25156L7.88001 4.11988M8.12 11.8799L7.24996 12.75C6.14539 13.8546 4.35448 13.8546 3.24989 12.75C2.1453 11.6454 2.14531 9.85452 3.24991 8.74994L4.12 7.87987",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sbs6xb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.84372 6.15601L5.84372 10.156",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "czh5bp"
+    }
+  ]
+];
+var LinkFill = createFoamicon("LinkFill", __iconNode266);
+
+// src/icons/Link.tsx
+var __iconNode267 = [
+  [
+    "path",
+    {
+      d: "M11.88 8.12988L12.7553 7.25159C13.8576 6.1455 13.856 4.35572 12.7518 3.25153C11.6463 2.14598 9.85384 2.146 8.74831 3.25156L7.88001 4.11988M8.12 11.8799L7.24996 12.75C6.14538 13.8546 4.35448 13.8546 3.24989 12.75C2.1453 11.6454 2.14531 9.85452 3.24991 8.74994L4.12 7.87987",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xc44by"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.84372 6.15601L5.84372 10.156",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "czh5bp"
+    }
+  ]
+];
+var Link = createFoamicon("Link", __iconNode267);
+
+// src/icons/ListDuotone.tsx
+var __iconNode268 = [
+  [
+    "path",
+    {
+      d: "M5.75 4H13.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "scuiwg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.75 8H13.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jhb2cz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.75 12H13.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y6bojh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.28796 8C2.28796 8.27614 2.51182 8.5 2.78796 8.5C3.06411 8.5 3.28796 8.27614 3.28796 8C3.28796 7.72386 3.06411 7.5 2.78796 7.5C2.51182 7.5 2.28796 7.72386 2.28796 8Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "av6xgm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.28796 12C2.28796 12.2761 2.51182 12.5 2.78796 12.5C3.06411 12.5 3.28796 12.2761 3.28796 12C3.28796 11.7239 3.06411 11.5 2.78796 11.5C2.51182 11.5 2.28796 11.7239 2.28796 12Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xh2l4i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.28796 4C2.28796 4.27614 2.51182 4.5 2.78796 4.5C3.06411 4.5 3.28796 4.27614 3.28796 4C3.28796 3.72386 3.06411 3.5 2.78796 3.5C2.51182 3.5 2.28796 3.72386 2.28796 4Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n5lq08"
+    }
+  ]
+];
+var ListDuotone = createFoamicon("ListDuotone", __iconNode268);
+
+// src/icons/ListFill.tsx
+var __iconNode269 = [
+  [
+    "path",
+    {
+      d: "M5.75 4H13.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "scuiwg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.75 8H13.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jhb2cz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.75 12H13.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y6bojh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.28796 8C2.28796 8.27614 2.51182 8.5 2.78796 8.5C3.06411 8.5 3.28796 8.27614 3.28796 8C3.28796 7.72386 3.06411 7.5 2.78796 7.5C2.51182 7.5 2.28796 7.72386 2.28796 8Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wkqeod"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.28796 12C2.28796 12.2761 2.51182 12.5 2.78796 12.5C3.06411 12.5 3.28796 12.2761 3.28796 12C3.28796 11.7239 3.06411 11.5 2.78796 11.5C2.51182 11.5 2.28796 11.7239 2.28796 12Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xw59h1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.28796 4C2.28796 4.27614 2.51182 4.5 2.78796 4.5C3.06411 4.5 3.28796 4.27614 3.28796 4C3.28796 3.72386 3.06411 3.5 2.78796 3.5C2.51182 3.5 2.28796 3.72386 2.28796 4Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t2zsov"
+    }
+  ]
+];
+var ListFill = createFoamicon("ListFill", __iconNode269);
+
+// src/icons/ListFilterDuotone.tsx
+var __iconNode270 = [
+  [
+    "path",
+    {
+      d: "M3.33334 4.66675H12.6667M5.33334 8.00008H10.6667M6.66667 11.3334H9.33334",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9f33zr"
+    }
+  ]
+];
+var ListFilterDuotone = createFoamicon("ListFilterDuotone", __iconNode270);
+
+// src/icons/ListFilterFill.tsx
+var __iconNode271 = [
+  [
+    "path",
+    {
+      d: "M3.33333 4.66675H12.6667M5.33333 8.00008H10.6667M6.66666 11.3334H9.33333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gqg9zh"
+    }
+  ]
+];
+var ListFilterFill = createFoamicon("ListFilterFill", __iconNode271);
+
+// src/icons/ListFilter.tsx
+var __iconNode272 = [
+  [
+    "path",
+    {
+      d: "M3.33333 4.66675H12.6667M5.33333 8.00008H10.6667M6.66667 11.3334H9.33333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3ci5gs"
+    }
+  ]
+];
+var ListFilter = createFoamicon("ListFilter", __iconNode272);
+
+// src/icons/ListIndentDecreaseDuotone.tsx
+var __iconNode273 = [
+  [
+    "path",
+    {
+      d: "M6 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g8o9rw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uezg62"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 12H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "om7zqv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 9.83325L2.16666 7.99992L4 6.16659",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u3t6z6"
+    }
+  ]
+];
+var ListIndentDecreaseDuotone = createFoamicon("ListIndentDecreaseDuotone", __iconNode273);
+
+// src/icons/ListIndentDecreaseFill.tsx
+var __iconNode274 = [
+  [
+    "path",
+    {
+      d: "M6 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g8o9rw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uezg62"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 12H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "om7zqv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.00001 9.83325L2.16667 7.99992L4.00001 6.16659",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "smuq6t"
+    }
+  ]
+];
+var ListIndentDecreaseFill = createFoamicon("ListIndentDecreaseFill", __iconNode274);
+
+// src/icons/ListIndentDecrease.tsx
+var __iconNode275 = [
+  [
+    "path",
+    {
+      d: "M6 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g8o9rw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uezg62"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 12H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "om7zqv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 9.83325L2.16667 7.99992L4 6.16659",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ld8hgx"
+    }
+  ]
+];
+var ListIndentDecrease = createFoamicon("ListIndentDecrease", __iconNode275);
+
+// src/icons/ListIndentIncreaseDuotone.tsx
+var __iconNode276 = [
+  [
+    "path",
+    {
+      d: "M6 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g8o9rw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uezg62"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 12H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "om7zqv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.16667 6.1665L4 7.99984L2.16667 9.83317",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fs1e7u"
+    }
+  ]
+];
+var ListIndentIncreaseDuotone = createFoamicon("ListIndentIncreaseDuotone", __iconNode276);
+
+// src/icons/ListIndentIncreaseFill.tsx
+var __iconNode277 = [
+  [
+    "path",
+    {
+      d: "M6 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g8o9rw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uezg62"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 12H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "om7zqv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.16667 6.1665L4 7.99984L2.16667 9.83317",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fs1e7u"
+    }
+  ]
+];
+var ListIndentIncreaseFill = createFoamicon("ListIndentIncreaseFill", __iconNode277);
+
+// src/icons/ListIndentIncrease.tsx
+var __iconNode278 = [
+  [
+    "path",
+    {
+      d: "M6 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g8o9rw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uezg62"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 12H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "om7zqv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.16667 6.1665L4 7.99984L2.16667 9.83317",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fs1e7u"
+    }
+  ]
+];
+var ListIndentIncrease = createFoamicon("ListIndentIncrease", __iconNode278);
+
+// src/icons/ListOrderedDuotone.tsx
+var __iconNode279 = [
+  [
+    "path",
+    {
+      d: "M6.5 4H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3uprjr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 8H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w6s09a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 12H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7n8er6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.66667 1.91992H3.33334V4.7533",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jja1gg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.66667 4.75342H4.00001",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jicyr1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.33333 9.3333H2.26666C2.26666 8.66663 4 8.3033 4 7.2533C4.00002 7.05229 3.93947 6.85593 3.82623 6.68985C3.713 6.52376 3.55233 6.39566 3.36521 6.32225C3.17808 6.24884 2.97317 6.23352 2.7772 6.27831C2.58124 6.32309 2.56418 6.38747 2.42752 6.53488",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2dtfsa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.77721 12.2508C3 12.2508 4 12.2878 4 11.5122C4.00003 11.3637 3.93947 11.2187 3.82623 11.096C3.713 10.9733 3.55234 10.8787 3.36521 10.8245C3.17808 10.7702 2.97317 10.7589 2.77721 10.792C2.58125 10.8251 2.55769 10.8798 2.42103 10.9887",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "zdynle"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.7772 12.2542C3 12.2542 4 12.2105 4 13.129C4.00002 13.3049 3.93947 13.4766 3.82623 13.6219C3.713 13.7672 3.55233 13.8793 3.36521 13.9435C3.17808 14.0077 2.97317 14.0211 2.7772 13.9819C2.58124 13.9427 2.40333 13.8528 2.26666 13.7239",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lu6w1r"
+    }
+  ]
+];
+var ListOrderedDuotone = createFoamicon("ListOrderedDuotone", __iconNode279);
+
+// src/icons/ListOrderedFill.tsx
+var __iconNode280 = [
+  [
+    "path",
+    {
+      d: "M6.5 4H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3uprjr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 8H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w6s09a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 12H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7n8er6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.66667 1.91992H3.33334V4.7533",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jja1gg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.66667 4.75342H4.00001",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jicyr1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.33333 9.3333H2.26666C2.26666 8.66663 4 8.3033 4 7.2533C4.00002 7.05229 3.93947 6.85593 3.82623 6.68985C3.713 6.52376 3.55233 6.39566 3.36521 6.32225C3.17808 6.24884 2.97317 6.23352 2.7772 6.27831C2.58124 6.32309 2.56418 6.38747 2.42752 6.53488",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2dtfsa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.77721 12.2508C3 12.2508 4 12.2878 4 11.5122C4.00003 11.3637 3.93947 11.2187 3.82623 11.096C3.713 10.9733 3.55234 10.8787 3.36521 10.8245C3.17808 10.7702 2.97317 10.7589 2.77721 10.792C2.58125 10.8251 2.55769 10.8798 2.42103 10.9887",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "zdynle"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.7772 12.2542C3 12.2542 4 12.2105 4 13.129C4.00002 13.3049 3.93947 13.4766 3.82623 13.6219C3.713 13.7672 3.55233 13.8793 3.36521 13.9435C3.17808 14.0077 2.97317 14.0211 2.7772 13.9819C2.58124 13.9427 2.40333 13.8528 2.26666 13.7239",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lu6w1r"
+    }
+  ]
+];
+var ListOrderedFill = createFoamicon("ListOrderedFill", __iconNode280);
+
+// src/icons/ListOrdered.tsx
+var __iconNode281 = [
+  [
+    "path",
+    {
+      d: "M6.5 4H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3uprjr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 8H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w6s09a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 12H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7n8er6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.66667 1.91992H3.33334V4.7533",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jja1gg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.66667 4.75342H4.00001",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jicyr1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.33333 9.33354H2.26666C2.26666 8.66687 4 8.30355 4 7.25355C4.00002 7.05253 3.93947 6.85618 3.82623 6.69009C3.713 6.52401 3.55233 6.3959 3.36521 6.32249C3.17808 6.24908 2.97317 6.23377 2.7772 6.27855C2.58124 6.32334 2.56418 6.38771 2.42752 6.53512",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gyqvem"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.77721 12.2508C3 12.2508 4 12.2878 4 11.5122C4.00003 11.3637 3.93947 11.2187 3.82623 11.096C3.713 10.9733 3.55234 10.8787 3.36521 10.8245C3.17808 10.7702 2.97317 10.7589 2.77721 10.792C2.58125 10.8251 2.55769 10.8798 2.42103 10.9887",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "zdynle"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.7772 12.2542C3 12.2542 4 12.2105 4 13.129C4.00002 13.3049 3.93947 13.4766 3.82623 13.6219C3.713 13.7672 3.55233 13.8793 3.36521 13.9435C3.17808 14.0077 2.97317 14.0211 2.7772 13.9819C2.58124 13.9427 2.40333 13.8528 2.26666 13.7239",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lu6w1r"
+    }
+  ]
+];
+var ListOrdered = createFoamicon("ListOrdered", __iconNode281);
+
+// src/icons/List.tsx
+var __iconNode282 = [
+  [
+    "path",
+    {
+      d: "M5.75 4H13.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "scuiwg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.75 8H13.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jhb2cz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.75 12H13.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y6bojh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.28796 8C2.28796 8.27614 2.51182 8.5 2.78796 8.5C3.0641 8.5 3.28796 8.27614 3.28796 8C3.28796 7.72386 3.0641 7.5 2.78796 7.5C2.51182 7.5 2.28796 7.72386 2.28796 8Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vu5jj4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.28796 12C2.28796 12.2761 2.51182 12.5 2.78796 12.5C3.0641 12.5 3.28796 12.2761 3.28796 12C3.28796 11.7239 3.0641 11.5 2.78796 11.5C2.51182 11.5 2.28796 11.7239 2.28796 12Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mzq7oe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.28796 4C2.28796 4.27614 2.51182 4.5 2.78796 4.5C3.06411 4.5 3.28796 4.27614 3.28796 4C3.28796 3.72386 3.06411 3.5 2.78796 3.5C2.51182 3.5 2.28796 3.72386 2.28796 4Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n5lq08"
+    }
+  ]
+];
+var List = createFoamicon("List", __iconNode282);
+
+// src/icons/LoaderCircleDuotone.tsx
+var __iconNode283 = [
+  [
+    "path",
+    {
+      d: "M13.5 8C13.5 9.21074 13.1005 10.3876 12.3634 11.3482C11.6264 12.3087 10.593 12.9992 9.4235 13.3126C8.25402 13.626 7.01382 13.5447 5.89524 13.0813C4.77667 12.618 3.84223 11.7985 3.23686 10.75C2.63149 9.70147 2.38902 8.48249 2.54705 7.28211C2.70509 6.08173 3.25479 4.96703 4.11091 4.11091C4.96703 3.25479 6.08173 2.70509 7.28211 2.54705C8.48249 2.38902 9.70147 2.63149 10.75 3.23686",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "csmnbb"
+    }
+  ]
+];
+var LoaderCircleDuotone = createFoamicon("LoaderCircleDuotone", __iconNode283);
+
+// src/icons/LoaderCircleFill.tsx
+var __iconNode284 = [
+  [
+    "path",
+    {
+      d: "M13.5 8C13.5 9.21074 13.1005 10.3876 12.3634 11.3482C11.6264 12.3087 10.593 12.9992 9.4235 13.3126C8.25402 13.626 7.01382 13.5447 5.89524 13.0813C4.77667 12.618 3.84223 11.7985 3.23686 10.75C2.63149 9.70147 2.38902 8.48249 2.54705 7.28211C2.70509 6.08173 3.25479 4.96703 4.11091 4.11091C4.96703 3.25479 6.08173 2.70509 7.28211 2.54705C8.48249 2.38902 9.70147 2.63149 10.75 3.23686",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "csmnbb"
+    }
+  ]
+];
+var LoaderCircleFill = createFoamicon("LoaderCircleFill", __iconNode284);
+
+// src/icons/LoaderCircle.tsx
+var __iconNode285 = [
+  [
+    "path",
+    {
+      d: "M13.5 8C13.5 9.21074 13.1005 10.3876 12.3634 11.3482C11.6264 12.3087 10.593 12.9992 9.4235 13.3126C8.25402 13.626 7.01381 13.5447 5.89524 13.0813C4.77666 12.618 3.84223 11.7985 3.23686 10.75C2.63149 9.70147 2.38902 8.48249 2.54705 7.28211C2.70508 6.08173 3.25479 4.96703 4.11091 4.11091C4.96703 3.25479 6.08172 2.70509 7.2821 2.54705C8.48248 2.38902 9.70147 2.63149 10.75 3.23686",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "qn1sw7"
+    }
+  ]
+];
+var LoaderCircle = createFoamicon("LoaderCircle", __iconNode285);
+
+// src/icons/LockDuotone.tsx
+var __iconNode286 = [
+  [
+    "path",
+    {
+      d: "M10.3335 7.5V5.5C10.3335 4.11929 9.21421 3 7.8335 3C6.45278 3 5.3335 4.11929 5.3335 5.5V7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "74q2ky"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 9.13937C3 8.38417 3.56081 7.74849 4.31298 7.68089C5.271 7.59479 6.6355 7.5 8 7.5C9.3645 7.5 10.729 7.59479 11.687 7.68089C12.4392 7.74849 13 8.38417 13 9.13937V12.8606C13 13.6158 12.4392 14.2515 11.687 14.3191C10.729 14.4052 9.3645 14.5 8 14.5C6.6355 14.5 5.271 14.4052 4.31298 14.3191C3.56081 14.2515 3 13.6158 3 12.8606V9.13937Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hcpaml"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 7.5C9.3645 7.5 10.7295 7.59456 11.6875 7.68066C12.4394 7.74848 13 8.3846 13 9.13965V12.8604C13 13.6154 12.4394 14.2515 11.6875 14.3193C10.7295 14.4054 9.3645 14.5 8 14.5C6.6355 14.5 5.27052 14.4054 4.3125 14.3193C3.56056 14.2515 3 13.6154 3 12.8604V9.13965C3 8.3846 3.56056 7.74848 4.3125 7.68066C5.27052 7.59456 6.6355 7.5 8 7.5ZM8 10C7.44772 10 7 10.4477 7 11C7 11.5523 7.44772 12 8 12C8.55228 12 9 11.5523 9 11C9 10.4477 8.55228 10 8 10Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "3ain80"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "11",
+      r: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rjhjo9"
+    }
+  ]
+];
+var LockDuotone = createFoamicon("LockDuotone", __iconNode286);
+
+// src/icons/LockFill.tsx
+var __iconNode287 = [
+  [
+    "path",
+    {
+      d: "M10.3335 7.5V5.5C10.3335 4.11929 9.21421 3 7.8335 3C6.45278 3 5.3335 4.11929 5.3335 5.5V7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "74q2ky"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 9.13937C3 8.38417 3.56081 7.74849 4.31298 7.68089C5.271 7.59479 6.6355 7.5 8 7.5C9.3645 7.5 10.729 7.59479 11.687 7.68089C12.4392 7.74849 13 8.38417 13 9.13937V12.8606C13 13.6158 12.4392 14.2515 11.687 14.3191C10.729 14.4052 9.3645 14.5 8 14.5C6.6355 14.5 5.271 14.4052 4.31298 14.3191C3.56081 14.2515 3 13.6158 3 12.8606V9.13937Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s4qdlm"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "11",
+      r: "1",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kkejsv"
+    }
+  ]
+];
+var LockFill = createFoamicon("LockFill", __iconNode287);
+
+// src/icons/Lock.tsx
+var __iconNode288 = [
+  [
+    "path",
+    {
+      d: "M10.3335 7.5V5.5C10.3335 4.11929 9.21421 3 7.8335 3C6.45278 3 5.3335 4.11929 5.3335 5.5V7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "74q2ky"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "11",
+      r: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rjhjo7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 9.13937C3 8.38417 3.56081 7.74849 4.31298 7.68089C5.271 7.59479 6.6355 7.5 8 7.5C9.3645 7.5 10.729 7.59479 11.687 7.68089C12.4392 7.74849 13 8.38417 13 9.13937V12.8606C13 13.6158 12.4392 14.2515 11.687 14.3191C10.729 14.4052 9.3645 14.5 8 14.5C6.6355 14.5 5.271 14.4052 4.31298 14.3191C3.56081 14.2515 3 13.6158 3 12.8606V9.13937Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hcpamk"
+    }
+  ]
+];
+var Lock = createFoamicon("Lock", __iconNode288);
+
+// src/icons/LogOutDuotone.tsx
+var __iconNode289 = [
+  [
+    "path",
+    {
+      d: "M9.72705 14L5.74417 14C5.00252 14 4.37406 13.4577 4.29078 12.7208C4.16048 11.5676 3.99978 9.78381 3.99978 8C3.99978 6.21619 4.16048 4.43238 4.29078 3.27924C4.37406 2.54228 5.00252 2 5.74417 2L9.72705 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3k864q"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.8334 5.33325L12.9698 7.46959C13.2626 7.76248 13.2626 8.23736 12.9698 8.53025L10.8334 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yjcq6k"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8333 8H7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fqvf3y"
+    }
+  ]
+];
+var LogOutDuotone = createFoamicon("LogOutDuotone", __iconNode289);
+
+// src/icons/LogOutFill.tsx
+var __iconNode290 = [
+  [
+    "path",
+    {
+      d: "M9.72705 14L5.74417 14C5.00252 14 4.37406 13.4577 4.29078 12.7208C4.16048 11.5676 3.99978 9.78381 3.99978 8C3.99978 6.21619 4.16048 4.43238 4.29078 3.27924C4.37406 2.54228 5.00252 2 5.74417 2L9.72705 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3k864q"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.8334 5.33325L12.9697 7.46959C13.2626 7.76248 13.2626 8.23736 12.9697 8.53025L10.8334 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "m3b2a6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8333 8H7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fqvf3y"
+    }
+  ]
+];
+var LogOutFill = createFoamicon("LogOutFill", __iconNode290);
+
+// src/icons/LogOut.tsx
+var __iconNode291 = [
+  [
+    "path",
+    {
+      d: "M9.72705 14L5.74417 14C5.00252 14 4.37406 13.4577 4.29078 12.7208C4.16048 11.5676 3.99978 9.78381 3.99978 8C3.99978 6.21619 4.16048 4.43238 4.29078 3.27924C4.37406 2.54228 5.00252 2 5.74417 2L9.72705 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3k864q"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.8334 5.33325L12.9698 7.46959C13.2626 7.76248 13.2626 8.23736 12.9698 8.53025L10.8334 10.6666",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yjcq6k"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8333 8H7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fqvf3y"
+    }
+  ]
+];
+var LogOut = createFoamicon("LogOut", __iconNode291);
+
+// src/icons/MailDuotone.tsx
+var __iconNode292 = [
+  [
+    "path",
+    {
+      d: "M13.0469 3.375C12.4945 3.18843 9.82812 3 8 3C6.30177 3 4.41427 3.16365 3.24935 3.29457C3.08071 3.31352 2.91672 3.36116 2.77378 3.45263C2.65309 3.52986 2.50771 3.6335 2.38666 3.74785C2.13231 3.9881 2.29275 4.33009 2.56353 4.55166L6.73388 7.96401C7.47045 8.5667 8.52969 8.56687 9.26645 7.96442L13.4495 4.54388C13.7979 4.25899 13.8581 3.87082 13.4821 3.62361C13.2927 3.49915 13.1094 3.39613 13.0469 3.375Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "2qpdsa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 4.74439C2 4.00274 2.54228 3.37428 3.27924 3.29101C4.43238 3.16071 6.21619 3 8 3C9.78381 3 11.5676 3.16071 12.7208 3.29101C13.4577 3.37428 14 4.00274 14 4.74439V11.2556C14 11.9973 13.4577 12.6257 12.7208 12.709C11.5676 12.8393 9.78381 13 8 13C6.21619 13 4.43238 12.8393 3.27924 12.709C2.54228 12.6257 2 11.9973 2 11.2556V4.74439Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wsa55e"
+    }
+  ]
+];
+var MailDuotone = createFoamicon("MailDuotone", __iconNode292);
+
+// src/icons/MailFill.tsx
+var __iconNode293 = [
+  [
+    "path",
+    {
+      d: "M2 4.74439C2 4.00274 2.54228 3.37428 3.27924 3.29101C4.43238 3.16071 6.21619 3 8 3C9.78381 3 11.5676 3.16071 12.7208 3.29101C13.4577 3.37428 14 4.00274 14 4.74439V11.2556C14 11.9973 13.4577 12.6257 12.7208 12.709C11.5676 12.8393 9.78381 13 8 13C6.21619 13 4.43238 12.8393 3.27924 12.709C2.54228 12.6257 2 11.9973 2 11.2556V4.74439Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wsa55f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.0469 3.375C12.4945 3.18843 9.82812 3 8 3C6.30177 3 4.41427 3.16365 3.24935 3.29457C3.08071 3.31352 2.91672 3.36116 2.77378 3.45263C2.65309 3.52986 2.50771 3.6335 2.38666 3.74785C2.13231 3.9881 2.29275 4.33009 2.56353 4.55166L6.73388 7.96401C7.47045 8.5667 8.52969 8.56687 9.26645 7.96442L13.4495 4.54388C13.7979 4.25899 13.8581 3.87082 13.4821 3.62361C13.2927 3.49915 13.1094 3.39613 13.0469 3.375Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "m0ik1j"
+    }
+  ]
+];
+var MailFill = createFoamicon("MailFill", __iconNode293);
+
+// src/icons/MailMoveDuotone.tsx
+var __iconNode294 = [
+  [
+    "path",
+    {
+      d: "M13.0469 3.375C12.4945 3.18843 9.82812 3 8 3C6.30177 3 4.41427 3.16365 3.24935 3.29457C3.08071 3.31352 2.91672 3.36116 2.77378 3.45263C2.65309 3.52986 2.50771 3.6335 2.38666 3.74785C2.13231 3.9881 2.29275 4.33009 2.56353 4.55166L6.73388 7.96401C7.47045 8.5667 8.52969 8.56687 9.26645 7.96442L13.4495 4.54388C13.7979 4.25899 13.8581 3.87082 13.4821 3.62361C13.2927 3.49915 13.1094 3.39613 13.0469 3.375Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "2qpdsa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12.5455C2 12.5455 5 13 8 13C9.78381 13 11.5676 12.8393 12.7208 12.709C13.4577 12.6257 14 11.9973 14 11.2556V4.74439C14 4.00274 13.4577 3.37428 12.7208 3.29101C11.5676 3.16071 9.78381 3 8 3C5.66332 3 3.32664 3.27576 2.40757 3.39771C2.17273 3.42886 2 3.62964 2 3.86653C2 4.01034 2.06459 4.14653 2.17594 4.23753L3.78296 5.55078",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n0gguj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1 8H2.91187",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "igemeh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1 10H5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7lek59"
+    }
+  ]
+];
+var MailMoveDuotone = createFoamicon("MailMoveDuotone", __iconNode294);
+
+// src/icons/MailMoveFill.tsx
+var __iconNode295 = [
+  [
+    "path",
+    {
+      d: "M2 12.5455C2 12.5455 5 13 8 13C9.78381 13 11.5676 12.8393 12.7208 12.709C13.4577 12.6257 14 11.9973 14 11.2556V4.74439C14 4.00274 13.4577 3.37428 12.7208 3.29101C11.5676 3.16071 9.78381 3 8 3C5.66332 3 3.32664 3.27576 2.40757 3.39771C2.17273 3.42886 2 3.62964 2 3.86653C2 4.01034 2.06459 4.14653 2.17594 4.23753L3.78296 5.55078",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n0gguk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.0469 3.375C12.4945 3.18843 9.82812 3 8 3C6.30177 3 4.41427 3.16365 3.24935 3.29457C3.08071 3.31352 2.91672 3.36116 2.77378 3.45263C2.65309 3.52986 2.50771 3.6335 2.38666 3.74785C2.13231 3.9881 2.29275 4.33009 2.56353 4.55166L6.73388 7.96401C7.47045 8.5667 8.52969 8.56687 9.26645 7.96442L13.4495 4.54388C13.7979 4.25899 13.8581 3.87082 13.4821 3.62361C13.2927 3.49915 13.1094 3.39613 13.0469 3.375Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "m0ik1j"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1 8H2.91187",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "igemeh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1 10H5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7lek59"
+    }
+  ]
+];
+var MailMoveFill = createFoamicon("MailMoveFill", __iconNode295);
+
+// src/icons/MailMove.tsx
+var __iconNode296 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.5L6.73353 7.96379C7.47026 8.56657 8.52974 8.56657 9.26648 7.96379L13.5 4.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nwwoju"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12.5455C2 12.5455 5 13 8 13C9.78381 13 11.5676 12.8393 12.7208 12.709C13.4577 12.6257 14 11.9973 14 11.2556V4.74439C14 4.00274 13.4577 3.37428 12.7208 3.29101C11.5676 3.16071 9.78381 3 8 3C5.66332 3 3.32664 3.27576 2.40757 3.39771C2.17273 3.42886 2 3.62964 2 3.86653C2 4.01034 2.06459 4.14653 2.17594 4.23753L3.78296 5.55078",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n0gguj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1 8H2.91187",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "igemeh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1 10H5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7lek59"
+    }
+  ]
+];
+var MailMove = createFoamicon("MailMove", __iconNode296);
+
+// src/icons/MailPlusDuotone.tsx
+var __iconNode297 = [
+  [
+    "path",
+    {
+      d: "M12.4068 3.375C11.8545 3.18843 9.18808 3 7.35996 3C5.66173 3 3.77423 3.16365 2.6093 3.29457C2.44067 3.31352 2.27667 3.36116 2.13373 3.45263C2.01304 3.52986 1.86767 3.6335 1.74661 3.74785C1.49227 3.9881 1.6527 4.33009 1.92349 4.55166L6.09384 7.96401C6.8304 8.5667 7.88965 8.56687 8.6264 7.96442L12.8095 4.54388C13.1579 4.25899 13.2181 3.87082 12.842 3.62361C12.6527 3.49915 12.4694 3.39613 12.4068 3.375Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "qboogu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 8V4.74439C13.5 4.00274 12.9577 3.37428 12.2208 3.29101C11.0676 3.16071 9.28381 3 7.5 3C5.71619 3 3.93238 3.16071 2.77924 3.29101C2.04228 3.37428 1.5 4.00274 1.5 4.74439V11.2556C1.5 11.9973 2.04228 12.6257 2.77924 12.709C3.93238 12.8393 5.71619 13 7.5 13C7.9745 13 8.44899 12.9886 8.91162 12.9695",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e5l3we"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.4116 11V14.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "myh462"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15.1616 12.75L11.6616 12.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "83fj8c"
+    }
+  ]
+];
+var MailPlusDuotone = createFoamicon("MailPlusDuotone", __iconNode297);
+
+// src/icons/MailPlusFill.tsx
+var __iconNode298 = [
+  [
+    "path",
+    {
+      d: "M13.5 8V4.74439C13.5 4.00274 12.9577 3.37428 12.2208 3.29101C11.0676 3.16071 9.28381 3 7.5 3C5.71619 3 3.93238 3.16071 2.77924 3.29101C2.04228 3.37428 1.5 4.00274 1.5 4.74439V11.2556C1.5 11.9973 2.04228 12.6257 2.77924 12.709C3.93238 12.8393 5.71619 13 7.5 13C7.9745 13 8.44899 12.9886 8.91162 12.9695",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e5l3wd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.4116 11V14.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "myh463"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15.1616 12.75L11.6616 12.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "83fj8d"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.4068 3.375C11.8545 3.18843 9.18808 3 7.35996 3C5.66173 3 3.77423 3.16365 2.6093 3.29457C2.44067 3.31352 2.27667 3.36116 2.13373 3.45263C2.01304 3.52986 1.86767 3.6335 1.74661 3.74785C1.49227 3.9881 1.6527 4.33009 1.92349 4.55166L6.09384 7.96401C6.8304 8.5667 7.88965 8.56687 8.6264 7.96442L12.8095 4.54388C13.1579 4.25899 13.2181 3.87082 12.842 3.62361C12.6527 3.49915 12.4694 3.39613 12.4068 3.375Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dcwo1f"
+    }
+  ]
+];
+var MailPlusFill = createFoamicon("MailPlusFill", __iconNode298);
+
+// src/icons/MailPlus.tsx
+var __iconNode299 = [
+  [
+    "path",
+    {
+      d: "M2 4.5L6.55014 8.22284C7.10269 8.67493 7.89731 8.67493 8.44986 8.22284L13 4.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gxuf8t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.5 8V4.74439C13.5 4.00274 12.9577 3.37428 12.2208 3.29101C11.0676 3.16071 9.28381 3 7.5 3C5.71619 3 3.93238 3.16071 2.77924 3.29101C2.04228 3.37428 1.5 4.00274 1.5 4.74439V11.2556C1.5 11.9973 2.04228 12.6257 2.77924 12.709C3.93238 12.8393 5.71619 13 7.5 13C7.9745 13 8.44899 12.9886 8.91162 12.9695",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e5l3we"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.4116 11V14.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "myh462"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15.1616 12.75L11.6616 12.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "83fj8c"
+    }
+  ]
+];
+var MailPlus = createFoamicon("MailPlus", __iconNode299);
+
+// src/icons/Mail.tsx
+var __iconNode300 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.5L6.73353 7.96379C7.47026 8.56657 8.52974 8.56657 9.26648 7.96379L13.5 4.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nwwoju"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 4.74439C2 4.00274 2.54228 3.37428 3.27924 3.29101C4.43238 3.16071 6.21619 3 8 3C9.78381 3 11.5676 3.16071 12.7208 3.29101C13.4577 3.37428 14 4.00274 14 4.74439V11.2556C14 11.9973 13.4577 12.6257 12.7208 12.709C11.5676 12.8393 9.78381 13 8 13C6.21619 13 4.43238 12.8393 3.27924 12.709C2.54228 12.6257 2 11.9973 2 11.2556V4.74439Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wsa55e"
+    }
+  ]
+];
+var Mail = createFoamicon("Mail", __iconNode300);
+
+// src/icons/MapPinDuotone.tsx
+var __iconNode301 = [
+  [
+    "path",
+    {
+      d: "M8 9C9.10457 9 10 8.10457 10 7C10 5.89543 9.10457 5 8 5C6.89543 5 6 5.89543 6 7C6 8.10457 6.89543 9 8 9Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "9akvrd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6.90909C13 9.60241 10.5121 12.0243 9.0462 13.2176C8.42954 13.7196 7.57046 13.7196 6.9538 13.2176C5.4879 12.0243 3 9.60241 3 6.90909C3 5.60712 3.52678 4.35847 4.46447 3.43784C5.40215 2.51721 6.67392 2 8 2C9.32608 2 10.5979 2.51721 11.5355 3.43784C12.4732 4.35847 13 5.60712 13 6.90909Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y02ceq"
+    }
+  ]
+];
+var MapPinDuotone = createFoamicon("MapPinDuotone", __iconNode301);
+
+// src/icons/MapPinFill.tsx
+var __iconNode302 = [
+  [
+    "path",
+    {
+      d: "M13 6.90909C13 9.60241 10.5121 12.0243 9.0462 13.2176C8.42954 13.7196 7.57046 13.7196 6.9538 13.2176C5.4879 12.0243 3 9.60241 3 6.90909C3 5.60712 3.52678 4.35847 4.46447 3.43784C5.40215 2.51721 6.67392 2 8 2C9.32608 2 10.5979 2.51721 11.5355 3.43784C12.4732 4.35847 13 5.60712 13 6.90909Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y02cep"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 9C9.10457 9 10 8.10457 10 7C10 5.89543 9.10457 5 8 5C6.89543 5 6 5.89543 6 7C6 8.10457 6.89543 9 8 9Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mm0jyc"
+    }
+  ]
+];
+var MapPinFill = createFoamicon("MapPinFill", __iconNode302);
+
+// src/icons/MapPin.tsx
+var __iconNode303 = [
+  [
+    "path",
+    {
+      d: "M13 6.90909C13 9.60241 10.5121 12.0243 9.0462 13.2176C8.42954 13.7196 7.57046 13.7196 6.9538 13.2176C5.4879 12.0243 3 9.60241 3 6.90909C3 5.60712 3.52678 4.35847 4.46447 3.43784C5.40215 2.51721 6.67392 2 8 2C9.32608 2 10.5979 2.51721 11.5355 3.43784C12.4732 4.35847 13 5.60712 13 6.90909Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y02cep"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 9C9.10457 9 10 8.10457 10 7C10 5.89543 9.10457 5 8 5C6.89543 5 6 5.89543 6 7C6 8.10457 6.89543 9 8 9Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5ir0gt"
+    }
+  ]
+];
+var MapPin = createFoamicon("MapPin", __iconNode303);
+
+// src/icons/MaximizeDuotone.tsx
+var __iconNode304 = [
+  [
+    "path",
+    {
+      d: "M9.5 3.5H13V7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cmm6z5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 13H3.5V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e5fc58"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 3.5L9.5 7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e4by9p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.5 13L7 9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rg82fi"
+    }
+  ]
+];
+var MaximizeDuotone = createFoamicon("MaximizeDuotone", __iconNode304);
+
+// src/icons/MaximizeFill.tsx
+var __iconNode305 = [
+  [
+    "path",
+    {
+      d: "M9.5 3.5H13V7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cmm6z5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 13H3.5V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e5fc58"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 3.5L9.5 7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e4by9p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.5 13L7 9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rg82fi"
+    }
+  ]
+];
+var MaximizeFill = createFoamicon("MaximizeFill", __iconNode305);
+
+// src/icons/Maximize.tsx
+var __iconNode306 = [
+  [
+    "path",
+    {
+      d: "M9.5 3.5H13V7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cmm6z5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 13H3.5V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e5fc58"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 3.5L9.5 7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e4by9p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.5 13L7 9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rg82fi"
+    }
+  ]
+];
+var Maximize = createFoamicon("Maximize", __iconNode306);
+
+// src/icons/MegaphoneActiveDuotone.tsx
+var __iconNode307 = [
+  [
+    "path",
+    {
+      d: "M2.44745 12.4475C2.12567 12.1257 2.06173 11.6272 2.29186 11.2346L6.63315 3.8289C6.96429 3.26401 7.73996 3.1645 8.20296 3.62751L12.0759 7.50048C12.5389 7.96348 12.4394 8.73914 11.8745 9.07028L4.46881 13.4116C4.07623 13.6417 3.57776 13.5778 3.25598 13.256L2.44745 12.4475Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "jr5xu4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.53553 10.707L9.71231 10.8838C10.3957 11.5672 10.3957 12.6753 9.71231 13.3587L9.53553 13.5355C8.75449 14.3165 7.48816 14.3165 6.70711 13.5355L6 12.8284",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2ncx9p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.957 3.70703L12.957 2.70703",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w5srvs"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.7499 5.20711L14.1641 5.20711",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bhrho6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.4571 2.91414L10.4571 1.49992",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n20ls5"
+    }
+  ]
+];
+var MegaphoneActiveDuotone = createFoamicon("MegaphoneActiveDuotone", __iconNode307);
+
+// src/icons/MegaphoneActiveFill.tsx
+var __iconNode308 = [
+  [
+    "path",
+    {
+      d: "M2.44745 12.4475C2.12567 12.1257 2.06173 11.6272 2.29186 11.2346L6.63315 3.8289C6.96429 3.26401 7.73996 3.1645 8.20296 3.62751L12.0759 7.50048C12.5389 7.96348 12.4394 8.73914 11.8745 9.07028L4.46881 13.4116C4.07623 13.6417 3.57776 13.5778 3.25598 13.256L2.44745 12.4475Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xrhcdc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.53553 10.707L9.71231 10.8838C10.3957 11.5672 10.3957 12.6753 9.71231 13.3587L9.53553 13.5355C8.75449 14.3165 7.48816 14.3165 6.70711 13.5355L6 12.8284",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2ncx9p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.957 3.70703L12.957 2.70703",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w5srvs"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.7499 5.20711L14.1641 5.20711",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bhrho6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.4571 2.91414L10.4571 1.49992",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n20ls5"
+    }
+  ]
+];
+var MegaphoneActiveFill = createFoamicon("MegaphoneActiveFill", __iconNode308);
+
+// src/icons/MegaphoneActive.tsx
+var __iconNode309 = [
+  [
+    "path",
+    {
+      d: "M2.44745 12.4475C2.12567 12.1257 2.06173 11.6272 2.29186 11.2346L6.63315 3.8289C6.96429 3.26401 7.73996 3.1645 8.20296 3.62751L12.0759 7.50048C12.5389 7.96348 12.4394 8.73914 11.8745 9.07028L4.46881 13.4116C4.07623 13.6417 3.57776 13.5778 3.25598 13.256L2.44745 12.4475Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3godfr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.53553 10.707L9.71231 10.8838C10.3957 11.5672 10.3957 12.6753 9.71231 13.3587L9.53553 13.5355C8.75449 14.3165 7.48816 14.3165 6.70711 13.5355L6 12.8284",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2ncx9p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.957 3.70703L12.957 2.70703",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w5srvs"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.7499 5.20711L14.1641 5.20711",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bhrho6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.4571 2.91414L10.4571 1.49992",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n20ls5"
+    }
+  ]
+];
+var MegaphoneActive = createFoamicon("MegaphoneActive", __iconNode309);
+
+// src/icons/MegaphoneDuotone.tsx
+var __iconNode310 = [
+  [
+    "path",
+    {
+      d: "M2 6.7726C2 6.31753 2.30725 5.91985 2.74758 5.80498L12.2476 3.32672C12.8812 3.16144 13.5 3.63955 13.5 4.29434V10.7057C13.5 11.3605 12.8812 11.8386 12.2476 11.6733L2.74758 9.19502C2.30725 9.08015 2 8.68247 2 8.2274V6.7726Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "qjesma"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 11V11.25C9 12.2165 8.2165 13 7.25 13H7C5.89543 13 5 12.1046 5 11V10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pntarh"
+    }
+  ]
+];
+var MegaphoneDuotone = createFoamicon("MegaphoneDuotone", __iconNode310);
+
+// src/icons/MegaphoneFill.tsx
+var __iconNode311 = [
+  [
+    "path",
+    {
+      d: "M2 6.7726C2 6.31753 2.30725 5.91985 2.74758 5.80498L12.2476 3.32672C12.8812 3.16144 13.5 3.63955 13.5 4.29434V10.7057C13.5 11.3605 12.8812 11.8386 12.2476 11.6733L2.74758 9.19502C2.30725 9.08015 2 8.68247 2 8.2274V6.7726Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l5nqbu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 11V11.25C9 12.2165 8.2165 13 7.25 13H7C5.89543 13 5 12.1046 5 11V10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pntarh"
+    }
+  ]
+];
+var MegaphoneFill = createFoamicon("MegaphoneFill", __iconNode311);
+
+// src/icons/Megaphone.tsx
+var __iconNode312 = [
+  [
+    "path",
+    {
+      d: "M2 6.7726C2 6.31753 2.30725 5.91985 2.74758 5.80498L12.2476 3.32672C12.8812 3.16144 13.5 3.63955 13.5 4.29434V10.7057C13.5 11.3605 12.8812 11.8386 12.2476 11.6733L2.74758 9.19502C2.30725 9.08015 2 8.68247 2 8.2274V6.7726Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pbe93x"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 11V11.25C9 12.2165 8.2165 13 7.25 13H7C5.89543 13 5 12.1046 5 11V10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pntarh"
+    }
+  ]
+];
+var Megaphone = createFoamicon("Megaphone", __iconNode312);
+
+// src/icons/MenuDuotone.tsx
+var __iconNode313 = [
+  [
+    "path",
+    {
+      d: "M3 4H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a8rcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ypdit8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 12H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lfq8mg"
+    }
+  ]
+];
+var MenuDuotone = createFoamicon("MenuDuotone", __iconNode313);
+
+// src/icons/MenuFill.tsx
+var __iconNode314 = [
+  [
+    "path",
+    {
+      d: "M3 4H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a8rcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ypdit8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 12H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lfq8mg"
+    }
+  ]
+];
+var MenuFill = createFoamicon("MenuFill", __iconNode314);
+
+// src/icons/Menu.tsx
+var __iconNode315 = [
+  [
+    "path",
+    {
+      d: "M3 4H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a8rcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ypdit8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 12H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lfq8mg"
+    }
+  ]
+];
+var Menu = createFoamicon("Menu", __iconNode315);
+
+// src/icons/MessageSquareDuotone.tsx
+var __iconNode316 = [
+  [
+    "path",
+    {
+      d: "M2.79566 5.34648C2.79566 4.24191 3.69175 3.34886 4.79447 3.28506C5.71423 3.23184 6.59712 3.16333 8.23235 3.16333C9.96834 3.16333 10.9226 3.24054 12.0012 3.2947C13.1044 3.35009 14.0005 4.24191 14.0005 5.34648V9.60515C14.0005 10.7097 13.1051 11.6051 12.0005 11.6051H8.73895C8.42048 11.6051 8.12106 11.7568 7.93268 12.0136L6.36241 14.1539C6.24808 14.3097 6.00115 14.2289 6.00115 14.0356V11.8051C6.00115 11.6947 5.91161 11.6051 5.80115 11.6051H4.79566C3.69109 11.6051 2.79566 10.7097 2.79566 9.60515V5.34648Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "k4zi6i"
+    }
+  ]
+];
+var MessageSquareDuotone = createFoamicon("MessageSquareDuotone", __iconNode316);
+
+// src/icons/MessageSquareFill.tsx
+var __iconNode317 = [
+  [
+    "path",
+    {
+      d: "M2.79565 5.34648C2.79565 4.24191 3.69174 3.34886 4.79447 3.28506C5.71423 3.23184 6.59712 3.16333 8.23234 3.16333C9.96833 3.16333 10.9226 3.24054 12.0012 3.2947C13.1044 3.35009 14.0005 4.24191 14.0005 5.34648V9.60515C14.0005 10.7097 13.1051 11.6051 12.0005 11.6051H8.73894C8.42048 11.6051 8.12105 11.7568 7.93267 12.0136L6.3624 14.1539C6.24807 14.3097 6.00114 14.2289 6.00114 14.0356V11.8051C6.00114 11.6947 5.9116 11.6051 5.80114 11.6051H4.79565C3.69108 11.6051 2.79565 10.7097 2.79565 9.60515V5.34648Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5tomtv"
+    }
+  ]
+];
+var MessageSquareFill = createFoamicon("MessageSquareFill", __iconNode317);
+
+// src/icons/MessageSquare.tsx
+var __iconNode318 = [
+  [
+    "path",
+    {
+      d: "M2.79566 5.34648C2.79566 4.24191 3.69175 3.34886 4.79447 3.28506C5.71423 3.23184 6.59712 3.16333 8.23235 3.16333C9.96834 3.16333 10.9226 3.24054 12.0012 3.2947C13.1044 3.35009 14.0005 4.24191 14.0005 5.34648V9.60515C14.0005 10.7097 13.1051 11.6051 12.0005 11.6051H8.73895C8.42048 11.6051 8.12106 11.7568 7.93267 12.0136L6.36241 14.1539C6.24808 14.3097 6.00115 14.2289 6.00115 14.0356V11.8051C6.00115 11.6947 5.91161 11.6051 5.80115 11.6051H4.79566C3.69109 11.6051 2.79566 10.7097 2.79566 9.60515V5.34648Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lghidi"
+    }
+  ]
+];
+var MessageSquare = createFoamicon("MessageSquare", __iconNode318);
+
+// src/icons/MessagesSquareDuotone.tsx
+var __iconNode319 = [
+  [
+    "path",
+    {
+      d: "M6.9 9.5C6.9 9.5 6.8 9.5 6.7 9.5C6.7 9.5 5.1 11.9 5.1 11.5V9.5H3.5C2.7 9.4 2 8.8 2 8V3.7C2 2.5 3 2.3 3.5 2.2C4 2.1 4.9 2 6.7 2C8.5 2 9.2 2 10 2.2C10.8 2.4 11.4 2.60534 11.4 3.7V6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "duq8lp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.31142 11.942L10.7971 12C10.8551 12 10.913 12 10.942 12.087C10.942 12.087 12.1594 13.8841 12.2174 13.6812C12.3333 13.3043 12.7101 12.058 12.7101 12.058C12.7101 12.058 12.7101 12.029 12.7391 12.029L13.5217 11.942C14.1884 11.942 14.7101 11.4783 14.7101 10.8116V7.36232C14.7101 6.69565 14.1594 6.14493 13.4928 6.14493C13.4928 6.14493 12.3333 6 10.8551 6C9.37681 6 8.21739 6.14493 8.21739 6.14493C7.55072 6.14493 7 6.69565 7 7.36232V10.8116C7 11.4783 7.57971 11.942 8.24638 11.942L8.31142 11.942Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u8dcqo"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.31142 11.942L10.7971 12C10.8551 12 10.913 12 10.942 12.087C10.942 12.087 12.1594 13.8841 12.2174 13.6812C12.3333 13.3043 12.7101 12.058 12.7101 12.058C12.7101 12.058 12.7101 12.029 12.7391 12.029L13.5217 11.942C14.1884 11.942 14.7101 11.4783 14.7101 10.8116V7.36232C14.7101 6.69565 14.1594 6.14493 13.4928 6.14493C13.4928 6.14493 12.3333 6 10.8551 6C9.37681 6 8.21739 6.14493 8.21739 6.14493C7.55072 6.14493 7 6.69565 7 7.36232V10.8116C7 11.4783 7.57971 11.942 8.24638 11.942L8.31142 11.942Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "nwy67s"
+    }
+  ]
+];
+var MessagesSquareDuotone = createFoamicon("MessagesSquareDuotone", __iconNode319);
+
+// src/icons/MessagesSquareFill.tsx
+var __iconNode320 = [
+  [
+    "path",
+    {
+      d: "M6.9 9.5C6.9 9.5 6.8 9.5 6.7 9.5C6.7 9.5 5.1 11.9 5.1 11.5V9.5H3.5C2.7 9.4 2 8.8 2 8V3.7C2 2.5 3 2.3 3.5 2.2C4 2.1 4.9 2 6.7 2C8.5 2 9.2 2 10 2.2C10.8 2.4 11.4 2.60534 11.4 3.7V6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "duq8lp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.31142 11.942L10.7971 12C10.8551 12 10.913 12 10.942 12.087C10.942 12.087 12.1594 13.8841 12.2174 13.6812C12.3333 13.3043 12.7101 12.058 12.7101 12.058C12.7101 12.058 12.7101 12.029 12.7391 12.029L13.5217 11.942C14.1884 11.942 14.7101 11.4783 14.7101 10.8116V7.36232C14.7101 6.69565 14.1594 6.14493 13.4928 6.14493C13.4928 6.14493 12.3333 6 10.8551 6C9.37681 6 8.21739 6.14493 8.21739 6.14493C7.55072 6.14493 7 6.69565 7 7.36232V10.8116C7 11.4783 7.57971 11.942 8.24638 11.942L8.31142 11.942Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u8dcqo"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.31142 11.942L10.7971 12C10.8551 12 10.913 12 10.942 12.087C10.942 12.087 12.1594 13.8841 12.2174 13.6812C12.3333 13.3043 12.7101 12.058 12.7101 12.058C12.7101 12.058 12.7101 12.029 12.7391 12.029L13.5217 11.942C14.1884 11.942 14.7101 11.4783 14.7101 10.8116V7.36232C14.7101 6.69565 14.1594 6.14493 13.4928 6.14493C13.4928 6.14493 12.3333 6 10.8551 6C9.37681 6 8.21739 6.14493 8.21739 6.14493C7.55072 6.14493 7 6.69565 7 7.36232V10.8116C7 11.4783 7.57971 11.942 8.24638 11.942L8.31142 11.942Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xx2z8o"
+    }
+  ]
+];
+var MessagesSquareFill = createFoamicon("MessagesSquareFill", __iconNode320);
+
+// src/icons/MessagesSquare.tsx
+var __iconNode321 = [
+  [
+    "path",
+    {
+      d: "M6.9 9.5C6.9 9.5 6.8 9.5 6.7 9.5C6.7 9.5 5.1 11.9 5.1 11.5V9.5H3.5C2.7 9.4 2 8.8 2 8V3.7C2 2.5 3 2.3 3.5 2.2C4 2.1 4.9 2 6.7 2C8.5 2 9.2 2 10 2.2C10.8 2.4 11.4 2.60534 11.4 3.7V6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "duq8lp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.31142 11.942L10.7971 12C10.8551 12 10.913 12 10.942 12.087C10.942 12.087 12.1594 13.8841 12.2174 13.6812C12.3333 13.3043 12.7101 12.058 12.7101 12.058C12.7101 12.058 12.7101 12.029 12.7391 12.029L13.5217 11.942C14.1884 11.942 14.7101 11.4783 14.7101 10.8116V7.36232C14.7101 6.69565 14.1594 6.14493 13.4928 6.14493C13.4928 6.14493 12.3333 6 10.8551 6C9.37681 6 8.21739 6.14493 8.21739 6.14493C7.55072 6.14493 7 6.69565 7 7.36232V10.8116C7 11.4783 7.57971 11.942 8.24638 11.942L8.31142 11.942Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u8dcqo"
+    }
+  ]
+];
+var MessagesSquare = createFoamicon("MessagesSquare", __iconNode321);
+
+// src/icons/MinusDuotone.tsx
+var __iconNode322 = [
+  [
+    "path",
+    {
+      d: "M12.5 8L3.5 8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dmcuu4"
+    }
+  ]
+];
+var MinusDuotone = createFoamicon("MinusDuotone", __iconNode322);
+
+// src/icons/MinusFill.tsx
+var __iconNode323 = [
+  [
+    "path",
+    {
+      d: "M12.5 8L3.5 8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dmcuu4"
+    }
+  ]
+];
+var MinusFill = createFoamicon("MinusFill", __iconNode323);
+
+// src/icons/Minus.tsx
+var __iconNode324 = [
+  [
+    "path",
+    {
+      d: "M12.5 8L3.5 8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dmcuu4"
+    }
+  ]
+];
+var Minus = createFoamicon("Minus", __iconNode324);
+
+// src/icons/MoonDuotone.tsx
+var __iconNode325 = [
+  [
+    "path",
+    {
+      d: "M13 8C13 11.0376 10.5376 13.5 7.5 13.5C5.18834 13.5 3.5662 12.2471 2.54992 10.3809C2.47093 10.2358 4.73028 10.4917 6.67044 7.55378C8.46277 4.04302 6.50414 2.5 7.5 2.5C10.5376 2.5 13 4.96243 13 8Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "e637wn"
+    }
+  ]
+];
+var MoonDuotone = createFoamicon("MoonDuotone", __iconNode325);
+
+// src/icons/MoonFill.tsx
+var __iconNode326 = [
+  [
+    "path",
+    {
+      d: "M13 8C13 11.0376 10.5376 13.5 7.5 13.5C5.18833 13.5 3.56619 12.2471 2.54991 10.3809C2.47092 10.2358 4.73028 10.4917 6.67043 7.55378C8.46276 4.04302 6.50413 2.5 7.5 2.5C10.5376 2.5 13 4.96243 13 8Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ikwh5b"
+    }
+  ]
+];
+var MoonFill = createFoamicon("MoonFill", __iconNode326);
+
+// src/icons/Moon.tsx
+var __iconNode327 = [
+  [
+    "path",
+    {
+      d: "M13 8C13 11.0376 10.5376 13.5 7.5 13.5C5.18834 13.5 3.56619 12.2471 2.54992 10.3809C2.47093 10.2358 4.73028 10.4917 6.67044 7.55378C8.46277 4.04302 6.50413 2.5 7.5 2.5C10.5376 2.5 13 4.96243 13 8Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d8km2d"
+    }
+  ]
+];
+var Moon = createFoamicon("Moon", __iconNode327);
+
+// src/icons/MousePointerClickDuotone.tsx
+var __iconNode328 = [
+  [
+    "path",
+    {
+      d: "M6.98653 14.2836V6.17577V5.36499L14.0674 10.4459L9.59935 10.3624L6.98653 14.2836Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "k216kp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.36495 4.14866L4.14878 2.93248M6.98652 3.33787V1.71631M8.60808 4.14866L9.82426 2.93248M4.55417 5.77022H2.9326",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "72aaju"
+    }
+  ]
+];
+var MousePointerClickDuotone = createFoamicon("MousePointerClickDuotone", __iconNode328);
+
+// src/icons/MousePointerClickFill.tsx
+var __iconNode329 = [
+  [
+    "path",
+    {
+      d: "M6.98653 14.2836V6.17577V5.36499L14.0674 10.4459L9.59935 10.3624L6.98653 14.2836Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinejoin: "round",
+      key: "rcabt3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.36495 4.14866L4.14878 2.93248M6.98652 3.33787V1.71631M8.60808 4.14866L9.82426 2.93248M4.55417 5.77022H2.9326",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "72aaju"
+    }
+  ]
+];
+var MousePointerClickFill = createFoamicon("MousePointerClickFill", __iconNode329);
+
+// src/icons/MousePointerClick.tsx
+var __iconNode330 = [
+  [
+    "path",
+    {
+      d: "M6.98653 14.2836V6.17577V5.36499L14.0674 10.4459L9.59935 10.3624L6.98653 14.2836Z",
+      stroke: "currentColor",
+      strokeLinejoin: "round",
+      key: "76c6jy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.36495 4.14866L4.14878 2.93248M6.98652 3.33787V1.71631M8.60808 4.14866L9.82426 2.93248M4.55417 5.77022H2.9326",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "72aaju"
+    }
+  ]
+];
+var MousePointerClick = createFoamicon("MousePointerClick", __iconNode330);
+
+// src/icons/MoveDuotone.tsx
+var __iconNode331 = [
+  [
+    "path",
+    {
+      d: "M6 3.66667L7.31311 2.35355C7.50838 2.15829 7.82496 2.15829 8.02022 2.35355L9.33333 3.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dyc08o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.33334 12.0001L8.02022 13.3132C7.82496 13.5085 7.50838 13.5085 7.31312 13.3132L6 12.0001",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "zgl1r5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.66666 2.66675V13.0001",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sb1cka"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.6667 6L13.1464 7.47978C13.3417 7.67504 13.3417 7.99162 13.1464 8.18689L11.6667 9.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "am9a89"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.66667 9.66675L2.18689 8.18697C1.99163 7.99171 1.99163 7.67512 2.18689 7.47986L3.66667 6.00008",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "j4f6kq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8333 7.83325L2.5 7.83325",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "arzou2"
+    }
+  ]
+];
+var MoveDuotone = createFoamicon("MoveDuotone", __iconNode331);
+
+// src/icons/MoveFill.tsx
+var __iconNode332 = [
+  [
+    "path",
+    {
+      d: "M6 3.66667L7.31311 2.35355C7.50838 2.15829 7.82496 2.15829 8.02022 2.35355L9.33333 3.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dyc08o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.33333 12.0001L8.02022 13.3132C7.82495 13.5085 7.50837 13.5085 7.31311 13.3132L6 12.0001",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "je7ivv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.66667 2.66675V13.0001",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tc4kw5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.6667 6L13.1464 7.47978C13.3417 7.67504 13.3417 7.99162 13.1464 8.18689L11.6667 9.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "am9a89"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.66666 9.66675L2.18688 8.18697C1.99162 7.99171 1.99162 7.67512 2.18688 7.47986L3.66666 6.00008",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "brdkr4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8333 7.83325L2.5 7.83325",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "arzou2"
+    }
+  ]
+];
+var MoveFill = createFoamicon("MoveFill", __iconNode332);
+
+// src/icons/Move.tsx
+var __iconNode333 = [
+  [
+    "path",
+    {
+      d: "M6 3.66667L7.31311 2.35355C7.50838 2.15829 7.82496 2.15829 8.02022 2.35355L9.33333 3.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dyc08o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.33333 12.0001L8.02022 13.3132C7.82496 13.5085 7.50838 13.5085 7.31311 13.3132L6 12.0001",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kbyysd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.66667 2.66675V13.0001",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tc4kw5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.6667 6L13.1464 7.47978C13.3417 7.67504 13.3417 7.99162 13.1464 8.18689L11.6667 9.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "am9a89"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.66667 9.66675L2.18689 8.18697C1.99162 7.99171 1.99162 7.67512 2.18689 7.47986L3.66667 6.00008",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "napv78"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8333 7.83325L2.5 7.83325",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "arzou2"
+    }
+  ]
+];
+var Move = createFoamicon("Move", __iconNode333);
+
+// src/icons/NotebookDuotone.tsx
+var __iconNode334 = [
+  [
+    "path",
+    {
+      d: "M4 13C3.44772 13 3 12.5523 3 12V4C3 3.44772 3.44772 3 4 3H10C10.5523 3 11 3.44772 11 4V4.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ny6t4c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 6H4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "ebmp5b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 7H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "hhwm11"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8H4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "8m0xbp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 10H4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "2gbrjd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 14.5L13.5 4V13.5C13.5 14.0523 13.0523 14.5 12.5 14.5H5Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "s6yuot"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5 9.5L9.5 12.5H11.5V9.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lx6kja"
+    }
+  ]
+];
+var NotebookDuotone = createFoamicon("NotebookDuotone", __iconNode334);
+
+// src/icons/NotebookFill.tsx
+var __iconNode335 = [
+  [
+    "path",
+    {
+      d: "M4 13C3.44772 13 3 12.5523 3 12V4C3 3.44772 3.44772 3 4 3H10C10.5523 3 11 3.44772 11 4V4.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ny6t4c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 6H4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "ebmp5b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 7H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "hhwm11"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8H4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "8m0xbp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 10H4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "2gbrjd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.26378 14.1742L13.1446 4.43908C13.2631 4.29259 13.5 4.37645 13.5 4.56492V14.3C13.5 14.4105 13.4105 14.5 13.3 14.5H5.41922C5.25098 14.5 5.15792 14.3049 5.26378 14.1742Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "6xs2u3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5 9.5L9.5 12.5H11.5V9.5Z",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nk3bh1"
+    }
+  ]
+];
+var NotebookFill = createFoamicon("NotebookFill", __iconNode335);
+
+// src/icons/Notebook.tsx
+var __iconNode336 = [
+  [
+    "path",
+    {
+      d: "M4 13C3.44772 13 3 12.5523 3 12V4C3 3.44772 3.44772 3 4 3H10C10.5523 3 11 3.44772 11 4V4.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ny6t4c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 6H4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "ebmp5b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 7H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "hhwm11"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8H4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "8m0xbp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 10H4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "2gbrjd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 14.5L13.5 4V13.5C13.5 14.0523 13.0523 14.5 12.5 14.5H5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ks46vi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5 9.5L9.5 12.5H11.5V9.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lx6kja"
+    }
+  ]
+];
+var Notebook = createFoamicon("Notebook", __iconNode336);
+
+// src/icons/OfficeDuotone.tsx
+var __iconNode337 = [
+  [
+    "path",
+    {
+      d: "M3 1.2C3 1.08954 3.08954 1 3.2 1H12.8C12.9105 1 13 1.08954 13 1.2V14.8C13 14.9105 12.9105 15 12.8 15H3.2C3.08954 15 3 14.9105 3 14.8V1.2Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "3r20cv"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 10.5 3.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "liwaqq"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 10.5 6.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n9i1lu"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 10.5 9.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2z7o0q"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 6.5 3.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kcywio"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 6.5 6.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "offftw"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 6.5 9.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1ta9so"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "7.5",
+      y: "11.5",
+      width: "1",
+      height: "3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4aopxe"
+    }
+  ]
+];
+var OfficeDuotone = createFoamicon("OfficeDuotone", __iconNode337);
+
+// src/icons/OfficeFill.tsx
+var __iconNode338 = [
+  [
+    "path",
+    {
+      d: "M3 1.2C3 1.08954 3.08954 1 3.2 1H12.8C12.9105 1 13 1.08954 13 1.2V14.8C13 14.9105 12.9105 15 12.8 15H3.2C3.08954 15 3 14.9105 3 14.8V1.2Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      key: "eiaw6b"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 10.5 3.5)",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "thwkpj"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 10.5 6.5)",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rdyg97"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 10.5 9.5)",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d8pf8t"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 6.5 3.5)",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mmnb9"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 6.5 6.5)",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dimdp5"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 6.5 9.5)",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rnvepj"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "7.5",
+      y: "11.5",
+      width: "1",
+      height: "2.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "34cvgb"
+    }
+  ]
+];
+var OfficeFill = createFoamicon("OfficeFill", __iconNode338);
+
+// src/icons/Office.tsx
+var __iconNode339 = [
+  [
+    "path",
+    {
+      d: "M3 1.2C3 1.08954 3.08954 1 3.2 1H12.8C12.9105 1 13 1.08954 13 1.2V14.8C13 14.9105 12.9105 15 12.8 15H3.2C3.08954 15 3 14.9105 3 14.8V1.2Z",
+      stroke: "currentColor",
+      key: "wr6ezo"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 10.5 3.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "liwaqq"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 10.5 6.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n9i1lu"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 10.5 9.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "2z7o0q"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 6.5 3.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kcywio"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 6.5 6.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "offftw"
+    }
+  ],
+  [
+    "ellipse",
+    {
+      cx: "0.5",
+      cy: "-0.5",
+      rx: "0.5",
+      ry: "-0.5",
+      transform: "matrix(-4.37114e-08 1 1 4.37114e-08 6.5 9.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1ta9so"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "7.5",
+      y: "11.5",
+      width: "1",
+      height: "3",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4aopxe"
+    }
+  ]
+];
+var Office = createFoamicon("Office", __iconNode339);
+
+// src/icons/PanelLeftDuotone.tsx
+var __iconNode340 = [
+  [
+    "path",
+    {
+      d: "M3.26818 4.23755C3.36204 3.51872 3.98148 3 4.70641 3H11.2936C12.0185 3 12.638 3.51872 12.7318 4.23755C12.8573 5.19855 13 6.59928 13 8C13 9.40072 12.8573 10.8014 12.7318 11.7624C12.638 12.4813 12.0185 13 11.2936 13H4.70641C3.98148 13 3.36204 12.4813 3.26818 11.7625C3.14269 10.8014 3 9.40072 3 8C3 6.59928 3.14269 5.19855 3.26818 4.23755Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kph3d9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 3V13",
+      stroke: "currentColor",
+      key: "a843a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.26818 11.7625C3.14269 10.8014 3 9.40072 3 8C3 6.59928 3.14269 5.19855 3.26818 4.23755C3.36204 3.51872 3.98148 3 4.70641 3H6H6.01562V13H6H4.70641C3.98148 13 3.36204 12.4813 3.26818 11.7625Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "rq3lzt"
+    }
+  ]
+];
+var PanelLeftDuotone = createFoamicon("PanelLeftDuotone", __iconNode340);
+
+// src/icons/PanelLeftFill.tsx
+var __iconNode341 = [
+  [
+    "path",
+    {
+      d: "M3.26818 4.23755C3.36204 3.51872 3.98148 3 4.70641 3H11.2936C12.0185 3 12.638 3.51872 12.7318 4.23755C12.8573 5.19855 13 6.59928 13 8C13 9.40072 12.8573 10.8014 12.7318 11.7624C12.638 12.4813 12.0185 13 11.2936 13H4.70641C3.98148 13 3.36204 12.4813 3.26818 11.7625C3.14269 10.8014 3 9.40072 3 8C3 6.59928 3.14269 5.19855 3.26818 4.23755Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kph3d9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 3V13",
+      stroke: "currentColor",
+      key: "a843a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.26818 11.7625C3.14269 10.8014 3 9.40072 3 8C3 6.59928 3.14269 5.19855 3.26818 4.23755C3.36204 3.51872 3.98148 3 4.70641 3H6H6.01562V13H6H4.70641C3.98148 13 3.36204 12.4813 3.26818 11.7625Z",
+      fill: "currentColor",
+      key: "x9r9zj"
+    }
+  ]
+];
+var PanelLeftFill = createFoamicon("PanelLeftFill", __iconNode341);
+
+// src/icons/PanelLeft.tsx
+var __iconNode342 = [
+  [
+    "path",
+    {
+      d: "M3.26818 4.23755C3.36204 3.51872 3.98148 3 4.70641 3H11.2936C12.0185 3 12.638 3.51872 12.7318 4.23755C12.8573 5.19855 13 6.59928 13 8C13 9.40072 12.8573 10.8014 12.7318 11.7624C12.638 12.4813 12.0185 13 11.2936 13H4.70641C3.98148 13 3.36204 12.4813 3.26818 11.7625C3.14269 10.8014 3 9.40072 3 8C3 6.59928 3.14269 5.19855 3.26818 4.23755Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kph3d9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 3V13",
+      stroke: "currentColor",
+      key: "a843a"
+    }
+  ]
+];
+var PanelLeft = createFoamicon("PanelLeft", __iconNode342);
+
+// src/icons/PanelRightDuotone.tsx
+var __iconNode343 = [
+  [
+    "path",
+    {
+      d: "M3.26818 4.23755C3.36204 3.51872 3.98148 3 4.70641 3H11.2936C12.0185 3 12.638 3.51872 12.7318 4.23755C12.8573 5.19855 13 6.59928 13 8C13 9.40072 12.8573 10.8014 12.7318 11.7624C12.638 12.4813 12.0185 13 11.2936 13H4.70641C3.98148 13 3.36204 12.4813 3.26818 11.7625C3.14269 10.8014 3 9.40072 3 8C3 6.59928 3.14269 5.19855 3.26818 4.23755Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kph3d9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.7318 4.23755C12.8573 5.19855 13 6.59928 13 8C13 9.40072 12.8573 10.8014 12.7318 11.7625C12.638 12.4813 12.0185 13 11.2936 13L10 13L9.98438 13L9.98438 3L10 3L11.2936 3C12.0185 3 12.638 3.51872 12.7318 4.23755Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "l5kq6x"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 3V13",
+      stroke: "currentColor",
+      key: "b3dp76"
+    }
+  ]
+];
+var PanelRightDuotone = createFoamicon("PanelRightDuotone", __iconNode343);
+
+// src/icons/PanelRightFill.tsx
+var __iconNode344 = [
+  [
+    "path",
+    {
+      d: "M3.26818 4.23755C3.36204 3.51872 3.98148 3 4.70641 3H11.2936C12.0185 3 12.638 3.51872 12.7318 4.23755C12.8573 5.19855 13 6.59928 13 8C13 9.40072 12.8573 10.8014 12.7318 11.7624C12.638 12.4813 12.0185 13 11.2936 13H4.70641C3.98148 13 3.36204 12.4813 3.26818 11.7625C3.14269 10.8014 3 9.40072 3 8C3 6.59928 3.14269 5.19855 3.26818 4.23755Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kph3d9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.7318 4.23755C12.8573 5.19855 13 6.59928 13 8C13 9.40072 12.8573 10.8014 12.7318 11.7625C12.638 12.4813 12.0185 13 11.2936 13L10 13L9.98438 13L9.98438 3L10 3L11.2936 3C12.0185 3 12.638 3.51872 12.7318 4.23755Z",
+      fill: "currentColor",
+      key: "yid73z"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 3V13",
+      stroke: "currentColor",
+      key: "b3dp76"
+    }
+  ]
+];
+var PanelRightFill = createFoamicon("PanelRightFill", __iconNode344);
+
+// src/icons/PanelRight.tsx
+var __iconNode345 = [
+  [
+    "path",
+    {
+      d: "M3.26818 4.23755C3.36204 3.51872 3.98148 3 4.70641 3H11.2936C12.0185 3 12.638 3.51872 12.7318 4.23755C12.8573 5.19855 13 6.59928 13 8C13 9.40072 12.8573 10.8014 12.7318 11.7624C12.638 12.4813 12.0185 13 11.2936 13H4.70641C3.98148 13 3.36204 12.4813 3.26818 11.7625C3.14269 10.8014 3 9.40072 3 8C3 6.59928 3.14269 5.19855 3.26818 4.23755Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kph3d9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 3V13",
+      stroke: "currentColor",
+      key: "b3dp75"
+    }
+  ]
+];
+var PanelRight = createFoamicon("PanelRight", __iconNode345);
+
+// src/icons/PencilDuotone.tsx
+var __iconNode346 = [
+  [
+    "path",
+    {
+      d: "M2 13H5.5M12.0707 3.07071L13.4293 4.42929C13.4683 4.46834 13.4683 4.53166 13.4293 4.57071L7.02929 10.9707C7.01054 10.9895 6.9851 11 6.95858 11H5.6C5.54477 11 5.5 10.9552 5.5 10.9V9.54142C5.5 9.5149 5.51054 9.48946 5.52929 9.47071L11.9293 3.07071C11.9683 3.03166 12.0317 3.03166 12.0707 3.07071Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7i408v"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 10.9V9.54142C5.5 9.5149 5.51054 9.48946 5.52929 9.47071L10.1793 4.82071C10.2183 4.78166 10.2817 4.78166 10.3207 4.82071L11.6793 6.17929C11.7183 6.21834 11.7183 6.28166 11.6793 6.32071L7.02929 10.9707C7.01054 10.9895 6.9851 11 6.95858 11H5.6C5.54477 11 5.5 10.9552 5.5 10.9Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "ar1km9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 5L11.5 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u77486"
+    }
+  ]
+];
+var PencilDuotone = createFoamicon("PencilDuotone", __iconNode346);
+
+// src/icons/PencilFill.tsx
+var __iconNode347 = [
+  [
+    "path",
+    {
+      d: "M2 13H5.5M12.0707 3.07071L13.4293 4.42929C13.4683 4.46834 13.4683 4.53166 13.4293 4.57071L7.02929 10.9707C7.01054 10.9895 6.9851 11 6.95858 11H5.6C5.54477 11 5.5 10.9552 5.5 10.9V9.54142C5.5 9.5149 5.51054 9.48946 5.52929 9.47071L11.9293 3.07071C11.9683 3.03166 12.0317 3.03166 12.0707 3.07071Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7i408v"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 10.9V9.54142C5.5 9.5149 5.51054 9.48946 5.52929 9.47071L10.1793 4.82071C10.2183 4.78166 10.2817 4.78166 10.3207 4.82071L11.6793 6.17929C11.7183 6.21834 11.7183 6.28166 11.6793 6.32071L7.02929 10.9707C7.01054 10.9895 6.9851 11 6.95858 11H5.6C5.54477 11 5.5 10.9552 5.5 10.9Z",
+      fill: "currentColor",
+      key: "wuh5pz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 5L11.5 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u77486"
+    }
+  ]
+];
+var PencilFill = createFoamicon("PencilFill", __iconNode347);
+
+// src/icons/Pencil.tsx
+var __iconNode348 = [
+  [
+    "path",
+    {
+      d: "M2 13H5.5M12.0707 3.07071L13.4293 4.42929C13.4683 4.46834 13.4683 4.53166 13.4293 4.57071L7.02929 10.9707C7.01054 10.9895 6.9851 11 6.95858 11H5.6C5.54477 11 5.5 10.9552 5.5 10.9V9.54142C5.5 9.5149 5.51054 9.48946 5.52929 9.47071L11.9293 3.07071C11.9683 3.03166 12.0317 3.03166 12.0707 3.07071Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7i408v"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 5L11.5 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u77485"
+    }
+  ]
+];
+var Pencil = createFoamicon("Pencil", __iconNode348);
+
+// src/icons/PinDuotone.tsx
+var __iconNode349 = [
+  [
+    "path",
+    {
+      d: "M5.10663 11L3.12133 12.9853",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "832tbe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8.15674L5.88804 7.72834C6.14434 7.69032 6.34438 7.48699 6.37821 7.23009C6.48199 6.44205 6.74655 5.68372 7.1555 5.00215L7.9979 3.59814C8.33262 3.04028 9.10248 2.94551 9.5625 3.40553L12.701 6.54399C13.161 7.00401 13.0662 7.77387 12.5083 8.10859L11.1043 8.95099C10.4228 9.35994 9.66444 9.6245 8.87639 9.72827C8.6195 9.7621 8.41617 9.96214 8.37815 10.2185L7.94975 13.1065L3 8.15674Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "t2h27q"
+    }
+  ]
+];
+var PinDuotone = createFoamicon("PinDuotone", __iconNode349);
+
+// src/icons/PinFill.tsx
+var __iconNode350 = [
+  [
+    "path",
+    {
+      d: "M5.10663 11L3.12133 12.9853",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "832tbe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8.15674L5.88804 7.72834C6.14434 7.69032 6.34438 7.48699 6.37821 7.23009C6.48199 6.44205 6.74655 5.68372 7.1555 5.00215L7.9979 3.59814C8.33262 3.04028 9.10248 2.94551 9.5625 3.40553L12.701 6.54399C13.161 7.00401 13.0662 7.77387 12.5083 8.10859L11.1043 8.95099C10.4228 9.35994 9.66444 9.6245 8.87639 9.72827C8.6195 9.7621 8.41617 9.96214 8.37815 10.2185L7.94975 13.1065L3 8.15674Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "97z5qw"
+    }
+  ]
+];
+var PinFill = createFoamicon("PinFill", __iconNode350);
+
+// src/icons/Pin.tsx
+var __iconNode351 = [
+  [
+    "path",
+    {
+      d: "M5.10663 11L3.12133 12.9853",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "832tbe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8.15674L5.88804 7.72834C6.14434 7.69032 6.34438 7.48699 6.37821 7.23009C6.48199 6.44205 6.74655 5.68372 7.1555 5.00215L7.9979 3.59814C8.33262 3.04028 9.10248 2.94551 9.5625 3.40553L12.701 6.54399C13.161 7.00401 13.0662 7.77387 12.5083 8.10859L11.1043 8.95099C10.4228 9.35994 9.66444 9.6245 8.87639 9.72827C8.6195 9.7621 8.41617 9.96214 8.37815 10.2185L7.94975 13.1065L3 8.15674Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bvr0un"
+    }
+  ]
+];
+var Pin = createFoamicon("Pin", __iconNode351);
+
+// src/icons/PlayDuotone.tsx
+var __iconNode352 = [
+  [
+    "path",
+    {
+      d: "M5.19615 4.73205C5.19615 3.96225 6.02949 3.48113 6.69615 3.86603L12.6962 7.33013C13.3628 7.71503 13.3628 8.67728 12.6962 9.06218L6.69615 12.5263C6.02949 12.9112 5.19615 12.4301 5.19615 11.6603L5.19615 4.73205Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "jiiarj"
+    }
+  ]
+];
+var PlayDuotone = createFoamicon("PlayDuotone", __iconNode352);
+
+// src/icons/PlayFill.tsx
+var __iconNode353 = [
+  [
+    "path",
+    {
+      d: "M5.19615 4.73205C5.19615 3.96225 6.02949 3.48113 6.69615 3.86603L12.6962 7.33013C13.3628 7.71503 13.3628 8.67728 12.6962 9.06218L6.69615 12.5263C6.02949 12.9112 5.19615 12.4301 5.19615 11.6603L5.19615 4.73205Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "h72nkb"
+    }
+  ]
+];
+var PlayFill = createFoamicon("PlayFill", __iconNode353);
+
+// src/icons/Play.tsx
+var __iconNode354 = [
+  [
+    "path",
+    {
+      d: "M5.19615 4.73205C5.19615 3.96225 6.02949 3.48113 6.69615 3.86603L12.6962 7.33013C13.3628 7.71503 13.3628 8.67728 12.6962 9.06218L6.69615 12.5263C6.02949 12.9112 5.19615 12.4301 5.19615 11.6603L5.19615 4.73205Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tkec64"
+    }
+  ]
+];
+var Play = createFoamicon("Play", __iconNode354);
+
+// src/icons/PlusDuotone.tsx
+var __iconNode355 = [
+  [
+    "path",
+    {
+      d: "M8 3.5V12.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mevwwa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 8L3.5 8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dmcuu5"
+    }
+  ]
+];
+var PlusDuotone = createFoamicon("PlusDuotone", __iconNode355);
+
+// src/icons/PlusFill.tsx
+var __iconNode356 = [
+  [
+    "path",
+    {
+      d: "M8 3.5V12.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mevwwa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 8L3.5 8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dmcuu5"
+    }
+  ]
+];
+var PlusFill = createFoamicon("PlusFill", __iconNode356);
+
+// src/icons/Plus.tsx
+var __iconNode357 = [
+  [
+    "path",
+    {
+      d: "M8 3.5V12.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mevwwa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 8L3.5 8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dmcuu5"
+    }
+  ]
+];
+var Plus = createFoamicon("Plus", __iconNode357);
+
+// src/icons/PointerDuotone.tsx
+var __iconNode358 = [
+  [
+    "path",
+    {
+      d: "M12.3118 8.30851C12.3703 8.5269 12.3922 8.78628 12.3901 9.02353C12.388 9.26098 12.3619 9.51712 12.3018 9.73164L12.298 9.74379L12.2969 9.74712C12.2961 9.74985 12.2947 9.75389 12.2931 9.75927C12.2897 9.77059 12.2847 9.78784 12.2783 9.80974C12.2653 9.8539 12.2464 9.91865 12.2243 9.99707C12.1801 10.1543 12.1229 10.3674 12.0695 10.5926C12.0156 10.8196 11.9675 11.0507 11.9403 11.246C11.9266 11.3436 11.9197 11.4247 11.918 11.4875C11.9169 11.532 11.9185 11.5558 11.9193 11.564C12.0745 12.144 11.7298 12.74 11.1498 12.8954L8.18976 13.6886C7.6247 13.8399 7.04563 13.5169 6.87234 12.9638C6.86885 12.9595 6.8641 12.953 6.85734 12.9456C6.82489 12.9104 6.77077 12.8622 6.69267 12.8027C6.53668 12.684 6.32723 12.5533 6.1072 12.4288C5.88992 12.3058 5.67462 12.1952 5.51255 12.115C5.43191 12.0751 5.36492 12.0433 5.31863 12.0213C5.29551 12.0104 5.27736 12.0018 5.26538 11.9962C5.25939 11.9934 5.25441 11.9911 5.25153 11.9898C5.25043 11.9893 5.2497 11.9887 5.24914 11.9884L5.2482 11.9887L5.23769 11.9834C4.86668 11.8026 4.40105 11.4101 4.16079 11.081L2.94528 9.41598C2.82957 9.25738 2.7794 9.06603 2.78888 8.87757C2.75411 8.70986 2.80431 8.52867 2.94035 8.40528L3.05585 8.30053L3.13774 8.24017C3.1573 8.22859 3.17826 8.22033 3.19885 8.21166C3.71909 7.88983 4.38174 7.84854 4.93768 8.0905L3.91782 4.28433C3.76011 3.69573 4.10634 3.08936 4.69951 2.93042C5.27581 2.77618 5.88709 3.09754 6.08049 3.67351L6.58598 5.17893C6.61718 5.16721 6.64927 5.15692 6.68188 5.14818C7.07211 5.04367 7.47521 5.09659 7.81037 5.27346C7.93119 5.16129 8.08059 5.07771 8.24646 5.03327C8.63672 4.92874 9.03978 4.98166 9.37496 5.15855C9.49578 5.04635 9.64491 4.96186 9.81079 4.91741C10.6059 4.70442 11.446 5.14243 11.6769 5.93897L12.3118 8.30851Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "78jbk1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5 3C12.1667 3 13.5 3.4 13.5 5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "wdacrq"
+    }
+  ]
+];
+var PointerDuotone = createFoamicon("PointerDuotone", __iconNode358);
+
+// src/icons/PointerFill.tsx
+var __iconNode359 = [
+  [
+    "path",
+    {
+      d: "M12.3118 8.30851C12.3703 8.5269 12.3922 8.78628 12.3901 9.02353C12.388 9.26098 12.3619 9.51712 12.3018 9.73164L12.298 9.74379L12.2969 9.74712C12.2961 9.74985 12.2947 9.75389 12.2931 9.75927C12.2897 9.77059 12.2847 9.78784 12.2783 9.80974C12.2653 9.8539 12.2464 9.91865 12.2243 9.99707C12.1801 10.1543 12.1229 10.3674 12.0695 10.5926C12.0156 10.8196 11.9675 11.0507 11.9403 11.246C11.9266 11.3436 11.9197 11.4247 11.918 11.4875C11.9169 11.532 11.9185 11.5558 11.9193 11.564C12.0745 12.144 11.7298 12.74 11.1498 12.8954L8.18976 13.6886C7.6247 13.8399 7.04563 13.5169 6.87234 12.9638C6.86885 12.9595 6.8641 12.953 6.85734 12.9456C6.82489 12.9104 6.77077 12.8622 6.69267 12.8027C6.53668 12.684 6.32723 12.5533 6.1072 12.4288C5.88992 12.3058 5.67462 12.1952 5.51255 12.115C5.43191 12.0751 5.36492 12.0433 5.31863 12.0213C5.29551 12.0104 5.27736 12.0018 5.26538 11.9962C5.25939 11.9934 5.25441 11.9911 5.25153 11.9898C5.25043 11.9893 5.2497 11.9887 5.24914 11.9884L5.2482 11.9887L5.23769 11.9834C4.86668 11.8026 4.40105 11.4101 4.16079 11.081L2.94528 9.41598C2.82957 9.25738 2.7794 9.06603 2.78888 8.87757C2.75411 8.70986 2.80431 8.52867 2.94035 8.40528L3.05585 8.30053L3.13774 8.24017C3.1573 8.22859 3.17826 8.22033 3.19885 8.21166C3.71909 7.88983 4.38174 7.84854 4.93768 8.0905L3.91782 4.28433C3.76011 3.69573 4.10634 3.08936 4.69951 2.93042C5.27581 2.77618 5.88709 3.09754 6.08049 3.67351L6.58598 5.17893C6.61718 5.16721 6.64927 5.15692 6.68188 5.14818C7.07211 5.04367 7.47521 5.09659 7.81037 5.27346C7.93119 5.16129 8.08059 5.07771 8.24646 5.03327C8.63672 4.92874 9.03978 4.98166 9.37496 5.15855C9.49578 5.04635 9.64491 4.96186 9.81079 4.91741C10.6059 4.70442 11.446 5.14243 11.6769 5.93897L12.3118 8.30851Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3hvixm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5 3C12.1667 3 13.5 3.4 13.5 5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "wdacrq"
+    }
+  ]
+];
+var PointerFill = createFoamicon("PointerFill", __iconNode359);
+
+// src/icons/Pointer.tsx
+var __iconNode360 = [
+  [
+    "path",
+    {
+      d: "M12.3118 8.30851C12.3703 8.5269 12.3922 8.78628 12.3901 9.02353C12.388 9.26098 12.3619 9.51712 12.3018 9.73164L12.298 9.74379L12.2969 9.74712C12.2961 9.74985 12.2947 9.75389 12.2931 9.75927C12.2897 9.77059 12.2847 9.78784 12.2783 9.80974C12.2653 9.8539 12.2464 9.91865 12.2243 9.99707C12.1801 10.1543 12.1229 10.3674 12.0695 10.5926C12.0156 10.8196 11.9675 11.0507 11.9403 11.246C11.9266 11.3436 11.9197 11.4247 11.918 11.4875C11.9169 11.532 11.9185 11.5558 11.9193 11.564C12.0745 12.144 11.7298 12.74 11.1498 12.8954L8.18976 13.6886C7.6247 13.8399 7.04563 13.5169 6.87234 12.9638C6.86885 12.9595 6.8641 12.953 6.85734 12.9456C6.82489 12.9104 6.77077 12.8622 6.69267 12.8027C6.53668 12.684 6.32723 12.5533 6.1072 12.4288C5.88992 12.3058 5.67462 12.1952 5.51255 12.115C5.43191 12.0751 5.36492 12.0433 5.31863 12.0213C5.29551 12.0104 5.27736 12.0018 5.26538 11.9962C5.25939 11.9934 5.25441 11.9911 5.25153 11.9898C5.25043 11.9893 5.2497 11.9887 5.24914 11.9884L5.2482 11.9887L5.23769 11.9834C4.86668 11.8026 4.40105 11.4101 4.16079 11.081L2.94528 9.41598C2.82957 9.25738 2.7794 9.06603 2.78888 8.87757C2.75411 8.70986 2.80431 8.52867 2.94035 8.40528L3.05585 8.30053L3.13774 8.24017C3.1573 8.22859 3.17826 8.22033 3.19885 8.21166C3.71909 7.88983 4.38174 7.84854 4.93768 8.0905L3.91782 4.28433C3.76011 3.69573 4.10634 3.08936 4.69951 2.93042C5.27581 2.77618 5.88709 3.09754 6.08049 3.67351L6.58598 5.17893C6.61718 5.16721 6.64927 5.15692 6.68188 5.14818C7.07211 5.04367 7.47521 5.09659 7.81037 5.27346C7.93119 5.16129 8.08059 5.07771 8.24646 5.03327C8.63672 4.92874 9.03978 4.98166 9.37496 5.15855C9.49578 5.04635 9.64491 4.96186 9.81079 4.91741C10.6059 4.70442 11.446 5.14243 11.6769 5.93897L12.3118 8.30851Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3hvixm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5 3C12.1667 3 13.5 3.4 13.5 5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "wdacrq"
+    }
+  ]
+];
+var Pointer = createFoamicon("Pointer", __iconNode360);
+
+// src/icons/QuotationMarkLeftDuotone.tsx
+var __iconNode361 = [
+  [
+    "circle",
+    {
+      cx: "4.5",
+      cy: "9.5",
+      r: "2.5",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "bi9z4i"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "11.5",
+      cy: "9.5",
+      r: "2.5",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "77h7nj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 9.5V7.5C2 6.7 2.88889 4 6 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "axuhjj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 9.5V7.5C9 6.7 9.88889 4 13 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a517er"
+    }
+  ]
+];
+var QuotationMarkLeftDuotone = createFoamicon("QuotationMarkLeftDuotone", __iconNode361);
+
+// src/icons/QuotationMarkLeftFill.tsx
+var __iconNode362 = [
+  [
+    "circle",
+    {
+      cx: "4.5",
+      cy: "9.5",
+      r: "2.5",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "61f75u"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "11.5",
+      cy: "9.5",
+      r: "2.5",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "770es3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 9.5V7.5C2 6.7 2.88889 4 6 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "axuhjj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 9.5V7.5C9 6.7 9.88889 4 13 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a517er"
+    }
+  ]
+];
+var QuotationMarkLeftFill = createFoamicon("QuotationMarkLeftFill", __iconNode362);
+
+// src/icons/QuotationMarkLeft.tsx
+var __iconNode363 = [
+  [
+    "circle",
+    {
+      cx: "4.5",
+      cy: "9.5",
+      r: "2.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "x9fh3r"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "11.5",
+      cy: "9.5",
+      r: "2.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ou9gqi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 9.5V7.5C2 6.7 2.88889 4 6 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "axuhjj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 9.5V7.5C9 6.7 9.88889 4 13 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a517er"
+    }
+  ]
+];
+var QuotationMarkLeft = createFoamicon("QuotationMarkLeft", __iconNode363);
+
+// src/icons/QuotationMarkRightDuotone.tsx
+var __iconNode364 = [
+  [
+    "circle",
+    {
+      cx: "11.5",
+      cy: "6.5",
+      r: "2.5",
+      transform: "rotate(-180 11.5 6.5)",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "9hmst1"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "4.5",
+      cy: "6.5",
+      r: "2.5",
+      transform: "rotate(-180 4.5 6.5)",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "5ixtnu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 6.5L14 8.5C14 9.3 13.1111 12 10 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "89oxcd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 6.5L7 8.5C7 9.3 6.11111 12 3 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "po0uwx"
+    }
+  ]
+];
+var QuotationMarkRightDuotone = createFoamicon("QuotationMarkRightDuotone", __iconNode364);
+
+// src/icons/QuotationMarkRightFill.tsx
+var __iconNode365 = [
+  [
+    "circle",
+    {
+      cx: "11.5",
+      cy: "6.5",
+      r: "2.5",
+      transform: "rotate(-180 11.5 6.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "51fjr"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "4.5",
+      cy: "6.5",
+      r: "2.5",
+      transform: "rotate(-180 4.5 6.5)",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "661gmc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 6.5L14 8.5C14 9.3 13.1111 12 10 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "89oxcd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 6.5L7 8.5C7 9.3 6.11111 12 3 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "po0uwx"
+    }
+  ]
+];
+var QuotationMarkRightFill = createFoamicon("QuotationMarkRightFill", __iconNode365);
+
+// src/icons/QuotationMarkRight.tsx
+var __iconNode366 = [
+  [
+    "circle",
+    {
+      cx: "11.5",
+      cy: "6.5",
+      r: "2.5",
+      transform: "rotate(-180 11.5 6.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vhvx8w"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "4.5",
+      cy: "6.5",
+      r: "2.5",
+      transform: "rotate(-180 4.5 6.5)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ya388t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 6.5L14 8.5C14 9.3 13.1111 12 10 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "89oxcd"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 6.5L7 8.5C7 9.3 6.11111 12 3 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "po0uwx"
+    }
+  ]
+];
+var QuotationMarkRight = createFoamicon("QuotationMarkRight", __iconNode366);
+
+// src/icons/ReachDuotone.tsx
+var __iconNode367 = [
+  [
+    "path",
+    {
+      d: "M6.72934 2.35433L7.64644 1.4371C7.8417 1.24181 8.1583 1.2418 8.35358 1.43707L9.27083 2.35433",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "abcbib"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.99979 1.75V4.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ad03g7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.27066 13.8957L8.35356 14.8129C8.1583 15.0082 7.8417 15.0082 7.64642 14.8129L6.72917 13.8957",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vuen2y"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00021 14.5V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kmcis1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.6456 6.72937L14.5629 7.64647C14.7581 7.84173 14.7582 8.15833 14.5629 8.35361L13.6456 9.27086",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ju9r4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.2498 7.99976L11.7498 7.99976",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "puju4r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.10404 9.27063L1.18682 8.35353C0.991531 8.15827 0.99152 7.84167 1.18679 7.64639L2.10404 6.72914",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vxg1fr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.49984 8.00024L3.99984 8.00024",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tsc42o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.0936 3.10939L12.3906 3.1093C12.6668 3.10929 12.8907 3.33315 12.8907 3.6093L12.8907 4.9065",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "zeoppq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.4192 3.58032L10.6514 5.34809",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7hlpx7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.72941 13.0674L3.43234 13.0675C3.15619 13.0675 2.93231 12.8436 2.93231 12.5675L2.93231 11.2703",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "r2kxja"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.40382 12.5964L5.17159 10.8287",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e3m61h"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8905 11.0937L12.8906 12.3907C12.8907 12.6669 12.6668 12.8908 12.3906 12.8908L11.0934 12.8908",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lu47rb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.4194 12.4192L10.6517 10.6514",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ono2cf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.93243 4.72958L2.93234 3.43251C2.93232 3.15636 3.15619 2.93248 3.43234 2.93248L4.72953 2.93248",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xwzv6g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.40354 3.40405L5.17131 5.17182",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lgp06p"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "7.99994",
+      cy: "8",
+      r: "1.46558",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "fjz429"
+    }
+  ]
+];
+var ReachDuotone = createFoamicon("ReachDuotone", __iconNode367);
+
+// src/icons/ReachFill.tsx
+var __iconNode368 = [
+  [
+    "path",
+    {
+      d: "M6.72934 2.35433L7.64644 1.4371C7.8417 1.24181 8.1583 1.2418 8.35358 1.43707L9.27083 2.35433",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "abcbib"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.9998 1.75V4.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "teqlh1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.27066 13.8957L8.35356 14.8129C8.1583 15.0082 7.8417 15.0082 7.64642 14.8129L6.72917 13.8957",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vuen2y"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.0002 14.5V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rlxj4w"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.6456 6.72937L14.5629 7.64647C14.7581 7.84173 14.7582 8.15833 14.5629 8.35361L13.6456 9.27086",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ju9r4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.2498 7.99976L11.7498 7.99976",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "puju4r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.10404 9.27063L1.18681 8.35353C0.991524 8.15827 0.991512 7.84167 1.18678 7.64639L2.10404 6.72914",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vnixjw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.49983 8.00024L3.99983 8.00024",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xo5l9a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.0936 3.10939L12.3906 3.1093C12.6668 3.10929 12.8907 3.33315 12.8907 3.6093L12.8907 4.9065",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "zeoppq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.4192 3.58032L10.6514 5.34809",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7hlpx7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.72941 13.0674L3.43234 13.0675C3.15619 13.0675 2.93231 12.8436 2.93231 12.5675L2.93231 11.2703",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "r2kxja"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.40382 12.5964L5.17159 10.8287",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e3m61h"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8905 11.0937L12.8906 12.3907C12.8907 12.6669 12.6668 12.8908 12.3906 12.8908L11.0934 12.8908",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lu47rb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.4194 12.4192L10.6517 10.6514",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ono2cf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.93244 4.72958L2.93235 3.43251C2.93233 3.15636 3.15619 2.93248 3.43235 2.93248L4.72954 2.93248",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "869jdf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.40353 3.40405L5.1713 5.17182",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tywutr"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "7.99994",
+      cy: "8",
+      r: "1.46558",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mx0ppp"
+    }
+  ]
+];
+var ReachFill = createFoamicon("ReachFill", __iconNode368);
+
+// src/icons/Reach.tsx
+var __iconNode369 = [
+  [
+    "path",
+    {
+      d: "M6.72934 2.35433L7.64645 1.4371C7.8417 1.24181 8.15831 1.2418 8.35358 1.43707L9.27083 2.35433",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rzzeg1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.9998 1.75V4.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "teqlh1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.27066 13.8957L8.35355 14.8129C8.1583 15.0082 7.84169 15.0082 7.64642 14.8129L6.72917 13.8957",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n44x2h"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.0002 14.5V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rlxj4w"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.6456 6.72937L14.5629 7.64647C14.7581 7.84173 14.7582 8.15833 14.5629 8.35361L13.6456 9.27086",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ju9r4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.2498 7.99976L11.7498 7.99976",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "puju4r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.10404 9.27063L1.18681 8.35353C0.991529 8.15827 0.991518 7.84167 1.18679 7.64639L2.10404 6.72914",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pvt9aa"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.49984 8.00024L3.99984 8.00024",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tsc42o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.0936 3.10939L12.3906 3.1093C12.6668 3.10929 12.8907 3.33315 12.8907 3.6093L12.8907 4.9065",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "zeoppq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.4192 3.58032L10.6514 5.34809",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7hlpx7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.72941 13.0674L3.43234 13.0675C3.15619 13.0675 2.93231 12.8436 2.93231 12.5675L2.93231 11.2703",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "r2kxja"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.40383 12.5964L5.17159 10.8287",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wsuul2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8905 11.0937L12.8906 12.3907C12.8907 12.6669 12.6668 12.8908 12.3906 12.8908L11.0934 12.8908",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lu47rb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.4194 12.4192L10.6517 10.6514",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ono2cf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.93243 4.72958L2.93234 3.43251C2.93232 3.15636 3.15619 2.93248 3.43234 2.93248L4.72953 2.93248",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xwzv6g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.40354 3.40405L5.17131 5.17182",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lgp06p"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "7.99994",
+      cy: "8",
+      r: "1.46558",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uf8xak"
+    }
+  ]
+];
+var Reach = createFoamicon("Reach", __iconNode369);
+
+// src/icons/ReelDuotone.tsx
+var __iconNode370 = [
+  [
+    "path",
+    {
+      d: "M1.5 4.79111C1.5 4.28711 1.87445 3.86309 2.37584 3.81187C3.56 3.69088 5.78 3.5 8 3.5C10.22 3.5 12.44 3.69088 13.6242 3.81187C14.1255 3.8631 14.5 4.28711 14.5 4.79111V11.2089C14.5 11.7129 14.1255 12.1369 13.6242 12.1881C12.44 12.3091 10.22 12.5 8 12.5C5.78 12.5 3.56 12.3091 2.37584 12.1881C1.87445 12.1369 1.5 11.7129 1.5 11.2089V4.79111Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "he9gsv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 4V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lez9yk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 6H3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xsmlra"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8H3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7vtjl3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 10H3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8p50vt"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 6H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mo7n5i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uv39ql"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 10H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q9gzpn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 4V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s1lubs"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 12V4C12.0095 3.81541 11.8701 3.6568 11.6858 3.64355C10.5951 3.56521 9.29754 3.5 8 3.5C6.70246 3.5 5.40492 3.56521 4.3142 3.64355C4.12985 3.6568 3.99048 3.81541 4 4V12C3.99048 12.1846 4.12985 12.3432 4.3142 12.3564C5.40492 12.4348 6.70246 12.5 8 12.5C9.29754 12.5 10.5951 12.4348 11.6858 12.3564C11.8702 12.3432 12.0095 12.1846 12 12Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "wzk5ja"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.09808 6.36603C6.09808 5.98113 6.51474 5.74056 6.84808 5.93301L9.84808 7.66506C10.1814 7.85751 10.1814 8.33864 9.84808 8.53109L6.84808 10.2631C6.51474 10.4556 6.09808 10.215 6.09808 9.83013L6.09808 6.36603Z",
+      fill: "currentColor",
+      key: "dpbvip"
+    }
+  ]
+];
+var ReelDuotone = createFoamicon("ReelDuotone", __iconNode370);
+
+// src/icons/ReelFill.tsx
+var __iconNode371 = [
+  [
+    "path",
+    {
+      d: "M1.5 4.79111C1.5 4.28711 1.87445 3.86309 2.37584 3.81187C3.56 3.69088 5.78 3.5 8 3.5C10.22 3.5 12.44 3.69088 13.6242 3.81187C14.1255 3.8631 14.5 4.28711 14.5 4.79111V11.2089C14.5 11.7129 14.1255 12.1369 13.6242 12.1881C12.44 12.3091 10.22 12.5 8 12.5C5.78 12.5 3.56 12.3091 2.37584 12.1881C1.87445 12.1369 1.5 11.7129 1.5 11.2089V4.79111Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "he9gsv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 4V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lez9yk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 6H3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xsmlra"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8H3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7vtjl3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 10H3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8p50vt"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 6H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mo7n5i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uv39ql"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 10H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q9gzpn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 4V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s1lubs"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 12V4C12.0095 3.81541 11.8701 3.6568 11.6858 3.64355C10.5951 3.56521 9.29753 3.5 7.99999 3.5C6.70245 3.5 5.40491 3.56521 4.31419 3.64355C4.12984 3.6568 3.99047 3.81541 3.99999 4V12C3.99047 12.1846 4.12984 12.3432 4.31419 12.3564C5.40491 12.4348 6.70245 12.5 7.99999 12.5C9.29753 12.5 10.5951 12.4348 11.6858 12.3564C11.8701 12.3432 12.0095 12.1846 12 12Z",
+      fill: "currentColor",
+      key: "1zhj2l"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.09808 6.36603C6.09808 5.98113 6.51474 5.74056 6.84808 5.93301L9.84808 7.66506C10.1814 7.85751 10.1814 8.33864 9.84808 8.53109L6.84808 10.2631C6.51474 10.4556 6.09808 10.215 6.09808 9.83013L6.09808 6.36603Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      key: "bs5jdk"
+    }
+  ]
+];
+var ReelFill = createFoamicon("ReelFill", __iconNode371);
+
+// src/icons/Reel.tsx
+var __iconNode372 = [
+  [
+    "path",
+    {
+      d: "M1.5 4.79111C1.5 4.28711 1.87445 3.86309 2.37584 3.81187C3.56 3.69088 5.78 3.5 8 3.5C10.22 3.5 12.44 3.69088 13.6242 3.81187C14.1255 3.8631 14.5 4.28711 14.5 4.79111V11.2089C14.5 11.7129 14.1255 12.1369 13.6242 12.1881C12.44 12.3091 10.22 12.5 8 12.5C5.78 12.5 3.56 12.3091 2.37584 12.1881C1.87445 12.1369 1.5 11.7129 1.5 11.2089V4.79111Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "he9gsv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 4V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lez9yk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 6H3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xsmlra"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8H3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7vtjl3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 10H3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8p50vt"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 6H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mo7n5i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uv39ql"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.5 10H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "q9gzpn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 4V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "s1lubs"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.09808 6.36603C6.09808 5.98113 6.51474 5.74056 6.84808 5.93301L9.84808 7.66506C10.1814 7.85751 10.1814 8.33864 9.84808 8.53109L6.84808 10.2631C6.51474 10.4556 6.09808 10.215 6.09808 9.83013L6.09808 6.36603Z",
+      fill: "currentColor",
+      key: "hvzi2h"
+    }
+  ]
+];
+var Reel = createFoamicon("Reel", __iconNode372);
+
+// src/icons/RefreshCwDuotone.tsx
+var __iconNode373 = [
+  [
+    "path",
+    {
+      d: "M10.8233 2.31184L11.2918 4.06047C11.3633 4.3272 11.205 4.60137 10.9383 4.67284L9.18965 5.14138",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3cfrwy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.94796 13.8483L4.47941 12.0997C4.40794 11.833 4.56623 11.5588 4.83297 11.4873L6.58159 11.0188",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "md8het"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8064 6.8604C13.5214 9.52882 11.9378 12.2716 9.26941 12.9866C7.6229 13.4278 5.94807 12.9939 4.73878 11.9699M3.14318 9.44964C2.42818 6.78122 4.01174 4.03842 6.68016 3.32341C8.32508 2.88266 9.99827 3.31535 11.2073 4.33719",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "que4r7"
+    }
+  ]
+];
+var RefreshCwDuotone = createFoamicon("RefreshCwDuotone", __iconNode373);
+
+// src/icons/RefreshCwFill.tsx
+var __iconNode374 = [
+  [
+    "path",
+    {
+      d: "M10.8233 2.31184L11.2918 4.06047C11.3633 4.3272 11.205 4.60137 10.9383 4.67284L9.18965 5.14138",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3cfrwy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.94796 13.8483L4.47941 12.0997C4.40794 11.833 4.56623 11.5588 4.83297 11.4873L6.58159 11.0188",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "md8het"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8064 6.8604C13.5214 9.52882 11.9378 12.2716 9.26941 12.9866C7.6229 13.4278 5.94807 12.9939 4.73878 11.9699M3.14318 9.44964C2.42818 6.78122 4.01174 4.03842 6.68016 3.32341C8.32508 2.88266 9.99827 3.31535 11.2073 4.33719",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "que4r7"
+    }
+  ]
+];
+var RefreshCwFill = createFoamicon("RefreshCwFill", __iconNode374);
+
+// src/icons/RefreshCw.tsx
+var __iconNode375 = [
+  [
+    "path",
+    {
+      d: "M10.8233 2.31184L11.2918 4.06047C11.3633 4.3272 11.205 4.60137 10.9383 4.67284L9.18965 5.14138",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3cfrwy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.94795 13.8483L4.47941 12.0997C4.40794 11.833 4.56623 11.5588 4.83296 11.4873L6.58159 11.0188",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hbnkzf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8064 6.8604C13.5214 9.52882 11.9378 12.2716 9.26941 12.9866C7.6229 13.4278 5.94807 12.9939 4.73878 11.9699M3.14318 9.44964C2.42818 6.78122 4.01174 4.03842 6.68016 3.32341C8.32508 2.88266 9.99827 3.31535 11.2073 4.33719",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "que4r7"
+    }
+  ]
+];
+var RefreshCw = createFoamicon("RefreshCw", __iconNode375);
+
+// src/icons/RemoveFormattingDuotone.tsx
+var __iconNode376 = [
+  [
+    "path",
+    {
+      d: "M13.3251 2.29834L3.06451 12.5588",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "c4a36j"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.10645 4.87109V3.57109C4.10645 3.46064 4.19599 3.37109 4.30645 3.37109H7.85645M11.6064 4.87109V3.57109C11.6064 3.46064 11.5169 3.37109 11.4064 3.37109H7.85645M7.85645 3.37109V11.3711M7.85645 11.3711H9.10645M7.85645 11.3711H6.10645",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8wwci6"
+    }
+  ]
+];
+var RemoveFormattingDuotone = createFoamicon("RemoveFormattingDuotone", __iconNode376);
+
+// src/icons/RemoveFormattingFill.tsx
+var __iconNode377 = [
+  [
+    "path",
+    {
+      d: "M13.3251 2.29834L3.06451 12.5588",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "c4a36j"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.10645 4.87109V3.57109C4.10645 3.46064 4.19599 3.37109 4.30645 3.37109H7.85645M11.6064 4.87109V3.57109C11.6064 3.46064 11.5169 3.37109 11.4064 3.37109H7.85645M7.85645 3.37109V11.3711M7.85645 11.3711H9.10645M7.85645 11.3711H6.10645",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8wwci6"
+    }
+  ]
+];
+var RemoveFormattingFill = createFoamicon("RemoveFormattingFill", __iconNode377);
+
+// src/icons/RemoveFormatting.tsx
+var __iconNode378 = [
+  [
+    "path",
+    {
+      d: "M13.3251 2.29834L3.06451 12.5588",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "c4a36j"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 5.5V4.2C4.5 4.08954 4.58954 4 4.7 4H8.25M12 5.5V4.2C12 4.08954 11.9105 4 11.8 4H8.25M8.25 4V12M8.25 12H9.5M8.25 12H6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "to2n6v"
+    }
+  ]
+];
+var RemoveFormatting = createFoamicon("RemoveFormatting", __iconNode378);
+
+// src/icons/ReplyDuotone.tsx
+var __iconNode379 = [
+  [
+    "path",
+    {
+      d: "M6.66666 10.9998L3.35355 7.68664C3.15828 7.49138 3.15828 7.1748 3.35355 6.97954L6.66666 3.66642",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y2ur50"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.66666 7.33325L8.99653 7.33325C11.1409 7.33325 12.9038 9.02422 12.9931 11.1667L13 11.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t2ql83"
+    }
+  ]
+];
+var ReplyDuotone = createFoamicon("ReplyDuotone", __iconNode379);
+
+// src/icons/ReplyFill.tsx
+var __iconNode380 = [
+  [
+    "path",
+    {
+      d: "M6.66667 10.9998L3.35355 7.68664C3.15829 7.49138 3.15829 7.1748 3.35355 6.97954L6.66667 3.66642",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "994t8a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.66667 7.33325L8.99653 7.33325C11.1409 7.33325 12.9038 9.02422 12.9931 11.1667L13 11.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hgtp0y"
+    }
+  ]
+];
+var ReplyFill = createFoamicon("ReplyFill", __iconNode380);
+
+// src/icons/Reply.tsx
+var __iconNode381 = [
+  [
+    "path",
+    {
+      d: "M6.66666 10.9998L3.35355 7.68664C3.15829 7.49138 3.15829 7.1748 3.35355 6.97954L6.66666 3.66642",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "co4cgq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.66667 7.33325L8.99653 7.33325C11.1409 7.33325 12.9038 9.02422 12.9931 11.1667L13 11.3333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hgtp0y"
+    }
+  ]
+];
+var Reply = createFoamicon("Reply", __iconNode381);
+
+// src/icons/RolodexDuotone.tsx
+var __iconNode382 = [
+  [
+    "path",
+    {
+      d: "M14 5V6M14 8V9M14 11V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mokvn2"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "2.5",
+      y: "2.5",
+      width: "10",
+      height: "11.5",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "ozfj3f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 3.5V1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "kaxjan"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.5 3.5V1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "q4mzcp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 3.5V1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "1lkx3f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 5.5H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "fkmovc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 7.5H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "iwsh7r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 9.5H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "m8y9k6"
+    }
+  ]
+];
+var RolodexDuotone = createFoamicon("RolodexDuotone", __iconNode382);
+
+// src/icons/RolodexFill.tsx
+var __iconNode383 = [
+  [
+    "path",
+    {
+      d: "M14 5V6M14 8V9M14 11V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mokvn2"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "2.5",
+      y: "2.5",
+      width: "10",
+      height: "11.5",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gj28zn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 3.5V1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "kaxjan"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.5 3.5V1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "q4mzcp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 3.5V1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "1lkx3f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 5.5H10.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      key: "n0q7mz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 7.5H10.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      key: "8epjqm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 9.5H10.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      key: "67b45r"
+    }
+  ]
+];
+var RolodexFill = createFoamicon("RolodexFill", __iconNode383);
+
+// src/icons/Rolodex.tsx
+var __iconNode384 = [
+  [
+    "path",
+    {
+      d: "M14 5V6M14 8V9M14 11V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mokvn2"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "2.5",
+      y: "2.5",
+      width: "10",
+      height: "11.5",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mrbgkk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 3.5V1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "kaxjan"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.5 3.5V1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "q4mzcp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 3.5V1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "1lkx3f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 5.5H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "fkmovc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 7.5H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "iwsh7r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 9.5H10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "m8y9k6"
+    }
+  ]
+];
+var Rolodex = createFoamicon("Rolodex", __iconNode384);
+
+// src/icons/RotateCwDuotone.tsx
+var __iconNode385 = [
+  [
+    "path",
+    {
+      d: "M10.8233 2.31184L11.2918 4.06047C11.3633 4.3272 11.205 4.60137 10.9383 4.67284L9.18965 5.14138",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3cfrwy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8064 6.8604C13.5214 9.52882 11.9378 12.2716 9.26941 12.9866C7.6229 13.4278 5.94807 12.9939 4.73878 11.9699M3.14318 9.44964C2.42818 6.78122 4.01174 4.03842 6.68016 3.32341C8.32508 2.88266 9.99827 3.31535 11.2073 4.33719",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "que4r6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5117 11.6919C9.55829 13.6453 6.39117 13.6453 4.43775 11.6919C3.23242 10.4865 2.77082 8.8191 3.05295 7.25984",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4glrrh"
+    }
+  ]
+];
+var RotateCwDuotone = createFoamicon("RotateCwDuotone", __iconNode385);
+
+// src/icons/RotateCwFill.tsx
+var __iconNode386 = [
+  [
+    "path",
+    {
+      d: "M10.8233 2.31184L11.2918 4.06047C11.3633 4.3272 11.205 4.60137 10.9383 4.67284L9.18965 5.14138",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3cfrwy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8064 6.8604C13.5214 9.52882 11.9378 12.2716 9.26941 12.9866C7.6229 13.4278 5.94807 12.9939 4.73878 11.9699M3.14318 9.44964C2.42818 6.78122 4.01174 4.03842 6.68016 3.32341C8.32508 2.88266 9.99827 3.31535 11.2073 4.33719",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "que4r6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5117 11.6919C9.55829 13.6453 6.39117 13.6453 4.43775 11.6919C3.23242 10.4865 2.77082 8.8191 3.05295 7.25984",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4glrrh"
+    }
+  ]
+];
+var RotateCwFill = createFoamicon("RotateCwFill", __iconNode386);
+
+// src/icons/RotateCw.tsx
+var __iconNode387 = [
+  [
+    "path",
+    {
+      d: "M10.8233 2.31184L11.2918 4.06047C11.3633 4.3272 11.205 4.60137 10.9383 4.67284L9.18965 5.14138",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3cfrwy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.8064 6.8604C13.5214 9.52882 11.9378 12.2716 9.26941 12.9866C7.6229 13.4278 5.94807 12.9939 4.73878 11.9699M3.14318 9.44964C2.42818 6.78122 4.01174 4.03842 6.68016 3.32341C8.32508 2.88266 9.99827 3.31535 11.2073 4.33719",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "que4r6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.5117 11.6919C9.55828 13.6453 6.39116 13.6453 4.43774 11.6919C3.23242 10.4865 2.77082 8.8191 3.05295 7.25984",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "58uu28"
+    }
+  ]
+];
+var RotateCw = createFoamicon("RotateCw", __iconNode387);
+
+// src/icons/Rows2Duotone.tsx
+var __iconNode388 = [
+  [
+    "rect",
+    {
+      x: "2",
+      y: "2",
+      width: "12",
+      height: "5",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "qy040a"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "2",
+      y: "9",
+      width: "12",
+      height: "5",
+      rx: "1",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "4xckws"
+    }
+  ]
+];
+var Rows2Duotone = createFoamicon("Rows2Duotone", __iconNode388);
+
+// src/icons/Rows2Fill.tsx
+var __iconNode389 = [
+  [
+    "rect",
+    {
+      x: "2",
+      y: "2",
+      width: "12",
+      height: "5",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qn5qe6"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "2",
+      y: "9",
+      width: "12",
+      height: "5",
+      rx: "1",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "itfqwa"
+    }
+  ]
+];
+var Rows2Fill = createFoamicon("Rows2Fill", __iconNode389);
+
+// src/icons/Rows2.tsx
+var __iconNode390 = [
+  [
+    "rect",
+    {
+      x: "2",
+      y: "2",
+      width: "12",
+      height: "5",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5qd2ez"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "2",
+      y: "9",
+      width: "12",
+      height: "5",
+      rx: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u9j0d"
+    }
+  ]
+];
+var Rows2 = createFoamicon("Rows2", __iconNode390);
+
+// src/icons/SaveDuotone.tsx
+var __iconNode391 = [
+  [
+    "path",
+    {
+      d: "M2.5 4C2.5 3.17157 3.17157 2.5 4 2.5H8H10.1373C10.53 2.5 10.9071 2.65401 11.1875 2.92897L12.168 3.89039L13.0715 4.8126C13.3462 5.09297 13.5 5.46983 13.5 5.86233V8V12C13.5 12.8284 12.8284 13.5 12 13.5H4C3.17157 13.5 2.5 12.8284 2.5 12V4Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "k3dqbj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 5.5H8.5C9.05228 5.5 9.5 5.05228 9.5 4.5V2.5H5.5V4.5C5.5 5.05228 5.94772 5.5 6.5 5.5Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "hnuds0"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 8.5H5.5C4.94772 8.5 4.5 8.94772 4.5 9.5V13.5H11.5V9.5C11.5 8.94772 11.0523 8.5 10.5 8.5Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "ar27s5"
+    }
+  ]
+];
+var SaveDuotone = createFoamicon("SaveDuotone", __iconNode391);
+
+// src/icons/SaveFill.tsx
+var __iconNode392 = [
+  [
+    "path",
+    {
+      d: "M2.5 4C2.5 3.17157 3.17157 2.5 4 2.5H8H10.1373C10.53 2.5 10.9071 2.65401 11.1875 2.92897L12.168 3.89039L13.0715 4.8126C13.3462 5.09297 13.5 5.46983 13.5 5.86233V8V12C13.5 12.8284 12.8284 13.5 12 13.5H4C3.17157 13.5 2.5 12.8284 2.5 12V4Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "k3dqbj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 5.5H8.5C9.05228 5.5 9.5 5.05228 9.5 4.5V2.5H5.5V4.5C5.5 5.05228 5.94772 5.5 6.5 5.5Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wizdma"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 8.5H5.5C4.94772 8.5 4.5 8.94772 4.5 9.5V13.5H11.5V9.5C11.5 8.94772 11.0523 8.5 10.5 8.5Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7nwbor"
+    }
+  ]
+];
+var SaveFill = createFoamicon("SaveFill", __iconNode392);
+
+// src/icons/Save.tsx
+var __iconNode393 = [
+  [
+    "path",
+    {
+      d: "M2.5 4C2.5 3.17157 3.17157 2.5 4 2.5H8H10.1373C10.53 2.5 10.9071 2.65401 11.1875 2.92897L12.168 3.89039L13.0715 4.8126C13.3462 5.09297 13.5 5.46983 13.5 5.86233V8V12C13.5 12.8284 12.8284 13.5 12 13.5H4C3.17157 13.5 2.5 12.8284 2.5 12V4Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "k3dqbj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 2.5V4.5C5.5 5.05228 5.94772 5.5 6.5 5.5H8.5C9.05228 5.5 9.5 5.05228 9.5 4.5V2.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g8aw5v"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.5 13.5V9.5C4.5 8.94772 4.94772 8.5 5.5 8.5H10.5C11.0523 8.5 11.5 8.94772 11.5 9.5V13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dlqg9y"
+    }
+  ]
+];
+var Save = createFoamicon("Save", __iconNode393);
+
+// src/icons/SearchDuotone.tsx
+var __iconNode394 = [
+  [
+    "path",
+    {
+      d: "M12 7C12 8.38071 11.4404 9.63071 10.5355 10.5355C9.63071 11.4404 8.38071 12 7 12C4.23858 12 2 9.76142 2 7C2 4.23858 4.23858 2 7 2C9.76142 2 12 4.23858 12 7Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "13mv3g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 14L10.5355 10.5355M10.5355 10.5355C11.4404 9.63071 12 8.38071 12 7C12 4.23858 9.76142 2 7 2C4.23858 2 2 4.23858 2 7C2 9.76142 4.23858 12 7 12C8.38071 12 9.63071 11.4404 10.5355 10.5355Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gei9it"
+    }
+  ]
+];
+var SearchDuotone = createFoamicon("SearchDuotone", __iconNode394);
+
+// src/icons/SearchFill.tsx
+var __iconNode395 = [
+  [
+    "path",
+    {
+      d: "M12 7C12 8.38071 11.4404 9.63071 10.5355 10.5355C9.63071 11.4404 8.38071 12 7 12C4.23858 12 2 9.76142 2 7C2 4.23858 4.23858 2 7 2C9.76142 2 12 4.23858 12 7Z",
+      fill: "currentColor",
+      key: "vhjz1q"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 14L10.5355 10.5355M10.5355 10.5355C11.4404 9.63071 12 8.38071 12 7C12 4.23858 9.76142 2 7 2C4.23858 2 2 4.23858 2 7C2 9.76142 4.23858 12 7 12C8.38071 12 9.63071 11.4404 10.5355 10.5355Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gei9it"
+    }
+  ]
+];
+var SearchFill = createFoamicon("SearchFill", __iconNode395);
+
+// src/icons/SearchUserDuotone.tsx
+var __iconNode396 = [
+  [
+    "circle",
+    {
+      cx: "7",
+      cy: "5.82275",
+      r: "1.32275",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "oytpre"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 14L10.5355 10.5355M10.5355 10.5355C11.4404 9.63071 12 8.38071 12 7C12 4.23858 9.76142 2 7 2C4.23858 2 2 4.23858 2 7C2 9.76142 4.23858 12 7 12C8.38071 12 9.63071 11.4404 10.5355 10.5355Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gei9it"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 9.1001C8.28476 9.1001 9.34317 10.0692 9.48407 11.3163C9.48437 11.319 9.4858 11.3214 9.488 11.3229C9.49357 11.3267 9.49326 11.335 9.48741 11.3383C8.75483 11.7593 7.90553 12 7 12C6.09566 12 5.24739 11.7599 4.51546 11.34V11.3205C4.65446 10.0714 5.7138 9.1001 7 9.1001Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "nmc3ru"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.51546 11.3205C4.65446 10.0714 5.7138 9.1001 7 9.1001C8.28476 9.1001 9.34317 10.0692 9.48407 11.3163C9.48437 11.319 9.4858 11.3214 9.488 11.3229C9.49357 11.3267 9.49326 11.335 9.48741 11.3383C8.75483 11.7593 7.90553 12 7 12C6.09566 12 5.24739 11.7599 4.51546 11.34M4.51546 11.3205V11.34M4.51546 11.3205C4.52046 11.3205 4.52358 11.3259 4.52108 11.3303L4.51546 11.34",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xfn7o5"
+    }
+  ]
+];
+var SearchUserDuotone = createFoamicon("SearchUserDuotone", __iconNode396);
+
+// src/icons/SearchUserFill.tsx
+var __iconNode397 = [
+  [
+    "circle",
+    {
+      cx: "7",
+      cy: "5.82275",
+      r: "1.32275",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tyxflq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 14L10.5355 10.5355M10.5355 10.5355C11.4404 9.63071 12 8.38071 12 7C12 4.23858 9.76142 2 7 2C4.23858 2 2 4.23858 2 7C2 9.76142 4.23858 12 7 12C8.38071 12 9.63071 11.4404 10.5355 10.5355Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gei9it"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 9.1001C8.28476 9.1001 9.34317 10.0692 9.48407 11.3163C9.48437 11.319 9.4858 11.3214 9.488 11.3229C9.49357 11.3267 9.49326 11.335 9.48741 11.3383C8.75483 11.7593 7.90553 12 7 12C6.09566 12 5.24739 11.7599 4.51546 11.34V11.3205C4.65446 10.0714 5.7138 9.1001 7 9.1001Z",
+      fill: "currentColor",
+      key: "yffyr4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.51546 11.3205C4.65446 10.0714 5.7138 9.1001 7 9.1001C8.28476 9.1001 9.34317 10.0692 9.48407 11.3163C9.48437 11.319 9.4858 11.3214 9.488 11.3229C9.49357 11.3267 9.49326 11.335 9.48741 11.3383C8.75483 11.7593 7.90553 12 7 12C6.09566 12 5.24739 11.7599 4.51546 11.34M4.51546 11.3205V11.34M4.51546 11.3205C4.52046 11.3205 4.52358 11.3259 4.52108 11.3303L4.51546 11.34",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xfn7o5"
+    }
+  ]
+];
+var SearchUserFill = createFoamicon("SearchUserFill", __iconNode397);
+
+// src/icons/SearchUser.tsx
+var __iconNode398 = [
+  [
+    "circle",
+    {
+      cx: "7",
+      cy: "5.82275",
+      r: "1.32275",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4qsxsr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 14L10.5355 10.5355M10.5355 10.5355C11.4404 9.63071 12 8.38071 12 7C12 4.23858 9.76142 2 7 2C4.23858 2 2 4.23858 2 7C2 9.76142 4.23858 12 7 12C8.38071 12 9.63071 11.4404 10.5355 10.5355Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gei9it"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.51546 11.3205C4.65446 10.0714 5.7138 9.1001 7 9.1001C8.28476 9.1001 9.34317 10.0692 9.48407 11.3163C9.48437 11.319 9.4858 11.3214 9.488 11.3229C9.49357 11.3267 9.49326 11.335 9.48741 11.3383C8.75483 11.7593 7.90553 12 7 12C6.09566 12 5.24739 11.7599 4.51546 11.34M4.51546 11.3205V11.34M4.51546 11.3205C4.52046 11.3205 4.52358 11.3259 4.52108 11.3303L4.51546 11.34",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xfn7o4"
+    }
+  ]
+];
+var SearchUser = createFoamicon("SearchUser", __iconNode398);
+
+// src/icons/Search.tsx
+var __iconNode399 = [
+  [
+    "path",
+    {
+      d: "M14 14L10.5355 10.5355M10.5355 10.5355C11.4404 9.63071 12 8.38071 12 7C12 4.23858 9.76142 2 7 2C4.23858 2 2 4.23858 2 7C2 9.76142 4.23858 12 7 12C8.38071 12 9.63071 11.4404 10.5355 10.5355Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gei9is"
+    }
+  ]
+];
+var Search = createFoamicon("Search", __iconNode399);
+
+// src/icons/ShareDuotone.tsx
+var __iconNode400 = [
+  [
+    "path",
+    {
+      d: "M5.3335 4.66667L7.64661 2.35355C7.84187 2.15829 8.15845 2.15829 8.35372 2.35355L10.6668 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9ck8n5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00024 2.66675L8.00024 9.66675",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jog9cg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6.27271V12.2936C13 13.0185 12.4813 13.6379 11.7625 13.7318C10.8014 13.8573 9.40072 14 8 14C6.59928 14 5.19855 13.8573 4.23755 13.7318C3.51872 13.6379 3 13.0185 3 12.2936V6.27271",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rz06im"
+    }
+  ]
+];
+var ShareDuotone = createFoamicon("ShareDuotone", __iconNode400);
+
+// src/icons/ShareFill.tsx
+var __iconNode401 = [
+  [
+    "path",
+    {
+      d: "M5.3335 4.66667L7.64661 2.35355C7.84187 2.15829 8.15845 2.15829 8.35372 2.35355L10.6668 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9ck8n5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00024 2.66675L8.00024 9.66675",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jog9cg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6.27271V12.2936C13 13.0185 12.4813 13.6379 11.7625 13.7318C10.8014 13.8573 9.40072 14 8 14C6.59928 14 5.19855 13.8573 4.23755 13.7318C3.51872 13.6379 3 13.0185 3 12.2936V6.27271",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rz06im"
+    }
+  ]
+];
+var ShareFill = createFoamicon("ShareFill", __iconNode401);
+
+// src/icons/Share.tsx
+var __iconNode402 = [
+  [
+    "path",
+    {
+      d: "M5.3335 4.66667L7.64661 2.35355C7.84187 2.15829 8.15845 2.15829 8.35372 2.35355L10.6668 4.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9ck8n5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00024 2.66675L8.00024 9.66675",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jog9cg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 6.27271V12.2936C13 13.0185 12.4813 13.6379 11.7625 13.7318C10.8014 13.8573 9.40072 14 8 14C6.59928 14 5.19855 13.8573 4.23755 13.7318C3.51872 13.6379 3 13.0185 3 12.2936V6.27271",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rz06im"
+    }
+  ]
+];
+var Share = createFoamicon("Share", __iconNode402);
+
+// src/icons/SlidersHorizontalDuotone.tsx
+var __iconNode403 = [
+  [
+    "path",
+    {
+      d: "M2.5 5H8.5M13.5 5H11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "enh7pz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 12H4.5M13.5 12H7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tq5fuh"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10",
+      cy: "5",
+      r: "1.5",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "5y2io2"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "6",
+      cy: "12",
+      r: "1.5",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "akfl94"
+    }
+  ]
+];
+var SlidersHorizontalDuotone = createFoamicon("SlidersHorizontalDuotone", __iconNode403);
+
+// src/icons/SlidersHorizontalFill.tsx
+var __iconNode404 = [
+  [
+    "path",
+    {
+      d: "M2.5 5H8.5M13.5 5H11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "enh7pz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 12H4.5M13.5 12H7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tq5fuh"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10",
+      cy: "5",
+      r: "1.5",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qlgcky"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "6",
+      cy: "12",
+      r: "1.5",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f22uii"
+    }
+  ]
+];
+var SlidersHorizontalFill = createFoamicon("SlidersHorizontalFill", __iconNode404);
+
+// src/icons/SlidersHorizontal.tsx
+var __iconNode405 = [
+  [
+    "path",
+    {
+      d: "M2.5 5H8.5M13.5 5H11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "enh7pz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 12H4.5M13.5 12H7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "tq5fuh"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10",
+      cy: "5",
+      r: "1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jigrrf"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "6",
+      cy: "12",
+      r: "1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "pqp4pf"
+    }
+  ]
+];
+var SlidersHorizontal = createFoamicon("SlidersHorizontal", __iconNode405);
+
+// src/icons/SmileDuotone.tsx
+var __iconNode406 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qiqtx5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.50002C9.46924 9.97506 8.76835 10.2639 8 10.2639C7.23165 10.2639 6.53076 9.97506 6 9.50002",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nis5k3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 6.72607H6.00667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kqalb1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 6.72607H10.0067",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wvt4t0"
+    }
+  ]
+];
+var SmileDuotone = createFoamicon("SmileDuotone", __iconNode406);
+
+// src/icons/SmileFill.tsx
+var __iconNode407 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4e5q8w"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.50002C9.46924 9.97506 8.76835 10.2639 8 10.2639C7.23165 10.2639 6.53076 9.97506 6 9.50002",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rzumlu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 6.72607H6.00667",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gfjc4m"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 6.72607H10.0067",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "69ewez"
+    }
+  ]
+];
+var SmileFill = createFoamicon("SmileFill", __iconNode407);
+
+// src/icons/Smile.tsx
+var __iconNode408 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "5.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qiqtx5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 9.50002C9.46924 9.97506 8.76835 10.2639 8 10.2639C7.23165 10.2639 6.53076 9.97506 6 9.50002",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nis5k3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 6.72607H6.00667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kqalb1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 6.72607H10.0067",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wvt4t0"
+    }
+  ]
+];
+var Smile = createFoamicon("Smile", __iconNode408);
+
+// src/icons/SparklesDuotone.tsx
+var __iconNode409 = [
+  [
+    "path",
+    {
+      d: "M13.9384 6.70777C12.5484 6.42112 11.4686 5.3319 11.1814 3.94452C11.1699 3.87574 11.1125 3.82983 11.032 3.82983C10.9631 3.82983 10.9057 3.87566 10.8827 3.94452C10.5955 5.33192 9.50417 6.42112 8.12565 6.70777C8.05674 6.7192 8.01074 6.77655 8.01074 6.85684C8.01074 6.92563 8.05666 6.98297 8.12565 7.00592C9.51568 7.29257 10.5955 8.38179 10.8827 9.7577C10.8941 9.82648 10.9516 9.87239 11.032 9.87239C11.1009 9.87239 11.1584 9.82656 11.1814 9.7577C11.4686 8.37031 12.5599 7.29257 13.9384 7.00592C14.0073 6.99449 14.0533 6.93714 14.0533 6.85684C14.0533 6.77655 14.0074 6.7192 13.9384 6.70777Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "z4ndd9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.92679 11.0555C6.9038 10.8451 6.1023 10.0454 5.89135 9.01436C5.88083 8.96173 5.8386 8.93018 5.78586 8.93018C5.73311 8.93018 5.69096 8.96173 5.68036 9.01436C5.46946 10.0454 4.66788 10.8451 3.64493 11.0555C3.59218 11.066 3.56055 11.1081 3.56055 11.1607C3.56055 11.2134 3.59218 11.2554 3.64493 11.266C4.66792 11.4764 5.46942 12.2761 5.68036 13.2966C5.69088 13.3492 5.73311 13.3808 5.78586 13.3808C5.8386 13.3808 5.88076 13.3492 5.89135 13.2966C6.10226 12.276 6.90383 11.4764 7.92679 11.266C7.97954 11.2555 8.01117 11.2134 8.01117 11.1607C8.01117 11.1081 7.97954 11.0661 7.92679 11.0555Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "ikqfxq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.15666 6.57225C4.17352 6.62263 4.21562 6.65625 4.26611 6.65625C4.31661 6.65625 4.36711 6.62269 4.37556 6.57225C4.55237 5.8249 5.15839 5.22866 5.8992 5.05235C5.94969 5.03554 5.9834 4.99354 5.9834 4.94316C5.9834 4.89279 5.94975 4.84241 5.8992 4.83398C5.14162 4.64924 4.55231 4.06143 4.37556 3.30568C4.36717 3.2553 4.31661 3.22168 4.26611 3.22168C4.21562 3.22168 4.16512 3.25524 4.15666 3.30568C3.97147 4.0614 3.39062 4.64927 2.63303 4.83398C2.58253 4.85079 2.54883 4.89279 2.54883 4.94316C2.54883 4.99354 2.58247 5.04391 2.63303 5.05235C3.37382 5.22866 3.97146 5.8249 4.15666 6.57225Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "hbd1kn"
+    }
+  ]
+];
+var SparklesDuotone = createFoamicon("SparklesDuotone", __iconNode409);
+
+// src/icons/SparklesFill.tsx
+var __iconNode410 = [
+  [
+    "path",
+    {
+      d: "M13.9384 6.70777C12.5484 6.42112 11.4686 5.3319 11.1814 3.94452C11.1699 3.87574 11.1125 3.82983 11.032 3.82983C10.9631 3.82983 10.9057 3.87566 10.8827 3.94452C10.5955 5.33192 9.50417 6.42112 8.12565 6.70777C8.05674 6.7192 8.01074 6.77655 8.01074 6.85684C8.01074 6.92563 8.05666 6.98297 8.12565 7.00592C9.51568 7.29257 10.5955 8.38179 10.8827 9.7577C10.8941 9.82648 10.9516 9.87239 11.032 9.87239C11.1009 9.87239 11.1584 9.82656 11.1814 9.7577C11.4686 8.37031 12.5599 7.29257 13.9384 7.00592C14.0073 6.99449 14.0533 6.93714 14.0533 6.85684C14.0533 6.77655 14.0074 6.7192 13.9384 6.70777Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ghx9bt"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.92679 11.0555C6.9038 10.8451 6.1023 10.0454 5.89135 9.01436C5.88083 8.96173 5.8386 8.93018 5.78586 8.93018C5.73311 8.93018 5.69096 8.96173 5.68036 9.01436C5.46946 10.0454 4.66788 10.8451 3.64493 11.0555C3.59218 11.066 3.56055 11.1081 3.56055 11.1607C3.56055 11.2134 3.59218 11.2554 3.64493 11.266C4.66792 11.4764 5.46942 12.2761 5.68036 13.2966C5.69088 13.3492 5.73311 13.3808 5.78586 13.3808C5.8386 13.3808 5.88076 13.3492 5.89135 13.2966C6.10226 12.276 6.90383 11.4764 7.92679 11.266C7.97954 11.2555 8.01117 11.2134 8.01117 11.1607C8.01117 11.1081 7.97954 11.0661 7.92679 11.0555Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xr2eis"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.15666 6.57225C4.17352 6.62263 4.21562 6.65625 4.26611 6.65625C4.31661 6.65625 4.36711 6.62269 4.37556 6.57225C4.55237 5.8249 5.15839 5.22866 5.8992 5.05235C5.94969 5.03554 5.9834 4.99354 5.9834 4.94316C5.9834 4.89279 5.94975 4.84241 5.8992 4.83398C5.14162 4.64924 4.55231 4.06143 4.37556 3.30568C4.36717 3.2553 4.31661 3.22168 4.26611 3.22168C4.21562 3.22168 4.16512 3.25524 4.15666 3.30568C3.97147 4.0614 3.39062 4.64927 2.63303 4.83398C2.58253 4.85079 2.54883 4.89279 2.54883 4.94316C2.54883 4.99354 2.58247 5.04391 2.63303 5.05235C3.37382 5.22866 3.97146 5.8249 4.15666 6.57225Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "491iqh"
+    }
+  ]
+];
+var SparklesFill = createFoamicon("SparklesFill", __iconNode410);
+
+// src/icons/Sparkles.tsx
+var __iconNode411 = [
+  [
+    "path",
+    {
+      d: "M13.9384 6.70777C12.5484 6.42112 11.4686 5.3319 11.1814 3.94452C11.1699 3.87574 11.1125 3.82983 11.032 3.82983C10.9631 3.82983 10.9057 3.87566 10.8827 3.94452C10.5955 5.33192 9.50417 6.42112 8.12565 6.70777C8.05674 6.7192 8.01074 6.77655 8.01074 6.85684C8.01074 6.92563 8.05666 6.98297 8.12565 7.00592C9.51568 7.29257 10.5955 8.38179 10.8827 9.7577C10.8941 9.82648 10.9516 9.87239 11.032 9.87239C11.1009 9.87239 11.1584 9.82656 11.1814 9.7577C11.4686 8.37031 12.5599 7.29257 13.9384 7.00592C14.0073 6.99449 14.0533 6.93714 14.0533 6.85684C14.0533 6.77655 14.0074 6.7192 13.9384 6.70777Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "x65otq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.92679 11.0555C6.9038 10.8451 6.1023 10.0454 5.89135 9.01436C5.88083 8.96173 5.8386 8.93018 5.78586 8.93018C5.73311 8.93018 5.69096 8.96173 5.68036 9.01436C5.46946 10.0454 4.66788 10.8451 3.64493 11.0555C3.59218 11.066 3.56055 11.1081 3.56055 11.1607C3.56055 11.2134 3.59218 11.2554 3.64493 11.266C4.66792 11.4764 5.46942 12.2761 5.68036 13.2966C5.69088 13.3492 5.73311 13.3808 5.78586 13.3808C5.8386 13.3808 5.88076 13.3492 5.89135 13.2966C6.10226 12.276 6.90383 11.4764 7.92679 11.266C7.97954 11.2555 8.01117 11.2134 8.01117 11.1607C8.01117 11.1081 7.97954 11.0661 7.92679 11.0555Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xmp5p1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.15666 6.57225C4.17352 6.62263 4.21562 6.65625 4.26611 6.65625C4.31661 6.65625 4.36711 6.62269 4.37556 6.57225C4.55237 5.8249 5.15839 5.22866 5.8992 5.05235C5.94969 5.03554 5.9834 4.99354 5.9834 4.94316C5.9834 4.89279 5.94975 4.84241 5.8992 4.83398C5.14162 4.64924 4.55231 4.06143 4.37556 3.30568C4.36717 3.2553 4.31661 3.22168 4.26611 3.22168C4.21562 3.22168 4.16512 3.25524 4.15666 3.30568C3.97147 4.0614 3.39062 4.64927 2.63303 4.83398C2.58253 4.85079 2.54883 4.89279 2.54883 4.94316C2.54883 4.99354 2.58247 5.04391 2.63303 5.05235C3.37382 5.22866 3.97146 5.8249 4.15666 6.57225Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a7da2a"
+    }
+  ]
+];
+var Sparkles = createFoamicon("Sparkles", __iconNode411);
+
+// src/icons/SquareDuotone.tsx
+var __iconNode412 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.02087C2.5 3.2021 3.15565 2.53499 3.97435 2.52549C5.02654 2.51329 6.51327 2.5 8 2.5C9.48673 2.5 10.9735 2.51329 12.0256 2.52549C12.8444 2.53499 13.5 3.2021 13.5 4.02087V11.9791C13.5 12.7979 12.8444 13.465 12.0256 13.4745C10.9735 13.4867 9.48673 13.5 8 13.5C6.51327 13.5 5.02654 13.4867 3.97435 13.4745C3.15565 13.465 2.5 12.7979 2.5 11.9791V4.02087Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "tuoih1"
+    }
+  ]
+];
+var SquareDuotone = createFoamicon("SquareDuotone", __iconNode412);
+
+// src/icons/SquareFill.tsx
+var __iconNode413 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.02087C2.5 3.2021 3.15565 2.53499 3.97435 2.52549C5.02654 2.51329 6.51327 2.5 8 2.5C9.48673 2.5 10.9735 2.51329 12.0256 2.52549C12.8444 2.53499 13.5 3.2021 13.5 4.02087V11.9791C13.5 12.7979 12.8444 13.465 12.0256 13.4745C10.9735 13.4867 9.48673 13.5 8 13.5C6.51327 13.5 5.02654 13.4867 3.97435 13.4745C3.15565 13.465 2.5 12.7979 2.5 11.9791V4.02087Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gkp5q1"
+    }
+  ]
+];
+var SquareFill = createFoamicon("SquareFill", __iconNode413);
+
+// src/icons/SquarePenDuotone.tsx
+var __iconNode414 = [
+  [
+    "path",
+    {
+      d: "M8 2H4C2.89543 2 2 2.89543 2 4V12C2 13.1046 2.89543 14 4 14H12C13.1046 14 14 13.1046 14 12V8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "io90oz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 10.9V9.54142C5.5 9.5149 5.51054 9.48946 5.52929 9.47071L11.9293 3.07071C11.9683 3.03166 12.0317 3.03166 12.0707 3.07071L13.4293 4.42929C13.4683 4.46834 13.4683 4.53166 13.4293 4.57071L7.02929 10.9707C7.01054 10.9895 6.9851 11 6.95858 11H5.6C5.54477 11 5.5 10.9552 5.5 10.9Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "76x2rz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 5L11.5 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u77486"
+    }
+  ]
+];
+var SquarePenDuotone = createFoamicon("SquarePenDuotone", __iconNode414);
+
+// src/icons/SquarePenFill.tsx
+var __iconNode415 = [
+  [
+    "path",
+    {
+      d: "M8 2H4C2.89543 2 2 2.89543 2 4V12C2 13.1046 2.89543 14 4 14H12C13.1046 14 14 13.1046 14 12V8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "io90oz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.0707 3.07071L13.4293 4.42929C13.4683 4.46834 13.4683 4.53166 13.4293 4.57071L12.5707 5.42929C12.5317 5.46834 12.4683 5.46834 12.4293 5.42929L11.0707 4.07071C11.0317 4.03166 11.0317 3.96834 11.0707 3.92929L11.9293 3.07071C11.9683 3.03166 12.0317 3.03166 12.0707 3.07071Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "33eha7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 10.9V9.54142C5.5 9.5149 5.51054 9.48946 5.52929 9.47071L9.42929 5.57071C9.46834 5.53166 9.53166 5.53166 9.57071 5.57071L10.9293 6.92929C10.9683 6.96834 10.9683 7.03166 10.9293 7.07071L7.02929 10.9707C7.01054 10.9895 6.9851 11 6.95858 11H5.6C5.54477 11 5.5 10.9552 5.5 10.9Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hdpwau"
+    }
+  ]
+];
+var SquarePenFill = createFoamicon("SquarePenFill", __iconNode415);
+
+// src/icons/SquarePen.tsx
+var __iconNode416 = [
+  [
+    "path",
+    {
+      d: "M8 2H4C2.89543 2 2 2.89543 2 4V12C2 13.1046 2.89543 14 4 14H12C13.1046 14 14 13.1046 14 12V8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "io90oz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 10.9V9.54142C5.5 9.5149 5.51054 9.48946 5.52929 9.47071L11.9293 3.07071C11.9683 3.03166 12.0317 3.03166 12.0707 3.07071L13.4293 4.42929C13.4683 4.46834 13.4683 4.53166 13.4293 4.57071L7.02929 10.9707C7.01054 10.9895 6.9851 11 6.95858 11H5.6C5.54477 11 5.5 10.9552 5.5 10.9Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vn61a0"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 5L11.5 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u77486"
+    }
+  ]
+];
+var SquarePen = createFoamicon("SquarePen", __iconNode416);
+
+// src/icons/Square.tsx
+var __iconNode417 = [
+  [
+    "path",
+    {
+      d: "M2.5 4.02087C2.5 3.2021 3.15565 2.53499 3.97435 2.52549C5.02654 2.51329 6.51327 2.5 8 2.5C9.48673 2.5 10.9735 2.51329 12.0256 2.52549C12.8444 2.53499 13.5 3.2021 13.5 4.02087V11.9791C13.5 12.7979 12.8444 13.465 12.0256 13.4745C10.9735 13.4867 9.48673 13.5 8 13.5C6.51327 13.5 5.02654 13.4867 3.97435 13.4745C3.15565 13.465 2.5 12.7979 2.5 11.9791V4.02087Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e1n8kg"
+    }
+  ]
+];
+var Square = createFoamicon("Square", __iconNode417);
+
+// src/icons/StarDuotone.tsx
+var __iconNode418 = [
+  [
+    "path",
+    {
+      d: "M7.55165 2.56823C7.73507 2.19664 8.26494 2.19664 8.44836 2.56823L9.94378 5.59779C10.0165 5.74521 10.1571 5.84744 10.3198 5.87122L13.6648 6.36014C14.0747 6.42006 14.2381 6.92398 13.9413 7.21306L11.5217 9.56975C11.4038 9.68462 11.35 9.85019 11.3778 10.0125L11.9487 13.3412C12.0188 13.7497 11.59 14.0612 11.2232 13.8683L8.23273 12.2956C8.08704 12.219 7.91297 12.219 7.76728 12.2956L4.77682 13.8683C4.41 14.0612 3.98123 13.7497 4.05129 13.3412L4.62221 10.0125C4.65004 9.85019 4.59621 9.68462 4.47827 9.56975L2.05868 7.21306C1.76188 6.92398 1.92527 6.42006 2.33523 6.36014L5.68019 5.87122C5.84286 5.84744 5.98346 5.74521 6.05623 5.59779L7.55165 2.56823Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "amtsxf"
+    }
+  ]
+];
+var StarDuotone = createFoamicon("StarDuotone", __iconNode418);
+
+// src/icons/StarFill.tsx
+var __iconNode419 = [
+  [
+    "path",
+    {
+      d: "M7.55164 2.56823C7.73506 2.19664 8.26493 2.19664 8.44835 2.56823L9.94377 5.59779C10.0165 5.74521 10.1571 5.84744 10.3198 5.87122L13.6648 6.36014C14.0747 6.42006 14.2381 6.92398 13.9413 7.21306L11.5217 9.56975C11.4038 9.68462 11.35 9.85019 11.3778 10.0125L11.9487 13.3412C12.0188 13.7497 11.59 14.0612 11.2232 13.8683L8.23272 12.2956C8.08703 12.219 7.91296 12.219 7.76727 12.2956L4.77681 13.8683C4.41 14.0612 3.98122 13.7497 4.05128 13.3412L4.6222 10.0125C4.65004 9.85019 4.5962 9.68462 4.47827 9.56975L2.05867 7.21306C1.76187 6.92398 1.92526 6.42006 2.33522 6.36014L5.68018 5.87122C5.84285 5.84744 5.98345 5.74521 6.05622 5.59779L7.55164 2.56823Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "a6hb5m"
+    }
+  ]
+];
+var StarFill = createFoamicon("StarFill", __iconNode419);
+
+// src/icons/Star.tsx
+var __iconNode420 = [
+  [
+    "path",
+    {
+      d: "M7.55165 2.56823C7.73506 2.19664 8.26494 2.19664 8.44835 2.56823L9.94378 5.59779C10.0165 5.74521 10.1571 5.84744 10.3198 5.87122L13.6648 6.36014C14.0747 6.42006 14.2381 6.92398 13.9413 7.21306L11.5217 9.56975C11.4038 9.68462 11.35 9.85019 11.3778 10.0125L11.9487 13.3412C12.0188 13.7497 11.59 14.0612 11.2232 13.8683L8.23273 12.2956C8.08703 12.219 7.91297 12.219 7.76727 12.2956L4.77682 13.8683C4.41 14.0612 3.98123 13.7497 4.05129 13.3412L4.62221 10.0125C4.65004 9.85019 4.59621 9.68462 4.47827 9.56975L2.05867 7.21306C1.76188 6.92398 1.92527 6.42006 2.33523 6.36014L5.68018 5.87122C5.84286 5.84744 5.98345 5.74521 6.05622 5.59779L7.55165 2.56823Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "uhb8ky"
+    }
+  ]
+];
+var Star = createFoamicon("Star", __iconNode420);
+
+// src/icons/SunDuotone.tsx
+var __iconNode421 = [
+  [
+    "path",
+    {
+      d: "M8 1.5V2.5M8 13.5V14.5M11.5 11.5L12.5 12.5M3.5 3.5L4.5 4.5M1.5 8H2.5M3.5 12.5L4.5 11.5M14.5 8H13.5M12.5 3.5L11.5 4.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "tq615n"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "2.5",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "q40si0"
+    }
+  ]
+];
+var SunDuotone = createFoamicon("SunDuotone", __iconNode421);
+
+// src/icons/SunFill.tsx
+var __iconNode422 = [
+  [
+    "path",
+    {
+      d: "M8 1.5V2.5M8 13.5V14.5M11.5 11.5L12.5 12.5M3.5 3.5L4.5 4.5M1.5 8H2.5M3.5 12.5L4.5 11.5M14.5 8H13.5M12.5 3.5L11.5 4.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "tq615n"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "2.5",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "l0q7tg"
+    }
+  ]
+];
+var SunFill = createFoamicon("SunFill", __iconNode422);
+
+// src/icons/Sun.tsx
+var __iconNode423 = [
+  [
+    "path",
+    {
+      d: "M8 1.5V2.5M8 13.5V14.5M11.5 11.5L12.5 12.5M3.5 3.5L4.5 4.5M1.5 8H2.5M3.5 12.5L4.5 11.5M14.5 8H13.5M12.5 3.5L11.5 4.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "tq615n"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "8",
+      r: "2.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "vks6ur"
+    }
+  ]
+];
+var Sun = createFoamicon("Sun", __iconNode423);
+
+// src/icons/TextAlignCenterDuotone.tsx
+var __iconNode424 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 4H12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v7ou3i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 12H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4n2448"
+    }
+  ]
+];
+var TextAlignCenterDuotone = createFoamicon("TextAlignCenterDuotone", __iconNode424);
+
+// src/icons/TextAlignCenterFill.tsx
+var __iconNode425 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 4H12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v7ou3i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 12H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4n2448"
+    }
+  ]
+];
+var TextAlignCenterFill = createFoamicon("TextAlignCenterFill", __iconNode425);
+
+// src/icons/TextAlignCenter.tsx
+var __iconNode426 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 4H12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v7ou3i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 12H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4n2448"
+    }
+  ]
+];
+var TextAlignCenter = createFoamicon("TextAlignCenter", __iconNode426);
+
+// src/icons/TextAlignEndDuotone.tsx
+var __iconNode427 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 4H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t4sq75"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 12H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ecqssy"
+    }
+  ]
+];
+var TextAlignEndDuotone = createFoamicon("TextAlignEndDuotone", __iconNode427);
+
+// src/icons/TextAlignEndFill.tsx
+var __iconNode428 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 4H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t4sq75"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 12H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ecqssy"
+    }
+  ]
+];
+var TextAlignEndFill = createFoamicon("TextAlignEndFill", __iconNode428);
+
+// src/icons/TextAlignEnd.tsx
+var __iconNode429 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 4H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t4sq75"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 12H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ecqssy"
+    }
+  ]
+];
+var TextAlignEnd = createFoamicon("TextAlignEnd", __iconNode429);
+
+// src/icons/TextAlignJustifyDuotone.tsx
+var __iconNode430 = [
+  [
+    "path",
+    {
+      d: "M2 4H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vs6ct9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yh4ezs"
+    }
+  ]
+];
+var TextAlignJustifyDuotone = createFoamicon("TextAlignJustifyDuotone", __iconNode430);
+
+// src/icons/TextAlignJustifyFill.tsx
+var __iconNode431 = [
+  [
+    "path",
+    {
+      d: "M2 4H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vs6ct9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yh4ezs"
+    }
+  ]
+];
+var TextAlignJustifyFill = createFoamicon("TextAlignJustifyFill", __iconNode431);
+
+// src/icons/TextAlignJustify.tsx
+var __iconNode432 = [
+  [
+    "path",
+    {
+      d: "M2 4H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vs6ct9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yh4ezs"
+    }
+  ]
+];
+var TextAlignJustify = createFoamicon("TextAlignJustify", __iconNode432);
+
+// src/icons/TextAlignStartDuotone.tsx
+var __iconNode433 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ayv91d"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fuc7ej"
+    }
+  ]
+];
+var TextAlignStartDuotone = createFoamicon("TextAlignStartDuotone", __iconNode433);
+
+// src/icons/TextAlignStartFill.tsx
+var __iconNode434 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ayv91d"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fuc7ej"
+    }
+  ]
+];
+var TextAlignStartFill = createFoamicon("TextAlignStartFill", __iconNode434);
+
+// src/icons/TextAlignStart.tsx
+var __iconNode435 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ayv91d"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fuc7ej"
+    }
+  ]
+];
+var TextAlignStart = createFoamicon("TextAlignStart", __iconNode435);
+
+// src/icons/ThumbsDownDuotone.tsx
+var __iconNode436 = [
+  [
+    "path",
+    {
+      d: "M3.79033 9.67211L3.82714 9.67211L6.47534 9.67211C6.64082 9.67211 6.75113 9.8009 6.75113 9.94791L6.75113 12.4306C6.75113 13.5524 7.92809 13.6076 8.49815 13.5708C8.66363 13.5524 8.77395 13.4236 8.75561 13.2582C8.59013 10.0399 10.2085 9.01007 11.0544 8.69744C11.3486 8.58699 11.5326 8.31118 11.5326 7.99859L11.5326 3.97117C11.5326 2.49994 10.0613 2.49994 10.0613 2.49994L4.91213 2.49994C4.17659 2.49994 3.44089 3.05167 3.56969 3.56656C3.60651 3.7137 3.56969 3.86083 3.51453 3.9895L3.29389 4.39408C3.20191 4.57803 3.18357 4.78033 3.29389 4.96413C3.38587 5.14809 3.38587 5.36871 3.27555 5.55268L2.98128 6.03079C2.8893 6.15958 2.87096 6.32506 2.90777 6.47218L3.01809 6.96874C3.07325 7.17104 2.99975 7.37332 2.87095 7.52048L2.687 7.70443C2.59503 7.79641 2.53987 7.92507 2.52152 8.05387C2.3191 9.41467 3.60649 9.6353 3.79033 9.67211Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "l9jffr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.1621 8.57837L13.403 8.57837C13.7627 8.57837 14.0326 8.29968 14.0326 7.96874L14.0326 3.10963C14.0326 2.76134 13.7448 2.5 13.403 2.5L12.1621 2.5C11.8024 2.5 11.5326 2.77869 11.5326 3.10963L11.5326 7.96874C11.5326 8.29956 11.8203 8.57837 12.1621 8.57837Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6pqz3j"
+    }
+  ]
+];
+var ThumbsDownDuotone = createFoamicon("ThumbsDownDuotone", __iconNode436);
+
+// src/icons/ThumbsDownFill.tsx
+var __iconNode437 = [
+  [
+    "path",
+    {
+      d: "M3.79033 9.67211L3.82714 9.67211L6.47534 9.67211C6.64082 9.67211 6.75113 9.8009 6.75113 9.94791L6.75113 12.4306C6.75113 13.5524 7.92809 13.6076 8.49815 13.5708C8.66363 13.5524 8.77395 13.4236 8.75561 13.2582C8.59013 10.0399 10.2085 9.01007 11.0544 8.69744C11.3486 8.58699 11.5326 8.31118 11.5326 7.99859L11.5326 3.97117C11.5326 2.49994 10.0613 2.49994 10.0613 2.49994L4.91213 2.49994C4.17659 2.49994 3.44089 3.05167 3.56969 3.56656C3.60651 3.7137 3.56969 3.86083 3.51453 3.9895L3.29389 4.39408C3.20191 4.57803 3.18357 4.78033 3.29389 4.96413C3.38587 5.14809 3.38587 5.36871 3.27555 5.55268L2.98128 6.03079C2.8893 6.15958 2.87096 6.32506 2.90777 6.47218L3.01809 6.96874C3.07325 7.17104 2.99975 7.37332 2.87095 7.52048L2.687 7.70443C2.59503 7.79641 2.53987 7.92507 2.52152 8.05387C2.3191 9.41467 3.60649 9.6353 3.79033 9.67211Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y2uqtp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.1621 8.57837L13.403 8.57837C13.7627 8.57837 14.0326 8.29968 14.0326 7.96874L14.0326 3.10963C14.0326 2.76134 13.7448 2.5 13.403 2.5L12.1621 2.5C11.8024 2.5 11.5326 2.77869 11.5326 3.10963L11.5326 7.96874C11.5326 8.29956 11.8203 8.57837 12.1621 8.57837Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6pqz3j"
+    }
+  ]
+];
+var ThumbsDownFill = createFoamicon("ThumbsDownFill", __iconNode437);
+
+// src/icons/ThumbsDown.tsx
+var __iconNode438 = [
+  [
+    "path",
+    {
+      d: "M3.79033 9.67211L3.82714 9.67211L6.47534 9.67211C6.64082 9.67211 6.75113 9.8009 6.75113 9.94791L6.75113 12.4306C6.75113 13.5524 7.92809 13.6076 8.49815 13.5708C8.66363 13.5524 8.77395 13.4236 8.75561 13.2582C8.59013 10.0399 10.2085 9.01007 11.0544 8.69744C11.3486 8.58699 11.5326 8.31118 11.5326 7.99859L11.5326 3.97117C11.5326 2.49994 10.0613 2.49994 10.0613 2.49994L4.91213 2.49994C4.17659 2.49994 3.44089 3.05167 3.56969 3.56656C3.60651 3.7137 3.56969 3.86083 3.51453 3.9895L3.29389 4.39408C3.20191 4.57803 3.18357 4.78033 3.29389 4.96413C3.38587 5.14809 3.38587 5.36871 3.27555 5.55268L2.98128 6.03079C2.8893 6.15958 2.87096 6.32506 2.90777 6.47218L3.01809 6.96874C3.07325 7.17104 2.99975 7.37332 2.87095 7.52048L2.687 7.70443C2.59503 7.79641 2.53987 7.92507 2.52152 8.05387C2.3191 9.41467 3.60649 9.6353 3.79033 9.67211Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "srdb64"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.1621 8.57837L13.403 8.57837C13.7627 8.57837 14.0326 8.29968 14.0326 7.96874L14.0326 3.10963C14.0326 2.76134 13.7448 2.5 13.403 2.5L12.1621 2.5C11.8024 2.5 11.5326 2.77869 11.5326 3.10963L11.5326 7.96874C11.5326 8.29956 11.8203 8.57837 12.1621 8.57837Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6pqz3j"
+    }
+  ]
+];
+var ThumbsDown = createFoamicon("ThumbsDown", __iconNode438);
+
+// src/icons/ThumbsUpDuotone.tsx
+var __iconNode439 = [
+  [
+    "path",
+    {
+      d: "M12.7422 6.40626L12.7054 6.40626L10.0572 6.40626C9.89175 6.40626 9.78143 6.27747 9.78143 6.13046L9.78143 3.64775C9.78143 2.52596 8.60447 2.47079 8.03441 2.5076C7.86893 2.52594 7.75861 2.65473 7.77696 2.82021C7.94244 6.03846 6.32408 7.0683 5.47821 7.38093C5.18394 7.49138 5 7.76719 5 8.07979L5 12.1072C5 13.5784 6.47123 13.5784 6.47123 13.5784L11.6204 13.5784C12.356 13.5784 13.0917 13.0267 12.9629 12.5118C12.9261 12.3647 12.9629 12.2175 13.018 12.0889L13.2387 11.6843C13.3306 11.5003 13.349 11.298 13.2387 11.1142C13.1467 10.9303 13.1467 10.7097 13.257 10.5257L13.5513 10.0476C13.6433 9.91879 13.6616 9.75331 13.6248 9.60619L13.5145 9.10963C13.4593 8.90733 13.5328 8.70505 13.6616 8.55789L13.8456 8.37394C13.9375 8.28197 13.9927 8.1533 14.011 8.0245C14.2135 6.6637 12.9261 6.44307 12.7422 6.40626Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "72au78"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.37048 7.5L3.12952 7.5C2.76986 7.5 2.5 7.77869 2.5 8.10963L2.5 12.9687C2.5 13.317 2.78778 13.5784 3.12952 13.5784L4.37048 13.5784C4.73014 13.5784 5 13.2997 5 12.9687L5 8.10963C5 7.77882 4.71222 7.5 4.37048 7.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wlox6g"
+    }
+  ]
+];
+var ThumbsUpDuotone = createFoamicon("ThumbsUpDuotone", __iconNode439);
+
+// src/icons/ThumbsUpFill.tsx
+var __iconNode440 = [
+  [
+    "path",
+    {
+      d: "M12.7422 6.40626L12.7054 6.40626L10.0572 6.40626C9.89175 6.40626 9.78143 6.27747 9.78143 6.13046L9.78143 3.64775C9.78143 2.52596 8.60447 2.47079 8.03441 2.5076C7.86893 2.52594 7.75861 2.65473 7.77696 2.82021C7.94244 6.03846 6.32408 7.0683 5.47821 7.38093C5.18394 7.49138 5 7.76719 5 8.07979L5 12.1072C5 13.5784 6.47123 13.5784 6.47123 13.5784L11.6204 13.5784C12.356 13.5784 13.0917 13.0267 12.9629 12.5118C12.9261 12.3647 12.9629 12.2175 13.018 12.0889L13.2387 11.6843C13.3306 11.5003 13.349 11.298 13.2387 11.1142C13.1467 10.9303 13.1467 10.7097 13.257 10.5257L13.5513 10.0476C13.6433 9.91879 13.6616 9.75331 13.6248 9.60619L13.5145 9.10963C13.4593 8.90733 13.5328 8.70505 13.6616 8.55789L13.8456 8.37394C13.9375 8.28197 13.9927 8.1533 14.011 8.0245C14.2135 6.6637 12.9261 6.44307 12.7422 6.40626Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "b1geyg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.37048 7.5L3.12952 7.5C2.76986 7.5 2.5 7.77869 2.5 8.10963L2.5 12.9687C2.5 13.317 2.78778 13.5784 3.12952 13.5784L4.37048 13.5784C4.73014 13.5784 5 13.2997 5 12.9687L5 8.10963C5 7.77882 4.71222 7.5 4.37048 7.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wlox6g"
+    }
+  ]
+];
+var ThumbsUpFill = createFoamicon("ThumbsUpFill", __iconNode440);
+
+// src/icons/ThumbsUp.tsx
+var __iconNode441 = [
+  [
+    "path",
+    {
+      d: "M12.7422 6.40626L12.7054 6.40626L10.0572 6.40626C9.89175 6.40626 9.78143 6.27747 9.78143 6.13046L9.78143 3.64775C9.78143 2.52596 8.60447 2.47079 8.03441 2.5076C7.86893 2.52594 7.75861 2.65473 7.77696 2.82021C7.94244 6.03846 6.32408 7.0683 5.47821 7.38093C5.18394 7.49138 5 7.76719 5 8.07979L5 12.1072C5 13.5784 6.47123 13.5784 6.47123 13.5784L11.6204 13.5784C12.356 13.5784 13.0917 13.0267 12.9629 12.5118C12.9261 12.3647 12.9629 12.2175 13.018 12.0889L13.2387 11.6843C13.3306 11.5003 13.349 11.298 13.2387 11.1142C13.1467 10.9303 13.1467 10.7097 13.257 10.5257L13.5513 10.0476C13.6433 9.91879 13.6616 9.75331 13.6248 9.60619L13.5145 9.10963C13.4593 8.90733 13.5328 8.70505 13.6616 8.55789L13.8456 8.37394C13.9375 8.28197 13.9927 8.1533 14.011 8.0245C14.2135 6.6637 12.9261 6.44307 12.7422 6.40626Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cqsug1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.37048 7.5L3.12952 7.5C2.76986 7.5 2.5 7.77869 2.5 8.10963L2.5 12.9687C2.5 13.317 2.78778 13.5784 3.12952 13.5784L4.37048 13.5784C4.73014 13.5784 5 13.2997 5 12.9687L5 8.10963C5 7.77882 4.71222 7.5 4.37048 7.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wlox6g"
+    }
+  ]
+];
+var ThumbsUp = createFoamicon("ThumbsUp", __iconNode441);
+
+// src/icons/TrashDuotone.tsx
+var __iconNode442 = [
+  [
+    "path",
+    {
+      d: "M5.40012 14.5H10.5999C11.3883 14.5 12.0421 13.8897 12.0963 13.1032L12.7221 4.0297C12.7232 4.01297 12.7371 4 12.7539 4H3.28125C3.27834 4 3.27603 4.00247 3.27623 4.00537L3.90367 13.1032C3.95791 13.8897 4.61174 14.5 5.40012 14.5Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "4wxh41"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 4H3.28125M13.5 4H12.7539M3.28125 4H12.7539M3.28125 4C3.27834 4 3.27603 4.00247 3.27623 4.00537L3.90367 13.1032C3.95791 13.8897 4.61174 14.5 5.40012 14.5H10.5999C11.3883 14.5 12.0421 13.8897 12.0963 13.1032L12.7221 4.0297C12.7232 4.01297 12.7371 4 12.7539 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d9hg1e"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 4V3.5C10.5 2.39543 9.60457 1.5 8.5 1.5H7.5C6.39543 1.5 5.5 2.39543 5.5 3.5V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lygiua"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 12L10 6M6.5 12L6 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vfwkc4"
+    }
+  ]
+];
+var TrashDuotone = createFoamicon("TrashDuotone", __iconNode442);
+
+// src/icons/TrashEmptyDuotone.tsx
+var __iconNode443 = [
+  [
+    "path",
+    {
+      d: "M5.40012 14.5H10.5999C11.3883 14.5 12.0421 13.8897 12.0963 13.1032L12.7221 4.0297C12.7232 4.01297 12.7371 4 12.7539 4H3.28125C3.27834 4 3.27603 4.00247 3.27623 4.00537L3.90367 13.1032C3.95791 13.8897 4.61174 14.5 5.40012 14.5Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "4wxh41"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 4H3.28125M13.5 4H12.7539M3.28125 4H12.7539M3.28125 4C3.27834 4 3.27603 4.00247 3.27623 4.00537L3.90367 13.1032C3.95791 13.8897 4.61174 14.5 5.40012 14.5H10.5999C11.3883 14.5 12.0421 13.8897 12.0963 13.1032L12.7221 4.0297C12.7232 4.01297 12.7371 4 12.7539 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d9hg1e"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 4V3.5C10.5 2.39543 9.60457 1.5 8.5 1.5H7.5C6.39543 1.5 5.5 2.39543 5.5 3.5V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lygiua"
+    }
+  ]
+];
+var TrashEmptyDuotone = createFoamicon("TrashEmptyDuotone", __iconNode443);
+
+// src/icons/TrashEmptyFill.tsx
+var __iconNode444 = [
+  [
+    "path",
+    {
+      d: "M5.40012 14.5H10.5999C11.3883 14.5 12.0421 13.8897 12.0963 13.1032L12.7221 4.0297C12.7232 4.01297 12.7371 4 12.7539 4H3.28125C3.27834 4 3.27603 4.00247 3.27623 4.00537L3.90367 13.1032C3.95791 13.8897 4.61174 14.5 5.40012 14.5Z",
+      fill: "currentColor",
+      key: "vz5ftl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 4H3.28125M13.5 4H12.7539M3.28125 4H12.7539M3.28125 4C3.27834 4 3.27603 4.00247 3.27623 4.00537L3.90367 13.1032C3.95791 13.8897 4.61174 14.5 5.40012 14.5H10.5999C11.3883 14.5 12.0421 13.8897 12.0963 13.1032L12.7221 4.0297C12.7232 4.01297 12.7371 4 12.7539 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d9hg1e"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 4V3.5C10.5 2.39543 9.60457 1.5 8.5 1.5H7.5C6.39543 1.5 5.5 2.39543 5.5 3.5V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lygiua"
+    }
+  ]
+];
+var TrashEmptyFill = createFoamicon("TrashEmptyFill", __iconNode444);
+
+// src/icons/TrashEmpty.tsx
+var __iconNode445 = [
+  [
+    "path",
+    {
+      d: "M2.5 4H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4b0t9a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.27586 4L3.90367 13.1032C3.95791 13.8897 4.61174 14.5 5.40011 14.5H10.5999C11.3883 14.5 12.0421 13.8897 12.0963 13.1032L12.7241 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kzftu7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 4V3.5C10.5 2.39543 9.60457 1.5 8.5 1.5H7.5C6.39543 1.5 5.5 2.39543 5.5 3.5V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lygiua"
+    }
+  ]
+];
+var TrashEmpty = createFoamicon("TrashEmpty", __iconNode445);
+
+// src/icons/TrashFill.tsx
+var __iconNode446 = [
+  [
+    "path",
+    {
+      d: "M5.40012 14.5H10.5999C11.3883 14.5 12.0421 13.8897 12.0963 13.1032L12.7221 4.0297C12.7232 4.01297 12.7371 4 12.7539 4H3.28125C3.27834 4 3.27603 4.00247 3.27623 4.00537L3.90367 13.1032C3.95791 13.8897 4.61174 14.5 5.40012 14.5Z",
+      fill: "currentColor",
+      key: "vz5ftl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.5 4H3.28125M13.5 4H12.7539M3.28125 4H12.7539M3.28125 4C3.27834 4 3.27603 4.00247 3.27623 4.00537L3.90367 13.1032C3.95791 13.8897 4.61174 14.5 5.40012 14.5H10.5999C11.3883 14.5 12.0421 13.8897 12.0963 13.1032L12.7221 4.0297C12.7232 4.01297 12.7371 4 12.7539 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "d9hg1e"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 4V3.5C10.5 2.39543 9.60457 1.5 8.5 1.5H7.5C6.39543 1.5 5.5 2.39543 5.5 3.5V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lygiua"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 12L10 6M6.5 12L6 6",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rr8zqz"
+    }
+  ]
+];
+var TrashFill = createFoamicon("TrashFill", __iconNode446);
+
+// src/icons/Trash.tsx
+var __iconNode447 = [
+  [
+    "path",
+    {
+      d: "M2.5 4H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4b0t9a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.27586 4L3.90367 13.1032C3.95791 13.8897 4.61174 14.5 5.40011 14.5H10.5999C11.3883 14.5 12.0421 13.8897 12.0963 13.1032L12.7241 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kzftu7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 4V3.5C10.5 2.39543 9.60457 1.5 8.5 1.5H7.5C6.39543 1.5 5.5 2.39543 5.5 3.5V4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "lygiua"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 12L10 6M6.5 12L6 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vfwkc4"
+    }
+  ]
+];
+var Trash = createFoamicon("Trash", __iconNode447);
+
+// src/icons/TrendingDownDuotone.tsx
+var __iconNode448 = [
+  [
+    "path",
+    {
+      d: "M14 8V11.15C14 11.2052 13.9552 11.25 13.9 11.25H10.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ffgcst"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.25 4.5L6.17929 8.42929C6.21834 8.46834 6.28166 8.46834 6.32071 8.42929L8.67929 6.07071C8.71834 6.03166 8.78166 6.03166 8.82071 6.07071L13.75 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7ear09"
+    }
+  ]
+];
+var TrendingDownDuotone = createFoamicon("TrendingDownDuotone", __iconNode448);
+
+// src/icons/TrendingDownFill.tsx
+var __iconNode449 = [
+  [
+    "path",
+    {
+      d: "M14 8V11.15C14 11.2052 13.9552 11.25 13.9 11.25H10.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ffgcst"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.25 4.5L6.17929 8.42929C6.21834 8.46834 6.28166 8.46834 6.32071 8.42929L8.67929 6.07071C8.71834 6.03166 8.78166 6.03166 8.82071 6.07071L13.75 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7ear09"
+    }
+  ]
+];
+var TrendingDownFill = createFoamicon("TrendingDownFill", __iconNode449);
+
+// src/icons/TrendingDown.tsx
+var __iconNode450 = [
+  [
+    "path",
+    {
+      d: "M14 8V11.15C14 11.2052 13.9552 11.25 13.9 11.25H10.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ffgcst"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.25 4.5L6.17929 8.42929C6.21834 8.46834 6.28166 8.46834 6.32071 8.42929L8.67929 6.07071C8.71834 6.03166 8.78166 6.03166 8.82071 6.07071L13.75 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7ear09"
+    }
+  ]
+];
+var TrendingDown = createFoamicon("TrendingDown", __iconNode450);
+
+// src/icons/TrendingUpDuotone.tsx
+var __iconNode451 = [
+  [
+    "path",
+    {
+      d: "M14 7.75V4.6C14 4.54477 13.9552 4.5 13.9 4.5H10.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1sqbla"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.25 11.25L6.17929 7.32071C6.21834 7.28166 6.28166 7.28166 6.32071 7.32071L8.67929 9.67929C8.71834 9.71834 8.78166 9.71834 8.82071 9.67929L13.75 4.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l3frjn"
+    }
+  ]
+];
+var TrendingUpDuotone = createFoamicon("TrendingUpDuotone", __iconNode451);
+
+// src/icons/TrendingUpFill.tsx
+var __iconNode452 = [
+  [
+    "path",
+    {
+      d: "M14 7.75V4.6C14 4.54477 13.9552 4.5 13.9 4.5H10.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1sqbla"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.25 11.25L6.17929 7.32071C6.21834 7.28166 6.28166 7.28166 6.32071 7.32071L8.67929 9.67929C8.71834 9.71834 8.78166 9.71834 8.82071 9.67929L13.75 4.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l3frjn"
+    }
+  ]
+];
+var TrendingUpFill = createFoamicon("TrendingUpFill", __iconNode452);
+
+// src/icons/TrendingUp.tsx
+var __iconNode453 = [
+  [
+    "path",
+    {
+      d: "M14 7.75V4.6C14 4.54477 13.9552 4.5 13.9 4.5H10.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1sqbla"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.25 11.25L6.17929 7.32071C6.21834 7.28166 6.28166 7.28166 6.32071 7.32071L8.67929 9.67929C8.71834 9.71834 8.78166 9.71834 8.82071 9.67929L13.75 4.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l3frjn"
+    }
+  ]
+];
+var TrendingUp = createFoamicon("TrendingUp", __iconNode453);
+
+// src/icons/TriangleDownDuotone.tsx
+var __iconNode454 = [
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqq"
+    }
+  ]
+];
+var TriangleDownDuotone = createFoamicon("TriangleDownDuotone", __iconNode454);
+
+// src/icons/TriangleDownFill.tsx
+var __iconNode455 = [
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqq"
+    }
+  ]
+];
+var TriangleDownFill = createFoamicon("TriangleDownFill", __iconNode455);
+
+// src/icons/TriangleDownUpDuotone.tsx
+var __iconNode456 = [
+  [
+    "path",
+    {
+      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
+      fill: "currentColor",
+      key: "1o8qmi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqp"
+    }
+  ]
+];
+var TriangleDownUpDuotone = createFoamicon("TriangleDownUpDuotone", __iconNode456);
+
+// src/icons/TriangleDownUpFill.tsx
+var __iconNode457 = [
+  [
+    "path",
+    {
+      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
+      fill: "currentColor",
+      key: "1o8qmi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqp"
+    }
+  ]
+];
+var TriangleDownUpFill = createFoamicon("TriangleDownUpFill", __iconNode457);
+
+// src/icons/TriangleDownUp.tsx
+var __iconNode458 = [
+  [
+    "path",
+    {
+      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
+      fill: "currentColor",
+      key: "1o8qmi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqp"
+    }
+  ]
+];
+var TriangleDownUp = createFoamicon("TriangleDownUp", __iconNode458);
+
+// src/icons/TriangleDown.tsx
+var __iconNode459 = [
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqq"
+    }
+  ]
+];
+var TriangleDown = createFoamicon("TriangleDown", __iconNode459);
+
+// src/icons/TriangleUpDuotone.tsx
+var __iconNode460 = [
+  [
+    "path",
+    {
+      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
+      fill: "currentColor",
+      key: "1o8qmi"
+    }
+  ]
+];
+var TriangleUpDuotone = createFoamicon("TriangleUpDuotone", __iconNode460);
+
+// src/icons/TriangleUpFill.tsx
+var __iconNode461 = [
+  [
+    "path",
+    {
+      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
+      fill: "currentColor",
+      key: "1o8qmi"
+    }
+  ]
+];
+var TriangleUpFill = createFoamicon("TriangleUpFill", __iconNode461);
+
+// src/icons/TriangleUp.tsx
+var __iconNode462 = [
+  [
+    "path",
+    {
+      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
+      fill: "currentColor",
+      key: "1o8qmi"
+    }
+  ]
+];
+var TriangleUp = createFoamicon("TriangleUp", __iconNode462);
+
+// src/icons/UnlinkDuotone.tsx
+var __iconNode463 = [
+  [
+    "path",
+    {
+      d: "M11.88 8.12988L12.7553 7.25159C13.8576 6.1455 13.856 4.35572 12.7518 3.25153C11.6463 2.14598 9.85384 2.146 8.74831 3.25156L7.88001 4.11988M8.12 11.8799L7.24996 12.75C6.14539 13.8546 4.35448 13.8546 3.24989 12.75C2.1453 11.6454 2.14531 9.85452 3.24991 8.74994L4.12 7.87987",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sbs6xb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.84372 6.15601L5.84372 10.156",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "czh5bp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 14V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ml99w1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 10L14 10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5gsaw7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 2L6 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wrf12o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 6L2 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "urubm9"
+    }
+  ]
+];
+var UnlinkDuotone = createFoamicon("UnlinkDuotone", __iconNode463);
+
+// src/icons/UnlinkFill.tsx
+var __iconNode464 = [
+  [
+    "path",
+    {
+      d: "M11.88 8.12988L12.7553 7.25159C13.8576 6.1455 13.856 4.35572 12.7518 3.25153C11.6463 2.14598 9.85384 2.146 8.74831 3.25156L7.88001 4.11988M8.12 11.8799L7.24996 12.75C6.14539 13.8546 4.35448 13.8546 3.24989 12.75C2.1453 11.6454 2.14531 9.85452 3.24991 8.74994L4.12 7.87987",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sbs6xb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.84372 6.15601L5.84372 10.156",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "czh5bp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 14V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ml99w1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 10L14 10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5gsaw7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 2L6 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wrf12o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 6L2 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "urubm9"
+    }
+  ]
+];
+var UnlinkFill = createFoamicon("UnlinkFill", __iconNode464);
+
+// src/icons/Unlink.tsx
+var __iconNode465 = [
+  [
+    "path",
+    {
+      d: "M11.88 8.12988L12.7553 7.25159C13.8576 6.1455 13.856 4.35572 12.7518 3.25153C11.6463 2.14598 9.85384 2.146 8.74831 3.25156L7.88001 4.11988M8.12 11.8799L7.24996 12.75C6.14538 13.8546 4.35448 13.8546 3.24989 12.75C2.1453 11.6454 2.14531 9.85452 3.24991 8.74994L4.12 7.87987",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "xc44by"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.84372 6.15601L5.84372 10.156",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "czh5bp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 14V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ml99w1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 10L14 10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5gsaw7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 2L6 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wrf12o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 6L2 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "urubm9"
+    }
+  ]
+];
+var Unlink = createFoamicon("Unlink", __iconNode465);
+
+// src/icons/UnlockDuotone.tsx
+var __iconNode466 = [
+  [
+    "path",
+    {
+      d: "M8 7.5C9.3645 7.5 10.7295 7.59456 11.6875 7.68066C12.4394 7.74848 13 8.3846 13 9.13965V12.8604C13 13.6154 12.4394 14.2515 11.6875 14.3193C10.7295 14.4054 9.3645 14.5 8 14.5C6.6355 14.5 5.27052 14.4054 4.3125 14.3193C3.56056 14.2515 3 13.6154 3 12.8604V9.13965C3 8.3846 3.56056 7.74848 4.3125 7.68066C5.27052 7.59456 6.6355 7.5 8 7.5ZM8 10C7.44772 10 7 10.4477 7 11C7 11.5523 7.44772 12 8 12C8.55228 12 9 11.5523 9 11C9 10.4477 8.55228 10 8 10Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "3ain7y"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 7.5C9.3645 7.5 10.7295 7.59456 11.6875 7.68066C12.4394 7.74848 13 8.3846 13 9.13965V12.8604C13 13.6154 12.4394 14.2515 11.6875 14.3193C10.7295 14.4054 9.3645 14.5 8 14.5C6.6355 14.5 5.27052 14.4054 4.3125 14.3193C3.56056 14.2515 3 13.6154 3 12.8604V9.13965C3 8.3846 3.56056 7.74848 4.3125 7.68066C5.27052 7.59456 6.6355 7.5 8 7.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fj0r3m"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 11C7 10.4477 7.44772 10 8 10C8.55228 10 9 10.4477 9 11C9 11.5523 8.55228 12 8 12C7.44772 12 7 11.5523 7 11Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1cscgf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.4151 5.33013L9.16509 3.16506C8.47473 1.96933 6.94576 1.55964 5.75002 2.25C4.55429 2.94036 4.1446 4.46933 4.83496 5.66506L5.89436 7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "o4nxyg"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "11",
+      r: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rjhjoa"
+    }
+  ]
+];
+var UnlockDuotone = createFoamicon("UnlockDuotone", __iconNode466);
+
+// src/icons/UnlockFill.tsx
+var __iconNode467 = [
+  [
+    "path",
+    {
+      d: "M8 7.5C9.3645 7.5 10.7295 7.59456 11.6875 7.68066C12.4394 7.74848 13 8.3846 13 9.13965V12.8604C13 13.6154 12.4394 14.2515 11.6875 14.3193C10.7295 14.4054 9.3645 14.5 8 14.5C6.6355 14.5 5.27052 14.4054 4.3125 14.3193C3.56056 14.2515 3 13.6154 3 12.8604V9.13965C3 8.3846 3.56056 7.74848 4.3125 7.68066C5.27052 7.59456 6.6355 7.5 8 7.5ZM8 10C7.44772 10 7 10.4477 7 11C7 11.5523 7.44772 12 8 12C8.55228 12 9 11.5523 9 11C9 10.4477 8.55228 10 8 10Z",
+      fill: "currentColor",
+      key: "4o6qqw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 7.5C9.3645 7.5 10.7295 7.59456 11.6875 7.68066C12.4394 7.74848 13 8.3846 13 9.13965V12.8604C13 13.6154 12.4394 14.2515 11.6875 14.3193C10.7295 14.4054 9.3645 14.5 8 14.5C6.6355 14.5 5.27052 14.4054 4.3125 14.3193C3.56056 14.2515 3 13.6154 3 12.8604V9.13965C3 8.3846 3.56056 7.74848 4.3125 7.68066C5.27052 7.59456 6.6355 7.5 8 7.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fj0r3m"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 11C7 10.4477 7.44772 10 8 10C8.55228 10 9 10.4477 9 11C9 11.5523 8.55228 12 8 12C7.44772 12 7 11.5523 7 11Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1cscgf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.4151 5.33013L9.16509 3.16506C8.47473 1.96933 6.94576 1.55964 5.75002 2.25C4.55429 2.94036 4.1446 4.46933 4.83496 5.66506L5.89436 7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "o4nxyg"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "11",
+      r: "1",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kkejsx"
+    }
+  ]
+];
+var UnlockFill = createFoamicon("UnlockFill", __iconNode467);
+
+// src/icons/Unlock.tsx
+var __iconNode468 = [
+  [
+    "path",
+    {
+      d: "M10.4151 5.33013L9.16509 3.16506C8.47473 1.96933 6.94576 1.55964 5.75002 2.25C4.55429 2.94036 4.1446 4.46933 4.83496 5.66506L5.89436 7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "o4nxyd"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "11",
+      r: "1",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rjhjo7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 9.13937C3 8.38417 3.56081 7.74849 4.31298 7.68089C5.271 7.59479 6.6355 7.5 8 7.5C9.3645 7.5 10.729 7.59479 11.687 7.68089C12.4392 7.74849 13 8.38417 13 9.13937V12.8606C13 13.6158 12.4392 14.2515 11.687 14.3191C10.729 14.4052 9.3645 14.5 8 14.5C6.6355 14.5 5.271 14.4052 4.31298 14.3191C3.56081 14.2515 3 13.6158 3 12.8606V9.13937Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hcpamk"
+    }
+  ]
+];
+var Unlock = createFoamicon("Unlock", __iconNode468);
+
+// src/icons/UploadDuotone.tsx
+var __iconNode469 = [
+  [
+    "path",
+    {
+      d: "M4.3335 6.66667L7.64661 3.35355C7.84187 3.15829 8.15845 3.15829 8.35372 3.35355L11.6668 6.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n06pfr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00024 3.66675L8.00024 10.6667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gpmthe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 11.2727V12.2556C14 12.9972 13.4577 13.6257 12.7208 13.709C11.5676 13.8393 9.78381 14 8 14C6.21619 14 4.43238 13.8393 3.27924 13.709C2.54228 13.6257 2 12.9972 2 12.2556V11.2727",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nk6el5"
+    }
+  ]
+];
+var UploadDuotone = createFoamicon("UploadDuotone", __iconNode469);
+
+// src/icons/UploadFill.tsx
+var __iconNode470 = [
+  [
+    "path",
+    {
+      d: "M4.3335 6.66667L7.64661 3.35355C7.84187 3.15829 8.15845 3.15829 8.35372 3.35355L11.6668 6.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n06pfr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00024 3.66675L8.00024 10.6667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "gpmthe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 11.2727V12.2556C14 12.9972 13.4577 13.6257 12.7208 13.709C11.5676 13.8393 9.78381 14 8 14C6.21619 14 4.43238 13.8393 3.27924 13.709C2.54228 13.6257 2 12.9972 2 12.2556V11.2727",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nk6el5"
+    }
+  ]
+];
+var UploadFill = createFoamicon("UploadFill", __iconNode470);
+
+// src/icons/Upload.tsx
+var __iconNode471 = [
+  [
+    "path",
+    {
+      d: "M4.3335 6.66667L7.64661 3.35355C7.84187 3.15829 8.15845 3.15829 8.35372 3.35355L11.6668 6.66667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n06pfr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.00025 3.66675L8.00024 10.6667",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "w5buar"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 11.2727V12.2556C14 12.9972 13.4577 13.6257 12.7208 13.709C11.5676 13.8393 9.78381 14 8 14C6.21619 14 4.43238 13.8393 3.27924 13.709C2.54228 13.6257 2 12.9972 2 12.2556V11.2727",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nk6el5"
+    }
+  ]
+];
+var Upload = createFoamicon("Upload", __iconNode471);
+
+// src/icons/UserArrowLeftDuotone.tsx
+var __iconNode472 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "880ed"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.0586 8.97523C9.48328 8.65047 8.7918 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.36672 14 8.70355 13.9963 9.01232 13.9897",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yseudj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 12.25H14M10.5 12.25L12.3505 10.3994M10.5 12.25L12.3505 14.1004",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5z9i7z"
+    }
+  ]
+];
+var UserArrowLeftDuotone = createFoamicon("UserArrowLeftDuotone", __iconNode472);
+
+// src/icons/UserArrowLeftFill.tsx
+var __iconNode473 = [
+  [
+    "path",
+    {
+      d: "M10.5 12.25H14M10.5 12.25L12.3505 10.3994M10.5 12.25L12.3505 14.1004",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5z9i81"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 8.97327C9.4247 8.64851 8.73322 8.49805 7.94142 8.49805C5.44142 8.49805 3.94142 9.99805 3.94142 13.748C3.94142 13.748 4.94142 13.998 7.94142 13.998C8.30814 13.998 8.64497 13.9943 8.95374 13.9878",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t6m614"
+    }
+  ]
+];
+var UserArrowLeftFill = createFoamicon("UserArrowLeftFill", __iconNode473);
+
+// src/icons/UserArrowLeftRightDuotone.tsx
+var __iconNode474 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "880ed"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.36672 14 8.70355 13.9963 9.01232 13.9897",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kfe5qe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15 13.25L11.5 13.25M15 13.25L13.1495 15.1006M15 13.25L13.1495 11.3996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wzieu5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 9.24997H13M9.5 9.24997L11.3505 7.39941M9.5 9.24997L11.3505 11.1004",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "izj9x5"
+    }
+  ]
+];
+var UserArrowLeftRightDuotone = createFoamicon("UserArrowLeftRightDuotone", __iconNode474);
+
+// src/icons/UserArrowLeftRightFill.tsx
+var __iconNode475 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.36672 14 8.70355 13.9963 9.01232 13.9897",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kfe5qe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15 13.25L11.5 13.25M15 13.25L13.1495 15.1006M15 13.25L13.1495 11.3996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wzieu5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 9.24997H13M9.5 9.24997L11.3505 7.39941M9.5 9.24997L11.3505 11.1004",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "izj9x5"
+    }
+  ],
+  [
+    "circle",
+    {
+      opacity: "0.5",
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fbuw1w"
+    }
+  ]
+];
+var UserArrowLeftRightFill = createFoamicon("UserArrowLeftRightFill", __iconNode475);
+
+// src/icons/UserArrowLeftRight.tsx
+var __iconNode476 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.36672 14 8.70355 13.9963 9.01232 13.9897",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kfe5qe"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15 13.25L11.5 13.25M15 13.25L13.1495 15.1006M15 13.25L13.1495 11.3996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wzieu5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 9.24997H13M9.5 9.24997L11.3505 7.39941M9.5 9.24997L11.3505 11.1004",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "izj9x5"
+    }
+  ]
+];
+var UserArrowLeftRight = createFoamicon("UserArrowLeftRight", __iconNode476);
+
+// src/icons/UserArrowLeft.tsx
+var __iconNode477 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.0586 8.97523C9.48328 8.65047 8.7918 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.36672 14 8.70355 13.9963 9.01232 13.9897",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yseudj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 12.25H14M10.5 12.25L12.3505 10.3994M10.5 12.25L12.3505 14.1004",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5z9i7z"
+    }
+  ]
+];
+var UserArrowLeft = createFoamicon("UserArrowLeft", __iconNode477);
+
+// src/icons/UserArrowOutUpRightDuotone.tsx
+var __iconNode478 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "880ed"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 13.75C12 13.75 11 14 8 14C5 14 4 13.75 4 13.75C4 10 5.5 8.5 8 8.5C8.27678 8.5 8.5413 8.51839 8.79288 8.55617",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "72b7gg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 8.30865L10.3084 12.0002M14 8.30865L14 10.9257M14 8.30865L11.3831 8.30874",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "60bjkg"
+    }
+  ]
+];
+var UserArrowOutUpRightDuotone = createFoamicon("UserArrowOutUpRightDuotone", __iconNode478);
+
+// src/icons/UserArrowOutUpRightFill.tsx
+var __iconNode479 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 13.75C12 13.75 11 14 8 14C5 14 4 13.75 4 13.75C4 10 5.5 8.5 8 8.5C8.27678 8.5 8.5413 8.51839 8.79288 8.55617",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "72b7gg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 8.30865L10.3084 12.0002M14 8.30865L14 10.9257M14 8.30865L11.3831 8.30874",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "60bjkg"
+    }
+  ]
+];
+var UserArrowOutUpRightFill = createFoamicon("UserArrowOutUpRightFill", __iconNode479);
+
+// src/icons/UserArrowOutUpRight.tsx
+var __iconNode480 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 13.75C12 13.75 11 14 8 14C5 14 4 13.75 4 13.75C4 10 5.5 8.5 8 8.5C8.27678 8.5 8.5413 8.51839 8.79288 8.55617",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "72b7gg"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 8.30865L10.3084 12.0002M14 8.30865L14 10.9257M14 8.30865L11.3831 8.30874",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "60bjkg"
+    }
+  ]
+];
+var UserArrowOutUpRight = createFoamicon("UserArrowOutUpRight", __iconNode480);
+
+// src/icons/UserArrowRightDuotone.tsx
+var __iconNode481 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "880ed"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.0586 8.97523C9.48328 8.65047 8.7918 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.36672 14 8.70355 13.9963 9.01232 13.9897",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yseudj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 12.25L10.5 12.25M14 12.25L12.1495 14.1006M14 12.25L12.1495 10.3996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "adyv37"
+    }
+  ]
+];
+var UserArrowRightDuotone = createFoamicon("UserArrowRightDuotone", __iconNode481);
+
+// src/icons/UserArrowRightFill.tsx
+var __iconNode482 = [
+  [
+    "path",
+    {
+      d: "M14 12.25L10.5 12.25M14 12.25L12.1495 14.1006M14 12.25L12.1495 10.3996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "adyv35"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 8.97327C9.4247 8.64851 8.73322 8.49805 7.94142 8.49805C5.44142 8.49805 3.94142 9.99805 3.94142 13.748C3.94142 13.748 4.94142 13.998 7.94142 13.998C8.30814 13.998 8.64497 13.9943 8.95374 13.9878",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t6m614"
+    }
+  ]
+];
+var UserArrowRightFill = createFoamicon("UserArrowRightFill", __iconNode482);
+
+// src/icons/UserArrowRight.tsx
+var __iconNode483 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.0586 8.97523C9.48328 8.65047 8.7918 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.36672 14 8.70355 13.9963 9.01232 13.9897",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yseudj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 12.25L10.5 12.25M14 12.25L12.1495 14.1006M14 12.25L12.1495 10.3996",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "adyv37"
+    }
+  ]
+];
+var UserArrowRight = createFoamicon("UserArrowRight", __iconNode483);
+
+// src/icons/UserCogDuotone.tsx
+var __iconNode484 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "880ed"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.36887 8.68385C8.95475 8.55932 8.49715 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.17327 14 8.33988 13.9992 8.5 13.9976",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "r8dito"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.951 10L11.2396 10.5M13.549 14.5L13.2604 14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nizqiz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.549 10L13.2604 10.5M10.951 14.5L11.2396 14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t1wd1m"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.8481 12.25L14.1519 12.25M9.65192 12.25L10.2825 12.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g4gkdm"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "12.201",
+      cy: "12.25",
+      r: "1.75",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "5gmp9e"
+    }
+  ]
+];
+var UserCogDuotone = createFoamicon("UserCogDuotone", __iconNode484);
+
+// src/icons/UserCogFill.tsx
+var __iconNode485 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.36887 8.68385C8.95475 8.55932 8.49715 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.17327 14 8.33988 13.9992 8.5 13.9976",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "r8dito"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.951 10L11.2396 10.5M13.549 14.5L13.2604 14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nizqiz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.549 10L13.2604 10.5M10.951 14.5L11.2396 14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t1wd1m"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.8481 12.25L14.1519 12.25M9.65193 12.25L10.2825 12.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vvyzgr"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "12.201",
+      cy: "12.25",
+      r: "1.75",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ssipmg"
+    }
+  ]
+];
+var UserCogFill = createFoamicon("UserCogFill", __iconNode485);
+
+// src/icons/UserCog.tsx
+var __iconNode486 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.36887 8.68385C8.95475 8.55932 8.49715 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.17327 14 8.33988 13.9992 8.5 13.9976",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "r8dito"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.951 10L11.2396 10.5M13.549 14.5L13.2604 14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nizqiz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.549 10L13.2604 10.5M10.951 14.5L11.2396 14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t1wd1m"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.8481 12.25L14.1519 12.25M9.65192 12.25L10.2825 12.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "g4gkdm"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "12.201",
+      cy: "12.25",
+      r: "1.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "9h1wlt"
+    }
+  ]
+];
+var UserCog = createFoamicon("UserCog", __iconNode486);
+
+// src/icons/UserDuotone.tsx
+var __iconNode487 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 13.75C12 10 10.5 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C11 14 12 13.75 12 13.75Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "ruo8hn"
+    }
+  ]
+];
+var UserDuotone = createFoamicon("UserDuotone", __iconNode487);
+
+// src/icons/UserFill.tsx
+var __iconNode488 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hpacsn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 13.75C12 10 10.5 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C11 14 12 13.75 12 13.75Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "mfyd0z"
+    }
+  ]
+];
+var UserFill = createFoamicon("UserFill", __iconNode488);
+
+// src/icons/UserPlusDuotone.tsx
+var __iconNode489 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "880ed"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.0586 8.97523C9.48328 8.65047 8.7918 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.36672 14 8.70355 13.9963 9.01232 13.9897",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yseudj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.25 10.5V14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "77g86o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 12.25H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v36jp1"
+    }
+  ]
+];
+var UserPlusDuotone = createFoamicon("UserPlusDuotone", __iconNode489);
+
+// src/icons/UserPlusFill.tsx
+var __iconNode490 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.25 10.5V14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "77g86p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 12.25H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v36jp2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 8.97327C9.4247 8.64851 8.73322 8.49805 7.94142 8.49805C5.44142 8.49805 3.94142 9.99805 3.94142 13.748C3.94142 13.748 4.94142 13.998 7.94142 13.998C8.30814 13.998 8.64497 13.9943 8.95374 13.9878",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t6m613"
+    }
+  ]
+];
+var UserPlusFill = createFoamicon("UserPlusFill", __iconNode490);
+
+// src/icons/UserPlus.tsx
+var __iconNode491 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.0586 8.97523C9.48328 8.65047 8.7918 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C8.36672 14 8.70355 13.9963 9.01232 13.9897",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yseudj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.25 10.5V14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "77g86o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 12.25H13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v36jp1"
+    }
+  ]
+];
+var UserPlus = createFoamicon("UserPlus", __iconNode491);
+
+// src/icons/User.tsx
+var __iconNode492 = [
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "4.5",
+      r: "2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ldhsbk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 13.75C12 10 10.5 8.5 8 8.5C5.5 8.5 4 10 4 13.75C4 13.75 5 14 8 14C11 14 12 13.75 12 13.75Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hrnxl8"
+    }
+  ]
+];
+var User = createFoamicon("User", __iconNode492);
+
+// src/icons/UsersDuotone.tsx
+var __iconNode493 = [
+  [
+    "circle",
+    {
+      cx: "5.67676",
+      cy: "4.52344",
+      r: "1.72656",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ha37qt"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "11.2344",
+      cy: "4.92725",
+      r: "1.32275",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "adn05m"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.25 13.0227C9.25 9.61364 7.89062 8.25 5.625 8.25C3.35938 8.25 2 9.61364 2 13.0227C2 13.0227 2.90625 13.25 5.625 13.25C8.34375 13.25 9.25 13.0227 9.25 13.0227Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "4yh70r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.1768 8.25C12.8491 8.2502 13.8525 9.25694 13.8525 11.7734C13.8525 11.7734 13.1836 11.9414 11.1768 11.9414C10.2525 11.9414 9.61158 11.9046 9.18945 11.8662C9.10929 11.145 8.94919 10.5439 8.7168 10.0518C9.09529 8.78605 9.9571 8.25 11.1768 8.25Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "r9obgz"
+    }
+  ]
+];
+var UsersDuotone = createFoamicon("UsersDuotone", __iconNode493);
+
+// src/icons/UsersFill.tsx
+var __iconNode494 = [
+  [
+    "circle",
+    {
+      cx: "5.67676",
+      cy: "4.52344",
+      r: "1.72656",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "eglna4"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "11.2344",
+      cy: "4.92725",
+      r: "1.32275",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8t4ss1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.25 13.0227C9.25 9.61364 7.89062 8.25 5.625 8.25C3.35938 8.25 2 9.61364 2 13.0227C2 13.0227 2.90625 13.25 5.625 13.25C8.34375 13.25 9.25 13.0227 9.25 13.0227Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "j9w0th"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.1768 8.25C12.8491 8.2502 13.8525 9.25694 13.8525 11.7734C13.8525 11.7734 13.1836 11.9414 11.1768 11.9414C10.2525 11.9414 9.61158 11.9046 9.18945 11.8662C9.10929 11.145 8.94919 10.5439 8.7168 10.0518C9.09529 8.78605 9.9571 8.25 11.1768 8.25Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hjbe6d"
+    }
+  ]
+];
+var UsersFill = createFoamicon("UsersFill", __iconNode494);
+
+// src/icons/Users.tsx
+var __iconNode495 = [
+  [
+    "circle",
+    {
+      cx: "5.67676",
+      cy: "4.52344",
+      r: "1.72656",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ha37qt"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "11.2344",
+      cy: "4.92725",
+      r: "1.32275",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "adn05m"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.25 13.0227C9.25 9.61364 7.89062 8.25 5.625 8.25C3.35938 8.25 2 9.61364 2 13.0227C2 13.0227 2.90625 13.25 5.625 13.25C8.34375 13.25 9.25 13.0227 9.25 13.0227Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u820ek"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.1768 8.25C12.8491 8.2502 13.8525 9.25694 13.8525 11.7734C13.8525 11.7734 13.1836 11.9414 11.1768 11.9414C10.2525 11.9414 9.61158 11.9046 9.18945 11.8662C9.10929 11.145 8.94919 10.5439 8.7168 10.0518C9.09529 8.78605 9.9571 8.25 11.1768 8.25Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1eawiq"
+    }
+  ]
+];
+var Users = createFoamicon("Users", __iconNode495);
+
+// src/icons/Volume2Duotone.tsx
+var __iconNode496 = [
+  [
+    "path",
+    {
+      d: "M2.55016 5.86327C2.64817 5.61521 2.90004 5.5 3.16676 5.5H4.92157C5.45201 5.5 5.96071 5.28929 6.33579 4.91421L7.5547 3.6953C7.90686 3.34314 8.54843 3.67408 8.48716 4.16833C8.36659 5.14105 8.25 6.47568 8.25 8C8.25 9.52432 8.36659 10.859 8.48716 11.8317C8.54843 12.3259 7.90686 12.6569 7.5547 12.3047L6.33579 11.0858C5.96071 10.7107 5.45201 10.5 4.92157 10.5H3.16676C2.90004 10.5 2.64817 10.3848 2.55016 10.1367C2.41091 9.78429 2.25 9.13211 2.25 8C2.25 6.86789 2.41091 6.21571 2.55016 5.86327Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "3eojwb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.75 3.52783C11.8271 3.59687 11.9025 3.66787 11.9759 3.74075C13.0715 4.82783 13.75 6.3347 13.75 8.00004C13.75 9.66538 13.0715 11.1723 11.9759 12.2593C11.9025 12.3322 11.8271 12.4032 11.75 12.4723",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "aan03v"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5737 5.16699C11.3004 5.89122 11.75 6.89318 11.75 8.00016C11.75 9.10714 11.3004 10.1091 10.5737 10.8333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7hlrh3"
+    }
+  ]
+];
+var Volume2Duotone = createFoamicon("Volume2Duotone", __iconNode496);
+
+// src/icons/Volume2Fill.tsx
+var __iconNode497 = [
+  [
+    "path",
+    {
+      d: "M2.55016 5.86327C2.64817 5.61521 2.90004 5.5 3.16676 5.5H4.92157C5.45201 5.5 5.96071 5.28929 6.33579 4.91421L7.5547 3.6953C7.90686 3.34314 8.54843 3.67408 8.48716 4.16833C8.36659 5.14105 8.25 6.47568 8.25 8C8.25 9.52432 8.36659 10.859 8.48716 11.8317C8.54843 12.3259 7.90686 12.6569 7.5547 12.3047L6.33579 11.0858C5.96071 10.7107 5.45201 10.5 4.92157 10.5H3.16676C2.90004 10.5 2.64817 10.3848 2.55016 10.1367C2.41091 9.78429 2.25 9.13211 2.25 8C2.25 6.86789 2.41091 6.21571 2.55016 5.86327Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "svso8f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.75 3.52783C11.8271 3.59687 11.9025 3.66787 11.9759 3.74075C13.0715 4.82783 13.75 6.3347 13.75 8.00004C13.75 9.66538 13.0715 11.1723 11.9759 12.2593C11.9025 12.3322 11.8271 12.4032 11.75 12.4723",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "aan03v"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5737 5.16699C11.3004 5.89122 11.75 6.89318 11.75 8.00016C11.75 9.10714 11.3004 10.1091 10.5737 10.8333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7hlrh3"
+    }
+  ]
+];
+var Volume2Fill = createFoamicon("Volume2Fill", __iconNode497);
+
+// src/icons/Volume2.tsx
+var __iconNode498 = [
+  [
+    "path",
+    {
+      d: "M2.55016 5.86327C2.64817 5.61521 2.90004 5.5 3.16676 5.5H4.92157C5.45201 5.5 5.96071 5.28929 6.33579 4.91421L7.5547 3.6953C7.90686 3.34314 8.54843 3.67408 8.48716 4.16833C8.36659 5.14105 8.25 6.47568 8.25 8C8.25 9.52432 8.36659 10.859 8.48716 11.8317C8.54843 12.3259 7.90686 12.6569 7.5547 12.3047L6.33579 11.0858C5.96071 10.7107 5.45201 10.5 4.92157 10.5H3.16676C2.90004 10.5 2.64817 10.3848 2.55016 10.1367C2.41091 9.78429 2.25 9.13211 2.25 8C2.25 6.86789 2.41091 6.21571 2.55016 5.86327Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "j5qknq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.75 3.52783C11.8271 3.59687 11.9025 3.66787 11.9759 3.74075C13.0715 4.82783 13.75 6.3347 13.75 8.00004C13.75 9.66538 13.0715 11.1723 11.9759 12.2593C11.9025 12.3322 11.8271 12.4032 11.75 12.4723",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "aan03v"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5737 5.16699C11.3004 5.89122 11.75 6.89318 11.75 8.00016C11.75 9.10714 11.3004 10.1091 10.5737 10.8333",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7hlrh3"
+    }
+  ]
+];
+var Volume2 = createFoamicon("Volume2", __iconNode498);
+
+// src/icons/VolumeOffDuotone.tsx
+var __iconNode499 = [
+  [
+    "path",
+    {
+      d: "M5.75 10.5L7.5547 12.3047C7.90686 12.6569 8.54843 12.3259 8.48716 11.8317C8.36659 10.859 8.25 9.52432 8.25 8L5.75 10.5Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "hyzl2r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.43639 4.60381C8.45299 4.45198 8.46999 4.30693 8.48706 4.16914C8.54831 3.67489 7.90686 3.34314 7.5547 3.6953L6.33579 4.91421C5.96071 5.28929 5.45201 5.5 4.92157 5.5H3.16676C2.90004 5.5 2.64817 5.61521 2.55016 5.86327C2.41091 6.21571 2.25 6.86789 2.25 8C2.25 9.20317 2.43174 9.86428 2.57609 10.1996C2.66438 10.4047 2.87562 10.5 3.09893 10.5M5.75 10.5L7.5547 12.3047C7.90686 12.6569 8.54843 12.3259 8.48716 11.8317C8.36659 10.859 8.25 9.52432 8.25 8L5.75 10.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kp2eoi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.75 12.4721C11.8271 12.403 11.9025 12.332 11.9759 12.2591C13.0715 11.1721 13.75 9.66518 13.75 7.99984C13.75 6.47965 13.1846 5.0915 12.2527 4.03418",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "58kkx5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5737 10.8335C11.3004 10.1093 11.75 9.10731 11.75 8.00033C11.75 7.00843 11.389 6.10086 10.7912 5.40186",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "p12cdp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.6667 2.5L2.5 13.67",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "b7wzx2"
+    }
+  ]
+];
+var VolumeOffDuotone = createFoamicon("VolumeOffDuotone", __iconNode499);
+
+// src/icons/VolumeOffFill.tsx
+var __iconNode500 = [
+  [
+    "path",
+    {
+      d: "M5.75 10.5L7.5547 12.3047C7.90686 12.6569 8.54843 12.3259 8.48716 11.8317C8.36659 10.859 8.25 9.52432 8.25 8L5.75 10.5Z",
+      fill: "currentColor",
+      key: "hxlslj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.43639 4.60381C8.45299 4.45198 8.46999 4.30693 8.48706 4.16914C8.54831 3.67489 7.90686 3.34314 7.5547 3.6953L6.33579 4.91421C5.96071 5.28929 5.45201 5.5 4.92157 5.5H3.16676C2.90004 5.5 2.64817 5.61521 2.55016 5.86327C2.41091 6.21571 2.25 6.86789 2.25 8C2.25 9.20317 2.43174 9.86428 2.57609 10.1996C2.66438 10.4047 2.87562 10.5 3.09893 10.5M5.75 10.5L7.5547 12.3047C7.90686 12.6569 8.54843 12.3259 8.48716 11.8317C8.36659 10.859 8.25 9.52432 8.25 8L5.75 10.5Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "kp2eoi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.75 12.4721C11.8271 12.403 11.9025 12.332 11.9759 12.2591C13.0715 11.1721 13.75 9.66518 13.75 7.99984C13.75 6.47965 13.1846 5.0915 12.2527 4.03418",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "58kkx5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5737 10.8335C11.3004 10.1093 11.75 9.10731 11.75 8.00033C11.75 7.00843 11.389 6.10086 10.7912 5.40186",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "p12cdp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.6667 2.5L2.5 13.67",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "b7wzx2"
+    }
+  ]
+];
+var VolumeOffFill = createFoamicon("VolumeOffFill", __iconNode500);
+
+// src/icons/VolumeOff.tsx
+var __iconNode501 = [
+  [
+    "path",
+    {
+      d: "M5.75 10.5L7.5547 12.3047C7.90686 12.6569 8.54843 12.3259 8.48716 11.8317C8.36659 10.859 8.25 9.52432 8.25 8M8.43639 4.60381C8.45299 4.45198 8.46999 4.30693 8.48706 4.16914C8.54831 3.67489 7.90686 3.34314 7.5547 3.6953L6.33579 4.91421C5.96071 5.28929 5.45201 5.5 4.92157 5.5H3.16676C2.90004 5.5 2.64817 5.61521 2.55016 5.86327C2.41091 6.21571 2.25 6.86789 2.25 8C2.25 9.20317 2.43174 9.86428 2.57609 10.1996C2.66438 10.4047 2.87562 10.5 3.09893 10.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nsurjk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.75 12.4721C11.8271 12.403 11.9025 12.332 11.9759 12.2591C13.0715 11.1721 13.75 9.66518 13.75 7.99984C13.75 6.47965 13.1846 5.0915 12.2527 4.03418",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "58kkx4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5737 10.8335C11.3004 10.1093 11.75 9.10731 11.75 8.00033C11.75 7.00843 11.389 6.10086 10.7912 5.40186",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "p12cdo"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.6667 2.5L2.5 13.67",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "b7wzx1"
+    }
+  ]
+];
+var VolumeOff = createFoamicon("VolumeOff", __iconNode501);
+
+// src/logos/LogoFacebookFill.tsx
+var __iconNode502 = [
+  [
+    "path",
+    {
+      d: "M8 1.33301C11.6817 1.33307 14.6669 4.31825 14.667 8C14.667 11.4085 12.1086 14.2195 8.80762 14.6182V10.0371H10.6113L10.9854 8H8.80762V7.2793C8.80762 7.21195 8.80913 7.14718 8.8125 7.08496C8.86304 6.15282 9.29874 5.78908 10.3232 5.78906L10.7764 5.79492C10.9066 5.79904 11.0141 5.80524 11.0928 5.81348H11.0938V3.9668C10.9446 3.92544 10.6875 3.88361 10.415 3.85254C10.1431 3.82155 9.85563 3.8018 9.64453 3.80176H9.64355C9.36516 3.80177 9.10548 3.8174 8.86426 3.85059C8.7438 3.86717 8.62792 3.88811 8.5166 3.91309C8.29371 3.96308 8.08909 4.03012 7.90234 4.11426C7.85565 4.1353 7.81008 4.15746 7.76562 4.18066C7.67656 4.22713 7.59189 4.27781 7.51172 4.33301C7.47161 4.36062 7.43242 4.38913 7.39453 4.41895C7.09199 4.65697 6.85998 4.96554 6.69531 5.34668C6.61307 5.53702 6.5479 5.74565 6.49902 5.97266C6.42561 6.31371 6.38965 6.69645 6.38965 7.12207V8H5.01465V10.0371H6.38965V14.4707C3.48597 13.7502 1.33301 11.1264 1.33301 8C1.33311 4.31821 4.31827 1.33301 8 1.33301Z",
+      fill: "currentColor",
+      key: "kkh29k"
+    }
+  ]
+];
+var LogoFacebookFill = createFoamicon("LogoFacebookFill", __iconNode502);
+
+// src/logos/LogoFacebook.tsx
+var __iconNode503 = [
+  [
+    "path",
+    {
+      d: "M14.6664 8.00002C14.6664 4.31814 11.6817 1.33333 7.99988 1.33333C4.31808 1.33333 1.33334 4.31814 1.33334 8.00002C1.33334 11.1264 3.48583 13.7499 6.38951 14.4704V10.0374H5.01487V8.00002H6.38951V7.12215C6.38951 4.85308 7.41642 3.80134 9.64411 3.80134C10.0665 3.80134 10.7953 3.88427 11.0934 3.96694V5.81361C10.9361 5.79708 10.6628 5.78881 10.3233 5.78881C9.23025 5.78881 8.80786 6.20295 8.80786 7.27948V8.00002H10.9854L10.6113 10.0374H8.80786V14.6179C12.1089 14.2192 14.6667 11.4086 14.6667 8.00002H14.6664Z",
+      fill: "#0866FF",
+      key: "80vwu6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.611 10.0373L10.9852 7.99998H8.80761V7.27945C8.80761 6.20291 9.23 5.78878 10.323 5.78878C10.6625 5.78878 10.9358 5.79704 11.0932 5.81358V3.9669C10.795 3.88397 10.0663 3.8013 9.64386 3.8013C7.41617 3.8013 6.38926 4.85304 6.38926 7.12211V7.99998H5.01462V10.0373H6.38926V14.4704C6.90498 14.5984 7.44444 14.6667 7.99963 14.6667C8.27295 14.6667 8.54255 14.6499 8.80734 14.6179V10.0373H10.6108H10.611Z",
+      fill: "white",
+      key: "hocdf2"
+    }
+  ]
+];
+var LogoFacebook = createFoamicon("LogoFacebook", __iconNode503);
+
+// src/logos/LogoFileDark.tsx
+var __iconNode504 = [
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H9L11 3L13 5V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "#8B94A2",
+      key: "o22iyk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8H13V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V8Z",
+      fill: "#DEE2E8",
+      key: "2ltxjh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 1L11 3L13 5H10C9.44772 5 9 4.55228 9 4V1Z",
+      fill: "#DEE2E8",
+      key: "8wo54q"
+    }
+  ]
+];
+var LogoFileDark = createFoamicon("LogoFileDark", __iconNode504);
+
+// src/logos/LogoFilePdfDark.tsx
+var __iconNode505 = [
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H9L11 3L13 5V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "#8B94A2",
+      key: "o22iyk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8H13V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V8Z",
+      fill: "#EF4444",
+      key: "79xryl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 1L11 3L13 5H10C9.44772 5 9 4.55228 9 4V1Z",
+      fill: "#DEE2E8",
+      key: "8wo54q"
+    }
+  ]
+];
+var LogoFilePdfDark = createFoamicon("LogoFilePdfDark", __iconNode505);
+
+// src/logos/LogoFilePdf.tsx
+var __iconNode506 = [
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H9L11 3L13 5V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "#DEE2E8",
+      key: "npk2nj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8H13V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V8Z",
+      fill: "#EF4444",
+      key: "79xryl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 1L11 3L13 5H10C9.44772 5 9 4.55228 9 4V1Z",
+      fill: "#8B94A2",
+      key: "w65lhr"
+    }
+  ]
+];
+var LogoFilePdf = createFoamicon("LogoFilePdf", __iconNode506);
+
+// src/logos/LogoFileSheetDark.tsx
+var __iconNode507 = [
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H9L11 3L13 5V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "#8B94A2",
+      key: "o22iyk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8H13V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V8Z",
+      fill: "#107C42",
+      key: "rincwr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 1L11 3L13 5H10C9.44772 5 9 4.55228 9 4V1Z",
+      fill: "#DEE2E8",
+      key: "8wo54q"
+    }
+  ]
+];
+var LogoFileSheetDark = createFoamicon("LogoFileSheetDark", __iconNode507);
+
+// src/logos/LogoFileSheet.tsx
+var __iconNode508 = [
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H9L11 3L13 5V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "#DEE2E8",
+      key: "npk2nj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8H13V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V8Z",
+      fill: "#107C42",
+      key: "rincwr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 1L11 3L13 5H10C9.44772 5 9 4.55228 9 4V1Z",
+      fill: "#8B94A2",
+      key: "w65lhr"
+    }
+  ]
+];
+var LogoFileSheet = createFoamicon("LogoFileSheet", __iconNode508);
+
+// src/logos/LogoFile.tsx
+var __iconNode509 = [
+  [
+    "path",
+    {
+      d: "M3 2C3 1.44772 3.44772 1 4 1H9L11 3L13 5V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V2Z",
+      fill: "#DEE2E8",
+      key: "npk2nj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 8H13V14C13 14.5523 12.5523 15 12 15H4C3.44772 15 3 14.5523 3 14V8Z",
+      fill: "#8B94A2",
+      key: "knnitk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9 1L11 3L13 5H10C9.44772 5 9 4.55228 9 4V1Z",
+      fill: "#8B94A2",
+      key: "w65lhr"
+    }
+  ]
+];
+var LogoFile = createFoamicon("LogoFile", __iconNode509);
+
+// src/logos/LogoFoamDark.tsx
+var __iconNode510 = [
+  [
+    "rect",
+    {
+      x: "1",
+      y: "1",
+      width: "14",
+      height: "14",
+      rx: "3",
+      stroke: "white",
+      key: "tao10c"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.83301 3.23084H10.3067C10.9657 3.23089 11.4999 3.76512 11.5 4.42409C11.5 5.08311 10.9658 5.61729 10.3067 5.61735H6.8865V6.8106H8.69347C9.35234 6.81069 9.88657 7.34498 9.88672 8.00385C9.88672 8.66284 9.35244 9.19701 8.69347 9.1971H6.8865V11.5844C6.88634 12.2433 6.3522 12.7776 5.69325 12.7776C5.03433 12.7776 4.50016 12.2432 4.5 11.5844V4.41574C4.50003 3.75674 5.03425 3.22252 5.69325 3.22249C5.74052 3.22249 5.78718 3.2255 5.83301 3.23084ZM5.69325 10.7489C5.23195 10.7489 4.85775 11.123 4.85775 11.5844C4.85791 12.0455 5.23204 12.4191 5.69325 12.4191C6.15449 12.4191 6.52859 12.0456 6.52875 11.5844C6.52875 11.123 6.15458 10.7489 5.69325 10.7489ZM8.69347 7.1691C8.23223 7.1691 7.85812 7.54264 7.85796 8.00385C7.85796 8.46518 8.23213 8.83935 8.69347 8.83935C9.15472 8.83925 9.52897 8.46512 9.52897 8.00385C9.52882 7.5427 9.15462 7.1692 8.69347 7.1691ZM4.85775 7.15239C5.07299 6.9413 5.36796 6.81061 5.69325 6.8106H6.52875V5.61735H5.69325C5.3679 5.61733 5.073 5.4867 4.85775 5.27555V7.15239ZM10.3067 3.58859C9.84545 3.58859 9.4713 3.96281 9.47125 4.42409C9.47125 4.88543 9.84542 5.2596 10.3067 5.2596C10.768 5.25954 11.1423 4.88539 11.1423 4.42409C11.1422 3.96284 10.768 3.58865 10.3067 3.58859Z",
+      fill: "white",
+      key: "s7k374"
+    }
+  ]
+];
+var LogoFoamDark = createFoamicon("LogoFoamDark", __iconNode510);
+
+// src/logos/LogoFoamFill.tsx
+var __iconNode511 = [
+  [
+    "path",
+    {
+      d: "M12 1C13.6569 1 15 2.34315 15 4V12C15 13.6569 13.6569 15 12 15H4C2.34315 15 1 13.6569 1 12V4C1 2.34315 2.34315 1 4 1H12ZM5.69336 3.22266C5.03436 3.22269 4.50003 3.75702 4.5 4.41602V11.585C4.5004 12.2437 5.03458 12.7773 5.69336 12.7773C6.35211 12.7773 6.88632 12.2436 6.88672 11.585V9.19727H8.69336C9.35233 9.19717 9.88672 8.6629 9.88672 8.00391C9.88651 7.34509 9.3522 6.81064 8.69336 6.81055H6.88672V5.61719H10.3066C10.9656 5.61714 11.5 5.08284 11.5 4.42383C11.4997 3.76506 10.9655 3.2315 10.3066 3.23145H5.83301C5.78721 3.2261 5.74059 3.22266 5.69336 3.22266ZM5.69336 10.749C6.15464 10.7491 6.52832 11.1237 6.52832 11.585C6.52792 12.0459 6.1544 12.4189 5.69336 12.4189C5.2323 12.4189 4.85782 12.0459 4.85742 11.585C4.85742 11.1236 5.23205 10.7491 5.69336 10.749ZM8.69336 7.16895C9.15448 7.16904 9.52909 7.54281 9.5293 8.00391C9.5293 8.46518 9.15461 8.83974 8.69336 8.83984C8.23208 8.83979 7.8584 8.4652 7.8584 8.00391C7.85861 7.54279 8.2322 7.169 8.69336 7.16895ZM4.85742 5.27539C5.07268 5.48655 5.36801 5.61717 5.69336 5.61719H6.52832V6.81055H5.69336C5.36807 6.81056 5.07267 6.94125 4.85742 7.15234V5.27539ZM10.3066 3.58887C10.7677 3.58892 11.1423 3.96277 11.1426 4.42383C11.1426 4.88513 10.7679 5.25971 10.3066 5.25977C9.84536 5.25971 9.47168 4.88513 9.47168 4.42383C9.47197 3.96277 9.84553 3.58893 10.3066 3.58887Z",
+      fill: "currentColor",
+      key: "9c2myl"
+    }
+  ]
+];
+var LogoFoamFill = createFoamicon("LogoFoamFill", __iconNode511);
+
+// src/logos/LogoFoamSymbolDark.tsx
+var __iconNode512 = [
+  [
+    "path",
+    {
+      d: "M5.21387 1.70819H10.9658C11.8131 1.70826 12.4999 2.39512 12.5 3.24237C12.5 4.08968 11.8131 4.77648 10.9658 4.77655H6.56836V6.31073H8.8916C9.73873 6.31085 10.4256 6.9978 10.4258 7.84491C10.4258 8.69218 9.73885 9.37897 8.8916 9.37909H6.56836V12.4484C6.56815 13.2956 5.8814 13.9826 5.03418 13.9826C4.187 13.9826 3.50021 13.2956 3.5 12.4484V3.23163C3.50004 2.38434 4.18689 1.69749 5.03418 1.69745C5.09495 1.69745 5.15494 1.70132 5.21387 1.70819ZM5.03418 11.3742C4.44107 11.3742 3.95996 11.8553 3.95996 12.4484C3.96017 13.0414 4.4412 13.5216 5.03418 13.5217C5.6272 13.5217 6.10819 13.0414 6.1084 12.4484C6.1084 11.8553 5.62732 11.3742 5.03418 11.3742ZM8.8916 6.77167C8.29858 6.77167 7.81758 7.25193 7.81738 7.84491C7.81738 8.43805 8.29846 8.91913 8.8916 8.91913C9.48464 8.919 9.96582 8.43797 9.96582 7.84491C9.96563 7.25201 9.48452 6.77179 8.8916 6.77167ZM3.95996 6.75018C4.2367 6.47878 4.61595 6.31075 5.03418 6.31073H6.1084V4.77655H5.03418C4.61587 4.77653 4.23672 4.60858 3.95996 4.3371V6.75018ZM10.9658 2.16815C10.3727 2.16815 9.89167 2.64928 9.8916 3.24237C9.8916 3.83551 10.3727 4.31659 10.9658 4.31659C11.5589 4.31652 12.04 3.83547 12.04 3.24237C12.04 2.64933 11.5589 2.16822 10.9658 2.16815Z",
+      fill: "white",
+      key: "ie4k9e"
+    }
+  ]
+];
+var LogoFoamSymbolDark = createFoamicon("LogoFoamSymbolDark", __iconNode512);
+
+// src/logos/LogoFoamSymbol.tsx
+var __iconNode513 = [
+  [
+    "path",
+    {
+      d: "M5.21387 1.70819H10.9658C11.8131 1.70826 12.4999 2.39512 12.5 3.24237C12.5 4.08968 11.8131 4.77648 10.9658 4.77655H6.56836V6.31073H8.8916C9.73873 6.31085 10.4256 6.9978 10.4258 7.84491C10.4258 8.69218 9.73885 9.37897 8.8916 9.37909H6.56836V12.4484C6.56815 13.2956 5.8814 13.9826 5.03418 13.9826C4.187 13.9826 3.50021 13.2956 3.5 12.4484V3.23163C3.50004 2.38434 4.18689 1.69749 5.03418 1.69745C5.09495 1.69745 5.15494 1.70132 5.21387 1.70819ZM5.03418 11.3742C4.44107 11.3742 3.95996 11.8553 3.95996 12.4484C3.96017 13.0414 4.4412 13.5216 5.03418 13.5217C5.6272 13.5217 6.10819 13.0414 6.1084 12.4484C6.1084 11.8553 5.62732 11.3742 5.03418 11.3742ZM8.8916 6.77167C8.29858 6.77167 7.81758 7.25193 7.81738 7.84491C7.81738 8.43805 8.29846 8.91913 8.8916 8.91913C9.48464 8.919 9.96582 8.43797 9.96582 7.84491C9.96563 7.25201 9.48452 6.77179 8.8916 6.77167ZM3.95996 6.75018C4.2367 6.47878 4.61595 6.31075 5.03418 6.31073H6.1084V4.77655H5.03418C4.61587 4.77653 4.23672 4.60858 3.95996 4.3371V6.75018ZM10.9658 2.16815C10.3727 2.16815 9.89167 2.64928 9.8916 3.24237C9.8916 3.83551 10.3727 4.31659 10.9658 4.31659C11.5589 4.31652 12.04 3.83547 12.04 3.24237C12.04 2.64933 11.5589 2.16822 10.9658 2.16815Z",
+      fill: "black",
+      key: "38onmg"
+    }
+  ]
+];
+var LogoFoamSymbol = createFoamicon("LogoFoamSymbol", __iconNode513);
+
+// src/logos/LogoFoam.tsx
+var __iconNode514 = [
+  [
+    "rect",
+    {
+      x: "1",
+      y: "1",
+      width: "14",
+      height: "14",
+      rx: "3",
+      stroke: "black",
+      key: "7nut4i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.83301 3.23085H10.3067C10.9657 3.2309 11.4999 3.76513 11.5 4.4241C11.5 5.08312 10.9658 5.6173 10.3067 5.61735H6.8865V6.8106H8.69347C9.35234 6.81069 9.88657 7.34499 9.88672 8.00385C9.88672 8.66284 9.35244 9.19701 8.69347 9.1971H6.8865V11.5844C6.88634 12.2433 6.3522 12.7776 5.69325 12.7776C5.03433 12.7776 4.50016 12.2433 4.5 11.5844V4.41575C4.50003 3.75675 5.03425 3.22253 5.69325 3.22249C5.74052 3.22249 5.78718 3.2255 5.83301 3.23085ZM5.69325 10.7489C5.23195 10.7489 4.85775 11.1231 4.85775 11.5844C4.85791 12.0455 5.23204 12.4191 5.69325 12.4191C6.15449 12.4191 6.52859 12.0456 6.52875 11.5844C6.52875 11.123 6.15458 10.7489 5.69325 10.7489ZM8.69347 7.16911C8.23223 7.16911 7.85812 7.54265 7.85796 8.00385C7.85796 8.46519 8.23213 8.83936 8.69347 8.83936C9.15472 8.83926 9.52897 8.46513 9.52897 8.00385C9.52882 7.54271 9.15462 7.16921 8.69347 7.16911ZM4.85775 7.1524C5.07299 6.94131 5.36796 6.81062 5.69325 6.8106H6.52875V5.61735H5.69325C5.3679 5.61733 5.073 5.48671 4.85775 5.27555V7.1524ZM10.3067 3.5886C9.84545 3.5886 9.4713 3.96281 9.47125 4.4241C9.47125 4.88543 9.84542 5.2596 10.3067 5.2596C10.768 5.25955 11.1423 4.8854 11.1423 4.4241C11.1422 3.96285 10.768 3.58865 10.3067 3.5886Z",
+      fill: "black",
+      key: "xkhbyw"
+    }
+  ]
+];
+var LogoFoam = createFoamicon("LogoFoam", __iconNode514);
+
+// src/logos/LogoGmailFill.tsx
+var __iconNode515 = [
+  [
+    "defs",
+    {
+      key: "defs-0"
+    },
+    [
+      [
+        "clipPath",
+        {
+          id: "clip0_154_17147",
+          key: "defs-0-0"
+        },
+        [
+          [
+            "rect",
+            {
+              width: "13.3333",
+              height: "10",
+              fill: "var(--foamicon-secondary-color, currentColor)",
+              transform: "translate(1.33334 3.33333)",
+              key: "defs-0-0-0"
+            }
+          ]
+        ]
+      ]
+    ]
+  ],
+  [
+    "g",
+    {
+      clipPath: "url(#clip0_154_17147)",
+      key: "qfypva"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.24243 13.3333H4.36365V8.18182L1.33334 5.90909V12.4242C1.33334 12.9273 1.74092 13.3333 2.24243 13.3333Z",
+      fill: "currentColor",
+      key: "srmhgn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.6364 13.3333H13.7576C14.2606 13.3333 14.6667 12.9258 14.6667 12.4242V5.90909L11.6364 8.18182",
+      fill: "currentColor",
+      key: "sczgvt"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.6364 4.24242V8.18182L14.6667 5.90909V4.69697C14.6667 3.57273 13.3834 2.93182 12.4849 3.60606",
+      fill: "currentColor",
+      key: "i5n7uf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.36365 8.18182V4.24242L8.00001 6.9697L11.6364 4.24242V8.18182L8.00001 10.9091",
+      fill: "currentColor",
+      key: "9q92ab"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.33334 4.69697V5.90909L4.36365 8.18182V4.24242L3.51516 3.60606C2.61516 2.93182 1.33334 3.57273 1.33334 4.69697Z",
+      fill: "currentColor",
+      key: "ucmpo9"
+    }
+  ]
+];
+var LogoGmailFill = createFoamicon("LogoGmailFill", __iconNode515);
+
+// src/logos/LogoGmail.tsx
+var __iconNode516 = [
+  [
+    "path",
+    {
+      d: "M2.24243 13.3333H4.36365V8.18182L1.33334 5.90909V12.4242C1.33334 12.9273 1.74092 13.3333 2.24243 13.3333Z",
+      fill: "#4285F4",
+      key: "f7v6zx"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.6364 13.3333H13.7576C14.2606 13.3333 14.6667 12.9258 14.6667 12.4242V5.90909L11.6364 8.18182",
+      fill: "#34A853",
+      key: "a1ti70"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.6364 4.24243V8.18182L14.6667 5.90909V4.69697C14.6667 3.57273 13.3833 2.93182 12.4848 3.60606",
+      fill: "#FBBC04",
+      key: "itaat4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.36365 8.18182V4.24242L8.00001 6.9697L11.6364 4.24242V8.18182L8.00001 10.9091",
+      fill: "#EA4335",
+      key: "vj6gpr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.33334 4.69697V5.90909L4.36365 8.18182V4.24243L3.51516 3.60606C2.61516 2.93182 1.33334 3.57273 1.33334 4.69697Z",
+      fill: "#C5221F",
+      key: "c02ed0"
+    }
+  ]
+];
+var LogoGmail = createFoamicon("LogoGmail", __iconNode516);
+
+// src/logos/LogoGoogleFill.tsx
+var __iconNode517 = [
+  [
+    "path",
+    {
+      d: "M8 1.33301C9.79697 1.33301 11.3064 1.99456 12.4609 3.07031L10.5488 4.98242C9.85792 4.32182 8.97879 3.98535 8 3.98535C6.26365 3.98535 4.79379 5.15766 4.26953 6.7334L4.18066 7.03809C4.10312 7.34757 4.06055 7.67049 4.06055 8C4.06057 8.43932 4.13622 8.86666 4.26953 9.2666C4.79377 10.8424 6.26364 12.0146 8 12.0146C8.89697 12.0146 9.66084 11.7789 10.2578 11.3789L10.3867 11.2871C11.0208 10.817 11.443 10.1476 11.5879 9.36621H8V6.78809H14.2783C14.3571 7.22433 14.4004 7.67878 14.4004 8.15137C14.4004 10.1815 13.6726 11.8902 12.4121 13.0508V13.0518C11.3091 14.0699 9.79991 14.667 8 14.667C5.4754 14.667 3.28046 13.2647 2.14844 11.1963L2.04199 10.9941L1.88281 10.6504C1.53111 9.83797 1.33304 8.94114 1.33301 8C1.33301 6.92431 1.59053 5.90582 2.04199 5.00586C3.13898 2.82714 5.39399 1.33301 8 1.33301Z",
+      fill: "currentColor",
+      key: "alljh9"
+    }
+  ]
+];
+var LogoGoogleFill = createFoamicon("LogoGoogleFill", __iconNode517);
+
+// src/logos/LogoGoogle.tsx
+var __iconNode518 = [
+  [
+    "path",
+    {
+      fillRule: "evenodd",
+      clipRule: "evenodd",
+      d: "M14.4 8.15145C14.4 7.67872 14.3576 7.22417 14.2788 6.78781H8V9.3666H11.5879C11.4333 10.1999 10.9636 10.906 10.2576 11.3787V13.0514H12.4121C13.6727 11.8908 14.4 10.1818 14.4 8.15145Z",
+      fill: "#4285F4",
+      key: "m69gxb"
+    }
+  ],
+  [
+    "path",
+    {
+      fillRule: "evenodd",
+      clipRule: "evenodd",
+      d: "M8 14.6667C9.8 14.6667 11.3091 14.0697 12.4121 13.0515L10.2576 11.3788C9.6606 11.7788 8.89697 12.0151 8 12.0151C6.26363 12.0151 4.79393 10.8424 4.26969 9.26665H2.04242V10.9939C3.13939 13.1727 5.39393 14.6667 8 14.6667Z",
+      fill: "#34A853",
+      key: "ce8bnk"
+    }
+  ],
+  [
+    "path",
+    {
+      fillRule: "evenodd",
+      clipRule: "evenodd",
+      d: "M4.26971 9.26663C4.13637 8.86663 4.06062 8.43936 4.06062 7.99997C4.06062 7.56057 4.13637 7.1333 4.26971 6.7333V5.00603H2.04243C1.59092 5.90603 1.33334 6.92421 1.33334 7.99997C1.33334 9.07572 1.59092 10.0939 2.04243 10.9939L4.26971 9.26663Z",
+      fill: "#FBBC05",
+      key: "2bnlpu"
+    }
+  ],
+  [
+    "path",
+    {
+      fillRule: "evenodd",
+      clipRule: "evenodd",
+      d: "M8 3.98485C8.97878 3.98485 9.85757 4.32122 10.5485 4.98182L12.4606 3.0697C11.3061 1.99394 9.79697 1.33334 8 1.33334C5.39393 1.33334 3.13939 2.82728 2.04242 5.00606L4.26969 6.73334C4.79393 5.15758 6.26363 3.98485 8 3.98485Z",
+      fill: "#EA4335",
+      key: "lbt6pn"
+    }
+  ]
+];
+var LogoGoogle = createFoamicon("LogoGoogle", __iconNode518);
+
+// src/logos/LogoInstagramDark.tsx
+var __iconNode519 = [
+  [
+    "defs",
+    {
+      key: "defs-0"
+    },
+    [
+      [
+        "linearGradient",
+        {
+          id: "paint0_linear_154_16991",
+          x1: "-0.154016",
+          y1: "-0.512992",
+          x2: "4.82098",
+          y2: "9.23101",
+          gradientUnits: "userSpaceOnUse",
+          key: "defs-0-0"
+        },
+        [
+          [
+            "stop",
+            {
+              stopColor: "#1F0CF8",
+              key: "defs-0-0-0"
+            }
+          ],
+          [
+            "stop",
+            {
+              offset: "0.868",
+              stopColor: "#ED1389",
+              key: "defs-0-0-1"
+            }
+          ]
+        ]
+      ],
+      [
+        "linearGradient",
+        {
+          id: "paint1_linear_154_16991",
+          x1: "1.79498",
+          y1: "14.308",
+          x2: "7.23098",
+          y2: "0.615007",
+          gradientUnits: "userSpaceOnUse",
+          key: "defs-0-1"
+        },
+        [
+          [
+            "stop",
+            {
+              stopColor: "#FBAB48",
+              key: "defs-0-1-0"
+            }
+          ],
+          [
+            "stop",
+            {
+              offset: "0.399",
+              stopColor: "#FC3746",
+              key: "defs-0-1-1"
+            }
+          ],
+          [
+            "stop",
+            {
+              offset: "0.854",
+              stopColor: "#FC2C46",
+              stopOpacity: "0",
+              key: "defs-0-1-2"
+            }
+          ]
+        ]
+      ]
+    ]
+  ],
+  [
+    "path",
+    {
+      d: "M1.33398 3.89701C1.33398 3.21699 1.60412 2.56483 2.08496 2.08399C2.56581 1.60314 3.21797 1.33301 3.89798 1.33301H12.103C12.783 1.33301 13.4352 1.60314 13.916 2.08399C14.3968 2.56483 14.667 3.21699 14.667 3.89701V12.103C14.667 12.783 14.3968 13.4352 13.916 13.916C13.4352 14.3969 12.783 14.667 12.103 14.667H3.89798C3.21797 14.667 2.56581 14.3969 2.08496 13.916C1.60412 13.4352 1.33398 12.783 1.33398 12.103V3.89701Z",
+      fill: "url(#paint0_linear_154_16991)",
+      key: "5gp06s"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.33398 3.89701C1.33398 3.21699 1.60412 2.56483 2.08496 2.08399C2.56581 1.60314 3.21797 1.33301 3.89798 1.33301H12.103C12.783 1.33301 13.4352 1.60314 13.916 2.08399C14.3968 2.56483 14.667 3.21699 14.667 3.89701V12.103C14.667 12.783 14.3968 13.4352 13.916 13.916C13.4352 14.3969 12.783 14.667 12.103 14.667H3.89798C3.21797 14.667 2.56581 14.3969 2.08496 13.916C1.60412 13.4352 1.33398 12.783 1.33398 12.103V3.89701Z",
+      fill: "url(#paint1_linear_154_16991)",
+      key: "f4em8e"
+    }
+  ],
+  [
+    "path",
+    {
+      fillRule: "evenodd",
+      clipRule: "evenodd",
+      d: "M3.12799 5.82C3.12786 5.46649 3.19741 5.11642 3.33266 4.78981C3.46791 4.4632 3.66621 4.16645 3.91623 3.91653C4.16624 3.66661 4.46307 3.46841 4.78973 3.33328C5.11639 3.19815 5.46648 3.12874 5.81999 3.129H10.18C10.5337 3.12874 10.8839 3.19822 11.2107 3.33347C11.5375 3.46873 11.8344 3.6671 12.0845 3.91723C12.3345 4.16737 12.5328 4.46435 12.6679 4.7912C12.803 5.11804 12.8724 5.46832 12.872 5.822V10.181C12.8723 10.5346 12.8028 10.8848 12.6676 11.2115C12.5324 11.5382 12.3341 11.8351 12.0841 12.0851C11.8341 12.3351 11.5372 12.5334 11.2105 12.6686C10.8838 12.8038 10.5336 12.8733 10.18 12.873H5.81999C5.4664 12.8733 5.11622 12.8038 4.7895 12.6686C4.46277 12.5334 4.1659 12.3351 3.91587 12.0851C3.66585 11.8351 3.46756 11.5382 3.33237 11.2115C3.19718 10.8848 3.12773 10.5346 3.12799 10.181V5.82ZM5.81999 3.898C5.56738 3.898 5.31723 3.94777 5.08386 4.04447C4.85049 4.14118 4.63845 4.28291 4.45987 4.46159C4.28129 4.64026 4.13967 4.85237 4.04308 5.08579C3.9465 5.31922 3.89686 5.56938 3.89699 5.822V10.181C3.89699 11.243 4.75799 12.104 5.81999 12.104H10.18C10.6898 12.1037 11.1787 11.901 11.5391 11.5404C11.8995 11.1798 12.102 10.6908 12.102 10.181V5.82C12.102 5.31016 11.8995 4.82119 11.5391 4.46059C11.1787 4.09998 10.6898 3.89726 10.18 3.897L5.81999 3.898ZM7.99999 9.795C8.47606 9.795 8.93262 9.60588 9.26925 9.26926C9.60588 8.93263 9.79499 8.47606 9.79499 8C9.79499 7.52393 9.60588 7.06737 9.26925 6.73074C8.93262 6.39411 8.47606 6.205 7.99999 6.205C7.52393 6.205 7.06736 6.39411 6.73073 6.73074C6.39411 7.06737 6.20499 7.52393 6.20499 8C6.20499 8.47606 6.39411 8.93263 6.73073 9.26926C7.06736 9.60588 7.52393 9.795 7.99999 9.795ZM7.99999 10.565C8.68027 10.565 9.33269 10.2948 9.81372 9.81373C10.2948 9.3327 10.565 8.68028 10.565 8C10.565 7.31972 10.2948 6.6673 9.81372 6.18627C9.33269 5.70524 8.68027 5.435 7.99999 5.435C7.31971 5.435 6.66729 5.70524 6.18626 6.18627C5.70523 6.6673 5.43499 7.31972 5.43499 8C5.43499 8.68028 5.70523 9.3327 6.18626 9.81373C6.66729 10.2948 7.31971 10.565 7.99999 10.565ZM10.615 5.641C10.751 5.641 10.8815 5.58695 10.9777 5.49074C11.0739 5.39454 11.128 5.26405 11.128 5.128C11.128 4.99194 11.0739 4.86146 10.9777 4.76525C10.8815 4.66905 10.751 4.615 10.615 4.615C10.4789 4.615 10.3485 4.66905 10.2522 4.76525C10.156 4.86146 10.102 4.99194 10.102 5.128C10.102 5.26405 10.156 5.39454 10.2522 5.49074C10.3485 5.58695 10.4789 5.641 10.615 5.641Z",
+      fill: "white",
+      key: "kzz6l"
+    }
+  ]
+];
+var LogoInstagramDark = createFoamicon("LogoInstagramDark", __iconNode519);
+
+// src/logos/LogoInstagramFill.tsx
+var __iconNode520 = [
+  [
+    "path",
+    {
+      d: "M8 1.375C9.39648 1.375 10.5068 1.37352 11.375 1.49024C12.2612 1.60939 12.9887 1.86171 13.5635 2.43652L13.6675 2.54639C14.1692 3.10313 14.3981 3.79421 14.5098 4.625C14.6265 5.49325 14.625 6.60352 14.625 8C14.625 9.39648 14.6265 10.5068 14.5098 11.375C14.3981 12.2058 14.1692 12.8969 13.6675 13.4536L13.5635 13.5635C12.9887 14.1383 12.2612 14.3906 11.375 14.5098C10.5068 14.6265 9.39648 14.625 8 14.625C6.60352 14.625 5.49325 14.6265 4.625 14.5098C3.79421 14.3981 3.10313 14.1692 2.54639 13.6675L2.43652 13.5635C1.86171 12.9887 1.60939 12.2612 1.49024 11.375C1.37352 10.5068 1.375 9.39648 1.375 8C1.375 6.60352 1.37352 5.49325 1.49024 4.625C1.60939 3.73876 1.8617 3.01134 2.43652 2.43652L2.54639 2.33252C3.10313 1.83081 3.79421 1.60193 4.625 1.49024C5.49325 1.37352 6.60352 1.375 8 1.375ZM8 2.625C6.56813 2.625 5.55712 2.62656 4.79151 2.72949C4.09051 2.82374 3.6781 2.99379 3.37891 3.26514L3.3208 3.3208C3.01694 3.62466 2.83001 4.04387 2.72949 4.79151C2.62656 5.55712 2.625 6.56813 2.625 8C2.625 9.43188 2.62656 10.4429 2.72949 11.2085C2.83001 11.9561 3.01694 12.3753 3.3208 12.6792L3.37891 12.7349C3.6781 13.0062 4.09051 13.1763 4.79151 13.2705C5.55712 13.3734 6.56813 13.375 8 13.375C9.43188 13.375 10.4429 13.3734 11.2085 13.2705C11.9561 13.17 12.3753 12.9831 12.6792 12.6792L12.7349 12.6211C13.0062 12.3219 13.1763 11.9095 13.2705 11.2085C13.3734 10.4429 13.375 9.43188 13.375 8C13.375 6.56813 13.3734 5.55712 13.2705 4.79151C13.1763 4.09051 13.0062 3.6781 12.7349 3.37891L12.6792 3.3208C12.3753 3.01694 11.9561 2.83001 11.2085 2.72949C10.4429 2.62656 9.43188 2.625 8 2.625ZM8 4.625C9.86396 4.625 11.375 6.13604 11.375 8C11.375 9.86396 9.86396 11.375 8 11.375C6.13604 11.375 4.625 9.86396 4.625 8C4.625 6.13604 6.13604 4.625 8 4.625ZM8 5.875C6.8264 5.875 5.875 6.8264 5.875 8C5.875 9.17361 6.8264 10.125 8 10.125C9.17361 10.125 10.125 9.17361 10.125 8C10.125 6.8264 9.17361 5.875 8 5.875ZM11.5498 3.6499C11.9916 3.6499 12.3501 4.00837 12.3501 4.4502C12.35 4.89193 11.9916 5.25 11.5498 5.25C11.1081 5.2499 10.7501 4.89187 10.75 4.4502C10.75 4.00843 11.1081 3.65001 11.5498 3.6499Z",
+      fill: "currentColor",
+      key: "ue063b"
+    }
+  ]
+];
+var LogoInstagramFill = createFoamicon("LogoInstagramFill", __iconNode520);
+
+// src/logos/LogoInstagram.tsx
+var __iconNode521 = [
+  [
+    "defs",
+    {
+      key: "defs-0"
+    },
+    [
+      [
+        "linearGradient",
+        {
+          id: "paint0_linear_154_17002",
+          x1: "-1.05417",
+          y1: "0.7125",
+          x2: "4.84032",
+          y2: "9.22298",
+          gradientUnits: "userSpaceOnUse",
+          key: "defs-0-0"
+        },
+        [
+          [
+            "stop",
+            {
+              offset: "0.00121768",
+              stopColor: "#6521F5",
+              key: "defs-0-0-0"
+            }
+          ],
+          [
+            "stop",
+            {
+              offset: "0.293733",
+              stopColor: "#1200DD",
+              key: "defs-0-0-1"
+            }
+          ],
+          [
+            "stop",
+            {
+              offset: "0.709013",
+              stopColor: "#ED1389",
+              key: "defs-0-0-2"
+            }
+          ]
+        ]
+      ],
+      [
+        "linearGradient",
+        {
+          id: "paint1_linear_154_17002",
+          x1: "1.83345",
+          y1: "14.2681",
+          x2: "7.23548",
+          y2: "0.661708",
+          gradientUnits: "userSpaceOnUse",
+          key: "defs-0-1"
+        },
+        [
+          [
+            "stop",
+            {
+              stopColor: "#FBEC48",
+              key: "defs-0-1-0"
+            }
+          ],
+          [
+            "stop",
+            {
+              offset: "0.399",
+              stopColor: "#FC3746",
+              key: "defs-0-1-1"
+            }
+          ],
+          [
+            "stop",
+            {
+              offset: "0.854",
+              stopColor: "#FC2C46",
+              stopOpacity: "0",
+              key: "defs-0-1-2"
+            }
+          ]
+        ]
+      ]
+    ]
+  ],
+  [
+    "path",
+    {
+      d: "M8 1.375C9.39648 1.375 10.5068 1.37352 11.375 1.49024C12.2612 1.60939 12.9887 1.86171 13.5635 2.43652L13.6675 2.54639C14.1692 3.10313 14.3981 3.79421 14.5098 4.625C14.6265 5.49325 14.625 6.60352 14.625 8C14.625 9.39648 14.6265 10.5068 14.5098 11.375C14.3981 12.2058 14.1692 12.8969 13.6675 13.4536L13.5635 13.5635C12.9887 14.1383 12.2612 14.3906 11.375 14.5098C10.5068 14.6265 9.39648 14.625 8 14.625C6.60352 14.625 5.49325 14.6265 4.625 14.5098C3.79421 14.3981 3.10313 14.1692 2.54639 13.6675L2.43652 13.5635C1.86171 12.9887 1.60939 12.2612 1.49024 11.375C1.37352 10.5068 1.375 9.39648 1.375 8C1.375 6.60352 1.37352 5.49325 1.49024 4.625C1.60939 3.73876 1.8617 3.01134 2.43652 2.43652L2.54639 2.33252C3.10313 1.83081 3.79421 1.60193 4.625 1.49024C5.49325 1.37352 6.60352 1.375 8 1.375ZM8 2.625C6.56813 2.625 5.55712 2.62656 4.79151 2.72949C4.09051 2.82374 3.6781 2.99379 3.37891 3.26514L3.3208 3.3208C3.01694 3.62466 2.83001 4.04387 2.72949 4.79151C2.62656 5.55712 2.625 6.56813 2.625 8C2.625 9.43188 2.62656 10.4429 2.72949 11.2085C2.83001 11.9561 3.01694 12.3753 3.3208 12.6792L3.37891 12.7349C3.6781 13.0062 4.09051 13.1763 4.79151 13.2705C5.55712 13.3734 6.56813 13.375 8 13.375C9.43188 13.375 10.4429 13.3734 11.2085 13.2705C11.9561 13.17 12.3753 12.9831 12.6792 12.6792L12.7349 12.6211C13.0062 12.3219 13.1763 11.9095 13.2705 11.2085C13.3734 10.4429 13.375 9.43188 13.375 8C13.375 6.56813 13.3734 5.55712 13.2705 4.79151C13.1763 4.09051 13.0062 3.6781 12.7349 3.37891L12.6792 3.3208C12.3753 3.01694 11.9561 2.83001 11.2085 2.72949C10.4429 2.62656 9.43188 2.625 8 2.625ZM8 4.625C9.86396 4.625 11.375 6.13604 11.375 8C11.375 9.86396 9.86396 11.375 8 11.375C6.13604 11.375 4.625 9.86396 4.625 8C4.625 6.13604 6.13604 4.625 8 4.625ZM8 5.875C6.8264 5.875 5.875 6.8264 5.875 8C5.875 9.17361 6.8264 10.125 8 10.125C9.17361 10.125 10.125 9.17361 10.125 8C10.125 6.8264 9.17361 5.875 8 5.875ZM11.5498 3.6499C11.9916 3.6499 12.3501 4.00837 12.3501 4.4502C12.35 4.89193 11.9916 5.25 11.5498 5.25C11.1081 5.2499 10.7501 4.89187 10.75 4.4502C10.75 4.00843 11.1081 3.65001 11.5498 3.6499Z",
+      fill: "url(#paint0_linear_154_17002)",
+      key: "qay3c1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 1.375C9.39648 1.375 10.5068 1.37352 11.375 1.49024C12.2612 1.60939 12.9887 1.86171 13.5635 2.43652L13.6675 2.54639C14.1692 3.10313 14.3981 3.79421 14.5098 4.625C14.6265 5.49325 14.625 6.60352 14.625 8C14.625 9.39648 14.6265 10.5068 14.5098 11.375C14.3981 12.2058 14.1692 12.8969 13.6675 13.4536L13.5635 13.5635C12.9887 14.1383 12.2612 14.3906 11.375 14.5098C10.5068 14.6265 9.39648 14.625 8 14.625C6.60352 14.625 5.49325 14.6265 4.625 14.5098C3.79421 14.3981 3.10313 14.1692 2.54639 13.6675L2.43652 13.5635C1.86171 12.9887 1.60939 12.2612 1.49024 11.375C1.37352 10.5068 1.375 9.39648 1.375 8C1.375 6.60352 1.37352 5.49325 1.49024 4.625C1.60939 3.73876 1.8617 3.01134 2.43652 2.43652L2.54639 2.33252C3.10313 1.83081 3.79421 1.60193 4.625 1.49024C5.49325 1.37352 6.60352 1.375 8 1.375ZM8 2.625C6.56813 2.625 5.55712 2.62656 4.79151 2.72949C4.09051 2.82374 3.6781 2.99379 3.37891 3.26514L3.3208 3.3208C3.01694 3.62466 2.83001 4.04387 2.72949 4.79151C2.62656 5.55712 2.625 6.56813 2.625 8C2.625 9.43188 2.62656 10.4429 2.72949 11.2085C2.83001 11.9561 3.01694 12.3753 3.3208 12.6792L3.37891 12.7349C3.6781 13.0062 4.09051 13.1763 4.79151 13.2705C5.55712 13.3734 6.56813 13.375 8 13.375C9.43188 13.375 10.4429 13.3734 11.2085 13.2705C11.9561 13.17 12.3753 12.9831 12.6792 12.6792L12.7349 12.6211C13.0062 12.3219 13.1763 11.9095 13.2705 11.2085C13.3734 10.4429 13.375 9.43188 13.375 8C13.375 6.56813 13.3734 5.55712 13.2705 4.79151C13.1763 4.09051 13.0062 3.6781 12.7349 3.37891L12.6792 3.3208C12.3753 3.01694 11.9561 2.83001 11.2085 2.72949C10.4429 2.62656 9.43188 2.625 8 2.625ZM8 4.625C9.86396 4.625 11.375 6.13604 11.375 8C11.375 9.86396 9.86396 11.375 8 11.375C6.13604 11.375 4.625 9.86396 4.625 8C4.625 6.13604 6.13604 4.625 8 4.625ZM8 5.875C6.8264 5.875 5.875 6.8264 5.875 8C5.875 9.17361 6.8264 10.125 8 10.125C9.17361 10.125 10.125 9.17361 10.125 8C10.125 6.8264 9.17361 5.875 8 5.875ZM11.5498 3.6499C11.9916 3.6499 12.3501 4.00837 12.3501 4.4502C12.35 4.89193 11.9916 5.25 11.5498 5.25C11.1081 5.2499 10.7501 4.89187 10.75 4.4502C10.75 4.00843 11.1081 3.65001 11.5498 3.6499Z",
+      fill: "url(#paint1_linear_154_17002)",
+      key: "o52c7x"
+    }
+  ]
+];
+var LogoInstagram = createFoamicon("LogoInstagram", __iconNode521);
+
+// src/logos/LogoLinkedinDark.tsx
+var __iconNode522 = [
+  [
+    "path",
+    {
+      d: "M13.6667 1.33333H2.33334C2.06813 1.33333 1.81377 1.43869 1.62624 1.62622C1.4387 1.81376 1.33334 2.06811 1.33334 2.33333V13.6667C1.33334 13.9319 1.4387 14.1862 1.62624 14.3738C1.81377 14.5613 2.06813 14.6667 2.33334 14.6667H13.6667C13.9319 14.6667 14.1862 14.5613 14.3738 14.3738C14.5613 14.1862 14.6667 13.9319 14.6667 13.6667V2.33333C14.6667 2.06811 14.5613 1.81376 14.3738 1.62622C14.1862 1.43869 13.9319 1.33333 13.6667 1.33333Z",
+      fill: "white",
+      key: "1mipla"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.33335 12.6667H5.33335V6.66667H3.33335V12.6667Z",
+      fill: "#0A66C2",
+      key: "asrskw"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.69451 5.28739C3.88194 5.4195 4.10413 5.49345 4.33335 5.5C4.64694 5.50357 4.94919 5.38286 5.17405 5.16425C5.3989 4.94564 5.52808 4.6469 5.53335 4.33334C5.53325 4.10403 5.46559 3.87984 5.33881 3.68877C5.21202 3.4977 5.03175 3.34823 4.8205 3.25903C4.60926 3.16983 4.37641 3.14486 4.15106 3.18724C3.9257 3.22962 3.71783 3.33747 3.55342 3.49732C3.38901 3.65716 3.27535 3.86191 3.22664 4.08598C3.17793 4.31005 3.19633 4.54351 3.27954 4.75719C3.36276 4.97086 3.50709 5.15527 3.69451 5.28739Z",
+      fill: "#0A66C2",
+      key: "3fwvzk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.6667 12.6667H12.6667L12.64 9.04C12.64 7.17334 11.4333 6.6 10.4 6.6C10.0452 6.58845 9.69331 6.6682 9.37814 6.83163C9.06296 6.99505 8.79503 7.23667 8.60001 7.53334V6.66667H6.66668V12.6667H8.66668V9.55334C8.66337 9.52231 8.66337 9.49103 8.66668 9.46C8.6558 9.30759 8.67515 9.15454 8.7236 9.00962C8.77205 8.86471 8.84865 8.7308 8.949 8.61557C9.04936 8.50035 9.17149 8.40609 9.30838 8.33821C9.44527 8.27032 9.59422 8.23015 9.74668 8.22C10.2667 8.22 10.6667 8.56 10.6667 9.50667V12.6667Z",
+      fill: "#0A66C2",
+      key: "n8gq9a"
+    }
+  ]
+];
+var LogoLinkedinDark = createFoamicon("LogoLinkedinDark", __iconNode522);
+
+// src/logos/LogoLinkedinFill.tsx
+var __iconNode523 = [
+  [
+    "path",
+    {
+      d: "M13.6667 1.33333H2.33334C2.06813 1.33333 1.81377 1.43869 1.62624 1.62622C1.4387 1.81376 1.33334 2.06811 1.33334 2.33333V13.6667C1.33334 13.9319 1.4387 14.1862 1.62624 14.3738C1.81377 14.5613 2.06813 14.6667 2.33334 14.6667H13.6667C13.9319 14.6667 14.1862 14.5613 14.3738 14.3738C14.5613 14.1862 14.6667 13.9319 14.6667 13.6667V2.33333C14.6667 2.06811 14.5613 1.81376 14.3738 1.62622C14.1862 1.43869 13.9319 1.33333 13.6667 1.33333V1.33333ZM5.33334 12.6667H3.33334V6.66666H5.33334V12.6667ZM4.33334 5.49999C4.10413 5.49344 3.88193 5.41949 3.69451 5.28738C3.50709 5.15527 3.36275 4.97085 3.27954 4.75718C3.19633 4.5435 3.17793 4.31005 3.22664 4.08598C3.27535 3.8619 3.38901 3.65715 3.55342 3.49731C3.71783 3.33747 3.9257 3.22962 4.15105 3.18724C4.37641 3.14486 4.60925 3.16983 4.8205 3.25902C5.03175 3.34822 5.21202 3.49769 5.3388 3.68876C5.46558 3.87983 5.53325 4.10402 5.53334 4.33333C5.52808 4.64689 5.3989 4.94563 5.17404 5.16424C4.94919 5.38285 4.64693 5.50356 4.33334 5.49999V5.49999ZM12.6667 12.6667H10.6667V9.50666C10.6667 8.55999 10.2667 8.21999 9.74668 8.21999C9.59422 8.23014 9.44526 8.27032 9.30837 8.3382C9.17148 8.40608 9.04935 8.50034 8.949 8.61557C8.84865 8.73079 8.77204 8.8647 8.72359 9.00961C8.67514 9.15453 8.6558 9.30758 8.66668 9.45999C8.66337 9.49102 8.66337 9.5223 8.66668 9.55333V12.6667H6.66668V6.66666H8.60001V7.53333C8.79503 7.23666 9.06296 6.99504 9.37814 6.83162C9.69331 6.66819 10.0452 6.58844 10.4 6.59999C11.4333 6.59999 12.64 7.17333 12.64 9.03999L12.6667 12.6667Z",
+      fill: "currentColor",
+      key: "7b82ry"
+    }
+  ]
+];
+var LogoLinkedinFill = createFoamicon("LogoLinkedinFill", __iconNode523);
+
+// src/logos/LogoLinkedin.tsx
+var __iconNode524 = [
+  [
+    "path",
+    {
+      d: "M13.6667 1.33333H2.33334C2.06813 1.33333 1.81377 1.43869 1.62624 1.62622C1.4387 1.81376 1.33334 2.06811 1.33334 2.33333V13.6667C1.33334 13.9319 1.4387 14.1862 1.62624 14.3738C1.81377 14.5613 2.06813 14.6667 2.33334 14.6667H13.6667C13.9319 14.6667 14.1862 14.5613 14.3738 14.3738C14.5613 14.1862 14.6667 13.9319 14.6667 13.6667V2.33333C14.6667 2.06811 14.5613 1.81376 14.3738 1.62622C14.1862 1.43869 13.9319 1.33333 13.6667 1.33333V1.33333ZM5.33334 12.6667H3.33334V6.66666H5.33334V12.6667ZM4.33334 5.49999C4.10413 5.49344 3.88193 5.41949 3.69451 5.28738C3.50709 5.15527 3.36275 4.97085 3.27954 4.75718C3.19633 4.5435 3.17793 4.31005 3.22664 4.08598C3.27535 3.8619 3.38901 3.65715 3.55342 3.49731C3.71783 3.33747 3.9257 3.22962 4.15105 3.18724C4.37641 3.14486 4.60925 3.16983 4.8205 3.25902C5.03175 3.34822 5.21202 3.49769 5.3388 3.68876C5.46558 3.87983 5.53325 4.10402 5.53334 4.33333C5.52808 4.64689 5.3989 4.94563 5.17404 5.16424C4.94919 5.38285 4.64693 5.50356 4.33334 5.49999V5.49999ZM12.6667 12.6667H10.6667V9.50666C10.6667 8.55999 10.2667 8.21999 9.74668 8.21999C9.59422 8.23014 9.44526 8.27032 9.30837 8.3382C9.17148 8.40608 9.04935 8.50034 8.949 8.61557C8.84865 8.73079 8.77204 8.8647 8.72359 9.00961C8.67514 9.15453 8.6558 9.30758 8.66668 9.45999C8.66337 9.49102 8.66337 9.5223 8.66668 9.55333V12.6667H6.66668V6.66666H8.60001V7.53333C8.79503 7.23666 9.06296 6.99504 9.37814 6.83162C9.69331 6.66819 10.0452 6.58844 10.4 6.59999C11.4333 6.59999 12.64 7.17333 12.64 9.03999L12.6667 12.6667Z",
+      fill: "#0A66C2",
+      key: "xqrk8n"
+    }
+  ]
+];
+var LogoLinkedin = createFoamicon("LogoLinkedin", __iconNode524);
+
+// src/logos/LogoMicrosoftFill.tsx
+var __iconNode525 = [
+  [
+    "path",
+    {
+      d: "M7.33301 14.667H1.33301V8.66699H7.33301V14.667ZM14.667 8.66699V14.667H8.66699V8.66699H14.667ZM7.33301 7.33398H1.33301V1.33301H7.33301V7.33398ZM14.667 7.33398H8.66699V1.33301H14.667V7.33398Z",
+      fill: "currentColor",
+      key: "xe33mm"
+    }
+  ]
+];
+var LogoMicrosoftFill = createFoamicon("LogoMicrosoftFill", __iconNode525);
+
+// src/logos/LogoMicrosoft.tsx
+var __iconNode526 = [
+  [
+    "path",
+    {
+      d: "M7.33334 1.33333H1.33334V7.33333H7.33334V1.33333Z",
+      fill: "#F25022",
+      key: "3lwc70"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.33334 8.66667H1.33334V14.6667H7.33334V8.66667Z",
+      fill: "#00A4EF",
+      key: "y8kglk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.6667 1.33333H8.66666V7.33333H14.6667V1.33333Z",
+      fill: "#7FBA00",
+      key: "uyjrl8"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.6667 8.66667H8.66666V14.6667H14.6667V8.66667Z",
+      fill: "#FFB900",
+      key: "8eq44k"
+    }
+  ]
+];
+var LogoMicrosoft = createFoamicon("LogoMicrosoft", __iconNode526);
+
+// src/logos/LogoSnapchatDark.tsx
+var __iconNode527 = [
+  [
+    "defs",
+    {
+      key: "defs-0"
+    },
+    [
+      [
+        "clipPath",
+        {
+          id: "clip0_154_17196",
+          key: "defs-0-0"
+        },
+        [
+          [
+            "rect",
+            {
+              width: "16",
+              height: "16",
+              fill: "white",
+              key: "defs-0-0-0"
+            }
+          ]
+        ]
+      ]
+    ]
+  ],
+  [
+    "g",
+    {
+      clipPath: "url(#clip0_154_17196)",
+      key: "ok4z4g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.8631 11.8494C12.3854 10.6317 11.9905 8.75145 11.973 8.61199C11.9517 8.44307 11.9276 8.31025 12.1111 8.13842C12.2881 7.97239 13.0734 7.47889 13.2913 7.32449C13.6515 7.06882 13.8101 6.81356 13.6932 6.49978C13.6114 6.2827 13.4123 6.20093 13.2026 6.20093C13.1365 6.20114 13.0705 6.20866 13.006 6.22335C12.6103 6.31051 12.226 6.51181 12.0036 6.56618C11.9769 6.57318 11.9495 6.57694 11.9219 6.57739C11.8033 6.57739 11.7584 6.52385 11.7698 6.37899C11.7976 5.93986 11.8565 5.08277 11.7882 4.28213C11.6946 3.18057 11.3447 2.63477 10.9297 2.15206C10.729 1.91797 9.79696 0.912292 7.99826 0.912292C6.19956 0.912292 5.26874 1.91797 5.06925 2.14916C4.6531 2.63187 4.30358 3.17767 4.21078 4.27923C4.14251 5.07987 4.20383 5.93654 4.22918 6.37609C4.23735 6.51389 4.19565 6.57448 4.0771 6.57448C4.04951 6.574 4.02207 6.57024 3.99535 6.56328C3.77337 6.50891 3.3891 6.3076 2.99339 6.22044C2.92884 6.20575 2.86291 6.19823 2.79676 6.19803C2.58623 6.19803 2.38797 6.28104 2.30621 6.49687C2.18929 6.81065 2.34709 7.06591 2.70846 7.32158C2.92635 7.47599 3.71164 7.96907 3.88865 8.13551C4.07179 8.30734 4.04808 8.44016 4.02682 8.60909C4.00924 8.75062 3.61394 10.6308 1.13665 11.8465C0.991524 11.9179 0.744612 12.069 1.17998 12.313C1.86348 12.6966 2.31847 12.6555 2.67208 12.8867C2.97213 13.083 2.79472 13.5063 3.01301 13.6591C3.28118 13.8471 4.07383 13.6458 5.09786 13.989C5.95633 14.2763 6.47795 15.0877 8.0003 15.0877C9.52266 15.0877 10.0594 14.2725 10.9027 13.989C11.9247 13.6458 12.719 13.8471 12.9876 13.6591C13.2055 13.5063 13.0285 13.083 13.3285 12.8867C13.6821 12.6555 14.1367 12.6966 14.8206 12.313C15.2552 12.0719 15.0083 11.9208 14.8631 11.8494Z",
+      fill: "white",
+      key: "y3crgb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M15.9428 11.7021C15.8316 11.395 15.6199 11.2306 15.3787 11.0945C15.3333 11.0675 15.2916 11.0459 15.256 11.0293C15.1841 10.9915 15.1105 10.955 15.0373 10.9164C14.2855 10.5117 13.6985 10.0012 13.2914 9.39604C13.1757 9.22568 13.0754 9.04509 12.9917 8.85647C12.957 8.75561 12.9586 8.69833 12.9835 8.64603C13.0083 8.60574 13.041 8.57111 13.0796 8.54435C13.2088 8.4576 13.342 8.36961 13.4324 8.31025C13.5935 8.20442 13.721 8.12057 13.8032 8.06122C14.1118 7.84207 14.3277 7.60922 14.4626 7.34898C14.5567 7.16919 14.6116 6.97092 14.6235 6.76766C14.6354 6.5644 14.6041 6.36092 14.5316 6.17105C14.3272 5.62484 13.8191 5.28574 13.2035 5.28574C13.0736 5.28562 12.9441 5.29953 12.8172 5.32725C12.7832 5.33472 12.7493 5.3426 12.7162 5.35132C12.7219 4.97777 12.7137 4.58347 12.681 4.19539C12.5649 2.8311 12.0944 2.11596 11.6039 1.54567C11.2897 1.1883 10.9197 0.885962 10.5087 0.650808C9.76428 0.21915 8.92012 0 7.99992 0C7.07972 0 6.23965 0.21915 5.49442 0.650808C5.0824 0.886033 4.71164 1.18898 4.39721 1.54733C3.90666 2.11762 3.43614 2.834 3.32004 4.19705C3.28734 4.58513 3.27916 4.9815 3.28447 5.35298C3.25136 5.34426 3.21784 5.33638 3.18391 5.32891C3.05696 5.30119 2.92746 5.28728 2.7976 5.2874C2.18155 5.2874 1.6726 5.6265 1.46902 6.17272C1.39625 6.36266 1.36461 6.56629 1.37625 6.76976C1.38789 6.97323 1.44253 7.17177 1.53647 7.35189C1.67178 7.61213 1.88762 7.84498 2.19626 8.06413C2.27802 8.12223 2.40597 8.20608 2.56704 8.31316C2.65411 8.37044 2.78125 8.45428 2.90593 8.53812C2.94955 8.56675 2.98663 8.60454 3.01467 8.64894C3.04083 8.70331 3.04165 8.76184 3.00281 8.86975C2.92021 9.05441 2.82158 9.23123 2.70807 9.39812C2.30991 9.98957 1.74005 10.491 1.01239 10.8923C0.6269 11.0998 0.226281 11.2385 0.0570405 11.7054C-0.0705035 12.0578 0.0128905 12.4587 0.337065 12.7966C0.456039 12.9227 0.594032 13.0288 0.745859 13.1108C1.06177 13.2871 1.3977 13.4235 1.74618 13.5171C1.81809 13.536 1.88637 13.567 1.94812 13.6089C2.06627 13.7139 2.04951 13.872 2.20689 14.1036C2.2859 14.2233 2.38628 14.3269 2.50286 14.4091C2.83316 14.6407 3.20435 14.6552 3.59761 14.6706C3.95285 14.6843 4.35552 14.7 4.81541 14.854C5.00591 14.9179 5.20376 15.0416 5.4331 15.1861C5.98374 15.5297 6.73756 16 7.9991 16C9.26064 16 10.0198 15.5273 10.5745 15.1823C10.8022 15.0404 10.9988 14.9179 11.184 14.8557C11.6439 14.7013 12.0466 14.6859 12.4018 14.6722C12.7951 14.6569 13.1663 14.6424 13.4966 14.4107C13.6346 14.313 13.7497 14.1854 13.8334 14.0372C13.9467 13.8417 13.9438 13.7052 14.0501 13.6097C14.108 13.5698 14.1721 13.5401 14.2398 13.5217C14.593 13.4278 14.9335 13.2901 15.2536 13.1116C15.4149 13.0238 15.5601 12.9083 15.6828 12.7704L15.6869 12.7655C15.991 12.4351 16.0675 12.0458 15.9428 11.7021ZM14.8215 12.3139C14.1376 12.6974 13.683 12.6563 13.3294 12.8875C13.0289 13.0838 13.2067 13.5072 12.9884 13.6599C12.7203 13.8479 11.9276 13.6466 10.9036 13.9899C10.059 14.2734 9.52023 15.0885 8.00115 15.0885C6.48206 15.0885 5.95595 14.275 5.09748 13.9878C4.07549 13.6446 3.2812 13.8459 3.01263 13.6578C2.79474 13.5051 2.97175 13.0817 2.67169 12.8854C2.31767 12.6542 1.8631 12.6953 1.17959 12.3139C0.744224 12.0698 0.991136 11.9188 1.13626 11.8474C3.61355 10.6296 4.00886 8.74938 4.02644 8.60993C4.04769 8.441 4.0714 8.30818 3.88826 8.13635C3.71126 7.97032 2.92596 7.47682 2.70807 7.32242C2.34752 7.06675 2.1889 6.81149 2.30582 6.4977C2.38758 6.28063 2.58707 6.19886 2.79637 6.19886C2.86252 6.19907 2.92845 6.20659 2.993 6.22128C3.38872 6.30844 3.77298 6.50974 3.99496 6.56411C4.02169 6.57108 4.04913 6.57484 4.07672 6.57532C4.19527 6.57532 4.23697 6.51472 4.22879 6.37692C4.20344 5.93738 4.14212 5.0807 4.21039 4.28006C4.30401 3.1785 4.65353 2.6327 5.06886 2.14999C5.26835 1.91797 6.20572 0.912294 7.99828 0.912294C9.79085 0.912294 10.7307 1.91382 10.9302 2.14501C11.3459 2.62772 11.6958 3.17352 11.7886 4.27508C11.8569 5.07572 11.798 5.93281 11.7702 6.37194C11.7608 6.5168 11.8038 6.57034 11.9223 6.57034C11.9499 6.56989 11.9773 6.56613 12.0041 6.55913C12.2264 6.50476 12.6107 6.30346 13.0064 6.2163C13.071 6.2016 13.1369 6.19409 13.2031 6.19388C13.4136 6.19388 13.6119 6.27689 13.6936 6.49272C13.8105 6.80651 13.6527 7.06177 13.2918 7.31744C13.0739 7.47184 12.2886 7.96493 12.1116 8.13137C11.928 8.3032 11.9521 8.43602 11.9734 8.60494C11.991 8.74648 12.3859 10.6267 14.8636 11.8424C15.0099 11.9167 15.2568 12.0678 14.8215 12.3139Z",
+      fill: "#15191E",
+      key: "kh1ubj"
+    }
+  ]
+];
+var LogoSnapchatDark = createFoamicon("LogoSnapchatDark", __iconNode527);
+
+// src/logos/LogoSnapchatFill.tsx
+var __iconNode528 = [
+  [
+    "path",
+    {
+      d: "M12 1C13.6569 1 15 2.34315 15 4V12C15 13.6569 13.6569 15 12 15H4C2.34315 15 1 13.6569 1 12V4C1 2.34315 2.34315 1 4 1H12ZM8 3.16211C6.76835 3.16211 6.13103 3.83988 5.99414 3.99609C5.70915 4.32168 5.46986 4.68977 5.40625 5.43262C5.35949 5.97274 5.40061 6.55114 5.41797 6.84766C5.42354 6.94047 5.39545 6.98137 5.31445 6.98145C5.29556 6.98112 5.27612 6.97833 5.25781 6.97363C5.10575 6.93681 4.84297 6.80096 4.57227 6.74219C4.52813 6.73229 4.48273 6.72769 4.4375 6.72754C4.29342 6.72754 4.15765 6.78339 4.10156 6.92871C4.02148 7.14039 4.12943 7.31287 4.37695 7.48535C4.52633 7.58959 5.06433 7.92192 5.18555 8.03418C5.31073 8.1499 5.29481 8.23981 5.28027 8.35352C5.26823 8.449 4.9966 9.71797 3.2998 10.5381C3.20036 10.5863 3.03224 10.6881 3.33008 10.8525C3.79793 11.1111 4.10944 11.0836 4.35156 11.2393C4.55696 11.3716 4.43586 11.6575 4.58496 11.7607C4.76864 11.8876 5.31227 11.7518 6.01367 11.9834C6.60142 12.1772 6.95874 12.7245 8.00098 12.7246C9.04361 12.7246 9.4117 12.1747 9.98926 11.9834C10.6889 11.752 11.2328 11.8872 11.417 11.7607C11.5662 11.6577 11.4458 11.3717 11.6514 11.2393C11.8935 11.0837 12.2047 11.1111 12.6729 10.8525C12.9703 10.6899 12.8016 10.5882 12.7021 10.54C11.0051 9.71852 10.7347 8.44955 10.7227 8.35547C10.7081 8.2417 10.6918 8.15192 10.8174 8.03613C10.9392 7.92392 11.4755 7.59159 11.625 7.4873C11.8717 7.31482 11.9805 7.14234 11.9004 6.93066C11.8443 6.7845 11.708 6.72949 11.5645 6.72949C11.5192 6.72965 11.4738 6.73424 11.4297 6.74414C11.1587 6.80297 10.8954 6.93892 10.7432 6.97559C10.7249 6.98027 10.7063 6.98309 10.6875 6.9834C10.6063 6.9834 10.5752 6.94723 10.583 6.84961C10.602 6.55337 10.6425 5.97469 10.5957 5.43457C10.5315 4.69171 10.292 4.32363 10.0078 3.99805C9.87033 3.84013 9.23199 3.16211 8 3.16211Z",
+      fill: "currentColor",
+      key: "1760kt"
+    }
+  ]
+];
+var LogoSnapchatFill = createFoamicon("LogoSnapchatFill", __iconNode528);
+
+// src/logos/LogoSnapchat.tsx
+var __iconNode529 = [
+  [
+    "rect",
+    {
+      x: "1",
+      y: "1",
+      width: "14",
+      height: "14",
+      rx: "3",
+      fill: "#FFFC00",
+      key: "pq4lia"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.702 10.5399C11.0049 9.71838 10.7345 8.44998 10.7224 8.3559C10.7079 8.24194 10.6913 8.15234 10.8171 8.03642C10.9383 7.92442 11.4762 7.5915 11.6254 7.48734C11.8721 7.31486 11.9807 7.14266 11.9007 6.93098C11.8447 6.78454 11.7083 6.72938 11.5647 6.72938C11.5194 6.72952 11.4742 6.73459 11.43 6.7445C11.1589 6.8033 10.8957 6.9391 10.7434 6.97578C10.7251 6.9805 10.7063 6.98304 10.6874 6.98334C10.6062 6.98334 10.5754 6.94722 10.5833 6.8495C10.6023 6.55326 10.6426 5.97506 10.5959 5.43494C10.5317 4.69182 10.2921 4.32362 10.0079 3.99798C9.87039 3.84006 9.23199 3.16162 7.99999 3.16162C6.76799 3.16162 6.13043 3.84006 5.99379 3.99602C5.70875 4.32166 5.46935 4.68986 5.40579 5.43298C5.35903 5.9731 5.40103 6.55102 5.41839 6.84754C5.42399 6.9405 5.39543 6.98138 5.31423 6.98138C5.29533 6.98106 5.27653 6.97852 5.25823 6.97382C5.10619 6.93714 4.84299 6.80134 4.57195 6.74254C4.52773 6.73263 4.48258 6.72756 4.43727 6.72742C4.29307 6.72742 4.15727 6.78342 4.10127 6.92902C4.02119 7.1407 4.12927 7.3129 4.37679 7.48538C4.52603 7.58954 5.06391 7.92218 5.18515 8.03446C5.31059 8.15038 5.29435 8.23998 5.27979 8.35394C5.26775 8.44942 4.99699 9.71782 3.30019 10.5379C3.20079 10.5861 3.03167 10.688 3.32987 10.8527C3.79803 11.1114 4.10967 11.0837 4.35187 11.2396C4.55739 11.3721 4.43587 11.6577 4.58539 11.7607C4.76907 11.8875 5.31199 11.7517 6.01339 11.9833C6.60139 12.1771 6.95867 12.7245 8.00139 12.7245C9.04411 12.7245 9.41175 12.1745 9.98939 11.9833C10.6894 11.7517 11.2334 11.8875 11.4174 11.7607C11.5666 11.6577 11.4454 11.3721 11.6509 11.2396C11.8931 11.0837 12.2045 11.1114 12.6729 10.8527C12.9705 10.69 12.8014 10.5881 12.702 10.5399Z",
+      fill: "white",
+      key: "ufxr3s"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.4404 10.4431C13.3642 10.2359 13.2192 10.1251 13.054 10.0332C13.0229 10.015 12.9944 10.0005 12.97 9.98927C12.9207 9.96379 12.8703 9.93915 12.8202 9.91311C12.3053 9.64011 11.9032 9.29571 11.6243 8.88747C11.5451 8.77254 11.4764 8.65072 11.4191 8.52347C11.3953 8.45543 11.3964 8.41679 11.4135 8.38151C11.4304 8.35433 11.4528 8.33097 11.4793 8.31291C11.5678 8.25439 11.659 8.19503 11.7209 8.15499C11.8312 8.08359 11.9186 8.02703 11.9749 7.98699C12.1863 7.83915 12.3341 7.68207 12.4265 7.50651C12.491 7.38522 12.5286 7.25146 12.5368 7.11434C12.5449 6.97723 12.5235 6.83996 12.4738 6.71187C12.3338 6.34339 11.9858 6.11463 11.5641 6.11463C11.4752 6.11454 11.3865 6.12393 11.2995 6.14263C11.2763 6.14767 11.253 6.15299 11.2304 6.15887C11.2343 5.90687 11.2287 5.64087 11.2063 5.37907C11.1268 4.45871 10.8045 3.97627 10.4685 3.59155C10.2533 3.35047 9.99988 3.1465 9.71837 2.98787C9.20849 2.69667 8.63029 2.54883 8.00001 2.54883C7.36973 2.54883 6.79433 2.69667 6.28389 2.98787C6.00168 3.14655 5.74773 3.35092 5.53237 3.59267C5.19637 3.97739 4.87409 4.46067 4.79457 5.38019C4.77217 5.64199 4.76657 5.90939 4.77021 6.15999C4.74753 6.15411 4.72457 6.14879 4.70133 6.14375C4.61437 6.12505 4.52567 6.11566 4.43673 6.11575C4.01477 6.11575 3.66617 6.34451 3.52673 6.71299C3.47689 6.84113 3.45521 6.9785 3.46319 7.11576C3.47116 7.25302 3.50859 7.38696 3.57293 7.50847C3.66561 7.68403 3.81345 7.84111 4.02485 7.98895C4.08085 8.02815 4.16849 8.08471 4.27881 8.15695C4.33845 8.19559 4.42553 8.25215 4.51093 8.30871C4.54081 8.32803 4.5662 8.35352 4.58541 8.38347C4.60333 8.42015 4.60389 8.45963 4.57729 8.53243C4.52071 8.657 4.45315 8.77629 4.37541 8.88887C4.10269 9.28787 3.71237 9.62611 3.21397 9.89687C2.94993 10.0369 2.67553 10.1304 2.55961 10.4454C2.47225 10.6831 2.52937 10.9536 2.75141 11.1815C2.8329 11.2666 2.92741 11.3381 3.03141 11.3935C3.24779 11.5124 3.47788 11.6044 3.71657 11.6676C3.76582 11.6803 3.81259 11.7012 3.85489 11.7295C3.93581 11.8003 3.92433 11.907 4.03213 12.0632C4.08624 12.144 4.155 12.2139 4.23485 12.2693C4.46109 12.4255 4.71533 12.4353 4.98469 12.4457C5.22801 12.4549 5.50381 12.4656 5.81881 12.5695C5.94929 12.6126 6.08481 12.696 6.24189 12.7935C6.61905 13.0253 7.13537 13.3425 7.99945 13.3425C8.86353 13.3425 9.38349 13.0236 9.76345 12.7909C9.91941 12.6952 10.0541 12.6126 10.1809 12.5706C10.4959 12.4664 10.7717 12.4561 11.015 12.4468C11.2844 12.4365 11.5386 12.4267 11.7649 12.2704C11.8595 12.2045 11.9382 12.1184 11.9956 12.0184C12.0732 11.8865 12.0712 11.7944 12.144 11.73C12.1837 11.7031 12.2276 11.6831 12.2739 11.6707C12.5159 11.6073 12.7491 11.5144 12.9683 11.394C13.0788 11.3348 13.1783 11.2569 13.2623 11.1639L13.2651 11.1605C13.4734 10.9376 13.5258 10.675 13.4404 10.4431ZM12.6724 10.8559C12.2039 11.1146 11.8926 11.0869 11.6504 11.2428C11.4446 11.3753 11.5664 11.6609 11.4168 11.7639C11.2332 11.8907 10.6902 11.7549 9.98885 11.9865C9.41037 12.1777 9.04133 12.7277 8.00085 12.7277C6.96037 12.7277 6.60001 12.1789 6.01201 11.9851C5.31201 11.7535 4.76797 11.8893 4.58401 11.7625C4.43477 11.6595 4.55601 11.3739 4.35049 11.2414C4.10801 11.0855 3.79665 11.1132 3.32849 10.8559C3.03029 10.6912 3.19941 10.5893 3.29881 10.5411C4.99561 9.71963 5.26637 8.45123 5.27841 8.35715C5.29297 8.24319 5.30921 8.15359 5.18377 8.03767C5.06253 7.92567 4.52465 7.59275 4.37541 7.48859C4.12845 7.31611 4.01981 7.14391 4.09989 6.93223C4.15589 6.78579 4.29253 6.73063 4.43589 6.73063C4.4812 6.73077 4.52636 6.73584 4.57057 6.74575C4.84161 6.80455 5.10481 6.94035 5.25685 6.97703C5.27515 6.98173 5.29395 6.98427 5.31285 6.98459C5.39405 6.98459 5.42261 6.94371 5.41701 6.85075C5.39965 6.55423 5.35765 5.97631 5.40441 5.43619C5.46853 4.69307 5.70793 4.32487 5.99241 3.99923C6.12905 3.84271 6.77109 3.16427 7.99889 3.16427C9.22669 3.16427 9.87041 3.83991 10.007 3.99587C10.2918 4.32151 10.5315 4.68971 10.595 5.43283C10.6418 5.97295 10.6015 6.55115 10.5824 6.84739C10.576 6.94511 10.6054 6.98123 10.6866 6.98123C10.7055 6.98093 10.7243 6.97839 10.7426 6.97367C10.8949 6.93699 11.1581 6.80119 11.4292 6.74239C11.4734 6.73248 11.5185 6.72741 11.5638 6.72727C11.708 6.72727 11.8438 6.78327 11.8998 6.92887C11.9799 7.14055 11.8718 7.31275 11.6246 7.48523C11.4754 7.58939 10.9375 7.92203 10.8162 8.03431C10.6905 8.15023 10.707 8.23983 10.7216 8.35379C10.7336 8.44927 11.0041 9.71767 12.7012 10.5378C12.8014 10.5879 12.9706 10.6898 12.6724 10.8559Z",
+      fill: "black",
+      key: "xdhn4y"
+    }
+  ]
+];
+var LogoSnapchat = createFoamicon("LogoSnapchat", __iconNode529);
+
+// src/logos/LogoTiktokDark.tsx
+var __iconNode530 = [
+  [
+    "path",
+    {
+      d: "M6.67253 6.55723V6.02719C6.49063 6.00233 6.30601 5.987 6.11763 5.987C3.84728 5.987 2 7.83428 2 10.105C2 11.4982 2.69592 12.731 3.75803 13.4763C3.07267 12.7405 2.65232 11.755 2.65232 10.6725C2.65232 8.43448 4.44714 6.60934 6.67287 6.55723H6.67253Z",
+      fill: "#25F4EE",
+      key: "x7y89i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.76963 12.5531C7.78268 12.5531 8.60907 11.7472 8.64654 10.7433L8.65029 1.77774H10.2881C10.254 1.59346 10.2353 1.40406 10.2353 1.2099H7.99831L7.99456 10.1755C7.95709 11.1794 7.1307 11.9853 6.11764 11.9853C5.80289 11.9853 5.5062 11.9066 5.24527 11.7693C5.58693 12.2432 6.14217 12.5531 6.76963 12.5531Z",
+      fill: "#25F4EE",
+      key: "imoh29"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.3477 4.82064V4.32229C12.7229 4.32229 12.1408 4.13664 11.6526 3.81815C12.0873 4.31718 12.6776 4.67724 13.3477 4.82064Z",
+      fill: "#25F4EE",
+      key: "uv4g1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.653 3.81817C11.1768 3.27144 10.8876 2.55781 10.8876 1.7774H10.2884C10.4461 2.62968 10.952 3.36103 11.653 3.81817Z",
+      fill: "#FE2C55",
+      key: "7995kf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.11763 8.22431C5.08073 8.22431 4.23697 9.06807 4.23697 10.105C4.23697 10.8271 4.64676 11.4546 5.24526 11.7693C5.02214 11.46 4.88929 11.0819 4.88929 10.6725C4.88929 9.63558 5.73305 8.79182 6.76995 8.79182C6.96344 8.79182 7.14908 8.82384 7.32485 8.87868V6.5947C7.14295 6.56983 6.95833 6.5545 6.76995 6.5545C6.73725 6.5545 6.70523 6.55621 6.67287 6.55689V8.31084C6.4971 8.25599 6.31146 8.22397 6.11797 8.22397L6.11763 8.22431Z",
+      fill: "#FE2C55",
+      key: "nopq9f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.3477 4.82065V6.55927C12.1878 6.55927 11.1127 6.18831 10.2353 5.55847V10.105C10.2353 12.3757 8.38798 14.2226 6.11763 14.2226C5.24015 14.2226 4.4267 13.946 3.75769 13.4763C4.50982 14.2839 5.58147 14.7901 6.76961 14.7901C9.04031 14.7901 10.8872 12.9428 10.8872 10.6725V6.12631C11.7647 6.75615 12.8398 7.12711 13.9997 7.12711V4.8898C13.7759 4.8898 13.5579 4.86561 13.3477 4.82065Z",
+      fill: "#FE2C55",
+      key: "yuaqrp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.2353 10.105V5.55849C11.1127 6.18833 12.1878 6.55928 13.3477 6.55928V4.82067C12.6776 4.67726 12.0873 4.31754 11.6527 3.81817C10.9516 3.36103 10.4458 2.63002 10.2881 1.7774H8.65027L8.64653 10.743C8.60906 11.7469 7.78267 12.5528 6.76961 12.5528C6.14216 12.5528 5.58692 12.2428 5.24526 11.769C4.64675 11.4539 4.23697 10.8265 4.23697 10.1046C4.23697 9.06774 5.08073 8.22398 6.11763 8.22398C6.31111 8.22398 6.49676 8.256 6.67253 8.31084V6.5569C4.4468 6.60902 2.65198 8.43416 2.65198 10.6721C2.65198 11.7547 3.07232 12.7402 3.75769 13.4759C4.42636 13.9453 5.24015 14.2223 6.11763 14.2223C8.38798 14.2223 10.2353 12.375 10.2353 10.1046V10.105Z",
+      fill: "white",
+      key: "27xbg"
+    }
+  ]
+];
+var LogoTiktokDark = createFoamicon("LogoTiktokDark", __iconNode530);
+
+// src/logos/LogoTiktokFill.tsx
+var __iconNode531 = [
+  [
+    "path",
+    {
+      d: "M10.4747 1.00029H8.31515V10.511C8.31515 11.7574 7.4514 12.5591 6.40089 12.5591C5.35038 12.5591 4.41659 11.7574 4.41659 10.511C4.41659 9.07101 5.50226 8.31065 6.94963 8.46809V6.05812C6.73953 6.02168 6.52943 6.00973 6.3542 6.00973C3.98458 6.00973 2 7.98207 2 10.4261C2 13.0157 3.96095 15 6.36573 15C8.47857 15 10.7199 13.3906 10.7199 10.3535V5.40447C11.6537 6.37242 12.7861 6.67505 14 6.67505V4.44847C12.5059 4.33943 10.8482 3.32308 10.4747 1V1.00029Z",
+      fill: "currentColor",
+      key: "26thnr"
+    }
+  ]
+];
+var LogoTiktokFill = createFoamicon("LogoTiktokFill", __iconNode531);
+
+// src/logos/LogoTiktok.tsx
+var __iconNode532 = [
+  [
+    "path",
+    {
+      d: "M6.67253 6.55723V6.02719C6.49063 6.00233 6.30601 5.987 6.11763 5.987C3.84728 5.987 2 7.83428 2 10.105C2 11.4982 2.69592 12.731 3.75803 13.4763C3.07267 12.7405 2.65232 11.755 2.65232 10.6725C2.65232 8.43448 4.44714 6.60934 6.67287 6.55723H6.67253Z",
+      fill: "#25F4EE",
+      key: "x7y89i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.76963 12.5531C7.78268 12.5531 8.60907 11.7472 8.64654 10.7433L8.65029 1.77774H10.2881C10.254 1.59346 10.2353 1.40406 10.2353 1.2099H7.99831L7.99456 10.1755C7.95709 11.1794 7.1307 11.9853 6.11764 11.9853C5.80289 11.9853 5.5062 11.9066 5.24527 11.7693C5.58693 12.2432 6.14217 12.5531 6.76963 12.5531Z",
+      fill: "#25F4EE",
+      key: "imoh29"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.3477 4.82064V4.32229C12.7229 4.32229 12.1408 4.13664 11.6526 3.81815C12.0873 4.31718 12.6776 4.67724 13.3477 4.82064Z",
+      fill: "#25F4EE",
+      key: "uv4g1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M11.653 3.81817C11.1768 3.27144 10.8876 2.55781 10.8876 1.7774H10.2884C10.4461 2.62968 10.952 3.36103 11.653 3.81817Z",
+      fill: "#FE2C55",
+      key: "7995kf"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.11763 8.22431C5.08073 8.22431 4.23697 9.06807 4.23697 10.105C4.23697 10.8271 4.64676 11.4546 5.24526 11.7693C5.02214 11.46 4.88929 11.0819 4.88929 10.6725C4.88929 9.63558 5.73305 8.79182 6.76995 8.79182C6.96344 8.79182 7.14908 8.82384 7.32485 8.87868V6.5947C7.14295 6.56983 6.95833 6.5545 6.76995 6.5545C6.73725 6.5545 6.70523 6.55621 6.67287 6.55689V8.31084C6.4971 8.25599 6.31146 8.22397 6.11797 8.22397L6.11763 8.22431Z",
+      fill: "#FE2C55",
+      key: "nopq9f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.3477 4.82065V6.55927C12.1878 6.55927 11.1127 6.18831 10.2353 5.55847V10.105C10.2353 12.3757 8.38798 14.2226 6.11763 14.2226C5.24015 14.2226 4.4267 13.946 3.75769 13.4763C4.50982 14.2839 5.58147 14.7901 6.76961 14.7901C9.04031 14.7901 10.8872 12.9428 10.8872 10.6725V6.12631C11.7647 6.75615 12.8398 7.12711 13.9997 7.12711V4.8898C13.7759 4.8898 13.5579 4.86561 13.3477 4.82065Z",
+      fill: "#FE2C55",
+      key: "yuaqrp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.2353 10.105V5.55849C11.1127 6.18833 12.1878 6.55928 13.3477 6.55928V4.82067C12.6776 4.67726 12.0873 4.31754 11.6527 3.81817C10.9516 3.36103 10.4458 2.63002 10.2881 1.7774H8.65027L8.64653 10.743C8.60906 11.7469 7.78267 12.5528 6.76961 12.5528C6.14216 12.5528 5.58692 12.2428 5.24526 11.769C4.64675 11.4539 4.23697 10.8265 4.23697 10.1046C4.23697 9.06774 5.08073 8.22398 6.11763 8.22398C6.31111 8.22398 6.49676 8.256 6.67253 8.31084V6.5569C4.4468 6.60902 2.65198 8.43416 2.65198 10.6721C2.65198 11.7547 3.07232 12.7402 3.75769 13.4759C4.42636 13.9453 5.24015 14.2223 6.11763 14.2223C8.38798 14.2223 10.2353 12.375 10.2353 10.1046V10.105Z",
+      fill: "black",
+      key: "lp157a"
+    }
+  ]
+];
+var LogoTiktok = createFoamicon("LogoTiktok", __iconNode532);
+
+// src/logos/LogoYoutubeFill.tsx
+var __iconNode533 = [
+  [
+    "path",
+    {
+      d: "M7.99966 13.3333C7.99966 13.3333 12.5864 13.333 13.7301 13.0345C14.3612 12.8701 14.8583 12.3864 15.027 11.7718C15.3335 10.6576 15.3336 8.33333 15.3336 8.33333C15.3336 8.33266 15.3335 6.00876 15.027 4.89485C14.8583 4.28019 14.3612 3.79644 13.7301 3.63216C12.5864 3.33361 7.99966 3.33333 7.99966 3.33333C7.95548 3.33334 3.40884 3.33513 2.27017 3.63216C1.63916 3.79643 1.14196 4.2802 0.973297 4.89485C0.666864 6.00875 0.666657 8.33265 0.666656 8.33333C0.666656 8.33333 0.666824 10.6576 0.973297 11.7718C1.14195 12.3864 1.63915 12.8702 2.27017 13.0345C3.40881 13.3315 7.95548 13.3333 7.99966 13.3333ZM6.49966 6.22298L10.3336 8.33333L6.49966 10.4437V6.22298Z",
+      fill: "currentColor",
+      key: "g4lunf"
+    }
+  ]
+];
+var LogoYoutubeFill = createFoamicon("LogoYoutubeFill", __iconNode533);
+
+// src/logos/LogoYoutube.tsx
+var __iconNode534 = [
+  [
+    "path",
+    {
+      d: "M15.0268 4.89488C14.8582 4.2802 14.3612 3.79617 13.7302 3.63189C12.5864 3.33334 7.99999 3.33334 7.99999 3.33334C7.99999 3.33334 3.4136 3.33334 2.26981 3.63189C1.63879 3.79617 1.14179 4.2802 0.973134 4.89488C0.666656 6.00893 0.666656 8.33334 0.666656 8.33334C0.666656 8.33334 0.666656 10.6577 0.973134 11.7719C1.14179 12.3865 1.63879 12.8705 2.26981 13.0349C3.4136 13.3333 7.99999 13.3333 7.99999 13.3333C7.99999 13.3333 12.5864 13.3333 13.7302 13.0349C14.3612 12.8705 14.8582 12.3865 15.0268 11.7719C15.3333 10.6577 15.3333 8.33334 15.3333 8.33334C15.3333 8.33334 15.3333 6.00893 15.0268 4.89488Z",
+      fill: "#FF0302",
+      key: "hriguy"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 10.4437L10.3333 8.33344L6.5 6.22296V10.4437Z",
+      fill: "white",
+      key: "yt4j7o"
+    }
+  ]
+];
+var LogoYoutube = createFoamicon("LogoYoutube", __iconNode534);
 
 // src/index.ts
 var iconNames = ["Alert", "AlertDuotone", "AlertFill", "Archive", "ArchiveArrowUp", "ArchiveArrowUpDuotone", "ArchiveArrowUpFill", "ArchiveDuotone", "ArchiveFill", "ArrowDown", "ArrowDown01", "ArrowDown01Duotone", "ArrowDown01Fill", "ArrowDown10", "ArrowDown10Duotone", "ArrowDown10Fill", "ArrowDownDuotone", "ArrowDownFill", "ArrowDownIG", "ArrowDownIGDuotone", "ArrowDownIGFill", "ArrowDownNarrowWide", "ArrowDownNarrowWideDuotone", "ArrowDownNarrowWideFill", "ArrowDownSC", "ArrowDownSCDuotone", "ArrowDownSCFill", "ArrowDownTT", "ArrowDownTTDuotone", "ArrowDownTTFill", "ArrowDownUp", "ArrowDownUpDuotone", "ArrowDownUpFill", "ArrowDownWideNarrow", "ArrowDownWideNarrowDuotone", "ArrowDownWideNarrowFill", "ArrowDownYT", "ArrowDownYTDuotone", "ArrowDownYTFill", "ArrowLeft", "ArrowLeftDuotone", "ArrowLeftFill", "ArrowRight", "ArrowRightDuotone", "ArrowRightFill", "ArrowRightToLine", "ArrowRightToLineDuotone", "ArrowRightToLineFill", "ArrowUp", "ArrowUpAZ", "ArrowUpAZDuotone", "ArrowUpAZFill", "ArrowUpDuotone", "ArrowUpFill", "ArrowUpIG", "ArrowUpIGDuotone", "ArrowUpIGFill", "ArrowUpNarrowWide", "ArrowUpNarrowWideDuotone", "ArrowUpNarrowWideFill", "ArrowUpSC", "ArrowUpSCDuotone", "ArrowUpSCFill", "ArrowUpTT", "ArrowUpTTDuotone", "ArrowUpTTFill", "ArrowUpWideNarrow", "ArrowUpWideNarrowDuotone", "ArrowUpWideNarrowFill", "ArrowUpYT", "ArrowUpYTDuotone", "ArrowUpYTFill", "ArrowUpZA", "ArrowUpZADuotone", "ArrowUpZAFill", "AtSign", "AtSignDuotone", "AtSignFill", "Ban", "BanDuotone", "BanFill", "Bell", "BellDuotone", "BellFill", "Bold", "BoldDuotone", "BoldFill", "Bookmark", "BookmarkDuotone", "BookmarkFill", "Calendar", "CalendarDuotone", "CalendarFill", "ChartColumnSquare", "ChartColumnSquareDuotone", "ChartColumnSquareFill", "Checkbox", "CheckboxDuotone", "CheckboxFill", "Checkmark", "CheckmarkDuotone", "CheckmarkFill", "ChevronDown", "ChevronDownDuotone", "ChevronDownFill", "ChevronLeft", "ChevronLeftDuotone", "ChevronLeftFill", "ChevronRight", "ChevronRightDuotone", "ChevronRightFill", "ChevronUp", "ChevronUpDuotone", "ChevronUpFill", "CircleAlert", "CircleAlertDuotone", "CircleAlertFill", "CircleDollarSign", "CircleDollarSignDuotone", "CircleDollarSignFill", "CircleQuestionMark", "CircleQuestionMarkDuotone", "CircleQuestionMarkFill", "CircleX", "CircleXDuotone", "CircleXFill", "Clock", "ClockArrowDown", "ClockArrowDownDuotone", "ClockArrowDownFill", "ClockArrowUp", "ClockArrowUpDuotone", "ClockArrowUpFill", "ClockDuotone", "ClockFill", "Cog", "CogDuotone", "CogFill", "Columns3", "Columns3Duotone", "Columns3Fill", "Command", "CommandDuotone", "CommandFill", "ContentHeart", "ContentHeartDuotone", "ContentHeartFill", "ContentPlus", "ContentPlusDuotone", "ContentPlusFill", "ContentUser", "ContentUserDuotone", "ContentUserFill", "Copy", "CopyDuotone", "CopyFill", "Download", "DownloadDuotone", "DownloadFill", "Eclipse", "EclipseDuotone", "EclipseFill", "Ellipsis", "EllipsisDuotone", "EllipsisFill", "EllipsisVertical", "EllipsisVerticalDuotone", "EllipsisVerticalFill", "ExternalLink", "ExternalLinkDuotone", "ExternalLinkFill", "Eye", "EyeDuotone", "EyeFill", "EyeOff", "EyeOffDuotone", "EyeOffFill", "File", "FileArrowDown", "FileArrowDownDuotone", "FileArrowDownFill", "FileArrowLeft", "FileArrowLeftDuotone", "FileArrowLeftFill", "FileArrowLeftRight", "FileArrowLeftRightDuotone", "FileArrowLeftRightFill", "FileArrowRight", "FileArrowRightDuotone", "FileArrowRightFill", "FileArrowUp", "FileArrowUpDuotone", "FileArrowUpFill", "FileCheck", "FileCheckDuotone", "FileCheckFill", "FileCog", "FileCogDuotone", "FileCogFill", "FileDuotone", "FileFill", "FilePlus", "FilePlusDuotone", "FilePlusFill", "FileUser", "FileUserDuotone", "FileUserFill", "FileX", "FileXDuotone", "FileXFill", "Flame", "FlameDuotone", "FlameFill", "Frown", "FrownDuotone", "FrownFill", "Fullscreen", "FullscreenDuotone", "FullscreenFill", "Globe", "GlobeDuotone", "GlobeFill", "Grid1x2", "Grid1x2Duotone", "Grid1x2Fill", "Grid2x2", "Grid2x2Duotone", "Grid2x2Fill", "Grip", "GripDuotone", "GripFill", "GripHorizontal", "GripHorizontalDuotone", "GripHorizontalFill", "GripVertical", "GripVerticalDuotone", "GripVerticalFill", "Heart", "HeartDuotone", "HeartFill", "History", "HistoryDuotone", "HistoryFill", "Hotspot", "HotspotDuotone", "HotspotFill", "House", "HouseDuotone", "HouseFill", "Image", "ImageDuotone", "ImageFill", "Images", "ImagesDuotone", "ImagesFill", "Inbox", "InboxDuotone", "InboxFill", "Info", "InfoDuotone", "InfoFill", "Italic", "ItalicDuotone", "ItalicFill", "Link", "LinkDuotone", "LinkFill", "List", "ListDuotone", "ListFill", "ListFilter", "ListFilterDuotone", "ListFilterFill", "ListIndentDecrease", "ListIndentDecreaseDuotone", "ListIndentDecreaseFill", "ListIndentIncrease", "ListIndentIncreaseDuotone", "ListIndentIncreaseFill", "ListOrdered", "ListOrderedDuotone", "ListOrderedFill", "LoaderCircle", "LoaderCircleDuotone", "LoaderCircleFill", "Lock", "LockDuotone", "LockFill", "LogOut", "LogOutDuotone", "LogOutFill", "Mail", "MailDuotone", "MailFill", "MailMove", "MailMoveDuotone", "MailMoveFill", "MailPlus", "MailPlusDuotone", "MailPlusFill", "MapPin", "MapPinDuotone", "MapPinFill", "Maximize", "MaximizeDuotone", "MaximizeFill", "Megaphone", "MegaphoneActive", "MegaphoneActiveDuotone", "MegaphoneActiveFill", "MegaphoneDuotone", "MegaphoneFill", "Menu", "MenuDuotone", "MenuFill", "MessageSquare", "MessageSquareDuotone", "MessageSquareFill", "MessagesSquare", "MessagesSquareDuotone", "MessagesSquareFill", "Minus", "MinusDuotone", "MinusFill", "Moon", "MoonDuotone", "MoonFill", "MousePointerClick", "MousePointerClickDuotone", "MousePointerClickFill", "Move", "MoveDuotone", "MoveFill", "Notebook", "NotebookDuotone", "NotebookFill", "Office", "OfficeDuotone", "OfficeFill", "PanelLeft", "PanelLeftDuotone", "PanelLeftFill", "PanelRight", "PanelRightDuotone", "PanelRightFill", "Pencil", "PencilDuotone", "PencilFill", "Pin", "PinDuotone", "PinFill", "Play", "PlayDuotone", "PlayFill", "Plus", "PlusDuotone", "PlusFill", "Pointer", "PointerDuotone", "PointerFill", "QuotationMarkLeft", "QuotationMarkLeftDuotone", "QuotationMarkLeftFill", "QuotationMarkRight", "QuotationMarkRightDuotone", "QuotationMarkRightFill", "Reach", "ReachDuotone", "ReachFill", "Reel", "ReelDuotone", "ReelFill", "RefreshCw", "RefreshCwDuotone", "RefreshCwFill", "RemoveFormatting", "RemoveFormattingDuotone", "RemoveFormattingFill", "Reply", "ReplyDuotone", "ReplyFill", "Rolodex", "RolodexDuotone", "RolodexFill", "RotateCw", "RotateCwDuotone", "RotateCwFill", "Rows2", "Rows2Duotone", "Rows2Fill", "Save", "SaveDuotone", "SaveFill", "Search", "SearchDuotone", "SearchFill", "SearchUser", "SearchUserDuotone", "SearchUserFill", "Share", "ShareDuotone", "ShareFill", "SlidersHorizontal", "SlidersHorizontalDuotone", "SlidersHorizontalFill", "Smile", "SmileDuotone", "SmileFill", "Sparkles", "SparklesDuotone", "SparklesFill", "Square", "SquareDuotone", "SquareFill", "SquarePen", "SquarePenDuotone", "SquarePenFill", "Star", "StarDuotone", "StarFill", "Sun", "SunDuotone", "SunFill", "TextAlignCenter", "TextAlignCenterDuotone", "TextAlignCenterFill", "TextAlignEnd", "TextAlignEndDuotone", "TextAlignEndFill", "TextAlignJustify", "TextAlignJustifyDuotone", "TextAlignJustifyFill", "TextAlignStart", "TextAlignStartDuotone", "TextAlignStartFill", "ThumbsDown", "ThumbsDownDuotone", "ThumbsDownFill", "ThumbsUp", "ThumbsUpDuotone", "ThumbsUpFill", "Trash", "TrashDuotone", "TrashEmpty", "TrashEmptyDuotone", "TrashEmptyFill", "TrashFill", "TrendingDown", "TrendingDownDuotone", "TrendingDownFill", "TrendingUp", "TrendingUpDuotone", "TrendingUpFill", "TriangleDown", "TriangleDownDuotone", "TriangleDownFill", "TriangleDownUp", "TriangleDownUpDuotone", "TriangleDownUpFill", "TriangleUp", "TriangleUpDuotone", "TriangleUpFill", "Unlink", "UnlinkDuotone", "UnlinkFill", "Unlock", "UnlockDuotone", "UnlockFill", "Upload", "UploadDuotone", "UploadFill", "User", "UserArrowLeft", "UserArrowLeftDuotone", "UserArrowLeftFill", "UserArrowLeftRight", "UserArrowLeftRightDuotone", "UserArrowLeftRightFill", "UserArrowOutUpRight", "UserArrowOutUpRightDuotone", "UserArrowOutUpRightFill", "UserArrowRight", "UserArrowRightDuotone", "UserArrowRightFill", "UserCog", "UserCogDuotone", "UserCogFill", "UserDuotone", "UserFill", "UserPlus", "UserPlusDuotone", "UserPlusFill", "Users", "UsersDuotone", "UsersFill", "Volume2", "Volume2Duotone", "Volume2Fill", "VolumeOff", "VolumeOffDuotone", "VolumeOffFill"];
@@ -2311,6 +23163,4 @@ function getCanonicalName(nameOrAlias) {
   return aliasToCanonical[nameOrAlias] || nameOrAlias;
 }
 
-export { aliasToCanonical, allNames, getCanonicalName, iconAliases, iconNames, iconTags, logoAliases, logoNames, logoTags };
-//# sourceMappingURL=index.js.map
-//# sourceMappingURL=index.js.map
+export { Info as About, InfoDuotone as AboutDuotone, InfoDuotone as AboutDuotoneIcon, InfoFill as AboutFill, InfoFill as AboutFillIcon, Info as AboutIcon, User as Account, UserDuotone as AccountDuotone, UserDuotone as AccountDuotoneIcon, UserFill as AccountFill, UserFill as AccountFillIcon, User as AccountIcon, Plus as Add, ContentPlus as AddContent, ContentPlusDuotone as AddContentDuotone, ContentPlusDuotone as AddContentDuotoneIcon, ContentPlusFill as AddContentFill, ContentPlusFill as AddContentFillIcon, ContentPlus as AddContentIcon, PlusDuotone as AddDuotone, PlusDuotone as AddDuotoneIcon, FilePlus as AddFile, FilePlusDuotone as AddFileDuotone, FilePlusDuotone as AddFileDuotoneIcon, FilePlusFill as AddFileFill, FilePlusFill as AddFileFillIcon, FilePlus as AddFileIcon, PlusFill as AddFill, PlusFill as AddFillIcon, Plus as AddIcon, Rolodex as AddressBook, RolodexDuotone as AddressBookDuotone, RolodexDuotone as AddressBookDuotoneIcon, RolodexFill as AddressBookFill, RolodexFill as AddressBookFillIcon, Rolodex as AddressBookIcon, SlidersHorizontal as Adjust, SlidersHorizontalDuotone as AdjustDuotone, SlidersHorizontalDuotone as AdjustDuotoneIcon, SlidersHorizontalFill as AdjustFill, SlidersHorizontalFill as AdjustFillIcon, SlidersHorizontal as AdjustIcon, Sparkles as Ai, SparklesDuotone as AiDuotone, SparklesDuotone as AiDuotoneIcon, SparklesFill as AiFill, SparklesFill as AiFillIcon, Sparkles as AiIcon, Bell as Alarm, BellDuotone as AlarmDuotone, BellDuotone as AlarmDuotoneIcon, BellFill as AlarmFill, BellFill as AlarmFillIcon, Bell as AlarmIcon, Alert, AlertDuotone, AlertDuotone as AlertDuotoneIcon, AlertFill, AlertFill as AlertFillIcon, Alert as AlertIcon, TextAlignStart as AlignLeft, TextAlignStartDuotone as AlignLeftDuotone, TextAlignStartDuotone as AlignLeftDuotoneIcon, TextAlignStartFill as AlignLeftFill, TextAlignStartFill as AlignLeftFillIcon, TextAlignStart as AlignLeftIcon, TextAlignEnd as AlignRight, TextAlignEndDuotone as AlignRightDuotone, TextAlignEndDuotone as AlignRightDuotoneIcon, TextAlignEndFill as AlignRightFill, TextAlignEndFill as AlignRightFillIcon, TextAlignEnd as AlignRightIcon, Rolodex as Alphabet, RolodexDuotone as AlphabetDuotone, RolodexDuotone as AlphabetDuotoneIcon, RolodexFill as AlphabetFill, RolodexFill as AlphabetFillIcon, Rolodex as AlphabetIcon, ChartColumnSquare as Analytics, ChartColumnSquareDuotone as AnalyticsDuotone, ChartColumnSquareDuotone as AnalyticsDuotoneIcon, ChartColumnSquareFill as AnalyticsFill, ChartColumnSquareFill as AnalyticsFillIcon, ChartColumnSquare as AnalyticsIcon, Megaphone as Announce, MegaphoneDuotone as AnnounceDuotone, MegaphoneDuotone as AnnounceDuotoneIcon, MegaphoneFill as AnnounceFill, MegaphoneFill as AnnounceFillIcon, Megaphone as AnnounceIcon, Reply as Answer, ReplyDuotone as AnswerDuotone, ReplyDuotone as AnswerDuotoneIcon, ReplyFill as AnswerFill, ReplyFill as AnswerFillIcon, Reply as AnswerIcon, ThumbsUp as Approve, ThumbsUpDuotone as ApproveDuotone, ThumbsUpDuotone as ApproveDuotoneIcon, ThumbsUpFill as ApproveFill, ThumbsUpFill as ApproveFillIcon, ThumbsUp as ApproveIcon, Archive, ArchiveArrowUp, ArchiveArrowUpDuotone, ArchiveArrowUpDuotone as ArchiveArrowUpDuotoneIcon, ArchiveArrowUpFill, ArchiveArrowUpFill as ArchiveArrowUpFillIcon, ArchiveArrowUp as ArchiveArrowUpIcon, ArchiveDuotone, ArchiveDuotone as ArchiveDuotoneIcon, ArchiveFill, ArchiveFill as ArchiveFillIcon, Archive as ArchiveIcon, ArrowDown, ArrowDown01, ArrowDown01Duotone, ArrowDown01Duotone as ArrowDown01DuotoneIcon, ArrowDown01Fill, ArrowDown01Fill as ArrowDown01FillIcon, ArrowDown01 as ArrowDown01Icon, ArrowDown10, ArrowDown10Duotone, ArrowDown10Duotone as ArrowDown10DuotoneIcon, ArrowDown10Fill, ArrowDown10Fill as ArrowDown10FillIcon, ArrowDown10 as ArrowDown10Icon, ArrowDownDuotone, ArrowDownDuotone as ArrowDownDuotoneIcon, ArrowDownFill, ArrowDownFill as ArrowDownFillIcon, ArrowDownIG, ArrowDownIGDuotone, ArrowDownIGDuotone as ArrowDownIGDuotoneIcon, ArrowDownIGFill, ArrowDownIGFill as ArrowDownIGFillIcon, ArrowDownIG as ArrowDownIGIcon, ArrowDown as ArrowDownIcon, ArrowDownNarrowWide, ArrowDownNarrowWideDuotone, ArrowDownNarrowWideDuotone as ArrowDownNarrowWideDuotoneIcon, ArrowDownNarrowWideFill, ArrowDownNarrowWideFill as ArrowDownNarrowWideFillIcon, ArrowDownNarrowWide as ArrowDownNarrowWideIcon, ArrowDownSC, ArrowDownSCDuotone, ArrowDownSCDuotone as ArrowDownSCDuotoneIcon, ArrowDownSCFill, ArrowDownSCFill as ArrowDownSCFillIcon, ArrowDownSC as ArrowDownSCIcon, ArrowDownTT, ArrowDownTTDuotone, ArrowDownTTDuotone as ArrowDownTTDuotoneIcon, ArrowDownTTFill, ArrowDownTTFill as ArrowDownTTFillIcon, ArrowDownTT as ArrowDownTTIcon, ArrowDownUp, ArrowDownUpDuotone, ArrowDownUpDuotone as ArrowDownUpDuotoneIcon, ArrowDownUpFill, ArrowDownUpFill as ArrowDownUpFillIcon, ArrowDownUp as ArrowDownUpIcon, ArrowDownWideNarrow, ArrowDownWideNarrowDuotone, ArrowDownWideNarrowDuotone as ArrowDownWideNarrowDuotoneIcon, ArrowDownWideNarrowFill, ArrowDownWideNarrowFill as ArrowDownWideNarrowFillIcon, ArrowDownWideNarrow as ArrowDownWideNarrowIcon, ArrowDownYT, ArrowDownYTDuotone, ArrowDownYTDuotone as ArrowDownYTDuotoneIcon, ArrowDownYTFill, ArrowDownYTFill as ArrowDownYTFillIcon, ArrowDownYT as ArrowDownYTIcon, ArrowLeft, ArrowLeftDuotone, ArrowLeftDuotone as ArrowLeftDuotoneIcon, ArrowLeftFill, ArrowLeftFill as ArrowLeftFillIcon, ArrowLeft as ArrowLeftIcon, ArrowRight, ArrowRightDuotone, ArrowRightDuotone as ArrowRightDuotoneIcon, ArrowRightFill, ArrowRightFill as ArrowRightFillIcon, ArrowRight as ArrowRightIcon, ArrowRightToLine, ArrowRightToLineDuotone, ArrowRightToLineDuotone as ArrowRightToLineDuotoneIcon, ArrowRightToLineFill, ArrowRightToLineFill as ArrowRightToLineFillIcon, ArrowRightToLine as ArrowRightToLineIcon, ArrowUp, ArrowUpAZ, ArrowUpAZDuotone, ArrowUpAZDuotone as ArrowUpAZDuotoneIcon, ArrowUpAZFill, ArrowUpAZFill as ArrowUpAZFillIcon, ArrowUpAZ as ArrowUpAZIcon, ArrowUpDuotone, ArrowUpDuotone as ArrowUpDuotoneIcon, ArrowUpFill, ArrowUpFill as ArrowUpFillIcon, ArrowUpIG, ArrowUpIGDuotone, ArrowUpIGDuotone as ArrowUpIGDuotoneIcon, ArrowUpIGFill, ArrowUpIGFill as ArrowUpIGFillIcon, ArrowUpIG as ArrowUpIGIcon, ArrowUp as ArrowUpIcon, ArrowUpNarrowWide, ArrowUpNarrowWideDuotone, ArrowUpNarrowWideDuotone as ArrowUpNarrowWideDuotoneIcon, ArrowUpNarrowWideFill, ArrowUpNarrowWideFill as ArrowUpNarrowWideFillIcon, ArrowUpNarrowWide as ArrowUpNarrowWideIcon, ArrowUpSC, ArrowUpSCDuotone, ArrowUpSCDuotone as ArrowUpSCDuotoneIcon, ArrowUpSCFill, ArrowUpSCFill as ArrowUpSCFillIcon, ArrowUpSC as ArrowUpSCIcon, ArrowUpTT, ArrowUpTTDuotone, ArrowUpTTDuotone as ArrowUpTTDuotoneIcon, ArrowUpTTFill, ArrowUpTTFill as ArrowUpTTFillIcon, ArrowUpTT as ArrowUpTTIcon, ArrowUpWideNarrow, ArrowUpWideNarrowDuotone, ArrowUpWideNarrowDuotone as ArrowUpWideNarrowDuotoneIcon, ArrowUpWideNarrowFill, ArrowUpWideNarrowFill as ArrowUpWideNarrowFillIcon, ArrowUpWideNarrow as ArrowUpWideNarrowIcon, ArrowUpYT, ArrowUpYTDuotone, ArrowUpYTDuotone as ArrowUpYTDuotoneIcon, ArrowUpYTFill, ArrowUpYTFill as ArrowUpYTFillIcon, ArrowUpYT as ArrowUpYTIcon, ArrowUpZA, ArrowUpZADuotone, ArrowUpZADuotone as ArrowUpZADuotoneIcon, ArrowUpZAFill, ArrowUpZAFill as ArrowUpZAFillIcon, ArrowUpZA as ArrowUpZAIcon, ArchiveArrowUp as Ascending, ArchiveArrowUpDuotone as AscendingDuotone, ArchiveArrowUpDuotone as AscendingDuotoneIcon, ArchiveArrowUpFill as AscendingFill, ArchiveArrowUpFill as AscendingFillIcon, ArchiveArrowUp as AscendingIcon, AtSign, AtSignDuotone, AtSignDuotone as AtSignDuotoneIcon, AtSignFill, AtSignFill as AtSignFillIcon, AtSign as AtSignIcon, Alert as Attention, CircleAlert as AttentionCircle, CircleAlertDuotone as AttentionCircleDuotone, CircleAlertDuotone as AttentionCircleDuotoneIcon, CircleAlertFill as AttentionCircleFill, CircleAlertFill as AttentionCircleFillIcon, CircleAlert as AttentionCircleIcon, AlertDuotone as AttentionDuotone, AlertDuotone as AttentionDuotoneIcon, AlertFill as AttentionFill, AlertFill as AttentionFillIcon, Alert as AttentionIcon, Reach as Audience, ReachDuotone as AudienceDuotone, ReachDuotone as AudienceDuotoneIcon, ReachFill as AudienceFill, ReachFill as AudienceFillIcon, Reach as AudienceIcon, Volume2 as Audio, Volume2Duotone as AudioDuotone, Volume2Duotone as AudioDuotoneIcon, Volume2Fill as AudioFill, Volume2Fill as AudioFillIcon, Volume2 as AudioIcon, ArrowLeft as Back, ArrowLeftDuotone as BackDuotone, ArrowLeftDuotone as BackDuotoneIcon, ArrowLeftFill as BackFill, ArrowLeftFill as BackFillIcon, ArrowLeft as BackIcon, Ban, BanDuotone, BanDuotone as BanDuotoneIcon, BanFill, BanFill as BanFillIcon, Ban as BanIcon, ChartColumnSquare as BarChart, ChartColumnSquareDuotone as BarChartDuotone, ChartColumnSquareDuotone as BarChartDuotoneIcon, ChartColumnSquareFill as BarChartFill, ChartColumnSquareFill as BarChartFillIcon, ChartColumnSquare as BarChartIcon, Menu as Bars, MenuDuotone as BarsDuotone, MenuDuotone as BarsDuotoneIcon, MenuFill as BarsFill, MenuFill as BarsFillIcon, Menu as BarsIcon, Bell, BellDuotone, BellDuotone as BellDuotoneIcon, BellFill, BellFill as BellFillIcon, Bell as BellIcon, Trash as Bin, TrashDuotone as BinDuotone, TrashDuotone as BinDuotoneIcon, TrashFill as BinFill, TrashFill as BinFillIcon, Trash as BinIcon, Ban as Block, BanDuotone as BlockDuotone, BanDuotone as BlockDuotoneIcon, BanFill as BlockFill, BanFill as BlockFillIcon, Ban as BlockIcon, QuotationMarkRight as BlockquoteEnd, QuotationMarkRightDuotone as BlockquoteEndDuotone, QuotationMarkRightDuotone as BlockquoteEndDuotoneIcon, QuotationMarkRightFill as BlockquoteEndFill, QuotationMarkRightFill as BlockquoteEndFillIcon, QuotationMarkRight as BlockquoteEndIcon, QuotationMarkLeft as BlockquoteStart, QuotationMarkLeftDuotone as BlockquoteStartDuotone, QuotationMarkLeftDuotone as BlockquoteStartDuotoneIcon, QuotationMarkLeftFill as BlockquoteStartFill, QuotationMarkLeftFill as BlockquoteStartFillIcon, QuotationMarkLeft as BlockquoteStartIcon, Bold, BoldDuotone, BoldDuotone as BoldDuotoneIcon, BoldFill, BoldFill as BoldFillIcon, Bold as BoldIcon, Bookmark, BookmarkDuotone, BookmarkDuotone as BookmarkDuotoneIcon, BookmarkFill, BookmarkFill as BookmarkFillIcon, Bookmark as BookmarkIcon, Archive as Box, ArchiveDuotone as BoxDuotone, ArchiveDuotone as BoxDuotoneIcon, ArchiveFill as BoxFill, ArchiveFill as BoxFillIcon, Archive as BoxIcon, ContentUser as BrandAssets, ContentUserDuotone as BrandAssetsDuotone, ContentUserDuotone as BrandAssetsDuotoneIcon, ContentUserFill as BrandAssetsFill, ContentUserFill as BrandAssetsFillIcon, ContentUser as BrandAssetsIcon, Unlink as Break, UnlinkDuotone as BreakDuotone, UnlinkDuotone as BreakDuotoneIcon, UnlinkFill as BreakFill, UnlinkFill as BreakFillIcon, Unlink as BreakIcon, Sun as Bright, SunDuotone as BrightDuotone, SunDuotone as BrightDuotoneIcon, SunFill as BrightFill, SunFill as BrightFillIcon, Sun as BrightIcon, Megaphone as Broadcast, MegaphoneDuotone as BroadcastDuotone, MegaphoneDuotone as BroadcastDuotoneIcon, MegaphoneFill as BroadcastFill, MegaphoneFill as BroadcastFillIcon, Megaphone as BroadcastIcon, List as Bullets, ListDuotone as BulletsDuotone, ListDuotone as BulletsDuotoneIcon, ListFill as BulletsFill, ListFill as BulletsFillIcon, List as BulletsIcon, Calendar, CalendarDuotone, CalendarDuotone as CalendarDuotoneIcon, CalendarFill, CalendarFill as CalendarFillIcon, Calendar as CalendarIcon, CircleX as Cancel, CircleXDuotone as CancelDuotone, CircleXDuotone as CancelDuotoneIcon, CircleXFill as CancelFill, CircleXFill as CancelFillIcon, CircleX as CancelIcon, Rolodex as CardIndex, RolodexDuotone as CardIndexDuotone, RolodexDuotone as CardIndexDuotoneIcon, RolodexFill as CardIndexFill, RolodexFill as CardIndexFillIcon, Rolodex as CardIndexIcon, Grid1x2 as Cards, Grid1x2Duotone as CardsDuotone, Grid1x2Duotone as CardsDuotoneIcon, Grid1x2Fill as CardsFill, Grid1x2Fill as CardsFillIcon, Grid1x2 as CardsIcon, ChevronDown as CaretDown, ChevronDownDuotone as CaretDownDuotone, ChevronDownDuotone as CaretDownDuotoneIcon, ChevronDownFill as CaretDownFill, ChevronDownFill as CaretDownFillIcon, ChevronDown as CaretDownIcon, ChevronLeft as CaretLeft, ChevronLeftDuotone as CaretLeftDuotone, ChevronLeftDuotone as CaretLeftDuotoneIcon, ChevronLeftFill as CaretLeftFill, ChevronLeftFill as CaretLeftFillIcon, ChevronLeft as CaretLeftIcon, ChevronRight as CaretRight, ChevronRightDuotone as CaretRightDuotone, ChevronRightDuotone as CaretRightDuotoneIcon, ChevronRightFill as CaretRightFill, ChevronRightFill as CaretRightFillIcon, ChevronRight as CaretRightIcon, ChevronUp as CaretUp, ChevronUpDuotone as CaretUpDuotone, ChevronUpDuotone as CaretUpDuotoneIcon, ChevronUpFill as CaretUpFill, ChevronUpFill as CaretUpFillIcon, ChevronUp as CaretUpIcon, Alert as Caution, CircleAlert as CautionCircle, CircleAlertDuotone as CautionCircleDuotone, CircleAlertDuotone as CautionCircleDuotoneIcon, CircleAlertFill as CautionCircleFill, CircleAlertFill as CautionCircleFillIcon, CircleAlert as CautionCircleIcon, AlertDuotone as CautionDuotone, AlertDuotone as CautionDuotoneIcon, AlertFill as CautionFill, AlertFill as CautionFillIcon, Alert as CautionIcon, TextAlignCenter as Center, TextAlignCenterDuotone as CenterDuotone, TextAlignCenterDuotone as CenterDuotoneIcon, TextAlignCenterFill as CenterFill, TextAlignCenterFill as CenterFillIcon, TextAlignCenter as CenterIcon, Link as Chain, LinkDuotone as ChainDuotone, LinkDuotone as ChainDuotoneIcon, LinkFill as ChainFill, LinkFill as ChainFillIcon, Link as ChainIcon, ChartColumnSquare, ChartColumnSquareDuotone, ChartColumnSquareDuotone as ChartColumnSquareDuotoneIcon, ChartColumnSquareFill, ChartColumnSquareFill as ChartColumnSquareFillIcon, ChartColumnSquare as ChartColumnSquareIcon, MessagesSquare as Chat, MessagesSquareDuotone as ChatDuotone, MessagesSquareDuotone as ChatDuotoneIcon, MessagesSquareFill as ChatFill, MessagesSquareFill as ChatFillIcon, MessagesSquare as ChatIcon, MessageSquare as ChatSingle, MessageSquareDuotone as ChatSingleDuotone, MessageSquareDuotone as ChatSingleDuotoneIcon, MessageSquareFill as ChatSingleFill, MessageSquareFill as ChatSingleFillIcon, MessageSquare as ChatSingleIcon, MessagesSquare as Chats, MessagesSquareDuotone as ChatsDuotone, MessagesSquareDuotone as ChatsDuotoneIcon, MessagesSquareFill as ChatsFill, MessagesSquareFill as ChatsFillIcon, MessagesSquare as ChatsIcon, Checkmark as Check, CheckmarkDuotone as CheckDuotone, CheckmarkDuotone as CheckDuotoneIcon, CheckmarkFill as CheckFill, CheckmarkFill as CheckFillIcon, Checkmark as CheckIcon, Checkbox as CheckSquare, CheckboxDuotone as CheckSquareDuotone, CheckboxDuotone as CheckSquareDuotoneIcon, CheckboxFill as CheckSquareFill, CheckboxFill as CheckSquareFillIcon, Checkbox as CheckSquareIcon, Checkbox, CheckboxDuotone, CheckboxDuotone as CheckboxDuotoneIcon, CheckboxFill, CheckboxFill as CheckboxFillIcon, Checkbox as CheckboxIcon, Checkmark, CheckmarkDuotone, CheckmarkDuotone as CheckmarkDuotoneIcon, CheckmarkFill, CheckmarkFill as CheckmarkFillIcon, Checkmark as CheckmarkIcon, ChevronDown, ChevronDownDuotone, ChevronDownDuotone as ChevronDownDuotoneIcon, ChevronDownFill, ChevronDownFill as ChevronDownFillIcon, ChevronDown as ChevronDownIcon, ChevronLeft, ChevronLeftDuotone, ChevronLeftDuotone as ChevronLeftDuotoneIcon, ChevronLeftFill, ChevronLeftFill as ChevronLeftFillIcon, ChevronLeft as ChevronLeftIcon, ChevronRight, ChevronRightDuotone, ChevronRightDuotone as ChevronRightDuotoneIcon, ChevronRightFill, ChevronRightFill as ChevronRightFillIcon, ChevronRight as ChevronRightIcon, ChevronUp, ChevronUpDuotone, ChevronUpDuotone as ChevronUpDuotoneIcon, ChevronUpFill, ChevronUpFill as ChevronUpFillIcon, ChevronUp as ChevronUpIcon, CircleAlert, CircleAlertDuotone, CircleAlertDuotone as CircleAlertDuotoneIcon, CircleAlertFill, CircleAlertFill as CircleAlertFillIcon, CircleAlert as CircleAlertIcon, CircleDollarSign, CircleDollarSignDuotone, CircleDollarSignDuotone as CircleDollarSignDuotoneIcon, CircleDollarSignFill, CircleDollarSignFill as CircleDollarSignFillIcon, CircleDollarSign as CircleDollarSignIcon, CircleQuestionMark, CircleQuestionMarkDuotone, CircleQuestionMarkDuotone as CircleQuestionMarkDuotoneIcon, CircleQuestionMarkFill, CircleQuestionMarkFill as CircleQuestionMarkFillIcon, CircleQuestionMark as CircleQuestionMarkIcon, CircleX, CircleXDuotone, CircleXDuotone as CircleXDuotoneIcon, CircleXFill, CircleXFill as CircleXFillIcon, CircleX as CircleXIcon, CircleX as Clear, CircleXDuotone as ClearDuotone, CircleXDuotone as ClearDuotoneIcon, CircleXFill as ClearFill, CircleXFill as ClearFillIcon, RemoveFormatting as ClearFormat, RemoveFormattingDuotone as ClearFormatDuotone, RemoveFormattingDuotone as ClearFormatDuotoneIcon, RemoveFormattingFill as ClearFormatFill, RemoveFormattingFill as ClearFormatFillIcon, RemoveFormatting as ClearFormatIcon, CircleX as ClearIcon, MousePointerClick as Click, MousePointerClickDuotone as ClickDuotone, MousePointerClickDuotone as ClickDuotoneIcon, MousePointerClickFill as ClickFill, MousePointerClickFill as ClickFillIcon, MousePointerClick as ClickIcon, Clock, ClockArrowDown, ClockArrowDownDuotone, ClockArrowDownDuotone as ClockArrowDownDuotoneIcon, ClockArrowDownFill, ClockArrowDownFill as ClockArrowDownFillIcon, ClockArrowDown as ClockArrowDownIcon, ClockArrowUp, ClockArrowUpDuotone, ClockArrowUpDuotone as ClockArrowUpDuotoneIcon, ClockArrowUpFill, ClockArrowUpFill as ClockArrowUpFillIcon, ClockArrowUp as ClockArrowUpIcon, ClockDuotone, ClockDuotone as ClockDuotoneIcon, ClockFill, ClockFill as ClockFillIcon, Clock as ClockIcon, Copy as Clone, CopyDuotone as CloneDuotone, CopyDuotone as CloneDuotoneIcon, CopyFill as CloneFill, CopyFill as CloneFillIcon, Copy as CloneIcon, CircleX as Close, CircleXDuotone as CloseDuotone, CircleXDuotone as CloseDuotoneIcon, CircleXFill as CloseFill, CircleXFill as CloseFillIcon, CircleX as CloseIcon, QuotationMarkRight as CloseQuote, QuotationMarkRightDuotone as CloseQuoteDuotone, QuotationMarkRightDuotone as CloseQuoteDuotoneIcon, QuotationMarkRightFill as CloseQuoteFill, QuotationMarkRightFill as CloseQuoteFillIcon, QuotationMarkRight as CloseQuoteIcon, Command as Cmd, CommandDuotone as CmdDuotone, CommandDuotone as CmdDuotoneIcon, CommandFill as CmdFill, CommandFill as CmdFillIcon, Command as CmdIcon, Cog, CogDuotone, CogDuotone as CogDuotoneIcon, CogFill, CogFill as CogFillIcon, Cog as CogIcon, Cog as Cogwheel, CogDuotone as CogwheelDuotone, CogDuotone as CogwheelDuotoneIcon, CogFill as CogwheelFill, CogFill as CogwheelFillIcon, Cog as CogwheelIcon, ChevronDown as Collapse, ChevronDownDuotone as CollapseDuotone, ChevronDownDuotone as CollapseDuotoneIcon, ChevronDownFill as CollapseFill, ChevronDownFill as CollapseFillIcon, ChevronDown as CollapseIcon, Columns3 as ColumnLayout, Columns3Duotone as ColumnLayoutDuotone, Columns3Duotone as ColumnLayoutDuotoneIcon, Columns3Fill as ColumnLayoutFill, Columns3Fill as ColumnLayoutFillIcon, Columns3 as ColumnLayoutIcon, Columns3, Columns3Duotone, Columns3Duotone as Columns3DuotoneIcon, Columns3Fill, Columns3Fill as Columns3FillIcon, Columns3 as Columns3Icon, Command, CommandDuotone, CommandDuotone as CommandDuotoneIcon, CommandFill, CommandFill as CommandFillIcon, Command as CommandIcon, MessageSquare as Comment, MessageSquareDuotone as CommentDuotone, MessageSquareDuotone as CommentDuotoneIcon, MessageSquareFill as CommentFill, MessageSquareFill as CommentFillIcon, MessageSquare as CommentIcon, MessagesSquare as Comments, MessagesSquareDuotone as CommentsDuotone, MessagesSquareDuotone as CommentsDuotoneIcon, MessagesSquareFill as CommentsFill, MessagesSquareFill as CommentsFillIcon, MessagesSquare as CommentsIcon, Checkmark as Complete, CheckmarkDuotone as CompleteDuotone, CheckmarkDuotone as CompleteDuotoneIcon, CheckmarkFill as CompleteFill, CheckmarkFill as CompleteFillIcon, Checkmark as CompleteIcon, SquarePen as Compose, SquarePenDuotone as ComposeDuotone, SquarePenDuotone as ComposeDuotoneIcon, SquarePenFill as ComposeFill, SquarePenFill as ComposeFillIcon, SquarePen as ComposeIcon, Cog as Config, CogDuotone as ConfigDuotone, CogDuotone as ConfigDuotoneIcon, CogFill as ConfigFill, CogFill as ConfigFillIcon, Cog as ConfigIcon, Cog as Configuration, CogDuotone as ConfigurationDuotone, CogDuotone as ConfigurationDuotoneIcon, CogFill as ConfigurationFill, CogFill as ConfigurationFillIcon, Cog as ConfigurationIcon, Link as Connect, LinkDuotone as ConnectDuotone, LinkDuotone as ConnectDuotoneIcon, LinkFill as ConnectFill, LinkFill as ConnectFillIcon, Link as ConnectIcon, Rolodex as Contacts, RolodexDuotone as ContactsDuotone, RolodexDuotone as ContactsDuotoneIcon, RolodexFill as ContactsFill, RolodexFill as ContactsFillIcon, Rolodex as ContactsIcon, ContentHeart, ContentHeartDuotone, ContentHeartDuotone as ContentHeartDuotoneIcon, ContentHeartFill, ContentHeartFill as ContentHeartFillIcon, ContentHeart as ContentHeartIcon, ContentPlus, ContentPlusDuotone, ContentPlusDuotone as ContentPlusDuotoneIcon, ContentPlusFill, ContentPlusFill as ContentPlusFillIcon, ContentPlus as ContentPlusIcon, ContentUser, ContentUserDuotone, ContentUserDuotone as ContentUserDuotoneIcon, ContentUserFill, ContentUserFill as ContentUserFillIcon, ContentUser as ContentUserIcon, Eclipse as Contrast, EclipseDuotone as ContrastDuotone, EclipseDuotone as ContrastDuotoneIcon, EclipseFill as ContrastFill, EclipseFill as ContrastFillIcon, Eclipse as ContrastIcon, SlidersHorizontal as Controls, SlidersHorizontalDuotone as ControlsDuotone, SlidersHorizontalDuotone as ControlsDuotoneIcon, SlidersHorizontalFill as ControlsFill, SlidersHorizontalFill as ControlsFillIcon, SlidersHorizontal as ControlsIcon, MessagesSquare as Conversation, MessagesSquareDuotone as ConversationDuotone, MessagesSquareDuotone as ConversationDuotoneIcon, MessagesSquareFill as ConversationFill, MessagesSquareFill as ConversationFillIcon, MessagesSquare as ConversationIcon, Copy, CopyDuotone, CopyDuotone as CopyDuotoneIcon, CopyFill, CopyFill as CopyFillIcon, Copy as CopyIcon, Plus as Create, ContentPlus as CreateContent, ContentPlusDuotone as CreateContentDuotone, ContentPlusDuotone as CreateContentDuotoneIcon, ContentPlusFill as CreateContentFill, ContentPlusFill as CreateContentFillIcon, ContentPlus as CreateContentIcon, PlusDuotone as CreateDuotone, PlusDuotone as CreateDuotoneIcon, FilePlus as CreateFile, FilePlusDuotone as CreateFileDuotone, FilePlusDuotone as CreateFileDuotoneIcon, FilePlusFill as CreateFileFill, FilePlusFill as CreateFileFillIcon, FilePlus as CreateFileIcon, PlusFill as CreateFill, PlusFill as CreateFillIcon, Plus as CreateIcon, MousePointerClick as Cursor, MousePointerClickDuotone as CursorDuotone, MousePointerClickDuotone as CursorDuotoneIcon, MousePointerClickFill as CursorFill, MousePointerClickFill as CursorFillIcon, MousePointerClick as CursorIcon, Moon as Dark, MoonDuotone as DarkDuotone, MoonDuotone as DarkDuotoneIcon, MoonFill as DarkFill, MoonFill as DarkFillIcon, Moon as DarkIcon, Moon as DarkMode, MoonDuotone as DarkModeDuotone, MoonDuotone as DarkModeDuotoneIcon, MoonFill as DarkModeFill, MoonFill as DarkModeFillIcon, Moon as DarkModeIcon, Calendar as Date, CalendarDuotone as DateDuotone, CalendarDuotone as DateDuotoneIcon, CalendarFill as DateFill, CalendarFill as DateFillIcon, Calendar as DateIcon, Sun as Day, SunDuotone as DayDuotone, SunDuotone as DayDuotoneIcon, SunFill as DayFill, SunFill as DayFillIcon, Sun as DayIcon, TrendingDown as Decline, TrendingDownDuotone as DeclineDuotone, TrendingDownDuotone as DeclineDuotoneIcon, TrendingDownFill as DeclineFill, TrendingDownFill as DeclineFillIcon, TrendingDown as DeclineIcon, Minus as Decrease, MinusDuotone as DecreaseDuotone, MinusDuotone as DecreaseDuotoneIcon, MinusFill as DecreaseFill, MinusFill as DecreaseFillIcon, Minus as DecreaseIcon, Trash as Delete, TrashDuotone as DeleteDuotone, TrashDuotone as DeleteDuotoneIcon, TrashFill as DeleteFill, TrashFill as DeleteFillIcon, Trash as DeleteIcon, ArrowDown01 as Descending, ArrowDown01Duotone as DescendingDuotone, ArrowDown01Duotone as DescendingDuotoneIcon, ArrowDown01Fill as DescendingFill, ArrowDown01Fill as DescendingFillIcon, ArrowDown01 as DescendingIcon, Grid1x2 as Design, Grid1x2Duotone as DesignDuotone, Grid1x2Duotone as DesignDuotoneIcon, Grid1x2Fill as DesignFill, Grid1x2Fill as DesignFillIcon, Grid1x2 as DesignIcon, Info as Details, InfoDuotone as DetailsDuotone, InfoDuotone as DetailsDuotoneIcon, InfoFill as DetailsFill, InfoFill as DetailsFillIcon, Info as DetailsIcon, ArchiveArrowUp as Direction, ArchiveArrowUpDuotone as DirectionDuotone, ArchiveArrowUpDuotone as DirectionDuotoneIcon, ArchiveArrowUpFill as DirectionFill, ArchiveArrowUpFill as DirectionFillIcon, ArchiveArrowUp as DirectionIcon, ThumbsDown as Disapprove, ThumbsDownDuotone as DisapproveDuotone, ThumbsDownDuotone as DisapproveDuotoneIcon, ThumbsDownFill as DisapproveFill, ThumbsDownFill as DisapproveFillIcon, ThumbsDown as DisapproveIcon, Unlink as Disconnect, UnlinkDuotone as DisconnectDuotone, UnlinkDuotone as DisconnectDuotoneIcon, UnlinkFill as DisconnectFill, UnlinkFill as DisconnectFillIcon, Unlink as DisconnectIcon, Save as Disk, SaveDuotone as DiskDuotone, SaveDuotone as DiskDuotoneIcon, SaveFill as DiskFill, SaveFill as DiskFillIcon, Save as DiskIcon, ThumbsDown as Dislike, ThumbsDownDuotone as DislikeDuotone, ThumbsDownDuotone as DislikeDuotoneIcon, ThumbsDownFill as DislikeFill, ThumbsDownFill as DislikeFillIcon, ThumbsDown as DislikeIcon, File as Document, FileDuotone as DocumentDuotone, FileDuotone as DocumentDuotoneIcon, FileFill as DocumentFill, FileFill as DocumentFillIcon, File as DocumentIcon, CircleDollarSign as Dollar, CircleDollarSignDuotone as DollarDuotone, CircleDollarSignDuotone as DollarDuotoneIcon, CircleDollarSignFill as DollarFill, CircleDollarSignFill as DollarFillIcon, CircleDollarSign as DollarIcon, Checkmark as Done, CheckmarkDuotone as DoneDuotone, CheckmarkDuotone as DoneDuotoneIcon, CheckmarkFill as DoneFill, CheckmarkFill as DoneFillIcon, Checkmark as DoneIcon, ArrowDown as Down, ArrowDownDuotone as DownDuotone, ArrowDownDuotone as DownDuotoneIcon, ArrowDownFill as DownFill, ArrowDownFill as DownFillIcon, ArrowDown as DownIcon, Download, DownloadDuotone, DownloadDuotone as DownloadDuotoneIcon, FileArrowDown as DownloadFile, FileArrowDownDuotone as DownloadFileDuotone, FileArrowDownDuotone as DownloadFileDuotoneIcon, FileArrowDownFill as DownloadFileFill, FileArrowDownFill as DownloadFileFillIcon, FileArrowDown as DownloadFileIcon, DownloadFill, DownloadFill as DownloadFillIcon, Download as DownloadIcon, TrendingDown as Downtrend, TrendingDownDuotone as DowntrendDuotone, TrendingDownDuotone as DowntrendDuotoneIcon, TrendingDownFill as DowntrendFill, TrendingDownFill as DowntrendFillIcon, TrendingDown as DowntrendIcon, SquarePen as Draft, SquarePenDuotone as DraftDuotone, SquarePenDuotone as DraftDuotoneIcon, SquarePenFill as DraftFill, SquarePenFill as DraftFillIcon, SquarePen as DraftIcon, Move as Drag, MoveDuotone as DragDuotone, MoveDuotone as DragDuotoneIcon, MoveFill as DragFill, MoveFill as DragFillIcon, Move as DragIcon, PanelLeft as DrawerLeft, PanelLeftDuotone as DrawerLeftDuotone, PanelLeftDuotone as DrawerLeftDuotoneIcon, PanelLeftFill as DrawerLeftFill, PanelLeftFill as DrawerLeftFillIcon, PanelLeft as DrawerLeftIcon, PanelRight as DrawerRight, PanelRightDuotone as DrawerRightDuotone, PanelRightDuotone as DrawerRightDuotoneIcon, PanelRightFill as DrawerRightFill, PanelRightFill as DrawerRightFillIcon, PanelRight as DrawerRightIcon, ChevronDown as Dropdown, ChevronDownDuotone as DropdownDuotone, ChevronDownDuotone as DropdownDuotoneIcon, ChevronDownFill as DropdownFill, ChevronDownFill as DropdownFillIcon, ChevronDown as DropdownIcon, Copy as Duplicate, CopyDuotone as DuplicateDuotone, CopyDuotone as DuplicateDuotoneIcon, CopyFill as DuplicateFill, CopyFill as DuplicateFillIcon, Copy as DuplicateIcon, ArrowRight as East, ArrowRightDuotone as EastDuotone, ArrowRightDuotone as EastDuotoneIcon, ArrowRightFill as EastFill, ArrowRightFill as EastFillIcon, ArrowRight as EastIcon, Eclipse, EclipseDuotone, EclipseDuotone as EclipseDuotoneIcon, EclipseFill, EclipseFill as EclipseFillIcon, Eclipse as EclipseIcon, Pencil as Edit, PencilDuotone as EditDuotone, PencilDuotone as EditDuotoneIcon, PencilFill as EditFill, PencilFill as EditFillIcon, Pencil as EditIcon, SquarePen as Editor, SquarePenDuotone as EditorDuotone, SquarePenDuotone as EditorDuotoneIcon, SquarePenFill as EditorFill, SquarePenFill as EditorFillIcon, SquarePen as EditorIcon, Ellipsis, EllipsisDuotone, EllipsisDuotone as EllipsisDuotoneIcon, EllipsisFill, EllipsisFill as EllipsisFillIcon, Ellipsis as EllipsisIcon, EllipsisVertical, EllipsisVerticalDuotone, EllipsisVerticalDuotone as EllipsisVerticalDuotoneIcon, EllipsisVerticalFill, EllipsisVerticalFill as EllipsisVerticalFillIcon, EllipsisVertical as EllipsisVerticalIcon, Mail as Email, MailDuotone as EmailDuotone, MailDuotone as EmailDuotoneIcon, MailFill as EmailFill, MailFill as EmailFillIcon, Mail as EmailIcon, Heart as Emotion, HeartDuotone as EmotionDuotone, HeartDuotone as EmotionDuotoneIcon, HeartFill as EmotionFill, HeartFill as EmotionFillIcon, Heart as EmotionIcon, Italic as Emphasis, ItalicDuotone as EmphasisDuotone, ItalicDuotone as EmphasisDuotoneIcon, ItalicFill as EmphasisFill, ItalicFill as EmphasisFillIcon, Italic as EmphasisIcon, Maximize as Enlarge, MaximizeDuotone as EnlargeDuotone, MaximizeDuotone as EnlargeDuotoneIcon, MaximizeFill as EnlargeFill, MaximizeFill as EnlargeFillIcon, Maximize as EnlargeIcon, Mail as Envelope, MailDuotone as EnvelopeDuotone, MailDuotone as EnvelopeDuotoneIcon, MailFill as EnvelopeFill, MailFill as EnvelopeFillIcon, Mail as EnvelopeIcon, SlidersHorizontal as Equalizer, SlidersHorizontalDuotone as EqualizerDuotone, SlidersHorizontalDuotone as EqualizerDuotoneIcon, SlidersHorizontalFill as EqualizerFill, SlidersHorizontalFill as EqualizerFillIcon, SlidersHorizontal as EqualizerIcon, CircleAlert as Error, CircleAlertDuotone as ErrorDuotone, CircleAlertDuotone as ErrorDuotoneIcon, CircleAlertFill as ErrorFill, CircleAlertFill as ErrorFillIcon, CircleAlert as ErrorIcon, Calendar as Event, CalendarDuotone as EventDuotone, CalendarDuotone as EventDuotoneIcon, CalendarFill as EventFill, CalendarFill as EventFillIcon, Calendar as EventIcon, LogOut as Exit, LogOutDuotone as ExitDuotone, LogOutDuotone as ExitDuotoneIcon, LogOutFill as ExitFill, LogOutFill as ExitFillIcon, LogOut as ExitIcon, ChevronUp as Expand, ChevronUpDuotone as ExpandDuotone, ChevronUpDuotone as ExpandDuotoneIcon, ChevronUpFill as ExpandFill, ChevronUpFill as ExpandFillIcon, ChevronUp as ExpandIcon, Maximize as ExpandWindow, MaximizeDuotone as ExpandWindowDuotone, MaximizeDuotone as ExpandWindowDuotoneIcon, MaximizeFill as ExpandWindowFill, MaximizeFill as ExpandWindowFillIcon, Maximize as ExpandWindowIcon, Search as Explore, SearchDuotone as ExploreDuotone, SearchDuotone as ExploreDuotoneIcon, SearchFill as ExploreFill, SearchFill as ExploreFillIcon, Search as ExploreIcon, Download as Export, DownloadDuotone as ExportDuotone, DownloadDuotone as ExportDuotoneIcon, DownloadFill as ExportFill, DownloadFill as ExportFillIcon, Download as ExportIcon, ExternalLink as External, ExternalLinkDuotone as ExternalDuotone, ExternalLinkDuotone as ExternalDuotoneIcon, ExternalLinkFill as ExternalFill, ExternalLinkFill as ExternalFillIcon, ExternalLink as ExternalIcon, ExternalLink, ExternalLinkDuotone, ExternalLinkDuotone as ExternalLinkDuotoneIcon, ExternalLinkFill, ExternalLinkFill as ExternalLinkFillIcon, ExternalLink as ExternalLinkIcon, Eye, EyeDuotone, EyeDuotone as EyeDuotoneIcon, EyeFill, EyeFill as EyeFillIcon, Eye as EyeIcon, EyeOff, EyeOffDuotone, EyeOffDuotone as EyeOffDuotoneIcon, EyeOffFill, EyeOffFill as EyeOffFillIcon, EyeOff as EyeOffIcon, TrendingDown as Falling, TrendingDownDuotone as FallingDuotone, TrendingDownDuotone as FallingDuotoneIcon, TrendingDownFill as FallingFill, TrendingDownFill as FallingFillIcon, TrendingDown as FallingIcon, CircleQuestionMark as Faq, CircleQuestionMarkDuotone as FaqDuotone, CircleQuestionMarkDuotone as FaqDuotoneIcon, CircleQuestionMarkFill as FaqFill, CircleQuestionMarkFill as FaqFillIcon, CircleQuestionMark as FaqIcon, Star as Favorite, StarDuotone as FavoriteDuotone, StarDuotone as FavoriteDuotoneIcon, StarFill as FavoriteFill, StarFill as FavoriteFillIcon, Star as FavoriteIcon, Star as Favourite, StarDuotone as FavouriteDuotone, StarDuotone as FavouriteDuotoneIcon, StarFill as FavouriteFill, StarFill as FavouriteFillIcon, Star as FavouriteIcon, File, FileUser as FileAccount, FileUserDuotone as FileAccountDuotone, FileUserDuotone as FileAccountDuotoneIcon, FileUserFill as FileAccountFill, FileUserFill as FileAccountFillIcon, FileUser as FileAccountIcon, FileArrowDown, FileArrowDownDuotone, FileArrowDownDuotone as FileArrowDownDuotoneIcon, FileArrowDownFill, FileArrowDownFill as FileArrowDownFillIcon, FileArrowDown as FileArrowDownIcon, FileArrowLeft, FileArrowLeftDuotone, FileArrowLeftDuotone as FileArrowLeftDuotoneIcon, FileArrowLeftFill, FileArrowLeftFill as FileArrowLeftFillIcon, FileArrowLeft as FileArrowLeftIcon, FileArrowLeftRight, FileArrowLeftRightDuotone, FileArrowLeftRightDuotone as FileArrowLeftRightDuotoneIcon, FileArrowLeftRightFill, FileArrowLeftRightFill as FileArrowLeftRightFillIcon, FileArrowLeftRight as FileArrowLeftRightIcon, FileArrowRight, FileArrowRightDuotone, FileArrowRightDuotone as FileArrowRightDuotoneIcon, FileArrowRightFill, FileArrowRightFill as FileArrowRightFillIcon, FileArrowRight as FileArrowRightIcon, FileArrowUp, FileArrowUpDuotone, FileArrowUpDuotone as FileArrowUpDuotoneIcon, FileArrowUpFill, FileArrowUpFill as FileArrowUpFillIcon, FileArrowUp as FileArrowUpIcon, FileArrowLeft as FileBack, FileArrowLeftDuotone as FileBackDuotone, FileArrowLeftDuotone as FileBackDuotoneIcon, FileArrowLeftFill as FileBackFill, FileArrowLeftFill as FileBackFillIcon, FileArrowLeft as FileBackIcon, FileX as FileCancel, FileXDuotone as FileCancelDuotone, FileXDuotone as FileCancelDuotoneIcon, FileXFill as FileCancelFill, FileXFill as FileCancelFillIcon, FileX as FileCancelIcon, FileCheck, FileCheckDuotone, FileCheckDuotone as FileCheckDuotoneIcon, FileCheckFill, FileCheckFill as FileCheckFillIcon, FileCheck as FileCheckIcon, FileCog, FileCogDuotone, FileCogDuotone as FileCogDuotoneIcon, FileCogFill, FileCogFill as FileCogFillIcon, FileCog as FileCogIcon, FileCheck as FileComplete, FileCheckDuotone as FileCompleteDuotone, FileCheckDuotone as FileCompleteDuotoneIcon, FileCheckFill as FileCompleteFill, FileCheckFill as FileCompleteFillIcon, FileCheck as FileCompleteIcon, FileCog as FileConfig, FileCogDuotone as FileConfigDuotone, FileCogDuotone as FileConfigDuotoneIcon, FileCogFill as FileConfigFill, FileCogFill as FileConfigFillIcon, FileCog as FileConfigIcon, FileX as FileDelete, FileXDuotone as FileDeleteDuotone, FileXDuotone as FileDeleteDuotoneIcon, FileXFill as FileDeleteFill, FileXFill as FileDeleteFillIcon, FileX as FileDeleteIcon, FileCheck as FileDone, FileCheckDuotone as FileDoneDuotone, FileCheckDuotone as FileDoneDuotoneIcon, FileCheckFill as FileDoneFill, FileCheckFill as FileDoneFillIcon, FileCheck as FileDoneIcon, FileDuotone, FileDuotone as FileDuotoneIcon, FileArrowLeftRight as FileExchange, FileArrowLeftRightDuotone as FileExchangeDuotone, FileArrowLeftRightDuotone as FileExchangeDuotoneIcon, FileArrowLeftRightFill as FileExchangeFill, FileArrowLeftRightFill as FileExchangeFillIcon, FileArrowLeftRight as FileExchangeIcon, FileFill, FileFill as FileFillIcon, FileArrowRight as FileForward, FileArrowRightDuotone as FileForwardDuotone, FileArrowRightDuotone as FileForwardDuotoneIcon, FileArrowRightFill as FileForwardFill, FileArrowRightFill as FileForwardFillIcon, FileArrowRight as FileForwardIcon, File as FileIcon, FileArrowRight as FileNext, FileArrowRightDuotone as FileNextDuotone, FileArrowRightDuotone as FileNextDuotoneIcon, FileArrowRightFill as FileNextFill, FileArrowRightFill as FileNextFillIcon, FileArrowRight as FileNextIcon, FilePlus, FilePlusDuotone, FilePlusDuotone as FilePlusDuotoneIcon, FilePlusFill, FilePlusFill as FilePlusFillIcon, FilePlus as FilePlusIcon, FileArrowLeft as FilePrevious, FileArrowLeftDuotone as FilePreviousDuotone, FileArrowLeftDuotone as FilePreviousDuotoneIcon, FileArrowLeftFill as FilePreviousFill, FileArrowLeftFill as FilePreviousFillIcon, FileArrowLeft as FilePreviousIcon, FileUser as FileProfile, FileUserDuotone as FileProfileDuotone, FileUserDuotone as FileProfileDuotoneIcon, FileUserFill as FileProfileFill, FileUserFill as FileProfileFillIcon, FileUser as FileProfileIcon, FileX as FileRemove, FileXDuotone as FileRemoveDuotone, FileXDuotone as FileRemoveDuotoneIcon, FileXFill as FileRemoveFill, FileXFill as FileRemoveFillIcon, FileX as FileRemoveIcon, FileCog as FileSettings, FileCogDuotone as FileSettingsDuotone, FileCogDuotone as FileSettingsDuotoneIcon, FileCogFill as FileSettingsFill, FileCogFill as FileSettingsFillIcon, FileCog as FileSettingsIcon, FileArrowLeftRight as FileSync, FileArrowLeftRightDuotone as FileSyncDuotone, FileArrowLeftRightDuotone as FileSyncDuotoneIcon, FileArrowLeftRightFill as FileSyncFill, FileArrowLeftRightFill as FileSyncFillIcon, FileArrowLeftRight as FileSyncIcon, FileArrowLeftRight as FileTransfer, FileArrowLeftRightDuotone as FileTransferDuotone, FileArrowLeftRightDuotone as FileTransferDuotoneIcon, FileArrowLeftRightFill as FileTransferFill, FileArrowLeftRightFill as FileTransferFillIcon, FileArrowLeftRight as FileTransferIcon, FileUser, FileUserDuotone, FileUserDuotone as FileUserDuotoneIcon, FileUserFill, FileUserFill as FileUserFillIcon, FileUser as FileUserIcon, FileCheck as FileVerified, FileCheckDuotone as FileVerifiedDuotone, FileCheckDuotone as FileVerifiedDuotoneIcon, FileCheckFill as FileVerifiedFill, FileCheckFill as FileVerifiedFillIcon, FileCheck as FileVerifiedIcon, FileX, FileXDuotone, FileXDuotone as FileXDuotoneIcon, FileXFill, FileXFill as FileXFillIcon, FileX as FileXIcon, Reel as Film, ReelDuotone as FilmDuotone, ReelDuotone as FilmDuotoneIcon, ReelFill as FilmFill, ReelFill as FilmFillIcon, Reel as FilmIcon, ListFilter as Filter, ListFilterDuotone as FilterDuotone, ListFilterDuotone as FilterDuotoneIcon, ListFilterFill as FilterFill, ListFilterFill as FilterFillIcon, ListFilter as FilterIcon, SlidersHorizontal as Filters, SlidersHorizontalDuotone as FiltersDuotone, SlidersHorizontalDuotone as FiltersDuotoneIcon, SlidersHorizontalFill as FiltersFill, SlidersHorizontalFill as FiltersFillIcon, SlidersHorizontal as FiltersIcon, Search as Find, SearchDuotone as FindDuotone, SearchDuotone as FindDuotoneIcon, SearchFill as FindFill, SearchFill as FindFillIcon, Search as FindIcon, SearchUser as FindUser, SearchUserDuotone as FindUserDuotone, SearchUserDuotone as FindUserDuotoneIcon, SearchUserFill as FindUserFill, SearchUserFill as FindUserFillIcon, SearchUser as FindUserIcon, Flame as Fire, FlameDuotone as FireDuotone, FlameDuotone as FireDuotoneIcon, FlameFill as FireFill, FlameFill as FireFillIcon, Flame as FireIcon, Bookmark as Flag, BookmarkDuotone as FlagDuotone, BookmarkDuotone as FlagDuotoneIcon, BookmarkFill as FlagFill, BookmarkFill as FlagFillIcon, Bookmark as FlagIcon, Flame, FlameDuotone, FlameDuotone as FlameDuotoneIcon, FlameFill, FlameFill as FlameFillIcon, Flame as FlameIcon, Save as Floppy, SaveDuotone as FloppyDuotone, SaveDuotone as FloppyDuotoneIcon, SaveFill as FloppyFill, SaveFill as FloppyFillIcon, Save as FloppyIcon, Info as FoamAbout, InfoDuotone as FoamAboutDuotone, InfoFill as FoamAboutFill, User as FoamAccount, UserDuotone as FoamAccountDuotone, UserFill as FoamAccountFill, Plus as FoamAdd, ContentPlus as FoamAddContent, ContentPlusDuotone as FoamAddContentDuotone, ContentPlusFill as FoamAddContentFill, PlusDuotone as FoamAddDuotone, FilePlus as FoamAddFile, FilePlusDuotone as FoamAddFileDuotone, FilePlusFill as FoamAddFileFill, PlusFill as FoamAddFill, Rolodex as FoamAddressBook, RolodexDuotone as FoamAddressBookDuotone, RolodexFill as FoamAddressBookFill, SlidersHorizontal as FoamAdjust, SlidersHorizontalDuotone as FoamAdjustDuotone, SlidersHorizontalFill as FoamAdjustFill, Sparkles as FoamAi, SparklesDuotone as FoamAiDuotone, SparklesFill as FoamAiFill, Bell as FoamAlarm, BellDuotone as FoamAlarmDuotone, BellFill as FoamAlarmFill, Alert as FoamAlert, AlertDuotone as FoamAlertDuotone, AlertFill as FoamAlertFill, TextAlignStart as FoamAlignLeft, TextAlignStartDuotone as FoamAlignLeftDuotone, TextAlignStartFill as FoamAlignLeftFill, TextAlignEnd as FoamAlignRight, TextAlignEndDuotone as FoamAlignRightDuotone, TextAlignEndFill as FoamAlignRightFill, Rolodex as FoamAlphabet, RolodexDuotone as FoamAlphabetDuotone, RolodexFill as FoamAlphabetFill, ChartColumnSquare as FoamAnalytics, ChartColumnSquareDuotone as FoamAnalyticsDuotone, ChartColumnSquareFill as FoamAnalyticsFill, Megaphone as FoamAnnounce, MegaphoneDuotone as FoamAnnounceDuotone, MegaphoneFill as FoamAnnounceFill, Reply as FoamAnswer, ReplyDuotone as FoamAnswerDuotone, ReplyFill as FoamAnswerFill, ThumbsUp as FoamApprove, ThumbsUpDuotone as FoamApproveDuotone, ThumbsUpFill as FoamApproveFill, Archive as FoamArchive, ArchiveArrowUp as FoamArchiveArrowUp, ArchiveArrowUpDuotone as FoamArchiveArrowUpDuotone, ArchiveArrowUpFill as FoamArchiveArrowUpFill, ArchiveDuotone as FoamArchiveDuotone, ArchiveFill as FoamArchiveFill, ArrowDown as FoamArrowDown, ArrowDown01 as FoamArrowDown01, ArrowDown01Duotone as FoamArrowDown01Duotone, ArrowDown01Fill as FoamArrowDown01Fill, ArrowDown10 as FoamArrowDown10, ArrowDown10Duotone as FoamArrowDown10Duotone, ArrowDown10Fill as FoamArrowDown10Fill, ArrowDownDuotone as FoamArrowDownDuotone, ArrowDownFill as FoamArrowDownFill, ArrowDownIG as FoamArrowDownIG, ArrowDownIGDuotone as FoamArrowDownIGDuotone, ArrowDownIGFill as FoamArrowDownIGFill, ArrowDownNarrowWide as FoamArrowDownNarrowWide, ArrowDownNarrowWideDuotone as FoamArrowDownNarrowWideDuotone, ArrowDownNarrowWideFill as FoamArrowDownNarrowWideFill, ArrowDownSC as FoamArrowDownSC, ArrowDownSCDuotone as FoamArrowDownSCDuotone, ArrowDownSCFill as FoamArrowDownSCFill, ArrowDownTT as FoamArrowDownTT, ArrowDownTTDuotone as FoamArrowDownTTDuotone, ArrowDownTTFill as FoamArrowDownTTFill, ArrowDownUp as FoamArrowDownUp, ArrowDownUpDuotone as FoamArrowDownUpDuotone, ArrowDownUpFill as FoamArrowDownUpFill, ArrowDownWideNarrow as FoamArrowDownWideNarrow, ArrowDownWideNarrowDuotone as FoamArrowDownWideNarrowDuotone, ArrowDownWideNarrowFill as FoamArrowDownWideNarrowFill, ArrowDownYT as FoamArrowDownYT, ArrowDownYTDuotone as FoamArrowDownYTDuotone, ArrowDownYTFill as FoamArrowDownYTFill, ArrowLeft as FoamArrowLeft, ArrowLeftDuotone as FoamArrowLeftDuotone, ArrowLeftFill as FoamArrowLeftFill, ArrowRight as FoamArrowRight, ArrowRightDuotone as FoamArrowRightDuotone, ArrowRightFill as FoamArrowRightFill, ArrowRightToLine as FoamArrowRightToLine, ArrowRightToLineDuotone as FoamArrowRightToLineDuotone, ArrowRightToLineFill as FoamArrowRightToLineFill, ArrowUp as FoamArrowUp, ArrowUpAZ as FoamArrowUpAZ, ArrowUpAZDuotone as FoamArrowUpAZDuotone, ArrowUpAZFill as FoamArrowUpAZFill, ArrowUpDuotone as FoamArrowUpDuotone, ArrowUpFill as FoamArrowUpFill, ArrowUpIG as FoamArrowUpIG, ArrowUpIGDuotone as FoamArrowUpIGDuotone, ArrowUpIGFill as FoamArrowUpIGFill, ArrowUpNarrowWide as FoamArrowUpNarrowWide, ArrowUpNarrowWideDuotone as FoamArrowUpNarrowWideDuotone, ArrowUpNarrowWideFill as FoamArrowUpNarrowWideFill, ArrowUpSC as FoamArrowUpSC, ArrowUpSCDuotone as FoamArrowUpSCDuotone, ArrowUpSCFill as FoamArrowUpSCFill, ArrowUpTT as FoamArrowUpTT, ArrowUpTTDuotone as FoamArrowUpTTDuotone, ArrowUpTTFill as FoamArrowUpTTFill, ArrowUpWideNarrow as FoamArrowUpWideNarrow, ArrowUpWideNarrowDuotone as FoamArrowUpWideNarrowDuotone, ArrowUpWideNarrowFill as FoamArrowUpWideNarrowFill, ArrowUpYT as FoamArrowUpYT, ArrowUpYTDuotone as FoamArrowUpYTDuotone, ArrowUpYTFill as FoamArrowUpYTFill, ArrowUpZA as FoamArrowUpZA, ArrowUpZADuotone as FoamArrowUpZADuotone, ArrowUpZAFill as FoamArrowUpZAFill, ArchiveArrowUp as FoamAscending, ArchiveArrowUpDuotone as FoamAscendingDuotone, ArchiveArrowUpFill as FoamAscendingFill, AtSign as FoamAtSign, AtSignDuotone as FoamAtSignDuotone, AtSignFill as FoamAtSignFill, Alert as FoamAttention, CircleAlert as FoamAttentionCircle, CircleAlertDuotone as FoamAttentionCircleDuotone, CircleAlertFill as FoamAttentionCircleFill, AlertDuotone as FoamAttentionDuotone, AlertFill as FoamAttentionFill, Reach as FoamAudience, ReachDuotone as FoamAudienceDuotone, ReachFill as FoamAudienceFill, Volume2 as FoamAudio, Volume2Duotone as FoamAudioDuotone, Volume2Fill as FoamAudioFill, ArrowLeft as FoamBack, ArrowLeftDuotone as FoamBackDuotone, ArrowLeftFill as FoamBackFill, Ban as FoamBan, BanDuotone as FoamBanDuotone, BanFill as FoamBanFill, ChartColumnSquare as FoamBarChart, ChartColumnSquareDuotone as FoamBarChartDuotone, ChartColumnSquareFill as FoamBarChartFill, Menu as FoamBars, MenuDuotone as FoamBarsDuotone, MenuFill as FoamBarsFill, Bell as FoamBell, BellDuotone as FoamBellDuotone, BellFill as FoamBellFill, Trash as FoamBin, TrashDuotone as FoamBinDuotone, TrashFill as FoamBinFill, Ban as FoamBlock, BanDuotone as FoamBlockDuotone, BanFill as FoamBlockFill, QuotationMarkRight as FoamBlockquoteEnd, QuotationMarkRightDuotone as FoamBlockquoteEndDuotone, QuotationMarkRightFill as FoamBlockquoteEndFill, QuotationMarkLeft as FoamBlockquoteStart, QuotationMarkLeftDuotone as FoamBlockquoteStartDuotone, QuotationMarkLeftFill as FoamBlockquoteStartFill, Bold as FoamBold, BoldDuotone as FoamBoldDuotone, BoldFill as FoamBoldFill, Bookmark as FoamBookmark, BookmarkDuotone as FoamBookmarkDuotone, BookmarkFill as FoamBookmarkFill, Archive as FoamBox, ArchiveDuotone as FoamBoxDuotone, ArchiveFill as FoamBoxFill, ContentUser as FoamBrandAssets, ContentUserDuotone as FoamBrandAssetsDuotone, ContentUserFill as FoamBrandAssetsFill, Unlink as FoamBreak, UnlinkDuotone as FoamBreakDuotone, UnlinkFill as FoamBreakFill, Sun as FoamBright, SunDuotone as FoamBrightDuotone, SunFill as FoamBrightFill, Megaphone as FoamBroadcast, MegaphoneDuotone as FoamBroadcastDuotone, MegaphoneFill as FoamBroadcastFill, List as FoamBullets, ListDuotone as FoamBulletsDuotone, ListFill as FoamBulletsFill, Calendar as FoamCalendar, CalendarDuotone as FoamCalendarDuotone, CalendarFill as FoamCalendarFill, CircleX as FoamCancel, CircleXDuotone as FoamCancelDuotone, CircleXFill as FoamCancelFill, Rolodex as FoamCardIndex, RolodexDuotone as FoamCardIndexDuotone, RolodexFill as FoamCardIndexFill, Grid1x2 as FoamCards, Grid1x2Duotone as FoamCardsDuotone, Grid1x2Fill as FoamCardsFill, ChevronDown as FoamCaretDown, ChevronDownDuotone as FoamCaretDownDuotone, ChevronDownFill as FoamCaretDownFill, ChevronLeft as FoamCaretLeft, ChevronLeftDuotone as FoamCaretLeftDuotone, ChevronLeftFill as FoamCaretLeftFill, ChevronRight as FoamCaretRight, ChevronRightDuotone as FoamCaretRightDuotone, ChevronRightFill as FoamCaretRightFill, ChevronUp as FoamCaretUp, ChevronUpDuotone as FoamCaretUpDuotone, ChevronUpFill as FoamCaretUpFill, Alert as FoamCaution, CircleAlert as FoamCautionCircle, CircleAlertDuotone as FoamCautionCircleDuotone, CircleAlertFill as FoamCautionCircleFill, AlertDuotone as FoamCautionDuotone, AlertFill as FoamCautionFill, TextAlignCenter as FoamCenter, TextAlignCenterDuotone as FoamCenterDuotone, TextAlignCenterFill as FoamCenterFill, Link as FoamChain, LinkDuotone as FoamChainDuotone, LinkFill as FoamChainFill, ChartColumnSquare as FoamChartColumnSquare, ChartColumnSquareDuotone as FoamChartColumnSquareDuotone, ChartColumnSquareFill as FoamChartColumnSquareFill, MessagesSquare as FoamChat, MessagesSquareDuotone as FoamChatDuotone, MessagesSquareFill as FoamChatFill, MessageSquare as FoamChatSingle, MessageSquareDuotone as FoamChatSingleDuotone, MessageSquareFill as FoamChatSingleFill, MessagesSquare as FoamChats, MessagesSquareDuotone as FoamChatsDuotone, MessagesSquareFill as FoamChatsFill, Checkmark as FoamCheck, CheckmarkDuotone as FoamCheckDuotone, CheckmarkFill as FoamCheckFill, Checkbox as FoamCheckSquare, CheckboxDuotone as FoamCheckSquareDuotone, CheckboxFill as FoamCheckSquareFill, Checkbox as FoamCheckbox, CheckboxDuotone as FoamCheckboxDuotone, CheckboxFill as FoamCheckboxFill, Checkmark as FoamCheckmark, CheckmarkDuotone as FoamCheckmarkDuotone, CheckmarkFill as FoamCheckmarkFill, ChevronDown as FoamChevronDown, ChevronDownDuotone as FoamChevronDownDuotone, ChevronDownFill as FoamChevronDownFill, ChevronLeft as FoamChevronLeft, ChevronLeftDuotone as FoamChevronLeftDuotone, ChevronLeftFill as FoamChevronLeftFill, ChevronRight as FoamChevronRight, ChevronRightDuotone as FoamChevronRightDuotone, ChevronRightFill as FoamChevronRightFill, ChevronUp as FoamChevronUp, ChevronUpDuotone as FoamChevronUpDuotone, ChevronUpFill as FoamChevronUpFill, CircleAlert as FoamCircleAlert, CircleAlertDuotone as FoamCircleAlertDuotone, CircleAlertFill as FoamCircleAlertFill, CircleDollarSign as FoamCircleDollarSign, CircleDollarSignDuotone as FoamCircleDollarSignDuotone, CircleDollarSignFill as FoamCircleDollarSignFill, CircleQuestionMark as FoamCircleQuestionMark, CircleQuestionMarkDuotone as FoamCircleQuestionMarkDuotone, CircleQuestionMarkFill as FoamCircleQuestionMarkFill, CircleX as FoamCircleX, CircleXDuotone as FoamCircleXDuotone, CircleXFill as FoamCircleXFill, CircleX as FoamClear, CircleXDuotone as FoamClearDuotone, CircleXFill as FoamClearFill, RemoveFormatting as FoamClearFormat, RemoveFormattingDuotone as FoamClearFormatDuotone, RemoveFormattingFill as FoamClearFormatFill, MousePointerClick as FoamClick, MousePointerClickDuotone as FoamClickDuotone, MousePointerClickFill as FoamClickFill, Clock as FoamClock, ClockArrowDown as FoamClockArrowDown, ClockArrowDownDuotone as FoamClockArrowDownDuotone, ClockArrowDownFill as FoamClockArrowDownFill, ClockArrowUp as FoamClockArrowUp, ClockArrowUpDuotone as FoamClockArrowUpDuotone, ClockArrowUpFill as FoamClockArrowUpFill, ClockDuotone as FoamClockDuotone, ClockFill as FoamClockFill, Copy as FoamClone, CopyDuotone as FoamCloneDuotone, CopyFill as FoamCloneFill, CircleX as FoamClose, CircleXDuotone as FoamCloseDuotone, CircleXFill as FoamCloseFill, QuotationMarkRight as FoamCloseQuote, QuotationMarkRightDuotone as FoamCloseQuoteDuotone, QuotationMarkRightFill as FoamCloseQuoteFill, Command as FoamCmd, CommandDuotone as FoamCmdDuotone, CommandFill as FoamCmdFill, Cog as FoamCog, CogDuotone as FoamCogDuotone, CogFill as FoamCogFill, Cog as FoamCogwheel, CogDuotone as FoamCogwheelDuotone, CogFill as FoamCogwheelFill, ChevronDown as FoamCollapse, ChevronDownDuotone as FoamCollapseDuotone, ChevronDownFill as FoamCollapseFill, Columns3 as FoamColumnLayout, Columns3Duotone as FoamColumnLayoutDuotone, Columns3Fill as FoamColumnLayoutFill, Columns3 as FoamColumns3, Columns3Duotone as FoamColumns3Duotone, Columns3Fill as FoamColumns3Fill, Command as FoamCommand, CommandDuotone as FoamCommandDuotone, CommandFill as FoamCommandFill, MessageSquare as FoamComment, MessageSquareDuotone as FoamCommentDuotone, MessageSquareFill as FoamCommentFill, MessagesSquare as FoamComments, MessagesSquareDuotone as FoamCommentsDuotone, MessagesSquareFill as FoamCommentsFill, Checkmark as FoamComplete, CheckmarkDuotone as FoamCompleteDuotone, CheckmarkFill as FoamCompleteFill, SquarePen as FoamCompose, SquarePenDuotone as FoamComposeDuotone, SquarePenFill as FoamComposeFill, Cog as FoamConfig, CogDuotone as FoamConfigDuotone, CogFill as FoamConfigFill, Cog as FoamConfiguration, CogDuotone as FoamConfigurationDuotone, CogFill as FoamConfigurationFill, Link as FoamConnect, LinkDuotone as FoamConnectDuotone, LinkFill as FoamConnectFill, Rolodex as FoamContacts, RolodexDuotone as FoamContactsDuotone, RolodexFill as FoamContactsFill, ContentHeart as FoamContentHeart, ContentHeartDuotone as FoamContentHeartDuotone, ContentHeartFill as FoamContentHeartFill, ContentPlus as FoamContentPlus, ContentPlusDuotone as FoamContentPlusDuotone, ContentPlusFill as FoamContentPlusFill, ContentUser as FoamContentUser, ContentUserDuotone as FoamContentUserDuotone, ContentUserFill as FoamContentUserFill, Eclipse as FoamContrast, EclipseDuotone as FoamContrastDuotone, EclipseFill as FoamContrastFill, SlidersHorizontal as FoamControls, SlidersHorizontalDuotone as FoamControlsDuotone, SlidersHorizontalFill as FoamControlsFill, MessagesSquare as FoamConversation, MessagesSquareDuotone as FoamConversationDuotone, MessagesSquareFill as FoamConversationFill, Copy as FoamCopy, CopyDuotone as FoamCopyDuotone, CopyFill as FoamCopyFill, Plus as FoamCreate, ContentPlus as FoamCreateContent, ContentPlusDuotone as FoamCreateContentDuotone, ContentPlusFill as FoamCreateContentFill, PlusDuotone as FoamCreateDuotone, FilePlus as FoamCreateFile, FilePlusDuotone as FoamCreateFileDuotone, FilePlusFill as FoamCreateFileFill, PlusFill as FoamCreateFill, MousePointerClick as FoamCursor, MousePointerClickDuotone as FoamCursorDuotone, MousePointerClickFill as FoamCursorFill, Moon as FoamDark, MoonDuotone as FoamDarkDuotone, MoonFill as FoamDarkFill, Moon as FoamDarkMode, MoonDuotone as FoamDarkModeDuotone, MoonFill as FoamDarkModeFill, Calendar as FoamDate, CalendarDuotone as FoamDateDuotone, CalendarFill as FoamDateFill, Sun as FoamDay, SunDuotone as FoamDayDuotone, SunFill as FoamDayFill, TrendingDown as FoamDecline, TrendingDownDuotone as FoamDeclineDuotone, TrendingDownFill as FoamDeclineFill, Minus as FoamDecrease, MinusDuotone as FoamDecreaseDuotone, MinusFill as FoamDecreaseFill, Trash as FoamDelete, TrashDuotone as FoamDeleteDuotone, TrashFill as FoamDeleteFill, ArrowDown01 as FoamDescending, ArrowDown01Duotone as FoamDescendingDuotone, ArrowDown01Fill as FoamDescendingFill, Grid1x2 as FoamDesign, Grid1x2Duotone as FoamDesignDuotone, Grid1x2Fill as FoamDesignFill, Info as FoamDetails, InfoDuotone as FoamDetailsDuotone, InfoFill as FoamDetailsFill, ArchiveArrowUp as FoamDirection, ArchiveArrowUpDuotone as FoamDirectionDuotone, ArchiveArrowUpFill as FoamDirectionFill, ThumbsDown as FoamDisapprove, ThumbsDownDuotone as FoamDisapproveDuotone, ThumbsDownFill as FoamDisapproveFill, Unlink as FoamDisconnect, UnlinkDuotone as FoamDisconnectDuotone, UnlinkFill as FoamDisconnectFill, Save as FoamDisk, SaveDuotone as FoamDiskDuotone, SaveFill as FoamDiskFill, ThumbsDown as FoamDislike, ThumbsDownDuotone as FoamDislikeDuotone, ThumbsDownFill as FoamDislikeFill, File as FoamDocument, FileDuotone as FoamDocumentDuotone, FileFill as FoamDocumentFill, CircleDollarSign as FoamDollar, CircleDollarSignDuotone as FoamDollarDuotone, CircleDollarSignFill as FoamDollarFill, Checkmark as FoamDone, CheckmarkDuotone as FoamDoneDuotone, CheckmarkFill as FoamDoneFill, ArrowDown as FoamDown, ArrowDownDuotone as FoamDownDuotone, ArrowDownFill as FoamDownFill, Download as FoamDownload, DownloadDuotone as FoamDownloadDuotone, FileArrowDown as FoamDownloadFile, FileArrowDownDuotone as FoamDownloadFileDuotone, FileArrowDownFill as FoamDownloadFileFill, DownloadFill as FoamDownloadFill, TrendingDown as FoamDowntrend, TrendingDownDuotone as FoamDowntrendDuotone, TrendingDownFill as FoamDowntrendFill, SquarePen as FoamDraft, SquarePenDuotone as FoamDraftDuotone, SquarePenFill as FoamDraftFill, Move as FoamDrag, MoveDuotone as FoamDragDuotone, MoveFill as FoamDragFill, PanelLeft as FoamDrawerLeft, PanelLeftDuotone as FoamDrawerLeftDuotone, PanelLeftFill as FoamDrawerLeftFill, PanelRight as FoamDrawerRight, PanelRightDuotone as FoamDrawerRightDuotone, PanelRightFill as FoamDrawerRightFill, ChevronDown as FoamDropdown, ChevronDownDuotone as FoamDropdownDuotone, ChevronDownFill as FoamDropdownFill, Copy as FoamDuplicate, CopyDuotone as FoamDuplicateDuotone, CopyFill as FoamDuplicateFill, ArrowRight as FoamEast, ArrowRightDuotone as FoamEastDuotone, ArrowRightFill as FoamEastFill, Eclipse as FoamEclipse, EclipseDuotone as FoamEclipseDuotone, EclipseFill as FoamEclipseFill, Pencil as FoamEdit, PencilDuotone as FoamEditDuotone, PencilFill as FoamEditFill, SquarePen as FoamEditor, SquarePenDuotone as FoamEditorDuotone, SquarePenFill as FoamEditorFill, Ellipsis as FoamEllipsis, EllipsisDuotone as FoamEllipsisDuotone, EllipsisFill as FoamEllipsisFill, EllipsisVertical as FoamEllipsisVertical, EllipsisVerticalDuotone as FoamEllipsisVerticalDuotone, EllipsisVerticalFill as FoamEllipsisVerticalFill, Mail as FoamEmail, MailDuotone as FoamEmailDuotone, MailFill as FoamEmailFill, Heart as FoamEmotion, HeartDuotone as FoamEmotionDuotone, HeartFill as FoamEmotionFill, Italic as FoamEmphasis, ItalicDuotone as FoamEmphasisDuotone, ItalicFill as FoamEmphasisFill, Maximize as FoamEnlarge, MaximizeDuotone as FoamEnlargeDuotone, MaximizeFill as FoamEnlargeFill, Mail as FoamEnvelope, MailDuotone as FoamEnvelopeDuotone, MailFill as FoamEnvelopeFill, SlidersHorizontal as FoamEqualizer, SlidersHorizontalDuotone as FoamEqualizerDuotone, SlidersHorizontalFill as FoamEqualizerFill, CircleAlert as FoamError, CircleAlertDuotone as FoamErrorDuotone, CircleAlertFill as FoamErrorFill, Calendar as FoamEvent, CalendarDuotone as FoamEventDuotone, CalendarFill as FoamEventFill, LogOut as FoamExit, LogOutDuotone as FoamExitDuotone, LogOutFill as FoamExitFill, ChevronUp as FoamExpand, ChevronUpDuotone as FoamExpandDuotone, ChevronUpFill as FoamExpandFill, Maximize as FoamExpandWindow, MaximizeDuotone as FoamExpandWindowDuotone, MaximizeFill as FoamExpandWindowFill, Search as FoamExplore, SearchDuotone as FoamExploreDuotone, SearchFill as FoamExploreFill, Download as FoamExport, DownloadDuotone as FoamExportDuotone, DownloadFill as FoamExportFill, ExternalLink as FoamExternal, ExternalLinkDuotone as FoamExternalDuotone, ExternalLinkFill as FoamExternalFill, ExternalLink as FoamExternalLink, ExternalLinkDuotone as FoamExternalLinkDuotone, ExternalLinkFill as FoamExternalLinkFill, Eye as FoamEye, EyeDuotone as FoamEyeDuotone, EyeFill as FoamEyeFill, EyeOff as FoamEyeOff, EyeOffDuotone as FoamEyeOffDuotone, EyeOffFill as FoamEyeOffFill, TrendingDown as FoamFalling, TrendingDownDuotone as FoamFallingDuotone, TrendingDownFill as FoamFallingFill, CircleQuestionMark as FoamFaq, CircleQuestionMarkDuotone as FoamFaqDuotone, CircleQuestionMarkFill as FoamFaqFill, Star as FoamFavorite, StarDuotone as FoamFavoriteDuotone, StarFill as FoamFavoriteFill, Star as FoamFavourite, StarDuotone as FoamFavouriteDuotone, StarFill as FoamFavouriteFill, File as FoamFile, FileUser as FoamFileAccount, FileUserDuotone as FoamFileAccountDuotone, FileUserFill as FoamFileAccountFill, FileArrowDown as FoamFileArrowDown, FileArrowDownDuotone as FoamFileArrowDownDuotone, FileArrowDownFill as FoamFileArrowDownFill, FileArrowLeft as FoamFileArrowLeft, FileArrowLeftDuotone as FoamFileArrowLeftDuotone, FileArrowLeftFill as FoamFileArrowLeftFill, FileArrowLeftRight as FoamFileArrowLeftRight, FileArrowLeftRightDuotone as FoamFileArrowLeftRightDuotone, FileArrowLeftRightFill as FoamFileArrowLeftRightFill, FileArrowRight as FoamFileArrowRight, FileArrowRightDuotone as FoamFileArrowRightDuotone, FileArrowRightFill as FoamFileArrowRightFill, FileArrowUp as FoamFileArrowUp, FileArrowUpDuotone as FoamFileArrowUpDuotone, FileArrowUpFill as FoamFileArrowUpFill, FileArrowLeft as FoamFileBack, FileArrowLeftDuotone as FoamFileBackDuotone, FileArrowLeftFill as FoamFileBackFill, FileX as FoamFileCancel, FileXDuotone as FoamFileCancelDuotone, FileXFill as FoamFileCancelFill, FileCheck as FoamFileCheck, FileCheckDuotone as FoamFileCheckDuotone, FileCheckFill as FoamFileCheckFill, FileCog as FoamFileCog, FileCogDuotone as FoamFileCogDuotone, FileCogFill as FoamFileCogFill, FileCheck as FoamFileComplete, FileCheckDuotone as FoamFileCompleteDuotone, FileCheckFill as FoamFileCompleteFill, FileCog as FoamFileConfig, FileCogDuotone as FoamFileConfigDuotone, FileCogFill as FoamFileConfigFill, FileX as FoamFileDelete, FileXDuotone as FoamFileDeleteDuotone, FileXFill as FoamFileDeleteFill, FileCheck as FoamFileDone, FileCheckDuotone as FoamFileDoneDuotone, FileCheckFill as FoamFileDoneFill, FileDuotone as FoamFileDuotone, FileArrowLeftRight as FoamFileExchange, FileArrowLeftRightDuotone as FoamFileExchangeDuotone, FileArrowLeftRightFill as FoamFileExchangeFill, FileFill as FoamFileFill, FileArrowRight as FoamFileForward, FileArrowRightDuotone as FoamFileForwardDuotone, FileArrowRightFill as FoamFileForwardFill, FileArrowRight as FoamFileNext, FileArrowRightDuotone as FoamFileNextDuotone, FileArrowRightFill as FoamFileNextFill, FilePlus as FoamFilePlus, FilePlusDuotone as FoamFilePlusDuotone, FilePlusFill as FoamFilePlusFill, FileArrowLeft as FoamFilePrevious, FileArrowLeftDuotone as FoamFilePreviousDuotone, FileArrowLeftFill as FoamFilePreviousFill, FileUser as FoamFileProfile, FileUserDuotone as FoamFileProfileDuotone, FileUserFill as FoamFileProfileFill, FileX as FoamFileRemove, FileXDuotone as FoamFileRemoveDuotone, FileXFill as FoamFileRemoveFill, FileCog as FoamFileSettings, FileCogDuotone as FoamFileSettingsDuotone, FileCogFill as FoamFileSettingsFill, FileArrowLeftRight as FoamFileSync, FileArrowLeftRightDuotone as FoamFileSyncDuotone, FileArrowLeftRightFill as FoamFileSyncFill, FileArrowLeftRight as FoamFileTransfer, FileArrowLeftRightDuotone as FoamFileTransferDuotone, FileArrowLeftRightFill as FoamFileTransferFill, FileUser as FoamFileUser, FileUserDuotone as FoamFileUserDuotone, FileUserFill as FoamFileUserFill, FileCheck as FoamFileVerified, FileCheckDuotone as FoamFileVerifiedDuotone, FileCheckFill as FoamFileVerifiedFill, FileX as FoamFileX, FileXDuotone as FoamFileXDuotone, FileXFill as FoamFileXFill, Reel as FoamFilm, ReelDuotone as FoamFilmDuotone, ReelFill as FoamFilmFill, ListFilter as FoamFilter, ListFilterDuotone as FoamFilterDuotone, ListFilterFill as FoamFilterFill, SlidersHorizontal as FoamFilters, SlidersHorizontalDuotone as FoamFiltersDuotone, SlidersHorizontalFill as FoamFiltersFill, Search as FoamFind, SearchDuotone as FoamFindDuotone, SearchFill as FoamFindFill, SearchUser as FoamFindUser, SearchUserDuotone as FoamFindUserDuotone, SearchUserFill as FoamFindUserFill, Flame as FoamFire, FlameDuotone as FoamFireDuotone, FlameFill as FoamFireFill, Bookmark as FoamFlag, BookmarkDuotone as FoamFlagDuotone, BookmarkFill as FoamFlagFill, Flame as FoamFlame, FlameDuotone as FoamFlameDuotone, FlameFill as FoamFlameFill, Save as FoamFloppy, SaveDuotone as FoamFloppyDuotone, SaveFill as FoamFloppyFill, ArrowRightToLine as FoamFold, ArrowRightToLineDuotone as FoamFoldDuotone, ArrowRightToLineFill as FoamFoldFill, Ban as FoamForbidden, BanDuotone as FoamForbiddenDuotone, BanFill as FoamForbiddenFill, Share as FoamForward, ShareDuotone as FoamForwardDuotone, ShareFill as FoamForwardFill, Frown as FoamFrown, FrownDuotone as FoamFrownDuotone, FrownFill as FoamFrownFill, Fullscreen as FoamFullScreen, FullscreenDuotone as FoamFullScreenDuotone, FullscreenFill as FoamFullScreenFill, Fullscreen as FoamFullscreen, FullscreenDuotone as FoamFullscreenDuotone, FullscreenFill as FoamFullscreenFill, ListFilter as FoamFunnel, ListFilterDuotone as FoamFunnelDuotone, ListFilterFill as FoamFunnelFill, Images as FoamGallery, ImagesDuotone as FoamGalleryDuotone, ImagesFill as FoamGalleryFill, Trash as FoamGarbage, TrashDuotone as FoamGarbageDuotone, TrashFill as FoamGarbageFill, Cog as FoamGear, CogDuotone as FoamGearDuotone, CogFill as FoamGearFill, Sparkles as FoamGenerate, SparklesDuotone as FoamGenerateDuotone, SparklesFill as FoamGenerateFill, MapPin as FoamGeo, MapPinDuotone as FoamGeoDuotone, MapPinFill as FoamGeoFill, Download as FoamGet, DownloadDuotone as FoamGetDuotone, DownloadFill as FoamGetFill, Globe as FoamGlobe, GlobeDuotone as FoamGlobeDuotone, GlobeFill as FoamGlobeFill, ChartColumnSquare as FoamGraph, ChartColumnSquareDuotone as FoamGraphDuotone, ChartColumnSquareFill as FoamGraphFill, Grid2x2 as FoamGrid, Grid1x2 as FoamGrid1x2, Grid1x2Duotone as FoamGrid1x2Duotone, Grid1x2Fill as FoamGrid1x2Fill, Grid2x2 as FoamGrid2x2, Grid2x2Duotone as FoamGrid2x2Duotone, Grid2x2Fill as FoamGrid2x2Fill, Grid2x2Duotone as FoamGridDuotone, Grid2x2Fill as FoamGridFill, Grip as FoamGrip, GripDuotone as FoamGripDuotone, GripFill as FoamGripFill, GripHorizontal as FoamGripHorizontal, GripHorizontalDuotone as FoamGripHorizontalDuotone, GripHorizontalFill as FoamGripHorizontalFill, GripVertical as FoamGripVertical, GripVerticalDuotone as FoamGripVerticalDuotone, GripVerticalFill as FoamGripVerticalFill, Users as FoamGroup, UsersDuotone as FoamGroupDuotone, UsersFill as FoamGroupFill, TrendingUp as FoamGrowth, TrendingUpDuotone as FoamGrowthDuotone, TrendingUpFill as FoamGrowthFill, Eclipse as FoamHalfMoon, EclipseDuotone as FoamHalfMoonDuotone, EclipseFill as FoamHalfMoonFill, Menu as FoamHamburger, MenuDuotone as FoamHamburgerDuotone, MenuFill as FoamHamburgerFill, Smile as FoamHappy, SmileDuotone as FoamHappyDuotone, SmileFill as FoamHappyFill, Heart as FoamHeart, HeartDuotone as FoamHeartDuotone, HeartFill as FoamHeartFill, CircleQuestionMark as FoamHelp, CircleQuestionMarkDuotone as FoamHelpDuotone, CircleQuestionMarkFill as FoamHelpFill, EyeOff as FoamHidden, EyeOffDuotone as FoamHiddenDuotone, EyeOffFill as FoamHiddenFill, EyeOff as FoamHide, EyeOffDuotone as FoamHideDuotone, EyeOffFill as FoamHideFill, History as FoamHistory, HistoryDuotone as FoamHistoryDuotone, HistoryFill as FoamHistoryFill, House as FoamHome, HouseDuotone as FoamHomeDuotone, HouseFill as FoamHomeFill, Rows2 as FoamHorizontalSplit, Rows2Duotone as FoamHorizontalSplitDuotone, Rows2Fill as FoamHorizontalSplitFill, Flame as FoamHot, FlameDuotone as FoamHotDuotone, FlameFill as FoamHotFill, Hotspot as FoamHotspot, HotspotDuotone as FoamHotspotDuotone, HotspotFill as FoamHotspotFill, House as FoamHouse, HouseDuotone as FoamHouseDuotone, HouseFill as FoamHouseFill, ArrowDownIG as FoamIgDown, ArrowDownIGDuotone as FoamIgDownDuotone, ArrowDownIGFill as FoamIgDownFill, ArrowUpIG as FoamIgUp, ArrowUpIGDuotone as FoamIgUpDuotone, ArrowUpIGFill as FoamIgUpFill, Image as FoamImage, ImageDuotone as FoamImageDuotone, ImageFill as FoamImageFill, Images as FoamImages, ImagesDuotone as FoamImagesDuotone, ImagesFill as FoamImagesFill, Upload as FoamImport, UploadDuotone as FoamImportDuotone, UploadFill as FoamImportFill, Reach as FoamImpressions, ReachDuotone as FoamImpressionsDuotone, ReachFill as FoamImpressionsFill, Inbox as FoamInbox, InboxDuotone as FoamInboxDuotone, InboxFill as FoamInboxFill, TrendingUp as FoamIncrease, TrendingUpDuotone as FoamIncreaseDuotone, TrendingUpFill as FoamIncreaseFill, ArrowRightToLine as FoamIndent, ArrowRightToLineDuotone as FoamIndentDuotone, ArrowRightToLineFill as FoamIndentFill, Info as FoamInfo, InfoDuotone as FoamInfoDuotone, InfoFill as FoamInfoFill, Info as FoamInformation, InfoDuotone as FoamInformationDuotone, InfoFill as FoamInformationFill, ArrowDownIG as FoamInstagramDown, ArrowDownIGDuotone as FoamInstagramDownDuotone, ArrowDownIGFill as FoamInstagramDownFill, ArrowUpIG as FoamInstagramUp, ArrowUpIGDuotone as FoamInstagramUpDuotone, ArrowUpIGFill as FoamInstagramUpFill, Globe as FoamInternet, GlobeDuotone as FoamInternetDuotone, GlobeFill as FoamInternetFill, EyeOff as FoamInvisible, EyeOffDuotone as FoamInvisibleDuotone, EyeOffFill as FoamInvisibleFill, Italic as FoamItalic, ItalicDuotone as FoamItalicDuotone, ItalicFill as FoamItalicFill, List as FoamItems, ListDuotone as FoamItemsDuotone, ListFill as FoamItemsFill, TextAlignJustify as FoamJustify, TextAlignJustifyDuotone as FoamJustifyDuotone, TextAlignJustifyFill as FoamJustifyFill, Command as FoamKeyboard, CommandDuotone as FoamKeyboardDuotone, CommandFill as FoamKeyboardFill, Globe as FoamLanguage, GlobeDuotone as FoamLanguageDuotone, GlobeFill as FoamLanguageFill, Grid2x2 as FoamLayout, Grid2x2Duotone as FoamLayoutDuotone, Grid2x2Fill as FoamLayoutFill, ArrowLeft as FoamLeft, ArrowLeftDuotone as FoamLeftDuotone, ArrowLeftFill as FoamLeftFill, Sun as FoamLight, SunDuotone as FoamLightDuotone, SunFill as FoamLightFill, ThumbsUp as FoamLike, ThumbsUpDuotone as FoamLikeDuotone, ThumbsUpFill as FoamLikeFill, Heart as FoamLikes, HeartDuotone as FoamLikesDuotone, HeartFill as FoamLikesFill, Link as FoamLink, LinkDuotone as FoamLinkDuotone, LinkFill as FoamLinkFill, List as FoamList, ListDuotone as FoamListDuotone, ListFill as FoamListFill, ListFilter as FoamListFilter, ListFilterDuotone as FoamListFilterDuotone, ListFilterFill as FoamListFilterFill, ListIndentDecrease as FoamListIndentDecrease, ListIndentDecreaseDuotone as FoamListIndentDecreaseDuotone, ListIndentDecreaseFill as FoamListIndentDecreaseFill, ListIndentIncrease as FoamListIndentIncrease, ListIndentIncreaseDuotone as FoamListIndentIncreaseDuotone, ListIndentIncreaseFill as FoamListIndentIncreaseFill, ListOrdered as FoamListOrdered, ListOrderedDuotone as FoamListOrderedDuotone, ListOrderedFill as FoamListOrderedFill, LoaderCircle as FoamLoaderCircle, LoaderCircleDuotone as FoamLoaderCircleDuotone, LoaderCircleFill as FoamLoaderCircleFill, LoaderCircle as FoamLoading, LoaderCircleDuotone as FoamLoadingDuotone, LoaderCircleFill as FoamLoadingFill, MapPin as FoamLocation, MapPinDuotone as FoamLocationDuotone, MapPinFill as FoamLocationFill, Lock as FoamLock, LockDuotone as FoamLockDuotone, LockFill as FoamLockFill, Lock as FoamLocked, LockDuotone as FoamLockedDuotone, LockFill as FoamLockedFill, LogOut as FoamLogOut, LogOutDuotone as FoamLogOutDuotone, LogOutFill as FoamLogOutFill, LogoFacebook as FoamLogoFacebook, LogoFacebookFill as FoamLogoFacebookFill, LogoFile as FoamLogoFile, LogoFileDark as FoamLogoFileDark, LogoFilePdf as FoamLogoFilePdf, LogoFilePdfDark as FoamLogoFilePdfDark, LogoFileSheet as FoamLogoFileSheet, LogoFileSheetDark as FoamLogoFileSheetDark, LogoFoam as FoamLogoFoam, LogoFoamDark as FoamLogoFoamDark, LogoFoamFill as FoamLogoFoamFill, LogoFoamSymbol as FoamLogoFoamSymbol, LogoFoamSymbolDark as FoamLogoFoamSymbolDark, LogoGmail as FoamLogoGmail, LogoGmailFill as FoamLogoGmailFill, LogoGoogle as FoamLogoGoogle, LogoGoogleFill as FoamLogoGoogleFill, LogoInstagram as FoamLogoInstagram, LogoInstagramDark as FoamLogoInstagramDark, LogoInstagramFill as FoamLogoInstagramFill, LogoLinkedin as FoamLogoLinkedin, LogoLinkedinDark as FoamLogoLinkedinDark, LogoLinkedinFill as FoamLogoLinkedinFill, LogoMicrosoft as FoamLogoMicrosoft, LogoMicrosoftFill as FoamLogoMicrosoftFill, LogoSnapchat as FoamLogoSnapchat, LogoSnapchatDark as FoamLogoSnapchatDark, LogoSnapchatFill as FoamLogoSnapchatFill, LogoTiktok as FoamLogoTiktok, LogoTiktokDark as FoamLogoTiktokDark, LogoTiktokFill as FoamLogoTiktokFill, LogoYoutube as FoamLogoYoutube, LogoYoutubeFill as FoamLogoYoutubeFill, LogOut as FoamLogout, LogOutDuotone as FoamLogoutDuotone, LogOutFill as FoamLogoutFill, Search as FoamLookup, SearchDuotone as FoamLookupDuotone, SearchFill as FoamLookupFill, SearchUser as FoamLookupPerson, SearchUserDuotone as FoamLookupPersonDuotone, SearchUserFill as FoamLookupPersonFill, Heart as FoamLove, HeartDuotone as FoamLoveDuotone, HeartFill as FoamLoveFill, Sparkles as FoamMagic, SparklesDuotone as FoamMagicDuotone, SparklesFill as FoamMagicFill, Search as FoamMagnifyingGlass, SearchDuotone as FoamMagnifyingGlassDuotone, SearchFill as FoamMagnifyingGlassFill, Mail as FoamMail, MailDuotone as FoamMailDuotone, MailFill as FoamMailFill, MailMove as FoamMailMove, MailMoveDuotone as FoamMailMoveDuotone, MailMoveFill as FoamMailMoveFill, MailPlus as FoamMailPlus, MailPlusDuotone as FoamMailPlusDuotone, MailPlusFill as FoamMailPlusFill, Inbox as FoamMailbox, InboxDuotone as FoamMailboxDuotone, InboxFill as FoamMailboxFill, MapPin as FoamMapPin, MapPinDuotone as FoamMapPinDuotone, MapPinFill as FoamMapPinFill, MapPin as FoamMarker, MapPinDuotone as FoamMarkerDuotone, MapPinFill as FoamMarkerFill, Megaphone as FoamMarketing, MegaphoneDuotone as FoamMarketingDuotone, MegaphoneFill as FoamMarketingFill, Maximize as FoamMaximize, MaximizeDuotone as FoamMaximizeDuotone, MaximizeFill as FoamMaximizeFill, Fullscreen as FoamMaximizeScreen, FullscreenDuotone as FoamMaximizeScreenDuotone, FullscreenFill as FoamMaximizeScreenFill, Image as FoamMedia, ImageDuotone as FoamMediaDuotone, ImageFill as FoamMediaFill, ContentUser as FoamMediaPacks, ContentUserDuotone as FoamMediaPacksDuotone, ContentUserFill as FoamMediaPacksFill, ContentUser as FoamMediapacks, ContentUserDuotone as FoamMediapacksDuotone, ContentUserFill as FoamMediapacksFill, Megaphone as FoamMegaphone, MegaphoneActive as FoamMegaphoneActive, MegaphoneActiveDuotone as FoamMegaphoneActiveDuotone, MegaphoneActiveFill as FoamMegaphoneActiveFill, MegaphoneDuotone as FoamMegaphoneDuotone, MegaphoneFill as FoamMegaphoneFill, Menu as FoamMenu, MenuDuotone as FoamMenuDuotone, MenuFill as FoamMenuFill, Mail as FoamMessage, MailDuotone as FoamMessageDuotone, MailFill as FoamMessageFill, MessageSquare as FoamMessageSquare, MessageSquareDuotone as FoamMessageSquareDuotone, MessageSquareFill as FoamMessageSquareFill, MessagesSquare as FoamMessagesSquare, MessagesSquareDuotone as FoamMessagesSquareDuotone, MessagesSquareFill as FoamMessagesSquareFill, Minus as FoamMinus, MinusDuotone as FoamMinusDuotone, MinusFill as FoamMinusFill, Pencil as FoamModify, PencilDuotone as FoamModifyDuotone, PencilFill as FoamModifyFill, CircleDollarSign as FoamMoney, CircleDollarSignDuotone as FoamMoneyDuotone, CircleDollarSignFill as FoamMoneyFill, Moon as FoamMoon, MoonDuotone as FoamMoonDuotone, MoonFill as FoamMoonFill, MousePointerClick as FoamMousePointerClick, MousePointerClickDuotone as FoamMousePointerClickDuotone, MousePointerClickFill as FoamMousePointerClickFill, Move as FoamMove, MoveDuotone as FoamMoveDuotone, MoveFill as FoamMoveFill, VolumeOff as FoamMute, VolumeOffDuotone as FoamMuteDuotone, VolumeOffFill as FoamMuteFill, Menu as FoamNavigation, MenuDuotone as FoamNavigationDuotone, MenuFill as FoamNavigationFill, Frown as FoamNegative, FrownDuotone as FoamNegativeDuotone, FrownFill as FoamNegativeFill, Plus as FoamNew, PlusDuotone as FoamNewDuotone, FilePlus as FoamNewFile, FilePlusDuotone as FoamNewFileDuotone, FilePlusFill as FoamNewFileFill, PlusFill as FoamNewFill, ContentPlus as FoamNewPost, ContentPlusDuotone as FoamNewPostDuotone, ContentPlusFill as FoamNewPostFill, ArrowRight as FoamNext, ArrowRightDuotone as FoamNextDuotone, ArrowRightFill as FoamNextFill, Moon as FoamNight, MoonDuotone as FoamNightDuotone, MoonFill as FoamNightFill, ThumbsDown as FoamNo, ThumbsDownDuotone as FoamNoDuotone, ThumbsDownFill as FoamNoFill, VolumeOff as FoamNoSound, VolumeOffDuotone as FoamNoSoundDuotone, VolumeOffFill as FoamNoSoundFill, ArrowUp as FoamNorth, ArrowUpDuotone as FoamNorthDuotone, ArrowUpFill as FoamNorthFill, Ban as FoamNotAllowed, BanDuotone as FoamNotAllowedDuotone, BanFill as FoamNotAllowedFill, Notebook as FoamNotebook, NotebookDuotone as FoamNotebookDuotone, NotebookFill as FoamNotebookFill, Bell as FoamNotification, BellDuotone as FoamNotificationDuotone, BellFill as FoamNotificationFill, ListOrdered as FoamNumberedList, ListOrderedDuotone as FoamNumberedListDuotone, ListOrderedFill as FoamNumberedListFill, Office as FoamOffice, OfficeDuotone as FoamOfficeDuotone, OfficeFill as FoamOfficeFill, ListOrdered as FoamOl, ListOrderedDuotone as FoamOlDuotone, ListOrderedFill as FoamOlFill, ExternalLink as FoamOpenNew, ExternalLinkDuotone as FoamOpenNewDuotone, ExternalLinkFill as FoamOpenNewFill, QuotationMarkLeft as FoamOpenQuote, QuotationMarkLeftDuotone as FoamOpenQuoteDuotone, QuotationMarkLeftFill as FoamOpenQuoteFill, Cog as FoamOptions, CogDuotone as FoamOptionsDuotone, CogFill as FoamOptionsFill, TriangleDownUp as FoamOrderToggle, TriangleDownUpDuotone as FoamOrderToggleDuotone, TriangleDownUpFill as FoamOrderToggleFill, File as FoamPage, FileDuotone as FoamPageDuotone, FileFill as FoamPageFill, PanelLeft as FoamPanelLeft, PanelLeftDuotone as FoamPanelLeftDuotone, PanelLeftFill as FoamPanelLeftFill, PanelRight as FoamPanelRight, PanelRightDuotone as FoamPanelRightDuotone, PanelRightFill as FoamPanelRightFill, History as FoamPast, HistoryDuotone as FoamPastDuotone, HistoryFill as FoamPastFill, CircleDollarSign as FoamPayment, CircleDollarSignDuotone as FoamPaymentDuotone, CircleDollarSignFill as FoamPaymentFill, Pencil as FoamPencil, PencilDuotone as FoamPencilDuotone, PencilFill as FoamPencilFill, Users as FoamPeople, UsersDuotone as FoamPeopleDuotone, UsersFill as FoamPeopleFill, User as FoamPerson, UserDuotone as FoamPersonDuotone, UserFill as FoamPersonFill, Users as FoamPersons, UsersDuotone as FoamPersonsDuotone, UsersFill as FoamPersonsFill, Image as FoamPhoto, ImageDuotone as FoamPhotoDuotone, ImageFill as FoamPhotoFill, Images as FoamPhotos, ImagesDuotone as FoamPhotosDuotone, ImagesFill as FoamPhotosFill, Image as FoamPicture, ImageDuotone as FoamPictureDuotone, ImageFill as FoamPictureFill, Images as FoamPictures, ImagesDuotone as FoamPicturesDuotone, ImagesFill as FoamPicturesFill, Pin as FoamPin, PinDuotone as FoamPinDuotone, PinFill as FoamPinFill, MapPin as FoamPlace, MapPinDuotone as FoamPlaceDuotone, MapPinFill as FoamPlaceFill, RemoveFormatting as FoamPlainText, RemoveFormattingDuotone as FoamPlainTextDuotone, RemoveFormattingFill as FoamPlainTextFill, Play as FoamPlay, Play as FoamPlayButton, PlayDuotone as FoamPlayButtonDuotone, PlayFill as FoamPlayButtonFill, PlayDuotone as FoamPlayDuotone, PlayFill as FoamPlayFill, Plus as FoamPlus, PlusDuotone as FoamPlusDuotone, PlusFill as FoamPlusFill, Pointer as FoamPointer, PointerDuotone as FoamPointerDuotone, PointerFill as FoamPointerFill, Smile as FoamPositive, SmileDuotone as FoamPositiveDuotone, SmileFill as FoamPositiveFill, Cog as FoamPreferences, CogDuotone as FoamPreferencesDuotone, CogFill as FoamPreferencesFill, Save as FoamPreserve, SaveDuotone as FoamPreserveDuotone, SaveFill as FoamPreserveFill, ContentUser as FoamPressKit, ContentUserDuotone as FoamPressKitDuotone, ContentUserFill as FoamPressKitFill, ArrowLeft as FoamPrevious, ArrowLeftDuotone as FoamPreviousDuotone, ArrowLeftFill as FoamPreviousFill, CircleDollarSign as FoamPrice, CircleDollarSignDuotone as FoamPriceDuotone, CircleDollarSignFill as FoamPriceFill, Lock as FoamPrivate, LockDuotone as FoamPrivateDuotone, LockFill as FoamPrivateFill, User as FoamProfile, UserDuotone as FoamProfileDuotone, UserFill as FoamProfileFill, LoaderCircle as FoamProgress, LoaderCircleDuotone as FoamProgressDuotone, LoaderCircleFill as FoamProgressFill, Ban as FoamProhibited, BanDuotone as FoamProhibitedDuotone, BanFill as FoamProhibitedFill, Megaphone as FoamPromote, MegaphoneDuotone as FoamPromoteDuotone, MegaphoneFill as FoamPromoteFill, Lock as FoamProtected, LockDuotone as FoamProtectedDuotone, LockFill as FoamProtectedFill, Unlock as FoamPublic, UnlockDuotone as FoamPublicDuotone, UnlockFill as FoamPublicFill, Search as FoamQuery, SearchDuotone as FoamQueryDuotone, SearchFill as FoamQueryFill, CircleQuestionMark as FoamQuestion, CircleQuestionMarkDuotone as FoamQuestionDuotone, CircleQuestionMarkFill as FoamQuestionFill, QuotationMarkLeft as FoamQuotationMarkLeft, QuotationMarkLeftDuotone as FoamQuotationMarkLeftDuotone, QuotationMarkLeftFill as FoamQuotationMarkLeftFill, QuotationMarkRight as FoamQuotationMarkRight, QuotationMarkRightDuotone as FoamQuotationMarkRightDuotone, QuotationMarkRightFill as FoamQuotationMarkRightFill, QuotationMarkLeft as FoamQuoteLeft, QuotationMarkLeftDuotone as FoamQuoteLeftDuotone, QuotationMarkLeftFill as FoamQuoteLeftFill, QuotationMarkRight as FoamQuoteRight, QuotationMarkRightDuotone as FoamQuoteRightDuotone, QuotationMarkRightFill as FoamQuoteRightFill, Star as FoamRating, StarDuotone as FoamRatingDuotone, StarFill as FoamRatingFill, Reach as FoamReach, ReachDuotone as FoamReachDuotone, ReachFill as FoamReachFill, History as FoamRecent, HistoryDuotone as FoamRecentDuotone, HistoryFill as FoamRecentFill, RotateCw as FoamRedo, RotateCwDuotone as FoamRedoDuotone, RotateCwFill as FoamRedoFill, Minus as FoamReduce, MinusDuotone as FoamReduceDuotone, MinusFill as FoamReduceFill, Reel as FoamReel, ReelDuotone as FoamReelDuotone, ReelFill as FoamReelFill, RefreshCw as FoamRefresh, RefreshCw as FoamRefreshCw, RefreshCwDuotone as FoamRefreshCwDuotone, RefreshCwFill as FoamRefreshCwFill, RefreshCwDuotone as FoamRefreshDuotone, RefreshCwFill as FoamRefreshFill, RefreshCw as FoamReload, RefreshCwDuotone as FoamReloadDuotone, RefreshCwFill as FoamReloadFill, Trash as FoamRemove, TrashDuotone as FoamRemoveDuotone, TrashFill as FoamRemoveFill, RemoveFormatting as FoamRemoveFormatting, RemoveFormattingDuotone as FoamRemoveFormattingDuotone, RemoveFormattingFill as FoamRemoveFormattingFill, ArrowDownUp as FoamReorder, ArrowDownUpDuotone as FoamReorderDuotone, ArrowDownUpFill as FoamReorderFill, Reply as FoamReply, ReplyDuotone as FoamReplyDuotone, ReplyFill as FoamReplyFill, Move as FoamReposition, MoveDuotone as FoamRepositionDuotone, MoveFill as FoamRepositionFill, Reply as FoamRespond, ReplyDuotone as FoamRespondDuotone, ReplyFill as FoamRespondFill, ArrowRight as FoamRight, ArrowRightDuotone as FoamRightDuotone, ArrowRightFill as FoamRightFill, TrendingUp as FoamRising, TrendingUpDuotone as FoamRisingDuotone, TrendingUpFill as FoamRisingFill, Rolodex as FoamRolodex, RolodexDuotone as FoamRolodexDuotone, RolodexFill as FoamRolodexFill, RotateCw as FoamRotate, RotateCw as FoamRotateCw, RotateCwDuotone as FoamRotateCwDuotone, RotateCwFill as FoamRotateCwFill, RotateCwDuotone as FoamRotateDuotone, RotateCwFill as FoamRotateFill, Rows2 as FoamRows, Rows2 as FoamRows2, Rows2Duotone as FoamRows2Duotone, Rows2Fill as FoamRows2Fill, Rows2Duotone as FoamRowsDuotone, Rows2Fill as FoamRowsFill, Frown as FoamSad, FrownDuotone as FoamSadDuotone, FrownFill as FoamSadFill, Save as FoamSave, SaveDuotone as FoamSaveDuotone, SaveFill as FoamSaveFill, Bookmark as FoamSaved, BookmarkDuotone as FoamSavedDuotone, BookmarkFill as FoamSavedFill, Calendar as FoamSchedule, CalendarDuotone as FoamScheduleDuotone, CalendarFill as FoamScheduleFill, Search as FoamSearch, SearchDuotone as FoamSearchDuotone, SearchFill as FoamSearchFill, SearchUser as FoamSearchPerson, SearchUserDuotone as FoamSearchPersonDuotone, SearchUserFill as FoamSearchPersonFill, SearchUser as FoamSearchUser, SearchUserDuotone as FoamSearchUserDuotone, SearchUserFill as FoamSearchUserFill, Lock as FoamSecure, LockDuotone as FoamSecureDuotone, LockFill as FoamSecureFill, Upload as FoamSend, UploadDuotone as FoamSendDuotone, UploadFill as FoamSendFill, Cog as FoamSettings, CogDuotone as FoamSettingsDuotone, CogFill as FoamSettingsFill, Share as FoamShare, ShareDuotone as FoamShareDuotone, ShareFill as FoamShareFill, Share as FoamShareLink, ShareDuotone as FoamShareLinkDuotone, ShareFill as FoamShareLinkFill, Sparkles as FoamShine, SparklesDuotone as FoamShineDuotone, SparklesFill as FoamShineFill, Reel as FoamShort, ReelDuotone as FoamShortDuotone, ReelFill as FoamShortFill, Reel as FoamShortVideo, ReelDuotone as FoamShortVideoDuotone, ReelFill as FoamShortVideoFill, Command as FoamShortcut, CommandDuotone as FoamShortcutDuotone, CommandFill as FoamShortcutFill, Eye as FoamShow, EyeDuotone as FoamShowDuotone, EyeFill as FoamShowFill, PanelLeft as FoamSidebarLeft, PanelLeftDuotone as FoamSidebarLeftDuotone, PanelLeftFill as FoamSidebarLeftFill, PanelRight as FoamSidebarRight, PanelRightDuotone as FoamSidebarRightDuotone, PanelRightFill as FoamSidebarRightFill, LogOut as FoamSignOut, LogOutDuotone as FoamSignOutDuotone, LogOutFill as FoamSignOutFill, Hotspot as FoamSignal, HotspotDuotone as FoamSignalDuotone, HotspotFill as FoamSignalFill, LogOut as FoamSignout, LogOutDuotone as FoamSignoutDuotone, LogOutFill as FoamSignoutFill, VolumeOff as FoamSilent, VolumeOffDuotone as FoamSilentDuotone, VolumeOffFill as FoamSilentFill, SlidersHorizontal as FoamSlidersHorizontal, SlidersHorizontalDuotone as FoamSlidersHorizontalDuotone, SlidersHorizontalFill as FoamSlidersHorizontalFill, Smile as FoamSmile, SmileDuotone as FoamSmileDuotone, SmileFill as FoamSmileFill, Smile as FoamSmiley, SmileDuotone as FoamSmileyDuotone, SmileFill as FoamSmileyFill, ArrowDownSC as FoamSnapchat, ArrowDownSCDuotone as FoamSnapchatDuotone, ArrowDownSCFill as FoamSnapchatFill, ArrowDownUp as FoamSort, ArrowUpAZ as FoamSortAZ, ArrowUpAZDuotone as FoamSortAZDuotone, ArrowUpAZFill as FoamSortAZFill, ArrowUpAZ as FoamSortAlphaAsc, ArrowUpAZDuotone as FoamSortAlphaAscDuotone, ArrowUpAZFill as FoamSortAlphaAscFill, ArrowUpZA as FoamSortAlphaDesc, ArrowUpZADuotone as FoamSortAlphaDescDuotone, ArrowUpZAFill as FoamSortAlphaDescFill, ArrowDownNarrowWide as FoamSortAsc, ArrowUpNarrowWide as FoamSortAscAlt, ArrowUpNarrowWideDuotone as FoamSortAscAltDuotone, ArrowUpNarrowWideFill as FoamSortAscAltFill, ArrowDownNarrowWideDuotone as FoamSortAscDuotone, ArrowDownNarrowWideFill as FoamSortAscFill, ArrowDownNarrowWide as FoamSortAscending, ArrowDownNarrowWideDuotone as FoamSortAscendingDuotone, ArrowDownNarrowWideFill as FoamSortAscendingFill, ArrowUpWideNarrow as FoamSortDesc, ArrowDownWideNarrow as FoamSortDescAlt, ArrowDownWideNarrowDuotone as FoamSortDescAltDuotone, ArrowDownWideNarrowFill as FoamSortDescAltFill, ArrowUpWideNarrowDuotone as FoamSortDescDuotone, ArrowUpWideNarrowFill as FoamSortDescFill, ArrowUpWideNarrow as FoamSortDescending, ArrowUpWideNarrowDuotone as FoamSortDescendingDuotone, ArrowUpWideNarrowFill as FoamSortDescendingFill, ArrowDownUpDuotone as FoamSortDuotone, ArrowDownUpFill as FoamSortFill, ArrowDown01 as FoamSortNumeric, ArrowDown01Duotone as FoamSortNumericDuotone, ArrowDown01Fill as FoamSortNumericFill, TriangleDownUp as FoamSortToggle, TriangleDownUpDuotone as FoamSortToggleDuotone, TriangleDownUpFill as FoamSortToggleFill, ArrowUpZA as FoamSortZA, ArrowUpZADuotone as FoamSortZADuotone, ArrowUpZAFill as FoamSortZAFill, Volume2 as FoamSound, Volume2Duotone as FoamSoundDuotone, Volume2Fill as FoamSoundFill, ArrowDown as FoamSouth, ArrowDownDuotone as FoamSouthDuotone, ArrowDownFill as FoamSouthFill, Sparkles as FoamSparkles, SparklesDuotone as FoamSparklesDuotone, SparklesFill as FoamSparklesFill, Volume2 as FoamSpeaker, Volume2Duotone as FoamSpeakerDuotone, Volume2Fill as FoamSpeakerFill, VolumeOff as FoamSpeakerOff, VolumeOffDuotone as FoamSpeakerOffDuotone, VolumeOffFill as FoamSpeakerOffFill, LoaderCircle as FoamSpinner, LoaderCircleDuotone as FoamSpinnerDuotone, LoaderCircleFill as FoamSpinnerFill, Square as FoamSquare, SquareDuotone as FoamSquareDuotone, SquareFill as FoamSquareFill, SquarePen as FoamSquarePen, SquarePenDuotone as FoamSquarePenDuotone, SquarePenFill as FoamSquarePenFill, Star as FoamStar, StarDuotone as FoamStarDuotone, StarFill as FoamStarFill, Play as FoamStart, PlayDuotone as FoamStartDuotone, PlayFill as FoamStartFill, ChartColumnSquare as FoamStats, ChartColumnSquareDuotone as FoamStatsDuotone, ChartColumnSquareFill as FoamStatsFill, Pin as FoamStick, PinDuotone as FoamStickDuotone, PinFill as FoamStickFill, Square as FoamStop, SquareDuotone as FoamStopDuotone, SquareFill as FoamStopFill, Archive as FoamStorage, ArchiveDuotone as FoamStorageDuotone, ArchiveFill as FoamStorageFill, Bold as FoamStrong, BoldDuotone as FoamStrongDuotone, BoldFill as FoamStrongFill, Minus as FoamSubtract, MinusDuotone as FoamSubtractDuotone, MinusFill as FoamSubtractFill, Checkmark as FoamSuccess, CheckmarkDuotone as FoamSuccessDuotone, CheckmarkFill as FoamSuccessFill, Sun as FoamSun, SunDuotone as FoamSunDuotone, SunFill as FoamSunFill, CircleQuestionMark as FoamSupport, CircleQuestionMarkDuotone as FoamSupportDuotone, CircleQuestionMarkFill as FoamSupportFill, ArrowDownUp as FoamSwap, ArrowDownUpDuotone as FoamSwapDuotone, ArrowDownUpFill as FoamSwapFill, RefreshCw as FoamSync, RefreshCwDuotone as FoamSyncDuotone, RefreshCwFill as FoamSyncFill, Pin as FoamTack, PinDuotone as FoamTackDuotone, PinFill as FoamTackFill, Checkbox as FoamTask, CheckboxDuotone as FoamTaskDuotone, CheckboxFill as FoamTaskFill, Users as FoamTeam, UsersDuotone as FoamTeamDuotone, UsersFill as FoamTeamFill, TextAlignCenter as FoamTextAlignCenter, TextAlignCenterDuotone as FoamTextAlignCenterDuotone, TextAlignCenterFill as FoamTextAlignCenterFill, TextAlignEnd as FoamTextAlignEnd, TextAlignEndDuotone as FoamTextAlignEndDuotone, TextAlignEndFill as FoamTextAlignEndFill, TextAlignJustify as FoamTextAlignJustify, TextAlignJustifyDuotone as FoamTextAlignJustifyDuotone, TextAlignJustifyFill as FoamTextAlignJustifyFill, TextAlignStart as FoamTextAlignStart, TextAlignStartDuotone as FoamTextAlignStartDuotone, TextAlignStartFill as FoamTextAlignStartFill, Bold as FoamTextBold, BoldDuotone as FoamTextBoldDuotone, BoldFill as FoamTextBoldFill, Italic as FoamTextItalic, ItalicDuotone as FoamTextItalicDuotone, ItalicFill as FoamTextItalicFill, Columns3 as FoamThreeColumns, Columns3Duotone as FoamThreeColumnsDuotone, Columns3Fill as FoamThreeColumnsFill, ThumbsDown as FoamThumbsDown, ThumbsDownDuotone as FoamThumbsDownDuotone, ThumbsDownFill as FoamThumbsDownFill, ThumbsUp as FoamThumbsUp, ThumbsUpDuotone as FoamThumbsUpDuotone, ThumbsUpFill as FoamThumbsUpFill, Pin as FoamThumbtack, PinDuotone as FoamThumbtackDuotone, PinFill as FoamThumbtackFill, Checkmark as FoamTick, CheckmarkDuotone as FoamTickDuotone, CheckmarkFill as FoamTickFill, ArrowDownTT as FoamTiktok, ArrowDownTTDuotone as FoamTiktokDuotone, ArrowDownTTFill as FoamTiktokFill, Grid2x2 as FoamTiles, Grid2x2Duotone as FoamTilesDuotone, Grid2x2Fill as FoamTilesFill, Clock as FoamTime, ClockDuotone as FoamTimeDuotone, ClockFill as FoamTimeFill, CircleX as FoamTimes, CircleXDuotone as FoamTimesDuotone, CircleXFill as FoamTimesFill, Trash as FoamTrash, TrashDuotone as FoamTrashDuotone, TrashEmpty as FoamTrashEmpty, TrashEmptyDuotone as FoamTrashEmptyDuotone, TrashEmptyFill as FoamTrashEmptyFill, TrashFill as FoamTrashFill, Inbox as FoamTray, InboxDuotone as FoamTrayDuotone, InboxFill as FoamTrayFill, Flame as FoamTrending, TrendingDown as FoamTrendingDown, TrendingDownDuotone as FoamTrendingDownDuotone, TrendingDownFill as FoamTrendingDownFill, FlameDuotone as FoamTrendingDuotone, FlameFill as FoamTrendingFill, TrendingUp as FoamTrendingUp, TrendingUpDuotone as FoamTrendingUpDuotone, TrendingUpFill as FoamTrendingUpFill, TriangleDown as FoamTriangleDown, TriangleDownDuotone as FoamTriangleDownDuotone, TriangleDownFill as FoamTriangleDownFill, TriangleDownUp as FoamTriangleDownUp, TriangleDownUpDuotone as FoamTriangleDownUpDuotone, TriangleDownUpFill as FoamTriangleDownUpFill, TriangleUp as FoamTriangleUp, TriangleUpDuotone as FoamTriangleUpDuotone, TriangleUpFill as FoamTriangleUpFill, RotateCw as FoamTurn, RotateCwDuotone as FoamTurnDuotone, RotateCwFill as FoamTurnFill, History as FoamUndo, HistoryDuotone as FoamUndoDuotone, HistoryFill as FoamUndoFill, Frown as FoamUnhappy, FrownDuotone as FoamUnhappyDuotone, FrownFill as FoamUnhappyFill, Unlink as FoamUnlink, UnlinkDuotone as FoamUnlinkDuotone, UnlinkFill as FoamUnlinkFill, Unlock as FoamUnlock, UnlockDuotone as FoamUnlockDuotone, UnlockFill as FoamUnlockFill, Unlock as FoamUnlocked, UnlockDuotone as FoamUnlockedDuotone, UnlockFill as FoamUnlockedFill, Unlock as FoamUnsecure, UnlockDuotone as FoamUnsecureDuotone, UnlockFill as FoamUnsecureFill, ArrowUp as FoamUp, ArrowUpDuotone as FoamUpDuotone, ArrowUpFill as FoamUpFill, Upload as FoamUpload, UploadDuotone as FoamUploadDuotone, FileArrowUp as FoamUploadFile, FileArrowUpDuotone as FoamUploadFileDuotone, FileArrowUpFill as FoamUploadFileFill, UploadFill as FoamUploadFill, Link as FoamUrl, LinkDuotone as FoamUrlDuotone, LinkFill as FoamUrlFill, User as FoamUser, UserArrowLeft as FoamUserArrowLeft, UserArrowLeftDuotone as FoamUserArrowLeftDuotone, UserArrowLeftFill as FoamUserArrowLeftFill, UserArrowLeftRight as FoamUserArrowLeftRight, UserArrowLeftRightDuotone as FoamUserArrowLeftRightDuotone, UserArrowLeftRightFill as FoamUserArrowLeftRightFill, UserArrowOutUpRight as FoamUserArrowOutUpRight, UserArrowOutUpRightDuotone as FoamUserArrowOutUpRightDuotone, UserArrowOutUpRightFill as FoamUserArrowOutUpRightFill, UserArrowRight as FoamUserArrowRight, UserArrowRightDuotone as FoamUserArrowRightDuotone, UserArrowRightFill as FoamUserArrowRightFill, UserCog as FoamUserCog, UserCogDuotone as FoamUserCogDuotone, UserCogFill as FoamUserCogFill, FileUser as FoamUserDocument, FileUserDuotone as FoamUserDocumentDuotone, FileUserFill as FoamUserDocumentFill, UserDuotone as FoamUserDuotone, UserFill as FoamUserFill, UserPlus as FoamUserPlus, UserPlusDuotone as FoamUserPlusDuotone, UserPlusFill as FoamUserPlusFill, SearchUser as FoamUserSearch, SearchUserDuotone as FoamUserSearchDuotone, SearchUserFill as FoamUserSearchFill, Users as FoamUsers, UsersDuotone as FoamUsersDuotone, UsersFill as FoamUsersFill, Play as FoamVideo, PlayDuotone as FoamVideoDuotone, PlayFill as FoamVideoFill, Eye as FoamView, EyeDuotone as FoamViewDuotone, EyeFill as FoamViewFill, Reach as FoamViews, ReachDuotone as FoamViewsDuotone, ReachFill as FoamViewsFill, Eye as FoamVisibility, EyeDuotone as FoamVisibilityDuotone, EyeFill as FoamVisibilityFill, Eye as FoamVisible, EyeDuotone as FoamVisibleDuotone, EyeFill as FoamVisibleFill, Volume2 as FoamVolume, Volume2 as FoamVolume2, Volume2Duotone as FoamVolume2Duotone, Volume2Fill as FoamVolume2Fill, Volume2Duotone as FoamVolumeDuotone, Volume2Fill as FoamVolumeFill, VolumeOff as FoamVolumeOff, VolumeOffDuotone as FoamVolumeOffDuotone, VolumeOffFill as FoamVolumeOffFill, Alert as FoamWarning, CircleAlert as FoamWarningCircle, CircleAlertDuotone as FoamWarningCircleDuotone, CircleAlertFill as FoamWarningCircleFill, AlertDuotone as FoamWarningDuotone, AlertFill as FoamWarningFill, Clock as FoamWatch, ClockDuotone as FoamWatchDuotone, ClockFill as FoamWatchFill, Globe as FoamWeb, GlobeDuotone as FoamWebDuotone, GlobeFill as FoamWebFill, ArrowLeft as FoamWest, ArrowLeftDuotone as FoamWestDuotone, ArrowLeftFill as FoamWestFill, Hotspot as FoamWifi, HotspotDuotone as FoamWifiDuotone, HotspotFill as FoamWifiFill, Hotspot as FoamWireless, HotspotDuotone as FoamWirelessDuotone, HotspotFill as FoamWirelessFill, Globe as FoamWorld, GlobeDuotone as FoamWorldDuotone, GlobeFill as FoamWorldFill, Pencil as FoamWrite, PencilDuotone as FoamWriteDuotone, PencilFill as FoamWriteFill, SquarePen as FoamWriteNew, SquarePenDuotone as FoamWriteNewDuotone, SquarePenFill as FoamWriteNewFill, CircleX as FoamX, CircleXDuotone as FoamXDuotone, CircleXFill as FoamXFill, ThumbsUp as FoamYes, ThumbsUpDuotone as FoamYesDuotone, ThumbsUpFill as FoamYesFill, ArrowDownYT as FoamYoutube, ArrowDownYTDuotone as FoamYoutubeDuotone, ArrowDownYTFill as FoamYoutubeFill, ArrowRightToLine as Fold, ArrowRightToLineDuotone as FoldDuotone, ArrowRightToLineDuotone as FoldDuotoneIcon, ArrowRightToLineFill as FoldFill, ArrowRightToLineFill as FoldFillIcon, ArrowRightToLine as FoldIcon, Ban as Forbidden, BanDuotone as ForbiddenDuotone, BanDuotone as ForbiddenDuotoneIcon, BanFill as ForbiddenFill, BanFill as ForbiddenFillIcon, Ban as ForbiddenIcon, Share as Forward, ShareDuotone as ForwardDuotone, ShareDuotone as ForwardDuotoneIcon, ShareFill as ForwardFill, ShareFill as ForwardFillIcon, Share as ForwardIcon, Frown, FrownDuotone, FrownDuotone as FrownDuotoneIcon, FrownFill, FrownFill as FrownFillIcon, Frown as FrownIcon, Fullscreen as FullScreen, FullscreenDuotone as FullScreenDuotone, FullscreenDuotone as FullScreenDuotoneIcon, FullscreenFill as FullScreenFill, FullscreenFill as FullScreenFillIcon, Fullscreen as FullScreenIcon, Fullscreen, FullscreenDuotone, FullscreenDuotone as FullscreenDuotoneIcon, FullscreenFill, FullscreenFill as FullscreenFillIcon, Fullscreen as FullscreenIcon, ListFilter as Funnel, ListFilterDuotone as FunnelDuotone, ListFilterDuotone as FunnelDuotoneIcon, ListFilterFill as FunnelFill, ListFilterFill as FunnelFillIcon, ListFilter as FunnelIcon, Images as Gallery, ImagesDuotone as GalleryDuotone, ImagesDuotone as GalleryDuotoneIcon, ImagesFill as GalleryFill, ImagesFill as GalleryFillIcon, Images as GalleryIcon, Trash as Garbage, TrashDuotone as GarbageDuotone, TrashDuotone as GarbageDuotoneIcon, TrashFill as GarbageFill, TrashFill as GarbageFillIcon, Trash as GarbageIcon, Cog as Gear, CogDuotone as GearDuotone, CogDuotone as GearDuotoneIcon, CogFill as GearFill, CogFill as GearFillIcon, Cog as GearIcon, Sparkles as Generate, SparklesDuotone as GenerateDuotone, SparklesDuotone as GenerateDuotoneIcon, SparklesFill as GenerateFill, SparklesFill as GenerateFillIcon, Sparkles as GenerateIcon, MapPin as Geo, MapPinDuotone as GeoDuotone, MapPinDuotone as GeoDuotoneIcon, MapPinFill as GeoFill, MapPinFill as GeoFillIcon, MapPin as GeoIcon, Download as Get, DownloadDuotone as GetDuotone, DownloadDuotone as GetDuotoneIcon, DownloadFill as GetFill, DownloadFill as GetFillIcon, Download as GetIcon, Globe, GlobeDuotone, GlobeDuotone as GlobeDuotoneIcon, GlobeFill, GlobeFill as GlobeFillIcon, Globe as GlobeIcon, ChartColumnSquare as Graph, ChartColumnSquareDuotone as GraphDuotone, ChartColumnSquareDuotone as GraphDuotoneIcon, ChartColumnSquareFill as GraphFill, ChartColumnSquareFill as GraphFillIcon, ChartColumnSquare as GraphIcon, Grid2x2 as Grid, Grid1x2, Grid1x2Duotone, Grid1x2Duotone as Grid1x2DuotoneIcon, Grid1x2Fill, Grid1x2Fill as Grid1x2FillIcon, Grid1x2 as Grid1x2Icon, Grid2x2, Grid2x2Duotone, Grid2x2Duotone as Grid2x2DuotoneIcon, Grid2x2Fill, Grid2x2Fill as Grid2x2FillIcon, Grid2x2 as Grid2x2Icon, Grid2x2Duotone as GridDuotone, Grid2x2Duotone as GridDuotoneIcon, Grid2x2Fill as GridFill, Grid2x2Fill as GridFillIcon, Grid2x2 as GridIcon, Grip, GripDuotone, GripDuotone as GripDuotoneIcon, GripFill, GripFill as GripFillIcon, GripHorizontal, GripHorizontalDuotone, GripHorizontalDuotone as GripHorizontalDuotoneIcon, GripHorizontalFill, GripHorizontalFill as GripHorizontalFillIcon, GripHorizontal as GripHorizontalIcon, Grip as GripIcon, GripVertical, GripVerticalDuotone, GripVerticalDuotone as GripVerticalDuotoneIcon, GripVerticalFill, GripVerticalFill as GripVerticalFillIcon, GripVertical as GripVerticalIcon, Users as Group, UsersDuotone as GroupDuotone, UsersDuotone as GroupDuotoneIcon, UsersFill as GroupFill, UsersFill as GroupFillIcon, Users as GroupIcon, TrendingUp as Growth, TrendingUpDuotone as GrowthDuotone, TrendingUpDuotone as GrowthDuotoneIcon, TrendingUpFill as GrowthFill, TrendingUpFill as GrowthFillIcon, TrendingUp as GrowthIcon, Eclipse as HalfMoon, EclipseDuotone as HalfMoonDuotone, EclipseDuotone as HalfMoonDuotoneIcon, EclipseFill as HalfMoonFill, EclipseFill as HalfMoonFillIcon, Eclipse as HalfMoonIcon, Menu as Hamburger, MenuDuotone as HamburgerDuotone, MenuDuotone as HamburgerDuotoneIcon, MenuFill as HamburgerFill, MenuFill as HamburgerFillIcon, Menu as HamburgerIcon, Smile as Happy, SmileDuotone as HappyDuotone, SmileDuotone as HappyDuotoneIcon, SmileFill as HappyFill, SmileFill as HappyFillIcon, Smile as HappyIcon, Heart, HeartDuotone, HeartDuotone as HeartDuotoneIcon, HeartFill, HeartFill as HeartFillIcon, Heart as HeartIcon, CircleQuestionMark as Help, CircleQuestionMarkDuotone as HelpDuotone, CircleQuestionMarkDuotone as HelpDuotoneIcon, CircleQuestionMarkFill as HelpFill, CircleQuestionMarkFill as HelpFillIcon, CircleQuestionMark as HelpIcon, EyeOff as Hidden, EyeOffDuotone as HiddenDuotone, EyeOffDuotone as HiddenDuotoneIcon, EyeOffFill as HiddenFill, EyeOffFill as HiddenFillIcon, EyeOff as HiddenIcon, EyeOff as Hide, EyeOffDuotone as HideDuotone, EyeOffDuotone as HideDuotoneIcon, EyeOffFill as HideFill, EyeOffFill as HideFillIcon, EyeOff as HideIcon, History, HistoryDuotone, HistoryDuotone as HistoryDuotoneIcon, HistoryFill, HistoryFill as HistoryFillIcon, History as HistoryIcon, House as Home, HouseDuotone as HomeDuotone, HouseDuotone as HomeDuotoneIcon, HouseFill as HomeFill, HouseFill as HomeFillIcon, House as HomeIcon, Rows2 as HorizontalSplit, Rows2Duotone as HorizontalSplitDuotone, Rows2Duotone as HorizontalSplitDuotoneIcon, Rows2Fill as HorizontalSplitFill, Rows2Fill as HorizontalSplitFillIcon, Rows2 as HorizontalSplitIcon, Flame as Hot, FlameDuotone as HotDuotone, FlameDuotone as HotDuotoneIcon, FlameFill as HotFill, FlameFill as HotFillIcon, Flame as HotIcon, Hotspot, HotspotDuotone, HotspotDuotone as HotspotDuotoneIcon, HotspotFill, HotspotFill as HotspotFillIcon, Hotspot as HotspotIcon, House, HouseDuotone, HouseDuotone as HouseDuotoneIcon, HouseFill, HouseFill as HouseFillIcon, House as HouseIcon, Icon, ArrowDownIG as IgDown, ArrowDownIGDuotone as IgDownDuotone, ArrowDownIGDuotone as IgDownDuotoneIcon, ArrowDownIGFill as IgDownFill, ArrowDownIGFill as IgDownFillIcon, ArrowDownIG as IgDownIcon, ArrowUpIG as IgUp, ArrowUpIGDuotone as IgUpDuotone, ArrowUpIGDuotone as IgUpDuotoneIcon, ArrowUpIGFill as IgUpFill, ArrowUpIGFill as IgUpFillIcon, ArrowUpIG as IgUpIcon, Image, ImageDuotone, ImageDuotone as ImageDuotoneIcon, ImageFill, ImageFill as ImageFillIcon, Image as ImageIcon, Images, ImagesDuotone, ImagesDuotone as ImagesDuotoneIcon, ImagesFill, ImagesFill as ImagesFillIcon, Images as ImagesIcon, Upload as Import, UploadDuotone as ImportDuotone, UploadDuotone as ImportDuotoneIcon, UploadFill as ImportFill, UploadFill as ImportFillIcon, Upload as ImportIcon, Reach as Impressions, ReachDuotone as ImpressionsDuotone, ReachDuotone as ImpressionsDuotoneIcon, ReachFill as ImpressionsFill, ReachFill as ImpressionsFillIcon, Reach as ImpressionsIcon, Inbox, InboxDuotone, InboxDuotone as InboxDuotoneIcon, InboxFill, InboxFill as InboxFillIcon, Inbox as InboxIcon, TrendingUp as Increase, TrendingUpDuotone as IncreaseDuotone, TrendingUpDuotone as IncreaseDuotoneIcon, TrendingUpFill as IncreaseFill, TrendingUpFill as IncreaseFillIcon, TrendingUp as IncreaseIcon, ArrowRightToLine as Indent, ArrowRightToLineDuotone as IndentDuotone, ArrowRightToLineDuotone as IndentDuotoneIcon, ArrowRightToLineFill as IndentFill, ArrowRightToLineFill as IndentFillIcon, ArrowRightToLine as IndentIcon, Info, InfoDuotone, InfoDuotone as InfoDuotoneIcon, InfoFill, InfoFill as InfoFillIcon, Info as InfoIcon, Info as Information, InfoDuotone as InformationDuotone, InfoDuotone as InformationDuotoneIcon, InfoFill as InformationFill, InfoFill as InformationFillIcon, Info as InformationIcon, ArrowDownIG as InstagramDown, ArrowDownIGDuotone as InstagramDownDuotone, ArrowDownIGDuotone as InstagramDownDuotoneIcon, ArrowDownIGFill as InstagramDownFill, ArrowDownIGFill as InstagramDownFillIcon, ArrowDownIG as InstagramDownIcon, ArrowUpIG as InstagramUp, ArrowUpIGDuotone as InstagramUpDuotone, ArrowUpIGDuotone as InstagramUpDuotoneIcon, ArrowUpIGFill as InstagramUpFill, ArrowUpIGFill as InstagramUpFillIcon, ArrowUpIG as InstagramUpIcon, Globe as Internet, GlobeDuotone as InternetDuotone, GlobeDuotone as InternetDuotoneIcon, GlobeFill as InternetFill, GlobeFill as InternetFillIcon, Globe as InternetIcon, EyeOff as Invisible, EyeOffDuotone as InvisibleDuotone, EyeOffDuotone as InvisibleDuotoneIcon, EyeOffFill as InvisibleFill, EyeOffFill as InvisibleFillIcon, EyeOff as InvisibleIcon, Italic, ItalicDuotone, ItalicDuotone as ItalicDuotoneIcon, ItalicFill, ItalicFill as ItalicFillIcon, Italic as ItalicIcon, List as Items, ListDuotone as ItemsDuotone, ListDuotone as ItemsDuotoneIcon, ListFill as ItemsFill, ListFill as ItemsFillIcon, List as ItemsIcon, TextAlignJustify as Justify, TextAlignJustifyDuotone as JustifyDuotone, TextAlignJustifyDuotone as JustifyDuotoneIcon, TextAlignJustifyFill as JustifyFill, TextAlignJustifyFill as JustifyFillIcon, TextAlignJustify as JustifyIcon, Command as Keyboard, CommandDuotone as KeyboardDuotone, CommandDuotone as KeyboardDuotoneIcon, CommandFill as KeyboardFill, CommandFill as KeyboardFillIcon, Command as KeyboardIcon, Globe as Language, GlobeDuotone as LanguageDuotone, GlobeDuotone as LanguageDuotoneIcon, GlobeFill as LanguageFill, GlobeFill as LanguageFillIcon, Globe as LanguageIcon, Grid2x2 as Layout, Grid2x2Duotone as LayoutDuotone, Grid2x2Duotone as LayoutDuotoneIcon, Grid2x2Fill as LayoutFill, Grid2x2Fill as LayoutFillIcon, Grid2x2 as LayoutIcon, ArrowLeft as Left, ArrowLeftDuotone as LeftDuotone, ArrowLeftDuotone as LeftDuotoneIcon, ArrowLeftFill as LeftFill, ArrowLeftFill as LeftFillIcon, ArrowLeft as LeftIcon, Sun as Light, SunDuotone as LightDuotone, SunDuotone as LightDuotoneIcon, SunFill as LightFill, SunFill as LightFillIcon, Sun as LightIcon, ThumbsUp as Like, ThumbsUpDuotone as LikeDuotone, ThumbsUpDuotone as LikeDuotoneIcon, ThumbsUpFill as LikeFill, ThumbsUpFill as LikeFillIcon, ThumbsUp as LikeIcon, Heart as Likes, HeartDuotone as LikesDuotone, HeartDuotone as LikesDuotoneIcon, HeartFill as LikesFill, HeartFill as LikesFillIcon, Heart as LikesIcon, Link, LinkDuotone, LinkDuotone as LinkDuotoneIcon, LinkFill, LinkFill as LinkFillIcon, Link as LinkIcon, List, ListDuotone, ListDuotone as ListDuotoneIcon, ListFill, ListFill as ListFillIcon, ListFilter, ListFilterDuotone, ListFilterDuotone as ListFilterDuotoneIcon, ListFilterFill, ListFilterFill as ListFilterFillIcon, ListFilter as ListFilterIcon, List as ListIcon, ListIndentDecrease, ListIndentDecreaseDuotone, ListIndentDecreaseDuotone as ListIndentDecreaseDuotoneIcon, ListIndentDecreaseFill, ListIndentDecreaseFill as ListIndentDecreaseFillIcon, ListIndentDecrease as ListIndentDecreaseIcon, ListIndentIncrease, ListIndentIncreaseDuotone, ListIndentIncreaseDuotone as ListIndentIncreaseDuotoneIcon, ListIndentIncreaseFill, ListIndentIncreaseFill as ListIndentIncreaseFillIcon, ListIndentIncrease as ListIndentIncreaseIcon, ListOrdered, ListOrderedDuotone, ListOrderedDuotone as ListOrderedDuotoneIcon, ListOrderedFill, ListOrderedFill as ListOrderedFillIcon, ListOrdered as ListOrderedIcon, LoaderCircle, LoaderCircleDuotone, LoaderCircleDuotone as LoaderCircleDuotoneIcon, LoaderCircleFill, LoaderCircleFill as LoaderCircleFillIcon, LoaderCircle as LoaderCircleIcon, LoaderCircle as Loading, LoaderCircleDuotone as LoadingDuotone, LoaderCircleDuotone as LoadingDuotoneIcon, LoaderCircleFill as LoadingFill, LoaderCircleFill as LoadingFillIcon, LoaderCircle as LoadingIcon, MapPin as Location, MapPinDuotone as LocationDuotone, MapPinDuotone as LocationDuotoneIcon, MapPinFill as LocationFill, MapPinFill as LocationFillIcon, MapPin as LocationIcon, Lock, LockDuotone, LockDuotone as LockDuotoneIcon, LockFill, LockFill as LockFillIcon, Lock as LockIcon, Lock as Locked, LockDuotone as LockedDuotone, LockDuotone as LockedDuotoneIcon, LockFill as LockedFill, LockFill as LockedFillIcon, Lock as LockedIcon, LogOut, LogOutDuotone, LogOutDuotone as LogOutDuotoneIcon, LogOutFill, LogOutFill as LogOutFillIcon, LogOut as LogOutIcon, LogoFacebook, LogoFacebookFill, LogoFacebookFill as LogoFacebookFillIcon, LogoFacebook as LogoFacebookIcon, LogoFile, LogoFileDark, LogoFileDark as LogoFileDarkIcon, LogoFile as LogoFileIcon, LogoFilePdf, LogoFilePdfDark, LogoFilePdfDark as LogoFilePdfDarkIcon, LogoFilePdf as LogoFilePdfIcon, LogoFileSheet, LogoFileSheetDark, LogoFileSheetDark as LogoFileSheetDarkIcon, LogoFileSheet as LogoFileSheetIcon, LogoFoam, LogoFoamDark, LogoFoamDark as LogoFoamDarkIcon, LogoFoamFill, LogoFoamFill as LogoFoamFillIcon, LogoFoam as LogoFoamIcon, LogoFoamSymbol, LogoFoamSymbolDark, LogoFoamSymbolDark as LogoFoamSymbolDarkIcon, LogoFoamSymbol as LogoFoamSymbolIcon, LogoGmail, LogoGmailFill, LogoGmailFill as LogoGmailFillIcon, LogoGmail as LogoGmailIcon, LogoGoogle, LogoGoogleFill, LogoGoogleFill as LogoGoogleFillIcon, LogoGoogle as LogoGoogleIcon, LogoInstagram, LogoInstagramDark, LogoInstagramDark as LogoInstagramDarkIcon, LogoInstagramFill, LogoInstagramFill as LogoInstagramFillIcon, LogoInstagram as LogoInstagramIcon, LogoLinkedin, LogoLinkedinDark, LogoLinkedinDark as LogoLinkedinDarkIcon, LogoLinkedinFill, LogoLinkedinFill as LogoLinkedinFillIcon, LogoLinkedin as LogoLinkedinIcon, LogoMicrosoft, LogoMicrosoftFill, LogoMicrosoftFill as LogoMicrosoftFillIcon, LogoMicrosoft as LogoMicrosoftIcon, LogoSnapchat, LogoSnapchatDark, LogoSnapchatDark as LogoSnapchatDarkIcon, LogoSnapchatFill, LogoSnapchatFill as LogoSnapchatFillIcon, LogoSnapchat as LogoSnapchatIcon, LogoTiktok, LogoTiktokDark, LogoTiktokDark as LogoTiktokDarkIcon, LogoTiktokFill, LogoTiktokFill as LogoTiktokFillIcon, LogoTiktok as LogoTiktokIcon, LogoYoutube, LogoYoutubeFill, LogoYoutubeFill as LogoYoutubeFillIcon, LogoYoutube as LogoYoutubeIcon, LogOut as Logout, LogOutDuotone as LogoutDuotone, LogOutDuotone as LogoutDuotoneIcon, LogOutFill as LogoutFill, LogOutFill as LogoutFillIcon, LogOut as LogoutIcon, Search as Lookup, SearchDuotone as LookupDuotone, SearchDuotone as LookupDuotoneIcon, SearchFill as LookupFill, SearchFill as LookupFillIcon, Search as LookupIcon, SearchUser as LookupPerson, SearchUserDuotone as LookupPersonDuotone, SearchUserDuotone as LookupPersonDuotoneIcon, SearchUserFill as LookupPersonFill, SearchUserFill as LookupPersonFillIcon, SearchUser as LookupPersonIcon, Heart as Love, HeartDuotone as LoveDuotone, HeartDuotone as LoveDuotoneIcon, HeartFill as LoveFill, HeartFill as LoveFillIcon, Heart as LoveIcon, Sparkles as Magic, SparklesDuotone as MagicDuotone, SparklesDuotone as MagicDuotoneIcon, SparklesFill as MagicFill, SparklesFill as MagicFillIcon, Sparkles as MagicIcon, Search as MagnifyingGlass, SearchDuotone as MagnifyingGlassDuotone, SearchDuotone as MagnifyingGlassDuotoneIcon, SearchFill as MagnifyingGlassFill, SearchFill as MagnifyingGlassFillIcon, Search as MagnifyingGlassIcon, Mail, MailDuotone, MailDuotone as MailDuotoneIcon, MailFill, MailFill as MailFillIcon, Mail as MailIcon, MailMove, MailMoveDuotone, MailMoveDuotone as MailMoveDuotoneIcon, MailMoveFill, MailMoveFill as MailMoveFillIcon, MailMove as MailMoveIcon, MailPlus, MailPlusDuotone, MailPlusDuotone as MailPlusDuotoneIcon, MailPlusFill, MailPlusFill as MailPlusFillIcon, MailPlus as MailPlusIcon, Inbox as Mailbox, InboxDuotone as MailboxDuotone, InboxDuotone as MailboxDuotoneIcon, InboxFill as MailboxFill, InboxFill as MailboxFillIcon, Inbox as MailboxIcon, MapPin, MapPinDuotone, MapPinDuotone as MapPinDuotoneIcon, MapPinFill, MapPinFill as MapPinFillIcon, MapPin as MapPinIcon, MapPin as Marker, MapPinDuotone as MarkerDuotone, MapPinDuotone as MarkerDuotoneIcon, MapPinFill as MarkerFill, MapPinFill as MarkerFillIcon, MapPin as MarkerIcon, Megaphone as Marketing, MegaphoneDuotone as MarketingDuotone, MegaphoneDuotone as MarketingDuotoneIcon, MegaphoneFill as MarketingFill, MegaphoneFill as MarketingFillIcon, Megaphone as MarketingIcon, Maximize, MaximizeDuotone, MaximizeDuotone as MaximizeDuotoneIcon, MaximizeFill, MaximizeFill as MaximizeFillIcon, Maximize as MaximizeIcon, Fullscreen as MaximizeScreen, FullscreenDuotone as MaximizeScreenDuotone, FullscreenDuotone as MaximizeScreenDuotoneIcon, FullscreenFill as MaximizeScreenFill, FullscreenFill as MaximizeScreenFillIcon, Fullscreen as MaximizeScreenIcon, Image as Media, ImageDuotone as MediaDuotone, ImageDuotone as MediaDuotoneIcon, ImageFill as MediaFill, ImageFill as MediaFillIcon, Image as MediaIcon, ContentUser as MediaPacks, ContentUserDuotone as MediaPacksDuotone, ContentUserDuotone as MediaPacksDuotoneIcon, ContentUserFill as MediaPacksFill, ContentUserFill as MediaPacksFillIcon, ContentUser as MediaPacksIcon, ContentUser as Mediapacks, ContentUserDuotone as MediapacksDuotone, ContentUserDuotone as MediapacksDuotoneIcon, ContentUserFill as MediapacksFill, ContentUserFill as MediapacksFillIcon, ContentUser as MediapacksIcon, Megaphone, MegaphoneActive, MegaphoneActiveDuotone, MegaphoneActiveDuotone as MegaphoneActiveDuotoneIcon, MegaphoneActiveFill, MegaphoneActiveFill as MegaphoneActiveFillIcon, MegaphoneActive as MegaphoneActiveIcon, MegaphoneDuotone, MegaphoneDuotone as MegaphoneDuotoneIcon, MegaphoneFill, MegaphoneFill as MegaphoneFillIcon, Megaphone as MegaphoneIcon, Menu, MenuDuotone, MenuDuotone as MenuDuotoneIcon, MenuFill, MenuFill as MenuFillIcon, Menu as MenuIcon, Mail as Message, MailDuotone as MessageDuotone, MailDuotone as MessageDuotoneIcon, MailFill as MessageFill, MailFill as MessageFillIcon, Mail as MessageIcon, MessageSquare, MessageSquareDuotone, MessageSquareDuotone as MessageSquareDuotoneIcon, MessageSquareFill, MessageSquareFill as MessageSquareFillIcon, MessageSquare as MessageSquareIcon, MessagesSquare, MessagesSquareDuotone, MessagesSquareDuotone as MessagesSquareDuotoneIcon, MessagesSquareFill, MessagesSquareFill as MessagesSquareFillIcon, MessagesSquare as MessagesSquareIcon, Minus, MinusDuotone, MinusDuotone as MinusDuotoneIcon, MinusFill, MinusFill as MinusFillIcon, Minus as MinusIcon, Pencil as Modify, PencilDuotone as ModifyDuotone, PencilDuotone as ModifyDuotoneIcon, PencilFill as ModifyFill, PencilFill as ModifyFillIcon, Pencil as ModifyIcon, CircleDollarSign as Money, CircleDollarSignDuotone as MoneyDuotone, CircleDollarSignDuotone as MoneyDuotoneIcon, CircleDollarSignFill as MoneyFill, CircleDollarSignFill as MoneyFillIcon, CircleDollarSign as MoneyIcon, Moon, MoonDuotone, MoonDuotone as MoonDuotoneIcon, MoonFill, MoonFill as MoonFillIcon, Moon as MoonIcon, MousePointerClick, MousePointerClickDuotone, MousePointerClickDuotone as MousePointerClickDuotoneIcon, MousePointerClickFill, MousePointerClickFill as MousePointerClickFillIcon, MousePointerClick as MousePointerClickIcon, Move, MoveDuotone, MoveDuotone as MoveDuotoneIcon, MoveFill, MoveFill as MoveFillIcon, Move as MoveIcon, VolumeOff as Mute, VolumeOffDuotone as MuteDuotone, VolumeOffDuotone as MuteDuotoneIcon, VolumeOffFill as MuteFill, VolumeOffFill as MuteFillIcon, VolumeOff as MuteIcon, Menu as Navigation, MenuDuotone as NavigationDuotone, MenuDuotone as NavigationDuotoneIcon, MenuFill as NavigationFill, MenuFill as NavigationFillIcon, Menu as NavigationIcon, Frown as Negative, FrownDuotone as NegativeDuotone, FrownDuotone as NegativeDuotoneIcon, FrownFill as NegativeFill, FrownFill as NegativeFillIcon, Frown as NegativeIcon, Plus as New, PlusDuotone as NewDuotone, PlusDuotone as NewDuotoneIcon, FilePlus as NewFile, FilePlusDuotone as NewFileDuotone, FilePlusDuotone as NewFileDuotoneIcon, FilePlusFill as NewFileFill, FilePlusFill as NewFileFillIcon, FilePlus as NewFileIcon, PlusFill as NewFill, PlusFill as NewFillIcon, Plus as NewIcon, ContentPlus as NewPost, ContentPlusDuotone as NewPostDuotone, ContentPlusDuotone as NewPostDuotoneIcon, ContentPlusFill as NewPostFill, ContentPlusFill as NewPostFillIcon, ContentPlus as NewPostIcon, ArrowRight as Next, ArrowRightDuotone as NextDuotone, ArrowRightDuotone as NextDuotoneIcon, ArrowRightFill as NextFill, ArrowRightFill as NextFillIcon, ArrowRight as NextIcon, Moon as Night, MoonDuotone as NightDuotone, MoonDuotone as NightDuotoneIcon, MoonFill as NightFill, MoonFill as NightFillIcon, Moon as NightIcon, ThumbsDown as No, ThumbsDownDuotone as NoDuotone, ThumbsDownDuotone as NoDuotoneIcon, ThumbsDownFill as NoFill, ThumbsDownFill as NoFillIcon, ThumbsDown as NoIcon, VolumeOff as NoSound, VolumeOffDuotone as NoSoundDuotone, VolumeOffDuotone as NoSoundDuotoneIcon, VolumeOffFill as NoSoundFill, VolumeOffFill as NoSoundFillIcon, VolumeOff as NoSoundIcon, ArrowUp as North, ArrowUpDuotone as NorthDuotone, ArrowUpDuotone as NorthDuotoneIcon, ArrowUpFill as NorthFill, ArrowUpFill as NorthFillIcon, ArrowUp as NorthIcon, Ban as NotAllowed, BanDuotone as NotAllowedDuotone, BanDuotone as NotAllowedDuotoneIcon, BanFill as NotAllowedFill, BanFill as NotAllowedFillIcon, Ban as NotAllowedIcon, Notebook, NotebookDuotone, NotebookDuotone as NotebookDuotoneIcon, NotebookFill, NotebookFill as NotebookFillIcon, Notebook as NotebookIcon, Bell as Notification, BellDuotone as NotificationDuotone, BellDuotone as NotificationDuotoneIcon, BellFill as NotificationFill, BellFill as NotificationFillIcon, Bell as NotificationIcon, ListOrdered as NumberedList, ListOrderedDuotone as NumberedListDuotone, ListOrderedDuotone as NumberedListDuotoneIcon, ListOrderedFill as NumberedListFill, ListOrderedFill as NumberedListFillIcon, ListOrdered as NumberedListIcon, Office, OfficeDuotone, OfficeDuotone as OfficeDuotoneIcon, OfficeFill, OfficeFill as OfficeFillIcon, Office as OfficeIcon, ListOrdered as Ol, ListOrderedDuotone as OlDuotone, ListOrderedDuotone as OlDuotoneIcon, ListOrderedFill as OlFill, ListOrderedFill as OlFillIcon, ListOrdered as OlIcon, ExternalLink as OpenNew, ExternalLinkDuotone as OpenNewDuotone, ExternalLinkDuotone as OpenNewDuotoneIcon, ExternalLinkFill as OpenNewFill, ExternalLinkFill as OpenNewFillIcon, ExternalLink as OpenNewIcon, QuotationMarkLeft as OpenQuote, QuotationMarkLeftDuotone as OpenQuoteDuotone, QuotationMarkLeftDuotone as OpenQuoteDuotoneIcon, QuotationMarkLeftFill as OpenQuoteFill, QuotationMarkLeftFill as OpenQuoteFillIcon, QuotationMarkLeft as OpenQuoteIcon, Cog as Options, CogDuotone as OptionsDuotone, CogDuotone as OptionsDuotoneIcon, CogFill as OptionsFill, CogFill as OptionsFillIcon, Cog as OptionsIcon, TriangleDownUp as OrderToggle, TriangleDownUpDuotone as OrderToggleDuotone, TriangleDownUpDuotone as OrderToggleDuotoneIcon, TriangleDownUpFill as OrderToggleFill, TriangleDownUpFill as OrderToggleFillIcon, TriangleDownUp as OrderToggleIcon, File as Page, FileDuotone as PageDuotone, FileDuotone as PageDuotoneIcon, FileFill as PageFill, FileFill as PageFillIcon, File as PageIcon, PanelLeft, PanelLeftDuotone, PanelLeftDuotone as PanelLeftDuotoneIcon, PanelLeftFill, PanelLeftFill as PanelLeftFillIcon, PanelLeft as PanelLeftIcon, PanelRight, PanelRightDuotone, PanelRightDuotone as PanelRightDuotoneIcon, PanelRightFill, PanelRightFill as PanelRightFillIcon, PanelRight as PanelRightIcon, History as Past, HistoryDuotone as PastDuotone, HistoryDuotone as PastDuotoneIcon, HistoryFill as PastFill, HistoryFill as PastFillIcon, History as PastIcon, CircleDollarSign as Payment, CircleDollarSignDuotone as PaymentDuotone, CircleDollarSignDuotone as PaymentDuotoneIcon, CircleDollarSignFill as PaymentFill, CircleDollarSignFill as PaymentFillIcon, CircleDollarSign as PaymentIcon, Pencil, PencilDuotone, PencilDuotone as PencilDuotoneIcon, PencilFill, PencilFill as PencilFillIcon, Pencil as PencilIcon, Users as People, UsersDuotone as PeopleDuotone, UsersDuotone as PeopleDuotoneIcon, UsersFill as PeopleFill, UsersFill as PeopleFillIcon, Users as PeopleIcon, User as Person, UserDuotone as PersonDuotone, UserDuotone as PersonDuotoneIcon, UserFill as PersonFill, UserFill as PersonFillIcon, User as PersonIcon, Users as Persons, UsersDuotone as PersonsDuotone, UsersDuotone as PersonsDuotoneIcon, UsersFill as PersonsFill, UsersFill as PersonsFillIcon, Users as PersonsIcon, Image as Photo, ImageDuotone as PhotoDuotone, ImageDuotone as PhotoDuotoneIcon, ImageFill as PhotoFill, ImageFill as PhotoFillIcon, Image as PhotoIcon, Images as Photos, ImagesDuotone as PhotosDuotone, ImagesDuotone as PhotosDuotoneIcon, ImagesFill as PhotosFill, ImagesFill as PhotosFillIcon, Images as PhotosIcon, Image as Picture, ImageDuotone as PictureDuotone, ImageDuotone as PictureDuotoneIcon, ImageFill as PictureFill, ImageFill as PictureFillIcon, Image as PictureIcon, Images as Pictures, ImagesDuotone as PicturesDuotone, ImagesDuotone as PicturesDuotoneIcon, ImagesFill as PicturesFill, ImagesFill as PicturesFillIcon, Images as PicturesIcon, Pin, PinDuotone, PinDuotone as PinDuotoneIcon, PinFill, PinFill as PinFillIcon, Pin as PinIcon, MapPin as Place, MapPinDuotone as PlaceDuotone, MapPinDuotone as PlaceDuotoneIcon, MapPinFill as PlaceFill, MapPinFill as PlaceFillIcon, MapPin as PlaceIcon, RemoveFormatting as PlainText, RemoveFormattingDuotone as PlainTextDuotone, RemoveFormattingDuotone as PlainTextDuotoneIcon, RemoveFormattingFill as PlainTextFill, RemoveFormattingFill as PlainTextFillIcon, RemoveFormatting as PlainTextIcon, Play, Play as PlayButton, PlayDuotone as PlayButtonDuotone, PlayDuotone as PlayButtonDuotoneIcon, PlayFill as PlayButtonFill, PlayFill as PlayButtonFillIcon, Play as PlayButtonIcon, PlayDuotone, PlayDuotone as PlayDuotoneIcon, PlayFill, PlayFill as PlayFillIcon, Play as PlayIcon, Plus, PlusDuotone, PlusDuotone as PlusDuotoneIcon, PlusFill, PlusFill as PlusFillIcon, Plus as PlusIcon, Pointer, PointerDuotone, PointerDuotone as PointerDuotoneIcon, PointerFill, PointerFill as PointerFillIcon, Pointer as PointerIcon, Smile as Positive, SmileDuotone as PositiveDuotone, SmileDuotone as PositiveDuotoneIcon, SmileFill as PositiveFill, SmileFill as PositiveFillIcon, Smile as PositiveIcon, Cog as Preferences, CogDuotone as PreferencesDuotone, CogDuotone as PreferencesDuotoneIcon, CogFill as PreferencesFill, CogFill as PreferencesFillIcon, Cog as PreferencesIcon, Save as Preserve, SaveDuotone as PreserveDuotone, SaveDuotone as PreserveDuotoneIcon, SaveFill as PreserveFill, SaveFill as PreserveFillIcon, Save as PreserveIcon, ContentUser as PressKit, ContentUserDuotone as PressKitDuotone, ContentUserDuotone as PressKitDuotoneIcon, ContentUserFill as PressKitFill, ContentUserFill as PressKitFillIcon, ContentUser as PressKitIcon, ArrowLeft as Previous, ArrowLeftDuotone as PreviousDuotone, ArrowLeftDuotone as PreviousDuotoneIcon, ArrowLeftFill as PreviousFill, ArrowLeftFill as PreviousFillIcon, ArrowLeft as PreviousIcon, CircleDollarSign as Price, CircleDollarSignDuotone as PriceDuotone, CircleDollarSignDuotone as PriceDuotoneIcon, CircleDollarSignFill as PriceFill, CircleDollarSignFill as PriceFillIcon, CircleDollarSign as PriceIcon, Lock as Private, LockDuotone as PrivateDuotone, LockDuotone as PrivateDuotoneIcon, LockFill as PrivateFill, LockFill as PrivateFillIcon, Lock as PrivateIcon, User as Profile, UserDuotone as ProfileDuotone, UserDuotone as ProfileDuotoneIcon, UserFill as ProfileFill, UserFill as ProfileFillIcon, User as ProfileIcon, LoaderCircle as Progress, LoaderCircleDuotone as ProgressDuotone, LoaderCircleDuotone as ProgressDuotoneIcon, LoaderCircleFill as ProgressFill, LoaderCircleFill as ProgressFillIcon, LoaderCircle as ProgressIcon, Ban as Prohibited, BanDuotone as ProhibitedDuotone, BanDuotone as ProhibitedDuotoneIcon, BanFill as ProhibitedFill, BanFill as ProhibitedFillIcon, Ban as ProhibitedIcon, Megaphone as Promote, MegaphoneDuotone as PromoteDuotone, MegaphoneDuotone as PromoteDuotoneIcon, MegaphoneFill as PromoteFill, MegaphoneFill as PromoteFillIcon, Megaphone as PromoteIcon, Lock as Protected, LockDuotone as ProtectedDuotone, LockDuotone as ProtectedDuotoneIcon, LockFill as ProtectedFill, LockFill as ProtectedFillIcon, Lock as ProtectedIcon, Unlock as Public, UnlockDuotone as PublicDuotone, UnlockDuotone as PublicDuotoneIcon, UnlockFill as PublicFill, UnlockFill as PublicFillIcon, Unlock as PublicIcon, Search as Query, SearchDuotone as QueryDuotone, SearchDuotone as QueryDuotoneIcon, SearchFill as QueryFill, SearchFill as QueryFillIcon, Search as QueryIcon, CircleQuestionMark as Question, CircleQuestionMarkDuotone as QuestionDuotone, CircleQuestionMarkDuotone as QuestionDuotoneIcon, CircleQuestionMarkFill as QuestionFill, CircleQuestionMarkFill as QuestionFillIcon, CircleQuestionMark as QuestionIcon, QuotationMarkLeft, QuotationMarkLeftDuotone, QuotationMarkLeftDuotone as QuotationMarkLeftDuotoneIcon, QuotationMarkLeftFill, QuotationMarkLeftFill as QuotationMarkLeftFillIcon, QuotationMarkLeft as QuotationMarkLeftIcon, QuotationMarkRight, QuotationMarkRightDuotone, QuotationMarkRightDuotone as QuotationMarkRightDuotoneIcon, QuotationMarkRightFill, QuotationMarkRightFill as QuotationMarkRightFillIcon, QuotationMarkRight as QuotationMarkRightIcon, QuotationMarkLeft as QuoteLeft, QuotationMarkLeftDuotone as QuoteLeftDuotone, QuotationMarkLeftDuotone as QuoteLeftDuotoneIcon, QuotationMarkLeftFill as QuoteLeftFill, QuotationMarkLeftFill as QuoteLeftFillIcon, QuotationMarkLeft as QuoteLeftIcon, QuotationMarkRight as QuoteRight, QuotationMarkRightDuotone as QuoteRightDuotone, QuotationMarkRightDuotone as QuoteRightDuotoneIcon, QuotationMarkRightFill as QuoteRightFill, QuotationMarkRightFill as QuoteRightFillIcon, QuotationMarkRight as QuoteRightIcon, Star as Rating, StarDuotone as RatingDuotone, StarDuotone as RatingDuotoneIcon, StarFill as RatingFill, StarFill as RatingFillIcon, Star as RatingIcon, Reach, ReachDuotone, ReachDuotone as ReachDuotoneIcon, ReachFill, ReachFill as ReachFillIcon, Reach as ReachIcon, History as Recent, HistoryDuotone as RecentDuotone, HistoryDuotone as RecentDuotoneIcon, HistoryFill as RecentFill, HistoryFill as RecentFillIcon, History as RecentIcon, RotateCw as Redo, RotateCwDuotone as RedoDuotone, RotateCwDuotone as RedoDuotoneIcon, RotateCwFill as RedoFill, RotateCwFill as RedoFillIcon, RotateCw as RedoIcon, Minus as Reduce, MinusDuotone as ReduceDuotone, MinusDuotone as ReduceDuotoneIcon, MinusFill as ReduceFill, MinusFill as ReduceFillIcon, Minus as ReduceIcon, Reel, ReelDuotone, ReelDuotone as ReelDuotoneIcon, ReelFill, ReelFill as ReelFillIcon, Reel as ReelIcon, RefreshCw as Refresh, RefreshCw, RefreshCwDuotone, RefreshCwDuotone as RefreshCwDuotoneIcon, RefreshCwFill, RefreshCwFill as RefreshCwFillIcon, RefreshCw as RefreshCwIcon, RefreshCwDuotone as RefreshDuotone, RefreshCwDuotone as RefreshDuotoneIcon, RefreshCwFill as RefreshFill, RefreshCwFill as RefreshFillIcon, RefreshCw as RefreshIcon, RefreshCw as Reload, RefreshCwDuotone as ReloadDuotone, RefreshCwDuotone as ReloadDuotoneIcon, RefreshCwFill as ReloadFill, RefreshCwFill as ReloadFillIcon, RefreshCw as ReloadIcon, Trash as Remove, TrashDuotone as RemoveDuotone, TrashDuotone as RemoveDuotoneIcon, TrashFill as RemoveFill, TrashFill as RemoveFillIcon, RemoveFormatting, RemoveFormattingDuotone, RemoveFormattingDuotone as RemoveFormattingDuotoneIcon, RemoveFormattingFill, RemoveFormattingFill as RemoveFormattingFillIcon, RemoveFormatting as RemoveFormattingIcon, Trash as RemoveIcon, ArrowDownUp as Reorder, ArrowDownUpDuotone as ReorderDuotone, ArrowDownUpDuotone as ReorderDuotoneIcon, ArrowDownUpFill as ReorderFill, ArrowDownUpFill as ReorderFillIcon, ArrowDownUp as ReorderIcon, Reply, ReplyDuotone, ReplyDuotone as ReplyDuotoneIcon, ReplyFill, ReplyFill as ReplyFillIcon, Reply as ReplyIcon, Move as Reposition, MoveDuotone as RepositionDuotone, MoveDuotone as RepositionDuotoneIcon, MoveFill as RepositionFill, MoveFill as RepositionFillIcon, Move as RepositionIcon, Reply as Respond, ReplyDuotone as RespondDuotone, ReplyDuotone as RespondDuotoneIcon, ReplyFill as RespondFill, ReplyFill as RespondFillIcon, Reply as RespondIcon, ArrowRight as Right, ArrowRightDuotone as RightDuotone, ArrowRightDuotone as RightDuotoneIcon, ArrowRightFill as RightFill, ArrowRightFill as RightFillIcon, ArrowRight as RightIcon, TrendingUp as Rising, TrendingUpDuotone as RisingDuotone, TrendingUpDuotone as RisingDuotoneIcon, TrendingUpFill as RisingFill, TrendingUpFill as RisingFillIcon, TrendingUp as RisingIcon, Rolodex, RolodexDuotone, RolodexDuotone as RolodexDuotoneIcon, RolodexFill, RolodexFill as RolodexFillIcon, Rolodex as RolodexIcon, RotateCw as Rotate, RotateCw, RotateCwDuotone, RotateCwDuotone as RotateCwDuotoneIcon, RotateCwFill, RotateCwFill as RotateCwFillIcon, RotateCw as RotateCwIcon, RotateCwDuotone as RotateDuotone, RotateCwDuotone as RotateDuotoneIcon, RotateCwFill as RotateFill, RotateCwFill as RotateFillIcon, RotateCw as RotateIcon, Rows2 as Rows, Rows2, Rows2Duotone, Rows2Duotone as Rows2DuotoneIcon, Rows2Fill, Rows2Fill as Rows2FillIcon, Rows2 as Rows2Icon, Rows2Duotone as RowsDuotone, Rows2Duotone as RowsDuotoneIcon, Rows2Fill as RowsFill, Rows2Fill as RowsFillIcon, Rows2 as RowsIcon, Frown as Sad, FrownDuotone as SadDuotone, FrownDuotone as SadDuotoneIcon, FrownFill as SadFill, FrownFill as SadFillIcon, Frown as SadIcon, Save, SaveDuotone, SaveDuotone as SaveDuotoneIcon, SaveFill, SaveFill as SaveFillIcon, Save as SaveIcon, Bookmark as Saved, BookmarkDuotone as SavedDuotone, BookmarkDuotone as SavedDuotoneIcon, BookmarkFill as SavedFill, BookmarkFill as SavedFillIcon, Bookmark as SavedIcon, Calendar as Schedule, CalendarDuotone as ScheduleDuotone, CalendarDuotone as ScheduleDuotoneIcon, CalendarFill as ScheduleFill, CalendarFill as ScheduleFillIcon, Calendar as ScheduleIcon, Search, SearchDuotone, SearchDuotone as SearchDuotoneIcon, SearchFill, SearchFill as SearchFillIcon, Search as SearchIcon, SearchUser as SearchPerson, SearchUserDuotone as SearchPersonDuotone, SearchUserDuotone as SearchPersonDuotoneIcon, SearchUserFill as SearchPersonFill, SearchUserFill as SearchPersonFillIcon, SearchUser as SearchPersonIcon, SearchUser, SearchUserDuotone, SearchUserDuotone as SearchUserDuotoneIcon, SearchUserFill, SearchUserFill as SearchUserFillIcon, SearchUser as SearchUserIcon, Lock as Secure, LockDuotone as SecureDuotone, LockDuotone as SecureDuotoneIcon, LockFill as SecureFill, LockFill as SecureFillIcon, Lock as SecureIcon, Upload as Send, UploadDuotone as SendDuotone, UploadDuotone as SendDuotoneIcon, UploadFill as SendFill, UploadFill as SendFillIcon, Upload as SendIcon, Cog as Settings, CogDuotone as SettingsDuotone, CogDuotone as SettingsDuotoneIcon, CogFill as SettingsFill, CogFill as SettingsFillIcon, Cog as SettingsIcon, Share, ShareDuotone, ShareDuotone as ShareDuotoneIcon, ShareFill, ShareFill as ShareFillIcon, Share as ShareIcon, Share as ShareLink, ShareDuotone as ShareLinkDuotone, ShareDuotone as ShareLinkDuotoneIcon, ShareFill as ShareLinkFill, ShareFill as ShareLinkFillIcon, Share as ShareLinkIcon, Sparkles as Shine, SparklesDuotone as ShineDuotone, SparklesDuotone as ShineDuotoneIcon, SparklesFill as ShineFill, SparklesFill as ShineFillIcon, Sparkles as ShineIcon, Reel as Short, ReelDuotone as ShortDuotone, ReelDuotone as ShortDuotoneIcon, ReelFill as ShortFill, ReelFill as ShortFillIcon, Reel as ShortIcon, Reel as ShortVideo, ReelDuotone as ShortVideoDuotone, ReelDuotone as ShortVideoDuotoneIcon, ReelFill as ShortVideoFill, ReelFill as ShortVideoFillIcon, Reel as ShortVideoIcon, Command as Shortcut, CommandDuotone as ShortcutDuotone, CommandDuotone as ShortcutDuotoneIcon, CommandFill as ShortcutFill, CommandFill as ShortcutFillIcon, Command as ShortcutIcon, Eye as Show, EyeDuotone as ShowDuotone, EyeDuotone as ShowDuotoneIcon, EyeFill as ShowFill, EyeFill as ShowFillIcon, Eye as ShowIcon, PanelLeft as SidebarLeft, PanelLeftDuotone as SidebarLeftDuotone, PanelLeftDuotone as SidebarLeftDuotoneIcon, PanelLeftFill as SidebarLeftFill, PanelLeftFill as SidebarLeftFillIcon, PanelLeft as SidebarLeftIcon, PanelRight as SidebarRight, PanelRightDuotone as SidebarRightDuotone, PanelRightDuotone as SidebarRightDuotoneIcon, PanelRightFill as SidebarRightFill, PanelRightFill as SidebarRightFillIcon, PanelRight as SidebarRightIcon, LogOut as SignOut, LogOutDuotone as SignOutDuotone, LogOutDuotone as SignOutDuotoneIcon, LogOutFill as SignOutFill, LogOutFill as SignOutFillIcon, LogOut as SignOutIcon, Hotspot as Signal, HotspotDuotone as SignalDuotone, HotspotDuotone as SignalDuotoneIcon, HotspotFill as SignalFill, HotspotFill as SignalFillIcon, Hotspot as SignalIcon, LogOut as Signout, LogOutDuotone as SignoutDuotone, LogOutDuotone as SignoutDuotoneIcon, LogOutFill as SignoutFill, LogOutFill as SignoutFillIcon, LogOut as SignoutIcon, VolumeOff as Silent, VolumeOffDuotone as SilentDuotone, VolumeOffDuotone as SilentDuotoneIcon, VolumeOffFill as SilentFill, VolumeOffFill as SilentFillIcon, VolumeOff as SilentIcon, SlidersHorizontal, SlidersHorizontalDuotone, SlidersHorizontalDuotone as SlidersHorizontalDuotoneIcon, SlidersHorizontalFill, SlidersHorizontalFill as SlidersHorizontalFillIcon, SlidersHorizontal as SlidersHorizontalIcon, Smile, SmileDuotone, SmileDuotone as SmileDuotoneIcon, SmileFill, SmileFill as SmileFillIcon, Smile as SmileIcon, Smile as Smiley, SmileDuotone as SmileyDuotone, SmileDuotone as SmileyDuotoneIcon, SmileFill as SmileyFill, SmileFill as SmileyFillIcon, Smile as SmileyIcon, ArrowDownSC as Snapchat, ArrowDownSCDuotone as SnapchatDuotone, ArrowDownSCDuotone as SnapchatDuotoneIcon, ArrowDownSCFill as SnapchatFill, ArrowDownSCFill as SnapchatFillIcon, ArrowDownSC as SnapchatIcon, ArrowDownUp as Sort, ArrowUpAZ as SortAZ, ArrowUpAZDuotone as SortAZDuotone, ArrowUpAZDuotone as SortAZDuotoneIcon, ArrowUpAZFill as SortAZFill, ArrowUpAZFill as SortAZFillIcon, ArrowUpAZ as SortAZIcon, ArrowUpAZ as SortAlphaAsc, ArrowUpAZDuotone as SortAlphaAscDuotone, ArrowUpAZDuotone as SortAlphaAscDuotoneIcon, ArrowUpAZFill as SortAlphaAscFill, ArrowUpAZFill as SortAlphaAscFillIcon, ArrowUpAZ as SortAlphaAscIcon, ArrowUpZA as SortAlphaDesc, ArrowUpZADuotone as SortAlphaDescDuotone, ArrowUpZADuotone as SortAlphaDescDuotoneIcon, ArrowUpZAFill as SortAlphaDescFill, ArrowUpZAFill as SortAlphaDescFillIcon, ArrowUpZA as SortAlphaDescIcon, ArrowDownNarrowWide as SortAsc, ArrowUpNarrowWide as SortAscAlt, ArrowUpNarrowWideDuotone as SortAscAltDuotone, ArrowUpNarrowWideDuotone as SortAscAltDuotoneIcon, ArrowUpNarrowWideFill as SortAscAltFill, ArrowUpNarrowWideFill as SortAscAltFillIcon, ArrowUpNarrowWide as SortAscAltIcon, ArrowDownNarrowWideDuotone as SortAscDuotone, ArrowDownNarrowWideDuotone as SortAscDuotoneIcon, ArrowDownNarrowWideFill as SortAscFill, ArrowDownNarrowWideFill as SortAscFillIcon, ArrowDownNarrowWide as SortAscIcon, ArrowDownNarrowWide as SortAscending, ArrowDownNarrowWideDuotone as SortAscendingDuotone, ArrowDownNarrowWideDuotone as SortAscendingDuotoneIcon, ArrowDownNarrowWideFill as SortAscendingFill, ArrowDownNarrowWideFill as SortAscendingFillIcon, ArrowDownNarrowWide as SortAscendingIcon, ArrowUpWideNarrow as SortDesc, ArrowDownWideNarrow as SortDescAlt, ArrowDownWideNarrowDuotone as SortDescAltDuotone, ArrowDownWideNarrowDuotone as SortDescAltDuotoneIcon, ArrowDownWideNarrowFill as SortDescAltFill, ArrowDownWideNarrowFill as SortDescAltFillIcon, ArrowDownWideNarrow as SortDescAltIcon, ArrowUpWideNarrowDuotone as SortDescDuotone, ArrowUpWideNarrowDuotone as SortDescDuotoneIcon, ArrowUpWideNarrowFill as SortDescFill, ArrowUpWideNarrowFill as SortDescFillIcon, ArrowUpWideNarrow as SortDescIcon, ArrowUpWideNarrow as SortDescending, ArrowUpWideNarrowDuotone as SortDescendingDuotone, ArrowUpWideNarrowDuotone as SortDescendingDuotoneIcon, ArrowUpWideNarrowFill as SortDescendingFill, ArrowUpWideNarrowFill as SortDescendingFillIcon, ArrowUpWideNarrow as SortDescendingIcon, ArrowDownUpDuotone as SortDuotone, ArrowDownUpDuotone as SortDuotoneIcon, ArrowDownUpFill as SortFill, ArrowDownUpFill as SortFillIcon, ArrowDownUp as SortIcon, ArrowDown01 as SortNumeric, ArrowDown01Duotone as SortNumericDuotone, ArrowDown01Duotone as SortNumericDuotoneIcon, ArrowDown01Fill as SortNumericFill, ArrowDown01Fill as SortNumericFillIcon, ArrowDown01 as SortNumericIcon, TriangleDownUp as SortToggle, TriangleDownUpDuotone as SortToggleDuotone, TriangleDownUpDuotone as SortToggleDuotoneIcon, TriangleDownUpFill as SortToggleFill, TriangleDownUpFill as SortToggleFillIcon, TriangleDownUp as SortToggleIcon, ArrowUpZA as SortZA, ArrowUpZADuotone as SortZADuotone, ArrowUpZADuotone as SortZADuotoneIcon, ArrowUpZAFill as SortZAFill, ArrowUpZAFill as SortZAFillIcon, ArrowUpZA as SortZAIcon, Volume2 as Sound, Volume2Duotone as SoundDuotone, Volume2Duotone as SoundDuotoneIcon, Volume2Fill as SoundFill, Volume2Fill as SoundFillIcon, Volume2 as SoundIcon, ArrowDown as South, ArrowDownDuotone as SouthDuotone, ArrowDownDuotone as SouthDuotoneIcon, ArrowDownFill as SouthFill, ArrowDownFill as SouthFillIcon, ArrowDown as SouthIcon, Sparkles, SparklesDuotone, SparklesDuotone as SparklesDuotoneIcon, SparklesFill, SparklesFill as SparklesFillIcon, Sparkles as SparklesIcon, Volume2 as Speaker, Volume2Duotone as SpeakerDuotone, Volume2Duotone as SpeakerDuotoneIcon, Volume2Fill as SpeakerFill, Volume2Fill as SpeakerFillIcon, Volume2 as SpeakerIcon, VolumeOff as SpeakerOff, VolumeOffDuotone as SpeakerOffDuotone, VolumeOffDuotone as SpeakerOffDuotoneIcon, VolumeOffFill as SpeakerOffFill, VolumeOffFill as SpeakerOffFillIcon, VolumeOff as SpeakerOffIcon, LoaderCircle as Spinner, LoaderCircleDuotone as SpinnerDuotone, LoaderCircleDuotone as SpinnerDuotoneIcon, LoaderCircleFill as SpinnerFill, LoaderCircleFill as SpinnerFillIcon, LoaderCircle as SpinnerIcon, Square, SquareDuotone, SquareDuotone as SquareDuotoneIcon, SquareFill, SquareFill as SquareFillIcon, Square as SquareIcon, SquarePen, SquarePenDuotone, SquarePenDuotone as SquarePenDuotoneIcon, SquarePenFill, SquarePenFill as SquarePenFillIcon, SquarePen as SquarePenIcon, Star, StarDuotone, StarDuotone as StarDuotoneIcon, StarFill, StarFill as StarFillIcon, Star as StarIcon, Play as Start, PlayDuotone as StartDuotone, PlayDuotone as StartDuotoneIcon, PlayFill as StartFill, PlayFill as StartFillIcon, Play as StartIcon, ChartColumnSquare as Stats, ChartColumnSquareDuotone as StatsDuotone, ChartColumnSquareDuotone as StatsDuotoneIcon, ChartColumnSquareFill as StatsFill, ChartColumnSquareFill as StatsFillIcon, ChartColumnSquare as StatsIcon, Pin as Stick, PinDuotone as StickDuotone, PinDuotone as StickDuotoneIcon, PinFill as StickFill, PinFill as StickFillIcon, Pin as StickIcon, Square as Stop, SquareDuotone as StopDuotone, SquareDuotone as StopDuotoneIcon, SquareFill as StopFill, SquareFill as StopFillIcon, Square as StopIcon, Archive as Storage, ArchiveDuotone as StorageDuotone, ArchiveDuotone as StorageDuotoneIcon, ArchiveFill as StorageFill, ArchiveFill as StorageFillIcon, Archive as StorageIcon, Bold as Strong, BoldDuotone as StrongDuotone, BoldDuotone as StrongDuotoneIcon, BoldFill as StrongFill, BoldFill as StrongFillIcon, Bold as StrongIcon, Minus as Subtract, MinusDuotone as SubtractDuotone, MinusDuotone as SubtractDuotoneIcon, MinusFill as SubtractFill, MinusFill as SubtractFillIcon, Minus as SubtractIcon, Checkmark as Success, CheckmarkDuotone as SuccessDuotone, CheckmarkDuotone as SuccessDuotoneIcon, CheckmarkFill as SuccessFill, CheckmarkFill as SuccessFillIcon, Checkmark as SuccessIcon, Sun, SunDuotone, SunDuotone as SunDuotoneIcon, SunFill, SunFill as SunFillIcon, Sun as SunIcon, CircleQuestionMark as Support, CircleQuestionMarkDuotone as SupportDuotone, CircleQuestionMarkDuotone as SupportDuotoneIcon, CircleQuestionMarkFill as SupportFill, CircleQuestionMarkFill as SupportFillIcon, CircleQuestionMark as SupportIcon, ArrowDownUp as Swap, ArrowDownUpDuotone as SwapDuotone, ArrowDownUpDuotone as SwapDuotoneIcon, ArrowDownUpFill as SwapFill, ArrowDownUpFill as SwapFillIcon, ArrowDownUp as SwapIcon, RefreshCw as Sync, RefreshCwDuotone as SyncDuotone, RefreshCwDuotone as SyncDuotoneIcon, RefreshCwFill as SyncFill, RefreshCwFill as SyncFillIcon, RefreshCw as SyncIcon, Pin as Tack, PinDuotone as TackDuotone, PinDuotone as TackDuotoneIcon, PinFill as TackFill, PinFill as TackFillIcon, Pin as TackIcon, Checkbox as Task, CheckboxDuotone as TaskDuotone, CheckboxDuotone as TaskDuotoneIcon, CheckboxFill as TaskFill, CheckboxFill as TaskFillIcon, Checkbox as TaskIcon, Users as Team, UsersDuotone as TeamDuotone, UsersDuotone as TeamDuotoneIcon, UsersFill as TeamFill, UsersFill as TeamFillIcon, Users as TeamIcon, TextAlignCenter, TextAlignCenterDuotone, TextAlignCenterDuotone as TextAlignCenterDuotoneIcon, TextAlignCenterFill, TextAlignCenterFill as TextAlignCenterFillIcon, TextAlignCenter as TextAlignCenterIcon, TextAlignEnd, TextAlignEndDuotone, TextAlignEndDuotone as TextAlignEndDuotoneIcon, TextAlignEndFill, TextAlignEndFill as TextAlignEndFillIcon, TextAlignEnd as TextAlignEndIcon, TextAlignJustify, TextAlignJustifyDuotone, TextAlignJustifyDuotone as TextAlignJustifyDuotoneIcon, TextAlignJustifyFill, TextAlignJustifyFill as TextAlignJustifyFillIcon, TextAlignJustify as TextAlignJustifyIcon, TextAlignStart, TextAlignStartDuotone, TextAlignStartDuotone as TextAlignStartDuotoneIcon, TextAlignStartFill, TextAlignStartFill as TextAlignStartFillIcon, TextAlignStart as TextAlignStartIcon, Bold as TextBold, BoldDuotone as TextBoldDuotone, BoldDuotone as TextBoldDuotoneIcon, BoldFill as TextBoldFill, BoldFill as TextBoldFillIcon, Bold as TextBoldIcon, Italic as TextItalic, ItalicDuotone as TextItalicDuotone, ItalicDuotone as TextItalicDuotoneIcon, ItalicFill as TextItalicFill, ItalicFill as TextItalicFillIcon, Italic as TextItalicIcon, Columns3 as ThreeColumns, Columns3Duotone as ThreeColumnsDuotone, Columns3Duotone as ThreeColumnsDuotoneIcon, Columns3Fill as ThreeColumnsFill, Columns3Fill as ThreeColumnsFillIcon, Columns3 as ThreeColumnsIcon, ThumbsDown, ThumbsDownDuotone, ThumbsDownDuotone as ThumbsDownDuotoneIcon, ThumbsDownFill, ThumbsDownFill as ThumbsDownFillIcon, ThumbsDown as ThumbsDownIcon, ThumbsUp, ThumbsUpDuotone, ThumbsUpDuotone as ThumbsUpDuotoneIcon, ThumbsUpFill, ThumbsUpFill as ThumbsUpFillIcon, ThumbsUp as ThumbsUpIcon, Pin as Thumbtack, PinDuotone as ThumbtackDuotone, PinDuotone as ThumbtackDuotoneIcon, PinFill as ThumbtackFill, PinFill as ThumbtackFillIcon, Pin as ThumbtackIcon, Checkmark as Tick, CheckmarkDuotone as TickDuotone, CheckmarkDuotone as TickDuotoneIcon, CheckmarkFill as TickFill, CheckmarkFill as TickFillIcon, Checkmark as TickIcon, ArrowDownTT as Tiktok, ArrowDownTTDuotone as TiktokDuotone, ArrowDownTTDuotone as TiktokDuotoneIcon, ArrowDownTTFill as TiktokFill, ArrowDownTTFill as TiktokFillIcon, ArrowDownTT as TiktokIcon, Grid2x2 as Tiles, Grid2x2Duotone as TilesDuotone, Grid2x2Duotone as TilesDuotoneIcon, Grid2x2Fill as TilesFill, Grid2x2Fill as TilesFillIcon, Grid2x2 as TilesIcon, Clock as Time, ClockDuotone as TimeDuotone, ClockDuotone as TimeDuotoneIcon, ClockFill as TimeFill, ClockFill as TimeFillIcon, Clock as TimeIcon, CircleX as Times, CircleXDuotone as TimesDuotone, CircleXDuotone as TimesDuotoneIcon, CircleXFill as TimesFill, CircleXFill as TimesFillIcon, CircleX as TimesIcon, Trash, TrashDuotone, TrashDuotone as TrashDuotoneIcon, TrashEmpty, TrashEmptyDuotone, TrashEmptyDuotone as TrashEmptyDuotoneIcon, TrashEmptyFill, TrashEmptyFill as TrashEmptyFillIcon, TrashEmpty as TrashEmptyIcon, TrashFill, TrashFill as TrashFillIcon, Trash as TrashIcon, Inbox as Tray, InboxDuotone as TrayDuotone, InboxDuotone as TrayDuotoneIcon, InboxFill as TrayFill, InboxFill as TrayFillIcon, Inbox as TrayIcon, Flame as Trending, TrendingDown, TrendingDownDuotone, TrendingDownDuotone as TrendingDownDuotoneIcon, TrendingDownFill, TrendingDownFill as TrendingDownFillIcon, TrendingDown as TrendingDownIcon, FlameDuotone as TrendingDuotone, FlameDuotone as TrendingDuotoneIcon, FlameFill as TrendingFill, FlameFill as TrendingFillIcon, Flame as TrendingIcon, TrendingUp, TrendingUpDuotone, TrendingUpDuotone as TrendingUpDuotoneIcon, TrendingUpFill, TrendingUpFill as TrendingUpFillIcon, TrendingUp as TrendingUpIcon, TriangleDown, TriangleDownDuotone, TriangleDownDuotone as TriangleDownDuotoneIcon, TriangleDownFill, TriangleDownFill as TriangleDownFillIcon, TriangleDown as TriangleDownIcon, TriangleDownUp, TriangleDownUpDuotone, TriangleDownUpDuotone as TriangleDownUpDuotoneIcon, TriangleDownUpFill, TriangleDownUpFill as TriangleDownUpFillIcon, TriangleDownUp as TriangleDownUpIcon, TriangleUp, TriangleUpDuotone, TriangleUpDuotone as TriangleUpDuotoneIcon, TriangleUpFill, TriangleUpFill as TriangleUpFillIcon, TriangleUp as TriangleUpIcon, RotateCw as Turn, RotateCwDuotone as TurnDuotone, RotateCwDuotone as TurnDuotoneIcon, RotateCwFill as TurnFill, RotateCwFill as TurnFillIcon, RotateCw as TurnIcon, History as Undo, HistoryDuotone as UndoDuotone, HistoryDuotone as UndoDuotoneIcon, HistoryFill as UndoFill, HistoryFill as UndoFillIcon, History as UndoIcon, Frown as Unhappy, FrownDuotone as UnhappyDuotone, FrownDuotone as UnhappyDuotoneIcon, FrownFill as UnhappyFill, FrownFill as UnhappyFillIcon, Frown as UnhappyIcon, Unlink, UnlinkDuotone, UnlinkDuotone as UnlinkDuotoneIcon, UnlinkFill, UnlinkFill as UnlinkFillIcon, Unlink as UnlinkIcon, Unlock, UnlockDuotone, UnlockDuotone as UnlockDuotoneIcon, UnlockFill, UnlockFill as UnlockFillIcon, Unlock as UnlockIcon, Unlock as Unlocked, UnlockDuotone as UnlockedDuotone, UnlockDuotone as UnlockedDuotoneIcon, UnlockFill as UnlockedFill, UnlockFill as UnlockedFillIcon, Unlock as UnlockedIcon, Unlock as Unsecure, UnlockDuotone as UnsecureDuotone, UnlockDuotone as UnsecureDuotoneIcon, UnlockFill as UnsecureFill, UnlockFill as UnsecureFillIcon, Unlock as UnsecureIcon, ArrowUp as Up, ArrowUpDuotone as UpDuotone, ArrowUpDuotone as UpDuotoneIcon, ArrowUpFill as UpFill, ArrowUpFill as UpFillIcon, ArrowUp as UpIcon, Upload, UploadDuotone, UploadDuotone as UploadDuotoneIcon, FileArrowUp as UploadFile, FileArrowUpDuotone as UploadFileDuotone, FileArrowUpDuotone as UploadFileDuotoneIcon, FileArrowUpFill as UploadFileFill, FileArrowUpFill as UploadFileFillIcon, FileArrowUp as UploadFileIcon, UploadFill, UploadFill as UploadFillIcon, Upload as UploadIcon, Link as Url, LinkDuotone as UrlDuotone, LinkDuotone as UrlDuotoneIcon, LinkFill as UrlFill, LinkFill as UrlFillIcon, Link as UrlIcon, User, UserArrowLeft, UserArrowLeftDuotone, UserArrowLeftDuotone as UserArrowLeftDuotoneIcon, UserArrowLeftFill, UserArrowLeftFill as UserArrowLeftFillIcon, UserArrowLeft as UserArrowLeftIcon, UserArrowLeftRight, UserArrowLeftRightDuotone, UserArrowLeftRightDuotone as UserArrowLeftRightDuotoneIcon, UserArrowLeftRightFill, UserArrowLeftRightFill as UserArrowLeftRightFillIcon, UserArrowLeftRight as UserArrowLeftRightIcon, UserArrowOutUpRight, UserArrowOutUpRightDuotone, UserArrowOutUpRightDuotone as UserArrowOutUpRightDuotoneIcon, UserArrowOutUpRightFill, UserArrowOutUpRightFill as UserArrowOutUpRightFillIcon, UserArrowOutUpRight as UserArrowOutUpRightIcon, UserArrowRight, UserArrowRightDuotone, UserArrowRightDuotone as UserArrowRightDuotoneIcon, UserArrowRightFill, UserArrowRightFill as UserArrowRightFillIcon, UserArrowRight as UserArrowRightIcon, UserCog, UserCogDuotone, UserCogDuotone as UserCogDuotoneIcon, UserCogFill, UserCogFill as UserCogFillIcon, UserCog as UserCogIcon, FileUser as UserDocument, FileUserDuotone as UserDocumentDuotone, FileUserDuotone as UserDocumentDuotoneIcon, FileUserFill as UserDocumentFill, FileUserFill as UserDocumentFillIcon, FileUser as UserDocumentIcon, UserDuotone, UserDuotone as UserDuotoneIcon, UserFill, UserFill as UserFillIcon, User as UserIcon, UserPlus, UserPlusDuotone, UserPlusDuotone as UserPlusDuotoneIcon, UserPlusFill, UserPlusFill as UserPlusFillIcon, UserPlus as UserPlusIcon, SearchUser as UserSearch, SearchUserDuotone as UserSearchDuotone, SearchUserDuotone as UserSearchDuotoneIcon, SearchUserFill as UserSearchFill, SearchUserFill as UserSearchFillIcon, SearchUser as UserSearchIcon, Users, UsersDuotone, UsersDuotone as UsersDuotoneIcon, UsersFill, UsersFill as UsersFillIcon, Users as UsersIcon, Play as Video, PlayDuotone as VideoDuotone, PlayDuotone as VideoDuotoneIcon, PlayFill as VideoFill, PlayFill as VideoFillIcon, Play as VideoIcon, Eye as View, EyeDuotone as ViewDuotone, EyeDuotone as ViewDuotoneIcon, EyeFill as ViewFill, EyeFill as ViewFillIcon, Eye as ViewIcon, Reach as Views, ReachDuotone as ViewsDuotone, ReachDuotone as ViewsDuotoneIcon, ReachFill as ViewsFill, ReachFill as ViewsFillIcon, Reach as ViewsIcon, Eye as Visibility, EyeDuotone as VisibilityDuotone, EyeDuotone as VisibilityDuotoneIcon, EyeFill as VisibilityFill, EyeFill as VisibilityFillIcon, Eye as VisibilityIcon, Eye as Visible, EyeDuotone as VisibleDuotone, EyeDuotone as VisibleDuotoneIcon, EyeFill as VisibleFill, EyeFill as VisibleFillIcon, Eye as VisibleIcon, Volume2 as Volume, Volume2, Volume2Duotone, Volume2Duotone as Volume2DuotoneIcon, Volume2Fill, Volume2Fill as Volume2FillIcon, Volume2 as Volume2Icon, Volume2Duotone as VolumeDuotone, Volume2Duotone as VolumeDuotoneIcon, Volume2Fill as VolumeFill, Volume2Fill as VolumeFillIcon, Volume2 as VolumeIcon, VolumeOff, VolumeOffDuotone, VolumeOffDuotone as VolumeOffDuotoneIcon, VolumeOffFill, VolumeOffFill as VolumeOffFillIcon, VolumeOff as VolumeOffIcon, Alert as Warning, CircleAlert as WarningCircle, CircleAlertDuotone as WarningCircleDuotone, CircleAlertDuotone as WarningCircleDuotoneIcon, CircleAlertFill as WarningCircleFill, CircleAlertFill as WarningCircleFillIcon, CircleAlert as WarningCircleIcon, AlertDuotone as WarningDuotone, AlertDuotone as WarningDuotoneIcon, AlertFill as WarningFill, AlertFill as WarningFillIcon, Alert as WarningIcon, Clock as Watch, ClockDuotone as WatchDuotone, ClockDuotone as WatchDuotoneIcon, ClockFill as WatchFill, ClockFill as WatchFillIcon, Clock as WatchIcon, Globe as Web, GlobeDuotone as WebDuotone, GlobeDuotone as WebDuotoneIcon, GlobeFill as WebFill, GlobeFill as WebFillIcon, Globe as WebIcon, ArrowLeft as West, ArrowLeftDuotone as WestDuotone, ArrowLeftDuotone as WestDuotoneIcon, ArrowLeftFill as WestFill, ArrowLeftFill as WestFillIcon, ArrowLeft as WestIcon, Hotspot as Wifi, HotspotDuotone as WifiDuotone, HotspotDuotone as WifiDuotoneIcon, HotspotFill as WifiFill, HotspotFill as WifiFillIcon, Hotspot as WifiIcon, Hotspot as Wireless, HotspotDuotone as WirelessDuotone, HotspotDuotone as WirelessDuotoneIcon, HotspotFill as WirelessFill, HotspotFill as WirelessFillIcon, Hotspot as WirelessIcon, Globe as World, GlobeDuotone as WorldDuotone, GlobeDuotone as WorldDuotoneIcon, GlobeFill as WorldFill, GlobeFill as WorldFillIcon, Globe as WorldIcon, Pencil as Write, PencilDuotone as WriteDuotone, PencilDuotone as WriteDuotoneIcon, PencilFill as WriteFill, PencilFill as WriteFillIcon, Pencil as WriteIcon, SquarePen as WriteNew, SquarePenDuotone as WriteNewDuotone, SquarePenDuotone as WriteNewDuotoneIcon, SquarePenFill as WriteNewFill, SquarePenFill as WriteNewFillIcon, SquarePen as WriteNewIcon, CircleX as X, CircleXDuotone as XDuotone, CircleXDuotone as XDuotoneIcon, CircleXFill as XFill, CircleXFill as XFillIcon, CircleX as XIcon, ThumbsUp as Yes, ThumbsUpDuotone as YesDuotone, ThumbsUpDuotone as YesDuotoneIcon, ThumbsUpFill as YesFill, ThumbsUpFill as YesFillIcon, ThumbsUp as YesIcon, ArrowDownYT as Youtube, ArrowDownYTDuotone as YoutubeDuotone, ArrowDownYTDuotone as YoutubeDuotoneIcon, ArrowDownYTFill as YoutubeFill, ArrowDownYTFill as YoutubeFillIcon, ArrowDownYT as YoutubeIcon, aliasToCanonical, allNames, createFoamicon, getCanonicalName, iconAliases, iconNames, iconTags, logoAliases, logoNames, logoTags };

@@ -16,46 +16,6 @@
         "types": "./dist/index.d.cts",
         "default": "./dist/index.cjs"
       }
-    },
-    "./icons": {
-      "import": {
-        "types": "./dist/icons/index.d.ts",
-        "default": "./dist/icons/index.js"
-      },
-      "require": {
-        "types": "./dist/icons/index.d.cts",
-        "default": "./dist/icons/index.cjs"
-      }
-    },
-    "./icons/*": {
-      "import": {
-        "types": "./dist/icons/*.d.ts",
-        "default": "./dist/icons/*.js"
-      },
-      "require": {
-        "types": "./dist/icons/*.d.cts",
-        "default": "./dist/icons/*.cjs"
-      }
-    },
-    "./logos": {
-      "import": {
-        "types": "./dist/logos/index.d.ts",
-        "default": "./dist/logos/index.js"
-      },
-      "require": {
-        "types": "./dist/logos/index.d.cts",
-        "default": "./dist/logos/index.cjs"
-      }
-    },
-    "./logos/*": {
-      "import": {
-        "types": "./dist/logos/*.d.ts",
-        "default": "./dist/logos/*.js"
-      },
-      "require": {
-        "types": "./dist/logos/*.d.cts",
-        "default": "./dist/logos/*.cjs"
-      }
     }
   },
   "files": [

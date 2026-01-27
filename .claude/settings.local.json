@@ -32,7 +32,10 @@
       "Bash(pnpm -w run build:figma:*)",
       "Bash(echo:*)",
       "Bash(gh api:*)",
-      "Bash(pnpm build:*)"
+      "Bash(pnpm build:*)",
+      "Bash(du:*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm run test:*)"
     ]
   }
 }
