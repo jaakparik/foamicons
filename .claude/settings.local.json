@@ -35,7 +35,8 @@
       "Bash(pnpm build:*)",
       "Bash(du:*)",
       "Bash(pnpm install:*)",
-      "Bash(pnpm run test:*)"
+      "Bash(pnpm run test:*)",
+      "Bash(pnpm test:*)"
     ]
   }
 }
