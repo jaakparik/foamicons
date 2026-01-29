@@ -414,6 +414,18 @@
       "expand"
     ]
   },
+  "chevron-up-down": {
+    "aliases": [
+      "accordion"
+    ],
+    "tags": [
+      "chevron",
+      "up",
+      "down",
+      "toggle",
+      "expand-collapse"
+    ]
+  },
   "circle-alert": {
     "aliases": [
       "warning-circle",
@@ -466,6 +478,20 @@
       "close",
       "cancel",
       "clear"
+    ]
+  },
+  "clipboard-list": {
+    "aliases": [
+      "checklist",
+      "tasks",
+      "todo",
+      "roster"
+    ],
+    "tags": [
+      "clipboard",
+      "list",
+      "checklist",
+      "tasks"
     ]
   },
   "clock": {
