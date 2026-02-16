@@ -33,10 +33,10 @@ const __iconNode: IconNode = [
 ];
 
 /**
- * @component @name Rows2
+ * @component @name LayoutRows
  * @description Foamicon SVG icon component, renders a `<svg>` element
  * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjEyIiBoZWlnaHQ9IjUiIHJ4PSIxIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxyZWN0IHg9IjIiIHk9IjkiIHdpZHRoPSIxMiIgaGVpZ2h0PSI1IiByeD0iMSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K)
- * @see https://foamicons.com/icons/rows2
+ * @see https://foamicons.com/icons/layout-rows
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
  * @param {number | string} [props.size=16] - Icon size (width and height)
@@ -45,4 +45,4 @@ const __iconNode: IconNode = [
  * @param {string} [props.color='currentColor'] - Icon color (stroke color)
  * @returns {React.ReactElement} SVG icon element
  */
-export const Rows2 = createFoamicon('Rows2', __iconNode);
+export const LayoutRows = createFoamicon('LayoutRows', __iconNode);

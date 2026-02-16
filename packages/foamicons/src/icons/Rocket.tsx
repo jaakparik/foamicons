@@ -1,0 +1,54 @@
+import { createFoamicon } from '../createFoamicon';
+import type { IconNode } from '../types';
+
+const __iconNode: IconNode = [
+  [
+    'path',
+    {
+      d: 'M3.16533 2.58067C3.19915 2.57631 3.24406 2.57308 3.30136 2.57308C3.49373 2.57308 3.7671 2.60889 4.10929 2.69185C4.78978 2.85687 5.67702 3.19238 6.61662 3.70486C8.41965 4.68834 10.3419 6.28308 11.3827 8.46264L9.04729 10.798C6.86771 9.75721 5.273 7.83502 4.28952 6.03196C3.77703 5.09234 3.44152 4.20513 3.2765 3.52463C3.19354 3.18241 3.15773 2.90908 3.15773 2.71671C3.15773 2.65936 3.16096 2.6145 3.16533 2.58067Z',
+      stroke: 'currentColor',
+      key: 'k5g3g3'
+    }
+  ],
+  [
+    'path',
+    {
+      d: 'M14.3283 8.56956L13.0119 8.56956C12.366 8.56956 11.7599 8.25763 11.3845 7.73204L10.2149 6.09469L12.0298 6.35396C12.4582 6.41516 12.8552 6.61365 13.1612 6.91965L14.4697 8.22814C14.5957 8.35413 14.5065 8.56956 14.3283 8.56956Z',
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      key: '3a90ji'
+    }
+  ],
+  [
+    'path',
+    {
+      d: 'M9.15426 13.7433L9.15426 12.4269C9.15426 11.781 8.84233 11.1749 8.31674 10.7995L6.67939 9.62992L6.93866 11.4448C6.99986 11.8732 7.19835 12.2702 7.50435 12.5762L8.81284 13.8847C8.93884 14.0107 9.15426 13.9215 9.15426 13.7433Z',
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      key: 'z48gil'
+    }
+  ],
+  [
+    'path',
+    {
+      d: 'M13.397 12.8122C13.4111 12.7695 12.9235 11.7631 12.4299 10.8173C12.2106 10.397 11.6491 10.3174 11.3138 10.6527C10.9569 11.0096 11.0673 11.6274 11.5165 11.8579C12.3899 12.3063 13.3839 12.8517 13.397 12.8122Z',
+      stroke: 'currentColor',
+      key: 'lx5rae'
+    }
+  ]
+];
+
+/**
+ * @component @name Rocket
+ * @description Foamicon SVG icon component, renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMuMTY1MzMgMi41ODA2N0MzLjE5OTE1IDIuNTc2MzEgMy4yNDQwNiAyLjU3MzA4IDMuMzAxMzYgMi41NzMwOEMzLjQ5MzczIDIuNTczMDggMy43NjcxIDIuNjA4ODkgNC4xMDkyOSAyLjY5MTg1QzQuNzg5NzggMi44NTY4NyA1LjY3NzAyIDMuMTkyMzggNi42MTY2MiAzLjcwNDg2QzguNDE5NjUgNC42ODgzNCAxMC4zNDE5IDYuMjgzMDggMTEuMzgyNyA4LjQ2MjY0TDkuMDQ3MjkgMTAuNzk4QzYuODY3NzEgOS43NTcyMSA1LjI3MyA3LjgzNTAyIDQuMjg5NTIgNi4wMzE5NkMzLjc3NzAzIDUuMDkyMzQgMy40NDE1MiA0LjIwNTEzIDMuMjc2NSAzLjUyNDYzQzMuMTkzNTQgMy4xODI0MSAzLjE1NzczIDIuOTA5MDggMy4xNTc3MyAyLjcxNjcxQzMuMTU3NzMgMi42NTkzNiAzLjE2MDk2IDIuNjE0NSAzLjE2NTMzIDIuNTgwNjdaIiBzdHJva2U9ImN1cnJlbnRDb2xvciIvPgo8cGF0aCBkPSJNMTQuMzI4MyA4LjU2OTU2TDEzLjAxMTkgOC41Njk1NkMxMi4zNjYgOC41Njk1NiAxMS43NTk5IDguMjU3NjMgMTEuMzg0NSA3LjczMjA0TDEwLjIxNDkgNi4wOTQ2OUwxMi4wMjk4IDYuMzUzOTZDMTIuNDU4MiA2LjQxNTE2IDEyLjg1NTIgNi42MTM2NSAxMy4xNjEyIDYuOTE5NjVMMTQuNDY5NyA4LjIyODE0QzE0LjU5NTcgOC4zNTQxMyAxNC41MDY1IDguNTY5NTYgMTQuMzI4MyA4LjU2OTU2WiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8cGF0aCBkPSJNOS4xNTQyNiAxMy43NDMzTDkuMTU0MjYgMTIuNDI2OUM5LjE1NDI2IDExLjc4MSA4Ljg0MjMzIDExLjE3NDkgOC4zMTY3NCAxMC43OTk1TDYuNjc5MzkgOS42Mjk5Mkw2LjkzODY2IDExLjQ0NDhDNi45OTk4NiAxMS44NzMyIDcuMTk4MzUgMTIuMjcwMiA3LjUwNDM1IDEyLjU3NjJMOC44MTI4NCAxMy44ODQ3QzguOTM4ODQgMTQuMDEwNyA5LjE1NDI2IDEzLjkyMTUgOS4xNTQyNiAxMy43NDMzWiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTMuMzk3IDEyLjgxMjJDMTMuNDExMSAxMi43Njk1IDEyLjkyMzUgMTEuNzYzMSAxMi40Mjk5IDEwLjgxNzNDMTIuMjEwNiAxMC4zOTcgMTEuNjQ5MSAxMC4zMTc0IDExLjMxMzggMTAuNjUyN0MxMC45NTY5IDExLjAwOTYgMTEuMDY3MyAxMS42Mjc0IDExLjUxNjUgMTEuODU3OUMxMi4zODk5IDEyLjMwNjMgMTMuMzgzOSAxMi44NTE3IDEzLjM5NyAxMi44MTIyWiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+Cg==)
+ * @see https://foamicons.com/icons/rocket
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */
+export const Rocket = createFoamicon('Rocket', __iconNode);

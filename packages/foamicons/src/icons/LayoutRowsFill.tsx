@@ -35,10 +35,10 @@ const __iconNode: IconNode = [
 ];
 
 /**
- * @component @name Rows2Fill
+ * @component @name LayoutRowsFill
  * @description Foamicon SVG icon component, renders a `<svg>` element
  * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjEyIiBoZWlnaHQ9IjUiIHJ4PSIxIiBmaWxsPSJjdXJyZW50Q29sb3IiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHJlY3QgeD0iMiIgeT0iOSIgd2lkdGg9IjEyIiBoZWlnaHQ9IjUiIHJ4PSIxIiBmaWxsPSJjdXJyZW50Q29sb3IiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==)
- * @see https://foamicons.com/icons/rows2fill
+ * @see https://foamicons.com/icons/layout-rows-fill
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
  * @param {number | string} [props.size=16] - Icon size (width and height)
@@ -47,4 +47,4 @@ const __iconNode: IconNode = [
  * @param {string} [props.color='currentColor'] - Icon color (stroke color)
  * @returns {React.ReactElement} SVG icon element
  */
-export const Rows2Fill = createFoamicon('Rows2Fill', __iconNode);
+export const LayoutRowsFill = createFoamicon('LayoutRowsFill', __iconNode);

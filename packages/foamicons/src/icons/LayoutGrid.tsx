@@ -61,10 +61,10 @@ const __iconNode: IconNode = [
 ];
 
 /**
- * @component @name Grid2x2
+ * @component @name LayoutGrid
  * @description Foamicon SVG icon component, renders a `<svg>` element
  * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjUiIGhlaWdodD0iNSIgcng9IjEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHJlY3QgeD0iMiIgeT0iOSIgd2lkdGg9IjUiIGhlaWdodD0iNSIgcng9IjEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHJlY3QgeD0iOSIgeT0iMiIgd2lkdGg9IjUiIGhlaWdodD0iNSIgcng9IjEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHJlY3QgeD0iOSIgeT0iOSIgd2lkdGg9IjUiIGhlaWdodD0iNSIgcng9IjEiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==)
- * @see https://foamicons.com/icons/grid2x2
+ * @see https://foamicons.com/icons/layout-grid
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
  * @param {number | string} [props.size=16] - Icon size (width and height)
@@ -73,4 +73,4 @@ const __iconNode: IconNode = [
  * @param {string} [props.color='currentColor'] - Icon color (stroke color)
  * @returns {React.ReactElement} SVG icon element
  */
-export const Grid2x2 = createFoamicon('Grid2x2', __iconNode);
+export const LayoutGrid = createFoamicon('LayoutGrid', __iconNode);
