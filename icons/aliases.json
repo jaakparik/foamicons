@@ -923,27 +923,62 @@
       "web"
     ]
   },
-  "grid-1x2": {
+  "gallery-horizontal": {
     "aliases": [
-      "design",
-      "cards"
+      "carousel",
+      "slider"
     ],
     "tags": [
-      "layout",
-      "design",
-      "cards"
+      "gallery",
+      "horizontal",
+      "carousel",
+      "slider"
     ]
   },
-  "grid-2x2": {
+  "gallery-horizontal-end": {
     "aliases": [
-      "grid",
-      "tiles",
-      "layout"
+      "carousel-end",
+      "slider-end"
     ],
     "tags": [
-      "grid",
-      "tiles",
-      "layout"
+      "gallery",
+      "horizontal",
+      "end",
+      "carousel"
+    ]
+  },
+  "gallery-thumbnails": {
+    "aliases": [
+      "gallery-preview",
+      "thumbnail-grid"
+    ],
+    "tags": [
+      "gallery",
+      "thumbnails",
+      "preview",
+      "media"
+    ]
+  },
+  "gallery-vertical": {
+    "aliases": [
+      "gallery-list",
+      "vertical-gallery"
+    ],
+    "tags": [
+      "gallery",
+      "vertical",
+      "list"
+    ]
+  },
+  "gallery-vertical-end": {
+    "aliases": [
+      "gallery-list-end",
+      "vertical-gallery-end"
+    ],
+    "tags": [
+      "gallery",
+      "vertical",
+      "end"
     ]
   },
   "heart": {
@@ -1060,6 +1095,111 @@
       "link",
       "url",
       "connect"
+    ]
+  },
+  "layout-dashboard": {
+    "aliases": [
+      "dashboard-layout",
+      "widgets"
+    ],
+    "tags": [
+      "layout",
+      "dashboard",
+      "widgets",
+      "panels"
+    ]
+  },
+  "layout-grid": {
+    "aliases": [
+      "grid-2x2",
+      "grid",
+      "tiles"
+    ],
+    "tags": [
+      "grid",
+      "tiles",
+      "layout"
+    ]
+  },
+  "layout-list": {
+    "aliases": [
+      "list-layout",
+      "list-view"
+    ],
+    "tags": [
+      "layout",
+      "list",
+      "view"
+    ]
+  },
+  "layout-panel-bottom": {
+    "aliases": [
+      "panel-bottom",
+      "bottom-panel"
+    ],
+    "tags": [
+      "layout",
+      "panel",
+      "bottom"
+    ]
+  },
+  "layout-panel-left": {
+    "aliases": [
+      "grid-1x2",
+      "panel-left-layout"
+    ],
+    "tags": [
+      "layout",
+      "panel",
+      "left",
+      "sidebar"
+    ]
+  },
+  "layout-panel-right": {
+    "aliases": [
+      "panel-right-layout",
+      "right-panel"
+    ],
+    "tags": [
+      "layout",
+      "panel",
+      "right",
+      "sidebar"
+    ]
+  },
+  "layout-panel-top": {
+    "aliases": [
+      "panel-top",
+      "top-panel"
+    ],
+    "tags": [
+      "layout",
+      "panel",
+      "top"
+    ]
+  },
+  "layout-rows": {
+    "aliases": [
+      "rows-2",
+      "horizontal-split",
+      "rows"
+    ],
+    "tags": [
+      "rows",
+      "layout",
+      "split"
+    ]
+  },
+  "layout-template": {
+    "aliases": [
+      "page-template",
+      "wireframe"
+    ],
+    "tags": [
+      "layout",
+      "template",
+      "page",
+      "wireframe"
     ]
   },
   "list": {
@@ -1479,15 +1619,16 @@
       "redo"
     ]
   },
-  "rows-2": {
+  "rocket": {
     "aliases": [
-      "horizontal-split",
-      "rows"
+      "launch",
+      "startup"
     ],
     "tags": [
-      "rows",
-      "layout",
-      "split"
+      "rocket",
+      "launch",
+      "startup",
+      "space"
     ]
   },
   "save": {
@@ -1624,6 +1765,41 @@
       "day"
     ]
   },
+  "tag": {
+    "aliases": [
+      "label",
+      "badge"
+    ],
+    "tags": [
+      "tag",
+      "label",
+      "category"
+    ]
+  },
+  "tags": {
+    "aliases": [
+      "labels",
+      "categories"
+    ],
+    "tags": [
+      "tags",
+      "labels",
+      "categories"
+    ]
+  },
+  "target": {
+    "aliases": [
+      "bullseye",
+      "goal",
+      "aim"
+    ],
+    "tags": [
+      "target",
+      "goal",
+      "aim",
+      "focus"
+    ]
+  },
   "text-align-center": {
     "aliases": [
       "center"
@@ -1734,6 +1910,18 @@
       "sort",
       "toggle",
       "order"
+    ]
+  },
+  "tool-case": {
+    "aliases": [
+      "toolbox",
+      "toolkit"
+    ],
+    "tags": [
+      "tools",
+      "toolbox",
+      "case",
+      "maintenance"
     ]
   },
   "unlink": {

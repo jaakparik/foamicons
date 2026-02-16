@@ -1,0 +1,6 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="9" y="14" width="7" height="5" rx="1" transform="rotate(-90 9 14)" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="9" y="5" width="3" height="5" rx="1" transform="rotate(-90 9 5)" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2" y="9" width="7" height="5" rx="1" transform="rotate(-90 2 9)" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="2" y="14" width="3" height="5" rx="1" transform="rotate(-90 2 14)" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
