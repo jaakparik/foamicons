@@ -443,8 +443,7 @@
   "circle-check": {
     "aliases": [
       "circle-checkbox",
-      "check-circle",
-      "complete"
+      "check-circle"
     ],
     "tags": [
       "check",
@@ -1224,6 +1223,20 @@
       "panel",
       "sidebar",
       "right"
+    ]
+  },
+  "palette": {
+    "aliases": [
+      "color-palette",
+      "paint-palette",
+      "swatch"
+    ],
+    "tags": [
+      "color",
+      "palette",
+      "paint",
+      "design",
+      "theme"
     ]
   },
   "pencil": {

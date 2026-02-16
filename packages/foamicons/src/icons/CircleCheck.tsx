@@ -8,14 +8,10 @@ const __iconNode: IconNode = [
       cx: '8',
       cy: '8',
       r: '6',
-      fill: 'var(--foamicon-secondary-color, currentColor)',
       stroke: 'currentColor',
       strokeLinecap: 'round',
       strokeLinejoin: 'round',
-      style: {
-        fillOpacity: 'var(--foamicon-secondary-opacity, 0.25)'
-      },
-      key: 'w97vay'
+      key: 'mpqwsf'
     }
   ],
   [
@@ -31,10 +27,10 @@ const __iconNode: IconNode = [
 ];
 
 /**
- * @component @name CircleCheckboxDuotone
+ * @component @name CircleCheck
  * @description Foamicon SVG icon component, renders a `<svg>` element
- * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjYiIGZpbGw9ImN1cnJlbnRDb2xvciIgZmlsbC1vcGFjaXR5PSIwLjI1IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMC42NzE5IDUuNzY1NjNMNy41MTYwNCAxMC4xMDQ5QzcuMzM1MzMgMTAuMzUzNCA2Ljk3NTM3IDEwLjM4MTYgNi43NTgxMiAxMC4xNjQ0TDUuNDIxODggOC44MjgxMiIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K)
- * @see https://foamicons.com/icons/circle-checkbox-duotone
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjYiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEwLjY3MTkgNS43NjU2M0w3LjUxNjA0IDEwLjEwNDlDNy4zMzUzMyAxMC4zNTM0IDYuOTc1MzcgMTAuMzgxNiA2Ljc1ODEyIDEwLjE2NDRMNS40MjE4OCA4LjgyODEyIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=)
+ * @see https://foamicons.com/icons/circle-check
  *
  * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
  * @param {number | string} [props.size=16] - Icon size (width and height)
@@ -43,4 +39,4 @@ const __iconNode: IconNode = [
  * @param {string} [props.color='currentColor'] - Icon color (stroke color)
  * @returns {React.ReactElement} SVG icon element
  */
-export const CircleCheckboxDuotone = createFoamicon('CircleCheckboxDuotone', __iconNode);
+export const CircleCheck = createFoamicon('CircleCheck', __iconNode);
