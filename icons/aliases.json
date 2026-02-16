@@ -1713,5 +1713,243 @@
       "silent",
       "volume-off"
     ]
+  },
+  "badge-checkbox": {
+    "aliases": [
+      "verified",
+      "certified",
+      "approved"
+    ],
+    "tags": [
+      "badge",
+      "checkbox",
+      "verified",
+      "certified"
+    ]
+  },
+  "brain": {
+    "aliases": [
+      "mind",
+      "intelligence",
+      "thinking",
+      "ai"
+    ],
+    "tags": [
+      "brain",
+      "mind",
+      "intelligence",
+      "ai",
+      "thinking"
+    ]
+  },
+  "chart-area": {
+    "aliases": [
+      "area-chart",
+      "graph-area"
+    ],
+    "tags": [
+      "chart",
+      "area",
+      "graph",
+      "analytics",
+      "data"
+    ]
+  },
+  "chart-bar-stacked": {
+    "aliases": [
+      "stacked-bar",
+      "bar-chart-stacked"
+    ],
+    "tags": [
+      "chart",
+      "bar",
+      "stacked",
+      "analytics",
+      "data"
+    ]
+  },
+  "chart-column": {
+    "aliases": [
+      "bar-chart",
+      "column-chart"
+    ],
+    "tags": [
+      "chart",
+      "column",
+      "bar",
+      "analytics",
+      "data"
+    ]
+  },
+  "chart-network": {
+    "aliases": [
+      "network-graph",
+      "node-graph",
+      "connections"
+    ],
+    "tags": [
+      "chart",
+      "network",
+      "graph",
+      "nodes",
+      "connections"
+    ]
+  },
+  "chart-no-axes-combined": {
+    "aliases": [
+      "mixed-chart",
+      "combo-chart"
+    ],
+    "tags": [
+      "chart",
+      "combined",
+      "analytics",
+      "data",
+      "graph"
+    ]
+  },
+  "chart-pie": {
+    "aliases": [
+      "pie-chart",
+      "donut-chart"
+    ],
+    "tags": [
+      "chart",
+      "pie",
+      "analytics",
+      "data",
+      "percentage"
+    ]
+  },
+  "rotate-ccw": {
+    "aliases": [
+      "undo",
+      "rotate-left",
+      "counter-clockwise"
+    ],
+    "tags": [
+      "rotate",
+      "undo",
+      "counter-clockwise",
+      "turn"
+    ]
+  },
+  "shield": {
+    "aliases": [
+      "security",
+      "protect",
+      "defense"
+    ],
+    "tags": [
+      "shield",
+      "security",
+      "protect",
+      "defense"
+    ]
+  },
+  "shield-check": {
+    "aliases": [
+      "verified",
+      "secure",
+      "protected"
+    ],
+    "tags": [
+      "shield",
+      "check",
+      "verified",
+      "secure",
+      "protected"
+    ]
+  },
+  "shield-off": {
+    "aliases": [
+      "unprotected",
+      "insecure",
+      "vulnerable"
+    ],
+    "tags": [
+      "shield",
+      "off",
+      "unprotected",
+      "insecure"
+    ]
+  },
+  "shield-plus": {
+    "aliases": [
+      "add-security",
+      "new-shield"
+    ],
+    "tags": [
+      "shield",
+      "plus",
+      "add",
+      "security"
+    ]
+  },
+  "shield-user": {
+    "aliases": [
+      "user-security",
+      "privacy"
+    ],
+    "tags": [
+      "shield",
+      "user",
+      "security",
+      "privacy"
+    ]
+  },
+  "shield-x": {
+    "aliases": [
+      "shield-remove",
+      "shield-cancel",
+      "unshielded"
+    ],
+    "tags": [
+      "shield",
+      "remove",
+      "cancel",
+      "insecure"
+    ]
+  },
+  "video": {
+    "aliases": [
+      "camera",
+      "film",
+      "record"
+    ],
+    "tags": [
+      "video",
+      "camera",
+      "film",
+      "record"
+    ]
+  },
+  "zap": {
+    "aliases": [
+      "lightning",
+      "bolt",
+      "flash",
+      "power"
+    ],
+    "tags": [
+      "zap",
+      "lightning",
+      "bolt",
+      "flash",
+      "energy"
+    ]
+  },
+  "zap-off": {
+    "aliases": [
+      "lightning-off",
+      "no-flash",
+      "power-off"
+    ],
+    "tags": [
+      "zap",
+      "off",
+      "lightning",
+      "disabled"
+    ]
   }
 }
