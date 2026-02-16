@@ -1,6 +1,6 @@
 {
   "name": "@foamicons/figma-plugin",
-  "version": "0.9.15",
+  "version": "0.9.16",
   "description": "Figma plugin for Foamicons",
   "scripts": {
     "generate": "tsx scripts/generate-icons.ts",
