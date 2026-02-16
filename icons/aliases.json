@@ -804,6 +804,76 @@
       "hot"
     ]
   },
+  "folder": {
+    "aliases": [
+      "directory"
+    ],
+    "tags": [
+      "folder",
+      "directory",
+      "files"
+    ]
+  },
+  "folder-chart-column": {
+    "aliases": [
+      "folder-analytics",
+      "folder-stats"
+    ],
+    "tags": [
+      "folder",
+      "chart",
+      "analytics",
+      "statistics"
+    ]
+  },
+  "folder-check": {
+    "aliases": [
+      "folder-done",
+      "folder-complete"
+    ],
+    "tags": [
+      "folder",
+      "check",
+      "done",
+      "approved"
+    ]
+  },
+  "folder-cog": {
+    "aliases": [
+      "folder-settings",
+      "folder-config"
+    ],
+    "tags": [
+      "folder",
+      "settings",
+      "config",
+      "cog"
+    ]
+  },
+  "folder-plus": {
+    "aliases": [
+      "folder-add",
+      "new-folder"
+    ],
+    "tags": [
+      "folder",
+      "add",
+      "new",
+      "create"
+    ]
+  },
+  "folder-x": {
+    "aliases": [
+      "folder-delete",
+      "folder-remove"
+    ],
+    "tags": [
+      "folder",
+      "delete",
+      "remove",
+      "close"
+    ]
+  },
   "frown": {
     "aliases": [
       "sad",
