@@ -493,6 +493,19 @@
       "clear"
     ]
   },
+  "closed-caption": {
+    "aliases": [
+      "cc",
+      "subtitles",
+      "captions"
+    ],
+    "tags": [
+      "closed-caption",
+      "subtitles",
+      "accessibility",
+      "video"
+    ]
+  },
   "clipboard-list": {
     "aliases": [
       "checklist",
