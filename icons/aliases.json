@@ -440,6 +440,20 @@
       "error"
     ]
   },
+  "circle-check": {
+    "aliases": [
+      "circle-checkbox",
+      "check-circle",
+      "complete"
+    ],
+    "tags": [
+      "check",
+      "circle",
+      "complete",
+      "done",
+      "success"
+    ]
+  },
   "circle-dollar-sign": {
     "aliases": [
       "money",
