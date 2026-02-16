@@ -4664,15 +4664,6 @@ var Bookmark = createFoamicon("Bookmark", __iconNode117);
 // src/icons/BrainDuotone.tsx
 var __iconNode118 = [
   [
-    "rect",
-    {
-      width: "16",
-      height: "16",
-      fill: "white",
-      key: "zec9jj"
-    }
-  ],
-  [
     "path",
     {
       d: "M3 9C3 8.41659 3.20131 7.88112 3.53647 7.45595C3.58187 7.39836 3.59537 7.32176 3.57422 7.25155C3.52637 7.09266 3.5 6.92447 3.5 6.75C3.5 5.92672 4.06862 5.23748 4.8345 5.05116C4.96179 5.02019 5.04583 4.88788 5.02288 4.7589C5.00793 4.67483 5 4.58836 5 4.5C5 3.67157 5.67157 3 6.5 3C7.32843 3 8 3.67157 8 4.5L8 11C8 12.3807 7.10457 13.5 6 13.5C4.89543 13.5 4 12.3807 4 11C4 10.9982 3.99913 10.9964 3.99766 10.9953C3.39261 10.539 3 9.81618 3 9Z",
@@ -4682,7 +4673,7 @@ var __iconNode118 = [
       style: {
         fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
       },
-      key: "ezs2x3"
+      key: "ezs2x4"
     }
   ],
   [
@@ -4691,7 +4682,7 @@ var __iconNode118 = [
       d: "M3.38797 7.6617C3.14228 8.04863 3 8.50767 3 8.99995C3 10.1319 3.75235 11.0882 4.78429 11.396",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "jjcvsq"
+      key: "jjcvsr"
     }
   ],
   [
@@ -4700,7 +4691,7 @@ var __iconNode118 = [
       d: "M8 7C8 8 7.3 8.5 6.5 8.5",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "b2mnxu"
+      key: "b2mnxt"
     }
   ],
   [
@@ -4713,7 +4704,7 @@ var __iconNode118 = [
       style: {
         fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
       },
-      key: "y29az1"
+      key: "y29az2"
     }
   ],
   [
@@ -4722,7 +4713,7 @@ var __iconNode118 = [
       d: "M12.612 7.6617C12.8577 8.04863 13 8.50767 13 8.99995C13 10.1319 12.2477 11.0882 11.2157 11.396",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "d7fnoc"
+      key: "d7fnod"
     }
   ],
   [
@@ -4731,7 +4722,7 @@ var __iconNode118 = [
       d: "M8 7C8 8 8.7 8.5 9.5 8.5",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "u6mri5"
+      key: "u6mri4"
     }
   ]
 ];
@@ -4740,22 +4731,13 @@ var BrainDuotone = createFoamicon("BrainDuotone", __iconNode118);
 // src/icons/BrainFill.tsx
 var __iconNode119 = [
   [
-    "rect",
-    {
-      width: "16",
-      height: "16",
-      fill: "var(--foamicon-secondary-color, currentColor)",
-      key: "ubarid"
-    }
-  ],
-  [
     "path",
     {
       d: "M3 9C3 8.41659 3.20131 7.88112 3.53647 7.45595C3.58187 7.39836 3.59537 7.32176 3.57422 7.25155C3.52637 7.09266 3.5 6.92447 3.5 6.75C3.5 5.92672 4.06862 5.23748 4.8345 5.05116C4.96179 5.02019 5.04583 4.88788 5.02288 4.7589C5.00793 4.67483 5 4.58836 5 4.5C5 3.67157 5.67157 3 6.5 3C7.32843 3 8 3.67157 8 4.5L8 11C8 12.3807 7.10457 13.5 6 13.5C4.89543 13.5 4 12.3807 4 11C4 10.9982 3.99913 10.9964 3.99766 10.9953C3.39261 10.539 3 9.81618 3 9Z",
       fill: "currentColor",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "jsnp7p"
+      key: "jsnp7q"
     }
   ],
   [
@@ -4765,7 +4747,7 @@ var __iconNode119 = [
       fill: "currentColor",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "65tfk5"
+      key: "65tfk4"
     }
   ],
   [
@@ -4774,7 +4756,7 @@ var __iconNode119 = [
       d: "M8 7C8 8 7.3 8.5 6.5 8.5",
       stroke: "var(--foamicon-secondary-color, currentColor)",
       strokeLinecap: "round",
-      key: "ixjrfn"
+      key: "ixjrfo"
     }
   ],
   [
@@ -4783,7 +4765,7 @@ var __iconNode119 = [
       d: "M8 7C8 8 8.7 8.5 9.5 8.5",
       stroke: "var(--foamicon-secondary-color, currentColor)",
       strokeLinecap: "round",
-      key: "vhmqay"
+      key: "vhmqaz"
     }
   ]
 ];
@@ -4792,21 +4774,12 @@ var BrainFill = createFoamicon("BrainFill", __iconNode119);
 // src/icons/Brain.tsx
 var __iconNode120 = [
   [
-    "rect",
-    {
-      width: "16",
-      height: "16",
-      fill: "white",
-      key: "zec9jj"
-    }
-  ],
-  [
     "path",
     {
       d: "M3 9C3 8.41659 3.20131 7.88112 3.53647 7.45595C3.58187 7.39836 3.59537 7.32176 3.57422 7.25155C3.52637 7.09266 3.5 6.92447 3.5 6.75C3.5 5.92672 4.06862 5.23748 4.8345 5.05116C4.96179 5.02019 5.04583 4.88788 5.02288 4.7589C5.00793 4.67483 5 4.58836 5 4.5C5 3.67157 5.67157 3 6.5 3C7.32843 3 8 3.67157 8 4.5L8 11C8 12.3807 7.10457 13.5 6 13.5C4.89543 13.5 4 12.3807 4 11C4 10.9982 3.99913 10.9964 3.99766 10.9953C3.39261 10.539 3 9.81618 3 9Z",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "y3gwu"
+      key: "y3gwv"
     }
   ],
   [
@@ -4815,7 +4788,7 @@ var __iconNode120 = [
       d: "M3.38797 7.6617C3.14228 8.04863 3 8.50767 3 8.99995C3 10.1319 3.75235 11.0882 4.78429 11.396",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "jjcvsq"
+      key: "jjcvsr"
     }
   ],
   [
@@ -4824,7 +4797,7 @@ var __iconNode120 = [
       d: "M8 7C8 8 7.3 8.5 6.5 8.5",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "b2mnxu"
+      key: "b2mnxt"
     }
   ],
   [
@@ -4833,7 +4806,7 @@ var __iconNode120 = [
       d: "M13 9C13 8.41659 12.7987 7.88112 12.4635 7.45595C12.4181 7.39836 12.4046 7.32176 12.4258 7.25155C12.4736 7.09266 12.5 6.92447 12.5 6.75C12.5 5.92672 11.9314 5.23748 11.1655 5.05116C11.0382 5.0202 10.9542 4.88788 10.9771 4.7589C10.9921 4.67483 11 4.58836 11 4.5C11 3.67157 10.3284 3 9.5 3C8.67157 3 8 3.67157 8 4.5L8 11C8 12.3807 8.89543 13.5 10 13.5C11.1046 13.5 12 12.3807 12 11C12 10.9982 12.0009 10.9964 12.0023 10.9953C12.6074 10.539 13 9.81618 13 9Z",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "e85ovm"
+      key: "e85ovn"
     }
   ],
   [
@@ -4842,7 +4815,7 @@ var __iconNode120 = [
       d: "M12.612 7.6617C12.8577 8.04863 13 8.50767 13 8.99995C13 10.1319 12.2477 11.0882 11.2157 11.396",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "d7fnoc"
+      key: "d7fnod"
     }
   ],
   [
@@ -4851,7 +4824,7 @@ var __iconNode120 = [
       d: "M8 7C8 8 8.7 8.5 9.5 8.5",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "u6mri5"
+      key: "u6mri4"
     }
   ]
 ];
@@ -27935,15 +27908,6 @@ var VolumeOff = createFoamicon("VolumeOff", __iconNode675);
 // src/icons/ZapDuotone.tsx
 var __iconNode676 = [
   [
-    "rect",
-    {
-      width: "16",
-      height: "16",
-      fill: "white",
-      key: "zec9jj"
-    }
-  ],
-  [
     "path",
     {
       d: "M8.45489 1.62349C8.59312 1.46565 8.84938 1.59962 8.79864 1.80318L7.56192 6.75097C7.53037 6.87719 7.62584 6.99946 7.75595 6.99946H13.5594C13.731 6.99969 13.8227 7.20225 13.7098 7.3315L7.54571 14.3764C7.40754 14.5343 7.15045 14.4002 7.20098 14.1967L8.43771 9.24795C8.46926 9.12173 8.37379 8.99946 8.24368 8.99946H2.44024C2.26875 8.99919 2.17713 8.79765 2.28985 8.66841L8.45489 1.62349Z",
@@ -27953,7 +27917,7 @@ var __iconNode676 = [
       style: {
         fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
       },
-      key: "939zp4"
+      key: "939zp3"
     }
   ]
 ];
@@ -27962,22 +27926,13 @@ var ZapDuotone = createFoamicon("ZapDuotone", __iconNode676);
 // src/icons/ZapFill.tsx
 var __iconNode677 = [
   [
-    "rect",
-    {
-      width: "16",
-      height: "16",
-      fill: "var(--foamicon-secondary-color, currentColor)",
-      key: "ubarid"
-    }
-  ],
-  [
     "path",
     {
       d: "M8.45489 1.62349C8.59312 1.46565 8.84938 1.59962 8.79864 1.80318L7.56192 6.75097C7.53037 6.87719 7.62584 6.99946 7.75595 6.99946H13.5594C13.731 6.99969 13.8227 7.20225 13.7098 7.3315L7.54571 14.3764C7.40754 14.5343 7.15045 14.4002 7.20098 14.1967L8.43771 9.24795C8.46926 9.12173 8.37379 8.99946 8.24368 8.99946H2.44024C2.26875 8.99919 2.17713 8.79765 2.28985 8.66841L8.45489 1.62349Z",
       fill: "currentColor",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "3yvkjo"
+      key: "3yvkjp"
     }
   ]
 ];
@@ -28123,21 +28078,12 @@ var ZapOff = createFoamicon("ZapOff", __iconNode680);
 // src/icons/Zap.tsx
 var __iconNode681 = [
   [
-    "rect",
-    {
-      width: "16",
-      height: "16",
-      fill: "white",
-      key: "zec9jj"
-    }
-  ],
-  [
     "path",
     {
       d: "M8.45489 1.62349C8.59312 1.46565 8.84938 1.59962 8.79864 1.80318L7.56192 6.75097C7.53037 6.87719 7.62584 6.99946 7.75595 6.99946H13.5594C13.731 6.99969 13.8227 7.20225 13.7098 7.3315L7.54571 14.3764C7.40754 14.5343 7.15045 14.4002 7.20098 14.1967L8.43771 9.24795C8.46926 9.12173 8.37379 8.99946 8.24368 8.99946H2.44024C2.26875 8.99919 2.17712 8.79765 2.28985 8.66841L8.45489 1.62349Z",
       stroke: "currentColor",
       strokeLinecap: "round",
-      key: "ks2kis"
+      key: "ks2kir"
     }
   ]
 ];
