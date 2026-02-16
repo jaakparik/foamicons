@@ -1239,7 +1239,6 @@
   "play": {
     "aliases": [
       "start",
-      "video",
       "play-button"
     ],
     "tags": [
@@ -1731,8 +1730,7 @@
     "aliases": [
       "mind",
       "intelligence",
-      "thinking",
-      "ai"
+      "thinking"
     ],
     "tags": [
       "brain",
@@ -1770,8 +1768,8 @@
   },
   "chart-column": {
     "aliases": [
-      "bar-chart",
-      "column-chart"
+      "column-chart",
+      "vertical-bar-chart"
     ],
     "tags": [
       "chart",
@@ -1823,7 +1821,6 @@
   },
   "rotate-ccw": {
     "aliases": [
-      "undo",
       "rotate-left",
       "counter-clockwise"
     ],
@@ -1849,9 +1846,8 @@
   },
   "shield-check": {
     "aliases": [
-      "verified",
-      "secure",
-      "protected"
+      "shield-verified",
+      "shield-secure"
     ],
     "tags": [
       "shield",
@@ -1914,8 +1910,8 @@
   "video": {
     "aliases": [
       "camera",
-      "film",
-      "record"
+      "record",
+      "video-camera"
     ],
     "tags": [
       "video",

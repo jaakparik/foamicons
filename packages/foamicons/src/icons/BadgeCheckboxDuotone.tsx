@@ -1,0 +1,44 @@
+import { createFoamicon } from '../createFoamicon';
+import type { IconNode } from '../types';
+
+const __iconNode: IconNode = [
+  [
+    'path',
+    {
+      d: 'M7.02707 2.07912C7.58771 1.60135 8.41229 1.60135 8.97293 2.07912L9.69692 2.6961C9.93716 2.90084 10.2359 3.02457 10.5505 3.04968L11.4987 3.12534C12.233 3.18394 12.8161 3.76701 12.8747 4.50127L12.9503 5.44948C12.9754 5.76413 13.0992 6.06284 13.3039 6.30308L13.9209 7.02707C14.3986 7.58771 14.3986 8.41229 13.9209 8.97293L13.3039 9.69692C13.0992 9.93716 12.9754 10.2359 12.9503 10.5505L12.8747 11.4987C12.8161 12.233 12.233 12.8161 11.4987 12.8747L10.5505 12.9503C10.2359 12.9754 9.93716 13.0992 9.69692 13.3039L8.97293 13.9209C8.41229 14.3986 7.58771 14.3986 7.02707 13.9209L6.30308 13.3039C6.06284 13.0992 5.76413 12.9754 5.44948 12.9503L4.50127 12.8747C3.767 12.8161 3.18394 12.233 3.12534 11.4987L3.04968 10.5505C3.02457 10.2359 2.90084 9.93716 2.6961 9.69692L2.07912 8.97293C1.60135 8.41229 1.60135 7.58771 2.07912 7.02707L2.6961 6.30308C2.90084 6.06284 3.02457 5.76413 3.04968 5.44948L3.12534 4.50127C3.18394 3.767 3.76701 3.18394 4.50127 3.12534L5.44948 3.04968C5.76413 3.02457 6.06284 2.90084 6.30308 2.6961L7.02707 2.07912Z',
+      fill: 'var(--foamicon-secondary-color, currentColor)',
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      style: {
+        fillOpacity: 'var(--foamicon-secondary-opacity, 0.25)'
+      },
+      key: '8yzzz7'
+    }
+  ],
+  [
+    'path',
+    {
+      d: 'M10.6719 5.76563L7.51604 10.1049C7.33533 10.3534 6.97537 10.3816 6.75812 10.1644L5.42188 8.82812',
+      stroke: 'currentColor',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round',
+      key: 'z3wv5w'
+    }
+  ]
+];
+
+/**
+ * @component @name BadgeCheckboxDuotone
+ * @description Foamicon SVG icon component, renders a `<svg>` element
+ * @preview ![img](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuMDI3MDcgMi4wNzkxMkM3LjU4NzcxIDEuNjAxMzUgOC40MTIyOSAxLjYwMTM1IDguOTcyOTMgMi4wNzkxMkw5LjY5NjkyIDIuNjk2MUM5LjkzNzE2IDIuOTAwODQgMTAuMjM1OSAzLjAyNDU3IDEwLjU1MDUgMy4wNDk2OEwxMS40OTg3IDMuMTI1MzRDMTIuMjMzIDMuMTgzOTQgMTIuODE2MSAzLjc2NzAxIDEyLjg3NDcgNC41MDEyN0wxMi45NTAzIDUuNDQ5NDhDMTIuOTc1NCA1Ljc2NDEzIDEzLjA5OTIgNi4wNjI4NCAxMy4zMDM5IDYuMzAzMDhMMTMuOTIwOSA3LjAyNzA3QzE0LjM5ODYgNy41ODc3MSAxNC4zOTg2IDguNDEyMjkgMTMuOTIwOSA4Ljk3MjkzTDEzLjMwMzkgOS42OTY5MkMxMy4wOTkyIDkuOTM3MTYgMTIuOTc1NCAxMC4yMzU5IDEyLjk1MDMgMTAuNTUwNUwxMi44NzQ3IDExLjQ5ODdDMTIuODE2MSAxMi4yMzMgMTIuMjMzIDEyLjgxNjEgMTEuNDk4NyAxMi44NzQ3TDEwLjU1MDUgMTIuOTUwM0MxMC4yMzU5IDEyLjk3NTQgOS45MzcxNiAxMy4wOTkyIDkuNjk2OTIgMTMuMzAzOUw4Ljk3MjkzIDEzLjkyMDlDOC40MTIyOSAxNC4zOTg2IDcuNTg3NzEgMTQuMzk4NiA3LjAyNzA3IDEzLjkyMDlMNi4zMDMwOCAxMy4zMDM5QzYuMDYyODQgMTMuMDk5MiA1Ljc2NDEzIDEyLjk3NTQgNS40NDk0OCAxMi45NTAzTDQuNTAxMjcgMTIuODc0N0MzLjc2NyAxMi44MTYxIDMuMTgzOTQgMTIuMjMzIDMuMTI1MzQgMTEuNDk4N0wzLjA0OTY4IDEwLjU1MDVDMy4wMjQ1NyAxMC4yMzU5IDIuOTAwODQgOS45MzcxNiAyLjY5NjEgOS42OTY5MkwyLjA3OTEyIDguOTcyOTNDMS42MDEzNSA4LjQxMjI5IDEuNjAxMzUgNy41ODc3MSAyLjA3OTEyIDcuMDI3MDdMMi42OTYxIDYuMzAzMDhDMi45MDA4NCA2LjA2Mjg0IDMuMDI0NTcgNS43NjQxMyAzLjA0OTY4IDUuNDQ5NDhMMy4xMjUzNCA0LjUwMTI3QzMuMTgzOTQgMy43NjcgMy43NjcwMSAzLjE4Mzk0IDQuNTAxMjcgMy4xMjUzNEw1LjQ0OTQ4IDMuMDQ5NjhDNS43NjQxMyAzLjAyNDU3IDYuMDYyODQgMi45MDA4NCA2LjMwMzA4IDIuNjk2MUw3LjAyNzA3IDIuMDc5MTJaIiBmaWxsPSJjdXJyZW50Q29sb3IiIGZpbGwtb3BhY2l0eT0iMC4yNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAuNjcxOSA1Ljc2NTYzTDcuNTE2MDQgMTAuMTA0OUM3LjMzNTMzIDEwLjM1MzQgNi45NzUzNyAxMC4zODE2IDYuNzU4MTIgMTAuMTY0NEw1LjQyMTg4IDguODI4MTIiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==)
+ * @see https://foamicons.com/icons/badge-checkbox-duotone
+ *
+ * @param {object} props - Icon props extending SVGProps<SVGSVGElement>
+ * @param {number | string} [props.size=16] - Icon size (width and height)
+ * @param {number | string} [props.strokeWidth=1] - Stroke width
+ * @param {boolean} [props.absoluteStrokeWidth=false] - Keep stroke width constant regardless of size
+ * @param {string} [props.color='currentColor'] - Icon color (stroke color)
+ * @returns {React.ReactElement} SVG icon element
+ */
+export const BadgeCheckboxDuotone = createFoamicon('BadgeCheckboxDuotone', __iconNode);

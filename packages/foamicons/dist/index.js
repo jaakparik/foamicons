@@ -4371,38 +4371,88 @@ var __iconNode102 = [
 ];
 var AtSign = createFoamicon("AtSign", __iconNode102);
 
-// src/icons/BanDuotone.tsx
+// src/icons/BadgeCheckboxDuotone.tsx
 var __iconNode103 = [
   [
     "path",
     {
-      d: "M12.2426 12.2426C9.89949 14.5858 6.10051 14.5858 3.75736 12.2426C1.41421 9.89949 1.41421 6.1005 3.75736 3.75735M12.2426 12.2426C14.5858 9.89949 14.5858 6.1005 12.2426 3.75735C9.89949 1.4142 6.10051 1.4142 3.75736 3.75735M12.2426 12.2426L3.75736 3.75735",
+      d: "M7.02707 2.07912C7.58771 1.60135 8.41229 1.60135 8.97293 2.07912L9.69692 2.6961C9.93716 2.90084 10.2359 3.02457 10.5505 3.04968L11.4987 3.12534C12.233 3.18394 12.8161 3.76701 12.8747 4.50127L12.9503 5.44948C12.9754 5.76413 13.0992 6.06284 13.3039 6.30308L13.9209 7.02707C14.3986 7.58771 14.3986 8.41229 13.9209 8.97293L13.3039 9.69692C13.0992 9.93716 12.9754 10.2359 12.9503 10.5505L12.8747 11.4987C12.8161 12.233 12.233 12.8161 11.4987 12.8747L10.5505 12.9503C10.2359 12.9754 9.93716 13.0992 9.69692 13.3039L8.97293 13.9209C8.41229 14.3986 7.58771 14.3986 7.02707 13.9209L6.30308 13.3039C6.06284 13.0992 5.76413 12.9754 5.44948 12.9503L4.50127 12.8747C3.767 12.8161 3.18394 12.233 3.12534 11.4987L3.04968 10.5505C3.02457 10.2359 2.90084 9.93716 2.6961 9.69692L2.07912 8.97293C1.60135 8.41229 1.60135 7.58771 2.07912 7.02707L2.6961 6.30308C2.90084 6.06284 3.02457 5.76413 3.04968 5.44948L3.12534 4.50127C3.18394 3.767 3.76701 3.18394 4.50127 3.12534L5.44948 3.04968C5.76413 3.02457 6.06284 2.90084 6.30308 2.6961L7.02707 2.07912Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "5twfxo"
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "8yzzz7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.6719 5.76563L7.51604 10.1049C7.33533 10.3534 6.97537 10.3816 6.75812 10.1644L5.42188 8.82812",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z3wv5w"
     }
   ]
 ];
-var BanDuotone = createFoamicon("BanDuotone", __iconNode103);
+var BadgeCheckboxDuotone = createFoamicon("BadgeCheckboxDuotone", __iconNode103);
 
-// src/icons/BanFill.tsx
+// src/icons/BadgeCheckboxFill.tsx
 var __iconNode104 = [
   [
     "path",
     {
-      d: "M12.2426 12.2426C9.89949 14.5858 6.10051 14.5858 3.75736 12.2426C1.41421 9.89949 1.41421 6.1005 3.75736 3.75735M12.2426 12.2426C14.5858 9.89949 14.5858 6.1005 12.2426 3.75735C9.89949 1.4142 6.10051 1.4142 3.75736 3.75735M12.2426 12.2426L3.75736 3.75735",
+      d: "M7.02707 2.07912C7.58771 1.60135 8.41229 1.60135 8.97293 2.07912L9.69692 2.6961C9.93716 2.90084 10.2359 3.02457 10.5505 3.04968L11.4987 3.12534C12.233 3.18394 12.8161 3.76701 12.8747 4.50127L12.9503 5.44948C12.9754 5.76413 13.0992 6.06284 13.3039 6.30308L13.9209 7.02707C14.3986 7.58771 14.3986 8.41229 13.9209 8.97293L13.3039 9.69692C13.0992 9.93716 12.9754 10.2359 12.9503 10.5505L12.8747 11.4987C12.8161 12.233 12.233 12.8161 11.4987 12.8747L10.5505 12.9503C10.2359 12.9754 9.93716 13.0992 9.69692 13.3039L8.97293 13.9209C8.41229 14.3986 7.58771 14.3986 7.02707 13.9209L6.30308 13.3039C6.06284 13.0992 5.76413 12.9754 5.44948 12.9503L4.50127 12.8747C3.767 12.8161 3.18394 12.233 3.12534 11.4987L3.04968 10.5505C3.02457 10.2359 2.90084 9.93716 2.6961 9.69692L2.07912 8.97293C1.60135 8.41229 1.60135 7.58771 2.07912 7.02707L2.6961 6.30308C2.90084 6.06284 3.02457 5.76413 3.04968 5.44948L3.12534 4.50127C3.18394 3.767 3.76701 3.18394 4.50127 3.12534L5.44948 3.04968C5.76413 3.02457 6.06284 2.90084 6.30308 2.6961L7.02707 2.07912Z",
+      fill: "currentColor",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "5twfxo"
+      key: "x9va5r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.6719 5.76563L7.51604 10.1049C7.33533 10.3534 6.97537 10.3816 6.75812 10.1644L5.42188 8.82812",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z5yrqx"
     }
   ]
 ];
-var BanFill = createFoamicon("BanFill", __iconNode104);
+var BadgeCheckboxFill = createFoamicon("BadgeCheckboxFill", __iconNode104);
 
-// src/icons/Ban.tsx
+// src/icons/BadgeCheckbox.tsx
 var __iconNode105 = [
+  [
+    "path",
+    {
+      d: "M7.02707 2.07912C7.58771 1.60135 8.41229 1.60135 8.97293 2.07912L9.69692 2.6961C9.93716 2.90084 10.2359 3.02457 10.5505 3.04968L11.4987 3.12534C12.233 3.18394 12.8161 3.76701 12.8747 4.50127L12.9503 5.44948C12.9754 5.76413 13.0992 6.06284 13.3039 6.30308L13.9209 7.02707C14.3986 7.58771 14.3986 8.41229 13.9209 8.97293L13.3039 9.69692C13.0992 9.93716 12.9754 10.2359 12.9503 10.5505L12.8747 11.4987C12.8161 12.233 12.233 12.8161 11.4987 12.8747L10.5505 12.9503C10.2359 12.9754 9.93716 13.0992 9.69692 13.3039L8.97293 13.9209C8.41229 14.3986 7.58771 14.3986 7.02707 13.9209L6.30308 13.3039C6.06284 13.0992 5.76413 12.9754 5.44948 12.9503L4.50127 12.8747C3.767 12.8161 3.18394 12.233 3.12534 11.4987L3.04968 10.5505C3.02457 10.2359 2.90084 9.93716 2.6961 9.69692L2.07912 8.97293C1.60135 8.41229 1.60135 7.58771 2.07912 7.02707L2.6961 6.30308C2.90084 6.06284 3.02457 5.76413 3.04968 5.44948L3.12534 4.50127C3.18394 3.767 3.76701 3.18394 4.50127 3.12534L5.44948 3.04968C5.76413 3.02457 6.06284 2.90084 6.30308 2.6961L7.02707 2.07912Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rdy854"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.6719 5.76563L7.51604 10.1049C7.33533 10.3534 6.97537 10.3816 6.75812 10.1644L5.42188 8.82812",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "z3wv5w"
+    }
+  ]
+];
+var BadgeCheckbox = createFoamicon("BadgeCheckbox", __iconNode105);
+
+// src/icons/BanDuotone.tsx
+var __iconNode106 = [
   [
     "path",
     {
@@ -4414,10 +4464,40 @@ var __iconNode105 = [
     }
   ]
 ];
-var Ban = createFoamicon("Ban", __iconNode105);
+var BanDuotone = createFoamicon("BanDuotone", __iconNode106);
+
+// src/icons/BanFill.tsx
+var __iconNode107 = [
+  [
+    "path",
+    {
+      d: "M12.2426 12.2426C9.89949 14.5858 6.10051 14.5858 3.75736 12.2426C1.41421 9.89949 1.41421 6.1005 3.75736 3.75735M12.2426 12.2426C14.5858 9.89949 14.5858 6.1005 12.2426 3.75735C9.89949 1.4142 6.10051 1.4142 3.75736 3.75735M12.2426 12.2426L3.75736 3.75735",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5twfxo"
+    }
+  ]
+];
+var BanFill = createFoamicon("BanFill", __iconNode107);
+
+// src/icons/Ban.tsx
+var __iconNode108 = [
+  [
+    "path",
+    {
+      d: "M12.2426 12.2426C9.89949 14.5858 6.10051 14.5858 3.75736 12.2426C1.41421 9.89949 1.41421 6.1005 3.75736 3.75735M12.2426 12.2426C14.5858 9.89949 14.5858 6.1005 12.2426 3.75735C9.89949 1.4142 6.10051 1.4142 3.75736 3.75735M12.2426 12.2426L3.75736 3.75735",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5twfxo"
+    }
+  ]
+];
+var Ban = createFoamicon("Ban", __iconNode108);
 
 // src/icons/BellDuotone.tsx
-var __iconNode106 = [
+var __iconNode109 = [
   [
     "path",
     {
@@ -4443,10 +4523,10 @@ var __iconNode106 = [
     }
   ]
 ];
-var BellDuotone = createFoamicon("BellDuotone", __iconNode106);
+var BellDuotone = createFoamicon("BellDuotone", __iconNode109);
 
 // src/icons/BellFill.tsx
-var __iconNode107 = [
+var __iconNode110 = [
   [
     "path",
     {
@@ -4469,10 +4549,10 @@ var __iconNode107 = [
     }
   ]
 ];
-var BellFill = createFoamicon("BellFill", __iconNode107);
+var BellFill = createFoamicon("BellFill", __iconNode110);
 
 // src/icons/Bell.tsx
-var __iconNode108 = [
+var __iconNode111 = [
   [
     "path",
     {
@@ -4484,10 +4564,10 @@ var __iconNode108 = [
     }
   ]
 ];
-var Bell = createFoamicon("Bell", __iconNode108);
+var Bell = createFoamicon("Bell", __iconNode111);
 
 // src/icons/BoldDuotone.tsx
-var __iconNode109 = [
+var __iconNode112 = [
   [
     "path",
     {
@@ -4499,10 +4579,10 @@ var __iconNode109 = [
     }
   ]
 ];
-var BoldDuotone = createFoamicon("BoldDuotone", __iconNode109);
+var BoldDuotone = createFoamicon("BoldDuotone", __iconNode112);
 
 // src/icons/BoldFill.tsx
-var __iconNode110 = [
+var __iconNode113 = [
   [
     "path",
     {
@@ -4514,10 +4594,10 @@ var __iconNode110 = [
     }
   ]
 ];
-var BoldFill = createFoamicon("BoldFill", __iconNode110);
+var BoldFill = createFoamicon("BoldFill", __iconNode113);
 
 // src/icons/Bold.tsx
-var __iconNode111 = [
+var __iconNode114 = [
   [
     "path",
     {
@@ -4529,10 +4609,10 @@ var __iconNode111 = [
     }
   ]
 ];
-var Bold = createFoamicon("Bold", __iconNode111);
+var Bold = createFoamicon("Bold", __iconNode114);
 
 // src/icons/BookmarkDuotone.tsx
-var __iconNode112 = [
+var __iconNode115 = [
   [
     "path",
     {
@@ -4548,10 +4628,10 @@ var __iconNode112 = [
     }
   ]
 ];
-var BookmarkDuotone = createFoamicon("BookmarkDuotone", __iconNode112);
+var BookmarkDuotone = createFoamicon("BookmarkDuotone", __iconNode115);
 
 // src/icons/BookmarkFill.tsx
-var __iconNode113 = [
+var __iconNode116 = [
   [
     "path",
     {
@@ -4564,10 +4644,10 @@ var __iconNode113 = [
     }
   ]
 ];
-var BookmarkFill = createFoamicon("BookmarkFill", __iconNode113);
+var BookmarkFill = createFoamicon("BookmarkFill", __iconNode116);
 
 // src/icons/Bookmark.tsx
-var __iconNode114 = [
+var __iconNode117 = [
   [
     "path",
     {
@@ -4579,10 +4659,206 @@ var __iconNode114 = [
     }
   ]
 ];
-var Bookmark = createFoamicon("Bookmark", __iconNode114);
+var Bookmark = createFoamicon("Bookmark", __iconNode117);
+
+// src/icons/BrainDuotone.tsx
+var __iconNode118 = [
+  [
+    "rect",
+    {
+      width: "16",
+      height: "16",
+      fill: "white",
+      key: "zec9jj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 9C3 8.41659 3.20131 7.88112 3.53647 7.45595C3.58187 7.39836 3.59537 7.32176 3.57422 7.25155C3.52637 7.09266 3.5 6.92447 3.5 6.75C3.5 5.92672 4.06862 5.23748 4.8345 5.05116C4.96179 5.02019 5.04583 4.88788 5.02288 4.7589C5.00793 4.67483 5 4.58836 5 4.5C5 3.67157 5.67157 3 6.5 3C7.32843 3 8 3.67157 8 4.5L8 11C8 12.3807 7.10457 13.5 6 13.5C4.89543 13.5 4 12.3807 4 11C4 10.9982 3.99913 10.9964 3.99766 10.9953C3.39261 10.539 3 9.81618 3 9Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "ezs2x3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.38797 7.6617C3.14228 8.04863 3 8.50767 3 8.99995C3 10.1319 3.75235 11.0882 4.78429 11.396",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "jjcvsq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 7C8 8 7.3 8.5 6.5 8.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "b2mnxu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 9C13 8.41659 12.7987 7.88112 12.4635 7.45595C12.4181 7.39836 12.4046 7.32176 12.4258 7.25155C12.4736 7.09266 12.5 6.92447 12.5 6.75C12.5 5.92672 11.9314 5.23748 11.1655 5.05116C11.0382 5.0202 10.9542 4.88788 10.9771 4.7589C10.9921 4.67483 11 4.58836 11 4.5C11 3.67157 10.3284 3 9.5 3C8.67157 3 8 3.67157 8 4.5L8 11C8 12.3807 8.89543 13.5 10 13.5C11.1046 13.5 12 12.3807 12 11C12 10.9982 12.0009 10.9964 12.0023 10.9953C12.6074 10.539 13 9.81618 13 9Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "y29az1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.612 7.6617C12.8577 8.04863 13 8.50767 13 8.99995C13 10.1319 12.2477 11.0882 11.2157 11.396",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "d7fnoc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 7C8 8 8.7 8.5 9.5 8.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "u6mri5"
+    }
+  ]
+];
+var BrainDuotone = createFoamicon("BrainDuotone", __iconNode118);
+
+// src/icons/BrainFill.tsx
+var __iconNode119 = [
+  [
+    "rect",
+    {
+      width: "16",
+      height: "16",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      key: "ubarid"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 9C3 8.41659 3.20131 7.88112 3.53647 7.45595C3.58187 7.39836 3.59537 7.32176 3.57422 7.25155C3.52637 7.09266 3.5 6.92447 3.5 6.75C3.5 5.92672 4.06862 5.23748 4.8345 5.05116C4.96179 5.02019 5.04583 4.88788 5.02288 4.7589C5.00793 4.67483 5 4.58836 5 4.5C5 3.67157 5.67157 3 6.5 3C7.32843 3 8 3.67157 8 4.5L8 11C8 12.3807 7.10457 13.5 6 13.5C4.89543 13.5 4 12.3807 4 11C4 10.9982 3.99913 10.9964 3.99766 10.9953C3.39261 10.539 3 9.81618 3 9Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "jsnp7p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 9C13 8.41659 12.7987 7.88112 12.4635 7.45595C12.4181 7.39836 12.4046 7.32176 12.4258 7.25155C12.4736 7.09266 12.5 6.92447 12.5 6.75C12.5 5.92672 11.9314 5.23748 11.1655 5.05116C11.0382 5.0202 10.9542 4.88788 10.9771 4.7589C10.9921 4.67483 11 4.58836 11 4.5C11 3.67157 10.3284 3 9.5 3C8.67157 3 8 3.67157 8 4.5L8 11C8 12.3807 8.89543 13.5 10 13.5C11.1046 13.5 12 12.3807 12 11C12 10.9982 12.0009 10.9964 12.0023 10.9953C12.6074 10.539 13 9.81618 13 9Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "65tfk5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 7C8 8 7.3 8.5 6.5 8.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      key: "ixjrfn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 7C8 8 8.7 8.5 9.5 8.5",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      key: "vhmqay"
+    }
+  ]
+];
+var BrainFill = createFoamicon("BrainFill", __iconNode119);
+
+// src/icons/Brain.tsx
+var __iconNode120 = [
+  [
+    "rect",
+    {
+      width: "16",
+      height: "16",
+      fill: "white",
+      key: "zec9jj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 9C3 8.41659 3.20131 7.88112 3.53647 7.45595C3.58187 7.39836 3.59537 7.32176 3.57422 7.25155C3.52637 7.09266 3.5 6.92447 3.5 6.75C3.5 5.92672 4.06862 5.23748 4.8345 5.05116C4.96179 5.02019 5.04583 4.88788 5.02288 4.7589C5.00793 4.67483 5 4.58836 5 4.5C5 3.67157 5.67157 3 6.5 3C7.32843 3 8 3.67157 8 4.5L8 11C8 12.3807 7.10457 13.5 6 13.5C4.89543 13.5 4 12.3807 4 11C4 10.9982 3.99913 10.9964 3.99766 10.9953C3.39261 10.539 3 9.81618 3 9Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "y3gwu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.38797 7.6617C3.14228 8.04863 3 8.50767 3 8.99995C3 10.1319 3.75235 11.0882 4.78429 11.396",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "jjcvsq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 7C8 8 7.3 8.5 6.5 8.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "b2mnxu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 9C13 8.41659 12.7987 7.88112 12.4635 7.45595C12.4181 7.39836 12.4046 7.32176 12.4258 7.25155C12.4736 7.09266 12.5 6.92447 12.5 6.75C12.5 5.92672 11.9314 5.23748 11.1655 5.05116C11.0382 5.0202 10.9542 4.88788 10.9771 4.7589C10.9921 4.67483 11 4.58836 11 4.5C11 3.67157 10.3284 3 9.5 3C8.67157 3 8 3.67157 8 4.5L8 11C8 12.3807 8.89543 13.5 10 13.5C11.1046 13.5 12 12.3807 12 11C12 10.9982 12.0009 10.9964 12.0023 10.9953C12.6074 10.539 13 9.81618 13 9Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "e85ovm"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.612 7.6617C12.8577 8.04863 13 8.50767 13 8.99995C13 10.1319 12.2477 11.0882 11.2157 11.396",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "d7fnoc"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 7C8 8 8.7 8.5 9.5 8.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "u6mri5"
+    }
+  ]
+];
+var Brain = createFoamicon("Brain", __iconNode120);
 
 // src/icons/CalendarDuotone.tsx
-var __iconNode115 = [
+var __iconNode121 = [
   [
     "path",
     {
@@ -4628,10 +4904,10 @@ var __iconNode115 = [
     }
   ]
 ];
-var CalendarDuotone = createFoamicon("CalendarDuotone", __iconNode115);
+var CalendarDuotone = createFoamicon("CalendarDuotone", __iconNode121);
 
 // src/icons/CalendarFill.tsx
-var __iconNode116 = [
+var __iconNode122 = [
   [
     "path",
     {
@@ -4674,10 +4950,10 @@ var __iconNode116 = [
     }
   ]
 ];
-var CalendarFill = createFoamicon("CalendarFill", __iconNode116);
+var CalendarFill = createFoamicon("CalendarFill", __iconNode122);
 
 // src/icons/Calendar.tsx
-var __iconNode117 = [
+var __iconNode123 = [
   [
     "path",
     {
@@ -4719,10 +4995,387 @@ var __iconNode117 = [
     }
   ]
 ];
-var Calendar = createFoamicon("Calendar", __iconNode117);
+var Calendar = createFoamicon("Calendar", __iconNode123);
+
+// src/icons/ChartAreaDuotone.tsx
+var __iconNode124 = [
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 7.58284V10.8C5 10.9105 5.08954 11 5.2 11H11.8C11.9105 11 12 10.9105 12 10.8V4.04065C12 3.85497 11.769 3.76951 11.6481 3.91049L9.16226 6.8107C9.07899 6.90785 8.92718 6.9029 8.85041 6.80054L7.63836 5.18448C7.56534 5.08711 7.423 5.077 7.33694 5.16306L5.05858 7.44142C5.02107 7.47893 5 7.5298 5 7.58284Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "4lves2"
+    }
+  ]
+];
+var ChartAreaDuotone = createFoamicon("ChartAreaDuotone", __iconNode124);
+
+// src/icons/ChartAreaFill.tsx
+var __iconNode125 = [
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 7.58284V10.8C5 10.9105 5.08954 11 5.2 11H11.8C11.9105 11 12 10.9105 12 10.8V4.04065C12 3.85497 11.769 3.76951 11.6481 3.91049L9.16226 6.8107C9.07899 6.90785 8.92718 6.9029 8.85041 6.80054L7.63836 5.18448C7.56534 5.08711 7.423 5.077 7.33694 5.16306L5.05858 7.44142C5.02107 7.47893 5 7.5298 5 7.58284Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5em7ng"
+    }
+  ]
+];
+var ChartAreaFill = createFoamicon("ChartAreaFill", __iconNode125);
+
+// src/icons/ChartArea.tsx
+var __iconNode126 = [
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 7.58284V10.8C5 10.9105 5.08954 11 5.2 11H11.8C11.9105 11 12 10.9105 12 10.8V4.04065C12 3.85497 11.769 3.76951 11.6481 3.91049L9.16226 6.8107C9.07899 6.90785 8.92718 6.9029 8.85041 6.80054L7.63836 5.18448C7.56534 5.08711 7.423 5.077 7.33694 5.16306L5.05858 7.44142C5.02107 7.47893 5 7.5298 5 7.58284Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sdr785"
+    }
+  ]
+];
+var ChartArea = createFoamicon("ChartArea", __iconNode126);
+
+// src/icons/ChartBarStackedDuotone.tsx
+var __iconNode127 = [
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 4.5C5 4.22386 5.22386 4 5.5 4H10V6.5H5.5C5.22386 6.5 5 6.27614 5 6V4.5Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "rp8pzi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 9.5C5 9.22386 5.22386 9 5.5 9H7V11.5H5.5C5.22386 11.5 5 11.2761 5 11V9.5Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "tld95k"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "5",
+      y: "9",
+      width: "5",
+      height: "2.5",
+      rx: "0.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "dx5jtc"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "5",
+      y: "4",
+      width: "8",
+      height: "2.5",
+      rx: "0.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "18po4v"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 9V11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "i5q99a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 4V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "rkxb4c"
+    }
+  ]
+];
+var ChartBarStackedDuotone = createFoamicon("ChartBarStackedDuotone", __iconNode127);
+
+// src/icons/ChartBarStackedFill.tsx
+var __iconNode128 = [
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 9.5C5 9.22386 5.22386 9 5.5 9H7V11.5H5.5C5.22386 11.5 5 11.2761 5 11V9.5Z",
+      fill: "currentColor",
+      key: "m2jpdr"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 4.5C5 4.22386 5.22386 4 5.5 4H10V6.5H5.5C5.22386 6.5 5 6.27614 5 6V4.5Z",
+      fill: "currentColor",
+      key: "1b7apn"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "5",
+      y: "9",
+      width: "5",
+      height: "2.5",
+      rx: "0.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "dx5jtc"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "5",
+      y: "4",
+      width: "8",
+      height: "2.5",
+      rx: "0.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "18po4v"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 9V11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "i5q99a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 4V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "rkxb4c"
+    }
+  ]
+];
+var ChartBarStackedFill = createFoamicon("ChartBarStackedFill", __iconNode128);
+
+// src/icons/ChartBarStacked.tsx
+var __iconNode129 = [
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swde"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "5",
+      y: "9",
+      width: "5",
+      height: "2.5",
+      rx: "0.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "dx5jte"
+    }
+  ],
+  [
+    "rect",
+    {
+      x: "5",
+      y: "4",
+      width: "8",
+      height: "2.5",
+      rx: "0.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "18po4t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 9V11.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "i5q998"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 4V6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "rkxb4a"
+    }
+  ]
+];
+var ChartBarStacked = createFoamicon("ChartBarStacked", __iconNode129);
+
+// src/icons/ChartColumnDuotone.tsx
+var __iconNode130 = [
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 11V7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7s762f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 11V5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4p2gwz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 11V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qr8tkf"
+    }
+  ]
+];
+var ChartColumnDuotone = createFoamicon("ChartColumnDuotone", __iconNode130);
+
+// src/icons/ChartColumnFill.tsx
+var __iconNode131 = [
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 11V7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7s762f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 11V5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4p2gwz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 11V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qr8tkf"
+    }
+  ]
+];
+var ChartColumnFill = createFoamicon("ChartColumnFill", __iconNode131);
 
 // src/icons/ChartColumnSquareDuotone.tsx
-var __iconNode118 = [
+var __iconNode132 = [
   [
     "path",
     {
@@ -4768,10 +5421,10 @@ var __iconNode118 = [
     }
   ]
 ];
-var ChartColumnSquareDuotone = createFoamicon("ChartColumnSquareDuotone", __iconNode118);
+var ChartColumnSquareDuotone = createFoamicon("ChartColumnSquareDuotone", __iconNode132);
 
 // src/icons/ChartColumnSquareFill.tsx
-var __iconNode119 = [
+var __iconNode133 = [
   [
     "path",
     {
@@ -4814,10 +5467,10 @@ var __iconNode119 = [
     }
   ]
 ];
-var ChartColumnSquareFill = createFoamicon("ChartColumnSquareFill", __iconNode119);
+var ChartColumnSquareFill = createFoamicon("ChartColumnSquareFill", __iconNode133);
 
 // src/icons/ChartColumnSquare.tsx
-var __iconNode120 = [
+var __iconNode134 = [
   [
     "path",
     {
@@ -4859,10 +5512,577 @@ var __iconNode120 = [
     }
   ]
 ];
-var ChartColumnSquare = createFoamicon("ChartColumnSquare", __iconNode120);
+var ChartColumnSquare = createFoamicon("ChartColumnSquare", __iconNode134);
+
+// src/icons/ChartColumn.tsx
+var __iconNode135 = [
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swde"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 11V7.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7s762f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 11V5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4p2gwz"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 11V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "qr8tkf"
+    }
+  ]
+];
+var ChartColumn = createFoamicon("ChartColumn", __iconNode135);
+
+// src/icons/ChartNetworkDuotone.tsx
+var __iconNode136 = [
+  [
+    "circle",
+    {
+      cx: "5.25",
+      cy: "10.75",
+      r: "1.25",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "f9s2d3"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.75",
+      cy: "8.75",
+      r: "1.25",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "cgkn74"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "6.25",
+      cy: "5.75",
+      r: "1.25",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "ax8sf6"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 10.5L9.5 9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "7m0ous"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 8L7.5 6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "dnq449"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swdj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.5 5L12 3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "q7pkai"
+    }
+  ]
+];
+var ChartNetworkDuotone = createFoamicon("ChartNetworkDuotone", __iconNode136);
+
+// src/icons/ChartNetworkFill.tsx
+var __iconNode137 = [
+  [
+    "circle",
+    {
+      cx: "5.25",
+      cy: "10.75",
+      r: "1.25",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yan4vf"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.75",
+      cy: "8.75",
+      r: "1.25",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e9c7b6"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "6.25",
+      cy: "5.75",
+      r: "1.25",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "u2wolu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 10.5L9.5 9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "7m0ous"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 8L7.5 6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "dnq449"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swdj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.5 5L12 3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "q7pkai"
+    }
+  ]
+];
+var ChartNetworkFill = createFoamicon("ChartNetworkFill", __iconNode137);
+
+// src/icons/ChartNetwork.tsx
+var __iconNode138 = [
+  [
+    "circle",
+    {
+      cx: "5.25",
+      cy: "10.75",
+      r: "1.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "6imejy"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "10.75",
+      cy: "8.75",
+      r: "1.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "m5v15j"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "6.25",
+      cy: "5.75",
+      r: "1.25",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ptyaol"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.5 10.5L9.5 9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "7m0ous"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 8L7.5 6.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "dnq449"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.5 5L12 3.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "q7pkaj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 2.5V12C2 13.1046 2.89543 14 4 14H13.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "v2swdk"
+    }
+  ]
+];
+var ChartNetwork = createFoamicon("ChartNetwork", __iconNode138);
+
+// src/icons/ChartNoAxesCombinedDuotone.tsx
+var __iconNode139 = [
+  [
+    "path",
+    {
+      d: "M5.5 14V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rr6ys1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 14V11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e5nvx4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 14V7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n53oz2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 14V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "c3yrou"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 14V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yyij5b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.5 10L5.35908 5.65853C5.43553 5.57253 5.56861 5.56861 5.64998 5.64998L7.86412 7.86412C7.94003 7.94003 8.06232 7.94247 8.1412 7.86966L14.5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "552e9y"
+    }
+  ]
+];
+var ChartNoAxesCombinedDuotone = createFoamicon("ChartNoAxesCombinedDuotone", __iconNode139);
+
+// src/icons/ChartNoAxesCombinedFill.tsx
+var __iconNode140 = [
+  [
+    "path",
+    {
+      d: "M5.5 14V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rr6ys1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 14V11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e5nvx4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 14V7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n53oz2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 14V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "c3yrou"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 14V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yyij5b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.5 10L5.35908 5.65853C5.43553 5.57253 5.56861 5.56861 5.64998 5.64998L7.86412 7.86412C7.94003 7.94003 8.06232 7.94247 8.1412 7.86966L14.5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "552e9y"
+    }
+  ]
+];
+var ChartNoAxesCombinedFill = createFoamicon("ChartNoAxesCombinedFill", __iconNode140);
+
+// src/icons/ChartNoAxesCombined.tsx
+var __iconNode141 = [
+  [
+    "path",
+    {
+      d: "M5.5 14V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "rr6ys1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 14V11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e5nvx4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13 14V7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "n53oz2"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 14V9.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "c3yrou"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3 14V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yyij5b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M1.5 10L5.35908 5.65853C5.43553 5.57253 5.56861 5.56861 5.64998 5.64998L7.86412 7.86412C7.94003 7.94003 8.06232 7.94247 8.1412 7.86966L14.5 2",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "552e9y"
+    }
+  ]
+];
+var ChartNoAxesCombined = createFoamicon("ChartNoAxesCombined", __iconNode141);
+
+// src/icons/ChartPieDuotone.tsx
+var __iconNode142 = [
+  [
+    "path",
+    {
+      d: "M11.584 11C10.8124 12.7659 9.05032 14 7 14C4.23858 14 2 11.7614 2 8.99997C2 6.94965 3.2341 5.18757 5 4.41602",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "utvvev"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 2.19775C7 2.08729 7.09008 1.99746 7.20049 2.00057C10.9072 2.10482 13.8929 5.09058 13.9972 8.79726C14.0003 8.90767 13.9105 8.99775 13.8 8.99775H7.2C7.08954 8.99775 7 8.90821 7 8.79775V2.19775Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "7ojto3"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.9972 8.79726L14.497 8.7832L13.9972 8.79726ZM7.20049 2.00057L7.18644 2.50037C10.628 2.59716 13.4006 5.36976 13.4974 8.81131L13.9972 8.79726L14.497 8.7832C14.3853 4.81141 11.1863 1.61247 7.21455 1.50076L7.20049 2.00057ZM13.8 8.99775V8.49775H7.2V8.99775V9.49775H13.8V8.99775ZM7 8.79775H7.5V2.19775H7H6.5V8.79775H7ZM7.2 8.99775V8.49775C7.36569 8.49775 7.5 8.63206 7.5 8.79775H7H6.5C6.5 9.18435 6.8134 9.49775 7.2 9.49775V8.99775ZM13.9972 8.79726L13.4974 8.81131C13.4924 8.63267 13.6364 8.49775 13.8 8.49775V8.99775V9.49775C14.1845 9.49775 14.5082 9.18267 14.497 8.7832L13.9972 8.79726ZM7.20049 2.00057L7.21455 1.50076C6.81508 1.48953 6.5 1.81323 6.5 2.19775H7H7.5C7.5 2.36136 7.36508 2.50539 7.18644 2.50037L7.20049 2.00057Z",
+      fill: "currentColor",
+      key: "8w6hcr"
+    }
+  ]
+];
+var ChartPieDuotone = createFoamicon("ChartPieDuotone", __iconNode142);
+
+// src/icons/ChartPieFill.tsx
+var __iconNode143 = [
+  [
+    "path",
+    {
+      d: "M11.584 11C10.8124 12.7659 9.05032 14 7 14C4.23858 14 2 11.7614 2 8.99997C2 6.94965 3.2341 5.18757 5 4.41602",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "utvvev"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7 2.19775C7 2.08729 7.09008 1.99746 7.20049 2.00057C10.9072 2.10482 13.8929 5.09058 13.9972 8.79726C14.0003 8.90767 13.9105 8.99775 13.8 8.99775H7.2C7.08954 8.99775 7 8.90821 7 8.79775V2.19775Z",
+      fill: "currentColor",
+      key: "qky62z"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.9972 8.79726L14.497 8.7832L13.9972 8.79726ZM7.20049 2.00057L7.18644 2.50037C10.628 2.59716 13.4006 5.36976 13.4974 8.81131L13.9972 8.79726L14.497 8.7832C14.3853 4.81141 11.1863 1.61247 7.21455 1.50076L7.20049 2.00057ZM13.8 8.99775V8.49775H7.2V8.99775V9.49775H13.8V8.99775ZM7 8.79775H7.5V2.19775H7H6.5V8.79775H7ZM7.2 8.99775V8.49775C7.36569 8.49775 7.5 8.63206 7.5 8.79775H7H6.5C6.5 9.18435 6.8134 9.49775 7.2 9.49775V8.99775ZM13.9972 8.79726L13.4974 8.81131C13.4924 8.63267 13.6364 8.49775 13.8 8.49775V8.99775V9.49775C14.1845 9.49775 14.5082 9.18267 14.497 8.7832L13.9972 8.79726ZM7.20049 2.00057L7.21455 1.50076C6.81508 1.48953 6.5 1.81323 6.5 2.19775H7H7.5C7.5 2.36136 7.36508 2.50539 7.18644 2.50037L7.20049 2.00057Z",
+      fill: "currentColor",
+      key: "8w6hcr"
+    }
+  ]
+];
+var ChartPieFill = createFoamicon("ChartPieFill", __iconNode143);
+
+// src/icons/ChartPie.tsx
+var __iconNode144 = [
+  [
+    "path",
+    {
+      d: "M11.584 11C10.8124 12.7659 9.05032 14 7 14C4.23858 14 2 11.7614 2 8.99997C2 6.94965 3.2341 5.18757 5 4.41602",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "utvvev"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.9972 8.79706L14.497 8.78301L13.9972 8.79706ZM7.20049 2.00037L7.18644 2.50018C10.628 2.59697 13.4006 5.36957 13.4974 8.81112L13.9972 8.79706L14.497 8.78301C14.3853 4.81122 11.1863 1.61228 7.21455 1.50057L7.20049 2.00037ZM13.8 8.99756V8.49756H7.2V8.99756V9.49756H13.8V8.99756ZM7 8.79756H7.5V2.19756H7H6.5V8.79756H7ZM7.2 8.99756V8.49756C7.36569 8.49756 7.5 8.63187 7.5 8.79756H7H6.5C6.5 9.18416 6.8134 9.49756 7.2 9.49756V8.99756ZM13.9972 8.79706L13.4974 8.81112C13.4924 8.63248 13.6364 8.49756 13.8 8.49756V8.99756V9.49756C14.1845 9.49756 14.5082 9.18248 14.497 8.78301L13.9972 8.79706ZM7.20049 2.00037L7.21455 1.50057C6.81508 1.48934 6.5 1.81304 6.5 2.19756H7H7.5C7.5 2.36117 7.36508 2.5052 7.18644 2.50018L7.20049 2.00037Z",
+      fill: "currentColor",
+      key: "kcb4bj"
+    }
+  ]
+];
+var ChartPie = createFoamicon("ChartPie", __iconNode144);
 
 // src/icons/CheckboxDuotone.tsx
-var __iconNode121 = [
+var __iconNode145 = [
   [
     "path",
     {
@@ -4888,10 +6108,10 @@ var __iconNode121 = [
     }
   ]
 ];
-var CheckboxDuotone = createFoamicon("CheckboxDuotone", __iconNode121);
+var CheckboxDuotone = createFoamicon("CheckboxDuotone", __iconNode145);
 
 // src/icons/CheckboxFill.tsx
-var __iconNode122 = [
+var __iconNode146 = [
   [
     "path",
     {
@@ -4914,10 +6134,10 @@ var __iconNode122 = [
     }
   ]
 ];
-var CheckboxFill = createFoamicon("CheckboxFill", __iconNode122);
+var CheckboxFill = createFoamicon("CheckboxFill", __iconNode146);
 
 // src/icons/Checkbox.tsx
-var __iconNode123 = [
+var __iconNode147 = [
   [
     "path",
     {
@@ -4939,10 +6159,10 @@ var __iconNode123 = [
     }
   ]
 ];
-var Checkbox = createFoamicon("Checkbox", __iconNode123);
+var Checkbox = createFoamicon("Checkbox", __iconNode147);
 
 // src/icons/CheckmarkDuotone.tsx
-var __iconNode124 = [
+var __iconNode148 = [
   [
     "path",
     {
@@ -4954,10 +6174,10 @@ var __iconNode124 = [
     }
   ]
 ];
-var CheckmarkDuotone = createFoamicon("CheckmarkDuotone", __iconNode124);
+var CheckmarkDuotone = createFoamicon("CheckmarkDuotone", __iconNode148);
 
 // src/icons/CheckmarkFill.tsx
-var __iconNode125 = [
+var __iconNode149 = [
   [
     "path",
     {
@@ -4969,10 +6189,10 @@ var __iconNode125 = [
     }
   ]
 ];
-var CheckmarkFill = createFoamicon("CheckmarkFill", __iconNode125);
+var CheckmarkFill = createFoamicon("CheckmarkFill", __iconNode149);
 
 // src/icons/Checkmark.tsx
-var __iconNode126 = [
+var __iconNode150 = [
   [
     "path",
     {
@@ -4984,10 +6204,10 @@ var __iconNode126 = [
     }
   ]
 ];
-var Checkmark = createFoamicon("Checkmark", __iconNode126);
+var Checkmark = createFoamicon("Checkmark", __iconNode150);
 
 // src/icons/ChevronDownDuotone.tsx
-var __iconNode127 = [
+var __iconNode151 = [
   [
     "path",
     {
@@ -4999,10 +6219,10 @@ var __iconNode127 = [
     }
   ]
 ];
-var ChevronDownDuotone = createFoamicon("ChevronDownDuotone", __iconNode127);
+var ChevronDownDuotone = createFoamicon("ChevronDownDuotone", __iconNode151);
 
 // src/icons/ChevronDownFill.tsx
-var __iconNode128 = [
+var __iconNode152 = [
   [
     "path",
     {
@@ -5014,10 +6234,10 @@ var __iconNode128 = [
     }
   ]
 ];
-var ChevronDownFill = createFoamicon("ChevronDownFill", __iconNode128);
+var ChevronDownFill = createFoamicon("ChevronDownFill", __iconNode152);
 
 // src/icons/ChevronDown.tsx
-var __iconNode129 = [
+var __iconNode153 = [
   [
     "path",
     {
@@ -5029,10 +6249,10 @@ var __iconNode129 = [
     }
   ]
 ];
-var ChevronDown = createFoamicon("ChevronDown", __iconNode129);
+var ChevronDown = createFoamicon("ChevronDown", __iconNode153);
 
 // src/icons/ChevronLeftDuotone.tsx
-var __iconNode130 = [
+var __iconNode154 = [
   [
     "path",
     {
@@ -5044,10 +6264,10 @@ var __iconNode130 = [
     }
   ]
 ];
-var ChevronLeftDuotone = createFoamicon("ChevronLeftDuotone", __iconNode130);
+var ChevronLeftDuotone = createFoamicon("ChevronLeftDuotone", __iconNode154);
 
 // src/icons/ChevronLeftFill.tsx
-var __iconNode131 = [
+var __iconNode155 = [
   [
     "path",
     {
@@ -5059,10 +6279,10 @@ var __iconNode131 = [
     }
   ]
 ];
-var ChevronLeftFill = createFoamicon("ChevronLeftFill", __iconNode131);
+var ChevronLeftFill = createFoamicon("ChevronLeftFill", __iconNode155);
 
 // src/icons/ChevronLeft.tsx
-var __iconNode132 = [
+var __iconNode156 = [
   [
     "path",
     {
@@ -5074,10 +6294,10 @@ var __iconNode132 = [
     }
   ]
 ];
-var ChevronLeft = createFoamicon("ChevronLeft", __iconNode132);
+var ChevronLeft = createFoamicon("ChevronLeft", __iconNode156);
 
 // src/icons/ChevronRightDuotone.tsx
-var __iconNode133 = [
+var __iconNode157 = [
   [
     "path",
     {
@@ -5089,10 +6309,10 @@ var __iconNode133 = [
     }
   ]
 ];
-var ChevronRightDuotone = createFoamicon("ChevronRightDuotone", __iconNode133);
+var ChevronRightDuotone = createFoamicon("ChevronRightDuotone", __iconNode157);
 
 // src/icons/ChevronRightFill.tsx
-var __iconNode134 = [
+var __iconNode158 = [
   [
     "path",
     {
@@ -5104,10 +6324,10 @@ var __iconNode134 = [
     }
   ]
 ];
-var ChevronRightFill = createFoamicon("ChevronRightFill", __iconNode134);
+var ChevronRightFill = createFoamicon("ChevronRightFill", __iconNode158);
 
 // src/icons/ChevronRight.tsx
-var __iconNode135 = [
+var __iconNode159 = [
   [
     "path",
     {
@@ -5119,10 +6339,10 @@ var __iconNode135 = [
     }
   ]
 ];
-var ChevronRight = createFoamicon("ChevronRight", __iconNode135);
+var ChevronRight = createFoamicon("ChevronRight", __iconNode159);
 
 // src/icons/ChevronUpDownDuotone.tsx
-var __iconNode136 = [
+var __iconNode160 = [
   [
     "path",
     {
@@ -5144,10 +6364,10 @@ var __iconNode136 = [
     }
   ]
 ];
-var ChevronUpDownDuotone = createFoamicon("ChevronUpDownDuotone", __iconNode136);
+var ChevronUpDownDuotone = createFoamicon("ChevronUpDownDuotone", __iconNode160);
 
 // src/icons/ChevronUpDownFill.tsx
-var __iconNode137 = [
+var __iconNode161 = [
   [
     "path",
     {
@@ -5169,10 +6389,10 @@ var __iconNode137 = [
     }
   ]
 ];
-var ChevronUpDownFill = createFoamicon("ChevronUpDownFill", __iconNode137);
+var ChevronUpDownFill = createFoamicon("ChevronUpDownFill", __iconNode161);
 
 // src/icons/ChevronUpDown.tsx
-var __iconNode138 = [
+var __iconNode162 = [
   [
     "path",
     {
@@ -5194,10 +6414,10 @@ var __iconNode138 = [
     }
   ]
 ];
-var ChevronUpDown = createFoamicon("ChevronUpDown", __iconNode138);
+var ChevronUpDown = createFoamicon("ChevronUpDown", __iconNode162);
 
 // src/icons/ChevronUpDuotone.tsx
-var __iconNode139 = [
+var __iconNode163 = [
   [
     "path",
     {
@@ -5209,10 +6429,10 @@ var __iconNode139 = [
     }
   ]
 ];
-var ChevronUpDuotone = createFoamicon("ChevronUpDuotone", __iconNode139);
+var ChevronUpDuotone = createFoamicon("ChevronUpDuotone", __iconNode163);
 
 // src/icons/ChevronUpFill.tsx
-var __iconNode140 = [
+var __iconNode164 = [
   [
     "path",
     {
@@ -5224,10 +6444,10 @@ var __iconNode140 = [
     }
   ]
 ];
-var ChevronUpFill = createFoamicon("ChevronUpFill", __iconNode140);
+var ChevronUpFill = createFoamicon("ChevronUpFill", __iconNode164);
 
 // src/icons/ChevronUp.tsx
-var __iconNode141 = [
+var __iconNode165 = [
   [
     "path",
     {
@@ -5239,10 +6459,10 @@ var __iconNode141 = [
     }
   ]
 ];
-var ChevronUp = createFoamicon("ChevronUp", __iconNode141);
+var ChevronUp = createFoamicon("ChevronUp", __iconNode165);
 
 // src/icons/CircleAlertDuotone.tsx
-var __iconNode142 = [
+var __iconNode166 = [
   [
     "circle",
     {
@@ -5280,10 +6500,10 @@ var __iconNode142 = [
     }
   ]
 ];
-var CircleAlertDuotone = createFoamicon("CircleAlertDuotone", __iconNode142);
+var CircleAlertDuotone = createFoamicon("CircleAlertDuotone", __iconNode166);
 
 // src/icons/CircleAlertFill.tsx
-var __iconNode143 = [
+var __iconNode167 = [
   [
     "circle",
     {
@@ -5326,10 +6546,10 @@ var __iconNode143 = [
     }
   ]
 ];
-var CircleAlertFill = createFoamicon("CircleAlertFill", __iconNode143);
+var CircleAlertFill = createFoamicon("CircleAlertFill", __iconNode167);
 
 // src/icons/CircleAlert.tsx
-var __iconNode144 = [
+var __iconNode168 = [
   [
     "circle",
     {
@@ -5363,10 +6583,10 @@ var __iconNode144 = [
     }
   ]
 ];
-var CircleAlert = createFoamicon("CircleAlert", __iconNode144);
+var CircleAlert = createFoamicon("CircleAlert", __iconNode168);
 
 // src/icons/CircleCheckboxDuotone.tsx
-var __iconNode145 = [
+var __iconNode169 = [
   [
     "circle",
     {
@@ -5394,10 +6614,10 @@ var __iconNode145 = [
     }
   ]
 ];
-var CircleCheckboxDuotone = createFoamicon("CircleCheckboxDuotone", __iconNode145);
+var CircleCheckboxDuotone = createFoamicon("CircleCheckboxDuotone", __iconNode169);
 
 // src/icons/CircleCheckboxFill.tsx
-var __iconNode146 = [
+var __iconNode170 = [
   [
     "circle",
     {
@@ -5422,10 +6642,10 @@ var __iconNode146 = [
     }
   ]
 ];
-var CircleCheckboxFill = createFoamicon("CircleCheckboxFill", __iconNode146);
+var CircleCheckboxFill = createFoamicon("CircleCheckboxFill", __iconNode170);
 
 // src/icons/CircleCheckbox.tsx
-var __iconNode147 = [
+var __iconNode171 = [
   [
     "circle",
     {
@@ -5449,10 +6669,10 @@ var __iconNode147 = [
     }
   ]
 ];
-var CircleCheckbox = createFoamicon("CircleCheckbox", __iconNode147);
+var CircleCheckbox = createFoamicon("CircleCheckbox", __iconNode171);
 
 // src/icons/CircleDashedDuotone.tsx
-var __iconNode148 = [
+var __iconNode172 = [
   [
     "circle",
     {
@@ -5467,10 +6687,10 @@ var __iconNode148 = [
     }
   ]
 ];
-var CircleDashedDuotone = createFoamicon("CircleDashedDuotone", __iconNode148);
+var CircleDashedDuotone = createFoamicon("CircleDashedDuotone", __iconNode172);
 
 // src/icons/CircleDashedFill.tsx
-var __iconNode149 = [
+var __iconNode173 = [
   [
     "circle",
     {
@@ -5485,10 +6705,10 @@ var __iconNode149 = [
     }
   ]
 ];
-var CircleDashedFill = createFoamicon("CircleDashedFill", __iconNode149);
+var CircleDashedFill = createFoamicon("CircleDashedFill", __iconNode173);
 
 // src/icons/CircleDashed.tsx
-var __iconNode150 = [
+var __iconNode174 = [
   [
     "circle",
     {
@@ -5503,10 +6723,10 @@ var __iconNode150 = [
     }
   ]
 ];
-var CircleDashed = createFoamicon("CircleDashed", __iconNode150);
+var CircleDashed = createFoamicon("CircleDashed", __iconNode174);
 
 // src/icons/CircleDollarSignDuotone.tsx
-var __iconNode151 = [
+var __iconNode175 = [
   [
     "circle",
     {
@@ -5554,10 +6774,10 @@ var __iconNode151 = [
     }
   ]
 ];
-var CircleDollarSignDuotone = createFoamicon("CircleDollarSignDuotone", __iconNode151);
+var CircleDollarSignDuotone = createFoamicon("CircleDollarSignDuotone", __iconNode175);
 
 // src/icons/CircleDollarSignFill.tsx
-var __iconNode152 = [
+var __iconNode176 = [
   [
     "circle",
     {
@@ -5602,10 +6822,10 @@ var __iconNode152 = [
     }
   ]
 ];
-var CircleDollarSignFill = createFoamicon("CircleDollarSignFill", __iconNode152);
+var CircleDollarSignFill = createFoamicon("CircleDollarSignFill", __iconNode176);
 
 // src/icons/CircleDollarSign.tsx
-var __iconNode153 = [
+var __iconNode177 = [
   [
     "circle",
     {
@@ -5649,10 +6869,10 @@ var __iconNode153 = [
     }
   ]
 ];
-var CircleDollarSign = createFoamicon("CircleDollarSign", __iconNode153);
+var CircleDollarSign = createFoamicon("CircleDollarSign", __iconNode177);
 
 // src/icons/CircleDuotone.tsx
-var __iconNode154 = [
+var __iconNode178 = [
   [
     "circle",
     {
@@ -5670,10 +6890,10 @@ var __iconNode154 = [
     }
   ]
 ];
-var CircleDuotone = createFoamicon("CircleDuotone", __iconNode154);
+var CircleDuotone = createFoamicon("CircleDuotone", __iconNode178);
 
 // src/icons/CircleFill.tsx
-var __iconNode155 = [
+var __iconNode179 = [
   [
     "circle",
     {
@@ -5688,10 +6908,10 @@ var __iconNode155 = [
     }
   ]
 ];
-var CircleFill = createFoamicon("CircleFill", __iconNode155);
+var CircleFill = createFoamicon("CircleFill", __iconNode179);
 
 // src/icons/CircleOverlapDuotone.tsx
-var __iconNode156 = [
+var __iconNode180 = [
   [
     "path",
     {
@@ -5755,10 +6975,10 @@ var __iconNode156 = [
     }
   ]
 ];
-var CircleOverlapDuotone = createFoamicon("CircleOverlapDuotone", __iconNode156);
+var CircleOverlapDuotone = createFoamicon("CircleOverlapDuotone", __iconNode180);
 
 // src/icons/CircleOverlapFill.tsx
-var __iconNode157 = [
+var __iconNode181 = [
   [
     "path",
     {
@@ -5819,10 +7039,10 @@ var __iconNode157 = [
     }
   ]
 ];
-var CircleOverlapFill = createFoamicon("CircleOverlapFill", __iconNode157);
+var CircleOverlapFill = createFoamicon("CircleOverlapFill", __iconNode181);
 
 // src/icons/CircleOverlap.tsx
-var __iconNode158 = [
+var __iconNode182 = [
   [
     "circle",
     {
@@ -5875,10 +7095,10 @@ var __iconNode158 = [
     }
   ]
 ];
-var CircleOverlap = createFoamicon("CircleOverlap", __iconNode158);
+var CircleOverlap = createFoamicon("CircleOverlap", __iconNode182);
 
 // src/icons/CirclePlusDuotone.tsx
-var __iconNode159 = [
+var __iconNode183 = [
   [
     "circle",
     {
@@ -5916,10 +7136,10 @@ var __iconNode159 = [
     }
   ]
 ];
-var CirclePlusDuotone = createFoamicon("CirclePlusDuotone", __iconNode159);
+var CirclePlusDuotone = createFoamicon("CirclePlusDuotone", __iconNode183);
 
 // src/icons/CirclePlusFill.tsx
-var __iconNode160 = [
+var __iconNode184 = [
   [
     "circle",
     {
@@ -5954,10 +7174,10 @@ var __iconNode160 = [
     }
   ]
 ];
-var CirclePlusFill = createFoamicon("CirclePlusFill", __iconNode160);
+var CirclePlusFill = createFoamicon("CirclePlusFill", __iconNode184);
 
 // src/icons/CirclePlus.tsx
-var __iconNode161 = [
+var __iconNode185 = [
   [
     "circle",
     {
@@ -5991,10 +7211,10 @@ var __iconNode161 = [
     }
   ]
 ];
-var CirclePlus = createFoamicon("CirclePlus", __iconNode161);
+var CirclePlus = createFoamicon("CirclePlus", __iconNode185);
 
 // src/icons/CircleQuestionMarkDuotone.tsx
-var __iconNode162 = [
+var __iconNode186 = [
   [
     "circle",
     {
@@ -6040,10 +7260,10 @@ var __iconNode162 = [
     }
   ]
 ];
-var CircleQuestionMarkDuotone = createFoamicon("CircleQuestionMarkDuotone", __iconNode162);
+var CircleQuestionMarkDuotone = createFoamicon("CircleQuestionMarkDuotone", __iconNode186);
 
 // src/icons/CircleQuestionMarkFill.tsx
-var __iconNode163 = [
+var __iconNode187 = [
   [
     "circle",
     {
@@ -6086,10 +7306,10 @@ var __iconNode163 = [
     }
   ]
 ];
-var CircleQuestionMarkFill = createFoamicon("CircleQuestionMarkFill", __iconNode163);
+var CircleQuestionMarkFill = createFoamicon("CircleQuestionMarkFill", __iconNode187);
 
 // src/icons/CircleQuestionMark.tsx
-var __iconNode164 = [
+var __iconNode188 = [
   [
     "circle",
     {
@@ -6141,10 +7361,10 @@ var __iconNode164 = [
     }
   ]
 ];
-var CircleQuestionMark = createFoamicon("CircleQuestionMark", __iconNode164);
+var CircleQuestionMark = createFoamicon("CircleQuestionMark", __iconNode188);
 
 // src/icons/CircleXDuotone.tsx
-var __iconNode165 = [
+var __iconNode189 = [
   [
     "path",
     {
@@ -6166,10 +7386,10 @@ var __iconNode165 = [
     }
   ]
 ];
-var CircleXDuotone = createFoamicon("CircleXDuotone", __iconNode165);
+var CircleXDuotone = createFoamicon("CircleXDuotone", __iconNode189);
 
 // src/icons/CircleXFill.tsx
-var __iconNode166 = [
+var __iconNode190 = [
   [
     "path",
     {
@@ -6191,10 +7411,10 @@ var __iconNode166 = [
     }
   ]
 ];
-var CircleXFill = createFoamicon("CircleXFill", __iconNode166);
+var CircleXFill = createFoamicon("CircleXFill", __iconNode190);
 
 // src/icons/CircleX.tsx
-var __iconNode167 = [
+var __iconNode191 = [
   [
     "path",
     {
@@ -6216,10 +7436,10 @@ var __iconNode167 = [
     }
   ]
 ];
-var CircleX = createFoamicon("CircleX", __iconNode167);
+var CircleX = createFoamicon("CircleX", __iconNode191);
 
 // src/icons/Circle.tsx
-var __iconNode168 = [
+var __iconNode192 = [
   [
     "circle",
     {
@@ -6233,10 +7453,10 @@ var __iconNode168 = [
     }
   ]
 ];
-var Circle = createFoamicon("Circle", __iconNode168);
+var Circle = createFoamicon("Circle", __iconNode192);
 
 // src/icons/ClipboardListDuotone.tsx
-var __iconNode169 = [
+var __iconNode193 = [
   [
     "path",
     {
@@ -6309,10 +7529,10 @@ var __iconNode169 = [
     }
   ]
 ];
-var ClipboardListDuotone = createFoamicon("ClipboardListDuotone", __iconNode169);
+var ClipboardListDuotone = createFoamicon("ClipboardListDuotone", __iconNode193);
 
 // src/icons/ClipboardListFill.tsx
-var __iconNode170 = [
+var __iconNode194 = [
   [
     "path",
     {
@@ -6382,10 +7602,10 @@ var __iconNode170 = [
     }
   ]
 ];
-var ClipboardListFill = createFoamicon("ClipboardListFill", __iconNode170);
+var ClipboardListFill = createFoamicon("ClipboardListFill", __iconNode194);
 
 // src/icons/ClipboardList.tsx
-var __iconNode171 = [
+var __iconNode195 = [
   [
     "path",
     {
@@ -6447,10 +7667,10 @@ var __iconNode171 = [
     }
   ]
 ];
-var ClipboardList = createFoamicon("ClipboardList", __iconNode171);
+var ClipboardList = createFoamicon("ClipboardList", __iconNode195);
 
 // src/icons/ClockArrowDownDuotone.tsx
-var __iconNode172 = [
+var __iconNode196 = [
   [
     "path",
     {
@@ -6482,10 +7702,10 @@ var __iconNode172 = [
     }
   ]
 ];
-var ClockArrowDownDuotone = createFoamicon("ClockArrowDownDuotone", __iconNode172);
+var ClockArrowDownDuotone = createFoamicon("ClockArrowDownDuotone", __iconNode196);
 
 // src/icons/ClockArrowDownFill.tsx
-var __iconNode173 = [
+var __iconNode197 = [
   [
     "path",
     {
@@ -6517,10 +7737,10 @@ var __iconNode173 = [
     }
   ]
 ];
-var ClockArrowDownFill = createFoamicon("ClockArrowDownFill", __iconNode173);
+var ClockArrowDownFill = createFoamicon("ClockArrowDownFill", __iconNode197);
 
 // src/icons/ClockArrowDown.tsx
-var __iconNode174 = [
+var __iconNode198 = [
   [
     "path",
     {
@@ -6552,10 +7772,10 @@ var __iconNode174 = [
     }
   ]
 ];
-var ClockArrowDown = createFoamicon("ClockArrowDown", __iconNode174);
+var ClockArrowDown = createFoamicon("ClockArrowDown", __iconNode198);
 
 // src/icons/ClockArrowUpDuotone.tsx
-var __iconNode175 = [
+var __iconNode199 = [
   [
     "path",
     {
@@ -6587,10 +7807,10 @@ var __iconNode175 = [
     }
   ]
 ];
-var ClockArrowUpDuotone = createFoamicon("ClockArrowUpDuotone", __iconNode175);
+var ClockArrowUpDuotone = createFoamicon("ClockArrowUpDuotone", __iconNode199);
 
 // src/icons/ClockArrowUpFill.tsx
-var __iconNode176 = [
+var __iconNode200 = [
   [
     "path",
     {
@@ -6622,10 +7842,10 @@ var __iconNode176 = [
     }
   ]
 ];
-var ClockArrowUpFill = createFoamicon("ClockArrowUpFill", __iconNode176);
+var ClockArrowUpFill = createFoamicon("ClockArrowUpFill", __iconNode200);
 
 // src/icons/ClockArrowUp.tsx
-var __iconNode177 = [
+var __iconNode201 = [
   [
     "path",
     {
@@ -6657,10 +7877,10 @@ var __iconNode177 = [
     }
   ]
 ];
-var ClockArrowUp = createFoamicon("ClockArrowUp", __iconNode177);
+var ClockArrowUp = createFoamicon("ClockArrowUp", __iconNode201);
 
 // src/icons/ClockDuotone.tsx
-var __iconNode178 = [
+var __iconNode202 = [
   [
     "circle",
     {
@@ -6688,10 +7908,10 @@ var __iconNode178 = [
     }
   ]
 ];
-var ClockDuotone = createFoamicon("ClockDuotone", __iconNode178);
+var ClockDuotone = createFoamicon("ClockDuotone", __iconNode202);
 
 // src/icons/ClockFill.tsx
-var __iconNode179 = [
+var __iconNode203 = [
   [
     "circle",
     {
@@ -6716,10 +7936,10 @@ var __iconNode179 = [
     }
   ]
 ];
-var ClockFill = createFoamicon("ClockFill", __iconNode179);
+var ClockFill = createFoamicon("ClockFill", __iconNode203);
 
 // src/icons/Clock.tsx
-var __iconNode180 = [
+var __iconNode204 = [
   [
     "circle",
     {
@@ -6743,10 +7963,10 @@ var __iconNode180 = [
     }
   ]
 ];
-var Clock = createFoamicon("Clock", __iconNode180);
+var Clock = createFoamicon("Clock", __iconNode204);
 
 // src/icons/CogDuotone.tsx
-var __iconNode181 = [
+var __iconNode205 = [
   [
     "path",
     {
@@ -6783,10 +8003,10 @@ var __iconNode181 = [
     }
   ]
 ];
-var CogDuotone = createFoamicon("CogDuotone", __iconNode181);
+var CogDuotone = createFoamicon("CogDuotone", __iconNode205);
 
 // src/icons/CogFill.tsx
-var __iconNode182 = [
+var __iconNode206 = [
   [
     "path",
     {
@@ -6820,10 +8040,10 @@ var __iconNode182 = [
     }
   ]
 ];
-var CogFill = createFoamicon("CogFill", __iconNode182);
+var CogFill = createFoamicon("CogFill", __iconNode206);
 
 // src/icons/Cog.tsx
-var __iconNode183 = [
+var __iconNode207 = [
   [
     "path",
     {
@@ -6849,10 +8069,10 @@ var __iconNode183 = [
     }
   ]
 ];
-var Cog = createFoamicon("Cog", __iconNode183);
+var Cog = createFoamicon("Cog", __iconNode207);
 
 // src/icons/Columns3Duotone.tsx
-var __iconNode184 = [
+var __iconNode208 = [
   [
     "path",
     {
@@ -6886,10 +8106,10 @@ var __iconNode184 = [
     }
   ]
 ];
-var Columns3Duotone = createFoamicon("Columns3Duotone", __iconNode184);
+var Columns3Duotone = createFoamicon("Columns3Duotone", __iconNode208);
 
 // src/icons/Columns3Fill.tsx
-var __iconNode185 = [
+var __iconNode209 = [
   [
     "path",
     {
@@ -6920,10 +8140,10 @@ var __iconNode185 = [
     }
   ]
 ];
-var Columns3Fill = createFoamicon("Columns3Fill", __iconNode185);
+var Columns3Fill = createFoamicon("Columns3Fill", __iconNode209);
 
 // src/icons/Columns3.tsx
-var __iconNode186 = [
+var __iconNode210 = [
   [
     "path",
     {
@@ -6953,10 +8173,10 @@ var __iconNode186 = [
     }
   ]
 ];
-var Columns3 = createFoamicon("Columns3", __iconNode186);
+var Columns3 = createFoamicon("Columns3", __iconNode210);
 
 // src/icons/CommandDuotone.tsx
-var __iconNode187 = [
+var __iconNode211 = [
   [
     "path",
     {
@@ -7011,10 +8231,10 @@ var __iconNode187 = [
     }
   ]
 ];
-var CommandDuotone = createFoamicon("CommandDuotone", __iconNode187);
+var CommandDuotone = createFoamicon("CommandDuotone", __iconNode211);
 
 // src/icons/CommandFill.tsx
-var __iconNode188 = [
+var __iconNode212 = [
   [
     "path",
     {
@@ -7069,10 +8289,10 @@ var __iconNode188 = [
     }
   ]
 ];
-var CommandFill = createFoamicon("CommandFill", __iconNode188);
+var CommandFill = createFoamicon("CommandFill", __iconNode212);
 
 // src/icons/Command.tsx
-var __iconNode189 = [
+var __iconNode213 = [
   [
     "path",
     {
@@ -7127,10 +8347,10 @@ var __iconNode189 = [
     }
   ]
 ];
-var Command = createFoamicon("Command", __iconNode189);
+var Command = createFoamicon("Command", __iconNode213);
 
 // src/icons/ContentHeartDuotone.tsx
-var __iconNode190 = [
+var __iconNode214 = [
   [
     "path",
     {
@@ -7187,10 +8407,10 @@ var __iconNode190 = [
     }
   ]
 ];
-var ContentHeartDuotone = createFoamicon("ContentHeartDuotone", __iconNode190);
+var ContentHeartDuotone = createFoamicon("ContentHeartDuotone", __iconNode214);
 
 // src/icons/ContentHeartFill.tsx
-var __iconNode191 = [
+var __iconNode215 = [
   [
     "rect",
     {
@@ -7244,10 +8464,10 @@ var __iconNode191 = [
     }
   ]
 ];
-var ContentHeartFill = createFoamicon("ContentHeartFill", __iconNode191);
+var ContentHeartFill = createFoamicon("ContentHeartFill", __iconNode215);
 
 // src/icons/ContentHeart.tsx
-var __iconNode192 = [
+var __iconNode216 = [
   [
     "rect",
     {
@@ -7293,10 +8513,10 @@ var __iconNode192 = [
     }
   ]
 ];
-var ContentHeart = createFoamicon("ContentHeart", __iconNode192);
+var ContentHeart = createFoamicon("ContentHeart", __iconNode216);
 
 // src/icons/ContentPlusDuotone.tsx
-var __iconNode193 = [
+var __iconNode217 = [
   [
     "rect",
     {
@@ -7346,10 +8566,10 @@ var __iconNode193 = [
     }
   ]
 ];
-var ContentPlusDuotone = createFoamicon("ContentPlusDuotone", __iconNode193);
+var ContentPlusDuotone = createFoamicon("ContentPlusDuotone", __iconNode217);
 
 // src/icons/ContentPlusFill.tsx
-var __iconNode194 = [
+var __iconNode218 = [
   [
     "rect",
     {
@@ -7396,10 +8616,10 @@ var __iconNode194 = [
     }
   ]
 ];
-var ContentPlusFill = createFoamicon("ContentPlusFill", __iconNode194);
+var ContentPlusFill = createFoamicon("ContentPlusFill", __iconNode218);
 
 // src/icons/ContentPlus.tsx
-var __iconNode195 = [
+var __iconNode219 = [
   [
     "rect",
     {
@@ -7445,10 +8665,10 @@ var __iconNode195 = [
     }
   ]
 ];
-var ContentPlus = createFoamicon("ContentPlus", __iconNode195);
+var ContentPlus = createFoamicon("ContentPlus", __iconNode219);
 
 // src/icons/ContentUserDuotone.tsx
-var __iconNode196 = [
+var __iconNode220 = [
   [
     "path",
     {
@@ -7507,10 +8727,10 @@ var __iconNode196 = [
     }
   ]
 ];
-var ContentUserDuotone = createFoamicon("ContentUserDuotone", __iconNode196);
+var ContentUserDuotone = createFoamicon("ContentUserDuotone", __iconNode220);
 
 // src/icons/ContentUserFill.tsx
-var __iconNode197 = [
+var __iconNode221 = [
   [
     "rect",
     {
@@ -7560,10 +8780,10 @@ var __iconNode197 = [
     }
   ]
 ];
-var ContentUserFill = createFoamicon("ContentUserFill", __iconNode197);
+var ContentUserFill = createFoamicon("ContentUserFill", __iconNode221);
 
 // src/icons/ContentUser.tsx
-var __iconNode198 = [
+var __iconNode222 = [
   [
     "circle",
     {
@@ -7611,10 +8831,10 @@ var __iconNode198 = [
     }
   ]
 ];
-var ContentUser = createFoamicon("ContentUser", __iconNode198);
+var ContentUser = createFoamicon("ContentUser", __iconNode222);
 
 // src/icons/CopyDuotone.tsx
-var __iconNode199 = [
+var __iconNode223 = [
   [
     "rect",
     {
@@ -7640,10 +8860,10 @@ var __iconNode199 = [
     }
   ]
 ];
-var CopyDuotone = createFoamicon("CopyDuotone", __iconNode199);
+var CopyDuotone = createFoamicon("CopyDuotone", __iconNode223);
 
 // src/icons/CopyFill.tsx
-var __iconNode200 = [
+var __iconNode224 = [
   [
     "rect",
     {
@@ -7666,10 +8886,10 @@ var __iconNode200 = [
     }
   ]
 ];
-var CopyFill = createFoamicon("CopyFill", __iconNode200);
+var CopyFill = createFoamicon("CopyFill", __iconNode224);
 
 // src/icons/Copy.tsx
-var __iconNode201 = [
+var __iconNode225 = [
   [
     "rect",
     {
@@ -7691,10 +8911,10 @@ var __iconNode201 = [
     }
   ]
 ];
-var Copy = createFoamicon("Copy", __iconNode201);
+var Copy = createFoamicon("Copy", __iconNode225);
 
 // src/icons/DownloadDuotone.tsx
-var __iconNode202 = [
+var __iconNode226 = [
   [
     "path",
     {
@@ -7726,10 +8946,10 @@ var __iconNode202 = [
     }
   ]
 ];
-var DownloadDuotone = createFoamicon("DownloadDuotone", __iconNode202);
+var DownloadDuotone = createFoamicon("DownloadDuotone", __iconNode226);
 
 // src/icons/DownloadFill.tsx
-var __iconNode203 = [
+var __iconNode227 = [
   [
     "path",
     {
@@ -7761,10 +8981,10 @@ var __iconNode203 = [
     }
   ]
 ];
-var DownloadFill = createFoamicon("DownloadFill", __iconNode203);
+var DownloadFill = createFoamicon("DownloadFill", __iconNode227);
 
 // src/icons/Download.tsx
-var __iconNode204 = [
+var __iconNode228 = [
   [
     "path",
     {
@@ -7796,10 +9016,10 @@ var __iconNode204 = [
     }
   ]
 ];
-var Download = createFoamicon("Download", __iconNode204);
+var Download = createFoamicon("Download", __iconNode228);
 
 // src/icons/EclipseDuotone.tsx
-var __iconNode205 = [
+var __iconNode229 = [
   [
     "circle",
     {
@@ -7825,10 +9045,10 @@ var __iconNode205 = [
     }
   ]
 ];
-var EclipseDuotone = createFoamicon("EclipseDuotone", __iconNode205);
+var EclipseDuotone = createFoamicon("EclipseDuotone", __iconNode229);
 
 // src/icons/EclipseFill.tsx
-var __iconNode206 = [
+var __iconNode230 = [
   [
     "path",
     {
@@ -7850,10 +9070,10 @@ var __iconNode206 = [
     }
   ]
 ];
-var EclipseFill = createFoamicon("EclipseFill", __iconNode206);
+var EclipseFill = createFoamicon("EclipseFill", __iconNode230);
 
 // src/icons/Eclipse.tsx
-var __iconNode207 = [
+var __iconNode231 = [
   [
     "path",
     {
@@ -7875,10 +9095,10 @@ var __iconNode207 = [
     }
   ]
 ];
-var Eclipse = createFoamicon("Eclipse", __iconNode207);
+var Eclipse = createFoamicon("Eclipse", __iconNode231);
 
 // src/icons/EllipsisDuotone.tsx
-var __iconNode208 = [
+var __iconNode232 = [
   [
     "path",
     {
@@ -7913,10 +9133,10 @@ var __iconNode208 = [
     }
   ]
 ];
-var EllipsisDuotone = createFoamicon("EllipsisDuotone", __iconNode208);
+var EllipsisDuotone = createFoamicon("EllipsisDuotone", __iconNode232);
 
 // src/icons/EllipsisFill.tsx
-var __iconNode209 = [
+var __iconNode233 = [
   [
     "path",
     {
@@ -7951,10 +9171,10 @@ var __iconNode209 = [
     }
   ]
 ];
-var EllipsisFill = createFoamicon("EllipsisFill", __iconNode209);
+var EllipsisFill = createFoamicon("EllipsisFill", __iconNode233);
 
 // src/icons/EllipsisVerticalDuotone.tsx
-var __iconNode210 = [
+var __iconNode234 = [
   [
     "path",
     {
@@ -7989,10 +9209,10 @@ var __iconNode210 = [
     }
   ]
 ];
-var EllipsisVerticalDuotone = createFoamicon("EllipsisVerticalDuotone", __iconNode210);
+var EllipsisVerticalDuotone = createFoamicon("EllipsisVerticalDuotone", __iconNode234);
 
 // src/icons/EllipsisVerticalFill.tsx
-var __iconNode211 = [
+var __iconNode235 = [
   [
     "path",
     {
@@ -8027,10 +9247,10 @@ var __iconNode211 = [
     }
   ]
 ];
-var EllipsisVerticalFill = createFoamicon("EllipsisVerticalFill", __iconNode211);
+var EllipsisVerticalFill = createFoamicon("EllipsisVerticalFill", __iconNode235);
 
 // src/icons/EllipsisVertical.tsx
-var __iconNode212 = [
+var __iconNode236 = [
   [
     "path",
     {
@@ -8065,10 +9285,10 @@ var __iconNode212 = [
     }
   ]
 ];
-var EllipsisVertical = createFoamicon("EllipsisVertical", __iconNode212);
+var EllipsisVertical = createFoamicon("EllipsisVertical", __iconNode236);
 
 // src/icons/Ellipsis.tsx
-var __iconNode213 = [
+var __iconNode237 = [
   [
     "path",
     {
@@ -8103,10 +9323,10 @@ var __iconNode213 = [
     }
   ]
 ];
-var Ellipsis = createFoamicon("Ellipsis", __iconNode213);
+var Ellipsis = createFoamicon("Ellipsis", __iconNode237);
 
 // src/icons/ExternalLinkDuotone.tsx
-var __iconNode214 = [
+var __iconNode238 = [
   [
     "path",
     {
@@ -8138,10 +9358,10 @@ var __iconNode214 = [
     }
   ]
 ];
-var ExternalLinkDuotone = createFoamicon("ExternalLinkDuotone", __iconNode214);
+var ExternalLinkDuotone = createFoamicon("ExternalLinkDuotone", __iconNode238);
 
 // src/icons/ExternalLinkFill.tsx
-var __iconNode215 = [
+var __iconNode239 = [
   [
     "path",
     {
@@ -8173,10 +9393,10 @@ var __iconNode215 = [
     }
   ]
 ];
-var ExternalLinkFill = createFoamicon("ExternalLinkFill", __iconNode215);
+var ExternalLinkFill = createFoamicon("ExternalLinkFill", __iconNode239);
 
 // src/icons/ExternalLink.tsx
-var __iconNode216 = [
+var __iconNode240 = [
   [
     "path",
     {
@@ -8208,10 +9428,10 @@ var __iconNode216 = [
     }
   ]
 ];
-var ExternalLink = createFoamicon("ExternalLink", __iconNode216);
+var ExternalLink = createFoamicon("ExternalLink", __iconNode240);
 
 // src/icons/EyeDuotone.tsx
-var __iconNode217 = [
+var __iconNode241 = [
   [
     "path",
     {
@@ -8246,10 +9466,10 @@ var __iconNode217 = [
     }
   ]
 ];
-var EyeDuotone = createFoamicon("EyeDuotone", __iconNode217);
+var EyeDuotone = createFoamicon("EyeDuotone", __iconNode241);
 
 // src/icons/EyeFill.tsx
-var __iconNode218 = [
+var __iconNode242 = [
   [
     "path",
     {
@@ -8274,10 +9494,10 @@ var __iconNode218 = [
     }
   ]
 ];
-var EyeFill = createFoamicon("EyeFill", __iconNode218);
+var EyeFill = createFoamicon("EyeFill", __iconNode242);
 
 // src/icons/EyeOffDuotone.tsx
-var __iconNode219 = [
+var __iconNode243 = [
   [
     "path",
     {
@@ -8310,10 +9530,10 @@ var __iconNode219 = [
     }
   ]
 ];
-var EyeOffDuotone = createFoamicon("EyeOffDuotone", __iconNode219);
+var EyeOffDuotone = createFoamicon("EyeOffDuotone", __iconNode243);
 
 // src/icons/EyeOffFill.tsx
-var __iconNode220 = [
+var __iconNode244 = [
   [
     "path",
     {
@@ -8363,10 +9583,10 @@ var __iconNode220 = [
     }
   ]
 ];
-var EyeOffFill = createFoamicon("EyeOffFill", __iconNode220);
+var EyeOffFill = createFoamicon("EyeOffFill", __iconNode244);
 
 // src/icons/EyeOff.tsx
-var __iconNode221 = [
+var __iconNode245 = [
   [
     "path",
     {
@@ -8398,10 +9618,10 @@ var __iconNode221 = [
     }
   ]
 ];
-var EyeOff = createFoamicon("EyeOff", __iconNode221);
+var EyeOff = createFoamicon("EyeOff", __iconNode245);
 
 // src/icons/Eye.tsx
-var __iconNode222 = [
+var __iconNode246 = [
   [
     "path",
     {
@@ -8425,10 +9645,10 @@ var __iconNode222 = [
     }
   ]
 ];
-var Eye = createFoamicon("Eye", __iconNode222);
+var Eye = createFoamicon("Eye", __iconNode246);
 
 // src/icons/FileArrowDownDuotone.tsx
-var __iconNode223 = [
+var __iconNode247 = [
   [
     "path",
     {
@@ -8462,10 +9682,10 @@ var __iconNode223 = [
     }
   ]
 ];
-var FileArrowDownDuotone = createFoamicon("FileArrowDownDuotone", __iconNode223);
+var FileArrowDownDuotone = createFoamicon("FileArrowDownDuotone", __iconNode247);
 
 // src/icons/FileArrowDownFill.tsx
-var __iconNode224 = [
+var __iconNode248 = [
   [
     "path",
     {
@@ -8496,10 +9716,10 @@ var __iconNode224 = [
     }
   ]
 ];
-var FileArrowDownFill = createFoamicon("FileArrowDownFill", __iconNode224);
+var FileArrowDownFill = createFoamicon("FileArrowDownFill", __iconNode248);
 
 // src/icons/FileArrowDown.tsx
-var __iconNode225 = [
+var __iconNode249 = [
   [
     "path",
     {
@@ -8529,10 +9749,10 @@ var __iconNode225 = [
     }
   ]
 ];
-var FileArrowDown = createFoamicon("FileArrowDown", __iconNode225);
+var FileArrowDown = createFoamicon("FileArrowDown", __iconNode249);
 
 // src/icons/FileArrowLeftDuotone.tsx
-var __iconNode226 = [
+var __iconNode250 = [
   [
     "path",
     {
@@ -8566,10 +9786,10 @@ var __iconNode226 = [
     }
   ]
 ];
-var FileArrowLeftDuotone = createFoamicon("FileArrowLeftDuotone", __iconNode226);
+var FileArrowLeftDuotone = createFoamicon("FileArrowLeftDuotone", __iconNode250);
 
 // src/icons/FileArrowLeftFill.tsx
-var __iconNode227 = [
+var __iconNode251 = [
   [
     "path",
     {
@@ -8600,10 +9820,10 @@ var __iconNode227 = [
     }
   ]
 ];
-var FileArrowLeftFill = createFoamicon("FileArrowLeftFill", __iconNode227);
+var FileArrowLeftFill = createFoamicon("FileArrowLeftFill", __iconNode251);
 
 // src/icons/FileArrowLeftRightDuotone.tsx
-var __iconNode228 = [
+var __iconNode252 = [
   [
     "path",
     {
@@ -8647,10 +9867,10 @@ var __iconNode228 = [
     }
   ]
 ];
-var FileArrowLeftRightDuotone = createFoamicon("FileArrowLeftRightDuotone", __iconNode228);
+var FileArrowLeftRightDuotone = createFoamicon("FileArrowLeftRightDuotone", __iconNode252);
 
 // src/icons/FileArrowLeftRightFill.tsx
-var __iconNode229 = [
+var __iconNode253 = [
   [
     "path",
     {
@@ -8691,10 +9911,10 @@ var __iconNode229 = [
     }
   ]
 ];
-var FileArrowLeftRightFill = createFoamicon("FileArrowLeftRightFill", __iconNode229);
+var FileArrowLeftRightFill = createFoamicon("FileArrowLeftRightFill", __iconNode253);
 
 // src/icons/FileArrowLeftRight.tsx
-var __iconNode230 = [
+var __iconNode254 = [
   [
     "path",
     {
@@ -8734,10 +9954,10 @@ var __iconNode230 = [
     }
   ]
 ];
-var FileArrowLeftRight = createFoamicon("FileArrowLeftRight", __iconNode230);
+var FileArrowLeftRight = createFoamicon("FileArrowLeftRight", __iconNode254);
 
 // src/icons/FileArrowLeft.tsx
-var __iconNode231 = [
+var __iconNode255 = [
   [
     "path",
     {
@@ -8767,10 +9987,10 @@ var __iconNode231 = [
     }
   ]
 ];
-var FileArrowLeft = createFoamicon("FileArrowLeft", __iconNode231);
+var FileArrowLeft = createFoamicon("FileArrowLeft", __iconNode255);
 
 // src/icons/FileArrowRightDuotone.tsx
-var __iconNode232 = [
+var __iconNode256 = [
   [
     "path",
     {
@@ -8804,10 +10024,10 @@ var __iconNode232 = [
     }
   ]
 ];
-var FileArrowRightDuotone = createFoamicon("FileArrowRightDuotone", __iconNode232);
+var FileArrowRightDuotone = createFoamicon("FileArrowRightDuotone", __iconNode256);
 
 // src/icons/FileArrowRightFill.tsx
-var __iconNode233 = [
+var __iconNode257 = [
   [
     "path",
     {
@@ -8838,10 +10058,10 @@ var __iconNode233 = [
     }
   ]
 ];
-var FileArrowRightFill = createFoamicon("FileArrowRightFill", __iconNode233);
+var FileArrowRightFill = createFoamicon("FileArrowRightFill", __iconNode257);
 
 // src/icons/FileArrowRight.tsx
-var __iconNode234 = [
+var __iconNode258 = [
   [
     "path",
     {
@@ -8871,10 +10091,10 @@ var __iconNode234 = [
     }
   ]
 ];
-var FileArrowRight = createFoamicon("FileArrowRight", __iconNode234);
+var FileArrowRight = createFoamicon("FileArrowRight", __iconNode258);
 
 // src/icons/FileArrowUpDuotone.tsx
-var __iconNode235 = [
+var __iconNode259 = [
   [
     "path",
     {
@@ -8908,10 +10128,10 @@ var __iconNode235 = [
     }
   ]
 ];
-var FileArrowUpDuotone = createFoamicon("FileArrowUpDuotone", __iconNode235);
+var FileArrowUpDuotone = createFoamicon("FileArrowUpDuotone", __iconNode259);
 
 // src/icons/FileArrowUpFill.tsx
-var __iconNode236 = [
+var __iconNode260 = [
   [
     "path",
     {
@@ -8942,10 +10162,10 @@ var __iconNode236 = [
     }
   ]
 ];
-var FileArrowUpFill = createFoamicon("FileArrowUpFill", __iconNode236);
+var FileArrowUpFill = createFoamicon("FileArrowUpFill", __iconNode260);
 
 // src/icons/FileArrowUp.tsx
-var __iconNode237 = [
+var __iconNode261 = [
   [
     "path",
     {
@@ -8975,10 +10195,10 @@ var __iconNode237 = [
     }
   ]
 ];
-var FileArrowUp = createFoamicon("FileArrowUp", __iconNode237);
+var FileArrowUp = createFoamicon("FileArrowUp", __iconNode261);
 
 // src/icons/FileChartColumnDuotone.tsx
-var __iconNode238 = [
+var __iconNode262 = [
   [
     "path",
     {
@@ -9040,10 +10260,10 @@ var __iconNode238 = [
     }
   ]
 ];
-var FileChartColumnDuotone = createFoamicon("FileChartColumnDuotone", __iconNode238);
+var FileChartColumnDuotone = createFoamicon("FileChartColumnDuotone", __iconNode262);
 
 // src/icons/FileChartColumnFill.tsx
-var __iconNode239 = [
+var __iconNode263 = [
   [
     "path",
     {
@@ -9102,10 +10322,10 @@ var __iconNode239 = [
     }
   ]
 ];
-var FileChartColumnFill = createFoamicon("FileChartColumnFill", __iconNode239);
+var FileChartColumnFill = createFoamicon("FileChartColumnFill", __iconNode263);
 
 // src/icons/FileChartColumn.tsx
-var __iconNode240 = [
+var __iconNode264 = [
   [
     "path",
     {
@@ -9155,10 +10375,10 @@ var __iconNode240 = [
     }
   ]
 ];
-var FileChartColumn = createFoamicon("FileChartColumn", __iconNode240);
+var FileChartColumn = createFoamicon("FileChartColumn", __iconNode264);
 
 // src/icons/FileCheckDuotone.tsx
-var __iconNode241 = [
+var __iconNode265 = [
   [
     "path",
     {
@@ -9192,10 +10412,10 @@ var __iconNode241 = [
     }
   ]
 ];
-var FileCheckDuotone = createFoamicon("FileCheckDuotone", __iconNode241);
+var FileCheckDuotone = createFoamicon("FileCheckDuotone", __iconNode265);
 
 // src/icons/FileCheckFill.tsx
-var __iconNode242 = [
+var __iconNode266 = [
   [
     "path",
     {
@@ -9226,10 +10446,10 @@ var __iconNode242 = [
     }
   ]
 ];
-var FileCheckFill = createFoamicon("FileCheckFill", __iconNode242);
+var FileCheckFill = createFoamicon("FileCheckFill", __iconNode266);
 
 // src/icons/FileCheck.tsx
-var __iconNode243 = [
+var __iconNode267 = [
   [
     "path",
     {
@@ -9259,10 +10479,10 @@ var __iconNode243 = [
     }
   ]
 ];
-var FileCheck = createFoamicon("FileCheck", __iconNode243);
+var FileCheck = createFoamicon("FileCheck", __iconNode267);
 
 // src/icons/FileCogDuotone.tsx
-var __iconNode244 = [
+var __iconNode268 = [
   [
     "path",
     {
@@ -9328,10 +10548,10 @@ var __iconNode244 = [
     }
   ]
 ];
-var FileCogDuotone = createFoamicon("FileCogDuotone", __iconNode244);
+var FileCogDuotone = createFoamicon("FileCogDuotone", __iconNode268);
 
 // src/icons/FileCogFill.tsx
-var __iconNode245 = [
+var __iconNode269 = [
   [
     "path",
     {
@@ -9394,10 +10614,10 @@ var __iconNode245 = [
     }
   ]
 ];
-var FileCogFill = createFoamicon("FileCogFill", __iconNode245);
+var FileCogFill = createFoamicon("FileCogFill", __iconNode269);
 
 // src/icons/FileCog.tsx
-var __iconNode246 = [
+var __iconNode270 = [
   [
     "path",
     {
@@ -9459,10 +10679,10 @@ var __iconNode246 = [
     }
   ]
 ];
-var FileCog = createFoamicon("FileCog", __iconNode246);
+var FileCog = createFoamicon("FileCog", __iconNode270);
 
 // src/icons/FileDuotone.tsx
-var __iconNode247 = [
+var __iconNode271 = [
   [
     "path",
     {
@@ -9486,10 +10706,10 @@ var __iconNode247 = [
     }
   ]
 ];
-var FileDuotone = createFoamicon("FileDuotone", __iconNode247);
+var FileDuotone = createFoamicon("FileDuotone", __iconNode271);
 
 // src/icons/FileFill.tsx
-var __iconNode248 = [
+var __iconNode272 = [
   [
     "path",
     {
@@ -9510,10 +10730,10 @@ var __iconNode248 = [
     }
   ]
 ];
-var FileFill = createFoamicon("FileFill", __iconNode248);
+var FileFill = createFoamicon("FileFill", __iconNode272);
 
 // src/icons/FileImageDuotone.tsx
-var __iconNode249 = [
+var __iconNode273 = [
   [
     "path",
     {
@@ -9564,10 +10784,10 @@ var __iconNode249 = [
     }
   ]
 ];
-var FileImageDuotone = createFoamicon("FileImageDuotone", __iconNode249);
+var FileImageDuotone = createFoamicon("FileImageDuotone", __iconNode273);
 
 // src/icons/FileImageFill.tsx
-var __iconNode250 = [
+var __iconNode274 = [
   [
     "path",
     {
@@ -9615,10 +10835,10 @@ var __iconNode250 = [
     }
   ]
 ];
-var FileImageFill = createFoamicon("FileImageFill", __iconNode250);
+var FileImageFill = createFoamicon("FileImageFill", __iconNode274);
 
 // src/icons/FileImage.tsx
-var __iconNode251 = [
+var __iconNode275 = [
   [
     "path",
     {
@@ -9658,10 +10878,10 @@ var __iconNode251 = [
     }
   ]
 ];
-var FileImage = createFoamicon("FileImage", __iconNode251);
+var FileImage = createFoamicon("FileImage", __iconNode275);
 
 // src/icons/FilePlusDuotone.tsx
-var __iconNode252 = [
+var __iconNode276 = [
   [
     "path",
     {
@@ -9705,10 +10925,10 @@ var __iconNode252 = [
     }
   ]
 ];
-var FilePlusDuotone = createFoamicon("FilePlusDuotone", __iconNode252);
+var FilePlusDuotone = createFoamicon("FilePlusDuotone", __iconNode276);
 
 // src/icons/FilePlusFill.tsx
-var __iconNode253 = [
+var __iconNode277 = [
   [
     "path",
     {
@@ -9749,10 +10969,10 @@ var __iconNode253 = [
     }
   ]
 ];
-var FilePlusFill = createFoamicon("FilePlusFill", __iconNode253);
+var FilePlusFill = createFoamicon("FilePlusFill", __iconNode277);
 
 // src/icons/FilePlus.tsx
-var __iconNode254 = [
+var __iconNode278 = [
   [
     "path",
     {
@@ -9792,10 +11012,10 @@ var __iconNode254 = [
     }
   ]
 ];
-var FilePlus = createFoamicon("FilePlus", __iconNode254);
+var FilePlus = createFoamicon("FilePlus", __iconNode278);
 
 // src/icons/FileUserDuotone.tsx
-var __iconNode255 = [
+var __iconNode279 = [
   [
     "path",
     {
@@ -9841,10 +11061,10 @@ var __iconNode255 = [
     }
   ]
 ];
-var FileUserDuotone = createFoamicon("FileUserDuotone", __iconNode255);
+var FileUserDuotone = createFoamicon("FileUserDuotone", __iconNode279);
 
 // src/icons/FileUserFill.tsx
-var __iconNode256 = [
+var __iconNode280 = [
   [
     "path",
     {
@@ -9887,10 +11107,10 @@ var __iconNode256 = [
     }
   ]
 ];
-var FileUserFill = createFoamicon("FileUserFill", __iconNode256);
+var FileUserFill = createFoamicon("FileUserFill", __iconNode280);
 
 // src/icons/FileUser.tsx
-var __iconNode257 = [
+var __iconNode281 = [
   [
     "circle",
     {
@@ -9932,10 +11152,10 @@ var __iconNode257 = [
     }
   ]
 ];
-var FileUser = createFoamicon("FileUser", __iconNode257);
+var FileUser = createFoamicon("FileUser", __iconNode281);
 
 // src/icons/FileXDuotone.tsx
-var __iconNode258 = [
+var __iconNode282 = [
   [
     "path",
     {
@@ -9979,10 +11199,10 @@ var __iconNode258 = [
     }
   ]
 ];
-var FileXDuotone = createFoamicon("FileXDuotone", __iconNode258);
+var FileXDuotone = createFoamicon("FileXDuotone", __iconNode282);
 
 // src/icons/FileXFill.tsx
-var __iconNode259 = [
+var __iconNode283 = [
   [
     "path",
     {
@@ -10023,10 +11243,10 @@ var __iconNode259 = [
     }
   ]
 ];
-var FileXFill = createFoamicon("FileXFill", __iconNode259);
+var FileXFill = createFoamicon("FileXFill", __iconNode283);
 
 // src/icons/FileX.tsx
-var __iconNode260 = [
+var __iconNode284 = [
   [
     "path",
     {
@@ -10066,10 +11286,10 @@ var __iconNode260 = [
     }
   ]
 ];
-var FileX = createFoamicon("FileX", __iconNode260);
+var FileX = createFoamicon("FileX", __iconNode284);
 
 // src/icons/File.tsx
-var __iconNode261 = [
+var __iconNode285 = [
   [
     "path",
     {
@@ -10089,10 +11309,10 @@ var __iconNode261 = [
     }
   ]
 ];
-var File = createFoamicon("File", __iconNode261);
+var File = createFoamicon("File", __iconNode285);
 
 // src/icons/FlameDuotone.tsx
-var __iconNode262 = [
+var __iconNode286 = [
   [
     "path",
     {
@@ -10106,10 +11326,10 @@ var __iconNode262 = [
     }
   ]
 ];
-var FlameDuotone = createFoamicon("FlameDuotone", __iconNode262);
+var FlameDuotone = createFoamicon("FlameDuotone", __iconNode286);
 
 // src/icons/FlameFill.tsx
-var __iconNode263 = [
+var __iconNode287 = [
   [
     "path",
     {
@@ -10120,10 +11340,10 @@ var __iconNode263 = [
     }
   ]
 ];
-var FlameFill = createFoamicon("FlameFill", __iconNode263);
+var FlameFill = createFoamicon("FlameFill", __iconNode287);
 
 // src/icons/Flame.tsx
-var __iconNode264 = [
+var __iconNode288 = [
   [
     "path",
     {
@@ -10133,10 +11353,10 @@ var __iconNode264 = [
     }
   ]
 ];
-var Flame = createFoamicon("Flame", __iconNode264);
+var Flame = createFoamicon("Flame", __iconNode288);
 
 // src/icons/FrownDuotone.tsx
-var __iconNode265 = [
+var __iconNode289 = [
   [
     "circle",
     {
@@ -10184,10 +11404,10 @@ var __iconNode265 = [
     }
   ]
 ];
-var FrownDuotone = createFoamicon("FrownDuotone", __iconNode265);
+var FrownDuotone = createFoamicon("FrownDuotone", __iconNode289);
 
 // src/icons/FrownFill.tsx
-var __iconNode266 = [
+var __iconNode290 = [
   [
     "circle",
     {
@@ -10232,10 +11452,10 @@ var __iconNode266 = [
     }
   ]
 ];
-var FrownFill = createFoamicon("FrownFill", __iconNode266);
+var FrownFill = createFoamicon("FrownFill", __iconNode290);
 
 // src/icons/Frown.tsx
-var __iconNode267 = [
+var __iconNode291 = [
   [
     "circle",
     {
@@ -10279,10 +11499,10 @@ var __iconNode267 = [
     }
   ]
 ];
-var Frown = createFoamicon("Frown", __iconNode267);
+var Frown = createFoamicon("Frown", __iconNode291);
 
 // src/icons/FullscreenDuotone.tsx
-var __iconNode268 = [
+var __iconNode292 = [
   [
     "path",
     {
@@ -10334,10 +11554,10 @@ var __iconNode268 = [
     }
   ]
 ];
-var FullscreenDuotone = createFoamicon("FullscreenDuotone", __iconNode268);
+var FullscreenDuotone = createFoamicon("FullscreenDuotone", __iconNode292);
 
 // src/icons/FullscreenFill.tsx
-var __iconNode269 = [
+var __iconNode293 = [
   [
     "path",
     {
@@ -10386,10 +11606,10 @@ var __iconNode269 = [
     }
   ]
 ];
-var FullscreenFill = createFoamicon("FullscreenFill", __iconNode269);
+var FullscreenFill = createFoamicon("FullscreenFill", __iconNode293);
 
 // src/icons/Fullscreen.tsx
-var __iconNode270 = [
+var __iconNode294 = [
   [
     "path",
     {
@@ -10437,10 +11657,10 @@ var __iconNode270 = [
     }
   ]
 ];
-var Fullscreen = createFoamicon("Fullscreen", __iconNode270);
+var Fullscreen = createFoamicon("Fullscreen", __iconNode294);
 
 // src/icons/GlobeDuotone.tsx
-var __iconNode271 = [
+var __iconNode295 = [
   [
     "circle",
     {
@@ -10491,10 +11711,10 @@ var __iconNode271 = [
     }
   ]
 ];
-var GlobeDuotone = createFoamicon("GlobeDuotone", __iconNode271);
+var GlobeDuotone = createFoamicon("GlobeDuotone", __iconNode295);
 
 // src/icons/GlobeFill.tsx
-var __iconNode272 = [
+var __iconNode296 = [
   [
     "circle",
     {
@@ -10541,10 +11761,10 @@ var __iconNode272 = [
     }
   ]
 ];
-var GlobeFill = createFoamicon("GlobeFill", __iconNode272);
+var GlobeFill = createFoamicon("GlobeFill", __iconNode296);
 
 // src/icons/Globe.tsx
-var __iconNode273 = [
+var __iconNode297 = [
   [
     "circle",
     {
@@ -10591,10 +11811,10 @@ var __iconNode273 = [
     }
   ]
 ];
-var Globe = createFoamicon("Globe", __iconNode273);
+var Globe = createFoamicon("Globe", __iconNode297);
 
 // src/icons/Grid1x2Duotone.tsx
-var __iconNode274 = [
+var __iconNode298 = [
   [
     "rect",
     {
@@ -10650,10 +11870,10 @@ var __iconNode274 = [
     }
   ]
 ];
-var Grid1x2Duotone = createFoamicon("Grid1x2Duotone", __iconNode274);
+var Grid1x2Duotone = createFoamicon("Grid1x2Duotone", __iconNode298);
 
 // src/icons/Grid1x2Fill.tsx
-var __iconNode275 = [
+var __iconNode299 = [
   [
     "rect",
     {
@@ -10700,10 +11920,10 @@ var __iconNode275 = [
     }
   ]
 ];
-var Grid1x2Fill = createFoamicon("Grid1x2Fill", __iconNode275);
+var Grid1x2Fill = createFoamicon("Grid1x2Fill", __iconNode299);
 
 // src/icons/Grid1x2.tsx
-var __iconNode276 = [
+var __iconNode300 = [
   [
     "rect",
     {
@@ -10747,10 +11967,10 @@ var __iconNode276 = [
     }
   ]
 ];
-var Grid1x2 = createFoamicon("Grid1x2", __iconNode276);
+var Grid1x2 = createFoamicon("Grid1x2", __iconNode300);
 
 // src/icons/Grid2x2Duotone.tsx
-var __iconNode277 = [
+var __iconNode301 = [
   [
     "rect",
     {
@@ -10824,10 +12044,10 @@ var __iconNode277 = [
     }
   ]
 ];
-var Grid2x2Duotone = createFoamicon("Grid2x2Duotone", __iconNode277);
+var Grid2x2Duotone = createFoamicon("Grid2x2Duotone", __iconNode301);
 
 // src/icons/Grid2x2Fill.tsx
-var __iconNode278 = [
+var __iconNode302 = [
   [
     "rect",
     {
@@ -10889,10 +12109,10 @@ var __iconNode278 = [
     }
   ]
 ];
-var Grid2x2Fill = createFoamicon("Grid2x2Fill", __iconNode278);
+var Grid2x2Fill = createFoamicon("Grid2x2Fill", __iconNode302);
 
 // src/icons/Grid2x2.tsx
-var __iconNode279 = [
+var __iconNode303 = [
   [
     "rect",
     {
@@ -10950,10 +12170,10 @@ var __iconNode279 = [
     }
   ]
 ];
-var Grid2x2 = createFoamicon("Grid2x2", __iconNode279);
+var Grid2x2 = createFoamicon("Grid2x2", __iconNode303);
 
 // src/icons/GripDuotone.tsx
-var __iconNode280 = [
+var __iconNode304 = [
   [
     "circle",
     {
@@ -11081,10 +12301,10 @@ var __iconNode280 = [
     }
   ]
 ];
-var GripDuotone = createFoamicon("GripDuotone", __iconNode280);
+var GripDuotone = createFoamicon("GripDuotone", __iconNode304);
 
 // src/icons/GripFill.tsx
-var __iconNode281 = [
+var __iconNode305 = [
   [
     "circle",
     {
@@ -11212,10 +12432,10 @@ var __iconNode281 = [
     }
   ]
 ];
-var GripFill = createFoamicon("GripFill", __iconNode281);
+var GripFill = createFoamicon("GripFill", __iconNode305);
 
 // src/icons/GripHorizontalDuotone.tsx
-var __iconNode282 = [
+var __iconNode306 = [
   [
     "circle",
     {
@@ -11301,10 +12521,10 @@ var __iconNode282 = [
     }
   ]
 ];
-var GripHorizontalDuotone = createFoamicon("GripHorizontalDuotone", __iconNode282);
+var GripHorizontalDuotone = createFoamicon("GripHorizontalDuotone", __iconNode306);
 
 // src/icons/GripHorizontalFill.tsx
-var __iconNode283 = [
+var __iconNode307 = [
   [
     "circle",
     {
@@ -11390,10 +12610,10 @@ var __iconNode283 = [
     }
   ]
 ];
-var GripHorizontalFill = createFoamicon("GripHorizontalFill", __iconNode283);
+var GripHorizontalFill = createFoamicon("GripHorizontalFill", __iconNode307);
 
 // src/icons/GripHorizontal.tsx
-var __iconNode284 = [
+var __iconNode308 = [
   [
     "circle",
     {
@@ -11479,10 +12699,10 @@ var __iconNode284 = [
     }
   ]
 ];
-var GripHorizontal = createFoamicon("GripHorizontal", __iconNode284);
+var GripHorizontal = createFoamicon("GripHorizontal", __iconNode308);
 
 // src/icons/GripVerticalDuotone.tsx
-var __iconNode285 = [
+var __iconNode309 = [
   [
     "circle",
     {
@@ -11562,10 +12782,10 @@ var __iconNode285 = [
     }
   ]
 ];
-var GripVerticalDuotone = createFoamicon("GripVerticalDuotone", __iconNode285);
+var GripVerticalDuotone = createFoamicon("GripVerticalDuotone", __iconNode309);
 
 // src/icons/GripVerticalFill.tsx
-var __iconNode286 = [
+var __iconNode310 = [
   [
     "circle",
     {
@@ -11645,10 +12865,10 @@ var __iconNode286 = [
     }
   ]
 ];
-var GripVerticalFill = createFoamicon("GripVerticalFill", __iconNode286);
+var GripVerticalFill = createFoamicon("GripVerticalFill", __iconNode310);
 
 // src/icons/GripVertical.tsx
-var __iconNode287 = [
+var __iconNode311 = [
   [
     "circle",
     {
@@ -11728,10 +12948,10 @@ var __iconNode287 = [
     }
   ]
 ];
-var GripVertical = createFoamicon("GripVertical", __iconNode287);
+var GripVertical = createFoamicon("GripVertical", __iconNode311);
 
 // src/icons/Grip.tsx
-var __iconNode288 = [
+var __iconNode312 = [
   [
     "circle",
     {
@@ -11859,10 +13079,10 @@ var __iconNode288 = [
     }
   ]
 ];
-var Grip = createFoamicon("Grip", __iconNode288);
+var Grip = createFoamicon("Grip", __iconNode312);
 
 // src/icons/HeartDuotone.tsx
-var __iconNode289 = [
+var __iconNode313 = [
   [
     "path",
     {
@@ -11878,10 +13098,10 @@ var __iconNode289 = [
     }
   ]
 ];
-var HeartDuotone = createFoamicon("HeartDuotone", __iconNode289);
+var HeartDuotone = createFoamicon("HeartDuotone", __iconNode313);
 
 // src/icons/HeartFill.tsx
-var __iconNode290 = [
+var __iconNode314 = [
   [
     "path",
     {
@@ -11894,10 +13114,10 @@ var __iconNode290 = [
     }
   ]
 ];
-var HeartFill = createFoamicon("HeartFill", __iconNode290);
+var HeartFill = createFoamicon("HeartFill", __iconNode314);
 
 // src/icons/Heart.tsx
-var __iconNode291 = [
+var __iconNode315 = [
   [
     "path",
     {
@@ -11909,10 +13129,10 @@ var __iconNode291 = [
     }
   ]
 ];
-var Heart = createFoamicon("Heart", __iconNode291);
+var Heart = createFoamicon("Heart", __iconNode315);
 
 // src/icons/HistoryDuotone.tsx
-var __iconNode292 = [
+var __iconNode316 = [
   [
     "path",
     {
@@ -11944,10 +13164,10 @@ var __iconNode292 = [
     }
   ]
 ];
-var HistoryDuotone = createFoamicon("HistoryDuotone", __iconNode292);
+var HistoryDuotone = createFoamicon("HistoryDuotone", __iconNode316);
 
 // src/icons/HistoryFill.tsx
-var __iconNode293 = [
+var __iconNode317 = [
   [
     "path",
     {
@@ -11979,10 +13199,10 @@ var __iconNode293 = [
     }
   ]
 ];
-var HistoryFill = createFoamicon("HistoryFill", __iconNode293);
+var HistoryFill = createFoamicon("HistoryFill", __iconNode317);
 
 // src/icons/History.tsx
-var __iconNode294 = [
+var __iconNode318 = [
   [
     "path",
     {
@@ -12014,10 +13234,10 @@ var __iconNode294 = [
     }
   ]
 ];
-var History = createFoamicon("History", __iconNode294);
+var History = createFoamicon("History", __iconNode318);
 
 // src/icons/HotspotDuotone.tsx
-var __iconNode295 = [
+var __iconNode319 = [
   [
     "circle",
     {
@@ -12051,10 +13271,10 @@ var __iconNode295 = [
     }
   ]
 ];
-var HotspotDuotone = createFoamicon("HotspotDuotone", __iconNode295);
+var HotspotDuotone = createFoamicon("HotspotDuotone", __iconNode319);
 
 // src/icons/HotspotFill.tsx
-var __iconNode296 = [
+var __iconNode320 = [
   [
     "circle",
     {
@@ -12088,10 +13308,10 @@ var __iconNode296 = [
     }
   ]
 ];
-var HotspotFill = createFoamicon("HotspotFill", __iconNode296);
+var HotspotFill = createFoamicon("HotspotFill", __iconNode320);
 
 // src/icons/Hotspot.tsx
-var __iconNode297 = [
+var __iconNode321 = [
   [
     "circle",
     {
@@ -12125,10 +13345,10 @@ var __iconNode297 = [
     }
   ]
 ];
-var Hotspot = createFoamicon("Hotspot", __iconNode297);
+var Hotspot = createFoamicon("Hotspot", __iconNode321);
 
 // src/icons/HouseDuotone.tsx
-var __iconNode298 = [
+var __iconNode322 = [
   [
     "path",
     {
@@ -12144,10 +13364,10 @@ var __iconNode298 = [
     }
   ]
 ];
-var HouseDuotone = createFoamicon("HouseDuotone", __iconNode298);
+var HouseDuotone = createFoamicon("HouseDuotone", __iconNode322);
 
 // src/icons/HouseFill.tsx
-var __iconNode299 = [
+var __iconNode323 = [
   [
     "path",
     {
@@ -12160,10 +13380,10 @@ var __iconNode299 = [
     }
   ]
 ];
-var HouseFill = createFoamicon("HouseFill", __iconNode299);
+var HouseFill = createFoamicon("HouseFill", __iconNode323);
 
 // src/icons/House.tsx
-var __iconNode300 = [
+var __iconNode324 = [
   [
     "path",
     {
@@ -12175,10 +13395,10 @@ var __iconNode300 = [
     }
   ]
 ];
-var House = createFoamicon("House", __iconNode300);
+var House = createFoamicon("House", __iconNode324);
 
 // src/icons/ImageDuotone.tsx
-var __iconNode301 = [
+var __iconNode325 = [
   [
     "path",
     {
@@ -12221,10 +13441,10 @@ var __iconNode301 = [
     }
   ]
 ];
-var ImageDuotone = createFoamicon("ImageDuotone", __iconNode301);
+var ImageDuotone = createFoamicon("ImageDuotone", __iconNode325);
 
 // src/icons/ImageFill.tsx
-var __iconNode302 = [
+var __iconNode326 = [
   [
     "path",
     {
@@ -12256,10 +13476,10 @@ var __iconNode302 = [
     }
   ]
 ];
-var ImageFill = createFoamicon("ImageFill", __iconNode302);
+var ImageFill = createFoamicon("ImageFill", __iconNode326);
 
 // src/icons/Image.tsx
-var __iconNode303 = [
+var __iconNode327 = [
   [
     "path",
     {
@@ -12291,10 +13511,10 @@ var __iconNode303 = [
     }
   ]
 ];
-var Image = createFoamicon("Image", __iconNode303);
+var Image = createFoamicon("Image", __iconNode327);
 
 // src/icons/ImagesDuotone.tsx
-var __iconNode304 = [
+var __iconNode328 = [
   [
     "path",
     {
@@ -12339,10 +13559,10 @@ var __iconNode304 = [
     }
   ]
 ];
-var ImagesDuotone = createFoamicon("ImagesDuotone", __iconNode304);
+var ImagesDuotone = createFoamicon("ImagesDuotone", __iconNode328);
 
 // src/icons/ImagesFill.tsx
-var __iconNode305 = [
+var __iconNode329 = [
   [
     "path",
     {
@@ -12383,10 +13603,10 @@ var __iconNode305 = [
     }
   ]
 ];
-var ImagesFill = createFoamicon("ImagesFill", __iconNode305);
+var ImagesFill = createFoamicon("ImagesFill", __iconNode329);
 
 // src/icons/Images.tsx
-var __iconNode306 = [
+var __iconNode330 = [
   [
     "path",
     {
@@ -12427,10 +13647,10 @@ var __iconNode306 = [
     }
   ]
 ];
-var Images = createFoamicon("Images", __iconNode306);
+var Images = createFoamicon("Images", __iconNode330);
 
 // src/icons/InboxDuotone.tsx
-var __iconNode307 = [
+var __iconNode331 = [
   [
     "path",
     {
@@ -12486,10 +13706,10 @@ var __iconNode307 = [
     }
   ]
 ];
-var InboxDuotone = createFoamicon("InboxDuotone", __iconNode307);
+var InboxDuotone = createFoamicon("InboxDuotone", __iconNode331);
 
 // src/icons/InboxFill.tsx
-var __iconNode308 = [
+var __iconNode332 = [
   [
     "path",
     {
@@ -12542,10 +13762,10 @@ var __iconNode308 = [
     }
   ]
 ];
-var InboxFill = createFoamicon("InboxFill", __iconNode308);
+var InboxFill = createFoamicon("InboxFill", __iconNode332);
 
 // src/icons/Inbox.tsx
-var __iconNode309 = [
+var __iconNode333 = [
   [
     "path",
     {
@@ -12597,10 +13817,10 @@ var __iconNode309 = [
     }
   ]
 ];
-var Inbox = createFoamicon("Inbox", __iconNode309);
+var Inbox = createFoamicon("Inbox", __iconNode333);
 
 // src/icons/InfoDuotone.tsx
-var __iconNode310 = [
+var __iconNode334 = [
   [
     "circle",
     {
@@ -12646,10 +13866,10 @@ var __iconNode310 = [
     }
   ]
 ];
-var InfoDuotone = createFoamicon("InfoDuotone", __iconNode310);
+var InfoDuotone = createFoamicon("InfoDuotone", __iconNode334);
 
 // src/icons/InfoFill.tsx
-var __iconNode311 = [
+var __iconNode335 = [
   [
     "circle",
     {
@@ -12692,10 +13912,10 @@ var __iconNode311 = [
     }
   ]
 ];
-var InfoFill = createFoamicon("InfoFill", __iconNode311);
+var InfoFill = createFoamicon("InfoFill", __iconNode335);
 
 // src/icons/Info.tsx
-var __iconNode312 = [
+var __iconNode336 = [
   [
     "circle",
     {
@@ -12737,10 +13957,10 @@ var __iconNode312 = [
     }
   ]
 ];
-var Info = createFoamicon("Info", __iconNode312);
+var Info = createFoamicon("Info", __iconNode336);
 
 // src/icons/ItalicDuotone.tsx
-var __iconNode313 = [
+var __iconNode337 = [
   [
     "path",
     {
@@ -12751,10 +13971,10 @@ var __iconNode313 = [
     }
   ]
 ];
-var ItalicDuotone = createFoamicon("ItalicDuotone", __iconNode313);
+var ItalicDuotone = createFoamicon("ItalicDuotone", __iconNode337);
 
 // src/icons/ItalicFill.tsx
-var __iconNode314 = [
+var __iconNode338 = [
   [
     "path",
     {
@@ -12765,10 +13985,10 @@ var __iconNode314 = [
     }
   ]
 ];
-var ItalicFill = createFoamicon("ItalicFill", __iconNode314);
+var ItalicFill = createFoamicon("ItalicFill", __iconNode338);
 
 // src/icons/Italic.tsx
-var __iconNode315 = [
+var __iconNode339 = [
   [
     "path",
     {
@@ -12779,10 +13999,10 @@ var __iconNode315 = [
     }
   ]
 ];
-var Italic = createFoamicon("Italic", __iconNode315);
+var Italic = createFoamicon("Italic", __iconNode339);
 
 // src/icons/LinkDuotone.tsx
-var __iconNode316 = [
+var __iconNode340 = [
   [
     "path",
     {
@@ -12803,10 +14023,10 @@ var __iconNode316 = [
     }
   ]
 ];
-var LinkDuotone = createFoamicon("LinkDuotone", __iconNode316);
+var LinkDuotone = createFoamicon("LinkDuotone", __iconNode340);
 
 // src/icons/LinkFill.tsx
-var __iconNode317 = [
+var __iconNode341 = [
   [
     "path",
     {
@@ -12827,10 +14047,10 @@ var __iconNode317 = [
     }
   ]
 ];
-var LinkFill = createFoamicon("LinkFill", __iconNode317);
+var LinkFill = createFoamicon("LinkFill", __iconNode341);
 
 // src/icons/Link.tsx
-var __iconNode318 = [
+var __iconNode342 = [
   [
     "path",
     {
@@ -12851,10 +14071,10 @@ var __iconNode318 = [
     }
   ]
 ];
-var Link = createFoamicon("Link", __iconNode318);
+var Link = createFoamicon("Link", __iconNode342);
 
 // src/icons/ListDuotone.tsx
-var __iconNode319 = [
+var __iconNode343 = [
   [
     "path",
     {
@@ -12919,10 +14139,10 @@ var __iconNode319 = [
     }
   ]
 ];
-var ListDuotone = createFoamicon("ListDuotone", __iconNode319);
+var ListDuotone = createFoamicon("ListDuotone", __iconNode343);
 
 // src/icons/ListFill.tsx
-var __iconNode320 = [
+var __iconNode344 = [
   [
     "path",
     {
@@ -12984,10 +14204,10 @@ var __iconNode320 = [
     }
   ]
 ];
-var ListFill = createFoamicon("ListFill", __iconNode320);
+var ListFill = createFoamicon("ListFill", __iconNode344);
 
 // src/icons/ListFilterDuotone.tsx
-var __iconNode321 = [
+var __iconNode345 = [
   [
     "path",
     {
@@ -12999,10 +14219,10 @@ var __iconNode321 = [
     }
   ]
 ];
-var ListFilterDuotone = createFoamicon("ListFilterDuotone", __iconNode321);
+var ListFilterDuotone = createFoamicon("ListFilterDuotone", __iconNode345);
 
 // src/icons/ListFilterFill.tsx
-var __iconNode322 = [
+var __iconNode346 = [
   [
     "path",
     {
@@ -13014,10 +14234,10 @@ var __iconNode322 = [
     }
   ]
 ];
-var ListFilterFill = createFoamicon("ListFilterFill", __iconNode322);
+var ListFilterFill = createFoamicon("ListFilterFill", __iconNode346);
 
 // src/icons/ListFilter.tsx
-var __iconNode323 = [
+var __iconNode347 = [
   [
     "path",
     {
@@ -13029,10 +14249,10 @@ var __iconNode323 = [
     }
   ]
 ];
-var ListFilter = createFoamicon("ListFilter", __iconNode323);
+var ListFilter = createFoamicon("ListFilter", __iconNode347);
 
 // src/icons/ListIndentDecreaseDuotone.tsx
-var __iconNode324 = [
+var __iconNode348 = [
   [
     "path",
     {
@@ -13074,10 +14294,10 @@ var __iconNode324 = [
     }
   ]
 ];
-var ListIndentDecreaseDuotone = createFoamicon("ListIndentDecreaseDuotone", __iconNode324);
+var ListIndentDecreaseDuotone = createFoamicon("ListIndentDecreaseDuotone", __iconNode348);
 
 // src/icons/ListIndentDecreaseFill.tsx
-var __iconNode325 = [
+var __iconNode349 = [
   [
     "path",
     {
@@ -13119,10 +14339,10 @@ var __iconNode325 = [
     }
   ]
 ];
-var ListIndentDecreaseFill = createFoamicon("ListIndentDecreaseFill", __iconNode325);
+var ListIndentDecreaseFill = createFoamicon("ListIndentDecreaseFill", __iconNode349);
 
 // src/icons/ListIndentDecrease.tsx
-var __iconNode326 = [
+var __iconNode350 = [
   [
     "path",
     {
@@ -13164,10 +14384,10 @@ var __iconNode326 = [
     }
   ]
 ];
-var ListIndentDecrease = createFoamicon("ListIndentDecrease", __iconNode326);
+var ListIndentDecrease = createFoamicon("ListIndentDecrease", __iconNode350);
 
 // src/icons/ListIndentIncreaseDuotone.tsx
-var __iconNode327 = [
+var __iconNode351 = [
   [
     "path",
     {
@@ -13209,10 +14429,10 @@ var __iconNode327 = [
     }
   ]
 ];
-var ListIndentIncreaseDuotone = createFoamicon("ListIndentIncreaseDuotone", __iconNode327);
+var ListIndentIncreaseDuotone = createFoamicon("ListIndentIncreaseDuotone", __iconNode351);
 
 // src/icons/ListIndentIncreaseFill.tsx
-var __iconNode328 = [
+var __iconNode352 = [
   [
     "path",
     {
@@ -13254,10 +14474,10 @@ var __iconNode328 = [
     }
   ]
 ];
-var ListIndentIncreaseFill = createFoamicon("ListIndentIncreaseFill", __iconNode328);
+var ListIndentIncreaseFill = createFoamicon("ListIndentIncreaseFill", __iconNode352);
 
 // src/icons/ListIndentIncrease.tsx
-var __iconNode329 = [
+var __iconNode353 = [
   [
     "path",
     {
@@ -13299,10 +14519,10 @@ var __iconNode329 = [
     }
   ]
 ];
-var ListIndentIncrease = createFoamicon("ListIndentIncrease", __iconNode329);
+var ListIndentIncrease = createFoamicon("ListIndentIncrease", __iconNode353);
 
 // src/icons/ListOrderedDuotone.tsx
-var __iconNode330 = [
+var __iconNode354 = [
   [
     "path",
     {
@@ -13384,10 +14604,10 @@ var __iconNode330 = [
     }
   ]
 ];
-var ListOrderedDuotone = createFoamicon("ListOrderedDuotone", __iconNode330);
+var ListOrderedDuotone = createFoamicon("ListOrderedDuotone", __iconNode354);
 
 // src/icons/ListOrderedFill.tsx
-var __iconNode331 = [
+var __iconNode355 = [
   [
     "path",
     {
@@ -13469,10 +14689,10 @@ var __iconNode331 = [
     }
   ]
 ];
-var ListOrderedFill = createFoamicon("ListOrderedFill", __iconNode331);
+var ListOrderedFill = createFoamicon("ListOrderedFill", __iconNode355);
 
 // src/icons/ListOrdered.tsx
-var __iconNode332 = [
+var __iconNode356 = [
   [
     "path",
     {
@@ -13554,10 +14774,10 @@ var __iconNode332 = [
     }
   ]
 ];
-var ListOrdered = createFoamicon("ListOrdered", __iconNode332);
+var ListOrdered = createFoamicon("ListOrdered", __iconNode356);
 
 // src/icons/List.tsx
-var __iconNode333 = [
+var __iconNode357 = [
   [
     "path",
     {
@@ -13622,10 +14842,10 @@ var __iconNode333 = [
     }
   ]
 ];
-var List = createFoamicon("List", __iconNode333);
+var List = createFoamicon("List", __iconNode357);
 
 // src/icons/LoaderCircleDuotone.tsx
-var __iconNode334 = [
+var __iconNode358 = [
   [
     "path",
     {
@@ -13636,10 +14856,10 @@ var __iconNode334 = [
     }
   ]
 ];
-var LoaderCircleDuotone = createFoamicon("LoaderCircleDuotone", __iconNode334);
+var LoaderCircleDuotone = createFoamicon("LoaderCircleDuotone", __iconNode358);
 
 // src/icons/LoaderCircleFill.tsx
-var __iconNode335 = [
+var __iconNode359 = [
   [
     "path",
     {
@@ -13650,10 +14870,10 @@ var __iconNode335 = [
     }
   ]
 ];
-var LoaderCircleFill = createFoamicon("LoaderCircleFill", __iconNode335);
+var LoaderCircleFill = createFoamicon("LoaderCircleFill", __iconNode359);
 
 // src/icons/LoaderCircle.tsx
-var __iconNode336 = [
+var __iconNode360 = [
   [
     "path",
     {
@@ -13664,10 +14884,10 @@ var __iconNode336 = [
     }
   ]
 ];
-var LoaderCircle = createFoamicon("LoaderCircle", __iconNode336);
+var LoaderCircle = createFoamicon("LoaderCircle", __iconNode360);
 
 // src/icons/LockDuotone.tsx
-var __iconNode337 = [
+var __iconNode361 = [
   [
     "path",
     {
@@ -13712,10 +14932,10 @@ var __iconNode337 = [
     }
   ]
 ];
-var LockDuotone = createFoamicon("LockDuotone", __iconNode337);
+var LockDuotone = createFoamicon("LockDuotone", __iconNode361);
 
 // src/icons/LockFill.tsx
-var __iconNode338 = [
+var __iconNode362 = [
   [
     "path",
     {
@@ -13750,10 +14970,10 @@ var __iconNode338 = [
     }
   ]
 ];
-var LockFill = createFoamicon("LockFill", __iconNode338);
+var LockFill = createFoamicon("LockFill", __iconNode362);
 
 // src/icons/Lock.tsx
-var __iconNode339 = [
+var __iconNode363 = [
   [
     "path",
     {
@@ -13787,10 +15007,10 @@ var __iconNode339 = [
     }
   ]
 ];
-var Lock = createFoamicon("Lock", __iconNode339);
+var Lock = createFoamicon("Lock", __iconNode363);
 
 // src/icons/LogOutDuotone.tsx
-var __iconNode340 = [
+var __iconNode364 = [
   [
     "path",
     {
@@ -13822,10 +15042,10 @@ var __iconNode340 = [
     }
   ]
 ];
-var LogOutDuotone = createFoamicon("LogOutDuotone", __iconNode340);
+var LogOutDuotone = createFoamicon("LogOutDuotone", __iconNode364);
 
 // src/icons/LogOutFill.tsx
-var __iconNode341 = [
+var __iconNode365 = [
   [
     "path",
     {
@@ -13857,10 +15077,10 @@ var __iconNode341 = [
     }
   ]
 ];
-var LogOutFill = createFoamicon("LogOutFill", __iconNode341);
+var LogOutFill = createFoamicon("LogOutFill", __iconNode365);
 
 // src/icons/LogOut.tsx
-var __iconNode342 = [
+var __iconNode366 = [
   [
     "path",
     {
@@ -13892,10 +15112,10 @@ var __iconNode342 = [
     }
   ]
 ];
-var LogOut = createFoamicon("LogOut", __iconNode342);
+var LogOut = createFoamicon("LogOut", __iconNode366);
 
 // src/icons/MailDuotone.tsx
-var __iconNode343 = [
+var __iconNode367 = [
   [
     "path",
     {
@@ -13921,10 +15141,10 @@ var __iconNode343 = [
     }
   ]
 ];
-var MailDuotone = createFoamicon("MailDuotone", __iconNode343);
+var MailDuotone = createFoamicon("MailDuotone", __iconNode367);
 
 // src/icons/MailFill.tsx
-var __iconNode344 = [
+var __iconNode368 = [
   [
     "path",
     {
@@ -13947,10 +15167,10 @@ var __iconNode344 = [
     }
   ]
 ];
-var MailFill = createFoamicon("MailFill", __iconNode344);
+var MailFill = createFoamicon("MailFill", __iconNode368);
 
 // src/icons/MailMoveDuotone.tsx
-var __iconNode345 = [
+var __iconNode369 = [
   [
     "path",
     {
@@ -13996,10 +15216,10 @@ var __iconNode345 = [
     }
   ]
 ];
-var MailMoveDuotone = createFoamicon("MailMoveDuotone", __iconNode345);
+var MailMoveDuotone = createFoamicon("MailMoveDuotone", __iconNode369);
 
 // src/icons/MailMoveFill.tsx
-var __iconNode346 = [
+var __iconNode370 = [
   [
     "path",
     {
@@ -14042,10 +15262,10 @@ var __iconNode346 = [
     }
   ]
 ];
-var MailMoveFill = createFoamicon("MailMoveFill", __iconNode346);
+var MailMoveFill = createFoamicon("MailMoveFill", __iconNode370);
 
 // src/icons/MailMove.tsx
-var __iconNode347 = [
+var __iconNode371 = [
   [
     "path",
     {
@@ -14087,10 +15307,10 @@ var __iconNode347 = [
     }
   ]
 ];
-var MailMove = createFoamicon("MailMove", __iconNode347);
+var MailMove = createFoamicon("MailMove", __iconNode371);
 
 // src/icons/MailPlusDuotone.tsx
-var __iconNode348 = [
+var __iconNode372 = [
   [
     "path",
     {
@@ -14136,10 +15356,10 @@ var __iconNode348 = [
     }
   ]
 ];
-var MailPlusDuotone = createFoamicon("MailPlusDuotone", __iconNode348);
+var MailPlusDuotone = createFoamicon("MailPlusDuotone", __iconNode372);
 
 // src/icons/MailPlusFill.tsx
-var __iconNode349 = [
+var __iconNode373 = [
   [
     "path",
     {
@@ -14182,10 +15402,10 @@ var __iconNode349 = [
     }
   ]
 ];
-var MailPlusFill = createFoamicon("MailPlusFill", __iconNode349);
+var MailPlusFill = createFoamicon("MailPlusFill", __iconNode373);
 
 // src/icons/MailPlus.tsx
-var __iconNode350 = [
+var __iconNode374 = [
   [
     "path",
     {
@@ -14227,10 +15447,10 @@ var __iconNode350 = [
     }
   ]
 ];
-var MailPlus = createFoamicon("MailPlus", __iconNode350);
+var MailPlus = createFoamicon("MailPlus", __iconNode374);
 
 // src/icons/Mail.tsx
-var __iconNode351 = [
+var __iconNode375 = [
   [
     "path",
     {
@@ -14252,10 +15472,10 @@ var __iconNode351 = [
     }
   ]
 ];
-var Mail = createFoamicon("Mail", __iconNode351);
+var Mail = createFoamicon("Mail", __iconNode375);
 
 // src/icons/MapPinDuotone.tsx
-var __iconNode352 = [
+var __iconNode376 = [
   [
     "path",
     {
@@ -14281,10 +15501,10 @@ var __iconNode352 = [
     }
   ]
 ];
-var MapPinDuotone = createFoamicon("MapPinDuotone", __iconNode352);
+var MapPinDuotone = createFoamicon("MapPinDuotone", __iconNode376);
 
 // src/icons/MapPinFill.tsx
-var __iconNode353 = [
+var __iconNode377 = [
   [
     "path",
     {
@@ -14307,10 +15527,10 @@ var __iconNode353 = [
     }
   ]
 ];
-var MapPinFill = createFoamicon("MapPinFill", __iconNode353);
+var MapPinFill = createFoamicon("MapPinFill", __iconNode377);
 
 // src/icons/MapPin.tsx
-var __iconNode354 = [
+var __iconNode378 = [
   [
     "path",
     {
@@ -14332,10 +15552,10 @@ var __iconNode354 = [
     }
   ]
 ];
-var MapPin = createFoamicon("MapPin", __iconNode354);
+var MapPin = createFoamicon("MapPin", __iconNode378);
 
 // src/icons/MaximizeDuotone.tsx
-var __iconNode355 = [
+var __iconNode379 = [
   [
     "path",
     {
@@ -14377,10 +15597,10 @@ var __iconNode355 = [
     }
   ]
 ];
-var MaximizeDuotone = createFoamicon("MaximizeDuotone", __iconNode355);
+var MaximizeDuotone = createFoamicon("MaximizeDuotone", __iconNode379);
 
 // src/icons/MaximizeFill.tsx
-var __iconNode356 = [
+var __iconNode380 = [
   [
     "path",
     {
@@ -14422,10 +15642,10 @@ var __iconNode356 = [
     }
   ]
 ];
-var MaximizeFill = createFoamicon("MaximizeFill", __iconNode356);
+var MaximizeFill = createFoamicon("MaximizeFill", __iconNode380);
 
 // src/icons/Maximize.tsx
-var __iconNode357 = [
+var __iconNode381 = [
   [
     "path",
     {
@@ -14467,10 +15687,10 @@ var __iconNode357 = [
     }
   ]
 ];
-var Maximize = createFoamicon("Maximize", __iconNode357);
+var Maximize = createFoamicon("Maximize", __iconNode381);
 
 // src/icons/MegaphoneActiveDuotone.tsx
-var __iconNode358 = [
+var __iconNode382 = [
   [
     "path",
     {
@@ -14526,10 +15746,10 @@ var __iconNode358 = [
     }
   ]
 ];
-var MegaphoneActiveDuotone = createFoamicon("MegaphoneActiveDuotone", __iconNode358);
+var MegaphoneActiveDuotone = createFoamicon("MegaphoneActiveDuotone", __iconNode382);
 
 // src/icons/MegaphoneActiveFill.tsx
-var __iconNode359 = [
+var __iconNode383 = [
   [
     "path",
     {
@@ -14582,10 +15802,10 @@ var __iconNode359 = [
     }
   ]
 ];
-var MegaphoneActiveFill = createFoamicon("MegaphoneActiveFill", __iconNode359);
+var MegaphoneActiveFill = createFoamicon("MegaphoneActiveFill", __iconNode383);
 
 // src/icons/MegaphoneActive.tsx
-var __iconNode360 = [
+var __iconNode384 = [
   [
     "path",
     {
@@ -14637,10 +15857,10 @@ var __iconNode360 = [
     }
   ]
 ];
-var MegaphoneActive = createFoamicon("MegaphoneActive", __iconNode360);
+var MegaphoneActive = createFoamicon("MegaphoneActive", __iconNode384);
 
 // src/icons/MegaphoneDuotone.tsx
-var __iconNode361 = [
+var __iconNode385 = [
   [
     "path",
     {
@@ -14666,10 +15886,10 @@ var __iconNode361 = [
     }
   ]
 ];
-var MegaphoneDuotone = createFoamicon("MegaphoneDuotone", __iconNode361);
+var MegaphoneDuotone = createFoamicon("MegaphoneDuotone", __iconNode385);
 
 // src/icons/MegaphoneFill.tsx
-var __iconNode362 = [
+var __iconNode386 = [
   [
     "path",
     {
@@ -14692,10 +15912,10 @@ var __iconNode362 = [
     }
   ]
 ];
-var MegaphoneFill = createFoamicon("MegaphoneFill", __iconNode362);
+var MegaphoneFill = createFoamicon("MegaphoneFill", __iconNode386);
 
 // src/icons/Megaphone.tsx
-var __iconNode363 = [
+var __iconNode387 = [
   [
     "path",
     {
@@ -14717,10 +15937,10 @@ var __iconNode363 = [
     }
   ]
 ];
-var Megaphone = createFoamicon("Megaphone", __iconNode363);
+var Megaphone = createFoamicon("Megaphone", __iconNode387);
 
 // src/icons/MenuDuotone.tsx
-var __iconNode364 = [
+var __iconNode388 = [
   [
     "path",
     {
@@ -14752,10 +15972,10 @@ var __iconNode364 = [
     }
   ]
 ];
-var MenuDuotone = createFoamicon("MenuDuotone", __iconNode364);
+var MenuDuotone = createFoamicon("MenuDuotone", __iconNode388);
 
 // src/icons/MenuFill.tsx
-var __iconNode365 = [
+var __iconNode389 = [
   [
     "path",
     {
@@ -14787,10 +16007,10 @@ var __iconNode365 = [
     }
   ]
 ];
-var MenuFill = createFoamicon("MenuFill", __iconNode365);
+var MenuFill = createFoamicon("MenuFill", __iconNode389);
 
 // src/icons/Menu.tsx
-var __iconNode366 = [
+var __iconNode390 = [
   [
     "path",
     {
@@ -14822,10 +16042,10 @@ var __iconNode366 = [
     }
   ]
 ];
-var Menu = createFoamicon("Menu", __iconNode366);
+var Menu = createFoamicon("Menu", __iconNode390);
 
 // src/icons/MessageSquareDuotone.tsx
-var __iconNode367 = [
+var __iconNode391 = [
   [
     "path",
     {
@@ -14841,10 +16061,10 @@ var __iconNode367 = [
     }
   ]
 ];
-var MessageSquareDuotone = createFoamicon("MessageSquareDuotone", __iconNode367);
+var MessageSquareDuotone = createFoamicon("MessageSquareDuotone", __iconNode391);
 
 // src/icons/MessageSquareFill.tsx
-var __iconNode368 = [
+var __iconNode392 = [
   [
     "path",
     {
@@ -14857,10 +16077,10 @@ var __iconNode368 = [
     }
   ]
 ];
-var MessageSquareFill = createFoamicon("MessageSquareFill", __iconNode368);
+var MessageSquareFill = createFoamicon("MessageSquareFill", __iconNode392);
 
 // src/icons/MessageSquare.tsx
-var __iconNode369 = [
+var __iconNode393 = [
   [
     "path",
     {
@@ -14872,10 +16092,10 @@ var __iconNode369 = [
     }
   ]
 ];
-var MessageSquare = createFoamicon("MessageSquare", __iconNode369);
+var MessageSquare = createFoamicon("MessageSquare", __iconNode393);
 
 // src/icons/MessagesSquareDuotone.tsx
-var __iconNode370 = [
+var __iconNode394 = [
   [
     "path",
     {
@@ -14911,10 +16131,10 @@ var __iconNode370 = [
     }
   ]
 ];
-var MessagesSquareDuotone = createFoamicon("MessagesSquareDuotone", __iconNode370);
+var MessagesSquareDuotone = createFoamicon("MessagesSquareDuotone", __iconNode394);
 
 // src/icons/MessagesSquareFill.tsx
-var __iconNode371 = [
+var __iconNode395 = [
   [
     "path",
     {
@@ -14947,10 +16167,10 @@ var __iconNode371 = [
     }
   ]
 ];
-var MessagesSquareFill = createFoamicon("MessagesSquareFill", __iconNode371);
+var MessagesSquareFill = createFoamicon("MessagesSquareFill", __iconNode395);
 
 // src/icons/MessagesSquare.tsx
-var __iconNode372 = [
+var __iconNode396 = [
   [
     "path",
     {
@@ -14972,10 +16192,10 @@ var __iconNode372 = [
     }
   ]
 ];
-var MessagesSquare = createFoamicon("MessagesSquare", __iconNode372);
+var MessagesSquare = createFoamicon("MessagesSquare", __iconNode396);
 
 // src/icons/MinusDuotone.tsx
-var __iconNode373 = [
+var __iconNode397 = [
   [
     "path",
     {
@@ -14987,10 +16207,10 @@ var __iconNode373 = [
     }
   ]
 ];
-var MinusDuotone = createFoamicon("MinusDuotone", __iconNode373);
+var MinusDuotone = createFoamicon("MinusDuotone", __iconNode397);
 
 // src/icons/MinusFill.tsx
-var __iconNode374 = [
+var __iconNode398 = [
   [
     "path",
     {
@@ -15002,10 +16222,10 @@ var __iconNode374 = [
     }
   ]
 ];
-var MinusFill = createFoamicon("MinusFill", __iconNode374);
+var MinusFill = createFoamicon("MinusFill", __iconNode398);
 
 // src/icons/Minus.tsx
-var __iconNode375 = [
+var __iconNode399 = [
   [
     "path",
     {
@@ -15017,10 +16237,10 @@ var __iconNode375 = [
     }
   ]
 ];
-var Minus = createFoamicon("Minus", __iconNode375);
+var Minus = createFoamicon("Minus", __iconNode399);
 
 // src/icons/MoonDuotone.tsx
-var __iconNode376 = [
+var __iconNode400 = [
   [
     "path",
     {
@@ -15036,10 +16256,10 @@ var __iconNode376 = [
     }
   ]
 ];
-var MoonDuotone = createFoamicon("MoonDuotone", __iconNode376);
+var MoonDuotone = createFoamicon("MoonDuotone", __iconNode400);
 
 // src/icons/MoonFill.tsx
-var __iconNode377 = [
+var __iconNode401 = [
   [
     "path",
     {
@@ -15052,10 +16272,10 @@ var __iconNode377 = [
     }
   ]
 ];
-var MoonFill = createFoamicon("MoonFill", __iconNode377);
+var MoonFill = createFoamicon("MoonFill", __iconNode401);
 
 // src/icons/Moon.tsx
-var __iconNode378 = [
+var __iconNode402 = [
   [
     "path",
     {
@@ -15067,10 +16287,10 @@ var __iconNode378 = [
     }
   ]
 ];
-var Moon = createFoamicon("Moon", __iconNode378);
+var Moon = createFoamicon("Moon", __iconNode402);
 
 // src/icons/MousePointerClickDuotone.tsx
-var __iconNode379 = [
+var __iconNode403 = [
   [
     "path",
     {
@@ -15095,10 +16315,10 @@ var __iconNode379 = [
     }
   ]
 ];
-var MousePointerClickDuotone = createFoamicon("MousePointerClickDuotone", __iconNode379);
+var MousePointerClickDuotone = createFoamicon("MousePointerClickDuotone", __iconNode403);
 
 // src/icons/MousePointerClickFill.tsx
-var __iconNode380 = [
+var __iconNode404 = [
   [
     "path",
     {
@@ -15120,10 +16340,10 @@ var __iconNode380 = [
     }
   ]
 ];
-var MousePointerClickFill = createFoamicon("MousePointerClickFill", __iconNode380);
+var MousePointerClickFill = createFoamicon("MousePointerClickFill", __iconNode404);
 
 // src/icons/MousePointerClick.tsx
-var __iconNode381 = [
+var __iconNode405 = [
   [
     "path",
     {
@@ -15144,10 +16364,10 @@ var __iconNode381 = [
     }
   ]
 ];
-var MousePointerClick = createFoamicon("MousePointerClick", __iconNode381);
+var MousePointerClick = createFoamicon("MousePointerClick", __iconNode405);
 
 // src/icons/MoveDuotone.tsx
-var __iconNode382 = [
+var __iconNode406 = [
   [
     "path",
     {
@@ -15209,10 +16429,10 @@ var __iconNode382 = [
     }
   ]
 ];
-var MoveDuotone = createFoamicon("MoveDuotone", __iconNode382);
+var MoveDuotone = createFoamicon("MoveDuotone", __iconNode406);
 
 // src/icons/MoveFill.tsx
-var __iconNode383 = [
+var __iconNode407 = [
   [
     "path",
     {
@@ -15274,10 +16494,10 @@ var __iconNode383 = [
     }
   ]
 ];
-var MoveFill = createFoamicon("MoveFill", __iconNode383);
+var MoveFill = createFoamicon("MoveFill", __iconNode407);
 
 // src/icons/Move.tsx
-var __iconNode384 = [
+var __iconNode408 = [
   [
     "path",
     {
@@ -15339,10 +16559,10 @@ var __iconNode384 = [
     }
   ]
 ];
-var Move = createFoamicon("Move", __iconNode384);
+var Move = createFoamicon("Move", __iconNode408);
 
 // src/icons/NotebookDuotone.tsx
-var __iconNode385 = [
+var __iconNode409 = [
   [
     "path",
     {
@@ -15414,10 +16634,10 @@ var __iconNode385 = [
     }
   ]
 ];
-var NotebookDuotone = createFoamicon("NotebookDuotone", __iconNode385);
+var NotebookDuotone = createFoamicon("NotebookDuotone", __iconNode409);
 
 // src/icons/NotebookFill.tsx
-var __iconNode386 = [
+var __iconNode410 = [
   [
     "path",
     {
@@ -15484,10 +16704,10 @@ var __iconNode386 = [
     }
   ]
 ];
-var NotebookFill = createFoamicon("NotebookFill", __iconNode386);
+var NotebookFill = createFoamicon("NotebookFill", __iconNode410);
 
 // src/icons/Notebook.tsx
-var __iconNode387 = [
+var __iconNode411 = [
   [
     "path",
     {
@@ -15555,10 +16775,10 @@ var __iconNode387 = [
     }
   ]
 ];
-var Notebook = createFoamicon("Notebook", __iconNode387);
+var Notebook = createFoamicon("Notebook", __iconNode411);
 
 // src/icons/OfficeDuotone.tsx
-var __iconNode388 = [
+var __iconNode412 = [
   [
     "path",
     {
@@ -15669,10 +16889,10 @@ var __iconNode388 = [
     }
   ]
 ];
-var OfficeDuotone = createFoamicon("OfficeDuotone", __iconNode388);
+var OfficeDuotone = createFoamicon("OfficeDuotone", __iconNode412);
 
 // src/icons/OfficeFill.tsx
-var __iconNode389 = [
+var __iconNode413 = [
   [
     "path",
     {
@@ -15780,10 +17000,10 @@ var __iconNode389 = [
     }
   ]
 ];
-var OfficeFill = createFoamicon("OfficeFill", __iconNode389);
+var OfficeFill = createFoamicon("OfficeFill", __iconNode413);
 
 // src/icons/Office.tsx
-var __iconNode390 = [
+var __iconNode414 = [
   [
     "path",
     {
@@ -15890,10 +17110,10 @@ var __iconNode390 = [
     }
   ]
 ];
-var Office = createFoamicon("Office", __iconNode390);
+var Office = createFoamicon("Office", __iconNode414);
 
 // src/icons/PanelLeftDuotone.tsx
-var __iconNode391 = [
+var __iconNode415 = [
   [
     "path",
     {
@@ -15924,10 +17144,10 @@ var __iconNode391 = [
     }
   ]
 ];
-var PanelLeftDuotone = createFoamicon("PanelLeftDuotone", __iconNode391);
+var PanelLeftDuotone = createFoamicon("PanelLeftDuotone", __iconNode415);
 
 // src/icons/PanelLeftFill.tsx
-var __iconNode392 = [
+var __iconNode416 = [
   [
     "path",
     {
@@ -15955,10 +17175,10 @@ var __iconNode392 = [
     }
   ]
 ];
-var PanelLeftFill = createFoamicon("PanelLeftFill", __iconNode392);
+var PanelLeftFill = createFoamicon("PanelLeftFill", __iconNode416);
 
 // src/icons/PanelLeft.tsx
-var __iconNode393 = [
+var __iconNode417 = [
   [
     "path",
     {
@@ -15978,10 +17198,10 @@ var __iconNode393 = [
     }
   ]
 ];
-var PanelLeft = createFoamicon("PanelLeft", __iconNode393);
+var PanelLeft = createFoamicon("PanelLeft", __iconNode417);
 
 // src/icons/PanelRightDuotone.tsx
-var __iconNode394 = [
+var __iconNode418 = [
   [
     "path",
     {
@@ -16012,10 +17232,10 @@ var __iconNode394 = [
     }
   ]
 ];
-var PanelRightDuotone = createFoamicon("PanelRightDuotone", __iconNode394);
+var PanelRightDuotone = createFoamicon("PanelRightDuotone", __iconNode418);
 
 // src/icons/PanelRightFill.tsx
-var __iconNode395 = [
+var __iconNode419 = [
   [
     "path",
     {
@@ -16043,10 +17263,10 @@ var __iconNode395 = [
     }
   ]
 ];
-var PanelRightFill = createFoamicon("PanelRightFill", __iconNode395);
+var PanelRightFill = createFoamicon("PanelRightFill", __iconNode419);
 
 // src/icons/PanelRight.tsx
-var __iconNode396 = [
+var __iconNode420 = [
   [
     "path",
     {
@@ -16066,10 +17286,10 @@ var __iconNode396 = [
     }
   ]
 ];
-var PanelRight = createFoamicon("PanelRight", __iconNode396);
+var PanelRight = createFoamicon("PanelRight", __iconNode420);
 
 // src/icons/PencilDuotone.tsx
-var __iconNode397 = [
+var __iconNode421 = [
   [
     "path",
     {
@@ -16102,10 +17322,10 @@ var __iconNode397 = [
     }
   ]
 ];
-var PencilDuotone = createFoamicon("PencilDuotone", __iconNode397);
+var PencilDuotone = createFoamicon("PencilDuotone", __iconNode421);
 
 // src/icons/PencilFill.tsx
-var __iconNode398 = [
+var __iconNode422 = [
   [
     "path",
     {
@@ -16135,10 +17355,10 @@ var __iconNode398 = [
     }
   ]
 ];
-var PencilFill = createFoamicon("PencilFill", __iconNode398);
+var PencilFill = createFoamicon("PencilFill", __iconNode422);
 
 // src/icons/Pencil.tsx
-var __iconNode399 = [
+var __iconNode423 = [
   [
     "path",
     {
@@ -16160,10 +17380,10 @@ var __iconNode399 = [
     }
   ]
 ];
-var Pencil = createFoamicon("Pencil", __iconNode399);
+var Pencil = createFoamicon("Pencil", __iconNode423);
 
 // src/icons/PinDuotone.tsx
-var __iconNode400 = [
+var __iconNode424 = [
   [
     "path",
     {
@@ -16189,10 +17409,10 @@ var __iconNode400 = [
     }
   ]
 ];
-var PinDuotone = createFoamicon("PinDuotone", __iconNode400);
+var PinDuotone = createFoamicon("PinDuotone", __iconNode424);
 
 // src/icons/PinFill.tsx
-var __iconNode401 = [
+var __iconNode425 = [
   [
     "path",
     {
@@ -16215,10 +17435,10 @@ var __iconNode401 = [
     }
   ]
 ];
-var PinFill = createFoamicon("PinFill", __iconNode401);
+var PinFill = createFoamicon("PinFill", __iconNode425);
 
 // src/icons/Pin.tsx
-var __iconNode402 = [
+var __iconNode426 = [
   [
     "path",
     {
@@ -16240,10 +17460,10 @@ var __iconNode402 = [
     }
   ]
 ];
-var Pin = createFoamicon("Pin", __iconNode402);
+var Pin = createFoamicon("Pin", __iconNode426);
 
 // src/icons/PlayDuotone.tsx
-var __iconNode403 = [
+var __iconNode427 = [
   [
     "path",
     {
@@ -16259,10 +17479,10 @@ var __iconNode403 = [
     }
   ]
 ];
-var PlayDuotone = createFoamicon("PlayDuotone", __iconNode403);
+var PlayDuotone = createFoamicon("PlayDuotone", __iconNode427);
 
 // src/icons/PlayFill.tsx
-var __iconNode404 = [
+var __iconNode428 = [
   [
     "path",
     {
@@ -16275,10 +17495,10 @@ var __iconNode404 = [
     }
   ]
 ];
-var PlayFill = createFoamicon("PlayFill", __iconNode404);
+var PlayFill = createFoamicon("PlayFill", __iconNode428);
 
 // src/icons/Play.tsx
-var __iconNode405 = [
+var __iconNode429 = [
   [
     "path",
     {
@@ -16290,10 +17510,10 @@ var __iconNode405 = [
     }
   ]
 ];
-var Play = createFoamicon("Play", __iconNode405);
+var Play = createFoamicon("Play", __iconNode429);
 
 // src/icons/PlusDuotone.tsx
-var __iconNode406 = [
+var __iconNode430 = [
   [
     "path",
     {
@@ -16315,10 +17535,10 @@ var __iconNode406 = [
     }
   ]
 ];
-var PlusDuotone = createFoamicon("PlusDuotone", __iconNode406);
+var PlusDuotone = createFoamicon("PlusDuotone", __iconNode430);
 
 // src/icons/PlusFill.tsx
-var __iconNode407 = [
+var __iconNode431 = [
   [
     "path",
     {
@@ -16340,10 +17560,10 @@ var __iconNode407 = [
     }
   ]
 ];
-var PlusFill = createFoamicon("PlusFill", __iconNode407);
+var PlusFill = createFoamicon("PlusFill", __iconNode431);
 
 // src/icons/Plus.tsx
-var __iconNode408 = [
+var __iconNode432 = [
   [
     "path",
     {
@@ -16365,10 +17585,10 @@ var __iconNode408 = [
     }
   ]
 ];
-var Plus = createFoamicon("Plus", __iconNode408);
+var Plus = createFoamicon("Plus", __iconNode432);
 
 // src/icons/PointerDuotone.tsx
-var __iconNode409 = [
+var __iconNode433 = [
   [
     "path",
     {
@@ -16393,10 +17613,10 @@ var __iconNode409 = [
     }
   ]
 ];
-var PointerDuotone = createFoamicon("PointerDuotone", __iconNode409);
+var PointerDuotone = createFoamicon("PointerDuotone", __iconNode433);
 
 // src/icons/PointerFill.tsx
-var __iconNode410 = [
+var __iconNode434 = [
   [
     "path",
     {
@@ -16417,10 +17637,10 @@ var __iconNode410 = [
     }
   ]
 ];
-var PointerFill = createFoamicon("PointerFill", __iconNode410);
+var PointerFill = createFoamicon("PointerFill", __iconNode434);
 
 // src/icons/Pointer.tsx
-var __iconNode411 = [
+var __iconNode435 = [
   [
     "path",
     {
@@ -16441,10 +17661,10 @@ var __iconNode411 = [
     }
   ]
 ];
-var Pointer = createFoamicon("Pointer", __iconNode411);
+var Pointer = createFoamicon("Pointer", __iconNode435);
 
 // src/icons/QuotationMarkLeftDuotone.tsx
-var __iconNode412 = [
+var __iconNode436 = [
   [
     "circle",
     {
@@ -16498,10 +17718,10 @@ var __iconNode412 = [
     }
   ]
 ];
-var QuotationMarkLeftDuotone = createFoamicon("QuotationMarkLeftDuotone", __iconNode412);
+var QuotationMarkLeftDuotone = createFoamicon("QuotationMarkLeftDuotone", __iconNode436);
 
 // src/icons/QuotationMarkLeftFill.tsx
-var __iconNode413 = [
+var __iconNode437 = [
   [
     "circle",
     {
@@ -16549,10 +17769,10 @@ var __iconNode413 = [
     }
   ]
 ];
-var QuotationMarkLeftFill = createFoamicon("QuotationMarkLeftFill", __iconNode413);
+var QuotationMarkLeftFill = createFoamicon("QuotationMarkLeftFill", __iconNode437);
 
 // src/icons/QuotationMarkLeft.tsx
-var __iconNode414 = [
+var __iconNode438 = [
   [
     "circle",
     {
@@ -16598,10 +17818,10 @@ var __iconNode414 = [
     }
   ]
 ];
-var QuotationMarkLeft = createFoamicon("QuotationMarkLeft", __iconNode414);
+var QuotationMarkLeft = createFoamicon("QuotationMarkLeft", __iconNode438);
 
 // src/icons/QuotationMarkRightDuotone.tsx
-var __iconNode415 = [
+var __iconNode439 = [
   [
     "circle",
     {
@@ -16657,10 +17877,10 @@ var __iconNode415 = [
     }
   ]
 ];
-var QuotationMarkRightDuotone = createFoamicon("QuotationMarkRightDuotone", __iconNode415);
+var QuotationMarkRightDuotone = createFoamicon("QuotationMarkRightDuotone", __iconNode439);
 
 // src/icons/QuotationMarkRightFill.tsx
-var __iconNode416 = [
+var __iconNode440 = [
   [
     "circle",
     {
@@ -16710,10 +17930,10 @@ var __iconNode416 = [
     }
   ]
 ];
-var QuotationMarkRightFill = createFoamicon("QuotationMarkRightFill", __iconNode416);
+var QuotationMarkRightFill = createFoamicon("QuotationMarkRightFill", __iconNode440);
 
 // src/icons/QuotationMarkRight.tsx
-var __iconNode417 = [
+var __iconNode441 = [
   [
     "circle",
     {
@@ -16761,10 +17981,10 @@ var __iconNode417 = [
     }
   ]
 ];
-var QuotationMarkRight = createFoamicon("QuotationMarkRight", __iconNode417);
+var QuotationMarkRight = createFoamicon("QuotationMarkRight", __iconNode441);
 
 // src/icons/ReachDuotone.tsx
-var __iconNode418 = [
+var __iconNode442 = [
   [
     "path",
     {
@@ -16942,10 +18162,10 @@ var __iconNode418 = [
     }
   ]
 ];
-var ReachDuotone = createFoamicon("ReachDuotone", __iconNode418);
+var ReachDuotone = createFoamicon("ReachDuotone", __iconNode442);
 
 // src/icons/ReachFill.tsx
-var __iconNode419 = [
+var __iconNode443 = [
   [
     "path",
     {
@@ -17120,10 +18340,10 @@ var __iconNode419 = [
     }
   ]
 ];
-var ReachFill = createFoamicon("ReachFill", __iconNode419);
+var ReachFill = createFoamicon("ReachFill", __iconNode443);
 
 // src/icons/Reach.tsx
-var __iconNode420 = [
+var __iconNode444 = [
   [
     "path",
     {
@@ -17297,10 +18517,10 @@ var __iconNode420 = [
     }
   ]
 ];
-var Reach = createFoamicon("Reach", __iconNode420);
+var Reach = createFoamicon("Reach", __iconNode444);
 
 // src/icons/ReelDuotone.tsx
-var __iconNode421 = [
+var __iconNode445 = [
   [
     "path",
     {
@@ -17411,10 +18631,10 @@ var __iconNode421 = [
     }
   ]
 ];
-var ReelDuotone = createFoamicon("ReelDuotone", __iconNode421);
+var ReelDuotone = createFoamicon("ReelDuotone", __iconNode445);
 
 // src/icons/ReelFill.tsx
-var __iconNode422 = [
+var __iconNode446 = [
   [
     "path",
     {
@@ -17522,10 +18742,10 @@ var __iconNode422 = [
     }
   ]
 ];
-var ReelFill = createFoamicon("ReelFill", __iconNode422);
+var ReelFill = createFoamicon("ReelFill", __iconNode446);
 
 // src/icons/Reel.tsx
-var __iconNode423 = [
+var __iconNode447 = [
   [
     "path",
     {
@@ -17625,10 +18845,10 @@ var __iconNode423 = [
     }
   ]
 ];
-var Reel = createFoamicon("Reel", __iconNode423);
+var Reel = createFoamicon("Reel", __iconNode447);
 
 // src/icons/RefreshCwDuotone.tsx
-var __iconNode424 = [
+var __iconNode448 = [
   [
     "path",
     {
@@ -17660,10 +18880,10 @@ var __iconNode424 = [
     }
   ]
 ];
-var RefreshCwDuotone = createFoamicon("RefreshCwDuotone", __iconNode424);
+var RefreshCwDuotone = createFoamicon("RefreshCwDuotone", __iconNode448);
 
 // src/icons/RefreshCwFill.tsx
-var __iconNode425 = [
+var __iconNode449 = [
   [
     "path",
     {
@@ -17695,10 +18915,10 @@ var __iconNode425 = [
     }
   ]
 ];
-var RefreshCwFill = createFoamicon("RefreshCwFill", __iconNode425);
+var RefreshCwFill = createFoamicon("RefreshCwFill", __iconNode449);
 
 // src/icons/RefreshCw.tsx
-var __iconNode426 = [
+var __iconNode450 = [
   [
     "path",
     {
@@ -17730,10 +18950,10 @@ var __iconNode426 = [
     }
   ]
 ];
-var RefreshCw = createFoamicon("RefreshCw", __iconNode426);
+var RefreshCw = createFoamicon("RefreshCw", __iconNode450);
 
 // src/icons/RemoveFormattingDuotone.tsx
-var __iconNode427 = [
+var __iconNode451 = [
   [
     "path",
     {
@@ -17755,10 +18975,10 @@ var __iconNode427 = [
     }
   ]
 ];
-var RemoveFormattingDuotone = createFoamicon("RemoveFormattingDuotone", __iconNode427);
+var RemoveFormattingDuotone = createFoamicon("RemoveFormattingDuotone", __iconNode451);
 
 // src/icons/RemoveFormattingFill.tsx
-var __iconNode428 = [
+var __iconNode452 = [
   [
     "path",
     {
@@ -17780,10 +19000,10 @@ var __iconNode428 = [
     }
   ]
 ];
-var RemoveFormattingFill = createFoamicon("RemoveFormattingFill", __iconNode428);
+var RemoveFormattingFill = createFoamicon("RemoveFormattingFill", __iconNode452);
 
 // src/icons/RemoveFormatting.tsx
-var __iconNode429 = [
+var __iconNode453 = [
   [
     "path",
     {
@@ -17805,10 +19025,10 @@ var __iconNode429 = [
     }
   ]
 ];
-var RemoveFormatting = createFoamicon("RemoveFormatting", __iconNode429);
+var RemoveFormatting = createFoamicon("RemoveFormatting", __iconNode453);
 
 // src/icons/ReplyDuotone.tsx
-var __iconNode430 = [
+var __iconNode454 = [
   [
     "path",
     {
@@ -17830,10 +19050,10 @@ var __iconNode430 = [
     }
   ]
 ];
-var ReplyDuotone = createFoamicon("ReplyDuotone", __iconNode430);
+var ReplyDuotone = createFoamicon("ReplyDuotone", __iconNode454);
 
 // src/icons/ReplyFill.tsx
-var __iconNode431 = [
+var __iconNode455 = [
   [
     "path",
     {
@@ -17855,10 +19075,10 @@ var __iconNode431 = [
     }
   ]
 ];
-var ReplyFill = createFoamicon("ReplyFill", __iconNode431);
+var ReplyFill = createFoamicon("ReplyFill", __iconNode455);
 
 // src/icons/Reply.tsx
-var __iconNode432 = [
+var __iconNode456 = [
   [
     "path",
     {
@@ -17880,10 +19100,10 @@ var __iconNode432 = [
     }
   ]
 ];
-var Reply = createFoamicon("Reply", __iconNode432);
+var Reply = createFoamicon("Reply", __iconNode456);
 
 // src/icons/RolodexDuotone.tsx
-var __iconNode433 = [
+var __iconNode457 = [
   [
     "path",
     {
@@ -17967,10 +19187,10 @@ var __iconNode433 = [
     }
   ]
 ];
-var RolodexDuotone = createFoamicon("RolodexDuotone", __iconNode433);
+var RolodexDuotone = createFoamicon("RolodexDuotone", __iconNode457);
 
 // src/icons/RolodexFill.tsx
-var __iconNode434 = [
+var __iconNode458 = [
   [
     "path",
     {
@@ -18051,10 +19271,10 @@ var __iconNode434 = [
     }
   ]
 ];
-var RolodexFill = createFoamicon("RolodexFill", __iconNode434);
+var RolodexFill = createFoamicon("RolodexFill", __iconNode458);
 
 // src/icons/Rolodex.tsx
-var __iconNode435 = [
+var __iconNode459 = [
   [
     "path",
     {
@@ -18134,10 +19354,115 @@ var __iconNode435 = [
     }
   ]
 ];
-var Rolodex = createFoamicon("Rolodex", __iconNode435);
+var Rolodex = createFoamicon("Rolodex", __iconNode459);
+
+// src/icons/RotateCcwDuotone.tsx
+var __iconNode460 = [
+  [
+    "path",
+    {
+      d: "M5.12773 2.31184L4.52978 4.54343L6.76136 5.14138",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dnkr3f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.14463 6.8604C2.42963 9.52882 4.01319 12.2716 6.68161 12.9866C8.32812 13.4278 10.0029 12.9939 11.2122 11.9699M12.8078 9.44964C13.5228 6.78122 11.9393 4.03842 9.27086 3.32341C7.62594 2.88266 5.95275 3.31535 4.74373 4.33719",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ud2qxj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.43931 11.6919C6.39273 13.6453 9.55985 13.6453 11.5133 11.6919C12.7186 10.4865 13.1802 8.8191 12.8981 7.25984",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bulsm4"
+    }
+  ]
+];
+var RotateCcwDuotone = createFoamicon("RotateCcwDuotone", __iconNode460);
+
+// src/icons/RotateCcwFill.tsx
+var __iconNode461 = [
+  [
+    "path",
+    {
+      d: "M5.12774 2.31184L4.52978 4.54343L6.76137 5.14138",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "hry3kn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.14463 6.8604C2.42963 9.52882 4.01319 12.2716 6.68161 12.9866C8.32812 13.4278 10.0029 12.9939 11.2122 11.9699M12.8078 9.44964C13.5228 6.78122 11.9393 4.03842 9.27086 3.32341C7.62594 2.88266 5.95275 3.31535 4.74373 4.33719",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ud2qxj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.43931 11.6919C6.39273 13.6453 9.55985 13.6453 11.5133 11.6919C12.7186 10.4865 13.1802 8.8191 12.8981 7.25984",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bulsm4"
+    }
+  ]
+];
+var RotateCcwFill = createFoamicon("RotateCcwFill", __iconNode461);
+
+// src/icons/RotateCcw.tsx
+var __iconNode462 = [
+  [
+    "path",
+    {
+      d: "M5.12773 2.31184L4.52978 4.54343L6.76136 5.14138",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dnkr3f"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.14463 6.8604C2.42962 9.52882 4.01318 12.2716 6.68161 12.9866C8.32811 13.4278 10.0029 12.9939 11.2122 11.9699M12.8078 9.44964C13.5228 6.78122 11.9393 4.03842 9.27085 3.32341C7.62593 2.88266 5.95275 3.31535 4.74372 4.33719",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "y3ah3x"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.43931 11.6919C6.39273 13.6453 9.55985 13.6453 11.5133 11.6919C12.7186 10.4865 13.1802 8.8191 12.8981 7.25984",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "bulsm4"
+    }
+  ]
+];
+var RotateCcw = createFoamicon("RotateCcw", __iconNode462);
 
 // src/icons/RotateCwDuotone.tsx
-var __iconNode436 = [
+var __iconNode463 = [
   [
     "path",
     {
@@ -18169,10 +19494,10 @@ var __iconNode436 = [
     }
   ]
 ];
-var RotateCwDuotone = createFoamicon("RotateCwDuotone", __iconNode436);
+var RotateCwDuotone = createFoamicon("RotateCwDuotone", __iconNode463);
 
 // src/icons/RotateCwFill.tsx
-var __iconNode437 = [
+var __iconNode464 = [
   [
     "path",
     {
@@ -18204,10 +19529,10 @@ var __iconNode437 = [
     }
   ]
 ];
-var RotateCwFill = createFoamicon("RotateCwFill", __iconNode437);
+var RotateCwFill = createFoamicon("RotateCwFill", __iconNode464);
 
 // src/icons/RotateCw.tsx
-var __iconNode438 = [
+var __iconNode465 = [
   [
     "path",
     {
@@ -18239,10 +19564,10 @@ var __iconNode438 = [
     }
   ]
 ];
-var RotateCw = createFoamicon("RotateCw", __iconNode438);
+var RotateCw = createFoamicon("RotateCw", __iconNode465);
 
 // src/icons/Rows2Duotone.tsx
-var __iconNode439 = [
+var __iconNode466 = [
   [
     "rect",
     {
@@ -18280,10 +19605,10 @@ var __iconNode439 = [
     }
   ]
 ];
-var Rows2Duotone = createFoamicon("Rows2Duotone", __iconNode439);
+var Rows2Duotone = createFoamicon("Rows2Duotone", __iconNode466);
 
 // src/icons/Rows2Fill.tsx
-var __iconNode440 = [
+var __iconNode467 = [
   [
     "rect",
     {
@@ -18315,10 +19640,10 @@ var __iconNode440 = [
     }
   ]
 ];
-var Rows2Fill = createFoamicon("Rows2Fill", __iconNode440);
+var Rows2Fill = createFoamicon("Rows2Fill", __iconNode467);
 
 // src/icons/Rows2.tsx
-var __iconNode441 = [
+var __iconNode468 = [
   [
     "rect",
     {
@@ -18348,10 +19673,10 @@ var __iconNode441 = [
     }
   ]
 ];
-var Rows2 = createFoamicon("Rows2", __iconNode441);
+var Rows2 = createFoamicon("Rows2", __iconNode468);
 
 // src/icons/SaveDuotone.tsx
-var __iconNode442 = [
+var __iconNode469 = [
   [
     "path",
     {
@@ -18391,10 +19716,10 @@ var __iconNode442 = [
     }
   ]
 ];
-var SaveDuotone = createFoamicon("SaveDuotone", __iconNode442);
+var SaveDuotone = createFoamicon("SaveDuotone", __iconNode469);
 
 // src/icons/SaveFill.tsx
-var __iconNode443 = [
+var __iconNode470 = [
   [
     "path",
     {
@@ -18428,10 +19753,10 @@ var __iconNode443 = [
     }
   ]
 ];
-var SaveFill = createFoamicon("SaveFill", __iconNode443);
+var SaveFill = createFoamicon("SaveFill", __iconNode470);
 
 // src/icons/Save.tsx
-var __iconNode444 = [
+var __iconNode471 = [
   [
     "path",
     {
@@ -18463,10 +19788,10 @@ var __iconNode444 = [
     }
   ]
 ];
-var Save = createFoamicon("Save", __iconNode444);
+var Save = createFoamicon("Save", __iconNode471);
 
 // src/icons/SearchDuotone.tsx
-var __iconNode445 = [
+var __iconNode472 = [
   [
     "path",
     {
@@ -18489,10 +19814,10 @@ var __iconNode445 = [
     }
   ]
 ];
-var SearchDuotone = createFoamicon("SearchDuotone", __iconNode445);
+var SearchDuotone = createFoamicon("SearchDuotone", __iconNode472);
 
 // src/icons/SearchFill.tsx
-var __iconNode446 = [
+var __iconNode473 = [
   [
     "path",
     {
@@ -18512,10 +19837,10 @@ var __iconNode446 = [
     }
   ]
 ];
-var SearchFill = createFoamicon("SearchFill", __iconNode446);
+var SearchFill = createFoamicon("SearchFill", __iconNode473);
 
 // src/icons/SearchUserDuotone.tsx
-var __iconNode447 = [
+var __iconNode474 = [
   [
     "circle",
     {
@@ -18564,10 +19889,10 @@ var __iconNode447 = [
     }
   ]
 ];
-var SearchUserDuotone = createFoamicon("SearchUserDuotone", __iconNode447);
+var SearchUserDuotone = createFoamicon("SearchUserDuotone", __iconNode474);
 
 // src/icons/SearchUserFill.tsx
-var __iconNode448 = [
+var __iconNode475 = [
   [
     "circle",
     {
@@ -18610,10 +19935,10 @@ var __iconNode448 = [
     }
   ]
 ];
-var SearchUserFill = createFoamicon("SearchUserFill", __iconNode448);
+var SearchUserFill = createFoamicon("SearchUserFill", __iconNode475);
 
 // src/icons/SearchUser.tsx
-var __iconNode449 = [
+var __iconNode476 = [
   [
     "circle",
     {
@@ -18647,10 +19972,10 @@ var __iconNode449 = [
     }
   ]
 ];
-var SearchUser = createFoamicon("SearchUser", __iconNode449);
+var SearchUser = createFoamicon("SearchUser", __iconNode476);
 
 // src/icons/Search.tsx
-var __iconNode450 = [
+var __iconNode477 = [
   [
     "path",
     {
@@ -18662,10 +19987,10 @@ var __iconNode450 = [
     }
   ]
 ];
-var Search = createFoamicon("Search", __iconNode450);
+var Search = createFoamicon("Search", __iconNode477);
 
 // src/icons/ShareDuotone.tsx
-var __iconNode451 = [
+var __iconNode478 = [
   [
     "path",
     {
@@ -18697,10 +20022,10 @@ var __iconNode451 = [
     }
   ]
 ];
-var ShareDuotone = createFoamicon("ShareDuotone", __iconNode451);
+var ShareDuotone = createFoamicon("ShareDuotone", __iconNode478);
 
 // src/icons/ShareFill.tsx
-var __iconNode452 = [
+var __iconNode479 = [
   [
     "path",
     {
@@ -18732,10 +20057,10 @@ var __iconNode452 = [
     }
   ]
 ];
-var ShareFill = createFoamicon("ShareFill", __iconNode452);
+var ShareFill = createFoamicon("ShareFill", __iconNode479);
 
 // src/icons/Share.tsx
-var __iconNode453 = [
+var __iconNode480 = [
   [
     "path",
     {
@@ -18767,10 +20092,607 @@ var __iconNode453 = [
     }
   ]
 ];
-var Share = createFoamicon("Share", __iconNode453);
+var Share = createFoamicon("Share", __iconNode480);
+
+// src/icons/ShieldCheckDuotone.tsx
+var __iconNode481 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "udgb2o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.3881 6.64628L7.97351 9.9663C7.7928 10.2148 7.43284 10.243 7.21559 10.0258L6.24999 9.06016",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "66x7p7"
+    }
+  ]
+];
+var ShieldCheckDuotone = createFoamicon("ShieldCheckDuotone", __iconNode481);
+
+// src/icons/ShieldCheckFill.tsx
+var __iconNode482 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "5ihy9u"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.3881 6.64628L7.97351 9.9663C7.7928 10.2148 7.43284 10.243 7.21559 10.0258L6.24999 9.06016",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "duadp6"
+    }
+  ]
+];
+var ShieldCheckFill = createFoamicon("ShieldCheckFill", __iconNode482);
+
+// src/icons/ShieldCheck.tsx
+var __iconNode483 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "vm6mdl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.3881 6.64628L7.97351 9.9663C7.7928 10.2148 7.43284 10.243 7.21559 10.0258L6.24999 9.06016",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "66x7p7"
+    }
+  ]
+];
+var ShieldCheck = createFoamicon("ShieldCheck", __iconNode483);
+
+// src/icons/ShieldDuotone.tsx
+var __iconNode484 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "udgb2o"
+    }
+  ]
+];
+var ShieldDuotone = createFoamicon("ShieldDuotone", __iconNode484);
+
+// src/icons/ShieldFill.tsx
+var __iconNode485 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "5ihy9u"
+    }
+  ]
+];
+var ShieldFill = createFoamicon("ShieldFill", __iconNode485);
+
+// src/icons/ShieldOffDuotone.tsx
+var __iconNode486 = [
+  [
+    "path",
+    {
+      d: "M12.04 11.6396C10.2894 13.9989 8.00001 14 8.00001 14C7.99263 14 2.0824 13.9939 2.00098 4.20508C2.00007 4.09462 2.08979 4.00027 2.2002 3.99707C2.85064 3.9782 3.4978 3.86883 4.11134 3.71094L12.04 11.6396Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "kgkoc5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 13.9998V14.4998V14.4998V13.9998ZM12.2531 12.1837C12.4268 11.9691 12.3935 11.6542 12.1789 11.4805C11.9642 11.3068 11.6494 11.34 11.4757 11.5547L11.8644 11.8692L12.2531 12.1837ZM8 13.9998C8 13.4998 8.00038 13.4998 8.00074 13.4998C8.00083 13.4998 8.00117 13.4998 8.00135 13.4998C8.00172 13.4998 8.00199 13.4998 8.00218 13.4998C8.00256 13.4998 8.00259 13.4998 8.00228 13.4998C8.00166 13.4998 7.99967 13.4998 7.99636 13.4997C7.98975 13.4995 7.97786 13.4991 7.96105 13.4982C7.92742 13.4964 7.87421 13.4924 7.80421 13.4842C7.66406 13.4676 7.45761 13.4338 7.20676 13.3647C6.70528 13.2267 6.02948 12.949 5.34844 12.3892C4.00294 11.2833 2.54066 8.99331 2.50083 4.20061L2.00085 4.20477L1.50086 4.20892C1.54244 9.21129 3.07974 11.8189 4.71346 13.1617C5.52204 13.8263 6.33076 14.1608 6.9414 14.3289C7.24661 14.4129 7.50312 14.4555 7.68691 14.4773C7.77888 14.4881 7.85289 14.4938 7.90599 14.4967C7.93255 14.4982 7.9539 14.4989 7.96968 14.4994C7.97757 14.4996 7.98408 14.4997 7.98914 14.4998C7.99168 14.4998 7.99385 14.4998 7.99566 14.4998C7.99657 14.4998 7.99738 14.4998 7.99811 14.4998C7.99847 14.4998 7.99894 14.4998 7.99912 14.4998C7.99957 14.4998 8 14.4998 8 13.9998ZM11.8644 11.8692L11.4757 11.5547C10.6805 12.5374 9.79655 13.0217 9.11849 13.2623C8.77826 13.383 8.48915 13.4425 8.289 13.4718C8.18905 13.4864 8.1117 13.4934 8.06179 13.4968C8.03686 13.4985 8.01883 13.4992 8.00831 13.4996C8.00305 13.4998 7.99968 13.4998 7.99827 13.4998C7.99756 13.4998 7.99735 13.4998 7.99763 13.4998C7.99778 13.4998 7.99804 13.4998 7.99844 13.4998C7.99863 13.4998 7.99886 13.4998 7.99912 13.4998C7.99925 13.4998 7.99947 13.4998 7.99954 13.4998C7.99976 13.4998 8 13.4998 8 13.9998C8 14.4998 8.00025 14.4998 8.00051 14.4998C8.00061 14.4998 8.00088 14.4998 8.00107 14.4998C8.00146 14.4998 8.00189 14.4998 8.00234 14.4998C8.00326 14.4998 8.0043 14.4998 8.00548 14.4998C8.00784 14.4998 8.01072 14.4998 8.01412 14.4997C8.02091 14.4996 8.02977 14.4994 8.04061 14.4991C8.06228 14.4984 8.09192 14.497 8.12888 14.4946C8.20276 14.4896 8.3061 14.48 8.43374 14.4613C8.68878 14.424 9.04252 14.3503 9.45288 14.2047C10.276 13.9127 11.3242 13.3317 12.2531 12.1837L11.8644 11.8692ZM2.19997 3.99692L2.21446 4.49671C2.80698 4.47954 3.39152 4.39283 3.94741 4.26574L3.83597 3.77832L3.72454 3.2909C3.21952 3.40635 2.70079 3.48219 2.18549 3.49713L2.19997 3.99692ZM2.00085 4.20477L2.50083 4.20061C2.50214 4.35868 2.37962 4.49192 2.21446 4.49671L2.19997 3.99692L2.18549 3.49713C1.7995 3.50832 1.49772 3.82995 1.50086 4.20892L2.00085 4.20477Z",
+      fill: "currentColor",
+      key: "quxgk4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 14L1 0.999999",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "k5jpeh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.9142 10.1294C13.542 8.72466 13.9782 6.81022 13.9995 4.20035C14.0004 4.0899 13.9107 4.00028 13.8003 3.99708C11.2068 3.92189 8.66295 2.41688 8.11038 2.07052C8.04212 2.02774 7.95682 2.0287 7.8885 2.07139C7.62 2.23914 6.88787 2.67569 5.9108 3.0911",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "lw2895"
+    }
+  ]
+];
+var ShieldOffDuotone = createFoamicon("ShieldOffDuotone", __iconNode486);
+
+// src/icons/ShieldOffFill.tsx
+var __iconNode487 = [
+  [
+    "path",
+    {
+      d: "M12.04 11.6396C10.2894 13.9989 8.00001 14 8.00001 14C7.99263 14 2.0824 13.9939 2.00098 4.20508C2.00007 4.09462 2.08979 4.00027 2.2002 3.99707C2.85064 3.9782 3.4978 3.86883 4.11134 3.71094L12.04 11.6396Z",
+      fill: "currentColor",
+      key: "qss81b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.00085 4.20477L1.50086 4.20892L2.00085 4.20477ZM12.2531 12.1837C12.4268 11.9691 12.3935 11.6542 12.1789 11.4805C11.9642 11.3068 11.6494 11.34 11.4757 11.5547L11.8644 11.8692L12.2531 12.1837ZM2.19997 3.99692L2.18549 3.49713H2.18549L2.19997 3.99692ZM8 13.9998C8 13.4998 8.00038 13.4998 8.00074 13.4998C8.00083 13.4998 8.00117 13.4998 8.00135 13.4998C8.00172 13.4998 8.00199 13.4998 8.00218 13.4998C8.00256 13.4998 8.00259 13.4998 8.00228 13.4998C8.00166 13.4998 7.99967 13.4998 7.99636 13.4997C7.98975 13.4995 7.97786 13.4991 7.96105 13.4982C7.92742 13.4964 7.87421 13.4924 7.80421 13.4842C7.66406 13.4676 7.45761 13.4338 7.20676 13.3647C6.70528 13.2267 6.02948 12.949 5.34844 12.3892C4.00294 11.2833 2.54066 8.99331 2.50083 4.20061L2.00085 4.20477L1.50086 4.20892C1.54244 9.21129 3.07974 11.8189 4.71346 13.1617C5.52204 13.8263 6.33076 14.1608 6.9414 14.3289C7.24661 14.4129 7.50312 14.4555 7.68691 14.4773C7.77888 14.4881 7.85289 14.4938 7.90599 14.4967C7.93255 14.4982 7.9539 14.4989 7.96968 14.4994C7.97757 14.4996 7.98408 14.4997 7.98914 14.4998C7.99168 14.4998 7.99385 14.4998 7.99566 14.4998C7.99657 14.4998 7.99738 14.4998 7.99811 14.4998C7.99847 14.4998 7.99894 14.4998 7.99912 14.4998C7.99957 14.4998 8 14.4998 8 13.9998ZM11.8644 11.8692L11.4757 11.5547C10.6805 12.5374 9.79655 13.0217 9.11849 13.2623C8.77826 13.383 8.48915 13.4425 8.289 13.4718C8.18905 13.4864 8.1117 13.4934 8.06179 13.4968C8.03686 13.4985 8.01883 13.4992 8.00831 13.4996C8.00305 13.4998 7.99968 13.4998 7.99827 13.4998C7.99756 13.4998 7.99735 13.4998 7.99763 13.4998C7.99778 13.4998 7.99804 13.4998 7.99844 13.4998C7.99863 13.4998 7.99886 13.4998 7.99912 13.4998C7.99925 13.4998 7.99947 13.4998 7.99954 13.4998C7.99976 13.4998 8 13.4998 8 13.9998C8 14.4998 8.00025 14.4998 8.00051 14.4998C8.00061 14.4998 8.00088 14.4998 8.00107 14.4998C8.00146 14.4998 8.00189 14.4998 8.00234 14.4998C8.00326 14.4998 8.0043 14.4998 8.00548 14.4998C8.00784 14.4998 8.01072 14.4998 8.01412 14.4997C8.02091 14.4996 8.02977 14.4994 8.04061 14.4991C8.06228 14.4984 8.09192 14.497 8.12888 14.4946C8.20276 14.4896 8.3061 14.48 8.43374 14.4613C8.68878 14.424 9.04252 14.3503 9.45288 14.2047C10.276 13.9127 11.3242 13.3317 12.2531 12.1837L11.8644 11.8692ZM2.19997 3.99692L2.21446 4.49671C2.80698 4.47954 3.39152 4.39283 3.94741 4.26574L3.83597 3.77832L3.72454 3.2909C3.21952 3.40635 2.70079 3.48219 2.18549 3.49713L2.19997 3.99692ZM2.00085 4.20477L2.50083 4.20061C2.50214 4.35868 2.37962 4.49192 2.21446 4.49671L2.19997 3.99692L2.18549 3.49713C1.7995 3.50832 1.49772 3.82995 1.50086 4.20892L2.00085 4.20477Z",
+      fill: "currentColor",
+      key: "nw993p"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 14L1 0.999999",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "k5jpeh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.8003 3.99708C11.2068 3.92189 8.66295 2.41688 8.11038 2.07052C8.04212 2.02774 7.95682 2.0287 7.8885 2.07139C7.64545 2.22324 7.02249 2.59535 6.18185 2.97265C6.05273 3.0306 6.01943 3.20027 6.11925 3.30059L12.7087 9.92286C12.8077 10.0224 12.9756 9.99153 13.0289 9.86166C13.5946 8.48414 13.9796 6.6481 13.9995 4.20035C14.0004 4.0899 13.9107 4.00028 13.8003 3.99708Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "2582b0"
+    }
+  ]
+];
+var ShieldOffFill = createFoamicon("ShieldOffFill", __iconNode487);
+
+// src/icons/ShieldOff.tsx
+var __iconNode488 = [
+  [
+    "path",
+    {
+      d: "M12.04 11.6396C10.2894 13.9989 8.00001 14 8.00001 14C7.99263 14 2.0824 13.9939 2.00098 4.20508C2.00007 4.09462 2.08979 4.00027 2.2002 3.99707C2.85064 3.9782 3.4978 3.86883 4.11134 3.71094L12.04 11.6396Z",
+      fill: "currentColor",
+      key: "qss81b"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 13.9998V14.4998V14.4998V13.9998ZM12.2531 12.1837C12.4268 11.9691 12.3935 11.6542 12.1789 11.4805C11.9642 11.3068 11.6494 11.34 11.4757 11.5547L11.8644 11.8692L12.2531 12.1837ZM8 13.9998C8 13.4998 8.00038 13.4998 8.00074 13.4998C8.00083 13.4998 8.00117 13.4998 8.00135 13.4998C8.00172 13.4998 8.00199 13.4998 8.00218 13.4998C8.00256 13.4998 8.00259 13.4998 8.00228 13.4998C8.00166 13.4998 7.99967 13.4998 7.99636 13.4997C7.98975 13.4995 7.97786 13.4991 7.96105 13.4982C7.92742 13.4964 7.87421 13.4924 7.80421 13.4842C7.66406 13.4676 7.45761 13.4338 7.20676 13.3647C6.70528 13.2267 6.02948 12.949 5.34844 12.3892C4.00294 11.2833 2.54066 8.99331 2.50083 4.20061L2.00085 4.20477L1.50086 4.20892C1.54244 9.21129 3.07974 11.8189 4.71346 13.1617C5.52204 13.8263 6.33076 14.1608 6.9414 14.3289C7.24661 14.4129 7.50312 14.4555 7.68691 14.4773C7.77888 14.4881 7.85289 14.4938 7.90599 14.4967C7.93255 14.4982 7.9539 14.4989 7.96968 14.4994C7.97757 14.4996 7.98408 14.4997 7.98914 14.4998C7.99168 14.4998 7.99385 14.4998 7.99566 14.4998C7.99657 14.4998 7.99738 14.4998 7.99811 14.4998C7.99847 14.4998 7.99894 14.4998 7.99912 14.4998C7.99957 14.4998 8 14.4998 8 13.9998ZM11.8644 11.8692L11.4757 11.5547C10.6805 12.5374 9.79655 13.0217 9.11849 13.2623C8.77826 13.383 8.48915 13.4425 8.289 13.4718C8.18905 13.4864 8.1117 13.4934 8.06179 13.4968C8.03686 13.4985 8.01883 13.4992 8.00831 13.4996C8.00305 13.4998 7.99968 13.4998 7.99827 13.4998C7.99756 13.4998 7.99735 13.4998 7.99763 13.4998C7.99778 13.4998 7.99804 13.4998 7.99844 13.4998C7.99863 13.4998 7.99886 13.4998 7.99912 13.4998C7.99925 13.4998 7.99947 13.4998 7.99954 13.4998C7.99976 13.4998 8 13.4998 8 13.9998C8 14.4998 8.00025 14.4998 8.00051 14.4998C8.00061 14.4998 8.00088 14.4998 8.00107 14.4998C8.00146 14.4998 8.00189 14.4998 8.00234 14.4998C8.00326 14.4998 8.0043 14.4998 8.00548 14.4998C8.00784 14.4998 8.01072 14.4998 8.01412 14.4997C8.02091 14.4996 8.02977 14.4994 8.04061 14.4991C8.06228 14.4984 8.09192 14.497 8.12888 14.4946C8.20276 14.4896 8.3061 14.48 8.43374 14.4613C8.68878 14.424 9.04252 14.3503 9.45288 14.2047C10.276 13.9127 11.3242 13.3317 12.2531 12.1837L11.8644 11.8692ZM2.19997 3.99692L2.21446 4.49671C2.80698 4.47954 3.39152 4.39283 3.94741 4.26574L3.83597 3.77832L3.72454 3.2909C3.21952 3.40635 2.70079 3.48219 2.18549 3.49713L2.19997 3.99692ZM2.00085 4.20477L2.50083 4.20061C2.50214 4.35868 2.37962 4.49192 2.21446 4.49671L2.19997 3.99692L2.18549 3.49713C1.7995 3.50832 1.49772 3.82995 1.50086 4.20892L2.00085 4.20477Z",
+      fill: "currentColor",
+      key: "quxgk4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14 14L1 0.999999",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "k5jpeh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12.9142 10.1294C13.542 8.72466 13.9782 6.81022 13.9995 4.20035C14.0004 4.0899 13.9107 4.00028 13.8003 3.99708C11.2067 3.92189 8.66294 2.41688 8.11037 2.07052C8.04211 2.02774 7.95681 2.0287 7.88848 2.07139C7.61998 2.23914 6.88785 2.67569 5.91078 3.0911",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "2co34z"
+    }
+  ]
+];
+var ShieldOff = createFoamicon("ShieldOff", __iconNode488);
+
+// src/icons/ShieldPlusDuotone.tsx
+var __iconNode489 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "udgb2o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 6V10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8yraec"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 8H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cv1srv"
+    }
+  ]
+];
+var ShieldPlusDuotone = createFoamicon("ShieldPlusDuotone", __iconNode489);
+
+// src/icons/ShieldPlusFill.tsx
+var __iconNode490 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "5ihy9u"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 6V10",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ad4eqh"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 8H10",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8wtdys"
+    }
+  ]
+];
+var ShieldPlusFill = createFoamicon("ShieldPlusFill", __iconNode490);
+
+// src/icons/ShieldPlus.tsx
+var __iconNode491 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "vm6mdl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 6V10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "8yraec"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 8H10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "cv1srv"
+    }
+  ]
+];
+var ShieldPlus = createFoamicon("ShieldPlus", __iconNode491);
+
+// src/icons/ShieldUserDuotone.tsx
+var __iconNode492 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "vm6mdl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.88966 2.07062C7.95798 2.02789 8.04203 2.02789 8.11036 2.07062C8.66327 2.41717 11.2066 3.92213 13.7998 3.99738C13.9102 4.00058 13.9999 4.09494 13.999 4.20539C13.9175 14.0001 8.00001 14.0003 8.00001 14.0003C7.9927 14.0003 2.0825 13.994 2.00098 4.20539C2.00007 4.09494 2.08979 4.00058 2.2002 3.99738C4.79338 3.92214 7.33674 2.41717 7.88966 2.07062ZM8.00001 10.8753C6.00001 10.8753 5.50001 12.5003 5.50001 13.0003C5.51401 13.0088 6.95361 13.8753 8.00001 13.8753C9.04616 13.8753 10.4853 13.0092 10.5 13.0003C10.5 12.5003 10 10.8753 8.00001 10.8753ZM8.00001 6.00031C7.26947 6.00032 6.67774 6.59302 6.67774 7.32355C6.67814 8.05375 7.26972 8.64582 8.00001 8.64582C8.7303 8.64582 9.32285 8.05375 9.32325 7.32355C9.32325 6.59302 8.73054 6.00031 8.00001 6.00031Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "bczbe8"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "7.32275",
+      r: "1.32275",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yplx35"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 13C10.5 12.5 10 10.8745 8 10.8745C6 10.8745 5.5 12.5 5.5 13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e70d0x"
+    }
+  ]
+];
+var ShieldUserDuotone = createFoamicon("ShieldUserDuotone", __iconNode492);
+
+// src/icons/ShieldUserFill.tsx
+var __iconNode493 = [
+  [
+    "path",
+    {
+      d: "M10.5 13C10.5 12.5 10 10.8745 8 10.8745C6 10.8745 5.5 12.5 5.5 13C5.5 13 6.94848 13.8745 8 13.8745C9.05152 13.8745 10.5 13 10.5 13Z",
+      fill: "currentColor",
+      key: "84h2d4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "vm6mdm"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "7.32275",
+      r: "1.32275",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "f7ttp4"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 13C10.5 12.5 10 10.8745 8 10.8745C6 10.8745 5.5 12.5 5.5 13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e70d0x"
+    }
+  ]
+];
+var ShieldUserFill = createFoamicon("ShieldUserFill", __iconNode493);
+
+// src/icons/ShieldUser.tsx
+var __iconNode494 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "vm6mdl"
+    }
+  ],
+  [
+    "circle",
+    {
+      cx: "8",
+      cy: "7.32275",
+      r: "1.32275",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yplx34"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 13C10.5 12.5 10 10.8745 8 10.8745C6 10.8745 5.5 12.5 5.5 13C5.5 13 6.94848 13.8745 8 13.8745C9.05152 13.8745 10.5 13 10.5 13Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wjaeob"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10.5 13C10.5 12.5 10 10.8745 8 10.8745C6 10.8745 5.5 12.5 5.5 13",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "e70d0x"
+    }
+  ]
+];
+var ShieldUser = createFoamicon("ShieldUser", __iconNode494);
+
+// src/icons/ShieldXDuotone.tsx
+var __iconNode495 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "udgb2o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 6.68994L6.5 9.68976",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fwoba1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 9.68945L6.5 6.68963",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t3i998"
+    }
+  ]
+];
+var ShieldXDuotone = createFoamicon("ShieldXDuotone", __iconNode495);
+
+// src/icons/ShieldXFill.tsx
+var __iconNode496 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "5ihy9u"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 6.68994L6.5 9.68976",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "jt5c9e"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 9.68945L6.5 6.68963",
+      stroke: "var(--foamicon-secondary-color, currentColor)",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v6orkd"
+    }
+  ]
+];
+var ShieldXFill = createFoamicon("ShieldXFill", __iconNode496);
+
+// src/icons/ShieldX.tsx
+var __iconNode497 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "vm6mdl"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 6.68994L6.5 9.68976",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fwoba1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.5 9.68945L6.5 6.68963",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t3i998"
+    }
+  ]
+];
+var ShieldX = createFoamicon("ShieldX", __iconNode497);
+
+// src/icons/Shield.tsx
+var __iconNode498 = [
+  [
+    "path",
+    {
+      d: "M2.00085 4.20493C1.99993 4.09447 2.08958 4.00028 2.19999 3.99708C4.79323 3.92191 7.33661 2.41732 7.88954 2.07076C7.95795 2.02788 8.04205 2.02788 8.11046 2.07076C8.66339 2.41732 11.2068 3.92191 13.8 3.99708C13.9104 4.00028 14.0001 4.09448 13.9992 4.20493C13.9177 14 8 14 8 14C8 14 2.08225 14 2.00085 4.20493Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "vm6mdl"
+    }
+  ]
+];
+var Shield = createFoamicon("Shield", __iconNode498);
 
 // src/icons/SlashDuotone.tsx
-var __iconNode454 = [
+var __iconNode499 = [
   [
     "path",
     {
@@ -18781,10 +20703,10 @@ var __iconNode454 = [
     }
   ]
 ];
-var SlashDuotone = createFoamicon("SlashDuotone", __iconNode454);
+var SlashDuotone = createFoamicon("SlashDuotone", __iconNode499);
 
 // src/icons/SlashFill.tsx
-var __iconNode455 = [
+var __iconNode500 = [
   [
     "path",
     {
@@ -18795,10 +20717,10 @@ var __iconNode455 = [
     }
   ]
 ];
-var SlashFill = createFoamicon("SlashFill", __iconNode455);
+var SlashFill = createFoamicon("SlashFill", __iconNode500);
 
 // src/icons/Slash.tsx
-var __iconNode456 = [
+var __iconNode501 = [
   [
     "path",
     {
@@ -18809,10 +20731,10 @@ var __iconNode456 = [
     }
   ]
 ];
-var Slash = createFoamicon("Slash", __iconNode456);
+var Slash = createFoamicon("Slash", __iconNode501);
 
 // src/icons/SlidersHorizontalDuotone.tsx
-var __iconNode457 = [
+var __iconNode502 = [
   [
     "path",
     {
@@ -18866,10 +20788,10 @@ var __iconNode457 = [
     }
   ]
 ];
-var SlidersHorizontalDuotone = createFoamicon("SlidersHorizontalDuotone", __iconNode457);
+var SlidersHorizontalDuotone = createFoamicon("SlidersHorizontalDuotone", __iconNode502);
 
 // src/icons/SlidersHorizontalFill.tsx
-var __iconNode458 = [
+var __iconNode503 = [
   [
     "path",
     {
@@ -18917,10 +20839,10 @@ var __iconNode458 = [
     }
   ]
 ];
-var SlidersHorizontalFill = createFoamicon("SlidersHorizontalFill", __iconNode458);
+var SlidersHorizontalFill = createFoamicon("SlidersHorizontalFill", __iconNode503);
 
 // src/icons/SlidersHorizontal.tsx
-var __iconNode459 = [
+var __iconNode504 = [
   [
     "path",
     {
@@ -18966,10 +20888,10 @@ var __iconNode459 = [
     }
   ]
 ];
-var SlidersHorizontal = createFoamicon("SlidersHorizontal", __iconNode459);
+var SlidersHorizontal = createFoamicon("SlidersHorizontal", __iconNode504);
 
 // src/icons/SmileDuotone.tsx
-var __iconNode460 = [
+var __iconNode505 = [
   [
     "circle",
     {
@@ -19013,10 +20935,10 @@ var __iconNode460 = [
     }
   ]
 ];
-var SmileDuotone = createFoamicon("SmileDuotone", __iconNode460);
+var SmileDuotone = createFoamicon("SmileDuotone", __iconNode505);
 
 // src/icons/SmileFill.tsx
-var __iconNode461 = [
+var __iconNode506 = [
   [
     "circle",
     {
@@ -19061,10 +20983,10 @@ var __iconNode461 = [
     }
   ]
 ];
-var SmileFill = createFoamicon("SmileFill", __iconNode461);
+var SmileFill = createFoamicon("SmileFill", __iconNode506);
 
 // src/icons/Smile.tsx
-var __iconNode462 = [
+var __iconNode507 = [
   [
     "circle",
     {
@@ -19108,10 +21030,10 @@ var __iconNode462 = [
     }
   ]
 ];
-var Smile = createFoamicon("Smile", __iconNode462);
+var Smile = createFoamicon("Smile", __iconNode507);
 
 // src/icons/SparklesDuotone.tsx
-var __iconNode463 = [
+var __iconNode508 = [
   [
     "path",
     {
@@ -19155,10 +21077,10 @@ var __iconNode463 = [
     }
   ]
 ];
-var SparklesDuotone = createFoamicon("SparklesDuotone", __iconNode463);
+var SparklesDuotone = createFoamicon("SparklesDuotone", __iconNode508);
 
 // src/icons/SparklesFill.tsx
-var __iconNode464 = [
+var __iconNode509 = [
   [
     "path",
     {
@@ -19193,10 +21115,10 @@ var __iconNode464 = [
     }
   ]
 ];
-var SparklesFill = createFoamicon("SparklesFill", __iconNode464);
+var SparklesFill = createFoamicon("SparklesFill", __iconNode509);
 
 // src/icons/Sparkles.tsx
-var __iconNode465 = [
+var __iconNode510 = [
   [
     "path",
     {
@@ -19228,10 +21150,10 @@ var __iconNode465 = [
     }
   ]
 ];
-var Sparkles = createFoamicon("Sparkles", __iconNode465);
+var Sparkles = createFoamicon("Sparkles", __iconNode510);
 
 // src/icons/SquareDuotone.tsx
-var __iconNode466 = [
+var __iconNode511 = [
   [
     "path",
     {
@@ -19247,10 +21169,10 @@ var __iconNode466 = [
     }
   ]
 ];
-var SquareDuotone = createFoamicon("SquareDuotone", __iconNode466);
+var SquareDuotone = createFoamicon("SquareDuotone", __iconNode511);
 
 // src/icons/SquareFill.tsx
-var __iconNode467 = [
+var __iconNode512 = [
   [
     "path",
     {
@@ -19263,10 +21185,10 @@ var __iconNode467 = [
     }
   ]
 ];
-var SquareFill = createFoamicon("SquareFill", __iconNode467);
+var SquareFill = createFoamicon("SquareFill", __iconNode512);
 
 // src/icons/SquarePenDuotone.tsx
-var __iconNode468 = [
+var __iconNode513 = [
   [
     "path",
     {
@@ -19302,10 +21224,10 @@ var __iconNode468 = [
     }
   ]
 ];
-var SquarePenDuotone = createFoamicon("SquarePenDuotone", __iconNode468);
+var SquarePenDuotone = createFoamicon("SquarePenDuotone", __iconNode513);
 
 // src/icons/SquarePenFill.tsx
-var __iconNode469 = [
+var __iconNode514 = [
   [
     "path",
     {
@@ -19339,10 +21261,10 @@ var __iconNode469 = [
     }
   ]
 ];
-var SquarePenFill = createFoamicon("SquarePenFill", __iconNode469);
+var SquarePenFill = createFoamicon("SquarePenFill", __iconNode514);
 
 // src/icons/SquarePen.tsx
-var __iconNode470 = [
+var __iconNode515 = [
   [
     "path",
     {
@@ -19374,10 +21296,10 @@ var __iconNode470 = [
     }
   ]
 ];
-var SquarePen = createFoamicon("SquarePen", __iconNode470);
+var SquarePen = createFoamicon("SquarePen", __iconNode515);
 
 // src/icons/Square.tsx
-var __iconNode471 = [
+var __iconNode516 = [
   [
     "path",
     {
@@ -19389,10 +21311,10 @@ var __iconNode471 = [
     }
   ]
 ];
-var Square = createFoamicon("Square", __iconNode471);
+var Square = createFoamicon("Square", __iconNode516);
 
 // src/icons/StarDuotone.tsx
-var __iconNode472 = [
+var __iconNode517 = [
   [
     "path",
     {
@@ -19408,10 +21330,10 @@ var __iconNode472 = [
     }
   ]
 ];
-var StarDuotone = createFoamicon("StarDuotone", __iconNode472);
+var StarDuotone = createFoamicon("StarDuotone", __iconNode517);
 
 // src/icons/StarFill.tsx
-var __iconNode473 = [
+var __iconNode518 = [
   [
     "path",
     {
@@ -19424,10 +21346,10 @@ var __iconNode473 = [
     }
   ]
 ];
-var StarFill = createFoamicon("StarFill", __iconNode473);
+var StarFill = createFoamicon("StarFill", __iconNode518);
 
 // src/icons/Star.tsx
-var __iconNode474 = [
+var __iconNode519 = [
   [
     "path",
     {
@@ -19439,10 +21361,10 @@ var __iconNode474 = [
     }
   ]
 ];
-var Star = createFoamicon("Star", __iconNode474);
+var Star = createFoamicon("Star", __iconNode519);
 
 // src/icons/SunDuotone.tsx
-var __iconNode475 = [
+var __iconNode520 = [
   [
     "path",
     {
@@ -19468,10 +21390,10 @@ var __iconNode475 = [
     }
   ]
 ];
-var SunDuotone = createFoamicon("SunDuotone", __iconNode475);
+var SunDuotone = createFoamicon("SunDuotone", __iconNode520);
 
 // src/icons/SunFill.tsx
-var __iconNode476 = [
+var __iconNode521 = [
   [
     "path",
     {
@@ -19494,10 +21416,10 @@ var __iconNode476 = [
     }
   ]
 ];
-var SunFill = createFoamicon("SunFill", __iconNode476);
+var SunFill = createFoamicon("SunFill", __iconNode521);
 
 // src/icons/Sun.tsx
-var __iconNode477 = [
+var __iconNode522 = [
   [
     "path",
     {
@@ -19519,10 +21441,10 @@ var __iconNode477 = [
     }
   ]
 ];
-var Sun = createFoamicon("Sun", __iconNode477);
+var Sun = createFoamicon("Sun", __iconNode522);
 
 // src/icons/TextAlignCenterDuotone.tsx
-var __iconNode478 = [
+var __iconNode523 = [
   [
     "path",
     {
@@ -19554,10 +21476,10 @@ var __iconNode478 = [
     }
   ]
 ];
-var TextAlignCenterDuotone = createFoamicon("TextAlignCenterDuotone", __iconNode478);
+var TextAlignCenterDuotone = createFoamicon("TextAlignCenterDuotone", __iconNode523);
 
 // src/icons/TextAlignCenterFill.tsx
-var __iconNode479 = [
+var __iconNode524 = [
   [
     "path",
     {
@@ -19589,10 +21511,10 @@ var __iconNode479 = [
     }
   ]
 ];
-var TextAlignCenterFill = createFoamicon("TextAlignCenterFill", __iconNode479);
+var TextAlignCenterFill = createFoamicon("TextAlignCenterFill", __iconNode524);
 
 // src/icons/TextAlignCenter.tsx
-var __iconNode480 = [
+var __iconNode525 = [
   [
     "path",
     {
@@ -19624,10 +21546,10 @@ var __iconNode480 = [
     }
   ]
 ];
-var TextAlignCenter = createFoamicon("TextAlignCenter", __iconNode480);
+var TextAlignCenter = createFoamicon("TextAlignCenter", __iconNode525);
 
 // src/icons/TextAlignEndDuotone.tsx
-var __iconNode481 = [
+var __iconNode526 = [
   [
     "path",
     {
@@ -19659,10 +21581,10 @@ var __iconNode481 = [
     }
   ]
 ];
-var TextAlignEndDuotone = createFoamicon("TextAlignEndDuotone", __iconNode481);
+var TextAlignEndDuotone = createFoamicon("TextAlignEndDuotone", __iconNode526);
 
 // src/icons/TextAlignEndFill.tsx
-var __iconNode482 = [
+var __iconNode527 = [
   [
     "path",
     {
@@ -19694,10 +21616,10 @@ var __iconNode482 = [
     }
   ]
 ];
-var TextAlignEndFill = createFoamicon("TextAlignEndFill", __iconNode482);
+var TextAlignEndFill = createFoamicon("TextAlignEndFill", __iconNode527);
 
 // src/icons/TextAlignEnd.tsx
-var __iconNode483 = [
+var __iconNode528 = [
   [
     "path",
     {
@@ -19729,10 +21651,10 @@ var __iconNode483 = [
     }
   ]
 ];
-var TextAlignEnd = createFoamicon("TextAlignEnd", __iconNode483);
+var TextAlignEnd = createFoamicon("TextAlignEnd", __iconNode528);
 
 // src/icons/TextAlignJustifyDuotone.tsx
-var __iconNode484 = [
+var __iconNode529 = [
   [
     "path",
     {
@@ -19764,10 +21686,10 @@ var __iconNode484 = [
     }
   ]
 ];
-var TextAlignJustifyDuotone = createFoamicon("TextAlignJustifyDuotone", __iconNode484);
+var TextAlignJustifyDuotone = createFoamicon("TextAlignJustifyDuotone", __iconNode529);
 
 // src/icons/TextAlignJustifyFill.tsx
-var __iconNode485 = [
+var __iconNode530 = [
   [
     "path",
     {
@@ -19799,10 +21721,10 @@ var __iconNode485 = [
     }
   ]
 ];
-var TextAlignJustifyFill = createFoamicon("TextAlignJustifyFill", __iconNode485);
+var TextAlignJustifyFill = createFoamicon("TextAlignJustifyFill", __iconNode530);
 
 // src/icons/TextAlignJustify.tsx
-var __iconNode486 = [
+var __iconNode531 = [
   [
     "path",
     {
@@ -19834,10 +21756,10 @@ var __iconNode486 = [
     }
   ]
 ];
-var TextAlignJustify = createFoamicon("TextAlignJustify", __iconNode486);
+var TextAlignJustify = createFoamicon("TextAlignJustify", __iconNode531);
 
 // src/icons/TextAlignStartDuotone.tsx
-var __iconNode487 = [
+var __iconNode532 = [
   [
     "path",
     {
@@ -19869,10 +21791,10 @@ var __iconNode487 = [
     }
   ]
 ];
-var TextAlignStartDuotone = createFoamicon("TextAlignStartDuotone", __iconNode487);
+var TextAlignStartDuotone = createFoamicon("TextAlignStartDuotone", __iconNode532);
 
 // src/icons/TextAlignStartFill.tsx
-var __iconNode488 = [
+var __iconNode533 = [
   [
     "path",
     {
@@ -19904,10 +21826,10 @@ var __iconNode488 = [
     }
   ]
 ];
-var TextAlignStartFill = createFoamicon("TextAlignStartFill", __iconNode488);
+var TextAlignStartFill = createFoamicon("TextAlignStartFill", __iconNode533);
 
 // src/icons/TextAlignStart.tsx
-var __iconNode489 = [
+var __iconNode534 = [
   [
     "path",
     {
@@ -19939,10 +21861,10 @@ var __iconNode489 = [
     }
   ]
 ];
-var TextAlignStart = createFoamicon("TextAlignStart", __iconNode489);
+var TextAlignStart = createFoamicon("TextAlignStart", __iconNode534);
 
 // src/icons/ThumbsDownDuotone.tsx
-var __iconNode490 = [
+var __iconNode535 = [
   [
     "path",
     {
@@ -19968,10 +21890,10 @@ var __iconNode490 = [
     }
   ]
 ];
-var ThumbsDownDuotone = createFoamicon("ThumbsDownDuotone", __iconNode490);
+var ThumbsDownDuotone = createFoamicon("ThumbsDownDuotone", __iconNode535);
 
 // src/icons/ThumbsDownFill.tsx
-var __iconNode491 = [
+var __iconNode536 = [
   [
     "path",
     {
@@ -19994,10 +21916,10 @@ var __iconNode491 = [
     }
   ]
 ];
-var ThumbsDownFill = createFoamicon("ThumbsDownFill", __iconNode491);
+var ThumbsDownFill = createFoamicon("ThumbsDownFill", __iconNode536);
 
 // src/icons/ThumbsDown.tsx
-var __iconNode492 = [
+var __iconNode537 = [
   [
     "path",
     {
@@ -20019,10 +21941,10 @@ var __iconNode492 = [
     }
   ]
 ];
-var ThumbsDown = createFoamicon("ThumbsDown", __iconNode492);
+var ThumbsDown = createFoamicon("ThumbsDown", __iconNode537);
 
 // src/icons/ThumbsUpDuotone.tsx
-var __iconNode493 = [
+var __iconNode538 = [
   [
     "path",
     {
@@ -20048,10 +21970,10 @@ var __iconNode493 = [
     }
   ]
 ];
-var ThumbsUpDuotone = createFoamicon("ThumbsUpDuotone", __iconNode493);
+var ThumbsUpDuotone = createFoamicon("ThumbsUpDuotone", __iconNode538);
 
 // src/icons/ThumbsUpFill.tsx
-var __iconNode494 = [
+var __iconNode539 = [
   [
     "path",
     {
@@ -20074,10 +21996,10 @@ var __iconNode494 = [
     }
   ]
 ];
-var ThumbsUpFill = createFoamicon("ThumbsUpFill", __iconNode494);
+var ThumbsUpFill = createFoamicon("ThumbsUpFill", __iconNode539);
 
 // src/icons/ThumbsUp.tsx
-var __iconNode495 = [
+var __iconNode540 = [
   [
     "path",
     {
@@ -20099,10 +22021,10 @@ var __iconNode495 = [
     }
   ]
 ];
-var ThumbsUp = createFoamicon("ThumbsUp", __iconNode495);
+var ThumbsUp = createFoamicon("ThumbsUp", __iconNode540);
 
 // src/icons/TrashDuotone.tsx
-var __iconNode496 = [
+var __iconNode541 = [
   [
     "path",
     {
@@ -20145,10 +22067,10 @@ var __iconNode496 = [
     }
   ]
 ];
-var TrashDuotone = createFoamicon("TrashDuotone", __iconNode496);
+var TrashDuotone = createFoamicon("TrashDuotone", __iconNode541);
 
 // src/icons/TrashEmptyDuotone.tsx
-var __iconNode497 = [
+var __iconNode542 = [
   [
     "path",
     {
@@ -20181,10 +22103,10 @@ var __iconNode497 = [
     }
   ]
 ];
-var TrashEmptyDuotone = createFoamicon("TrashEmptyDuotone", __iconNode497);
+var TrashEmptyDuotone = createFoamicon("TrashEmptyDuotone", __iconNode542);
 
 // src/icons/TrashEmptyFill.tsx
-var __iconNode498 = [
+var __iconNode543 = [
   [
     "path",
     {
@@ -20214,10 +22136,10 @@ var __iconNode498 = [
     }
   ]
 ];
-var TrashEmptyFill = createFoamicon("TrashEmptyFill", __iconNode498);
+var TrashEmptyFill = createFoamicon("TrashEmptyFill", __iconNode543);
 
 // src/icons/TrashEmpty.tsx
-var __iconNode499 = [
+var __iconNode544 = [
   [
     "path",
     {
@@ -20249,10 +22171,10 @@ var __iconNode499 = [
     }
   ]
 ];
-var TrashEmpty = createFoamicon("TrashEmpty", __iconNode499);
+var TrashEmpty = createFoamicon("TrashEmpty", __iconNode544);
 
 // src/icons/TrashFill.tsx
-var __iconNode500 = [
+var __iconNode545 = [
   [
     "path",
     {
@@ -20292,10 +22214,10 @@ var __iconNode500 = [
     }
   ]
 ];
-var TrashFill = createFoamicon("TrashFill", __iconNode500);
+var TrashFill = createFoamicon("TrashFill", __iconNode545);
 
 // src/icons/Trash.tsx
-var __iconNode501 = [
+var __iconNode546 = [
   [
     "path",
     {
@@ -20337,10 +22259,10 @@ var __iconNode501 = [
     }
   ]
 ];
-var Trash = createFoamicon("Trash", __iconNode501);
+var Trash = createFoamicon("Trash", __iconNode546);
 
 // src/icons/TrendingDownDuotone.tsx
-var __iconNode502 = [
+var __iconNode547 = [
   [
     "path",
     {
@@ -20362,10 +22284,10 @@ var __iconNode502 = [
     }
   ]
 ];
-var TrendingDownDuotone = createFoamicon("TrendingDownDuotone", __iconNode502);
+var TrendingDownDuotone = createFoamicon("TrendingDownDuotone", __iconNode547);
 
 // src/icons/TrendingDownFill.tsx
-var __iconNode503 = [
+var __iconNode548 = [
   [
     "path",
     {
@@ -20387,10 +22309,10 @@ var __iconNode503 = [
     }
   ]
 ];
-var TrendingDownFill = createFoamicon("TrendingDownFill", __iconNode503);
+var TrendingDownFill = createFoamicon("TrendingDownFill", __iconNode548);
 
 // src/icons/TrendingDown.tsx
-var __iconNode504 = [
+var __iconNode549 = [
   [
     "path",
     {
@@ -20412,10 +22334,10 @@ var __iconNode504 = [
     }
   ]
 ];
-var TrendingDown = createFoamicon("TrendingDown", __iconNode504);
+var TrendingDown = createFoamicon("TrendingDown", __iconNode549);
 
 // src/icons/TrendingUpDuotone.tsx
-var __iconNode505 = [
+var __iconNode550 = [
   [
     "path",
     {
@@ -20437,10 +22359,10 @@ var __iconNode505 = [
     }
   ]
 ];
-var TrendingUpDuotone = createFoamicon("TrendingUpDuotone", __iconNode505);
+var TrendingUpDuotone = createFoamicon("TrendingUpDuotone", __iconNode550);
 
 // src/icons/TrendingUpFill.tsx
-var __iconNode506 = [
+var __iconNode551 = [
   [
     "path",
     {
@@ -20462,10 +22384,10 @@ var __iconNode506 = [
     }
   ]
 ];
-var TrendingUpFill = createFoamicon("TrendingUpFill", __iconNode506);
+var TrendingUpFill = createFoamicon("TrendingUpFill", __iconNode551);
 
 // src/icons/TrendingUp.tsx
-var __iconNode507 = [
+var __iconNode552 = [
   [
     "path",
     {
@@ -20487,10 +22409,10 @@ var __iconNode507 = [
     }
   ]
 ];
-var TrendingUp = createFoamicon("TrendingUp", __iconNode507);
+var TrendingUp = createFoamicon("TrendingUp", __iconNode552);
 
 // src/icons/TriangleDownDuotone.tsx
-var __iconNode508 = [
+var __iconNode553 = [
   [
     "path",
     {
@@ -20500,10 +22422,10 @@ var __iconNode508 = [
     }
   ]
 ];
-var TriangleDownDuotone = createFoamicon("TriangleDownDuotone", __iconNode508);
+var TriangleDownDuotone = createFoamicon("TriangleDownDuotone", __iconNode553);
 
 // src/icons/TriangleDownFill.tsx
-var __iconNode509 = [
+var __iconNode554 = [
   [
     "path",
     {
@@ -20513,10 +22435,10 @@ var __iconNode509 = [
     }
   ]
 ];
-var TriangleDownFill = createFoamicon("TriangleDownFill", __iconNode509);
+var TriangleDownFill = createFoamicon("TriangleDownFill", __iconNode554);
 
 // src/icons/TriangleDownUpDuotone.tsx
-var __iconNode510 = [
+var __iconNode555 = [
   [
     "path",
     {
@@ -20534,10 +22456,10 @@ var __iconNode510 = [
     }
   ]
 ];
-var TriangleDownUpDuotone = createFoamicon("TriangleDownUpDuotone", __iconNode510);
+var TriangleDownUpDuotone = createFoamicon("TriangleDownUpDuotone", __iconNode555);
 
 // src/icons/TriangleDownUpFill.tsx
-var __iconNode511 = [
+var __iconNode556 = [
   [
     "path",
     {
@@ -20555,10 +22477,10 @@ var __iconNode511 = [
     }
   ]
 ];
-var TriangleDownUpFill = createFoamicon("TriangleDownUpFill", __iconNode511);
+var TriangleDownUpFill = createFoamicon("TriangleDownUpFill", __iconNode556);
 
 // src/icons/TriangleDownUp.tsx
-var __iconNode512 = [
+var __iconNode557 = [
   [
     "path",
     {
@@ -20576,10 +22498,10 @@ var __iconNode512 = [
     }
   ]
 ];
-var TriangleDownUp = createFoamicon("TriangleDownUp", __iconNode512);
+var TriangleDownUp = createFoamicon("TriangleDownUp", __iconNode557);
 
 // src/icons/TriangleDown.tsx
-var __iconNode513 = [
+var __iconNode558 = [
   [
     "path",
     {
@@ -20589,10 +22511,10 @@ var __iconNode513 = [
     }
   ]
 ];
-var TriangleDown = createFoamicon("TriangleDown", __iconNode513);
+var TriangleDown = createFoamicon("TriangleDown", __iconNode558);
 
 // src/icons/TriangleUpDuotone.tsx
-var __iconNode514 = [
+var __iconNode559 = [
   [
     "path",
     {
@@ -20602,10 +22524,10 @@ var __iconNode514 = [
     }
   ]
 ];
-var TriangleUpDuotone = createFoamicon("TriangleUpDuotone", __iconNode514);
+var TriangleUpDuotone = createFoamicon("TriangleUpDuotone", __iconNode559);
 
 // src/icons/TriangleUpFill.tsx
-var __iconNode515 = [
+var __iconNode560 = [
   [
     "path",
     {
@@ -20615,10 +22537,10 @@ var __iconNode515 = [
     }
   ]
 ];
-var TriangleUpFill = createFoamicon("TriangleUpFill", __iconNode515);
+var TriangleUpFill = createFoamicon("TriangleUpFill", __iconNode560);
 
 // src/icons/TriangleUp.tsx
-var __iconNode516 = [
+var __iconNode561 = [
   [
     "path",
     {
@@ -20628,10 +22550,10 @@ var __iconNode516 = [
     }
   ]
 ];
-var TriangleUp = createFoamicon("TriangleUp", __iconNode516);
+var TriangleUp = createFoamicon("TriangleUp", __iconNode561);
 
 // src/icons/UnlinkDuotone.tsx
-var __iconNode517 = [
+var __iconNode562 = [
   [
     "path",
     {
@@ -20692,10 +22614,10 @@ var __iconNode517 = [
     }
   ]
 ];
-var UnlinkDuotone = createFoamicon("UnlinkDuotone", __iconNode517);
+var UnlinkDuotone = createFoamicon("UnlinkDuotone", __iconNode562);
 
 // src/icons/UnlinkFill.tsx
-var __iconNode518 = [
+var __iconNode563 = [
   [
     "path",
     {
@@ -20756,10 +22678,10 @@ var __iconNode518 = [
     }
   ]
 ];
-var UnlinkFill = createFoamicon("UnlinkFill", __iconNode518);
+var UnlinkFill = createFoamicon("UnlinkFill", __iconNode563);
 
 // src/icons/Unlink.tsx
-var __iconNode519 = [
+var __iconNode564 = [
   [
     "path",
     {
@@ -20820,10 +22742,10 @@ var __iconNode519 = [
     }
   ]
 ];
-var Unlink = createFoamicon("Unlink", __iconNode519);
+var Unlink = createFoamicon("Unlink", __iconNode564);
 
 // src/icons/UnlockDuotone.tsx
-var __iconNode520 = [
+var __iconNode565 = [
   [
     "path",
     {
@@ -20878,10 +22800,10 @@ var __iconNode520 = [
     }
   ]
 ];
-var UnlockDuotone = createFoamicon("UnlockDuotone", __iconNode520);
+var UnlockDuotone = createFoamicon("UnlockDuotone", __iconNode565);
 
 // src/icons/UnlockFill.tsx
-var __iconNode521 = [
+var __iconNode566 = [
   [
     "path",
     {
@@ -20933,10 +22855,10 @@ var __iconNode521 = [
     }
   ]
 ];
-var UnlockFill = createFoamicon("UnlockFill", __iconNode521);
+var UnlockFill = createFoamicon("UnlockFill", __iconNode566);
 
 // src/icons/Unlock.tsx
-var __iconNode522 = [
+var __iconNode567 = [
   [
     "path",
     {
@@ -20970,10 +22892,10 @@ var __iconNode522 = [
     }
   ]
 ];
-var Unlock = createFoamicon("Unlock", __iconNode522);
+var Unlock = createFoamicon("Unlock", __iconNode567);
 
 // src/icons/UploadDuotone.tsx
-var __iconNode523 = [
+var __iconNode568 = [
   [
     "path",
     {
@@ -21005,10 +22927,10 @@ var __iconNode523 = [
     }
   ]
 ];
-var UploadDuotone = createFoamicon("UploadDuotone", __iconNode523);
+var UploadDuotone = createFoamicon("UploadDuotone", __iconNode568);
 
 // src/icons/UploadFill.tsx
-var __iconNode524 = [
+var __iconNode569 = [
   [
     "path",
     {
@@ -21040,10 +22962,10 @@ var __iconNode524 = [
     }
   ]
 ];
-var UploadFill = createFoamicon("UploadFill", __iconNode524);
+var UploadFill = createFoamicon("UploadFill", __iconNode569);
 
 // src/icons/Upload.tsx
-var __iconNode525 = [
+var __iconNode570 = [
   [
     "path",
     {
@@ -21075,10 +22997,10 @@ var __iconNode525 = [
     }
   ]
 ];
-var Upload = createFoamicon("Upload", __iconNode525);
+var Upload = createFoamicon("Upload", __iconNode570);
 
 // src/icons/UserArrowLeftDuotone.tsx
-var __iconNode526 = [
+var __iconNode571 = [
   [
     "circle",
     {
@@ -21116,10 +23038,10 @@ var __iconNode526 = [
     }
   ]
 ];
-var UserArrowLeftDuotone = createFoamicon("UserArrowLeftDuotone", __iconNode526);
+var UserArrowLeftDuotone = createFoamicon("UserArrowLeftDuotone", __iconNode571);
 
 // src/icons/UserArrowLeftFill.tsx
-var __iconNode527 = [
+var __iconNode572 = [
   [
     "path",
     {
@@ -21153,10 +23075,10 @@ var __iconNode527 = [
     }
   ]
 ];
-var UserArrowLeftFill = createFoamicon("UserArrowLeftFill", __iconNode527);
+var UserArrowLeftFill = createFoamicon("UserArrowLeftFill", __iconNode572);
 
 // src/icons/UserArrowLeftRightDuotone.tsx
-var __iconNode528 = [
+var __iconNode573 = [
   [
     "circle",
     {
@@ -21204,10 +23126,10 @@ var __iconNode528 = [
     }
   ]
 ];
-var UserArrowLeftRightDuotone = createFoamicon("UserArrowLeftRightDuotone", __iconNode528);
+var UserArrowLeftRightDuotone = createFoamicon("UserArrowLeftRightDuotone", __iconNode573);
 
 // src/icons/UserArrowLeftRightFill.tsx
-var __iconNode529 = [
+var __iconNode574 = [
   [
     "circle",
     {
@@ -21264,10 +23186,10 @@ var __iconNode529 = [
     }
   ]
 ];
-var UserArrowLeftRightFill = createFoamicon("UserArrowLeftRightFill", __iconNode529);
+var UserArrowLeftRightFill = createFoamicon("UserArrowLeftRightFill", __iconNode574);
 
 // src/icons/UserArrowLeftRight.tsx
-var __iconNode530 = [
+var __iconNode575 = [
   [
     "circle",
     {
@@ -21311,10 +23233,10 @@ var __iconNode530 = [
     }
   ]
 ];
-var UserArrowLeftRight = createFoamicon("UserArrowLeftRight", __iconNode530);
+var UserArrowLeftRight = createFoamicon("UserArrowLeftRight", __iconNode575);
 
 // src/icons/UserArrowLeft.tsx
-var __iconNode531 = [
+var __iconNode576 = [
   [
     "circle",
     {
@@ -21348,10 +23270,10 @@ var __iconNode531 = [
     }
   ]
 ];
-var UserArrowLeft = createFoamicon("UserArrowLeft", __iconNode531);
+var UserArrowLeft = createFoamicon("UserArrowLeft", __iconNode576);
 
 // src/icons/UserArrowOutUpRightDuotone.tsx
-var __iconNode532 = [
+var __iconNode577 = [
   [
     "circle",
     {
@@ -21389,10 +23311,10 @@ var __iconNode532 = [
     }
   ]
 ];
-var UserArrowOutUpRightDuotone = createFoamicon("UserArrowOutUpRightDuotone", __iconNode532);
+var UserArrowOutUpRightDuotone = createFoamicon("UserArrowOutUpRightDuotone", __iconNode577);
 
 // src/icons/UserArrowOutUpRightFill.tsx
-var __iconNode533 = [
+var __iconNode578 = [
   [
     "circle",
     {
@@ -21426,10 +23348,10 @@ var __iconNode533 = [
     }
   ]
 ];
-var UserArrowOutUpRightFill = createFoamicon("UserArrowOutUpRightFill", __iconNode533);
+var UserArrowOutUpRightFill = createFoamicon("UserArrowOutUpRightFill", __iconNode578);
 
 // src/icons/UserArrowOutUpRight.tsx
-var __iconNode534 = [
+var __iconNode579 = [
   [
     "circle",
     {
@@ -21463,10 +23385,10 @@ var __iconNode534 = [
     }
   ]
 ];
-var UserArrowOutUpRight = createFoamicon("UserArrowOutUpRight", __iconNode534);
+var UserArrowOutUpRight = createFoamicon("UserArrowOutUpRight", __iconNode579);
 
 // src/icons/UserArrowRightDuotone.tsx
-var __iconNode535 = [
+var __iconNode580 = [
   [
     "circle",
     {
@@ -21504,10 +23426,10 @@ var __iconNode535 = [
     }
   ]
 ];
-var UserArrowRightDuotone = createFoamicon("UserArrowRightDuotone", __iconNode535);
+var UserArrowRightDuotone = createFoamicon("UserArrowRightDuotone", __iconNode580);
 
 // src/icons/UserArrowRightFill.tsx
-var __iconNode536 = [
+var __iconNode581 = [
   [
     "path",
     {
@@ -21541,10 +23463,10 @@ var __iconNode536 = [
     }
   ]
 ];
-var UserArrowRightFill = createFoamicon("UserArrowRightFill", __iconNode536);
+var UserArrowRightFill = createFoamicon("UserArrowRightFill", __iconNode581);
 
 // src/icons/UserArrowRight.tsx
-var __iconNode537 = [
+var __iconNode582 = [
   [
     "circle",
     {
@@ -21578,10 +23500,10 @@ var __iconNode537 = [
     }
   ]
 ];
-var UserArrowRight = createFoamicon("UserArrowRight", __iconNode537);
+var UserArrowRight = createFoamicon("UserArrowRight", __iconNode582);
 
 // src/icons/UserCogDuotone.tsx
-var __iconNode538 = [
+var __iconNode583 = [
   [
     "circle",
     {
@@ -21655,10 +23577,10 @@ var __iconNode538 = [
     }
   ]
 ];
-var UserCogDuotone = createFoamicon("UserCogDuotone", __iconNode538);
+var UserCogDuotone = createFoamicon("UserCogDuotone", __iconNode583);
 
 // src/icons/UserCogFill.tsx
-var __iconNode539 = [
+var __iconNode584 = [
   [
     "circle",
     {
@@ -21725,10 +23647,10 @@ var __iconNode539 = [
     }
   ]
 ];
-var UserCogFill = createFoamicon("UserCogFill", __iconNode539);
+var UserCogFill = createFoamicon("UserCogFill", __iconNode584);
 
 // src/icons/UserCog.tsx
-var __iconNode540 = [
+var __iconNode585 = [
   [
     "circle",
     {
@@ -21794,10 +23716,10 @@ var __iconNode540 = [
     }
   ]
 ];
-var UserCog = createFoamicon("UserCog", __iconNode540);
+var UserCog = createFoamicon("UserCog", __iconNode585);
 
 // src/icons/UserDuotone.tsx
-var __iconNode541 = [
+var __iconNode586 = [
   [
     "circle",
     {
@@ -21825,10 +23747,10 @@ var __iconNode541 = [
     }
   ]
 ];
-var UserDuotone = createFoamicon("UserDuotone", __iconNode541);
+var UserDuotone = createFoamicon("UserDuotone", __iconNode586);
 
 // src/icons/UserFill.tsx
-var __iconNode542 = [
+var __iconNode587 = [
   [
     "circle",
     {
@@ -21854,10 +23776,10 @@ var __iconNode542 = [
     }
   ]
 ];
-var UserFill = createFoamicon("UserFill", __iconNode542);
+var UserFill = createFoamicon("UserFill", __iconNode587);
 
 // src/icons/UserPlusDuotone.tsx
-var __iconNode543 = [
+var __iconNode588 = [
   [
     "circle",
     {
@@ -21905,10 +23827,10 @@ var __iconNode543 = [
     }
   ]
 ];
-var UserPlusDuotone = createFoamicon("UserPlusDuotone", __iconNode543);
+var UserPlusDuotone = createFoamicon("UserPlusDuotone", __iconNode588);
 
 // src/icons/UserPlusFill.tsx
-var __iconNode544 = [
+var __iconNode589 = [
   [
     "circle",
     {
@@ -21952,10 +23874,10 @@ var __iconNode544 = [
     }
   ]
 ];
-var UserPlusFill = createFoamicon("UserPlusFill", __iconNode544);
+var UserPlusFill = createFoamicon("UserPlusFill", __iconNode589);
 
 // src/icons/UserPlus.tsx
-var __iconNode545 = [
+var __iconNode590 = [
   [
     "circle",
     {
@@ -21999,10 +23921,10 @@ var __iconNode545 = [
     }
   ]
 ];
-var UserPlus = createFoamicon("UserPlus", __iconNode545);
+var UserPlus = createFoamicon("UserPlus", __iconNode590);
 
 // src/icons/User.tsx
-var __iconNode546 = [
+var __iconNode591 = [
   [
     "circle",
     {
@@ -22026,10 +23948,10 @@ var __iconNode546 = [
     }
   ]
 ];
-var User = createFoamicon("User", __iconNode546);
+var User = createFoamicon("User", __iconNode591);
 
 // src/icons/UsersDuotone.tsx
-var __iconNode547 = [
+var __iconNode592 = [
   [
     "circle",
     {
@@ -22083,10 +24005,10 @@ var __iconNode547 = [
     }
   ]
 ];
-var UsersDuotone = createFoamicon("UsersDuotone", __iconNode547);
+var UsersDuotone = createFoamicon("UsersDuotone", __iconNode592);
 
 // src/icons/UsersFill.tsx
-var __iconNode548 = [
+var __iconNode593 = [
   [
     "circle",
     {
@@ -22136,10 +24058,10 @@ var __iconNode548 = [
     }
   ]
 ];
-var UsersFill = createFoamicon("UsersFill", __iconNode548);
+var UsersFill = createFoamicon("UsersFill", __iconNode593);
 
 // src/icons/Users.tsx
-var __iconNode549 = [
+var __iconNode594 = [
   [
     "circle",
     {
@@ -22185,10 +24107,91 @@ var __iconNode549 = [
     }
   ]
 ];
-var Users = createFoamicon("Users", __iconNode549);
+var Users = createFoamicon("Users", __iconNode594);
+
+// src/icons/VideoDuotone.tsx
+var __iconNode595 = [
+  [
+    "path",
+    {
+      d: "M1.5 5.64068C1.5 4.90463 2.03426 4.27897 2.76576 4.19724C3.62267 4.10149 4.81134 4 6 4C7.18866 4 8.37733 4.10149 9.23424 4.19724C9.96574 4.27897 10.5 4.90463 10.5 5.64068V8V10.3593C10.5 11.0954 9.96574 11.721 9.23424 11.8028C8.37733 11.8985 7.18866 12 6 12C4.81134 12 3.62267 11.8985 2.76576 11.8028C2.03426 11.721 1.5 11.0954 1.5 10.3593V5.64068Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "pfllzp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.4824 10.1856V5.79843C14.4824 5.65613 14.338 5.55935 14.2064 5.61344L10.624 7.08577C10.549 7.11659 10.5 7.18966 10.5 7.27075V8.50949C10.5 8.58712 10.5449 8.65774 10.6152 8.69064L14.1977 10.3668C14.3303 10.4288 14.4824 10.332 14.4824 10.1856Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nbs1qh"
+    }
+  ]
+];
+var VideoDuotone = createFoamicon("VideoDuotone", __iconNode595);
+
+// src/icons/VideoFill.tsx
+var __iconNode596 = [
+  [
+    "path",
+    {
+      d: "M1.5 5.64068C1.5 4.90463 2.03426 4.27897 2.76576 4.19724C3.62267 4.10149 4.81134 4 6 4C7.18866 4 8.37733 4.10149 9.23424 4.19724C9.96574 4.27897 10.5 4.90463 10.5 5.64068V8V10.3593C10.5 11.0954 9.96574 11.721 9.23424 11.8028C8.37733 11.8985 7.18866 12 6 12C4.81134 12 3.62267 11.8985 2.76576 11.8028C2.03426 11.721 1.5 11.0954 1.5 10.3593V5.64068Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "guze01"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.4824 10.1856V5.79843C14.4824 5.65613 14.338 5.55935 14.2064 5.61344L10.624 7.08577C10.549 7.11659 10.5 7.18966 10.5 7.27075V8.50949C10.5 8.58712 10.5449 8.65774 10.6152 8.69064L14.1977 10.3668C14.3303 10.4288 14.4824 10.332 14.4824 10.1856Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ps17j6"
+    }
+  ]
+];
+var VideoFill = createFoamicon("VideoFill", __iconNode596);
+
+// src/icons/Video.tsx
+var __iconNode597 = [
+  [
+    "path",
+    {
+      d: "M1.5 5.64068C1.5 4.90463 2.03426 4.27897 2.76576 4.19724C3.62267 4.10149 4.81134 4 6 4C7.18866 4 8.37733 4.10149 9.23424 4.19724C9.96574 4.27897 10.5 4.90463 10.5 5.64068V8V10.3593C10.5 11.0954 9.96574 11.721 9.23424 11.8028C8.37733 11.8985 7.18866 12 6 12C4.81134 12 3.62267 11.8985 2.76576 11.8028C2.03426 11.721 1.5 11.0954 1.5 10.3593V5.64068Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3zs53a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.4824 10.1856V5.79843C14.4824 5.65613 14.338 5.55935 14.2064 5.61344L10.624 7.08577C10.549 7.11659 10.5 7.18966 10.5 7.27075V8.50949C10.5 8.58712 10.5449 8.65774 10.6152 8.69064L14.1977 10.3668C14.3303 10.4288 14.4824 10.332 14.4824 10.1856Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "nbs1qh"
+    }
+  ]
+];
+var Video = createFoamicon("Video", __iconNode597);
 
 // src/icons/Volume2Duotone.tsx
-var __iconNode550 = [
+var __iconNode598 = [
   [
     "path",
     {
@@ -22224,10 +24227,10 @@ var __iconNode550 = [
     }
   ]
 ];
-var Volume2Duotone = createFoamicon("Volume2Duotone", __iconNode550);
+var Volume2Duotone = createFoamicon("Volume2Duotone", __iconNode598);
 
 // src/icons/Volume2Fill.tsx
-var __iconNode551 = [
+var __iconNode599 = [
   [
     "path",
     {
@@ -22260,10 +24263,10 @@ var __iconNode551 = [
     }
   ]
 ];
-var Volume2Fill = createFoamicon("Volume2Fill", __iconNode551);
+var Volume2Fill = createFoamicon("Volume2Fill", __iconNode599);
 
 // src/icons/Volume2.tsx
-var __iconNode552 = [
+var __iconNode600 = [
   [
     "path",
     {
@@ -22295,10 +24298,10 @@ var __iconNode552 = [
     }
   ]
 ];
-var Volume2 = createFoamicon("Volume2", __iconNode552);
+var Volume2 = createFoamicon("Volume2", __iconNode600);
 
 // src/icons/VolumeOffDuotone.tsx
-var __iconNode553 = [
+var __iconNode601 = [
   [
     "path",
     {
@@ -22351,10 +24354,10 @@ var __iconNode553 = [
     }
   ]
 ];
-var VolumeOffDuotone = createFoamicon("VolumeOffDuotone", __iconNode553);
+var VolumeOffDuotone = createFoamicon("VolumeOffDuotone", __iconNode601);
 
 // src/icons/VolumeOffFill.tsx
-var __iconNode554 = [
+var __iconNode602 = [
   [
     "path",
     {
@@ -22404,10 +24407,10 @@ var __iconNode554 = [
     }
   ]
 ];
-var VolumeOffFill = createFoamicon("VolumeOffFill", __iconNode554);
+var VolumeOffFill = createFoamicon("VolumeOffFill", __iconNode602);
 
 // src/icons/VolumeOff.tsx
-var __iconNode555 = [
+var __iconNode603 = [
   [
     "path",
     {
@@ -22449,10 +24452,223 @@ var __iconNode555 = [
     }
   ]
 ];
-var VolumeOff = createFoamicon("VolumeOff", __iconNode555);
+var VolumeOff = createFoamicon("VolumeOff", __iconNode603);
+
+// src/icons/ZapDuotone.tsx
+var __iconNode604 = [
+  [
+    "rect",
+    {
+      width: "16",
+      height: "16",
+      fill: "white",
+      key: "zec9jj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45489 1.62349C8.59312 1.46565 8.84938 1.59962 8.79864 1.80318L7.56192 6.75097C7.53037 6.87719 7.62584 6.99946 7.75595 6.99946H13.5594C13.731 6.99969 13.8227 7.20225 13.7098 7.3315L7.54571 14.3764C7.40754 14.5343 7.15045 14.4002 7.20098 14.1967L8.43771 9.24795C8.46926 9.12173 8.37379 8.99946 8.24368 8.99946H2.44024C2.26875 8.99919 2.17713 8.79765 2.28985 8.66841L8.45489 1.62349Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "tceheq"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45489 1.62349L8.07875 1.29407L8.07862 1.29421L8.45489 1.62349ZM8.79864 1.80318L9.28372 1.92442L9.28379 1.92412L8.79864 1.80318ZM13.5594 6.99946L13.5601 6.49946H13.5594V6.99946ZM13.7098 7.3315L14.0861 7.66074L14.0863 7.66048L13.7098 7.3315ZM7.54571 14.3764L7.922 14.7057L7.922 14.7057L7.54571 14.3764ZM7.20098 14.1967L6.7159 14.0755L6.71572 14.0762L7.20098 14.1967ZM2.44024 8.99946L2.43943 9.49946H2.44024V8.99946ZM2.28985 8.66841L1.91358 8.33913L1.91304 8.33975L2.28985 8.66841ZM8.43771 9.24795L8.92279 9.36918V9.36918L8.43771 9.24795ZM7.56192 6.75097L8.047 6.87221L7.56192 6.75097ZM8.45489 1.62349L8.83103 1.95291C8.62388 2.18944 8.23727 1.98797 8.31349 1.68223L8.79864 1.80318L9.28379 1.92412C9.46149 1.21128 8.56236 0.741868 8.07875 1.29407L8.45489 1.62349ZM8.79864 1.80318L8.31356 1.68193L7.07685 6.62972L7.56192 6.75097L8.047 6.87221L9.28372 1.92442L8.79864 1.80318ZM7.75595 6.99946V7.49946H13.5594V6.99946V6.49946H7.75595V6.99946ZM13.5594 6.99946L13.5587 7.49946C13.3006 7.49912 13.1643 7.19591 13.3332 7.00251L13.7098 7.3315L14.0863 7.66048C14.4811 7.20859 14.1614 6.50027 13.5601 6.49946L13.5594 6.99946ZM13.7098 7.3315L13.3335 7.00225L7.16941 14.0472L7.54571 14.3764L7.922 14.7057L14.0861 7.66074L13.7098 7.3315ZM7.54571 14.3764L7.16942 14.0472C7.37569 13.8114 7.76244 14.0104 7.68624 14.3172L7.20098 14.1967L6.71572 14.0762C6.53846 14.79 7.43939 15.2572 7.922 14.7057L7.54571 14.3764ZM7.20098 14.1967L7.68607 14.318L8.92279 9.36918L8.43771 9.24795L7.95263 9.12673L6.7159 14.0755L7.20098 14.1967ZM8.24368 8.99946V8.49946H2.44024V8.99946V9.49946H8.24368V8.99946ZM2.44024 8.99946L2.44105 8.49946C2.69749 8.49988 2.8364 8.80246 2.66666 8.99707L2.28985 8.66841L1.91304 8.33975C1.51785 8.79284 1.84002 9.49849 2.43943 9.49946L2.44024 8.99946ZM2.28985 8.66841L2.66612 8.99768L8.83116 1.95276L8.45489 1.62349L8.07862 1.29421L1.91358 8.33914L2.28985 8.66841ZM8.43771 9.24795L8.92279 9.36918C9.0332 8.92739 8.69905 8.49946 8.24368 8.49946V8.99946V9.49946C8.04852 9.49946 7.90531 9.31607 7.95263 9.12673L8.43771 9.24795ZM7.56192 6.75097L7.07685 6.62972C6.96642 7.07152 7.30057 7.49946 7.75595 7.49946V6.99946V6.49946C7.95112 6.49946 8.09433 6.68287 8.047 6.87221L7.56192 6.75097Z",
+      fill: "currentColor",
+      key: "3br426"
+    }
+  ]
+];
+var ZapDuotone = createFoamicon("ZapDuotone", __iconNode604);
+
+// src/icons/ZapFill.tsx
+var __iconNode605 = [
+  [
+    "rect",
+    {
+      width: "16",
+      height: "16",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      key: "ubarid"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45489 1.62349C8.59312 1.46565 8.84938 1.59962 8.79864 1.80318L7.56192 6.75097C7.53037 6.87719 7.62584 6.99946 7.75595 6.99946H13.5594C13.731 6.99969 13.8227 7.20225 13.7098 7.3315L7.54571 14.3764C7.40754 14.5343 7.15045 14.4002 7.20098 14.1967L8.43771 9.24795C8.46926 9.12173 8.37379 8.99946 8.24368 8.99946H2.44024C2.26875 8.99919 2.17713 8.79765 2.28985 8.66841L8.45489 1.62349Z",
+      fill: "currentColor",
+      key: "ptcivu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45489 1.62349L8.07875 1.29407L8.07862 1.29421L8.45489 1.62349ZM8.79864 1.80318L9.28372 1.92442L9.28379 1.92412L8.79864 1.80318ZM13.5594 6.99946L13.5601 6.49946H13.5594V6.99946ZM13.7098 7.3315L14.0861 7.66074L14.0863 7.66048L13.7098 7.3315ZM7.54571 14.3764L7.922 14.7057L7.922 14.7057L7.54571 14.3764ZM7.20098 14.1967L6.7159 14.0755L6.71572 14.0762L7.20098 14.1967ZM2.44024 8.99946L2.43943 9.49946H2.44024V8.99946ZM2.28985 8.66841L1.91358 8.33913L1.91304 8.33975L2.28985 8.66841ZM8.43771 9.24795L8.92279 9.36918V9.36918L8.43771 9.24795ZM7.56192 6.75097L8.047 6.87221L7.56192 6.75097ZM8.45489 1.62349L8.83103 1.95291C8.62388 2.18944 8.23727 1.98797 8.31349 1.68223L8.79864 1.80318L9.28379 1.92412C9.46149 1.21128 8.56236 0.741868 8.07875 1.29407L8.45489 1.62349ZM8.79864 1.80318L8.31356 1.68193L7.07685 6.62972L7.56192 6.75097L8.047 6.87221L9.28372 1.92442L8.79864 1.80318ZM7.75595 6.99946V7.49946H13.5594V6.99946V6.49946H7.75595V6.99946ZM13.5594 6.99946L13.5587 7.49946C13.3006 7.49912 13.1643 7.19591 13.3332 7.00251L13.7098 7.3315L14.0863 7.66048C14.4811 7.20859 14.1614 6.50027 13.5601 6.49946L13.5594 6.99946ZM13.7098 7.3315L13.3335 7.00225L7.16941 14.0472L7.54571 14.3764L7.922 14.7057L14.0861 7.66074L13.7098 7.3315ZM7.54571 14.3764L7.16942 14.0472C7.37569 13.8114 7.76244 14.0104 7.68624 14.3172L7.20098 14.1967L6.71572 14.0762C6.53846 14.79 7.43939 15.2572 7.922 14.7057L7.54571 14.3764ZM7.20098 14.1967L7.68607 14.318L8.92279 9.36918L8.43771 9.24795L7.95263 9.12673L6.7159 14.0755L7.20098 14.1967ZM8.24368 8.99946V8.49946H2.44024V8.99946V9.49946H8.24368V8.99946ZM2.44024 8.99946L2.44105 8.49946C2.69749 8.49988 2.8364 8.80246 2.66666 8.99707L2.28985 8.66841L1.91304 8.33975C1.51785 8.79284 1.84002 9.49849 2.43943 9.49946L2.44024 8.99946ZM2.28985 8.66841L2.66612 8.99768L8.83116 1.95276L8.45489 1.62349L8.07862 1.29421L1.91358 8.33914L2.28985 8.66841ZM8.43771 9.24795L8.92279 9.36918C9.0332 8.92739 8.69905 8.49946 8.24368 8.49946V8.99946V9.49946C8.04852 9.49946 7.90531 9.31607 7.95263 9.12673L8.43771 9.24795ZM7.56192 6.75097L7.07685 6.62972C6.96642 7.07152 7.30057 7.49946 7.75595 7.49946V6.99946V6.49946C7.95112 6.49946 8.09433 6.68287 8.047 6.87221L7.56192 6.75097Z",
+      fill: "currentColor",
+      key: "3br426"
+    }
+  ]
+];
+var ZapFill = createFoamicon("ZapFill", __iconNode605);
+
+// src/icons/ZapOffDuotone.tsx
+var __iconNode606 = [
+  [
+    "path",
+    {
+      d: "M10.7324 10.7323L7.54589 14.3758C7.40773 14.5337 7.15063 14.3996 7.20117 14.1961L8.43749 9.24701C8.46872 9.12094 8.37312 8.99897 8.24316 8.99897H2.44042C2.26894 8.99869 2.17731 8.79715 2.29003 8.66792L5.26562 5.26562L10.7324 10.7323Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "2h7rep"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.21469 1.62349L7.83854 1.29407L7.83842 1.29421L8.21469 1.62349ZM8.55844 1.80318L9.04351 1.92442L9.04359 1.92412L8.55844 1.80318ZM13.3192 6.99946L13.3198 6.49946H13.3192V6.99946ZM13.4696 7.3315L13.8458 7.66076L13.8461 7.66048L13.4696 7.3315ZM7.30551 14.3764L6.92922 14.0472V14.0472L7.30551 14.3764ZM6.96078 14.1967L6.4757 14.0755L6.47552 14.0762L6.96078 14.1967ZM2.20004 8.99946L2.19922 9.49946H2.20004V8.99946ZM2.04965 8.66841L1.67338 8.33913L1.67284 8.33975L2.04965 8.66841ZM8.19751 9.24795L8.68259 9.36918V9.36918L8.19751 9.24795ZM10.4175 6.99946V6.49946H10.417L10.4175 6.99946ZM11.517 8.80355C11.3352 9.01136 11.3562 9.32724 11.564 9.50909C11.7719 9.69094 12.0877 9.66989 12.2696 9.46208L11.8933 9.13281L11.517 8.80355ZM9.79957 6.5C9.52342 6.50024 9.29976 6.72429 9.3 7.00043C9.30024 7.27658 9.52429 7.50024 9.80043 7.5L9.8 7L9.79957 6.5ZM7.31021 4.73509C7.24325 5.00299 7.40614 5.27445 7.67404 5.34141C7.94194 5.40837 8.2134 5.24548 8.28037 4.97758L7.79529 4.85633L7.31021 4.73509ZM6.12373 3.25362C5.94188 3.46143 5.96292 3.77731 6.17073 3.95916C6.37853 4.14102 6.69442 4.11998 6.87627 3.91217L6.5 3.5829L6.12373 3.25362ZM5.51782 5.4645C5.69967 5.25669 5.67863 4.94081 5.47082 4.75896C5.26302 4.5771 4.94713 4.59815 4.76528 4.80595L5.14155 5.13523L5.51782 5.4645ZM8.21469 1.62349L8.59083 1.95291C8.38367 2.18944 7.99707 1.98797 8.07328 1.68223L8.55844 1.80318L9.04359 1.92412C9.22129 1.21128 8.32216 0.741868 7.83855 1.29407L8.21469 1.62349ZM13.3192 6.99946L13.3185 7.49946C13.0604 7.49912 12.9241 7.19591 13.093 7.00251L13.4696 7.3315L13.8461 7.66048C14.2409 7.20859 13.9212 6.50027 13.3198 6.49946L13.3192 6.99946ZM10.5116 10.7124L10.1353 10.3831L6.92922 14.0472L7.30551 14.3764L7.68179 14.7057L10.8878 11.0416L10.5116 10.7124ZM7.30551 14.3764L6.92922 14.0472C7.13549 13.8114 7.52224 14.0104 7.44604 14.3172L6.96078 14.1967L6.47552 14.0762C6.29825 14.79 7.19919 15.2572 7.68179 14.7057L7.30551 14.3764ZM6.96078 14.1967L7.44586 14.318L8.68259 9.36918L8.19751 9.24795L7.71243 9.12673L6.4757 14.0755L6.96078 14.1967ZM8.00348 8.99946V8.49946H2.20004V8.99946V9.49946H8.00348V8.99946ZM2.20004 8.99946L2.20085 8.49946C2.45728 8.49988 2.59619 8.80246 2.42645 8.99707L2.04965 8.66841L1.67284 8.33975C1.27765 8.79284 1.59981 9.49849 2.19922 9.49946L2.20004 8.99946ZM8.19751 9.24795L8.68259 9.36918C8.793 8.92739 8.45885 8.49946 8.00348 8.49946V8.99946V9.49946C7.80832 9.49946 7.66511 9.31607 7.71243 9.12673L8.19751 9.24795ZM10.4175 6.99946V7.49946H13.3192V6.99946V6.49946H10.4175V6.99946ZM13.4696 7.3315L13.0933 7.00223L11.517 8.80355L11.8933 9.13281L12.2696 9.46208L13.8458 7.66076L13.4696 7.3315ZM9.8 7L9.80043 7.5L10.4179 7.49946L10.4175 6.99946L10.417 6.49946L9.79957 6.5L9.8 7ZM8.55844 1.80318L8.07336 1.68193L7.31021 4.73509L7.79529 4.85633L8.28037 4.97758L9.04351 1.92442L8.55844 1.80318ZM6.5 3.5829L6.87627 3.91217L8.59095 1.95276L8.21469 1.62349L7.83842 1.29421L6.12373 3.25362L6.5 3.5829ZM2.04965 8.66841L2.42592 8.99768L5.51782 5.4645L5.14155 5.13523L4.76528 4.80595L1.67338 8.33914L2.04965 8.66841Z",
+      fill: "currentColor",
+      key: "vdoj7h"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 14.5L1.5 1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "f8k5um"
+    }
+  ]
+];
+var ZapOffDuotone = createFoamicon("ZapOffDuotone", __iconNode606);
+
+// src/icons/ZapOffFill.tsx
+var __iconNode607 = [
+  [
+    "path",
+    {
+      d: "M10.7324 10.7323L7.54589 14.3758C7.40773 14.5337 7.15063 14.3996 7.20117 14.1961L8.43749 9.24701C8.46872 9.12094 8.37312 8.99897 8.24316 8.99897H2.44042C2.26894 8.99869 2.17731 8.79715 2.29003 8.66792L5.26562 5.26562L10.7324 10.7323Z",
+      fill: "currentColor",
+      key: "iyd7d1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.55844 1.80318C8.60918 1.59962 8.35291 1.46565 8.21469 1.62349L6.62428 3.44087C6.55451 3.52061 6.55902 3.64092 6.63458 3.7152L7.54586 4.61111C7.65618 4.71957 7.84259 4.66708 7.88011 4.51699L8.55844 1.80318Z",
+      fill: "currentColor",
+      key: "22mhf5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.4696 7.3315C13.5825 7.20225 13.4908 6.99969 13.3192 6.99946H10.4175L10.276 6.99959C10.0988 6.99974 10.0093 7.21322 10.1334 7.33968L11.7422 8.97881C11.8237 9.06191 11.9587 9.05804 12.0354 8.97042L13.4696 7.3315Z",
+      fill: "currentColor",
+      key: "92e4h0"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.30551 14.3764L10.3907 10.8505C10.459 10.7724 10.4562 10.6549 10.3842 10.5801L5.29266 5.29216C5.21137 5.20774 5.07525 5.21098 4.99808 5.29917L2.04965 8.66841C1.93692 8.79765 2.02855 8.99919 2.20004 8.99946H8.00348C8.13358 8.99946 8.22905 9.12173 8.19751 9.24795L6.96078 14.1967C6.91025 14.4002 7.16734 14.5343 7.30551 14.3764Z",
+      fill: "currentColor",
+      key: "jnvn6g"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.55844 1.80318C8.60918 1.59962 8.35291 1.46565 8.21469 1.62349L6.62428 3.44087C6.55451 3.52061 6.55902 3.64092 6.63458 3.7152L7.54586 4.61111C7.65618 4.71957 7.84259 4.66708 7.88011 4.51699L8.55844 1.80318Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "dmwvqn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M13.4696 7.3315C13.5825 7.20225 13.4908 6.99969 13.3192 6.99946H10.4175L10.276 6.99959C10.0988 6.99974 10.0093 7.21322 10.1334 7.33968L11.7422 8.97881C11.8237 9.06191 11.9587 9.05804 12.0354 8.97042L13.4696 7.3315Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "tj07ss"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.30551 14.3764L10.3907 10.8505C10.459 10.7724 10.4562 10.6549 10.3842 10.5801L5.29266 5.29216C5.21137 5.20774 5.07525 5.21098 4.99808 5.29917L2.04965 8.66841C1.93692 8.79765 2.02855 8.99919 2.20004 8.99946H8.00348C8.13358 8.99946 8.22905 9.12173 8.19751 9.24795L6.96078 14.1967C6.91025 14.4002 7.16734 14.5343 7.30551 14.3764Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "z70blk"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 14.5L1.5 1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "f8k5uh"
+    }
+  ]
+];
+var ZapOffFill = createFoamicon("ZapOffFill", __iconNode607);
+
+// src/icons/ZapOff.tsx
+var __iconNode608 = [
+  [
+    "path",
+    {
+      d: "M8.21469 1.62349L7.83854 1.29407L7.83842 1.29421L8.21469 1.62349ZM8.55844 1.80318L9.04351 1.92442L9.04359 1.92412L8.55844 1.80318ZM13.3192 6.99946L13.3198 6.49946H13.3192V6.99946ZM13.4696 7.3315L13.8458 7.66076L13.8461 7.66048L13.4696 7.3315ZM7.30551 14.3764L6.92922 14.0472V14.0472L7.30551 14.3764ZM6.96078 14.1967L6.4757 14.0755L6.47552 14.0762L6.96078 14.1967ZM2.20004 8.99946L2.19922 9.49946H2.20004V8.99946ZM2.04965 8.66841L1.67338 8.33913L1.67284 8.33975L2.04965 8.66841ZM8.19751 9.24795L8.68259 9.36918V9.36918L8.19751 9.24795ZM10.4175 6.99946V6.49946H10.417L10.4175 6.99946ZM11.517 8.80355C11.3352 9.01136 11.3562 9.32724 11.564 9.50909C11.7719 9.69094 12.0877 9.66989 12.2696 9.46208L11.8933 9.13281L11.517 8.80355ZM9.79957 6.5C9.52342 6.50024 9.29976 6.72429 9.3 7.00043C9.30024 7.27658 9.52429 7.50024 9.80043 7.5L9.8 7L9.79957 6.5ZM7.31021 4.73509C7.24325 5.00299 7.40614 5.27445 7.67404 5.34141C7.94194 5.40837 8.2134 5.24548 8.28037 4.97758L7.79529 4.85633L7.31021 4.73509ZM6.12373 3.25362C5.94188 3.46143 5.96292 3.77731 6.17073 3.95916C6.37853 4.14102 6.69442 4.11998 6.87627 3.91217L6.5 3.5829L6.12373 3.25362ZM5.51782 5.4645C5.69967 5.25669 5.67863 4.94081 5.47082 4.75896C5.26302 4.5771 4.94713 4.59815 4.76528 4.80595L5.14155 5.13523L5.51782 5.4645ZM8.21469 1.62349L8.59083 1.95291C8.38367 2.18944 7.99707 1.98797 8.07328 1.68223L8.55844 1.80318L9.04359 1.92412C9.22129 1.21128 8.32216 0.741868 7.83855 1.29407L8.21469 1.62349ZM13.3192 6.99946L13.3185 7.49946C13.0604 7.49912 12.9241 7.19591 13.093 7.00251L13.4696 7.3315L13.8461 7.66048C14.2409 7.20859 13.9212 6.50027 13.3198 6.49946L13.3192 6.99946ZM10.5116 10.7124L10.1353 10.3831L6.92922 14.0472L7.30551 14.3764L7.68179 14.7057L10.8878 11.0416L10.5116 10.7124ZM7.30551 14.3764L6.92922 14.0472C7.13549 13.8114 7.52224 14.0104 7.44604 14.3172L6.96078 14.1967L6.47552 14.0762C6.29825 14.79 7.19919 15.2572 7.68179 14.7057L7.30551 14.3764ZM6.96078 14.1967L7.44586 14.318L8.68259 9.36918L8.19751 9.24795L7.71243 9.12673L6.4757 14.0755L6.96078 14.1967ZM8.00348 8.99946V8.49946H2.20004V8.99946V9.49946H8.00348V8.99946ZM2.20004 8.99946L2.20085 8.49946C2.45728 8.49988 2.59619 8.80246 2.42645 8.99707L2.04965 8.66841L1.67284 8.33975C1.27765 8.79284 1.59981 9.49849 2.19922 9.49946L2.20004 8.99946ZM8.19751 9.24795L8.68259 9.36918C8.793 8.92739 8.45885 8.49946 8.00348 8.49946V8.99946V9.49946C7.80832 9.49946 7.66511 9.31607 7.71243 9.12673L8.19751 9.24795ZM10.4175 6.99946V7.49946H13.3192V6.99946V6.49946H10.4175V6.99946ZM13.4696 7.3315L13.0933 7.00223L11.517 8.80355L11.8933 9.13281L12.2696 9.46208L13.8458 7.66076L13.4696 7.3315ZM9.8 7L9.80043 7.5L10.4179 7.49946L10.4175 6.99946L10.417 6.49946L9.79957 6.5L9.8 7ZM8.55844 1.80318L8.07336 1.68193L7.31021 4.73509L7.79529 4.85633L8.28037 4.97758L9.04351 1.92442L8.55844 1.80318ZM6.5 3.5829L6.87627 3.91217L8.59095 1.95276L8.21469 1.62349L7.83842 1.29421L6.12373 3.25362L6.5 3.5829ZM2.04965 8.66841L2.42592 8.99768L5.51782 5.4645L5.14155 5.13523L4.76528 4.80595L1.67338 8.33914L2.04965 8.66841Z",
+      fill: "currentColor",
+      key: "vdoj7i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 14.5L1.5 1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "f8k5un"
+    }
+  ]
+];
+var ZapOff = createFoamicon("ZapOff", __iconNode608);
+
+// src/icons/Zap.tsx
+var __iconNode609 = [
+  [
+    "rect",
+    {
+      width: "16",
+      height: "16",
+      fill: "white",
+      key: "zec9jj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.45505 1.62354L8.07891 1.29411L8.07878 1.29426L8.45505 1.62354ZM8.7988 1.80322L9.28387 1.92447L9.28395 1.92416L8.7988 1.80322ZM13.5595 6.99951L13.5602 6.49951H13.5595V6.99951ZM13.7099 7.33154L14.0862 7.66079L14.0865 7.66053L13.7099 7.33154ZM7.54587 14.3765L7.92216 14.7057L7.92216 14.7057L7.54587 14.3765ZM7.20114 14.1968L6.71606 14.0756L6.71588 14.0763L7.20114 14.1968ZM2.4404 8.99951L2.43959 9.49951H2.4404V8.99951ZM2.29001 8.66846L1.91374 8.33918L1.9132 8.3398L2.29001 8.66846ZM8.43787 9.248L8.92295 9.36923V9.36923L8.43787 9.248ZM7.56208 6.75101L8.04716 6.87226L7.56208 6.75101ZM8.45505 1.62354L8.83119 1.95296C8.62403 2.18949 8.23743 1.98801 8.31364 1.68228L8.7988 1.80322L9.28395 1.92416C9.46165 1.21133 8.56252 0.741915 8.07891 1.29411L8.45505 1.62354ZM8.7988 1.80322L8.31372 1.68198L7.07701 6.62977L7.56208 6.75101L8.04716 6.87226L9.28387 1.92447L8.7988 1.80322ZM7.75611 6.99951V7.49951H13.5595V6.99951V6.49951H7.75611V6.99951ZM13.5595 6.99951L13.5589 7.49951C13.3007 7.49917 13.1644 7.19596 13.3334 7.00256L13.7099 7.33154L14.0865 7.66053C14.4813 7.20863 14.1615 6.50032 13.5602 6.49951L13.5595 6.99951ZM13.7099 7.33154L13.3336 7.0023L7.16957 14.0472L7.54587 14.3765L7.92216 14.7057L14.0862 7.66079L13.7099 7.33154ZM7.54587 14.3765L7.16958 14.0472C7.37585 13.8115 7.7626 14.0105 7.6864 14.3173L7.20114 14.1968L6.71588 14.0763C6.53861 14.79 7.43955 15.2573 7.92216 14.7057L7.54587 14.3765ZM7.20114 14.1968L7.68622 14.318L8.92295 9.36923L8.43787 9.248L7.95279 9.12678L6.71606 14.0756L7.20114 14.1968ZM8.24384 8.99951V8.49951H2.4404V8.99951V9.49951H8.24384V8.99951ZM2.4404 8.99951L2.44121 8.49951C2.69765 8.49993 2.83656 8.80251 2.66681 8.99712L2.29001 8.66846L1.9132 8.3398C1.51801 8.79288 1.84017 9.49854 2.43959 9.49951L2.4404 8.99951ZM2.29001 8.66846L2.66628 8.99773L8.83132 1.95281L8.45505 1.62354L8.07878 1.29426L1.91374 8.33918L2.29001 8.66846ZM8.43787 9.248L8.92295 9.36923C9.03336 8.92744 8.69921 8.49951 8.24384 8.49951V8.99951V9.49951C8.04868 9.49951 7.90547 9.31611 7.95279 9.12678L8.43787 9.248ZM7.56208 6.75101L7.07701 6.62977C6.96658 7.07156 7.30073 7.49951 7.75611 7.49951V6.99951V6.49951C7.95128 6.49951 8.09448 6.68292 8.04716 6.87226L7.56208 6.75101Z",
+      fill: "currentColor",
+      key: "bq6c8n"
+    }
+  ]
+];
+var Zap = createFoamicon("Zap", __iconNode609);
 
 // src/logos/LogoFacebookFill.tsx
-var __iconNode556 = [
+var __iconNode610 = [
   [
     "path",
     {
@@ -22462,10 +24678,10 @@ var __iconNode556 = [
     }
   ]
 ];
-var LogoFacebookFill = createFoamicon("LogoFacebookFill", __iconNode556);
+var LogoFacebookFill = createFoamicon("LogoFacebookFill", __iconNode610);
 
 // src/logos/LogoFacebook.tsx
-var __iconNode557 = [
+var __iconNode611 = [
   [
     "path",
     {
@@ -22483,10 +24699,10 @@ var __iconNode557 = [
     }
   ]
 ];
-var LogoFacebook = createFoamicon("LogoFacebook", __iconNode557);
+var LogoFacebook = createFoamicon("LogoFacebook", __iconNode611);
 
 // src/logos/LogoFileDark.tsx
-var __iconNode558 = [
+var __iconNode612 = [
   [
     "path",
     {
@@ -22512,10 +24728,10 @@ var __iconNode558 = [
     }
   ]
 ];
-var LogoFileDark = createFoamicon("LogoFileDark", __iconNode558);
+var LogoFileDark = createFoamicon("LogoFileDark", __iconNode612);
 
 // src/logos/LogoFilePdfDark.tsx
-var __iconNode559 = [
+var __iconNode613 = [
   [
     "path",
     {
@@ -22541,10 +24757,10 @@ var __iconNode559 = [
     }
   ]
 ];
-var LogoFilePdfDark = createFoamicon("LogoFilePdfDark", __iconNode559);
+var LogoFilePdfDark = createFoamicon("LogoFilePdfDark", __iconNode613);
 
 // src/logos/LogoFilePdf.tsx
-var __iconNode560 = [
+var __iconNode614 = [
   [
     "path",
     {
@@ -22570,10 +24786,10 @@ var __iconNode560 = [
     }
   ]
 ];
-var LogoFilePdf = createFoamicon("LogoFilePdf", __iconNode560);
+var LogoFilePdf = createFoamicon("LogoFilePdf", __iconNode614);
 
 // src/logos/LogoFileSheetDark.tsx
-var __iconNode561 = [
+var __iconNode615 = [
   [
     "path",
     {
@@ -22599,10 +24815,10 @@ var __iconNode561 = [
     }
   ]
 ];
-var LogoFileSheetDark = createFoamicon("LogoFileSheetDark", __iconNode561);
+var LogoFileSheetDark = createFoamicon("LogoFileSheetDark", __iconNode615);
 
 // src/logos/LogoFileSheet.tsx
-var __iconNode562 = [
+var __iconNode616 = [
   [
     "path",
     {
@@ -22628,10 +24844,10 @@ var __iconNode562 = [
     }
   ]
 ];
-var LogoFileSheet = createFoamicon("LogoFileSheet", __iconNode562);
+var LogoFileSheet = createFoamicon("LogoFileSheet", __iconNode616);
 
 // src/logos/LogoFile.tsx
-var __iconNode563 = [
+var __iconNode617 = [
   [
     "path",
     {
@@ -22657,10 +24873,10 @@ var __iconNode563 = [
     }
   ]
 ];
-var LogoFile = createFoamicon("LogoFile", __iconNode563);
+var LogoFile = createFoamicon("LogoFile", __iconNode617);
 
 // src/logos/LogoFoamDark.tsx
-var __iconNode564 = [
+var __iconNode618 = [
   [
     "rect",
     {
@@ -22682,10 +24898,10 @@ var __iconNode564 = [
     }
   ]
 ];
-var LogoFoamDark = createFoamicon("LogoFoamDark", __iconNode564);
+var LogoFoamDark = createFoamicon("LogoFoamDark", __iconNode618);
 
 // src/logos/LogoFoamFill.tsx
-var __iconNode565 = [
+var __iconNode619 = [
   [
     "path",
     {
@@ -22695,10 +24911,10 @@ var __iconNode565 = [
     }
   ]
 ];
-var LogoFoamFill = createFoamicon("LogoFoamFill", __iconNode565);
+var LogoFoamFill = createFoamicon("LogoFoamFill", __iconNode619);
 
 // src/logos/LogoFoamSymbolDark.tsx
-var __iconNode566 = [
+var __iconNode620 = [
   [
     "path",
     {
@@ -22708,10 +24924,10 @@ var __iconNode566 = [
     }
   ]
 ];
-var LogoFoamSymbolDark = createFoamicon("LogoFoamSymbolDark", __iconNode566);
+var LogoFoamSymbolDark = createFoamicon("LogoFoamSymbolDark", __iconNode620);
 
 // src/logos/LogoFoamSymbol.tsx
-var __iconNode567 = [
+var __iconNode621 = [
   [
     "path",
     {
@@ -22721,10 +24937,10 @@ var __iconNode567 = [
     }
   ]
 ];
-var LogoFoamSymbol = createFoamicon("LogoFoamSymbol", __iconNode567);
+var LogoFoamSymbol = createFoamicon("LogoFoamSymbol", __iconNode621);
 
 // src/logos/LogoFoam.tsx
-var __iconNode568 = [
+var __iconNode622 = [
   [
     "rect",
     {
@@ -22746,10 +24962,10 @@ var __iconNode568 = [
     }
   ]
 ];
-var LogoFoam = createFoamicon("LogoFoam", __iconNode568);
+var LogoFoam = createFoamicon("LogoFoam", __iconNode622);
 
 // src/logos/LogoGmailFill.tsx
-var __iconNode569 = [
+var __iconNode623 = [
   [
     "defs",
     {
@@ -22825,10 +25041,10 @@ var __iconNode569 = [
     }
   ]
 ];
-var LogoGmailFill = createFoamicon("LogoGmailFill", __iconNode569);
+var LogoGmailFill = createFoamicon("LogoGmailFill", __iconNode623);
 
 // src/logos/LogoGmail.tsx
-var __iconNode570 = [
+var __iconNode624 = [
   [
     "path",
     {
@@ -22870,10 +25086,10 @@ var __iconNode570 = [
     }
   ]
 ];
-var LogoGmail = createFoamicon("LogoGmail", __iconNode570);
+var LogoGmail = createFoamicon("LogoGmail", __iconNode624);
 
 // src/logos/LogoGoogleFill.tsx
-var __iconNode571 = [
+var __iconNode625 = [
   [
     "path",
     {
@@ -22883,10 +25099,10 @@ var __iconNode571 = [
     }
   ]
 ];
-var LogoGoogleFill = createFoamicon("LogoGoogleFill", __iconNode571);
+var LogoGoogleFill = createFoamicon("LogoGoogleFill", __iconNode625);
 
 // src/logos/LogoGoogle.tsx
-var __iconNode572 = [
+var __iconNode626 = [
   [
     "path",
     {
@@ -22928,10 +25144,10 @@ var __iconNode572 = [
     }
   ]
 ];
-var LogoGoogle = createFoamicon("LogoGoogle", __iconNode572);
+var LogoGoogle = createFoamicon("LogoGoogle", __iconNode626);
 
 // src/logos/LogoInstagramDark.tsx
-var __iconNode573 = [
+var __iconNode627 = [
   [
     "defs",
     {
@@ -23034,10 +25250,10 @@ var __iconNode573 = [
     }
   ]
 ];
-var LogoInstagramDark = createFoamicon("LogoInstagramDark", __iconNode573);
+var LogoInstagramDark = createFoamicon("LogoInstagramDark", __iconNode627);
 
 // src/logos/LogoInstagramFill.tsx
-var __iconNode574 = [
+var __iconNode628 = [
   [
     "path",
     {
@@ -23047,10 +25263,10 @@ var __iconNode574 = [
     }
   ]
 ];
-var LogoInstagramFill = createFoamicon("LogoInstagramFill", __iconNode574);
+var LogoInstagramFill = createFoamicon("LogoInstagramFill", __iconNode628);
 
 // src/logos/LogoInstagram.tsx
-var __iconNode575 = [
+var __iconNode629 = [
   [
     "defs",
     {
@@ -23152,10 +25368,10 @@ var __iconNode575 = [
     }
   ]
 ];
-var LogoInstagram = createFoamicon("LogoInstagram", __iconNode575);
+var LogoInstagram = createFoamicon("LogoInstagram", __iconNode629);
 
 // src/logos/LogoLinkedinDark.tsx
-var __iconNode576 = [
+var __iconNode630 = [
   [
     "path",
     {
@@ -23189,10 +25405,10 @@ var __iconNode576 = [
     }
   ]
 ];
-var LogoLinkedinDark = createFoamicon("LogoLinkedinDark", __iconNode576);
+var LogoLinkedinDark = createFoamicon("LogoLinkedinDark", __iconNode630);
 
 // src/logos/LogoLinkedinFill.tsx
-var __iconNode577 = [
+var __iconNode631 = [
   [
     "path",
     {
@@ -23202,10 +25418,10 @@ var __iconNode577 = [
     }
   ]
 ];
-var LogoLinkedinFill = createFoamicon("LogoLinkedinFill", __iconNode577);
+var LogoLinkedinFill = createFoamicon("LogoLinkedinFill", __iconNode631);
 
 // src/logos/LogoLinkedin.tsx
-var __iconNode578 = [
+var __iconNode632 = [
   [
     "path",
     {
@@ -23215,10 +25431,10 @@ var __iconNode578 = [
     }
   ]
 ];
-var LogoLinkedin = createFoamicon("LogoLinkedin", __iconNode578);
+var LogoLinkedin = createFoamicon("LogoLinkedin", __iconNode632);
 
 // src/logos/LogoMicrosoftFill.tsx
-var __iconNode579 = [
+var __iconNode633 = [
   [
     "path",
     {
@@ -23228,10 +25444,10 @@ var __iconNode579 = [
     }
   ]
 ];
-var LogoMicrosoftFill = createFoamicon("LogoMicrosoftFill", __iconNode579);
+var LogoMicrosoftFill = createFoamicon("LogoMicrosoftFill", __iconNode633);
 
 // src/logos/LogoMicrosoft.tsx
-var __iconNode580 = [
+var __iconNode634 = [
   [
     "path",
     {
@@ -23265,10 +25481,10 @@ var __iconNode580 = [
     }
   ]
 ];
-var LogoMicrosoft = createFoamicon("LogoMicrosoft", __iconNode580);
+var LogoMicrosoft = createFoamicon("LogoMicrosoft", __iconNode634);
 
 // src/logos/LogoSnapchatDark.tsx
-var __iconNode581 = [
+var __iconNode635 = [
   [
     "defs",
     {
@@ -23319,10 +25535,10 @@ var __iconNode581 = [
     }
   ]
 ];
-var LogoSnapchatDark = createFoamicon("LogoSnapchatDark", __iconNode581);
+var LogoSnapchatDark = createFoamicon("LogoSnapchatDark", __iconNode635);
 
 // src/logos/LogoSnapchatFill.tsx
-var __iconNode582 = [
+var __iconNode636 = [
   [
     "path",
     {
@@ -23332,10 +25548,10 @@ var __iconNode582 = [
     }
   ]
 ];
-var LogoSnapchatFill = createFoamicon("LogoSnapchatFill", __iconNode582);
+var LogoSnapchatFill = createFoamicon("LogoSnapchatFill", __iconNode636);
 
 // src/logos/LogoSnapchat.tsx
-var __iconNode583 = [
+var __iconNode637 = [
   [
     "rect",
     {
@@ -23365,10 +25581,10 @@ var __iconNode583 = [
     }
   ]
 ];
-var LogoSnapchat = createFoamicon("LogoSnapchat", __iconNode583);
+var LogoSnapchat = createFoamicon("LogoSnapchat", __iconNode637);
 
 // src/logos/LogoTiktokDark.tsx
-var __iconNode584 = [
+var __iconNode638 = [
   [
     "path",
     {
@@ -23426,10 +25642,10 @@ var __iconNode584 = [
     }
   ]
 ];
-var LogoTiktokDark = createFoamicon("LogoTiktokDark", __iconNode584);
+var LogoTiktokDark = createFoamicon("LogoTiktokDark", __iconNode638);
 
 // src/logos/LogoTiktokFill.tsx
-var __iconNode585 = [
+var __iconNode639 = [
   [
     "path",
     {
@@ -23439,10 +25655,10 @@ var __iconNode585 = [
     }
   ]
 ];
-var LogoTiktokFill = createFoamicon("LogoTiktokFill", __iconNode585);
+var LogoTiktokFill = createFoamicon("LogoTiktokFill", __iconNode639);
 
 // src/logos/LogoTiktok.tsx
-var __iconNode586 = [
+var __iconNode640 = [
   [
     "path",
     {
@@ -23500,10 +25716,10 @@ var __iconNode586 = [
     }
   ]
 ];
-var LogoTiktok = createFoamicon("LogoTiktok", __iconNode586);
+var LogoTiktok = createFoamicon("LogoTiktok", __iconNode640);
 
 // src/logos/LogoYoutubeFill.tsx
-var __iconNode587 = [
+var __iconNode641 = [
   [
     "path",
     {
@@ -23513,10 +25729,10 @@ var __iconNode587 = [
     }
   ]
 ];
-var LogoYoutubeFill = createFoamicon("LogoYoutubeFill", __iconNode587);
+var LogoYoutubeFill = createFoamicon("LogoYoutubeFill", __iconNode641);
 
 // src/logos/LogoYoutube.tsx
-var __iconNode588 = [
+var __iconNode642 = [
   [
     "path",
     {
@@ -23534,12 +25750,12 @@ var __iconNode588 = [
     }
   ]
 ];
-var LogoYoutube = createFoamicon("LogoYoutube", __iconNode588);
+var LogoYoutube = createFoamicon("LogoYoutube", __iconNode642);
 
 // src/index.ts
-var iconNames = ["Alert", "AlertDuotone", "AlertFill", "Archive", "ArchiveArrowUp", "ArchiveArrowUpDuotone", "ArchiveArrowUpFill", "ArchiveDuotone", "ArchiveFill", "ArrowDown", "ArrowDown01", "ArrowDown01Duotone", "ArrowDown01Fill", "ArrowDown10", "ArrowDown10Duotone", "ArrowDown10Fill", "ArrowDownCog", "ArrowDownCogDuotone", "ArrowDownCogFill", "ArrowDownDuotone", "ArrowDownFill", "ArrowDownIG", "ArrowDownIGDuotone", "ArrowDownIGFill", "ArrowDownLeft", "ArrowDownLeftDuotone", "ArrowDownLeftFill", "ArrowDownMapPin", "ArrowDownMapPinDuotone", "ArrowDownMapPinFill", "ArrowDownNarrowWide", "ArrowDownNarrowWideDuotone", "ArrowDownNarrowWideFill", "ArrowDownRight", "ArrowDownRightDuotone", "ArrowDownRightFill", "ArrowDownSC", "ArrowDownSCDuotone", "ArrowDownSCFill", "ArrowDownTT", "ArrowDownTTDuotone", "ArrowDownTTFill", "ArrowDownUp", "ArrowDownUpDuotone", "ArrowDownUpFill", "ArrowDownWideNarrow", "ArrowDownWideNarrowDuotone", "ArrowDownWideNarrowFill", "ArrowDownYT", "ArrowDownYTDuotone", "ArrowDownYTFill", "ArrowLeft", "ArrowLeftDuotone", "ArrowLeftFill", "ArrowRight", "ArrowRightDuotone", "ArrowRightFill", "ArrowRightToLine", "ArrowRightToLineDuotone", "ArrowRightToLineFill", "ArrowUp", "ArrowUpAZ", "ArrowUpAZDuotone", "ArrowUpAZFill", "ArrowUpCog", "ArrowUpCogDuotone", "ArrowUpCogFill", "ArrowUpDuotone", "ArrowUpFill", "ArrowUpIG", "ArrowUpIGDuotone", "ArrowUpIGFill", "ArrowUpLeft", "ArrowUpLeftDuotone", "ArrowUpLeftFill", "ArrowUpMapPin", "ArrowUpMapPinDuotone", "ArrowUpMapPinFill", "ArrowUpNarrowWide", "ArrowUpNarrowWideDuotone", "ArrowUpNarrowWideFill", "ArrowUpRight", "ArrowUpRightDuotone", "ArrowUpRightFill", "ArrowUpSC", "ArrowUpSCDuotone", "ArrowUpSCFill", "ArrowUpTT", "ArrowUpTTDuotone", "ArrowUpTTFill", "ArrowUpWideNarrow", "ArrowUpWideNarrowDuotone", "ArrowUpWideNarrowFill", "ArrowUpYT", "ArrowUpYTDuotone", "ArrowUpYTFill", "ArrowUpZA", "ArrowUpZADuotone", "ArrowUpZAFill", "AtSign", "AtSignDuotone", "AtSignFill", "Ban", "BanDuotone", "BanFill", "Bell", "BellDuotone", "BellFill", "Bold", "BoldDuotone", "BoldFill", "Bookmark", "BookmarkDuotone", "BookmarkFill", "Calendar", "CalendarDuotone", "CalendarFill", "ChartColumnSquare", "ChartColumnSquareDuotone", "ChartColumnSquareFill", "Checkbox", "CheckboxDuotone", "CheckboxFill", "Checkmark", "CheckmarkDuotone", "CheckmarkFill", "ChevronDown", "ChevronDownDuotone", "ChevronDownFill", "ChevronLeft", "ChevronLeftDuotone", "ChevronLeftFill", "ChevronRight", "ChevronRightDuotone", "ChevronRightFill", "ChevronUp", "ChevronUpDown", "ChevronUpDownDuotone", "ChevronUpDownFill", "ChevronUpDuotone", "ChevronUpFill", "Circle", "CircleAlert", "CircleAlertDuotone", "CircleAlertFill", "CircleCheckbox", "CircleCheckboxDuotone", "CircleCheckboxFill", "CircleDashed", "CircleDashedDuotone", "CircleDashedFill", "CircleDollarSign", "CircleDollarSignDuotone", "CircleDollarSignFill", "CircleDuotone", "CircleFill", "CircleOverlap", "CircleOverlapDuotone", "CircleOverlapFill", "CirclePlus", "CirclePlusDuotone", "CirclePlusFill", "CircleQuestionMark", "CircleQuestionMarkDuotone", "CircleQuestionMarkFill", "CircleX", "CircleXDuotone", "CircleXFill", "ClipboardList", "ClipboardListDuotone", "ClipboardListFill", "Clock", "ClockArrowDown", "ClockArrowDownDuotone", "ClockArrowDownFill", "ClockArrowUp", "ClockArrowUpDuotone", "ClockArrowUpFill", "ClockDuotone", "ClockFill", "Cog", "CogDuotone", "CogFill", "Columns3", "Columns3Duotone", "Columns3Fill", "Command", "CommandDuotone", "CommandFill", "ContentHeart", "ContentHeartDuotone", "ContentHeartFill", "ContentPlus", "ContentPlusDuotone", "ContentPlusFill", "ContentUser", "ContentUserDuotone", "ContentUserFill", "Copy", "CopyDuotone", "CopyFill", "Download", "DownloadDuotone", "DownloadFill", "Eclipse", "EclipseDuotone", "EclipseFill", "Ellipsis", "EllipsisDuotone", "EllipsisFill", "EllipsisVertical", "EllipsisVerticalDuotone", "EllipsisVerticalFill", "ExternalLink", "ExternalLinkDuotone", "ExternalLinkFill", "Eye", "EyeDuotone", "EyeFill", "EyeOff", "EyeOffDuotone", "EyeOffFill", "File", "FileArrowDown", "FileArrowDownDuotone", "FileArrowDownFill", "FileArrowLeft", "FileArrowLeftDuotone", "FileArrowLeftFill", "FileArrowLeftRight", "FileArrowLeftRightDuotone", "FileArrowLeftRightFill", "FileArrowRight", "FileArrowRightDuotone", "FileArrowRightFill", "FileArrowUp", "FileArrowUpDuotone", "FileArrowUpFill", "FileChartColumn", "FileChartColumnDuotone", "FileChartColumnFill", "FileCheck", "FileCheckDuotone", "FileCheckFill", "FileCog", "FileCogDuotone", "FileCogFill", "FileDuotone", "FileFill", "FileImage", "FileImageDuotone", "FileImageFill", "FilePlus", "FilePlusDuotone", "FilePlusFill", "FileUser", "FileUserDuotone", "FileUserFill", "FileX", "FileXDuotone", "FileXFill", "Flame", "FlameDuotone", "FlameFill", "Frown", "FrownDuotone", "FrownFill", "Fullscreen", "FullscreenDuotone", "FullscreenFill", "Globe", "GlobeDuotone", "GlobeFill", "Grid1x2", "Grid1x2Duotone", "Grid1x2Fill", "Grid2x2", "Grid2x2Duotone", "Grid2x2Fill", "Grip", "GripDuotone", "GripFill", "GripHorizontal", "GripHorizontalDuotone", "GripHorizontalFill", "GripVertical", "GripVerticalDuotone", "GripVerticalFill", "Heart", "HeartDuotone", "HeartFill", "History", "HistoryDuotone", "HistoryFill", "Hotspot", "HotspotDuotone", "HotspotFill", "House", "HouseDuotone", "HouseFill", "Image", "ImageDuotone", "ImageFill", "Images", "ImagesDuotone", "ImagesFill", "Inbox", "InboxDuotone", "InboxFill", "Info", "InfoDuotone", "InfoFill", "Italic", "ItalicDuotone", "ItalicFill", "Link", "LinkDuotone", "LinkFill", "List", "ListDuotone", "ListFill", "ListFilter", "ListFilterDuotone", "ListFilterFill", "ListIndentDecrease", "ListIndentDecreaseDuotone", "ListIndentDecreaseFill", "ListIndentIncrease", "ListIndentIncreaseDuotone", "ListIndentIncreaseFill", "ListOrdered", "ListOrderedDuotone", "ListOrderedFill", "LoaderCircle", "LoaderCircleDuotone", "LoaderCircleFill", "Lock", "LockDuotone", "LockFill", "LogOut", "LogOutDuotone", "LogOutFill", "Mail", "MailDuotone", "MailFill", "MailMove", "MailMoveDuotone", "MailMoveFill", "MailPlus", "MailPlusDuotone", "MailPlusFill", "MapPin", "MapPinDuotone", "MapPinFill", "Maximize", "MaximizeDuotone", "MaximizeFill", "Megaphone", "MegaphoneActive", "MegaphoneActiveDuotone", "MegaphoneActiveFill", "MegaphoneDuotone", "MegaphoneFill", "Menu", "MenuDuotone", "MenuFill", "MessageSquare", "MessageSquareDuotone", "MessageSquareFill", "MessagesSquare", "MessagesSquareDuotone", "MessagesSquareFill", "Minus", "MinusDuotone", "MinusFill", "Moon", "MoonDuotone", "MoonFill", "MousePointerClick", "MousePointerClickDuotone", "MousePointerClickFill", "Move", "MoveDuotone", "MoveFill", "Notebook", "NotebookDuotone", "NotebookFill", "Office", "OfficeDuotone", "OfficeFill", "PanelLeft", "PanelLeftDuotone", "PanelLeftFill", "PanelRight", "PanelRightDuotone", "PanelRightFill", "Pencil", "PencilDuotone", "PencilFill", "Pin", "PinDuotone", "PinFill", "Play", "PlayDuotone", "PlayFill", "Plus", "PlusDuotone", "PlusFill", "Pointer", "PointerDuotone", "PointerFill", "QuotationMarkLeft", "QuotationMarkLeftDuotone", "QuotationMarkLeftFill", "QuotationMarkRight", "QuotationMarkRightDuotone", "QuotationMarkRightFill", "Reach", "ReachDuotone", "ReachFill", "Reel", "ReelDuotone", "ReelFill", "RefreshCw", "RefreshCwDuotone", "RefreshCwFill", "RemoveFormatting", "RemoveFormattingDuotone", "RemoveFormattingFill", "Reply", "ReplyDuotone", "ReplyFill", "Rolodex", "RolodexDuotone", "RolodexFill", "RotateCw", "RotateCwDuotone", "RotateCwFill", "Rows2", "Rows2Duotone", "Rows2Fill", "Save", "SaveDuotone", "SaveFill", "Search", "SearchDuotone", "SearchFill", "SearchUser", "SearchUserDuotone", "SearchUserFill", "Share", "ShareDuotone", "ShareFill", "Slash", "SlashDuotone", "SlashFill", "SlidersHorizontal", "SlidersHorizontalDuotone", "SlidersHorizontalFill", "Smile", "SmileDuotone", "SmileFill", "Sparkles", "SparklesDuotone", "SparklesFill", "Square", "SquareDuotone", "SquareFill", "SquarePen", "SquarePenDuotone", "SquarePenFill", "Star", "StarDuotone", "StarFill", "Sun", "SunDuotone", "SunFill", "TextAlignCenter", "TextAlignCenterDuotone", "TextAlignCenterFill", "TextAlignEnd", "TextAlignEndDuotone", "TextAlignEndFill", "TextAlignJustify", "TextAlignJustifyDuotone", "TextAlignJustifyFill", "TextAlignStart", "TextAlignStartDuotone", "TextAlignStartFill", "ThumbsDown", "ThumbsDownDuotone", "ThumbsDownFill", "ThumbsUp", "ThumbsUpDuotone", "ThumbsUpFill", "Trash", "TrashDuotone", "TrashEmpty", "TrashEmptyDuotone", "TrashEmptyFill", "TrashFill", "TrendingDown", "TrendingDownDuotone", "TrendingDownFill", "TrendingUp", "TrendingUpDuotone", "TrendingUpFill", "TriangleDown", "TriangleDownDuotone", "TriangleDownFill", "TriangleDownUp", "TriangleDownUpDuotone", "TriangleDownUpFill", "TriangleUp", "TriangleUpDuotone", "TriangleUpFill", "Unlink", "UnlinkDuotone", "UnlinkFill", "Unlock", "UnlockDuotone", "UnlockFill", "Upload", "UploadDuotone", "UploadFill", "User", "UserArrowLeft", "UserArrowLeftDuotone", "UserArrowLeftFill", "UserArrowLeftRight", "UserArrowLeftRightDuotone", "UserArrowLeftRightFill", "UserArrowOutUpRight", "UserArrowOutUpRightDuotone", "UserArrowOutUpRightFill", "UserArrowRight", "UserArrowRightDuotone", "UserArrowRightFill", "UserCog", "UserCogDuotone", "UserCogFill", "UserDuotone", "UserFill", "UserPlus", "UserPlusDuotone", "UserPlusFill", "Users", "UsersDuotone", "UsersFill", "Volume2", "Volume2Duotone", "Volume2Fill", "VolumeOff", "VolumeOffDuotone", "VolumeOffFill"];
+var iconNames = ["Alert", "AlertDuotone", "AlertFill", "Archive", "ArchiveArrowUp", "ArchiveArrowUpDuotone", "ArchiveArrowUpFill", "ArchiveDuotone", "ArchiveFill", "ArrowDown", "ArrowDown01", "ArrowDown01Duotone", "ArrowDown01Fill", "ArrowDown10", "ArrowDown10Duotone", "ArrowDown10Fill", "ArrowDownCog", "ArrowDownCogDuotone", "ArrowDownCogFill", "ArrowDownDuotone", "ArrowDownFill", "ArrowDownIG", "ArrowDownIGDuotone", "ArrowDownIGFill", "ArrowDownLeft", "ArrowDownLeftDuotone", "ArrowDownLeftFill", "ArrowDownMapPin", "ArrowDownMapPinDuotone", "ArrowDownMapPinFill", "ArrowDownNarrowWide", "ArrowDownNarrowWideDuotone", "ArrowDownNarrowWideFill", "ArrowDownRight", "ArrowDownRightDuotone", "ArrowDownRightFill", "ArrowDownSC", "ArrowDownSCDuotone", "ArrowDownSCFill", "ArrowDownTT", "ArrowDownTTDuotone", "ArrowDownTTFill", "ArrowDownUp", "ArrowDownUpDuotone", "ArrowDownUpFill", "ArrowDownWideNarrow", "ArrowDownWideNarrowDuotone", "ArrowDownWideNarrowFill", "ArrowDownYT", "ArrowDownYTDuotone", "ArrowDownYTFill", "ArrowLeft", "ArrowLeftDuotone", "ArrowLeftFill", "ArrowRight", "ArrowRightDuotone", "ArrowRightFill", "ArrowRightToLine", "ArrowRightToLineDuotone", "ArrowRightToLineFill", "ArrowUp", "ArrowUpAZ", "ArrowUpAZDuotone", "ArrowUpAZFill", "ArrowUpCog", "ArrowUpCogDuotone", "ArrowUpCogFill", "ArrowUpDuotone", "ArrowUpFill", "ArrowUpIG", "ArrowUpIGDuotone", "ArrowUpIGFill", "ArrowUpLeft", "ArrowUpLeftDuotone", "ArrowUpLeftFill", "ArrowUpMapPin", "ArrowUpMapPinDuotone", "ArrowUpMapPinFill", "ArrowUpNarrowWide", "ArrowUpNarrowWideDuotone", "ArrowUpNarrowWideFill", "ArrowUpRight", "ArrowUpRightDuotone", "ArrowUpRightFill", "ArrowUpSC", "ArrowUpSCDuotone", "ArrowUpSCFill", "ArrowUpTT", "ArrowUpTTDuotone", "ArrowUpTTFill", "ArrowUpWideNarrow", "ArrowUpWideNarrowDuotone", "ArrowUpWideNarrowFill", "ArrowUpYT", "ArrowUpYTDuotone", "ArrowUpYTFill", "ArrowUpZA", "ArrowUpZADuotone", "ArrowUpZAFill", "AtSign", "AtSignDuotone", "AtSignFill", "BadgeCheckbox", "BadgeCheckboxDuotone", "BadgeCheckboxFill", "Ban", "BanDuotone", "BanFill", "Bell", "BellDuotone", "BellFill", "Bold", "BoldDuotone", "BoldFill", "Bookmark", "BookmarkDuotone", "BookmarkFill", "Brain", "BrainDuotone", "BrainFill", "Calendar", "CalendarDuotone", "CalendarFill", "ChartArea", "ChartAreaDuotone", "ChartAreaFill", "ChartBarStacked", "ChartBarStackedDuotone", "ChartBarStackedFill", "ChartColumn", "ChartColumnDuotone", "ChartColumnFill", "ChartColumnSquare", "ChartColumnSquareDuotone", "ChartColumnSquareFill", "ChartNetwork", "ChartNetworkDuotone", "ChartNetworkFill", "ChartNoAxesCombined", "ChartNoAxesCombinedDuotone", "ChartNoAxesCombinedFill", "ChartPie", "ChartPieDuotone", "ChartPieFill", "Checkbox", "CheckboxDuotone", "CheckboxFill", "Checkmark", "CheckmarkDuotone", "CheckmarkFill", "ChevronDown", "ChevronDownDuotone", "ChevronDownFill", "ChevronLeft", "ChevronLeftDuotone", "ChevronLeftFill", "ChevronRight", "ChevronRightDuotone", "ChevronRightFill", "ChevronUp", "ChevronUpDown", "ChevronUpDownDuotone", "ChevronUpDownFill", "ChevronUpDuotone", "ChevronUpFill", "Circle", "CircleAlert", "CircleAlertDuotone", "CircleAlertFill", "CircleCheckbox", "CircleCheckboxDuotone", "CircleCheckboxFill", "CircleDashed", "CircleDashedDuotone", "CircleDashedFill", "CircleDollarSign", "CircleDollarSignDuotone", "CircleDollarSignFill", "CircleDuotone", "CircleFill", "CircleOverlap", "CircleOverlapDuotone", "CircleOverlapFill", "CirclePlus", "CirclePlusDuotone", "CirclePlusFill", "CircleQuestionMark", "CircleQuestionMarkDuotone", "CircleQuestionMarkFill", "CircleX", "CircleXDuotone", "CircleXFill", "ClipboardList", "ClipboardListDuotone", "ClipboardListFill", "Clock", "ClockArrowDown", "ClockArrowDownDuotone", "ClockArrowDownFill", "ClockArrowUp", "ClockArrowUpDuotone", "ClockArrowUpFill", "ClockDuotone", "ClockFill", "Cog", "CogDuotone", "CogFill", "Columns3", "Columns3Duotone", "Columns3Fill", "Command", "CommandDuotone", "CommandFill", "ContentHeart", "ContentHeartDuotone", "ContentHeartFill", "ContentPlus", "ContentPlusDuotone", "ContentPlusFill", "ContentUser", "ContentUserDuotone", "ContentUserFill", "Copy", "CopyDuotone", "CopyFill", "Download", "DownloadDuotone", "DownloadFill", "Eclipse", "EclipseDuotone", "EclipseFill", "Ellipsis", "EllipsisDuotone", "EllipsisFill", "EllipsisVertical", "EllipsisVerticalDuotone", "EllipsisVerticalFill", "ExternalLink", "ExternalLinkDuotone", "ExternalLinkFill", "Eye", "EyeDuotone", "EyeFill", "EyeOff", "EyeOffDuotone", "EyeOffFill", "File", "FileArrowDown", "FileArrowDownDuotone", "FileArrowDownFill", "FileArrowLeft", "FileArrowLeftDuotone", "FileArrowLeftFill", "FileArrowLeftRight", "FileArrowLeftRightDuotone", "FileArrowLeftRightFill", "FileArrowRight", "FileArrowRightDuotone", "FileArrowRightFill", "FileArrowUp", "FileArrowUpDuotone", "FileArrowUpFill", "FileChartColumn", "FileChartColumnDuotone", "FileChartColumnFill", "FileCheck", "FileCheckDuotone", "FileCheckFill", "FileCog", "FileCogDuotone", "FileCogFill", "FileDuotone", "FileFill", "FileImage", "FileImageDuotone", "FileImageFill", "FilePlus", "FilePlusDuotone", "FilePlusFill", "FileUser", "FileUserDuotone", "FileUserFill", "FileX", "FileXDuotone", "FileXFill", "Flame", "FlameDuotone", "FlameFill", "Frown", "FrownDuotone", "FrownFill", "Fullscreen", "FullscreenDuotone", "FullscreenFill", "Globe", "GlobeDuotone", "GlobeFill", "Grid1x2", "Grid1x2Duotone", "Grid1x2Fill", "Grid2x2", "Grid2x2Duotone", "Grid2x2Fill", "Grip", "GripDuotone", "GripFill", "GripHorizontal", "GripHorizontalDuotone", "GripHorizontalFill", "GripVertical", "GripVerticalDuotone", "GripVerticalFill", "Heart", "HeartDuotone", "HeartFill", "History", "HistoryDuotone", "HistoryFill", "Hotspot", "HotspotDuotone", "HotspotFill", "House", "HouseDuotone", "HouseFill", "Image", "ImageDuotone", "ImageFill", "Images", "ImagesDuotone", "ImagesFill", "Inbox", "InboxDuotone", "InboxFill", "Info", "InfoDuotone", "InfoFill", "Italic", "ItalicDuotone", "ItalicFill", "Link", "LinkDuotone", "LinkFill", "List", "ListDuotone", "ListFill", "ListFilter", "ListFilterDuotone", "ListFilterFill", "ListIndentDecrease", "ListIndentDecreaseDuotone", "ListIndentDecreaseFill", "ListIndentIncrease", "ListIndentIncreaseDuotone", "ListIndentIncreaseFill", "ListOrdered", "ListOrderedDuotone", "ListOrderedFill", "LoaderCircle", "LoaderCircleDuotone", "LoaderCircleFill", "Lock", "LockDuotone", "LockFill", "LogOut", "LogOutDuotone", "LogOutFill", "Mail", "MailDuotone", "MailFill", "MailMove", "MailMoveDuotone", "MailMoveFill", "MailPlus", "MailPlusDuotone", "MailPlusFill", "MapPin", "MapPinDuotone", "MapPinFill", "Maximize", "MaximizeDuotone", "MaximizeFill", "Megaphone", "MegaphoneActive", "MegaphoneActiveDuotone", "MegaphoneActiveFill", "MegaphoneDuotone", "MegaphoneFill", "Menu", "MenuDuotone", "MenuFill", "MessageSquare", "MessageSquareDuotone", "MessageSquareFill", "MessagesSquare", "MessagesSquareDuotone", "MessagesSquareFill", "Minus", "MinusDuotone", "MinusFill", "Moon", "MoonDuotone", "MoonFill", "MousePointerClick", "MousePointerClickDuotone", "MousePointerClickFill", "Move", "MoveDuotone", "MoveFill", "Notebook", "NotebookDuotone", "NotebookFill", "Office", "OfficeDuotone", "OfficeFill", "PanelLeft", "PanelLeftDuotone", "PanelLeftFill", "PanelRight", "PanelRightDuotone", "PanelRightFill", "Pencil", "PencilDuotone", "PencilFill", "Pin", "PinDuotone", "PinFill", "Play", "PlayDuotone", "PlayFill", "Plus", "PlusDuotone", "PlusFill", "Pointer", "PointerDuotone", "PointerFill", "QuotationMarkLeft", "QuotationMarkLeftDuotone", "QuotationMarkLeftFill", "QuotationMarkRight", "QuotationMarkRightDuotone", "QuotationMarkRightFill", "Reach", "ReachDuotone", "ReachFill", "Reel", "ReelDuotone", "ReelFill", "RefreshCw", "RefreshCwDuotone", "RefreshCwFill", "RemoveFormatting", "RemoveFormattingDuotone", "RemoveFormattingFill", "Reply", "ReplyDuotone", "ReplyFill", "Rolodex", "RolodexDuotone", "RolodexFill", "RotateCcw", "RotateCcwDuotone", "RotateCcwFill", "RotateCw", "RotateCwDuotone", "RotateCwFill", "Rows2", "Rows2Duotone", "Rows2Fill", "Save", "SaveDuotone", "SaveFill", "Search", "SearchDuotone", "SearchFill", "SearchUser", "SearchUserDuotone", "SearchUserFill", "Share", "ShareDuotone", "ShareFill", "Shield", "ShieldCheck", "ShieldCheckDuotone", "ShieldCheckFill", "ShieldDuotone", "ShieldFill", "ShieldOff", "ShieldOffDuotone", "ShieldOffFill", "ShieldPlus", "ShieldPlusDuotone", "ShieldPlusFill", "ShieldUser", "ShieldUserDuotone", "ShieldUserFill", "ShieldX", "ShieldXDuotone", "ShieldXFill", "Slash", "SlashDuotone", "SlashFill", "SlidersHorizontal", "SlidersHorizontalDuotone", "SlidersHorizontalFill", "Smile", "SmileDuotone", "SmileFill", "Sparkles", "SparklesDuotone", "SparklesFill", "Square", "SquareDuotone", "SquareFill", "SquarePen", "SquarePenDuotone", "SquarePenFill", "Star", "StarDuotone", "StarFill", "Sun", "SunDuotone", "SunFill", "TextAlignCenter", "TextAlignCenterDuotone", "TextAlignCenterFill", "TextAlignEnd", "TextAlignEndDuotone", "TextAlignEndFill", "TextAlignJustify", "TextAlignJustifyDuotone", "TextAlignJustifyFill", "TextAlignStart", "TextAlignStartDuotone", "TextAlignStartFill", "ThumbsDown", "ThumbsDownDuotone", "ThumbsDownFill", "ThumbsUp", "ThumbsUpDuotone", "ThumbsUpFill", "Trash", "TrashDuotone", "TrashEmpty", "TrashEmptyDuotone", "TrashEmptyFill", "TrashFill", "TrendingDown", "TrendingDownDuotone", "TrendingDownFill", "TrendingUp", "TrendingUpDuotone", "TrendingUpFill", "TriangleDown", "TriangleDownDuotone", "TriangleDownFill", "TriangleDownUp", "TriangleDownUpDuotone", "TriangleDownUpFill", "TriangleUp", "TriangleUpDuotone", "TriangleUpFill", "Unlink", "UnlinkDuotone", "UnlinkFill", "Unlock", "UnlockDuotone", "UnlockFill", "Upload", "UploadDuotone", "UploadFill", "User", "UserArrowLeft", "UserArrowLeftDuotone", "UserArrowLeftFill", "UserArrowLeftRight", "UserArrowLeftRightDuotone", "UserArrowLeftRightFill", "UserArrowOutUpRight", "UserArrowOutUpRightDuotone", "UserArrowOutUpRightFill", "UserArrowRight", "UserArrowRightDuotone", "UserArrowRightFill", "UserCog", "UserCogDuotone", "UserCogFill", "UserDuotone", "UserFill", "UserPlus", "UserPlusDuotone", "UserPlusFill", "Users", "UsersDuotone", "UsersFill", "Video", "VideoDuotone", "VideoFill", "Volume2", "Volume2Duotone", "Volume2Fill", "VolumeOff", "VolumeOffDuotone", "VolumeOffFill", "Zap", "ZapDuotone", "ZapFill", "ZapOff", "ZapOffDuotone", "ZapOffFill"];
 var logoNames = ["LogoFacebook", "LogoFacebookFill", "LogoFile", "LogoFileDark", "LogoFilePdf", "LogoFilePdfDark", "LogoFileSheet", "LogoFileSheetDark", "LogoFoam", "LogoFoamDark", "LogoFoamFill", "LogoFoamSymbol", "LogoFoamSymbolDark", "LogoGmail", "LogoGmailFill", "LogoGoogle", "LogoGoogleFill", "LogoInstagram", "LogoInstagramDark", "LogoInstagramFill", "LogoLinkedin", "LogoLinkedinDark", "LogoLinkedinFill", "LogoMicrosoft", "LogoMicrosoftFill", "LogoSnapchat", "LogoSnapchatDark", "LogoSnapchatFill", "LogoTiktok", "LogoTiktokDark", "LogoTiktokFill", "LogoYoutube", "LogoYoutubeFill"];
-var allNames = ["Alert", "AlertDuotone", "AlertFill", "Archive", "ArchiveArrowUp", "ArchiveArrowUpDuotone", "ArchiveArrowUpFill", "ArchiveDuotone", "ArchiveFill", "ArrowDown", "ArrowDown01", "ArrowDown01Duotone", "ArrowDown01Fill", "ArrowDown10", "ArrowDown10Duotone", "ArrowDown10Fill", "ArrowDownCog", "ArrowDownCogDuotone", "ArrowDownCogFill", "ArrowDownDuotone", "ArrowDownFill", "ArrowDownIG", "ArrowDownIGDuotone", "ArrowDownIGFill", "ArrowDownLeft", "ArrowDownLeftDuotone", "ArrowDownLeftFill", "ArrowDownMapPin", "ArrowDownMapPinDuotone", "ArrowDownMapPinFill", "ArrowDownNarrowWide", "ArrowDownNarrowWideDuotone", "ArrowDownNarrowWideFill", "ArrowDownRight", "ArrowDownRightDuotone", "ArrowDownRightFill", "ArrowDownSC", "ArrowDownSCDuotone", "ArrowDownSCFill", "ArrowDownTT", "ArrowDownTTDuotone", "ArrowDownTTFill", "ArrowDownUp", "ArrowDownUpDuotone", "ArrowDownUpFill", "ArrowDownWideNarrow", "ArrowDownWideNarrowDuotone", "ArrowDownWideNarrowFill", "ArrowDownYT", "ArrowDownYTDuotone", "ArrowDownYTFill", "ArrowLeft", "ArrowLeftDuotone", "ArrowLeftFill", "ArrowRight", "ArrowRightDuotone", "ArrowRightFill", "ArrowRightToLine", "ArrowRightToLineDuotone", "ArrowRightToLineFill", "ArrowUp", "ArrowUpAZ", "ArrowUpAZDuotone", "ArrowUpAZFill", "ArrowUpCog", "ArrowUpCogDuotone", "ArrowUpCogFill", "ArrowUpDuotone", "ArrowUpFill", "ArrowUpIG", "ArrowUpIGDuotone", "ArrowUpIGFill", "ArrowUpLeft", "ArrowUpLeftDuotone", "ArrowUpLeftFill", "ArrowUpMapPin", "ArrowUpMapPinDuotone", "ArrowUpMapPinFill", "ArrowUpNarrowWide", "ArrowUpNarrowWideDuotone", "ArrowUpNarrowWideFill", "ArrowUpRight", "ArrowUpRightDuotone", "ArrowUpRightFill", "ArrowUpSC", "ArrowUpSCDuotone", "ArrowUpSCFill", "ArrowUpTT", "ArrowUpTTDuotone", "ArrowUpTTFill", "ArrowUpWideNarrow", "ArrowUpWideNarrowDuotone", "ArrowUpWideNarrowFill", "ArrowUpYT", "ArrowUpYTDuotone", "ArrowUpYTFill", "ArrowUpZA", "ArrowUpZADuotone", "ArrowUpZAFill", "AtSign", "AtSignDuotone", "AtSignFill", "Ban", "BanDuotone", "BanFill", "Bell", "BellDuotone", "BellFill", "Bold", "BoldDuotone", "BoldFill", "Bookmark", "BookmarkDuotone", "BookmarkFill", "Calendar", "CalendarDuotone", "CalendarFill", "ChartColumnSquare", "ChartColumnSquareDuotone", "ChartColumnSquareFill", "Checkbox", "CheckboxDuotone", "CheckboxFill", "Checkmark", "CheckmarkDuotone", "CheckmarkFill", "ChevronDown", "ChevronDownDuotone", "ChevronDownFill", "ChevronLeft", "ChevronLeftDuotone", "ChevronLeftFill", "ChevronRight", "ChevronRightDuotone", "ChevronRightFill", "ChevronUp", "ChevronUpDown", "ChevronUpDownDuotone", "ChevronUpDownFill", "ChevronUpDuotone", "ChevronUpFill", "Circle", "CircleAlert", "CircleAlertDuotone", "CircleAlertFill", "CircleCheckbox", "CircleCheckboxDuotone", "CircleCheckboxFill", "CircleDashed", "CircleDashedDuotone", "CircleDashedFill", "CircleDollarSign", "CircleDollarSignDuotone", "CircleDollarSignFill", "CircleDuotone", "CircleFill", "CircleOverlap", "CircleOverlapDuotone", "CircleOverlapFill", "CirclePlus", "CirclePlusDuotone", "CirclePlusFill", "CircleQuestionMark", "CircleQuestionMarkDuotone", "CircleQuestionMarkFill", "CircleX", "CircleXDuotone", "CircleXFill", "ClipboardList", "ClipboardListDuotone", "ClipboardListFill", "Clock", "ClockArrowDown", "ClockArrowDownDuotone", "ClockArrowDownFill", "ClockArrowUp", "ClockArrowUpDuotone", "ClockArrowUpFill", "ClockDuotone", "ClockFill", "Cog", "CogDuotone", "CogFill", "Columns3", "Columns3Duotone", "Columns3Fill", "Command", "CommandDuotone", "CommandFill", "ContentHeart", "ContentHeartDuotone", "ContentHeartFill", "ContentPlus", "ContentPlusDuotone", "ContentPlusFill", "ContentUser", "ContentUserDuotone", "ContentUserFill", "Copy", "CopyDuotone", "CopyFill", "Download", "DownloadDuotone", "DownloadFill", "Eclipse", "EclipseDuotone", "EclipseFill", "Ellipsis", "EllipsisDuotone", "EllipsisFill", "EllipsisVertical", "EllipsisVerticalDuotone", "EllipsisVerticalFill", "ExternalLink", "ExternalLinkDuotone", "ExternalLinkFill", "Eye", "EyeDuotone", "EyeFill", "EyeOff", "EyeOffDuotone", "EyeOffFill", "File", "FileArrowDown", "FileArrowDownDuotone", "FileArrowDownFill", "FileArrowLeft", "FileArrowLeftDuotone", "FileArrowLeftFill", "FileArrowLeftRight", "FileArrowLeftRightDuotone", "FileArrowLeftRightFill", "FileArrowRight", "FileArrowRightDuotone", "FileArrowRightFill", "FileArrowUp", "FileArrowUpDuotone", "FileArrowUpFill", "FileChartColumn", "FileChartColumnDuotone", "FileChartColumnFill", "FileCheck", "FileCheckDuotone", "FileCheckFill", "FileCog", "FileCogDuotone", "FileCogFill", "FileDuotone", "FileFill", "FileImage", "FileImageDuotone", "FileImageFill", "FilePlus", "FilePlusDuotone", "FilePlusFill", "FileUser", "FileUserDuotone", "FileUserFill", "FileX", "FileXDuotone", "FileXFill", "Flame", "FlameDuotone", "FlameFill", "Frown", "FrownDuotone", "FrownFill", "Fullscreen", "FullscreenDuotone", "FullscreenFill", "Globe", "GlobeDuotone", "GlobeFill", "Grid1x2", "Grid1x2Duotone", "Grid1x2Fill", "Grid2x2", "Grid2x2Duotone", "Grid2x2Fill", "Grip", "GripDuotone", "GripFill", "GripHorizontal", "GripHorizontalDuotone", "GripHorizontalFill", "GripVertical", "GripVerticalDuotone", "GripVerticalFill", "Heart", "HeartDuotone", "HeartFill", "History", "HistoryDuotone", "HistoryFill", "Hotspot", "HotspotDuotone", "HotspotFill", "House", "HouseDuotone", "HouseFill", "Image", "ImageDuotone", "ImageFill", "Images", "ImagesDuotone", "ImagesFill", "Inbox", "InboxDuotone", "InboxFill", "Info", "InfoDuotone", "InfoFill", "Italic", "ItalicDuotone", "ItalicFill", "Link", "LinkDuotone", "LinkFill", "List", "ListDuotone", "ListFill", "ListFilter", "ListFilterDuotone", "ListFilterFill", "ListIndentDecrease", "ListIndentDecreaseDuotone", "ListIndentDecreaseFill", "ListIndentIncrease", "ListIndentIncreaseDuotone", "ListIndentIncreaseFill", "ListOrdered", "ListOrderedDuotone", "ListOrderedFill", "LoaderCircle", "LoaderCircleDuotone", "LoaderCircleFill", "Lock", "LockDuotone", "LockFill", "LogOut", "LogOutDuotone", "LogOutFill", "LogoFacebook", "LogoFacebookFill", "LogoFile", "LogoFileDark", "LogoFilePdf", "LogoFilePdfDark", "LogoFileSheet", "LogoFileSheetDark", "LogoFoam", "LogoFoamDark", "LogoFoamFill", "LogoFoamSymbol", "LogoFoamSymbolDark", "LogoGmail", "LogoGmailFill", "LogoGoogle", "LogoGoogleFill", "LogoInstagram", "LogoInstagramDark", "LogoInstagramFill", "LogoLinkedin", "LogoLinkedinDark", "LogoLinkedinFill", "LogoMicrosoft", "LogoMicrosoftFill", "LogoSnapchat", "LogoSnapchatDark", "LogoSnapchatFill", "LogoTiktok", "LogoTiktokDark", "LogoTiktokFill", "LogoYoutube", "LogoYoutubeFill", "Mail", "MailDuotone", "MailFill", "MailMove", "MailMoveDuotone", "MailMoveFill", "MailPlus", "MailPlusDuotone", "MailPlusFill", "MapPin", "MapPinDuotone", "MapPinFill", "Maximize", "MaximizeDuotone", "MaximizeFill", "Megaphone", "MegaphoneActive", "MegaphoneActiveDuotone", "MegaphoneActiveFill", "MegaphoneDuotone", "MegaphoneFill", "Menu", "MenuDuotone", "MenuFill", "MessageSquare", "MessageSquareDuotone", "MessageSquareFill", "MessagesSquare", "MessagesSquareDuotone", "MessagesSquareFill", "Minus", "MinusDuotone", "MinusFill", "Moon", "MoonDuotone", "MoonFill", "MousePointerClick", "MousePointerClickDuotone", "MousePointerClickFill", "Move", "MoveDuotone", "MoveFill", "Notebook", "NotebookDuotone", "NotebookFill", "Office", "OfficeDuotone", "OfficeFill", "PanelLeft", "PanelLeftDuotone", "PanelLeftFill", "PanelRight", "PanelRightDuotone", "PanelRightFill", "Pencil", "PencilDuotone", "PencilFill", "Pin", "PinDuotone", "PinFill", "Play", "PlayDuotone", "PlayFill", "Plus", "PlusDuotone", "PlusFill", "Pointer", "PointerDuotone", "PointerFill", "QuotationMarkLeft", "QuotationMarkLeftDuotone", "QuotationMarkLeftFill", "QuotationMarkRight", "QuotationMarkRightDuotone", "QuotationMarkRightFill", "Reach", "ReachDuotone", "ReachFill", "Reel", "ReelDuotone", "ReelFill", "RefreshCw", "RefreshCwDuotone", "RefreshCwFill", "RemoveFormatting", "RemoveFormattingDuotone", "RemoveFormattingFill", "Reply", "ReplyDuotone", "ReplyFill", "Rolodex", "RolodexDuotone", "RolodexFill", "RotateCw", "RotateCwDuotone", "RotateCwFill", "Rows2", "Rows2Duotone", "Rows2Fill", "Save", "SaveDuotone", "SaveFill", "Search", "SearchDuotone", "SearchFill", "SearchUser", "SearchUserDuotone", "SearchUserFill", "Share", "ShareDuotone", "ShareFill", "Slash", "SlashDuotone", "SlashFill", "SlidersHorizontal", "SlidersHorizontalDuotone", "SlidersHorizontalFill", "Smile", "SmileDuotone", "SmileFill", "Sparkles", "SparklesDuotone", "SparklesFill", "Square", "SquareDuotone", "SquareFill", "SquarePen", "SquarePenDuotone", "SquarePenFill", "Star", "StarDuotone", "StarFill", "Sun", "SunDuotone", "SunFill", "TextAlignCenter", "TextAlignCenterDuotone", "TextAlignCenterFill", "TextAlignEnd", "TextAlignEndDuotone", "TextAlignEndFill", "TextAlignJustify", "TextAlignJustifyDuotone", "TextAlignJustifyFill", "TextAlignStart", "TextAlignStartDuotone", "TextAlignStartFill", "ThumbsDown", "ThumbsDownDuotone", "ThumbsDownFill", "ThumbsUp", "ThumbsUpDuotone", "ThumbsUpFill", "Trash", "TrashDuotone", "TrashEmpty", "TrashEmptyDuotone", "TrashEmptyFill", "TrashFill", "TrendingDown", "TrendingDownDuotone", "TrendingDownFill", "TrendingUp", "TrendingUpDuotone", "TrendingUpFill", "TriangleDown", "TriangleDownDuotone", "TriangleDownFill", "TriangleDownUp", "TriangleDownUpDuotone", "TriangleDownUpFill", "TriangleUp", "TriangleUpDuotone", "TriangleUpFill", "Unlink", "UnlinkDuotone", "UnlinkFill", "Unlock", "UnlockDuotone", "UnlockFill", "Upload", "UploadDuotone", "UploadFill", "User", "UserArrowLeft", "UserArrowLeftDuotone", "UserArrowLeftFill", "UserArrowLeftRight", "UserArrowLeftRightDuotone", "UserArrowLeftRightFill", "UserArrowOutUpRight", "UserArrowOutUpRightDuotone", "UserArrowOutUpRightFill", "UserArrowRight", "UserArrowRightDuotone", "UserArrowRightFill", "UserCog", "UserCogDuotone", "UserCogFill", "UserDuotone", "UserFill", "UserPlus", "UserPlusDuotone", "UserPlusFill", "Users", "UsersDuotone", "UsersFill", "Volume2", "Volume2Duotone", "Volume2Fill", "VolumeOff", "VolumeOffDuotone", "VolumeOffFill"];
+var allNames = ["Alert", "AlertDuotone", "AlertFill", "Archive", "ArchiveArrowUp", "ArchiveArrowUpDuotone", "ArchiveArrowUpFill", "ArchiveDuotone", "ArchiveFill", "ArrowDown", "ArrowDown01", "ArrowDown01Duotone", "ArrowDown01Fill", "ArrowDown10", "ArrowDown10Duotone", "ArrowDown10Fill", "ArrowDownCog", "ArrowDownCogDuotone", "ArrowDownCogFill", "ArrowDownDuotone", "ArrowDownFill", "ArrowDownIG", "ArrowDownIGDuotone", "ArrowDownIGFill", "ArrowDownLeft", "ArrowDownLeftDuotone", "ArrowDownLeftFill", "ArrowDownMapPin", "ArrowDownMapPinDuotone", "ArrowDownMapPinFill", "ArrowDownNarrowWide", "ArrowDownNarrowWideDuotone", "ArrowDownNarrowWideFill", "ArrowDownRight", "ArrowDownRightDuotone", "ArrowDownRightFill", "ArrowDownSC", "ArrowDownSCDuotone", "ArrowDownSCFill", "ArrowDownTT", "ArrowDownTTDuotone", "ArrowDownTTFill", "ArrowDownUp", "ArrowDownUpDuotone", "ArrowDownUpFill", "ArrowDownWideNarrow", "ArrowDownWideNarrowDuotone", "ArrowDownWideNarrowFill", "ArrowDownYT", "ArrowDownYTDuotone", "ArrowDownYTFill", "ArrowLeft", "ArrowLeftDuotone", "ArrowLeftFill", "ArrowRight", "ArrowRightDuotone", "ArrowRightFill", "ArrowRightToLine", "ArrowRightToLineDuotone", "ArrowRightToLineFill", "ArrowUp", "ArrowUpAZ", "ArrowUpAZDuotone", "ArrowUpAZFill", "ArrowUpCog", "ArrowUpCogDuotone", "ArrowUpCogFill", "ArrowUpDuotone", "ArrowUpFill", "ArrowUpIG", "ArrowUpIGDuotone", "ArrowUpIGFill", "ArrowUpLeft", "ArrowUpLeftDuotone", "ArrowUpLeftFill", "ArrowUpMapPin", "ArrowUpMapPinDuotone", "ArrowUpMapPinFill", "ArrowUpNarrowWide", "ArrowUpNarrowWideDuotone", "ArrowUpNarrowWideFill", "ArrowUpRight", "ArrowUpRightDuotone", "ArrowUpRightFill", "ArrowUpSC", "ArrowUpSCDuotone", "ArrowUpSCFill", "ArrowUpTT", "ArrowUpTTDuotone", "ArrowUpTTFill", "ArrowUpWideNarrow", "ArrowUpWideNarrowDuotone", "ArrowUpWideNarrowFill", "ArrowUpYT", "ArrowUpYTDuotone", "ArrowUpYTFill", "ArrowUpZA", "ArrowUpZADuotone", "ArrowUpZAFill", "AtSign", "AtSignDuotone", "AtSignFill", "BadgeCheckbox", "BadgeCheckboxDuotone", "BadgeCheckboxFill", "Ban", "BanDuotone", "BanFill", "Bell", "BellDuotone", "BellFill", "Bold", "BoldDuotone", "BoldFill", "Bookmark", "BookmarkDuotone", "BookmarkFill", "Brain", "BrainDuotone", "BrainFill", "Calendar", "CalendarDuotone", "CalendarFill", "ChartArea", "ChartAreaDuotone", "ChartAreaFill", "ChartBarStacked", "ChartBarStackedDuotone", "ChartBarStackedFill", "ChartColumn", "ChartColumnDuotone", "ChartColumnFill", "ChartColumnSquare", "ChartColumnSquareDuotone", "ChartColumnSquareFill", "ChartNetwork", "ChartNetworkDuotone", "ChartNetworkFill", "ChartNoAxesCombined", "ChartNoAxesCombinedDuotone", "ChartNoAxesCombinedFill", "ChartPie", "ChartPieDuotone", "ChartPieFill", "Checkbox", "CheckboxDuotone", "CheckboxFill", "Checkmark", "CheckmarkDuotone", "CheckmarkFill", "ChevronDown", "ChevronDownDuotone", "ChevronDownFill", "ChevronLeft", "ChevronLeftDuotone", "ChevronLeftFill", "ChevronRight", "ChevronRightDuotone", "ChevronRightFill", "ChevronUp", "ChevronUpDown", "ChevronUpDownDuotone", "ChevronUpDownFill", "ChevronUpDuotone", "ChevronUpFill", "Circle", "CircleAlert", "CircleAlertDuotone", "CircleAlertFill", "CircleCheckbox", "CircleCheckboxDuotone", "CircleCheckboxFill", "CircleDashed", "CircleDashedDuotone", "CircleDashedFill", "CircleDollarSign", "CircleDollarSignDuotone", "CircleDollarSignFill", "CircleDuotone", "CircleFill", "CircleOverlap", "CircleOverlapDuotone", "CircleOverlapFill", "CirclePlus", "CirclePlusDuotone", "CirclePlusFill", "CircleQuestionMark", "CircleQuestionMarkDuotone", "CircleQuestionMarkFill", "CircleX", "CircleXDuotone", "CircleXFill", "ClipboardList", "ClipboardListDuotone", "ClipboardListFill", "Clock", "ClockArrowDown", "ClockArrowDownDuotone", "ClockArrowDownFill", "ClockArrowUp", "ClockArrowUpDuotone", "ClockArrowUpFill", "ClockDuotone", "ClockFill", "Cog", "CogDuotone", "CogFill", "Columns3", "Columns3Duotone", "Columns3Fill", "Command", "CommandDuotone", "CommandFill", "ContentHeart", "ContentHeartDuotone", "ContentHeartFill", "ContentPlus", "ContentPlusDuotone", "ContentPlusFill", "ContentUser", "ContentUserDuotone", "ContentUserFill", "Copy", "CopyDuotone", "CopyFill", "Download", "DownloadDuotone", "DownloadFill", "Eclipse", "EclipseDuotone", "EclipseFill", "Ellipsis", "EllipsisDuotone", "EllipsisFill", "EllipsisVertical", "EllipsisVerticalDuotone", "EllipsisVerticalFill", "ExternalLink", "ExternalLinkDuotone", "ExternalLinkFill", "Eye", "EyeDuotone", "EyeFill", "EyeOff", "EyeOffDuotone", "EyeOffFill", "File", "FileArrowDown", "FileArrowDownDuotone", "FileArrowDownFill", "FileArrowLeft", "FileArrowLeftDuotone", "FileArrowLeftFill", "FileArrowLeftRight", "FileArrowLeftRightDuotone", "FileArrowLeftRightFill", "FileArrowRight", "FileArrowRightDuotone", "FileArrowRightFill", "FileArrowUp", "FileArrowUpDuotone", "FileArrowUpFill", "FileChartColumn", "FileChartColumnDuotone", "FileChartColumnFill", "FileCheck", "FileCheckDuotone", "FileCheckFill", "FileCog", "FileCogDuotone", "FileCogFill", "FileDuotone", "FileFill", "FileImage", "FileImageDuotone", "FileImageFill", "FilePlus", "FilePlusDuotone", "FilePlusFill", "FileUser", "FileUserDuotone", "FileUserFill", "FileX", "FileXDuotone", "FileXFill", "Flame", "FlameDuotone", "FlameFill", "Frown", "FrownDuotone", "FrownFill", "Fullscreen", "FullscreenDuotone", "FullscreenFill", "Globe", "GlobeDuotone", "GlobeFill", "Grid1x2", "Grid1x2Duotone", "Grid1x2Fill", "Grid2x2", "Grid2x2Duotone", "Grid2x2Fill", "Grip", "GripDuotone", "GripFill", "GripHorizontal", "GripHorizontalDuotone", "GripHorizontalFill", "GripVertical", "GripVerticalDuotone", "GripVerticalFill", "Heart", "HeartDuotone", "HeartFill", "History", "HistoryDuotone", "HistoryFill", "Hotspot", "HotspotDuotone", "HotspotFill", "House", "HouseDuotone", "HouseFill", "Image", "ImageDuotone", "ImageFill", "Images", "ImagesDuotone", "ImagesFill", "Inbox", "InboxDuotone", "InboxFill", "Info", "InfoDuotone", "InfoFill", "Italic", "ItalicDuotone", "ItalicFill", "Link", "LinkDuotone", "LinkFill", "List", "ListDuotone", "ListFill", "ListFilter", "ListFilterDuotone", "ListFilterFill", "ListIndentDecrease", "ListIndentDecreaseDuotone", "ListIndentDecreaseFill", "ListIndentIncrease", "ListIndentIncreaseDuotone", "ListIndentIncreaseFill", "ListOrdered", "ListOrderedDuotone", "ListOrderedFill", "LoaderCircle", "LoaderCircleDuotone", "LoaderCircleFill", "Lock", "LockDuotone", "LockFill", "LogOut", "LogOutDuotone", "LogOutFill", "LogoFacebook", "LogoFacebookFill", "LogoFile", "LogoFileDark", "LogoFilePdf", "LogoFilePdfDark", "LogoFileSheet", "LogoFileSheetDark", "LogoFoam", "LogoFoamDark", "LogoFoamFill", "LogoFoamSymbol", "LogoFoamSymbolDark", "LogoGmail", "LogoGmailFill", "LogoGoogle", "LogoGoogleFill", "LogoInstagram", "LogoInstagramDark", "LogoInstagramFill", "LogoLinkedin", "LogoLinkedinDark", "LogoLinkedinFill", "LogoMicrosoft", "LogoMicrosoftFill", "LogoSnapchat", "LogoSnapchatDark", "LogoSnapchatFill", "LogoTiktok", "LogoTiktokDark", "LogoTiktokFill", "LogoYoutube", "LogoYoutubeFill", "Mail", "MailDuotone", "MailFill", "MailMove", "MailMoveDuotone", "MailMoveFill", "MailPlus", "MailPlusDuotone", "MailPlusFill", "MapPin", "MapPinDuotone", "MapPinFill", "Maximize", "MaximizeDuotone", "MaximizeFill", "Megaphone", "MegaphoneActive", "MegaphoneActiveDuotone", "MegaphoneActiveFill", "MegaphoneDuotone", "MegaphoneFill", "Menu", "MenuDuotone", "MenuFill", "MessageSquare", "MessageSquareDuotone", "MessageSquareFill", "MessagesSquare", "MessagesSquareDuotone", "MessagesSquareFill", "Minus", "MinusDuotone", "MinusFill", "Moon", "MoonDuotone", "MoonFill", "MousePointerClick", "MousePointerClickDuotone", "MousePointerClickFill", "Move", "MoveDuotone", "MoveFill", "Notebook", "NotebookDuotone", "NotebookFill", "Office", "OfficeDuotone", "OfficeFill", "PanelLeft", "PanelLeftDuotone", "PanelLeftFill", "PanelRight", "PanelRightDuotone", "PanelRightFill", "Pencil", "PencilDuotone", "PencilFill", "Pin", "PinDuotone", "PinFill", "Play", "PlayDuotone", "PlayFill", "Plus", "PlusDuotone", "PlusFill", "Pointer", "PointerDuotone", "PointerFill", "QuotationMarkLeft", "QuotationMarkLeftDuotone", "QuotationMarkLeftFill", "QuotationMarkRight", "QuotationMarkRightDuotone", "QuotationMarkRightFill", "Reach", "ReachDuotone", "ReachFill", "Reel", "ReelDuotone", "ReelFill", "RefreshCw", "RefreshCwDuotone", "RefreshCwFill", "RemoveFormatting", "RemoveFormattingDuotone", "RemoveFormattingFill", "Reply", "ReplyDuotone", "ReplyFill", "Rolodex", "RolodexDuotone", "RolodexFill", "RotateCcw", "RotateCcwDuotone", "RotateCcwFill", "RotateCw", "RotateCwDuotone", "RotateCwFill", "Rows2", "Rows2Duotone", "Rows2Fill", "Save", "SaveDuotone", "SaveFill", "Search", "SearchDuotone", "SearchFill", "SearchUser", "SearchUserDuotone", "SearchUserFill", "Share", "ShareDuotone", "ShareFill", "Shield", "ShieldCheck", "ShieldCheckDuotone", "ShieldCheckFill", "ShieldDuotone", "ShieldFill", "ShieldOff", "ShieldOffDuotone", "ShieldOffFill", "ShieldPlus", "ShieldPlusDuotone", "ShieldPlusFill", "ShieldUser", "ShieldUserDuotone", "ShieldUserFill", "ShieldX", "ShieldXDuotone", "ShieldXFill", "Slash", "SlashDuotone", "SlashFill", "SlidersHorizontal", "SlidersHorizontalDuotone", "SlidersHorizontalFill", "Smile", "SmileDuotone", "SmileFill", "Sparkles", "SparklesDuotone", "SparklesFill", "Square", "SquareDuotone", "SquareFill", "SquarePen", "SquarePenDuotone", "SquarePenFill", "Star", "StarDuotone", "StarFill", "Sun", "SunDuotone", "SunFill", "TextAlignCenter", "TextAlignCenterDuotone", "TextAlignCenterFill", "TextAlignEnd", "TextAlignEndDuotone", "TextAlignEndFill", "TextAlignJustify", "TextAlignJustifyDuotone", "TextAlignJustifyFill", "TextAlignStart", "TextAlignStartDuotone", "TextAlignStartFill", "ThumbsDown", "ThumbsDownDuotone", "ThumbsDownFill", "ThumbsUp", "ThumbsUpDuotone", "ThumbsUpFill", "Trash", "TrashDuotone", "TrashEmpty", "TrashEmptyDuotone", "TrashEmptyFill", "TrashFill", "TrendingDown", "TrendingDownDuotone", "TrendingDownFill", "TrendingUp", "TrendingUpDuotone", "TrendingUpFill", "TriangleDown", "TriangleDownDuotone", "TriangleDownFill", "TriangleDownUp", "TriangleDownUpDuotone", "TriangleDownUpFill", "TriangleUp", "TriangleUpDuotone", "TriangleUpFill", "Unlink", "UnlinkDuotone", "UnlinkFill", "Unlock", "UnlockDuotone", "UnlockFill", "Upload", "UploadDuotone", "UploadFill", "User", "UserArrowLeft", "UserArrowLeftDuotone", "UserArrowLeftFill", "UserArrowLeftRight", "UserArrowLeftRightDuotone", "UserArrowLeftRightFill", "UserArrowOutUpRight", "UserArrowOutUpRightDuotone", "UserArrowOutUpRightFill", "UserArrowRight", "UserArrowRightDuotone", "UserArrowRightFill", "UserCog", "UserCogDuotone", "UserCogFill", "UserDuotone", "UserFill", "UserPlus", "UserPlusDuotone", "UserPlusFill", "Users", "UsersDuotone", "UsersFill", "Video", "VideoDuotone", "VideoFill", "Volume2", "Volume2Duotone", "Volume2Fill", "VolumeOff", "VolumeOffDuotone", "VolumeOffFill", "Zap", "ZapDuotone", "ZapFill", "ZapOff", "ZapOffDuotone", "ZapOffFill"];
 var iconAliases = {
   "Alert": [
     "Warning",
@@ -23999,7 +26215,6 @@ var iconAliases = {
   ],
   "Play": [
     "Start",
-    "Video",
     "PlayButton"
   ],
   "Plus": [
@@ -24190,6 +26405,88 @@ var iconAliases = {
     "Silent",
     "NoSound",
     "SpeakerOff"
+  ],
+  "BadgeCheckbox": [
+    "Verified",
+    "Certified",
+    "Approved"
+  ],
+  "Brain": [
+    "Mind",
+    "Intelligence",
+    "Thinking"
+  ],
+  "ChartArea": [
+    "AreaChart",
+    "GraphArea"
+  ],
+  "ChartBarStacked": [
+    "StackedBar",
+    "BarChartStacked"
+  ],
+  "ChartColumn": [
+    "ColumnChart",
+    "VerticalBarChart"
+  ],
+  "ChartNetwork": [
+    "NetworkGraph",
+    "NodeGraph",
+    "Connections"
+  ],
+  "ChartNoAxesCombined": [
+    "MixedChart",
+    "ComboChart"
+  ],
+  "ChartPie": [
+    "PieChart",
+    "DonutChart"
+  ],
+  "RotateCcw": [
+    "RotateLeft",
+    "CounterClockwise"
+  ],
+  "Shield": [
+    "Security",
+    "Protect",
+    "Defense"
+  ],
+  "ShieldCheck": [
+    "ShieldVerified",
+    "ShieldSecure"
+  ],
+  "ShieldOff": [
+    "Unprotected",
+    "Insecure",
+    "Vulnerable"
+  ],
+  "ShieldPlus": [
+    "AddSecurity",
+    "NewShield"
+  ],
+  "ShieldUser": [
+    "UserSecurity",
+    "Privacy"
+  ],
+  "ShieldX": [
+    "ShieldRemove",
+    "ShieldCancel",
+    "Unshielded"
+  ],
+  "Video": [
+    "Camera",
+    "Record",
+    "VideoCamera"
+  ],
+  "Zap": [
+    "Lightning",
+    "Bolt",
+    "Flash",
+    "Power"
+  ],
+  "ZapOff": [
+    "LightningOff",
+    "NoFlash",
+    "PowerOff"
   ]
 };
 var aliasToCanonical = {
@@ -24452,7 +26749,6 @@ var aliasToCanonical = {
   "Tack": "Pin",
   "Stick": "Pin",
   "Start": "Play",
-  "Video": "Play",
   "PlayButton": "Play",
   "Add": "Plus",
   "New": "Plus",
@@ -24564,7 +26860,53 @@ var aliasToCanonical = {
   "Mute": "VolumeOff",
   "Silent": "VolumeOff",
   "NoSound": "VolumeOff",
-  "SpeakerOff": "VolumeOff"
+  "SpeakerOff": "VolumeOff",
+  "Verified": "BadgeCheckbox",
+  "Certified": "BadgeCheckbox",
+  "Approved": "BadgeCheckbox",
+  "Mind": "Brain",
+  "Intelligence": "Brain",
+  "Thinking": "Brain",
+  "AreaChart": "ChartArea",
+  "GraphArea": "ChartArea",
+  "StackedBar": "ChartBarStacked",
+  "BarChartStacked": "ChartBarStacked",
+  "ColumnChart": "ChartColumn",
+  "VerticalBarChart": "ChartColumn",
+  "NetworkGraph": "ChartNetwork",
+  "NodeGraph": "ChartNetwork",
+  "Connections": "ChartNetwork",
+  "MixedChart": "ChartNoAxesCombined",
+  "ComboChart": "ChartNoAxesCombined",
+  "PieChart": "ChartPie",
+  "DonutChart": "ChartPie",
+  "RotateLeft": "RotateCcw",
+  "CounterClockwise": "RotateCcw",
+  "Security": "Shield",
+  "Protect": "Shield",
+  "Defense": "Shield",
+  "ShieldVerified": "ShieldCheck",
+  "ShieldSecure": "ShieldCheck",
+  "Unprotected": "ShieldOff",
+  "Insecure": "ShieldOff",
+  "Vulnerable": "ShieldOff",
+  "AddSecurity": "ShieldPlus",
+  "NewShield": "ShieldPlus",
+  "UserSecurity": "ShieldUser",
+  "Privacy": "ShieldUser",
+  "ShieldRemove": "ShieldX",
+  "ShieldCancel": "ShieldX",
+  "Unshielded": "ShieldX",
+  "Camera": "Video",
+  "Record": "Video",
+  "VideoCamera": "Video",
+  "Lightning": "Zap",
+  "Bolt": "Zap",
+  "Flash": "Zap",
+  "Power": "Zap",
+  "LightningOff": "ZapOff",
+  "NoFlash": "ZapOff",
+  "PowerOff": "ZapOff"
 };
 var iconTags = {
   "Alert": [
@@ -25332,6 +27674,123 @@ var iconTags = {
     "mute",
     "silent",
     "volume-off"
+  ],
+  "BadgeCheckbox": [
+    "badge",
+    "checkbox",
+    "verified",
+    "certified"
+  ],
+  "Brain": [
+    "brain",
+    "mind",
+    "intelligence",
+    "ai",
+    "thinking"
+  ],
+  "ChartArea": [
+    "chart",
+    "area",
+    "graph",
+    "analytics",
+    "data"
+  ],
+  "ChartBarStacked": [
+    "chart",
+    "bar",
+    "stacked",
+    "analytics",
+    "data"
+  ],
+  "ChartColumn": [
+    "chart",
+    "column",
+    "bar",
+    "analytics",
+    "data"
+  ],
+  "ChartNetwork": [
+    "chart",
+    "network",
+    "graph",
+    "nodes",
+    "connections"
+  ],
+  "ChartNoAxesCombined": [
+    "chart",
+    "combined",
+    "analytics",
+    "data",
+    "graph"
+  ],
+  "ChartPie": [
+    "chart",
+    "pie",
+    "analytics",
+    "data",
+    "percentage"
+  ],
+  "RotateCcw": [
+    "rotate",
+    "undo",
+    "counter-clockwise",
+    "turn"
+  ],
+  "Shield": [
+    "shield",
+    "security",
+    "protect",
+    "defense"
+  ],
+  "ShieldCheck": [
+    "shield",
+    "check",
+    "verified",
+    "secure",
+    "protected"
+  ],
+  "ShieldOff": [
+    "shield",
+    "off",
+    "unprotected",
+    "insecure"
+  ],
+  "ShieldPlus": [
+    "shield",
+    "plus",
+    "add",
+    "security"
+  ],
+  "ShieldUser": [
+    "shield",
+    "user",
+    "security",
+    "privacy"
+  ],
+  "ShieldX": [
+    "shield",
+    "remove",
+    "cancel",
+    "insecure"
+  ],
+  "Video": [
+    "video",
+    "camera",
+    "film",
+    "record"
+  ],
+  "Zap": [
+    "zap",
+    "lightning",
+    "bolt",
+    "flash",
+    "energy"
+  ],
+  "ZapOff": [
+    "zap",
+    "off",
+    "lightning",
+    "disabled"
   ]
 };
 var logoAliases = {};
@@ -25340,4 +27799,4 @@ function getCanonicalName(nameOrAlias) {
   return aliasToCanonical[nameOrAlias] || nameOrAlias;
 }
 
-export { Info as About, InfoDuotone as AboutDuotone, InfoDuotone as AboutDuotoneIcon, InfoFill as AboutFill, InfoFill as AboutFillIcon, Info as AboutIcon, ChevronUpDown as Accordion, ChevronUpDownDuotone as AccordionDuotone, ChevronUpDownDuotone as AccordionDuotoneIcon, ChevronUpDownFill as AccordionFill, ChevronUpDownFill as AccordionFillIcon, ChevronUpDown as AccordionIcon, User as Account, UserDuotone as AccountDuotone, UserDuotone as AccountDuotoneIcon, UserFill as AccountFill, UserFill as AccountFillIcon, User as AccountIcon, Plus as Add, ContentPlus as AddContent, ContentPlusDuotone as AddContentDuotone, ContentPlusDuotone as AddContentDuotoneIcon, ContentPlusFill as AddContentFill, ContentPlusFill as AddContentFillIcon, ContentPlus as AddContentIcon, PlusDuotone as AddDuotone, PlusDuotone as AddDuotoneIcon, FilePlus as AddFile, FilePlusDuotone as AddFileDuotone, FilePlusDuotone as AddFileDuotoneIcon, FilePlusFill as AddFileFill, FilePlusFill as AddFileFillIcon, FilePlus as AddFileIcon, PlusFill as AddFill, PlusFill as AddFillIcon, Plus as AddIcon, Rolodex as AddressBook, RolodexDuotone as AddressBookDuotone, RolodexDuotone as AddressBookDuotoneIcon, RolodexFill as AddressBookFill, RolodexFill as AddressBookFillIcon, Rolodex as AddressBookIcon, SlidersHorizontal as Adjust, SlidersHorizontalDuotone as AdjustDuotone, SlidersHorizontalDuotone as AdjustDuotoneIcon, SlidersHorizontalFill as AdjustFill, SlidersHorizontalFill as AdjustFillIcon, SlidersHorizontal as AdjustIcon, Sparkles as Ai, SparklesDuotone as AiDuotone, SparklesDuotone as AiDuotoneIcon, SparklesFill as AiFill, SparklesFill as AiFillIcon, Sparkles as AiIcon, Bell as Alarm, BellDuotone as AlarmDuotone, BellDuotone as AlarmDuotoneIcon, BellFill as AlarmFill, BellFill as AlarmFillIcon, Bell as AlarmIcon, Alert, AlertDuotone, AlertDuotone as AlertDuotoneIcon, AlertFill, AlertFill as AlertFillIcon, Alert as AlertIcon, TextAlignStart as AlignLeft, TextAlignStartDuotone as AlignLeftDuotone, TextAlignStartDuotone as AlignLeftDuotoneIcon, TextAlignStartFill as AlignLeftFill, TextAlignStartFill as AlignLeftFillIcon, TextAlignStart as AlignLeftIcon, TextAlignEnd as AlignRight, TextAlignEndDuotone as AlignRightDuotone, TextAlignEndDuotone as AlignRightDuotoneIcon, TextAlignEndFill as AlignRightFill, TextAlignEndFill as AlignRightFillIcon, TextAlignEnd as AlignRightIcon, Rolodex as Alphabet, RolodexDuotone as AlphabetDuotone, RolodexDuotone as AlphabetDuotoneIcon, RolodexFill as AlphabetFill, RolodexFill as AlphabetFillIcon, Rolodex as AlphabetIcon, ChartColumnSquare as Analytics, ChartColumnSquareDuotone as AnalyticsDuotone, ChartColumnSquareDuotone as AnalyticsDuotoneIcon, ChartColumnSquareFill as AnalyticsFill, ChartColumnSquareFill as AnalyticsFillIcon, ChartColumnSquare as AnalyticsIcon, Megaphone as Announce, MegaphoneDuotone as AnnounceDuotone, MegaphoneDuotone as AnnounceDuotoneIcon, MegaphoneFill as AnnounceFill, MegaphoneFill as AnnounceFillIcon, Megaphone as AnnounceIcon, Reply as Answer, ReplyDuotone as AnswerDuotone, ReplyDuotone as AnswerDuotoneIcon, ReplyFill as AnswerFill, ReplyFill as AnswerFillIcon, Reply as AnswerIcon, ThumbsUp as Approve, ThumbsUpDuotone as ApproveDuotone, ThumbsUpDuotone as ApproveDuotoneIcon, ThumbsUpFill as ApproveFill, ThumbsUpFill as ApproveFillIcon, ThumbsUp as ApproveIcon, Archive, ArchiveArrowUp, ArchiveArrowUpDuotone, ArchiveArrowUpDuotone as ArchiveArrowUpDuotoneIcon, ArchiveArrowUpFill, ArchiveArrowUpFill as ArchiveArrowUpFillIcon, ArchiveArrowUp as ArchiveArrowUpIcon, ArchiveDuotone, ArchiveDuotone as ArchiveDuotoneIcon, ArchiveFill, ArchiveFill as ArchiveFillIcon, Archive as ArchiveIcon, ArrowDown, ArrowDown01, ArrowDown01Duotone, ArrowDown01Duotone as ArrowDown01DuotoneIcon, ArrowDown01Fill, ArrowDown01Fill as ArrowDown01FillIcon, ArrowDown01 as ArrowDown01Icon, ArrowDown10, ArrowDown10Duotone, ArrowDown10Duotone as ArrowDown10DuotoneIcon, ArrowDown10Fill, ArrowDown10Fill as ArrowDown10FillIcon, ArrowDown10 as ArrowDown10Icon, ArrowDownCog, ArrowDownCogDuotone, ArrowDownCogDuotone as ArrowDownCogDuotoneIcon, ArrowDownCogFill, ArrowDownCogFill as ArrowDownCogFillIcon, ArrowDownCog as ArrowDownCogIcon, ArrowDownDuotone, ArrowDownDuotone as ArrowDownDuotoneIcon, ArrowDownFill, ArrowDownFill as ArrowDownFillIcon, ArrowDownIG, ArrowDownIGDuotone, ArrowDownIGDuotone as ArrowDownIGDuotoneIcon, ArrowDownIGFill, ArrowDownIGFill as ArrowDownIGFillIcon, ArrowDownIG as ArrowDownIGIcon, ArrowDown as ArrowDownIcon, ArrowDownLeft, ArrowDownLeftDuotone, ArrowDownLeftDuotone as ArrowDownLeftDuotoneIcon, ArrowDownLeftFill, ArrowDownLeftFill as ArrowDownLeftFillIcon, ArrowDownLeft as ArrowDownLeftIcon, ArrowDownMapPin, ArrowDownMapPinDuotone, ArrowDownMapPinDuotone as ArrowDownMapPinDuotoneIcon, ArrowDownMapPinFill, ArrowDownMapPinFill as ArrowDownMapPinFillIcon, ArrowDownMapPin as ArrowDownMapPinIcon, ArrowDownNarrowWide, ArrowDownNarrowWideDuotone, ArrowDownNarrowWideDuotone as ArrowDownNarrowWideDuotoneIcon, ArrowDownNarrowWideFill, ArrowDownNarrowWideFill as ArrowDownNarrowWideFillIcon, ArrowDownNarrowWide as ArrowDownNarrowWideIcon, ArrowDownRight, ArrowDownRightDuotone, ArrowDownRightDuotone as ArrowDownRightDuotoneIcon, ArrowDownRightFill, ArrowDownRightFill as ArrowDownRightFillIcon, ArrowDownRight as ArrowDownRightIcon, ArrowDownSC, ArrowDownSCDuotone, ArrowDownSCDuotone as ArrowDownSCDuotoneIcon, ArrowDownSCFill, ArrowDownSCFill as ArrowDownSCFillIcon, ArrowDownSC as ArrowDownSCIcon, ArrowDownTT, ArrowDownTTDuotone, ArrowDownTTDuotone as ArrowDownTTDuotoneIcon, ArrowDownTTFill, ArrowDownTTFill as ArrowDownTTFillIcon, ArrowDownTT as ArrowDownTTIcon, ArrowDownUp, ArrowDownUpDuotone, ArrowDownUpDuotone as ArrowDownUpDuotoneIcon, ArrowDownUpFill, ArrowDownUpFill as ArrowDownUpFillIcon, ArrowDownUp as ArrowDownUpIcon, ArrowDownWideNarrow, ArrowDownWideNarrowDuotone, ArrowDownWideNarrowDuotone as ArrowDownWideNarrowDuotoneIcon, ArrowDownWideNarrowFill, ArrowDownWideNarrowFill as ArrowDownWideNarrowFillIcon, ArrowDownWideNarrow as ArrowDownWideNarrowIcon, ArrowDownYT, ArrowDownYTDuotone, ArrowDownYTDuotone as ArrowDownYTDuotoneIcon, ArrowDownYTFill, ArrowDownYTFill as ArrowDownYTFillIcon, ArrowDownYT as ArrowDownYTIcon, ArrowLeft, ArrowLeftDuotone, ArrowLeftDuotone as ArrowLeftDuotoneIcon, ArrowLeftFill, ArrowLeftFill as ArrowLeftFillIcon, ArrowLeft as ArrowLeftIcon, ArrowRight, ArrowRightDuotone, ArrowRightDuotone as ArrowRightDuotoneIcon, ArrowRightFill, ArrowRightFill as ArrowRightFillIcon, ArrowRight as ArrowRightIcon, ArrowRightToLine, ArrowRightToLineDuotone, ArrowRightToLineDuotone as ArrowRightToLineDuotoneIcon, ArrowRightToLineFill, ArrowRightToLineFill as ArrowRightToLineFillIcon, ArrowRightToLine as ArrowRightToLineIcon, ArrowUp, ArrowUpAZ, ArrowUpAZDuotone, ArrowUpAZDuotone as ArrowUpAZDuotoneIcon, ArrowUpAZFill, ArrowUpAZFill as ArrowUpAZFillIcon, ArrowUpAZ as ArrowUpAZIcon, ArrowUpCog, ArrowUpCogDuotone, ArrowUpCogDuotone as ArrowUpCogDuotoneIcon, ArrowUpCogFill, ArrowUpCogFill as ArrowUpCogFillIcon, ArrowUpCog as ArrowUpCogIcon, ArrowUpDuotone, ArrowUpDuotone as ArrowUpDuotoneIcon, ArrowUpFill, ArrowUpFill as ArrowUpFillIcon, ArrowUpIG, ArrowUpIGDuotone, ArrowUpIGDuotone as ArrowUpIGDuotoneIcon, ArrowUpIGFill, ArrowUpIGFill as ArrowUpIGFillIcon, ArrowUpIG as ArrowUpIGIcon, ArrowUp as ArrowUpIcon, ArrowUpLeft, ArrowUpLeftDuotone, ArrowUpLeftDuotone as ArrowUpLeftDuotoneIcon, ArrowUpLeftFill, ArrowUpLeftFill as ArrowUpLeftFillIcon, ArrowUpLeft as ArrowUpLeftIcon, ArrowUpMapPin, ArrowUpMapPinDuotone, ArrowUpMapPinDuotone as ArrowUpMapPinDuotoneIcon, ArrowUpMapPinFill, ArrowUpMapPinFill as ArrowUpMapPinFillIcon, ArrowUpMapPin as ArrowUpMapPinIcon, ArrowUpNarrowWide, ArrowUpNarrowWideDuotone, ArrowUpNarrowWideDuotone as ArrowUpNarrowWideDuotoneIcon, ArrowUpNarrowWideFill, ArrowUpNarrowWideFill as ArrowUpNarrowWideFillIcon, ArrowUpNarrowWide as ArrowUpNarrowWideIcon, ArrowUpRight, ArrowUpRightDuotone, ArrowUpRightDuotone as ArrowUpRightDuotoneIcon, ArrowUpRightFill, ArrowUpRightFill as ArrowUpRightFillIcon, ArrowUpRight as ArrowUpRightIcon, ArrowUpSC, ArrowUpSCDuotone, ArrowUpSCDuotone as ArrowUpSCDuotoneIcon, ArrowUpSCFill, ArrowUpSCFill as ArrowUpSCFillIcon, ArrowUpSC as ArrowUpSCIcon, ArrowUpTT, ArrowUpTTDuotone, ArrowUpTTDuotone as ArrowUpTTDuotoneIcon, ArrowUpTTFill, ArrowUpTTFill as ArrowUpTTFillIcon, ArrowUpTT as ArrowUpTTIcon, ArrowUpWideNarrow, ArrowUpWideNarrowDuotone, ArrowUpWideNarrowDuotone as ArrowUpWideNarrowDuotoneIcon, ArrowUpWideNarrowFill, ArrowUpWideNarrowFill as ArrowUpWideNarrowFillIcon, ArrowUpWideNarrow as ArrowUpWideNarrowIcon, ArrowUpYT, ArrowUpYTDuotone, ArrowUpYTDuotone as ArrowUpYTDuotoneIcon, ArrowUpYTFill, ArrowUpYTFill as ArrowUpYTFillIcon, ArrowUpYT as ArrowUpYTIcon, ArrowUpZA, ArrowUpZADuotone, ArrowUpZADuotone as ArrowUpZADuotoneIcon, ArrowUpZAFill, ArrowUpZAFill as ArrowUpZAFillIcon, ArrowUpZA as ArrowUpZAIcon, ArchiveArrowUp as Ascending, ArchiveArrowUpDuotone as AscendingDuotone, ArchiveArrowUpDuotone as AscendingDuotoneIcon, ArchiveArrowUpFill as AscendingFill, ArchiveArrowUpFill as AscendingFillIcon, ArchiveArrowUp as AscendingIcon, AtSign, AtSignDuotone, AtSignDuotone as AtSignDuotoneIcon, AtSignFill, AtSignFill as AtSignFillIcon, AtSign as AtSignIcon, Alert as Attention, CircleAlert as AttentionCircle, CircleAlertDuotone as AttentionCircleDuotone, CircleAlertDuotone as AttentionCircleDuotoneIcon, CircleAlertFill as AttentionCircleFill, CircleAlertFill as AttentionCircleFillIcon, CircleAlert as AttentionCircleIcon, AlertDuotone as AttentionDuotone, AlertDuotone as AttentionDuotoneIcon, AlertFill as AttentionFill, AlertFill as AttentionFillIcon, Alert as AttentionIcon, Reach as Audience, ReachDuotone as AudienceDuotone, ReachDuotone as AudienceDuotoneIcon, ReachFill as AudienceFill, ReachFill as AudienceFillIcon, Reach as AudienceIcon, Volume2 as Audio, Volume2Duotone as AudioDuotone, Volume2Duotone as AudioDuotoneIcon, Volume2Fill as AudioFill, Volume2Fill as AudioFillIcon, Volume2 as AudioIcon, ArrowLeft as Back, ArrowLeftDuotone as BackDuotone, ArrowLeftDuotone as BackDuotoneIcon, ArrowLeftFill as BackFill, ArrowLeftFill as BackFillIcon, ArrowLeft as BackIcon, Ban, BanDuotone, BanDuotone as BanDuotoneIcon, BanFill, BanFill as BanFillIcon, Ban as BanIcon, ChartColumnSquare as BarChart, ChartColumnSquareDuotone as BarChartDuotone, ChartColumnSquareDuotone as BarChartDuotoneIcon, ChartColumnSquareFill as BarChartFill, ChartColumnSquareFill as BarChartFillIcon, ChartColumnSquare as BarChartIcon, Menu as Bars, MenuDuotone as BarsDuotone, MenuDuotone as BarsDuotoneIcon, MenuFill as BarsFill, MenuFill as BarsFillIcon, Menu as BarsIcon, Bell, BellDuotone, BellDuotone as BellDuotoneIcon, BellFill, BellFill as BellFillIcon, Bell as BellIcon, Trash as Bin, TrashDuotone as BinDuotone, TrashDuotone as BinDuotoneIcon, TrashFill as BinFill, TrashFill as BinFillIcon, Trash as BinIcon, Ban as Block, BanDuotone as BlockDuotone, BanDuotone as BlockDuotoneIcon, BanFill as BlockFill, BanFill as BlockFillIcon, Ban as BlockIcon, QuotationMarkRight as BlockquoteEnd, QuotationMarkRightDuotone as BlockquoteEndDuotone, QuotationMarkRightDuotone as BlockquoteEndDuotoneIcon, QuotationMarkRightFill as BlockquoteEndFill, QuotationMarkRightFill as BlockquoteEndFillIcon, QuotationMarkRight as BlockquoteEndIcon, QuotationMarkLeft as BlockquoteStart, QuotationMarkLeftDuotone as BlockquoteStartDuotone, QuotationMarkLeftDuotone as BlockquoteStartDuotoneIcon, QuotationMarkLeftFill as BlockquoteStartFill, QuotationMarkLeftFill as BlockquoteStartFillIcon, QuotationMarkLeft as BlockquoteStartIcon, Bold, BoldDuotone, BoldDuotone as BoldDuotoneIcon, BoldFill, BoldFill as BoldFillIcon, Bold as BoldIcon, Bookmark, BookmarkDuotone, BookmarkDuotone as BookmarkDuotoneIcon, BookmarkFill, BookmarkFill as BookmarkFillIcon, Bookmark as BookmarkIcon, Archive as Box, ArchiveDuotone as BoxDuotone, ArchiveDuotone as BoxDuotoneIcon, ArchiveFill as BoxFill, ArchiveFill as BoxFillIcon, Archive as BoxIcon, ContentUser as BrandAssets, ContentUserDuotone as BrandAssetsDuotone, ContentUserDuotone as BrandAssetsDuotoneIcon, ContentUserFill as BrandAssetsFill, ContentUserFill as BrandAssetsFillIcon, ContentUser as BrandAssetsIcon, Unlink as Break, UnlinkDuotone as BreakDuotone, UnlinkDuotone as BreakDuotoneIcon, UnlinkFill as BreakFill, UnlinkFill as BreakFillIcon, Unlink as BreakIcon, Sun as Bright, SunDuotone as BrightDuotone, SunDuotone as BrightDuotoneIcon, SunFill as BrightFill, SunFill as BrightFillIcon, Sun as BrightIcon, Megaphone as Broadcast, MegaphoneDuotone as BroadcastDuotone, MegaphoneDuotone as BroadcastDuotoneIcon, MegaphoneFill as BroadcastFill, MegaphoneFill as BroadcastFillIcon, Megaphone as BroadcastIcon, List as Bullets, ListDuotone as BulletsDuotone, ListDuotone as BulletsDuotoneIcon, ListFill as BulletsFill, ListFill as BulletsFillIcon, List as BulletsIcon, Calendar, CalendarDuotone, CalendarDuotone as CalendarDuotoneIcon, CalendarFill, CalendarFill as CalendarFillIcon, Calendar as CalendarIcon, CircleX as Cancel, CircleXDuotone as CancelDuotone, CircleXDuotone as CancelDuotoneIcon, CircleXFill as CancelFill, CircleXFill as CancelFillIcon, CircleX as CancelIcon, Rolodex as CardIndex, RolodexDuotone as CardIndexDuotone, RolodexDuotone as CardIndexDuotoneIcon, RolodexFill as CardIndexFill, RolodexFill as CardIndexFillIcon, Rolodex as CardIndexIcon, Grid1x2 as Cards, Grid1x2Duotone as CardsDuotone, Grid1x2Duotone as CardsDuotoneIcon, Grid1x2Fill as CardsFill, Grid1x2Fill as CardsFillIcon, Grid1x2 as CardsIcon, ChevronDown as CaretDown, ChevronDownDuotone as CaretDownDuotone, ChevronDownDuotone as CaretDownDuotoneIcon, ChevronDownFill as CaretDownFill, ChevronDownFill as CaretDownFillIcon, ChevronDown as CaretDownIcon, ChevronLeft as CaretLeft, ChevronLeftDuotone as CaretLeftDuotone, ChevronLeftDuotone as CaretLeftDuotoneIcon, ChevronLeftFill as CaretLeftFill, ChevronLeftFill as CaretLeftFillIcon, ChevronLeft as CaretLeftIcon, ChevronRight as CaretRight, ChevronRightDuotone as CaretRightDuotone, ChevronRightDuotone as CaretRightDuotoneIcon, ChevronRightFill as CaretRightFill, ChevronRightFill as CaretRightFillIcon, ChevronRight as CaretRightIcon, ChevronUp as CaretUp, ChevronUpDuotone as CaretUpDuotone, ChevronUpDuotone as CaretUpDuotoneIcon, ChevronUpFill as CaretUpFill, ChevronUpFill as CaretUpFillIcon, ChevronUp as CaretUpIcon, Alert as Caution, CircleAlert as CautionCircle, CircleAlertDuotone as CautionCircleDuotone, CircleAlertDuotone as CautionCircleDuotoneIcon, CircleAlertFill as CautionCircleFill, CircleAlertFill as CautionCircleFillIcon, CircleAlert as CautionCircleIcon, AlertDuotone as CautionDuotone, AlertDuotone as CautionDuotoneIcon, AlertFill as CautionFill, AlertFill as CautionFillIcon, Alert as CautionIcon, TextAlignCenter as Center, TextAlignCenterDuotone as CenterDuotone, TextAlignCenterDuotone as CenterDuotoneIcon, TextAlignCenterFill as CenterFill, TextAlignCenterFill as CenterFillIcon, TextAlignCenter as CenterIcon, Link as Chain, LinkDuotone as ChainDuotone, LinkDuotone as ChainDuotoneIcon, LinkFill as ChainFill, LinkFill as ChainFillIcon, Link as ChainIcon, ChartColumnSquare, ChartColumnSquareDuotone, ChartColumnSquareDuotone as ChartColumnSquareDuotoneIcon, ChartColumnSquareFill, ChartColumnSquareFill as ChartColumnSquareFillIcon, ChartColumnSquare as ChartColumnSquareIcon, MessagesSquare as Chat, MessagesSquareDuotone as ChatDuotone, MessagesSquareDuotone as ChatDuotoneIcon, MessagesSquareFill as ChatFill, MessagesSquareFill as ChatFillIcon, MessagesSquare as ChatIcon, MessageSquare as ChatSingle, MessageSquareDuotone as ChatSingleDuotone, MessageSquareDuotone as ChatSingleDuotoneIcon, MessageSquareFill as ChatSingleFill, MessageSquareFill as ChatSingleFillIcon, MessageSquare as ChatSingleIcon, MessagesSquare as Chats, MessagesSquareDuotone as ChatsDuotone, MessagesSquareDuotone as ChatsDuotoneIcon, MessagesSquareFill as ChatsFill, MessagesSquareFill as ChatsFillIcon, MessagesSquare as ChatsIcon, Checkmark as Check, CheckmarkDuotone as CheckDuotone, CheckmarkDuotone as CheckDuotoneIcon, CheckmarkFill as CheckFill, CheckmarkFill as CheckFillIcon, Checkmark as CheckIcon, Checkbox as CheckSquare, CheckboxDuotone as CheckSquareDuotone, CheckboxDuotone as CheckSquareDuotoneIcon, CheckboxFill as CheckSquareFill, CheckboxFill as CheckSquareFillIcon, Checkbox as CheckSquareIcon, Checkbox, CheckboxDuotone, CheckboxDuotone as CheckboxDuotoneIcon, CheckboxFill, CheckboxFill as CheckboxFillIcon, Checkbox as CheckboxIcon, ClipboardList as Checklist, ClipboardListDuotone as ChecklistDuotone, ClipboardListDuotone as ChecklistDuotoneIcon, ClipboardListFill as ChecklistFill, ClipboardListFill as ChecklistFillIcon, ClipboardList as ChecklistIcon, Checkmark, CheckmarkDuotone, CheckmarkDuotone as CheckmarkDuotoneIcon, CheckmarkFill, CheckmarkFill as CheckmarkFillIcon, Checkmark as CheckmarkIcon, ChevronDown, ChevronDownDuotone, ChevronDownDuotone as ChevronDownDuotoneIcon, ChevronDownFill, ChevronDownFill as ChevronDownFillIcon, ChevronDown as ChevronDownIcon, ChevronLeft, ChevronLeftDuotone, ChevronLeftDuotone as ChevronLeftDuotoneIcon, ChevronLeftFill, ChevronLeftFill as ChevronLeftFillIcon, ChevronLeft as ChevronLeftIcon, ChevronRight, ChevronRightDuotone, ChevronRightDuotone as ChevronRightDuotoneIcon, ChevronRightFill, ChevronRightFill as ChevronRightFillIcon, ChevronRight as ChevronRightIcon, ChevronUp, ChevronUpDown, ChevronUpDownDuotone, ChevronUpDownDuotone as ChevronUpDownDuotoneIcon, ChevronUpDownFill, ChevronUpDownFill as ChevronUpDownFillIcon, ChevronUpDown as ChevronUpDownIcon, ChevronUpDuotone, ChevronUpDuotone as ChevronUpDuotoneIcon, ChevronUpFill, ChevronUpFill as ChevronUpFillIcon, ChevronUp as ChevronUpIcon, Circle, CircleAlert, CircleAlertDuotone, CircleAlertDuotone as CircleAlertDuotoneIcon, CircleAlertFill, CircleAlertFill as CircleAlertFillIcon, CircleAlert as CircleAlertIcon, CircleCheckbox, CircleCheckboxDuotone, CircleCheckboxDuotone as CircleCheckboxDuotoneIcon, CircleCheckboxFill, CircleCheckboxFill as CircleCheckboxFillIcon, CircleCheckbox as CircleCheckboxIcon, CircleDashed, CircleDashedDuotone, CircleDashedDuotone as CircleDashedDuotoneIcon, CircleDashedFill, CircleDashedFill as CircleDashedFillIcon, CircleDashed as CircleDashedIcon, CircleDollarSign, CircleDollarSignDuotone, CircleDollarSignDuotone as CircleDollarSignDuotoneIcon, CircleDollarSignFill, CircleDollarSignFill as CircleDollarSignFillIcon, CircleDollarSign as CircleDollarSignIcon, CircleDuotone, CircleDuotone as CircleDuotoneIcon, CircleFill, CircleFill as CircleFillIcon, Circle as CircleIcon, CircleOverlap, CircleOverlapDuotone, CircleOverlapDuotone as CircleOverlapDuotoneIcon, CircleOverlapFill, CircleOverlapFill as CircleOverlapFillIcon, CircleOverlap as CircleOverlapIcon, CirclePlus, CirclePlusDuotone, CirclePlusDuotone as CirclePlusDuotoneIcon, CirclePlusFill, CirclePlusFill as CirclePlusFillIcon, CirclePlus as CirclePlusIcon, CircleQuestionMark, CircleQuestionMarkDuotone, CircleQuestionMarkDuotone as CircleQuestionMarkDuotoneIcon, CircleQuestionMarkFill, CircleQuestionMarkFill as CircleQuestionMarkFillIcon, CircleQuestionMark as CircleQuestionMarkIcon, CircleX, CircleXDuotone, CircleXDuotone as CircleXDuotoneIcon, CircleXFill, CircleXFill as CircleXFillIcon, CircleX as CircleXIcon, CircleX as Clear, CircleXDuotone as ClearDuotone, CircleXDuotone as ClearDuotoneIcon, CircleXFill as ClearFill, CircleXFill as ClearFillIcon, RemoveFormatting as ClearFormat, RemoveFormattingDuotone as ClearFormatDuotone, RemoveFormattingDuotone as ClearFormatDuotoneIcon, RemoveFormattingFill as ClearFormatFill, RemoveFormattingFill as ClearFormatFillIcon, RemoveFormatting as ClearFormatIcon, CircleX as ClearIcon, MousePointerClick as Click, MousePointerClickDuotone as ClickDuotone, MousePointerClickDuotone as ClickDuotoneIcon, MousePointerClickFill as ClickFill, MousePointerClickFill as ClickFillIcon, MousePointerClick as ClickIcon, ClipboardList, ClipboardListDuotone, ClipboardListDuotone as ClipboardListDuotoneIcon, ClipboardListFill, ClipboardListFill as ClipboardListFillIcon, ClipboardList as ClipboardListIcon, Clock, ClockArrowDown, ClockArrowDownDuotone, ClockArrowDownDuotone as ClockArrowDownDuotoneIcon, ClockArrowDownFill, ClockArrowDownFill as ClockArrowDownFillIcon, ClockArrowDown as ClockArrowDownIcon, ClockArrowUp, ClockArrowUpDuotone, ClockArrowUpDuotone as ClockArrowUpDuotoneIcon, ClockArrowUpFill, ClockArrowUpFill as ClockArrowUpFillIcon, ClockArrowUp as ClockArrowUpIcon, ClockDuotone, ClockDuotone as ClockDuotoneIcon, ClockFill, ClockFill as ClockFillIcon, Clock as ClockIcon, Copy as Clone, CopyDuotone as CloneDuotone, CopyDuotone as CloneDuotoneIcon, CopyFill as CloneFill, CopyFill as CloneFillIcon, Copy as CloneIcon, CircleX as Close, CircleXDuotone as CloseDuotone, CircleXDuotone as CloseDuotoneIcon, CircleXFill as CloseFill, CircleXFill as CloseFillIcon, CircleX as CloseIcon, QuotationMarkRight as CloseQuote, QuotationMarkRightDuotone as CloseQuoteDuotone, QuotationMarkRightDuotone as CloseQuoteDuotoneIcon, QuotationMarkRightFill as CloseQuoteFill, QuotationMarkRightFill as CloseQuoteFillIcon, QuotationMarkRight as CloseQuoteIcon, Command as Cmd, CommandDuotone as CmdDuotone, CommandDuotone as CmdDuotoneIcon, CommandFill as CmdFill, CommandFill as CmdFillIcon, Command as CmdIcon, Cog, CogDuotone, CogDuotone as CogDuotoneIcon, CogFill, CogFill as CogFillIcon, Cog as CogIcon, Cog as Cogwheel, CogDuotone as CogwheelDuotone, CogDuotone as CogwheelDuotoneIcon, CogFill as CogwheelFill, CogFill as CogwheelFillIcon, Cog as CogwheelIcon, ChevronDown as Collapse, ChevronDownDuotone as CollapseDuotone, ChevronDownDuotone as CollapseDuotoneIcon, ChevronDownFill as CollapseFill, ChevronDownFill as CollapseFillIcon, ChevronDown as CollapseIcon, Columns3 as ColumnLayout, Columns3Duotone as ColumnLayoutDuotone, Columns3Duotone as ColumnLayoutDuotoneIcon, Columns3Fill as ColumnLayoutFill, Columns3Fill as ColumnLayoutFillIcon, Columns3 as ColumnLayoutIcon, Columns3, Columns3Duotone, Columns3Duotone as Columns3DuotoneIcon, Columns3Fill, Columns3Fill as Columns3FillIcon, Columns3 as Columns3Icon, Command, CommandDuotone, CommandDuotone as CommandDuotoneIcon, CommandFill, CommandFill as CommandFillIcon, Command as CommandIcon, MessageSquare as Comment, MessageSquareDuotone as CommentDuotone, MessageSquareDuotone as CommentDuotoneIcon, MessageSquareFill as CommentFill, MessageSquareFill as CommentFillIcon, MessageSquare as CommentIcon, MessagesSquare as Comments, MessagesSquareDuotone as CommentsDuotone, MessagesSquareDuotone as CommentsDuotoneIcon, MessagesSquareFill as CommentsFill, MessagesSquareFill as CommentsFillIcon, MessagesSquare as CommentsIcon, Checkmark as Complete, CheckmarkDuotone as CompleteDuotone, CheckmarkDuotone as CompleteDuotoneIcon, CheckmarkFill as CompleteFill, CheckmarkFill as CompleteFillIcon, Checkmark as CompleteIcon, SquarePen as Compose, SquarePenDuotone as ComposeDuotone, SquarePenDuotone as ComposeDuotoneIcon, SquarePenFill as ComposeFill, SquarePenFill as ComposeFillIcon, SquarePen as ComposeIcon, Cog as Config, CogDuotone as ConfigDuotone, CogDuotone as ConfigDuotoneIcon, CogFill as ConfigFill, CogFill as ConfigFillIcon, Cog as ConfigIcon, Cog as Configuration, CogDuotone as ConfigurationDuotone, CogDuotone as ConfigurationDuotoneIcon, CogFill as ConfigurationFill, CogFill as ConfigurationFillIcon, Cog as ConfigurationIcon, Link as Connect, LinkDuotone as ConnectDuotone, LinkDuotone as ConnectDuotoneIcon, LinkFill as ConnectFill, LinkFill as ConnectFillIcon, Link as ConnectIcon, Rolodex as Contacts, RolodexDuotone as ContactsDuotone, RolodexDuotone as ContactsDuotoneIcon, RolodexFill as ContactsFill, RolodexFill as ContactsFillIcon, Rolodex as ContactsIcon, ContentHeart, ContentHeartDuotone, ContentHeartDuotone as ContentHeartDuotoneIcon, ContentHeartFill, ContentHeartFill as ContentHeartFillIcon, ContentHeart as ContentHeartIcon, ContentPlus, ContentPlusDuotone, ContentPlusDuotone as ContentPlusDuotoneIcon, ContentPlusFill, ContentPlusFill as ContentPlusFillIcon, ContentPlus as ContentPlusIcon, ContentUser, ContentUserDuotone, ContentUserDuotone as ContentUserDuotoneIcon, ContentUserFill, ContentUserFill as ContentUserFillIcon, ContentUser as ContentUserIcon, Eclipse as Contrast, EclipseDuotone as ContrastDuotone, EclipseDuotone as ContrastDuotoneIcon, EclipseFill as ContrastFill, EclipseFill as ContrastFillIcon, Eclipse as ContrastIcon, SlidersHorizontal as Controls, SlidersHorizontalDuotone as ControlsDuotone, SlidersHorizontalDuotone as ControlsDuotoneIcon, SlidersHorizontalFill as ControlsFill, SlidersHorizontalFill as ControlsFillIcon, SlidersHorizontal as ControlsIcon, MessagesSquare as Conversation, MessagesSquareDuotone as ConversationDuotone, MessagesSquareDuotone as ConversationDuotoneIcon, MessagesSquareFill as ConversationFill, MessagesSquareFill as ConversationFillIcon, MessagesSquare as ConversationIcon, Copy, CopyDuotone, CopyDuotone as CopyDuotoneIcon, CopyFill, CopyFill as CopyFillIcon, Copy as CopyIcon, Plus as Create, ContentPlus as CreateContent, ContentPlusDuotone as CreateContentDuotone, ContentPlusDuotone as CreateContentDuotoneIcon, ContentPlusFill as CreateContentFill, ContentPlusFill as CreateContentFillIcon, ContentPlus as CreateContentIcon, PlusDuotone as CreateDuotone, PlusDuotone as CreateDuotoneIcon, FilePlus as CreateFile, FilePlusDuotone as CreateFileDuotone, FilePlusDuotone as CreateFileDuotoneIcon, FilePlusFill as CreateFileFill, FilePlusFill as CreateFileFillIcon, FilePlus as CreateFileIcon, PlusFill as CreateFill, PlusFill as CreateFillIcon, Plus as CreateIcon, MousePointerClick as Cursor, MousePointerClickDuotone as CursorDuotone, MousePointerClickDuotone as CursorDuotoneIcon, MousePointerClickFill as CursorFill, MousePointerClickFill as CursorFillIcon, MousePointerClick as CursorIcon, Moon as Dark, MoonDuotone as DarkDuotone, MoonDuotone as DarkDuotoneIcon, MoonFill as DarkFill, MoonFill as DarkFillIcon, Moon as DarkIcon, Moon as DarkMode, MoonDuotone as DarkModeDuotone, MoonDuotone as DarkModeDuotoneIcon, MoonFill as DarkModeFill, MoonFill as DarkModeFillIcon, Moon as DarkModeIcon, Calendar as Date, CalendarDuotone as DateDuotone, CalendarDuotone as DateDuotoneIcon, CalendarFill as DateFill, CalendarFill as DateFillIcon, Calendar as DateIcon, Sun as Day, SunDuotone as DayDuotone, SunDuotone as DayDuotoneIcon, SunFill as DayFill, SunFill as DayFillIcon, Sun as DayIcon, TrendingDown as Decline, TrendingDownDuotone as DeclineDuotone, TrendingDownDuotone as DeclineDuotoneIcon, TrendingDownFill as DeclineFill, TrendingDownFill as DeclineFillIcon, TrendingDown as DeclineIcon, Minus as Decrease, MinusDuotone as DecreaseDuotone, MinusDuotone as DecreaseDuotoneIcon, MinusFill as DecreaseFill, MinusFill as DecreaseFillIcon, Minus as DecreaseIcon, Trash as Delete, TrashDuotone as DeleteDuotone, TrashDuotone as DeleteDuotoneIcon, TrashFill as DeleteFill, TrashFill as DeleteFillIcon, Trash as DeleteIcon, ArrowDown01 as Descending, ArrowDown01Duotone as DescendingDuotone, ArrowDown01Duotone as DescendingDuotoneIcon, ArrowDown01Fill as DescendingFill, ArrowDown01Fill as DescendingFillIcon, ArrowDown01 as DescendingIcon, Grid1x2 as Design, Grid1x2Duotone as DesignDuotone, Grid1x2Duotone as DesignDuotoneIcon, Grid1x2Fill as DesignFill, Grid1x2Fill as DesignFillIcon, Grid1x2 as DesignIcon, Info as Details, InfoDuotone as DetailsDuotone, InfoDuotone as DetailsDuotoneIcon, InfoFill as DetailsFill, InfoFill as DetailsFillIcon, Info as DetailsIcon, ArchiveArrowUp as Direction, ArchiveArrowUpDuotone as DirectionDuotone, ArchiveArrowUpDuotone as DirectionDuotoneIcon, ArchiveArrowUpFill as DirectionFill, ArchiveArrowUpFill as DirectionFillIcon, ArchiveArrowUp as DirectionIcon, ThumbsDown as Disapprove, ThumbsDownDuotone as DisapproveDuotone, ThumbsDownDuotone as DisapproveDuotoneIcon, ThumbsDownFill as DisapproveFill, ThumbsDownFill as DisapproveFillIcon, ThumbsDown as DisapproveIcon, Unlink as Disconnect, UnlinkDuotone as DisconnectDuotone, UnlinkDuotone as DisconnectDuotoneIcon, UnlinkFill as DisconnectFill, UnlinkFill as DisconnectFillIcon, Unlink as DisconnectIcon, Save as Disk, SaveDuotone as DiskDuotone, SaveDuotone as DiskDuotoneIcon, SaveFill as DiskFill, SaveFill as DiskFillIcon, Save as DiskIcon, ThumbsDown as Dislike, ThumbsDownDuotone as DislikeDuotone, ThumbsDownDuotone as DislikeDuotoneIcon, ThumbsDownFill as DislikeFill, ThumbsDownFill as DislikeFillIcon, ThumbsDown as DislikeIcon, File as Document, FileDuotone as DocumentDuotone, FileDuotone as DocumentDuotoneIcon, FileFill as DocumentFill, FileFill as DocumentFillIcon, File as DocumentIcon, CircleDollarSign as Dollar, CircleDollarSignDuotone as DollarDuotone, CircleDollarSignDuotone as DollarDuotoneIcon, CircleDollarSignFill as DollarFill, CircleDollarSignFill as DollarFillIcon, CircleDollarSign as DollarIcon, Checkmark as Done, CheckmarkDuotone as DoneDuotone, CheckmarkDuotone as DoneDuotoneIcon, CheckmarkFill as DoneFill, CheckmarkFill as DoneFillIcon, Checkmark as DoneIcon, ArrowDown as Down, ArrowDownDuotone as DownDuotone, ArrowDownDuotone as DownDuotoneIcon, ArrowDownFill as DownFill, ArrowDownFill as DownFillIcon, ArrowDown as DownIcon, Download, DownloadDuotone, DownloadDuotone as DownloadDuotoneIcon, FileArrowDown as DownloadFile, FileArrowDownDuotone as DownloadFileDuotone, FileArrowDownDuotone as DownloadFileDuotoneIcon, FileArrowDownFill as DownloadFileFill, FileArrowDownFill as DownloadFileFillIcon, FileArrowDown as DownloadFileIcon, DownloadFill, DownloadFill as DownloadFillIcon, Download as DownloadIcon, TrendingDown as Downtrend, TrendingDownDuotone as DowntrendDuotone, TrendingDownDuotone as DowntrendDuotoneIcon, TrendingDownFill as DowntrendFill, TrendingDownFill as DowntrendFillIcon, TrendingDown as DowntrendIcon, SquarePen as Draft, SquarePenDuotone as DraftDuotone, SquarePenDuotone as DraftDuotoneIcon, SquarePenFill as DraftFill, SquarePenFill as DraftFillIcon, SquarePen as DraftIcon, Move as Drag, MoveDuotone as DragDuotone, MoveDuotone as DragDuotoneIcon, MoveFill as DragFill, MoveFill as DragFillIcon, Move as DragIcon, PanelLeft as DrawerLeft, PanelLeftDuotone as DrawerLeftDuotone, PanelLeftDuotone as DrawerLeftDuotoneIcon, PanelLeftFill as DrawerLeftFill, PanelLeftFill as DrawerLeftFillIcon, PanelLeft as DrawerLeftIcon, PanelRight as DrawerRight, PanelRightDuotone as DrawerRightDuotone, PanelRightDuotone as DrawerRightDuotoneIcon, PanelRightFill as DrawerRightFill, PanelRightFill as DrawerRightFillIcon, PanelRight as DrawerRightIcon, ChevronDown as Dropdown, ChevronDownDuotone as DropdownDuotone, ChevronDownDuotone as DropdownDuotoneIcon, ChevronDownFill as DropdownFill, ChevronDownFill as DropdownFillIcon, ChevronDown as DropdownIcon, Copy as Duplicate, CopyDuotone as DuplicateDuotone, CopyDuotone as DuplicateDuotoneIcon, CopyFill as DuplicateFill, CopyFill as DuplicateFillIcon, Copy as DuplicateIcon, ArrowRight as East, ArrowRightDuotone as EastDuotone, ArrowRightDuotone as EastDuotoneIcon, ArrowRightFill as EastFill, ArrowRightFill as EastFillIcon, ArrowRight as EastIcon, Eclipse, EclipseDuotone, EclipseDuotone as EclipseDuotoneIcon, EclipseFill, EclipseFill as EclipseFillIcon, Eclipse as EclipseIcon, Pencil as Edit, PencilDuotone as EditDuotone, PencilDuotone as EditDuotoneIcon, PencilFill as EditFill, PencilFill as EditFillIcon, Pencil as EditIcon, SquarePen as Editor, SquarePenDuotone as EditorDuotone, SquarePenDuotone as EditorDuotoneIcon, SquarePenFill as EditorFill, SquarePenFill as EditorFillIcon, SquarePen as EditorIcon, Ellipsis, EllipsisDuotone, EllipsisDuotone as EllipsisDuotoneIcon, EllipsisFill, EllipsisFill as EllipsisFillIcon, Ellipsis as EllipsisIcon, EllipsisVertical, EllipsisVerticalDuotone, EllipsisVerticalDuotone as EllipsisVerticalDuotoneIcon, EllipsisVerticalFill, EllipsisVerticalFill as EllipsisVerticalFillIcon, EllipsisVertical as EllipsisVerticalIcon, Mail as Email, MailDuotone as EmailDuotone, MailDuotone as EmailDuotoneIcon, MailFill as EmailFill, MailFill as EmailFillIcon, Mail as EmailIcon, Heart as Emotion, HeartDuotone as EmotionDuotone, HeartDuotone as EmotionDuotoneIcon, HeartFill as EmotionFill, HeartFill as EmotionFillIcon, Heart as EmotionIcon, Italic as Emphasis, ItalicDuotone as EmphasisDuotone, ItalicDuotone as EmphasisDuotoneIcon, ItalicFill as EmphasisFill, ItalicFill as EmphasisFillIcon, Italic as EmphasisIcon, Maximize as Enlarge, MaximizeDuotone as EnlargeDuotone, MaximizeDuotone as EnlargeDuotoneIcon, MaximizeFill as EnlargeFill, MaximizeFill as EnlargeFillIcon, Maximize as EnlargeIcon, Mail as Envelope, MailDuotone as EnvelopeDuotone, MailDuotone as EnvelopeDuotoneIcon, MailFill as EnvelopeFill, MailFill as EnvelopeFillIcon, Mail as EnvelopeIcon, SlidersHorizontal as Equalizer, SlidersHorizontalDuotone as EqualizerDuotone, SlidersHorizontalDuotone as EqualizerDuotoneIcon, SlidersHorizontalFill as EqualizerFill, SlidersHorizontalFill as EqualizerFillIcon, SlidersHorizontal as EqualizerIcon, CircleAlert as Error, CircleAlertDuotone as ErrorDuotone, CircleAlertDuotone as ErrorDuotoneIcon, CircleAlertFill as ErrorFill, CircleAlertFill as ErrorFillIcon, CircleAlert as ErrorIcon, Calendar as Event, CalendarDuotone as EventDuotone, CalendarDuotone as EventDuotoneIcon, CalendarFill as EventFill, CalendarFill as EventFillIcon, Calendar as EventIcon, LogOut as Exit, LogOutDuotone as ExitDuotone, LogOutDuotone as ExitDuotoneIcon, LogOutFill as ExitFill, LogOutFill as ExitFillIcon, LogOut as ExitIcon, ChevronUp as Expand, ChevronUpDuotone as ExpandDuotone, ChevronUpDuotone as ExpandDuotoneIcon, ChevronUpFill as ExpandFill, ChevronUpFill as ExpandFillIcon, ChevronUp as ExpandIcon, Maximize as ExpandWindow, MaximizeDuotone as ExpandWindowDuotone, MaximizeDuotone as ExpandWindowDuotoneIcon, MaximizeFill as ExpandWindowFill, MaximizeFill as ExpandWindowFillIcon, Maximize as ExpandWindowIcon, Search as Explore, SearchDuotone as ExploreDuotone, SearchDuotone as ExploreDuotoneIcon, SearchFill as ExploreFill, SearchFill as ExploreFillIcon, Search as ExploreIcon, Download as Export, DownloadDuotone as ExportDuotone, DownloadDuotone as ExportDuotoneIcon, DownloadFill as ExportFill, DownloadFill as ExportFillIcon, Download as ExportIcon, ExternalLink as External, ExternalLinkDuotone as ExternalDuotone, ExternalLinkDuotone as ExternalDuotoneIcon, ExternalLinkFill as ExternalFill, ExternalLinkFill as ExternalFillIcon, ExternalLink as ExternalIcon, ExternalLink, ExternalLinkDuotone, ExternalLinkDuotone as ExternalLinkDuotoneIcon, ExternalLinkFill, ExternalLinkFill as ExternalLinkFillIcon, ExternalLink as ExternalLinkIcon, Eye, EyeDuotone, EyeDuotone as EyeDuotoneIcon, EyeFill, EyeFill as EyeFillIcon, Eye as EyeIcon, EyeOff, EyeOffDuotone, EyeOffDuotone as EyeOffDuotoneIcon, EyeOffFill, EyeOffFill as EyeOffFillIcon, EyeOff as EyeOffIcon, TrendingDown as Falling, TrendingDownDuotone as FallingDuotone, TrendingDownDuotone as FallingDuotoneIcon, TrendingDownFill as FallingFill, TrendingDownFill as FallingFillIcon, TrendingDown as FallingIcon, CircleQuestionMark as Faq, CircleQuestionMarkDuotone as FaqDuotone, CircleQuestionMarkDuotone as FaqDuotoneIcon, CircleQuestionMarkFill as FaqFill, CircleQuestionMarkFill as FaqFillIcon, CircleQuestionMark as FaqIcon, Star as Favorite, StarDuotone as FavoriteDuotone, StarDuotone as FavoriteDuotoneIcon, StarFill as FavoriteFill, StarFill as FavoriteFillIcon, Star as FavoriteIcon, Star as Favourite, StarDuotone as FavouriteDuotone, StarDuotone as FavouriteDuotoneIcon, StarFill as FavouriteFill, StarFill as FavouriteFillIcon, Star as FavouriteIcon, File, FileUser as FileAccount, FileUserDuotone as FileAccountDuotone, FileUserDuotone as FileAccountDuotoneIcon, FileUserFill as FileAccountFill, FileUserFill as FileAccountFillIcon, FileUser as FileAccountIcon, FileArrowDown, FileArrowDownDuotone, FileArrowDownDuotone as FileArrowDownDuotoneIcon, FileArrowDownFill, FileArrowDownFill as FileArrowDownFillIcon, FileArrowDown as FileArrowDownIcon, FileArrowLeft, FileArrowLeftDuotone, FileArrowLeftDuotone as FileArrowLeftDuotoneIcon, FileArrowLeftFill, FileArrowLeftFill as FileArrowLeftFillIcon, FileArrowLeft as FileArrowLeftIcon, FileArrowLeftRight, FileArrowLeftRightDuotone, FileArrowLeftRightDuotone as FileArrowLeftRightDuotoneIcon, FileArrowLeftRightFill, FileArrowLeftRightFill as FileArrowLeftRightFillIcon, FileArrowLeftRight as FileArrowLeftRightIcon, FileArrowRight, FileArrowRightDuotone, FileArrowRightDuotone as FileArrowRightDuotoneIcon, FileArrowRightFill, FileArrowRightFill as FileArrowRightFillIcon, FileArrowRight as FileArrowRightIcon, FileArrowUp, FileArrowUpDuotone, FileArrowUpDuotone as FileArrowUpDuotoneIcon, FileArrowUpFill, FileArrowUpFill as FileArrowUpFillIcon, FileArrowUp as FileArrowUpIcon, FileArrowLeft as FileBack, FileArrowLeftDuotone as FileBackDuotone, FileArrowLeftDuotone as FileBackDuotoneIcon, FileArrowLeftFill as FileBackFill, FileArrowLeftFill as FileBackFillIcon, FileArrowLeft as FileBackIcon, FileX as FileCancel, FileXDuotone as FileCancelDuotone, FileXDuotone as FileCancelDuotoneIcon, FileXFill as FileCancelFill, FileXFill as FileCancelFillIcon, FileX as FileCancelIcon, FileChartColumn, FileChartColumnDuotone, FileChartColumnDuotone as FileChartColumnDuotoneIcon, FileChartColumnFill, FileChartColumnFill as FileChartColumnFillIcon, FileChartColumn as FileChartColumnIcon, FileCheck, FileCheckDuotone, FileCheckDuotone as FileCheckDuotoneIcon, FileCheckFill, FileCheckFill as FileCheckFillIcon, FileCheck as FileCheckIcon, FileCog, FileCogDuotone, FileCogDuotone as FileCogDuotoneIcon, FileCogFill, FileCogFill as FileCogFillIcon, FileCog as FileCogIcon, FileCheck as FileComplete, FileCheckDuotone as FileCompleteDuotone, FileCheckDuotone as FileCompleteDuotoneIcon, FileCheckFill as FileCompleteFill, FileCheckFill as FileCompleteFillIcon, FileCheck as FileCompleteIcon, FileCog as FileConfig, FileCogDuotone as FileConfigDuotone, FileCogDuotone as FileConfigDuotoneIcon, FileCogFill as FileConfigFill, FileCogFill as FileConfigFillIcon, FileCog as FileConfigIcon, FileX as FileDelete, FileXDuotone as FileDeleteDuotone, FileXDuotone as FileDeleteDuotoneIcon, FileXFill as FileDeleteFill, FileXFill as FileDeleteFillIcon, FileX as FileDeleteIcon, FileCheck as FileDone, FileCheckDuotone as FileDoneDuotone, FileCheckDuotone as FileDoneDuotoneIcon, FileCheckFill as FileDoneFill, FileCheckFill as FileDoneFillIcon, FileCheck as FileDoneIcon, FileDuotone, FileDuotone as FileDuotoneIcon, FileArrowLeftRight as FileExchange, FileArrowLeftRightDuotone as FileExchangeDuotone, FileArrowLeftRightDuotone as FileExchangeDuotoneIcon, FileArrowLeftRightFill as FileExchangeFill, FileArrowLeftRightFill as FileExchangeFillIcon, FileArrowLeftRight as FileExchangeIcon, FileFill, FileFill as FileFillIcon, FileArrowRight as FileForward, FileArrowRightDuotone as FileForwardDuotone, FileArrowRightDuotone as FileForwardDuotoneIcon, FileArrowRightFill as FileForwardFill, FileArrowRightFill as FileForwardFillIcon, FileArrowRight as FileForwardIcon, File as FileIcon, FileImage, FileImageDuotone, FileImageDuotone as FileImageDuotoneIcon, FileImageFill, FileImageFill as FileImageFillIcon, FileImage as FileImageIcon, FileArrowRight as FileNext, FileArrowRightDuotone as FileNextDuotone, FileArrowRightDuotone as FileNextDuotoneIcon, FileArrowRightFill as FileNextFill, FileArrowRightFill as FileNextFillIcon, FileArrowRight as FileNextIcon, FilePlus, FilePlusDuotone, FilePlusDuotone as FilePlusDuotoneIcon, FilePlusFill, FilePlusFill as FilePlusFillIcon, FilePlus as FilePlusIcon, FileArrowLeft as FilePrevious, FileArrowLeftDuotone as FilePreviousDuotone, FileArrowLeftDuotone as FilePreviousDuotoneIcon, FileArrowLeftFill as FilePreviousFill, FileArrowLeftFill as FilePreviousFillIcon, FileArrowLeft as FilePreviousIcon, FileUser as FileProfile, FileUserDuotone as FileProfileDuotone, FileUserDuotone as FileProfileDuotoneIcon, FileUserFill as FileProfileFill, FileUserFill as FileProfileFillIcon, FileUser as FileProfileIcon, FileX as FileRemove, FileXDuotone as FileRemoveDuotone, FileXDuotone as FileRemoveDuotoneIcon, FileXFill as FileRemoveFill, FileXFill as FileRemoveFillIcon, FileX as FileRemoveIcon, FileCog as FileSettings, FileCogDuotone as FileSettingsDuotone, FileCogDuotone as FileSettingsDuotoneIcon, FileCogFill as FileSettingsFill, FileCogFill as FileSettingsFillIcon, FileCog as FileSettingsIcon, FileArrowLeftRight as FileSync, FileArrowLeftRightDuotone as FileSyncDuotone, FileArrowLeftRightDuotone as FileSyncDuotoneIcon, FileArrowLeftRightFill as FileSyncFill, FileArrowLeftRightFill as FileSyncFillIcon, FileArrowLeftRight as FileSyncIcon, FileArrowLeftRight as FileTransfer, FileArrowLeftRightDuotone as FileTransferDuotone, FileArrowLeftRightDuotone as FileTransferDuotoneIcon, FileArrowLeftRightFill as FileTransferFill, FileArrowLeftRightFill as FileTransferFillIcon, FileArrowLeftRight as FileTransferIcon, FileUser, FileUserDuotone, FileUserDuotone as FileUserDuotoneIcon, FileUserFill, FileUserFill as FileUserFillIcon, FileUser as FileUserIcon, FileCheck as FileVerified, FileCheckDuotone as FileVerifiedDuotone, FileCheckDuotone as FileVerifiedDuotoneIcon, FileCheckFill as FileVerifiedFill, FileCheckFill as FileVerifiedFillIcon, FileCheck as FileVerifiedIcon, FileX, FileXDuotone, FileXDuotone as FileXDuotoneIcon, FileXFill, FileXFill as FileXFillIcon, FileX as FileXIcon, Reel as Film, ReelDuotone as FilmDuotone, ReelDuotone as FilmDuotoneIcon, ReelFill as FilmFill, ReelFill as FilmFillIcon, Reel as FilmIcon, ListFilter as Filter, ListFilterDuotone as FilterDuotone, ListFilterDuotone as FilterDuotoneIcon, ListFilterFill as FilterFill, ListFilterFill as FilterFillIcon, ListFilter as FilterIcon, SlidersHorizontal as Filters, SlidersHorizontalDuotone as FiltersDuotone, SlidersHorizontalDuotone as FiltersDuotoneIcon, SlidersHorizontalFill as FiltersFill, SlidersHorizontalFill as FiltersFillIcon, SlidersHorizontal as FiltersIcon, Search as Find, SearchDuotone as FindDuotone, SearchDuotone as FindDuotoneIcon, SearchFill as FindFill, SearchFill as FindFillIcon, Search as FindIcon, SearchUser as FindUser, SearchUserDuotone as FindUserDuotone, SearchUserDuotone as FindUserDuotoneIcon, SearchUserFill as FindUserFill, SearchUserFill as FindUserFillIcon, SearchUser as FindUserIcon, Flame as Fire, FlameDuotone as FireDuotone, FlameDuotone as FireDuotoneIcon, FlameFill as FireFill, FlameFill as FireFillIcon, Flame as FireIcon, Bookmark as Flag, BookmarkDuotone as FlagDuotone, BookmarkDuotone as FlagDuotoneIcon, BookmarkFill as FlagFill, BookmarkFill as FlagFillIcon, Bookmark as FlagIcon, Flame, FlameDuotone, FlameDuotone as FlameDuotoneIcon, FlameFill, FlameFill as FlameFillIcon, Flame as FlameIcon, Save as Floppy, SaveDuotone as FloppyDuotone, SaveDuotone as FloppyDuotoneIcon, SaveFill as FloppyFill, SaveFill as FloppyFillIcon, Save as FloppyIcon, Info as FoamAbout, InfoDuotone as FoamAboutDuotone, InfoFill as FoamAboutFill, ChevronUpDown as FoamAccordion, ChevronUpDownDuotone as FoamAccordionDuotone, ChevronUpDownFill as FoamAccordionFill, User as FoamAccount, UserDuotone as FoamAccountDuotone, UserFill as FoamAccountFill, Plus as FoamAdd, ContentPlus as FoamAddContent, ContentPlusDuotone as FoamAddContentDuotone, ContentPlusFill as FoamAddContentFill, PlusDuotone as FoamAddDuotone, FilePlus as FoamAddFile, FilePlusDuotone as FoamAddFileDuotone, FilePlusFill as FoamAddFileFill, PlusFill as FoamAddFill, Rolodex as FoamAddressBook, RolodexDuotone as FoamAddressBookDuotone, RolodexFill as FoamAddressBookFill, SlidersHorizontal as FoamAdjust, SlidersHorizontalDuotone as FoamAdjustDuotone, SlidersHorizontalFill as FoamAdjustFill, Sparkles as FoamAi, SparklesDuotone as FoamAiDuotone, SparklesFill as FoamAiFill, Bell as FoamAlarm, BellDuotone as FoamAlarmDuotone, BellFill as FoamAlarmFill, Alert as FoamAlert, AlertDuotone as FoamAlertDuotone, AlertFill as FoamAlertFill, TextAlignStart as FoamAlignLeft, TextAlignStartDuotone as FoamAlignLeftDuotone, TextAlignStartFill as FoamAlignLeftFill, TextAlignEnd as FoamAlignRight, TextAlignEndDuotone as FoamAlignRightDuotone, TextAlignEndFill as FoamAlignRightFill, Rolodex as FoamAlphabet, RolodexDuotone as FoamAlphabetDuotone, RolodexFill as FoamAlphabetFill, ChartColumnSquare as FoamAnalytics, ChartColumnSquareDuotone as FoamAnalyticsDuotone, ChartColumnSquareFill as FoamAnalyticsFill, Megaphone as FoamAnnounce, MegaphoneDuotone as FoamAnnounceDuotone, MegaphoneFill as FoamAnnounceFill, Reply as FoamAnswer, ReplyDuotone as FoamAnswerDuotone, ReplyFill as FoamAnswerFill, ThumbsUp as FoamApprove, ThumbsUpDuotone as FoamApproveDuotone, ThumbsUpFill as FoamApproveFill, Archive as FoamArchive, ArchiveArrowUp as FoamArchiveArrowUp, ArchiveArrowUpDuotone as FoamArchiveArrowUpDuotone, ArchiveArrowUpFill as FoamArchiveArrowUpFill, ArchiveDuotone as FoamArchiveDuotone, ArchiveFill as FoamArchiveFill, ArrowDown as FoamArrowDown, ArrowDown01 as FoamArrowDown01, ArrowDown01Duotone as FoamArrowDown01Duotone, ArrowDown01Fill as FoamArrowDown01Fill, ArrowDown10 as FoamArrowDown10, ArrowDown10Duotone as FoamArrowDown10Duotone, ArrowDown10Fill as FoamArrowDown10Fill, ArrowDownCog as FoamArrowDownCog, ArrowDownCogDuotone as FoamArrowDownCogDuotone, ArrowDownCogFill as FoamArrowDownCogFill, ArrowDownDuotone as FoamArrowDownDuotone, ArrowDownFill as FoamArrowDownFill, ArrowDownIG as FoamArrowDownIG, ArrowDownIGDuotone as FoamArrowDownIGDuotone, ArrowDownIGFill as FoamArrowDownIGFill, ArrowDownLeft as FoamArrowDownLeft, ArrowDownLeftDuotone as FoamArrowDownLeftDuotone, ArrowDownLeftFill as FoamArrowDownLeftFill, ArrowDownMapPin as FoamArrowDownMapPin, ArrowDownMapPinDuotone as FoamArrowDownMapPinDuotone, ArrowDownMapPinFill as FoamArrowDownMapPinFill, ArrowDownNarrowWide as FoamArrowDownNarrowWide, ArrowDownNarrowWideDuotone as FoamArrowDownNarrowWideDuotone, ArrowDownNarrowWideFill as FoamArrowDownNarrowWideFill, ArrowDownRight as FoamArrowDownRight, ArrowDownRightDuotone as FoamArrowDownRightDuotone, ArrowDownRightFill as FoamArrowDownRightFill, ArrowDownSC as FoamArrowDownSC, ArrowDownSCDuotone as FoamArrowDownSCDuotone, ArrowDownSCFill as FoamArrowDownSCFill, ArrowDownTT as FoamArrowDownTT, ArrowDownTTDuotone as FoamArrowDownTTDuotone, ArrowDownTTFill as FoamArrowDownTTFill, ArrowDownUp as FoamArrowDownUp, ArrowDownUpDuotone as FoamArrowDownUpDuotone, ArrowDownUpFill as FoamArrowDownUpFill, ArrowDownWideNarrow as FoamArrowDownWideNarrow, ArrowDownWideNarrowDuotone as FoamArrowDownWideNarrowDuotone, ArrowDownWideNarrowFill as FoamArrowDownWideNarrowFill, ArrowDownYT as FoamArrowDownYT, ArrowDownYTDuotone as FoamArrowDownYTDuotone, ArrowDownYTFill as FoamArrowDownYTFill, ArrowLeft as FoamArrowLeft, ArrowLeftDuotone as FoamArrowLeftDuotone, ArrowLeftFill as FoamArrowLeftFill, ArrowRight as FoamArrowRight, ArrowRightDuotone as FoamArrowRightDuotone, ArrowRightFill as FoamArrowRightFill, ArrowRightToLine as FoamArrowRightToLine, ArrowRightToLineDuotone as FoamArrowRightToLineDuotone, ArrowRightToLineFill as FoamArrowRightToLineFill, ArrowUp as FoamArrowUp, ArrowUpAZ as FoamArrowUpAZ, ArrowUpAZDuotone as FoamArrowUpAZDuotone, ArrowUpAZFill as FoamArrowUpAZFill, ArrowUpCog as FoamArrowUpCog, ArrowUpCogDuotone as FoamArrowUpCogDuotone, ArrowUpCogFill as FoamArrowUpCogFill, ArrowUpDuotone as FoamArrowUpDuotone, ArrowUpFill as FoamArrowUpFill, ArrowUpIG as FoamArrowUpIG, ArrowUpIGDuotone as FoamArrowUpIGDuotone, ArrowUpIGFill as FoamArrowUpIGFill, ArrowUpLeft as FoamArrowUpLeft, ArrowUpLeftDuotone as FoamArrowUpLeftDuotone, ArrowUpLeftFill as FoamArrowUpLeftFill, ArrowUpMapPin as FoamArrowUpMapPin, ArrowUpMapPinDuotone as FoamArrowUpMapPinDuotone, ArrowUpMapPinFill as FoamArrowUpMapPinFill, ArrowUpNarrowWide as FoamArrowUpNarrowWide, ArrowUpNarrowWideDuotone as FoamArrowUpNarrowWideDuotone, ArrowUpNarrowWideFill as FoamArrowUpNarrowWideFill, ArrowUpRight as FoamArrowUpRight, ArrowUpRightDuotone as FoamArrowUpRightDuotone, ArrowUpRightFill as FoamArrowUpRightFill, ArrowUpSC as FoamArrowUpSC, ArrowUpSCDuotone as FoamArrowUpSCDuotone, ArrowUpSCFill as FoamArrowUpSCFill, ArrowUpTT as FoamArrowUpTT, ArrowUpTTDuotone as FoamArrowUpTTDuotone, ArrowUpTTFill as FoamArrowUpTTFill, ArrowUpWideNarrow as FoamArrowUpWideNarrow, ArrowUpWideNarrowDuotone as FoamArrowUpWideNarrowDuotone, ArrowUpWideNarrowFill as FoamArrowUpWideNarrowFill, ArrowUpYT as FoamArrowUpYT, ArrowUpYTDuotone as FoamArrowUpYTDuotone, ArrowUpYTFill as FoamArrowUpYTFill, ArrowUpZA as FoamArrowUpZA, ArrowUpZADuotone as FoamArrowUpZADuotone, ArrowUpZAFill as FoamArrowUpZAFill, ArchiveArrowUp as FoamAscending, ArchiveArrowUpDuotone as FoamAscendingDuotone, ArchiveArrowUpFill as FoamAscendingFill, AtSign as FoamAtSign, AtSignDuotone as FoamAtSignDuotone, AtSignFill as FoamAtSignFill, Alert as FoamAttention, CircleAlert as FoamAttentionCircle, CircleAlertDuotone as FoamAttentionCircleDuotone, CircleAlertFill as FoamAttentionCircleFill, AlertDuotone as FoamAttentionDuotone, AlertFill as FoamAttentionFill, Reach as FoamAudience, ReachDuotone as FoamAudienceDuotone, ReachFill as FoamAudienceFill, Volume2 as FoamAudio, Volume2Duotone as FoamAudioDuotone, Volume2Fill as FoamAudioFill, ArrowLeft as FoamBack, ArrowLeftDuotone as FoamBackDuotone, ArrowLeftFill as FoamBackFill, Ban as FoamBan, BanDuotone as FoamBanDuotone, BanFill as FoamBanFill, ChartColumnSquare as FoamBarChart, ChartColumnSquareDuotone as FoamBarChartDuotone, ChartColumnSquareFill as FoamBarChartFill, Menu as FoamBars, MenuDuotone as FoamBarsDuotone, MenuFill as FoamBarsFill, Bell as FoamBell, BellDuotone as FoamBellDuotone, BellFill as FoamBellFill, Trash as FoamBin, TrashDuotone as FoamBinDuotone, TrashFill as FoamBinFill, Ban as FoamBlock, BanDuotone as FoamBlockDuotone, BanFill as FoamBlockFill, QuotationMarkRight as FoamBlockquoteEnd, QuotationMarkRightDuotone as FoamBlockquoteEndDuotone, QuotationMarkRightFill as FoamBlockquoteEndFill, QuotationMarkLeft as FoamBlockquoteStart, QuotationMarkLeftDuotone as FoamBlockquoteStartDuotone, QuotationMarkLeftFill as FoamBlockquoteStartFill, Bold as FoamBold, BoldDuotone as FoamBoldDuotone, BoldFill as FoamBoldFill, Bookmark as FoamBookmark, BookmarkDuotone as FoamBookmarkDuotone, BookmarkFill as FoamBookmarkFill, Archive as FoamBox, ArchiveDuotone as FoamBoxDuotone, ArchiveFill as FoamBoxFill, ContentUser as FoamBrandAssets, ContentUserDuotone as FoamBrandAssetsDuotone, ContentUserFill as FoamBrandAssetsFill, Unlink as FoamBreak, UnlinkDuotone as FoamBreakDuotone, UnlinkFill as FoamBreakFill, Sun as FoamBright, SunDuotone as FoamBrightDuotone, SunFill as FoamBrightFill, Megaphone as FoamBroadcast, MegaphoneDuotone as FoamBroadcastDuotone, MegaphoneFill as FoamBroadcastFill, List as FoamBullets, ListDuotone as FoamBulletsDuotone, ListFill as FoamBulletsFill, Calendar as FoamCalendar, CalendarDuotone as FoamCalendarDuotone, CalendarFill as FoamCalendarFill, CircleX as FoamCancel, CircleXDuotone as FoamCancelDuotone, CircleXFill as FoamCancelFill, Rolodex as FoamCardIndex, RolodexDuotone as FoamCardIndexDuotone, RolodexFill as FoamCardIndexFill, Grid1x2 as FoamCards, Grid1x2Duotone as FoamCardsDuotone, Grid1x2Fill as FoamCardsFill, ChevronDown as FoamCaretDown, ChevronDownDuotone as FoamCaretDownDuotone, ChevronDownFill as FoamCaretDownFill, ChevronLeft as FoamCaretLeft, ChevronLeftDuotone as FoamCaretLeftDuotone, ChevronLeftFill as FoamCaretLeftFill, ChevronRight as FoamCaretRight, ChevronRightDuotone as FoamCaretRightDuotone, ChevronRightFill as FoamCaretRightFill, ChevronUp as FoamCaretUp, ChevronUpDuotone as FoamCaretUpDuotone, ChevronUpFill as FoamCaretUpFill, Alert as FoamCaution, CircleAlert as FoamCautionCircle, CircleAlertDuotone as FoamCautionCircleDuotone, CircleAlertFill as FoamCautionCircleFill, AlertDuotone as FoamCautionDuotone, AlertFill as FoamCautionFill, TextAlignCenter as FoamCenter, TextAlignCenterDuotone as FoamCenterDuotone, TextAlignCenterFill as FoamCenterFill, Link as FoamChain, LinkDuotone as FoamChainDuotone, LinkFill as FoamChainFill, ChartColumnSquare as FoamChartColumnSquare, ChartColumnSquareDuotone as FoamChartColumnSquareDuotone, ChartColumnSquareFill as FoamChartColumnSquareFill, MessagesSquare as FoamChat, MessagesSquareDuotone as FoamChatDuotone, MessagesSquareFill as FoamChatFill, MessageSquare as FoamChatSingle, MessageSquareDuotone as FoamChatSingleDuotone, MessageSquareFill as FoamChatSingleFill, MessagesSquare as FoamChats, MessagesSquareDuotone as FoamChatsDuotone, MessagesSquareFill as FoamChatsFill, Checkmark as FoamCheck, CheckmarkDuotone as FoamCheckDuotone, CheckmarkFill as FoamCheckFill, Checkbox as FoamCheckSquare, CheckboxDuotone as FoamCheckSquareDuotone, CheckboxFill as FoamCheckSquareFill, Checkbox as FoamCheckbox, CheckboxDuotone as FoamCheckboxDuotone, CheckboxFill as FoamCheckboxFill, ClipboardList as FoamChecklist, ClipboardListDuotone as FoamChecklistDuotone, ClipboardListFill as FoamChecklistFill, Checkmark as FoamCheckmark, CheckmarkDuotone as FoamCheckmarkDuotone, CheckmarkFill as FoamCheckmarkFill, ChevronDown as FoamChevronDown, ChevronDownDuotone as FoamChevronDownDuotone, ChevronDownFill as FoamChevronDownFill, ChevronLeft as FoamChevronLeft, ChevronLeftDuotone as FoamChevronLeftDuotone, ChevronLeftFill as FoamChevronLeftFill, ChevronRight as FoamChevronRight, ChevronRightDuotone as FoamChevronRightDuotone, ChevronRightFill as FoamChevronRightFill, ChevronUp as FoamChevronUp, ChevronUpDown as FoamChevronUpDown, ChevronUpDownDuotone as FoamChevronUpDownDuotone, ChevronUpDownFill as FoamChevronUpDownFill, ChevronUpDuotone as FoamChevronUpDuotone, ChevronUpFill as FoamChevronUpFill, Circle as FoamCircle, CircleAlert as FoamCircleAlert, CircleAlertDuotone as FoamCircleAlertDuotone, CircleAlertFill as FoamCircleAlertFill, CircleCheckbox as FoamCircleCheckbox, CircleCheckboxDuotone as FoamCircleCheckboxDuotone, CircleCheckboxFill as FoamCircleCheckboxFill, CircleDashed as FoamCircleDashed, CircleDashedDuotone as FoamCircleDashedDuotone, CircleDashedFill as FoamCircleDashedFill, CircleDollarSign as FoamCircleDollarSign, CircleDollarSignDuotone as FoamCircleDollarSignDuotone, CircleDollarSignFill as FoamCircleDollarSignFill, CircleDuotone as FoamCircleDuotone, CircleFill as FoamCircleFill, CircleOverlap as FoamCircleOverlap, CircleOverlapDuotone as FoamCircleOverlapDuotone, CircleOverlapFill as FoamCircleOverlapFill, CirclePlus as FoamCirclePlus, CirclePlusDuotone as FoamCirclePlusDuotone, CirclePlusFill as FoamCirclePlusFill, CircleQuestionMark as FoamCircleQuestionMark, CircleQuestionMarkDuotone as FoamCircleQuestionMarkDuotone, CircleQuestionMarkFill as FoamCircleQuestionMarkFill, CircleX as FoamCircleX, CircleXDuotone as FoamCircleXDuotone, CircleXFill as FoamCircleXFill, CircleX as FoamClear, CircleXDuotone as FoamClearDuotone, CircleXFill as FoamClearFill, RemoveFormatting as FoamClearFormat, RemoveFormattingDuotone as FoamClearFormatDuotone, RemoveFormattingFill as FoamClearFormatFill, MousePointerClick as FoamClick, MousePointerClickDuotone as FoamClickDuotone, MousePointerClickFill as FoamClickFill, ClipboardList as FoamClipboardList, ClipboardListDuotone as FoamClipboardListDuotone, ClipboardListFill as FoamClipboardListFill, Clock as FoamClock, ClockArrowDown as FoamClockArrowDown, ClockArrowDownDuotone as FoamClockArrowDownDuotone, ClockArrowDownFill as FoamClockArrowDownFill, ClockArrowUp as FoamClockArrowUp, ClockArrowUpDuotone as FoamClockArrowUpDuotone, ClockArrowUpFill as FoamClockArrowUpFill, ClockDuotone as FoamClockDuotone, ClockFill as FoamClockFill, Copy as FoamClone, CopyDuotone as FoamCloneDuotone, CopyFill as FoamCloneFill, CircleX as FoamClose, CircleXDuotone as FoamCloseDuotone, CircleXFill as FoamCloseFill, QuotationMarkRight as FoamCloseQuote, QuotationMarkRightDuotone as FoamCloseQuoteDuotone, QuotationMarkRightFill as FoamCloseQuoteFill, Command as FoamCmd, CommandDuotone as FoamCmdDuotone, CommandFill as FoamCmdFill, Cog as FoamCog, CogDuotone as FoamCogDuotone, CogFill as FoamCogFill, Cog as FoamCogwheel, CogDuotone as FoamCogwheelDuotone, CogFill as FoamCogwheelFill, ChevronDown as FoamCollapse, ChevronDownDuotone as FoamCollapseDuotone, ChevronDownFill as FoamCollapseFill, Columns3 as FoamColumnLayout, Columns3Duotone as FoamColumnLayoutDuotone, Columns3Fill as FoamColumnLayoutFill, Columns3 as FoamColumns3, Columns3Duotone as FoamColumns3Duotone, Columns3Fill as FoamColumns3Fill, Command as FoamCommand, CommandDuotone as FoamCommandDuotone, CommandFill as FoamCommandFill, MessageSquare as FoamComment, MessageSquareDuotone as FoamCommentDuotone, MessageSquareFill as FoamCommentFill, MessagesSquare as FoamComments, MessagesSquareDuotone as FoamCommentsDuotone, MessagesSquareFill as FoamCommentsFill, Checkmark as FoamComplete, CheckmarkDuotone as FoamCompleteDuotone, CheckmarkFill as FoamCompleteFill, SquarePen as FoamCompose, SquarePenDuotone as FoamComposeDuotone, SquarePenFill as FoamComposeFill, Cog as FoamConfig, CogDuotone as FoamConfigDuotone, CogFill as FoamConfigFill, Cog as FoamConfiguration, CogDuotone as FoamConfigurationDuotone, CogFill as FoamConfigurationFill, Link as FoamConnect, LinkDuotone as FoamConnectDuotone, LinkFill as FoamConnectFill, Rolodex as FoamContacts, RolodexDuotone as FoamContactsDuotone, RolodexFill as FoamContactsFill, ContentHeart as FoamContentHeart, ContentHeartDuotone as FoamContentHeartDuotone, ContentHeartFill as FoamContentHeartFill, ContentPlus as FoamContentPlus, ContentPlusDuotone as FoamContentPlusDuotone, ContentPlusFill as FoamContentPlusFill, ContentUser as FoamContentUser, ContentUserDuotone as FoamContentUserDuotone, ContentUserFill as FoamContentUserFill, Eclipse as FoamContrast, EclipseDuotone as FoamContrastDuotone, EclipseFill as FoamContrastFill, SlidersHorizontal as FoamControls, SlidersHorizontalDuotone as FoamControlsDuotone, SlidersHorizontalFill as FoamControlsFill, MessagesSquare as FoamConversation, MessagesSquareDuotone as FoamConversationDuotone, MessagesSquareFill as FoamConversationFill, Copy as FoamCopy, CopyDuotone as FoamCopyDuotone, CopyFill as FoamCopyFill, Plus as FoamCreate, ContentPlus as FoamCreateContent, ContentPlusDuotone as FoamCreateContentDuotone, ContentPlusFill as FoamCreateContentFill, PlusDuotone as FoamCreateDuotone, FilePlus as FoamCreateFile, FilePlusDuotone as FoamCreateFileDuotone, FilePlusFill as FoamCreateFileFill, PlusFill as FoamCreateFill, MousePointerClick as FoamCursor, MousePointerClickDuotone as FoamCursorDuotone, MousePointerClickFill as FoamCursorFill, Moon as FoamDark, MoonDuotone as FoamDarkDuotone, MoonFill as FoamDarkFill, Moon as FoamDarkMode, MoonDuotone as FoamDarkModeDuotone, MoonFill as FoamDarkModeFill, Calendar as FoamDate, CalendarDuotone as FoamDateDuotone, CalendarFill as FoamDateFill, Sun as FoamDay, SunDuotone as FoamDayDuotone, SunFill as FoamDayFill, TrendingDown as FoamDecline, TrendingDownDuotone as FoamDeclineDuotone, TrendingDownFill as FoamDeclineFill, Minus as FoamDecrease, MinusDuotone as FoamDecreaseDuotone, MinusFill as FoamDecreaseFill, Trash as FoamDelete, TrashDuotone as FoamDeleteDuotone, TrashFill as FoamDeleteFill, ArrowDown01 as FoamDescending, ArrowDown01Duotone as FoamDescendingDuotone, ArrowDown01Fill as FoamDescendingFill, Grid1x2 as FoamDesign, Grid1x2Duotone as FoamDesignDuotone, Grid1x2Fill as FoamDesignFill, Info as FoamDetails, InfoDuotone as FoamDetailsDuotone, InfoFill as FoamDetailsFill, ArchiveArrowUp as FoamDirection, ArchiveArrowUpDuotone as FoamDirectionDuotone, ArchiveArrowUpFill as FoamDirectionFill, ThumbsDown as FoamDisapprove, ThumbsDownDuotone as FoamDisapproveDuotone, ThumbsDownFill as FoamDisapproveFill, Unlink as FoamDisconnect, UnlinkDuotone as FoamDisconnectDuotone, UnlinkFill as FoamDisconnectFill, Save as FoamDisk, SaveDuotone as FoamDiskDuotone, SaveFill as FoamDiskFill, ThumbsDown as FoamDislike, ThumbsDownDuotone as FoamDislikeDuotone, ThumbsDownFill as FoamDislikeFill, File as FoamDocument, FileDuotone as FoamDocumentDuotone, FileFill as FoamDocumentFill, CircleDollarSign as FoamDollar, CircleDollarSignDuotone as FoamDollarDuotone, CircleDollarSignFill as FoamDollarFill, Checkmark as FoamDone, CheckmarkDuotone as FoamDoneDuotone, CheckmarkFill as FoamDoneFill, ArrowDown as FoamDown, ArrowDownDuotone as FoamDownDuotone, ArrowDownFill as FoamDownFill, Download as FoamDownload, DownloadDuotone as FoamDownloadDuotone, FileArrowDown as FoamDownloadFile, FileArrowDownDuotone as FoamDownloadFileDuotone, FileArrowDownFill as FoamDownloadFileFill, DownloadFill as FoamDownloadFill, TrendingDown as FoamDowntrend, TrendingDownDuotone as FoamDowntrendDuotone, TrendingDownFill as FoamDowntrendFill, SquarePen as FoamDraft, SquarePenDuotone as FoamDraftDuotone, SquarePenFill as FoamDraftFill, Move as FoamDrag, MoveDuotone as FoamDragDuotone, MoveFill as FoamDragFill, PanelLeft as FoamDrawerLeft, PanelLeftDuotone as FoamDrawerLeftDuotone, PanelLeftFill as FoamDrawerLeftFill, PanelRight as FoamDrawerRight, PanelRightDuotone as FoamDrawerRightDuotone, PanelRightFill as FoamDrawerRightFill, ChevronDown as FoamDropdown, ChevronDownDuotone as FoamDropdownDuotone, ChevronDownFill as FoamDropdownFill, Copy as FoamDuplicate, CopyDuotone as FoamDuplicateDuotone, CopyFill as FoamDuplicateFill, ArrowRight as FoamEast, ArrowRightDuotone as FoamEastDuotone, ArrowRightFill as FoamEastFill, Eclipse as FoamEclipse, EclipseDuotone as FoamEclipseDuotone, EclipseFill as FoamEclipseFill, Pencil as FoamEdit, PencilDuotone as FoamEditDuotone, PencilFill as FoamEditFill, SquarePen as FoamEditor, SquarePenDuotone as FoamEditorDuotone, SquarePenFill as FoamEditorFill, Ellipsis as FoamEllipsis, EllipsisDuotone as FoamEllipsisDuotone, EllipsisFill as FoamEllipsisFill, EllipsisVertical as FoamEllipsisVertical, EllipsisVerticalDuotone as FoamEllipsisVerticalDuotone, EllipsisVerticalFill as FoamEllipsisVerticalFill, Mail as FoamEmail, MailDuotone as FoamEmailDuotone, MailFill as FoamEmailFill, Heart as FoamEmotion, HeartDuotone as FoamEmotionDuotone, HeartFill as FoamEmotionFill, Italic as FoamEmphasis, ItalicDuotone as FoamEmphasisDuotone, ItalicFill as FoamEmphasisFill, Maximize as FoamEnlarge, MaximizeDuotone as FoamEnlargeDuotone, MaximizeFill as FoamEnlargeFill, Mail as FoamEnvelope, MailDuotone as FoamEnvelopeDuotone, MailFill as FoamEnvelopeFill, SlidersHorizontal as FoamEqualizer, SlidersHorizontalDuotone as FoamEqualizerDuotone, SlidersHorizontalFill as FoamEqualizerFill, CircleAlert as FoamError, CircleAlertDuotone as FoamErrorDuotone, CircleAlertFill as FoamErrorFill, Calendar as FoamEvent, CalendarDuotone as FoamEventDuotone, CalendarFill as FoamEventFill, LogOut as FoamExit, LogOutDuotone as FoamExitDuotone, LogOutFill as FoamExitFill, ChevronUp as FoamExpand, ChevronUpDuotone as FoamExpandDuotone, ChevronUpFill as FoamExpandFill, Maximize as FoamExpandWindow, MaximizeDuotone as FoamExpandWindowDuotone, MaximizeFill as FoamExpandWindowFill, Search as FoamExplore, SearchDuotone as FoamExploreDuotone, SearchFill as FoamExploreFill, Download as FoamExport, DownloadDuotone as FoamExportDuotone, DownloadFill as FoamExportFill, ExternalLink as FoamExternal, ExternalLinkDuotone as FoamExternalDuotone, ExternalLinkFill as FoamExternalFill, ExternalLink as FoamExternalLink, ExternalLinkDuotone as FoamExternalLinkDuotone, ExternalLinkFill as FoamExternalLinkFill, Eye as FoamEye, EyeDuotone as FoamEyeDuotone, EyeFill as FoamEyeFill, EyeOff as FoamEyeOff, EyeOffDuotone as FoamEyeOffDuotone, EyeOffFill as FoamEyeOffFill, TrendingDown as FoamFalling, TrendingDownDuotone as FoamFallingDuotone, TrendingDownFill as FoamFallingFill, CircleQuestionMark as FoamFaq, CircleQuestionMarkDuotone as FoamFaqDuotone, CircleQuestionMarkFill as FoamFaqFill, Star as FoamFavorite, StarDuotone as FoamFavoriteDuotone, StarFill as FoamFavoriteFill, Star as FoamFavourite, StarDuotone as FoamFavouriteDuotone, StarFill as FoamFavouriteFill, File as FoamFile, FileUser as FoamFileAccount, FileUserDuotone as FoamFileAccountDuotone, FileUserFill as FoamFileAccountFill, FileArrowDown as FoamFileArrowDown, FileArrowDownDuotone as FoamFileArrowDownDuotone, FileArrowDownFill as FoamFileArrowDownFill, FileArrowLeft as FoamFileArrowLeft, FileArrowLeftDuotone as FoamFileArrowLeftDuotone, FileArrowLeftFill as FoamFileArrowLeftFill, FileArrowLeftRight as FoamFileArrowLeftRight, FileArrowLeftRightDuotone as FoamFileArrowLeftRightDuotone, FileArrowLeftRightFill as FoamFileArrowLeftRightFill, FileArrowRight as FoamFileArrowRight, FileArrowRightDuotone as FoamFileArrowRightDuotone, FileArrowRightFill as FoamFileArrowRightFill, FileArrowUp as FoamFileArrowUp, FileArrowUpDuotone as FoamFileArrowUpDuotone, FileArrowUpFill as FoamFileArrowUpFill, FileArrowLeft as FoamFileBack, FileArrowLeftDuotone as FoamFileBackDuotone, FileArrowLeftFill as FoamFileBackFill, FileX as FoamFileCancel, FileXDuotone as FoamFileCancelDuotone, FileXFill as FoamFileCancelFill, FileChartColumn as FoamFileChartColumn, FileChartColumnDuotone as FoamFileChartColumnDuotone, FileChartColumnFill as FoamFileChartColumnFill, FileCheck as FoamFileCheck, FileCheckDuotone as FoamFileCheckDuotone, FileCheckFill as FoamFileCheckFill, FileCog as FoamFileCog, FileCogDuotone as FoamFileCogDuotone, FileCogFill as FoamFileCogFill, FileCheck as FoamFileComplete, FileCheckDuotone as FoamFileCompleteDuotone, FileCheckFill as FoamFileCompleteFill, FileCog as FoamFileConfig, FileCogDuotone as FoamFileConfigDuotone, FileCogFill as FoamFileConfigFill, FileX as FoamFileDelete, FileXDuotone as FoamFileDeleteDuotone, FileXFill as FoamFileDeleteFill, FileCheck as FoamFileDone, FileCheckDuotone as FoamFileDoneDuotone, FileCheckFill as FoamFileDoneFill, FileDuotone as FoamFileDuotone, FileArrowLeftRight as FoamFileExchange, FileArrowLeftRightDuotone as FoamFileExchangeDuotone, FileArrowLeftRightFill as FoamFileExchangeFill, FileFill as FoamFileFill, FileArrowRight as FoamFileForward, FileArrowRightDuotone as FoamFileForwardDuotone, FileArrowRightFill as FoamFileForwardFill, FileImage as FoamFileImage, FileImageDuotone as FoamFileImageDuotone, FileImageFill as FoamFileImageFill, FileArrowRight as FoamFileNext, FileArrowRightDuotone as FoamFileNextDuotone, FileArrowRightFill as FoamFileNextFill, FilePlus as FoamFilePlus, FilePlusDuotone as FoamFilePlusDuotone, FilePlusFill as FoamFilePlusFill, FileArrowLeft as FoamFilePrevious, FileArrowLeftDuotone as FoamFilePreviousDuotone, FileArrowLeftFill as FoamFilePreviousFill, FileUser as FoamFileProfile, FileUserDuotone as FoamFileProfileDuotone, FileUserFill as FoamFileProfileFill, FileX as FoamFileRemove, FileXDuotone as FoamFileRemoveDuotone, FileXFill as FoamFileRemoveFill, FileCog as FoamFileSettings, FileCogDuotone as FoamFileSettingsDuotone, FileCogFill as FoamFileSettingsFill, FileArrowLeftRight as FoamFileSync, FileArrowLeftRightDuotone as FoamFileSyncDuotone, FileArrowLeftRightFill as FoamFileSyncFill, FileArrowLeftRight as FoamFileTransfer, FileArrowLeftRightDuotone as FoamFileTransferDuotone, FileArrowLeftRightFill as FoamFileTransferFill, FileUser as FoamFileUser, FileUserDuotone as FoamFileUserDuotone, FileUserFill as FoamFileUserFill, FileCheck as FoamFileVerified, FileCheckDuotone as FoamFileVerifiedDuotone, FileCheckFill as FoamFileVerifiedFill, FileX as FoamFileX, FileXDuotone as FoamFileXDuotone, FileXFill as FoamFileXFill, Reel as FoamFilm, ReelDuotone as FoamFilmDuotone, ReelFill as FoamFilmFill, ListFilter as FoamFilter, ListFilterDuotone as FoamFilterDuotone, ListFilterFill as FoamFilterFill, SlidersHorizontal as FoamFilters, SlidersHorizontalDuotone as FoamFiltersDuotone, SlidersHorizontalFill as FoamFiltersFill, Search as FoamFind, SearchDuotone as FoamFindDuotone, SearchFill as FoamFindFill, SearchUser as FoamFindUser, SearchUserDuotone as FoamFindUserDuotone, SearchUserFill as FoamFindUserFill, Flame as FoamFire, FlameDuotone as FoamFireDuotone, FlameFill as FoamFireFill, Bookmark as FoamFlag, BookmarkDuotone as FoamFlagDuotone, BookmarkFill as FoamFlagFill, Flame as FoamFlame, FlameDuotone as FoamFlameDuotone, FlameFill as FoamFlameFill, Save as FoamFloppy, SaveDuotone as FoamFloppyDuotone, SaveFill as FoamFloppyFill, ArrowRightToLine as FoamFold, ArrowRightToLineDuotone as FoamFoldDuotone, ArrowRightToLineFill as FoamFoldFill, Ban as FoamForbidden, BanDuotone as FoamForbiddenDuotone, BanFill as FoamForbiddenFill, Share as FoamForward, ShareDuotone as FoamForwardDuotone, ShareFill as FoamForwardFill, Frown as FoamFrown, FrownDuotone as FoamFrownDuotone, FrownFill as FoamFrownFill, Fullscreen as FoamFullScreen, FullscreenDuotone as FoamFullScreenDuotone, FullscreenFill as FoamFullScreenFill, Fullscreen as FoamFullscreen, FullscreenDuotone as FoamFullscreenDuotone, FullscreenFill as FoamFullscreenFill, ListFilter as FoamFunnel, ListFilterDuotone as FoamFunnelDuotone, ListFilterFill as FoamFunnelFill, Images as FoamGallery, ImagesDuotone as FoamGalleryDuotone, ImagesFill as FoamGalleryFill, Trash as FoamGarbage, TrashDuotone as FoamGarbageDuotone, TrashFill as FoamGarbageFill, Cog as FoamGear, CogDuotone as FoamGearDuotone, CogFill as FoamGearFill, Sparkles as FoamGenerate, SparklesDuotone as FoamGenerateDuotone, SparklesFill as FoamGenerateFill, MapPin as FoamGeo, MapPinDuotone as FoamGeoDuotone, MapPinFill as FoamGeoFill, Download as FoamGet, DownloadDuotone as FoamGetDuotone, DownloadFill as FoamGetFill, Globe as FoamGlobe, GlobeDuotone as FoamGlobeDuotone, GlobeFill as FoamGlobeFill, ChartColumnSquare as FoamGraph, ChartColumnSquareDuotone as FoamGraphDuotone, ChartColumnSquareFill as FoamGraphFill, Grid2x2 as FoamGrid, Grid1x2 as FoamGrid1x2, Grid1x2Duotone as FoamGrid1x2Duotone, Grid1x2Fill as FoamGrid1x2Fill, Grid2x2 as FoamGrid2x2, Grid2x2Duotone as FoamGrid2x2Duotone, Grid2x2Fill as FoamGrid2x2Fill, Grid2x2Duotone as FoamGridDuotone, Grid2x2Fill as FoamGridFill, Grip as FoamGrip, GripDuotone as FoamGripDuotone, GripFill as FoamGripFill, GripHorizontal as FoamGripHorizontal, GripHorizontalDuotone as FoamGripHorizontalDuotone, GripHorizontalFill as FoamGripHorizontalFill, GripVertical as FoamGripVertical, GripVerticalDuotone as FoamGripVerticalDuotone, GripVerticalFill as FoamGripVerticalFill, Users as FoamGroup, UsersDuotone as FoamGroupDuotone, UsersFill as FoamGroupFill, TrendingUp as FoamGrowth, TrendingUpDuotone as FoamGrowthDuotone, TrendingUpFill as FoamGrowthFill, Eclipse as FoamHalfMoon, EclipseDuotone as FoamHalfMoonDuotone, EclipseFill as FoamHalfMoonFill, Menu as FoamHamburger, MenuDuotone as FoamHamburgerDuotone, MenuFill as FoamHamburgerFill, Smile as FoamHappy, SmileDuotone as FoamHappyDuotone, SmileFill as FoamHappyFill, Heart as FoamHeart, HeartDuotone as FoamHeartDuotone, HeartFill as FoamHeartFill, CircleQuestionMark as FoamHelp, CircleQuestionMarkDuotone as FoamHelpDuotone, CircleQuestionMarkFill as FoamHelpFill, EyeOff as FoamHidden, EyeOffDuotone as FoamHiddenDuotone, EyeOffFill as FoamHiddenFill, EyeOff as FoamHide, EyeOffDuotone as FoamHideDuotone, EyeOffFill as FoamHideFill, History as FoamHistory, HistoryDuotone as FoamHistoryDuotone, HistoryFill as FoamHistoryFill, House as FoamHome, HouseDuotone as FoamHomeDuotone, HouseFill as FoamHomeFill, Rows2 as FoamHorizontalSplit, Rows2Duotone as FoamHorizontalSplitDuotone, Rows2Fill as FoamHorizontalSplitFill, Flame as FoamHot, FlameDuotone as FoamHotDuotone, FlameFill as FoamHotFill, Hotspot as FoamHotspot, HotspotDuotone as FoamHotspotDuotone, HotspotFill as FoamHotspotFill, House as FoamHouse, HouseDuotone as FoamHouseDuotone, HouseFill as FoamHouseFill, ArrowDownIG as FoamIgDown, ArrowDownIGDuotone as FoamIgDownDuotone, ArrowDownIGFill as FoamIgDownFill, ArrowUpIG as FoamIgUp, ArrowUpIGDuotone as FoamIgUpDuotone, ArrowUpIGFill as FoamIgUpFill, Image as FoamImage, ImageDuotone as FoamImageDuotone, ImageFill as FoamImageFill, Images as FoamImages, ImagesDuotone as FoamImagesDuotone, ImagesFill as FoamImagesFill, Upload as FoamImport, UploadDuotone as FoamImportDuotone, UploadFill as FoamImportFill, Reach as FoamImpressions, ReachDuotone as FoamImpressionsDuotone, ReachFill as FoamImpressionsFill, Inbox as FoamInbox, InboxDuotone as FoamInboxDuotone, InboxFill as FoamInboxFill, TrendingUp as FoamIncrease, TrendingUpDuotone as FoamIncreaseDuotone, TrendingUpFill as FoamIncreaseFill, ArrowRightToLine as FoamIndent, ArrowRightToLineDuotone as FoamIndentDuotone, ArrowRightToLineFill as FoamIndentFill, Info as FoamInfo, InfoDuotone as FoamInfoDuotone, InfoFill as FoamInfoFill, Info as FoamInformation, InfoDuotone as FoamInformationDuotone, InfoFill as FoamInformationFill, ArrowDownIG as FoamInstagramDown, ArrowDownIGDuotone as FoamInstagramDownDuotone, ArrowDownIGFill as FoamInstagramDownFill, ArrowUpIG as FoamInstagramUp, ArrowUpIGDuotone as FoamInstagramUpDuotone, ArrowUpIGFill as FoamInstagramUpFill, Globe as FoamInternet, GlobeDuotone as FoamInternetDuotone, GlobeFill as FoamInternetFill, EyeOff as FoamInvisible, EyeOffDuotone as FoamInvisibleDuotone, EyeOffFill as FoamInvisibleFill, Italic as FoamItalic, ItalicDuotone as FoamItalicDuotone, ItalicFill as FoamItalicFill, List as FoamItems, ListDuotone as FoamItemsDuotone, ListFill as FoamItemsFill, TextAlignJustify as FoamJustify, TextAlignJustifyDuotone as FoamJustifyDuotone, TextAlignJustifyFill as FoamJustifyFill, Command as FoamKeyboard, CommandDuotone as FoamKeyboardDuotone, CommandFill as FoamKeyboardFill, Globe as FoamLanguage, GlobeDuotone as FoamLanguageDuotone, GlobeFill as FoamLanguageFill, Grid2x2 as FoamLayout, Grid2x2Duotone as FoamLayoutDuotone, Grid2x2Fill as FoamLayoutFill, ArrowLeft as FoamLeft, ArrowLeftDuotone as FoamLeftDuotone, ArrowLeftFill as FoamLeftFill, Sun as FoamLight, SunDuotone as FoamLightDuotone, SunFill as FoamLightFill, ThumbsUp as FoamLike, ThumbsUpDuotone as FoamLikeDuotone, ThumbsUpFill as FoamLikeFill, Heart as FoamLikes, HeartDuotone as FoamLikesDuotone, HeartFill as FoamLikesFill, Link as FoamLink, LinkDuotone as FoamLinkDuotone, LinkFill as FoamLinkFill, List as FoamList, ListDuotone as FoamListDuotone, ListFill as FoamListFill, ListFilter as FoamListFilter, ListFilterDuotone as FoamListFilterDuotone, ListFilterFill as FoamListFilterFill, ListIndentDecrease as FoamListIndentDecrease, ListIndentDecreaseDuotone as FoamListIndentDecreaseDuotone, ListIndentDecreaseFill as FoamListIndentDecreaseFill, ListIndentIncrease as FoamListIndentIncrease, ListIndentIncreaseDuotone as FoamListIndentIncreaseDuotone, ListIndentIncreaseFill as FoamListIndentIncreaseFill, ListOrdered as FoamListOrdered, ListOrderedDuotone as FoamListOrderedDuotone, ListOrderedFill as FoamListOrderedFill, LoaderCircle as FoamLoaderCircle, LoaderCircleDuotone as FoamLoaderCircleDuotone, LoaderCircleFill as FoamLoaderCircleFill, LoaderCircle as FoamLoading, LoaderCircleDuotone as FoamLoadingDuotone, LoaderCircleFill as FoamLoadingFill, MapPin as FoamLocation, MapPinDuotone as FoamLocationDuotone, MapPinFill as FoamLocationFill, Lock as FoamLock, LockDuotone as FoamLockDuotone, LockFill as FoamLockFill, Lock as FoamLocked, LockDuotone as FoamLockedDuotone, LockFill as FoamLockedFill, LogOut as FoamLogOut, LogOutDuotone as FoamLogOutDuotone, LogOutFill as FoamLogOutFill, LogoFacebook as FoamLogoFacebook, LogoFacebookFill as FoamLogoFacebookFill, LogoFile as FoamLogoFile, LogoFileDark as FoamLogoFileDark, LogoFilePdf as FoamLogoFilePdf, LogoFilePdfDark as FoamLogoFilePdfDark, LogoFileSheet as FoamLogoFileSheet, LogoFileSheetDark as FoamLogoFileSheetDark, LogoFoam as FoamLogoFoam, LogoFoamDark as FoamLogoFoamDark, LogoFoamFill as FoamLogoFoamFill, LogoFoamSymbol as FoamLogoFoamSymbol, LogoFoamSymbolDark as FoamLogoFoamSymbolDark, LogoGmail as FoamLogoGmail, LogoGmailFill as FoamLogoGmailFill, LogoGoogle as FoamLogoGoogle, LogoGoogleFill as FoamLogoGoogleFill, LogoInstagram as FoamLogoInstagram, LogoInstagramDark as FoamLogoInstagramDark, LogoInstagramFill as FoamLogoInstagramFill, LogoLinkedin as FoamLogoLinkedin, LogoLinkedinDark as FoamLogoLinkedinDark, LogoLinkedinFill as FoamLogoLinkedinFill, LogoMicrosoft as FoamLogoMicrosoft, LogoMicrosoftFill as FoamLogoMicrosoftFill, LogoSnapchat as FoamLogoSnapchat, LogoSnapchatDark as FoamLogoSnapchatDark, LogoSnapchatFill as FoamLogoSnapchatFill, LogoTiktok as FoamLogoTiktok, LogoTiktokDark as FoamLogoTiktokDark, LogoTiktokFill as FoamLogoTiktokFill, LogoYoutube as FoamLogoYoutube, LogoYoutubeFill as FoamLogoYoutubeFill, LogOut as FoamLogout, LogOutDuotone as FoamLogoutDuotone, LogOutFill as FoamLogoutFill, Search as FoamLookup, SearchDuotone as FoamLookupDuotone, SearchFill as FoamLookupFill, SearchUser as FoamLookupPerson, SearchUserDuotone as FoamLookupPersonDuotone, SearchUserFill as FoamLookupPersonFill, Heart as FoamLove, HeartDuotone as FoamLoveDuotone, HeartFill as FoamLoveFill, Sparkles as FoamMagic, SparklesDuotone as FoamMagicDuotone, SparklesFill as FoamMagicFill, Search as FoamMagnifyingGlass, SearchDuotone as FoamMagnifyingGlassDuotone, SearchFill as FoamMagnifyingGlassFill, Mail as FoamMail, MailDuotone as FoamMailDuotone, MailFill as FoamMailFill, MailMove as FoamMailMove, MailMoveDuotone as FoamMailMoveDuotone, MailMoveFill as FoamMailMoveFill, MailPlus as FoamMailPlus, MailPlusDuotone as FoamMailPlusDuotone, MailPlusFill as FoamMailPlusFill, Inbox as FoamMailbox, InboxDuotone as FoamMailboxDuotone, InboxFill as FoamMailboxFill, MapPin as FoamMapPin, MapPinDuotone as FoamMapPinDuotone, MapPinFill as FoamMapPinFill, MapPin as FoamMarker, MapPinDuotone as FoamMarkerDuotone, MapPinFill as FoamMarkerFill, Megaphone as FoamMarketing, MegaphoneDuotone as FoamMarketingDuotone, MegaphoneFill as FoamMarketingFill, Maximize as FoamMaximize, MaximizeDuotone as FoamMaximizeDuotone, MaximizeFill as FoamMaximizeFill, Fullscreen as FoamMaximizeScreen, FullscreenDuotone as FoamMaximizeScreenDuotone, FullscreenFill as FoamMaximizeScreenFill, Image as FoamMedia, ImageDuotone as FoamMediaDuotone, ImageFill as FoamMediaFill, ContentUser as FoamMediaPacks, ContentUserDuotone as FoamMediaPacksDuotone, ContentUserFill as FoamMediaPacksFill, ContentUser as FoamMediapacks, ContentUserDuotone as FoamMediapacksDuotone, ContentUserFill as FoamMediapacksFill, Megaphone as FoamMegaphone, MegaphoneActive as FoamMegaphoneActive, MegaphoneActiveDuotone as FoamMegaphoneActiveDuotone, MegaphoneActiveFill as FoamMegaphoneActiveFill, MegaphoneDuotone as FoamMegaphoneDuotone, MegaphoneFill as FoamMegaphoneFill, Menu as FoamMenu, MenuDuotone as FoamMenuDuotone, MenuFill as FoamMenuFill, Mail as FoamMessage, MailDuotone as FoamMessageDuotone, MailFill as FoamMessageFill, MessageSquare as FoamMessageSquare, MessageSquareDuotone as FoamMessageSquareDuotone, MessageSquareFill as FoamMessageSquareFill, MessagesSquare as FoamMessagesSquare, MessagesSquareDuotone as FoamMessagesSquareDuotone, MessagesSquareFill as FoamMessagesSquareFill, Minus as FoamMinus, MinusDuotone as FoamMinusDuotone, MinusFill as FoamMinusFill, Pencil as FoamModify, PencilDuotone as FoamModifyDuotone, PencilFill as FoamModifyFill, CircleDollarSign as FoamMoney, CircleDollarSignDuotone as FoamMoneyDuotone, CircleDollarSignFill as FoamMoneyFill, Moon as FoamMoon, MoonDuotone as FoamMoonDuotone, MoonFill as FoamMoonFill, MousePointerClick as FoamMousePointerClick, MousePointerClickDuotone as FoamMousePointerClickDuotone, MousePointerClickFill as FoamMousePointerClickFill, Move as FoamMove, MoveDuotone as FoamMoveDuotone, MoveFill as FoamMoveFill, VolumeOff as FoamMute, VolumeOffDuotone as FoamMuteDuotone, VolumeOffFill as FoamMuteFill, Menu as FoamNavigation, MenuDuotone as FoamNavigationDuotone, MenuFill as FoamNavigationFill, Frown as FoamNegative, FrownDuotone as FoamNegativeDuotone, FrownFill as FoamNegativeFill, Plus as FoamNew, PlusDuotone as FoamNewDuotone, FilePlus as FoamNewFile, FilePlusDuotone as FoamNewFileDuotone, FilePlusFill as FoamNewFileFill, PlusFill as FoamNewFill, ContentPlus as FoamNewPost, ContentPlusDuotone as FoamNewPostDuotone, ContentPlusFill as FoamNewPostFill, ArrowRight as FoamNext, ArrowRightDuotone as FoamNextDuotone, ArrowRightFill as FoamNextFill, Moon as FoamNight, MoonDuotone as FoamNightDuotone, MoonFill as FoamNightFill, ThumbsDown as FoamNo, ThumbsDownDuotone as FoamNoDuotone, ThumbsDownFill as FoamNoFill, VolumeOff as FoamNoSound, VolumeOffDuotone as FoamNoSoundDuotone, VolumeOffFill as FoamNoSoundFill, ArrowUp as FoamNorth, ArrowUpDuotone as FoamNorthDuotone, ArrowUpFill as FoamNorthFill, Ban as FoamNotAllowed, BanDuotone as FoamNotAllowedDuotone, BanFill as FoamNotAllowedFill, Notebook as FoamNotebook, NotebookDuotone as FoamNotebookDuotone, NotebookFill as FoamNotebookFill, Bell as FoamNotification, BellDuotone as FoamNotificationDuotone, BellFill as FoamNotificationFill, ListOrdered as FoamNumberedList, ListOrderedDuotone as FoamNumberedListDuotone, ListOrderedFill as FoamNumberedListFill, Office as FoamOffice, OfficeDuotone as FoamOfficeDuotone, OfficeFill as FoamOfficeFill, ListOrdered as FoamOl, ListOrderedDuotone as FoamOlDuotone, ListOrderedFill as FoamOlFill, ExternalLink as FoamOpenNew, ExternalLinkDuotone as FoamOpenNewDuotone, ExternalLinkFill as FoamOpenNewFill, QuotationMarkLeft as FoamOpenQuote, QuotationMarkLeftDuotone as FoamOpenQuoteDuotone, QuotationMarkLeftFill as FoamOpenQuoteFill, Cog as FoamOptions, CogDuotone as FoamOptionsDuotone, CogFill as FoamOptionsFill, TriangleDownUp as FoamOrderToggle, TriangleDownUpDuotone as FoamOrderToggleDuotone, TriangleDownUpFill as FoamOrderToggleFill, File as FoamPage, FileDuotone as FoamPageDuotone, FileFill as FoamPageFill, PanelLeft as FoamPanelLeft, PanelLeftDuotone as FoamPanelLeftDuotone, PanelLeftFill as FoamPanelLeftFill, PanelRight as FoamPanelRight, PanelRightDuotone as FoamPanelRightDuotone, PanelRightFill as FoamPanelRightFill, History as FoamPast, HistoryDuotone as FoamPastDuotone, HistoryFill as FoamPastFill, CircleDollarSign as FoamPayment, CircleDollarSignDuotone as FoamPaymentDuotone, CircleDollarSignFill as FoamPaymentFill, Pencil as FoamPencil, PencilDuotone as FoamPencilDuotone, PencilFill as FoamPencilFill, Users as FoamPeople, UsersDuotone as FoamPeopleDuotone, UsersFill as FoamPeopleFill, User as FoamPerson, UserDuotone as FoamPersonDuotone, UserFill as FoamPersonFill, Users as FoamPersons, UsersDuotone as FoamPersonsDuotone, UsersFill as FoamPersonsFill, Image as FoamPhoto, ImageDuotone as FoamPhotoDuotone, ImageFill as FoamPhotoFill, Images as FoamPhotos, ImagesDuotone as FoamPhotosDuotone, ImagesFill as FoamPhotosFill, Image as FoamPicture, ImageDuotone as FoamPictureDuotone, ImageFill as FoamPictureFill, Images as FoamPictures, ImagesDuotone as FoamPicturesDuotone, ImagesFill as FoamPicturesFill, Pin as FoamPin, PinDuotone as FoamPinDuotone, PinFill as FoamPinFill, MapPin as FoamPlace, MapPinDuotone as FoamPlaceDuotone, MapPinFill as FoamPlaceFill, RemoveFormatting as FoamPlainText, RemoveFormattingDuotone as FoamPlainTextDuotone, RemoveFormattingFill as FoamPlainTextFill, Play as FoamPlay, Play as FoamPlayButton, PlayDuotone as FoamPlayButtonDuotone, PlayFill as FoamPlayButtonFill, PlayDuotone as FoamPlayDuotone, PlayFill as FoamPlayFill, Plus as FoamPlus, PlusDuotone as FoamPlusDuotone, PlusFill as FoamPlusFill, Pointer as FoamPointer, PointerDuotone as FoamPointerDuotone, PointerFill as FoamPointerFill, Smile as FoamPositive, SmileDuotone as FoamPositiveDuotone, SmileFill as FoamPositiveFill, Cog as FoamPreferences, CogDuotone as FoamPreferencesDuotone, CogFill as FoamPreferencesFill, Save as FoamPreserve, SaveDuotone as FoamPreserveDuotone, SaveFill as FoamPreserveFill, ContentUser as FoamPressKit, ContentUserDuotone as FoamPressKitDuotone, ContentUserFill as FoamPressKitFill, ArrowLeft as FoamPrevious, ArrowLeftDuotone as FoamPreviousDuotone, ArrowLeftFill as FoamPreviousFill, CircleDollarSign as FoamPrice, CircleDollarSignDuotone as FoamPriceDuotone, CircleDollarSignFill as FoamPriceFill, Lock as FoamPrivate, LockDuotone as FoamPrivateDuotone, LockFill as FoamPrivateFill, User as FoamProfile, UserDuotone as FoamProfileDuotone, UserFill as FoamProfileFill, LoaderCircle as FoamProgress, LoaderCircleDuotone as FoamProgressDuotone, LoaderCircleFill as FoamProgressFill, Ban as FoamProhibited, BanDuotone as FoamProhibitedDuotone, BanFill as FoamProhibitedFill, Megaphone as FoamPromote, MegaphoneDuotone as FoamPromoteDuotone, MegaphoneFill as FoamPromoteFill, Lock as FoamProtected, LockDuotone as FoamProtectedDuotone, LockFill as FoamProtectedFill, Unlock as FoamPublic, UnlockDuotone as FoamPublicDuotone, UnlockFill as FoamPublicFill, Search as FoamQuery, SearchDuotone as FoamQueryDuotone, SearchFill as FoamQueryFill, CircleQuestionMark as FoamQuestion, CircleQuestionMarkDuotone as FoamQuestionDuotone, CircleQuestionMarkFill as FoamQuestionFill, QuotationMarkLeft as FoamQuotationMarkLeft, QuotationMarkLeftDuotone as FoamQuotationMarkLeftDuotone, QuotationMarkLeftFill as FoamQuotationMarkLeftFill, QuotationMarkRight as FoamQuotationMarkRight, QuotationMarkRightDuotone as FoamQuotationMarkRightDuotone, QuotationMarkRightFill as FoamQuotationMarkRightFill, QuotationMarkLeft as FoamQuoteLeft, QuotationMarkLeftDuotone as FoamQuoteLeftDuotone, QuotationMarkLeftFill as FoamQuoteLeftFill, QuotationMarkRight as FoamQuoteRight, QuotationMarkRightDuotone as FoamQuoteRightDuotone, QuotationMarkRightFill as FoamQuoteRightFill, Star as FoamRating, StarDuotone as FoamRatingDuotone, StarFill as FoamRatingFill, Reach as FoamReach, ReachDuotone as FoamReachDuotone, ReachFill as FoamReachFill, History as FoamRecent, HistoryDuotone as FoamRecentDuotone, HistoryFill as FoamRecentFill, RotateCw as FoamRedo, RotateCwDuotone as FoamRedoDuotone, RotateCwFill as FoamRedoFill, Minus as FoamReduce, MinusDuotone as FoamReduceDuotone, MinusFill as FoamReduceFill, Reel as FoamReel, ReelDuotone as FoamReelDuotone, ReelFill as FoamReelFill, RefreshCw as FoamRefresh, RefreshCw as FoamRefreshCw, RefreshCwDuotone as FoamRefreshCwDuotone, RefreshCwFill as FoamRefreshCwFill, RefreshCwDuotone as FoamRefreshDuotone, RefreshCwFill as FoamRefreshFill, RefreshCw as FoamReload, RefreshCwDuotone as FoamReloadDuotone, RefreshCwFill as FoamReloadFill, Trash as FoamRemove, TrashDuotone as FoamRemoveDuotone, TrashFill as FoamRemoveFill, RemoveFormatting as FoamRemoveFormatting, RemoveFormattingDuotone as FoamRemoveFormattingDuotone, RemoveFormattingFill as FoamRemoveFormattingFill, ArrowDownUp as FoamReorder, ArrowDownUpDuotone as FoamReorderDuotone, ArrowDownUpFill as FoamReorderFill, Reply as FoamReply, ReplyDuotone as FoamReplyDuotone, ReplyFill as FoamReplyFill, Move as FoamReposition, MoveDuotone as FoamRepositionDuotone, MoveFill as FoamRepositionFill, Reply as FoamRespond, ReplyDuotone as FoamRespondDuotone, ReplyFill as FoamRespondFill, ArrowRight as FoamRight, ArrowRightDuotone as FoamRightDuotone, ArrowRightFill as FoamRightFill, TrendingUp as FoamRising, TrendingUpDuotone as FoamRisingDuotone, TrendingUpFill as FoamRisingFill, Rolodex as FoamRolodex, RolodexDuotone as FoamRolodexDuotone, RolodexFill as FoamRolodexFill, ClipboardList as FoamRoster, ClipboardListDuotone as FoamRosterDuotone, ClipboardListFill as FoamRosterFill, RotateCw as FoamRotate, RotateCw as FoamRotateCw, RotateCwDuotone as FoamRotateCwDuotone, RotateCwFill as FoamRotateCwFill, RotateCwDuotone as FoamRotateDuotone, RotateCwFill as FoamRotateFill, Rows2 as FoamRows, Rows2 as FoamRows2, Rows2Duotone as FoamRows2Duotone, Rows2Fill as FoamRows2Fill, Rows2Duotone as FoamRowsDuotone, Rows2Fill as FoamRowsFill, Frown as FoamSad, FrownDuotone as FoamSadDuotone, FrownFill as FoamSadFill, Save as FoamSave, SaveDuotone as FoamSaveDuotone, SaveFill as FoamSaveFill, Bookmark as FoamSaved, BookmarkDuotone as FoamSavedDuotone, BookmarkFill as FoamSavedFill, Calendar as FoamSchedule, CalendarDuotone as FoamScheduleDuotone, CalendarFill as FoamScheduleFill, Search as FoamSearch, SearchDuotone as FoamSearchDuotone, SearchFill as FoamSearchFill, SearchUser as FoamSearchPerson, SearchUserDuotone as FoamSearchPersonDuotone, SearchUserFill as FoamSearchPersonFill, SearchUser as FoamSearchUser, SearchUserDuotone as FoamSearchUserDuotone, SearchUserFill as FoamSearchUserFill, Lock as FoamSecure, LockDuotone as FoamSecureDuotone, LockFill as FoamSecureFill, Upload as FoamSend, UploadDuotone as FoamSendDuotone, UploadFill as FoamSendFill, Cog as FoamSettings, CogDuotone as FoamSettingsDuotone, CogFill as FoamSettingsFill, Share as FoamShare, ShareDuotone as FoamShareDuotone, ShareFill as FoamShareFill, Share as FoamShareLink, ShareDuotone as FoamShareLinkDuotone, ShareFill as FoamShareLinkFill, Sparkles as FoamShine, SparklesDuotone as FoamShineDuotone, SparklesFill as FoamShineFill, Reel as FoamShort, ReelDuotone as FoamShortDuotone, ReelFill as FoamShortFill, Reel as FoamShortVideo, ReelDuotone as FoamShortVideoDuotone, ReelFill as FoamShortVideoFill, Command as FoamShortcut, CommandDuotone as FoamShortcutDuotone, CommandFill as FoamShortcutFill, Eye as FoamShow, EyeDuotone as FoamShowDuotone, EyeFill as FoamShowFill, PanelLeft as FoamSidebarLeft, PanelLeftDuotone as FoamSidebarLeftDuotone, PanelLeftFill as FoamSidebarLeftFill, PanelRight as FoamSidebarRight, PanelRightDuotone as FoamSidebarRightDuotone, PanelRightFill as FoamSidebarRightFill, LogOut as FoamSignOut, LogOutDuotone as FoamSignOutDuotone, LogOutFill as FoamSignOutFill, Hotspot as FoamSignal, HotspotDuotone as FoamSignalDuotone, HotspotFill as FoamSignalFill, LogOut as FoamSignout, LogOutDuotone as FoamSignoutDuotone, LogOutFill as FoamSignoutFill, VolumeOff as FoamSilent, VolumeOffDuotone as FoamSilentDuotone, VolumeOffFill as FoamSilentFill, Slash as FoamSlash, SlashDuotone as FoamSlashDuotone, SlashFill as FoamSlashFill, SlidersHorizontal as FoamSlidersHorizontal, SlidersHorizontalDuotone as FoamSlidersHorizontalDuotone, SlidersHorizontalFill as FoamSlidersHorizontalFill, Smile as FoamSmile, SmileDuotone as FoamSmileDuotone, SmileFill as FoamSmileFill, Smile as FoamSmiley, SmileDuotone as FoamSmileyDuotone, SmileFill as FoamSmileyFill, ArrowDownSC as FoamSnapchat, ArrowDownSCDuotone as FoamSnapchatDuotone, ArrowDownSCFill as FoamSnapchatFill, ArrowDownUp as FoamSort, ArrowUpAZ as FoamSortAZ, ArrowUpAZDuotone as FoamSortAZDuotone, ArrowUpAZFill as FoamSortAZFill, ArrowUpAZ as FoamSortAlphaAsc, ArrowUpAZDuotone as FoamSortAlphaAscDuotone, ArrowUpAZFill as FoamSortAlphaAscFill, ArrowUpZA as FoamSortAlphaDesc, ArrowUpZADuotone as FoamSortAlphaDescDuotone, ArrowUpZAFill as FoamSortAlphaDescFill, ArrowDownNarrowWide as FoamSortAsc, ArrowUpNarrowWide as FoamSortAscAlt, ArrowUpNarrowWideDuotone as FoamSortAscAltDuotone, ArrowUpNarrowWideFill as FoamSortAscAltFill, ArrowDownNarrowWideDuotone as FoamSortAscDuotone, ArrowDownNarrowWideFill as FoamSortAscFill, ArrowDownNarrowWide as FoamSortAscending, ArrowDownNarrowWideDuotone as FoamSortAscendingDuotone, ArrowDownNarrowWideFill as FoamSortAscendingFill, ArrowUpWideNarrow as FoamSortDesc, ArrowDownWideNarrow as FoamSortDescAlt, ArrowDownWideNarrowDuotone as FoamSortDescAltDuotone, ArrowDownWideNarrowFill as FoamSortDescAltFill, ArrowUpWideNarrowDuotone as FoamSortDescDuotone, ArrowUpWideNarrowFill as FoamSortDescFill, ArrowUpWideNarrow as FoamSortDescending, ArrowUpWideNarrowDuotone as FoamSortDescendingDuotone, ArrowUpWideNarrowFill as FoamSortDescendingFill, ArrowDownUpDuotone as FoamSortDuotone, ArrowDownUpFill as FoamSortFill, ArrowDown01 as FoamSortNumeric, ArrowDown01Duotone as FoamSortNumericDuotone, ArrowDown01Fill as FoamSortNumericFill, TriangleDownUp as FoamSortToggle, TriangleDownUpDuotone as FoamSortToggleDuotone, TriangleDownUpFill as FoamSortToggleFill, ArrowUpZA as FoamSortZA, ArrowUpZADuotone as FoamSortZADuotone, ArrowUpZAFill as FoamSortZAFill, Volume2 as FoamSound, Volume2Duotone as FoamSoundDuotone, Volume2Fill as FoamSoundFill, ArrowDown as FoamSouth, ArrowDownDuotone as FoamSouthDuotone, ArrowDownFill as FoamSouthFill, Sparkles as FoamSparkles, SparklesDuotone as FoamSparklesDuotone, SparklesFill as FoamSparklesFill, Volume2 as FoamSpeaker, Volume2Duotone as FoamSpeakerDuotone, Volume2Fill as FoamSpeakerFill, VolumeOff as FoamSpeakerOff, VolumeOffDuotone as FoamSpeakerOffDuotone, VolumeOffFill as FoamSpeakerOffFill, LoaderCircle as FoamSpinner, LoaderCircleDuotone as FoamSpinnerDuotone, LoaderCircleFill as FoamSpinnerFill, Square as FoamSquare, SquareDuotone as FoamSquareDuotone, SquareFill as FoamSquareFill, SquarePen as FoamSquarePen, SquarePenDuotone as FoamSquarePenDuotone, SquarePenFill as FoamSquarePenFill, Star as FoamStar, StarDuotone as FoamStarDuotone, StarFill as FoamStarFill, Play as FoamStart, PlayDuotone as FoamStartDuotone, PlayFill as FoamStartFill, ChartColumnSquare as FoamStats, ChartColumnSquareDuotone as FoamStatsDuotone, ChartColumnSquareFill as FoamStatsFill, Pin as FoamStick, PinDuotone as FoamStickDuotone, PinFill as FoamStickFill, Square as FoamStop, SquareDuotone as FoamStopDuotone, SquareFill as FoamStopFill, Archive as FoamStorage, ArchiveDuotone as FoamStorageDuotone, ArchiveFill as FoamStorageFill, Bold as FoamStrong, BoldDuotone as FoamStrongDuotone, BoldFill as FoamStrongFill, Minus as FoamSubtract, MinusDuotone as FoamSubtractDuotone, MinusFill as FoamSubtractFill, Checkmark as FoamSuccess, CheckmarkDuotone as FoamSuccessDuotone, CheckmarkFill as FoamSuccessFill, Sun as FoamSun, SunDuotone as FoamSunDuotone, SunFill as FoamSunFill, CircleQuestionMark as FoamSupport, CircleQuestionMarkDuotone as FoamSupportDuotone, CircleQuestionMarkFill as FoamSupportFill, ArrowDownUp as FoamSwap, ArrowDownUpDuotone as FoamSwapDuotone, ArrowDownUpFill as FoamSwapFill, RefreshCw as FoamSync, RefreshCwDuotone as FoamSyncDuotone, RefreshCwFill as FoamSyncFill, Pin as FoamTack, PinDuotone as FoamTackDuotone, PinFill as FoamTackFill, Checkbox as FoamTask, CheckboxDuotone as FoamTaskDuotone, CheckboxFill as FoamTaskFill, ClipboardList as FoamTasks, ClipboardListDuotone as FoamTasksDuotone, ClipboardListFill as FoamTasksFill, Users as FoamTeam, UsersDuotone as FoamTeamDuotone, UsersFill as FoamTeamFill, TextAlignCenter as FoamTextAlignCenter, TextAlignCenterDuotone as FoamTextAlignCenterDuotone, TextAlignCenterFill as FoamTextAlignCenterFill, TextAlignEnd as FoamTextAlignEnd, TextAlignEndDuotone as FoamTextAlignEndDuotone, TextAlignEndFill as FoamTextAlignEndFill, TextAlignJustify as FoamTextAlignJustify, TextAlignJustifyDuotone as FoamTextAlignJustifyDuotone, TextAlignJustifyFill as FoamTextAlignJustifyFill, TextAlignStart as FoamTextAlignStart, TextAlignStartDuotone as FoamTextAlignStartDuotone, TextAlignStartFill as FoamTextAlignStartFill, Bold as FoamTextBold, BoldDuotone as FoamTextBoldDuotone, BoldFill as FoamTextBoldFill, Italic as FoamTextItalic, ItalicDuotone as FoamTextItalicDuotone, ItalicFill as FoamTextItalicFill, Columns3 as FoamThreeColumns, Columns3Duotone as FoamThreeColumnsDuotone, Columns3Fill as FoamThreeColumnsFill, ThumbsDown as FoamThumbsDown, ThumbsDownDuotone as FoamThumbsDownDuotone, ThumbsDownFill as FoamThumbsDownFill, ThumbsUp as FoamThumbsUp, ThumbsUpDuotone as FoamThumbsUpDuotone, ThumbsUpFill as FoamThumbsUpFill, Pin as FoamThumbtack, PinDuotone as FoamThumbtackDuotone, PinFill as FoamThumbtackFill, Checkmark as FoamTick, CheckmarkDuotone as FoamTickDuotone, CheckmarkFill as FoamTickFill, ArrowDownTT as FoamTiktok, ArrowDownTTDuotone as FoamTiktokDuotone, ArrowDownTTFill as FoamTiktokFill, Grid2x2 as FoamTiles, Grid2x2Duotone as FoamTilesDuotone, Grid2x2Fill as FoamTilesFill, Clock as FoamTime, ClockDuotone as FoamTimeDuotone, ClockFill as FoamTimeFill, CircleX as FoamTimes, CircleXDuotone as FoamTimesDuotone, CircleXFill as FoamTimesFill, ClipboardList as FoamTodo, ClipboardListDuotone as FoamTodoDuotone, ClipboardListFill as FoamTodoFill, Trash as FoamTrash, TrashDuotone as FoamTrashDuotone, TrashEmpty as FoamTrashEmpty, TrashEmptyDuotone as FoamTrashEmptyDuotone, TrashEmptyFill as FoamTrashEmptyFill, TrashFill as FoamTrashFill, Inbox as FoamTray, InboxDuotone as FoamTrayDuotone, InboxFill as FoamTrayFill, Flame as FoamTrending, TrendingDown as FoamTrendingDown, TrendingDownDuotone as FoamTrendingDownDuotone, TrendingDownFill as FoamTrendingDownFill, FlameDuotone as FoamTrendingDuotone, FlameFill as FoamTrendingFill, TrendingUp as FoamTrendingUp, TrendingUpDuotone as FoamTrendingUpDuotone, TrendingUpFill as FoamTrendingUpFill, TriangleDown as FoamTriangleDown, TriangleDownDuotone as FoamTriangleDownDuotone, TriangleDownFill as FoamTriangleDownFill, TriangleDownUp as FoamTriangleDownUp, TriangleDownUpDuotone as FoamTriangleDownUpDuotone, TriangleDownUpFill as FoamTriangleDownUpFill, TriangleUp as FoamTriangleUp, TriangleUpDuotone as FoamTriangleUpDuotone, TriangleUpFill as FoamTriangleUpFill, RotateCw as FoamTurn, RotateCwDuotone as FoamTurnDuotone, RotateCwFill as FoamTurnFill, History as FoamUndo, HistoryDuotone as FoamUndoDuotone, HistoryFill as FoamUndoFill, Frown as FoamUnhappy, FrownDuotone as FoamUnhappyDuotone, FrownFill as FoamUnhappyFill, Unlink as FoamUnlink, UnlinkDuotone as FoamUnlinkDuotone, UnlinkFill as FoamUnlinkFill, Unlock as FoamUnlock, UnlockDuotone as FoamUnlockDuotone, UnlockFill as FoamUnlockFill, Unlock as FoamUnlocked, UnlockDuotone as FoamUnlockedDuotone, UnlockFill as FoamUnlockedFill, Unlock as FoamUnsecure, UnlockDuotone as FoamUnsecureDuotone, UnlockFill as FoamUnsecureFill, ArrowUp as FoamUp, ArrowUpDuotone as FoamUpDuotone, ArrowUpFill as FoamUpFill, Upload as FoamUpload, UploadDuotone as FoamUploadDuotone, FileArrowUp as FoamUploadFile, FileArrowUpDuotone as FoamUploadFileDuotone, FileArrowUpFill as FoamUploadFileFill, UploadFill as FoamUploadFill, Link as FoamUrl, LinkDuotone as FoamUrlDuotone, LinkFill as FoamUrlFill, User as FoamUser, UserArrowLeft as FoamUserArrowLeft, UserArrowLeftDuotone as FoamUserArrowLeftDuotone, UserArrowLeftFill as FoamUserArrowLeftFill, UserArrowLeftRight as FoamUserArrowLeftRight, UserArrowLeftRightDuotone as FoamUserArrowLeftRightDuotone, UserArrowLeftRightFill as FoamUserArrowLeftRightFill, UserArrowOutUpRight as FoamUserArrowOutUpRight, UserArrowOutUpRightDuotone as FoamUserArrowOutUpRightDuotone, UserArrowOutUpRightFill as FoamUserArrowOutUpRightFill, UserArrowRight as FoamUserArrowRight, UserArrowRightDuotone as FoamUserArrowRightDuotone, UserArrowRightFill as FoamUserArrowRightFill, UserCog as FoamUserCog, UserCogDuotone as FoamUserCogDuotone, UserCogFill as FoamUserCogFill, FileUser as FoamUserDocument, FileUserDuotone as FoamUserDocumentDuotone, FileUserFill as FoamUserDocumentFill, UserDuotone as FoamUserDuotone, UserFill as FoamUserFill, UserPlus as FoamUserPlus, UserPlusDuotone as FoamUserPlusDuotone, UserPlusFill as FoamUserPlusFill, SearchUser as FoamUserSearch, SearchUserDuotone as FoamUserSearchDuotone, SearchUserFill as FoamUserSearchFill, Users as FoamUsers, UsersDuotone as FoamUsersDuotone, UsersFill as FoamUsersFill, Play as FoamVideo, PlayDuotone as FoamVideoDuotone, PlayFill as FoamVideoFill, Eye as FoamView, EyeDuotone as FoamViewDuotone, EyeFill as FoamViewFill, Reach as FoamViews, ReachDuotone as FoamViewsDuotone, ReachFill as FoamViewsFill, Eye as FoamVisibility, EyeDuotone as FoamVisibilityDuotone, EyeFill as FoamVisibilityFill, Eye as FoamVisible, EyeDuotone as FoamVisibleDuotone, EyeFill as FoamVisibleFill, Volume2 as FoamVolume, Volume2 as FoamVolume2, Volume2Duotone as FoamVolume2Duotone, Volume2Fill as FoamVolume2Fill, Volume2Duotone as FoamVolumeDuotone, Volume2Fill as FoamVolumeFill, VolumeOff as FoamVolumeOff, VolumeOffDuotone as FoamVolumeOffDuotone, VolumeOffFill as FoamVolumeOffFill, Alert as FoamWarning, CircleAlert as FoamWarningCircle, CircleAlertDuotone as FoamWarningCircleDuotone, CircleAlertFill as FoamWarningCircleFill, AlertDuotone as FoamWarningDuotone, AlertFill as FoamWarningFill, Clock as FoamWatch, ClockDuotone as FoamWatchDuotone, ClockFill as FoamWatchFill, Globe as FoamWeb, GlobeDuotone as FoamWebDuotone, GlobeFill as FoamWebFill, ArrowLeft as FoamWest, ArrowLeftDuotone as FoamWestDuotone, ArrowLeftFill as FoamWestFill, Hotspot as FoamWifi, HotspotDuotone as FoamWifiDuotone, HotspotFill as FoamWifiFill, Hotspot as FoamWireless, HotspotDuotone as FoamWirelessDuotone, HotspotFill as FoamWirelessFill, Globe as FoamWorld, GlobeDuotone as FoamWorldDuotone, GlobeFill as FoamWorldFill, Pencil as FoamWrite, PencilDuotone as FoamWriteDuotone, PencilFill as FoamWriteFill, SquarePen as FoamWriteNew, SquarePenDuotone as FoamWriteNewDuotone, SquarePenFill as FoamWriteNewFill, CircleX as FoamX, CircleXDuotone as FoamXDuotone, CircleXFill as FoamXFill, ThumbsUp as FoamYes, ThumbsUpDuotone as FoamYesDuotone, ThumbsUpFill as FoamYesFill, ArrowDownYT as FoamYoutube, ArrowDownYTDuotone as FoamYoutubeDuotone, ArrowDownYTFill as FoamYoutubeFill, ArrowRightToLine as Fold, ArrowRightToLineDuotone as FoldDuotone, ArrowRightToLineDuotone as FoldDuotoneIcon, ArrowRightToLineFill as FoldFill, ArrowRightToLineFill as FoldFillIcon, ArrowRightToLine as FoldIcon, Ban as Forbidden, BanDuotone as ForbiddenDuotone, BanDuotone as ForbiddenDuotoneIcon, BanFill as ForbiddenFill, BanFill as ForbiddenFillIcon, Ban as ForbiddenIcon, Share as Forward, ShareDuotone as ForwardDuotone, ShareDuotone as ForwardDuotoneIcon, ShareFill as ForwardFill, ShareFill as ForwardFillIcon, Share as ForwardIcon, Frown, FrownDuotone, FrownDuotone as FrownDuotoneIcon, FrownFill, FrownFill as FrownFillIcon, Frown as FrownIcon, Fullscreen as FullScreen, FullscreenDuotone as FullScreenDuotone, FullscreenDuotone as FullScreenDuotoneIcon, FullscreenFill as FullScreenFill, FullscreenFill as FullScreenFillIcon, Fullscreen as FullScreenIcon, Fullscreen, FullscreenDuotone, FullscreenDuotone as FullscreenDuotoneIcon, FullscreenFill, FullscreenFill as FullscreenFillIcon, Fullscreen as FullscreenIcon, ListFilter as Funnel, ListFilterDuotone as FunnelDuotone, ListFilterDuotone as FunnelDuotoneIcon, ListFilterFill as FunnelFill, ListFilterFill as FunnelFillIcon, ListFilter as FunnelIcon, Images as Gallery, ImagesDuotone as GalleryDuotone, ImagesDuotone as GalleryDuotoneIcon, ImagesFill as GalleryFill, ImagesFill as GalleryFillIcon, Images as GalleryIcon, Trash as Garbage, TrashDuotone as GarbageDuotone, TrashDuotone as GarbageDuotoneIcon, TrashFill as GarbageFill, TrashFill as GarbageFillIcon, Trash as GarbageIcon, Cog as Gear, CogDuotone as GearDuotone, CogDuotone as GearDuotoneIcon, CogFill as GearFill, CogFill as GearFillIcon, Cog as GearIcon, Sparkles as Generate, SparklesDuotone as GenerateDuotone, SparklesDuotone as GenerateDuotoneIcon, SparklesFill as GenerateFill, SparklesFill as GenerateFillIcon, Sparkles as GenerateIcon, MapPin as Geo, MapPinDuotone as GeoDuotone, MapPinDuotone as GeoDuotoneIcon, MapPinFill as GeoFill, MapPinFill as GeoFillIcon, MapPin as GeoIcon, Download as Get, DownloadDuotone as GetDuotone, DownloadDuotone as GetDuotoneIcon, DownloadFill as GetFill, DownloadFill as GetFillIcon, Download as GetIcon, Globe, GlobeDuotone, GlobeDuotone as GlobeDuotoneIcon, GlobeFill, GlobeFill as GlobeFillIcon, Globe as GlobeIcon, ChartColumnSquare as Graph, ChartColumnSquareDuotone as GraphDuotone, ChartColumnSquareDuotone as GraphDuotoneIcon, ChartColumnSquareFill as GraphFill, ChartColumnSquareFill as GraphFillIcon, ChartColumnSquare as GraphIcon, Grid2x2 as Grid, Grid1x2, Grid1x2Duotone, Grid1x2Duotone as Grid1x2DuotoneIcon, Grid1x2Fill, Grid1x2Fill as Grid1x2FillIcon, Grid1x2 as Grid1x2Icon, Grid2x2, Grid2x2Duotone, Grid2x2Duotone as Grid2x2DuotoneIcon, Grid2x2Fill, Grid2x2Fill as Grid2x2FillIcon, Grid2x2 as Grid2x2Icon, Grid2x2Duotone as GridDuotone, Grid2x2Duotone as GridDuotoneIcon, Grid2x2Fill as GridFill, Grid2x2Fill as GridFillIcon, Grid2x2 as GridIcon, Grip, GripDuotone, GripDuotone as GripDuotoneIcon, GripFill, GripFill as GripFillIcon, GripHorizontal, GripHorizontalDuotone, GripHorizontalDuotone as GripHorizontalDuotoneIcon, GripHorizontalFill, GripHorizontalFill as GripHorizontalFillIcon, GripHorizontal as GripHorizontalIcon, Grip as GripIcon, GripVertical, GripVerticalDuotone, GripVerticalDuotone as GripVerticalDuotoneIcon, GripVerticalFill, GripVerticalFill as GripVerticalFillIcon, GripVertical as GripVerticalIcon, Users as Group, UsersDuotone as GroupDuotone, UsersDuotone as GroupDuotoneIcon, UsersFill as GroupFill, UsersFill as GroupFillIcon, Users as GroupIcon, TrendingUp as Growth, TrendingUpDuotone as GrowthDuotone, TrendingUpDuotone as GrowthDuotoneIcon, TrendingUpFill as GrowthFill, TrendingUpFill as GrowthFillIcon, TrendingUp as GrowthIcon, Eclipse as HalfMoon, EclipseDuotone as HalfMoonDuotone, EclipseDuotone as HalfMoonDuotoneIcon, EclipseFill as HalfMoonFill, EclipseFill as HalfMoonFillIcon, Eclipse as HalfMoonIcon, Menu as Hamburger, MenuDuotone as HamburgerDuotone, MenuDuotone as HamburgerDuotoneIcon, MenuFill as HamburgerFill, MenuFill as HamburgerFillIcon, Menu as HamburgerIcon, Smile as Happy, SmileDuotone as HappyDuotone, SmileDuotone as HappyDuotoneIcon, SmileFill as HappyFill, SmileFill as HappyFillIcon, Smile as HappyIcon, Heart, HeartDuotone, HeartDuotone as HeartDuotoneIcon, HeartFill, HeartFill as HeartFillIcon, Heart as HeartIcon, CircleQuestionMark as Help, CircleQuestionMarkDuotone as HelpDuotone, CircleQuestionMarkDuotone as HelpDuotoneIcon, CircleQuestionMarkFill as HelpFill, CircleQuestionMarkFill as HelpFillIcon, CircleQuestionMark as HelpIcon, EyeOff as Hidden, EyeOffDuotone as HiddenDuotone, EyeOffDuotone as HiddenDuotoneIcon, EyeOffFill as HiddenFill, EyeOffFill as HiddenFillIcon, EyeOff as HiddenIcon, EyeOff as Hide, EyeOffDuotone as HideDuotone, EyeOffDuotone as HideDuotoneIcon, EyeOffFill as HideFill, EyeOffFill as HideFillIcon, EyeOff as HideIcon, History, HistoryDuotone, HistoryDuotone as HistoryDuotoneIcon, HistoryFill, HistoryFill as HistoryFillIcon, History as HistoryIcon, House as Home, HouseDuotone as HomeDuotone, HouseDuotone as HomeDuotoneIcon, HouseFill as HomeFill, HouseFill as HomeFillIcon, House as HomeIcon, Rows2 as HorizontalSplit, Rows2Duotone as HorizontalSplitDuotone, Rows2Duotone as HorizontalSplitDuotoneIcon, Rows2Fill as HorizontalSplitFill, Rows2Fill as HorizontalSplitFillIcon, Rows2 as HorizontalSplitIcon, Flame as Hot, FlameDuotone as HotDuotone, FlameDuotone as HotDuotoneIcon, FlameFill as HotFill, FlameFill as HotFillIcon, Flame as HotIcon, Hotspot, HotspotDuotone, HotspotDuotone as HotspotDuotoneIcon, HotspotFill, HotspotFill as HotspotFillIcon, Hotspot as HotspotIcon, House, HouseDuotone, HouseDuotone as HouseDuotoneIcon, HouseFill, HouseFill as HouseFillIcon, House as HouseIcon, Icon, ArrowDownIG as IgDown, ArrowDownIGDuotone as IgDownDuotone, ArrowDownIGDuotone as IgDownDuotoneIcon, ArrowDownIGFill as IgDownFill, ArrowDownIGFill as IgDownFillIcon, ArrowDownIG as IgDownIcon, ArrowUpIG as IgUp, ArrowUpIGDuotone as IgUpDuotone, ArrowUpIGDuotone as IgUpDuotoneIcon, ArrowUpIGFill as IgUpFill, ArrowUpIGFill as IgUpFillIcon, ArrowUpIG as IgUpIcon, Image, ImageDuotone, ImageDuotone as ImageDuotoneIcon, ImageFill, ImageFill as ImageFillIcon, Image as ImageIcon, Images, ImagesDuotone, ImagesDuotone as ImagesDuotoneIcon, ImagesFill, ImagesFill as ImagesFillIcon, Images as ImagesIcon, Upload as Import, UploadDuotone as ImportDuotone, UploadDuotone as ImportDuotoneIcon, UploadFill as ImportFill, UploadFill as ImportFillIcon, Upload as ImportIcon, Reach as Impressions, ReachDuotone as ImpressionsDuotone, ReachDuotone as ImpressionsDuotoneIcon, ReachFill as ImpressionsFill, ReachFill as ImpressionsFillIcon, Reach as ImpressionsIcon, Inbox, InboxDuotone, InboxDuotone as InboxDuotoneIcon, InboxFill, InboxFill as InboxFillIcon, Inbox as InboxIcon, TrendingUp as Increase, TrendingUpDuotone as IncreaseDuotone, TrendingUpDuotone as IncreaseDuotoneIcon, TrendingUpFill as IncreaseFill, TrendingUpFill as IncreaseFillIcon, TrendingUp as IncreaseIcon, ArrowRightToLine as Indent, ArrowRightToLineDuotone as IndentDuotone, ArrowRightToLineDuotone as IndentDuotoneIcon, ArrowRightToLineFill as IndentFill, ArrowRightToLineFill as IndentFillIcon, ArrowRightToLine as IndentIcon, Info, InfoDuotone, InfoDuotone as InfoDuotoneIcon, InfoFill, InfoFill as InfoFillIcon, Info as InfoIcon, Info as Information, InfoDuotone as InformationDuotone, InfoDuotone as InformationDuotoneIcon, InfoFill as InformationFill, InfoFill as InformationFillIcon, Info as InformationIcon, ArrowDownIG as InstagramDown, ArrowDownIGDuotone as InstagramDownDuotone, ArrowDownIGDuotone as InstagramDownDuotoneIcon, ArrowDownIGFill as InstagramDownFill, ArrowDownIGFill as InstagramDownFillIcon, ArrowDownIG as InstagramDownIcon, ArrowUpIG as InstagramUp, ArrowUpIGDuotone as InstagramUpDuotone, ArrowUpIGDuotone as InstagramUpDuotoneIcon, ArrowUpIGFill as InstagramUpFill, ArrowUpIGFill as InstagramUpFillIcon, ArrowUpIG as InstagramUpIcon, Globe as Internet, GlobeDuotone as InternetDuotone, GlobeDuotone as InternetDuotoneIcon, GlobeFill as InternetFill, GlobeFill as InternetFillIcon, Globe as InternetIcon, EyeOff as Invisible, EyeOffDuotone as InvisibleDuotone, EyeOffDuotone as InvisibleDuotoneIcon, EyeOffFill as InvisibleFill, EyeOffFill as InvisibleFillIcon, EyeOff as InvisibleIcon, Italic, ItalicDuotone, ItalicDuotone as ItalicDuotoneIcon, ItalicFill, ItalicFill as ItalicFillIcon, Italic as ItalicIcon, List as Items, ListDuotone as ItemsDuotone, ListDuotone as ItemsDuotoneIcon, ListFill as ItemsFill, ListFill as ItemsFillIcon, List as ItemsIcon, TextAlignJustify as Justify, TextAlignJustifyDuotone as JustifyDuotone, TextAlignJustifyDuotone as JustifyDuotoneIcon, TextAlignJustifyFill as JustifyFill, TextAlignJustifyFill as JustifyFillIcon, TextAlignJustify as JustifyIcon, Command as Keyboard, CommandDuotone as KeyboardDuotone, CommandDuotone as KeyboardDuotoneIcon, CommandFill as KeyboardFill, CommandFill as KeyboardFillIcon, Command as KeyboardIcon, Globe as Language, GlobeDuotone as LanguageDuotone, GlobeDuotone as LanguageDuotoneIcon, GlobeFill as LanguageFill, GlobeFill as LanguageFillIcon, Globe as LanguageIcon, Grid2x2 as Layout, Grid2x2Duotone as LayoutDuotone, Grid2x2Duotone as LayoutDuotoneIcon, Grid2x2Fill as LayoutFill, Grid2x2Fill as LayoutFillIcon, Grid2x2 as LayoutIcon, ArrowLeft as Left, ArrowLeftDuotone as LeftDuotone, ArrowLeftDuotone as LeftDuotoneIcon, ArrowLeftFill as LeftFill, ArrowLeftFill as LeftFillIcon, ArrowLeft as LeftIcon, Sun as Light, SunDuotone as LightDuotone, SunDuotone as LightDuotoneIcon, SunFill as LightFill, SunFill as LightFillIcon, Sun as LightIcon, ThumbsUp as Like, ThumbsUpDuotone as LikeDuotone, ThumbsUpDuotone as LikeDuotoneIcon, ThumbsUpFill as LikeFill, ThumbsUpFill as LikeFillIcon, ThumbsUp as LikeIcon, Heart as Likes, HeartDuotone as LikesDuotone, HeartDuotone as LikesDuotoneIcon, HeartFill as LikesFill, HeartFill as LikesFillIcon, Heart as LikesIcon, Link, LinkDuotone, LinkDuotone as LinkDuotoneIcon, LinkFill, LinkFill as LinkFillIcon, Link as LinkIcon, List, ListDuotone, ListDuotone as ListDuotoneIcon, ListFill, ListFill as ListFillIcon, ListFilter, ListFilterDuotone, ListFilterDuotone as ListFilterDuotoneIcon, ListFilterFill, ListFilterFill as ListFilterFillIcon, ListFilter as ListFilterIcon, List as ListIcon, ListIndentDecrease, ListIndentDecreaseDuotone, ListIndentDecreaseDuotone as ListIndentDecreaseDuotoneIcon, ListIndentDecreaseFill, ListIndentDecreaseFill as ListIndentDecreaseFillIcon, ListIndentDecrease as ListIndentDecreaseIcon, ListIndentIncrease, ListIndentIncreaseDuotone, ListIndentIncreaseDuotone as ListIndentIncreaseDuotoneIcon, ListIndentIncreaseFill, ListIndentIncreaseFill as ListIndentIncreaseFillIcon, ListIndentIncrease as ListIndentIncreaseIcon, ListOrdered, ListOrderedDuotone, ListOrderedDuotone as ListOrderedDuotoneIcon, ListOrderedFill, ListOrderedFill as ListOrderedFillIcon, ListOrdered as ListOrderedIcon, LoaderCircle, LoaderCircleDuotone, LoaderCircleDuotone as LoaderCircleDuotoneIcon, LoaderCircleFill, LoaderCircleFill as LoaderCircleFillIcon, LoaderCircle as LoaderCircleIcon, LoaderCircle as Loading, LoaderCircleDuotone as LoadingDuotone, LoaderCircleDuotone as LoadingDuotoneIcon, LoaderCircleFill as LoadingFill, LoaderCircleFill as LoadingFillIcon, LoaderCircle as LoadingIcon, MapPin as Location, MapPinDuotone as LocationDuotone, MapPinDuotone as LocationDuotoneIcon, MapPinFill as LocationFill, MapPinFill as LocationFillIcon, MapPin as LocationIcon, Lock, LockDuotone, LockDuotone as LockDuotoneIcon, LockFill, LockFill as LockFillIcon, Lock as LockIcon, Lock as Locked, LockDuotone as LockedDuotone, LockDuotone as LockedDuotoneIcon, LockFill as LockedFill, LockFill as LockedFillIcon, Lock as LockedIcon, LogOut, LogOutDuotone, LogOutDuotone as LogOutDuotoneIcon, LogOutFill, LogOutFill as LogOutFillIcon, LogOut as LogOutIcon, LogoFacebook, LogoFacebookFill, LogoFacebookFill as LogoFacebookFillIcon, LogoFacebook as LogoFacebookIcon, LogoFile, LogoFileDark, LogoFileDark as LogoFileDarkIcon, LogoFile as LogoFileIcon, LogoFilePdf, LogoFilePdfDark, LogoFilePdfDark as LogoFilePdfDarkIcon, LogoFilePdf as LogoFilePdfIcon, LogoFileSheet, LogoFileSheetDark, LogoFileSheetDark as LogoFileSheetDarkIcon, LogoFileSheet as LogoFileSheetIcon, LogoFoam, LogoFoamDark, LogoFoamDark as LogoFoamDarkIcon, LogoFoamFill, LogoFoamFill as LogoFoamFillIcon, LogoFoam as LogoFoamIcon, LogoFoamSymbol, LogoFoamSymbolDark, LogoFoamSymbolDark as LogoFoamSymbolDarkIcon, LogoFoamSymbol as LogoFoamSymbolIcon, LogoGmail, LogoGmailFill, LogoGmailFill as LogoGmailFillIcon, LogoGmail as LogoGmailIcon, LogoGoogle, LogoGoogleFill, LogoGoogleFill as LogoGoogleFillIcon, LogoGoogle as LogoGoogleIcon, LogoInstagram, LogoInstagramDark, LogoInstagramDark as LogoInstagramDarkIcon, LogoInstagramFill, LogoInstagramFill as LogoInstagramFillIcon, LogoInstagram as LogoInstagramIcon, LogoLinkedin, LogoLinkedinDark, LogoLinkedinDark as LogoLinkedinDarkIcon, LogoLinkedinFill, LogoLinkedinFill as LogoLinkedinFillIcon, LogoLinkedin as LogoLinkedinIcon, LogoMicrosoft, LogoMicrosoftFill, LogoMicrosoftFill as LogoMicrosoftFillIcon, LogoMicrosoft as LogoMicrosoftIcon, LogoSnapchat, LogoSnapchatDark, LogoSnapchatDark as LogoSnapchatDarkIcon, LogoSnapchatFill, LogoSnapchatFill as LogoSnapchatFillIcon, LogoSnapchat as LogoSnapchatIcon, LogoTiktok, LogoTiktokDark, LogoTiktokDark as LogoTiktokDarkIcon, LogoTiktokFill, LogoTiktokFill as LogoTiktokFillIcon, LogoTiktok as LogoTiktokIcon, LogoYoutube, LogoYoutubeFill, LogoYoutubeFill as LogoYoutubeFillIcon, LogoYoutube as LogoYoutubeIcon, LogOut as Logout, LogOutDuotone as LogoutDuotone, LogOutDuotone as LogoutDuotoneIcon, LogOutFill as LogoutFill, LogOutFill as LogoutFillIcon, LogOut as LogoutIcon, Search as Lookup, SearchDuotone as LookupDuotone, SearchDuotone as LookupDuotoneIcon, SearchFill as LookupFill, SearchFill as LookupFillIcon, Search as LookupIcon, SearchUser as LookupPerson, SearchUserDuotone as LookupPersonDuotone, SearchUserDuotone as LookupPersonDuotoneIcon, SearchUserFill as LookupPersonFill, SearchUserFill as LookupPersonFillIcon, SearchUser as LookupPersonIcon, Heart as Love, HeartDuotone as LoveDuotone, HeartDuotone as LoveDuotoneIcon, HeartFill as LoveFill, HeartFill as LoveFillIcon, Heart as LoveIcon, Sparkles as Magic, SparklesDuotone as MagicDuotone, SparklesDuotone as MagicDuotoneIcon, SparklesFill as MagicFill, SparklesFill as MagicFillIcon, Sparkles as MagicIcon, Search as MagnifyingGlass, SearchDuotone as MagnifyingGlassDuotone, SearchDuotone as MagnifyingGlassDuotoneIcon, SearchFill as MagnifyingGlassFill, SearchFill as MagnifyingGlassFillIcon, Search as MagnifyingGlassIcon, Mail, MailDuotone, MailDuotone as MailDuotoneIcon, MailFill, MailFill as MailFillIcon, Mail as MailIcon, MailMove, MailMoveDuotone, MailMoveDuotone as MailMoveDuotoneIcon, MailMoveFill, MailMoveFill as MailMoveFillIcon, MailMove as MailMoveIcon, MailPlus, MailPlusDuotone, MailPlusDuotone as MailPlusDuotoneIcon, MailPlusFill, MailPlusFill as MailPlusFillIcon, MailPlus as MailPlusIcon, Inbox as Mailbox, InboxDuotone as MailboxDuotone, InboxDuotone as MailboxDuotoneIcon, InboxFill as MailboxFill, InboxFill as MailboxFillIcon, Inbox as MailboxIcon, MapPin, MapPinDuotone, MapPinDuotone as MapPinDuotoneIcon, MapPinFill, MapPinFill as MapPinFillIcon, MapPin as MapPinIcon, MapPin as Marker, MapPinDuotone as MarkerDuotone, MapPinDuotone as MarkerDuotoneIcon, MapPinFill as MarkerFill, MapPinFill as MarkerFillIcon, MapPin as MarkerIcon, Megaphone as Marketing, MegaphoneDuotone as MarketingDuotone, MegaphoneDuotone as MarketingDuotoneIcon, MegaphoneFill as MarketingFill, MegaphoneFill as MarketingFillIcon, Megaphone as MarketingIcon, Maximize, MaximizeDuotone, MaximizeDuotone as MaximizeDuotoneIcon, MaximizeFill, MaximizeFill as MaximizeFillIcon, Maximize as MaximizeIcon, Fullscreen as MaximizeScreen, FullscreenDuotone as MaximizeScreenDuotone, FullscreenDuotone as MaximizeScreenDuotoneIcon, FullscreenFill as MaximizeScreenFill, FullscreenFill as MaximizeScreenFillIcon, Fullscreen as MaximizeScreenIcon, Image as Media, ImageDuotone as MediaDuotone, ImageDuotone as MediaDuotoneIcon, ImageFill as MediaFill, ImageFill as MediaFillIcon, Image as MediaIcon, ContentUser as MediaPacks, ContentUserDuotone as MediaPacksDuotone, ContentUserDuotone as MediaPacksDuotoneIcon, ContentUserFill as MediaPacksFill, ContentUserFill as MediaPacksFillIcon, ContentUser as MediaPacksIcon, ContentUser as Mediapacks, ContentUserDuotone as MediapacksDuotone, ContentUserDuotone as MediapacksDuotoneIcon, ContentUserFill as MediapacksFill, ContentUserFill as MediapacksFillIcon, ContentUser as MediapacksIcon, Megaphone, MegaphoneActive, MegaphoneActiveDuotone, MegaphoneActiveDuotone as MegaphoneActiveDuotoneIcon, MegaphoneActiveFill, MegaphoneActiveFill as MegaphoneActiveFillIcon, MegaphoneActive as MegaphoneActiveIcon, MegaphoneDuotone, MegaphoneDuotone as MegaphoneDuotoneIcon, MegaphoneFill, MegaphoneFill as MegaphoneFillIcon, Megaphone as MegaphoneIcon, Menu, MenuDuotone, MenuDuotone as MenuDuotoneIcon, MenuFill, MenuFill as MenuFillIcon, Menu as MenuIcon, Mail as Message, MailDuotone as MessageDuotone, MailDuotone as MessageDuotoneIcon, MailFill as MessageFill, MailFill as MessageFillIcon, Mail as MessageIcon, MessageSquare, MessageSquareDuotone, MessageSquareDuotone as MessageSquareDuotoneIcon, MessageSquareFill, MessageSquareFill as MessageSquareFillIcon, MessageSquare as MessageSquareIcon, MessagesSquare, MessagesSquareDuotone, MessagesSquareDuotone as MessagesSquareDuotoneIcon, MessagesSquareFill, MessagesSquareFill as MessagesSquareFillIcon, MessagesSquare as MessagesSquareIcon, Minus, MinusDuotone, MinusDuotone as MinusDuotoneIcon, MinusFill, MinusFill as MinusFillIcon, Minus as MinusIcon, Pencil as Modify, PencilDuotone as ModifyDuotone, PencilDuotone as ModifyDuotoneIcon, PencilFill as ModifyFill, PencilFill as ModifyFillIcon, Pencil as ModifyIcon, CircleDollarSign as Money, CircleDollarSignDuotone as MoneyDuotone, CircleDollarSignDuotone as MoneyDuotoneIcon, CircleDollarSignFill as MoneyFill, CircleDollarSignFill as MoneyFillIcon, CircleDollarSign as MoneyIcon, Moon, MoonDuotone, MoonDuotone as MoonDuotoneIcon, MoonFill, MoonFill as MoonFillIcon, Moon as MoonIcon, MousePointerClick, MousePointerClickDuotone, MousePointerClickDuotone as MousePointerClickDuotoneIcon, MousePointerClickFill, MousePointerClickFill as MousePointerClickFillIcon, MousePointerClick as MousePointerClickIcon, Move, MoveDuotone, MoveDuotone as MoveDuotoneIcon, MoveFill, MoveFill as MoveFillIcon, Move as MoveIcon, VolumeOff as Mute, VolumeOffDuotone as MuteDuotone, VolumeOffDuotone as MuteDuotoneIcon, VolumeOffFill as MuteFill, VolumeOffFill as MuteFillIcon, VolumeOff as MuteIcon, Menu as Navigation, MenuDuotone as NavigationDuotone, MenuDuotone as NavigationDuotoneIcon, MenuFill as NavigationFill, MenuFill as NavigationFillIcon, Menu as NavigationIcon, Frown as Negative, FrownDuotone as NegativeDuotone, FrownDuotone as NegativeDuotoneIcon, FrownFill as NegativeFill, FrownFill as NegativeFillIcon, Frown as NegativeIcon, Plus as New, PlusDuotone as NewDuotone, PlusDuotone as NewDuotoneIcon, FilePlus as NewFile, FilePlusDuotone as NewFileDuotone, FilePlusDuotone as NewFileDuotoneIcon, FilePlusFill as NewFileFill, FilePlusFill as NewFileFillIcon, FilePlus as NewFileIcon, PlusFill as NewFill, PlusFill as NewFillIcon, Plus as NewIcon, ContentPlus as NewPost, ContentPlusDuotone as NewPostDuotone, ContentPlusDuotone as NewPostDuotoneIcon, ContentPlusFill as NewPostFill, ContentPlusFill as NewPostFillIcon, ContentPlus as NewPostIcon, ArrowRight as Next, ArrowRightDuotone as NextDuotone, ArrowRightDuotone as NextDuotoneIcon, ArrowRightFill as NextFill, ArrowRightFill as NextFillIcon, ArrowRight as NextIcon, Moon as Night, MoonDuotone as NightDuotone, MoonDuotone as NightDuotoneIcon, MoonFill as NightFill, MoonFill as NightFillIcon, Moon as NightIcon, ThumbsDown as No, ThumbsDownDuotone as NoDuotone, ThumbsDownDuotone as NoDuotoneIcon, ThumbsDownFill as NoFill, ThumbsDownFill as NoFillIcon, ThumbsDown as NoIcon, VolumeOff as NoSound, VolumeOffDuotone as NoSoundDuotone, VolumeOffDuotone as NoSoundDuotoneIcon, VolumeOffFill as NoSoundFill, VolumeOffFill as NoSoundFillIcon, VolumeOff as NoSoundIcon, ArrowUp as North, ArrowUpDuotone as NorthDuotone, ArrowUpDuotone as NorthDuotoneIcon, ArrowUpFill as NorthFill, ArrowUpFill as NorthFillIcon, ArrowUp as NorthIcon, Ban as NotAllowed, BanDuotone as NotAllowedDuotone, BanDuotone as NotAllowedDuotoneIcon, BanFill as NotAllowedFill, BanFill as NotAllowedFillIcon, Ban as NotAllowedIcon, Notebook, NotebookDuotone, NotebookDuotone as NotebookDuotoneIcon, NotebookFill, NotebookFill as NotebookFillIcon, Notebook as NotebookIcon, Bell as Notification, BellDuotone as NotificationDuotone, BellDuotone as NotificationDuotoneIcon, BellFill as NotificationFill, BellFill as NotificationFillIcon, Bell as NotificationIcon, ListOrdered as NumberedList, ListOrderedDuotone as NumberedListDuotone, ListOrderedDuotone as NumberedListDuotoneIcon, ListOrderedFill as NumberedListFill, ListOrderedFill as NumberedListFillIcon, ListOrdered as NumberedListIcon, Office, OfficeDuotone, OfficeDuotone as OfficeDuotoneIcon, OfficeFill, OfficeFill as OfficeFillIcon, Office as OfficeIcon, ListOrdered as Ol, ListOrderedDuotone as OlDuotone, ListOrderedDuotone as OlDuotoneIcon, ListOrderedFill as OlFill, ListOrderedFill as OlFillIcon, ListOrdered as OlIcon, ExternalLink as OpenNew, ExternalLinkDuotone as OpenNewDuotone, ExternalLinkDuotone as OpenNewDuotoneIcon, ExternalLinkFill as OpenNewFill, ExternalLinkFill as OpenNewFillIcon, ExternalLink as OpenNewIcon, QuotationMarkLeft as OpenQuote, QuotationMarkLeftDuotone as OpenQuoteDuotone, QuotationMarkLeftDuotone as OpenQuoteDuotoneIcon, QuotationMarkLeftFill as OpenQuoteFill, QuotationMarkLeftFill as OpenQuoteFillIcon, QuotationMarkLeft as OpenQuoteIcon, Cog as Options, CogDuotone as OptionsDuotone, CogDuotone as OptionsDuotoneIcon, CogFill as OptionsFill, CogFill as OptionsFillIcon, Cog as OptionsIcon, TriangleDownUp as OrderToggle, TriangleDownUpDuotone as OrderToggleDuotone, TriangleDownUpDuotone as OrderToggleDuotoneIcon, TriangleDownUpFill as OrderToggleFill, TriangleDownUpFill as OrderToggleFillIcon, TriangleDownUp as OrderToggleIcon, File as Page, FileDuotone as PageDuotone, FileDuotone as PageDuotoneIcon, FileFill as PageFill, FileFill as PageFillIcon, File as PageIcon, PanelLeft, PanelLeftDuotone, PanelLeftDuotone as PanelLeftDuotoneIcon, PanelLeftFill, PanelLeftFill as PanelLeftFillIcon, PanelLeft as PanelLeftIcon, PanelRight, PanelRightDuotone, PanelRightDuotone as PanelRightDuotoneIcon, PanelRightFill, PanelRightFill as PanelRightFillIcon, PanelRight as PanelRightIcon, History as Past, HistoryDuotone as PastDuotone, HistoryDuotone as PastDuotoneIcon, HistoryFill as PastFill, HistoryFill as PastFillIcon, History as PastIcon, CircleDollarSign as Payment, CircleDollarSignDuotone as PaymentDuotone, CircleDollarSignDuotone as PaymentDuotoneIcon, CircleDollarSignFill as PaymentFill, CircleDollarSignFill as PaymentFillIcon, CircleDollarSign as PaymentIcon, Pencil, PencilDuotone, PencilDuotone as PencilDuotoneIcon, PencilFill, PencilFill as PencilFillIcon, Pencil as PencilIcon, Users as People, UsersDuotone as PeopleDuotone, UsersDuotone as PeopleDuotoneIcon, UsersFill as PeopleFill, UsersFill as PeopleFillIcon, Users as PeopleIcon, User as Person, UserDuotone as PersonDuotone, UserDuotone as PersonDuotoneIcon, UserFill as PersonFill, UserFill as PersonFillIcon, User as PersonIcon, Users as Persons, UsersDuotone as PersonsDuotone, UsersDuotone as PersonsDuotoneIcon, UsersFill as PersonsFill, UsersFill as PersonsFillIcon, Users as PersonsIcon, Image as Photo, ImageDuotone as PhotoDuotone, ImageDuotone as PhotoDuotoneIcon, ImageFill as PhotoFill, ImageFill as PhotoFillIcon, Image as PhotoIcon, Images as Photos, ImagesDuotone as PhotosDuotone, ImagesDuotone as PhotosDuotoneIcon, ImagesFill as PhotosFill, ImagesFill as PhotosFillIcon, Images as PhotosIcon, Image as Picture, ImageDuotone as PictureDuotone, ImageDuotone as PictureDuotoneIcon, ImageFill as PictureFill, ImageFill as PictureFillIcon, Image as PictureIcon, Images as Pictures, ImagesDuotone as PicturesDuotone, ImagesDuotone as PicturesDuotoneIcon, ImagesFill as PicturesFill, ImagesFill as PicturesFillIcon, Images as PicturesIcon, Pin, PinDuotone, PinDuotone as PinDuotoneIcon, PinFill, PinFill as PinFillIcon, Pin as PinIcon, MapPin as Place, MapPinDuotone as PlaceDuotone, MapPinDuotone as PlaceDuotoneIcon, MapPinFill as PlaceFill, MapPinFill as PlaceFillIcon, MapPin as PlaceIcon, RemoveFormatting as PlainText, RemoveFormattingDuotone as PlainTextDuotone, RemoveFormattingDuotone as PlainTextDuotoneIcon, RemoveFormattingFill as PlainTextFill, RemoveFormattingFill as PlainTextFillIcon, RemoveFormatting as PlainTextIcon, Play, Play as PlayButton, PlayDuotone as PlayButtonDuotone, PlayDuotone as PlayButtonDuotoneIcon, PlayFill as PlayButtonFill, PlayFill as PlayButtonFillIcon, Play as PlayButtonIcon, PlayDuotone, PlayDuotone as PlayDuotoneIcon, PlayFill, PlayFill as PlayFillIcon, Play as PlayIcon, Plus, PlusDuotone, PlusDuotone as PlusDuotoneIcon, PlusFill, PlusFill as PlusFillIcon, Plus as PlusIcon, Pointer, PointerDuotone, PointerDuotone as PointerDuotoneIcon, PointerFill, PointerFill as PointerFillIcon, Pointer as PointerIcon, Smile as Positive, SmileDuotone as PositiveDuotone, SmileDuotone as PositiveDuotoneIcon, SmileFill as PositiveFill, SmileFill as PositiveFillIcon, Smile as PositiveIcon, Cog as Preferences, CogDuotone as PreferencesDuotone, CogDuotone as PreferencesDuotoneIcon, CogFill as PreferencesFill, CogFill as PreferencesFillIcon, Cog as PreferencesIcon, Save as Preserve, SaveDuotone as PreserveDuotone, SaveDuotone as PreserveDuotoneIcon, SaveFill as PreserveFill, SaveFill as PreserveFillIcon, Save as PreserveIcon, ContentUser as PressKit, ContentUserDuotone as PressKitDuotone, ContentUserDuotone as PressKitDuotoneIcon, ContentUserFill as PressKitFill, ContentUserFill as PressKitFillIcon, ContentUser as PressKitIcon, ArrowLeft as Previous, ArrowLeftDuotone as PreviousDuotone, ArrowLeftDuotone as PreviousDuotoneIcon, ArrowLeftFill as PreviousFill, ArrowLeftFill as PreviousFillIcon, ArrowLeft as PreviousIcon, CircleDollarSign as Price, CircleDollarSignDuotone as PriceDuotone, CircleDollarSignDuotone as PriceDuotoneIcon, CircleDollarSignFill as PriceFill, CircleDollarSignFill as PriceFillIcon, CircleDollarSign as PriceIcon, Lock as Private, LockDuotone as PrivateDuotone, LockDuotone as PrivateDuotoneIcon, LockFill as PrivateFill, LockFill as PrivateFillIcon, Lock as PrivateIcon, User as Profile, UserDuotone as ProfileDuotone, UserDuotone as ProfileDuotoneIcon, UserFill as ProfileFill, UserFill as ProfileFillIcon, User as ProfileIcon, LoaderCircle as Progress, LoaderCircleDuotone as ProgressDuotone, LoaderCircleDuotone as ProgressDuotoneIcon, LoaderCircleFill as ProgressFill, LoaderCircleFill as ProgressFillIcon, LoaderCircle as ProgressIcon, Ban as Prohibited, BanDuotone as ProhibitedDuotone, BanDuotone as ProhibitedDuotoneIcon, BanFill as ProhibitedFill, BanFill as ProhibitedFillIcon, Ban as ProhibitedIcon, Megaphone as Promote, MegaphoneDuotone as PromoteDuotone, MegaphoneDuotone as PromoteDuotoneIcon, MegaphoneFill as PromoteFill, MegaphoneFill as PromoteFillIcon, Megaphone as PromoteIcon, Lock as Protected, LockDuotone as ProtectedDuotone, LockDuotone as ProtectedDuotoneIcon, LockFill as ProtectedFill, LockFill as ProtectedFillIcon, Lock as ProtectedIcon, Unlock as Public, UnlockDuotone as PublicDuotone, UnlockDuotone as PublicDuotoneIcon, UnlockFill as PublicFill, UnlockFill as PublicFillIcon, Unlock as PublicIcon, Search as Query, SearchDuotone as QueryDuotone, SearchDuotone as QueryDuotoneIcon, SearchFill as QueryFill, SearchFill as QueryFillIcon, Search as QueryIcon, CircleQuestionMark as Question, CircleQuestionMarkDuotone as QuestionDuotone, CircleQuestionMarkDuotone as QuestionDuotoneIcon, CircleQuestionMarkFill as QuestionFill, CircleQuestionMarkFill as QuestionFillIcon, CircleQuestionMark as QuestionIcon, QuotationMarkLeft, QuotationMarkLeftDuotone, QuotationMarkLeftDuotone as QuotationMarkLeftDuotoneIcon, QuotationMarkLeftFill, QuotationMarkLeftFill as QuotationMarkLeftFillIcon, QuotationMarkLeft as QuotationMarkLeftIcon, QuotationMarkRight, QuotationMarkRightDuotone, QuotationMarkRightDuotone as QuotationMarkRightDuotoneIcon, QuotationMarkRightFill, QuotationMarkRightFill as QuotationMarkRightFillIcon, QuotationMarkRight as QuotationMarkRightIcon, QuotationMarkLeft as QuoteLeft, QuotationMarkLeftDuotone as QuoteLeftDuotone, QuotationMarkLeftDuotone as QuoteLeftDuotoneIcon, QuotationMarkLeftFill as QuoteLeftFill, QuotationMarkLeftFill as QuoteLeftFillIcon, QuotationMarkLeft as QuoteLeftIcon, QuotationMarkRight as QuoteRight, QuotationMarkRightDuotone as QuoteRightDuotone, QuotationMarkRightDuotone as QuoteRightDuotoneIcon, QuotationMarkRightFill as QuoteRightFill, QuotationMarkRightFill as QuoteRightFillIcon, QuotationMarkRight as QuoteRightIcon, Star as Rating, StarDuotone as RatingDuotone, StarDuotone as RatingDuotoneIcon, StarFill as RatingFill, StarFill as RatingFillIcon, Star as RatingIcon, Reach, ReachDuotone, ReachDuotone as ReachDuotoneIcon, ReachFill, ReachFill as ReachFillIcon, Reach as ReachIcon, History as Recent, HistoryDuotone as RecentDuotone, HistoryDuotone as RecentDuotoneIcon, HistoryFill as RecentFill, HistoryFill as RecentFillIcon, History as RecentIcon, RotateCw as Redo, RotateCwDuotone as RedoDuotone, RotateCwDuotone as RedoDuotoneIcon, RotateCwFill as RedoFill, RotateCwFill as RedoFillIcon, RotateCw as RedoIcon, Minus as Reduce, MinusDuotone as ReduceDuotone, MinusDuotone as ReduceDuotoneIcon, MinusFill as ReduceFill, MinusFill as ReduceFillIcon, Minus as ReduceIcon, Reel, ReelDuotone, ReelDuotone as ReelDuotoneIcon, ReelFill, ReelFill as ReelFillIcon, Reel as ReelIcon, RefreshCw as Refresh, RefreshCw, RefreshCwDuotone, RefreshCwDuotone as RefreshCwDuotoneIcon, RefreshCwFill, RefreshCwFill as RefreshCwFillIcon, RefreshCw as RefreshCwIcon, RefreshCwDuotone as RefreshDuotone, RefreshCwDuotone as RefreshDuotoneIcon, RefreshCwFill as RefreshFill, RefreshCwFill as RefreshFillIcon, RefreshCw as RefreshIcon, RefreshCw as Reload, RefreshCwDuotone as ReloadDuotone, RefreshCwDuotone as ReloadDuotoneIcon, RefreshCwFill as ReloadFill, RefreshCwFill as ReloadFillIcon, RefreshCw as ReloadIcon, Trash as Remove, TrashDuotone as RemoveDuotone, TrashDuotone as RemoveDuotoneIcon, TrashFill as RemoveFill, TrashFill as RemoveFillIcon, RemoveFormatting, RemoveFormattingDuotone, RemoveFormattingDuotone as RemoveFormattingDuotoneIcon, RemoveFormattingFill, RemoveFormattingFill as RemoveFormattingFillIcon, RemoveFormatting as RemoveFormattingIcon, Trash as RemoveIcon, ArrowDownUp as Reorder, ArrowDownUpDuotone as ReorderDuotone, ArrowDownUpDuotone as ReorderDuotoneIcon, ArrowDownUpFill as ReorderFill, ArrowDownUpFill as ReorderFillIcon, ArrowDownUp as ReorderIcon, Reply, ReplyDuotone, ReplyDuotone as ReplyDuotoneIcon, ReplyFill, ReplyFill as ReplyFillIcon, Reply as ReplyIcon, Move as Reposition, MoveDuotone as RepositionDuotone, MoveDuotone as RepositionDuotoneIcon, MoveFill as RepositionFill, MoveFill as RepositionFillIcon, Move as RepositionIcon, Reply as Respond, ReplyDuotone as RespondDuotone, ReplyDuotone as RespondDuotoneIcon, ReplyFill as RespondFill, ReplyFill as RespondFillIcon, Reply as RespondIcon, ArrowRight as Right, ArrowRightDuotone as RightDuotone, ArrowRightDuotone as RightDuotoneIcon, ArrowRightFill as RightFill, ArrowRightFill as RightFillIcon, ArrowRight as RightIcon, TrendingUp as Rising, TrendingUpDuotone as RisingDuotone, TrendingUpDuotone as RisingDuotoneIcon, TrendingUpFill as RisingFill, TrendingUpFill as RisingFillIcon, TrendingUp as RisingIcon, Rolodex, RolodexDuotone, RolodexDuotone as RolodexDuotoneIcon, RolodexFill, RolodexFill as RolodexFillIcon, Rolodex as RolodexIcon, ClipboardList as Roster, ClipboardListDuotone as RosterDuotone, ClipboardListDuotone as RosterDuotoneIcon, ClipboardListFill as RosterFill, ClipboardListFill as RosterFillIcon, ClipboardList as RosterIcon, RotateCw as Rotate, RotateCw, RotateCwDuotone, RotateCwDuotone as RotateCwDuotoneIcon, RotateCwFill, RotateCwFill as RotateCwFillIcon, RotateCw as RotateCwIcon, RotateCwDuotone as RotateDuotone, RotateCwDuotone as RotateDuotoneIcon, RotateCwFill as RotateFill, RotateCwFill as RotateFillIcon, RotateCw as RotateIcon, Rows2 as Rows, Rows2, Rows2Duotone, Rows2Duotone as Rows2DuotoneIcon, Rows2Fill, Rows2Fill as Rows2FillIcon, Rows2 as Rows2Icon, Rows2Duotone as RowsDuotone, Rows2Duotone as RowsDuotoneIcon, Rows2Fill as RowsFill, Rows2Fill as RowsFillIcon, Rows2 as RowsIcon, Frown as Sad, FrownDuotone as SadDuotone, FrownDuotone as SadDuotoneIcon, FrownFill as SadFill, FrownFill as SadFillIcon, Frown as SadIcon, Save, SaveDuotone, SaveDuotone as SaveDuotoneIcon, SaveFill, SaveFill as SaveFillIcon, Save as SaveIcon, Bookmark as Saved, BookmarkDuotone as SavedDuotone, BookmarkDuotone as SavedDuotoneIcon, BookmarkFill as SavedFill, BookmarkFill as SavedFillIcon, Bookmark as SavedIcon, Calendar as Schedule, CalendarDuotone as ScheduleDuotone, CalendarDuotone as ScheduleDuotoneIcon, CalendarFill as ScheduleFill, CalendarFill as ScheduleFillIcon, Calendar as ScheduleIcon, Search, SearchDuotone, SearchDuotone as SearchDuotoneIcon, SearchFill, SearchFill as SearchFillIcon, Search as SearchIcon, SearchUser as SearchPerson, SearchUserDuotone as SearchPersonDuotone, SearchUserDuotone as SearchPersonDuotoneIcon, SearchUserFill as SearchPersonFill, SearchUserFill as SearchPersonFillIcon, SearchUser as SearchPersonIcon, SearchUser, SearchUserDuotone, SearchUserDuotone as SearchUserDuotoneIcon, SearchUserFill, SearchUserFill as SearchUserFillIcon, SearchUser as SearchUserIcon, Lock as Secure, LockDuotone as SecureDuotone, LockDuotone as SecureDuotoneIcon, LockFill as SecureFill, LockFill as SecureFillIcon, Lock as SecureIcon, Upload as Send, UploadDuotone as SendDuotone, UploadDuotone as SendDuotoneIcon, UploadFill as SendFill, UploadFill as SendFillIcon, Upload as SendIcon, Cog as Settings, CogDuotone as SettingsDuotone, CogDuotone as SettingsDuotoneIcon, CogFill as SettingsFill, CogFill as SettingsFillIcon, Cog as SettingsIcon, Share, ShareDuotone, ShareDuotone as ShareDuotoneIcon, ShareFill, ShareFill as ShareFillIcon, Share as ShareIcon, Share as ShareLink, ShareDuotone as ShareLinkDuotone, ShareDuotone as ShareLinkDuotoneIcon, ShareFill as ShareLinkFill, ShareFill as ShareLinkFillIcon, Share as ShareLinkIcon, Sparkles as Shine, SparklesDuotone as ShineDuotone, SparklesDuotone as ShineDuotoneIcon, SparklesFill as ShineFill, SparklesFill as ShineFillIcon, Sparkles as ShineIcon, Reel as Short, ReelDuotone as ShortDuotone, ReelDuotone as ShortDuotoneIcon, ReelFill as ShortFill, ReelFill as ShortFillIcon, Reel as ShortIcon, Reel as ShortVideo, ReelDuotone as ShortVideoDuotone, ReelDuotone as ShortVideoDuotoneIcon, ReelFill as ShortVideoFill, ReelFill as ShortVideoFillIcon, Reel as ShortVideoIcon, Command as Shortcut, CommandDuotone as ShortcutDuotone, CommandDuotone as ShortcutDuotoneIcon, CommandFill as ShortcutFill, CommandFill as ShortcutFillIcon, Command as ShortcutIcon, Eye as Show, EyeDuotone as ShowDuotone, EyeDuotone as ShowDuotoneIcon, EyeFill as ShowFill, EyeFill as ShowFillIcon, Eye as ShowIcon, PanelLeft as SidebarLeft, PanelLeftDuotone as SidebarLeftDuotone, PanelLeftDuotone as SidebarLeftDuotoneIcon, PanelLeftFill as SidebarLeftFill, PanelLeftFill as SidebarLeftFillIcon, PanelLeft as SidebarLeftIcon, PanelRight as SidebarRight, PanelRightDuotone as SidebarRightDuotone, PanelRightDuotone as SidebarRightDuotoneIcon, PanelRightFill as SidebarRightFill, PanelRightFill as SidebarRightFillIcon, PanelRight as SidebarRightIcon, LogOut as SignOut, LogOutDuotone as SignOutDuotone, LogOutDuotone as SignOutDuotoneIcon, LogOutFill as SignOutFill, LogOutFill as SignOutFillIcon, LogOut as SignOutIcon, Hotspot as Signal, HotspotDuotone as SignalDuotone, HotspotDuotone as SignalDuotoneIcon, HotspotFill as SignalFill, HotspotFill as SignalFillIcon, Hotspot as SignalIcon, LogOut as Signout, LogOutDuotone as SignoutDuotone, LogOutDuotone as SignoutDuotoneIcon, LogOutFill as SignoutFill, LogOutFill as SignoutFillIcon, LogOut as SignoutIcon, VolumeOff as Silent, VolumeOffDuotone as SilentDuotone, VolumeOffDuotone as SilentDuotoneIcon, VolumeOffFill as SilentFill, VolumeOffFill as SilentFillIcon, VolumeOff as SilentIcon, Slash, SlashDuotone, SlashDuotone as SlashDuotoneIcon, SlashFill, SlashFill as SlashFillIcon, Slash as SlashIcon, SlidersHorizontal, SlidersHorizontalDuotone, SlidersHorizontalDuotone as SlidersHorizontalDuotoneIcon, SlidersHorizontalFill, SlidersHorizontalFill as SlidersHorizontalFillIcon, SlidersHorizontal as SlidersHorizontalIcon, Smile, SmileDuotone, SmileDuotone as SmileDuotoneIcon, SmileFill, SmileFill as SmileFillIcon, Smile as SmileIcon, Smile as Smiley, SmileDuotone as SmileyDuotone, SmileDuotone as SmileyDuotoneIcon, SmileFill as SmileyFill, SmileFill as SmileyFillIcon, Smile as SmileyIcon, ArrowDownSC as Snapchat, ArrowDownSCDuotone as SnapchatDuotone, ArrowDownSCDuotone as SnapchatDuotoneIcon, ArrowDownSCFill as SnapchatFill, ArrowDownSCFill as SnapchatFillIcon, ArrowDownSC as SnapchatIcon, ArrowDownUp as Sort, ArrowUpAZ as SortAZ, ArrowUpAZDuotone as SortAZDuotone, ArrowUpAZDuotone as SortAZDuotoneIcon, ArrowUpAZFill as SortAZFill, ArrowUpAZFill as SortAZFillIcon, ArrowUpAZ as SortAZIcon, ArrowUpAZ as SortAlphaAsc, ArrowUpAZDuotone as SortAlphaAscDuotone, ArrowUpAZDuotone as SortAlphaAscDuotoneIcon, ArrowUpAZFill as SortAlphaAscFill, ArrowUpAZFill as SortAlphaAscFillIcon, ArrowUpAZ as SortAlphaAscIcon, ArrowUpZA as SortAlphaDesc, ArrowUpZADuotone as SortAlphaDescDuotone, ArrowUpZADuotone as SortAlphaDescDuotoneIcon, ArrowUpZAFill as SortAlphaDescFill, ArrowUpZAFill as SortAlphaDescFillIcon, ArrowUpZA as SortAlphaDescIcon, ArrowDownNarrowWide as SortAsc, ArrowUpNarrowWide as SortAscAlt, ArrowUpNarrowWideDuotone as SortAscAltDuotone, ArrowUpNarrowWideDuotone as SortAscAltDuotoneIcon, ArrowUpNarrowWideFill as SortAscAltFill, ArrowUpNarrowWideFill as SortAscAltFillIcon, ArrowUpNarrowWide as SortAscAltIcon, ArrowDownNarrowWideDuotone as SortAscDuotone, ArrowDownNarrowWideDuotone as SortAscDuotoneIcon, ArrowDownNarrowWideFill as SortAscFill, ArrowDownNarrowWideFill as SortAscFillIcon, ArrowDownNarrowWide as SortAscIcon, ArrowDownNarrowWide as SortAscending, ArrowDownNarrowWideDuotone as SortAscendingDuotone, ArrowDownNarrowWideDuotone as SortAscendingDuotoneIcon, ArrowDownNarrowWideFill as SortAscendingFill, ArrowDownNarrowWideFill as SortAscendingFillIcon, ArrowDownNarrowWide as SortAscendingIcon, ArrowUpWideNarrow as SortDesc, ArrowDownWideNarrow as SortDescAlt, ArrowDownWideNarrowDuotone as SortDescAltDuotone, ArrowDownWideNarrowDuotone as SortDescAltDuotoneIcon, ArrowDownWideNarrowFill as SortDescAltFill, ArrowDownWideNarrowFill as SortDescAltFillIcon, ArrowDownWideNarrow as SortDescAltIcon, ArrowUpWideNarrowDuotone as SortDescDuotone, ArrowUpWideNarrowDuotone as SortDescDuotoneIcon, ArrowUpWideNarrowFill as SortDescFill, ArrowUpWideNarrowFill as SortDescFillIcon, ArrowUpWideNarrow as SortDescIcon, ArrowUpWideNarrow as SortDescending, ArrowUpWideNarrowDuotone as SortDescendingDuotone, ArrowUpWideNarrowDuotone as SortDescendingDuotoneIcon, ArrowUpWideNarrowFill as SortDescendingFill, ArrowUpWideNarrowFill as SortDescendingFillIcon, ArrowUpWideNarrow as SortDescendingIcon, ArrowDownUpDuotone as SortDuotone, ArrowDownUpDuotone as SortDuotoneIcon, ArrowDownUpFill as SortFill, ArrowDownUpFill as SortFillIcon, ArrowDownUp as SortIcon, ArrowDown01 as SortNumeric, ArrowDown01Duotone as SortNumericDuotone, ArrowDown01Duotone as SortNumericDuotoneIcon, ArrowDown01Fill as SortNumericFill, ArrowDown01Fill as SortNumericFillIcon, ArrowDown01 as SortNumericIcon, TriangleDownUp as SortToggle, TriangleDownUpDuotone as SortToggleDuotone, TriangleDownUpDuotone as SortToggleDuotoneIcon, TriangleDownUpFill as SortToggleFill, TriangleDownUpFill as SortToggleFillIcon, TriangleDownUp as SortToggleIcon, ArrowUpZA as SortZA, ArrowUpZADuotone as SortZADuotone, ArrowUpZADuotone as SortZADuotoneIcon, ArrowUpZAFill as SortZAFill, ArrowUpZAFill as SortZAFillIcon, ArrowUpZA as SortZAIcon, Volume2 as Sound, Volume2Duotone as SoundDuotone, Volume2Duotone as SoundDuotoneIcon, Volume2Fill as SoundFill, Volume2Fill as SoundFillIcon, Volume2 as SoundIcon, ArrowDown as South, ArrowDownDuotone as SouthDuotone, ArrowDownDuotone as SouthDuotoneIcon, ArrowDownFill as SouthFill, ArrowDownFill as SouthFillIcon, ArrowDown as SouthIcon, Sparkles, SparklesDuotone, SparklesDuotone as SparklesDuotoneIcon, SparklesFill, SparklesFill as SparklesFillIcon, Sparkles as SparklesIcon, Volume2 as Speaker, Volume2Duotone as SpeakerDuotone, Volume2Duotone as SpeakerDuotoneIcon, Volume2Fill as SpeakerFill, Volume2Fill as SpeakerFillIcon, Volume2 as SpeakerIcon, VolumeOff as SpeakerOff, VolumeOffDuotone as SpeakerOffDuotone, VolumeOffDuotone as SpeakerOffDuotoneIcon, VolumeOffFill as SpeakerOffFill, VolumeOffFill as SpeakerOffFillIcon, VolumeOff as SpeakerOffIcon, LoaderCircle as Spinner, LoaderCircleDuotone as SpinnerDuotone, LoaderCircleDuotone as SpinnerDuotoneIcon, LoaderCircleFill as SpinnerFill, LoaderCircleFill as SpinnerFillIcon, LoaderCircle as SpinnerIcon, Square, SquareDuotone, SquareDuotone as SquareDuotoneIcon, SquareFill, SquareFill as SquareFillIcon, Square as SquareIcon, SquarePen, SquarePenDuotone, SquarePenDuotone as SquarePenDuotoneIcon, SquarePenFill, SquarePenFill as SquarePenFillIcon, SquarePen as SquarePenIcon, Star, StarDuotone, StarDuotone as StarDuotoneIcon, StarFill, StarFill as StarFillIcon, Star as StarIcon, Play as Start, PlayDuotone as StartDuotone, PlayDuotone as StartDuotoneIcon, PlayFill as StartFill, PlayFill as StartFillIcon, Play as StartIcon, ChartColumnSquare as Stats, ChartColumnSquareDuotone as StatsDuotone, ChartColumnSquareDuotone as StatsDuotoneIcon, ChartColumnSquareFill as StatsFill, ChartColumnSquareFill as StatsFillIcon, ChartColumnSquare as StatsIcon, Pin as Stick, PinDuotone as StickDuotone, PinDuotone as StickDuotoneIcon, PinFill as StickFill, PinFill as StickFillIcon, Pin as StickIcon, Square as Stop, SquareDuotone as StopDuotone, SquareDuotone as StopDuotoneIcon, SquareFill as StopFill, SquareFill as StopFillIcon, Square as StopIcon, Archive as Storage, ArchiveDuotone as StorageDuotone, ArchiveDuotone as StorageDuotoneIcon, ArchiveFill as StorageFill, ArchiveFill as StorageFillIcon, Archive as StorageIcon, Bold as Strong, BoldDuotone as StrongDuotone, BoldDuotone as StrongDuotoneIcon, BoldFill as StrongFill, BoldFill as StrongFillIcon, Bold as StrongIcon, Minus as Subtract, MinusDuotone as SubtractDuotone, MinusDuotone as SubtractDuotoneIcon, MinusFill as SubtractFill, MinusFill as SubtractFillIcon, Minus as SubtractIcon, Checkmark as Success, CheckmarkDuotone as SuccessDuotone, CheckmarkDuotone as SuccessDuotoneIcon, CheckmarkFill as SuccessFill, CheckmarkFill as SuccessFillIcon, Checkmark as SuccessIcon, Sun, SunDuotone, SunDuotone as SunDuotoneIcon, SunFill, SunFill as SunFillIcon, Sun as SunIcon, CircleQuestionMark as Support, CircleQuestionMarkDuotone as SupportDuotone, CircleQuestionMarkDuotone as SupportDuotoneIcon, CircleQuestionMarkFill as SupportFill, CircleQuestionMarkFill as SupportFillIcon, CircleQuestionMark as SupportIcon, ArrowDownUp as Swap, ArrowDownUpDuotone as SwapDuotone, ArrowDownUpDuotone as SwapDuotoneIcon, ArrowDownUpFill as SwapFill, ArrowDownUpFill as SwapFillIcon, ArrowDownUp as SwapIcon, RefreshCw as Sync, RefreshCwDuotone as SyncDuotone, RefreshCwDuotone as SyncDuotoneIcon, RefreshCwFill as SyncFill, RefreshCwFill as SyncFillIcon, RefreshCw as SyncIcon, Pin as Tack, PinDuotone as TackDuotone, PinDuotone as TackDuotoneIcon, PinFill as TackFill, PinFill as TackFillIcon, Pin as TackIcon, Checkbox as Task, CheckboxDuotone as TaskDuotone, CheckboxDuotone as TaskDuotoneIcon, CheckboxFill as TaskFill, CheckboxFill as TaskFillIcon, Checkbox as TaskIcon, ClipboardList as Tasks, ClipboardListDuotone as TasksDuotone, ClipboardListDuotone as TasksDuotoneIcon, ClipboardListFill as TasksFill, ClipboardListFill as TasksFillIcon, ClipboardList as TasksIcon, Users as Team, UsersDuotone as TeamDuotone, UsersDuotone as TeamDuotoneIcon, UsersFill as TeamFill, UsersFill as TeamFillIcon, Users as TeamIcon, TextAlignCenter, TextAlignCenterDuotone, TextAlignCenterDuotone as TextAlignCenterDuotoneIcon, TextAlignCenterFill, TextAlignCenterFill as TextAlignCenterFillIcon, TextAlignCenter as TextAlignCenterIcon, TextAlignEnd, TextAlignEndDuotone, TextAlignEndDuotone as TextAlignEndDuotoneIcon, TextAlignEndFill, TextAlignEndFill as TextAlignEndFillIcon, TextAlignEnd as TextAlignEndIcon, TextAlignJustify, TextAlignJustifyDuotone, TextAlignJustifyDuotone as TextAlignJustifyDuotoneIcon, TextAlignJustifyFill, TextAlignJustifyFill as TextAlignJustifyFillIcon, TextAlignJustify as TextAlignJustifyIcon, TextAlignStart, TextAlignStartDuotone, TextAlignStartDuotone as TextAlignStartDuotoneIcon, TextAlignStartFill, TextAlignStartFill as TextAlignStartFillIcon, TextAlignStart as TextAlignStartIcon, Bold as TextBold, BoldDuotone as TextBoldDuotone, BoldDuotone as TextBoldDuotoneIcon, BoldFill as TextBoldFill, BoldFill as TextBoldFillIcon, Bold as TextBoldIcon, Italic as TextItalic, ItalicDuotone as TextItalicDuotone, ItalicDuotone as TextItalicDuotoneIcon, ItalicFill as TextItalicFill, ItalicFill as TextItalicFillIcon, Italic as TextItalicIcon, Columns3 as ThreeColumns, Columns3Duotone as ThreeColumnsDuotone, Columns3Duotone as ThreeColumnsDuotoneIcon, Columns3Fill as ThreeColumnsFill, Columns3Fill as ThreeColumnsFillIcon, Columns3 as ThreeColumnsIcon, ThumbsDown, ThumbsDownDuotone, ThumbsDownDuotone as ThumbsDownDuotoneIcon, ThumbsDownFill, ThumbsDownFill as ThumbsDownFillIcon, ThumbsDown as ThumbsDownIcon, ThumbsUp, ThumbsUpDuotone, ThumbsUpDuotone as ThumbsUpDuotoneIcon, ThumbsUpFill, ThumbsUpFill as ThumbsUpFillIcon, ThumbsUp as ThumbsUpIcon, Pin as Thumbtack, PinDuotone as ThumbtackDuotone, PinDuotone as ThumbtackDuotoneIcon, PinFill as ThumbtackFill, PinFill as ThumbtackFillIcon, Pin as ThumbtackIcon, Checkmark as Tick, CheckmarkDuotone as TickDuotone, CheckmarkDuotone as TickDuotoneIcon, CheckmarkFill as TickFill, CheckmarkFill as TickFillIcon, Checkmark as TickIcon, ArrowDownTT as Tiktok, ArrowDownTTDuotone as TiktokDuotone, ArrowDownTTDuotone as TiktokDuotoneIcon, ArrowDownTTFill as TiktokFill, ArrowDownTTFill as TiktokFillIcon, ArrowDownTT as TiktokIcon, Grid2x2 as Tiles, Grid2x2Duotone as TilesDuotone, Grid2x2Duotone as TilesDuotoneIcon, Grid2x2Fill as TilesFill, Grid2x2Fill as TilesFillIcon, Grid2x2 as TilesIcon, Clock as Time, ClockDuotone as TimeDuotone, ClockDuotone as TimeDuotoneIcon, ClockFill as TimeFill, ClockFill as TimeFillIcon, Clock as TimeIcon, CircleX as Times, CircleXDuotone as TimesDuotone, CircleXDuotone as TimesDuotoneIcon, CircleXFill as TimesFill, CircleXFill as TimesFillIcon, CircleX as TimesIcon, ClipboardList as Todo, ClipboardListDuotone as TodoDuotone, ClipboardListDuotone as TodoDuotoneIcon, ClipboardListFill as TodoFill, ClipboardListFill as TodoFillIcon, ClipboardList as TodoIcon, Trash, TrashDuotone, TrashDuotone as TrashDuotoneIcon, TrashEmpty, TrashEmptyDuotone, TrashEmptyDuotone as TrashEmptyDuotoneIcon, TrashEmptyFill, TrashEmptyFill as TrashEmptyFillIcon, TrashEmpty as TrashEmptyIcon, TrashFill, TrashFill as TrashFillIcon, Trash as TrashIcon, Inbox as Tray, InboxDuotone as TrayDuotone, InboxDuotone as TrayDuotoneIcon, InboxFill as TrayFill, InboxFill as TrayFillIcon, Inbox as TrayIcon, Flame as Trending, TrendingDown, TrendingDownDuotone, TrendingDownDuotone as TrendingDownDuotoneIcon, TrendingDownFill, TrendingDownFill as TrendingDownFillIcon, TrendingDown as TrendingDownIcon, FlameDuotone as TrendingDuotone, FlameDuotone as TrendingDuotoneIcon, FlameFill as TrendingFill, FlameFill as TrendingFillIcon, Flame as TrendingIcon, TrendingUp, TrendingUpDuotone, TrendingUpDuotone as TrendingUpDuotoneIcon, TrendingUpFill, TrendingUpFill as TrendingUpFillIcon, TrendingUp as TrendingUpIcon, TriangleDown, TriangleDownDuotone, TriangleDownDuotone as TriangleDownDuotoneIcon, TriangleDownFill, TriangleDownFill as TriangleDownFillIcon, TriangleDown as TriangleDownIcon, TriangleDownUp, TriangleDownUpDuotone, TriangleDownUpDuotone as TriangleDownUpDuotoneIcon, TriangleDownUpFill, TriangleDownUpFill as TriangleDownUpFillIcon, TriangleDownUp as TriangleDownUpIcon, TriangleUp, TriangleUpDuotone, TriangleUpDuotone as TriangleUpDuotoneIcon, TriangleUpFill, TriangleUpFill as TriangleUpFillIcon, TriangleUp as TriangleUpIcon, RotateCw as Turn, RotateCwDuotone as TurnDuotone, RotateCwDuotone as TurnDuotoneIcon, RotateCwFill as TurnFill, RotateCwFill as TurnFillIcon, RotateCw as TurnIcon, History as Undo, HistoryDuotone as UndoDuotone, HistoryDuotone as UndoDuotoneIcon, HistoryFill as UndoFill, HistoryFill as UndoFillIcon, History as UndoIcon, Frown as Unhappy, FrownDuotone as UnhappyDuotone, FrownDuotone as UnhappyDuotoneIcon, FrownFill as UnhappyFill, FrownFill as UnhappyFillIcon, Frown as UnhappyIcon, Unlink, UnlinkDuotone, UnlinkDuotone as UnlinkDuotoneIcon, UnlinkFill, UnlinkFill as UnlinkFillIcon, Unlink as UnlinkIcon, Unlock, UnlockDuotone, UnlockDuotone as UnlockDuotoneIcon, UnlockFill, UnlockFill as UnlockFillIcon, Unlock as UnlockIcon, Unlock as Unlocked, UnlockDuotone as UnlockedDuotone, UnlockDuotone as UnlockedDuotoneIcon, UnlockFill as UnlockedFill, UnlockFill as UnlockedFillIcon, Unlock as UnlockedIcon, Unlock as Unsecure, UnlockDuotone as UnsecureDuotone, UnlockDuotone as UnsecureDuotoneIcon, UnlockFill as UnsecureFill, UnlockFill as UnsecureFillIcon, Unlock as UnsecureIcon, ArrowUp as Up, ArrowUpDuotone as UpDuotone, ArrowUpDuotone as UpDuotoneIcon, ArrowUpFill as UpFill, ArrowUpFill as UpFillIcon, ArrowUp as UpIcon, Upload, UploadDuotone, UploadDuotone as UploadDuotoneIcon, FileArrowUp as UploadFile, FileArrowUpDuotone as UploadFileDuotone, FileArrowUpDuotone as UploadFileDuotoneIcon, FileArrowUpFill as UploadFileFill, FileArrowUpFill as UploadFileFillIcon, FileArrowUp as UploadFileIcon, UploadFill, UploadFill as UploadFillIcon, Upload as UploadIcon, Link as Url, LinkDuotone as UrlDuotone, LinkDuotone as UrlDuotoneIcon, LinkFill as UrlFill, LinkFill as UrlFillIcon, Link as UrlIcon, User, UserArrowLeft, UserArrowLeftDuotone, UserArrowLeftDuotone as UserArrowLeftDuotoneIcon, UserArrowLeftFill, UserArrowLeftFill as UserArrowLeftFillIcon, UserArrowLeft as UserArrowLeftIcon, UserArrowLeftRight, UserArrowLeftRightDuotone, UserArrowLeftRightDuotone as UserArrowLeftRightDuotoneIcon, UserArrowLeftRightFill, UserArrowLeftRightFill as UserArrowLeftRightFillIcon, UserArrowLeftRight as UserArrowLeftRightIcon, UserArrowOutUpRight, UserArrowOutUpRightDuotone, UserArrowOutUpRightDuotone as UserArrowOutUpRightDuotoneIcon, UserArrowOutUpRightFill, UserArrowOutUpRightFill as UserArrowOutUpRightFillIcon, UserArrowOutUpRight as UserArrowOutUpRightIcon, UserArrowRight, UserArrowRightDuotone, UserArrowRightDuotone as UserArrowRightDuotoneIcon, UserArrowRightFill, UserArrowRightFill as UserArrowRightFillIcon, UserArrowRight as UserArrowRightIcon, UserCog, UserCogDuotone, UserCogDuotone as UserCogDuotoneIcon, UserCogFill, UserCogFill as UserCogFillIcon, UserCog as UserCogIcon, FileUser as UserDocument, FileUserDuotone as UserDocumentDuotone, FileUserDuotone as UserDocumentDuotoneIcon, FileUserFill as UserDocumentFill, FileUserFill as UserDocumentFillIcon, FileUser as UserDocumentIcon, UserDuotone, UserDuotone as UserDuotoneIcon, UserFill, UserFill as UserFillIcon, User as UserIcon, UserPlus, UserPlusDuotone, UserPlusDuotone as UserPlusDuotoneIcon, UserPlusFill, UserPlusFill as UserPlusFillIcon, UserPlus as UserPlusIcon, SearchUser as UserSearch, SearchUserDuotone as UserSearchDuotone, SearchUserDuotone as UserSearchDuotoneIcon, SearchUserFill as UserSearchFill, SearchUserFill as UserSearchFillIcon, SearchUser as UserSearchIcon, Users, UsersDuotone, UsersDuotone as UsersDuotoneIcon, UsersFill, UsersFill as UsersFillIcon, Users as UsersIcon, Play as Video, PlayDuotone as VideoDuotone, PlayDuotone as VideoDuotoneIcon, PlayFill as VideoFill, PlayFill as VideoFillIcon, Play as VideoIcon, Eye as View, EyeDuotone as ViewDuotone, EyeDuotone as ViewDuotoneIcon, EyeFill as ViewFill, EyeFill as ViewFillIcon, Eye as ViewIcon, Reach as Views, ReachDuotone as ViewsDuotone, ReachDuotone as ViewsDuotoneIcon, ReachFill as ViewsFill, ReachFill as ViewsFillIcon, Reach as ViewsIcon, Eye as Visibility, EyeDuotone as VisibilityDuotone, EyeDuotone as VisibilityDuotoneIcon, EyeFill as VisibilityFill, EyeFill as VisibilityFillIcon, Eye as VisibilityIcon, Eye as Visible, EyeDuotone as VisibleDuotone, EyeDuotone as VisibleDuotoneIcon, EyeFill as VisibleFill, EyeFill as VisibleFillIcon, Eye as VisibleIcon, Volume2 as Volume, Volume2, Volume2Duotone, Volume2Duotone as Volume2DuotoneIcon, Volume2Fill, Volume2Fill as Volume2FillIcon, Volume2 as Volume2Icon, Volume2Duotone as VolumeDuotone, Volume2Duotone as VolumeDuotoneIcon, Volume2Fill as VolumeFill, Volume2Fill as VolumeFillIcon, Volume2 as VolumeIcon, VolumeOff, VolumeOffDuotone, VolumeOffDuotone as VolumeOffDuotoneIcon, VolumeOffFill, VolumeOffFill as VolumeOffFillIcon, VolumeOff as VolumeOffIcon, Alert as Warning, CircleAlert as WarningCircle, CircleAlertDuotone as WarningCircleDuotone, CircleAlertDuotone as WarningCircleDuotoneIcon, CircleAlertFill as WarningCircleFill, CircleAlertFill as WarningCircleFillIcon, CircleAlert as WarningCircleIcon, AlertDuotone as WarningDuotone, AlertDuotone as WarningDuotoneIcon, AlertFill as WarningFill, AlertFill as WarningFillIcon, Alert as WarningIcon, Clock as Watch, ClockDuotone as WatchDuotone, ClockDuotone as WatchDuotoneIcon, ClockFill as WatchFill, ClockFill as WatchFillIcon, Clock as WatchIcon, Globe as Web, GlobeDuotone as WebDuotone, GlobeDuotone as WebDuotoneIcon, GlobeFill as WebFill, GlobeFill as WebFillIcon, Globe as WebIcon, ArrowLeft as West, ArrowLeftDuotone as WestDuotone, ArrowLeftDuotone as WestDuotoneIcon, ArrowLeftFill as WestFill, ArrowLeftFill as WestFillIcon, ArrowLeft as WestIcon, Hotspot as Wifi, HotspotDuotone as WifiDuotone, HotspotDuotone as WifiDuotoneIcon, HotspotFill as WifiFill, HotspotFill as WifiFillIcon, Hotspot as WifiIcon, Hotspot as Wireless, HotspotDuotone as WirelessDuotone, HotspotDuotone as WirelessDuotoneIcon, HotspotFill as WirelessFill, HotspotFill as WirelessFillIcon, Hotspot as WirelessIcon, Globe as World, GlobeDuotone as WorldDuotone, GlobeDuotone as WorldDuotoneIcon, GlobeFill as WorldFill, GlobeFill as WorldFillIcon, Globe as WorldIcon, Pencil as Write, PencilDuotone as WriteDuotone, PencilDuotone as WriteDuotoneIcon, PencilFill as WriteFill, PencilFill as WriteFillIcon, Pencil as WriteIcon, SquarePen as WriteNew, SquarePenDuotone as WriteNewDuotone, SquarePenDuotone as WriteNewDuotoneIcon, SquarePenFill as WriteNewFill, SquarePenFill as WriteNewFillIcon, SquarePen as WriteNewIcon, CircleX as X, CircleXDuotone as XDuotone, CircleXDuotone as XDuotoneIcon, CircleXFill as XFill, CircleXFill as XFillIcon, CircleX as XIcon, ThumbsUp as Yes, ThumbsUpDuotone as YesDuotone, ThumbsUpDuotone as YesDuotoneIcon, ThumbsUpFill as YesFill, ThumbsUpFill as YesFillIcon, ThumbsUp as YesIcon, ArrowDownYT as Youtube, ArrowDownYTDuotone as YoutubeDuotone, ArrowDownYTDuotone as YoutubeDuotoneIcon, ArrowDownYTFill as YoutubeFill, ArrowDownYTFill as YoutubeFillIcon, ArrowDownYT as YoutubeIcon, aliasToCanonical, allNames, createFoamicon, getCanonicalName, iconAliases, iconNames, iconTags, logoAliases, logoNames, logoTags };
+export { Info as About, InfoDuotone as AboutDuotone, InfoDuotone as AboutDuotoneIcon, InfoFill as AboutFill, InfoFill as AboutFillIcon, Info as AboutIcon, ChevronUpDown as Accordion, ChevronUpDownDuotone as AccordionDuotone, ChevronUpDownDuotone as AccordionDuotoneIcon, ChevronUpDownFill as AccordionFill, ChevronUpDownFill as AccordionFillIcon, ChevronUpDown as AccordionIcon, User as Account, UserDuotone as AccountDuotone, UserDuotone as AccountDuotoneIcon, UserFill as AccountFill, UserFill as AccountFillIcon, User as AccountIcon, Plus as Add, ContentPlus as AddContent, ContentPlusDuotone as AddContentDuotone, ContentPlusDuotone as AddContentDuotoneIcon, ContentPlusFill as AddContentFill, ContentPlusFill as AddContentFillIcon, ContentPlus as AddContentIcon, PlusDuotone as AddDuotone, PlusDuotone as AddDuotoneIcon, FilePlus as AddFile, FilePlusDuotone as AddFileDuotone, FilePlusDuotone as AddFileDuotoneIcon, FilePlusFill as AddFileFill, FilePlusFill as AddFileFillIcon, FilePlus as AddFileIcon, PlusFill as AddFill, PlusFill as AddFillIcon, Plus as AddIcon, ShieldPlus as AddSecurity, ShieldPlusDuotone as AddSecurityDuotone, ShieldPlusDuotone as AddSecurityDuotoneIcon, ShieldPlusFill as AddSecurityFill, ShieldPlusFill as AddSecurityFillIcon, ShieldPlus as AddSecurityIcon, Rolodex as AddressBook, RolodexDuotone as AddressBookDuotone, RolodexDuotone as AddressBookDuotoneIcon, RolodexFill as AddressBookFill, RolodexFill as AddressBookFillIcon, Rolodex as AddressBookIcon, SlidersHorizontal as Adjust, SlidersHorizontalDuotone as AdjustDuotone, SlidersHorizontalDuotone as AdjustDuotoneIcon, SlidersHorizontalFill as AdjustFill, SlidersHorizontalFill as AdjustFillIcon, SlidersHorizontal as AdjustIcon, Sparkles as Ai, SparklesDuotone as AiDuotone, SparklesDuotone as AiDuotoneIcon, SparklesFill as AiFill, SparklesFill as AiFillIcon, Sparkles as AiIcon, Bell as Alarm, BellDuotone as AlarmDuotone, BellDuotone as AlarmDuotoneIcon, BellFill as AlarmFill, BellFill as AlarmFillIcon, Bell as AlarmIcon, Alert, AlertDuotone, AlertDuotone as AlertDuotoneIcon, AlertFill, AlertFill as AlertFillIcon, Alert as AlertIcon, TextAlignStart as AlignLeft, TextAlignStartDuotone as AlignLeftDuotone, TextAlignStartDuotone as AlignLeftDuotoneIcon, TextAlignStartFill as AlignLeftFill, TextAlignStartFill as AlignLeftFillIcon, TextAlignStart as AlignLeftIcon, TextAlignEnd as AlignRight, TextAlignEndDuotone as AlignRightDuotone, TextAlignEndDuotone as AlignRightDuotoneIcon, TextAlignEndFill as AlignRightFill, TextAlignEndFill as AlignRightFillIcon, TextAlignEnd as AlignRightIcon, Rolodex as Alphabet, RolodexDuotone as AlphabetDuotone, RolodexDuotone as AlphabetDuotoneIcon, RolodexFill as AlphabetFill, RolodexFill as AlphabetFillIcon, Rolodex as AlphabetIcon, ChartColumnSquare as Analytics, ChartColumnSquareDuotone as AnalyticsDuotone, ChartColumnSquareDuotone as AnalyticsDuotoneIcon, ChartColumnSquareFill as AnalyticsFill, ChartColumnSquareFill as AnalyticsFillIcon, ChartColumnSquare as AnalyticsIcon, Megaphone as Announce, MegaphoneDuotone as AnnounceDuotone, MegaphoneDuotone as AnnounceDuotoneIcon, MegaphoneFill as AnnounceFill, MegaphoneFill as AnnounceFillIcon, Megaphone as AnnounceIcon, Reply as Answer, ReplyDuotone as AnswerDuotone, ReplyDuotone as AnswerDuotoneIcon, ReplyFill as AnswerFill, ReplyFill as AnswerFillIcon, Reply as AnswerIcon, ThumbsUp as Approve, ThumbsUpDuotone as ApproveDuotone, ThumbsUpDuotone as ApproveDuotoneIcon, ThumbsUpFill as ApproveFill, ThumbsUpFill as ApproveFillIcon, ThumbsUp as ApproveIcon, BadgeCheckbox as Approved, BadgeCheckboxDuotone as ApprovedDuotone, BadgeCheckboxDuotone as ApprovedDuotoneIcon, BadgeCheckboxFill as ApprovedFill, BadgeCheckboxFill as ApprovedFillIcon, BadgeCheckbox as ApprovedIcon, Archive, ArchiveArrowUp, ArchiveArrowUpDuotone, ArchiveArrowUpDuotone as ArchiveArrowUpDuotoneIcon, ArchiveArrowUpFill, ArchiveArrowUpFill as ArchiveArrowUpFillIcon, ArchiveArrowUp as ArchiveArrowUpIcon, ArchiveDuotone, ArchiveDuotone as ArchiveDuotoneIcon, ArchiveFill, ArchiveFill as ArchiveFillIcon, Archive as ArchiveIcon, ChartArea as AreaChart, ChartAreaDuotone as AreaChartDuotone, ChartAreaDuotone as AreaChartDuotoneIcon, ChartAreaFill as AreaChartFill, ChartAreaFill as AreaChartFillIcon, ChartArea as AreaChartIcon, ArrowDown, ArrowDown01, ArrowDown01Duotone, ArrowDown01Duotone as ArrowDown01DuotoneIcon, ArrowDown01Fill, ArrowDown01Fill as ArrowDown01FillIcon, ArrowDown01 as ArrowDown01Icon, ArrowDown10, ArrowDown10Duotone, ArrowDown10Duotone as ArrowDown10DuotoneIcon, ArrowDown10Fill, ArrowDown10Fill as ArrowDown10FillIcon, ArrowDown10 as ArrowDown10Icon, ArrowDownCog, ArrowDownCogDuotone, ArrowDownCogDuotone as ArrowDownCogDuotoneIcon, ArrowDownCogFill, ArrowDownCogFill as ArrowDownCogFillIcon, ArrowDownCog as ArrowDownCogIcon, ArrowDownDuotone, ArrowDownDuotone as ArrowDownDuotoneIcon, ArrowDownFill, ArrowDownFill as ArrowDownFillIcon, ArrowDownIG, ArrowDownIGDuotone, ArrowDownIGDuotone as ArrowDownIGDuotoneIcon, ArrowDownIGFill, ArrowDownIGFill as ArrowDownIGFillIcon, ArrowDownIG as ArrowDownIGIcon, ArrowDown as ArrowDownIcon, ArrowDownLeft, ArrowDownLeftDuotone, ArrowDownLeftDuotone as ArrowDownLeftDuotoneIcon, ArrowDownLeftFill, ArrowDownLeftFill as ArrowDownLeftFillIcon, ArrowDownLeft as ArrowDownLeftIcon, ArrowDownMapPin, ArrowDownMapPinDuotone, ArrowDownMapPinDuotone as ArrowDownMapPinDuotoneIcon, ArrowDownMapPinFill, ArrowDownMapPinFill as ArrowDownMapPinFillIcon, ArrowDownMapPin as ArrowDownMapPinIcon, ArrowDownNarrowWide, ArrowDownNarrowWideDuotone, ArrowDownNarrowWideDuotone as ArrowDownNarrowWideDuotoneIcon, ArrowDownNarrowWideFill, ArrowDownNarrowWideFill as ArrowDownNarrowWideFillIcon, ArrowDownNarrowWide as ArrowDownNarrowWideIcon, ArrowDownRight, ArrowDownRightDuotone, ArrowDownRightDuotone as ArrowDownRightDuotoneIcon, ArrowDownRightFill, ArrowDownRightFill as ArrowDownRightFillIcon, ArrowDownRight as ArrowDownRightIcon, ArrowDownSC, ArrowDownSCDuotone, ArrowDownSCDuotone as ArrowDownSCDuotoneIcon, ArrowDownSCFill, ArrowDownSCFill as ArrowDownSCFillIcon, ArrowDownSC as ArrowDownSCIcon, ArrowDownTT, ArrowDownTTDuotone, ArrowDownTTDuotone as ArrowDownTTDuotoneIcon, ArrowDownTTFill, ArrowDownTTFill as ArrowDownTTFillIcon, ArrowDownTT as ArrowDownTTIcon, ArrowDownUp, ArrowDownUpDuotone, ArrowDownUpDuotone as ArrowDownUpDuotoneIcon, ArrowDownUpFill, ArrowDownUpFill as ArrowDownUpFillIcon, ArrowDownUp as ArrowDownUpIcon, ArrowDownWideNarrow, ArrowDownWideNarrowDuotone, ArrowDownWideNarrowDuotone as ArrowDownWideNarrowDuotoneIcon, ArrowDownWideNarrowFill, ArrowDownWideNarrowFill as ArrowDownWideNarrowFillIcon, ArrowDownWideNarrow as ArrowDownWideNarrowIcon, ArrowDownYT, ArrowDownYTDuotone, ArrowDownYTDuotone as ArrowDownYTDuotoneIcon, ArrowDownYTFill, ArrowDownYTFill as ArrowDownYTFillIcon, ArrowDownYT as ArrowDownYTIcon, ArrowLeft, ArrowLeftDuotone, ArrowLeftDuotone as ArrowLeftDuotoneIcon, ArrowLeftFill, ArrowLeftFill as ArrowLeftFillIcon, ArrowLeft as ArrowLeftIcon, ArrowRight, ArrowRightDuotone, ArrowRightDuotone as ArrowRightDuotoneIcon, ArrowRightFill, ArrowRightFill as ArrowRightFillIcon, ArrowRight as ArrowRightIcon, ArrowRightToLine, ArrowRightToLineDuotone, ArrowRightToLineDuotone as ArrowRightToLineDuotoneIcon, ArrowRightToLineFill, ArrowRightToLineFill as ArrowRightToLineFillIcon, ArrowRightToLine as ArrowRightToLineIcon, ArrowUp, ArrowUpAZ, ArrowUpAZDuotone, ArrowUpAZDuotone as ArrowUpAZDuotoneIcon, ArrowUpAZFill, ArrowUpAZFill as ArrowUpAZFillIcon, ArrowUpAZ as ArrowUpAZIcon, ArrowUpCog, ArrowUpCogDuotone, ArrowUpCogDuotone as ArrowUpCogDuotoneIcon, ArrowUpCogFill, ArrowUpCogFill as ArrowUpCogFillIcon, ArrowUpCog as ArrowUpCogIcon, ArrowUpDuotone, ArrowUpDuotone as ArrowUpDuotoneIcon, ArrowUpFill, ArrowUpFill as ArrowUpFillIcon, ArrowUpIG, ArrowUpIGDuotone, ArrowUpIGDuotone as ArrowUpIGDuotoneIcon, ArrowUpIGFill, ArrowUpIGFill as ArrowUpIGFillIcon, ArrowUpIG as ArrowUpIGIcon, ArrowUp as ArrowUpIcon, ArrowUpLeft, ArrowUpLeftDuotone, ArrowUpLeftDuotone as ArrowUpLeftDuotoneIcon, ArrowUpLeftFill, ArrowUpLeftFill as ArrowUpLeftFillIcon, ArrowUpLeft as ArrowUpLeftIcon, ArrowUpMapPin, ArrowUpMapPinDuotone, ArrowUpMapPinDuotone as ArrowUpMapPinDuotoneIcon, ArrowUpMapPinFill, ArrowUpMapPinFill as ArrowUpMapPinFillIcon, ArrowUpMapPin as ArrowUpMapPinIcon, ArrowUpNarrowWide, ArrowUpNarrowWideDuotone, ArrowUpNarrowWideDuotone as ArrowUpNarrowWideDuotoneIcon, ArrowUpNarrowWideFill, ArrowUpNarrowWideFill as ArrowUpNarrowWideFillIcon, ArrowUpNarrowWide as ArrowUpNarrowWideIcon, ArrowUpRight, ArrowUpRightDuotone, ArrowUpRightDuotone as ArrowUpRightDuotoneIcon, ArrowUpRightFill, ArrowUpRightFill as ArrowUpRightFillIcon, ArrowUpRight as ArrowUpRightIcon, ArrowUpSC, ArrowUpSCDuotone, ArrowUpSCDuotone as ArrowUpSCDuotoneIcon, ArrowUpSCFill, ArrowUpSCFill as ArrowUpSCFillIcon, ArrowUpSC as ArrowUpSCIcon, ArrowUpTT, ArrowUpTTDuotone, ArrowUpTTDuotone as ArrowUpTTDuotoneIcon, ArrowUpTTFill, ArrowUpTTFill as ArrowUpTTFillIcon, ArrowUpTT as ArrowUpTTIcon, ArrowUpWideNarrow, ArrowUpWideNarrowDuotone, ArrowUpWideNarrowDuotone as ArrowUpWideNarrowDuotoneIcon, ArrowUpWideNarrowFill, ArrowUpWideNarrowFill as ArrowUpWideNarrowFillIcon, ArrowUpWideNarrow as ArrowUpWideNarrowIcon, ArrowUpYT, ArrowUpYTDuotone, ArrowUpYTDuotone as ArrowUpYTDuotoneIcon, ArrowUpYTFill, ArrowUpYTFill as ArrowUpYTFillIcon, ArrowUpYT as ArrowUpYTIcon, ArrowUpZA, ArrowUpZADuotone, ArrowUpZADuotone as ArrowUpZADuotoneIcon, ArrowUpZAFill, ArrowUpZAFill as ArrowUpZAFillIcon, ArrowUpZA as ArrowUpZAIcon, ArchiveArrowUp as Ascending, ArchiveArrowUpDuotone as AscendingDuotone, ArchiveArrowUpDuotone as AscendingDuotoneIcon, ArchiveArrowUpFill as AscendingFill, ArchiveArrowUpFill as AscendingFillIcon, ArchiveArrowUp as AscendingIcon, AtSign, AtSignDuotone, AtSignDuotone as AtSignDuotoneIcon, AtSignFill, AtSignFill as AtSignFillIcon, AtSign as AtSignIcon, Alert as Attention, CircleAlert as AttentionCircle, CircleAlertDuotone as AttentionCircleDuotone, CircleAlertDuotone as AttentionCircleDuotoneIcon, CircleAlertFill as AttentionCircleFill, CircleAlertFill as AttentionCircleFillIcon, CircleAlert as AttentionCircleIcon, AlertDuotone as AttentionDuotone, AlertDuotone as AttentionDuotoneIcon, AlertFill as AttentionFill, AlertFill as AttentionFillIcon, Alert as AttentionIcon, Reach as Audience, ReachDuotone as AudienceDuotone, ReachDuotone as AudienceDuotoneIcon, ReachFill as AudienceFill, ReachFill as AudienceFillIcon, Reach as AudienceIcon, Volume2 as Audio, Volume2Duotone as AudioDuotone, Volume2Duotone as AudioDuotoneIcon, Volume2Fill as AudioFill, Volume2Fill as AudioFillIcon, Volume2 as AudioIcon, ArrowLeft as Back, ArrowLeftDuotone as BackDuotone, ArrowLeftDuotone as BackDuotoneIcon, ArrowLeftFill as BackFill, ArrowLeftFill as BackFillIcon, ArrowLeft as BackIcon, BadgeCheckbox, BadgeCheckboxDuotone, BadgeCheckboxDuotone as BadgeCheckboxDuotoneIcon, BadgeCheckboxFill, BadgeCheckboxFill as BadgeCheckboxFillIcon, BadgeCheckbox as BadgeCheckboxIcon, Ban, BanDuotone, BanDuotone as BanDuotoneIcon, BanFill, BanFill as BanFillIcon, Ban as BanIcon, ChartColumnSquare as BarChart, ChartColumnSquareDuotone as BarChartDuotone, ChartColumnSquareDuotone as BarChartDuotoneIcon, ChartColumnSquareFill as BarChartFill, ChartColumnSquareFill as BarChartFillIcon, ChartColumnSquare as BarChartIcon, ChartBarStacked as BarChartStacked, ChartBarStackedDuotone as BarChartStackedDuotone, ChartBarStackedDuotone as BarChartStackedDuotoneIcon, ChartBarStackedFill as BarChartStackedFill, ChartBarStackedFill as BarChartStackedFillIcon, ChartBarStacked as BarChartStackedIcon, Menu as Bars, MenuDuotone as BarsDuotone, MenuDuotone as BarsDuotoneIcon, MenuFill as BarsFill, MenuFill as BarsFillIcon, Menu as BarsIcon, Bell, BellDuotone, BellDuotone as BellDuotoneIcon, BellFill, BellFill as BellFillIcon, Bell as BellIcon, Trash as Bin, TrashDuotone as BinDuotone, TrashDuotone as BinDuotoneIcon, TrashFill as BinFill, TrashFill as BinFillIcon, Trash as BinIcon, Ban as Block, BanDuotone as BlockDuotone, BanDuotone as BlockDuotoneIcon, BanFill as BlockFill, BanFill as BlockFillIcon, Ban as BlockIcon, QuotationMarkRight as BlockquoteEnd, QuotationMarkRightDuotone as BlockquoteEndDuotone, QuotationMarkRightDuotone as BlockquoteEndDuotoneIcon, QuotationMarkRightFill as BlockquoteEndFill, QuotationMarkRightFill as BlockquoteEndFillIcon, QuotationMarkRight as BlockquoteEndIcon, QuotationMarkLeft as BlockquoteStart, QuotationMarkLeftDuotone as BlockquoteStartDuotone, QuotationMarkLeftDuotone as BlockquoteStartDuotoneIcon, QuotationMarkLeftFill as BlockquoteStartFill, QuotationMarkLeftFill as BlockquoteStartFillIcon, QuotationMarkLeft as BlockquoteStartIcon, Bold, BoldDuotone, BoldDuotone as BoldDuotoneIcon, BoldFill, BoldFill as BoldFillIcon, Bold as BoldIcon, Zap as Bolt, ZapDuotone as BoltDuotone, ZapDuotone as BoltDuotoneIcon, ZapFill as BoltFill, ZapFill as BoltFillIcon, Zap as BoltIcon, Bookmark, BookmarkDuotone, BookmarkDuotone as BookmarkDuotoneIcon, BookmarkFill, BookmarkFill as BookmarkFillIcon, Bookmark as BookmarkIcon, Archive as Box, ArchiveDuotone as BoxDuotone, ArchiveDuotone as BoxDuotoneIcon, ArchiveFill as BoxFill, ArchiveFill as BoxFillIcon, Archive as BoxIcon, Brain, BrainDuotone, BrainDuotone as BrainDuotoneIcon, BrainFill, BrainFill as BrainFillIcon, Brain as BrainIcon, ContentUser as BrandAssets, ContentUserDuotone as BrandAssetsDuotone, ContentUserDuotone as BrandAssetsDuotoneIcon, ContentUserFill as BrandAssetsFill, ContentUserFill as BrandAssetsFillIcon, ContentUser as BrandAssetsIcon, Unlink as Break, UnlinkDuotone as BreakDuotone, UnlinkDuotone as BreakDuotoneIcon, UnlinkFill as BreakFill, UnlinkFill as BreakFillIcon, Unlink as BreakIcon, Sun as Bright, SunDuotone as BrightDuotone, SunDuotone as BrightDuotoneIcon, SunFill as BrightFill, SunFill as BrightFillIcon, Sun as BrightIcon, Megaphone as Broadcast, MegaphoneDuotone as BroadcastDuotone, MegaphoneDuotone as BroadcastDuotoneIcon, MegaphoneFill as BroadcastFill, MegaphoneFill as BroadcastFillIcon, Megaphone as BroadcastIcon, List as Bullets, ListDuotone as BulletsDuotone, ListDuotone as BulletsDuotoneIcon, ListFill as BulletsFill, ListFill as BulletsFillIcon, List as BulletsIcon, Calendar, CalendarDuotone, CalendarDuotone as CalendarDuotoneIcon, CalendarFill, CalendarFill as CalendarFillIcon, Calendar as CalendarIcon, Video as Camera, VideoDuotone as CameraDuotone, VideoDuotone as CameraDuotoneIcon, VideoFill as CameraFill, VideoFill as CameraFillIcon, Video as CameraIcon, CircleX as Cancel, CircleXDuotone as CancelDuotone, CircleXDuotone as CancelDuotoneIcon, CircleXFill as CancelFill, CircleXFill as CancelFillIcon, CircleX as CancelIcon, Rolodex as CardIndex, RolodexDuotone as CardIndexDuotone, RolodexDuotone as CardIndexDuotoneIcon, RolodexFill as CardIndexFill, RolodexFill as CardIndexFillIcon, Rolodex as CardIndexIcon, Grid1x2 as Cards, Grid1x2Duotone as CardsDuotone, Grid1x2Duotone as CardsDuotoneIcon, Grid1x2Fill as CardsFill, Grid1x2Fill as CardsFillIcon, Grid1x2 as CardsIcon, ChevronDown as CaretDown, ChevronDownDuotone as CaretDownDuotone, ChevronDownDuotone as CaretDownDuotoneIcon, ChevronDownFill as CaretDownFill, ChevronDownFill as CaretDownFillIcon, ChevronDown as CaretDownIcon, ChevronLeft as CaretLeft, ChevronLeftDuotone as CaretLeftDuotone, ChevronLeftDuotone as CaretLeftDuotoneIcon, ChevronLeftFill as CaretLeftFill, ChevronLeftFill as CaretLeftFillIcon, ChevronLeft as CaretLeftIcon, ChevronRight as CaretRight, ChevronRightDuotone as CaretRightDuotone, ChevronRightDuotone as CaretRightDuotoneIcon, ChevronRightFill as CaretRightFill, ChevronRightFill as CaretRightFillIcon, ChevronRight as CaretRightIcon, ChevronUp as CaretUp, ChevronUpDuotone as CaretUpDuotone, ChevronUpDuotone as CaretUpDuotoneIcon, ChevronUpFill as CaretUpFill, ChevronUpFill as CaretUpFillIcon, ChevronUp as CaretUpIcon, Alert as Caution, CircleAlert as CautionCircle, CircleAlertDuotone as CautionCircleDuotone, CircleAlertDuotone as CautionCircleDuotoneIcon, CircleAlertFill as CautionCircleFill, CircleAlertFill as CautionCircleFillIcon, CircleAlert as CautionCircleIcon, AlertDuotone as CautionDuotone, AlertDuotone as CautionDuotoneIcon, AlertFill as CautionFill, AlertFill as CautionFillIcon, Alert as CautionIcon, TextAlignCenter as Center, TextAlignCenterDuotone as CenterDuotone, TextAlignCenterDuotone as CenterDuotoneIcon, TextAlignCenterFill as CenterFill, TextAlignCenterFill as CenterFillIcon, TextAlignCenter as CenterIcon, BadgeCheckbox as Certified, BadgeCheckboxDuotone as CertifiedDuotone, BadgeCheckboxDuotone as CertifiedDuotoneIcon, BadgeCheckboxFill as CertifiedFill, BadgeCheckboxFill as CertifiedFillIcon, BadgeCheckbox as CertifiedIcon, Link as Chain, LinkDuotone as ChainDuotone, LinkDuotone as ChainDuotoneIcon, LinkFill as ChainFill, LinkFill as ChainFillIcon, Link as ChainIcon, ChartArea, ChartAreaDuotone, ChartAreaDuotone as ChartAreaDuotoneIcon, ChartAreaFill, ChartAreaFill as ChartAreaFillIcon, ChartArea as ChartAreaIcon, ChartBarStacked, ChartBarStackedDuotone, ChartBarStackedDuotone as ChartBarStackedDuotoneIcon, ChartBarStackedFill, ChartBarStackedFill as ChartBarStackedFillIcon, ChartBarStacked as ChartBarStackedIcon, ChartColumn, ChartColumnDuotone, ChartColumnDuotone as ChartColumnDuotoneIcon, ChartColumnFill, ChartColumnFill as ChartColumnFillIcon, ChartColumn as ChartColumnIcon, ChartColumnSquare, ChartColumnSquareDuotone, ChartColumnSquareDuotone as ChartColumnSquareDuotoneIcon, ChartColumnSquareFill, ChartColumnSquareFill as ChartColumnSquareFillIcon, ChartColumnSquare as ChartColumnSquareIcon, ChartNetwork, ChartNetworkDuotone, ChartNetworkDuotone as ChartNetworkDuotoneIcon, ChartNetworkFill, ChartNetworkFill as ChartNetworkFillIcon, ChartNetwork as ChartNetworkIcon, ChartNoAxesCombined, ChartNoAxesCombinedDuotone, ChartNoAxesCombinedDuotone as ChartNoAxesCombinedDuotoneIcon, ChartNoAxesCombinedFill, ChartNoAxesCombinedFill as ChartNoAxesCombinedFillIcon, ChartNoAxesCombined as ChartNoAxesCombinedIcon, ChartPie, ChartPieDuotone, ChartPieDuotone as ChartPieDuotoneIcon, ChartPieFill, ChartPieFill as ChartPieFillIcon, ChartPie as ChartPieIcon, MessagesSquare as Chat, MessagesSquareDuotone as ChatDuotone, MessagesSquareDuotone as ChatDuotoneIcon, MessagesSquareFill as ChatFill, MessagesSquareFill as ChatFillIcon, MessagesSquare as ChatIcon, MessageSquare as ChatSingle, MessageSquareDuotone as ChatSingleDuotone, MessageSquareDuotone as ChatSingleDuotoneIcon, MessageSquareFill as ChatSingleFill, MessageSquareFill as ChatSingleFillIcon, MessageSquare as ChatSingleIcon, MessagesSquare as Chats, MessagesSquareDuotone as ChatsDuotone, MessagesSquareDuotone as ChatsDuotoneIcon, MessagesSquareFill as ChatsFill, MessagesSquareFill as ChatsFillIcon, MessagesSquare as ChatsIcon, Checkmark as Check, CheckmarkDuotone as CheckDuotone, CheckmarkDuotone as CheckDuotoneIcon, CheckmarkFill as CheckFill, CheckmarkFill as CheckFillIcon, Checkmark as CheckIcon, Checkbox as CheckSquare, CheckboxDuotone as CheckSquareDuotone, CheckboxDuotone as CheckSquareDuotoneIcon, CheckboxFill as CheckSquareFill, CheckboxFill as CheckSquareFillIcon, Checkbox as CheckSquareIcon, Checkbox, CheckboxDuotone, CheckboxDuotone as CheckboxDuotoneIcon, CheckboxFill, CheckboxFill as CheckboxFillIcon, Checkbox as CheckboxIcon, ClipboardList as Checklist, ClipboardListDuotone as ChecklistDuotone, ClipboardListDuotone as ChecklistDuotoneIcon, ClipboardListFill as ChecklistFill, ClipboardListFill as ChecklistFillIcon, ClipboardList as ChecklistIcon, Checkmark, CheckmarkDuotone, CheckmarkDuotone as CheckmarkDuotoneIcon, CheckmarkFill, CheckmarkFill as CheckmarkFillIcon, Checkmark as CheckmarkIcon, ChevronDown, ChevronDownDuotone, ChevronDownDuotone as ChevronDownDuotoneIcon, ChevronDownFill, ChevronDownFill as ChevronDownFillIcon, ChevronDown as ChevronDownIcon, ChevronLeft, ChevronLeftDuotone, ChevronLeftDuotone as ChevronLeftDuotoneIcon, ChevronLeftFill, ChevronLeftFill as ChevronLeftFillIcon, ChevronLeft as ChevronLeftIcon, ChevronRight, ChevronRightDuotone, ChevronRightDuotone as ChevronRightDuotoneIcon, ChevronRightFill, ChevronRightFill as ChevronRightFillIcon, ChevronRight as ChevronRightIcon, ChevronUp, ChevronUpDown, ChevronUpDownDuotone, ChevronUpDownDuotone as ChevronUpDownDuotoneIcon, ChevronUpDownFill, ChevronUpDownFill as ChevronUpDownFillIcon, ChevronUpDown as ChevronUpDownIcon, ChevronUpDuotone, ChevronUpDuotone as ChevronUpDuotoneIcon, ChevronUpFill, ChevronUpFill as ChevronUpFillIcon, ChevronUp as ChevronUpIcon, Circle, CircleAlert, CircleAlertDuotone, CircleAlertDuotone as CircleAlertDuotoneIcon, CircleAlertFill, CircleAlertFill as CircleAlertFillIcon, CircleAlert as CircleAlertIcon, CircleCheckbox, CircleCheckboxDuotone, CircleCheckboxDuotone as CircleCheckboxDuotoneIcon, CircleCheckboxFill, CircleCheckboxFill as CircleCheckboxFillIcon, CircleCheckbox as CircleCheckboxIcon, CircleDashed, CircleDashedDuotone, CircleDashedDuotone as CircleDashedDuotoneIcon, CircleDashedFill, CircleDashedFill as CircleDashedFillIcon, CircleDashed as CircleDashedIcon, CircleDollarSign, CircleDollarSignDuotone, CircleDollarSignDuotone as CircleDollarSignDuotoneIcon, CircleDollarSignFill, CircleDollarSignFill as CircleDollarSignFillIcon, CircleDollarSign as CircleDollarSignIcon, CircleDuotone, CircleDuotone as CircleDuotoneIcon, CircleFill, CircleFill as CircleFillIcon, Circle as CircleIcon, CircleOverlap, CircleOverlapDuotone, CircleOverlapDuotone as CircleOverlapDuotoneIcon, CircleOverlapFill, CircleOverlapFill as CircleOverlapFillIcon, CircleOverlap as CircleOverlapIcon, CirclePlus, CirclePlusDuotone, CirclePlusDuotone as CirclePlusDuotoneIcon, CirclePlusFill, CirclePlusFill as CirclePlusFillIcon, CirclePlus as CirclePlusIcon, CircleQuestionMark, CircleQuestionMarkDuotone, CircleQuestionMarkDuotone as CircleQuestionMarkDuotoneIcon, CircleQuestionMarkFill, CircleQuestionMarkFill as CircleQuestionMarkFillIcon, CircleQuestionMark as CircleQuestionMarkIcon, CircleX, CircleXDuotone, CircleXDuotone as CircleXDuotoneIcon, CircleXFill, CircleXFill as CircleXFillIcon, CircleX as CircleXIcon, CircleX as Clear, CircleXDuotone as ClearDuotone, CircleXDuotone as ClearDuotoneIcon, CircleXFill as ClearFill, CircleXFill as ClearFillIcon, RemoveFormatting as ClearFormat, RemoveFormattingDuotone as ClearFormatDuotone, RemoveFormattingDuotone as ClearFormatDuotoneIcon, RemoveFormattingFill as ClearFormatFill, RemoveFormattingFill as ClearFormatFillIcon, RemoveFormatting as ClearFormatIcon, CircleX as ClearIcon, MousePointerClick as Click, MousePointerClickDuotone as ClickDuotone, MousePointerClickDuotone as ClickDuotoneIcon, MousePointerClickFill as ClickFill, MousePointerClickFill as ClickFillIcon, MousePointerClick as ClickIcon, ClipboardList, ClipboardListDuotone, ClipboardListDuotone as ClipboardListDuotoneIcon, ClipboardListFill, ClipboardListFill as ClipboardListFillIcon, ClipboardList as ClipboardListIcon, Clock, ClockArrowDown, ClockArrowDownDuotone, ClockArrowDownDuotone as ClockArrowDownDuotoneIcon, ClockArrowDownFill, ClockArrowDownFill as ClockArrowDownFillIcon, ClockArrowDown as ClockArrowDownIcon, ClockArrowUp, ClockArrowUpDuotone, ClockArrowUpDuotone as ClockArrowUpDuotoneIcon, ClockArrowUpFill, ClockArrowUpFill as ClockArrowUpFillIcon, ClockArrowUp as ClockArrowUpIcon, ClockDuotone, ClockDuotone as ClockDuotoneIcon, ClockFill, ClockFill as ClockFillIcon, Clock as ClockIcon, Copy as Clone, CopyDuotone as CloneDuotone, CopyDuotone as CloneDuotoneIcon, CopyFill as CloneFill, CopyFill as CloneFillIcon, Copy as CloneIcon, CircleX as Close, CircleXDuotone as CloseDuotone, CircleXDuotone as CloseDuotoneIcon, CircleXFill as CloseFill, CircleXFill as CloseFillIcon, CircleX as CloseIcon, QuotationMarkRight as CloseQuote, QuotationMarkRightDuotone as CloseQuoteDuotone, QuotationMarkRightDuotone as CloseQuoteDuotoneIcon, QuotationMarkRightFill as CloseQuoteFill, QuotationMarkRightFill as CloseQuoteFillIcon, QuotationMarkRight as CloseQuoteIcon, Command as Cmd, CommandDuotone as CmdDuotone, CommandDuotone as CmdDuotoneIcon, CommandFill as CmdFill, CommandFill as CmdFillIcon, Command as CmdIcon, Cog, CogDuotone, CogDuotone as CogDuotoneIcon, CogFill, CogFill as CogFillIcon, Cog as CogIcon, Cog as Cogwheel, CogDuotone as CogwheelDuotone, CogDuotone as CogwheelDuotoneIcon, CogFill as CogwheelFill, CogFill as CogwheelFillIcon, Cog as CogwheelIcon, ChevronDown as Collapse, ChevronDownDuotone as CollapseDuotone, ChevronDownDuotone as CollapseDuotoneIcon, ChevronDownFill as CollapseFill, ChevronDownFill as CollapseFillIcon, ChevronDown as CollapseIcon, ChartColumn as ColumnChart, ChartColumnDuotone as ColumnChartDuotone, ChartColumnDuotone as ColumnChartDuotoneIcon, ChartColumnFill as ColumnChartFill, ChartColumnFill as ColumnChartFillIcon, ChartColumn as ColumnChartIcon, Columns3 as ColumnLayout, Columns3Duotone as ColumnLayoutDuotone, Columns3Duotone as ColumnLayoutDuotoneIcon, Columns3Fill as ColumnLayoutFill, Columns3Fill as ColumnLayoutFillIcon, Columns3 as ColumnLayoutIcon, Columns3, Columns3Duotone, Columns3Duotone as Columns3DuotoneIcon, Columns3Fill, Columns3Fill as Columns3FillIcon, Columns3 as Columns3Icon, ChartNoAxesCombined as ComboChart, ChartNoAxesCombinedDuotone as ComboChartDuotone, ChartNoAxesCombinedDuotone as ComboChartDuotoneIcon, ChartNoAxesCombinedFill as ComboChartFill, ChartNoAxesCombinedFill as ComboChartFillIcon, ChartNoAxesCombined as ComboChartIcon, Command, CommandDuotone, CommandDuotone as CommandDuotoneIcon, CommandFill, CommandFill as CommandFillIcon, Command as CommandIcon, MessageSquare as Comment, MessageSquareDuotone as CommentDuotone, MessageSquareDuotone as CommentDuotoneIcon, MessageSquareFill as CommentFill, MessageSquareFill as CommentFillIcon, MessageSquare as CommentIcon, MessagesSquare as Comments, MessagesSquareDuotone as CommentsDuotone, MessagesSquareDuotone as CommentsDuotoneIcon, MessagesSquareFill as CommentsFill, MessagesSquareFill as CommentsFillIcon, MessagesSquare as CommentsIcon, Checkmark as Complete, CheckmarkDuotone as CompleteDuotone, CheckmarkDuotone as CompleteDuotoneIcon, CheckmarkFill as CompleteFill, CheckmarkFill as CompleteFillIcon, Checkmark as CompleteIcon, SquarePen as Compose, SquarePenDuotone as ComposeDuotone, SquarePenDuotone as ComposeDuotoneIcon, SquarePenFill as ComposeFill, SquarePenFill as ComposeFillIcon, SquarePen as ComposeIcon, Cog as Config, CogDuotone as ConfigDuotone, CogDuotone as ConfigDuotoneIcon, CogFill as ConfigFill, CogFill as ConfigFillIcon, Cog as ConfigIcon, Cog as Configuration, CogDuotone as ConfigurationDuotone, CogDuotone as ConfigurationDuotoneIcon, CogFill as ConfigurationFill, CogFill as ConfigurationFillIcon, Cog as ConfigurationIcon, Link as Connect, LinkDuotone as ConnectDuotone, LinkDuotone as ConnectDuotoneIcon, LinkFill as ConnectFill, LinkFill as ConnectFillIcon, Link as ConnectIcon, ChartNetwork as Connections, ChartNetworkDuotone as ConnectionsDuotone, ChartNetworkDuotone as ConnectionsDuotoneIcon, ChartNetworkFill as ConnectionsFill, ChartNetworkFill as ConnectionsFillIcon, ChartNetwork as ConnectionsIcon, Rolodex as Contacts, RolodexDuotone as ContactsDuotone, RolodexDuotone as ContactsDuotoneIcon, RolodexFill as ContactsFill, RolodexFill as ContactsFillIcon, Rolodex as ContactsIcon, ContentHeart, ContentHeartDuotone, ContentHeartDuotone as ContentHeartDuotoneIcon, ContentHeartFill, ContentHeartFill as ContentHeartFillIcon, ContentHeart as ContentHeartIcon, ContentPlus, ContentPlusDuotone, ContentPlusDuotone as ContentPlusDuotoneIcon, ContentPlusFill, ContentPlusFill as ContentPlusFillIcon, ContentPlus as ContentPlusIcon, ContentUser, ContentUserDuotone, ContentUserDuotone as ContentUserDuotoneIcon, ContentUserFill, ContentUserFill as ContentUserFillIcon, ContentUser as ContentUserIcon, Eclipse as Contrast, EclipseDuotone as ContrastDuotone, EclipseDuotone as ContrastDuotoneIcon, EclipseFill as ContrastFill, EclipseFill as ContrastFillIcon, Eclipse as ContrastIcon, SlidersHorizontal as Controls, SlidersHorizontalDuotone as ControlsDuotone, SlidersHorizontalDuotone as ControlsDuotoneIcon, SlidersHorizontalFill as ControlsFill, SlidersHorizontalFill as ControlsFillIcon, SlidersHorizontal as ControlsIcon, MessagesSquare as Conversation, MessagesSquareDuotone as ConversationDuotone, MessagesSquareDuotone as ConversationDuotoneIcon, MessagesSquareFill as ConversationFill, MessagesSquareFill as ConversationFillIcon, MessagesSquare as ConversationIcon, Copy, CopyDuotone, CopyDuotone as CopyDuotoneIcon, CopyFill, CopyFill as CopyFillIcon, Copy as CopyIcon, RotateCcw as CounterClockwise, RotateCcwDuotone as CounterClockwiseDuotone, RotateCcwDuotone as CounterClockwiseDuotoneIcon, RotateCcwFill as CounterClockwiseFill, RotateCcwFill as CounterClockwiseFillIcon, RotateCcw as CounterClockwiseIcon, Plus as Create, ContentPlus as CreateContent, ContentPlusDuotone as CreateContentDuotone, ContentPlusDuotone as CreateContentDuotoneIcon, ContentPlusFill as CreateContentFill, ContentPlusFill as CreateContentFillIcon, ContentPlus as CreateContentIcon, PlusDuotone as CreateDuotone, PlusDuotone as CreateDuotoneIcon, FilePlus as CreateFile, FilePlusDuotone as CreateFileDuotone, FilePlusDuotone as CreateFileDuotoneIcon, FilePlusFill as CreateFileFill, FilePlusFill as CreateFileFillIcon, FilePlus as CreateFileIcon, PlusFill as CreateFill, PlusFill as CreateFillIcon, Plus as CreateIcon, MousePointerClick as Cursor, MousePointerClickDuotone as CursorDuotone, MousePointerClickDuotone as CursorDuotoneIcon, MousePointerClickFill as CursorFill, MousePointerClickFill as CursorFillIcon, MousePointerClick as CursorIcon, Moon as Dark, MoonDuotone as DarkDuotone, MoonDuotone as DarkDuotoneIcon, MoonFill as DarkFill, MoonFill as DarkFillIcon, Moon as DarkIcon, Moon as DarkMode, MoonDuotone as DarkModeDuotone, MoonDuotone as DarkModeDuotoneIcon, MoonFill as DarkModeFill, MoonFill as DarkModeFillIcon, Moon as DarkModeIcon, Calendar as Date, CalendarDuotone as DateDuotone, CalendarDuotone as DateDuotoneIcon, CalendarFill as DateFill, CalendarFill as DateFillIcon, Calendar as DateIcon, Sun as Day, SunDuotone as DayDuotone, SunDuotone as DayDuotoneIcon, SunFill as DayFill, SunFill as DayFillIcon, Sun as DayIcon, TrendingDown as Decline, TrendingDownDuotone as DeclineDuotone, TrendingDownDuotone as DeclineDuotoneIcon, TrendingDownFill as DeclineFill, TrendingDownFill as DeclineFillIcon, TrendingDown as DeclineIcon, Minus as Decrease, MinusDuotone as DecreaseDuotone, MinusDuotone as DecreaseDuotoneIcon, MinusFill as DecreaseFill, MinusFill as DecreaseFillIcon, Minus as DecreaseIcon, Shield as Defense, ShieldDuotone as DefenseDuotone, ShieldDuotone as DefenseDuotoneIcon, ShieldFill as DefenseFill, ShieldFill as DefenseFillIcon, Shield as DefenseIcon, Trash as Delete, TrashDuotone as DeleteDuotone, TrashDuotone as DeleteDuotoneIcon, TrashFill as DeleteFill, TrashFill as DeleteFillIcon, Trash as DeleteIcon, ArrowDown01 as Descending, ArrowDown01Duotone as DescendingDuotone, ArrowDown01Duotone as DescendingDuotoneIcon, ArrowDown01Fill as DescendingFill, ArrowDown01Fill as DescendingFillIcon, ArrowDown01 as DescendingIcon, Grid1x2 as Design, Grid1x2Duotone as DesignDuotone, Grid1x2Duotone as DesignDuotoneIcon, Grid1x2Fill as DesignFill, Grid1x2Fill as DesignFillIcon, Grid1x2 as DesignIcon, Info as Details, InfoDuotone as DetailsDuotone, InfoDuotone as DetailsDuotoneIcon, InfoFill as DetailsFill, InfoFill as DetailsFillIcon, Info as DetailsIcon, ArchiveArrowUp as Direction, ArchiveArrowUpDuotone as DirectionDuotone, ArchiveArrowUpDuotone as DirectionDuotoneIcon, ArchiveArrowUpFill as DirectionFill, ArchiveArrowUpFill as DirectionFillIcon, ArchiveArrowUp as DirectionIcon, ThumbsDown as Disapprove, ThumbsDownDuotone as DisapproveDuotone, ThumbsDownDuotone as DisapproveDuotoneIcon, ThumbsDownFill as DisapproveFill, ThumbsDownFill as DisapproveFillIcon, ThumbsDown as DisapproveIcon, Unlink as Disconnect, UnlinkDuotone as DisconnectDuotone, UnlinkDuotone as DisconnectDuotoneIcon, UnlinkFill as DisconnectFill, UnlinkFill as DisconnectFillIcon, Unlink as DisconnectIcon, Save as Disk, SaveDuotone as DiskDuotone, SaveDuotone as DiskDuotoneIcon, SaveFill as DiskFill, SaveFill as DiskFillIcon, Save as DiskIcon, ThumbsDown as Dislike, ThumbsDownDuotone as DislikeDuotone, ThumbsDownDuotone as DislikeDuotoneIcon, ThumbsDownFill as DislikeFill, ThumbsDownFill as DislikeFillIcon, ThumbsDown as DislikeIcon, File as Document, FileDuotone as DocumentDuotone, FileDuotone as DocumentDuotoneIcon, FileFill as DocumentFill, FileFill as DocumentFillIcon, File as DocumentIcon, CircleDollarSign as Dollar, CircleDollarSignDuotone as DollarDuotone, CircleDollarSignDuotone as DollarDuotoneIcon, CircleDollarSignFill as DollarFill, CircleDollarSignFill as DollarFillIcon, CircleDollarSign as DollarIcon, Checkmark as Done, CheckmarkDuotone as DoneDuotone, CheckmarkDuotone as DoneDuotoneIcon, CheckmarkFill as DoneFill, CheckmarkFill as DoneFillIcon, Checkmark as DoneIcon, ChartPie as DonutChart, ChartPieDuotone as DonutChartDuotone, ChartPieDuotone as DonutChartDuotoneIcon, ChartPieFill as DonutChartFill, ChartPieFill as DonutChartFillIcon, ChartPie as DonutChartIcon, ArrowDown as Down, ArrowDownDuotone as DownDuotone, ArrowDownDuotone as DownDuotoneIcon, ArrowDownFill as DownFill, ArrowDownFill as DownFillIcon, ArrowDown as DownIcon, Download, DownloadDuotone, DownloadDuotone as DownloadDuotoneIcon, FileArrowDown as DownloadFile, FileArrowDownDuotone as DownloadFileDuotone, FileArrowDownDuotone as DownloadFileDuotoneIcon, FileArrowDownFill as DownloadFileFill, FileArrowDownFill as DownloadFileFillIcon, FileArrowDown as DownloadFileIcon, DownloadFill, DownloadFill as DownloadFillIcon, Download as DownloadIcon, TrendingDown as Downtrend, TrendingDownDuotone as DowntrendDuotone, TrendingDownDuotone as DowntrendDuotoneIcon, TrendingDownFill as DowntrendFill, TrendingDownFill as DowntrendFillIcon, TrendingDown as DowntrendIcon, SquarePen as Draft, SquarePenDuotone as DraftDuotone, SquarePenDuotone as DraftDuotoneIcon, SquarePenFill as DraftFill, SquarePenFill as DraftFillIcon, SquarePen as DraftIcon, Move as Drag, MoveDuotone as DragDuotone, MoveDuotone as DragDuotoneIcon, MoveFill as DragFill, MoveFill as DragFillIcon, Move as DragIcon, PanelLeft as DrawerLeft, PanelLeftDuotone as DrawerLeftDuotone, PanelLeftDuotone as DrawerLeftDuotoneIcon, PanelLeftFill as DrawerLeftFill, PanelLeftFill as DrawerLeftFillIcon, PanelLeft as DrawerLeftIcon, PanelRight as DrawerRight, PanelRightDuotone as DrawerRightDuotone, PanelRightDuotone as DrawerRightDuotoneIcon, PanelRightFill as DrawerRightFill, PanelRightFill as DrawerRightFillIcon, PanelRight as DrawerRightIcon, ChevronDown as Dropdown, ChevronDownDuotone as DropdownDuotone, ChevronDownDuotone as DropdownDuotoneIcon, ChevronDownFill as DropdownFill, ChevronDownFill as DropdownFillIcon, ChevronDown as DropdownIcon, Copy as Duplicate, CopyDuotone as DuplicateDuotone, CopyDuotone as DuplicateDuotoneIcon, CopyFill as DuplicateFill, CopyFill as DuplicateFillIcon, Copy as DuplicateIcon, ArrowRight as East, ArrowRightDuotone as EastDuotone, ArrowRightDuotone as EastDuotoneIcon, ArrowRightFill as EastFill, ArrowRightFill as EastFillIcon, ArrowRight as EastIcon, Eclipse, EclipseDuotone, EclipseDuotone as EclipseDuotoneIcon, EclipseFill, EclipseFill as EclipseFillIcon, Eclipse as EclipseIcon, Pencil as Edit, PencilDuotone as EditDuotone, PencilDuotone as EditDuotoneIcon, PencilFill as EditFill, PencilFill as EditFillIcon, Pencil as EditIcon, SquarePen as Editor, SquarePenDuotone as EditorDuotone, SquarePenDuotone as EditorDuotoneIcon, SquarePenFill as EditorFill, SquarePenFill as EditorFillIcon, SquarePen as EditorIcon, Ellipsis, EllipsisDuotone, EllipsisDuotone as EllipsisDuotoneIcon, EllipsisFill, EllipsisFill as EllipsisFillIcon, Ellipsis as EllipsisIcon, EllipsisVertical, EllipsisVerticalDuotone, EllipsisVerticalDuotone as EllipsisVerticalDuotoneIcon, EllipsisVerticalFill, EllipsisVerticalFill as EllipsisVerticalFillIcon, EllipsisVertical as EllipsisVerticalIcon, Mail as Email, MailDuotone as EmailDuotone, MailDuotone as EmailDuotoneIcon, MailFill as EmailFill, MailFill as EmailFillIcon, Mail as EmailIcon, Heart as Emotion, HeartDuotone as EmotionDuotone, HeartDuotone as EmotionDuotoneIcon, HeartFill as EmotionFill, HeartFill as EmotionFillIcon, Heart as EmotionIcon, Italic as Emphasis, ItalicDuotone as EmphasisDuotone, ItalicDuotone as EmphasisDuotoneIcon, ItalicFill as EmphasisFill, ItalicFill as EmphasisFillIcon, Italic as EmphasisIcon, Maximize as Enlarge, MaximizeDuotone as EnlargeDuotone, MaximizeDuotone as EnlargeDuotoneIcon, MaximizeFill as EnlargeFill, MaximizeFill as EnlargeFillIcon, Maximize as EnlargeIcon, Mail as Envelope, MailDuotone as EnvelopeDuotone, MailDuotone as EnvelopeDuotoneIcon, MailFill as EnvelopeFill, MailFill as EnvelopeFillIcon, Mail as EnvelopeIcon, SlidersHorizontal as Equalizer, SlidersHorizontalDuotone as EqualizerDuotone, SlidersHorizontalDuotone as EqualizerDuotoneIcon, SlidersHorizontalFill as EqualizerFill, SlidersHorizontalFill as EqualizerFillIcon, SlidersHorizontal as EqualizerIcon, CircleAlert as Error, CircleAlertDuotone as ErrorDuotone, CircleAlertDuotone as ErrorDuotoneIcon, CircleAlertFill as ErrorFill, CircleAlertFill as ErrorFillIcon, CircleAlert as ErrorIcon, Calendar as Event, CalendarDuotone as EventDuotone, CalendarDuotone as EventDuotoneIcon, CalendarFill as EventFill, CalendarFill as EventFillIcon, Calendar as EventIcon, LogOut as Exit, LogOutDuotone as ExitDuotone, LogOutDuotone as ExitDuotoneIcon, LogOutFill as ExitFill, LogOutFill as ExitFillIcon, LogOut as ExitIcon, ChevronUp as Expand, ChevronUpDuotone as ExpandDuotone, ChevronUpDuotone as ExpandDuotoneIcon, ChevronUpFill as ExpandFill, ChevronUpFill as ExpandFillIcon, ChevronUp as ExpandIcon, Maximize as ExpandWindow, MaximizeDuotone as ExpandWindowDuotone, MaximizeDuotone as ExpandWindowDuotoneIcon, MaximizeFill as ExpandWindowFill, MaximizeFill as ExpandWindowFillIcon, Maximize as ExpandWindowIcon, Search as Explore, SearchDuotone as ExploreDuotone, SearchDuotone as ExploreDuotoneIcon, SearchFill as ExploreFill, SearchFill as ExploreFillIcon, Search as ExploreIcon, Download as Export, DownloadDuotone as ExportDuotone, DownloadDuotone as ExportDuotoneIcon, DownloadFill as ExportFill, DownloadFill as ExportFillIcon, Download as ExportIcon, ExternalLink as External, ExternalLinkDuotone as ExternalDuotone, ExternalLinkDuotone as ExternalDuotoneIcon, ExternalLinkFill as ExternalFill, ExternalLinkFill as ExternalFillIcon, ExternalLink as ExternalIcon, ExternalLink, ExternalLinkDuotone, ExternalLinkDuotone as ExternalLinkDuotoneIcon, ExternalLinkFill, ExternalLinkFill as ExternalLinkFillIcon, ExternalLink as ExternalLinkIcon, Eye, EyeDuotone, EyeDuotone as EyeDuotoneIcon, EyeFill, EyeFill as EyeFillIcon, Eye as EyeIcon, EyeOff, EyeOffDuotone, EyeOffDuotone as EyeOffDuotoneIcon, EyeOffFill, EyeOffFill as EyeOffFillIcon, EyeOff as EyeOffIcon, TrendingDown as Falling, TrendingDownDuotone as FallingDuotone, TrendingDownDuotone as FallingDuotoneIcon, TrendingDownFill as FallingFill, TrendingDownFill as FallingFillIcon, TrendingDown as FallingIcon, CircleQuestionMark as Faq, CircleQuestionMarkDuotone as FaqDuotone, CircleQuestionMarkDuotone as FaqDuotoneIcon, CircleQuestionMarkFill as FaqFill, CircleQuestionMarkFill as FaqFillIcon, CircleQuestionMark as FaqIcon, Star as Favorite, StarDuotone as FavoriteDuotone, StarDuotone as FavoriteDuotoneIcon, StarFill as FavoriteFill, StarFill as FavoriteFillIcon, Star as FavoriteIcon, Star as Favourite, StarDuotone as FavouriteDuotone, StarDuotone as FavouriteDuotoneIcon, StarFill as FavouriteFill, StarFill as FavouriteFillIcon, Star as FavouriteIcon, File, FileUser as FileAccount, FileUserDuotone as FileAccountDuotone, FileUserDuotone as FileAccountDuotoneIcon, FileUserFill as FileAccountFill, FileUserFill as FileAccountFillIcon, FileUser as FileAccountIcon, FileArrowDown, FileArrowDownDuotone, FileArrowDownDuotone as FileArrowDownDuotoneIcon, FileArrowDownFill, FileArrowDownFill as FileArrowDownFillIcon, FileArrowDown as FileArrowDownIcon, FileArrowLeft, FileArrowLeftDuotone, FileArrowLeftDuotone as FileArrowLeftDuotoneIcon, FileArrowLeftFill, FileArrowLeftFill as FileArrowLeftFillIcon, FileArrowLeft as FileArrowLeftIcon, FileArrowLeftRight, FileArrowLeftRightDuotone, FileArrowLeftRightDuotone as FileArrowLeftRightDuotoneIcon, FileArrowLeftRightFill, FileArrowLeftRightFill as FileArrowLeftRightFillIcon, FileArrowLeftRight as FileArrowLeftRightIcon, FileArrowRight, FileArrowRightDuotone, FileArrowRightDuotone as FileArrowRightDuotoneIcon, FileArrowRightFill, FileArrowRightFill as FileArrowRightFillIcon, FileArrowRight as FileArrowRightIcon, FileArrowUp, FileArrowUpDuotone, FileArrowUpDuotone as FileArrowUpDuotoneIcon, FileArrowUpFill, FileArrowUpFill as FileArrowUpFillIcon, FileArrowUp as FileArrowUpIcon, FileArrowLeft as FileBack, FileArrowLeftDuotone as FileBackDuotone, FileArrowLeftDuotone as FileBackDuotoneIcon, FileArrowLeftFill as FileBackFill, FileArrowLeftFill as FileBackFillIcon, FileArrowLeft as FileBackIcon, FileX as FileCancel, FileXDuotone as FileCancelDuotone, FileXDuotone as FileCancelDuotoneIcon, FileXFill as FileCancelFill, FileXFill as FileCancelFillIcon, FileX as FileCancelIcon, FileChartColumn, FileChartColumnDuotone, FileChartColumnDuotone as FileChartColumnDuotoneIcon, FileChartColumnFill, FileChartColumnFill as FileChartColumnFillIcon, FileChartColumn as FileChartColumnIcon, FileCheck, FileCheckDuotone, FileCheckDuotone as FileCheckDuotoneIcon, FileCheckFill, FileCheckFill as FileCheckFillIcon, FileCheck as FileCheckIcon, FileCog, FileCogDuotone, FileCogDuotone as FileCogDuotoneIcon, FileCogFill, FileCogFill as FileCogFillIcon, FileCog as FileCogIcon, FileCheck as FileComplete, FileCheckDuotone as FileCompleteDuotone, FileCheckDuotone as FileCompleteDuotoneIcon, FileCheckFill as FileCompleteFill, FileCheckFill as FileCompleteFillIcon, FileCheck as FileCompleteIcon, FileCog as FileConfig, FileCogDuotone as FileConfigDuotone, FileCogDuotone as FileConfigDuotoneIcon, FileCogFill as FileConfigFill, FileCogFill as FileConfigFillIcon, FileCog as FileConfigIcon, FileX as FileDelete, FileXDuotone as FileDeleteDuotone, FileXDuotone as FileDeleteDuotoneIcon, FileXFill as FileDeleteFill, FileXFill as FileDeleteFillIcon, FileX as FileDeleteIcon, FileCheck as FileDone, FileCheckDuotone as FileDoneDuotone, FileCheckDuotone as FileDoneDuotoneIcon, FileCheckFill as FileDoneFill, FileCheckFill as FileDoneFillIcon, FileCheck as FileDoneIcon, FileDuotone, FileDuotone as FileDuotoneIcon, FileArrowLeftRight as FileExchange, FileArrowLeftRightDuotone as FileExchangeDuotone, FileArrowLeftRightDuotone as FileExchangeDuotoneIcon, FileArrowLeftRightFill as FileExchangeFill, FileArrowLeftRightFill as FileExchangeFillIcon, FileArrowLeftRight as FileExchangeIcon, FileFill, FileFill as FileFillIcon, FileArrowRight as FileForward, FileArrowRightDuotone as FileForwardDuotone, FileArrowRightDuotone as FileForwardDuotoneIcon, FileArrowRightFill as FileForwardFill, FileArrowRightFill as FileForwardFillIcon, FileArrowRight as FileForwardIcon, File as FileIcon, FileImage, FileImageDuotone, FileImageDuotone as FileImageDuotoneIcon, FileImageFill, FileImageFill as FileImageFillIcon, FileImage as FileImageIcon, FileArrowRight as FileNext, FileArrowRightDuotone as FileNextDuotone, FileArrowRightDuotone as FileNextDuotoneIcon, FileArrowRightFill as FileNextFill, FileArrowRightFill as FileNextFillIcon, FileArrowRight as FileNextIcon, FilePlus, FilePlusDuotone, FilePlusDuotone as FilePlusDuotoneIcon, FilePlusFill, FilePlusFill as FilePlusFillIcon, FilePlus as FilePlusIcon, FileArrowLeft as FilePrevious, FileArrowLeftDuotone as FilePreviousDuotone, FileArrowLeftDuotone as FilePreviousDuotoneIcon, FileArrowLeftFill as FilePreviousFill, FileArrowLeftFill as FilePreviousFillIcon, FileArrowLeft as FilePreviousIcon, FileUser as FileProfile, FileUserDuotone as FileProfileDuotone, FileUserDuotone as FileProfileDuotoneIcon, FileUserFill as FileProfileFill, FileUserFill as FileProfileFillIcon, FileUser as FileProfileIcon, FileX as FileRemove, FileXDuotone as FileRemoveDuotone, FileXDuotone as FileRemoveDuotoneIcon, FileXFill as FileRemoveFill, FileXFill as FileRemoveFillIcon, FileX as FileRemoveIcon, FileCog as FileSettings, FileCogDuotone as FileSettingsDuotone, FileCogDuotone as FileSettingsDuotoneIcon, FileCogFill as FileSettingsFill, FileCogFill as FileSettingsFillIcon, FileCog as FileSettingsIcon, FileArrowLeftRight as FileSync, FileArrowLeftRightDuotone as FileSyncDuotone, FileArrowLeftRightDuotone as FileSyncDuotoneIcon, FileArrowLeftRightFill as FileSyncFill, FileArrowLeftRightFill as FileSyncFillIcon, FileArrowLeftRight as FileSyncIcon, FileArrowLeftRight as FileTransfer, FileArrowLeftRightDuotone as FileTransferDuotone, FileArrowLeftRightDuotone as FileTransferDuotoneIcon, FileArrowLeftRightFill as FileTransferFill, FileArrowLeftRightFill as FileTransferFillIcon, FileArrowLeftRight as FileTransferIcon, FileUser, FileUserDuotone, FileUserDuotone as FileUserDuotoneIcon, FileUserFill, FileUserFill as FileUserFillIcon, FileUser as FileUserIcon, FileCheck as FileVerified, FileCheckDuotone as FileVerifiedDuotone, FileCheckDuotone as FileVerifiedDuotoneIcon, FileCheckFill as FileVerifiedFill, FileCheckFill as FileVerifiedFillIcon, FileCheck as FileVerifiedIcon, FileX, FileXDuotone, FileXDuotone as FileXDuotoneIcon, FileXFill, FileXFill as FileXFillIcon, FileX as FileXIcon, Reel as Film, ReelDuotone as FilmDuotone, ReelDuotone as FilmDuotoneIcon, ReelFill as FilmFill, ReelFill as FilmFillIcon, Reel as FilmIcon, ListFilter as Filter, ListFilterDuotone as FilterDuotone, ListFilterDuotone as FilterDuotoneIcon, ListFilterFill as FilterFill, ListFilterFill as FilterFillIcon, ListFilter as FilterIcon, SlidersHorizontal as Filters, SlidersHorizontalDuotone as FiltersDuotone, SlidersHorizontalDuotone as FiltersDuotoneIcon, SlidersHorizontalFill as FiltersFill, SlidersHorizontalFill as FiltersFillIcon, SlidersHorizontal as FiltersIcon, Search as Find, SearchDuotone as FindDuotone, SearchDuotone as FindDuotoneIcon, SearchFill as FindFill, SearchFill as FindFillIcon, Search as FindIcon, SearchUser as FindUser, SearchUserDuotone as FindUserDuotone, SearchUserDuotone as FindUserDuotoneIcon, SearchUserFill as FindUserFill, SearchUserFill as FindUserFillIcon, SearchUser as FindUserIcon, Flame as Fire, FlameDuotone as FireDuotone, FlameDuotone as FireDuotoneIcon, FlameFill as FireFill, FlameFill as FireFillIcon, Flame as FireIcon, Bookmark as Flag, BookmarkDuotone as FlagDuotone, BookmarkDuotone as FlagDuotoneIcon, BookmarkFill as FlagFill, BookmarkFill as FlagFillIcon, Bookmark as FlagIcon, Flame, FlameDuotone, FlameDuotone as FlameDuotoneIcon, FlameFill, FlameFill as FlameFillIcon, Flame as FlameIcon, Zap as Flash, ZapDuotone as FlashDuotone, ZapDuotone as FlashDuotoneIcon, ZapFill as FlashFill, ZapFill as FlashFillIcon, Zap as FlashIcon, Save as Floppy, SaveDuotone as FloppyDuotone, SaveDuotone as FloppyDuotoneIcon, SaveFill as FloppyFill, SaveFill as FloppyFillIcon, Save as FloppyIcon, Info as FoamAbout, InfoDuotone as FoamAboutDuotone, InfoFill as FoamAboutFill, ChevronUpDown as FoamAccordion, ChevronUpDownDuotone as FoamAccordionDuotone, ChevronUpDownFill as FoamAccordionFill, User as FoamAccount, UserDuotone as FoamAccountDuotone, UserFill as FoamAccountFill, Plus as FoamAdd, ContentPlus as FoamAddContent, ContentPlusDuotone as FoamAddContentDuotone, ContentPlusFill as FoamAddContentFill, PlusDuotone as FoamAddDuotone, FilePlus as FoamAddFile, FilePlusDuotone as FoamAddFileDuotone, FilePlusFill as FoamAddFileFill, PlusFill as FoamAddFill, ShieldPlus as FoamAddSecurity, ShieldPlusDuotone as FoamAddSecurityDuotone, ShieldPlusFill as FoamAddSecurityFill, Rolodex as FoamAddressBook, RolodexDuotone as FoamAddressBookDuotone, RolodexFill as FoamAddressBookFill, SlidersHorizontal as FoamAdjust, SlidersHorizontalDuotone as FoamAdjustDuotone, SlidersHorizontalFill as FoamAdjustFill, Sparkles as FoamAi, SparklesDuotone as FoamAiDuotone, SparklesFill as FoamAiFill, Bell as FoamAlarm, BellDuotone as FoamAlarmDuotone, BellFill as FoamAlarmFill, Alert as FoamAlert, AlertDuotone as FoamAlertDuotone, AlertFill as FoamAlertFill, TextAlignStart as FoamAlignLeft, TextAlignStartDuotone as FoamAlignLeftDuotone, TextAlignStartFill as FoamAlignLeftFill, TextAlignEnd as FoamAlignRight, TextAlignEndDuotone as FoamAlignRightDuotone, TextAlignEndFill as FoamAlignRightFill, Rolodex as FoamAlphabet, RolodexDuotone as FoamAlphabetDuotone, RolodexFill as FoamAlphabetFill, ChartColumnSquare as FoamAnalytics, ChartColumnSquareDuotone as FoamAnalyticsDuotone, ChartColumnSquareFill as FoamAnalyticsFill, Megaphone as FoamAnnounce, MegaphoneDuotone as FoamAnnounceDuotone, MegaphoneFill as FoamAnnounceFill, Reply as FoamAnswer, ReplyDuotone as FoamAnswerDuotone, ReplyFill as FoamAnswerFill, ThumbsUp as FoamApprove, ThumbsUpDuotone as FoamApproveDuotone, ThumbsUpFill as FoamApproveFill, BadgeCheckbox as FoamApproved, BadgeCheckboxDuotone as FoamApprovedDuotone, BadgeCheckboxFill as FoamApprovedFill, Archive as FoamArchive, ArchiveArrowUp as FoamArchiveArrowUp, ArchiveArrowUpDuotone as FoamArchiveArrowUpDuotone, ArchiveArrowUpFill as FoamArchiveArrowUpFill, ArchiveDuotone as FoamArchiveDuotone, ArchiveFill as FoamArchiveFill, ChartArea as FoamAreaChart, ChartAreaDuotone as FoamAreaChartDuotone, ChartAreaFill as FoamAreaChartFill, ArrowDown as FoamArrowDown, ArrowDown01 as FoamArrowDown01, ArrowDown01Duotone as FoamArrowDown01Duotone, ArrowDown01Fill as FoamArrowDown01Fill, ArrowDown10 as FoamArrowDown10, ArrowDown10Duotone as FoamArrowDown10Duotone, ArrowDown10Fill as FoamArrowDown10Fill, ArrowDownCog as FoamArrowDownCog, ArrowDownCogDuotone as FoamArrowDownCogDuotone, ArrowDownCogFill as FoamArrowDownCogFill, ArrowDownDuotone as FoamArrowDownDuotone, ArrowDownFill as FoamArrowDownFill, ArrowDownIG as FoamArrowDownIG, ArrowDownIGDuotone as FoamArrowDownIGDuotone, ArrowDownIGFill as FoamArrowDownIGFill, ArrowDownLeft as FoamArrowDownLeft, ArrowDownLeftDuotone as FoamArrowDownLeftDuotone, ArrowDownLeftFill as FoamArrowDownLeftFill, ArrowDownMapPin as FoamArrowDownMapPin, ArrowDownMapPinDuotone as FoamArrowDownMapPinDuotone, ArrowDownMapPinFill as FoamArrowDownMapPinFill, ArrowDownNarrowWide as FoamArrowDownNarrowWide, ArrowDownNarrowWideDuotone as FoamArrowDownNarrowWideDuotone, ArrowDownNarrowWideFill as FoamArrowDownNarrowWideFill, ArrowDownRight as FoamArrowDownRight, ArrowDownRightDuotone as FoamArrowDownRightDuotone, ArrowDownRightFill as FoamArrowDownRightFill, ArrowDownSC as FoamArrowDownSC, ArrowDownSCDuotone as FoamArrowDownSCDuotone, ArrowDownSCFill as FoamArrowDownSCFill, ArrowDownTT as FoamArrowDownTT, ArrowDownTTDuotone as FoamArrowDownTTDuotone, ArrowDownTTFill as FoamArrowDownTTFill, ArrowDownUp as FoamArrowDownUp, ArrowDownUpDuotone as FoamArrowDownUpDuotone, ArrowDownUpFill as FoamArrowDownUpFill, ArrowDownWideNarrow as FoamArrowDownWideNarrow, ArrowDownWideNarrowDuotone as FoamArrowDownWideNarrowDuotone, ArrowDownWideNarrowFill as FoamArrowDownWideNarrowFill, ArrowDownYT as FoamArrowDownYT, ArrowDownYTDuotone as FoamArrowDownYTDuotone, ArrowDownYTFill as FoamArrowDownYTFill, ArrowLeft as FoamArrowLeft, ArrowLeftDuotone as FoamArrowLeftDuotone, ArrowLeftFill as FoamArrowLeftFill, ArrowRight as FoamArrowRight, ArrowRightDuotone as FoamArrowRightDuotone, ArrowRightFill as FoamArrowRightFill, ArrowRightToLine as FoamArrowRightToLine, ArrowRightToLineDuotone as FoamArrowRightToLineDuotone, ArrowRightToLineFill as FoamArrowRightToLineFill, ArrowUp as FoamArrowUp, ArrowUpAZ as FoamArrowUpAZ, ArrowUpAZDuotone as FoamArrowUpAZDuotone, ArrowUpAZFill as FoamArrowUpAZFill, ArrowUpCog as FoamArrowUpCog, ArrowUpCogDuotone as FoamArrowUpCogDuotone, ArrowUpCogFill as FoamArrowUpCogFill, ArrowUpDuotone as FoamArrowUpDuotone, ArrowUpFill as FoamArrowUpFill, ArrowUpIG as FoamArrowUpIG, ArrowUpIGDuotone as FoamArrowUpIGDuotone, ArrowUpIGFill as FoamArrowUpIGFill, ArrowUpLeft as FoamArrowUpLeft, ArrowUpLeftDuotone as FoamArrowUpLeftDuotone, ArrowUpLeftFill as FoamArrowUpLeftFill, ArrowUpMapPin as FoamArrowUpMapPin, ArrowUpMapPinDuotone as FoamArrowUpMapPinDuotone, ArrowUpMapPinFill as FoamArrowUpMapPinFill, ArrowUpNarrowWide as FoamArrowUpNarrowWide, ArrowUpNarrowWideDuotone as FoamArrowUpNarrowWideDuotone, ArrowUpNarrowWideFill as FoamArrowUpNarrowWideFill, ArrowUpRight as FoamArrowUpRight, ArrowUpRightDuotone as FoamArrowUpRightDuotone, ArrowUpRightFill as FoamArrowUpRightFill, ArrowUpSC as FoamArrowUpSC, ArrowUpSCDuotone as FoamArrowUpSCDuotone, ArrowUpSCFill as FoamArrowUpSCFill, ArrowUpTT as FoamArrowUpTT, ArrowUpTTDuotone as FoamArrowUpTTDuotone, ArrowUpTTFill as FoamArrowUpTTFill, ArrowUpWideNarrow as FoamArrowUpWideNarrow, ArrowUpWideNarrowDuotone as FoamArrowUpWideNarrowDuotone, ArrowUpWideNarrowFill as FoamArrowUpWideNarrowFill, ArrowUpYT as FoamArrowUpYT, ArrowUpYTDuotone as FoamArrowUpYTDuotone, ArrowUpYTFill as FoamArrowUpYTFill, ArrowUpZA as FoamArrowUpZA, ArrowUpZADuotone as FoamArrowUpZADuotone, ArrowUpZAFill as FoamArrowUpZAFill, ArchiveArrowUp as FoamAscending, ArchiveArrowUpDuotone as FoamAscendingDuotone, ArchiveArrowUpFill as FoamAscendingFill, AtSign as FoamAtSign, AtSignDuotone as FoamAtSignDuotone, AtSignFill as FoamAtSignFill, Alert as FoamAttention, CircleAlert as FoamAttentionCircle, CircleAlertDuotone as FoamAttentionCircleDuotone, CircleAlertFill as FoamAttentionCircleFill, AlertDuotone as FoamAttentionDuotone, AlertFill as FoamAttentionFill, Reach as FoamAudience, ReachDuotone as FoamAudienceDuotone, ReachFill as FoamAudienceFill, Volume2 as FoamAudio, Volume2Duotone as FoamAudioDuotone, Volume2Fill as FoamAudioFill, ArrowLeft as FoamBack, ArrowLeftDuotone as FoamBackDuotone, ArrowLeftFill as FoamBackFill, BadgeCheckbox as FoamBadgeCheckbox, BadgeCheckboxDuotone as FoamBadgeCheckboxDuotone, BadgeCheckboxFill as FoamBadgeCheckboxFill, Ban as FoamBan, BanDuotone as FoamBanDuotone, BanFill as FoamBanFill, ChartColumnSquare as FoamBarChart, ChartColumnSquareDuotone as FoamBarChartDuotone, ChartColumnSquareFill as FoamBarChartFill, ChartBarStacked as FoamBarChartStacked, ChartBarStackedDuotone as FoamBarChartStackedDuotone, ChartBarStackedFill as FoamBarChartStackedFill, Menu as FoamBars, MenuDuotone as FoamBarsDuotone, MenuFill as FoamBarsFill, Bell as FoamBell, BellDuotone as FoamBellDuotone, BellFill as FoamBellFill, Trash as FoamBin, TrashDuotone as FoamBinDuotone, TrashFill as FoamBinFill, Ban as FoamBlock, BanDuotone as FoamBlockDuotone, BanFill as FoamBlockFill, QuotationMarkRight as FoamBlockquoteEnd, QuotationMarkRightDuotone as FoamBlockquoteEndDuotone, QuotationMarkRightFill as FoamBlockquoteEndFill, QuotationMarkLeft as FoamBlockquoteStart, QuotationMarkLeftDuotone as FoamBlockquoteStartDuotone, QuotationMarkLeftFill as FoamBlockquoteStartFill, Bold as FoamBold, BoldDuotone as FoamBoldDuotone, BoldFill as FoamBoldFill, Zap as FoamBolt, ZapDuotone as FoamBoltDuotone, ZapFill as FoamBoltFill, Bookmark as FoamBookmark, BookmarkDuotone as FoamBookmarkDuotone, BookmarkFill as FoamBookmarkFill, Archive as FoamBox, ArchiveDuotone as FoamBoxDuotone, ArchiveFill as FoamBoxFill, Brain as FoamBrain, BrainDuotone as FoamBrainDuotone, BrainFill as FoamBrainFill, ContentUser as FoamBrandAssets, ContentUserDuotone as FoamBrandAssetsDuotone, ContentUserFill as FoamBrandAssetsFill, Unlink as FoamBreak, UnlinkDuotone as FoamBreakDuotone, UnlinkFill as FoamBreakFill, Sun as FoamBright, SunDuotone as FoamBrightDuotone, SunFill as FoamBrightFill, Megaphone as FoamBroadcast, MegaphoneDuotone as FoamBroadcastDuotone, MegaphoneFill as FoamBroadcastFill, List as FoamBullets, ListDuotone as FoamBulletsDuotone, ListFill as FoamBulletsFill, Calendar as FoamCalendar, CalendarDuotone as FoamCalendarDuotone, CalendarFill as FoamCalendarFill, Video as FoamCamera, VideoDuotone as FoamCameraDuotone, VideoFill as FoamCameraFill, CircleX as FoamCancel, CircleXDuotone as FoamCancelDuotone, CircleXFill as FoamCancelFill, Rolodex as FoamCardIndex, RolodexDuotone as FoamCardIndexDuotone, RolodexFill as FoamCardIndexFill, Grid1x2 as FoamCards, Grid1x2Duotone as FoamCardsDuotone, Grid1x2Fill as FoamCardsFill, ChevronDown as FoamCaretDown, ChevronDownDuotone as FoamCaretDownDuotone, ChevronDownFill as FoamCaretDownFill, ChevronLeft as FoamCaretLeft, ChevronLeftDuotone as FoamCaretLeftDuotone, ChevronLeftFill as FoamCaretLeftFill, ChevronRight as FoamCaretRight, ChevronRightDuotone as FoamCaretRightDuotone, ChevronRightFill as FoamCaretRightFill, ChevronUp as FoamCaretUp, ChevronUpDuotone as FoamCaretUpDuotone, ChevronUpFill as FoamCaretUpFill, Alert as FoamCaution, CircleAlert as FoamCautionCircle, CircleAlertDuotone as FoamCautionCircleDuotone, CircleAlertFill as FoamCautionCircleFill, AlertDuotone as FoamCautionDuotone, AlertFill as FoamCautionFill, TextAlignCenter as FoamCenter, TextAlignCenterDuotone as FoamCenterDuotone, TextAlignCenterFill as FoamCenterFill, BadgeCheckbox as FoamCertified, BadgeCheckboxDuotone as FoamCertifiedDuotone, BadgeCheckboxFill as FoamCertifiedFill, Link as FoamChain, LinkDuotone as FoamChainDuotone, LinkFill as FoamChainFill, ChartArea as FoamChartArea, ChartAreaDuotone as FoamChartAreaDuotone, ChartAreaFill as FoamChartAreaFill, ChartBarStacked as FoamChartBarStacked, ChartBarStackedDuotone as FoamChartBarStackedDuotone, ChartBarStackedFill as FoamChartBarStackedFill, ChartColumn as FoamChartColumn, ChartColumnDuotone as FoamChartColumnDuotone, ChartColumnFill as FoamChartColumnFill, ChartColumnSquare as FoamChartColumnSquare, ChartColumnSquareDuotone as FoamChartColumnSquareDuotone, ChartColumnSquareFill as FoamChartColumnSquareFill, ChartNetwork as FoamChartNetwork, ChartNetworkDuotone as FoamChartNetworkDuotone, ChartNetworkFill as FoamChartNetworkFill, ChartNoAxesCombined as FoamChartNoAxesCombined, ChartNoAxesCombinedDuotone as FoamChartNoAxesCombinedDuotone, ChartNoAxesCombinedFill as FoamChartNoAxesCombinedFill, ChartPie as FoamChartPie, ChartPieDuotone as FoamChartPieDuotone, ChartPieFill as FoamChartPieFill, MessagesSquare as FoamChat, MessagesSquareDuotone as FoamChatDuotone, MessagesSquareFill as FoamChatFill, MessageSquare as FoamChatSingle, MessageSquareDuotone as FoamChatSingleDuotone, MessageSquareFill as FoamChatSingleFill, MessagesSquare as FoamChats, MessagesSquareDuotone as FoamChatsDuotone, MessagesSquareFill as FoamChatsFill, Checkmark as FoamCheck, CheckmarkDuotone as FoamCheckDuotone, CheckmarkFill as FoamCheckFill, Checkbox as FoamCheckSquare, CheckboxDuotone as FoamCheckSquareDuotone, CheckboxFill as FoamCheckSquareFill, Checkbox as FoamCheckbox, CheckboxDuotone as FoamCheckboxDuotone, CheckboxFill as FoamCheckboxFill, ClipboardList as FoamChecklist, ClipboardListDuotone as FoamChecklistDuotone, ClipboardListFill as FoamChecklistFill, Checkmark as FoamCheckmark, CheckmarkDuotone as FoamCheckmarkDuotone, CheckmarkFill as FoamCheckmarkFill, ChevronDown as FoamChevronDown, ChevronDownDuotone as FoamChevronDownDuotone, ChevronDownFill as FoamChevronDownFill, ChevronLeft as FoamChevronLeft, ChevronLeftDuotone as FoamChevronLeftDuotone, ChevronLeftFill as FoamChevronLeftFill, ChevronRight as FoamChevronRight, ChevronRightDuotone as FoamChevronRightDuotone, ChevronRightFill as FoamChevronRightFill, ChevronUp as FoamChevronUp, ChevronUpDown as FoamChevronUpDown, ChevronUpDownDuotone as FoamChevronUpDownDuotone, ChevronUpDownFill as FoamChevronUpDownFill, ChevronUpDuotone as FoamChevronUpDuotone, ChevronUpFill as FoamChevronUpFill, Circle as FoamCircle, CircleAlert as FoamCircleAlert, CircleAlertDuotone as FoamCircleAlertDuotone, CircleAlertFill as FoamCircleAlertFill, CircleCheckbox as FoamCircleCheckbox, CircleCheckboxDuotone as FoamCircleCheckboxDuotone, CircleCheckboxFill as FoamCircleCheckboxFill, CircleDashed as FoamCircleDashed, CircleDashedDuotone as FoamCircleDashedDuotone, CircleDashedFill as FoamCircleDashedFill, CircleDollarSign as FoamCircleDollarSign, CircleDollarSignDuotone as FoamCircleDollarSignDuotone, CircleDollarSignFill as FoamCircleDollarSignFill, CircleDuotone as FoamCircleDuotone, CircleFill as FoamCircleFill, CircleOverlap as FoamCircleOverlap, CircleOverlapDuotone as FoamCircleOverlapDuotone, CircleOverlapFill as FoamCircleOverlapFill, CirclePlus as FoamCirclePlus, CirclePlusDuotone as FoamCirclePlusDuotone, CirclePlusFill as FoamCirclePlusFill, CircleQuestionMark as FoamCircleQuestionMark, CircleQuestionMarkDuotone as FoamCircleQuestionMarkDuotone, CircleQuestionMarkFill as FoamCircleQuestionMarkFill, CircleX as FoamCircleX, CircleXDuotone as FoamCircleXDuotone, CircleXFill as FoamCircleXFill, CircleX as FoamClear, CircleXDuotone as FoamClearDuotone, CircleXFill as FoamClearFill, RemoveFormatting as FoamClearFormat, RemoveFormattingDuotone as FoamClearFormatDuotone, RemoveFormattingFill as FoamClearFormatFill, MousePointerClick as FoamClick, MousePointerClickDuotone as FoamClickDuotone, MousePointerClickFill as FoamClickFill, ClipboardList as FoamClipboardList, ClipboardListDuotone as FoamClipboardListDuotone, ClipboardListFill as FoamClipboardListFill, Clock as FoamClock, ClockArrowDown as FoamClockArrowDown, ClockArrowDownDuotone as FoamClockArrowDownDuotone, ClockArrowDownFill as FoamClockArrowDownFill, ClockArrowUp as FoamClockArrowUp, ClockArrowUpDuotone as FoamClockArrowUpDuotone, ClockArrowUpFill as FoamClockArrowUpFill, ClockDuotone as FoamClockDuotone, ClockFill as FoamClockFill, Copy as FoamClone, CopyDuotone as FoamCloneDuotone, CopyFill as FoamCloneFill, CircleX as FoamClose, CircleXDuotone as FoamCloseDuotone, CircleXFill as FoamCloseFill, QuotationMarkRight as FoamCloseQuote, QuotationMarkRightDuotone as FoamCloseQuoteDuotone, QuotationMarkRightFill as FoamCloseQuoteFill, Command as FoamCmd, CommandDuotone as FoamCmdDuotone, CommandFill as FoamCmdFill, Cog as FoamCog, CogDuotone as FoamCogDuotone, CogFill as FoamCogFill, Cog as FoamCogwheel, CogDuotone as FoamCogwheelDuotone, CogFill as FoamCogwheelFill, ChevronDown as FoamCollapse, ChevronDownDuotone as FoamCollapseDuotone, ChevronDownFill as FoamCollapseFill, ChartColumn as FoamColumnChart, ChartColumnDuotone as FoamColumnChartDuotone, ChartColumnFill as FoamColumnChartFill, Columns3 as FoamColumnLayout, Columns3Duotone as FoamColumnLayoutDuotone, Columns3Fill as FoamColumnLayoutFill, Columns3 as FoamColumns3, Columns3Duotone as FoamColumns3Duotone, Columns3Fill as FoamColumns3Fill, ChartNoAxesCombined as FoamComboChart, ChartNoAxesCombinedDuotone as FoamComboChartDuotone, ChartNoAxesCombinedFill as FoamComboChartFill, Command as FoamCommand, CommandDuotone as FoamCommandDuotone, CommandFill as FoamCommandFill, MessageSquare as FoamComment, MessageSquareDuotone as FoamCommentDuotone, MessageSquareFill as FoamCommentFill, MessagesSquare as FoamComments, MessagesSquareDuotone as FoamCommentsDuotone, MessagesSquareFill as FoamCommentsFill, Checkmark as FoamComplete, CheckmarkDuotone as FoamCompleteDuotone, CheckmarkFill as FoamCompleteFill, SquarePen as FoamCompose, SquarePenDuotone as FoamComposeDuotone, SquarePenFill as FoamComposeFill, Cog as FoamConfig, CogDuotone as FoamConfigDuotone, CogFill as FoamConfigFill, Cog as FoamConfiguration, CogDuotone as FoamConfigurationDuotone, CogFill as FoamConfigurationFill, Link as FoamConnect, LinkDuotone as FoamConnectDuotone, LinkFill as FoamConnectFill, ChartNetwork as FoamConnections, ChartNetworkDuotone as FoamConnectionsDuotone, ChartNetworkFill as FoamConnectionsFill, Rolodex as FoamContacts, RolodexDuotone as FoamContactsDuotone, RolodexFill as FoamContactsFill, ContentHeart as FoamContentHeart, ContentHeartDuotone as FoamContentHeartDuotone, ContentHeartFill as FoamContentHeartFill, ContentPlus as FoamContentPlus, ContentPlusDuotone as FoamContentPlusDuotone, ContentPlusFill as FoamContentPlusFill, ContentUser as FoamContentUser, ContentUserDuotone as FoamContentUserDuotone, ContentUserFill as FoamContentUserFill, Eclipse as FoamContrast, EclipseDuotone as FoamContrastDuotone, EclipseFill as FoamContrastFill, SlidersHorizontal as FoamControls, SlidersHorizontalDuotone as FoamControlsDuotone, SlidersHorizontalFill as FoamControlsFill, MessagesSquare as FoamConversation, MessagesSquareDuotone as FoamConversationDuotone, MessagesSquareFill as FoamConversationFill, Copy as FoamCopy, CopyDuotone as FoamCopyDuotone, CopyFill as FoamCopyFill, RotateCcw as FoamCounterClockwise, RotateCcwDuotone as FoamCounterClockwiseDuotone, RotateCcwFill as FoamCounterClockwiseFill, Plus as FoamCreate, ContentPlus as FoamCreateContent, ContentPlusDuotone as FoamCreateContentDuotone, ContentPlusFill as FoamCreateContentFill, PlusDuotone as FoamCreateDuotone, FilePlus as FoamCreateFile, FilePlusDuotone as FoamCreateFileDuotone, FilePlusFill as FoamCreateFileFill, PlusFill as FoamCreateFill, MousePointerClick as FoamCursor, MousePointerClickDuotone as FoamCursorDuotone, MousePointerClickFill as FoamCursorFill, Moon as FoamDark, MoonDuotone as FoamDarkDuotone, MoonFill as FoamDarkFill, Moon as FoamDarkMode, MoonDuotone as FoamDarkModeDuotone, MoonFill as FoamDarkModeFill, Calendar as FoamDate, CalendarDuotone as FoamDateDuotone, CalendarFill as FoamDateFill, Sun as FoamDay, SunDuotone as FoamDayDuotone, SunFill as FoamDayFill, TrendingDown as FoamDecline, TrendingDownDuotone as FoamDeclineDuotone, TrendingDownFill as FoamDeclineFill, Minus as FoamDecrease, MinusDuotone as FoamDecreaseDuotone, MinusFill as FoamDecreaseFill, Shield as FoamDefense, ShieldDuotone as FoamDefenseDuotone, ShieldFill as FoamDefenseFill, Trash as FoamDelete, TrashDuotone as FoamDeleteDuotone, TrashFill as FoamDeleteFill, ArrowDown01 as FoamDescending, ArrowDown01Duotone as FoamDescendingDuotone, ArrowDown01Fill as FoamDescendingFill, Grid1x2 as FoamDesign, Grid1x2Duotone as FoamDesignDuotone, Grid1x2Fill as FoamDesignFill, Info as FoamDetails, InfoDuotone as FoamDetailsDuotone, InfoFill as FoamDetailsFill, ArchiveArrowUp as FoamDirection, ArchiveArrowUpDuotone as FoamDirectionDuotone, ArchiveArrowUpFill as FoamDirectionFill, ThumbsDown as FoamDisapprove, ThumbsDownDuotone as FoamDisapproveDuotone, ThumbsDownFill as FoamDisapproveFill, Unlink as FoamDisconnect, UnlinkDuotone as FoamDisconnectDuotone, UnlinkFill as FoamDisconnectFill, Save as FoamDisk, SaveDuotone as FoamDiskDuotone, SaveFill as FoamDiskFill, ThumbsDown as FoamDislike, ThumbsDownDuotone as FoamDislikeDuotone, ThumbsDownFill as FoamDislikeFill, File as FoamDocument, FileDuotone as FoamDocumentDuotone, FileFill as FoamDocumentFill, CircleDollarSign as FoamDollar, CircleDollarSignDuotone as FoamDollarDuotone, CircleDollarSignFill as FoamDollarFill, Checkmark as FoamDone, CheckmarkDuotone as FoamDoneDuotone, CheckmarkFill as FoamDoneFill, ChartPie as FoamDonutChart, ChartPieDuotone as FoamDonutChartDuotone, ChartPieFill as FoamDonutChartFill, ArrowDown as FoamDown, ArrowDownDuotone as FoamDownDuotone, ArrowDownFill as FoamDownFill, Download as FoamDownload, DownloadDuotone as FoamDownloadDuotone, FileArrowDown as FoamDownloadFile, FileArrowDownDuotone as FoamDownloadFileDuotone, FileArrowDownFill as FoamDownloadFileFill, DownloadFill as FoamDownloadFill, TrendingDown as FoamDowntrend, TrendingDownDuotone as FoamDowntrendDuotone, TrendingDownFill as FoamDowntrendFill, SquarePen as FoamDraft, SquarePenDuotone as FoamDraftDuotone, SquarePenFill as FoamDraftFill, Move as FoamDrag, MoveDuotone as FoamDragDuotone, MoveFill as FoamDragFill, PanelLeft as FoamDrawerLeft, PanelLeftDuotone as FoamDrawerLeftDuotone, PanelLeftFill as FoamDrawerLeftFill, PanelRight as FoamDrawerRight, PanelRightDuotone as FoamDrawerRightDuotone, PanelRightFill as FoamDrawerRightFill, ChevronDown as FoamDropdown, ChevronDownDuotone as FoamDropdownDuotone, ChevronDownFill as FoamDropdownFill, Copy as FoamDuplicate, CopyDuotone as FoamDuplicateDuotone, CopyFill as FoamDuplicateFill, ArrowRight as FoamEast, ArrowRightDuotone as FoamEastDuotone, ArrowRightFill as FoamEastFill, Eclipse as FoamEclipse, EclipseDuotone as FoamEclipseDuotone, EclipseFill as FoamEclipseFill, Pencil as FoamEdit, PencilDuotone as FoamEditDuotone, PencilFill as FoamEditFill, SquarePen as FoamEditor, SquarePenDuotone as FoamEditorDuotone, SquarePenFill as FoamEditorFill, Ellipsis as FoamEllipsis, EllipsisDuotone as FoamEllipsisDuotone, EllipsisFill as FoamEllipsisFill, EllipsisVertical as FoamEllipsisVertical, EllipsisVerticalDuotone as FoamEllipsisVerticalDuotone, EllipsisVerticalFill as FoamEllipsisVerticalFill, Mail as FoamEmail, MailDuotone as FoamEmailDuotone, MailFill as FoamEmailFill, Heart as FoamEmotion, HeartDuotone as FoamEmotionDuotone, HeartFill as FoamEmotionFill, Italic as FoamEmphasis, ItalicDuotone as FoamEmphasisDuotone, ItalicFill as FoamEmphasisFill, Maximize as FoamEnlarge, MaximizeDuotone as FoamEnlargeDuotone, MaximizeFill as FoamEnlargeFill, Mail as FoamEnvelope, MailDuotone as FoamEnvelopeDuotone, MailFill as FoamEnvelopeFill, SlidersHorizontal as FoamEqualizer, SlidersHorizontalDuotone as FoamEqualizerDuotone, SlidersHorizontalFill as FoamEqualizerFill, CircleAlert as FoamError, CircleAlertDuotone as FoamErrorDuotone, CircleAlertFill as FoamErrorFill, Calendar as FoamEvent, CalendarDuotone as FoamEventDuotone, CalendarFill as FoamEventFill, LogOut as FoamExit, LogOutDuotone as FoamExitDuotone, LogOutFill as FoamExitFill, ChevronUp as FoamExpand, ChevronUpDuotone as FoamExpandDuotone, ChevronUpFill as FoamExpandFill, Maximize as FoamExpandWindow, MaximizeDuotone as FoamExpandWindowDuotone, MaximizeFill as FoamExpandWindowFill, Search as FoamExplore, SearchDuotone as FoamExploreDuotone, SearchFill as FoamExploreFill, Download as FoamExport, DownloadDuotone as FoamExportDuotone, DownloadFill as FoamExportFill, ExternalLink as FoamExternal, ExternalLinkDuotone as FoamExternalDuotone, ExternalLinkFill as FoamExternalFill, ExternalLink as FoamExternalLink, ExternalLinkDuotone as FoamExternalLinkDuotone, ExternalLinkFill as FoamExternalLinkFill, Eye as FoamEye, EyeDuotone as FoamEyeDuotone, EyeFill as FoamEyeFill, EyeOff as FoamEyeOff, EyeOffDuotone as FoamEyeOffDuotone, EyeOffFill as FoamEyeOffFill, TrendingDown as FoamFalling, TrendingDownDuotone as FoamFallingDuotone, TrendingDownFill as FoamFallingFill, CircleQuestionMark as FoamFaq, CircleQuestionMarkDuotone as FoamFaqDuotone, CircleQuestionMarkFill as FoamFaqFill, Star as FoamFavorite, StarDuotone as FoamFavoriteDuotone, StarFill as FoamFavoriteFill, Star as FoamFavourite, StarDuotone as FoamFavouriteDuotone, StarFill as FoamFavouriteFill, File as FoamFile, FileUser as FoamFileAccount, FileUserDuotone as FoamFileAccountDuotone, FileUserFill as FoamFileAccountFill, FileArrowDown as FoamFileArrowDown, FileArrowDownDuotone as FoamFileArrowDownDuotone, FileArrowDownFill as FoamFileArrowDownFill, FileArrowLeft as FoamFileArrowLeft, FileArrowLeftDuotone as FoamFileArrowLeftDuotone, FileArrowLeftFill as FoamFileArrowLeftFill, FileArrowLeftRight as FoamFileArrowLeftRight, FileArrowLeftRightDuotone as FoamFileArrowLeftRightDuotone, FileArrowLeftRightFill as FoamFileArrowLeftRightFill, FileArrowRight as FoamFileArrowRight, FileArrowRightDuotone as FoamFileArrowRightDuotone, FileArrowRightFill as FoamFileArrowRightFill, FileArrowUp as FoamFileArrowUp, FileArrowUpDuotone as FoamFileArrowUpDuotone, FileArrowUpFill as FoamFileArrowUpFill, FileArrowLeft as FoamFileBack, FileArrowLeftDuotone as FoamFileBackDuotone, FileArrowLeftFill as FoamFileBackFill, FileX as FoamFileCancel, FileXDuotone as FoamFileCancelDuotone, FileXFill as FoamFileCancelFill, FileChartColumn as FoamFileChartColumn, FileChartColumnDuotone as FoamFileChartColumnDuotone, FileChartColumnFill as FoamFileChartColumnFill, FileCheck as FoamFileCheck, FileCheckDuotone as FoamFileCheckDuotone, FileCheckFill as FoamFileCheckFill, FileCog as FoamFileCog, FileCogDuotone as FoamFileCogDuotone, FileCogFill as FoamFileCogFill, FileCheck as FoamFileComplete, FileCheckDuotone as FoamFileCompleteDuotone, FileCheckFill as FoamFileCompleteFill, FileCog as FoamFileConfig, FileCogDuotone as FoamFileConfigDuotone, FileCogFill as FoamFileConfigFill, FileX as FoamFileDelete, FileXDuotone as FoamFileDeleteDuotone, FileXFill as FoamFileDeleteFill, FileCheck as FoamFileDone, FileCheckDuotone as FoamFileDoneDuotone, FileCheckFill as FoamFileDoneFill, FileDuotone as FoamFileDuotone, FileArrowLeftRight as FoamFileExchange, FileArrowLeftRightDuotone as FoamFileExchangeDuotone, FileArrowLeftRightFill as FoamFileExchangeFill, FileFill as FoamFileFill, FileArrowRight as FoamFileForward, FileArrowRightDuotone as FoamFileForwardDuotone, FileArrowRightFill as FoamFileForwardFill, FileImage as FoamFileImage, FileImageDuotone as FoamFileImageDuotone, FileImageFill as FoamFileImageFill, FileArrowRight as FoamFileNext, FileArrowRightDuotone as FoamFileNextDuotone, FileArrowRightFill as FoamFileNextFill, FilePlus as FoamFilePlus, FilePlusDuotone as FoamFilePlusDuotone, FilePlusFill as FoamFilePlusFill, FileArrowLeft as FoamFilePrevious, FileArrowLeftDuotone as FoamFilePreviousDuotone, FileArrowLeftFill as FoamFilePreviousFill, FileUser as FoamFileProfile, FileUserDuotone as FoamFileProfileDuotone, FileUserFill as FoamFileProfileFill, FileX as FoamFileRemove, FileXDuotone as FoamFileRemoveDuotone, FileXFill as FoamFileRemoveFill, FileCog as FoamFileSettings, FileCogDuotone as FoamFileSettingsDuotone, FileCogFill as FoamFileSettingsFill, FileArrowLeftRight as FoamFileSync, FileArrowLeftRightDuotone as FoamFileSyncDuotone, FileArrowLeftRightFill as FoamFileSyncFill, FileArrowLeftRight as FoamFileTransfer, FileArrowLeftRightDuotone as FoamFileTransferDuotone, FileArrowLeftRightFill as FoamFileTransferFill, FileUser as FoamFileUser, FileUserDuotone as FoamFileUserDuotone, FileUserFill as FoamFileUserFill, FileCheck as FoamFileVerified, FileCheckDuotone as FoamFileVerifiedDuotone, FileCheckFill as FoamFileVerifiedFill, FileX as FoamFileX, FileXDuotone as FoamFileXDuotone, FileXFill as FoamFileXFill, Reel as FoamFilm, ReelDuotone as FoamFilmDuotone, ReelFill as FoamFilmFill, ListFilter as FoamFilter, ListFilterDuotone as FoamFilterDuotone, ListFilterFill as FoamFilterFill, SlidersHorizontal as FoamFilters, SlidersHorizontalDuotone as FoamFiltersDuotone, SlidersHorizontalFill as FoamFiltersFill, Search as FoamFind, SearchDuotone as FoamFindDuotone, SearchFill as FoamFindFill, SearchUser as FoamFindUser, SearchUserDuotone as FoamFindUserDuotone, SearchUserFill as FoamFindUserFill, Flame as FoamFire, FlameDuotone as FoamFireDuotone, FlameFill as FoamFireFill, Bookmark as FoamFlag, BookmarkDuotone as FoamFlagDuotone, BookmarkFill as FoamFlagFill, Flame as FoamFlame, FlameDuotone as FoamFlameDuotone, FlameFill as FoamFlameFill, Zap as FoamFlash, ZapDuotone as FoamFlashDuotone, ZapFill as FoamFlashFill, Save as FoamFloppy, SaveDuotone as FoamFloppyDuotone, SaveFill as FoamFloppyFill, ArrowRightToLine as FoamFold, ArrowRightToLineDuotone as FoamFoldDuotone, ArrowRightToLineFill as FoamFoldFill, Ban as FoamForbidden, BanDuotone as FoamForbiddenDuotone, BanFill as FoamForbiddenFill, Share as FoamForward, ShareDuotone as FoamForwardDuotone, ShareFill as FoamForwardFill, Frown as FoamFrown, FrownDuotone as FoamFrownDuotone, FrownFill as FoamFrownFill, Fullscreen as FoamFullScreen, FullscreenDuotone as FoamFullScreenDuotone, FullscreenFill as FoamFullScreenFill, Fullscreen as FoamFullscreen, FullscreenDuotone as FoamFullscreenDuotone, FullscreenFill as FoamFullscreenFill, ListFilter as FoamFunnel, ListFilterDuotone as FoamFunnelDuotone, ListFilterFill as FoamFunnelFill, Images as FoamGallery, ImagesDuotone as FoamGalleryDuotone, ImagesFill as FoamGalleryFill, Trash as FoamGarbage, TrashDuotone as FoamGarbageDuotone, TrashFill as FoamGarbageFill, Cog as FoamGear, CogDuotone as FoamGearDuotone, CogFill as FoamGearFill, Sparkles as FoamGenerate, SparklesDuotone as FoamGenerateDuotone, SparklesFill as FoamGenerateFill, MapPin as FoamGeo, MapPinDuotone as FoamGeoDuotone, MapPinFill as FoamGeoFill, Download as FoamGet, DownloadDuotone as FoamGetDuotone, DownloadFill as FoamGetFill, Globe as FoamGlobe, GlobeDuotone as FoamGlobeDuotone, GlobeFill as FoamGlobeFill, ChartColumnSquare as FoamGraph, ChartArea as FoamGraphArea, ChartAreaDuotone as FoamGraphAreaDuotone, ChartAreaFill as FoamGraphAreaFill, ChartColumnSquareDuotone as FoamGraphDuotone, ChartColumnSquareFill as FoamGraphFill, Grid2x2 as FoamGrid, Grid1x2 as FoamGrid1x2, Grid1x2Duotone as FoamGrid1x2Duotone, Grid1x2Fill as FoamGrid1x2Fill, Grid2x2 as FoamGrid2x2, Grid2x2Duotone as FoamGrid2x2Duotone, Grid2x2Fill as FoamGrid2x2Fill, Grid2x2Duotone as FoamGridDuotone, Grid2x2Fill as FoamGridFill, Grip as FoamGrip, GripDuotone as FoamGripDuotone, GripFill as FoamGripFill, GripHorizontal as FoamGripHorizontal, GripHorizontalDuotone as FoamGripHorizontalDuotone, GripHorizontalFill as FoamGripHorizontalFill, GripVertical as FoamGripVertical, GripVerticalDuotone as FoamGripVerticalDuotone, GripVerticalFill as FoamGripVerticalFill, Users as FoamGroup, UsersDuotone as FoamGroupDuotone, UsersFill as FoamGroupFill, TrendingUp as FoamGrowth, TrendingUpDuotone as FoamGrowthDuotone, TrendingUpFill as FoamGrowthFill, Eclipse as FoamHalfMoon, EclipseDuotone as FoamHalfMoonDuotone, EclipseFill as FoamHalfMoonFill, Menu as FoamHamburger, MenuDuotone as FoamHamburgerDuotone, MenuFill as FoamHamburgerFill, Smile as FoamHappy, SmileDuotone as FoamHappyDuotone, SmileFill as FoamHappyFill, Heart as FoamHeart, HeartDuotone as FoamHeartDuotone, HeartFill as FoamHeartFill, CircleQuestionMark as FoamHelp, CircleQuestionMarkDuotone as FoamHelpDuotone, CircleQuestionMarkFill as FoamHelpFill, EyeOff as FoamHidden, EyeOffDuotone as FoamHiddenDuotone, EyeOffFill as FoamHiddenFill, EyeOff as FoamHide, EyeOffDuotone as FoamHideDuotone, EyeOffFill as FoamHideFill, History as FoamHistory, HistoryDuotone as FoamHistoryDuotone, HistoryFill as FoamHistoryFill, House as FoamHome, HouseDuotone as FoamHomeDuotone, HouseFill as FoamHomeFill, Rows2 as FoamHorizontalSplit, Rows2Duotone as FoamHorizontalSplitDuotone, Rows2Fill as FoamHorizontalSplitFill, Flame as FoamHot, FlameDuotone as FoamHotDuotone, FlameFill as FoamHotFill, Hotspot as FoamHotspot, HotspotDuotone as FoamHotspotDuotone, HotspotFill as FoamHotspotFill, House as FoamHouse, HouseDuotone as FoamHouseDuotone, HouseFill as FoamHouseFill, ArrowDownIG as FoamIgDown, ArrowDownIGDuotone as FoamIgDownDuotone, ArrowDownIGFill as FoamIgDownFill, ArrowUpIG as FoamIgUp, ArrowUpIGDuotone as FoamIgUpDuotone, ArrowUpIGFill as FoamIgUpFill, Image as FoamImage, ImageDuotone as FoamImageDuotone, ImageFill as FoamImageFill, Images as FoamImages, ImagesDuotone as FoamImagesDuotone, ImagesFill as FoamImagesFill, Upload as FoamImport, UploadDuotone as FoamImportDuotone, UploadFill as FoamImportFill, Reach as FoamImpressions, ReachDuotone as FoamImpressionsDuotone, ReachFill as FoamImpressionsFill, Inbox as FoamInbox, InboxDuotone as FoamInboxDuotone, InboxFill as FoamInboxFill, TrendingUp as FoamIncrease, TrendingUpDuotone as FoamIncreaseDuotone, TrendingUpFill as FoamIncreaseFill, ArrowRightToLine as FoamIndent, ArrowRightToLineDuotone as FoamIndentDuotone, ArrowRightToLineFill as FoamIndentFill, Info as FoamInfo, InfoDuotone as FoamInfoDuotone, InfoFill as FoamInfoFill, Info as FoamInformation, InfoDuotone as FoamInformationDuotone, InfoFill as FoamInformationFill, ShieldOff as FoamInsecure, ShieldOffDuotone as FoamInsecureDuotone, ShieldOffFill as FoamInsecureFill, ArrowDownIG as FoamInstagramDown, ArrowDownIGDuotone as FoamInstagramDownDuotone, ArrowDownIGFill as FoamInstagramDownFill, ArrowUpIG as FoamInstagramUp, ArrowUpIGDuotone as FoamInstagramUpDuotone, ArrowUpIGFill as FoamInstagramUpFill, Brain as FoamIntelligence, BrainDuotone as FoamIntelligenceDuotone, BrainFill as FoamIntelligenceFill, Globe as FoamInternet, GlobeDuotone as FoamInternetDuotone, GlobeFill as FoamInternetFill, EyeOff as FoamInvisible, EyeOffDuotone as FoamInvisibleDuotone, EyeOffFill as FoamInvisibleFill, Italic as FoamItalic, ItalicDuotone as FoamItalicDuotone, ItalicFill as FoamItalicFill, List as FoamItems, ListDuotone as FoamItemsDuotone, ListFill as FoamItemsFill, TextAlignJustify as FoamJustify, TextAlignJustifyDuotone as FoamJustifyDuotone, TextAlignJustifyFill as FoamJustifyFill, Command as FoamKeyboard, CommandDuotone as FoamKeyboardDuotone, CommandFill as FoamKeyboardFill, Globe as FoamLanguage, GlobeDuotone as FoamLanguageDuotone, GlobeFill as FoamLanguageFill, Grid2x2 as FoamLayout, Grid2x2Duotone as FoamLayoutDuotone, Grid2x2Fill as FoamLayoutFill, ArrowLeft as FoamLeft, ArrowLeftDuotone as FoamLeftDuotone, ArrowLeftFill as FoamLeftFill, Sun as FoamLight, SunDuotone as FoamLightDuotone, SunFill as FoamLightFill, Zap as FoamLightning, ZapDuotone as FoamLightningDuotone, ZapFill as FoamLightningFill, ZapOff as FoamLightningOff, ZapOffDuotone as FoamLightningOffDuotone, ZapOffFill as FoamLightningOffFill, ThumbsUp as FoamLike, ThumbsUpDuotone as FoamLikeDuotone, ThumbsUpFill as FoamLikeFill, Heart as FoamLikes, HeartDuotone as FoamLikesDuotone, HeartFill as FoamLikesFill, Link as FoamLink, LinkDuotone as FoamLinkDuotone, LinkFill as FoamLinkFill, List as FoamList, ListDuotone as FoamListDuotone, ListFill as FoamListFill, ListFilter as FoamListFilter, ListFilterDuotone as FoamListFilterDuotone, ListFilterFill as FoamListFilterFill, ListIndentDecrease as FoamListIndentDecrease, ListIndentDecreaseDuotone as FoamListIndentDecreaseDuotone, ListIndentDecreaseFill as FoamListIndentDecreaseFill, ListIndentIncrease as FoamListIndentIncrease, ListIndentIncreaseDuotone as FoamListIndentIncreaseDuotone, ListIndentIncreaseFill as FoamListIndentIncreaseFill, ListOrdered as FoamListOrdered, ListOrderedDuotone as FoamListOrderedDuotone, ListOrderedFill as FoamListOrderedFill, LoaderCircle as FoamLoaderCircle, LoaderCircleDuotone as FoamLoaderCircleDuotone, LoaderCircleFill as FoamLoaderCircleFill, LoaderCircle as FoamLoading, LoaderCircleDuotone as FoamLoadingDuotone, LoaderCircleFill as FoamLoadingFill, MapPin as FoamLocation, MapPinDuotone as FoamLocationDuotone, MapPinFill as FoamLocationFill, Lock as FoamLock, LockDuotone as FoamLockDuotone, LockFill as FoamLockFill, Lock as FoamLocked, LockDuotone as FoamLockedDuotone, LockFill as FoamLockedFill, LogOut as FoamLogOut, LogOutDuotone as FoamLogOutDuotone, LogOutFill as FoamLogOutFill, LogoFacebook as FoamLogoFacebook, LogoFacebookFill as FoamLogoFacebookFill, LogoFile as FoamLogoFile, LogoFileDark as FoamLogoFileDark, LogoFilePdf as FoamLogoFilePdf, LogoFilePdfDark as FoamLogoFilePdfDark, LogoFileSheet as FoamLogoFileSheet, LogoFileSheetDark as FoamLogoFileSheetDark, LogoFoam as FoamLogoFoam, LogoFoamDark as FoamLogoFoamDark, LogoFoamFill as FoamLogoFoamFill, LogoFoamSymbol as FoamLogoFoamSymbol, LogoFoamSymbolDark as FoamLogoFoamSymbolDark, LogoGmail as FoamLogoGmail, LogoGmailFill as FoamLogoGmailFill, LogoGoogle as FoamLogoGoogle, LogoGoogleFill as FoamLogoGoogleFill, LogoInstagram as FoamLogoInstagram, LogoInstagramDark as FoamLogoInstagramDark, LogoInstagramFill as FoamLogoInstagramFill, LogoLinkedin as FoamLogoLinkedin, LogoLinkedinDark as FoamLogoLinkedinDark, LogoLinkedinFill as FoamLogoLinkedinFill, LogoMicrosoft as FoamLogoMicrosoft, LogoMicrosoftFill as FoamLogoMicrosoftFill, LogoSnapchat as FoamLogoSnapchat, LogoSnapchatDark as FoamLogoSnapchatDark, LogoSnapchatFill as FoamLogoSnapchatFill, LogoTiktok as FoamLogoTiktok, LogoTiktokDark as FoamLogoTiktokDark, LogoTiktokFill as FoamLogoTiktokFill, LogoYoutube as FoamLogoYoutube, LogoYoutubeFill as FoamLogoYoutubeFill, LogOut as FoamLogout, LogOutDuotone as FoamLogoutDuotone, LogOutFill as FoamLogoutFill, Search as FoamLookup, SearchDuotone as FoamLookupDuotone, SearchFill as FoamLookupFill, SearchUser as FoamLookupPerson, SearchUserDuotone as FoamLookupPersonDuotone, SearchUserFill as FoamLookupPersonFill, Heart as FoamLove, HeartDuotone as FoamLoveDuotone, HeartFill as FoamLoveFill, Sparkles as FoamMagic, SparklesDuotone as FoamMagicDuotone, SparklesFill as FoamMagicFill, Search as FoamMagnifyingGlass, SearchDuotone as FoamMagnifyingGlassDuotone, SearchFill as FoamMagnifyingGlassFill, Mail as FoamMail, MailDuotone as FoamMailDuotone, MailFill as FoamMailFill, MailMove as FoamMailMove, MailMoveDuotone as FoamMailMoveDuotone, MailMoveFill as FoamMailMoveFill, MailPlus as FoamMailPlus, MailPlusDuotone as FoamMailPlusDuotone, MailPlusFill as FoamMailPlusFill, Inbox as FoamMailbox, InboxDuotone as FoamMailboxDuotone, InboxFill as FoamMailboxFill, MapPin as FoamMapPin, MapPinDuotone as FoamMapPinDuotone, MapPinFill as FoamMapPinFill, MapPin as FoamMarker, MapPinDuotone as FoamMarkerDuotone, MapPinFill as FoamMarkerFill, Megaphone as FoamMarketing, MegaphoneDuotone as FoamMarketingDuotone, MegaphoneFill as FoamMarketingFill, Maximize as FoamMaximize, MaximizeDuotone as FoamMaximizeDuotone, MaximizeFill as FoamMaximizeFill, Fullscreen as FoamMaximizeScreen, FullscreenDuotone as FoamMaximizeScreenDuotone, FullscreenFill as FoamMaximizeScreenFill, Image as FoamMedia, ImageDuotone as FoamMediaDuotone, ImageFill as FoamMediaFill, ContentUser as FoamMediaPacks, ContentUserDuotone as FoamMediaPacksDuotone, ContentUserFill as FoamMediaPacksFill, ContentUser as FoamMediapacks, ContentUserDuotone as FoamMediapacksDuotone, ContentUserFill as FoamMediapacksFill, Megaphone as FoamMegaphone, MegaphoneActive as FoamMegaphoneActive, MegaphoneActiveDuotone as FoamMegaphoneActiveDuotone, MegaphoneActiveFill as FoamMegaphoneActiveFill, MegaphoneDuotone as FoamMegaphoneDuotone, MegaphoneFill as FoamMegaphoneFill, Menu as FoamMenu, MenuDuotone as FoamMenuDuotone, MenuFill as FoamMenuFill, Mail as FoamMessage, MailDuotone as FoamMessageDuotone, MailFill as FoamMessageFill, MessageSquare as FoamMessageSquare, MessageSquareDuotone as FoamMessageSquareDuotone, MessageSquareFill as FoamMessageSquareFill, MessagesSquare as FoamMessagesSquare, MessagesSquareDuotone as FoamMessagesSquareDuotone, MessagesSquareFill as FoamMessagesSquareFill, Brain as FoamMind, BrainDuotone as FoamMindDuotone, BrainFill as FoamMindFill, Minus as FoamMinus, MinusDuotone as FoamMinusDuotone, MinusFill as FoamMinusFill, ChartNoAxesCombined as FoamMixedChart, ChartNoAxesCombinedDuotone as FoamMixedChartDuotone, ChartNoAxesCombinedFill as FoamMixedChartFill, Pencil as FoamModify, PencilDuotone as FoamModifyDuotone, PencilFill as FoamModifyFill, CircleDollarSign as FoamMoney, CircleDollarSignDuotone as FoamMoneyDuotone, CircleDollarSignFill as FoamMoneyFill, Moon as FoamMoon, MoonDuotone as FoamMoonDuotone, MoonFill as FoamMoonFill, MousePointerClick as FoamMousePointerClick, MousePointerClickDuotone as FoamMousePointerClickDuotone, MousePointerClickFill as FoamMousePointerClickFill, Move as FoamMove, MoveDuotone as FoamMoveDuotone, MoveFill as FoamMoveFill, VolumeOff as FoamMute, VolumeOffDuotone as FoamMuteDuotone, VolumeOffFill as FoamMuteFill, Menu as FoamNavigation, MenuDuotone as FoamNavigationDuotone, MenuFill as FoamNavigationFill, Frown as FoamNegative, FrownDuotone as FoamNegativeDuotone, FrownFill as FoamNegativeFill, ChartNetwork as FoamNetworkGraph, ChartNetworkDuotone as FoamNetworkGraphDuotone, ChartNetworkFill as FoamNetworkGraphFill, Plus as FoamNew, PlusDuotone as FoamNewDuotone, FilePlus as FoamNewFile, FilePlusDuotone as FoamNewFileDuotone, FilePlusFill as FoamNewFileFill, PlusFill as FoamNewFill, ContentPlus as FoamNewPost, ContentPlusDuotone as FoamNewPostDuotone, ContentPlusFill as FoamNewPostFill, ShieldPlus as FoamNewShield, ShieldPlusDuotone as FoamNewShieldDuotone, ShieldPlusFill as FoamNewShieldFill, ArrowRight as FoamNext, ArrowRightDuotone as FoamNextDuotone, ArrowRightFill as FoamNextFill, Moon as FoamNight, MoonDuotone as FoamNightDuotone, MoonFill as FoamNightFill, ThumbsDown as FoamNo, ThumbsDownDuotone as FoamNoDuotone, ThumbsDownFill as FoamNoFill, ZapOff as FoamNoFlash, ZapOffDuotone as FoamNoFlashDuotone, ZapOffFill as FoamNoFlashFill, VolumeOff as FoamNoSound, VolumeOffDuotone as FoamNoSoundDuotone, VolumeOffFill as FoamNoSoundFill, ChartNetwork as FoamNodeGraph, ChartNetworkDuotone as FoamNodeGraphDuotone, ChartNetworkFill as FoamNodeGraphFill, ArrowUp as FoamNorth, ArrowUpDuotone as FoamNorthDuotone, ArrowUpFill as FoamNorthFill, Ban as FoamNotAllowed, BanDuotone as FoamNotAllowedDuotone, BanFill as FoamNotAllowedFill, Notebook as FoamNotebook, NotebookDuotone as FoamNotebookDuotone, NotebookFill as FoamNotebookFill, Bell as FoamNotification, BellDuotone as FoamNotificationDuotone, BellFill as FoamNotificationFill, ListOrdered as FoamNumberedList, ListOrderedDuotone as FoamNumberedListDuotone, ListOrderedFill as FoamNumberedListFill, Office as FoamOffice, OfficeDuotone as FoamOfficeDuotone, OfficeFill as FoamOfficeFill, ListOrdered as FoamOl, ListOrderedDuotone as FoamOlDuotone, ListOrderedFill as FoamOlFill, ExternalLink as FoamOpenNew, ExternalLinkDuotone as FoamOpenNewDuotone, ExternalLinkFill as FoamOpenNewFill, QuotationMarkLeft as FoamOpenQuote, QuotationMarkLeftDuotone as FoamOpenQuoteDuotone, QuotationMarkLeftFill as FoamOpenQuoteFill, Cog as FoamOptions, CogDuotone as FoamOptionsDuotone, CogFill as FoamOptionsFill, TriangleDownUp as FoamOrderToggle, TriangleDownUpDuotone as FoamOrderToggleDuotone, TriangleDownUpFill as FoamOrderToggleFill, File as FoamPage, FileDuotone as FoamPageDuotone, FileFill as FoamPageFill, PanelLeft as FoamPanelLeft, PanelLeftDuotone as FoamPanelLeftDuotone, PanelLeftFill as FoamPanelLeftFill, PanelRight as FoamPanelRight, PanelRightDuotone as FoamPanelRightDuotone, PanelRightFill as FoamPanelRightFill, History as FoamPast, HistoryDuotone as FoamPastDuotone, HistoryFill as FoamPastFill, CircleDollarSign as FoamPayment, CircleDollarSignDuotone as FoamPaymentDuotone, CircleDollarSignFill as FoamPaymentFill, Pencil as FoamPencil, PencilDuotone as FoamPencilDuotone, PencilFill as FoamPencilFill, Users as FoamPeople, UsersDuotone as FoamPeopleDuotone, UsersFill as FoamPeopleFill, User as FoamPerson, UserDuotone as FoamPersonDuotone, UserFill as FoamPersonFill, Users as FoamPersons, UsersDuotone as FoamPersonsDuotone, UsersFill as FoamPersonsFill, Image as FoamPhoto, ImageDuotone as FoamPhotoDuotone, ImageFill as FoamPhotoFill, Images as FoamPhotos, ImagesDuotone as FoamPhotosDuotone, ImagesFill as FoamPhotosFill, Image as FoamPicture, ImageDuotone as FoamPictureDuotone, ImageFill as FoamPictureFill, Images as FoamPictures, ImagesDuotone as FoamPicturesDuotone, ImagesFill as FoamPicturesFill, ChartPie as FoamPieChart, ChartPieDuotone as FoamPieChartDuotone, ChartPieFill as FoamPieChartFill, Pin as FoamPin, PinDuotone as FoamPinDuotone, PinFill as FoamPinFill, MapPin as FoamPlace, MapPinDuotone as FoamPlaceDuotone, MapPinFill as FoamPlaceFill, RemoveFormatting as FoamPlainText, RemoveFormattingDuotone as FoamPlainTextDuotone, RemoveFormattingFill as FoamPlainTextFill, Play as FoamPlay, Play as FoamPlayButton, PlayDuotone as FoamPlayButtonDuotone, PlayFill as FoamPlayButtonFill, PlayDuotone as FoamPlayDuotone, PlayFill as FoamPlayFill, Plus as FoamPlus, PlusDuotone as FoamPlusDuotone, PlusFill as FoamPlusFill, Pointer as FoamPointer, PointerDuotone as FoamPointerDuotone, PointerFill as FoamPointerFill, Smile as FoamPositive, SmileDuotone as FoamPositiveDuotone, SmileFill as FoamPositiveFill, Zap as FoamPower, ZapDuotone as FoamPowerDuotone, ZapFill as FoamPowerFill, ZapOff as FoamPowerOff, ZapOffDuotone as FoamPowerOffDuotone, ZapOffFill as FoamPowerOffFill, Cog as FoamPreferences, CogDuotone as FoamPreferencesDuotone, CogFill as FoamPreferencesFill, Save as FoamPreserve, SaveDuotone as FoamPreserveDuotone, SaveFill as FoamPreserveFill, ContentUser as FoamPressKit, ContentUserDuotone as FoamPressKitDuotone, ContentUserFill as FoamPressKitFill, ArrowLeft as FoamPrevious, ArrowLeftDuotone as FoamPreviousDuotone, ArrowLeftFill as FoamPreviousFill, CircleDollarSign as FoamPrice, CircleDollarSignDuotone as FoamPriceDuotone, CircleDollarSignFill as FoamPriceFill, ShieldUser as FoamPrivacy, ShieldUserDuotone as FoamPrivacyDuotone, ShieldUserFill as FoamPrivacyFill, Lock as FoamPrivate, LockDuotone as FoamPrivateDuotone, LockFill as FoamPrivateFill, User as FoamProfile, UserDuotone as FoamProfileDuotone, UserFill as FoamProfileFill, LoaderCircle as FoamProgress, LoaderCircleDuotone as FoamProgressDuotone, LoaderCircleFill as FoamProgressFill, Ban as FoamProhibited, BanDuotone as FoamProhibitedDuotone, BanFill as FoamProhibitedFill, Megaphone as FoamPromote, MegaphoneDuotone as FoamPromoteDuotone, MegaphoneFill as FoamPromoteFill, Shield as FoamProtect, ShieldDuotone as FoamProtectDuotone, ShieldFill as FoamProtectFill, Lock as FoamProtected, LockDuotone as FoamProtectedDuotone, LockFill as FoamProtectedFill, Unlock as FoamPublic, UnlockDuotone as FoamPublicDuotone, UnlockFill as FoamPublicFill, Search as FoamQuery, SearchDuotone as FoamQueryDuotone, SearchFill as FoamQueryFill, CircleQuestionMark as FoamQuestion, CircleQuestionMarkDuotone as FoamQuestionDuotone, CircleQuestionMarkFill as FoamQuestionFill, QuotationMarkLeft as FoamQuotationMarkLeft, QuotationMarkLeftDuotone as FoamQuotationMarkLeftDuotone, QuotationMarkLeftFill as FoamQuotationMarkLeftFill, QuotationMarkRight as FoamQuotationMarkRight, QuotationMarkRightDuotone as FoamQuotationMarkRightDuotone, QuotationMarkRightFill as FoamQuotationMarkRightFill, QuotationMarkLeft as FoamQuoteLeft, QuotationMarkLeftDuotone as FoamQuoteLeftDuotone, QuotationMarkLeftFill as FoamQuoteLeftFill, QuotationMarkRight as FoamQuoteRight, QuotationMarkRightDuotone as FoamQuoteRightDuotone, QuotationMarkRightFill as FoamQuoteRightFill, Star as FoamRating, StarDuotone as FoamRatingDuotone, StarFill as FoamRatingFill, Reach as FoamReach, ReachDuotone as FoamReachDuotone, ReachFill as FoamReachFill, History as FoamRecent, HistoryDuotone as FoamRecentDuotone, HistoryFill as FoamRecentFill, Video as FoamRecord, VideoDuotone as FoamRecordDuotone, VideoFill as FoamRecordFill, RotateCw as FoamRedo, RotateCwDuotone as FoamRedoDuotone, RotateCwFill as FoamRedoFill, Minus as FoamReduce, MinusDuotone as FoamReduceDuotone, MinusFill as FoamReduceFill, Reel as FoamReel, ReelDuotone as FoamReelDuotone, ReelFill as FoamReelFill, RefreshCw as FoamRefresh, RefreshCw as FoamRefreshCw, RefreshCwDuotone as FoamRefreshCwDuotone, RefreshCwFill as FoamRefreshCwFill, RefreshCwDuotone as FoamRefreshDuotone, RefreshCwFill as FoamRefreshFill, RefreshCw as FoamReload, RefreshCwDuotone as FoamReloadDuotone, RefreshCwFill as FoamReloadFill, Trash as FoamRemove, TrashDuotone as FoamRemoveDuotone, TrashFill as FoamRemoveFill, RemoveFormatting as FoamRemoveFormatting, RemoveFormattingDuotone as FoamRemoveFormattingDuotone, RemoveFormattingFill as FoamRemoveFormattingFill, ArrowDownUp as FoamReorder, ArrowDownUpDuotone as FoamReorderDuotone, ArrowDownUpFill as FoamReorderFill, Reply as FoamReply, ReplyDuotone as FoamReplyDuotone, ReplyFill as FoamReplyFill, Move as FoamReposition, MoveDuotone as FoamRepositionDuotone, MoveFill as FoamRepositionFill, Reply as FoamRespond, ReplyDuotone as FoamRespondDuotone, ReplyFill as FoamRespondFill, ArrowRight as FoamRight, ArrowRightDuotone as FoamRightDuotone, ArrowRightFill as FoamRightFill, TrendingUp as FoamRising, TrendingUpDuotone as FoamRisingDuotone, TrendingUpFill as FoamRisingFill, Rolodex as FoamRolodex, RolodexDuotone as FoamRolodexDuotone, RolodexFill as FoamRolodexFill, ClipboardList as FoamRoster, ClipboardListDuotone as FoamRosterDuotone, ClipboardListFill as FoamRosterFill, RotateCw as FoamRotate, RotateCcw as FoamRotateCcw, RotateCcwDuotone as FoamRotateCcwDuotone, RotateCcwFill as FoamRotateCcwFill, RotateCw as FoamRotateCw, RotateCwDuotone as FoamRotateCwDuotone, RotateCwFill as FoamRotateCwFill, RotateCwDuotone as FoamRotateDuotone, RotateCwFill as FoamRotateFill, RotateCcw as FoamRotateLeft, RotateCcwDuotone as FoamRotateLeftDuotone, RotateCcwFill as FoamRotateLeftFill, Rows2 as FoamRows, Rows2 as FoamRows2, Rows2Duotone as FoamRows2Duotone, Rows2Fill as FoamRows2Fill, Rows2Duotone as FoamRowsDuotone, Rows2Fill as FoamRowsFill, Frown as FoamSad, FrownDuotone as FoamSadDuotone, FrownFill as FoamSadFill, Save as FoamSave, SaveDuotone as FoamSaveDuotone, SaveFill as FoamSaveFill, Bookmark as FoamSaved, BookmarkDuotone as FoamSavedDuotone, BookmarkFill as FoamSavedFill, Calendar as FoamSchedule, CalendarDuotone as FoamScheduleDuotone, CalendarFill as FoamScheduleFill, Search as FoamSearch, SearchDuotone as FoamSearchDuotone, SearchFill as FoamSearchFill, SearchUser as FoamSearchPerson, SearchUserDuotone as FoamSearchPersonDuotone, SearchUserFill as FoamSearchPersonFill, SearchUser as FoamSearchUser, SearchUserDuotone as FoamSearchUserDuotone, SearchUserFill as FoamSearchUserFill, Lock as FoamSecure, LockDuotone as FoamSecureDuotone, LockFill as FoamSecureFill, Shield as FoamSecurity, ShieldDuotone as FoamSecurityDuotone, ShieldFill as FoamSecurityFill, Upload as FoamSend, UploadDuotone as FoamSendDuotone, UploadFill as FoamSendFill, Cog as FoamSettings, CogDuotone as FoamSettingsDuotone, CogFill as FoamSettingsFill, Share as FoamShare, ShareDuotone as FoamShareDuotone, ShareFill as FoamShareFill, Share as FoamShareLink, ShareDuotone as FoamShareLinkDuotone, ShareFill as FoamShareLinkFill, Shield as FoamShield, ShieldX as FoamShieldCancel, ShieldXDuotone as FoamShieldCancelDuotone, ShieldXFill as FoamShieldCancelFill, ShieldCheck as FoamShieldCheck, ShieldCheckDuotone as FoamShieldCheckDuotone, ShieldCheckFill as FoamShieldCheckFill, ShieldDuotone as FoamShieldDuotone, ShieldFill as FoamShieldFill, ShieldOff as FoamShieldOff, ShieldOffDuotone as FoamShieldOffDuotone, ShieldOffFill as FoamShieldOffFill, ShieldPlus as FoamShieldPlus, ShieldPlusDuotone as FoamShieldPlusDuotone, ShieldPlusFill as FoamShieldPlusFill, ShieldX as FoamShieldRemove, ShieldXDuotone as FoamShieldRemoveDuotone, ShieldXFill as FoamShieldRemoveFill, ShieldCheck as FoamShieldSecure, ShieldCheckDuotone as FoamShieldSecureDuotone, ShieldCheckFill as FoamShieldSecureFill, ShieldUser as FoamShieldUser, ShieldUserDuotone as FoamShieldUserDuotone, ShieldUserFill as FoamShieldUserFill, ShieldCheck as FoamShieldVerified, ShieldCheckDuotone as FoamShieldVerifiedDuotone, ShieldCheckFill as FoamShieldVerifiedFill, ShieldX as FoamShieldX, ShieldXDuotone as FoamShieldXDuotone, ShieldXFill as FoamShieldXFill, Sparkles as FoamShine, SparklesDuotone as FoamShineDuotone, SparklesFill as FoamShineFill, Reel as FoamShort, ReelDuotone as FoamShortDuotone, ReelFill as FoamShortFill, Reel as FoamShortVideo, ReelDuotone as FoamShortVideoDuotone, ReelFill as FoamShortVideoFill, Command as FoamShortcut, CommandDuotone as FoamShortcutDuotone, CommandFill as FoamShortcutFill, Eye as FoamShow, EyeDuotone as FoamShowDuotone, EyeFill as FoamShowFill, PanelLeft as FoamSidebarLeft, PanelLeftDuotone as FoamSidebarLeftDuotone, PanelLeftFill as FoamSidebarLeftFill, PanelRight as FoamSidebarRight, PanelRightDuotone as FoamSidebarRightDuotone, PanelRightFill as FoamSidebarRightFill, LogOut as FoamSignOut, LogOutDuotone as FoamSignOutDuotone, LogOutFill as FoamSignOutFill, Hotspot as FoamSignal, HotspotDuotone as FoamSignalDuotone, HotspotFill as FoamSignalFill, LogOut as FoamSignout, LogOutDuotone as FoamSignoutDuotone, LogOutFill as FoamSignoutFill, VolumeOff as FoamSilent, VolumeOffDuotone as FoamSilentDuotone, VolumeOffFill as FoamSilentFill, Slash as FoamSlash, SlashDuotone as FoamSlashDuotone, SlashFill as FoamSlashFill, SlidersHorizontal as FoamSlidersHorizontal, SlidersHorizontalDuotone as FoamSlidersHorizontalDuotone, SlidersHorizontalFill as FoamSlidersHorizontalFill, Smile as FoamSmile, SmileDuotone as FoamSmileDuotone, SmileFill as FoamSmileFill, Smile as FoamSmiley, SmileDuotone as FoamSmileyDuotone, SmileFill as FoamSmileyFill, ArrowDownSC as FoamSnapchat, ArrowDownSCDuotone as FoamSnapchatDuotone, ArrowDownSCFill as FoamSnapchatFill, ArrowDownUp as FoamSort, ArrowUpAZ as FoamSortAZ, ArrowUpAZDuotone as FoamSortAZDuotone, ArrowUpAZFill as FoamSortAZFill, ArrowUpAZ as FoamSortAlphaAsc, ArrowUpAZDuotone as FoamSortAlphaAscDuotone, ArrowUpAZFill as FoamSortAlphaAscFill, ArrowUpZA as FoamSortAlphaDesc, ArrowUpZADuotone as FoamSortAlphaDescDuotone, ArrowUpZAFill as FoamSortAlphaDescFill, ArrowDownNarrowWide as FoamSortAsc, ArrowUpNarrowWide as FoamSortAscAlt, ArrowUpNarrowWideDuotone as FoamSortAscAltDuotone, ArrowUpNarrowWideFill as FoamSortAscAltFill, ArrowDownNarrowWideDuotone as FoamSortAscDuotone, ArrowDownNarrowWideFill as FoamSortAscFill, ArrowDownNarrowWide as FoamSortAscending, ArrowDownNarrowWideDuotone as FoamSortAscendingDuotone, ArrowDownNarrowWideFill as FoamSortAscendingFill, ArrowUpWideNarrow as FoamSortDesc, ArrowDownWideNarrow as FoamSortDescAlt, ArrowDownWideNarrowDuotone as FoamSortDescAltDuotone, ArrowDownWideNarrowFill as FoamSortDescAltFill, ArrowUpWideNarrowDuotone as FoamSortDescDuotone, ArrowUpWideNarrowFill as FoamSortDescFill, ArrowUpWideNarrow as FoamSortDescending, ArrowUpWideNarrowDuotone as FoamSortDescendingDuotone, ArrowUpWideNarrowFill as FoamSortDescendingFill, ArrowDownUpDuotone as FoamSortDuotone, ArrowDownUpFill as FoamSortFill, ArrowDown01 as FoamSortNumeric, ArrowDown01Duotone as FoamSortNumericDuotone, ArrowDown01Fill as FoamSortNumericFill, TriangleDownUp as FoamSortToggle, TriangleDownUpDuotone as FoamSortToggleDuotone, TriangleDownUpFill as FoamSortToggleFill, ArrowUpZA as FoamSortZA, ArrowUpZADuotone as FoamSortZADuotone, ArrowUpZAFill as FoamSortZAFill, Volume2 as FoamSound, Volume2Duotone as FoamSoundDuotone, Volume2Fill as FoamSoundFill, ArrowDown as FoamSouth, ArrowDownDuotone as FoamSouthDuotone, ArrowDownFill as FoamSouthFill, Sparkles as FoamSparkles, SparklesDuotone as FoamSparklesDuotone, SparklesFill as FoamSparklesFill, Volume2 as FoamSpeaker, Volume2Duotone as FoamSpeakerDuotone, Volume2Fill as FoamSpeakerFill, VolumeOff as FoamSpeakerOff, VolumeOffDuotone as FoamSpeakerOffDuotone, VolumeOffFill as FoamSpeakerOffFill, LoaderCircle as FoamSpinner, LoaderCircleDuotone as FoamSpinnerDuotone, LoaderCircleFill as FoamSpinnerFill, Square as FoamSquare, SquareDuotone as FoamSquareDuotone, SquareFill as FoamSquareFill, SquarePen as FoamSquarePen, SquarePenDuotone as FoamSquarePenDuotone, SquarePenFill as FoamSquarePenFill, ChartBarStacked as FoamStackedBar, ChartBarStackedDuotone as FoamStackedBarDuotone, ChartBarStackedFill as FoamStackedBarFill, Star as FoamStar, StarDuotone as FoamStarDuotone, StarFill as FoamStarFill, Play as FoamStart, PlayDuotone as FoamStartDuotone, PlayFill as FoamStartFill, ChartColumnSquare as FoamStats, ChartColumnSquareDuotone as FoamStatsDuotone, ChartColumnSquareFill as FoamStatsFill, Pin as FoamStick, PinDuotone as FoamStickDuotone, PinFill as FoamStickFill, Square as FoamStop, SquareDuotone as FoamStopDuotone, SquareFill as FoamStopFill, Archive as FoamStorage, ArchiveDuotone as FoamStorageDuotone, ArchiveFill as FoamStorageFill, Bold as FoamStrong, BoldDuotone as FoamStrongDuotone, BoldFill as FoamStrongFill, Minus as FoamSubtract, MinusDuotone as FoamSubtractDuotone, MinusFill as FoamSubtractFill, Checkmark as FoamSuccess, CheckmarkDuotone as FoamSuccessDuotone, CheckmarkFill as FoamSuccessFill, Sun as FoamSun, SunDuotone as FoamSunDuotone, SunFill as FoamSunFill, CircleQuestionMark as FoamSupport, CircleQuestionMarkDuotone as FoamSupportDuotone, CircleQuestionMarkFill as FoamSupportFill, ArrowDownUp as FoamSwap, ArrowDownUpDuotone as FoamSwapDuotone, ArrowDownUpFill as FoamSwapFill, RefreshCw as FoamSync, RefreshCwDuotone as FoamSyncDuotone, RefreshCwFill as FoamSyncFill, Pin as FoamTack, PinDuotone as FoamTackDuotone, PinFill as FoamTackFill, Checkbox as FoamTask, CheckboxDuotone as FoamTaskDuotone, CheckboxFill as FoamTaskFill, ClipboardList as FoamTasks, ClipboardListDuotone as FoamTasksDuotone, ClipboardListFill as FoamTasksFill, Users as FoamTeam, UsersDuotone as FoamTeamDuotone, UsersFill as FoamTeamFill, TextAlignCenter as FoamTextAlignCenter, TextAlignCenterDuotone as FoamTextAlignCenterDuotone, TextAlignCenterFill as FoamTextAlignCenterFill, TextAlignEnd as FoamTextAlignEnd, TextAlignEndDuotone as FoamTextAlignEndDuotone, TextAlignEndFill as FoamTextAlignEndFill, TextAlignJustify as FoamTextAlignJustify, TextAlignJustifyDuotone as FoamTextAlignJustifyDuotone, TextAlignJustifyFill as FoamTextAlignJustifyFill, TextAlignStart as FoamTextAlignStart, TextAlignStartDuotone as FoamTextAlignStartDuotone, TextAlignStartFill as FoamTextAlignStartFill, Bold as FoamTextBold, BoldDuotone as FoamTextBoldDuotone, BoldFill as FoamTextBoldFill, Italic as FoamTextItalic, ItalicDuotone as FoamTextItalicDuotone, ItalicFill as FoamTextItalicFill, Brain as FoamThinking, BrainDuotone as FoamThinkingDuotone, BrainFill as FoamThinkingFill, Columns3 as FoamThreeColumns, Columns3Duotone as FoamThreeColumnsDuotone, Columns3Fill as FoamThreeColumnsFill, ThumbsDown as FoamThumbsDown, ThumbsDownDuotone as FoamThumbsDownDuotone, ThumbsDownFill as FoamThumbsDownFill, ThumbsUp as FoamThumbsUp, ThumbsUpDuotone as FoamThumbsUpDuotone, ThumbsUpFill as FoamThumbsUpFill, Pin as FoamThumbtack, PinDuotone as FoamThumbtackDuotone, PinFill as FoamThumbtackFill, Checkmark as FoamTick, CheckmarkDuotone as FoamTickDuotone, CheckmarkFill as FoamTickFill, ArrowDownTT as FoamTiktok, ArrowDownTTDuotone as FoamTiktokDuotone, ArrowDownTTFill as FoamTiktokFill, Grid2x2 as FoamTiles, Grid2x2Duotone as FoamTilesDuotone, Grid2x2Fill as FoamTilesFill, Clock as FoamTime, ClockDuotone as FoamTimeDuotone, ClockFill as FoamTimeFill, CircleX as FoamTimes, CircleXDuotone as FoamTimesDuotone, CircleXFill as FoamTimesFill, ClipboardList as FoamTodo, ClipboardListDuotone as FoamTodoDuotone, ClipboardListFill as FoamTodoFill, Trash as FoamTrash, TrashDuotone as FoamTrashDuotone, TrashEmpty as FoamTrashEmpty, TrashEmptyDuotone as FoamTrashEmptyDuotone, TrashEmptyFill as FoamTrashEmptyFill, TrashFill as FoamTrashFill, Inbox as FoamTray, InboxDuotone as FoamTrayDuotone, InboxFill as FoamTrayFill, Flame as FoamTrending, TrendingDown as FoamTrendingDown, TrendingDownDuotone as FoamTrendingDownDuotone, TrendingDownFill as FoamTrendingDownFill, FlameDuotone as FoamTrendingDuotone, FlameFill as FoamTrendingFill, TrendingUp as FoamTrendingUp, TrendingUpDuotone as FoamTrendingUpDuotone, TrendingUpFill as FoamTrendingUpFill, TriangleDown as FoamTriangleDown, TriangleDownDuotone as FoamTriangleDownDuotone, TriangleDownFill as FoamTriangleDownFill, TriangleDownUp as FoamTriangleDownUp, TriangleDownUpDuotone as FoamTriangleDownUpDuotone, TriangleDownUpFill as FoamTriangleDownUpFill, TriangleUp as FoamTriangleUp, TriangleUpDuotone as FoamTriangleUpDuotone, TriangleUpFill as FoamTriangleUpFill, RotateCw as FoamTurn, RotateCwDuotone as FoamTurnDuotone, RotateCwFill as FoamTurnFill, History as FoamUndo, HistoryDuotone as FoamUndoDuotone, HistoryFill as FoamUndoFill, Frown as FoamUnhappy, FrownDuotone as FoamUnhappyDuotone, FrownFill as FoamUnhappyFill, Unlink as FoamUnlink, UnlinkDuotone as FoamUnlinkDuotone, UnlinkFill as FoamUnlinkFill, Unlock as FoamUnlock, UnlockDuotone as FoamUnlockDuotone, UnlockFill as FoamUnlockFill, Unlock as FoamUnlocked, UnlockDuotone as FoamUnlockedDuotone, UnlockFill as FoamUnlockedFill, ShieldOff as FoamUnprotected, ShieldOffDuotone as FoamUnprotectedDuotone, ShieldOffFill as FoamUnprotectedFill, Unlock as FoamUnsecure, UnlockDuotone as FoamUnsecureDuotone, UnlockFill as FoamUnsecureFill, ShieldX as FoamUnshielded, ShieldXDuotone as FoamUnshieldedDuotone, ShieldXFill as FoamUnshieldedFill, ArrowUp as FoamUp, ArrowUpDuotone as FoamUpDuotone, ArrowUpFill as FoamUpFill, Upload as FoamUpload, UploadDuotone as FoamUploadDuotone, FileArrowUp as FoamUploadFile, FileArrowUpDuotone as FoamUploadFileDuotone, FileArrowUpFill as FoamUploadFileFill, UploadFill as FoamUploadFill, Link as FoamUrl, LinkDuotone as FoamUrlDuotone, LinkFill as FoamUrlFill, User as FoamUser, UserArrowLeft as FoamUserArrowLeft, UserArrowLeftDuotone as FoamUserArrowLeftDuotone, UserArrowLeftFill as FoamUserArrowLeftFill, UserArrowLeftRight as FoamUserArrowLeftRight, UserArrowLeftRightDuotone as FoamUserArrowLeftRightDuotone, UserArrowLeftRightFill as FoamUserArrowLeftRightFill, UserArrowOutUpRight as FoamUserArrowOutUpRight, UserArrowOutUpRightDuotone as FoamUserArrowOutUpRightDuotone, UserArrowOutUpRightFill as FoamUserArrowOutUpRightFill, UserArrowRight as FoamUserArrowRight, UserArrowRightDuotone as FoamUserArrowRightDuotone, UserArrowRightFill as FoamUserArrowRightFill, UserCog as FoamUserCog, UserCogDuotone as FoamUserCogDuotone, UserCogFill as FoamUserCogFill, FileUser as FoamUserDocument, FileUserDuotone as FoamUserDocumentDuotone, FileUserFill as FoamUserDocumentFill, UserDuotone as FoamUserDuotone, UserFill as FoamUserFill, UserPlus as FoamUserPlus, UserPlusDuotone as FoamUserPlusDuotone, UserPlusFill as FoamUserPlusFill, SearchUser as FoamUserSearch, SearchUserDuotone as FoamUserSearchDuotone, SearchUserFill as FoamUserSearchFill, ShieldUser as FoamUserSecurity, ShieldUserDuotone as FoamUserSecurityDuotone, ShieldUserFill as FoamUserSecurityFill, Users as FoamUsers, UsersDuotone as FoamUsersDuotone, UsersFill as FoamUsersFill, BadgeCheckbox as FoamVerified, BadgeCheckboxDuotone as FoamVerifiedDuotone, BadgeCheckboxFill as FoamVerifiedFill, ChartColumn as FoamVerticalBarChart, ChartColumnDuotone as FoamVerticalBarChartDuotone, ChartColumnFill as FoamVerticalBarChartFill, Video as FoamVideo, Video as FoamVideoCamera, VideoDuotone as FoamVideoCameraDuotone, VideoFill as FoamVideoCameraFill, VideoDuotone as FoamVideoDuotone, VideoFill as FoamVideoFill, Eye as FoamView, EyeDuotone as FoamViewDuotone, EyeFill as FoamViewFill, Reach as FoamViews, ReachDuotone as FoamViewsDuotone, ReachFill as FoamViewsFill, Eye as FoamVisibility, EyeDuotone as FoamVisibilityDuotone, EyeFill as FoamVisibilityFill, Eye as FoamVisible, EyeDuotone as FoamVisibleDuotone, EyeFill as FoamVisibleFill, Volume2 as FoamVolume, Volume2 as FoamVolume2, Volume2Duotone as FoamVolume2Duotone, Volume2Fill as FoamVolume2Fill, Volume2Duotone as FoamVolumeDuotone, Volume2Fill as FoamVolumeFill, VolumeOff as FoamVolumeOff, VolumeOffDuotone as FoamVolumeOffDuotone, VolumeOffFill as FoamVolumeOffFill, ShieldOff as FoamVulnerable, ShieldOffDuotone as FoamVulnerableDuotone, ShieldOffFill as FoamVulnerableFill, Alert as FoamWarning, CircleAlert as FoamWarningCircle, CircleAlertDuotone as FoamWarningCircleDuotone, CircleAlertFill as FoamWarningCircleFill, AlertDuotone as FoamWarningDuotone, AlertFill as FoamWarningFill, Clock as FoamWatch, ClockDuotone as FoamWatchDuotone, ClockFill as FoamWatchFill, Globe as FoamWeb, GlobeDuotone as FoamWebDuotone, GlobeFill as FoamWebFill, ArrowLeft as FoamWest, ArrowLeftDuotone as FoamWestDuotone, ArrowLeftFill as FoamWestFill, Hotspot as FoamWifi, HotspotDuotone as FoamWifiDuotone, HotspotFill as FoamWifiFill, Hotspot as FoamWireless, HotspotDuotone as FoamWirelessDuotone, HotspotFill as FoamWirelessFill, Globe as FoamWorld, GlobeDuotone as FoamWorldDuotone, GlobeFill as FoamWorldFill, Pencil as FoamWrite, PencilDuotone as FoamWriteDuotone, PencilFill as FoamWriteFill, SquarePen as FoamWriteNew, SquarePenDuotone as FoamWriteNewDuotone, SquarePenFill as FoamWriteNewFill, CircleX as FoamX, CircleXDuotone as FoamXDuotone, CircleXFill as FoamXFill, ThumbsUp as FoamYes, ThumbsUpDuotone as FoamYesDuotone, ThumbsUpFill as FoamYesFill, ArrowDownYT as FoamYoutube, ArrowDownYTDuotone as FoamYoutubeDuotone, ArrowDownYTFill as FoamYoutubeFill, Zap as FoamZap, ZapDuotone as FoamZapDuotone, ZapFill as FoamZapFill, ZapOff as FoamZapOff, ZapOffDuotone as FoamZapOffDuotone, ZapOffFill as FoamZapOffFill, ArrowRightToLine as Fold, ArrowRightToLineDuotone as FoldDuotone, ArrowRightToLineDuotone as FoldDuotoneIcon, ArrowRightToLineFill as FoldFill, ArrowRightToLineFill as FoldFillIcon, ArrowRightToLine as FoldIcon, Ban as Forbidden, BanDuotone as ForbiddenDuotone, BanDuotone as ForbiddenDuotoneIcon, BanFill as ForbiddenFill, BanFill as ForbiddenFillIcon, Ban as ForbiddenIcon, Share as Forward, ShareDuotone as ForwardDuotone, ShareDuotone as ForwardDuotoneIcon, ShareFill as ForwardFill, ShareFill as ForwardFillIcon, Share as ForwardIcon, Frown, FrownDuotone, FrownDuotone as FrownDuotoneIcon, FrownFill, FrownFill as FrownFillIcon, Frown as FrownIcon, Fullscreen as FullScreen, FullscreenDuotone as FullScreenDuotone, FullscreenDuotone as FullScreenDuotoneIcon, FullscreenFill as FullScreenFill, FullscreenFill as FullScreenFillIcon, Fullscreen as FullScreenIcon, Fullscreen, FullscreenDuotone, FullscreenDuotone as FullscreenDuotoneIcon, FullscreenFill, FullscreenFill as FullscreenFillIcon, Fullscreen as FullscreenIcon, ListFilter as Funnel, ListFilterDuotone as FunnelDuotone, ListFilterDuotone as FunnelDuotoneIcon, ListFilterFill as FunnelFill, ListFilterFill as FunnelFillIcon, ListFilter as FunnelIcon, Images as Gallery, ImagesDuotone as GalleryDuotone, ImagesDuotone as GalleryDuotoneIcon, ImagesFill as GalleryFill, ImagesFill as GalleryFillIcon, Images as GalleryIcon, Trash as Garbage, TrashDuotone as GarbageDuotone, TrashDuotone as GarbageDuotoneIcon, TrashFill as GarbageFill, TrashFill as GarbageFillIcon, Trash as GarbageIcon, Cog as Gear, CogDuotone as GearDuotone, CogDuotone as GearDuotoneIcon, CogFill as GearFill, CogFill as GearFillIcon, Cog as GearIcon, Sparkles as Generate, SparklesDuotone as GenerateDuotone, SparklesDuotone as GenerateDuotoneIcon, SparklesFill as GenerateFill, SparklesFill as GenerateFillIcon, Sparkles as GenerateIcon, MapPin as Geo, MapPinDuotone as GeoDuotone, MapPinDuotone as GeoDuotoneIcon, MapPinFill as GeoFill, MapPinFill as GeoFillIcon, MapPin as GeoIcon, Download as Get, DownloadDuotone as GetDuotone, DownloadDuotone as GetDuotoneIcon, DownloadFill as GetFill, DownloadFill as GetFillIcon, Download as GetIcon, Globe, GlobeDuotone, GlobeDuotone as GlobeDuotoneIcon, GlobeFill, GlobeFill as GlobeFillIcon, Globe as GlobeIcon, ChartColumnSquare as Graph, ChartArea as GraphArea, ChartAreaDuotone as GraphAreaDuotone, ChartAreaDuotone as GraphAreaDuotoneIcon, ChartAreaFill as GraphAreaFill, ChartAreaFill as GraphAreaFillIcon, ChartArea as GraphAreaIcon, ChartColumnSquareDuotone as GraphDuotone, ChartColumnSquareDuotone as GraphDuotoneIcon, ChartColumnSquareFill as GraphFill, ChartColumnSquareFill as GraphFillIcon, ChartColumnSquare as GraphIcon, Grid2x2 as Grid, Grid1x2, Grid1x2Duotone, Grid1x2Duotone as Grid1x2DuotoneIcon, Grid1x2Fill, Grid1x2Fill as Grid1x2FillIcon, Grid1x2 as Grid1x2Icon, Grid2x2, Grid2x2Duotone, Grid2x2Duotone as Grid2x2DuotoneIcon, Grid2x2Fill, Grid2x2Fill as Grid2x2FillIcon, Grid2x2 as Grid2x2Icon, Grid2x2Duotone as GridDuotone, Grid2x2Duotone as GridDuotoneIcon, Grid2x2Fill as GridFill, Grid2x2Fill as GridFillIcon, Grid2x2 as GridIcon, Grip, GripDuotone, GripDuotone as GripDuotoneIcon, GripFill, GripFill as GripFillIcon, GripHorizontal, GripHorizontalDuotone, GripHorizontalDuotone as GripHorizontalDuotoneIcon, GripHorizontalFill, GripHorizontalFill as GripHorizontalFillIcon, GripHorizontal as GripHorizontalIcon, Grip as GripIcon, GripVertical, GripVerticalDuotone, GripVerticalDuotone as GripVerticalDuotoneIcon, GripVerticalFill, GripVerticalFill as GripVerticalFillIcon, GripVertical as GripVerticalIcon, Users as Group, UsersDuotone as GroupDuotone, UsersDuotone as GroupDuotoneIcon, UsersFill as GroupFill, UsersFill as GroupFillIcon, Users as GroupIcon, TrendingUp as Growth, TrendingUpDuotone as GrowthDuotone, TrendingUpDuotone as GrowthDuotoneIcon, TrendingUpFill as GrowthFill, TrendingUpFill as GrowthFillIcon, TrendingUp as GrowthIcon, Eclipse as HalfMoon, EclipseDuotone as HalfMoonDuotone, EclipseDuotone as HalfMoonDuotoneIcon, EclipseFill as HalfMoonFill, EclipseFill as HalfMoonFillIcon, Eclipse as HalfMoonIcon, Menu as Hamburger, MenuDuotone as HamburgerDuotone, MenuDuotone as HamburgerDuotoneIcon, MenuFill as HamburgerFill, MenuFill as HamburgerFillIcon, Menu as HamburgerIcon, Smile as Happy, SmileDuotone as HappyDuotone, SmileDuotone as HappyDuotoneIcon, SmileFill as HappyFill, SmileFill as HappyFillIcon, Smile as HappyIcon, Heart, HeartDuotone, HeartDuotone as HeartDuotoneIcon, HeartFill, HeartFill as HeartFillIcon, Heart as HeartIcon, CircleQuestionMark as Help, CircleQuestionMarkDuotone as HelpDuotone, CircleQuestionMarkDuotone as HelpDuotoneIcon, CircleQuestionMarkFill as HelpFill, CircleQuestionMarkFill as HelpFillIcon, CircleQuestionMark as HelpIcon, EyeOff as Hidden, EyeOffDuotone as HiddenDuotone, EyeOffDuotone as HiddenDuotoneIcon, EyeOffFill as HiddenFill, EyeOffFill as HiddenFillIcon, EyeOff as HiddenIcon, EyeOff as Hide, EyeOffDuotone as HideDuotone, EyeOffDuotone as HideDuotoneIcon, EyeOffFill as HideFill, EyeOffFill as HideFillIcon, EyeOff as HideIcon, History, HistoryDuotone, HistoryDuotone as HistoryDuotoneIcon, HistoryFill, HistoryFill as HistoryFillIcon, History as HistoryIcon, House as Home, HouseDuotone as HomeDuotone, HouseDuotone as HomeDuotoneIcon, HouseFill as HomeFill, HouseFill as HomeFillIcon, House as HomeIcon, Rows2 as HorizontalSplit, Rows2Duotone as HorizontalSplitDuotone, Rows2Duotone as HorizontalSplitDuotoneIcon, Rows2Fill as HorizontalSplitFill, Rows2Fill as HorizontalSplitFillIcon, Rows2 as HorizontalSplitIcon, Flame as Hot, FlameDuotone as HotDuotone, FlameDuotone as HotDuotoneIcon, FlameFill as HotFill, FlameFill as HotFillIcon, Flame as HotIcon, Hotspot, HotspotDuotone, HotspotDuotone as HotspotDuotoneIcon, HotspotFill, HotspotFill as HotspotFillIcon, Hotspot as HotspotIcon, House, HouseDuotone, HouseDuotone as HouseDuotoneIcon, HouseFill, HouseFill as HouseFillIcon, House as HouseIcon, Icon, ArrowDownIG as IgDown, ArrowDownIGDuotone as IgDownDuotone, ArrowDownIGDuotone as IgDownDuotoneIcon, ArrowDownIGFill as IgDownFill, ArrowDownIGFill as IgDownFillIcon, ArrowDownIG as IgDownIcon, ArrowUpIG as IgUp, ArrowUpIGDuotone as IgUpDuotone, ArrowUpIGDuotone as IgUpDuotoneIcon, ArrowUpIGFill as IgUpFill, ArrowUpIGFill as IgUpFillIcon, ArrowUpIG as IgUpIcon, Image, ImageDuotone, ImageDuotone as ImageDuotoneIcon, ImageFill, ImageFill as ImageFillIcon, Image as ImageIcon, Images, ImagesDuotone, ImagesDuotone as ImagesDuotoneIcon, ImagesFill, ImagesFill as ImagesFillIcon, Images as ImagesIcon, Upload as Import, UploadDuotone as ImportDuotone, UploadDuotone as ImportDuotoneIcon, UploadFill as ImportFill, UploadFill as ImportFillIcon, Upload as ImportIcon, Reach as Impressions, ReachDuotone as ImpressionsDuotone, ReachDuotone as ImpressionsDuotoneIcon, ReachFill as ImpressionsFill, ReachFill as ImpressionsFillIcon, Reach as ImpressionsIcon, Inbox, InboxDuotone, InboxDuotone as InboxDuotoneIcon, InboxFill, InboxFill as InboxFillIcon, Inbox as InboxIcon, TrendingUp as Increase, TrendingUpDuotone as IncreaseDuotone, TrendingUpDuotone as IncreaseDuotoneIcon, TrendingUpFill as IncreaseFill, TrendingUpFill as IncreaseFillIcon, TrendingUp as IncreaseIcon, ArrowRightToLine as Indent, ArrowRightToLineDuotone as IndentDuotone, ArrowRightToLineDuotone as IndentDuotoneIcon, ArrowRightToLineFill as IndentFill, ArrowRightToLineFill as IndentFillIcon, ArrowRightToLine as IndentIcon, Info, InfoDuotone, InfoDuotone as InfoDuotoneIcon, InfoFill, InfoFill as InfoFillIcon, Info as InfoIcon, Info as Information, InfoDuotone as InformationDuotone, InfoDuotone as InformationDuotoneIcon, InfoFill as InformationFill, InfoFill as InformationFillIcon, Info as InformationIcon, ShieldOff as Insecure, ShieldOffDuotone as InsecureDuotone, ShieldOffDuotone as InsecureDuotoneIcon, ShieldOffFill as InsecureFill, ShieldOffFill as InsecureFillIcon, ShieldOff as InsecureIcon, ArrowDownIG as InstagramDown, ArrowDownIGDuotone as InstagramDownDuotone, ArrowDownIGDuotone as InstagramDownDuotoneIcon, ArrowDownIGFill as InstagramDownFill, ArrowDownIGFill as InstagramDownFillIcon, ArrowDownIG as InstagramDownIcon, ArrowUpIG as InstagramUp, ArrowUpIGDuotone as InstagramUpDuotone, ArrowUpIGDuotone as InstagramUpDuotoneIcon, ArrowUpIGFill as InstagramUpFill, ArrowUpIGFill as InstagramUpFillIcon, ArrowUpIG as InstagramUpIcon, Brain as Intelligence, BrainDuotone as IntelligenceDuotone, BrainDuotone as IntelligenceDuotoneIcon, BrainFill as IntelligenceFill, BrainFill as IntelligenceFillIcon, Brain as IntelligenceIcon, Globe as Internet, GlobeDuotone as InternetDuotone, GlobeDuotone as InternetDuotoneIcon, GlobeFill as InternetFill, GlobeFill as InternetFillIcon, Globe as InternetIcon, EyeOff as Invisible, EyeOffDuotone as InvisibleDuotone, EyeOffDuotone as InvisibleDuotoneIcon, EyeOffFill as InvisibleFill, EyeOffFill as InvisibleFillIcon, EyeOff as InvisibleIcon, Italic, ItalicDuotone, ItalicDuotone as ItalicDuotoneIcon, ItalicFill, ItalicFill as ItalicFillIcon, Italic as ItalicIcon, List as Items, ListDuotone as ItemsDuotone, ListDuotone as ItemsDuotoneIcon, ListFill as ItemsFill, ListFill as ItemsFillIcon, List as ItemsIcon, TextAlignJustify as Justify, TextAlignJustifyDuotone as JustifyDuotone, TextAlignJustifyDuotone as JustifyDuotoneIcon, TextAlignJustifyFill as JustifyFill, TextAlignJustifyFill as JustifyFillIcon, TextAlignJustify as JustifyIcon, Command as Keyboard, CommandDuotone as KeyboardDuotone, CommandDuotone as KeyboardDuotoneIcon, CommandFill as KeyboardFill, CommandFill as KeyboardFillIcon, Command as KeyboardIcon, Globe as Language, GlobeDuotone as LanguageDuotone, GlobeDuotone as LanguageDuotoneIcon, GlobeFill as LanguageFill, GlobeFill as LanguageFillIcon, Globe as LanguageIcon, Grid2x2 as Layout, Grid2x2Duotone as LayoutDuotone, Grid2x2Duotone as LayoutDuotoneIcon, Grid2x2Fill as LayoutFill, Grid2x2Fill as LayoutFillIcon, Grid2x2 as LayoutIcon, ArrowLeft as Left, ArrowLeftDuotone as LeftDuotone, ArrowLeftDuotone as LeftDuotoneIcon, ArrowLeftFill as LeftFill, ArrowLeftFill as LeftFillIcon, ArrowLeft as LeftIcon, Sun as Light, SunDuotone as LightDuotone, SunDuotone as LightDuotoneIcon, SunFill as LightFill, SunFill as LightFillIcon, Sun as LightIcon, Zap as Lightning, ZapDuotone as LightningDuotone, ZapDuotone as LightningDuotoneIcon, ZapFill as LightningFill, ZapFill as LightningFillIcon, Zap as LightningIcon, ZapOff as LightningOff, ZapOffDuotone as LightningOffDuotone, ZapOffDuotone as LightningOffDuotoneIcon, ZapOffFill as LightningOffFill, ZapOffFill as LightningOffFillIcon, ZapOff as LightningOffIcon, ThumbsUp as Like, ThumbsUpDuotone as LikeDuotone, ThumbsUpDuotone as LikeDuotoneIcon, ThumbsUpFill as LikeFill, ThumbsUpFill as LikeFillIcon, ThumbsUp as LikeIcon, Heart as Likes, HeartDuotone as LikesDuotone, HeartDuotone as LikesDuotoneIcon, HeartFill as LikesFill, HeartFill as LikesFillIcon, Heart as LikesIcon, Link, LinkDuotone, LinkDuotone as LinkDuotoneIcon, LinkFill, LinkFill as LinkFillIcon, Link as LinkIcon, List, ListDuotone, ListDuotone as ListDuotoneIcon, ListFill, ListFill as ListFillIcon, ListFilter, ListFilterDuotone, ListFilterDuotone as ListFilterDuotoneIcon, ListFilterFill, ListFilterFill as ListFilterFillIcon, ListFilter as ListFilterIcon, List as ListIcon, ListIndentDecrease, ListIndentDecreaseDuotone, ListIndentDecreaseDuotone as ListIndentDecreaseDuotoneIcon, ListIndentDecreaseFill, ListIndentDecreaseFill as ListIndentDecreaseFillIcon, ListIndentDecrease as ListIndentDecreaseIcon, ListIndentIncrease, ListIndentIncreaseDuotone, ListIndentIncreaseDuotone as ListIndentIncreaseDuotoneIcon, ListIndentIncreaseFill, ListIndentIncreaseFill as ListIndentIncreaseFillIcon, ListIndentIncrease as ListIndentIncreaseIcon, ListOrdered, ListOrderedDuotone, ListOrderedDuotone as ListOrderedDuotoneIcon, ListOrderedFill, ListOrderedFill as ListOrderedFillIcon, ListOrdered as ListOrderedIcon, LoaderCircle, LoaderCircleDuotone, LoaderCircleDuotone as LoaderCircleDuotoneIcon, LoaderCircleFill, LoaderCircleFill as LoaderCircleFillIcon, LoaderCircle as LoaderCircleIcon, LoaderCircle as Loading, LoaderCircleDuotone as LoadingDuotone, LoaderCircleDuotone as LoadingDuotoneIcon, LoaderCircleFill as LoadingFill, LoaderCircleFill as LoadingFillIcon, LoaderCircle as LoadingIcon, MapPin as Location, MapPinDuotone as LocationDuotone, MapPinDuotone as LocationDuotoneIcon, MapPinFill as LocationFill, MapPinFill as LocationFillIcon, MapPin as LocationIcon, Lock, LockDuotone, LockDuotone as LockDuotoneIcon, LockFill, LockFill as LockFillIcon, Lock as LockIcon, Lock as Locked, LockDuotone as LockedDuotone, LockDuotone as LockedDuotoneIcon, LockFill as LockedFill, LockFill as LockedFillIcon, Lock as LockedIcon, LogOut, LogOutDuotone, LogOutDuotone as LogOutDuotoneIcon, LogOutFill, LogOutFill as LogOutFillIcon, LogOut as LogOutIcon, LogoFacebook, LogoFacebookFill, LogoFacebookFill as LogoFacebookFillIcon, LogoFacebook as LogoFacebookIcon, LogoFile, LogoFileDark, LogoFileDark as LogoFileDarkIcon, LogoFile as LogoFileIcon, LogoFilePdf, LogoFilePdfDark, LogoFilePdfDark as LogoFilePdfDarkIcon, LogoFilePdf as LogoFilePdfIcon, LogoFileSheet, LogoFileSheetDark, LogoFileSheetDark as LogoFileSheetDarkIcon, LogoFileSheet as LogoFileSheetIcon, LogoFoam, LogoFoamDark, LogoFoamDark as LogoFoamDarkIcon, LogoFoamFill, LogoFoamFill as LogoFoamFillIcon, LogoFoam as LogoFoamIcon, LogoFoamSymbol, LogoFoamSymbolDark, LogoFoamSymbolDark as LogoFoamSymbolDarkIcon, LogoFoamSymbol as LogoFoamSymbolIcon, LogoGmail, LogoGmailFill, LogoGmailFill as LogoGmailFillIcon, LogoGmail as LogoGmailIcon, LogoGoogle, LogoGoogleFill, LogoGoogleFill as LogoGoogleFillIcon, LogoGoogle as LogoGoogleIcon, LogoInstagram, LogoInstagramDark, LogoInstagramDark as LogoInstagramDarkIcon, LogoInstagramFill, LogoInstagramFill as LogoInstagramFillIcon, LogoInstagram as LogoInstagramIcon, LogoLinkedin, LogoLinkedinDark, LogoLinkedinDark as LogoLinkedinDarkIcon, LogoLinkedinFill, LogoLinkedinFill as LogoLinkedinFillIcon, LogoLinkedin as LogoLinkedinIcon, LogoMicrosoft, LogoMicrosoftFill, LogoMicrosoftFill as LogoMicrosoftFillIcon, LogoMicrosoft as LogoMicrosoftIcon, LogoSnapchat, LogoSnapchatDark, LogoSnapchatDark as LogoSnapchatDarkIcon, LogoSnapchatFill, LogoSnapchatFill as LogoSnapchatFillIcon, LogoSnapchat as LogoSnapchatIcon, LogoTiktok, LogoTiktokDark, LogoTiktokDark as LogoTiktokDarkIcon, LogoTiktokFill, LogoTiktokFill as LogoTiktokFillIcon, LogoTiktok as LogoTiktokIcon, LogoYoutube, LogoYoutubeFill, LogoYoutubeFill as LogoYoutubeFillIcon, LogoYoutube as LogoYoutubeIcon, LogOut as Logout, LogOutDuotone as LogoutDuotone, LogOutDuotone as LogoutDuotoneIcon, LogOutFill as LogoutFill, LogOutFill as LogoutFillIcon, LogOut as LogoutIcon, Search as Lookup, SearchDuotone as LookupDuotone, SearchDuotone as LookupDuotoneIcon, SearchFill as LookupFill, SearchFill as LookupFillIcon, Search as LookupIcon, SearchUser as LookupPerson, SearchUserDuotone as LookupPersonDuotone, SearchUserDuotone as LookupPersonDuotoneIcon, SearchUserFill as LookupPersonFill, SearchUserFill as LookupPersonFillIcon, SearchUser as LookupPersonIcon, Heart as Love, HeartDuotone as LoveDuotone, HeartDuotone as LoveDuotoneIcon, HeartFill as LoveFill, HeartFill as LoveFillIcon, Heart as LoveIcon, Sparkles as Magic, SparklesDuotone as MagicDuotone, SparklesDuotone as MagicDuotoneIcon, SparklesFill as MagicFill, SparklesFill as MagicFillIcon, Sparkles as MagicIcon, Search as MagnifyingGlass, SearchDuotone as MagnifyingGlassDuotone, SearchDuotone as MagnifyingGlassDuotoneIcon, SearchFill as MagnifyingGlassFill, SearchFill as MagnifyingGlassFillIcon, Search as MagnifyingGlassIcon, Mail, MailDuotone, MailDuotone as MailDuotoneIcon, MailFill, MailFill as MailFillIcon, Mail as MailIcon, MailMove, MailMoveDuotone, MailMoveDuotone as MailMoveDuotoneIcon, MailMoveFill, MailMoveFill as MailMoveFillIcon, MailMove as MailMoveIcon, MailPlus, MailPlusDuotone, MailPlusDuotone as MailPlusDuotoneIcon, MailPlusFill, MailPlusFill as MailPlusFillIcon, MailPlus as MailPlusIcon, Inbox as Mailbox, InboxDuotone as MailboxDuotone, InboxDuotone as MailboxDuotoneIcon, InboxFill as MailboxFill, InboxFill as MailboxFillIcon, Inbox as MailboxIcon, MapPin, MapPinDuotone, MapPinDuotone as MapPinDuotoneIcon, MapPinFill, MapPinFill as MapPinFillIcon, MapPin as MapPinIcon, MapPin as Marker, MapPinDuotone as MarkerDuotone, MapPinDuotone as MarkerDuotoneIcon, MapPinFill as MarkerFill, MapPinFill as MarkerFillIcon, MapPin as MarkerIcon, Megaphone as Marketing, MegaphoneDuotone as MarketingDuotone, MegaphoneDuotone as MarketingDuotoneIcon, MegaphoneFill as MarketingFill, MegaphoneFill as MarketingFillIcon, Megaphone as MarketingIcon, Maximize, MaximizeDuotone, MaximizeDuotone as MaximizeDuotoneIcon, MaximizeFill, MaximizeFill as MaximizeFillIcon, Maximize as MaximizeIcon, Fullscreen as MaximizeScreen, FullscreenDuotone as MaximizeScreenDuotone, FullscreenDuotone as MaximizeScreenDuotoneIcon, FullscreenFill as MaximizeScreenFill, FullscreenFill as MaximizeScreenFillIcon, Fullscreen as MaximizeScreenIcon, Image as Media, ImageDuotone as MediaDuotone, ImageDuotone as MediaDuotoneIcon, ImageFill as MediaFill, ImageFill as MediaFillIcon, Image as MediaIcon, ContentUser as MediaPacks, ContentUserDuotone as MediaPacksDuotone, ContentUserDuotone as MediaPacksDuotoneIcon, ContentUserFill as MediaPacksFill, ContentUserFill as MediaPacksFillIcon, ContentUser as MediaPacksIcon, ContentUser as Mediapacks, ContentUserDuotone as MediapacksDuotone, ContentUserDuotone as MediapacksDuotoneIcon, ContentUserFill as MediapacksFill, ContentUserFill as MediapacksFillIcon, ContentUser as MediapacksIcon, Megaphone, MegaphoneActive, MegaphoneActiveDuotone, MegaphoneActiveDuotone as MegaphoneActiveDuotoneIcon, MegaphoneActiveFill, MegaphoneActiveFill as MegaphoneActiveFillIcon, MegaphoneActive as MegaphoneActiveIcon, MegaphoneDuotone, MegaphoneDuotone as MegaphoneDuotoneIcon, MegaphoneFill, MegaphoneFill as MegaphoneFillIcon, Megaphone as MegaphoneIcon, Menu, MenuDuotone, MenuDuotone as MenuDuotoneIcon, MenuFill, MenuFill as MenuFillIcon, Menu as MenuIcon, Mail as Message, MailDuotone as MessageDuotone, MailDuotone as MessageDuotoneIcon, MailFill as MessageFill, MailFill as MessageFillIcon, Mail as MessageIcon, MessageSquare, MessageSquareDuotone, MessageSquareDuotone as MessageSquareDuotoneIcon, MessageSquareFill, MessageSquareFill as MessageSquareFillIcon, MessageSquare as MessageSquareIcon, MessagesSquare, MessagesSquareDuotone, MessagesSquareDuotone as MessagesSquareDuotoneIcon, MessagesSquareFill, MessagesSquareFill as MessagesSquareFillIcon, MessagesSquare as MessagesSquareIcon, Brain as Mind, BrainDuotone as MindDuotone, BrainDuotone as MindDuotoneIcon, BrainFill as MindFill, BrainFill as MindFillIcon, Brain as MindIcon, Minus, MinusDuotone, MinusDuotone as MinusDuotoneIcon, MinusFill, MinusFill as MinusFillIcon, Minus as MinusIcon, ChartNoAxesCombined as MixedChart, ChartNoAxesCombinedDuotone as MixedChartDuotone, ChartNoAxesCombinedDuotone as MixedChartDuotoneIcon, ChartNoAxesCombinedFill as MixedChartFill, ChartNoAxesCombinedFill as MixedChartFillIcon, ChartNoAxesCombined as MixedChartIcon, Pencil as Modify, PencilDuotone as ModifyDuotone, PencilDuotone as ModifyDuotoneIcon, PencilFill as ModifyFill, PencilFill as ModifyFillIcon, Pencil as ModifyIcon, CircleDollarSign as Money, CircleDollarSignDuotone as MoneyDuotone, CircleDollarSignDuotone as MoneyDuotoneIcon, CircleDollarSignFill as MoneyFill, CircleDollarSignFill as MoneyFillIcon, CircleDollarSign as MoneyIcon, Moon, MoonDuotone, MoonDuotone as MoonDuotoneIcon, MoonFill, MoonFill as MoonFillIcon, Moon as MoonIcon, MousePointerClick, MousePointerClickDuotone, MousePointerClickDuotone as MousePointerClickDuotoneIcon, MousePointerClickFill, MousePointerClickFill as MousePointerClickFillIcon, MousePointerClick as MousePointerClickIcon, Move, MoveDuotone, MoveDuotone as MoveDuotoneIcon, MoveFill, MoveFill as MoveFillIcon, Move as MoveIcon, VolumeOff as Mute, VolumeOffDuotone as MuteDuotone, VolumeOffDuotone as MuteDuotoneIcon, VolumeOffFill as MuteFill, VolumeOffFill as MuteFillIcon, VolumeOff as MuteIcon, Menu as Navigation, MenuDuotone as NavigationDuotone, MenuDuotone as NavigationDuotoneIcon, MenuFill as NavigationFill, MenuFill as NavigationFillIcon, Menu as NavigationIcon, Frown as Negative, FrownDuotone as NegativeDuotone, FrownDuotone as NegativeDuotoneIcon, FrownFill as NegativeFill, FrownFill as NegativeFillIcon, Frown as NegativeIcon, ChartNetwork as NetworkGraph, ChartNetworkDuotone as NetworkGraphDuotone, ChartNetworkDuotone as NetworkGraphDuotoneIcon, ChartNetworkFill as NetworkGraphFill, ChartNetworkFill as NetworkGraphFillIcon, ChartNetwork as NetworkGraphIcon, Plus as New, PlusDuotone as NewDuotone, PlusDuotone as NewDuotoneIcon, FilePlus as NewFile, FilePlusDuotone as NewFileDuotone, FilePlusDuotone as NewFileDuotoneIcon, FilePlusFill as NewFileFill, FilePlusFill as NewFileFillIcon, FilePlus as NewFileIcon, PlusFill as NewFill, PlusFill as NewFillIcon, Plus as NewIcon, ContentPlus as NewPost, ContentPlusDuotone as NewPostDuotone, ContentPlusDuotone as NewPostDuotoneIcon, ContentPlusFill as NewPostFill, ContentPlusFill as NewPostFillIcon, ContentPlus as NewPostIcon, ShieldPlus as NewShield, ShieldPlusDuotone as NewShieldDuotone, ShieldPlusDuotone as NewShieldDuotoneIcon, ShieldPlusFill as NewShieldFill, ShieldPlusFill as NewShieldFillIcon, ShieldPlus as NewShieldIcon, ArrowRight as Next, ArrowRightDuotone as NextDuotone, ArrowRightDuotone as NextDuotoneIcon, ArrowRightFill as NextFill, ArrowRightFill as NextFillIcon, ArrowRight as NextIcon, Moon as Night, MoonDuotone as NightDuotone, MoonDuotone as NightDuotoneIcon, MoonFill as NightFill, MoonFill as NightFillIcon, Moon as NightIcon, ThumbsDown as No, ThumbsDownDuotone as NoDuotone, ThumbsDownDuotone as NoDuotoneIcon, ThumbsDownFill as NoFill, ThumbsDownFill as NoFillIcon, ZapOff as NoFlash, ZapOffDuotone as NoFlashDuotone, ZapOffDuotone as NoFlashDuotoneIcon, ZapOffFill as NoFlashFill, ZapOffFill as NoFlashFillIcon, ZapOff as NoFlashIcon, ThumbsDown as NoIcon, VolumeOff as NoSound, VolumeOffDuotone as NoSoundDuotone, VolumeOffDuotone as NoSoundDuotoneIcon, VolumeOffFill as NoSoundFill, VolumeOffFill as NoSoundFillIcon, VolumeOff as NoSoundIcon, ChartNetwork as NodeGraph, ChartNetworkDuotone as NodeGraphDuotone, ChartNetworkDuotone as NodeGraphDuotoneIcon, ChartNetworkFill as NodeGraphFill, ChartNetworkFill as NodeGraphFillIcon, ChartNetwork as NodeGraphIcon, ArrowUp as North, ArrowUpDuotone as NorthDuotone, ArrowUpDuotone as NorthDuotoneIcon, ArrowUpFill as NorthFill, ArrowUpFill as NorthFillIcon, ArrowUp as NorthIcon, Ban as NotAllowed, BanDuotone as NotAllowedDuotone, BanDuotone as NotAllowedDuotoneIcon, BanFill as NotAllowedFill, BanFill as NotAllowedFillIcon, Ban as NotAllowedIcon, Notebook, NotebookDuotone, NotebookDuotone as NotebookDuotoneIcon, NotebookFill, NotebookFill as NotebookFillIcon, Notebook as NotebookIcon, Bell as Notification, BellDuotone as NotificationDuotone, BellDuotone as NotificationDuotoneIcon, BellFill as NotificationFill, BellFill as NotificationFillIcon, Bell as NotificationIcon, ListOrdered as NumberedList, ListOrderedDuotone as NumberedListDuotone, ListOrderedDuotone as NumberedListDuotoneIcon, ListOrderedFill as NumberedListFill, ListOrderedFill as NumberedListFillIcon, ListOrdered as NumberedListIcon, Office, OfficeDuotone, OfficeDuotone as OfficeDuotoneIcon, OfficeFill, OfficeFill as OfficeFillIcon, Office as OfficeIcon, ListOrdered as Ol, ListOrderedDuotone as OlDuotone, ListOrderedDuotone as OlDuotoneIcon, ListOrderedFill as OlFill, ListOrderedFill as OlFillIcon, ListOrdered as OlIcon, ExternalLink as OpenNew, ExternalLinkDuotone as OpenNewDuotone, ExternalLinkDuotone as OpenNewDuotoneIcon, ExternalLinkFill as OpenNewFill, ExternalLinkFill as OpenNewFillIcon, ExternalLink as OpenNewIcon, QuotationMarkLeft as OpenQuote, QuotationMarkLeftDuotone as OpenQuoteDuotone, QuotationMarkLeftDuotone as OpenQuoteDuotoneIcon, QuotationMarkLeftFill as OpenQuoteFill, QuotationMarkLeftFill as OpenQuoteFillIcon, QuotationMarkLeft as OpenQuoteIcon, Cog as Options, CogDuotone as OptionsDuotone, CogDuotone as OptionsDuotoneIcon, CogFill as OptionsFill, CogFill as OptionsFillIcon, Cog as OptionsIcon, TriangleDownUp as OrderToggle, TriangleDownUpDuotone as OrderToggleDuotone, TriangleDownUpDuotone as OrderToggleDuotoneIcon, TriangleDownUpFill as OrderToggleFill, TriangleDownUpFill as OrderToggleFillIcon, TriangleDownUp as OrderToggleIcon, File as Page, FileDuotone as PageDuotone, FileDuotone as PageDuotoneIcon, FileFill as PageFill, FileFill as PageFillIcon, File as PageIcon, PanelLeft, PanelLeftDuotone, PanelLeftDuotone as PanelLeftDuotoneIcon, PanelLeftFill, PanelLeftFill as PanelLeftFillIcon, PanelLeft as PanelLeftIcon, PanelRight, PanelRightDuotone, PanelRightDuotone as PanelRightDuotoneIcon, PanelRightFill, PanelRightFill as PanelRightFillIcon, PanelRight as PanelRightIcon, History as Past, HistoryDuotone as PastDuotone, HistoryDuotone as PastDuotoneIcon, HistoryFill as PastFill, HistoryFill as PastFillIcon, History as PastIcon, CircleDollarSign as Payment, CircleDollarSignDuotone as PaymentDuotone, CircleDollarSignDuotone as PaymentDuotoneIcon, CircleDollarSignFill as PaymentFill, CircleDollarSignFill as PaymentFillIcon, CircleDollarSign as PaymentIcon, Pencil, PencilDuotone, PencilDuotone as PencilDuotoneIcon, PencilFill, PencilFill as PencilFillIcon, Pencil as PencilIcon, Users as People, UsersDuotone as PeopleDuotone, UsersDuotone as PeopleDuotoneIcon, UsersFill as PeopleFill, UsersFill as PeopleFillIcon, Users as PeopleIcon, User as Person, UserDuotone as PersonDuotone, UserDuotone as PersonDuotoneIcon, UserFill as PersonFill, UserFill as PersonFillIcon, User as PersonIcon, Users as Persons, UsersDuotone as PersonsDuotone, UsersDuotone as PersonsDuotoneIcon, UsersFill as PersonsFill, UsersFill as PersonsFillIcon, Users as PersonsIcon, Image as Photo, ImageDuotone as PhotoDuotone, ImageDuotone as PhotoDuotoneIcon, ImageFill as PhotoFill, ImageFill as PhotoFillIcon, Image as PhotoIcon, Images as Photos, ImagesDuotone as PhotosDuotone, ImagesDuotone as PhotosDuotoneIcon, ImagesFill as PhotosFill, ImagesFill as PhotosFillIcon, Images as PhotosIcon, Image as Picture, ImageDuotone as PictureDuotone, ImageDuotone as PictureDuotoneIcon, ImageFill as PictureFill, ImageFill as PictureFillIcon, Image as PictureIcon, Images as Pictures, ImagesDuotone as PicturesDuotone, ImagesDuotone as PicturesDuotoneIcon, ImagesFill as PicturesFill, ImagesFill as PicturesFillIcon, Images as PicturesIcon, ChartPie as PieChart, ChartPieDuotone as PieChartDuotone, ChartPieDuotone as PieChartDuotoneIcon, ChartPieFill as PieChartFill, ChartPieFill as PieChartFillIcon, ChartPie as PieChartIcon, Pin, PinDuotone, PinDuotone as PinDuotoneIcon, PinFill, PinFill as PinFillIcon, Pin as PinIcon, MapPin as Place, MapPinDuotone as PlaceDuotone, MapPinDuotone as PlaceDuotoneIcon, MapPinFill as PlaceFill, MapPinFill as PlaceFillIcon, MapPin as PlaceIcon, RemoveFormatting as PlainText, RemoveFormattingDuotone as PlainTextDuotone, RemoveFormattingDuotone as PlainTextDuotoneIcon, RemoveFormattingFill as PlainTextFill, RemoveFormattingFill as PlainTextFillIcon, RemoveFormatting as PlainTextIcon, Play, Play as PlayButton, PlayDuotone as PlayButtonDuotone, PlayDuotone as PlayButtonDuotoneIcon, PlayFill as PlayButtonFill, PlayFill as PlayButtonFillIcon, Play as PlayButtonIcon, PlayDuotone, PlayDuotone as PlayDuotoneIcon, PlayFill, PlayFill as PlayFillIcon, Play as PlayIcon, Plus, PlusDuotone, PlusDuotone as PlusDuotoneIcon, PlusFill, PlusFill as PlusFillIcon, Plus as PlusIcon, Pointer, PointerDuotone, PointerDuotone as PointerDuotoneIcon, PointerFill, PointerFill as PointerFillIcon, Pointer as PointerIcon, Smile as Positive, SmileDuotone as PositiveDuotone, SmileDuotone as PositiveDuotoneIcon, SmileFill as PositiveFill, SmileFill as PositiveFillIcon, Smile as PositiveIcon, Zap as Power, ZapDuotone as PowerDuotone, ZapDuotone as PowerDuotoneIcon, ZapFill as PowerFill, ZapFill as PowerFillIcon, Zap as PowerIcon, ZapOff as PowerOff, ZapOffDuotone as PowerOffDuotone, ZapOffDuotone as PowerOffDuotoneIcon, ZapOffFill as PowerOffFill, ZapOffFill as PowerOffFillIcon, ZapOff as PowerOffIcon, Cog as Preferences, CogDuotone as PreferencesDuotone, CogDuotone as PreferencesDuotoneIcon, CogFill as PreferencesFill, CogFill as PreferencesFillIcon, Cog as PreferencesIcon, Save as Preserve, SaveDuotone as PreserveDuotone, SaveDuotone as PreserveDuotoneIcon, SaveFill as PreserveFill, SaveFill as PreserveFillIcon, Save as PreserveIcon, ContentUser as PressKit, ContentUserDuotone as PressKitDuotone, ContentUserDuotone as PressKitDuotoneIcon, ContentUserFill as PressKitFill, ContentUserFill as PressKitFillIcon, ContentUser as PressKitIcon, ArrowLeft as Previous, ArrowLeftDuotone as PreviousDuotone, ArrowLeftDuotone as PreviousDuotoneIcon, ArrowLeftFill as PreviousFill, ArrowLeftFill as PreviousFillIcon, ArrowLeft as PreviousIcon, CircleDollarSign as Price, CircleDollarSignDuotone as PriceDuotone, CircleDollarSignDuotone as PriceDuotoneIcon, CircleDollarSignFill as PriceFill, CircleDollarSignFill as PriceFillIcon, CircleDollarSign as PriceIcon, ShieldUser as Privacy, ShieldUserDuotone as PrivacyDuotone, ShieldUserDuotone as PrivacyDuotoneIcon, ShieldUserFill as PrivacyFill, ShieldUserFill as PrivacyFillIcon, ShieldUser as PrivacyIcon, Lock as Private, LockDuotone as PrivateDuotone, LockDuotone as PrivateDuotoneIcon, LockFill as PrivateFill, LockFill as PrivateFillIcon, Lock as PrivateIcon, User as Profile, UserDuotone as ProfileDuotone, UserDuotone as ProfileDuotoneIcon, UserFill as ProfileFill, UserFill as ProfileFillIcon, User as ProfileIcon, LoaderCircle as Progress, LoaderCircleDuotone as ProgressDuotone, LoaderCircleDuotone as ProgressDuotoneIcon, LoaderCircleFill as ProgressFill, LoaderCircleFill as ProgressFillIcon, LoaderCircle as ProgressIcon, Ban as Prohibited, BanDuotone as ProhibitedDuotone, BanDuotone as ProhibitedDuotoneIcon, BanFill as ProhibitedFill, BanFill as ProhibitedFillIcon, Ban as ProhibitedIcon, Megaphone as Promote, MegaphoneDuotone as PromoteDuotone, MegaphoneDuotone as PromoteDuotoneIcon, MegaphoneFill as PromoteFill, MegaphoneFill as PromoteFillIcon, Megaphone as PromoteIcon, Shield as Protect, ShieldDuotone as ProtectDuotone, ShieldDuotone as ProtectDuotoneIcon, ShieldFill as ProtectFill, ShieldFill as ProtectFillIcon, Shield as ProtectIcon, Lock as Protected, LockDuotone as ProtectedDuotone, LockDuotone as ProtectedDuotoneIcon, LockFill as ProtectedFill, LockFill as ProtectedFillIcon, Lock as ProtectedIcon, Unlock as Public, UnlockDuotone as PublicDuotone, UnlockDuotone as PublicDuotoneIcon, UnlockFill as PublicFill, UnlockFill as PublicFillIcon, Unlock as PublicIcon, Search as Query, SearchDuotone as QueryDuotone, SearchDuotone as QueryDuotoneIcon, SearchFill as QueryFill, SearchFill as QueryFillIcon, Search as QueryIcon, CircleQuestionMark as Question, CircleQuestionMarkDuotone as QuestionDuotone, CircleQuestionMarkDuotone as QuestionDuotoneIcon, CircleQuestionMarkFill as QuestionFill, CircleQuestionMarkFill as QuestionFillIcon, CircleQuestionMark as QuestionIcon, QuotationMarkLeft, QuotationMarkLeftDuotone, QuotationMarkLeftDuotone as QuotationMarkLeftDuotoneIcon, QuotationMarkLeftFill, QuotationMarkLeftFill as QuotationMarkLeftFillIcon, QuotationMarkLeft as QuotationMarkLeftIcon, QuotationMarkRight, QuotationMarkRightDuotone, QuotationMarkRightDuotone as QuotationMarkRightDuotoneIcon, QuotationMarkRightFill, QuotationMarkRightFill as QuotationMarkRightFillIcon, QuotationMarkRight as QuotationMarkRightIcon, QuotationMarkLeft as QuoteLeft, QuotationMarkLeftDuotone as QuoteLeftDuotone, QuotationMarkLeftDuotone as QuoteLeftDuotoneIcon, QuotationMarkLeftFill as QuoteLeftFill, QuotationMarkLeftFill as QuoteLeftFillIcon, QuotationMarkLeft as QuoteLeftIcon, QuotationMarkRight as QuoteRight, QuotationMarkRightDuotone as QuoteRightDuotone, QuotationMarkRightDuotone as QuoteRightDuotoneIcon, QuotationMarkRightFill as QuoteRightFill, QuotationMarkRightFill as QuoteRightFillIcon, QuotationMarkRight as QuoteRightIcon, Star as Rating, StarDuotone as RatingDuotone, StarDuotone as RatingDuotoneIcon, StarFill as RatingFill, StarFill as RatingFillIcon, Star as RatingIcon, Reach, ReachDuotone, ReachDuotone as ReachDuotoneIcon, ReachFill, ReachFill as ReachFillIcon, Reach as ReachIcon, History as Recent, HistoryDuotone as RecentDuotone, HistoryDuotone as RecentDuotoneIcon, HistoryFill as RecentFill, HistoryFill as RecentFillIcon, History as RecentIcon, Video as Record, VideoDuotone as RecordDuotone, VideoDuotone as RecordDuotoneIcon, VideoFill as RecordFill, VideoFill as RecordFillIcon, Video as RecordIcon, RotateCw as Redo, RotateCwDuotone as RedoDuotone, RotateCwDuotone as RedoDuotoneIcon, RotateCwFill as RedoFill, RotateCwFill as RedoFillIcon, RotateCw as RedoIcon, Minus as Reduce, MinusDuotone as ReduceDuotone, MinusDuotone as ReduceDuotoneIcon, MinusFill as ReduceFill, MinusFill as ReduceFillIcon, Minus as ReduceIcon, Reel, ReelDuotone, ReelDuotone as ReelDuotoneIcon, ReelFill, ReelFill as ReelFillIcon, Reel as ReelIcon, RefreshCw as Refresh, RefreshCw, RefreshCwDuotone, RefreshCwDuotone as RefreshCwDuotoneIcon, RefreshCwFill, RefreshCwFill as RefreshCwFillIcon, RefreshCw as RefreshCwIcon, RefreshCwDuotone as RefreshDuotone, RefreshCwDuotone as RefreshDuotoneIcon, RefreshCwFill as RefreshFill, RefreshCwFill as RefreshFillIcon, RefreshCw as RefreshIcon, RefreshCw as Reload, RefreshCwDuotone as ReloadDuotone, RefreshCwDuotone as ReloadDuotoneIcon, RefreshCwFill as ReloadFill, RefreshCwFill as ReloadFillIcon, RefreshCw as ReloadIcon, Trash as Remove, TrashDuotone as RemoveDuotone, TrashDuotone as RemoveDuotoneIcon, TrashFill as RemoveFill, TrashFill as RemoveFillIcon, RemoveFormatting, RemoveFormattingDuotone, RemoveFormattingDuotone as RemoveFormattingDuotoneIcon, RemoveFormattingFill, RemoveFormattingFill as RemoveFormattingFillIcon, RemoveFormatting as RemoveFormattingIcon, Trash as RemoveIcon, ArrowDownUp as Reorder, ArrowDownUpDuotone as ReorderDuotone, ArrowDownUpDuotone as ReorderDuotoneIcon, ArrowDownUpFill as ReorderFill, ArrowDownUpFill as ReorderFillIcon, ArrowDownUp as ReorderIcon, Reply, ReplyDuotone, ReplyDuotone as ReplyDuotoneIcon, ReplyFill, ReplyFill as ReplyFillIcon, Reply as ReplyIcon, Move as Reposition, MoveDuotone as RepositionDuotone, MoveDuotone as RepositionDuotoneIcon, MoveFill as RepositionFill, MoveFill as RepositionFillIcon, Move as RepositionIcon, Reply as Respond, ReplyDuotone as RespondDuotone, ReplyDuotone as RespondDuotoneIcon, ReplyFill as RespondFill, ReplyFill as RespondFillIcon, Reply as RespondIcon, ArrowRight as Right, ArrowRightDuotone as RightDuotone, ArrowRightDuotone as RightDuotoneIcon, ArrowRightFill as RightFill, ArrowRightFill as RightFillIcon, ArrowRight as RightIcon, TrendingUp as Rising, TrendingUpDuotone as RisingDuotone, TrendingUpDuotone as RisingDuotoneIcon, TrendingUpFill as RisingFill, TrendingUpFill as RisingFillIcon, TrendingUp as RisingIcon, Rolodex, RolodexDuotone, RolodexDuotone as RolodexDuotoneIcon, RolodexFill, RolodexFill as RolodexFillIcon, Rolodex as RolodexIcon, ClipboardList as Roster, ClipboardListDuotone as RosterDuotone, ClipboardListDuotone as RosterDuotoneIcon, ClipboardListFill as RosterFill, ClipboardListFill as RosterFillIcon, ClipboardList as RosterIcon, RotateCw as Rotate, RotateCcw, RotateCcwDuotone, RotateCcwDuotone as RotateCcwDuotoneIcon, RotateCcwFill, RotateCcwFill as RotateCcwFillIcon, RotateCcw as RotateCcwIcon, RotateCw, RotateCwDuotone, RotateCwDuotone as RotateCwDuotoneIcon, RotateCwFill, RotateCwFill as RotateCwFillIcon, RotateCw as RotateCwIcon, RotateCwDuotone as RotateDuotone, RotateCwDuotone as RotateDuotoneIcon, RotateCwFill as RotateFill, RotateCwFill as RotateFillIcon, RotateCw as RotateIcon, RotateCcw as RotateLeft, RotateCcwDuotone as RotateLeftDuotone, RotateCcwDuotone as RotateLeftDuotoneIcon, RotateCcwFill as RotateLeftFill, RotateCcwFill as RotateLeftFillIcon, RotateCcw as RotateLeftIcon, Rows2 as Rows, Rows2, Rows2Duotone, Rows2Duotone as Rows2DuotoneIcon, Rows2Fill, Rows2Fill as Rows2FillIcon, Rows2 as Rows2Icon, Rows2Duotone as RowsDuotone, Rows2Duotone as RowsDuotoneIcon, Rows2Fill as RowsFill, Rows2Fill as RowsFillIcon, Rows2 as RowsIcon, Frown as Sad, FrownDuotone as SadDuotone, FrownDuotone as SadDuotoneIcon, FrownFill as SadFill, FrownFill as SadFillIcon, Frown as SadIcon, Save, SaveDuotone, SaveDuotone as SaveDuotoneIcon, SaveFill, SaveFill as SaveFillIcon, Save as SaveIcon, Bookmark as Saved, BookmarkDuotone as SavedDuotone, BookmarkDuotone as SavedDuotoneIcon, BookmarkFill as SavedFill, BookmarkFill as SavedFillIcon, Bookmark as SavedIcon, Calendar as Schedule, CalendarDuotone as ScheduleDuotone, CalendarDuotone as ScheduleDuotoneIcon, CalendarFill as ScheduleFill, CalendarFill as ScheduleFillIcon, Calendar as ScheduleIcon, Search, SearchDuotone, SearchDuotone as SearchDuotoneIcon, SearchFill, SearchFill as SearchFillIcon, Search as SearchIcon, SearchUser as SearchPerson, SearchUserDuotone as SearchPersonDuotone, SearchUserDuotone as SearchPersonDuotoneIcon, SearchUserFill as SearchPersonFill, SearchUserFill as SearchPersonFillIcon, SearchUser as SearchPersonIcon, SearchUser, SearchUserDuotone, SearchUserDuotone as SearchUserDuotoneIcon, SearchUserFill, SearchUserFill as SearchUserFillIcon, SearchUser as SearchUserIcon, Lock as Secure, LockDuotone as SecureDuotone, LockDuotone as SecureDuotoneIcon, LockFill as SecureFill, LockFill as SecureFillIcon, Lock as SecureIcon, Shield as Security, ShieldDuotone as SecurityDuotone, ShieldDuotone as SecurityDuotoneIcon, ShieldFill as SecurityFill, ShieldFill as SecurityFillIcon, Shield as SecurityIcon, Upload as Send, UploadDuotone as SendDuotone, UploadDuotone as SendDuotoneIcon, UploadFill as SendFill, UploadFill as SendFillIcon, Upload as SendIcon, Cog as Settings, CogDuotone as SettingsDuotone, CogDuotone as SettingsDuotoneIcon, CogFill as SettingsFill, CogFill as SettingsFillIcon, Cog as SettingsIcon, Share, ShareDuotone, ShareDuotone as ShareDuotoneIcon, ShareFill, ShareFill as ShareFillIcon, Share as ShareIcon, Share as ShareLink, ShareDuotone as ShareLinkDuotone, ShareDuotone as ShareLinkDuotoneIcon, ShareFill as ShareLinkFill, ShareFill as ShareLinkFillIcon, Share as ShareLinkIcon, Shield, ShieldX as ShieldCancel, ShieldXDuotone as ShieldCancelDuotone, ShieldXDuotone as ShieldCancelDuotoneIcon, ShieldXFill as ShieldCancelFill, ShieldXFill as ShieldCancelFillIcon, ShieldX as ShieldCancelIcon, ShieldCheck, ShieldCheckDuotone, ShieldCheckDuotone as ShieldCheckDuotoneIcon, ShieldCheckFill, ShieldCheckFill as ShieldCheckFillIcon, ShieldCheck as ShieldCheckIcon, ShieldDuotone, ShieldDuotone as ShieldDuotoneIcon, ShieldFill, ShieldFill as ShieldFillIcon, Shield as ShieldIcon, ShieldOff, ShieldOffDuotone, ShieldOffDuotone as ShieldOffDuotoneIcon, ShieldOffFill, ShieldOffFill as ShieldOffFillIcon, ShieldOff as ShieldOffIcon, ShieldPlus, ShieldPlusDuotone, ShieldPlusDuotone as ShieldPlusDuotoneIcon, ShieldPlusFill, ShieldPlusFill as ShieldPlusFillIcon, ShieldPlus as ShieldPlusIcon, ShieldX as ShieldRemove, ShieldXDuotone as ShieldRemoveDuotone, ShieldXDuotone as ShieldRemoveDuotoneIcon, ShieldXFill as ShieldRemoveFill, ShieldXFill as ShieldRemoveFillIcon, ShieldX as ShieldRemoveIcon, ShieldCheck as ShieldSecure, ShieldCheckDuotone as ShieldSecureDuotone, ShieldCheckDuotone as ShieldSecureDuotoneIcon, ShieldCheckFill as ShieldSecureFill, ShieldCheckFill as ShieldSecureFillIcon, ShieldCheck as ShieldSecureIcon, ShieldUser, ShieldUserDuotone, ShieldUserDuotone as ShieldUserDuotoneIcon, ShieldUserFill, ShieldUserFill as ShieldUserFillIcon, ShieldUser as ShieldUserIcon, ShieldCheck as ShieldVerified, ShieldCheckDuotone as ShieldVerifiedDuotone, ShieldCheckDuotone as ShieldVerifiedDuotoneIcon, ShieldCheckFill as ShieldVerifiedFill, ShieldCheckFill as ShieldVerifiedFillIcon, ShieldCheck as ShieldVerifiedIcon, ShieldX, ShieldXDuotone, ShieldXDuotone as ShieldXDuotoneIcon, ShieldXFill, ShieldXFill as ShieldXFillIcon, ShieldX as ShieldXIcon, Sparkles as Shine, SparklesDuotone as ShineDuotone, SparklesDuotone as ShineDuotoneIcon, SparklesFill as ShineFill, SparklesFill as ShineFillIcon, Sparkles as ShineIcon, Reel as Short, ReelDuotone as ShortDuotone, ReelDuotone as ShortDuotoneIcon, ReelFill as ShortFill, ReelFill as ShortFillIcon, Reel as ShortIcon, Reel as ShortVideo, ReelDuotone as ShortVideoDuotone, ReelDuotone as ShortVideoDuotoneIcon, ReelFill as ShortVideoFill, ReelFill as ShortVideoFillIcon, Reel as ShortVideoIcon, Command as Shortcut, CommandDuotone as ShortcutDuotone, CommandDuotone as ShortcutDuotoneIcon, CommandFill as ShortcutFill, CommandFill as ShortcutFillIcon, Command as ShortcutIcon, Eye as Show, EyeDuotone as ShowDuotone, EyeDuotone as ShowDuotoneIcon, EyeFill as ShowFill, EyeFill as ShowFillIcon, Eye as ShowIcon, PanelLeft as SidebarLeft, PanelLeftDuotone as SidebarLeftDuotone, PanelLeftDuotone as SidebarLeftDuotoneIcon, PanelLeftFill as SidebarLeftFill, PanelLeftFill as SidebarLeftFillIcon, PanelLeft as SidebarLeftIcon, PanelRight as SidebarRight, PanelRightDuotone as SidebarRightDuotone, PanelRightDuotone as SidebarRightDuotoneIcon, PanelRightFill as SidebarRightFill, PanelRightFill as SidebarRightFillIcon, PanelRight as SidebarRightIcon, LogOut as SignOut, LogOutDuotone as SignOutDuotone, LogOutDuotone as SignOutDuotoneIcon, LogOutFill as SignOutFill, LogOutFill as SignOutFillIcon, LogOut as SignOutIcon, Hotspot as Signal, HotspotDuotone as SignalDuotone, HotspotDuotone as SignalDuotoneIcon, HotspotFill as SignalFill, HotspotFill as SignalFillIcon, Hotspot as SignalIcon, LogOut as Signout, LogOutDuotone as SignoutDuotone, LogOutDuotone as SignoutDuotoneIcon, LogOutFill as SignoutFill, LogOutFill as SignoutFillIcon, LogOut as SignoutIcon, VolumeOff as Silent, VolumeOffDuotone as SilentDuotone, VolumeOffDuotone as SilentDuotoneIcon, VolumeOffFill as SilentFill, VolumeOffFill as SilentFillIcon, VolumeOff as SilentIcon, Slash, SlashDuotone, SlashDuotone as SlashDuotoneIcon, SlashFill, SlashFill as SlashFillIcon, Slash as SlashIcon, SlidersHorizontal, SlidersHorizontalDuotone, SlidersHorizontalDuotone as SlidersHorizontalDuotoneIcon, SlidersHorizontalFill, SlidersHorizontalFill as SlidersHorizontalFillIcon, SlidersHorizontal as SlidersHorizontalIcon, Smile, SmileDuotone, SmileDuotone as SmileDuotoneIcon, SmileFill, SmileFill as SmileFillIcon, Smile as SmileIcon, Smile as Smiley, SmileDuotone as SmileyDuotone, SmileDuotone as SmileyDuotoneIcon, SmileFill as SmileyFill, SmileFill as SmileyFillIcon, Smile as SmileyIcon, ArrowDownSC as Snapchat, ArrowDownSCDuotone as SnapchatDuotone, ArrowDownSCDuotone as SnapchatDuotoneIcon, ArrowDownSCFill as SnapchatFill, ArrowDownSCFill as SnapchatFillIcon, ArrowDownSC as SnapchatIcon, ArrowDownUp as Sort, ArrowUpAZ as SortAZ, ArrowUpAZDuotone as SortAZDuotone, ArrowUpAZDuotone as SortAZDuotoneIcon, ArrowUpAZFill as SortAZFill, ArrowUpAZFill as SortAZFillIcon, ArrowUpAZ as SortAZIcon, ArrowUpAZ as SortAlphaAsc, ArrowUpAZDuotone as SortAlphaAscDuotone, ArrowUpAZDuotone as SortAlphaAscDuotoneIcon, ArrowUpAZFill as SortAlphaAscFill, ArrowUpAZFill as SortAlphaAscFillIcon, ArrowUpAZ as SortAlphaAscIcon, ArrowUpZA as SortAlphaDesc, ArrowUpZADuotone as SortAlphaDescDuotone, ArrowUpZADuotone as SortAlphaDescDuotoneIcon, ArrowUpZAFill as SortAlphaDescFill, ArrowUpZAFill as SortAlphaDescFillIcon, ArrowUpZA as SortAlphaDescIcon, ArrowDownNarrowWide as SortAsc, ArrowUpNarrowWide as SortAscAlt, ArrowUpNarrowWideDuotone as SortAscAltDuotone, ArrowUpNarrowWideDuotone as SortAscAltDuotoneIcon, ArrowUpNarrowWideFill as SortAscAltFill, ArrowUpNarrowWideFill as SortAscAltFillIcon, ArrowUpNarrowWide as SortAscAltIcon, ArrowDownNarrowWideDuotone as SortAscDuotone, ArrowDownNarrowWideDuotone as SortAscDuotoneIcon, ArrowDownNarrowWideFill as SortAscFill, ArrowDownNarrowWideFill as SortAscFillIcon, ArrowDownNarrowWide as SortAscIcon, ArrowDownNarrowWide as SortAscending, ArrowDownNarrowWideDuotone as SortAscendingDuotone, ArrowDownNarrowWideDuotone as SortAscendingDuotoneIcon, ArrowDownNarrowWideFill as SortAscendingFill, ArrowDownNarrowWideFill as SortAscendingFillIcon, ArrowDownNarrowWide as SortAscendingIcon, ArrowUpWideNarrow as SortDesc, ArrowDownWideNarrow as SortDescAlt, ArrowDownWideNarrowDuotone as SortDescAltDuotone, ArrowDownWideNarrowDuotone as SortDescAltDuotoneIcon, ArrowDownWideNarrowFill as SortDescAltFill, ArrowDownWideNarrowFill as SortDescAltFillIcon, ArrowDownWideNarrow as SortDescAltIcon, ArrowUpWideNarrowDuotone as SortDescDuotone, ArrowUpWideNarrowDuotone as SortDescDuotoneIcon, ArrowUpWideNarrowFill as SortDescFill, ArrowUpWideNarrowFill as SortDescFillIcon, ArrowUpWideNarrow as SortDescIcon, ArrowUpWideNarrow as SortDescending, ArrowUpWideNarrowDuotone as SortDescendingDuotone, ArrowUpWideNarrowDuotone as SortDescendingDuotoneIcon, ArrowUpWideNarrowFill as SortDescendingFill, ArrowUpWideNarrowFill as SortDescendingFillIcon, ArrowUpWideNarrow as SortDescendingIcon, ArrowDownUpDuotone as SortDuotone, ArrowDownUpDuotone as SortDuotoneIcon, ArrowDownUpFill as SortFill, ArrowDownUpFill as SortFillIcon, ArrowDownUp as SortIcon, ArrowDown01 as SortNumeric, ArrowDown01Duotone as SortNumericDuotone, ArrowDown01Duotone as SortNumericDuotoneIcon, ArrowDown01Fill as SortNumericFill, ArrowDown01Fill as SortNumericFillIcon, ArrowDown01 as SortNumericIcon, TriangleDownUp as SortToggle, TriangleDownUpDuotone as SortToggleDuotone, TriangleDownUpDuotone as SortToggleDuotoneIcon, TriangleDownUpFill as SortToggleFill, TriangleDownUpFill as SortToggleFillIcon, TriangleDownUp as SortToggleIcon, ArrowUpZA as SortZA, ArrowUpZADuotone as SortZADuotone, ArrowUpZADuotone as SortZADuotoneIcon, ArrowUpZAFill as SortZAFill, ArrowUpZAFill as SortZAFillIcon, ArrowUpZA as SortZAIcon, Volume2 as Sound, Volume2Duotone as SoundDuotone, Volume2Duotone as SoundDuotoneIcon, Volume2Fill as SoundFill, Volume2Fill as SoundFillIcon, Volume2 as SoundIcon, ArrowDown as South, ArrowDownDuotone as SouthDuotone, ArrowDownDuotone as SouthDuotoneIcon, ArrowDownFill as SouthFill, ArrowDownFill as SouthFillIcon, ArrowDown as SouthIcon, Sparkles, SparklesDuotone, SparklesDuotone as SparklesDuotoneIcon, SparklesFill, SparklesFill as SparklesFillIcon, Sparkles as SparklesIcon, Volume2 as Speaker, Volume2Duotone as SpeakerDuotone, Volume2Duotone as SpeakerDuotoneIcon, Volume2Fill as SpeakerFill, Volume2Fill as SpeakerFillIcon, Volume2 as SpeakerIcon, VolumeOff as SpeakerOff, VolumeOffDuotone as SpeakerOffDuotone, VolumeOffDuotone as SpeakerOffDuotoneIcon, VolumeOffFill as SpeakerOffFill, VolumeOffFill as SpeakerOffFillIcon, VolumeOff as SpeakerOffIcon, LoaderCircle as Spinner, LoaderCircleDuotone as SpinnerDuotone, LoaderCircleDuotone as SpinnerDuotoneIcon, LoaderCircleFill as SpinnerFill, LoaderCircleFill as SpinnerFillIcon, LoaderCircle as SpinnerIcon, Square, SquareDuotone, SquareDuotone as SquareDuotoneIcon, SquareFill, SquareFill as SquareFillIcon, Square as SquareIcon, SquarePen, SquarePenDuotone, SquarePenDuotone as SquarePenDuotoneIcon, SquarePenFill, SquarePenFill as SquarePenFillIcon, SquarePen as SquarePenIcon, ChartBarStacked as StackedBar, ChartBarStackedDuotone as StackedBarDuotone, ChartBarStackedDuotone as StackedBarDuotoneIcon, ChartBarStackedFill as StackedBarFill, ChartBarStackedFill as StackedBarFillIcon, ChartBarStacked as StackedBarIcon, Star, StarDuotone, StarDuotone as StarDuotoneIcon, StarFill, StarFill as StarFillIcon, Star as StarIcon, Play as Start, PlayDuotone as StartDuotone, PlayDuotone as StartDuotoneIcon, PlayFill as StartFill, PlayFill as StartFillIcon, Play as StartIcon, ChartColumnSquare as Stats, ChartColumnSquareDuotone as StatsDuotone, ChartColumnSquareDuotone as StatsDuotoneIcon, ChartColumnSquareFill as StatsFill, ChartColumnSquareFill as StatsFillIcon, ChartColumnSquare as StatsIcon, Pin as Stick, PinDuotone as StickDuotone, PinDuotone as StickDuotoneIcon, PinFill as StickFill, PinFill as StickFillIcon, Pin as StickIcon, Square as Stop, SquareDuotone as StopDuotone, SquareDuotone as StopDuotoneIcon, SquareFill as StopFill, SquareFill as StopFillIcon, Square as StopIcon, Archive as Storage, ArchiveDuotone as StorageDuotone, ArchiveDuotone as StorageDuotoneIcon, ArchiveFill as StorageFill, ArchiveFill as StorageFillIcon, Archive as StorageIcon, Bold as Strong, BoldDuotone as StrongDuotone, BoldDuotone as StrongDuotoneIcon, BoldFill as StrongFill, BoldFill as StrongFillIcon, Bold as StrongIcon, Minus as Subtract, MinusDuotone as SubtractDuotone, MinusDuotone as SubtractDuotoneIcon, MinusFill as SubtractFill, MinusFill as SubtractFillIcon, Minus as SubtractIcon, Checkmark as Success, CheckmarkDuotone as SuccessDuotone, CheckmarkDuotone as SuccessDuotoneIcon, CheckmarkFill as SuccessFill, CheckmarkFill as SuccessFillIcon, Checkmark as SuccessIcon, Sun, SunDuotone, SunDuotone as SunDuotoneIcon, SunFill, SunFill as SunFillIcon, Sun as SunIcon, CircleQuestionMark as Support, CircleQuestionMarkDuotone as SupportDuotone, CircleQuestionMarkDuotone as SupportDuotoneIcon, CircleQuestionMarkFill as SupportFill, CircleQuestionMarkFill as SupportFillIcon, CircleQuestionMark as SupportIcon, ArrowDownUp as Swap, ArrowDownUpDuotone as SwapDuotone, ArrowDownUpDuotone as SwapDuotoneIcon, ArrowDownUpFill as SwapFill, ArrowDownUpFill as SwapFillIcon, ArrowDownUp as SwapIcon, RefreshCw as Sync, RefreshCwDuotone as SyncDuotone, RefreshCwDuotone as SyncDuotoneIcon, RefreshCwFill as SyncFill, RefreshCwFill as SyncFillIcon, RefreshCw as SyncIcon, Pin as Tack, PinDuotone as TackDuotone, PinDuotone as TackDuotoneIcon, PinFill as TackFill, PinFill as TackFillIcon, Pin as TackIcon, Checkbox as Task, CheckboxDuotone as TaskDuotone, CheckboxDuotone as TaskDuotoneIcon, CheckboxFill as TaskFill, CheckboxFill as TaskFillIcon, Checkbox as TaskIcon, ClipboardList as Tasks, ClipboardListDuotone as TasksDuotone, ClipboardListDuotone as TasksDuotoneIcon, ClipboardListFill as TasksFill, ClipboardListFill as TasksFillIcon, ClipboardList as TasksIcon, Users as Team, UsersDuotone as TeamDuotone, UsersDuotone as TeamDuotoneIcon, UsersFill as TeamFill, UsersFill as TeamFillIcon, Users as TeamIcon, TextAlignCenter, TextAlignCenterDuotone, TextAlignCenterDuotone as TextAlignCenterDuotoneIcon, TextAlignCenterFill, TextAlignCenterFill as TextAlignCenterFillIcon, TextAlignCenter as TextAlignCenterIcon, TextAlignEnd, TextAlignEndDuotone, TextAlignEndDuotone as TextAlignEndDuotoneIcon, TextAlignEndFill, TextAlignEndFill as TextAlignEndFillIcon, TextAlignEnd as TextAlignEndIcon, TextAlignJustify, TextAlignJustifyDuotone, TextAlignJustifyDuotone as TextAlignJustifyDuotoneIcon, TextAlignJustifyFill, TextAlignJustifyFill as TextAlignJustifyFillIcon, TextAlignJustify as TextAlignJustifyIcon, TextAlignStart, TextAlignStartDuotone, TextAlignStartDuotone as TextAlignStartDuotoneIcon, TextAlignStartFill, TextAlignStartFill as TextAlignStartFillIcon, TextAlignStart as TextAlignStartIcon, Bold as TextBold, BoldDuotone as TextBoldDuotone, BoldDuotone as TextBoldDuotoneIcon, BoldFill as TextBoldFill, BoldFill as TextBoldFillIcon, Bold as TextBoldIcon, Italic as TextItalic, ItalicDuotone as TextItalicDuotone, ItalicDuotone as TextItalicDuotoneIcon, ItalicFill as TextItalicFill, ItalicFill as TextItalicFillIcon, Italic as TextItalicIcon, Brain as Thinking, BrainDuotone as ThinkingDuotone, BrainDuotone as ThinkingDuotoneIcon, BrainFill as ThinkingFill, BrainFill as ThinkingFillIcon, Brain as ThinkingIcon, Columns3 as ThreeColumns, Columns3Duotone as ThreeColumnsDuotone, Columns3Duotone as ThreeColumnsDuotoneIcon, Columns3Fill as ThreeColumnsFill, Columns3Fill as ThreeColumnsFillIcon, Columns3 as ThreeColumnsIcon, ThumbsDown, ThumbsDownDuotone, ThumbsDownDuotone as ThumbsDownDuotoneIcon, ThumbsDownFill, ThumbsDownFill as ThumbsDownFillIcon, ThumbsDown as ThumbsDownIcon, ThumbsUp, ThumbsUpDuotone, ThumbsUpDuotone as ThumbsUpDuotoneIcon, ThumbsUpFill, ThumbsUpFill as ThumbsUpFillIcon, ThumbsUp as ThumbsUpIcon, Pin as Thumbtack, PinDuotone as ThumbtackDuotone, PinDuotone as ThumbtackDuotoneIcon, PinFill as ThumbtackFill, PinFill as ThumbtackFillIcon, Pin as ThumbtackIcon, Checkmark as Tick, CheckmarkDuotone as TickDuotone, CheckmarkDuotone as TickDuotoneIcon, CheckmarkFill as TickFill, CheckmarkFill as TickFillIcon, Checkmark as TickIcon, ArrowDownTT as Tiktok, ArrowDownTTDuotone as TiktokDuotone, ArrowDownTTDuotone as TiktokDuotoneIcon, ArrowDownTTFill as TiktokFill, ArrowDownTTFill as TiktokFillIcon, ArrowDownTT as TiktokIcon, Grid2x2 as Tiles, Grid2x2Duotone as TilesDuotone, Grid2x2Duotone as TilesDuotoneIcon, Grid2x2Fill as TilesFill, Grid2x2Fill as TilesFillIcon, Grid2x2 as TilesIcon, Clock as Time, ClockDuotone as TimeDuotone, ClockDuotone as TimeDuotoneIcon, ClockFill as TimeFill, ClockFill as TimeFillIcon, Clock as TimeIcon, CircleX as Times, CircleXDuotone as TimesDuotone, CircleXDuotone as TimesDuotoneIcon, CircleXFill as TimesFill, CircleXFill as TimesFillIcon, CircleX as TimesIcon, ClipboardList as Todo, ClipboardListDuotone as TodoDuotone, ClipboardListDuotone as TodoDuotoneIcon, ClipboardListFill as TodoFill, ClipboardListFill as TodoFillIcon, ClipboardList as TodoIcon, Trash, TrashDuotone, TrashDuotone as TrashDuotoneIcon, TrashEmpty, TrashEmptyDuotone, TrashEmptyDuotone as TrashEmptyDuotoneIcon, TrashEmptyFill, TrashEmptyFill as TrashEmptyFillIcon, TrashEmpty as TrashEmptyIcon, TrashFill, TrashFill as TrashFillIcon, Trash as TrashIcon, Inbox as Tray, InboxDuotone as TrayDuotone, InboxDuotone as TrayDuotoneIcon, InboxFill as TrayFill, InboxFill as TrayFillIcon, Inbox as TrayIcon, Flame as Trending, TrendingDown, TrendingDownDuotone, TrendingDownDuotone as TrendingDownDuotoneIcon, TrendingDownFill, TrendingDownFill as TrendingDownFillIcon, TrendingDown as TrendingDownIcon, FlameDuotone as TrendingDuotone, FlameDuotone as TrendingDuotoneIcon, FlameFill as TrendingFill, FlameFill as TrendingFillIcon, Flame as TrendingIcon, TrendingUp, TrendingUpDuotone, TrendingUpDuotone as TrendingUpDuotoneIcon, TrendingUpFill, TrendingUpFill as TrendingUpFillIcon, TrendingUp as TrendingUpIcon, TriangleDown, TriangleDownDuotone, TriangleDownDuotone as TriangleDownDuotoneIcon, TriangleDownFill, TriangleDownFill as TriangleDownFillIcon, TriangleDown as TriangleDownIcon, TriangleDownUp, TriangleDownUpDuotone, TriangleDownUpDuotone as TriangleDownUpDuotoneIcon, TriangleDownUpFill, TriangleDownUpFill as TriangleDownUpFillIcon, TriangleDownUp as TriangleDownUpIcon, TriangleUp, TriangleUpDuotone, TriangleUpDuotone as TriangleUpDuotoneIcon, TriangleUpFill, TriangleUpFill as TriangleUpFillIcon, TriangleUp as TriangleUpIcon, RotateCw as Turn, RotateCwDuotone as TurnDuotone, RotateCwDuotone as TurnDuotoneIcon, RotateCwFill as TurnFill, RotateCwFill as TurnFillIcon, RotateCw as TurnIcon, History as Undo, HistoryDuotone as UndoDuotone, HistoryDuotone as UndoDuotoneIcon, HistoryFill as UndoFill, HistoryFill as UndoFillIcon, History as UndoIcon, Frown as Unhappy, FrownDuotone as UnhappyDuotone, FrownDuotone as UnhappyDuotoneIcon, FrownFill as UnhappyFill, FrownFill as UnhappyFillIcon, Frown as UnhappyIcon, Unlink, UnlinkDuotone, UnlinkDuotone as UnlinkDuotoneIcon, UnlinkFill, UnlinkFill as UnlinkFillIcon, Unlink as UnlinkIcon, Unlock, UnlockDuotone, UnlockDuotone as UnlockDuotoneIcon, UnlockFill, UnlockFill as UnlockFillIcon, Unlock as UnlockIcon, Unlock as Unlocked, UnlockDuotone as UnlockedDuotone, UnlockDuotone as UnlockedDuotoneIcon, UnlockFill as UnlockedFill, UnlockFill as UnlockedFillIcon, Unlock as UnlockedIcon, ShieldOff as Unprotected, ShieldOffDuotone as UnprotectedDuotone, ShieldOffDuotone as UnprotectedDuotoneIcon, ShieldOffFill as UnprotectedFill, ShieldOffFill as UnprotectedFillIcon, ShieldOff as UnprotectedIcon, Unlock as Unsecure, UnlockDuotone as UnsecureDuotone, UnlockDuotone as UnsecureDuotoneIcon, UnlockFill as UnsecureFill, UnlockFill as UnsecureFillIcon, Unlock as UnsecureIcon, ShieldX as Unshielded, ShieldXDuotone as UnshieldedDuotone, ShieldXDuotone as UnshieldedDuotoneIcon, ShieldXFill as UnshieldedFill, ShieldXFill as UnshieldedFillIcon, ShieldX as UnshieldedIcon, ArrowUp as Up, ArrowUpDuotone as UpDuotone, ArrowUpDuotone as UpDuotoneIcon, ArrowUpFill as UpFill, ArrowUpFill as UpFillIcon, ArrowUp as UpIcon, Upload, UploadDuotone, UploadDuotone as UploadDuotoneIcon, FileArrowUp as UploadFile, FileArrowUpDuotone as UploadFileDuotone, FileArrowUpDuotone as UploadFileDuotoneIcon, FileArrowUpFill as UploadFileFill, FileArrowUpFill as UploadFileFillIcon, FileArrowUp as UploadFileIcon, UploadFill, UploadFill as UploadFillIcon, Upload as UploadIcon, Link as Url, LinkDuotone as UrlDuotone, LinkDuotone as UrlDuotoneIcon, LinkFill as UrlFill, LinkFill as UrlFillIcon, Link as UrlIcon, User, UserArrowLeft, UserArrowLeftDuotone, UserArrowLeftDuotone as UserArrowLeftDuotoneIcon, UserArrowLeftFill, UserArrowLeftFill as UserArrowLeftFillIcon, UserArrowLeft as UserArrowLeftIcon, UserArrowLeftRight, UserArrowLeftRightDuotone, UserArrowLeftRightDuotone as UserArrowLeftRightDuotoneIcon, UserArrowLeftRightFill, UserArrowLeftRightFill as UserArrowLeftRightFillIcon, UserArrowLeftRight as UserArrowLeftRightIcon, UserArrowOutUpRight, UserArrowOutUpRightDuotone, UserArrowOutUpRightDuotone as UserArrowOutUpRightDuotoneIcon, UserArrowOutUpRightFill, UserArrowOutUpRightFill as UserArrowOutUpRightFillIcon, UserArrowOutUpRight as UserArrowOutUpRightIcon, UserArrowRight, UserArrowRightDuotone, UserArrowRightDuotone as UserArrowRightDuotoneIcon, UserArrowRightFill, UserArrowRightFill as UserArrowRightFillIcon, UserArrowRight as UserArrowRightIcon, UserCog, UserCogDuotone, UserCogDuotone as UserCogDuotoneIcon, UserCogFill, UserCogFill as UserCogFillIcon, UserCog as UserCogIcon, FileUser as UserDocument, FileUserDuotone as UserDocumentDuotone, FileUserDuotone as UserDocumentDuotoneIcon, FileUserFill as UserDocumentFill, FileUserFill as UserDocumentFillIcon, FileUser as UserDocumentIcon, UserDuotone, UserDuotone as UserDuotoneIcon, UserFill, UserFill as UserFillIcon, User as UserIcon, UserPlus, UserPlusDuotone, UserPlusDuotone as UserPlusDuotoneIcon, UserPlusFill, UserPlusFill as UserPlusFillIcon, UserPlus as UserPlusIcon, SearchUser as UserSearch, SearchUserDuotone as UserSearchDuotone, SearchUserDuotone as UserSearchDuotoneIcon, SearchUserFill as UserSearchFill, SearchUserFill as UserSearchFillIcon, SearchUser as UserSearchIcon, ShieldUser as UserSecurity, ShieldUserDuotone as UserSecurityDuotone, ShieldUserDuotone as UserSecurityDuotoneIcon, ShieldUserFill as UserSecurityFill, ShieldUserFill as UserSecurityFillIcon, ShieldUser as UserSecurityIcon, Users, UsersDuotone, UsersDuotone as UsersDuotoneIcon, UsersFill, UsersFill as UsersFillIcon, Users as UsersIcon, BadgeCheckbox as Verified, BadgeCheckboxDuotone as VerifiedDuotone, BadgeCheckboxDuotone as VerifiedDuotoneIcon, BadgeCheckboxFill as VerifiedFill, BadgeCheckboxFill as VerifiedFillIcon, BadgeCheckbox as VerifiedIcon, ChartColumn as VerticalBarChart, ChartColumnDuotone as VerticalBarChartDuotone, ChartColumnDuotone as VerticalBarChartDuotoneIcon, ChartColumnFill as VerticalBarChartFill, ChartColumnFill as VerticalBarChartFillIcon, ChartColumn as VerticalBarChartIcon, Video, Video as VideoCamera, VideoDuotone as VideoCameraDuotone, VideoDuotone as VideoCameraDuotoneIcon, VideoFill as VideoCameraFill, VideoFill as VideoCameraFillIcon, Video as VideoCameraIcon, VideoDuotone, VideoDuotone as VideoDuotoneIcon, VideoFill, VideoFill as VideoFillIcon, Video as VideoIcon, Eye as View, EyeDuotone as ViewDuotone, EyeDuotone as ViewDuotoneIcon, EyeFill as ViewFill, EyeFill as ViewFillIcon, Eye as ViewIcon, Reach as Views, ReachDuotone as ViewsDuotone, ReachDuotone as ViewsDuotoneIcon, ReachFill as ViewsFill, ReachFill as ViewsFillIcon, Reach as ViewsIcon, Eye as Visibility, EyeDuotone as VisibilityDuotone, EyeDuotone as VisibilityDuotoneIcon, EyeFill as VisibilityFill, EyeFill as VisibilityFillIcon, Eye as VisibilityIcon, Eye as Visible, EyeDuotone as VisibleDuotone, EyeDuotone as VisibleDuotoneIcon, EyeFill as VisibleFill, EyeFill as VisibleFillIcon, Eye as VisibleIcon, Volume2 as Volume, Volume2, Volume2Duotone, Volume2Duotone as Volume2DuotoneIcon, Volume2Fill, Volume2Fill as Volume2FillIcon, Volume2 as Volume2Icon, Volume2Duotone as VolumeDuotone, Volume2Duotone as VolumeDuotoneIcon, Volume2Fill as VolumeFill, Volume2Fill as VolumeFillIcon, Volume2 as VolumeIcon, VolumeOff, VolumeOffDuotone, VolumeOffDuotone as VolumeOffDuotoneIcon, VolumeOffFill, VolumeOffFill as VolumeOffFillIcon, VolumeOff as VolumeOffIcon, ShieldOff as Vulnerable, ShieldOffDuotone as VulnerableDuotone, ShieldOffDuotone as VulnerableDuotoneIcon, ShieldOffFill as VulnerableFill, ShieldOffFill as VulnerableFillIcon, ShieldOff as VulnerableIcon, Alert as Warning, CircleAlert as WarningCircle, CircleAlertDuotone as WarningCircleDuotone, CircleAlertDuotone as WarningCircleDuotoneIcon, CircleAlertFill as WarningCircleFill, CircleAlertFill as WarningCircleFillIcon, CircleAlert as WarningCircleIcon, AlertDuotone as WarningDuotone, AlertDuotone as WarningDuotoneIcon, AlertFill as WarningFill, AlertFill as WarningFillIcon, Alert as WarningIcon, Clock as Watch, ClockDuotone as WatchDuotone, ClockDuotone as WatchDuotoneIcon, ClockFill as WatchFill, ClockFill as WatchFillIcon, Clock as WatchIcon, Globe as Web, GlobeDuotone as WebDuotone, GlobeDuotone as WebDuotoneIcon, GlobeFill as WebFill, GlobeFill as WebFillIcon, Globe as WebIcon, ArrowLeft as West, ArrowLeftDuotone as WestDuotone, ArrowLeftDuotone as WestDuotoneIcon, ArrowLeftFill as WestFill, ArrowLeftFill as WestFillIcon, ArrowLeft as WestIcon, Hotspot as Wifi, HotspotDuotone as WifiDuotone, HotspotDuotone as WifiDuotoneIcon, HotspotFill as WifiFill, HotspotFill as WifiFillIcon, Hotspot as WifiIcon, Hotspot as Wireless, HotspotDuotone as WirelessDuotone, HotspotDuotone as WirelessDuotoneIcon, HotspotFill as WirelessFill, HotspotFill as WirelessFillIcon, Hotspot as WirelessIcon, Globe as World, GlobeDuotone as WorldDuotone, GlobeDuotone as WorldDuotoneIcon, GlobeFill as WorldFill, GlobeFill as WorldFillIcon, Globe as WorldIcon, Pencil as Write, PencilDuotone as WriteDuotone, PencilDuotone as WriteDuotoneIcon, PencilFill as WriteFill, PencilFill as WriteFillIcon, Pencil as WriteIcon, SquarePen as WriteNew, SquarePenDuotone as WriteNewDuotone, SquarePenDuotone as WriteNewDuotoneIcon, SquarePenFill as WriteNewFill, SquarePenFill as WriteNewFillIcon, SquarePen as WriteNewIcon, CircleX as X, CircleXDuotone as XDuotone, CircleXDuotone as XDuotoneIcon, CircleXFill as XFill, CircleXFill as XFillIcon, CircleX as XIcon, ThumbsUp as Yes, ThumbsUpDuotone as YesDuotone, ThumbsUpDuotone as YesDuotoneIcon, ThumbsUpFill as YesFill, ThumbsUpFill as YesFillIcon, ThumbsUp as YesIcon, ArrowDownYT as Youtube, ArrowDownYTDuotone as YoutubeDuotone, ArrowDownYTDuotone as YoutubeDuotoneIcon, ArrowDownYTFill as YoutubeFill, ArrowDownYTFill as YoutubeFillIcon, ArrowDownYT as YoutubeIcon, Zap, ZapDuotone, ZapDuotone as ZapDuotoneIcon, ZapFill, ZapFill as ZapFillIcon, Zap as ZapIcon, ZapOff, ZapOffDuotone, ZapOffDuotone as ZapOffDuotoneIcon, ZapOffFill, ZapOffFill as ZapOffFillIcon, ZapOff as ZapOffIcon, aliasToCanonical, allNames, createFoamicon, getCanonicalName, iconAliases, iconNames, iconTags, logoAliases, logoNames, logoTags };
