@@ -1,4 +1,16 @@
 {
+  "audio-lines": {
+    "aliases": [
+      "sound-wave",
+      "equalizer"
+    ],
+    "tags": [
+      "audio",
+      "sound",
+      "music",
+      "equalizer"
+    ]
+  },
   "alert": {
     "aliases": [
       "warning",
@@ -481,16 +493,15 @@
   },
   "circle-x": {
     "aliases": [
-      "close",
-      "cancel",
-      "x",
-      "times",
+      "close-circle",
+      "cancel-circle",
       "clear"
     ],
     "tags": [
       "close",
       "cancel",
-      "clear"
+      "clear",
+      "circle"
     ]
   },
   "closed-caption": {
@@ -1437,6 +1448,30 @@
       "left"
     ]
   },
+  "panel-left-chevron-left": {
+    "aliases": [
+      "sidebar-collapse",
+      "panel-close"
+    ],
+    "tags": [
+      "panel",
+      "sidebar",
+      "collapse",
+      "close"
+    ]
+  },
+  "panel-left-chevron-right": {
+    "aliases": [
+      "sidebar-expand",
+      "panel-open"
+    ],
+    "tags": [
+      "panel",
+      "sidebar",
+      "expand",
+      "open"
+    ]
+  },
   "panel-right": {
     "aliases": [
       "sidebar-right",
@@ -1460,6 +1495,18 @@
       "paint",
       "design",
       "theme"
+    ]
+  },
+  "pause": {
+    "aliases": [
+      "hold",
+      "suspend"
+    ],
+    "tags": [
+      "pause",
+      "hold",
+      "media",
+      "playback"
     ]
   },
   "pencil": {
@@ -2244,6 +2291,20 @@
       "off",
       "lightning",
       "disabled"
+    ]
+  },
+  "x": {
+    "aliases": [
+      "close",
+      "cancel",
+      "times",
+      "dismiss"
+    ],
+    "tags": [
+      "close",
+      "cancel",
+      "dismiss",
+      "remove"
     ]
   }
 }
