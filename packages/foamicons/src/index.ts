@@ -105,6 +105,9 @@ export { ArrowUp } from './icons/ArrowUp';
 export { AtSignDuotone } from './icons/AtSignDuotone';
 export { AtSignFill } from './icons/AtSignFill';
 export { AtSign } from './icons/AtSign';
+export { AudioLinesDuotone } from './icons/AudioLinesDuotone';
+export { AudioLinesFill } from './icons/AudioLinesFill';
+export { AudioLines } from './icons/AudioLines';
 export { BadgeCheckboxDuotone } from './icons/BadgeCheckboxDuotone';
 export { BadgeCheckboxFill } from './icons/BadgeCheckboxFill';
 export { BadgeCheckbox } from './icons/BadgeCheckbox';
@@ -477,12 +480,21 @@ export { Office } from './icons/Office';
 export { PaletteDuotone } from './icons/PaletteDuotone';
 export { PaletteFill } from './icons/PaletteFill';
 export { Palette } from './icons/Palette';
+export { PanelLeftChevronLeftDuotone } from './icons/PanelLeftChevronLeftDuotone';
+export { PanelLeftChevronLeftFill } from './icons/PanelLeftChevronLeftFill';
+export { PanelLeftChevronLeft } from './icons/PanelLeftChevronLeft';
+export { PanelLeftChevronRightDuotone } from './icons/PanelLeftChevronRightDuotone';
+export { PanelLeftChevronRightFill } from './icons/PanelLeftChevronRightFill';
+export { PanelLeftChevronRight } from './icons/PanelLeftChevronRight';
 export { PanelLeftDuotone } from './icons/PanelLeftDuotone';
 export { PanelLeftFill } from './icons/PanelLeftFill';
 export { PanelLeft } from './icons/PanelLeft';
 export { PanelRightDuotone } from './icons/PanelRightDuotone';
 export { PanelRightFill } from './icons/PanelRightFill';
 export { PanelRight } from './icons/PanelRight';
+export { PauseDuotone } from './icons/PauseDuotone';
+export { PauseFill } from './icons/PauseFill';
+export { Pause } from './icons/Pause';
 export { PencilDuotone } from './icons/PencilDuotone';
 export { PencilFill } from './icons/PencilFill';
 export { Pencil } from './icons/Pencil';
@@ -678,6 +690,9 @@ export { Volume2 } from './icons/Volume2';
 export { VolumeOffDuotone } from './icons/VolumeOffDuotone';
 export { VolumeOffFill } from './icons/VolumeOffFill';
 export { VolumeOff } from './icons/VolumeOff';
+export { XDuotone } from './icons/XDuotone';
+export { XFill } from './icons/XFill';
+export { X } from './icons/X';
 export { ZapDuotone } from './icons/ZapDuotone';
 export { ZapFill } from './icons/ZapFill';
 export { ZapOffDuotone } from './icons/ZapOffDuotone';
@@ -888,6 +903,12 @@ export { AtSignFill as AtSignFillIcon } from './icons/AtSignFill';
 export { AtSignFill as FoamAtSignFill } from './icons/AtSignFill';
 export { AtSign as AtSignIcon } from './icons/AtSign';
 export { AtSign as FoamAtSign } from './icons/AtSign';
+export { AudioLinesDuotone as AudioLinesDuotoneIcon } from './icons/AudioLinesDuotone';
+export { AudioLinesDuotone as FoamAudioLinesDuotone } from './icons/AudioLinesDuotone';
+export { AudioLinesFill as AudioLinesFillIcon } from './icons/AudioLinesFill';
+export { AudioLinesFill as FoamAudioLinesFill } from './icons/AudioLinesFill';
+export { AudioLines as AudioLinesIcon } from './icons/AudioLines';
+export { AudioLines as FoamAudioLines } from './icons/AudioLines';
 export { BadgeCheckboxDuotone as BadgeCheckboxDuotoneIcon } from './icons/BadgeCheckboxDuotone';
 export { BadgeCheckboxDuotone as FoamBadgeCheckboxDuotone } from './icons/BadgeCheckboxDuotone';
 export { BadgeCheckboxFill as BadgeCheckboxFillIcon } from './icons/BadgeCheckboxFill';
@@ -1632,6 +1653,18 @@ export { PaletteFill as PaletteFillIcon } from './icons/PaletteFill';
 export { PaletteFill as FoamPaletteFill } from './icons/PaletteFill';
 export { Palette as PaletteIcon } from './icons/Palette';
 export { Palette as FoamPalette } from './icons/Palette';
+export { PanelLeftChevronLeftDuotone as PanelLeftChevronLeftDuotoneIcon } from './icons/PanelLeftChevronLeftDuotone';
+export { PanelLeftChevronLeftDuotone as FoamPanelLeftChevronLeftDuotone } from './icons/PanelLeftChevronLeftDuotone';
+export { PanelLeftChevronLeftFill as PanelLeftChevronLeftFillIcon } from './icons/PanelLeftChevronLeftFill';
+export { PanelLeftChevronLeftFill as FoamPanelLeftChevronLeftFill } from './icons/PanelLeftChevronLeftFill';
+export { PanelLeftChevronLeft as PanelLeftChevronLeftIcon } from './icons/PanelLeftChevronLeft';
+export { PanelLeftChevronLeft as FoamPanelLeftChevronLeft } from './icons/PanelLeftChevronLeft';
+export { PanelLeftChevronRightDuotone as PanelLeftChevronRightDuotoneIcon } from './icons/PanelLeftChevronRightDuotone';
+export { PanelLeftChevronRightDuotone as FoamPanelLeftChevronRightDuotone } from './icons/PanelLeftChevronRightDuotone';
+export { PanelLeftChevronRightFill as PanelLeftChevronRightFillIcon } from './icons/PanelLeftChevronRightFill';
+export { PanelLeftChevronRightFill as FoamPanelLeftChevronRightFill } from './icons/PanelLeftChevronRightFill';
+export { PanelLeftChevronRight as PanelLeftChevronRightIcon } from './icons/PanelLeftChevronRight';
+export { PanelLeftChevronRight as FoamPanelLeftChevronRight } from './icons/PanelLeftChevronRight';
 export { PanelLeftDuotone as PanelLeftDuotoneIcon } from './icons/PanelLeftDuotone';
 export { PanelLeftDuotone as FoamPanelLeftDuotone } from './icons/PanelLeftDuotone';
 export { PanelLeftFill as PanelLeftFillIcon } from './icons/PanelLeftFill';
@@ -1644,6 +1677,12 @@ export { PanelRightFill as PanelRightFillIcon } from './icons/PanelRightFill';
 export { PanelRightFill as FoamPanelRightFill } from './icons/PanelRightFill';
 export { PanelRight as PanelRightIcon } from './icons/PanelRight';
 export { PanelRight as FoamPanelRight } from './icons/PanelRight';
+export { PauseDuotone as PauseDuotoneIcon } from './icons/PauseDuotone';
+export { PauseDuotone as FoamPauseDuotone } from './icons/PauseDuotone';
+export { PauseFill as PauseFillIcon } from './icons/PauseFill';
+export { PauseFill as FoamPauseFill } from './icons/PauseFill';
+export { Pause as PauseIcon } from './icons/Pause';
+export { Pause as FoamPause } from './icons/Pause';
 export { PencilDuotone as PencilDuotoneIcon } from './icons/PencilDuotone';
 export { PencilDuotone as FoamPencilDuotone } from './icons/PencilDuotone';
 export { PencilFill as PencilFillIcon } from './icons/PencilFill';
@@ -2034,6 +2073,12 @@ export { VolumeOffFill as VolumeOffFillIcon } from './icons/VolumeOffFill';
 export { VolumeOffFill as FoamVolumeOffFill } from './icons/VolumeOffFill';
 export { VolumeOff as VolumeOffIcon } from './icons/VolumeOff';
 export { VolumeOff as FoamVolumeOff } from './icons/VolumeOff';
+export { XDuotone as XDuotoneIcon } from './icons/XDuotone';
+export { XDuotone as FoamXDuotone } from './icons/XDuotone';
+export { XFill as XFillIcon } from './icons/XFill';
+export { XFill as FoamXFill } from './icons/XFill';
+export { X as XIcon } from './icons/X';
+export { X as FoamX } from './icons/X';
 export { ZapDuotone as ZapDuotoneIcon } from './icons/ZapDuotone';
 export { ZapDuotone as FoamZapDuotone } from './icons/ZapDuotone';
 export { ZapFill as ZapFillIcon } from './icons/ZapFill';
@@ -2046,6 +2091,24 @@ export { ZapOff as ZapOffIcon } from './icons/ZapOff';
 export { ZapOff as FoamZapOff } from './icons/ZapOff';
 export { Zap as ZapIcon } from './icons/Zap';
 export { Zap as FoamZap } from './icons/Zap';
+export { AudioLinesDuotone as SoundWaveDuotone } from './icons/AudioLinesDuotone';
+export { AudioLinesDuotone as SoundWaveDuotoneIcon } from './icons/AudioLinesDuotone';
+export { AudioLinesDuotone as FoamSoundWaveDuotone } from './icons/AudioLinesDuotone';
+export { AudioLinesFill as SoundWaveFill } from './icons/AudioLinesFill';
+export { AudioLinesFill as SoundWaveFillIcon } from './icons/AudioLinesFill';
+export { AudioLinesFill as FoamSoundWaveFill } from './icons/AudioLinesFill';
+export { AudioLines as SoundWave } from './icons/AudioLines';
+export { AudioLines as SoundWaveIcon } from './icons/AudioLines';
+export { AudioLines as FoamSoundWave } from './icons/AudioLines';
+export { AudioLinesDuotone as AudioEqualizerDuotone } from './icons/AudioLinesDuotone';
+export { AudioLinesDuotone as AudioEqualizerDuotoneIcon } from './icons/AudioLinesDuotone';
+export { AudioLinesDuotone as FoamAudioEqualizerDuotone } from './icons/AudioLinesDuotone';
+export { AudioLinesFill as AudioEqualizerFill } from './icons/AudioLinesFill';
+export { AudioLinesFill as AudioEqualizerFillIcon } from './icons/AudioLinesFill';
+export { AudioLinesFill as FoamAudioEqualizerFill } from './icons/AudioLinesFill';
+export { AudioLines as AudioEqualizer } from './icons/AudioLines';
+export { AudioLines as AudioEqualizerIcon } from './icons/AudioLines';
+export { AudioLines as FoamAudioEqualizer } from './icons/AudioLines';
 export { AlertDuotone as WarningDuotone } from './icons/AlertDuotone';
 export { AlertDuotone as WarningDuotoneIcon } from './icons/AlertDuotone';
 export { AlertDuotone as FoamWarningDuotone } from './icons/AlertDuotone';
@@ -2838,42 +2901,24 @@ export { CircleQuestionMarkFill as FoamSupportFill } from './icons/CircleQuestio
 export { CircleQuestionMark as Support } from './icons/CircleQuestionMark';
 export { CircleQuestionMark as SupportIcon } from './icons/CircleQuestionMark';
 export { CircleQuestionMark as FoamSupport } from './icons/CircleQuestionMark';
-export { CircleXDuotone as CloseDuotone } from './icons/CircleXDuotone';
-export { CircleXDuotone as CloseDuotoneIcon } from './icons/CircleXDuotone';
-export { CircleXDuotone as FoamCloseDuotone } from './icons/CircleXDuotone';
-export { CircleXFill as CloseFill } from './icons/CircleXFill';
-export { CircleXFill as CloseFillIcon } from './icons/CircleXFill';
-export { CircleXFill as FoamCloseFill } from './icons/CircleXFill';
-export { CircleX as Close } from './icons/CircleX';
-export { CircleX as CloseIcon } from './icons/CircleX';
-export { CircleX as FoamClose } from './icons/CircleX';
-export { CircleXDuotone as CancelDuotone } from './icons/CircleXDuotone';
-export { CircleXDuotone as CancelDuotoneIcon } from './icons/CircleXDuotone';
-export { CircleXDuotone as FoamCancelDuotone } from './icons/CircleXDuotone';
-export { CircleXFill as CancelFill } from './icons/CircleXFill';
-export { CircleXFill as CancelFillIcon } from './icons/CircleXFill';
-export { CircleXFill as FoamCancelFill } from './icons/CircleXFill';
-export { CircleX as Cancel } from './icons/CircleX';
-export { CircleX as CancelIcon } from './icons/CircleX';
-export { CircleX as FoamCancel } from './icons/CircleX';
-export { CircleXDuotone as XDuotone } from './icons/CircleXDuotone';
-export { CircleXDuotone as XDuotoneIcon } from './icons/CircleXDuotone';
-export { CircleXDuotone as FoamXDuotone } from './icons/CircleXDuotone';
-export { CircleXFill as XFill } from './icons/CircleXFill';
-export { CircleXFill as XFillIcon } from './icons/CircleXFill';
-export { CircleXFill as FoamXFill } from './icons/CircleXFill';
-export { CircleX as X } from './icons/CircleX';
-export { CircleX as XIcon } from './icons/CircleX';
-export { CircleX as FoamX } from './icons/CircleX';
-export { CircleXDuotone as TimesDuotone } from './icons/CircleXDuotone';
-export { CircleXDuotone as TimesDuotoneIcon } from './icons/CircleXDuotone';
-export { CircleXDuotone as FoamTimesDuotone } from './icons/CircleXDuotone';
-export { CircleXFill as TimesFill } from './icons/CircleXFill';
-export { CircleXFill as TimesFillIcon } from './icons/CircleXFill';
-export { CircleXFill as FoamTimesFill } from './icons/CircleXFill';
-export { CircleX as Times } from './icons/CircleX';
-export { CircleX as TimesIcon } from './icons/CircleX';
-export { CircleX as FoamTimes } from './icons/CircleX';
+export { CircleXDuotone as CloseCircleDuotone } from './icons/CircleXDuotone';
+export { CircleXDuotone as CloseCircleDuotoneIcon } from './icons/CircleXDuotone';
+export { CircleXDuotone as FoamCloseCircleDuotone } from './icons/CircleXDuotone';
+export { CircleXFill as CloseCircleFill } from './icons/CircleXFill';
+export { CircleXFill as CloseCircleFillIcon } from './icons/CircleXFill';
+export { CircleXFill as FoamCloseCircleFill } from './icons/CircleXFill';
+export { CircleX as CloseCircle } from './icons/CircleX';
+export { CircleX as CloseCircleIcon } from './icons/CircleX';
+export { CircleX as FoamCloseCircle } from './icons/CircleX';
+export { CircleXDuotone as CancelCircleDuotone } from './icons/CircleXDuotone';
+export { CircleXDuotone as CancelCircleDuotoneIcon } from './icons/CircleXDuotone';
+export { CircleXDuotone as FoamCancelCircleDuotone } from './icons/CircleXDuotone';
+export { CircleXFill as CancelCircleFill } from './icons/CircleXFill';
+export { CircleXFill as CancelCircleFillIcon } from './icons/CircleXFill';
+export { CircleXFill as FoamCancelCircleFill } from './icons/CircleXFill';
+export { CircleX as CancelCircle } from './icons/CircleX';
+export { CircleX as CancelCircleIcon } from './icons/CircleX';
+export { CircleX as FoamCancelCircle } from './icons/CircleX';
 export { CircleXDuotone as ClearDuotone } from './icons/CircleXDuotone';
 export { CircleXDuotone as ClearDuotoneIcon } from './icons/CircleXDuotone';
 export { CircleXDuotone as FoamClearDuotone } from './icons/CircleXDuotone';
@@ -4665,6 +4710,42 @@ export { PanelLeftFill as FoamDrawerLeftFill } from './icons/PanelLeftFill';
 export { PanelLeft as DrawerLeft } from './icons/PanelLeft';
 export { PanelLeft as DrawerLeftIcon } from './icons/PanelLeft';
 export { PanelLeft as FoamDrawerLeft } from './icons/PanelLeft';
+export { PanelLeftChevronLeftDuotone as SidebarCollapseDuotone } from './icons/PanelLeftChevronLeftDuotone';
+export { PanelLeftChevronLeftDuotone as SidebarCollapseDuotoneIcon } from './icons/PanelLeftChevronLeftDuotone';
+export { PanelLeftChevronLeftDuotone as FoamSidebarCollapseDuotone } from './icons/PanelLeftChevronLeftDuotone';
+export { PanelLeftChevronLeftFill as SidebarCollapseFill } from './icons/PanelLeftChevronLeftFill';
+export { PanelLeftChevronLeftFill as SidebarCollapseFillIcon } from './icons/PanelLeftChevronLeftFill';
+export { PanelLeftChevronLeftFill as FoamSidebarCollapseFill } from './icons/PanelLeftChevronLeftFill';
+export { PanelLeftChevronLeft as SidebarCollapse } from './icons/PanelLeftChevronLeft';
+export { PanelLeftChevronLeft as SidebarCollapseIcon } from './icons/PanelLeftChevronLeft';
+export { PanelLeftChevronLeft as FoamSidebarCollapse } from './icons/PanelLeftChevronLeft';
+export { PanelLeftChevronLeftDuotone as PanelCloseDuotone } from './icons/PanelLeftChevronLeftDuotone';
+export { PanelLeftChevronLeftDuotone as PanelCloseDuotoneIcon } from './icons/PanelLeftChevronLeftDuotone';
+export { PanelLeftChevronLeftDuotone as FoamPanelCloseDuotone } from './icons/PanelLeftChevronLeftDuotone';
+export { PanelLeftChevronLeftFill as PanelCloseFill } from './icons/PanelLeftChevronLeftFill';
+export { PanelLeftChevronLeftFill as PanelCloseFillIcon } from './icons/PanelLeftChevronLeftFill';
+export { PanelLeftChevronLeftFill as FoamPanelCloseFill } from './icons/PanelLeftChevronLeftFill';
+export { PanelLeftChevronLeft as PanelClose } from './icons/PanelLeftChevronLeft';
+export { PanelLeftChevronLeft as PanelCloseIcon } from './icons/PanelLeftChevronLeft';
+export { PanelLeftChevronLeft as FoamPanelClose } from './icons/PanelLeftChevronLeft';
+export { PanelLeftChevronRightDuotone as SidebarExpandDuotone } from './icons/PanelLeftChevronRightDuotone';
+export { PanelLeftChevronRightDuotone as SidebarExpandDuotoneIcon } from './icons/PanelLeftChevronRightDuotone';
+export { PanelLeftChevronRightDuotone as FoamSidebarExpandDuotone } from './icons/PanelLeftChevronRightDuotone';
+export { PanelLeftChevronRightFill as SidebarExpandFill } from './icons/PanelLeftChevronRightFill';
+export { PanelLeftChevronRightFill as SidebarExpandFillIcon } from './icons/PanelLeftChevronRightFill';
+export { PanelLeftChevronRightFill as FoamSidebarExpandFill } from './icons/PanelLeftChevronRightFill';
+export { PanelLeftChevronRight as SidebarExpand } from './icons/PanelLeftChevronRight';
+export { PanelLeftChevronRight as SidebarExpandIcon } from './icons/PanelLeftChevronRight';
+export { PanelLeftChevronRight as FoamSidebarExpand } from './icons/PanelLeftChevronRight';
+export { PanelLeftChevronRightDuotone as PanelOpenDuotone } from './icons/PanelLeftChevronRightDuotone';
+export { PanelLeftChevronRightDuotone as PanelOpenDuotoneIcon } from './icons/PanelLeftChevronRightDuotone';
+export { PanelLeftChevronRightDuotone as FoamPanelOpenDuotone } from './icons/PanelLeftChevronRightDuotone';
+export { PanelLeftChevronRightFill as PanelOpenFill } from './icons/PanelLeftChevronRightFill';
+export { PanelLeftChevronRightFill as PanelOpenFillIcon } from './icons/PanelLeftChevronRightFill';
+export { PanelLeftChevronRightFill as FoamPanelOpenFill } from './icons/PanelLeftChevronRightFill';
+export { PanelLeftChevronRight as PanelOpen } from './icons/PanelLeftChevronRight';
+export { PanelLeftChevronRight as PanelOpenIcon } from './icons/PanelLeftChevronRight';
+export { PanelLeftChevronRight as FoamPanelOpen } from './icons/PanelLeftChevronRight';
 export { PanelRightDuotone as SidebarRightDuotone } from './icons/PanelRightDuotone';
 export { PanelRightDuotone as SidebarRightDuotoneIcon } from './icons/PanelRightDuotone';
 export { PanelRightDuotone as FoamSidebarRightDuotone } from './icons/PanelRightDuotone';
@@ -4710,6 +4791,24 @@ export { PaletteFill as FoamSwatchFill } from './icons/PaletteFill';
 export { Palette as Swatch } from './icons/Palette';
 export { Palette as SwatchIcon } from './icons/Palette';
 export { Palette as FoamSwatch } from './icons/Palette';
+export { PauseDuotone as HoldDuotone } from './icons/PauseDuotone';
+export { PauseDuotone as HoldDuotoneIcon } from './icons/PauseDuotone';
+export { PauseDuotone as FoamHoldDuotone } from './icons/PauseDuotone';
+export { PauseFill as HoldFill } from './icons/PauseFill';
+export { PauseFill as HoldFillIcon } from './icons/PauseFill';
+export { PauseFill as FoamHoldFill } from './icons/PauseFill';
+export { Pause as Hold } from './icons/Pause';
+export { Pause as HoldIcon } from './icons/Pause';
+export { Pause as FoamHold } from './icons/Pause';
+export { PauseDuotone as SuspendDuotone } from './icons/PauseDuotone';
+export { PauseDuotone as SuspendDuotoneIcon } from './icons/PauseDuotone';
+export { PauseDuotone as FoamSuspendDuotone } from './icons/PauseDuotone';
+export { PauseFill as SuspendFill } from './icons/PauseFill';
+export { PauseFill as SuspendFillIcon } from './icons/PauseFill';
+export { PauseFill as FoamSuspendFill } from './icons/PauseFill';
+export { Pause as Suspend } from './icons/Pause';
+export { Pause as SuspendIcon } from './icons/Pause';
+export { Pause as FoamSuspend } from './icons/Pause';
 export { PencilDuotone as EditDuotone } from './icons/PencilDuotone';
 export { PencilDuotone as EditDuotoneIcon } from './icons/PencilDuotone';
 export { PencilDuotone as FoamEditDuotone } from './icons/PencilDuotone';
@@ -6276,6 +6375,42 @@ export { ZapOffFill as FoamPowerOffFill } from './icons/ZapOffFill';
 export { ZapOff as PowerOff } from './icons/ZapOff';
 export { ZapOff as PowerOffIcon } from './icons/ZapOff';
 export { ZapOff as FoamPowerOff } from './icons/ZapOff';
+export { XDuotone as CloseDuotone } from './icons/XDuotone';
+export { XDuotone as CloseDuotoneIcon } from './icons/XDuotone';
+export { XDuotone as FoamCloseDuotone } from './icons/XDuotone';
+export { XFill as CloseFill } from './icons/XFill';
+export { XFill as CloseFillIcon } from './icons/XFill';
+export { XFill as FoamCloseFill } from './icons/XFill';
+export { X as Close } from './icons/X';
+export { X as CloseIcon } from './icons/X';
+export { X as FoamClose } from './icons/X';
+export { XDuotone as CancelDuotone } from './icons/XDuotone';
+export { XDuotone as CancelDuotoneIcon } from './icons/XDuotone';
+export { XDuotone as FoamCancelDuotone } from './icons/XDuotone';
+export { XFill as CancelFill } from './icons/XFill';
+export { XFill as CancelFillIcon } from './icons/XFill';
+export { XFill as FoamCancelFill } from './icons/XFill';
+export { X as Cancel } from './icons/X';
+export { X as CancelIcon } from './icons/X';
+export { X as FoamCancel } from './icons/X';
+export { XDuotone as TimesDuotone } from './icons/XDuotone';
+export { XDuotone as TimesDuotoneIcon } from './icons/XDuotone';
+export { XDuotone as FoamTimesDuotone } from './icons/XDuotone';
+export { XFill as TimesFill } from './icons/XFill';
+export { XFill as TimesFillIcon } from './icons/XFill';
+export { XFill as FoamTimesFill } from './icons/XFill';
+export { X as Times } from './icons/X';
+export { X as TimesIcon } from './icons/X';
+export { X as FoamTimes } from './icons/X';
+export { XDuotone as DismissDuotone } from './icons/XDuotone';
+export { XDuotone as DismissDuotoneIcon } from './icons/XDuotone';
+export { XDuotone as FoamDismissDuotone } from './icons/XDuotone';
+export { XFill as DismissFill } from './icons/XFill';
+export { XFill as DismissFillIcon } from './icons/XFill';
+export { XFill as FoamDismissFill } from './icons/XFill';
+export { X as Dismiss } from './icons/X';
+export { X as DismissIcon } from './icons/X';
+export { X as FoamDismiss } from './icons/X';
 export { LogoFacebookFill } from './logos/LogoFacebookFill';
 export { LogoFacebook } from './logos/LogoFacebook';
 export { LogoFileDark } from './logos/LogoFileDark';
@@ -6377,16 +6512,20 @@ export { LogoYoutube as LogoYoutubeIcon } from './logos/LogoYoutube';
 export { LogoYoutube as FoamLogoYoutube } from './logos/LogoYoutube';
 
 // Icon names for tooling
-export const iconNames = ["Alert","AlertDuotone","AlertFill","Archive","ArchiveArrowUp","ArchiveArrowUpDuotone","ArchiveArrowUpFill","ArchiveDuotone","ArchiveFill","ArrowDown","ArrowDown01","ArrowDown01Duotone","ArrowDown01Fill","ArrowDown10","ArrowDown10Duotone","ArrowDown10Fill","ArrowDownCog","ArrowDownCogDuotone","ArrowDownCogFill","ArrowDownDuotone","ArrowDownFill","ArrowDownIG","ArrowDownIGDuotone","ArrowDownIGFill","ArrowDownLeft","ArrowDownLeftDuotone","ArrowDownLeftFill","ArrowDownMapPin","ArrowDownMapPinDuotone","ArrowDownMapPinFill","ArrowDownNarrowWide","ArrowDownNarrowWideDuotone","ArrowDownNarrowWideFill","ArrowDownRight","ArrowDownRightDuotone","ArrowDownRightFill","ArrowDownSC","ArrowDownSCDuotone","ArrowDownSCFill","ArrowDownTT","ArrowDownTTDuotone","ArrowDownTTFill","ArrowDownUp","ArrowDownUpDuotone","ArrowDownUpFill","ArrowDownWideNarrow","ArrowDownWideNarrowDuotone","ArrowDownWideNarrowFill","ArrowDownYT","ArrowDownYTDuotone","ArrowDownYTFill","ArrowLeft","ArrowLeftDuotone","ArrowLeftFill","ArrowRight","ArrowRightDuotone","ArrowRightFill","ArrowRightToLine","ArrowRightToLineDuotone","ArrowRightToLineFill","ArrowUp","ArrowUpAZ","ArrowUpAZDuotone","ArrowUpAZFill","ArrowUpCog","ArrowUpCogDuotone","ArrowUpCogFill","ArrowUpDuotone","ArrowUpFill","ArrowUpIG","ArrowUpIGDuotone","ArrowUpIGFill","ArrowUpLeft","ArrowUpLeftDuotone","ArrowUpLeftFill","ArrowUpMapPin","ArrowUpMapPinDuotone","ArrowUpMapPinFill","ArrowUpNarrowWide","ArrowUpNarrowWideDuotone","ArrowUpNarrowWideFill","ArrowUpRight","ArrowUpRightDuotone","ArrowUpRightFill","ArrowUpSC","ArrowUpSCDuotone","ArrowUpSCFill","ArrowUpTT","ArrowUpTTDuotone","ArrowUpTTFill","ArrowUpWideNarrow","ArrowUpWideNarrowDuotone","ArrowUpWideNarrowFill","ArrowUpYT","ArrowUpYTDuotone","ArrowUpYTFill","ArrowUpZA","ArrowUpZADuotone","ArrowUpZAFill","AtSign","AtSignDuotone","AtSignFill","BadgeCheckbox","BadgeCheckboxDuotone","BadgeCheckboxFill","Ban","BanDuotone","BanFill","Bell","BellDuotone","BellFill","Bold","BoldDuotone","BoldFill","Bookmark","BookmarkDuotone","BookmarkFill","Brain","BrainDuotone","BrainFill","Calendar","CalendarDuotone","CalendarFill","ChartArea","ChartAreaDuotone","ChartAreaFill","ChartBarStacked","ChartBarStackedDuotone","ChartBarStackedFill","ChartColumn","ChartColumnDuotone","ChartColumnFill","ChartColumnSquare","ChartColumnSquareDuotone","ChartColumnSquareFill","ChartNetwork","ChartNetworkDuotone","ChartNetworkFill","ChartNoAxesCombined","ChartNoAxesCombinedDuotone","ChartNoAxesCombinedFill","ChartPie","ChartPieDuotone","ChartPieFill","Checkbox","CheckboxDuotone","CheckboxFill","Checkmark","CheckmarkDuotone","CheckmarkFill","ChevronDown","ChevronDownDuotone","ChevronDownFill","ChevronLeft","ChevronLeftDuotone","ChevronLeftFill","ChevronRight","ChevronRightDuotone","ChevronRightFill","ChevronUp","ChevronUpDown","ChevronUpDownDuotone","ChevronUpDownFill","ChevronUpDuotone","ChevronUpFill","Circle","CircleAlert","CircleAlertDuotone","CircleAlertFill","CircleCheck","CircleCheckDuotone","CircleCheckFill","CircleDashed","CircleDashedDuotone","CircleDashedFill","CircleDollarSign","CircleDollarSignDuotone","CircleDollarSignFill","CircleDuotone","CircleFill","CircleOverlap","CircleOverlapDuotone","CircleOverlapFill","CirclePlus","CirclePlusDuotone","CirclePlusFill","CircleQuestionMark","CircleQuestionMarkDuotone","CircleQuestionMarkFill","CircleX","CircleXDuotone","CircleXFill","ClipboardList","ClipboardListDuotone","ClipboardListFill","Clock","ClockArrowDown","ClockArrowDownDuotone","ClockArrowDownFill","ClockArrowUp","ClockArrowUpDuotone","ClockArrowUpFill","ClockDuotone","ClockFill","ClosedCaption","ClosedCaptionDuotone","ClosedCaptionFill","Cog","CogDuotone","CogFill","Columns3","Columns3Duotone","Columns3Fill","Command","CommandDuotone","CommandFill","ContentHeart","ContentHeartDuotone","ContentHeartFill","ContentPlus","ContentPlusDuotone","ContentPlusFill","ContentUser","ContentUserDuotone","ContentUserFill","Copy","CopyDuotone","CopyFill","Download","DownloadDuotone","DownloadFill","Eclipse","EclipseDuotone","EclipseFill","Ellipsis","EllipsisDuotone","EllipsisFill","EllipsisVertical","EllipsisVerticalDuotone","EllipsisVerticalFill","ExternalLink","ExternalLinkDuotone","ExternalLinkFill","Eye","EyeDuotone","EyeFill","EyeOff","EyeOffDuotone","EyeOffFill","File","FileArrowDown","FileArrowDownDuotone","FileArrowDownFill","FileArrowLeft","FileArrowLeftDuotone","FileArrowLeftFill","FileArrowLeftRight","FileArrowLeftRightDuotone","FileArrowLeftRightFill","FileArrowRight","FileArrowRightDuotone","FileArrowRightFill","FileArrowUp","FileArrowUpDuotone","FileArrowUpFill","FileChartColumn","FileChartColumnDuotone","FileChartColumnFill","FileCheck","FileCheckDuotone","FileCheckFill","FileCog","FileCogDuotone","FileCogFill","FileDuotone","FileFill","FileImage","FileImageDuotone","FileImageFill","FilePlus","FilePlusDuotone","FilePlusFill","FileUser","FileUserDuotone","FileUserFill","FileX","FileXDuotone","FileXFill","Flame","FlameDuotone","FlameFill","Folder","FolderChartColumn","FolderChartColumnDuotone","FolderChartColumnFill","FolderCheck","FolderCheckDuotone","FolderCheckFill","FolderCog","FolderCogDuotone","FolderCogFill","FolderDuotone","FolderFill","FolderPlus","FolderPlusDuotone","FolderPlusFill","FolderX","FolderXDuotone","FolderXFill","Frown","FrownDuotone","FrownFill","Fullscreen","FullscreenDuotone","FullscreenFill","GalleryHorizontal","GalleryHorizontalDuotone","GalleryHorizontalEnd","GalleryHorizontalEndDuotone","GalleryHorizontalEndFill","GalleryHorizontalFill","GalleryThumbnails","GalleryThumbnailsDuotone","GalleryThumbnailsFill","GalleryVertical","GalleryVerticalDuotone","GalleryVerticalEnd","GalleryVerticalEndDuotone","GalleryVerticalEndFill","GalleryVerticalFill","Globe","GlobeDuotone","GlobeFill","Grip","GripDuotone","GripFill","GripHorizontal","GripHorizontalDuotone","GripHorizontalFill","GripVertical","GripVerticalDuotone","GripVerticalFill","Heart","HeartDuotone","HeartFill","History","HistoryDuotone","HistoryFill","Hotspot","HotspotDuotone","HotspotFill","House","HouseDuotone","HouseFill","Image","ImageDuotone","ImageFill","Images","ImagesDuotone","ImagesFill","Inbox","InboxDuotone","InboxFill","Info","InfoDuotone","InfoFill","Italic","ItalicDuotone","ItalicFill","LayoutDashboard","LayoutDashboardDuotone","LayoutDashboardFill","LayoutGrid","LayoutGridDuotone","LayoutGridFill","LayoutList","LayoutListDuotone","LayoutListFill","LayoutPanelBottom","LayoutPanelBottomDuotone","LayoutPanelBottomFill","LayoutPanelLeft","LayoutPanelLeftDuotone","LayoutPanelLeftFill","LayoutPanelRight","LayoutPanelRightDuotone","LayoutPanelRightFill","LayoutPanelTop","LayoutPanelTopDuotone","LayoutPanelTopFill","LayoutRows","LayoutRowsDuotone","LayoutRowsFill","LayoutTemplate","LayoutTemplateDuotone","LayoutTemplateFill","Link","LinkDuotone","LinkFill","List","ListDuotone","ListFill","ListFilter","ListFilterDuotone","ListFilterFill","ListIndentDecrease","ListIndentDecreaseDuotone","ListIndentDecreaseFill","ListIndentIncrease","ListIndentIncreaseDuotone","ListIndentIncreaseFill","ListOrdered","ListOrderedDuotone","ListOrderedFill","LoaderCircle","LoaderCircleDuotone","LoaderCircleFill","Lock","LockDuotone","LockFill","LogOut","LogOutDuotone","LogOutFill","Mail","MailDuotone","MailFill","MailMove","MailMoveDuotone","MailMoveFill","MailPlus","MailPlusDuotone","MailPlusFill","MapPin","MapPinDuotone","MapPinFill","Maximize","MaximizeDuotone","MaximizeFill","Megaphone","MegaphoneActive","MegaphoneActiveDuotone","MegaphoneActiveFill","MegaphoneDuotone","MegaphoneFill","Menu","MenuDuotone","MenuFill","MessageSquare","MessageSquareDuotone","MessageSquareFill","MessagesSquare","MessagesSquareDuotone","MessagesSquareFill","Minus","MinusDuotone","MinusFill","Moon","MoonDuotone","MoonFill","MousePointerClick","MousePointerClickDuotone","MousePointerClickFill","Move","MoveDuotone","MoveFill","Notebook","NotebookDuotone","NotebookFill","Office","OfficeDuotone","OfficeFill","Palette","PaletteDuotone","PaletteFill","PanelLeft","PanelLeftDuotone","PanelLeftFill","PanelRight","PanelRightDuotone","PanelRightFill","Pencil","PencilDuotone","PencilFill","Pin","PinDuotone","PinFill","Play","PlayDuotone","PlayFill","Plus","PlusDuotone","PlusFill","Pointer","PointerDuotone","PointerFill","QuotationMarkLeft","QuotationMarkLeftDuotone","QuotationMarkLeftFill","QuotationMarkRight","QuotationMarkRightDuotone","QuotationMarkRightFill","Reach","ReachDuotone","ReachFill","Reel","ReelDuotone","ReelFill","RefreshCw","RefreshCwDuotone","RefreshCwFill","RemoveFormatting","RemoveFormattingDuotone","RemoveFormattingFill","Reply","ReplyDuotone","ReplyFill","Rocket","RocketDuotone","RocketFill","Rolodex","RolodexDuotone","RolodexFill","RotateCcw","RotateCcwDuotone","RotateCcwFill","RotateCw","RotateCwDuotone","RotateCwFill","Save","SaveDuotone","SaveFill","Search","SearchDuotone","SearchFill","SearchUser","SearchUserDuotone","SearchUserFill","Share","ShareDuotone","ShareFill","Shield","ShieldCheck","ShieldCheckDuotone","ShieldCheckFill","ShieldDuotone","ShieldFill","ShieldOff","ShieldOffDuotone","ShieldOffFill","ShieldPlus","ShieldPlusDuotone","ShieldPlusFill","ShieldUser","ShieldUserDuotone","ShieldUserFill","ShieldX","ShieldXDuotone","ShieldXFill","Slash","SlashDuotone","SlashFill","SlidersHorizontal","SlidersHorizontalDuotone","SlidersHorizontalFill","Smile","SmileDuotone","SmileFill","Sparkles","SparklesDuotone","SparklesFill","Square","SquareDuotone","SquareFill","SquarePen","SquarePenDuotone","SquarePenFill","Star","StarDuotone","StarFill","Sun","SunDuotone","SunFill","Tag","TagDuotone","TagFill","Tags","TagsDuotone","TagsFill","Target","TargetDuotone","TargetFill","TextAlignCenter","TextAlignCenterDuotone","TextAlignCenterFill","TextAlignEnd","TextAlignEndDuotone","TextAlignEndFill","TextAlignJustify","TextAlignJustifyDuotone","TextAlignJustifyFill","TextAlignStart","TextAlignStartDuotone","TextAlignStartFill","ThumbsDown","ThumbsDownDuotone","ThumbsDownFill","ThumbsUp","ThumbsUpDuotone","ThumbsUpFill","ToolCase","ToolCaseDuotone","ToolCaseFill","Trash","TrashDuotone","TrashEmpty","TrashEmptyDuotone","TrashEmptyFill","TrashFill","TrendingDown","TrendingDownDuotone","TrendingDownFill","TrendingUp","TrendingUpDuotone","TrendingUpFill","TriangleDown","TriangleDownDuotone","TriangleDownFill","TriangleDownUp","TriangleDownUpDuotone","TriangleDownUpFill","TriangleUp","TriangleUpDuotone","TriangleUpFill","Unlink","UnlinkDuotone","UnlinkFill","Unlock","UnlockDuotone","UnlockFill","Upload","UploadDuotone","UploadFill","User","UserArrowLeft","UserArrowLeftDuotone","UserArrowLeftFill","UserArrowLeftRight","UserArrowLeftRightDuotone","UserArrowLeftRightFill","UserArrowOutUpRight","UserArrowOutUpRightDuotone","UserArrowOutUpRightFill","UserArrowRight","UserArrowRightDuotone","UserArrowRightFill","UserCog","UserCogDuotone","UserCogFill","UserDuotone","UserFill","UserPlus","UserPlusDuotone","UserPlusFill","Users","UsersDuotone","UsersFill","Video","VideoDuotone","VideoFill","Volume2","Volume2Duotone","Volume2Fill","VolumeOff","VolumeOffDuotone","VolumeOffFill","Zap","ZapDuotone","ZapFill","ZapOff","ZapOffDuotone","ZapOffFill"] as const;
+export const iconNames = ["Alert","AlertDuotone","AlertFill","Archive","ArchiveArrowUp","ArchiveArrowUpDuotone","ArchiveArrowUpFill","ArchiveDuotone","ArchiveFill","ArrowDown","ArrowDown01","ArrowDown01Duotone","ArrowDown01Fill","ArrowDown10","ArrowDown10Duotone","ArrowDown10Fill","ArrowDownCog","ArrowDownCogDuotone","ArrowDownCogFill","ArrowDownDuotone","ArrowDownFill","ArrowDownIG","ArrowDownIGDuotone","ArrowDownIGFill","ArrowDownLeft","ArrowDownLeftDuotone","ArrowDownLeftFill","ArrowDownMapPin","ArrowDownMapPinDuotone","ArrowDownMapPinFill","ArrowDownNarrowWide","ArrowDownNarrowWideDuotone","ArrowDownNarrowWideFill","ArrowDownRight","ArrowDownRightDuotone","ArrowDownRightFill","ArrowDownSC","ArrowDownSCDuotone","ArrowDownSCFill","ArrowDownTT","ArrowDownTTDuotone","ArrowDownTTFill","ArrowDownUp","ArrowDownUpDuotone","ArrowDownUpFill","ArrowDownWideNarrow","ArrowDownWideNarrowDuotone","ArrowDownWideNarrowFill","ArrowDownYT","ArrowDownYTDuotone","ArrowDownYTFill","ArrowLeft","ArrowLeftDuotone","ArrowLeftFill","ArrowRight","ArrowRightDuotone","ArrowRightFill","ArrowRightToLine","ArrowRightToLineDuotone","ArrowRightToLineFill","ArrowUp","ArrowUpAZ","ArrowUpAZDuotone","ArrowUpAZFill","ArrowUpCog","ArrowUpCogDuotone","ArrowUpCogFill","ArrowUpDuotone","ArrowUpFill","ArrowUpIG","ArrowUpIGDuotone","ArrowUpIGFill","ArrowUpLeft","ArrowUpLeftDuotone","ArrowUpLeftFill","ArrowUpMapPin","ArrowUpMapPinDuotone","ArrowUpMapPinFill","ArrowUpNarrowWide","ArrowUpNarrowWideDuotone","ArrowUpNarrowWideFill","ArrowUpRight","ArrowUpRightDuotone","ArrowUpRightFill","ArrowUpSC","ArrowUpSCDuotone","ArrowUpSCFill","ArrowUpTT","ArrowUpTTDuotone","ArrowUpTTFill","ArrowUpWideNarrow","ArrowUpWideNarrowDuotone","ArrowUpWideNarrowFill","ArrowUpYT","ArrowUpYTDuotone","ArrowUpYTFill","ArrowUpZA","ArrowUpZADuotone","ArrowUpZAFill","AtSign","AtSignDuotone","AtSignFill","AudioLines","AudioLinesDuotone","AudioLinesFill","BadgeCheckbox","BadgeCheckboxDuotone","BadgeCheckboxFill","Ban","BanDuotone","BanFill","Bell","BellDuotone","BellFill","Bold","BoldDuotone","BoldFill","Bookmark","BookmarkDuotone","BookmarkFill","Brain","BrainDuotone","BrainFill","Calendar","CalendarDuotone","CalendarFill","ChartArea","ChartAreaDuotone","ChartAreaFill","ChartBarStacked","ChartBarStackedDuotone","ChartBarStackedFill","ChartColumn","ChartColumnDuotone","ChartColumnFill","ChartColumnSquare","ChartColumnSquareDuotone","ChartColumnSquareFill","ChartNetwork","ChartNetworkDuotone","ChartNetworkFill","ChartNoAxesCombined","ChartNoAxesCombinedDuotone","ChartNoAxesCombinedFill","ChartPie","ChartPieDuotone","ChartPieFill","Checkbox","CheckboxDuotone","CheckboxFill","Checkmark","CheckmarkDuotone","CheckmarkFill","ChevronDown","ChevronDownDuotone","ChevronDownFill","ChevronLeft","ChevronLeftDuotone","ChevronLeftFill","ChevronRight","ChevronRightDuotone","ChevronRightFill","ChevronUp","ChevronUpDown","ChevronUpDownDuotone","ChevronUpDownFill","ChevronUpDuotone","ChevronUpFill","Circle","CircleAlert","CircleAlertDuotone","CircleAlertFill","CircleCheck","CircleCheckDuotone","CircleCheckFill","CircleDashed","CircleDashedDuotone","CircleDashedFill","CircleDollarSign","CircleDollarSignDuotone","CircleDollarSignFill","CircleDuotone","CircleFill","CircleOverlap","CircleOverlapDuotone","CircleOverlapFill","CirclePlus","CirclePlusDuotone","CirclePlusFill","CircleQuestionMark","CircleQuestionMarkDuotone","CircleQuestionMarkFill","CircleX","CircleXDuotone","CircleXFill","ClipboardList","ClipboardListDuotone","ClipboardListFill","Clock","ClockArrowDown","ClockArrowDownDuotone","ClockArrowDownFill","ClockArrowUp","ClockArrowUpDuotone","ClockArrowUpFill","ClockDuotone","ClockFill","ClosedCaption","ClosedCaptionDuotone","ClosedCaptionFill","Cog","CogDuotone","CogFill","Columns3","Columns3Duotone","Columns3Fill","Command","CommandDuotone","CommandFill","ContentHeart","ContentHeartDuotone","ContentHeartFill","ContentPlus","ContentPlusDuotone","ContentPlusFill","ContentUser","ContentUserDuotone","ContentUserFill","Copy","CopyDuotone","CopyFill","Download","DownloadDuotone","DownloadFill","Eclipse","EclipseDuotone","EclipseFill","Ellipsis","EllipsisDuotone","EllipsisFill","EllipsisVertical","EllipsisVerticalDuotone","EllipsisVerticalFill","ExternalLink","ExternalLinkDuotone","ExternalLinkFill","Eye","EyeDuotone","EyeFill","EyeOff","EyeOffDuotone","EyeOffFill","File","FileArrowDown","FileArrowDownDuotone","FileArrowDownFill","FileArrowLeft","FileArrowLeftDuotone","FileArrowLeftFill","FileArrowLeftRight","FileArrowLeftRightDuotone","FileArrowLeftRightFill","FileArrowRight","FileArrowRightDuotone","FileArrowRightFill","FileArrowUp","FileArrowUpDuotone","FileArrowUpFill","FileChartColumn","FileChartColumnDuotone","FileChartColumnFill","FileCheck","FileCheckDuotone","FileCheckFill","FileCog","FileCogDuotone","FileCogFill","FileDuotone","FileFill","FileImage","FileImageDuotone","FileImageFill","FilePlus","FilePlusDuotone","FilePlusFill","FileUser","FileUserDuotone","FileUserFill","FileX","FileXDuotone","FileXFill","Flame","FlameDuotone","FlameFill","Folder","FolderChartColumn","FolderChartColumnDuotone","FolderChartColumnFill","FolderCheck","FolderCheckDuotone","FolderCheckFill","FolderCog","FolderCogDuotone","FolderCogFill","FolderDuotone","FolderFill","FolderPlus","FolderPlusDuotone","FolderPlusFill","FolderX","FolderXDuotone","FolderXFill","Frown","FrownDuotone","FrownFill","Fullscreen","FullscreenDuotone","FullscreenFill","GalleryHorizontal","GalleryHorizontalDuotone","GalleryHorizontalEnd","GalleryHorizontalEndDuotone","GalleryHorizontalEndFill","GalleryHorizontalFill","GalleryThumbnails","GalleryThumbnailsDuotone","GalleryThumbnailsFill","GalleryVertical","GalleryVerticalDuotone","GalleryVerticalEnd","GalleryVerticalEndDuotone","GalleryVerticalEndFill","GalleryVerticalFill","Globe","GlobeDuotone","GlobeFill","Grip","GripDuotone","GripFill","GripHorizontal","GripHorizontalDuotone","GripHorizontalFill","GripVertical","GripVerticalDuotone","GripVerticalFill","Heart","HeartDuotone","HeartFill","History","HistoryDuotone","HistoryFill","Hotspot","HotspotDuotone","HotspotFill","House","HouseDuotone","HouseFill","Image","ImageDuotone","ImageFill","Images","ImagesDuotone","ImagesFill","Inbox","InboxDuotone","InboxFill","Info","InfoDuotone","InfoFill","Italic","ItalicDuotone","ItalicFill","LayoutDashboard","LayoutDashboardDuotone","LayoutDashboardFill","LayoutGrid","LayoutGridDuotone","LayoutGridFill","LayoutList","LayoutListDuotone","LayoutListFill","LayoutPanelBottom","LayoutPanelBottomDuotone","LayoutPanelBottomFill","LayoutPanelLeft","LayoutPanelLeftDuotone","LayoutPanelLeftFill","LayoutPanelRight","LayoutPanelRightDuotone","LayoutPanelRightFill","LayoutPanelTop","LayoutPanelTopDuotone","LayoutPanelTopFill","LayoutRows","LayoutRowsDuotone","LayoutRowsFill","LayoutTemplate","LayoutTemplateDuotone","LayoutTemplateFill","Link","LinkDuotone","LinkFill","List","ListDuotone","ListFill","ListFilter","ListFilterDuotone","ListFilterFill","ListIndentDecrease","ListIndentDecreaseDuotone","ListIndentDecreaseFill","ListIndentIncrease","ListIndentIncreaseDuotone","ListIndentIncreaseFill","ListOrdered","ListOrderedDuotone","ListOrderedFill","LoaderCircle","LoaderCircleDuotone","LoaderCircleFill","Lock","LockDuotone","LockFill","LogOut","LogOutDuotone","LogOutFill","Mail","MailDuotone","MailFill","MailMove","MailMoveDuotone","MailMoveFill","MailPlus","MailPlusDuotone","MailPlusFill","MapPin","MapPinDuotone","MapPinFill","Maximize","MaximizeDuotone","MaximizeFill","Megaphone","MegaphoneActive","MegaphoneActiveDuotone","MegaphoneActiveFill","MegaphoneDuotone","MegaphoneFill","Menu","MenuDuotone","MenuFill","MessageSquare","MessageSquareDuotone","MessageSquareFill","MessagesSquare","MessagesSquareDuotone","MessagesSquareFill","Minus","MinusDuotone","MinusFill","Moon","MoonDuotone","MoonFill","MousePointerClick","MousePointerClickDuotone","MousePointerClickFill","Move","MoveDuotone","MoveFill","Notebook","NotebookDuotone","NotebookFill","Office","OfficeDuotone","OfficeFill","Palette","PaletteDuotone","PaletteFill","PanelLeft","PanelLeftChevronLeft","PanelLeftChevronLeftDuotone","PanelLeftChevronLeftFill","PanelLeftChevronRight","PanelLeftChevronRightDuotone","PanelLeftChevronRightFill","PanelLeftDuotone","PanelLeftFill","PanelRight","PanelRightDuotone","PanelRightFill","Pause","PauseDuotone","PauseFill","Pencil","PencilDuotone","PencilFill","Pin","PinDuotone","PinFill","Play","PlayDuotone","PlayFill","Plus","PlusDuotone","PlusFill","Pointer","PointerDuotone","PointerFill","QuotationMarkLeft","QuotationMarkLeftDuotone","QuotationMarkLeftFill","QuotationMarkRight","QuotationMarkRightDuotone","QuotationMarkRightFill","Reach","ReachDuotone","ReachFill","Reel","ReelDuotone","ReelFill","RefreshCw","RefreshCwDuotone","RefreshCwFill","RemoveFormatting","RemoveFormattingDuotone","RemoveFormattingFill","Reply","ReplyDuotone","ReplyFill","Rocket","RocketDuotone","RocketFill","Rolodex","RolodexDuotone","RolodexFill","RotateCcw","RotateCcwDuotone","RotateCcwFill","RotateCw","RotateCwDuotone","RotateCwFill","Save","SaveDuotone","SaveFill","Search","SearchDuotone","SearchFill","SearchUser","SearchUserDuotone","SearchUserFill","Share","ShareDuotone","ShareFill","Shield","ShieldCheck","ShieldCheckDuotone","ShieldCheckFill","ShieldDuotone","ShieldFill","ShieldOff","ShieldOffDuotone","ShieldOffFill","ShieldPlus","ShieldPlusDuotone","ShieldPlusFill","ShieldUser","ShieldUserDuotone","ShieldUserFill","ShieldX","ShieldXDuotone","ShieldXFill","Slash","SlashDuotone","SlashFill","SlidersHorizontal","SlidersHorizontalDuotone","SlidersHorizontalFill","Smile","SmileDuotone","SmileFill","Sparkles","SparklesDuotone","SparklesFill","Square","SquareDuotone","SquareFill","SquarePen","SquarePenDuotone","SquarePenFill","Star","StarDuotone","StarFill","Sun","SunDuotone","SunFill","Tag","TagDuotone","TagFill","Tags","TagsDuotone","TagsFill","Target","TargetDuotone","TargetFill","TextAlignCenter","TextAlignCenterDuotone","TextAlignCenterFill","TextAlignEnd","TextAlignEndDuotone","TextAlignEndFill","TextAlignJustify","TextAlignJustifyDuotone","TextAlignJustifyFill","TextAlignStart","TextAlignStartDuotone","TextAlignStartFill","ThumbsDown","ThumbsDownDuotone","ThumbsDownFill","ThumbsUp","ThumbsUpDuotone","ThumbsUpFill","ToolCase","ToolCaseDuotone","ToolCaseFill","Trash","TrashDuotone","TrashEmpty","TrashEmptyDuotone","TrashEmptyFill","TrashFill","TrendingDown","TrendingDownDuotone","TrendingDownFill","TrendingUp","TrendingUpDuotone","TrendingUpFill","TriangleDown","TriangleDownDuotone","TriangleDownFill","TriangleDownUp","TriangleDownUpDuotone","TriangleDownUpFill","TriangleUp","TriangleUpDuotone","TriangleUpFill","Unlink","UnlinkDuotone","UnlinkFill","Unlock","UnlockDuotone","UnlockFill","Upload","UploadDuotone","UploadFill","User","UserArrowLeft","UserArrowLeftDuotone","UserArrowLeftFill","UserArrowLeftRight","UserArrowLeftRightDuotone","UserArrowLeftRightFill","UserArrowOutUpRight","UserArrowOutUpRightDuotone","UserArrowOutUpRightFill","UserArrowRight","UserArrowRightDuotone","UserArrowRightFill","UserCog","UserCogDuotone","UserCogFill","UserDuotone","UserFill","UserPlus","UserPlusDuotone","UserPlusFill","Users","UsersDuotone","UsersFill","Video","VideoDuotone","VideoFill","Volume2","Volume2Duotone","Volume2Fill","VolumeOff","VolumeOffDuotone","VolumeOffFill","X","XDuotone","XFill","Zap","ZapDuotone","ZapFill","ZapOff","ZapOffDuotone","ZapOffFill"] as const;
 
 // Logo names for tooling
 export const logoNames = ["LogoFacebook","LogoFacebookFill","LogoFile","LogoFileDark","LogoFilePdf","LogoFilePdfDark","LogoFileSheet","LogoFileSheetDark","LogoFoam","LogoFoamDark","LogoFoamFill","LogoFoamSymbol","LogoFoamSymbolDark","LogoGmail","LogoGmailFill","LogoGoogle","LogoGoogleFill","LogoInstagram","LogoInstagramDark","LogoInstagramFill","LogoLinkedin","LogoLinkedinDark","LogoLinkedinFill","LogoMicrosoft","LogoMicrosoftFill","LogoSnapchat","LogoSnapchatDark","LogoSnapchatFill","LogoTiktok","LogoTiktokDark","LogoTiktokFill","LogoYoutube","LogoYoutubeFill"] as const;
 
 // All component names (icons + logos)
-export const allNames = ["Alert","AlertDuotone","AlertFill","Archive","ArchiveArrowUp","ArchiveArrowUpDuotone","ArchiveArrowUpFill","ArchiveDuotone","ArchiveFill","ArrowDown","ArrowDown01","ArrowDown01Duotone","ArrowDown01Fill","ArrowDown10","ArrowDown10Duotone","ArrowDown10Fill","ArrowDownCog","ArrowDownCogDuotone","ArrowDownCogFill","ArrowDownDuotone","ArrowDownFill","ArrowDownIG","ArrowDownIGDuotone","ArrowDownIGFill","ArrowDownLeft","ArrowDownLeftDuotone","ArrowDownLeftFill","ArrowDownMapPin","ArrowDownMapPinDuotone","ArrowDownMapPinFill","ArrowDownNarrowWide","ArrowDownNarrowWideDuotone","ArrowDownNarrowWideFill","ArrowDownRight","ArrowDownRightDuotone","ArrowDownRightFill","ArrowDownSC","ArrowDownSCDuotone","ArrowDownSCFill","ArrowDownTT","ArrowDownTTDuotone","ArrowDownTTFill","ArrowDownUp","ArrowDownUpDuotone","ArrowDownUpFill","ArrowDownWideNarrow","ArrowDownWideNarrowDuotone","ArrowDownWideNarrowFill","ArrowDownYT","ArrowDownYTDuotone","ArrowDownYTFill","ArrowLeft","ArrowLeftDuotone","ArrowLeftFill","ArrowRight","ArrowRightDuotone","ArrowRightFill","ArrowRightToLine","ArrowRightToLineDuotone","ArrowRightToLineFill","ArrowUp","ArrowUpAZ","ArrowUpAZDuotone","ArrowUpAZFill","ArrowUpCog","ArrowUpCogDuotone","ArrowUpCogFill","ArrowUpDuotone","ArrowUpFill","ArrowUpIG","ArrowUpIGDuotone","ArrowUpIGFill","ArrowUpLeft","ArrowUpLeftDuotone","ArrowUpLeftFill","ArrowUpMapPin","ArrowUpMapPinDuotone","ArrowUpMapPinFill","ArrowUpNarrowWide","ArrowUpNarrowWideDuotone","ArrowUpNarrowWideFill","ArrowUpRight","ArrowUpRightDuotone","ArrowUpRightFill","ArrowUpSC","ArrowUpSCDuotone","ArrowUpSCFill","ArrowUpTT","ArrowUpTTDuotone","ArrowUpTTFill","ArrowUpWideNarrow","ArrowUpWideNarrowDuotone","ArrowUpWideNarrowFill","ArrowUpYT","ArrowUpYTDuotone","ArrowUpYTFill","ArrowUpZA","ArrowUpZADuotone","ArrowUpZAFill","AtSign","AtSignDuotone","AtSignFill","BadgeCheckbox","BadgeCheckboxDuotone","BadgeCheckboxFill","Ban","BanDuotone","BanFill","Bell","BellDuotone","BellFill","Bold","BoldDuotone","BoldFill","Bookmark","BookmarkDuotone","BookmarkFill","Brain","BrainDuotone","BrainFill","Calendar","CalendarDuotone","CalendarFill","ChartArea","ChartAreaDuotone","ChartAreaFill","ChartBarStacked","ChartBarStackedDuotone","ChartBarStackedFill","ChartColumn","ChartColumnDuotone","ChartColumnFill","ChartColumnSquare","ChartColumnSquareDuotone","ChartColumnSquareFill","ChartNetwork","ChartNetworkDuotone","ChartNetworkFill","ChartNoAxesCombined","ChartNoAxesCombinedDuotone","ChartNoAxesCombinedFill","ChartPie","ChartPieDuotone","ChartPieFill","Checkbox","CheckboxDuotone","CheckboxFill","Checkmark","CheckmarkDuotone","CheckmarkFill","ChevronDown","ChevronDownDuotone","ChevronDownFill","ChevronLeft","ChevronLeftDuotone","ChevronLeftFill","ChevronRight","ChevronRightDuotone","ChevronRightFill","ChevronUp","ChevronUpDown","ChevronUpDownDuotone","ChevronUpDownFill","ChevronUpDuotone","ChevronUpFill","Circle","CircleAlert","CircleAlertDuotone","CircleAlertFill","CircleCheck","CircleCheckDuotone","CircleCheckFill","CircleDashed","CircleDashedDuotone","CircleDashedFill","CircleDollarSign","CircleDollarSignDuotone","CircleDollarSignFill","CircleDuotone","CircleFill","CircleOverlap","CircleOverlapDuotone","CircleOverlapFill","CirclePlus","CirclePlusDuotone","CirclePlusFill","CircleQuestionMark","CircleQuestionMarkDuotone","CircleQuestionMarkFill","CircleX","CircleXDuotone","CircleXFill","ClipboardList","ClipboardListDuotone","ClipboardListFill","Clock","ClockArrowDown","ClockArrowDownDuotone","ClockArrowDownFill","ClockArrowUp","ClockArrowUpDuotone","ClockArrowUpFill","ClockDuotone","ClockFill","ClosedCaption","ClosedCaptionDuotone","ClosedCaptionFill","Cog","CogDuotone","CogFill","Columns3","Columns3Duotone","Columns3Fill","Command","CommandDuotone","CommandFill","ContentHeart","ContentHeartDuotone","ContentHeartFill","ContentPlus","ContentPlusDuotone","ContentPlusFill","ContentUser","ContentUserDuotone","ContentUserFill","Copy","CopyDuotone","CopyFill","Download","DownloadDuotone","DownloadFill","Eclipse","EclipseDuotone","EclipseFill","Ellipsis","EllipsisDuotone","EllipsisFill","EllipsisVertical","EllipsisVerticalDuotone","EllipsisVerticalFill","ExternalLink","ExternalLinkDuotone","ExternalLinkFill","Eye","EyeDuotone","EyeFill","EyeOff","EyeOffDuotone","EyeOffFill","File","FileArrowDown","FileArrowDownDuotone","FileArrowDownFill","FileArrowLeft","FileArrowLeftDuotone","FileArrowLeftFill","FileArrowLeftRight","FileArrowLeftRightDuotone","FileArrowLeftRightFill","FileArrowRight","FileArrowRightDuotone","FileArrowRightFill","FileArrowUp","FileArrowUpDuotone","FileArrowUpFill","FileChartColumn","FileChartColumnDuotone","FileChartColumnFill","FileCheck","FileCheckDuotone","FileCheckFill","FileCog","FileCogDuotone","FileCogFill","FileDuotone","FileFill","FileImage","FileImageDuotone","FileImageFill","FilePlus","FilePlusDuotone","FilePlusFill","FileUser","FileUserDuotone","FileUserFill","FileX","FileXDuotone","FileXFill","Flame","FlameDuotone","FlameFill","Folder","FolderChartColumn","FolderChartColumnDuotone","FolderChartColumnFill","FolderCheck","FolderCheckDuotone","FolderCheckFill","FolderCog","FolderCogDuotone","FolderCogFill","FolderDuotone","FolderFill","FolderPlus","FolderPlusDuotone","FolderPlusFill","FolderX","FolderXDuotone","FolderXFill","Frown","FrownDuotone","FrownFill","Fullscreen","FullscreenDuotone","FullscreenFill","GalleryHorizontal","GalleryHorizontalDuotone","GalleryHorizontalEnd","GalleryHorizontalEndDuotone","GalleryHorizontalEndFill","GalleryHorizontalFill","GalleryThumbnails","GalleryThumbnailsDuotone","GalleryThumbnailsFill","GalleryVertical","GalleryVerticalDuotone","GalleryVerticalEnd","GalleryVerticalEndDuotone","GalleryVerticalEndFill","GalleryVerticalFill","Globe","GlobeDuotone","GlobeFill","Grip","GripDuotone","GripFill","GripHorizontal","GripHorizontalDuotone","GripHorizontalFill","GripVertical","GripVerticalDuotone","GripVerticalFill","Heart","HeartDuotone","HeartFill","History","HistoryDuotone","HistoryFill","Hotspot","HotspotDuotone","HotspotFill","House","HouseDuotone","HouseFill","Image","ImageDuotone","ImageFill","Images","ImagesDuotone","ImagesFill","Inbox","InboxDuotone","InboxFill","Info","InfoDuotone","InfoFill","Italic","ItalicDuotone","ItalicFill","LayoutDashboard","LayoutDashboardDuotone","LayoutDashboardFill","LayoutGrid","LayoutGridDuotone","LayoutGridFill","LayoutList","LayoutListDuotone","LayoutListFill","LayoutPanelBottom","LayoutPanelBottomDuotone","LayoutPanelBottomFill","LayoutPanelLeft","LayoutPanelLeftDuotone","LayoutPanelLeftFill","LayoutPanelRight","LayoutPanelRightDuotone","LayoutPanelRightFill","LayoutPanelTop","LayoutPanelTopDuotone","LayoutPanelTopFill","LayoutRows","LayoutRowsDuotone","LayoutRowsFill","LayoutTemplate","LayoutTemplateDuotone","LayoutTemplateFill","Link","LinkDuotone","LinkFill","List","ListDuotone","ListFill","ListFilter","ListFilterDuotone","ListFilterFill","ListIndentDecrease","ListIndentDecreaseDuotone","ListIndentDecreaseFill","ListIndentIncrease","ListIndentIncreaseDuotone","ListIndentIncreaseFill","ListOrdered","ListOrderedDuotone","ListOrderedFill","LoaderCircle","LoaderCircleDuotone","LoaderCircleFill","Lock","LockDuotone","LockFill","LogOut","LogOutDuotone","LogOutFill","LogoFacebook","LogoFacebookFill","LogoFile","LogoFileDark","LogoFilePdf","LogoFilePdfDark","LogoFileSheet","LogoFileSheetDark","LogoFoam","LogoFoamDark","LogoFoamFill","LogoFoamSymbol","LogoFoamSymbolDark","LogoGmail","LogoGmailFill","LogoGoogle","LogoGoogleFill","LogoInstagram","LogoInstagramDark","LogoInstagramFill","LogoLinkedin","LogoLinkedinDark","LogoLinkedinFill","LogoMicrosoft","LogoMicrosoftFill","LogoSnapchat","LogoSnapchatDark","LogoSnapchatFill","LogoTiktok","LogoTiktokDark","LogoTiktokFill","LogoYoutube","LogoYoutubeFill","Mail","MailDuotone","MailFill","MailMove","MailMoveDuotone","MailMoveFill","MailPlus","MailPlusDuotone","MailPlusFill","MapPin","MapPinDuotone","MapPinFill","Maximize","MaximizeDuotone","MaximizeFill","Megaphone","MegaphoneActive","MegaphoneActiveDuotone","MegaphoneActiveFill","MegaphoneDuotone","MegaphoneFill","Menu","MenuDuotone","MenuFill","MessageSquare","MessageSquareDuotone","MessageSquareFill","MessagesSquare","MessagesSquareDuotone","MessagesSquareFill","Minus","MinusDuotone","MinusFill","Moon","MoonDuotone","MoonFill","MousePointerClick","MousePointerClickDuotone","MousePointerClickFill","Move","MoveDuotone","MoveFill","Notebook","NotebookDuotone","NotebookFill","Office","OfficeDuotone","OfficeFill","Palette","PaletteDuotone","PaletteFill","PanelLeft","PanelLeftDuotone","PanelLeftFill","PanelRight","PanelRightDuotone","PanelRightFill","Pencil","PencilDuotone","PencilFill","Pin","PinDuotone","PinFill","Play","PlayDuotone","PlayFill","Plus","PlusDuotone","PlusFill","Pointer","PointerDuotone","PointerFill","QuotationMarkLeft","QuotationMarkLeftDuotone","QuotationMarkLeftFill","QuotationMarkRight","QuotationMarkRightDuotone","QuotationMarkRightFill","Reach","ReachDuotone","ReachFill","Reel","ReelDuotone","ReelFill","RefreshCw","RefreshCwDuotone","RefreshCwFill","RemoveFormatting","RemoveFormattingDuotone","RemoveFormattingFill","Reply","ReplyDuotone","ReplyFill","Rocket","RocketDuotone","RocketFill","Rolodex","RolodexDuotone","RolodexFill","RotateCcw","RotateCcwDuotone","RotateCcwFill","RotateCw","RotateCwDuotone","RotateCwFill","Save","SaveDuotone","SaveFill","Search","SearchDuotone","SearchFill","SearchUser","SearchUserDuotone","SearchUserFill","Share","ShareDuotone","ShareFill","Shield","ShieldCheck","ShieldCheckDuotone","ShieldCheckFill","ShieldDuotone","ShieldFill","ShieldOff","ShieldOffDuotone","ShieldOffFill","ShieldPlus","ShieldPlusDuotone","ShieldPlusFill","ShieldUser","ShieldUserDuotone","ShieldUserFill","ShieldX","ShieldXDuotone","ShieldXFill","Slash","SlashDuotone","SlashFill","SlidersHorizontal","SlidersHorizontalDuotone","SlidersHorizontalFill","Smile","SmileDuotone","SmileFill","Sparkles","SparklesDuotone","SparklesFill","Square","SquareDuotone","SquareFill","SquarePen","SquarePenDuotone","SquarePenFill","Star","StarDuotone","StarFill","Sun","SunDuotone","SunFill","Tag","TagDuotone","TagFill","Tags","TagsDuotone","TagsFill","Target","TargetDuotone","TargetFill","TextAlignCenter","TextAlignCenterDuotone","TextAlignCenterFill","TextAlignEnd","TextAlignEndDuotone","TextAlignEndFill","TextAlignJustify","TextAlignJustifyDuotone","TextAlignJustifyFill","TextAlignStart","TextAlignStartDuotone","TextAlignStartFill","ThumbsDown","ThumbsDownDuotone","ThumbsDownFill","ThumbsUp","ThumbsUpDuotone","ThumbsUpFill","ToolCase","ToolCaseDuotone","ToolCaseFill","Trash","TrashDuotone","TrashEmpty","TrashEmptyDuotone","TrashEmptyFill","TrashFill","TrendingDown","TrendingDownDuotone","TrendingDownFill","TrendingUp","TrendingUpDuotone","TrendingUpFill","TriangleDown","TriangleDownDuotone","TriangleDownFill","TriangleDownUp","TriangleDownUpDuotone","TriangleDownUpFill","TriangleUp","TriangleUpDuotone","TriangleUpFill","Unlink","UnlinkDuotone","UnlinkFill","Unlock","UnlockDuotone","UnlockFill","Upload","UploadDuotone","UploadFill","User","UserArrowLeft","UserArrowLeftDuotone","UserArrowLeftFill","UserArrowLeftRight","UserArrowLeftRightDuotone","UserArrowLeftRightFill","UserArrowOutUpRight","UserArrowOutUpRightDuotone","UserArrowOutUpRightFill","UserArrowRight","UserArrowRightDuotone","UserArrowRightFill","UserCog","UserCogDuotone","UserCogFill","UserDuotone","UserFill","UserPlus","UserPlusDuotone","UserPlusFill","Users","UsersDuotone","UsersFill","Video","VideoDuotone","VideoFill","Volume2","Volume2Duotone","Volume2Fill","VolumeOff","VolumeOffDuotone","VolumeOffFill","Zap","ZapDuotone","ZapFill","ZapOff","ZapOffDuotone","ZapOffFill"] as const;
+export const allNames = ["Alert","AlertDuotone","AlertFill","Archive","ArchiveArrowUp","ArchiveArrowUpDuotone","ArchiveArrowUpFill","ArchiveDuotone","ArchiveFill","ArrowDown","ArrowDown01","ArrowDown01Duotone","ArrowDown01Fill","ArrowDown10","ArrowDown10Duotone","ArrowDown10Fill","ArrowDownCog","ArrowDownCogDuotone","ArrowDownCogFill","ArrowDownDuotone","ArrowDownFill","ArrowDownIG","ArrowDownIGDuotone","ArrowDownIGFill","ArrowDownLeft","ArrowDownLeftDuotone","ArrowDownLeftFill","ArrowDownMapPin","ArrowDownMapPinDuotone","ArrowDownMapPinFill","ArrowDownNarrowWide","ArrowDownNarrowWideDuotone","ArrowDownNarrowWideFill","ArrowDownRight","ArrowDownRightDuotone","ArrowDownRightFill","ArrowDownSC","ArrowDownSCDuotone","ArrowDownSCFill","ArrowDownTT","ArrowDownTTDuotone","ArrowDownTTFill","ArrowDownUp","ArrowDownUpDuotone","ArrowDownUpFill","ArrowDownWideNarrow","ArrowDownWideNarrowDuotone","ArrowDownWideNarrowFill","ArrowDownYT","ArrowDownYTDuotone","ArrowDownYTFill","ArrowLeft","ArrowLeftDuotone","ArrowLeftFill","ArrowRight","ArrowRightDuotone","ArrowRightFill","ArrowRightToLine","ArrowRightToLineDuotone","ArrowRightToLineFill","ArrowUp","ArrowUpAZ","ArrowUpAZDuotone","ArrowUpAZFill","ArrowUpCog","ArrowUpCogDuotone","ArrowUpCogFill","ArrowUpDuotone","ArrowUpFill","ArrowUpIG","ArrowUpIGDuotone","ArrowUpIGFill","ArrowUpLeft","ArrowUpLeftDuotone","ArrowUpLeftFill","ArrowUpMapPin","ArrowUpMapPinDuotone","ArrowUpMapPinFill","ArrowUpNarrowWide","ArrowUpNarrowWideDuotone","ArrowUpNarrowWideFill","ArrowUpRight","ArrowUpRightDuotone","ArrowUpRightFill","ArrowUpSC","ArrowUpSCDuotone","ArrowUpSCFill","ArrowUpTT","ArrowUpTTDuotone","ArrowUpTTFill","ArrowUpWideNarrow","ArrowUpWideNarrowDuotone","ArrowUpWideNarrowFill","ArrowUpYT","ArrowUpYTDuotone","ArrowUpYTFill","ArrowUpZA","ArrowUpZADuotone","ArrowUpZAFill","AtSign","AtSignDuotone","AtSignFill","AudioLines","AudioLinesDuotone","AudioLinesFill","BadgeCheckbox","BadgeCheckboxDuotone","BadgeCheckboxFill","Ban","BanDuotone","BanFill","Bell","BellDuotone","BellFill","Bold","BoldDuotone","BoldFill","Bookmark","BookmarkDuotone","BookmarkFill","Brain","BrainDuotone","BrainFill","Calendar","CalendarDuotone","CalendarFill","ChartArea","ChartAreaDuotone","ChartAreaFill","ChartBarStacked","ChartBarStackedDuotone","ChartBarStackedFill","ChartColumn","ChartColumnDuotone","ChartColumnFill","ChartColumnSquare","ChartColumnSquareDuotone","ChartColumnSquareFill","ChartNetwork","ChartNetworkDuotone","ChartNetworkFill","ChartNoAxesCombined","ChartNoAxesCombinedDuotone","ChartNoAxesCombinedFill","ChartPie","ChartPieDuotone","ChartPieFill","Checkbox","CheckboxDuotone","CheckboxFill","Checkmark","CheckmarkDuotone","CheckmarkFill","ChevronDown","ChevronDownDuotone","ChevronDownFill","ChevronLeft","ChevronLeftDuotone","ChevronLeftFill","ChevronRight","ChevronRightDuotone","ChevronRightFill","ChevronUp","ChevronUpDown","ChevronUpDownDuotone","ChevronUpDownFill","ChevronUpDuotone","ChevronUpFill","Circle","CircleAlert","CircleAlertDuotone","CircleAlertFill","CircleCheck","CircleCheckDuotone","CircleCheckFill","CircleDashed","CircleDashedDuotone","CircleDashedFill","CircleDollarSign","CircleDollarSignDuotone","CircleDollarSignFill","CircleDuotone","CircleFill","CircleOverlap","CircleOverlapDuotone","CircleOverlapFill","CirclePlus","CirclePlusDuotone","CirclePlusFill","CircleQuestionMark","CircleQuestionMarkDuotone","CircleQuestionMarkFill","CircleX","CircleXDuotone","CircleXFill","ClipboardList","ClipboardListDuotone","ClipboardListFill","Clock","ClockArrowDown","ClockArrowDownDuotone","ClockArrowDownFill","ClockArrowUp","ClockArrowUpDuotone","ClockArrowUpFill","ClockDuotone","ClockFill","ClosedCaption","ClosedCaptionDuotone","ClosedCaptionFill","Cog","CogDuotone","CogFill","Columns3","Columns3Duotone","Columns3Fill","Command","CommandDuotone","CommandFill","ContentHeart","ContentHeartDuotone","ContentHeartFill","ContentPlus","ContentPlusDuotone","ContentPlusFill","ContentUser","ContentUserDuotone","ContentUserFill","Copy","CopyDuotone","CopyFill","Download","DownloadDuotone","DownloadFill","Eclipse","EclipseDuotone","EclipseFill","Ellipsis","EllipsisDuotone","EllipsisFill","EllipsisVertical","EllipsisVerticalDuotone","EllipsisVerticalFill","ExternalLink","ExternalLinkDuotone","ExternalLinkFill","Eye","EyeDuotone","EyeFill","EyeOff","EyeOffDuotone","EyeOffFill","File","FileArrowDown","FileArrowDownDuotone","FileArrowDownFill","FileArrowLeft","FileArrowLeftDuotone","FileArrowLeftFill","FileArrowLeftRight","FileArrowLeftRightDuotone","FileArrowLeftRightFill","FileArrowRight","FileArrowRightDuotone","FileArrowRightFill","FileArrowUp","FileArrowUpDuotone","FileArrowUpFill","FileChartColumn","FileChartColumnDuotone","FileChartColumnFill","FileCheck","FileCheckDuotone","FileCheckFill","FileCog","FileCogDuotone","FileCogFill","FileDuotone","FileFill","FileImage","FileImageDuotone","FileImageFill","FilePlus","FilePlusDuotone","FilePlusFill","FileUser","FileUserDuotone","FileUserFill","FileX","FileXDuotone","FileXFill","Flame","FlameDuotone","FlameFill","Folder","FolderChartColumn","FolderChartColumnDuotone","FolderChartColumnFill","FolderCheck","FolderCheckDuotone","FolderCheckFill","FolderCog","FolderCogDuotone","FolderCogFill","FolderDuotone","FolderFill","FolderPlus","FolderPlusDuotone","FolderPlusFill","FolderX","FolderXDuotone","FolderXFill","Frown","FrownDuotone","FrownFill","Fullscreen","FullscreenDuotone","FullscreenFill","GalleryHorizontal","GalleryHorizontalDuotone","GalleryHorizontalEnd","GalleryHorizontalEndDuotone","GalleryHorizontalEndFill","GalleryHorizontalFill","GalleryThumbnails","GalleryThumbnailsDuotone","GalleryThumbnailsFill","GalleryVertical","GalleryVerticalDuotone","GalleryVerticalEnd","GalleryVerticalEndDuotone","GalleryVerticalEndFill","GalleryVerticalFill","Globe","GlobeDuotone","GlobeFill","Grip","GripDuotone","GripFill","GripHorizontal","GripHorizontalDuotone","GripHorizontalFill","GripVertical","GripVerticalDuotone","GripVerticalFill","Heart","HeartDuotone","HeartFill","History","HistoryDuotone","HistoryFill","Hotspot","HotspotDuotone","HotspotFill","House","HouseDuotone","HouseFill","Image","ImageDuotone","ImageFill","Images","ImagesDuotone","ImagesFill","Inbox","InboxDuotone","InboxFill","Info","InfoDuotone","InfoFill","Italic","ItalicDuotone","ItalicFill","LayoutDashboard","LayoutDashboardDuotone","LayoutDashboardFill","LayoutGrid","LayoutGridDuotone","LayoutGridFill","LayoutList","LayoutListDuotone","LayoutListFill","LayoutPanelBottom","LayoutPanelBottomDuotone","LayoutPanelBottomFill","LayoutPanelLeft","LayoutPanelLeftDuotone","LayoutPanelLeftFill","LayoutPanelRight","LayoutPanelRightDuotone","LayoutPanelRightFill","LayoutPanelTop","LayoutPanelTopDuotone","LayoutPanelTopFill","LayoutRows","LayoutRowsDuotone","LayoutRowsFill","LayoutTemplate","LayoutTemplateDuotone","LayoutTemplateFill","Link","LinkDuotone","LinkFill","List","ListDuotone","ListFill","ListFilter","ListFilterDuotone","ListFilterFill","ListIndentDecrease","ListIndentDecreaseDuotone","ListIndentDecreaseFill","ListIndentIncrease","ListIndentIncreaseDuotone","ListIndentIncreaseFill","ListOrdered","ListOrderedDuotone","ListOrderedFill","LoaderCircle","LoaderCircleDuotone","LoaderCircleFill","Lock","LockDuotone","LockFill","LogOut","LogOutDuotone","LogOutFill","LogoFacebook","LogoFacebookFill","LogoFile","LogoFileDark","LogoFilePdf","LogoFilePdfDark","LogoFileSheet","LogoFileSheetDark","LogoFoam","LogoFoamDark","LogoFoamFill","LogoFoamSymbol","LogoFoamSymbolDark","LogoGmail","LogoGmailFill","LogoGoogle","LogoGoogleFill","LogoInstagram","LogoInstagramDark","LogoInstagramFill","LogoLinkedin","LogoLinkedinDark","LogoLinkedinFill","LogoMicrosoft","LogoMicrosoftFill","LogoSnapchat","LogoSnapchatDark","LogoSnapchatFill","LogoTiktok","LogoTiktokDark","LogoTiktokFill","LogoYoutube","LogoYoutubeFill","Mail","MailDuotone","MailFill","MailMove","MailMoveDuotone","MailMoveFill","MailPlus","MailPlusDuotone","MailPlusFill","MapPin","MapPinDuotone","MapPinFill","Maximize","MaximizeDuotone","MaximizeFill","Megaphone","MegaphoneActive","MegaphoneActiveDuotone","MegaphoneActiveFill","MegaphoneDuotone","MegaphoneFill","Menu","MenuDuotone","MenuFill","MessageSquare","MessageSquareDuotone","MessageSquareFill","MessagesSquare","MessagesSquareDuotone","MessagesSquareFill","Minus","MinusDuotone","MinusFill","Moon","MoonDuotone","MoonFill","MousePointerClick","MousePointerClickDuotone","MousePointerClickFill","Move","MoveDuotone","MoveFill","Notebook","NotebookDuotone","NotebookFill","Office","OfficeDuotone","OfficeFill","Palette","PaletteDuotone","PaletteFill","PanelLeft","PanelLeftChevronLeft","PanelLeftChevronLeftDuotone","PanelLeftChevronLeftFill","PanelLeftChevronRight","PanelLeftChevronRightDuotone","PanelLeftChevronRightFill","PanelLeftDuotone","PanelLeftFill","PanelRight","PanelRightDuotone","PanelRightFill","Pause","PauseDuotone","PauseFill","Pencil","PencilDuotone","PencilFill","Pin","PinDuotone","PinFill","Play","PlayDuotone","PlayFill","Plus","PlusDuotone","PlusFill","Pointer","PointerDuotone","PointerFill","QuotationMarkLeft","QuotationMarkLeftDuotone","QuotationMarkLeftFill","QuotationMarkRight","QuotationMarkRightDuotone","QuotationMarkRightFill","Reach","ReachDuotone","ReachFill","Reel","ReelDuotone","ReelFill","RefreshCw","RefreshCwDuotone","RefreshCwFill","RemoveFormatting","RemoveFormattingDuotone","RemoveFormattingFill","Reply","ReplyDuotone","ReplyFill","Rocket","RocketDuotone","RocketFill","Rolodex","RolodexDuotone","RolodexFill","RotateCcw","RotateCcwDuotone","RotateCcwFill","RotateCw","RotateCwDuotone","RotateCwFill","Save","SaveDuotone","SaveFill","Search","SearchDuotone","SearchFill","SearchUser","SearchUserDuotone","SearchUserFill","Share","ShareDuotone","ShareFill","Shield","ShieldCheck","ShieldCheckDuotone","ShieldCheckFill","ShieldDuotone","ShieldFill","ShieldOff","ShieldOffDuotone","ShieldOffFill","ShieldPlus","ShieldPlusDuotone","ShieldPlusFill","ShieldUser","ShieldUserDuotone","ShieldUserFill","ShieldX","ShieldXDuotone","ShieldXFill","Slash","SlashDuotone","SlashFill","SlidersHorizontal","SlidersHorizontalDuotone","SlidersHorizontalFill","Smile","SmileDuotone","SmileFill","Sparkles","SparklesDuotone","SparklesFill","Square","SquareDuotone","SquareFill","SquarePen","SquarePenDuotone","SquarePenFill","Star","StarDuotone","StarFill","Sun","SunDuotone","SunFill","Tag","TagDuotone","TagFill","Tags","TagsDuotone","TagsFill","Target","TargetDuotone","TargetFill","TextAlignCenter","TextAlignCenterDuotone","TextAlignCenterFill","TextAlignEnd","TextAlignEndDuotone","TextAlignEndFill","TextAlignJustify","TextAlignJustifyDuotone","TextAlignJustifyFill","TextAlignStart","TextAlignStartDuotone","TextAlignStartFill","ThumbsDown","ThumbsDownDuotone","ThumbsDownFill","ThumbsUp","ThumbsUpDuotone","ThumbsUpFill","ToolCase","ToolCaseDuotone","ToolCaseFill","Trash","TrashDuotone","TrashEmpty","TrashEmptyDuotone","TrashEmptyFill","TrashFill","TrendingDown","TrendingDownDuotone","TrendingDownFill","TrendingUp","TrendingUpDuotone","TrendingUpFill","TriangleDown","TriangleDownDuotone","TriangleDownFill","TriangleDownUp","TriangleDownUpDuotone","TriangleDownUpFill","TriangleUp","TriangleUpDuotone","TriangleUpFill","Unlink","UnlinkDuotone","UnlinkFill","Unlock","UnlockDuotone","UnlockFill","Upload","UploadDuotone","UploadFill","User","UserArrowLeft","UserArrowLeftDuotone","UserArrowLeftFill","UserArrowLeftRight","UserArrowLeftRightDuotone","UserArrowLeftRightFill","UserArrowOutUpRight","UserArrowOutUpRightDuotone","UserArrowOutUpRightFill","UserArrowRight","UserArrowRightDuotone","UserArrowRightFill","UserCog","UserCogDuotone","UserCogFill","UserDuotone","UserFill","UserPlus","UserPlusDuotone","UserPlusFill","Users","UsersDuotone","UsersFill","Video","VideoDuotone","VideoFill","Volume2","Volume2Duotone","Volume2Fill","VolumeOff","VolumeOffDuotone","VolumeOffFill","X","XDuotone","XFill","Zap","ZapDuotone","ZapFill","ZapOff","ZapOffDuotone","ZapOffFill"] as const;
 
 // Alias lookup maps for tooling/search (icons)
 export const iconAliases: Record<string, string[]> = {
+  "AudioLines": [
+    "SoundWave",
+    "AudioEqualizer"
+  ],
   "Alert": [
     "Warning",
     "Caution",
@@ -6552,10 +6691,8 @@ export const iconAliases: Record<string, string[]> = {
     "Support"
   ],
   "CircleX": [
-    "Close",
-    "Cancel",
-    "X",
-    "Times",
+    "CloseCircle",
+    "CancelCircle",
     "Clear"
   ],
   "ClosedCaption": [
@@ -6910,6 +7047,14 @@ export const iconAliases: Record<string, string[]> = {
     "SidebarLeft",
     "DrawerLeft"
   ],
+  "PanelLeftChevronLeft": [
+    "SidebarCollapse",
+    "PanelClose"
+  ],
+  "PanelLeftChevronRight": [
+    "SidebarExpand",
+    "PanelOpen"
+  ],
   "PanelRight": [
     "SidebarRight",
     "DrawerRight"
@@ -6918,6 +7063,10 @@ export const iconAliases: Record<string, string[]> = {
     "ColorPalette",
     "PaintPalette",
     "Swatch"
+  ],
+  "Pause": [
+    "Hold",
+    "Suspend"
   ],
   "Pencil": [
     "Edit",
@@ -7220,10 +7369,18 @@ export const iconAliases: Record<string, string[]> = {
     "LightningOff",
     "NoFlash",
     "PowerOff"
+  ],
+  "X": [
+    "Close",
+    "Cancel",
+    "Times",
+    "Dismiss"
   ]
 };
 
 export const aliasToCanonical: Record<string, string> = {
+  "SoundWave": "AudioLines",
+  "AudioEqualizer": "AudioLines",
   "Warning": "Alert",
   "Caution": "Alert",
   "Attention": "Alert",
@@ -7312,10 +7469,8 @@ export const aliasToCanonical: Record<string, string> = {
   "Question": "CircleQuestionMark",
   "Faq": "CircleQuestionMark",
   "Support": "CircleQuestionMark",
-  "Close": "CircleX",
-  "Cancel": "CircleX",
-  "X": "CircleX",
-  "Times": "CircleX",
+  "CloseCircle": "CircleX",
+  "CancelCircle": "CircleX",
   "Clear": "CircleX",
   "Cc": "ClosedCaption",
   "Subtitles": "ClosedCaption",
@@ -7515,11 +7670,17 @@ export const aliasToCanonical: Record<string, string> = {
   "Reposition": "Move",
   "SidebarLeft": "PanelLeft",
   "DrawerLeft": "PanelLeft",
+  "SidebarCollapse": "PanelLeftChevronLeft",
+  "PanelClose": "PanelLeftChevronLeft",
+  "SidebarExpand": "PanelLeftChevronRight",
+  "PanelOpen": "PanelLeftChevronRight",
   "SidebarRight": "PanelRight",
   "DrawerRight": "PanelRight",
   "ColorPalette": "Palette",
   "PaintPalette": "Palette",
   "Swatch": "Palette",
+  "Hold": "Pause",
+  "Suspend": "Pause",
   "Edit": "Pencil",
   "Write": "Pencil",
   "Modify": "Pencil",
@@ -7693,10 +7854,20 @@ export const aliasToCanonical: Record<string, string> = {
   "Power": "Zap",
   "LightningOff": "ZapOff",
   "NoFlash": "ZapOff",
-  "PowerOff": "ZapOff"
+  "PowerOff": "ZapOff",
+  "Close": "X",
+  "Cancel": "X",
+  "Times": "X",
+  "Dismiss": "X"
 };
 
 export const iconTags: Record<string, string[]> = {
+  "AudioLines": [
+    "audio",
+    "sound",
+    "music",
+    "equalizer"
+  ],
   "Alert": [
     "alert",
     "warning",
@@ -7928,7 +8099,8 @@ export const iconTags: Record<string, string[]> = {
   "CircleX": [
     "close",
     "cancel",
-    "clear"
+    "clear",
+    "circle"
   ],
   "ClosedCaption": [
     "closed-caption",
@@ -8359,6 +8531,18 @@ export const iconTags: Record<string, string[]> = {
     "sidebar",
     "left"
   ],
+  "PanelLeftChevronLeft": [
+    "panel",
+    "sidebar",
+    "collapse",
+    "close"
+  ],
+  "PanelLeftChevronRight": [
+    "panel",
+    "sidebar",
+    "expand",
+    "open"
+  ],
   "PanelRight": [
     "panel",
     "sidebar",
@@ -8370,6 +8554,12 @@ export const iconTags: Record<string, string[]> = {
     "paint",
     "design",
     "theme"
+  ],
+  "Pause": [
+    "pause",
+    "hold",
+    "media",
+    "playback"
   ],
   "Pencil": [
     "pencil",
@@ -8724,6 +8914,12 @@ export const iconTags: Record<string, string[]> = {
     "off",
     "lightning",
     "disabled"
+  ],
+  "X": [
+    "close",
+    "cancel",
+    "dismiss",
+    "remove"
   ]
 };
 

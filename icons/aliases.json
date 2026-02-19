@@ -2,7 +2,7 @@
   "audio-lines": {
     "aliases": [
       "sound-wave",
-      "equalizer"
+      "audio-equalizer"
     ],
     "tags": [
       "audio",
