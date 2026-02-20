@@ -3,6 +3,10 @@ import { iconsData, logosData, type IconData, type LogoData } from './icons-data
 
 type ItemData = IconData | LogoData;
 
+// Pending drag data for drag-and-drop to canvas
+let pendingDragSvg: string | null = null;
+let pendingDragName: string | null = null;
+
 // State Management
 interface State {
   category: 'icons' | 'logos';
@@ -124,19 +128,62 @@ function renderGrid() {
     // Logos don't need color customization (except fill variant)
     const displaySvg = isLogo && state.logoVariant !== 'fill' ? svg : customizeSvg(svg);
 
-    return `<div class="icon-item" data-id="${item.id}" title="${item.name}">${displaySvg}</div>`;
+    return `<div class="icon-item" data-id="${item.id}" title="${item.name}" draggable="true">${displaySvg}</div>`;
   }).join('');
 
   grid.innerHTML = html || '<p class="empty-state">No icons found</p>';
 
   // Add click handlers
-  grid.querySelectorAll('.icon-item').forEach(el => {
+  grid.querySelectorAll<HTMLElement>('.icon-item').forEach(el => {
     const id = el.getAttribute('data-id');
     if (!id) return;
 
     el.addEventListener('click', () => {
       const item = state.filteredItems.find(i => i.id === id);
       if (item) insertItem(item);
+    });
+
+    el.addEventListener('dragstart', (e: DragEvent) => {
+      const item = state.filteredItems.find(i => i.id === id);
+      if (!item || !e.dataTransfer) return;
+
+      const isLogo = 'isLogo' in item && item.isLogo;
+      const variantKey = isLogo ? state.logoVariant : state.variant;
+      const svg = item.variants[variantKey as keyof typeof item.variants];
+      if (!svg) return;
+
+      let customized = isLogo && state.logoVariant !== 'fill' ? svg : customizeSvg(svg, true);
+      customized = customized.replace(/width="[^"]*"/, `width="${state.size}"`);
+      customized = customized.replace(/height="[^"]*"/, `height="${state.size}"`);
+
+      pendingDragSvg = customized;
+      pendingDragName = `${item.id}-${variantKey}`;
+
+      e.dataTransfer.setData('text/plain', item.id);
+    });
+
+    el.addEventListener('dragend', (e: DragEvent) => {
+      // e.view.length === 0 means drag ended inside the plugin iframe, skip
+      if ((e.view as Window & { length: number }).length === 0) return;
+
+      if (pendingDragSvg) {
+        const file = new File(
+          [pendingDragSvg],
+          'icon.svg',
+          { type: 'image/svg+xml' }
+        );
+
+        window.parent.postMessage({
+          pluginDrop: {
+            clientX: e.clientX,
+            clientY: e.clientY,
+            files: [file],
+            dropMetadata: { name: pendingDragName }
+          }
+        }, '*');
+      }
+      pendingDragSvg = null;
+      pendingDragName = null;
     });
   });
 }
@@ -335,18 +382,53 @@ function init() {
     });
   }
 
+  // Resize handle
+  const resizeHandle = document.getElementById('resizeHandle');
+  if (resizeHandle) {
+    let isResizing = false;
+    let startX = 0;
+    let startY = 0;
+    let startWidth = window.innerWidth;
+    let startHeight = window.innerHeight;
+
+    resizeHandle.addEventListener('mousedown', (e: MouseEvent) => {
+      isResizing = true;
+      startX = e.clientX;
+      startY = e.clientY;
+      startWidth = window.innerWidth;
+      startHeight = window.innerHeight;
+      e.preventDefault();
+    });
+
+    document.addEventListener('mousemove', (e: MouseEvent) => {
+      if (!isResizing) return;
+      const newWidth = Math.max(200, startWidth + (e.clientX - startX));
+      const newHeight = Math.max(300, startHeight + (e.clientY - startY));
+      postMessage('resize', { width: newWidth, height: newHeight });
+    });
+
+    document.addEventListener('mouseup', () => {
+      isResizing = false;
+    });
+  }
+
+  // Recalculate grid columns on window resize
+  window.addEventListener('resize', () => updateGridSize());
+
   // Initial setup and render
   updateGridSize();
   renderGrid();
 }
 
-// Update grid size and columns based on icon size
+// Update grid size and columns based on icon size and window width
 function updateGridSize() {
   const grid = document.getElementById('iconGrid');
   if (!grid) return;
 
-  // Calculate columns based on size (plugin width ~280px usable)
-  const cols = state.size <= 20 ? 8 : state.size <= 32 ? 6 : state.size <= 48 ? 4 : 3;
+  // Calculate columns dynamically based on available width
+  const gridWidth = grid.clientWidth || (window.innerWidth - 16);
+  const cellSize = state.size + 16;
+  const cols = Math.max(2, Math.floor(gridWidth / cellSize));
 
   grid.style.setProperty('--icon-size', `${state.size}px`);
   grid.style.setProperty('--grid-cols', `${cols}`);

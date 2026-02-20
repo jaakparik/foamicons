@@ -240,6 +240,28 @@
       color: #888;
       padding: 32px;
     }
+
+    /* Resize handle */
+    .resize-handle {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      width: 16px;
+      height: 16px;
+      cursor: nwse-resize;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .resize-handle svg {
+      width: 10px;
+      height: 10px;
+      opacity: 0.3;
+    }
+    .resize-handle:hover svg {
+      opacity: 0.6;
+    }
   </style>
 </head>
 <body>
@@ -350,6 +372,13 @@
   <div class="footer">
     <span>foamicons v0.6.0</span>
     <a href="https://github.com/jaakparik/foamicons" target="_blank" class="footer-link">Info</a>
+  </div>
+
+  <!-- Resize handle -->
+  <div class="resize-handle" id="resizeHandle">
+    <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1">
+      <path d="M9 1L1 9M9 5L5 9M9 9L9 9"/>
+    </svg>
   </div>
 
   <script>"use strict";
@@ -5137,6 +5166,8 @@
   ];
 
   // src/ui.ts
+  var pendingDragSvg = null;
+  var pendingDragName = null;
   var state = {
     category: "icons",
     icons: iconsData,
@@ -5207,7 +5238,7 @@
       if (!svg)
         return "";
       const displaySvg = isLogo && state.logoVariant !== "fill" ? svg : customizeSvg(svg);
-      return `<div class="icon-item" data-id="${item.id}" title="${item.name}">${displaySvg}</div>`;
+      return `<div class="icon-item" data-id="${item.id}" title="${item.name}" draggable="true">${displaySvg}</div>`;
     }).join("");
     grid.innerHTML = html || '<p class="empty-state">No icons found</p>';
     grid.querySelectorAll(".icon-item").forEach((el) => {
@@ -5218,6 +5249,43 @@
         const item = state.filteredItems.find((i) => i.id === id);
         if (item)
           insertItem(item);
+      });
+      el.addEventListener("dragstart", (e) => {
+        const item = state.filteredItems.find((i) => i.id === id);
+        if (!item || !e.dataTransfer)
+          return;
+        const isLogo = "isLogo" in item && item.isLogo;
+        const variantKey = isLogo ? state.logoVariant : state.variant;
+        const svg = item.variants[variantKey];
+        if (!svg)
+          return;
+        let customized = isLogo && state.logoVariant !== "fill" ? svg : customizeSvg(svg, true);
+        customized = customized.replace(/width="[^"]*"/, `width="${state.size}"`);
+        customized = customized.replace(/height="[^"]*"/, `height="${state.size}"`);
+        pendingDragSvg = customized;
+        pendingDragName = `${item.id}-${variantKey}`;
+        e.dataTransfer.setData("text/plain", item.id);
+      });
+      el.addEventListener("dragend", (e) => {
+        if (e.view.length === 0)
+          return;
+        if (pendingDragSvg) {
+          const file = new File(
+            [pendingDragSvg],
+            "icon.svg",
+            { type: "image/svg+xml" }
+          );
+          window.parent.postMessage({
+            pluginDrop: {
+              clientX: e.clientX,
+              clientY: e.clientY,
+              files: [file],
+              dropMetadata: { name: pendingDragName }
+            }
+          }, "*");
+        }
+        pendingDragSvg = null;
+        pendingDragName = null;
       });
     });
   }
@@ -5370,6 +5438,33 @@
         extraSettings.classList.toggle("visible");
       });
     }
+    const resizeHandle = document.getElementById("resizeHandle");
+    if (resizeHandle) {
+      let isResizing = false;
+      let startX = 0;
+      let startY = 0;
+      let startWidth = window.innerWidth;
+      let startHeight = window.innerHeight;
+      resizeHandle.addEventListener("mousedown", (e) => {
+        isResizing = true;
+        startX = e.clientX;
+        startY = e.clientY;
+        startWidth = window.innerWidth;
+        startHeight = window.innerHeight;
+        e.preventDefault();
+      });
+      document.addEventListener("mousemove", (e) => {
+        if (!isResizing)
+          return;
+        const newWidth = Math.max(200, startWidth + (e.clientX - startX));
+        const newHeight = Math.max(300, startHeight + (e.clientY - startY));
+        postMessage("resize", { width: newWidth, height: newHeight });
+      });
+      document.addEventListener("mouseup", () => {
+        isResizing = false;
+      });
+    }
+    window.addEventListener("resize", () => updateGridSize());
     updateGridSize();
     renderGrid();
   }
@@ -5377,7 +5472,9 @@
     const grid = document.getElementById("iconGrid");
     if (!grid)
       return;
-    const cols = state.size <= 20 ? 8 : state.size <= 32 ? 6 : state.size <= 48 ? 4 : 3;
+    const gridWidth = grid.clientWidth || window.innerWidth - 16;
+    const cellSize = state.size + 16;
+    const cols = Math.max(2, Math.floor(gridWidth / cellSize));
     grid.style.setProperty("--icon-size", `${state.size}px`);
     grid.style.setProperty("--grid-cols", `${cols}`);
   }
