@@ -22238,8 +22238,140 @@ var __iconNode521 = [
 ];
 var RefreshCwFill = createFoamicon("RefreshCwFill", __iconNode521);
 
-// src/icons/RefreshCw.tsx
+// src/icons/RefreshCwOffDuotone.tsx
 var __iconNode522 = [
+  [
+    "path",
+    {
+      d: "M10.8233 2.31209L11.2918 4.06071C11.3633 4.32745 11.205 4.60161 10.9383 4.67309L9.18965 5.14163",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "br1e4r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.94796 13.8486L4.47941 12.0999C4.40794 11.8332 4.56623 11.559 4.83297 11.4876L6.58159 11.019",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3iu1kn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.68016 3.32341C8.32508 2.88266 9.99827 3.31535 11.2073 4.33719M12.8064 6.8604C13.0425 7.74168 13.028 8.63107 12.8064 9.45285M3.14318 9.44964C2.65589 7.63104 3.23623 5.77789 4.5 4.55565M4.73878 11.9699C5.94807 12.9939 7.6229 13.4278 9.26941 12.9866C10.1893 12.7401 10.9802 12.2527 11.5925 11.6104",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "j15u0t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 14.5L1.5 1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "f8k5ul"
+    }
+  ]
+];
+var RefreshCwOffDuotone = createFoamicon("RefreshCwOffDuotone", __iconNode522);
+
+// src/icons/RefreshCwOffFill.tsx
+var __iconNode523 = [
+  [
+    "path",
+    {
+      d: "M10.8233 2.31209L11.2918 4.06071C11.3633 4.32745 11.205 4.60161 10.9383 4.67309L9.18965 5.14163",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "br1e4r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.94796 13.8486L4.47941 12.0999C4.40794 11.8332 4.56623 11.559 4.83297 11.4876L6.58159 11.019",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "3iu1kn"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.68016 3.32341C8.32508 2.88266 9.99827 3.31535 11.2073 4.33719M12.8064 6.8604C13.0425 7.74168 13.028 8.63107 12.8064 9.45285M3.14318 9.44964C2.65589 7.63104 3.23623 5.77789 4.5 4.55565M4.73878 11.9699C5.94807 12.9939 7.6229 13.4278 9.26941 12.9866C10.1893 12.7401 10.9802 12.2527 11.5925 11.6104",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "j15u0t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 14.5L1.5 1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "f8k5ul"
+    }
+  ]
+];
+var RefreshCwOffFill = createFoamicon("RefreshCwOffFill", __iconNode523);
+
+// src/icons/RefreshCwOff.tsx
+var __iconNode524 = [
+  [
+    "path",
+    {
+      d: "M10.8233 2.31209L11.2918 4.06071C11.3633 4.32745 11.205 4.60161 10.9383 4.67309L9.18965 5.14163",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "br1e4r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4.94795 13.8486L4.47941 12.0999C4.40794 11.8332 4.56623 11.559 4.83296 11.4876L6.58159 11.019",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "dyvlnb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6.68016 3.32341C8.32508 2.88266 9.99827 3.31535 11.2073 4.33719M12.8064 6.8604C13.0425 7.74168 13.028 8.63107 12.8064 9.45285M3.14318 9.44964C2.65589 7.63104 3.23623 5.77789 4.5 4.55565M4.73878 11.9699C5.94807 12.9939 7.6229 13.4278 9.26941 12.9866C10.1893 12.7401 10.9802 12.2527 11.5925 11.6104",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "j15u0t"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M14.5 14.5L1.5 1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "f8k5ul"
+    }
+  ]
+];
+var RefreshCwOff = createFoamicon("RefreshCwOff", __iconNode524);
+
+// src/icons/RefreshCw.tsx
+var __iconNode525 = [
   [
     "path",
     {
@@ -22271,10 +22403,10 @@ var __iconNode522 = [
     }
   ]
 ];
-var RefreshCw = createFoamicon("RefreshCw", __iconNode522);
+var RefreshCw = createFoamicon("RefreshCw", __iconNode525);
 
 // src/icons/RemoveFormattingDuotone.tsx
-var __iconNode523 = [
+var __iconNode526 = [
   [
     "path",
     {
@@ -22296,10 +22428,10 @@ var __iconNode523 = [
     }
   ]
 ];
-var RemoveFormattingDuotone = createFoamicon("RemoveFormattingDuotone", __iconNode523);
+var RemoveFormattingDuotone = createFoamicon("RemoveFormattingDuotone", __iconNode526);
 
 // src/icons/RemoveFormattingFill.tsx
-var __iconNode524 = [
+var __iconNode527 = [
   [
     "path",
     {
@@ -22321,10 +22453,10 @@ var __iconNode524 = [
     }
   ]
 ];
-var RemoveFormattingFill = createFoamicon("RemoveFormattingFill", __iconNode524);
+var RemoveFormattingFill = createFoamicon("RemoveFormattingFill", __iconNode527);
 
 // src/icons/RemoveFormatting.tsx
-var __iconNode525 = [
+var __iconNode528 = [
   [
     "path",
     {
@@ -22346,10 +22478,10 @@ var __iconNode525 = [
     }
   ]
 ];
-var RemoveFormatting = createFoamicon("RemoveFormatting", __iconNode525);
+var RemoveFormatting = createFoamicon("RemoveFormatting", __iconNode528);
 
 // src/icons/ReplyDuotone.tsx
-var __iconNode526 = [
+var __iconNode529 = [
   [
     "path",
     {
@@ -22371,10 +22503,10 @@ var __iconNode526 = [
     }
   ]
 ];
-var ReplyDuotone = createFoamicon("ReplyDuotone", __iconNode526);
+var ReplyDuotone = createFoamicon("ReplyDuotone", __iconNode529);
 
 // src/icons/ReplyFill.tsx
-var __iconNode527 = [
+var __iconNode530 = [
   [
     "path",
     {
@@ -22396,10 +22528,10 @@ var __iconNode527 = [
     }
   ]
 ];
-var ReplyFill = createFoamicon("ReplyFill", __iconNode527);
+var ReplyFill = createFoamicon("ReplyFill", __iconNode530);
 
 // src/icons/Reply.tsx
-var __iconNode528 = [
+var __iconNode531 = [
   [
     "path",
     {
@@ -22421,10 +22553,10 @@ var __iconNode528 = [
     }
   ]
 ];
-var Reply = createFoamicon("Reply", __iconNode528);
+var Reply = createFoamicon("Reply", __iconNode531);
 
 // src/icons/RocketDuotone.tsx
-var __iconNode529 = [
+var __iconNode532 = [
   [
     "path",
     {
@@ -22471,10 +22603,10 @@ var __iconNode529 = [
     }
   ]
 ];
-var RocketDuotone = createFoamicon("RocketDuotone", __iconNode529);
+var RocketDuotone = createFoamicon("RocketDuotone", __iconNode532);
 
 // src/icons/RocketFill.tsx
-var __iconNode530 = [
+var __iconNode533 = [
   [
     "path",
     {
@@ -22521,10 +22653,10 @@ var __iconNode530 = [
     }
   ]
 ];
-var RocketFill = createFoamicon("RocketFill", __iconNode530);
+var RocketFill = createFoamicon("RocketFill", __iconNode533);
 
 // src/icons/Rocket.tsx
-var __iconNode531 = [
+var __iconNode534 = [
   [
     "path",
     {
@@ -22560,10 +22692,10 @@ var __iconNode531 = [
     }
   ]
 ];
-var Rocket = createFoamicon("Rocket", __iconNode531);
+var Rocket = createFoamicon("Rocket", __iconNode534);
 
 // src/icons/RolodexDuotone.tsx
-var __iconNode532 = [
+var __iconNode535 = [
   [
     "path",
     {
@@ -22647,10 +22779,10 @@ var __iconNode532 = [
     }
   ]
 ];
-var RolodexDuotone = createFoamicon("RolodexDuotone", __iconNode532);
+var RolodexDuotone = createFoamicon("RolodexDuotone", __iconNode535);
 
 // src/icons/RolodexFill.tsx
-var __iconNode533 = [
+var __iconNode536 = [
   [
     "path",
     {
@@ -22731,10 +22863,10 @@ var __iconNode533 = [
     }
   ]
 ];
-var RolodexFill = createFoamicon("RolodexFill", __iconNode533);
+var RolodexFill = createFoamicon("RolodexFill", __iconNode536);
 
 // src/icons/Rolodex.tsx
-var __iconNode534 = [
+var __iconNode537 = [
   [
     "path",
     {
@@ -22814,10 +22946,10 @@ var __iconNode534 = [
     }
   ]
 ];
-var Rolodex = createFoamicon("Rolodex", __iconNode534);
+var Rolodex = createFoamicon("Rolodex", __iconNode537);
 
 // src/icons/RotateCcwDuotone.tsx
-var __iconNode535 = [
+var __iconNode538 = [
   [
     "path",
     {
@@ -22849,10 +22981,10 @@ var __iconNode535 = [
     }
   ]
 ];
-var RotateCcwDuotone = createFoamicon("RotateCcwDuotone", __iconNode535);
+var RotateCcwDuotone = createFoamicon("RotateCcwDuotone", __iconNode538);
 
 // src/icons/RotateCcwFill.tsx
-var __iconNode536 = [
+var __iconNode539 = [
   [
     "path",
     {
@@ -22884,10 +23016,10 @@ var __iconNode536 = [
     }
   ]
 ];
-var RotateCcwFill = createFoamicon("RotateCcwFill", __iconNode536);
+var RotateCcwFill = createFoamicon("RotateCcwFill", __iconNode539);
 
 // src/icons/RotateCcw.tsx
-var __iconNode537 = [
+var __iconNode540 = [
   [
     "path",
     {
@@ -22919,10 +23051,10 @@ var __iconNode537 = [
     }
   ]
 ];
-var RotateCcw = createFoamicon("RotateCcw", __iconNode537);
+var RotateCcw = createFoamicon("RotateCcw", __iconNode540);
 
 // src/icons/RotateCwDuotone.tsx
-var __iconNode538 = [
+var __iconNode541 = [
   [
     "path",
     {
@@ -22954,10 +23086,10 @@ var __iconNode538 = [
     }
   ]
 ];
-var RotateCwDuotone = createFoamicon("RotateCwDuotone", __iconNode538);
+var RotateCwDuotone = createFoamicon("RotateCwDuotone", __iconNode541);
 
 // src/icons/RotateCwFill.tsx
-var __iconNode539 = [
+var __iconNode542 = [
   [
     "path",
     {
@@ -22989,10 +23121,10 @@ var __iconNode539 = [
     }
   ]
 ];
-var RotateCwFill = createFoamicon("RotateCwFill", __iconNode539);
+var RotateCwFill = createFoamicon("RotateCwFill", __iconNode542);
 
 // src/icons/RotateCw.tsx
-var __iconNode540 = [
+var __iconNode543 = [
   [
     "path",
     {
@@ -23024,10 +23156,10 @@ var __iconNode540 = [
     }
   ]
 ];
-var RotateCw = createFoamicon("RotateCw", __iconNode540);
+var RotateCw = createFoamicon("RotateCw", __iconNode543);
 
 // src/icons/SaveDuotone.tsx
-var __iconNode541 = [
+var __iconNode544 = [
   [
     "path",
     {
@@ -23067,10 +23199,10 @@ var __iconNode541 = [
     }
   ]
 ];
-var SaveDuotone = createFoamicon("SaveDuotone", __iconNode541);
+var SaveDuotone = createFoamicon("SaveDuotone", __iconNode544);
 
 // src/icons/SaveFill.tsx
-var __iconNode542 = [
+var __iconNode545 = [
   [
     "path",
     {
@@ -23104,10 +23236,10 @@ var __iconNode542 = [
     }
   ]
 ];
-var SaveFill = createFoamicon("SaveFill", __iconNode542);
+var SaveFill = createFoamicon("SaveFill", __iconNode545);
 
 // src/icons/Save.tsx
-var __iconNode543 = [
+var __iconNode546 = [
   [
     "path",
     {
@@ -23139,10 +23271,10 @@ var __iconNode543 = [
     }
   ]
 ];
-var Save = createFoamicon("Save", __iconNode543);
+var Save = createFoamicon("Save", __iconNode546);
 
 // src/icons/SearchDuotone.tsx
-var __iconNode544 = [
+var __iconNode547 = [
   [
     "path",
     {
@@ -23165,10 +23297,10 @@ var __iconNode544 = [
     }
   ]
 ];
-var SearchDuotone = createFoamicon("SearchDuotone", __iconNode544);
+var SearchDuotone = createFoamicon("SearchDuotone", __iconNode547);
 
 // src/icons/SearchFill.tsx
-var __iconNode545 = [
+var __iconNode548 = [
   [
     "path",
     {
@@ -23188,10 +23320,10 @@ var __iconNode545 = [
     }
   ]
 ];
-var SearchFill = createFoamicon("SearchFill", __iconNode545);
+var SearchFill = createFoamicon("SearchFill", __iconNode548);
 
 // src/icons/SearchUserDuotone.tsx
-var __iconNode546 = [
+var __iconNode549 = [
   [
     "circle",
     {
@@ -23240,10 +23372,10 @@ var __iconNode546 = [
     }
   ]
 ];
-var SearchUserDuotone = createFoamicon("SearchUserDuotone", __iconNode546);
+var SearchUserDuotone = createFoamicon("SearchUserDuotone", __iconNode549);
 
 // src/icons/SearchUserFill.tsx
-var __iconNode547 = [
+var __iconNode550 = [
   [
     "circle",
     {
@@ -23286,10 +23418,10 @@ var __iconNode547 = [
     }
   ]
 ];
-var SearchUserFill = createFoamicon("SearchUserFill", __iconNode547);
+var SearchUserFill = createFoamicon("SearchUserFill", __iconNode550);
 
 // src/icons/SearchUser.tsx
-var __iconNode548 = [
+var __iconNode551 = [
   [
     "circle",
     {
@@ -23323,10 +23455,10 @@ var __iconNode548 = [
     }
   ]
 ];
-var SearchUser = createFoamicon("SearchUser", __iconNode548);
+var SearchUser = createFoamicon("SearchUser", __iconNode551);
 
 // src/icons/Search.tsx
-var __iconNode549 = [
+var __iconNode552 = [
   [
     "path",
     {
@@ -23338,10 +23470,10 @@ var __iconNode549 = [
     }
   ]
 ];
-var Search = createFoamicon("Search", __iconNode549);
+var Search = createFoamicon("Search", __iconNode552);
 
 // src/icons/ShareDuotone.tsx
-var __iconNode550 = [
+var __iconNode553 = [
   [
     "path",
     {
@@ -23373,10 +23505,10 @@ var __iconNode550 = [
     }
   ]
 ];
-var ShareDuotone = createFoamicon("ShareDuotone", __iconNode550);
+var ShareDuotone = createFoamicon("ShareDuotone", __iconNode553);
 
 // src/icons/ShareFill.tsx
-var __iconNode551 = [
+var __iconNode554 = [
   [
     "path",
     {
@@ -23408,10 +23540,10 @@ var __iconNode551 = [
     }
   ]
 ];
-var ShareFill = createFoamicon("ShareFill", __iconNode551);
+var ShareFill = createFoamicon("ShareFill", __iconNode554);
 
 // src/icons/Share.tsx
-var __iconNode552 = [
+var __iconNode555 = [
   [
     "path",
     {
@@ -23443,10 +23575,10 @@ var __iconNode552 = [
     }
   ]
 ];
-var Share = createFoamicon("Share", __iconNode552);
+var Share = createFoamicon("Share", __iconNode555);
 
 // src/icons/ShieldCheckDuotone.tsx
-var __iconNode553 = [
+var __iconNode556 = [
   [
     "path",
     {
@@ -23471,10 +23603,10 @@ var __iconNode553 = [
     }
   ]
 ];
-var ShieldCheckDuotone = createFoamicon("ShieldCheckDuotone", __iconNode553);
+var ShieldCheckDuotone = createFoamicon("ShieldCheckDuotone", __iconNode556);
 
 // src/icons/ShieldCheckFill.tsx
-var __iconNode554 = [
+var __iconNode557 = [
   [
     "path",
     {
@@ -23496,10 +23628,10 @@ var __iconNode554 = [
     }
   ]
 ];
-var ShieldCheckFill = createFoamicon("ShieldCheckFill", __iconNode554);
+var ShieldCheckFill = createFoamicon("ShieldCheckFill", __iconNode557);
 
 // src/icons/ShieldCheck.tsx
-var __iconNode555 = [
+var __iconNode558 = [
   [
     "path",
     {
@@ -23520,10 +23652,10 @@ var __iconNode555 = [
     }
   ]
 ];
-var ShieldCheck = createFoamicon("ShieldCheck", __iconNode555);
+var ShieldCheck = createFoamicon("ShieldCheck", __iconNode558);
 
 // src/icons/ShieldDuotone.tsx
-var __iconNode556 = [
+var __iconNode559 = [
   [
     "path",
     {
@@ -23538,10 +23670,10 @@ var __iconNode556 = [
     }
   ]
 ];
-var ShieldDuotone = createFoamicon("ShieldDuotone", __iconNode556);
+var ShieldDuotone = createFoamicon("ShieldDuotone", __iconNode559);
 
 // src/icons/ShieldFill.tsx
-var __iconNode557 = [
+var __iconNode560 = [
   [
     "path",
     {
@@ -23553,10 +23685,10 @@ var __iconNode557 = [
     }
   ]
 ];
-var ShieldFill = createFoamicon("ShieldFill", __iconNode557);
+var ShieldFill = createFoamicon("ShieldFill", __iconNode560);
 
 // src/icons/ShieldOffDuotone.tsx
-var __iconNode558 = [
+var __iconNode561 = [
   [
     "path",
     {
@@ -23596,10 +23728,10 @@ var __iconNode558 = [
     }
   ]
 ];
-var ShieldOffDuotone = createFoamicon("ShieldOffDuotone", __iconNode558);
+var ShieldOffDuotone = createFoamicon("ShieldOffDuotone", __iconNode561);
 
 // src/icons/ShieldOffFill.tsx
-var __iconNode559 = [
+var __iconNode562 = [
   [
     "path",
     {
@@ -23637,10 +23769,10 @@ var __iconNode559 = [
     }
   ]
 ];
-var ShieldOffFill = createFoamicon("ShieldOffFill", __iconNode559);
+var ShieldOffFill = createFoamicon("ShieldOffFill", __iconNode562);
 
 // src/icons/ShieldOff.tsx
-var __iconNode560 = [
+var __iconNode563 = [
   [
     "path",
     {
@@ -23669,10 +23801,10 @@ var __iconNode560 = [
     }
   ]
 ];
-var ShieldOff = createFoamicon("ShieldOff", __iconNode560);
+var ShieldOff = createFoamicon("ShieldOff", __iconNode563);
 
 // src/icons/ShieldPlusDuotone.tsx
-var __iconNode561 = [
+var __iconNode564 = [
   [
     "path",
     {
@@ -23707,10 +23839,10 @@ var __iconNode561 = [
     }
   ]
 ];
-var ShieldPlusDuotone = createFoamicon("ShieldPlusDuotone", __iconNode561);
+var ShieldPlusDuotone = createFoamicon("ShieldPlusDuotone", __iconNode564);
 
 // src/icons/ShieldPlusFill.tsx
-var __iconNode562 = [
+var __iconNode565 = [
   [
     "path",
     {
@@ -23742,10 +23874,10 @@ var __iconNode562 = [
     }
   ]
 ];
-var ShieldPlusFill = createFoamicon("ShieldPlusFill", __iconNode562);
+var ShieldPlusFill = createFoamicon("ShieldPlusFill", __iconNode565);
 
 // src/icons/ShieldPlus.tsx
-var __iconNode563 = [
+var __iconNode566 = [
   [
     "path",
     {
@@ -23776,10 +23908,10 @@ var __iconNode563 = [
     }
   ]
 ];
-var ShieldPlus = createFoamicon("ShieldPlus", __iconNode563);
+var ShieldPlus = createFoamicon("ShieldPlus", __iconNode566);
 
 // src/icons/ShieldUserDuotone.tsx
-var __iconNode564 = [
+var __iconNode567 = [
   [
     "path",
     {
@@ -23823,10 +23955,10 @@ var __iconNode564 = [
     }
   ]
 ];
-var ShieldUserDuotone = createFoamicon("ShieldUserDuotone", __iconNode564);
+var ShieldUserDuotone = createFoamicon("ShieldUserDuotone", __iconNode567);
 
 // src/icons/ShieldUserFill.tsx
-var __iconNode565 = [
+var __iconNode568 = [
   [
     "path",
     {
@@ -23868,10 +24000,10 @@ var __iconNode565 = [
     }
   ]
 ];
-var ShieldUserFill = createFoamicon("ShieldUserFill", __iconNode565);
+var ShieldUserFill = createFoamicon("ShieldUserFill", __iconNode568);
 
 // src/icons/ShieldUser.tsx
-var __iconNode566 = [
+var __iconNode569 = [
   [
     "path",
     {
@@ -23914,10 +24046,10 @@ var __iconNode566 = [
     }
   ]
 ];
-var ShieldUser = createFoamicon("ShieldUser", __iconNode566);
+var ShieldUser = createFoamicon("ShieldUser", __iconNode569);
 
 // src/icons/ShieldXDuotone.tsx
-var __iconNode567 = [
+var __iconNode570 = [
   [
     "path",
     {
@@ -23952,10 +24084,10 @@ var __iconNode567 = [
     }
   ]
 ];
-var ShieldXDuotone = createFoamicon("ShieldXDuotone", __iconNode567);
+var ShieldXDuotone = createFoamicon("ShieldXDuotone", __iconNode570);
 
 // src/icons/ShieldXFill.tsx
-var __iconNode568 = [
+var __iconNode571 = [
   [
     "path",
     {
@@ -23987,10 +24119,10 @@ var __iconNode568 = [
     }
   ]
 ];
-var ShieldXFill = createFoamicon("ShieldXFill", __iconNode568);
+var ShieldXFill = createFoamicon("ShieldXFill", __iconNode571);
 
 // src/icons/ShieldX.tsx
-var __iconNode569 = [
+var __iconNode572 = [
   [
     "path",
     {
@@ -24021,10 +24153,10 @@ var __iconNode569 = [
     }
   ]
 ];
-var ShieldX = createFoamicon("ShieldX", __iconNode569);
+var ShieldX = createFoamicon("ShieldX", __iconNode572);
 
 // src/icons/Shield.tsx
-var __iconNode570 = [
+var __iconNode573 = [
   [
     "path",
     {
@@ -24035,10 +24167,10 @@ var __iconNode570 = [
     }
   ]
 ];
-var Shield = createFoamicon("Shield", __iconNode570);
+var Shield = createFoamicon("Shield", __iconNode573);
 
 // src/icons/SlashDuotone.tsx
-var __iconNode571 = [
+var __iconNode574 = [
   [
     "path",
     {
@@ -24049,10 +24181,10 @@ var __iconNode571 = [
     }
   ]
 ];
-var SlashDuotone = createFoamicon("SlashDuotone", __iconNode571);
+var SlashDuotone = createFoamicon("SlashDuotone", __iconNode574);
 
 // src/icons/SlashFill.tsx
-var __iconNode572 = [
+var __iconNode575 = [
   [
     "path",
     {
@@ -24063,10 +24195,10 @@ var __iconNode572 = [
     }
   ]
 ];
-var SlashFill = createFoamicon("SlashFill", __iconNode572);
+var SlashFill = createFoamicon("SlashFill", __iconNode575);
 
 // src/icons/Slash.tsx
-var __iconNode573 = [
+var __iconNode576 = [
   [
     "path",
     {
@@ -24077,10 +24209,10 @@ var __iconNode573 = [
     }
   ]
 ];
-var Slash = createFoamicon("Slash", __iconNode573);
+var Slash = createFoamicon("Slash", __iconNode576);
 
 // src/icons/SlidersHorizontalDuotone.tsx
-var __iconNode574 = [
+var __iconNode577 = [
   [
     "path",
     {
@@ -24134,10 +24266,10 @@ var __iconNode574 = [
     }
   ]
 ];
-var SlidersHorizontalDuotone = createFoamicon("SlidersHorizontalDuotone", __iconNode574);
+var SlidersHorizontalDuotone = createFoamicon("SlidersHorizontalDuotone", __iconNode577);
 
 // src/icons/SlidersHorizontalFill.tsx
-var __iconNode575 = [
+var __iconNode578 = [
   [
     "path",
     {
@@ -24185,10 +24317,10 @@ var __iconNode575 = [
     }
   ]
 ];
-var SlidersHorizontalFill = createFoamicon("SlidersHorizontalFill", __iconNode575);
+var SlidersHorizontalFill = createFoamicon("SlidersHorizontalFill", __iconNode578);
 
 // src/icons/SlidersHorizontal.tsx
-var __iconNode576 = [
+var __iconNode579 = [
   [
     "path",
     {
@@ -24234,10 +24366,10 @@ var __iconNode576 = [
     }
   ]
 ];
-var SlidersHorizontal = createFoamicon("SlidersHorizontal", __iconNode576);
+var SlidersHorizontal = createFoamicon("SlidersHorizontal", __iconNode579);
 
 // src/icons/SmileDuotone.tsx
-var __iconNode577 = [
+var __iconNode580 = [
   [
     "circle",
     {
@@ -24281,10 +24413,10 @@ var __iconNode577 = [
     }
   ]
 ];
-var SmileDuotone = createFoamicon("SmileDuotone", __iconNode577);
+var SmileDuotone = createFoamicon("SmileDuotone", __iconNode580);
 
 // src/icons/SmileFill.tsx
-var __iconNode578 = [
+var __iconNode581 = [
   [
     "circle",
     {
@@ -24329,10 +24461,10 @@ var __iconNode578 = [
     }
   ]
 ];
-var SmileFill = createFoamicon("SmileFill", __iconNode578);
+var SmileFill = createFoamicon("SmileFill", __iconNode581);
 
 // src/icons/Smile.tsx
-var __iconNode579 = [
+var __iconNode582 = [
   [
     "circle",
     {
@@ -24376,10 +24508,10 @@ var __iconNode579 = [
     }
   ]
 ];
-var Smile = createFoamicon("Smile", __iconNode579);
+var Smile = createFoamicon("Smile", __iconNode582);
 
 // src/icons/SparklesDuotone.tsx
-var __iconNode580 = [
+var __iconNode583 = [
   [
     "path",
     {
@@ -24423,10 +24555,10 @@ var __iconNode580 = [
     }
   ]
 ];
-var SparklesDuotone = createFoamicon("SparklesDuotone", __iconNode580);
+var SparklesDuotone = createFoamicon("SparklesDuotone", __iconNode583);
 
 // src/icons/SparklesFill.tsx
-var __iconNode581 = [
+var __iconNode584 = [
   [
     "path",
     {
@@ -24461,10 +24593,10 @@ var __iconNode581 = [
     }
   ]
 ];
-var SparklesFill = createFoamicon("SparklesFill", __iconNode581);
+var SparklesFill = createFoamicon("SparklesFill", __iconNode584);
 
 // src/icons/Sparkles.tsx
-var __iconNode582 = [
+var __iconNode585 = [
   [
     "path",
     {
@@ -24496,10 +24628,10 @@ var __iconNode582 = [
     }
   ]
 ];
-var Sparkles = createFoamicon("Sparkles", __iconNode582);
+var Sparkles = createFoamicon("Sparkles", __iconNode585);
 
 // src/icons/SquareDuotone.tsx
-var __iconNode583 = [
+var __iconNode586 = [
   [
     "path",
     {
@@ -24515,10 +24647,10 @@ var __iconNode583 = [
     }
   ]
 ];
-var SquareDuotone = createFoamicon("SquareDuotone", __iconNode583);
+var SquareDuotone = createFoamicon("SquareDuotone", __iconNode586);
 
 // src/icons/SquareFill.tsx
-var __iconNode584 = [
+var __iconNode587 = [
   [
     "path",
     {
@@ -24531,10 +24663,10 @@ var __iconNode584 = [
     }
   ]
 ];
-var SquareFill = createFoamicon("SquareFill", __iconNode584);
+var SquareFill = createFoamicon("SquareFill", __iconNode587);
 
 // src/icons/SquarePenDuotone.tsx
-var __iconNode585 = [
+var __iconNode588 = [
   [
     "path",
     {
@@ -24570,10 +24702,10 @@ var __iconNode585 = [
     }
   ]
 ];
-var SquarePenDuotone = createFoamicon("SquarePenDuotone", __iconNode585);
+var SquarePenDuotone = createFoamicon("SquarePenDuotone", __iconNode588);
 
 // src/icons/SquarePenFill.tsx
-var __iconNode586 = [
+var __iconNode589 = [
   [
     "path",
     {
@@ -24607,10 +24739,10 @@ var __iconNode586 = [
     }
   ]
 ];
-var SquarePenFill = createFoamicon("SquarePenFill", __iconNode586);
+var SquarePenFill = createFoamicon("SquarePenFill", __iconNode589);
 
 // src/icons/SquarePen.tsx
-var __iconNode587 = [
+var __iconNode590 = [
   [
     "path",
     {
@@ -24642,10 +24774,10 @@ var __iconNode587 = [
     }
   ]
 ];
-var SquarePen = createFoamicon("SquarePen", __iconNode587);
+var SquarePen = createFoamicon("SquarePen", __iconNode590);
 
 // src/icons/Square.tsx
-var __iconNode588 = [
+var __iconNode591 = [
   [
     "path",
     {
@@ -24657,10 +24789,10 @@ var __iconNode588 = [
     }
   ]
 ];
-var Square = createFoamicon("Square", __iconNode588);
+var Square = createFoamicon("Square", __iconNode591);
 
 // src/icons/StarDuotone.tsx
-var __iconNode589 = [
+var __iconNode592 = [
   [
     "path",
     {
@@ -24676,10 +24808,10 @@ var __iconNode589 = [
     }
   ]
 ];
-var StarDuotone = createFoamicon("StarDuotone", __iconNode589);
+var StarDuotone = createFoamicon("StarDuotone", __iconNode592);
 
 // src/icons/StarFill.tsx
-var __iconNode590 = [
+var __iconNode593 = [
   [
     "path",
     {
@@ -24692,10 +24824,10 @@ var __iconNode590 = [
     }
   ]
 ];
-var StarFill = createFoamicon("StarFill", __iconNode590);
+var StarFill = createFoamicon("StarFill", __iconNode593);
 
 // src/icons/Star.tsx
-var __iconNode591 = [
+var __iconNode594 = [
   [
     "path",
     {
@@ -24707,10 +24839,10 @@ var __iconNode591 = [
     }
   ]
 ];
-var Star = createFoamicon("Star", __iconNode591);
+var Star = createFoamicon("Star", __iconNode594);
 
 // src/icons/SunDuotone.tsx
-var __iconNode592 = [
+var __iconNode595 = [
   [
     "path",
     {
@@ -24736,10 +24868,10 @@ var __iconNode592 = [
     }
   ]
 ];
-var SunDuotone = createFoamicon("SunDuotone", __iconNode592);
+var SunDuotone = createFoamicon("SunDuotone", __iconNode595);
 
 // src/icons/SunFill.tsx
-var __iconNode593 = [
+var __iconNode596 = [
   [
     "path",
     {
@@ -24762,10 +24894,10 @@ var __iconNode593 = [
     }
   ]
 ];
-var SunFill = createFoamicon("SunFill", __iconNode593);
+var SunFill = createFoamicon("SunFill", __iconNode596);
 
 // src/icons/Sun.tsx
-var __iconNode594 = [
+var __iconNode597 = [
   [
     "path",
     {
@@ -24787,10 +24919,10 @@ var __iconNode594 = [
     }
   ]
 ];
-var Sun = createFoamicon("Sun", __iconNode594);
+var Sun = createFoamicon("Sun", __iconNode597);
 
 // src/icons/TagDuotone.tsx
-var __iconNode595 = [
+var __iconNode598 = [
   [
     "defs",
     {
@@ -24851,10 +24983,10 @@ var __iconNode595 = [
     }
   ]
 ];
-var TagDuotone = createFoamicon("TagDuotone", __iconNode595);
+var TagDuotone = createFoamicon("TagDuotone", __iconNode598);
 
 // src/icons/TagFill.tsx
-var __iconNode596 = [
+var __iconNode599 = [
   [
     "defs",
     {
@@ -24912,10 +25044,10 @@ var __iconNode596 = [
     }
   ]
 ];
-var TagFill = createFoamicon("TagFill", __iconNode596);
+var TagFill = createFoamicon("TagFill", __iconNode599);
 
 // src/icons/Tag.tsx
-var __iconNode597 = [
+var __iconNode600 = [
   [
     "defs",
     {
@@ -24972,10 +25104,10 @@ var __iconNode597 = [
     }
   ]
 ];
-var Tag = createFoamicon("Tag", __iconNode597);
+var Tag = createFoamicon("Tag", __iconNode600);
 
 // src/icons/TagsDuotone.tsx
-var __iconNode598 = [
+var __iconNode601 = [
   [
     "defs",
     {
@@ -25046,10 +25178,10 @@ var __iconNode598 = [
     }
   ]
 ];
-var TagsDuotone = createFoamicon("TagsDuotone", __iconNode598);
+var TagsDuotone = createFoamicon("TagsDuotone", __iconNode601);
 
 // src/icons/TagsFill.tsx
-var __iconNode599 = [
+var __iconNode602 = [
   [
     "defs",
     {
@@ -25117,10 +25249,10 @@ var __iconNode599 = [
     }
   ]
 ];
-var TagsFill = createFoamicon("TagsFill", __iconNode599);
+var TagsFill = createFoamicon("TagsFill", __iconNode602);
 
 // src/icons/Tags.tsx
-var __iconNode600 = [
+var __iconNode603 = [
   [
     "defs",
     {
@@ -25187,10 +25319,10 @@ var __iconNode600 = [
     }
   ]
 ];
-var Tags = createFoamicon("Tags", __iconNode600);
+var Tags = createFoamicon("Tags", __iconNode603);
 
 // src/icons/TargetDuotone.tsx
-var __iconNode601 = [
+var __iconNode604 = [
   [
     "circle",
     {
@@ -25232,196 +25364,91 @@ var __iconNode601 = [
     }
   ]
 ];
-var TargetDuotone = createFoamicon("TargetDuotone", __iconNode601);
+var TargetDuotone = createFoamicon("TargetDuotone", __iconNode604);
 
 // src/icons/TargetFill.tsx
-var __iconNode602 = [
-  [
-    "circle",
-    {
-      cx: "8",
-      cy: "8",
-      r: "6.5",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "h2mxnc"
-    }
-  ],
-  [
-    "circle",
-    {
-      cx: "8",
-      cy: "8",
-      r: "4",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "8u7i9u"
-    }
-  ],
-  [
-    "circle",
-    {
-      cx: "8",
-      cy: "8",
-      r: "1.5",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "6pxmyp"
-    }
-  ]
-];
-var TargetFill = createFoamicon("TargetFill", __iconNode602);
-
-// src/icons/Target.tsx
-var __iconNode603 = [
-  [
-    "circle",
-    {
-      cx: "8",
-      cy: "8",
-      r: "6.5",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "h2mxnc"
-    }
-  ],
-  [
-    "circle",
-    {
-      cx: "8",
-      cy: "8",
-      r: "4",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "8u7i9u"
-    }
-  ],
-  [
-    "circle",
-    {
-      cx: "8",
-      cy: "8",
-      r: "1.5",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "6pxmyp"
-    }
-  ]
-];
-var Target = createFoamicon("Target", __iconNode603);
-
-// src/icons/TextAlignCenterDuotone.tsx
-var __iconNode604 = [
-  [
-    "path",
-    {
-      d: "M2 8H14",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "37fxcv"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M4 4H12",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "v7ou3i"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M5 12H11",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "4n2448"
-    }
-  ]
-];
-var TextAlignCenterDuotone = createFoamicon("TextAlignCenterDuotone", __iconNode604);
-
-// src/icons/TextAlignCenterFill.tsx
 var __iconNode605 = [
   [
-    "path",
+    "circle",
     {
-      d: "M2 8H14",
+      cx: "8",
+      cy: "8",
+      r: "6.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "37fxcv"
+      key: "h2mxnc"
     }
   ],
   [
-    "path",
+    "circle",
     {
-      d: "M4 4H12",
+      cx: "8",
+      cy: "8",
+      r: "4",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "v7ou3i"
+      key: "8u7i9u"
     }
   ],
   [
-    "path",
+    "circle",
     {
-      d: "M5 12H11",
+      cx: "8",
+      cy: "8",
+      r: "1.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "4n2448"
+      key: "6pxmyp"
     }
   ]
 ];
-var TextAlignCenterFill = createFoamicon("TextAlignCenterFill", __iconNode605);
+var TargetFill = createFoamicon("TargetFill", __iconNode605);
 
-// src/icons/TextAlignCenter.tsx
+// src/icons/Target.tsx
 var __iconNode606 = [
   [
-    "path",
+    "circle",
     {
-      d: "M2 8H14",
+      cx: "8",
+      cy: "8",
+      r: "6.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "37fxcv"
+      key: "h2mxnc"
     }
   ],
   [
-    "path",
+    "circle",
     {
-      d: "M4 4H12",
+      cx: "8",
+      cy: "8",
+      r: "4",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "v7ou3i"
+      key: "8u7i9u"
     }
   ],
   [
-    "path",
+    "circle",
     {
-      d: "M5 12H11",
+      cx: "8",
+      cy: "8",
+      r: "1.5",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "4n2448"
+      key: "6pxmyp"
     }
   ]
 ];
-var TextAlignCenter = createFoamicon("TextAlignCenter", __iconNode606);
+var Target = createFoamicon("Target", __iconNode606);
 
-// src/icons/TextAlignEndDuotone.tsx
+// src/icons/TextAlignCenterDuotone.tsx
 var __iconNode607 = [
   [
     "path",
@@ -25436,27 +25463,27 @@ var __iconNode607 = [
   [
     "path",
     {
-      d: "M5 4H14",
+      d: "M4 4H12",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "t4sq75"
+      key: "v7ou3i"
     }
   ],
   [
     "path",
     {
-      d: "M8 12H14",
+      d: "M5 12H11",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "ecqssy"
+      key: "4n2448"
     }
   ]
 ];
-var TextAlignEndDuotone = createFoamicon("TextAlignEndDuotone", __iconNode607);
+var TextAlignCenterDuotone = createFoamicon("TextAlignCenterDuotone", __iconNode607);
 
-// src/icons/TextAlignEndFill.tsx
+// src/icons/TextAlignCenterFill.tsx
 var __iconNode608 = [
   [
     "path",
@@ -25471,27 +25498,27 @@ var __iconNode608 = [
   [
     "path",
     {
-      d: "M5 4H14",
+      d: "M4 4H12",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "t4sq75"
+      key: "v7ou3i"
     }
   ],
   [
     "path",
     {
-      d: "M8 12H14",
+      d: "M5 12H11",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "ecqssy"
+      key: "4n2448"
     }
   ]
 ];
-var TextAlignEndFill = createFoamicon("TextAlignEndFill", __iconNode608);
+var TextAlignCenterFill = createFoamicon("TextAlignCenterFill", __iconNode608);
 
-// src/icons/TextAlignEnd.tsx
+// src/icons/TextAlignCenter.tsx
 var __iconNode609 = [
   [
     "path",
@@ -25506,6 +25533,41 @@ var __iconNode609 = [
   [
     "path",
     {
+      d: "M4 4H12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "v7ou3i"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 12H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "4n2448"
+    }
+  ]
+];
+var TextAlignCenter = createFoamicon("TextAlignCenter", __iconNode609);
+
+// src/icons/TextAlignEndDuotone.tsx
+var __iconNode610 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
       d: "M5 4H14",
       stroke: "currentColor",
       strokeLinecap: "round",
@@ -25524,83 +25586,83 @@ var __iconNode609 = [
     }
   ]
 ];
-var TextAlignEnd = createFoamicon("TextAlignEnd", __iconNode609);
+var TextAlignEndDuotone = createFoamicon("TextAlignEndDuotone", __iconNode610);
 
-// src/icons/TextAlignJustifyDuotone.tsx
-var __iconNode610 = [
-  [
-    "path",
-    {
-      d: "M2 4H14",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "vs6ct9"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M2 8H14",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "37fxcu"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M2 12H14",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "yh4ezs"
-    }
-  ]
-];
-var TextAlignJustifyDuotone = createFoamicon("TextAlignJustifyDuotone", __iconNode610);
-
-// src/icons/TextAlignJustifyFill.tsx
+// src/icons/TextAlignEndFill.tsx
 var __iconNode611 = [
   [
     "path",
     {
-      d: "M2 4H14",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "vs6ct9"
-    }
-  ],
-  [
-    "path",
-    {
       d: "M2 8H14",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "37fxcu"
+      key: "37fxcv"
     }
   ],
   [
     "path",
     {
-      d: "M2 12H14",
+      d: "M5 4H14",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "yh4ezs"
+      key: "t4sq75"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 12H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ecqssy"
     }
   ]
 ];
-var TextAlignJustifyFill = createFoamicon("TextAlignJustifyFill", __iconNode611);
+var TextAlignEndFill = createFoamicon("TextAlignEndFill", __iconNode611);
 
-// src/icons/TextAlignJustify.tsx
+// src/icons/TextAlignEnd.tsx
 var __iconNode612 = [
   [
     "path",
     {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 4H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "t4sq75"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8 12H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ecqssy"
+    }
+  ]
+];
+var TextAlignEnd = createFoamicon("TextAlignEnd", __iconNode612);
+
+// src/icons/TextAlignJustifyDuotone.tsx
+var __iconNode613 = [
+  [
+    "path",
+    {
       d: "M2 4H14",
       stroke: "currentColor",
       strokeLinecap: "round",
@@ -25629,83 +25691,83 @@ var __iconNode612 = [
     }
   ]
 ];
-var TextAlignJustify = createFoamicon("TextAlignJustify", __iconNode612);
+var TextAlignJustifyDuotone = createFoamicon("TextAlignJustifyDuotone", __iconNode613);
 
-// src/icons/TextAlignStartDuotone.tsx
-var __iconNode613 = [
-  [
-    "path",
-    {
-      d: "M2 8H14",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "37fxcv"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M2 4H11",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "ayv91d"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M2 12H8",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "fuc7ej"
-    }
-  ]
-];
-var TextAlignStartDuotone = createFoamicon("TextAlignStartDuotone", __iconNode613);
-
-// src/icons/TextAlignStartFill.tsx
+// src/icons/TextAlignJustifyFill.tsx
 var __iconNode614 = [
   [
     "path",
     {
+      d: "M2 4H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vs6ct9"
+    }
+  ],
+  [
+    "path",
+    {
       d: "M2 8H14",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "37fxcv"
+      key: "37fxcu"
     }
   ],
   [
     "path",
     {
-      d: "M2 4H11",
+      d: "M2 12H14",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "ayv91d"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M2 12H8",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "fuc7ej"
+      key: "yh4ezs"
     }
   ]
 ];
-var TextAlignStartFill = createFoamicon("TextAlignStartFill", __iconNode614);
+var TextAlignJustifyFill = createFoamicon("TextAlignJustifyFill", __iconNode614);
 
-// src/icons/TextAlignStart.tsx
+// src/icons/TextAlignJustify.tsx
 var __iconNode615 = [
   [
     "path",
     {
+      d: "M2 4H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "vs6ct9"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcu"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "yh4ezs"
+    }
+  ]
+];
+var TextAlignJustify = createFoamicon("TextAlignJustify", __iconNode615);
+
+// src/icons/TextAlignStartDuotone.tsx
+var __iconNode616 = [
+  [
+    "path",
+    {
       d: "M2 8H14",
       stroke: "currentColor",
       strokeLinecap: "round",
@@ -25734,10 +25796,80 @@ var __iconNode615 = [
     }
   ]
 ];
-var TextAlignStart = createFoamicon("TextAlignStart", __iconNode615);
+var TextAlignStartDuotone = createFoamicon("TextAlignStartDuotone", __iconNode616);
+
+// src/icons/TextAlignStartFill.tsx
+var __iconNode617 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ayv91d"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fuc7ej"
+    }
+  ]
+];
+var TextAlignStartFill = createFoamicon("TextAlignStartFill", __iconNode617);
+
+// src/icons/TextAlignStart.tsx
+var __iconNode618 = [
+  [
+    "path",
+    {
+      d: "M2 8H14",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "37fxcv"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 4H11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ayv91d"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2 12H8",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "fuc7ej"
+    }
+  ]
+];
+var TextAlignStart = createFoamicon("TextAlignStart", __iconNode618);
 
 // src/icons/ThumbsDownDuotone.tsx
-var __iconNode616 = [
+var __iconNode619 = [
   [
     "path",
     {
@@ -25763,10 +25895,10 @@ var __iconNode616 = [
     }
   ]
 ];
-var ThumbsDownDuotone = createFoamicon("ThumbsDownDuotone", __iconNode616);
+var ThumbsDownDuotone = createFoamicon("ThumbsDownDuotone", __iconNode619);
 
 // src/icons/ThumbsDownFill.tsx
-var __iconNode617 = [
+var __iconNode620 = [
   [
     "path",
     {
@@ -25789,10 +25921,10 @@ var __iconNode617 = [
     }
   ]
 ];
-var ThumbsDownFill = createFoamicon("ThumbsDownFill", __iconNode617);
+var ThumbsDownFill = createFoamicon("ThumbsDownFill", __iconNode620);
 
 // src/icons/ThumbsDown.tsx
-var __iconNode618 = [
+var __iconNode621 = [
   [
     "path",
     {
@@ -25814,10 +25946,10 @@ var __iconNode618 = [
     }
   ]
 ];
-var ThumbsDown = createFoamicon("ThumbsDown", __iconNode618);
+var ThumbsDown = createFoamicon("ThumbsDown", __iconNode621);
 
 // src/icons/ThumbsUpDuotone.tsx
-var __iconNode619 = [
+var __iconNode622 = [
   [
     "path",
     {
@@ -25843,10 +25975,10 @@ var __iconNode619 = [
     }
   ]
 ];
-var ThumbsUpDuotone = createFoamicon("ThumbsUpDuotone", __iconNode619);
+var ThumbsUpDuotone = createFoamicon("ThumbsUpDuotone", __iconNode622);
 
 // src/icons/ThumbsUpFill.tsx
-var __iconNode620 = [
+var __iconNode623 = [
   [
     "path",
     {
@@ -25869,10 +26001,10 @@ var __iconNode620 = [
     }
   ]
 ];
-var ThumbsUpFill = createFoamicon("ThumbsUpFill", __iconNode620);
+var ThumbsUpFill = createFoamicon("ThumbsUpFill", __iconNode623);
 
 // src/icons/ThumbsUp.tsx
-var __iconNode621 = [
+var __iconNode624 = [
   [
     "path",
     {
@@ -25894,10 +26026,10 @@ var __iconNode621 = [
     }
   ]
 ];
-var ThumbsUp = createFoamicon("ThumbsUp", __iconNode621);
+var ThumbsUp = createFoamicon("ThumbsUp", __iconNode624);
 
 // src/icons/ToolCaseDuotone.tsx
-var __iconNode622 = [
+var __iconNode625 = [
   [
     "path",
     {
@@ -25942,10 +26074,10 @@ var __iconNode622 = [
     }
   ]
 ];
-var ToolCaseDuotone = createFoamicon("ToolCaseDuotone", __iconNode622);
+var ToolCaseDuotone = createFoamicon("ToolCaseDuotone", __iconNode625);
 
 // src/icons/ToolCaseFill.tsx
-var __iconNode623 = [
+var __iconNode626 = [
   [
     "path",
     {
@@ -25987,10 +26119,10 @@ var __iconNode623 = [
     }
   ]
 ];
-var ToolCaseFill = createFoamicon("ToolCaseFill", __iconNode623);
+var ToolCaseFill = createFoamicon("ToolCaseFill", __iconNode626);
 
 // src/icons/ToolCase.tsx
-var __iconNode624 = [
+var __iconNode627 = [
   [
     "path",
     {
@@ -26031,10 +26163,10 @@ var __iconNode624 = [
     }
   ]
 ];
-var ToolCase = createFoamicon("ToolCase", __iconNode624);
+var ToolCase = createFoamicon("ToolCase", __iconNode627);
 
 // src/icons/TrashDuotone.tsx
-var __iconNode625 = [
+var __iconNode628 = [
   [
     "path",
     {
@@ -26077,10 +26209,10 @@ var __iconNode625 = [
     }
   ]
 ];
-var TrashDuotone = createFoamicon("TrashDuotone", __iconNode625);
+var TrashDuotone = createFoamicon("TrashDuotone", __iconNode628);
 
 // src/icons/TrashEmptyDuotone.tsx
-var __iconNode626 = [
+var __iconNode629 = [
   [
     "path",
     {
@@ -26113,10 +26245,10 @@ var __iconNode626 = [
     }
   ]
 ];
-var TrashEmptyDuotone = createFoamicon("TrashEmptyDuotone", __iconNode626);
+var TrashEmptyDuotone = createFoamicon("TrashEmptyDuotone", __iconNode629);
 
 // src/icons/TrashEmptyFill.tsx
-var __iconNode627 = [
+var __iconNode630 = [
   [
     "path",
     {
@@ -26146,10 +26278,10 @@ var __iconNode627 = [
     }
   ]
 ];
-var TrashEmptyFill = createFoamicon("TrashEmptyFill", __iconNode627);
+var TrashEmptyFill = createFoamicon("TrashEmptyFill", __iconNode630);
 
 // src/icons/TrashEmpty.tsx
-var __iconNode628 = [
+var __iconNode631 = [
   [
     "path",
     {
@@ -26181,10 +26313,10 @@ var __iconNode628 = [
     }
   ]
 ];
-var TrashEmpty = createFoamicon("TrashEmpty", __iconNode628);
+var TrashEmpty = createFoamicon("TrashEmpty", __iconNode631);
 
 // src/icons/TrashFill.tsx
-var __iconNode629 = [
+var __iconNode632 = [
   [
     "path",
     {
@@ -26224,10 +26356,10 @@ var __iconNode629 = [
     }
   ]
 ];
-var TrashFill = createFoamicon("TrashFill", __iconNode629);
+var TrashFill = createFoamicon("TrashFill", __iconNode632);
 
 // src/icons/Trash.tsx
-var __iconNode630 = [
+var __iconNode633 = [
   [
     "path",
     {
@@ -26269,138 +26401,88 @@ var __iconNode630 = [
     }
   ]
 ];
-var Trash = createFoamicon("Trash", __iconNode630);
+var Trash = createFoamicon("Trash", __iconNode633);
 
 // src/icons/TrendingDownDuotone.tsx
-var __iconNode631 = [
-  [
-    "path",
-    {
-      d: "M14 8V11.15C14 11.2052 13.9552 11.25 13.9 11.25H10.75",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "ffgcst"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M2.25 4.5L6.17929 8.42929C6.21834 8.46834 6.28166 8.46834 6.32071 8.42929L8.67929 6.07071C8.71834 6.03166 8.78166 6.03166 8.82071 6.07071L13.75 11",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "7ear09"
-    }
-  ]
-];
-var TrendingDownDuotone = createFoamicon("TrendingDownDuotone", __iconNode631);
-
-// src/icons/TrendingDownFill.tsx
-var __iconNode632 = [
-  [
-    "path",
-    {
-      d: "M14 8V11.15C14 11.2052 13.9552 11.25 13.9 11.25H10.75",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "ffgcst"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M2.25 4.5L6.17929 8.42929C6.21834 8.46834 6.28166 8.46834 6.32071 8.42929L8.67929 6.07071C8.71834 6.03166 8.78166 6.03166 8.82071 6.07071L13.75 11",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "7ear09"
-    }
-  ]
-];
-var TrendingDownFill = createFoamicon("TrendingDownFill", __iconNode632);
-
-// src/icons/TrendingDown.tsx
-var __iconNode633 = [
-  [
-    "path",
-    {
-      d: "M14 8V11.15C14 11.2052 13.9552 11.25 13.9 11.25H10.75",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "ffgcst"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M2.25 4.5L6.17929 8.42929C6.21834 8.46834 6.28166 8.46834 6.32071 8.42929L8.67929 6.07071C8.71834 6.03166 8.78166 6.03166 8.82071 6.07071L13.75 11",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "7ear09"
-    }
-  ]
-];
-var TrendingDown = createFoamicon("TrendingDown", __iconNode633);
-
-// src/icons/TrendingUpDuotone.tsx
 var __iconNode634 = [
   [
     "path",
     {
-      d: "M14 7.75V4.6C14 4.54477 13.9552 4.5 13.9 4.5H10.75",
+      d: "M14 8V11.15C14 11.2052 13.9552 11.25 13.9 11.25H10.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "1sqbla"
+      key: "ffgcst"
     }
   ],
   [
     "path",
     {
-      d: "M2.25 11.25L6.17929 7.32071C6.21834 7.28166 6.28166 7.28166 6.32071 7.32071L8.67929 9.67929C8.71834 9.71834 8.78166 9.71834 8.82071 9.67929L13.75 4.75",
+      d: "M2.25 4.5L6.17929 8.42929C6.21834 8.46834 6.28166 8.46834 6.32071 8.42929L8.67929 6.07071C8.71834 6.03166 8.78166 6.03166 8.82071 6.07071L13.75 11",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "l3frjn"
+      key: "7ear09"
     }
   ]
 ];
-var TrendingUpDuotone = createFoamicon("TrendingUpDuotone", __iconNode634);
+var TrendingDownDuotone = createFoamicon("TrendingDownDuotone", __iconNode634);
 
-// src/icons/TrendingUpFill.tsx
+// src/icons/TrendingDownFill.tsx
 var __iconNode635 = [
   [
     "path",
     {
-      d: "M14 7.75V4.6C14 4.54477 13.9552 4.5 13.9 4.5H10.75",
+      d: "M14 8V11.15C14 11.2052 13.9552 11.25 13.9 11.25H10.75",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "1sqbla"
+      key: "ffgcst"
     }
   ],
   [
     "path",
     {
-      d: "M2.25 11.25L6.17929 7.32071C6.21834 7.28166 6.28166 7.28166 6.32071 7.32071L8.67929 9.67929C8.71834 9.71834 8.78166 9.71834 8.82071 9.67929L13.75 4.75",
+      d: "M2.25 4.5L6.17929 8.42929C6.21834 8.46834 6.28166 8.46834 6.32071 8.42929L8.67929 6.07071C8.71834 6.03166 8.78166 6.03166 8.82071 6.07071L13.75 11",
       stroke: "currentColor",
       strokeLinecap: "round",
       strokeLinejoin: "round",
-      key: "l3frjn"
+      key: "7ear09"
     }
   ]
 ];
-var TrendingUpFill = createFoamicon("TrendingUpFill", __iconNode635);
+var TrendingDownFill = createFoamicon("TrendingDownFill", __iconNode635);
 
-// src/icons/TrendingUp.tsx
+// src/icons/TrendingDown.tsx
 var __iconNode636 = [
   [
     "path",
     {
+      d: "M14 8V11.15C14 11.2052 13.9552 11.25 13.9 11.25H10.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ffgcst"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.25 4.5L6.17929 8.42929C6.21834 8.46834 6.28166 8.46834 6.32071 8.42929L8.67929 6.07071C8.71834 6.03166 8.78166 6.03166 8.82071 6.07071L13.75 11",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "7ear09"
+    }
+  ]
+];
+var TrendingDown = createFoamicon("TrendingDown", __iconNode636);
+
+// src/icons/TrendingUpDuotone.tsx
+var __iconNode637 = [
+  [
+    "path",
+    {
       d: "M14 7.75V4.6C14 4.54477 13.9552 4.5 13.9 4.5H10.75",
       stroke: "currentColor",
       strokeLinecap: "round",
@@ -26419,99 +26501,60 @@ var __iconNode636 = [
     }
   ]
 ];
-var TrendingUp = createFoamicon("TrendingUp", __iconNode636);
+var TrendingUpDuotone = createFoamicon("TrendingUpDuotone", __iconNode637);
 
-// src/icons/TriangleDownDuotone.tsx
-var __iconNode637 = [
-  [
-    "path",
-    {
-      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
-      fill: "currentColor",
-      key: "mn6pqq"
-    }
-  ]
-];
-var TriangleDownDuotone = createFoamicon("TriangleDownDuotone", __iconNode637);
-
-// src/icons/TriangleDownFill.tsx
+// src/icons/TrendingUpFill.tsx
 var __iconNode638 = [
   [
     "path",
     {
-      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
-      fill: "currentColor",
-      key: "mn6pqq"
+      d: "M14 7.75V4.6C14 4.54477 13.9552 4.5 13.9 4.5H10.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1sqbla"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M2.25 11.25L6.17929 7.32071C6.21834 7.28166 6.28166 7.28166 6.32071 7.32071L8.67929 9.67929C8.71834 9.71834 8.78166 9.71834 8.82071 9.67929L13.75 4.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l3frjn"
     }
   ]
 ];
-var TriangleDownFill = createFoamicon("TriangleDownFill", __iconNode638);
+var TrendingUpFill = createFoamicon("TrendingUpFill", __iconNode638);
 
-// src/icons/TriangleDownUpDuotone.tsx
+// src/icons/TrendingUp.tsx
 var __iconNode639 = [
   [
     "path",
     {
-      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
-      fill: "currentColor",
-      key: "1o8qmi"
+      d: "M14 7.75V4.6C14 4.54477 13.9552 4.5 13.9 4.5H10.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "1sqbla"
     }
   ],
   [
     "path",
     {
-      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
-      fill: "currentColor",
-      key: "mn6pqp"
+      d: "M2.25 11.25L6.17929 7.32071C6.21834 7.28166 6.28166 7.28166 6.32071 7.32071L8.67929 9.67929C8.71834 9.71834 8.78166 9.71834 8.82071 9.67929L13.75 4.75",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "l3frjn"
     }
   ]
 ];
-var TriangleDownUpDuotone = createFoamicon("TriangleDownUpDuotone", __iconNode639);
+var TrendingUp = createFoamicon("TrendingUp", __iconNode639);
 
-// src/icons/TriangleDownUpFill.tsx
+// src/icons/TriangleDownDuotone.tsx
 var __iconNode640 = [
-  [
-    "path",
-    {
-      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
-      fill: "currentColor",
-      key: "1o8qmi"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
-      fill: "currentColor",
-      key: "mn6pqp"
-    }
-  ]
-];
-var TriangleDownUpFill = createFoamicon("TriangleDownUpFill", __iconNode640);
-
-// src/icons/TriangleDownUp.tsx
-var __iconNode641 = [
-  [
-    "path",
-    {
-      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
-      fill: "currentColor",
-      key: "1o8qmi"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
-      fill: "currentColor",
-      key: "mn6pqp"
-    }
-  ]
-];
-var TriangleDownUp = createFoamicon("TriangleDownUp", __iconNode641);
-
-// src/icons/TriangleDown.tsx
-var __iconNode642 = [
   [
     "path",
     {
@@ -26521,9 +26564,43 @@ var __iconNode642 = [
     }
   ]
 ];
-var TriangleDown = createFoamicon("TriangleDown", __iconNode642);
+var TriangleDownDuotone = createFoamicon("TriangleDownDuotone", __iconNode640);
 
-// src/icons/TriangleUpDuotone.tsx
+// src/icons/TriangleDownFill.tsx
+var __iconNode641 = [
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqq"
+    }
+  ]
+];
+var TriangleDownFill = createFoamicon("TriangleDownFill", __iconNode641);
+
+// src/icons/TriangleDownUpDuotone.tsx
+var __iconNode642 = [
+  [
+    "path",
+    {
+      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
+      fill: "currentColor",
+      key: "1o8qmi"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqp"
+    }
+  ]
+];
+var TriangleDownUpDuotone = createFoamicon("TriangleDownUpDuotone", __iconNode642);
+
+// src/icons/TriangleDownUpFill.tsx
 var __iconNode643 = [
   [
     "path",
@@ -26532,11 +26609,19 @@ var __iconNode643 = [
       fill: "currentColor",
       key: "1o8qmi"
     }
+  ],
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqp"
+    }
   ]
 ];
-var TriangleUpDuotone = createFoamicon("TriangleUpDuotone", __iconNode643);
+var TriangleDownUpFill = createFoamicon("TriangleDownUpFill", __iconNode643);
 
-// src/icons/TriangleUpFill.tsx
+// src/icons/TriangleDownUp.tsx
 var __iconNode644 = [
   [
     "path",
@@ -26545,12 +26630,33 @@ var __iconNode644 = [
       fill: "currentColor",
       key: "1o8qmi"
     }
+  ],
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqp"
+    }
   ]
 ];
-var TriangleUpFill = createFoamicon("TriangleUpFill", __iconNode644);
+var TriangleDownUp = createFoamicon("TriangleDownUp", __iconNode644);
 
-// src/icons/TriangleUp.tsx
+// src/icons/TriangleDown.tsx
 var __iconNode645 = [
+  [
+    "path",
+    {
+      d: "M8.21213 11.7879L10.4879 9.51213C10.6769 9.32314 10.543 9 10.2757 9L5.72426 9C5.45699 9 5.32314 9.32314 5.51213 9.51213L7.78787 11.7879C7.90503 11.905 8.09497 11.905 8.21213 11.7879Z",
+      fill: "currentColor",
+      key: "mn6pqq"
+    }
+  ]
+];
+var TriangleDown = createFoamicon("TriangleDown", __iconNode645);
+
+// src/icons/TriangleUpDuotone.tsx
+var __iconNode646 = [
   [
     "path",
     {
@@ -26560,77 +26666,39 @@ var __iconNode645 = [
     }
   ]
 ];
-var TriangleUp = createFoamicon("TriangleUp", __iconNode645);
+var TriangleUpDuotone = createFoamicon("TriangleUpDuotone", __iconNode646);
 
-// src/icons/UnlinkDuotone.tsx
-var __iconNode646 = [
-  [
-    "path",
-    {
-      d: "M11.88 8.12988L12.7553 7.25159C13.8576 6.1455 13.856 4.35572 12.7518 3.25153C11.6463 2.14598 9.85384 2.146 8.74831 3.25156L7.88001 4.11988M8.12 11.8799L7.24996 12.75C6.14539 13.8546 4.35448 13.8546 3.24989 12.75C2.1453 11.6454 2.14531 9.85452 3.24991 8.74994L4.12 7.87987",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "sbs6xb"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M9.84372 6.15601L5.84372 10.156",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      key: "czh5bp"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M10 14V12",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "ml99w1"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M12 10L14 10",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "5gsaw7"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M6 2L6 4",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "wrf12o"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M4 6L2 6",
-      stroke: "currentColor",
-      strokeLinecap: "round",
-      strokeLinejoin: "round",
-      key: "urubm9"
-    }
-  ]
-];
-var UnlinkDuotone = createFoamicon("UnlinkDuotone", __iconNode646);
-
-// src/icons/UnlinkFill.tsx
+// src/icons/TriangleUpFill.tsx
 var __iconNode647 = [
   [
     "path",
     {
+      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
+      fill: "currentColor",
+      key: "1o8qmi"
+    }
+  ]
+];
+var TriangleUpFill = createFoamicon("TriangleUpFill", __iconNode647);
+
+// src/icons/TriangleUp.tsx
+var __iconNode648 = [
+  [
+    "path",
+    {
+      d: "M7.78787 4.21213L5.51213 6.48787C5.32314 6.67686 5.45699 7 5.72426 7H10.2757C10.543 7 10.6769 6.67686 10.4879 6.48787L8.21213 4.21213C8.09497 4.09497 7.90503 4.09497 7.78787 4.21213Z",
+      fill: "currentColor",
+      key: "1o8qmi"
+    }
+  ]
+];
+var TriangleUp = createFoamicon("TriangleUp", __iconNode648);
+
+// src/icons/UnlinkDuotone.tsx
+var __iconNode649 = [
+  [
+    "path",
+    {
       d: "M11.88 8.12988L12.7553 7.25159C13.8576 6.1455 13.856 4.35572 12.7518 3.25153C11.6463 2.14598 9.85384 2.146 8.74831 3.25156L7.88001 4.11988M8.12 11.8799L7.24996 12.75C6.14539 13.8546 4.35448 13.8546 3.24989 12.75C2.1453 11.6454 2.14531 9.85452 3.24991 8.74994L4.12 7.87987",
       stroke: "currentColor",
       strokeLinecap: "round",
@@ -26688,10 +26756,74 @@ var __iconNode647 = [
     }
   ]
 ];
-var UnlinkFill = createFoamicon("UnlinkFill", __iconNode647);
+var UnlinkDuotone = createFoamicon("UnlinkDuotone", __iconNode649);
+
+// src/icons/UnlinkFill.tsx
+var __iconNode650 = [
+  [
+    "path",
+    {
+      d: "M11.88 8.12988L12.7553 7.25159C13.8576 6.1455 13.856 4.35572 12.7518 3.25153C11.6463 2.14598 9.85384 2.146 8.74831 3.25156L7.88001 4.11988M8.12 11.8799L7.24996 12.75C6.14539 13.8546 4.35448 13.8546 3.24989 12.75C2.1453 11.6454 2.14531 9.85452 3.24991 8.74994L4.12 7.87987",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "sbs6xb"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M9.84372 6.15601L5.84372 10.156",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "czh5bp"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M10 14V12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "ml99w1"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M12 10L14 10",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "5gsaw7"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M6 2L6 4",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "wrf12o"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 6L2 6",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      key: "urubm9"
+    }
+  ]
+];
+var UnlinkFill = createFoamicon("UnlinkFill", __iconNode650);
 
 // src/icons/Unlink.tsx
-var __iconNode648 = [
+var __iconNode651 = [
   [
     "path",
     {
@@ -26752,10 +26884,10 @@ var __iconNode648 = [
     }
   ]
 ];
-var Unlink = createFoamicon("Unlink", __iconNode648);
+var Unlink = createFoamicon("Unlink", __iconNode651);
 
 // src/icons/UnlockDuotone.tsx
-var __iconNode649 = [
+var __iconNode652 = [
   [
     "path",
     {
@@ -26810,10 +26942,10 @@ var __iconNode649 = [
     }
   ]
 ];
-var UnlockDuotone = createFoamicon("UnlockDuotone", __iconNode649);
+var UnlockDuotone = createFoamicon("UnlockDuotone", __iconNode652);
 
 // src/icons/UnlockFill.tsx
-var __iconNode650 = [
+var __iconNode653 = [
   [
     "path",
     {
@@ -26865,10 +26997,10 @@ var __iconNode650 = [
     }
   ]
 ];
-var UnlockFill = createFoamicon("UnlockFill", __iconNode650);
+var UnlockFill = createFoamicon("UnlockFill", __iconNode653);
 
 // src/icons/Unlock.tsx
-var __iconNode651 = [
+var __iconNode654 = [
   [
     "path",
     {
@@ -26902,10 +27034,197 @@ var __iconNode651 = [
     }
   ]
 ];
-var Unlock = createFoamicon("Unlock", __iconNode651);
+var Unlock = createFoamicon("Unlock", __iconNode654);
+
+// src/icons/UnplugDuotone.tsx
+var __iconNode655 = [
+  [
+    "path",
+    {
+      d: "M14.5 14.5L12 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "iy9u28"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 4L1.5 1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "n4xjd5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.96985 12.0306C7.89175 11.9525 7.89175 11.8258 7.96985 11.7477L11.9296 7.78794C12.0078 7.70984 12.1344 7.70984 12.2125 7.78794L12.7782 8.35363C13.5592 9.13467 13.5592 10.401 12.7782 11.1821L11.364 12.5963C10.5829 13.3773 9.31659 13.3773 8.53554 12.5963L7.96985 12.0306Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "ske5fj"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.58578 7.64664C2.80473 6.86559 2.80473 5.59926 3.58578 4.81821L5 3.40399C5.78105 2.62295 7.04738 2.62295 7.82842 3.40399L8.46482 4.04039C8.50387 4.07944 8.50387 4.14276 8.46482 4.18181L4.3636 8.28303C4.32455 8.32208 4.26123 8.32208 4.22218 8.28303L3.58578 7.64664Z",
+      fill: "var(--foamicon-secondary-color, currentColor)",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      style: {
+        fillOpacity: "var(--foamicon-secondary-opacity, 0.25)"
+      },
+      key: "f9r199"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 7.5L7 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "uacd26"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.5 5.5L9 7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "tpdnkv"
+    }
+  ]
+];
+var UnplugDuotone = createFoamicon("UnplugDuotone", __iconNode655);
+
+// src/icons/UnplugFill.tsx
+var __iconNode656 = [
+  [
+    "path",
+    {
+      d: "M14.5 14.5L12 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "iy9u28"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 4L1.5 1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "n4xjd5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.96985 12.0306C7.89175 11.9525 7.89175 11.8258 7.96985 11.7477L11.9296 7.78794C12.0078 7.70984 12.1344 7.70984 12.2125 7.78794L12.7782 8.35363C13.5592 9.13467 13.5592 10.401 12.7782 11.1821L11.364 12.5963C10.5829 13.3773 9.31659 13.3773 8.53554 12.5963L7.96985 12.0306Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "y0r1z"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.58578 7.64664C2.80473 6.86559 2.80473 5.59926 3.58578 4.81821L5 3.40399C5.78105 2.62295 7.04738 2.62295 7.82842 3.40399L8.46482 4.04039C8.50387 4.07944 8.50387 4.14276 8.46482 4.18181L4.3636 8.28303C4.32455 8.32208 4.26123 8.32208 4.22218 8.28303L3.58578 7.64664Z",
+      fill: "currentColor",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "dwxr0r"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 7.5L7 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "uacd26"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.5 5.5L9 7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "tpdnkv"
+    }
+  ]
+];
+var UnplugFill = createFoamicon("UnplugFill", __iconNode656);
+
+// src/icons/Unplug.tsx
+var __iconNode657 = [
+  [
+    "path",
+    {
+      d: "M14.5 14.5L12 12",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "iy9u28"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M4 4L1.5 1.5",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "n4xjd5"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.96985 12.0306C7.89174 11.9525 7.89174 11.8258 7.96985 11.7477L11.9296 7.78794C12.0078 7.70984 12.1344 7.70984 12.2125 7.78794L12.7782 8.35363C13.5592 9.13467 13.5592 10.401 12.7782 11.1821L11.364 12.5963C10.5829 13.3773 9.31658 13.3773 8.53553 12.5963L7.96985 12.0306Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "mspb2a"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M3.58579 7.64664C2.80474 6.86559 2.80474 5.59926 3.58579 4.81821L5 3.40399C5.78105 2.62295 7.04738 2.62295 7.82843 3.40399L8.46482 4.04039C8.50388 4.07944 8.50388 4.14276 8.46482 4.18181L4.3636 8.28303C4.32455 8.32208 4.26123 8.32208 4.22218 8.28303L3.58579 7.64664Z",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "hn3y1u"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5.5 7.5L7 9",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "uacd26"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M7.5 5.5L9 7",
+      stroke: "currentColor",
+      strokeLinecap: "round",
+      key: "tpdnkv"
+    }
+  ]
+];
+var Unplug = createFoamicon("Unplug", __iconNode657);
 
 // src/icons/UploadDuotone.tsx
-var __iconNode652 = [
+var __iconNode658 = [
   [
     "path",
     {
@@ -26937,10 +27256,10 @@ var __iconNode652 = [
     }
   ]
 ];
-var UploadDuotone = createFoamicon("UploadDuotone", __iconNode652);
+var UploadDuotone = createFoamicon("UploadDuotone", __iconNode658);
 
 // src/icons/UploadFill.tsx
-var __iconNode653 = [
+var __iconNode659 = [
   [
     "path",
     {
@@ -26972,10 +27291,10 @@ var __iconNode653 = [
     }
   ]
 ];
-var UploadFill = createFoamicon("UploadFill", __iconNode653);
+var UploadFill = createFoamicon("UploadFill", __iconNode659);
 
 // src/icons/Upload.tsx
-var __iconNode654 = [
+var __iconNode660 = [
   [
     "path",
     {
@@ -27007,10 +27326,10 @@ var __iconNode654 = [
     }
   ]
 ];
-var Upload = createFoamicon("Upload", __iconNode654);
+var Upload = createFoamicon("Upload", __iconNode660);
 
 // src/icons/UserArrowLeftDuotone.tsx
-var __iconNode655 = [
+var __iconNode661 = [
   [
     "circle",
     {
@@ -27048,10 +27367,10 @@ var __iconNode655 = [
     }
   ]
 ];
-var UserArrowLeftDuotone = createFoamicon("UserArrowLeftDuotone", __iconNode655);
+var UserArrowLeftDuotone = createFoamicon("UserArrowLeftDuotone", __iconNode661);
 
 // src/icons/UserArrowLeftFill.tsx
-var __iconNode656 = [
+var __iconNode662 = [
   [
     "path",
     {
@@ -27085,10 +27404,10 @@ var __iconNode656 = [
     }
   ]
 ];
-var UserArrowLeftFill = createFoamicon("UserArrowLeftFill", __iconNode656);
+var UserArrowLeftFill = createFoamicon("UserArrowLeftFill", __iconNode662);
 
 // src/icons/UserArrowLeftRightDuotone.tsx
-var __iconNode657 = [
+var __iconNode663 = [
   [
     "circle",
     {
@@ -27136,10 +27455,10 @@ var __iconNode657 = [
     }
   ]
 ];
-var UserArrowLeftRightDuotone = createFoamicon("UserArrowLeftRightDuotone", __iconNode657);
+var UserArrowLeftRightDuotone = createFoamicon("UserArrowLeftRightDuotone", __iconNode663);
 
 // src/icons/UserArrowLeftRightFill.tsx
-var __iconNode658 = [
+var __iconNode664 = [
   [
     "circle",
     {
@@ -27196,10 +27515,10 @@ var __iconNode658 = [
     }
   ]
 ];
-var UserArrowLeftRightFill = createFoamicon("UserArrowLeftRightFill", __iconNode658);
+var UserArrowLeftRightFill = createFoamicon("UserArrowLeftRightFill", __iconNode664);
 
 // src/icons/UserArrowLeftRight.tsx
-var __iconNode659 = [
+var __iconNode665 = [
   [
     "circle",
     {
@@ -27243,10 +27562,10 @@ var __iconNode659 = [
     }
   ]
 ];
-var UserArrowLeftRight = createFoamicon("UserArrowLeftRight", __iconNode659);
+var UserArrowLeftRight = createFoamicon("UserArrowLeftRight", __iconNode665);
 
 // src/icons/UserArrowLeft.tsx
-var __iconNode660 = [
+var __iconNode666 = [
   [
     "circle",
     {
@@ -27280,10 +27599,10 @@ var __iconNode660 = [
     }
   ]
 ];
-var UserArrowLeft = createFoamicon("UserArrowLeft", __iconNode660);
+var UserArrowLeft = createFoamicon("UserArrowLeft", __iconNode666);
 
 // src/icons/UserArrowOutUpRightDuotone.tsx
-var __iconNode661 = [
+var __iconNode667 = [
   [
     "circle",
     {
@@ -27321,10 +27640,10 @@ var __iconNode661 = [
     }
   ]
 ];
-var UserArrowOutUpRightDuotone = createFoamicon("UserArrowOutUpRightDuotone", __iconNode661);
+var UserArrowOutUpRightDuotone = createFoamicon("UserArrowOutUpRightDuotone", __iconNode667);
 
 // src/icons/UserArrowOutUpRightFill.tsx
-var __iconNode662 = [
+var __iconNode668 = [
   [
     "circle",
     {
@@ -27358,10 +27677,10 @@ var __iconNode662 = [
     }
   ]
 ];
-var UserArrowOutUpRightFill = createFoamicon("UserArrowOutUpRightFill", __iconNode662);
+var UserArrowOutUpRightFill = createFoamicon("UserArrowOutUpRightFill", __iconNode668);
 
 // src/icons/UserArrowOutUpRight.tsx
-var __iconNode663 = [
+var __iconNode669 = [
   [
     "circle",
     {
@@ -27395,10 +27714,10 @@ var __iconNode663 = [
     }
   ]
 ];
-var UserArrowOutUpRight = createFoamicon("UserArrowOutUpRight", __iconNode663);
+var UserArrowOutUpRight = createFoamicon("UserArrowOutUpRight", __iconNode669);
 
 // src/icons/UserArrowRightDuotone.tsx
-var __iconNode664 = [
+var __iconNode670 = [
   [
     "circle",
     {
@@ -27436,10 +27755,10 @@ var __iconNode664 = [
     }
   ]
 ];
-var UserArrowRightDuotone = createFoamicon("UserArrowRightDuotone", __iconNode664);
+var UserArrowRightDuotone = createFoamicon("UserArrowRightDuotone", __iconNode670);
 
 // src/icons/UserArrowRightFill.tsx
-var __iconNode665 = [
+var __iconNode671 = [
   [
     "path",
     {
@@ -27473,10 +27792,10 @@ var __iconNode665 = [
     }
   ]
 ];
-var UserArrowRightFill = createFoamicon("UserArrowRightFill", __iconNode665);
+var UserArrowRightFill = createFoamicon("UserArrowRightFill", __iconNode671);
 
 // src/icons/UserArrowRight.tsx
-var __iconNode666 = [
+var __iconNode672 = [
   [
     "circle",
     {
@@ -27510,10 +27829,10 @@ var __iconNode666 = [
     }
   ]
 ];
-var UserArrowRight = createFoamicon("UserArrowRight", __iconNode666);
+var UserArrowRight = createFoamicon("UserArrowRight", __iconNode672);
 
 // src/icons/UserCogDuotone.tsx
-var __iconNode667 = [
+var __iconNode673 = [
   [
     "circle",
     {
@@ -27587,10 +27906,10 @@ var __iconNode667 = [
     }
   ]
 ];
-var UserCogDuotone = createFoamicon("UserCogDuotone", __iconNode667);
+var UserCogDuotone = createFoamicon("UserCogDuotone", __iconNode673);
 
 // src/icons/UserCogFill.tsx
-var __iconNode668 = [
+var __iconNode674 = [
   [
     "circle",
     {
@@ -27657,10 +27976,10 @@ var __iconNode668 = [
     }
   ]
 ];
-var UserCogFill = createFoamicon("UserCogFill", __iconNode668);
+var UserCogFill = createFoamicon("UserCogFill", __iconNode674);
 
 // src/icons/UserCog.tsx
-var __iconNode669 = [
+var __iconNode675 = [
   [
     "circle",
     {
@@ -27726,10 +28045,10 @@ var __iconNode669 = [
     }
   ]
 ];
-var UserCog = createFoamicon("UserCog", __iconNode669);
+var UserCog = createFoamicon("UserCog", __iconNode675);
 
 // src/icons/UserDuotone.tsx
-var __iconNode670 = [
+var __iconNode676 = [
   [
     "circle",
     {
@@ -27757,10 +28076,10 @@ var __iconNode670 = [
     }
   ]
 ];
-var UserDuotone = createFoamicon("UserDuotone", __iconNode670);
+var UserDuotone = createFoamicon("UserDuotone", __iconNode676);
 
 // src/icons/UserFill.tsx
-var __iconNode671 = [
+var __iconNode677 = [
   [
     "circle",
     {
@@ -27786,10 +28105,10 @@ var __iconNode671 = [
     }
   ]
 ];
-var UserFill = createFoamicon("UserFill", __iconNode671);
+var UserFill = createFoamicon("UserFill", __iconNode677);
 
 // src/icons/UserPlusDuotone.tsx
-var __iconNode672 = [
+var __iconNode678 = [
   [
     "circle",
     {
@@ -27837,10 +28156,10 @@ var __iconNode672 = [
     }
   ]
 ];
-var UserPlusDuotone = createFoamicon("UserPlusDuotone", __iconNode672);
+var UserPlusDuotone = createFoamicon("UserPlusDuotone", __iconNode678);
 
 // src/icons/UserPlusFill.tsx
-var __iconNode673 = [
+var __iconNode679 = [
   [
     "circle",
     {
@@ -27884,10 +28203,10 @@ var __iconNode673 = [
     }
   ]
 ];
-var UserPlusFill = createFoamicon("UserPlusFill", __iconNode673);
+var UserPlusFill = createFoamicon("UserPlusFill", __iconNode679);
 
 // src/icons/UserPlus.tsx
-var __iconNode674 = [
+var __iconNode680 = [
   [
     "circle",
     {
@@ -27931,10 +28250,10 @@ var __iconNode674 = [
     }
   ]
 ];
-var UserPlus = createFoamicon("UserPlus", __iconNode674);
+var UserPlus = createFoamicon("UserPlus", __iconNode680);
 
 // src/icons/User.tsx
-var __iconNode675 = [
+var __iconNode681 = [
   [
     "circle",
     {
@@ -27958,10 +28277,10 @@ var __iconNode675 = [
     }
   ]
 ];
-var User = createFoamicon("User", __iconNode675);
+var User = createFoamicon("User", __iconNode681);
 
 // src/icons/UsersDuotone.tsx
-var __iconNode676 = [
+var __iconNode682 = [
   [
     "circle",
     {
@@ -28015,10 +28334,10 @@ var __iconNode676 = [
     }
   ]
 ];
-var UsersDuotone = createFoamicon("UsersDuotone", __iconNode676);
+var UsersDuotone = createFoamicon("UsersDuotone", __iconNode682);
 
 // src/icons/UsersFill.tsx
-var __iconNode677 = [
+var __iconNode683 = [
   [
     "circle",
     {
@@ -28068,10 +28387,10 @@ var __iconNode677 = [
     }
   ]
 ];
-var UsersFill = createFoamicon("UsersFill", __iconNode677);
+var UsersFill = createFoamicon("UsersFill", __iconNode683);
 
 // src/icons/Users.tsx
-var __iconNode678 = [
+var __iconNode684 = [
   [
     "circle",
     {
@@ -28117,10 +28436,10 @@ var __iconNode678 = [
     }
   ]
 ];
-var Users = createFoamicon("Users", __iconNode678);
+var Users = createFoamicon("Users", __iconNode684);
 
 // src/icons/VideoDuotone.tsx
-var __iconNode679 = [
+var __iconNode685 = [
   [
     "path",
     {
@@ -28146,10 +28465,10 @@ var __iconNode679 = [
     }
   ]
 ];
-var VideoDuotone = createFoamicon("VideoDuotone", __iconNode679);
+var VideoDuotone = createFoamicon("VideoDuotone", __iconNode685);
 
 // src/icons/VideoFill.tsx
-var __iconNode680 = [
+var __iconNode686 = [
   [
     "path",
     {
@@ -28173,10 +28492,10 @@ var __iconNode680 = [
     }
   ]
 ];
-var VideoFill = createFoamicon("VideoFill", __iconNode680);
+var VideoFill = createFoamicon("VideoFill", __iconNode686);
 
 // src/icons/Video.tsx
-var __iconNode681 = [
+var __iconNode687 = [
   [
     "path",
     {
@@ -28198,10 +28517,10 @@ var __iconNode681 = [
     }
   ]
 ];
-var Video = createFoamicon("Video", __iconNode681);
+var Video = createFoamicon("Video", __iconNode687);
 
 // src/icons/Volume2Duotone.tsx
-var __iconNode682 = [
+var __iconNode688 = [
   [
     "path",
     {
@@ -28237,10 +28556,10 @@ var __iconNode682 = [
     }
   ]
 ];
-var Volume2Duotone = createFoamicon("Volume2Duotone", __iconNode682);
+var Volume2Duotone = createFoamicon("Volume2Duotone", __iconNode688);
 
 // src/icons/Volume2Fill.tsx
-var __iconNode683 = [
+var __iconNode689 = [
   [
     "path",
     {
@@ -28273,10 +28592,10 @@ var __iconNode683 = [
     }
   ]
 ];
-var Volume2Fill = createFoamicon("Volume2Fill", __iconNode683);
+var Volume2Fill = createFoamicon("Volume2Fill", __iconNode689);
 
 // src/icons/Volume2.tsx
-var __iconNode684 = [
+var __iconNode690 = [
   [
     "path",
     {
@@ -28308,10 +28627,10 @@ var __iconNode684 = [
     }
   ]
 ];
-var Volume2 = createFoamicon("Volume2", __iconNode684);
+var Volume2 = createFoamicon("Volume2", __iconNode690);
 
 // src/icons/VolumeOffDuotone.tsx
-var __iconNode685 = [
+var __iconNode691 = [
   [
     "path",
     {
@@ -28364,10 +28683,10 @@ var __iconNode685 = [
     }
   ]
 ];
-var VolumeOffDuotone = createFoamicon("VolumeOffDuotone", __iconNode685);
+var VolumeOffDuotone = createFoamicon("VolumeOffDuotone", __iconNode691);
 
 // src/icons/VolumeOffFill.tsx
-var __iconNode686 = [
+var __iconNode692 = [
   [
     "path",
     {
@@ -28417,10 +28736,10 @@ var __iconNode686 = [
     }
   ]
 ];
-var VolumeOffFill = createFoamicon("VolumeOffFill", __iconNode686);
+var VolumeOffFill = createFoamicon("VolumeOffFill", __iconNode692);
 
 // src/icons/VolumeOff.tsx
-var __iconNode687 = [
+var __iconNode693 = [
   [
     "path",
     {
@@ -28462,10 +28781,10 @@ var __iconNode687 = [
     }
   ]
 ];
-var VolumeOff = createFoamicon("VolumeOff", __iconNode687);
+var VolumeOff = createFoamicon("VolumeOff", __iconNode693);
 
 // src/icons/XDuotone.tsx
-var __iconNode688 = [
+var __iconNode694 = [
   [
     "path",
     {
@@ -28487,10 +28806,10 @@ var __iconNode688 = [
     }
   ]
 ];
-var XDuotone = createFoamicon("XDuotone", __iconNode688);
+var XDuotone = createFoamicon("XDuotone", __iconNode694);
 
 // src/icons/XFill.tsx
-var __iconNode689 = [
+var __iconNode695 = [
   [
     "path",
     {
@@ -28512,10 +28831,10 @@ var __iconNode689 = [
     }
   ]
 ];
-var XFill = createFoamicon("XFill", __iconNode689);
+var XFill = createFoamicon("XFill", __iconNode695);
 
 // src/icons/X.tsx
-var __iconNode690 = [
+var __iconNode696 = [
   [
     "path",
     {
@@ -28537,10 +28856,10 @@ var __iconNode690 = [
     }
   ]
 ];
-var X = createFoamicon("X", __iconNode690);
+var X = createFoamicon("X", __iconNode696);
 
 // src/icons/ZapDuotone.tsx
-var __iconNode691 = [
+var __iconNode697 = [
   [
     "path",
     {
@@ -28555,10 +28874,10 @@ var __iconNode691 = [
     }
   ]
 ];
-var ZapDuotone = createFoamicon("ZapDuotone", __iconNode691);
+var ZapDuotone = createFoamicon("ZapDuotone", __iconNode697);
 
 // src/icons/ZapFill.tsx
-var __iconNode692 = [
+var __iconNode698 = [
   [
     "path",
     {
@@ -28570,10 +28889,10 @@ var __iconNode692 = [
     }
   ]
 ];
-var ZapFill = createFoamicon("ZapFill", __iconNode692);
+var ZapFill = createFoamicon("ZapFill", __iconNode698);
 
 // src/icons/ZapOffDuotone.tsx
-var __iconNode693 = [
+var __iconNode699 = [
   [
     "path",
     {
@@ -28612,10 +28931,10 @@ var __iconNode693 = [
     }
   ]
 ];
-var ZapOffDuotone = createFoamicon("ZapOffDuotone", __iconNode693);
+var ZapOffDuotone = createFoamicon("ZapOffDuotone", __iconNode699);
 
 // src/icons/ZapOffFill.tsx
-var __iconNode694 = [
+var __iconNode700 = [
   [
     "path",
     {
@@ -28676,10 +28995,10 @@ var __iconNode694 = [
     }
   ]
 ];
-var ZapOffFill = createFoamicon("ZapOffFill", __iconNode694);
+var ZapOffFill = createFoamicon("ZapOffFill", __iconNode700);
 
 // src/icons/ZapOff.tsx
-var __iconNode695 = [
+var __iconNode701 = [
   [
     "path",
     {
@@ -28707,10 +29026,10 @@ var __iconNode695 = [
     }
   ]
 ];
-var ZapOff = createFoamicon("ZapOff", __iconNode695);
+var ZapOff = createFoamicon("ZapOff", __iconNode701);
 
 // src/icons/Zap.tsx
-var __iconNode696 = [
+var __iconNode702 = [
   [
     "path",
     {
@@ -28721,10 +29040,10 @@ var __iconNode696 = [
     }
   ]
 ];
-var Zap = createFoamicon("Zap", __iconNode696);
+var Zap = createFoamicon("Zap", __iconNode702);
 
 // src/logos/LogoFacebookFill.tsx
-var __iconNode697 = [
+var __iconNode703 = [
   [
     "path",
     {
@@ -28734,10 +29053,10 @@ var __iconNode697 = [
     }
   ]
 ];
-var LogoFacebookFill = createFoamicon("LogoFacebookFill", __iconNode697);
+var LogoFacebookFill = createFoamicon("LogoFacebookFill", __iconNode703);
 
 // src/logos/LogoFacebook.tsx
-var __iconNode698 = [
+var __iconNode704 = [
   [
     "path",
     {
@@ -28755,10 +29074,10 @@ var __iconNode698 = [
     }
   ]
 ];
-var LogoFacebook = createFoamicon("LogoFacebook", __iconNode698);
+var LogoFacebook = createFoamicon("LogoFacebook", __iconNode704);
 
 // src/logos/LogoFileDark.tsx
-var __iconNode699 = [
+var __iconNode705 = [
   [
     "path",
     {
@@ -28784,10 +29103,10 @@ var __iconNode699 = [
     }
   ]
 ];
-var LogoFileDark = createFoamicon("LogoFileDark", __iconNode699);
+var LogoFileDark = createFoamicon("LogoFileDark", __iconNode705);
 
 // src/logos/LogoFilePdfDark.tsx
-var __iconNode700 = [
+var __iconNode706 = [
   [
     "path",
     {
@@ -28813,10 +29132,10 @@ var __iconNode700 = [
     }
   ]
 ];
-var LogoFilePdfDark = createFoamicon("LogoFilePdfDark", __iconNode700);
+var LogoFilePdfDark = createFoamicon("LogoFilePdfDark", __iconNode706);
 
 // src/logos/LogoFilePdf.tsx
-var __iconNode701 = [
+var __iconNode707 = [
   [
     "path",
     {
@@ -28842,10 +29161,10 @@ var __iconNode701 = [
     }
   ]
 ];
-var LogoFilePdf = createFoamicon("LogoFilePdf", __iconNode701);
+var LogoFilePdf = createFoamicon("LogoFilePdf", __iconNode707);
 
 // src/logos/LogoFileSheetDark.tsx
-var __iconNode702 = [
+var __iconNode708 = [
   [
     "path",
     {
@@ -28871,10 +29190,10 @@ var __iconNode702 = [
     }
   ]
 ];
-var LogoFileSheetDark = createFoamicon("LogoFileSheetDark", __iconNode702);
+var LogoFileSheetDark = createFoamicon("LogoFileSheetDark", __iconNode708);
 
 // src/logos/LogoFileSheet.tsx
-var __iconNode703 = [
+var __iconNode709 = [
   [
     "path",
     {
@@ -28900,10 +29219,10 @@ var __iconNode703 = [
     }
   ]
 ];
-var LogoFileSheet = createFoamicon("LogoFileSheet", __iconNode703);
+var LogoFileSheet = createFoamicon("LogoFileSheet", __iconNode709);
 
 // src/logos/LogoFile.tsx
-var __iconNode704 = [
+var __iconNode710 = [
   [
     "path",
     {
@@ -28929,10 +29248,10 @@ var __iconNode704 = [
     }
   ]
 ];
-var LogoFile = createFoamicon("LogoFile", __iconNode704);
+var LogoFile = createFoamicon("LogoFile", __iconNode710);
 
 // src/logos/LogoFoamDark.tsx
-var __iconNode705 = [
+var __iconNode711 = [
   [
     "rect",
     {
@@ -28954,10 +29273,10 @@ var __iconNode705 = [
     }
   ]
 ];
-var LogoFoamDark = createFoamicon("LogoFoamDark", __iconNode705);
+var LogoFoamDark = createFoamicon("LogoFoamDark", __iconNode711);
 
 // src/logos/LogoFoamFill.tsx
-var __iconNode706 = [
+var __iconNode712 = [
   [
     "path",
     {
@@ -28967,10 +29286,10 @@ var __iconNode706 = [
     }
   ]
 ];
-var LogoFoamFill = createFoamicon("LogoFoamFill", __iconNode706);
+var LogoFoamFill = createFoamicon("LogoFoamFill", __iconNode712);
 
 // src/logos/LogoFoamSymbolDark.tsx
-var __iconNode707 = [
+var __iconNode713 = [
   [
     "path",
     {
@@ -28980,10 +29299,10 @@ var __iconNode707 = [
     }
   ]
 ];
-var LogoFoamSymbolDark = createFoamicon("LogoFoamSymbolDark", __iconNode707);
+var LogoFoamSymbolDark = createFoamicon("LogoFoamSymbolDark", __iconNode713);
 
 // src/logos/LogoFoamSymbol.tsx
-var __iconNode708 = [
+var __iconNode714 = [
   [
     "path",
     {
@@ -28993,10 +29312,10 @@ var __iconNode708 = [
     }
   ]
 ];
-var LogoFoamSymbol = createFoamicon("LogoFoamSymbol", __iconNode708);
+var LogoFoamSymbol = createFoamicon("LogoFoamSymbol", __iconNode714);
 
 // src/logos/LogoFoam.tsx
-var __iconNode709 = [
+var __iconNode715 = [
   [
     "rect",
     {
@@ -29018,10 +29337,10 @@ var __iconNode709 = [
     }
   ]
 ];
-var LogoFoam = createFoamicon("LogoFoam", __iconNode709);
+var LogoFoam = createFoamicon("LogoFoam", __iconNode715);
 
 // src/logos/LogoGmailFill.tsx
-var __iconNode710 = [
+var __iconNode716 = [
   [
     "defs",
     {
@@ -29097,10 +29416,10 @@ var __iconNode710 = [
     }
   ]
 ];
-var LogoGmailFill = createFoamicon("LogoGmailFill", __iconNode710);
+var LogoGmailFill = createFoamicon("LogoGmailFill", __iconNode716);
 
 // src/logos/LogoGmail.tsx
-var __iconNode711 = [
+var __iconNode717 = [
   [
     "path",
     {
@@ -29142,10 +29461,10 @@ var __iconNode711 = [
     }
   ]
 ];
-var LogoGmail = createFoamicon("LogoGmail", __iconNode711);
+var LogoGmail = createFoamicon("LogoGmail", __iconNode717);
 
 // src/logos/LogoGoogleFill.tsx
-var __iconNode712 = [
+var __iconNode718 = [
   [
     "path",
     {
@@ -29155,10 +29474,10 @@ var __iconNode712 = [
     }
   ]
 ];
-var LogoGoogleFill = createFoamicon("LogoGoogleFill", __iconNode712);
+var LogoGoogleFill = createFoamicon("LogoGoogleFill", __iconNode718);
 
 // src/logos/LogoGoogle.tsx
-var __iconNode713 = [
+var __iconNode719 = [
   [
     "path",
     {
@@ -29200,10 +29519,10 @@ var __iconNode713 = [
     }
   ]
 ];
-var LogoGoogle = createFoamicon("LogoGoogle", __iconNode713);
+var LogoGoogle = createFoamicon("LogoGoogle", __iconNode719);
 
 // src/logos/LogoInstagramDark.tsx
-var __iconNode714 = [
+var __iconNode720 = [
   [
     "defs",
     {
@@ -29306,10 +29625,10 @@ var __iconNode714 = [
     }
   ]
 ];
-var LogoInstagramDark = createFoamicon("LogoInstagramDark", __iconNode714);
+var LogoInstagramDark = createFoamicon("LogoInstagramDark", __iconNode720);
 
 // src/logos/LogoInstagramFill.tsx
-var __iconNode715 = [
+var __iconNode721 = [
   [
     "path",
     {
@@ -29319,10 +29638,10 @@ var __iconNode715 = [
     }
   ]
 ];
-var LogoInstagramFill = createFoamicon("LogoInstagramFill", __iconNode715);
+var LogoInstagramFill = createFoamicon("LogoInstagramFill", __iconNode721);
 
 // src/logos/LogoInstagram.tsx
-var __iconNode716 = [
+var __iconNode722 = [
   [
     "defs",
     {
@@ -29424,10 +29743,10 @@ var __iconNode716 = [
     }
   ]
 ];
-var LogoInstagram = createFoamicon("LogoInstagram", __iconNode716);
+var LogoInstagram = createFoamicon("LogoInstagram", __iconNode722);
 
 // src/logos/LogoLinkedinDark.tsx
-var __iconNode717 = [
+var __iconNode723 = [
   [
     "path",
     {
@@ -29461,10 +29780,10 @@ var __iconNode717 = [
     }
   ]
 ];
-var LogoLinkedinDark = createFoamicon("LogoLinkedinDark", __iconNode717);
+var LogoLinkedinDark = createFoamicon("LogoLinkedinDark", __iconNode723);
 
 // src/logos/LogoLinkedinFill.tsx
-var __iconNode718 = [
+var __iconNode724 = [
   [
     "path",
     {
@@ -29474,10 +29793,10 @@ var __iconNode718 = [
     }
   ]
 ];
-var LogoLinkedinFill = createFoamicon("LogoLinkedinFill", __iconNode718);
+var LogoLinkedinFill = createFoamicon("LogoLinkedinFill", __iconNode724);
 
 // src/logos/LogoLinkedin.tsx
-var __iconNode719 = [
+var __iconNode725 = [
   [
     "path",
     {
@@ -29487,10 +29806,10 @@ var __iconNode719 = [
     }
   ]
 ];
-var LogoLinkedin = createFoamicon("LogoLinkedin", __iconNode719);
+var LogoLinkedin = createFoamicon("LogoLinkedin", __iconNode725);
 
 // src/logos/LogoMicrosoftFill.tsx
-var __iconNode720 = [
+var __iconNode726 = [
   [
     "path",
     {
@@ -29500,10 +29819,10 @@ var __iconNode720 = [
     }
   ]
 ];
-var LogoMicrosoftFill = createFoamicon("LogoMicrosoftFill", __iconNode720);
+var LogoMicrosoftFill = createFoamicon("LogoMicrosoftFill", __iconNode726);
 
 // src/logos/LogoMicrosoft.tsx
-var __iconNode721 = [
+var __iconNode727 = [
   [
     "path",
     {
@@ -29537,10 +29856,10 @@ var __iconNode721 = [
     }
   ]
 ];
-var LogoMicrosoft = createFoamicon("LogoMicrosoft", __iconNode721);
+var LogoMicrosoft = createFoamicon("LogoMicrosoft", __iconNode727);
 
 // src/logos/LogoSnapchatDark.tsx
-var __iconNode722 = [
+var __iconNode728 = [
   [
     "defs",
     {
@@ -29591,10 +29910,10 @@ var __iconNode722 = [
     }
   ]
 ];
-var LogoSnapchatDark = createFoamicon("LogoSnapchatDark", __iconNode722);
+var LogoSnapchatDark = createFoamicon("LogoSnapchatDark", __iconNode728);
 
 // src/logos/LogoSnapchatFill.tsx
-var __iconNode723 = [
+var __iconNode729 = [
   [
     "path",
     {
@@ -29604,10 +29923,10 @@ var __iconNode723 = [
     }
   ]
 ];
-var LogoSnapchatFill = createFoamicon("LogoSnapchatFill", __iconNode723);
+var LogoSnapchatFill = createFoamicon("LogoSnapchatFill", __iconNode729);
 
 // src/logos/LogoSnapchat.tsx
-var __iconNode724 = [
+var __iconNode730 = [
   [
     "rect",
     {
@@ -29637,10 +29956,10 @@ var __iconNode724 = [
     }
   ]
 ];
-var LogoSnapchat = createFoamicon("LogoSnapchat", __iconNode724);
+var LogoSnapchat = createFoamicon("LogoSnapchat", __iconNode730);
 
 // src/logos/LogoTiktokDark.tsx
-var __iconNode725 = [
+var __iconNode731 = [
   [
     "path",
     {
@@ -29698,10 +30017,10 @@ var __iconNode725 = [
     }
   ]
 ];
-var LogoTiktokDark = createFoamicon("LogoTiktokDark", __iconNode725);
+var LogoTiktokDark = createFoamicon("LogoTiktokDark", __iconNode731);
 
 // src/logos/LogoTiktokFill.tsx
-var __iconNode726 = [
+var __iconNode732 = [
   [
     "path",
     {
@@ -29711,10 +30030,10 @@ var __iconNode726 = [
     }
   ]
 ];
-var LogoTiktokFill = createFoamicon("LogoTiktokFill", __iconNode726);
+var LogoTiktokFill = createFoamicon("LogoTiktokFill", __iconNode732);
 
 // src/logos/LogoTiktok.tsx
-var __iconNode727 = [
+var __iconNode733 = [
   [
     "path",
     {
@@ -29772,10 +30091,10 @@ var __iconNode727 = [
     }
   ]
 ];
-var LogoTiktok = createFoamicon("LogoTiktok", __iconNode727);
+var LogoTiktok = createFoamicon("LogoTiktok", __iconNode733);
 
 // src/logos/LogoYoutubeFill.tsx
-var __iconNode728 = [
+var __iconNode734 = [
   [
     "path",
     {
@@ -29785,10 +30104,10 @@ var __iconNode728 = [
     }
   ]
 ];
-var LogoYoutubeFill = createFoamicon("LogoYoutubeFill", __iconNode728);
+var LogoYoutubeFill = createFoamicon("LogoYoutubeFill", __iconNode734);
 
 // src/logos/LogoYoutube.tsx
-var __iconNode729 = [
+var __iconNode735 = [
   [
     "path",
     {
@@ -29806,12 +30125,12 @@ var __iconNode729 = [
     }
   ]
 ];
-var LogoYoutube = createFoamicon("LogoYoutube", __iconNode729);
+var LogoYoutube = createFoamicon("LogoYoutube", __iconNode735);
 
 // src/index.ts
-var iconNames = ["Alert", "AlertDuotone", "AlertFill", "Archive", "ArchiveArrowUp", "ArchiveArrowUpDuotone", "ArchiveArrowUpFill", "ArchiveDuotone", "ArchiveFill", "ArrowDown", "ArrowDown01", "ArrowDown01Duotone", "ArrowDown01Fill", "ArrowDown10", "ArrowDown10Duotone", "ArrowDown10Fill", "ArrowDownCog", "ArrowDownCogDuotone", "ArrowDownCogFill", "ArrowDownDuotone", "ArrowDownFill", "ArrowDownIG", "ArrowDownIGDuotone", "ArrowDownIGFill", "ArrowDownLeft", "ArrowDownLeftDuotone", "ArrowDownLeftFill", "ArrowDownMapPin", "ArrowDownMapPinDuotone", "ArrowDownMapPinFill", "ArrowDownNarrowWide", "ArrowDownNarrowWideDuotone", "ArrowDownNarrowWideFill", "ArrowDownRight", "ArrowDownRightDuotone", "ArrowDownRightFill", "ArrowDownSC", "ArrowDownSCDuotone", "ArrowDownSCFill", "ArrowDownTT", "ArrowDownTTDuotone", "ArrowDownTTFill", "ArrowDownUp", "ArrowDownUpDuotone", "ArrowDownUpFill", "ArrowDownWideNarrow", "ArrowDownWideNarrowDuotone", "ArrowDownWideNarrowFill", "ArrowDownYT", "ArrowDownYTDuotone", "ArrowDownYTFill", "ArrowLeft", "ArrowLeftDuotone", "ArrowLeftFill", "ArrowRight", "ArrowRightDuotone", "ArrowRightFill", "ArrowRightToLine", "ArrowRightToLineDuotone", "ArrowRightToLineFill", "ArrowUp", "ArrowUpAZ", "ArrowUpAZDuotone", "ArrowUpAZFill", "ArrowUpCog", "ArrowUpCogDuotone", "ArrowUpCogFill", "ArrowUpDuotone", "ArrowUpFill", "ArrowUpIG", "ArrowUpIGDuotone", "ArrowUpIGFill", "ArrowUpLeft", "ArrowUpLeftDuotone", "ArrowUpLeftFill", "ArrowUpMapPin", "ArrowUpMapPinDuotone", "ArrowUpMapPinFill", "ArrowUpNarrowWide", "ArrowUpNarrowWideDuotone", "ArrowUpNarrowWideFill", "ArrowUpRight", "ArrowUpRightDuotone", "ArrowUpRightFill", "ArrowUpSC", "ArrowUpSCDuotone", "ArrowUpSCFill", "ArrowUpTT", "ArrowUpTTDuotone", "ArrowUpTTFill", "ArrowUpWideNarrow", "ArrowUpWideNarrowDuotone", "ArrowUpWideNarrowFill", "ArrowUpYT", "ArrowUpYTDuotone", "ArrowUpYTFill", "ArrowUpZA", "ArrowUpZADuotone", "ArrowUpZAFill", "AtSign", "AtSignDuotone", "AtSignFill", "AudioLines", "AudioLinesDuotone", "AudioLinesFill", "BadgeCheckbox", "BadgeCheckboxDuotone", "BadgeCheckboxFill", "Ban", "BanDuotone", "BanFill", "Bell", "BellDuotone", "BellFill", "Bold", "BoldDuotone", "BoldFill", "Bookmark", "BookmarkDuotone", "BookmarkFill", "Brain", "BrainDuotone", "BrainFill", "Calendar", "CalendarDuotone", "CalendarFill", "ChartArea", "ChartAreaDuotone", "ChartAreaFill", "ChartBarStacked", "ChartBarStackedDuotone", "ChartBarStackedFill", "ChartColumn", "ChartColumnDuotone", "ChartColumnFill", "ChartColumnSquare", "ChartColumnSquareDuotone", "ChartColumnSquareFill", "ChartNetwork", "ChartNetworkDuotone", "ChartNetworkFill", "ChartNoAxesCombined", "ChartNoAxesCombinedDuotone", "ChartNoAxesCombinedFill", "ChartPie", "ChartPieDuotone", "ChartPieFill", "Checkbox", "CheckboxDuotone", "CheckboxFill", "Checkmark", "CheckmarkDuotone", "CheckmarkFill", "ChevronDown", "ChevronDownDuotone", "ChevronDownFill", "ChevronLeft", "ChevronLeftDuotone", "ChevronLeftFill", "ChevronRight", "ChevronRightDuotone", "ChevronRightFill", "ChevronUp", "ChevronUpDown", "ChevronUpDownDuotone", "ChevronUpDownFill", "ChevronUpDuotone", "ChevronUpFill", "Circle", "CircleAlert", "CircleAlertDuotone", "CircleAlertFill", "CircleCheck", "CircleCheckDuotone", "CircleCheckFill", "CircleDashed", "CircleDashedDuotone", "CircleDashedFill", "CircleDollarSign", "CircleDollarSignDuotone", "CircleDollarSignFill", "CircleDuotone", "CircleFill", "CircleOverlap", "CircleOverlapDuotone", "CircleOverlapFill", "CirclePlus", "CirclePlusDuotone", "CirclePlusFill", "CircleQuestionMark", "CircleQuestionMarkDuotone", "CircleQuestionMarkFill", "CircleX", "CircleXDuotone", "CircleXFill", "ClipboardList", "ClipboardListDuotone", "ClipboardListFill", "Clock", "ClockArrowDown", "ClockArrowDownDuotone", "ClockArrowDownFill", "ClockArrowUp", "ClockArrowUpDuotone", "ClockArrowUpFill", "ClockDuotone", "ClockFill", "ClosedCaption", "ClosedCaptionDuotone", "ClosedCaptionFill", "Cog", "CogDuotone", "CogFill", "Columns3", "Columns3Duotone", "Columns3Fill", "Command", "CommandDuotone", "CommandFill", "ContentHeart", "ContentHeartDuotone", "ContentHeartFill", "ContentPlus", "ContentPlusDuotone", "ContentPlusFill", "ContentUser", "ContentUserDuotone", "ContentUserFill", "Copy", "CopyDuotone", "CopyFill", "Download", "DownloadDuotone", "DownloadFill", "Eclipse", "EclipseDuotone", "EclipseFill", "Ellipsis", "EllipsisDuotone", "EllipsisFill", "EllipsisVertical", "EllipsisVerticalDuotone", "EllipsisVerticalFill", "ExternalLink", "ExternalLinkDuotone", "ExternalLinkFill", "Eye", "EyeDuotone", "EyeFill", "EyeOff", "EyeOffDuotone", "EyeOffFill", "File", "FileArrowDown", "FileArrowDownDuotone", "FileArrowDownFill", "FileArrowLeft", "FileArrowLeftDuotone", "FileArrowLeftFill", "FileArrowLeftRight", "FileArrowLeftRightDuotone", "FileArrowLeftRightFill", "FileArrowRight", "FileArrowRightDuotone", "FileArrowRightFill", "FileArrowUp", "FileArrowUpDuotone", "FileArrowUpFill", "FileChartColumn", "FileChartColumnDuotone", "FileChartColumnFill", "FileCheck", "FileCheckDuotone", "FileCheckFill", "FileCog", "FileCogDuotone", "FileCogFill", "FileDuotone", "FileFill", "FileImage", "FileImageDuotone", "FileImageFill", "FilePlus", "FilePlusDuotone", "FilePlusFill", "FileUser", "FileUserDuotone", "FileUserFill", "FileX", "FileXDuotone", "FileXFill", "Flame", "FlameDuotone", "FlameFill", "Folder", "FolderChartColumn", "FolderChartColumnDuotone", "FolderChartColumnFill", "FolderCheck", "FolderCheckDuotone", "FolderCheckFill", "FolderCog", "FolderCogDuotone", "FolderCogFill", "FolderDuotone", "FolderFill", "FolderPlus", "FolderPlusDuotone", "FolderPlusFill", "FolderX", "FolderXDuotone", "FolderXFill", "Frown", "FrownDuotone", "FrownFill", "Fullscreen", "FullscreenDuotone", "FullscreenFill", "GalleryHorizontal", "GalleryHorizontalDuotone", "GalleryHorizontalEnd", "GalleryHorizontalEndDuotone", "GalleryHorizontalEndFill", "GalleryHorizontalFill", "GalleryThumbnails", "GalleryThumbnailsDuotone", "GalleryThumbnailsFill", "GalleryVertical", "GalleryVerticalDuotone", "GalleryVerticalEnd", "GalleryVerticalEndDuotone", "GalleryVerticalEndFill", "GalleryVerticalFill", "Globe", "GlobeDuotone", "GlobeFill", "Grip", "GripDuotone", "GripFill", "GripHorizontal", "GripHorizontalDuotone", "GripHorizontalFill", "GripVertical", "GripVerticalDuotone", "GripVerticalFill", "Heart", "HeartDuotone", "HeartFill", "History", "HistoryDuotone", "HistoryFill", "Hotspot", "HotspotDuotone", "HotspotFill", "House", "HouseDuotone", "HouseFill", "Image", "ImageDuotone", "ImageFill", "Images", "ImagesDuotone", "ImagesFill", "Inbox", "InboxDuotone", "InboxFill", "Info", "InfoDuotone", "InfoFill", "Italic", "ItalicDuotone", "ItalicFill", "LayoutDashboard", "LayoutDashboardDuotone", "LayoutDashboardFill", "LayoutGrid", "LayoutGridDuotone", "LayoutGridFill", "LayoutList", "LayoutListDuotone", "LayoutListFill", "LayoutPanelBottom", "LayoutPanelBottomDuotone", "LayoutPanelBottomFill", "LayoutPanelLeft", "LayoutPanelLeftDuotone", "LayoutPanelLeftFill", "LayoutPanelRight", "LayoutPanelRightDuotone", "LayoutPanelRightFill", "LayoutPanelTop", "LayoutPanelTopDuotone", "LayoutPanelTopFill", "LayoutRows", "LayoutRowsDuotone", "LayoutRowsFill", "LayoutTemplate", "LayoutTemplateDuotone", "LayoutTemplateFill", "Link", "LinkDuotone", "LinkFill", "List", "ListDuotone", "ListFill", "ListFilter", "ListFilterDuotone", "ListFilterFill", "ListIndentDecrease", "ListIndentDecreaseDuotone", "ListIndentDecreaseFill", "ListIndentIncrease", "ListIndentIncreaseDuotone", "ListIndentIncreaseFill", "ListOrdered", "ListOrderedDuotone", "ListOrderedFill", "LoaderCircle", "LoaderCircleDuotone", "LoaderCircleFill", "Lock", "LockDuotone", "LockFill", "LogOut", "LogOutDuotone", "LogOutFill", "Mail", "MailDuotone", "MailFill", "MailMove", "MailMoveDuotone", "MailMoveFill", "MailPlus", "MailPlusDuotone", "MailPlusFill", "MapPin", "MapPinDuotone", "MapPinFill", "Maximize", "MaximizeDuotone", "MaximizeFill", "Megaphone", "MegaphoneActive", "MegaphoneActiveDuotone", "MegaphoneActiveFill", "MegaphoneDuotone", "MegaphoneFill", "Menu", "MenuDuotone", "MenuFill", "MessageSquare", "MessageSquareDuotone", "MessageSquareFill", "MessagesSquare", "MessagesSquareDuotone", "MessagesSquareFill", "Minus", "MinusDuotone", "MinusFill", "Moon", "MoonDuotone", "MoonFill", "MousePointerClick", "MousePointerClickDuotone", "MousePointerClickFill", "Move", "MoveDuotone", "MoveFill", "Notebook", "NotebookDuotone", "NotebookFill", "Office", "OfficeDuotone", "OfficeFill", "Palette", "PaletteDuotone", "PaletteFill", "PanelLeft", "PanelLeftChevronLeft", "PanelLeftChevronLeftDuotone", "PanelLeftChevronLeftFill", "PanelLeftChevronRight", "PanelLeftChevronRightDuotone", "PanelLeftChevronRightFill", "PanelLeftDuotone", "PanelLeftFill", "PanelRight", "PanelRightDuotone", "PanelRightFill", "Pause", "PauseDuotone", "PauseFill", "Pencil", "PencilDuotone", "PencilFill", "Pin", "PinDuotone", "PinFill", "Play", "PlayDuotone", "PlayFill", "Plus", "PlusDuotone", "PlusFill", "Pointer", "PointerDuotone", "PointerFill", "QuotationMarkLeft", "QuotationMarkLeftDuotone", "QuotationMarkLeftFill", "QuotationMarkRight", "QuotationMarkRightDuotone", "QuotationMarkRightFill", "Reach", "ReachDuotone", "ReachFill", "Reel", "ReelDuotone", "ReelFill", "RefreshCw", "RefreshCwDuotone", "RefreshCwFill", "RemoveFormatting", "RemoveFormattingDuotone", "RemoveFormattingFill", "Reply", "ReplyDuotone", "ReplyFill", "Rocket", "RocketDuotone", "RocketFill", "Rolodex", "RolodexDuotone", "RolodexFill", "RotateCcw", "RotateCcwDuotone", "RotateCcwFill", "RotateCw", "RotateCwDuotone", "RotateCwFill", "Save", "SaveDuotone", "SaveFill", "Search", "SearchDuotone", "SearchFill", "SearchUser", "SearchUserDuotone", "SearchUserFill", "Share", "ShareDuotone", "ShareFill", "Shield", "ShieldCheck", "ShieldCheckDuotone", "ShieldCheckFill", "ShieldDuotone", "ShieldFill", "ShieldOff", "ShieldOffDuotone", "ShieldOffFill", "ShieldPlus", "ShieldPlusDuotone", "ShieldPlusFill", "ShieldUser", "ShieldUserDuotone", "ShieldUserFill", "ShieldX", "ShieldXDuotone", "ShieldXFill", "Slash", "SlashDuotone", "SlashFill", "SlidersHorizontal", "SlidersHorizontalDuotone", "SlidersHorizontalFill", "Smile", "SmileDuotone", "SmileFill", "Sparkles", "SparklesDuotone", "SparklesFill", "Square", "SquareDuotone", "SquareFill", "SquarePen", "SquarePenDuotone", "SquarePenFill", "Star", "StarDuotone", "StarFill", "Sun", "SunDuotone", "SunFill", "Tag", "TagDuotone", "TagFill", "Tags", "TagsDuotone", "TagsFill", "Target", "TargetDuotone", "TargetFill", "TextAlignCenter", "TextAlignCenterDuotone", "TextAlignCenterFill", "TextAlignEnd", "TextAlignEndDuotone", "TextAlignEndFill", "TextAlignJustify", "TextAlignJustifyDuotone", "TextAlignJustifyFill", "TextAlignStart", "TextAlignStartDuotone", "TextAlignStartFill", "ThumbsDown", "ThumbsDownDuotone", "ThumbsDownFill", "ThumbsUp", "ThumbsUpDuotone", "ThumbsUpFill", "ToolCase", "ToolCaseDuotone", "ToolCaseFill", "Trash", "TrashDuotone", "TrashEmpty", "TrashEmptyDuotone", "TrashEmptyFill", "TrashFill", "TrendingDown", "TrendingDownDuotone", "TrendingDownFill", "TrendingUp", "TrendingUpDuotone", "TrendingUpFill", "TriangleDown", "TriangleDownDuotone", "TriangleDownFill", "TriangleDownUp", "TriangleDownUpDuotone", "TriangleDownUpFill", "TriangleUp", "TriangleUpDuotone", "TriangleUpFill", "Unlink", "UnlinkDuotone", "UnlinkFill", "Unlock", "UnlockDuotone", "UnlockFill", "Upload", "UploadDuotone", "UploadFill", "User", "UserArrowLeft", "UserArrowLeftDuotone", "UserArrowLeftFill", "UserArrowLeftRight", "UserArrowLeftRightDuotone", "UserArrowLeftRightFill", "UserArrowOutUpRight", "UserArrowOutUpRightDuotone", "UserArrowOutUpRightFill", "UserArrowRight", "UserArrowRightDuotone", "UserArrowRightFill", "UserCog", "UserCogDuotone", "UserCogFill", "UserDuotone", "UserFill", "UserPlus", "UserPlusDuotone", "UserPlusFill", "Users", "UsersDuotone", "UsersFill", "Video", "VideoDuotone", "VideoFill", "Volume2", "Volume2Duotone", "Volume2Fill", "VolumeOff", "VolumeOffDuotone", "VolumeOffFill", "X", "XDuotone", "XFill", "Zap", "ZapDuotone", "ZapFill", "ZapOff", "ZapOffDuotone", "ZapOffFill"];
+var iconNames = ["Alert", "AlertDuotone", "AlertFill", "Archive", "ArchiveArrowUp", "ArchiveArrowUpDuotone", "ArchiveArrowUpFill", "ArchiveDuotone", "ArchiveFill", "ArrowDown", "ArrowDown01", "ArrowDown01Duotone", "ArrowDown01Fill", "ArrowDown10", "ArrowDown10Duotone", "ArrowDown10Fill", "ArrowDownCog", "ArrowDownCogDuotone", "ArrowDownCogFill", "ArrowDownDuotone", "ArrowDownFill", "ArrowDownIG", "ArrowDownIGDuotone", "ArrowDownIGFill", "ArrowDownLeft", "ArrowDownLeftDuotone", "ArrowDownLeftFill", "ArrowDownMapPin", "ArrowDownMapPinDuotone", "ArrowDownMapPinFill", "ArrowDownNarrowWide", "ArrowDownNarrowWideDuotone", "ArrowDownNarrowWideFill", "ArrowDownRight", "ArrowDownRightDuotone", "ArrowDownRightFill", "ArrowDownSC", "ArrowDownSCDuotone", "ArrowDownSCFill", "ArrowDownTT", "ArrowDownTTDuotone", "ArrowDownTTFill", "ArrowDownUp", "ArrowDownUpDuotone", "ArrowDownUpFill", "ArrowDownWideNarrow", "ArrowDownWideNarrowDuotone", "ArrowDownWideNarrowFill", "ArrowDownYT", "ArrowDownYTDuotone", "ArrowDownYTFill", "ArrowLeft", "ArrowLeftDuotone", "ArrowLeftFill", "ArrowRight", "ArrowRightDuotone", "ArrowRightFill", "ArrowRightToLine", "ArrowRightToLineDuotone", "ArrowRightToLineFill", "ArrowUp", "ArrowUpAZ", "ArrowUpAZDuotone", "ArrowUpAZFill", "ArrowUpCog", "ArrowUpCogDuotone", "ArrowUpCogFill", "ArrowUpDuotone", "ArrowUpFill", "ArrowUpIG", "ArrowUpIGDuotone", "ArrowUpIGFill", "ArrowUpLeft", "ArrowUpLeftDuotone", "ArrowUpLeftFill", "ArrowUpMapPin", "ArrowUpMapPinDuotone", "ArrowUpMapPinFill", "ArrowUpNarrowWide", "ArrowUpNarrowWideDuotone", "ArrowUpNarrowWideFill", "ArrowUpRight", "ArrowUpRightDuotone", "ArrowUpRightFill", "ArrowUpSC", "ArrowUpSCDuotone", "ArrowUpSCFill", "ArrowUpTT", "ArrowUpTTDuotone", "ArrowUpTTFill", "ArrowUpWideNarrow", "ArrowUpWideNarrowDuotone", "ArrowUpWideNarrowFill", "ArrowUpYT", "ArrowUpYTDuotone", "ArrowUpYTFill", "ArrowUpZA", "ArrowUpZADuotone", "ArrowUpZAFill", "AtSign", "AtSignDuotone", "AtSignFill", "AudioLines", "AudioLinesDuotone", "AudioLinesFill", "BadgeCheckbox", "BadgeCheckboxDuotone", "BadgeCheckboxFill", "Ban", "BanDuotone", "BanFill", "Bell", "BellDuotone", "BellFill", "Bold", "BoldDuotone", "BoldFill", "Bookmark", "BookmarkDuotone", "BookmarkFill", "Brain", "BrainDuotone", "BrainFill", "Calendar", "CalendarDuotone", "CalendarFill", "ChartArea", "ChartAreaDuotone", "ChartAreaFill", "ChartBarStacked", "ChartBarStackedDuotone", "ChartBarStackedFill", "ChartColumn", "ChartColumnDuotone", "ChartColumnFill", "ChartColumnSquare", "ChartColumnSquareDuotone", "ChartColumnSquareFill", "ChartNetwork", "ChartNetworkDuotone", "ChartNetworkFill", "ChartNoAxesCombined", "ChartNoAxesCombinedDuotone", "ChartNoAxesCombinedFill", "ChartPie", "ChartPieDuotone", "ChartPieFill", "Checkbox", "CheckboxDuotone", "CheckboxFill", "Checkmark", "CheckmarkDuotone", "CheckmarkFill", "ChevronDown", "ChevronDownDuotone", "ChevronDownFill", "ChevronLeft", "ChevronLeftDuotone", "ChevronLeftFill", "ChevronRight", "ChevronRightDuotone", "ChevronRightFill", "ChevronUp", "ChevronUpDown", "ChevronUpDownDuotone", "ChevronUpDownFill", "ChevronUpDuotone", "ChevronUpFill", "Circle", "CircleAlert", "CircleAlertDuotone", "CircleAlertFill", "CircleCheck", "CircleCheckDuotone", "CircleCheckFill", "CircleDashed", "CircleDashedDuotone", "CircleDashedFill", "CircleDollarSign", "CircleDollarSignDuotone", "CircleDollarSignFill", "CircleDuotone", "CircleFill", "CircleOverlap", "CircleOverlapDuotone", "CircleOverlapFill", "CirclePlus", "CirclePlusDuotone", "CirclePlusFill", "CircleQuestionMark", "CircleQuestionMarkDuotone", "CircleQuestionMarkFill", "CircleX", "CircleXDuotone", "CircleXFill", "ClipboardList", "ClipboardListDuotone", "ClipboardListFill", "Clock", "ClockArrowDown", "ClockArrowDownDuotone", "ClockArrowDownFill", "ClockArrowUp", "ClockArrowUpDuotone", "ClockArrowUpFill", "ClockDuotone", "ClockFill", "ClosedCaption", "ClosedCaptionDuotone", "ClosedCaptionFill", "Cog", "CogDuotone", "CogFill", "Columns3", "Columns3Duotone", "Columns3Fill", "Command", "CommandDuotone", "CommandFill", "ContentHeart", "ContentHeartDuotone", "ContentHeartFill", "ContentPlus", "ContentPlusDuotone", "ContentPlusFill", "ContentUser", "ContentUserDuotone", "ContentUserFill", "Copy", "CopyDuotone", "CopyFill", "Download", "DownloadDuotone", "DownloadFill", "Eclipse", "EclipseDuotone", "EclipseFill", "Ellipsis", "EllipsisDuotone", "EllipsisFill", "EllipsisVertical", "EllipsisVerticalDuotone", "EllipsisVerticalFill", "ExternalLink", "ExternalLinkDuotone", "ExternalLinkFill", "Eye", "EyeDuotone", "EyeFill", "EyeOff", "EyeOffDuotone", "EyeOffFill", "File", "FileArrowDown", "FileArrowDownDuotone", "FileArrowDownFill", "FileArrowLeft", "FileArrowLeftDuotone", "FileArrowLeftFill", "FileArrowLeftRight", "FileArrowLeftRightDuotone", "FileArrowLeftRightFill", "FileArrowRight", "FileArrowRightDuotone", "FileArrowRightFill", "FileArrowUp", "FileArrowUpDuotone", "FileArrowUpFill", "FileChartColumn", "FileChartColumnDuotone", "FileChartColumnFill", "FileCheck", "FileCheckDuotone", "FileCheckFill", "FileCog", "FileCogDuotone", "FileCogFill", "FileDuotone", "FileFill", "FileImage", "FileImageDuotone", "FileImageFill", "FilePlus", "FilePlusDuotone", "FilePlusFill", "FileUser", "FileUserDuotone", "FileUserFill", "FileX", "FileXDuotone", "FileXFill", "Flame", "FlameDuotone", "FlameFill", "Folder", "FolderChartColumn", "FolderChartColumnDuotone", "FolderChartColumnFill", "FolderCheck", "FolderCheckDuotone", "FolderCheckFill", "FolderCog", "FolderCogDuotone", "FolderCogFill", "FolderDuotone", "FolderFill", "FolderPlus", "FolderPlusDuotone", "FolderPlusFill", "FolderX", "FolderXDuotone", "FolderXFill", "Frown", "FrownDuotone", "FrownFill", "Fullscreen", "FullscreenDuotone", "FullscreenFill", "GalleryHorizontal", "GalleryHorizontalDuotone", "GalleryHorizontalEnd", "GalleryHorizontalEndDuotone", "GalleryHorizontalEndFill", "GalleryHorizontalFill", "GalleryThumbnails", "GalleryThumbnailsDuotone", "GalleryThumbnailsFill", "GalleryVertical", "GalleryVerticalDuotone", "GalleryVerticalEnd", "GalleryVerticalEndDuotone", "GalleryVerticalEndFill", "GalleryVerticalFill", "Globe", "GlobeDuotone", "GlobeFill", "Grip", "GripDuotone", "GripFill", "GripHorizontal", "GripHorizontalDuotone", "GripHorizontalFill", "GripVertical", "GripVerticalDuotone", "GripVerticalFill", "Heart", "HeartDuotone", "HeartFill", "History", "HistoryDuotone", "HistoryFill", "Hotspot", "HotspotDuotone", "HotspotFill", "House", "HouseDuotone", "HouseFill", "Image", "ImageDuotone", "ImageFill", "Images", "ImagesDuotone", "ImagesFill", "Inbox", "InboxDuotone", "InboxFill", "Info", "InfoDuotone", "InfoFill", "Italic", "ItalicDuotone", "ItalicFill", "LayoutDashboard", "LayoutDashboardDuotone", "LayoutDashboardFill", "LayoutGrid", "LayoutGridDuotone", "LayoutGridFill", "LayoutList", "LayoutListDuotone", "LayoutListFill", "LayoutPanelBottom", "LayoutPanelBottomDuotone", "LayoutPanelBottomFill", "LayoutPanelLeft", "LayoutPanelLeftDuotone", "LayoutPanelLeftFill", "LayoutPanelRight", "LayoutPanelRightDuotone", "LayoutPanelRightFill", "LayoutPanelTop", "LayoutPanelTopDuotone", "LayoutPanelTopFill", "LayoutRows", "LayoutRowsDuotone", "LayoutRowsFill", "LayoutTemplate", "LayoutTemplateDuotone", "LayoutTemplateFill", "Link", "LinkDuotone", "LinkFill", "List", "ListDuotone", "ListFill", "ListFilter", "ListFilterDuotone", "ListFilterFill", "ListIndentDecrease", "ListIndentDecreaseDuotone", "ListIndentDecreaseFill", "ListIndentIncrease", "ListIndentIncreaseDuotone", "ListIndentIncreaseFill", "ListOrdered", "ListOrderedDuotone", "ListOrderedFill", "LoaderCircle", "LoaderCircleDuotone", "LoaderCircleFill", "Lock", "LockDuotone", "LockFill", "LogOut", "LogOutDuotone", "LogOutFill", "Mail", "MailDuotone", "MailFill", "MailMove", "MailMoveDuotone", "MailMoveFill", "MailPlus", "MailPlusDuotone", "MailPlusFill", "MapPin", "MapPinDuotone", "MapPinFill", "Maximize", "MaximizeDuotone", "MaximizeFill", "Megaphone", "MegaphoneActive", "MegaphoneActiveDuotone", "MegaphoneActiveFill", "MegaphoneDuotone", "MegaphoneFill", "Menu", "MenuDuotone", "MenuFill", "MessageSquare", "MessageSquareDuotone", "MessageSquareFill", "MessagesSquare", "MessagesSquareDuotone", "MessagesSquareFill", "Minus", "MinusDuotone", "MinusFill", "Moon", "MoonDuotone", "MoonFill", "MousePointerClick", "MousePointerClickDuotone", "MousePointerClickFill", "Move", "MoveDuotone", "MoveFill", "Notebook", "NotebookDuotone", "NotebookFill", "Office", "OfficeDuotone", "OfficeFill", "Palette", "PaletteDuotone", "PaletteFill", "PanelLeft", "PanelLeftChevronLeft", "PanelLeftChevronLeftDuotone", "PanelLeftChevronLeftFill", "PanelLeftChevronRight", "PanelLeftChevronRightDuotone", "PanelLeftChevronRightFill", "PanelLeftDuotone", "PanelLeftFill", "PanelRight", "PanelRightDuotone", "PanelRightFill", "Pause", "PauseDuotone", "PauseFill", "Pencil", "PencilDuotone", "PencilFill", "Pin", "PinDuotone", "PinFill", "Play", "PlayDuotone", "PlayFill", "Plus", "PlusDuotone", "PlusFill", "Pointer", "PointerDuotone", "PointerFill", "QuotationMarkLeft", "QuotationMarkLeftDuotone", "QuotationMarkLeftFill", "QuotationMarkRight", "QuotationMarkRightDuotone", "QuotationMarkRightFill", "Reach", "ReachDuotone", "ReachFill", "Reel", "ReelDuotone", "ReelFill", "RefreshCw", "RefreshCwDuotone", "RefreshCwFill", "RefreshCwOff", "RefreshCwOffDuotone", "RefreshCwOffFill", "RemoveFormatting", "RemoveFormattingDuotone", "RemoveFormattingFill", "Reply", "ReplyDuotone", "ReplyFill", "Rocket", "RocketDuotone", "RocketFill", "Rolodex", "RolodexDuotone", "RolodexFill", "RotateCcw", "RotateCcwDuotone", "RotateCcwFill", "RotateCw", "RotateCwDuotone", "RotateCwFill", "Save", "SaveDuotone", "SaveFill", "Search", "SearchDuotone", "SearchFill", "SearchUser", "SearchUserDuotone", "SearchUserFill", "Share", "ShareDuotone", "ShareFill", "Shield", "ShieldCheck", "ShieldCheckDuotone", "ShieldCheckFill", "ShieldDuotone", "ShieldFill", "ShieldOff", "ShieldOffDuotone", "ShieldOffFill", "ShieldPlus", "ShieldPlusDuotone", "ShieldPlusFill", "ShieldUser", "ShieldUserDuotone", "ShieldUserFill", "ShieldX", "ShieldXDuotone", "ShieldXFill", "Slash", "SlashDuotone", "SlashFill", "SlidersHorizontal", "SlidersHorizontalDuotone", "SlidersHorizontalFill", "Smile", "SmileDuotone", "SmileFill", "Sparkles", "SparklesDuotone", "SparklesFill", "Square", "SquareDuotone", "SquareFill", "SquarePen", "SquarePenDuotone", "SquarePenFill", "Star", "StarDuotone", "StarFill", "Sun", "SunDuotone", "SunFill", "Tag", "TagDuotone", "TagFill", "Tags", "TagsDuotone", "TagsFill", "Target", "TargetDuotone", "TargetFill", "TextAlignCenter", "TextAlignCenterDuotone", "TextAlignCenterFill", "TextAlignEnd", "TextAlignEndDuotone", "TextAlignEndFill", "TextAlignJustify", "TextAlignJustifyDuotone", "TextAlignJustifyFill", "TextAlignStart", "TextAlignStartDuotone", "TextAlignStartFill", "ThumbsDown", "ThumbsDownDuotone", "ThumbsDownFill", "ThumbsUp", "ThumbsUpDuotone", "ThumbsUpFill", "ToolCase", "ToolCaseDuotone", "ToolCaseFill", "Trash", "TrashDuotone", "TrashEmpty", "TrashEmptyDuotone", "TrashEmptyFill", "TrashFill", "TrendingDown", "TrendingDownDuotone", "TrendingDownFill", "TrendingUp", "TrendingUpDuotone", "TrendingUpFill", "TriangleDown", "TriangleDownDuotone", "TriangleDownFill", "TriangleDownUp", "TriangleDownUpDuotone", "TriangleDownUpFill", "TriangleUp", "TriangleUpDuotone", "TriangleUpFill", "Unlink", "UnlinkDuotone", "UnlinkFill", "Unlock", "UnlockDuotone", "UnlockFill", "Unplug", "UnplugDuotone", "UnplugFill", "Upload", "UploadDuotone", "UploadFill", "User", "UserArrowLeft", "UserArrowLeftDuotone", "UserArrowLeftFill", "UserArrowLeftRight", "UserArrowLeftRightDuotone", "UserArrowLeftRightFill", "UserArrowOutUpRight", "UserArrowOutUpRightDuotone", "UserArrowOutUpRightFill", "UserArrowRight", "UserArrowRightDuotone", "UserArrowRightFill", "UserCog", "UserCogDuotone", "UserCogFill", "UserDuotone", "UserFill", "UserPlus", "UserPlusDuotone", "UserPlusFill", "Users", "UsersDuotone", "UsersFill", "Video", "VideoDuotone", "VideoFill", "Volume2", "Volume2Duotone", "Volume2Fill", "VolumeOff", "VolumeOffDuotone", "VolumeOffFill", "X", "XDuotone", "XFill", "Zap", "ZapDuotone", "ZapFill", "ZapOff", "ZapOffDuotone", "ZapOffFill"];
 var logoNames = ["LogoFacebook", "LogoFacebookFill", "LogoFile", "LogoFileDark", "LogoFilePdf", "LogoFilePdfDark", "LogoFileSheet", "LogoFileSheetDark", "LogoFoam", "LogoFoamDark", "LogoFoamFill", "LogoFoamSymbol", "LogoFoamSymbolDark", "LogoGmail", "LogoGmailFill", "LogoGoogle", "LogoGoogleFill", "LogoInstagram", "LogoInstagramDark", "LogoInstagramFill", "LogoLinkedin", "LogoLinkedinDark", "LogoLinkedinFill", "LogoMicrosoft", "LogoMicrosoftFill", "LogoSnapchat", "LogoSnapchatDark", "LogoSnapchatFill", "LogoTiktok", "LogoTiktokDark", "LogoTiktokFill", "LogoYoutube", "LogoYoutubeFill"];
-var allNames = ["Alert", "AlertDuotone", "AlertFill", "Archive", "ArchiveArrowUp", "ArchiveArrowUpDuotone", "ArchiveArrowUpFill", "ArchiveDuotone", "ArchiveFill", "ArrowDown", "ArrowDown01", "ArrowDown01Duotone", "ArrowDown01Fill", "ArrowDown10", "ArrowDown10Duotone", "ArrowDown10Fill", "ArrowDownCog", "ArrowDownCogDuotone", "ArrowDownCogFill", "ArrowDownDuotone", "ArrowDownFill", "ArrowDownIG", "ArrowDownIGDuotone", "ArrowDownIGFill", "ArrowDownLeft", "ArrowDownLeftDuotone", "ArrowDownLeftFill", "ArrowDownMapPin", "ArrowDownMapPinDuotone", "ArrowDownMapPinFill", "ArrowDownNarrowWide", "ArrowDownNarrowWideDuotone", "ArrowDownNarrowWideFill", "ArrowDownRight", "ArrowDownRightDuotone", "ArrowDownRightFill", "ArrowDownSC", "ArrowDownSCDuotone", "ArrowDownSCFill", "ArrowDownTT", "ArrowDownTTDuotone", "ArrowDownTTFill", "ArrowDownUp", "ArrowDownUpDuotone", "ArrowDownUpFill", "ArrowDownWideNarrow", "ArrowDownWideNarrowDuotone", "ArrowDownWideNarrowFill", "ArrowDownYT", "ArrowDownYTDuotone", "ArrowDownYTFill", "ArrowLeft", "ArrowLeftDuotone", "ArrowLeftFill", "ArrowRight", "ArrowRightDuotone", "ArrowRightFill", "ArrowRightToLine", "ArrowRightToLineDuotone", "ArrowRightToLineFill", "ArrowUp", "ArrowUpAZ", "ArrowUpAZDuotone", "ArrowUpAZFill", "ArrowUpCog", "ArrowUpCogDuotone", "ArrowUpCogFill", "ArrowUpDuotone", "ArrowUpFill", "ArrowUpIG", "ArrowUpIGDuotone", "ArrowUpIGFill", "ArrowUpLeft", "ArrowUpLeftDuotone", "ArrowUpLeftFill", "ArrowUpMapPin", "ArrowUpMapPinDuotone", "ArrowUpMapPinFill", "ArrowUpNarrowWide", "ArrowUpNarrowWideDuotone", "ArrowUpNarrowWideFill", "ArrowUpRight", "ArrowUpRightDuotone", "ArrowUpRightFill", "ArrowUpSC", "ArrowUpSCDuotone", "ArrowUpSCFill", "ArrowUpTT", "ArrowUpTTDuotone", "ArrowUpTTFill", "ArrowUpWideNarrow", "ArrowUpWideNarrowDuotone", "ArrowUpWideNarrowFill", "ArrowUpYT", "ArrowUpYTDuotone", "ArrowUpYTFill", "ArrowUpZA", "ArrowUpZADuotone", "ArrowUpZAFill", "AtSign", "AtSignDuotone", "AtSignFill", "AudioLines", "AudioLinesDuotone", "AudioLinesFill", "BadgeCheckbox", "BadgeCheckboxDuotone", "BadgeCheckboxFill", "Ban", "BanDuotone", "BanFill", "Bell", "BellDuotone", "BellFill", "Bold", "BoldDuotone", "BoldFill", "Bookmark", "BookmarkDuotone", "BookmarkFill", "Brain", "BrainDuotone", "BrainFill", "Calendar", "CalendarDuotone", "CalendarFill", "ChartArea", "ChartAreaDuotone", "ChartAreaFill", "ChartBarStacked", "ChartBarStackedDuotone", "ChartBarStackedFill", "ChartColumn", "ChartColumnDuotone", "ChartColumnFill", "ChartColumnSquare", "ChartColumnSquareDuotone", "ChartColumnSquareFill", "ChartNetwork", "ChartNetworkDuotone", "ChartNetworkFill", "ChartNoAxesCombined", "ChartNoAxesCombinedDuotone", "ChartNoAxesCombinedFill", "ChartPie", "ChartPieDuotone", "ChartPieFill", "Checkbox", "CheckboxDuotone", "CheckboxFill", "Checkmark", "CheckmarkDuotone", "CheckmarkFill", "ChevronDown", "ChevronDownDuotone", "ChevronDownFill", "ChevronLeft", "ChevronLeftDuotone", "ChevronLeftFill", "ChevronRight", "ChevronRightDuotone", "ChevronRightFill", "ChevronUp", "ChevronUpDown", "ChevronUpDownDuotone", "ChevronUpDownFill", "ChevronUpDuotone", "ChevronUpFill", "Circle", "CircleAlert", "CircleAlertDuotone", "CircleAlertFill", "CircleCheck", "CircleCheckDuotone", "CircleCheckFill", "CircleDashed", "CircleDashedDuotone", "CircleDashedFill", "CircleDollarSign", "CircleDollarSignDuotone", "CircleDollarSignFill", "CircleDuotone", "CircleFill", "CircleOverlap", "CircleOverlapDuotone", "CircleOverlapFill", "CirclePlus", "CirclePlusDuotone", "CirclePlusFill", "CircleQuestionMark", "CircleQuestionMarkDuotone", "CircleQuestionMarkFill", "CircleX", "CircleXDuotone", "CircleXFill", "ClipboardList", "ClipboardListDuotone", "ClipboardListFill", "Clock", "ClockArrowDown", "ClockArrowDownDuotone", "ClockArrowDownFill", "ClockArrowUp", "ClockArrowUpDuotone", "ClockArrowUpFill", "ClockDuotone", "ClockFill", "ClosedCaption", "ClosedCaptionDuotone", "ClosedCaptionFill", "Cog", "CogDuotone", "CogFill", "Columns3", "Columns3Duotone", "Columns3Fill", "Command", "CommandDuotone", "CommandFill", "ContentHeart", "ContentHeartDuotone", "ContentHeartFill", "ContentPlus", "ContentPlusDuotone", "ContentPlusFill", "ContentUser", "ContentUserDuotone", "ContentUserFill", "Copy", "CopyDuotone", "CopyFill", "Download", "DownloadDuotone", "DownloadFill", "Eclipse", "EclipseDuotone", "EclipseFill", "Ellipsis", "EllipsisDuotone", "EllipsisFill", "EllipsisVertical", "EllipsisVerticalDuotone", "EllipsisVerticalFill", "ExternalLink", "ExternalLinkDuotone", "ExternalLinkFill", "Eye", "EyeDuotone", "EyeFill", "EyeOff", "EyeOffDuotone", "EyeOffFill", "File", "FileArrowDown", "FileArrowDownDuotone", "FileArrowDownFill", "FileArrowLeft", "FileArrowLeftDuotone", "FileArrowLeftFill", "FileArrowLeftRight", "FileArrowLeftRightDuotone", "FileArrowLeftRightFill", "FileArrowRight", "FileArrowRightDuotone", "FileArrowRightFill", "FileArrowUp", "FileArrowUpDuotone", "FileArrowUpFill", "FileChartColumn", "FileChartColumnDuotone", "FileChartColumnFill", "FileCheck", "FileCheckDuotone", "FileCheckFill", "FileCog", "FileCogDuotone", "FileCogFill", "FileDuotone", "FileFill", "FileImage", "FileImageDuotone", "FileImageFill", "FilePlus", "FilePlusDuotone", "FilePlusFill", "FileUser", "FileUserDuotone", "FileUserFill", "FileX", "FileXDuotone", "FileXFill", "Flame", "FlameDuotone", "FlameFill", "Folder", "FolderChartColumn", "FolderChartColumnDuotone", "FolderChartColumnFill", "FolderCheck", "FolderCheckDuotone", "FolderCheckFill", "FolderCog", "FolderCogDuotone", "FolderCogFill", "FolderDuotone", "FolderFill", "FolderPlus", "FolderPlusDuotone", "FolderPlusFill", "FolderX", "FolderXDuotone", "FolderXFill", "Frown", "FrownDuotone", "FrownFill", "Fullscreen", "FullscreenDuotone", "FullscreenFill", "GalleryHorizontal", "GalleryHorizontalDuotone", "GalleryHorizontalEnd", "GalleryHorizontalEndDuotone", "GalleryHorizontalEndFill", "GalleryHorizontalFill", "GalleryThumbnails", "GalleryThumbnailsDuotone", "GalleryThumbnailsFill", "GalleryVertical", "GalleryVerticalDuotone", "GalleryVerticalEnd", "GalleryVerticalEndDuotone", "GalleryVerticalEndFill", "GalleryVerticalFill", "Globe", "GlobeDuotone", "GlobeFill", "Grip", "GripDuotone", "GripFill", "GripHorizontal", "GripHorizontalDuotone", "GripHorizontalFill", "GripVertical", "GripVerticalDuotone", "GripVerticalFill", "Heart", "HeartDuotone", "HeartFill", "History", "HistoryDuotone", "HistoryFill", "Hotspot", "HotspotDuotone", "HotspotFill", "House", "HouseDuotone", "HouseFill", "Image", "ImageDuotone", "ImageFill", "Images", "ImagesDuotone", "ImagesFill", "Inbox", "InboxDuotone", "InboxFill", "Info", "InfoDuotone", "InfoFill", "Italic", "ItalicDuotone", "ItalicFill", "LayoutDashboard", "LayoutDashboardDuotone", "LayoutDashboardFill", "LayoutGrid", "LayoutGridDuotone", "LayoutGridFill", "LayoutList", "LayoutListDuotone", "LayoutListFill", "LayoutPanelBottom", "LayoutPanelBottomDuotone", "LayoutPanelBottomFill", "LayoutPanelLeft", "LayoutPanelLeftDuotone", "LayoutPanelLeftFill", "LayoutPanelRight", "LayoutPanelRightDuotone", "LayoutPanelRightFill", "LayoutPanelTop", "LayoutPanelTopDuotone", "LayoutPanelTopFill", "LayoutRows", "LayoutRowsDuotone", "LayoutRowsFill", "LayoutTemplate", "LayoutTemplateDuotone", "LayoutTemplateFill", "Link", "LinkDuotone", "LinkFill", "List", "ListDuotone", "ListFill", "ListFilter", "ListFilterDuotone", "ListFilterFill", "ListIndentDecrease", "ListIndentDecreaseDuotone", "ListIndentDecreaseFill", "ListIndentIncrease", "ListIndentIncreaseDuotone", "ListIndentIncreaseFill", "ListOrdered", "ListOrderedDuotone", "ListOrderedFill", "LoaderCircle", "LoaderCircleDuotone", "LoaderCircleFill", "Lock", "LockDuotone", "LockFill", "LogOut", "LogOutDuotone", "LogOutFill", "LogoFacebook", "LogoFacebookFill", "LogoFile", "LogoFileDark", "LogoFilePdf", "LogoFilePdfDark", "LogoFileSheet", "LogoFileSheetDark", "LogoFoam", "LogoFoamDark", "LogoFoamFill", "LogoFoamSymbol", "LogoFoamSymbolDark", "LogoGmail", "LogoGmailFill", "LogoGoogle", "LogoGoogleFill", "LogoInstagram", "LogoInstagramDark", "LogoInstagramFill", "LogoLinkedin", "LogoLinkedinDark", "LogoLinkedinFill", "LogoMicrosoft", "LogoMicrosoftFill", "LogoSnapchat", "LogoSnapchatDark", "LogoSnapchatFill", "LogoTiktok", "LogoTiktokDark", "LogoTiktokFill", "LogoYoutube", "LogoYoutubeFill", "Mail", "MailDuotone", "MailFill", "MailMove", "MailMoveDuotone", "MailMoveFill", "MailPlus", "MailPlusDuotone", "MailPlusFill", "MapPin", "MapPinDuotone", "MapPinFill", "Maximize", "MaximizeDuotone", "MaximizeFill", "Megaphone", "MegaphoneActive", "MegaphoneActiveDuotone", "MegaphoneActiveFill", "MegaphoneDuotone", "MegaphoneFill", "Menu", "MenuDuotone", "MenuFill", "MessageSquare", "MessageSquareDuotone", "MessageSquareFill", "MessagesSquare", "MessagesSquareDuotone", "MessagesSquareFill", "Minus", "MinusDuotone", "MinusFill", "Moon", "MoonDuotone", "MoonFill", "MousePointerClick", "MousePointerClickDuotone", "MousePointerClickFill", "Move", "MoveDuotone", "MoveFill", "Notebook", "NotebookDuotone", "NotebookFill", "Office", "OfficeDuotone", "OfficeFill", "Palette", "PaletteDuotone", "PaletteFill", "PanelLeft", "PanelLeftChevronLeft", "PanelLeftChevronLeftDuotone", "PanelLeftChevronLeftFill", "PanelLeftChevronRight", "PanelLeftChevronRightDuotone", "PanelLeftChevronRightFill", "PanelLeftDuotone", "PanelLeftFill", "PanelRight", "PanelRightDuotone", "PanelRightFill", "Pause", "PauseDuotone", "PauseFill", "Pencil", "PencilDuotone", "PencilFill", "Pin", "PinDuotone", "PinFill", "Play", "PlayDuotone", "PlayFill", "Plus", "PlusDuotone", "PlusFill", "Pointer", "PointerDuotone", "PointerFill", "QuotationMarkLeft", "QuotationMarkLeftDuotone", "QuotationMarkLeftFill", "QuotationMarkRight", "QuotationMarkRightDuotone", "QuotationMarkRightFill", "Reach", "ReachDuotone", "ReachFill", "Reel", "ReelDuotone", "ReelFill", "RefreshCw", "RefreshCwDuotone", "RefreshCwFill", "RemoveFormatting", "RemoveFormattingDuotone", "RemoveFormattingFill", "Reply", "ReplyDuotone", "ReplyFill", "Rocket", "RocketDuotone", "RocketFill", "Rolodex", "RolodexDuotone", "RolodexFill", "RotateCcw", "RotateCcwDuotone", "RotateCcwFill", "RotateCw", "RotateCwDuotone", "RotateCwFill", "Save", "SaveDuotone", "SaveFill", "Search", "SearchDuotone", "SearchFill", "SearchUser", "SearchUserDuotone", "SearchUserFill", "Share", "ShareDuotone", "ShareFill", "Shield", "ShieldCheck", "ShieldCheckDuotone", "ShieldCheckFill", "ShieldDuotone", "ShieldFill", "ShieldOff", "ShieldOffDuotone", "ShieldOffFill", "ShieldPlus", "ShieldPlusDuotone", "ShieldPlusFill", "ShieldUser", "ShieldUserDuotone", "ShieldUserFill", "ShieldX", "ShieldXDuotone", "ShieldXFill", "Slash", "SlashDuotone", "SlashFill", "SlidersHorizontal", "SlidersHorizontalDuotone", "SlidersHorizontalFill", "Smile", "SmileDuotone", "SmileFill", "Sparkles", "SparklesDuotone", "SparklesFill", "Square", "SquareDuotone", "SquareFill", "SquarePen", "SquarePenDuotone", "SquarePenFill", "Star", "StarDuotone", "StarFill", "Sun", "SunDuotone", "SunFill", "Tag", "TagDuotone", "TagFill", "Tags", "TagsDuotone", "TagsFill", "Target", "TargetDuotone", "TargetFill", "TextAlignCenter", "TextAlignCenterDuotone", "TextAlignCenterFill", "TextAlignEnd", "TextAlignEndDuotone", "TextAlignEndFill", "TextAlignJustify", "TextAlignJustifyDuotone", "TextAlignJustifyFill", "TextAlignStart", "TextAlignStartDuotone", "TextAlignStartFill", "ThumbsDown", "ThumbsDownDuotone", "ThumbsDownFill", "ThumbsUp", "ThumbsUpDuotone", "ThumbsUpFill", "ToolCase", "ToolCaseDuotone", "ToolCaseFill", "Trash", "TrashDuotone", "TrashEmpty", "TrashEmptyDuotone", "TrashEmptyFill", "TrashFill", "TrendingDown", "TrendingDownDuotone", "TrendingDownFill", "TrendingUp", "TrendingUpDuotone", "TrendingUpFill", "TriangleDown", "TriangleDownDuotone", "TriangleDownFill", "TriangleDownUp", "TriangleDownUpDuotone", "TriangleDownUpFill", "TriangleUp", "TriangleUpDuotone", "TriangleUpFill", "Unlink", "UnlinkDuotone", "UnlinkFill", "Unlock", "UnlockDuotone", "UnlockFill", "Upload", "UploadDuotone", "UploadFill", "User", "UserArrowLeft", "UserArrowLeftDuotone", "UserArrowLeftFill", "UserArrowLeftRight", "UserArrowLeftRightDuotone", "UserArrowLeftRightFill", "UserArrowOutUpRight", "UserArrowOutUpRightDuotone", "UserArrowOutUpRightFill", "UserArrowRight", "UserArrowRightDuotone", "UserArrowRightFill", "UserCog", "UserCogDuotone", "UserCogFill", "UserDuotone", "UserFill", "UserPlus", "UserPlusDuotone", "UserPlusFill", "Users", "UsersDuotone", "UsersFill", "Video", "VideoDuotone", "VideoFill", "Volume2", "Volume2Duotone", "Volume2Fill", "VolumeOff", "VolumeOffDuotone", "VolumeOffFill", "X", "XDuotone", "XFill", "Zap", "ZapDuotone", "ZapFill", "ZapOff", "ZapOffDuotone", "ZapOffFill"];
+var allNames = ["Alert", "AlertDuotone", "AlertFill", "Archive", "ArchiveArrowUp", "ArchiveArrowUpDuotone", "ArchiveArrowUpFill", "ArchiveDuotone", "ArchiveFill", "ArrowDown", "ArrowDown01", "ArrowDown01Duotone", "ArrowDown01Fill", "ArrowDown10", "ArrowDown10Duotone", "ArrowDown10Fill", "ArrowDownCog", "ArrowDownCogDuotone", "ArrowDownCogFill", "ArrowDownDuotone", "ArrowDownFill", "ArrowDownIG", "ArrowDownIGDuotone", "ArrowDownIGFill", "ArrowDownLeft", "ArrowDownLeftDuotone", "ArrowDownLeftFill", "ArrowDownMapPin", "ArrowDownMapPinDuotone", "ArrowDownMapPinFill", "ArrowDownNarrowWide", "ArrowDownNarrowWideDuotone", "ArrowDownNarrowWideFill", "ArrowDownRight", "ArrowDownRightDuotone", "ArrowDownRightFill", "ArrowDownSC", "ArrowDownSCDuotone", "ArrowDownSCFill", "ArrowDownTT", "ArrowDownTTDuotone", "ArrowDownTTFill", "ArrowDownUp", "ArrowDownUpDuotone", "ArrowDownUpFill", "ArrowDownWideNarrow", "ArrowDownWideNarrowDuotone", "ArrowDownWideNarrowFill", "ArrowDownYT", "ArrowDownYTDuotone", "ArrowDownYTFill", "ArrowLeft", "ArrowLeftDuotone", "ArrowLeftFill", "ArrowRight", "ArrowRightDuotone", "ArrowRightFill", "ArrowRightToLine", "ArrowRightToLineDuotone", "ArrowRightToLineFill", "ArrowUp", "ArrowUpAZ", "ArrowUpAZDuotone", "ArrowUpAZFill", "ArrowUpCog", "ArrowUpCogDuotone", "ArrowUpCogFill", "ArrowUpDuotone", "ArrowUpFill", "ArrowUpIG", "ArrowUpIGDuotone", "ArrowUpIGFill", "ArrowUpLeft", "ArrowUpLeftDuotone", "ArrowUpLeftFill", "ArrowUpMapPin", "ArrowUpMapPinDuotone", "ArrowUpMapPinFill", "ArrowUpNarrowWide", "ArrowUpNarrowWideDuotone", "ArrowUpNarrowWideFill", "ArrowUpRight", "ArrowUpRightDuotone", "ArrowUpRightFill", "ArrowUpSC", "ArrowUpSCDuotone", "ArrowUpSCFill", "ArrowUpTT", "ArrowUpTTDuotone", "ArrowUpTTFill", "ArrowUpWideNarrow", "ArrowUpWideNarrowDuotone", "ArrowUpWideNarrowFill", "ArrowUpYT", "ArrowUpYTDuotone", "ArrowUpYTFill", "ArrowUpZA", "ArrowUpZADuotone", "ArrowUpZAFill", "AtSign", "AtSignDuotone", "AtSignFill", "AudioLines", "AudioLinesDuotone", "AudioLinesFill", "BadgeCheckbox", "BadgeCheckboxDuotone", "BadgeCheckboxFill", "Ban", "BanDuotone", "BanFill", "Bell", "BellDuotone", "BellFill", "Bold", "BoldDuotone", "BoldFill", "Bookmark", "BookmarkDuotone", "BookmarkFill", "Brain", "BrainDuotone", "BrainFill", "Calendar", "CalendarDuotone", "CalendarFill", "ChartArea", "ChartAreaDuotone", "ChartAreaFill", "ChartBarStacked", "ChartBarStackedDuotone", "ChartBarStackedFill", "ChartColumn", "ChartColumnDuotone", "ChartColumnFill", "ChartColumnSquare", "ChartColumnSquareDuotone", "ChartColumnSquareFill", "ChartNetwork", "ChartNetworkDuotone", "ChartNetworkFill", "ChartNoAxesCombined", "ChartNoAxesCombinedDuotone", "ChartNoAxesCombinedFill", "ChartPie", "ChartPieDuotone", "ChartPieFill", "Checkbox", "CheckboxDuotone", "CheckboxFill", "Checkmark", "CheckmarkDuotone", "CheckmarkFill", "ChevronDown", "ChevronDownDuotone", "ChevronDownFill", "ChevronLeft", "ChevronLeftDuotone", "ChevronLeftFill", "ChevronRight", "ChevronRightDuotone", "ChevronRightFill", "ChevronUp", "ChevronUpDown", "ChevronUpDownDuotone", "ChevronUpDownFill", "ChevronUpDuotone", "ChevronUpFill", "Circle", "CircleAlert", "CircleAlertDuotone", "CircleAlertFill", "CircleCheck", "CircleCheckDuotone", "CircleCheckFill", "CircleDashed", "CircleDashedDuotone", "CircleDashedFill", "CircleDollarSign", "CircleDollarSignDuotone", "CircleDollarSignFill", "CircleDuotone", "CircleFill", "CircleOverlap", "CircleOverlapDuotone", "CircleOverlapFill", "CirclePlus", "CirclePlusDuotone", "CirclePlusFill", "CircleQuestionMark", "CircleQuestionMarkDuotone", "CircleQuestionMarkFill", "CircleX", "CircleXDuotone", "CircleXFill", "ClipboardList", "ClipboardListDuotone", "ClipboardListFill", "Clock", "ClockArrowDown", "ClockArrowDownDuotone", "ClockArrowDownFill", "ClockArrowUp", "ClockArrowUpDuotone", "ClockArrowUpFill", "ClockDuotone", "ClockFill", "ClosedCaption", "ClosedCaptionDuotone", "ClosedCaptionFill", "Cog", "CogDuotone", "CogFill", "Columns3", "Columns3Duotone", "Columns3Fill", "Command", "CommandDuotone", "CommandFill", "ContentHeart", "ContentHeartDuotone", "ContentHeartFill", "ContentPlus", "ContentPlusDuotone", "ContentPlusFill", "ContentUser", "ContentUserDuotone", "ContentUserFill", "Copy", "CopyDuotone", "CopyFill", "Download", "DownloadDuotone", "DownloadFill", "Eclipse", "EclipseDuotone", "EclipseFill", "Ellipsis", "EllipsisDuotone", "EllipsisFill", "EllipsisVertical", "EllipsisVerticalDuotone", "EllipsisVerticalFill", "ExternalLink", "ExternalLinkDuotone", "ExternalLinkFill", "Eye", "EyeDuotone", "EyeFill", "EyeOff", "EyeOffDuotone", "EyeOffFill", "File", "FileArrowDown", "FileArrowDownDuotone", "FileArrowDownFill", "FileArrowLeft", "FileArrowLeftDuotone", "FileArrowLeftFill", "FileArrowLeftRight", "FileArrowLeftRightDuotone", "FileArrowLeftRightFill", "FileArrowRight", "FileArrowRightDuotone", "FileArrowRightFill", "FileArrowUp", "FileArrowUpDuotone", "FileArrowUpFill", "FileChartColumn", "FileChartColumnDuotone", "FileChartColumnFill", "FileCheck", "FileCheckDuotone", "FileCheckFill", "FileCog", "FileCogDuotone", "FileCogFill", "FileDuotone", "FileFill", "FileImage", "FileImageDuotone", "FileImageFill", "FilePlus", "FilePlusDuotone", "FilePlusFill", "FileUser", "FileUserDuotone", "FileUserFill", "FileX", "FileXDuotone", "FileXFill", "Flame", "FlameDuotone", "FlameFill", "Folder", "FolderChartColumn", "FolderChartColumnDuotone", "FolderChartColumnFill", "FolderCheck", "FolderCheckDuotone", "FolderCheckFill", "FolderCog", "FolderCogDuotone", "FolderCogFill", "FolderDuotone", "FolderFill", "FolderPlus", "FolderPlusDuotone", "FolderPlusFill", "FolderX", "FolderXDuotone", "FolderXFill", "Frown", "FrownDuotone", "FrownFill", "Fullscreen", "FullscreenDuotone", "FullscreenFill", "GalleryHorizontal", "GalleryHorizontalDuotone", "GalleryHorizontalEnd", "GalleryHorizontalEndDuotone", "GalleryHorizontalEndFill", "GalleryHorizontalFill", "GalleryThumbnails", "GalleryThumbnailsDuotone", "GalleryThumbnailsFill", "GalleryVertical", "GalleryVerticalDuotone", "GalleryVerticalEnd", "GalleryVerticalEndDuotone", "GalleryVerticalEndFill", "GalleryVerticalFill", "Globe", "GlobeDuotone", "GlobeFill", "Grip", "GripDuotone", "GripFill", "GripHorizontal", "GripHorizontalDuotone", "GripHorizontalFill", "GripVertical", "GripVerticalDuotone", "GripVerticalFill", "Heart", "HeartDuotone", "HeartFill", "History", "HistoryDuotone", "HistoryFill", "Hotspot", "HotspotDuotone", "HotspotFill", "House", "HouseDuotone", "HouseFill", "Image", "ImageDuotone", "ImageFill", "Images", "ImagesDuotone", "ImagesFill", "Inbox", "InboxDuotone", "InboxFill", "Info", "InfoDuotone", "InfoFill", "Italic", "ItalicDuotone", "ItalicFill", "LayoutDashboard", "LayoutDashboardDuotone", "LayoutDashboardFill", "LayoutGrid", "LayoutGridDuotone", "LayoutGridFill", "LayoutList", "LayoutListDuotone", "LayoutListFill", "LayoutPanelBottom", "LayoutPanelBottomDuotone", "LayoutPanelBottomFill", "LayoutPanelLeft", "LayoutPanelLeftDuotone", "LayoutPanelLeftFill", "LayoutPanelRight", "LayoutPanelRightDuotone", "LayoutPanelRightFill", "LayoutPanelTop", "LayoutPanelTopDuotone", "LayoutPanelTopFill", "LayoutRows", "LayoutRowsDuotone", "LayoutRowsFill", "LayoutTemplate", "LayoutTemplateDuotone", "LayoutTemplateFill", "Link", "LinkDuotone", "LinkFill", "List", "ListDuotone", "ListFill", "ListFilter", "ListFilterDuotone", "ListFilterFill", "ListIndentDecrease", "ListIndentDecreaseDuotone", "ListIndentDecreaseFill", "ListIndentIncrease", "ListIndentIncreaseDuotone", "ListIndentIncreaseFill", "ListOrdered", "ListOrderedDuotone", "ListOrderedFill", "LoaderCircle", "LoaderCircleDuotone", "LoaderCircleFill", "Lock", "LockDuotone", "LockFill", "LogOut", "LogOutDuotone", "LogOutFill", "LogoFacebook", "LogoFacebookFill", "LogoFile", "LogoFileDark", "LogoFilePdf", "LogoFilePdfDark", "LogoFileSheet", "LogoFileSheetDark", "LogoFoam", "LogoFoamDark", "LogoFoamFill", "LogoFoamSymbol", "LogoFoamSymbolDark", "LogoGmail", "LogoGmailFill", "LogoGoogle", "LogoGoogleFill", "LogoInstagram", "LogoInstagramDark", "LogoInstagramFill", "LogoLinkedin", "LogoLinkedinDark", "LogoLinkedinFill", "LogoMicrosoft", "LogoMicrosoftFill", "LogoSnapchat", "LogoSnapchatDark", "LogoSnapchatFill", "LogoTiktok", "LogoTiktokDark", "LogoTiktokFill", "LogoYoutube", "LogoYoutubeFill", "Mail", "MailDuotone", "MailFill", "MailMove", "MailMoveDuotone", "MailMoveFill", "MailPlus", "MailPlusDuotone", "MailPlusFill", "MapPin", "MapPinDuotone", "MapPinFill", "Maximize", "MaximizeDuotone", "MaximizeFill", "Megaphone", "MegaphoneActive", "MegaphoneActiveDuotone", "MegaphoneActiveFill", "MegaphoneDuotone", "MegaphoneFill", "Menu", "MenuDuotone", "MenuFill", "MessageSquare", "MessageSquareDuotone", "MessageSquareFill", "MessagesSquare", "MessagesSquareDuotone", "MessagesSquareFill", "Minus", "MinusDuotone", "MinusFill", "Moon", "MoonDuotone", "MoonFill", "MousePointerClick", "MousePointerClickDuotone", "MousePointerClickFill", "Move", "MoveDuotone", "MoveFill", "Notebook", "NotebookDuotone", "NotebookFill", "Office", "OfficeDuotone", "OfficeFill", "Palette", "PaletteDuotone", "PaletteFill", "PanelLeft", "PanelLeftChevronLeft", "PanelLeftChevronLeftDuotone", "PanelLeftChevronLeftFill", "PanelLeftChevronRight", "PanelLeftChevronRightDuotone", "PanelLeftChevronRightFill", "PanelLeftDuotone", "PanelLeftFill", "PanelRight", "PanelRightDuotone", "PanelRightFill", "Pause", "PauseDuotone", "PauseFill", "Pencil", "PencilDuotone", "PencilFill", "Pin", "PinDuotone", "PinFill", "Play", "PlayDuotone", "PlayFill", "Plus", "PlusDuotone", "PlusFill", "Pointer", "PointerDuotone", "PointerFill", "QuotationMarkLeft", "QuotationMarkLeftDuotone", "QuotationMarkLeftFill", "QuotationMarkRight", "QuotationMarkRightDuotone", "QuotationMarkRightFill", "Reach", "ReachDuotone", "ReachFill", "Reel", "ReelDuotone", "ReelFill", "RefreshCw", "RefreshCwDuotone", "RefreshCwFill", "RefreshCwOff", "RefreshCwOffDuotone", "RefreshCwOffFill", "RemoveFormatting", "RemoveFormattingDuotone", "RemoveFormattingFill", "Reply", "ReplyDuotone", "ReplyFill", "Rocket", "RocketDuotone", "RocketFill", "Rolodex", "RolodexDuotone", "RolodexFill", "RotateCcw", "RotateCcwDuotone", "RotateCcwFill", "RotateCw", "RotateCwDuotone", "RotateCwFill", "Save", "SaveDuotone", "SaveFill", "Search", "SearchDuotone", "SearchFill", "SearchUser", "SearchUserDuotone", "SearchUserFill", "Share", "ShareDuotone", "ShareFill", "Shield", "ShieldCheck", "ShieldCheckDuotone", "ShieldCheckFill", "ShieldDuotone", "ShieldFill", "ShieldOff", "ShieldOffDuotone", "ShieldOffFill", "ShieldPlus", "ShieldPlusDuotone", "ShieldPlusFill", "ShieldUser", "ShieldUserDuotone", "ShieldUserFill", "ShieldX", "ShieldXDuotone", "ShieldXFill", "Slash", "SlashDuotone", "SlashFill", "SlidersHorizontal", "SlidersHorizontalDuotone", "SlidersHorizontalFill", "Smile", "SmileDuotone", "SmileFill", "Sparkles", "SparklesDuotone", "SparklesFill", "Square", "SquareDuotone", "SquareFill", "SquarePen", "SquarePenDuotone", "SquarePenFill", "Star", "StarDuotone", "StarFill", "Sun", "SunDuotone", "SunFill", "Tag", "TagDuotone", "TagFill", "Tags", "TagsDuotone", "TagsFill", "Target", "TargetDuotone", "TargetFill", "TextAlignCenter", "TextAlignCenterDuotone", "TextAlignCenterFill", "TextAlignEnd", "TextAlignEndDuotone", "TextAlignEndFill", "TextAlignJustify", "TextAlignJustifyDuotone", "TextAlignJustifyFill", "TextAlignStart", "TextAlignStartDuotone", "TextAlignStartFill", "ThumbsDown", "ThumbsDownDuotone", "ThumbsDownFill", "ThumbsUp", "ThumbsUpDuotone", "ThumbsUpFill", "ToolCase", "ToolCaseDuotone", "ToolCaseFill", "Trash", "TrashDuotone", "TrashEmpty", "TrashEmptyDuotone", "TrashEmptyFill", "TrashFill", "TrendingDown", "TrendingDownDuotone", "TrendingDownFill", "TrendingUp", "TrendingUpDuotone", "TrendingUpFill", "TriangleDown", "TriangleDownDuotone", "TriangleDownFill", "TriangleDownUp", "TriangleDownUpDuotone", "TriangleDownUpFill", "TriangleUp", "TriangleUpDuotone", "TriangleUpFill", "Unlink", "UnlinkDuotone", "UnlinkFill", "Unlock", "UnlockDuotone", "UnlockFill", "Unplug", "UnplugDuotone", "UnplugFill", "Upload", "UploadDuotone", "UploadFill", "User", "UserArrowLeft", "UserArrowLeftDuotone", "UserArrowLeftFill", "UserArrowLeftRight", "UserArrowLeftRightDuotone", "UserArrowLeftRightFill", "UserArrowOutUpRight", "UserArrowOutUpRightDuotone", "UserArrowOutUpRightFill", "UserArrowRight", "UserArrowRightDuotone", "UserArrowRightFill", "UserCog", "UserCogDuotone", "UserCogFill", "UserDuotone", "UserFill", "UserPlus", "UserPlusDuotone", "UserPlusFill", "Users", "UsersDuotone", "UsersFill", "Video", "VideoDuotone", "VideoFill", "Volume2", "Volume2Duotone", "Volume2Fill", "VolumeOff", "VolumeOffDuotone", "VolumeOffFill", "X", "XDuotone", "XFill", "Zap", "ZapDuotone", "ZapFill", "ZapOff", "ZapOffDuotone", "ZapOffFill"];
 var iconAliases = {
   "AudioLines": [
     "SoundWave",
@@ -35467,6 +35786,9 @@ exports.FoamRefresh = RefreshCw;
 exports.FoamRefreshCw = RefreshCw;
 exports.FoamRefreshCwDuotone = RefreshCwDuotone;
 exports.FoamRefreshCwFill = RefreshCwFill;
+exports.FoamRefreshCwOff = RefreshCwOff;
+exports.FoamRefreshCwOffDuotone = RefreshCwOffDuotone;
+exports.FoamRefreshCwOffFill = RefreshCwOffFill;
 exports.FoamRefreshDuotone = RefreshCwDuotone;
 exports.FoamRefreshFill = RefreshCwFill;
 exports.FoamReload = RefreshCw;
@@ -35907,6 +36229,9 @@ exports.FoamUnlockFill = UnlockFill;
 exports.FoamUnlocked = Unlock;
 exports.FoamUnlockedDuotone = UnlockDuotone;
 exports.FoamUnlockedFill = UnlockFill;
+exports.FoamUnplug = Unplug;
+exports.FoamUnplugDuotone = UnplugDuotone;
+exports.FoamUnplugFill = UnplugFill;
 exports.FoamUnprotected = ShieldOff;
 exports.FoamUnprotectedDuotone = ShieldOffDuotone;
 exports.FoamUnprotectedFill = ShieldOffFill;
@@ -37550,6 +37875,12 @@ exports.RefreshCwDuotoneIcon = RefreshCwDuotone;
 exports.RefreshCwFill = RefreshCwFill;
 exports.RefreshCwFillIcon = RefreshCwFill;
 exports.RefreshCwIcon = RefreshCw;
+exports.RefreshCwOff = RefreshCwOff;
+exports.RefreshCwOffDuotone = RefreshCwOffDuotone;
+exports.RefreshCwOffDuotoneIcon = RefreshCwOffDuotone;
+exports.RefreshCwOffFill = RefreshCwOffFill;
+exports.RefreshCwOffFillIcon = RefreshCwOffFill;
+exports.RefreshCwOffIcon = RefreshCwOff;
 exports.RefreshDuotone = RefreshCwDuotone;
 exports.RefreshDuotoneIcon = RefreshCwDuotone;
 exports.RefreshFill = RefreshCwFill;
@@ -38431,6 +38762,12 @@ exports.UnlockedDuotoneIcon = UnlockDuotone;
 exports.UnlockedFill = UnlockFill;
 exports.UnlockedFillIcon = UnlockFill;
 exports.UnlockedIcon = Unlock;
+exports.Unplug = Unplug;
+exports.UnplugDuotone = UnplugDuotone;
+exports.UnplugDuotoneIcon = UnplugDuotone;
+exports.UnplugFill = UnplugFill;
+exports.UnplugFillIcon = UnplugFill;
+exports.UnplugIcon = Unplug;
 exports.Unprotected = ShieldOff;
 exports.UnprotectedDuotone = ShieldOffDuotone;
 exports.UnprotectedDuotoneIcon = ShieldOffDuotone;

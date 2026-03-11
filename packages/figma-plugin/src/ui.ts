@@ -3,6 +3,34 @@ import { iconsData, logosData, type IconData, type LogoData } from './icons-data
 
 type ItemData = IconData | LogoData;
 
+// Icon groups for categorized browsing
+const ICON_GROUPS: { name: string; tags: string[] }[] = [
+  { name: 'Primitives', tags: ['plus', 'minus', 'search', 'close', 'x', 'circle', 'square', 'dot', 'loader', 'spinner'] },
+  { name: 'Arrows & Direction', tags: ['arrow', 'chevron', 'direction', 'triangle'] },
+  { name: 'Files & Folders', tags: ['file', 'folder', 'document', 'archive'] },
+  { name: 'Layout', tags: ['layout', 'panel', 'sidebar', 'grid', 'rows', 'align'] },
+  { name: 'Charts & Data', tags: ['chart', 'analytics', 'graph', 'data', 'statistics', 'trending'] },
+  { name: 'Media', tags: ['video', 'audio', 'play', 'pause', 'music', 'volume', 'content', 'image'] },
+  { name: 'Communication', tags: ['message', 'mail', 'email', 'send', 'share'] },
+  { name: 'Users', tags: ['user', 'person', 'people', 'profile'] },
+  { name: 'Security', tags: ['shield', 'lock', 'security'] },
+  { name: 'Text & Editing', tags: ['text', 'edit', 'bold', 'italic', 'write', 'pencil', 'indent', 'list'] },
+  { name: 'Alerts & Status', tags: ['alert', 'warning', 'notification', 'bell', 'info', 'badge', 'check', 'checkbox', 'verified', 'error', 'success', 'ban', 'heart', 'clock', 'time'] },
+];
+
+function getIconGroup(item: ItemData): string {
+  // Primary: match by icon id prefix (e.g. "file" from "file-arrow-down")
+  const prefix = item.id.split('-')[0];
+  for (const group of ICON_GROUPS) {
+    if (group.tags.includes(prefix)) return group.name;
+  }
+  // Fallback: match by any tag
+  for (const group of ICON_GROUPS) {
+    if (item.tags.some(tag => group.tags.includes(tag))) return group.name;
+  }
+  return 'Other';
+}
+
 // Pending drag data for drag-and-drop to canvas
 let pendingDragSvg: string | null = null;
 let pendingDragName: string | null = null;
@@ -119,17 +147,37 @@ function renderGrid() {
   // Toggle search mode class for layout
   grid.classList.toggle('has-search', state.searchQuery.length > 0);
 
-  const html = state.filteredItems.map(item => {
+  const renderItem = (item: ItemData) => {
     const isLogo = 'isLogo' in item && item.isLogo;
     const variantKey = isLogo ? state.logoVariant : state.variant;
     const svg = item.variants[variantKey as keyof typeof item.variants];
     if (!svg) return '';
-
-    // Logos don't need color customization (except fill variant)
     const displaySvg = isLogo && state.logoVariant !== 'fill' ? svg : customizeSvg(svg);
-
     return `<div class="icon-item" data-id="${item.id}" title="${item.name}" draggable="true">${displaySvg}</div>`;
-  }).join('');
+  };
+
+  let html = '';
+  const showGroups = !state.searchQuery && state.category === 'icons';
+
+  if (showGroups) {
+    // Group icons by category
+    const grouped = new Map<string, ItemData[]>();
+    for (const item of state.filteredItems) {
+      const group = getIconGroup(item);
+      if (!grouped.has(group)) grouped.set(group, []);
+      grouped.get(group)!.push(item);
+    }
+    // Render in defined order, then "Other" last
+    const orderedGroups = ICON_GROUPS.map(g => g.name).concat(['Other']);
+    for (const groupName of orderedGroups) {
+      const items = grouped.get(groupName);
+      if (!items || items.length === 0) continue;
+      html += `<div class="group-header">${groupName}</div>`;
+      html += items.map(renderItem).join('');
+    }
+  } else {
+    html = state.filteredItems.map(renderItem).join('');
+  }
 
   grid.innerHTML = html || '<p class="empty-state">No icons found</p>';
 
