@@ -1,0 +1,4281 @@
+{
+  "version": "0.10.2",
+  "icons": [
+    {
+      "name": "Activity",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Alert",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Warning",
+        "Caution",
+        "Attention"
+      ],
+      "tags": [
+        "alert",
+        "warning",
+        "caution"
+      ]
+    },
+    {
+      "name": "Archive",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Box",
+        "Storage"
+      ],
+      "tags": [
+        "archive",
+        "box",
+        "storage"
+      ]
+    },
+    {
+      "name": "ArchiveArrowUp",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Direction",
+        "Ascending"
+      ],
+      "tags": [
+        "archive",
+        "arrow",
+        "up",
+        "direction",
+        "pointer",
+        "ascending",
+        "increase"
+      ]
+    },
+    {
+      "name": "ArrowDown",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Down",
+        "South"
+      ],
+      "tags": [
+        "arrow",
+        "down",
+        "direction"
+      ]
+    },
+    {
+      "name": "ArrowDown01",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Descending",
+        "SortNumeric"
+      ],
+      "tags": [
+        "arrow",
+        "down",
+        "direction",
+        "pointer",
+        "descending",
+        "decrease"
+      ]
+    },
+    {
+      "name": "ArrowDown10",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": [
+        "arrow",
+        "down",
+        "direction",
+        "pointer",
+        "descending",
+        "decrease"
+      ]
+    },
+    {
+      "name": "ArrowDownCog",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ArrowDownIG",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "InstagramDown",
+        "IgDown"
+      ],
+      "tags": [
+        "arrow",
+        "down",
+        "instagram",
+        "descending"
+      ]
+    },
+    {
+      "name": "ArrowDownLeft",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ArrowDownMapPin",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ArrowDownNarrowWide",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SortAsc",
+        "SortAscending"
+      ],
+      "tags": [
+        "sort",
+        "ascending",
+        "narrow"
+      ]
+    },
+    {
+      "name": "ArrowDownRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ArrowDownSC",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Snapchat"
+      ],
+      "tags": [
+        "arrow",
+        "sort",
+        "descending",
+        "snapchat"
+      ]
+    },
+    {
+      "name": "ArrowDownTT",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Tiktok"
+      ],
+      "tags": [
+        "sort",
+        "tiktok",
+        "descending"
+      ]
+    },
+    {
+      "name": "ArrowDownUp",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Sort",
+        "Reorder",
+        "Swap"
+      ],
+      "tags": [
+        "sort",
+        "reorder",
+        "swap"
+      ]
+    },
+    {
+      "name": "ArrowDownWideNarrow",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SortDescAlt"
+      ],
+      "tags": [
+        "sort",
+        "descending",
+        "wide"
+      ]
+    },
+    {
+      "name": "ArrowDownYT",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Youtube"
+      ],
+      "tags": [
+        "sort",
+        "youtube",
+        "descending"
+      ]
+    },
+    {
+      "name": "ArrowLeft",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Left",
+        "Back",
+        "West",
+        "Previous"
+      ],
+      "tags": [
+        "arrow",
+        "left",
+        "back"
+      ]
+    },
+    {
+      "name": "ArrowRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Right",
+        "East",
+        "Next"
+      ],
+      "tags": [
+        "arrow",
+        "right",
+        "forward"
+      ]
+    },
+    {
+      "name": "ArrowRightToLine",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Indent",
+        "Fold"
+      ],
+      "tags": [
+        "next",
+        "indent",
+        "fold"
+      ]
+    },
+    {
+      "name": "ArrowUp",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Up",
+        "North"
+      ],
+      "tags": [
+        "arrow",
+        "up",
+        "direction"
+      ]
+    },
+    {
+      "name": "ArrowUpAZ",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SortAlphaAsc",
+        "SortAZ"
+      ],
+      "tags": [
+        "sort",
+        "alphabetical",
+        "ascending"
+      ]
+    },
+    {
+      "name": "ArrowUpCog",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ArrowUpIG",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "InstagramUp",
+        "IgUp"
+      ],
+      "tags": [
+        "arrow",
+        "sort",
+        "instagram"
+      ]
+    },
+    {
+      "name": "ArrowUpLeft",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ArrowUpMapPin",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ArrowUpNarrowWide",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SortAscAlt"
+      ],
+      "tags": [
+        "sort",
+        "ascending",
+        "narrow"
+      ]
+    },
+    {
+      "name": "ArrowUpRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ArrowUpSC",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": [
+        "arrow",
+        "sort",
+        "snapchat"
+      ]
+    },
+    {
+      "name": "ArrowUpTT",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": [
+        "arrow",
+        "sort",
+        "tiktok"
+      ]
+    },
+    {
+      "name": "ArrowUpWideNarrow",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SortDesc",
+        "SortDescending"
+      ],
+      "tags": [
+        "sort",
+        "descending",
+        "wide"
+      ]
+    },
+    {
+      "name": "ArrowUpYT",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": [
+        "arrow",
+        "sort",
+        "youtube",
+        "ascending"
+      ]
+    },
+    {
+      "name": "ArrowUpZA",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SortAlphaDesc",
+        "SortZA"
+      ],
+      "tags": [
+        "sort",
+        "alphabetical",
+        "descending"
+      ]
+    },
+    {
+      "name": "AtSign",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "AudioLines",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SoundWave",
+        "AudioEqualizer"
+      ],
+      "tags": [
+        "audio",
+        "sound",
+        "music",
+        "equalizer"
+      ]
+    },
+    {
+      "name": "BadgeCheckbox",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Verified",
+        "Certified",
+        "Approved"
+      ],
+      "tags": [
+        "badge",
+        "checkbox",
+        "verified",
+        "certified"
+      ]
+    },
+    {
+      "name": "Ban",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Block",
+        "Forbidden",
+        "Prohibited",
+        "NotAllowed"
+      ],
+      "tags": [
+        "ban",
+        "block",
+        "forbidden"
+      ]
+    },
+    {
+      "name": "Bell",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Notification",
+        "Alarm"
+      ],
+      "tags": [
+        "notification",
+        "bell",
+        "alert"
+      ]
+    },
+    {
+      "name": "Bold",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Strong",
+        "TextBold"
+      ],
+      "tags": [
+        "bold",
+        "text",
+        "format"
+      ]
+    },
+    {
+      "name": "Bookmark",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Flag",
+        "Saved"
+      ],
+      "tags": [
+        "bookmark",
+        "save",
+        "flag"
+      ]
+    },
+    {
+      "name": "Brain",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Mind",
+        "Intelligence",
+        "Thinking"
+      ],
+      "tags": [
+        "brain",
+        "mind",
+        "intelligence",
+        "ai",
+        "thinking"
+      ]
+    },
+    {
+      "name": "Calendar",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Date",
+        "Schedule",
+        "Event"
+      ],
+      "tags": [
+        "calendar",
+        "date",
+        "schedule"
+      ]
+    },
+    {
+      "name": "ChartArea",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "AreaChart",
+        "GraphArea"
+      ],
+      "tags": [
+        "chart",
+        "area",
+        "graph",
+        "analytics",
+        "data"
+      ]
+    },
+    {
+      "name": "ChartBarStacked",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "StackedBar",
+        "BarChartStacked"
+      ],
+      "tags": [
+        "chart",
+        "bar",
+        "stacked",
+        "analytics",
+        "data"
+      ]
+    },
+    {
+      "name": "ChartColumn",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "ColumnChart",
+        "VerticalBarChart"
+      ],
+      "tags": [
+        "chart",
+        "column",
+        "bar",
+        "analytics",
+        "data"
+      ]
+    },
+    {
+      "name": "ChartColumnSquare",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Analytics",
+        "Stats",
+        "Graph",
+        "BarChart"
+      ],
+      "tags": [
+        "chart",
+        "analytics",
+        "stats"
+      ]
+    },
+    {
+      "name": "ChartNetwork",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "NetworkGraph",
+        "NodeGraph",
+        "Connections"
+      ],
+      "tags": [
+        "chart",
+        "network",
+        "graph",
+        "nodes",
+        "connections"
+      ]
+    },
+    {
+      "name": "ChartNoAxesCombined",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "MixedChart",
+        "ComboChart"
+      ],
+      "tags": [
+        "chart",
+        "combined",
+        "analytics",
+        "data",
+        "graph"
+      ]
+    },
+    {
+      "name": "ChartPie",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "PieChart",
+        "DonutChart"
+      ],
+      "tags": [
+        "chart",
+        "pie",
+        "analytics",
+        "data",
+        "percentage"
+      ]
+    },
+    {
+      "name": "Checkbox",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "CheckSquare",
+        "Task"
+      ],
+      "tags": [
+        "checkbox",
+        "check",
+        "task"
+      ]
+    },
+    {
+      "name": "Checkmark",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Check",
+        "Done",
+        "Complete",
+        "Tick",
+        "Success"
+      ],
+      "tags": [
+        "check",
+        "done",
+        "success"
+      ]
+    },
+    {
+      "name": "ChevronDown",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "CaretDown",
+        "Collapse",
+        "Dropdown"
+      ],
+      "tags": [
+        "chevron",
+        "down",
+        "collapse"
+      ]
+    },
+    {
+      "name": "ChevronLeft",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "CaretLeft"
+      ],
+      "tags": [
+        "chevron",
+        "left",
+        "previous"
+      ]
+    },
+    {
+      "name": "ChevronRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "CaretRight"
+      ],
+      "tags": [
+        "chevron",
+        "right",
+        "next"
+      ]
+    },
+    {
+      "name": "ChevronUp",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "CaretUp",
+        "Expand"
+      ],
+      "tags": [
+        "chevron",
+        "up",
+        "expand"
+      ]
+    },
+    {
+      "name": "ChevronUpDown",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Accordion"
+      ],
+      "tags": [
+        "chevron",
+        "up",
+        "down",
+        "toggle",
+        "expand-collapse"
+      ]
+    },
+    {
+      "name": "Circle",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "CircleAlert",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "WarningCircle",
+        "CautionCircle",
+        "AttentionCircle",
+        "Error"
+      ],
+      "tags": [
+        "alert",
+        "warning",
+        "caution",
+        "error"
+      ]
+    },
+    {
+      "name": "CircleCheck",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "CircleCheckbox",
+        "CheckCircle"
+      ],
+      "tags": [
+        "check",
+        "circle",
+        "complete",
+        "done",
+        "success"
+      ]
+    },
+    {
+      "name": "CircleDashed",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "CircleDollarSign",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Money",
+        "Price",
+        "Payment",
+        "Dollar"
+      ],
+      "tags": [
+        "money",
+        "dollar",
+        "payment"
+      ]
+    },
+    {
+      "name": "CircleOverlap",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "CirclePlus",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "CircleQuestionMark",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Help",
+        "Question",
+        "Faq",
+        "Support"
+      ],
+      "tags": [
+        "help",
+        "question",
+        "faq"
+      ]
+    },
+    {
+      "name": "CircleX",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "CloseCircle",
+        "CancelCircle",
+        "Clear"
+      ],
+      "tags": [
+        "close",
+        "cancel",
+        "clear",
+        "circle"
+      ]
+    },
+    {
+      "name": "ClipboardList",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Checklist",
+        "Tasks",
+        "Todo",
+        "Roster"
+      ],
+      "tags": [
+        "clipboard",
+        "list",
+        "checklist",
+        "tasks"
+      ]
+    },
+    {
+      "name": "Clock",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Time",
+        "Watch"
+      ],
+      "tags": [
+        "time",
+        "clock",
+        "schedule"
+      ]
+    },
+    {
+      "name": "ClockArrowDown",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": [
+        "clock",
+        "history",
+        "arrow",
+        "sort"
+      ]
+    },
+    {
+      "name": "ClockArrowUp",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": [
+        "clock",
+        "arrow",
+        "sort",
+        "history"
+      ]
+    },
+    {
+      "name": "ClosedCaption",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Cc",
+        "Subtitles",
+        "Captions"
+      ],
+      "tags": [
+        "closed-caption",
+        "subtitles",
+        "accessibility",
+        "video"
+      ]
+    },
+    {
+      "name": "Cog",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Settings",
+        "Gear",
+        "Preferences",
+        "Config",
+        "Configuration",
+        "Options",
+        "Cogwheel"
+      ],
+      "tags": [
+        "settings",
+        "configuration",
+        "preferences"
+      ]
+    },
+    {
+      "name": "Columns3",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "ColumnLayout",
+        "ThreeColumns"
+      ],
+      "tags": [
+        "columns",
+        "layout",
+        "three"
+      ]
+    },
+    {
+      "name": "Command",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Cmd",
+        "Keyboard",
+        "Shortcut"
+      ],
+      "tags": [
+        "command",
+        "keyboard",
+        "shortcut"
+      ]
+    },
+    {
+      "name": "ContentHeart",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ContentPlus",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "AddContent",
+        "NewPost",
+        "CreateContent"
+      ],
+      "tags": [
+        "content",
+        "add",
+        "create"
+      ]
+    },
+    {
+      "name": "ContentUser",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "MediaPacks",
+        "PressKit",
+        "BrandAssets",
+        "Mediapacks"
+      ],
+      "tags": [
+        "content",
+        "user",
+        "media-kit",
+        "press",
+        "brand"
+      ]
+    },
+    {
+      "name": "Copy",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Duplicate",
+        "Clone"
+      ],
+      "tags": [
+        "copy",
+        "duplicate",
+        "clone"
+      ]
+    },
+    {
+      "name": "Download",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Export",
+        "Get"
+      ],
+      "tags": [
+        "download",
+        "save",
+        "export"
+      ]
+    },
+    {
+      "name": "Eclipse",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "HalfMoon",
+        "Contrast"
+      ],
+      "tags": [
+        "eclipse",
+        "contrast",
+        "theme"
+      ]
+    },
+    {
+      "name": "Ellipsis",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "EllipsisVertical",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ExternalLink",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "OpenNew",
+        "External"
+      ],
+      "tags": [
+        "external",
+        "link",
+        "new-tab"
+      ]
+    },
+    {
+      "name": "Eye",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "View",
+        "Show",
+        "Visible",
+        "Visibility"
+      ],
+      "tags": [
+        "eye",
+        "view",
+        "visible"
+      ]
+    },
+    {
+      "name": "EyeOff",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Hide",
+        "Hidden",
+        "Invisible"
+      ],
+      "tags": [
+        "hide",
+        "invisible",
+        "hidden"
+      ]
+    },
+    {
+      "name": "File",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Document",
+        "Page"
+      ],
+      "tags": [
+        "file",
+        "document",
+        "page"
+      ]
+    },
+    {
+      "name": "FileArrowDown",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "DownloadFile"
+      ],
+      "tags": [
+        "file",
+        "download",
+        "arrow",
+        "import"
+      ]
+    },
+    {
+      "name": "FileArrowLeft",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FileBack",
+        "FilePrevious"
+      ],
+      "tags": [
+        "file",
+        "arrow",
+        "left",
+        "back"
+      ]
+    },
+    {
+      "name": "FileArrowLeftRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FileTransfer",
+        "FileExchange",
+        "FileSync"
+      ],
+      "tags": [
+        "file",
+        "transfer",
+        "exchange",
+        "sync"
+      ]
+    },
+    {
+      "name": "FileArrowRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FileForward",
+        "FileNext"
+      ],
+      "tags": [
+        "file",
+        "arrow",
+        "right",
+        "forward"
+      ]
+    },
+    {
+      "name": "FileArrowUp",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "UploadFile"
+      ],
+      "tags": [
+        "file",
+        "upload",
+        "arrow",
+        "export"
+      ]
+    },
+    {
+      "name": "FileChartColumn",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "FileCheck",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FileDone",
+        "FileComplete",
+        "FileVerified"
+      ],
+      "tags": [
+        "file",
+        "check",
+        "complete",
+        "verified",
+        "approved"
+      ]
+    },
+    {
+      "name": "FileCog",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FileSettings",
+        "FileConfig"
+      ],
+      "tags": [
+        "file",
+        "settings",
+        "configuration",
+        "cog"
+      ]
+    },
+    {
+      "name": "FileImage",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "FilePlus",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "NewFile",
+        "AddFile",
+        "CreateFile"
+      ],
+      "tags": [
+        "file",
+        "add",
+        "new",
+        "create"
+      ]
+    },
+    {
+      "name": "FileUser",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FileAccount",
+        "FileProfile",
+        "UserDocument"
+      ],
+      "tags": [
+        "file",
+        "user",
+        "profile",
+        "account"
+      ]
+    },
+    {
+      "name": "FileX",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FileDelete",
+        "FileRemove",
+        "FileCancel"
+      ],
+      "tags": [
+        "file",
+        "delete",
+        "remove",
+        "cancel",
+        "close"
+      ]
+    },
+    {
+      "name": "Flame",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Fire",
+        "Hot",
+        "Trending"
+      ],
+      "tags": [
+        "flame",
+        "fire",
+        "hot"
+      ]
+    },
+    {
+      "name": "Folder",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Directory"
+      ],
+      "tags": [
+        "folder",
+        "directory",
+        "files"
+      ]
+    },
+    {
+      "name": "FolderChartColumn",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FolderAnalytics",
+        "FolderStats"
+      ],
+      "tags": [
+        "folder",
+        "chart",
+        "analytics",
+        "statistics"
+      ]
+    },
+    {
+      "name": "FolderCheck",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FolderDone",
+        "FolderComplete"
+      ],
+      "tags": [
+        "folder",
+        "check",
+        "done",
+        "approved"
+      ]
+    },
+    {
+      "name": "FolderCog",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FolderSettings",
+        "FolderConfig"
+      ],
+      "tags": [
+        "folder",
+        "settings",
+        "config",
+        "cog"
+      ]
+    },
+    {
+      "name": "FolderPlus",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FolderAdd",
+        "NewFolder"
+      ],
+      "tags": [
+        "folder",
+        "add",
+        "new",
+        "create"
+      ]
+    },
+    {
+      "name": "FolderX",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FolderDelete",
+        "FolderRemove"
+      ],
+      "tags": [
+        "folder",
+        "delete",
+        "remove",
+        "close"
+      ]
+    },
+    {
+      "name": "Frown",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Sad",
+        "Unhappy",
+        "Negative"
+      ],
+      "tags": [
+        "frown",
+        "sad",
+        "unhappy"
+      ]
+    },
+    {
+      "name": "Fullscreen",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FullScreen",
+        "MaximizeScreen"
+      ],
+      "tags": [
+        "fullscreen",
+        "expand",
+        "maximize"
+      ]
+    },
+    {
+      "name": "GalleryHorizontal",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Carousel",
+        "Slider"
+      ],
+      "tags": [
+        "gallery",
+        "horizontal",
+        "carousel",
+        "slider"
+      ]
+    },
+    {
+      "name": "GalleryHorizontalEnd",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "CarouselEnd",
+        "SliderEnd"
+      ],
+      "tags": [
+        "gallery",
+        "horizontal",
+        "end",
+        "carousel"
+      ]
+    },
+    {
+      "name": "GalleryThumbnails",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "GalleryPreview",
+        "ThumbnailGrid"
+      ],
+      "tags": [
+        "gallery",
+        "thumbnails",
+        "preview",
+        "media"
+      ]
+    },
+    {
+      "name": "GalleryVertical",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "GalleryList",
+        "VerticalGallery"
+      ],
+      "tags": [
+        "gallery",
+        "vertical",
+        "list"
+      ]
+    },
+    {
+      "name": "GalleryVerticalEnd",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "GalleryListEnd",
+        "VerticalGalleryEnd"
+      ],
+      "tags": [
+        "gallery",
+        "vertical",
+        "end"
+      ]
+    },
+    {
+      "name": "Globe",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "World",
+        "Web",
+        "Internet",
+        "Language"
+      ],
+      "tags": [
+        "globe",
+        "world",
+        "web"
+      ]
+    },
+    {
+      "name": "Grip",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "GripHorizontal",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "GripVertical",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Heart",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Love",
+        "Emotion",
+        "Likes"
+      ],
+      "tags": [
+        "likes",
+        "love",
+        "like"
+      ]
+    },
+    {
+      "name": "HeartPulse",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "History",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Recent",
+        "Past",
+        "Undo"
+      ],
+      "tags": [
+        "history",
+        "recent",
+        "past"
+      ]
+    },
+    {
+      "name": "Hotspot",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Wifi",
+        "Signal",
+        "Wireless"
+      ],
+      "tags": [
+        "hotspot",
+        "wifi",
+        "signal"
+      ]
+    },
+    {
+      "name": "House",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Home"
+      ],
+      "tags": [
+        "home",
+        "house",
+        "main"
+      ]
+    },
+    {
+      "name": "Image",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Photo",
+        "Picture",
+        "Media"
+      ],
+      "tags": [
+        "image",
+        "photo",
+        "picture"
+      ]
+    },
+    {
+      "name": "Images",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Photos",
+        "Pictures",
+        "Gallery"
+      ],
+      "tags": [
+        "images",
+        "photos",
+        "gallery"
+      ]
+    },
+    {
+      "name": "Inbox",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Mailbox",
+        "Tray"
+      ],
+      "tags": [
+        "inbox",
+        "mail",
+        "tray"
+      ]
+    },
+    {
+      "name": "Info",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Information",
+        "About",
+        "Details"
+      ],
+      "tags": [
+        "info",
+        "information",
+        "about"
+      ]
+    },
+    {
+      "name": "Italic",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Emphasis",
+        "TextItalic"
+      ],
+      "tags": [
+        "italic",
+        "text",
+        "format"
+      ]
+    },
+    {
+      "name": "LayoutDashboard",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "DashboardLayout",
+        "Widgets"
+      ],
+      "tags": [
+        "layout",
+        "dashboard",
+        "widgets",
+        "panels"
+      ]
+    },
+    {
+      "name": "LayoutGrid",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Grid2x2",
+        "Grid",
+        "Tiles"
+      ],
+      "tags": [
+        "grid",
+        "tiles",
+        "layout"
+      ]
+    },
+    {
+      "name": "LayoutList",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "ListLayout",
+        "ListView"
+      ],
+      "tags": [
+        "layout",
+        "list",
+        "view"
+      ]
+    },
+    {
+      "name": "LayoutPanelBottom",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "PanelBottom",
+        "BottomPanel"
+      ],
+      "tags": [
+        "layout",
+        "panel",
+        "bottom"
+      ]
+    },
+    {
+      "name": "LayoutPanelLeft",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Grid1x2",
+        "PanelLeftLayout"
+      ],
+      "tags": [
+        "layout",
+        "panel",
+        "left",
+        "sidebar"
+      ]
+    },
+    {
+      "name": "LayoutPanelRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "PanelRightLayout",
+        "RightPanel"
+      ],
+      "tags": [
+        "layout",
+        "panel",
+        "right",
+        "sidebar"
+      ]
+    },
+    {
+      "name": "LayoutPanelTop",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "PanelTop",
+        "TopPanel"
+      ],
+      "tags": [
+        "layout",
+        "panel",
+        "top"
+      ]
+    },
+    {
+      "name": "LayoutRows",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Rows2",
+        "HorizontalSplit",
+        "Rows"
+      ],
+      "tags": [
+        "rows",
+        "layout",
+        "split"
+      ]
+    },
+    {
+      "name": "LayoutTemplate",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "PageTemplate",
+        "Wireframe"
+      ],
+      "tags": [
+        "layout",
+        "template",
+        "page",
+        "wireframe"
+      ]
+    },
+    {
+      "name": "Link",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Url",
+        "Chain",
+        "Connect"
+      ],
+      "tags": [
+        "link",
+        "url",
+        "connect"
+      ]
+    },
+    {
+      "name": "List",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Items",
+        "Bullets"
+      ],
+      "tags": [
+        "list",
+        "items",
+        "bullets"
+      ]
+    },
+    {
+      "name": "ListFilter",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Filter",
+        "Funnel"
+      ],
+      "tags": [
+        "filter",
+        "funnel",
+        "sort"
+      ]
+    },
+    {
+      "name": "ListIndentDecrease",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ListIndentIncrease",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ListOrdered",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "NumberedList",
+        "Ol"
+      ],
+      "tags": [
+        "list",
+        "ordered",
+        "numbered"
+      ]
+    },
+    {
+      "name": "LoaderCircle",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Loading",
+        "Spinner",
+        "Progress"
+      ],
+      "tags": [
+        "loader",
+        "loading",
+        "spinner"
+      ]
+    },
+    {
+      "name": "Lock",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Secure",
+        "Locked",
+        "Private",
+        "Protected"
+      ],
+      "tags": [
+        "lock",
+        "secure",
+        "private"
+      ]
+    },
+    {
+      "name": "LogOut",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Logout",
+        "SignOut",
+        "Exit",
+        "Signout"
+      ],
+      "tags": [
+        "logout",
+        "sign-out",
+        "exit"
+      ]
+    },
+    {
+      "name": "Mail",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Email",
+        "Envelope",
+        "Message"
+      ],
+      "tags": [
+        "mail",
+        "email",
+        "message"
+      ]
+    },
+    {
+      "name": "MailMove",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "MailPlus",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "MapPin",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Location",
+        "Marker",
+        "Place",
+        "Geo"
+      ],
+      "tags": [
+        "location",
+        "map",
+        "pin"
+      ]
+    },
+    {
+      "name": "Maximize",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "ExpandWindow",
+        "Enlarge"
+      ],
+      "tags": [
+        "maximize",
+        "expand",
+        "enlarge"
+      ]
+    },
+    {
+      "name": "Megaphone",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Announce",
+        "Broadcast",
+        "Marketing",
+        "Promote"
+      ],
+      "tags": [
+        "megaphone",
+        "announce",
+        "broadcast",
+        "promote"
+      ]
+    },
+    {
+      "name": "MegaphoneActive",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": [
+        "promote"
+      ]
+    },
+    {
+      "name": "Menu",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Hamburger",
+        "Navigation",
+        "Bars"
+      ],
+      "tags": [
+        "menu",
+        "hamburger",
+        "navigation"
+      ]
+    },
+    {
+      "name": "MessageSquare",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Comment",
+        "ChatSingle"
+      ],
+      "tags": [
+        "message",
+        "comment",
+        "chat"
+      ]
+    },
+    {
+      "name": "MessagesSquare",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Chat",
+        "Conversation",
+        "Comments",
+        "Chats"
+      ],
+      "tags": [
+        "messages",
+        "chat",
+        "conversation"
+      ]
+    },
+    {
+      "name": "Minus",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Subtract",
+        "Reduce",
+        "Decrease"
+      ],
+      "tags": [
+        "minus",
+        "subtract",
+        "remove"
+      ]
+    },
+    {
+      "name": "Moon",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Dark",
+        "Night",
+        "DarkMode"
+      ],
+      "tags": [
+        "moon",
+        "dark",
+        "night"
+      ]
+    },
+    {
+      "name": "MousePointerClick",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Click",
+        "Cursor"
+      ],
+      "tags": [
+        "click",
+        "cursor",
+        "pointer"
+      ]
+    },
+    {
+      "name": "Move",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Drag",
+        "Reposition"
+      ],
+      "tags": [
+        "move",
+        "drag",
+        "reposition"
+      ]
+    },
+    {
+      "name": "Notebook",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Office",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Palette",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "ColorPalette",
+        "PaintPalette",
+        "Swatch"
+      ],
+      "tags": [
+        "color",
+        "palette",
+        "paint",
+        "design",
+        "theme"
+      ]
+    },
+    {
+      "name": "PanelLeft",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SidebarLeft",
+        "DrawerLeft"
+      ],
+      "tags": [
+        "panel",
+        "sidebar",
+        "left"
+      ]
+    },
+    {
+      "name": "PanelLeftChevronLeft",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SidebarCollapse",
+        "PanelClose"
+      ],
+      "tags": [
+        "panel",
+        "sidebar",
+        "collapse",
+        "close"
+      ]
+    },
+    {
+      "name": "PanelLeftChevronRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SidebarExpand",
+        "PanelOpen"
+      ],
+      "tags": [
+        "panel",
+        "sidebar",
+        "expand",
+        "open"
+      ]
+    },
+    {
+      "name": "PanelRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SidebarRight",
+        "DrawerRight"
+      ],
+      "tags": [
+        "panel",
+        "sidebar",
+        "right"
+      ]
+    },
+    {
+      "name": "Pause",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Hold",
+        "Suspend"
+      ],
+      "tags": [
+        "pause",
+        "hold",
+        "media",
+        "playback"
+      ]
+    },
+    {
+      "name": "Pencil",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Edit",
+        "Write",
+        "Modify"
+      ],
+      "tags": [
+        "pencil",
+        "edit",
+        "write"
+      ]
+    },
+    {
+      "name": "Pin",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Thumbtack",
+        "Tack",
+        "Stick"
+      ],
+      "tags": [
+        "pin",
+        "thumbtack",
+        "stick"
+      ]
+    },
+    {
+      "name": "Play",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Start",
+        "PlayButton"
+      ],
+      "tags": [
+        "play",
+        "start",
+        "video"
+      ]
+    },
+    {
+      "name": "Plus",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Add",
+        "New",
+        "Create"
+      ],
+      "tags": [
+        "plus",
+        "add",
+        "create"
+      ]
+    },
+    {
+      "name": "Pointer",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "QuotationMarkLeft",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "QuoteLeft",
+        "BlockquoteStart",
+        "OpenQuote"
+      ],
+      "tags": [
+        "quote",
+        "quotation",
+        "text",
+        "blockquote"
+      ]
+    },
+    {
+      "name": "QuotationMarkRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "QuoteRight",
+        "BlockquoteEnd",
+        "CloseQuote"
+      ],
+      "tags": [
+        "quote",
+        "quotation",
+        "text",
+        "blockquote"
+      ]
+    },
+    {
+      "name": "Reach",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Audience",
+        "Impressions",
+        "Views"
+      ],
+      "tags": [
+        "reach",
+        "audience",
+        "impressions"
+      ]
+    },
+    {
+      "name": "Reel",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Film",
+        "Short",
+        "ShortVideo"
+      ],
+      "tags": [
+        "reel",
+        "video",
+        "film"
+      ]
+    },
+    {
+      "name": "RefreshCw",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Refresh",
+        "Reload",
+        "Sync"
+      ],
+      "tags": [
+        "refresh",
+        "reload",
+        "sync"
+      ]
+    },
+    {
+      "name": "RefreshCwOff",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "RemoveFormatting",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "ClearFormat",
+        "PlainText"
+      ],
+      "tags": [
+        "format",
+        "clear",
+        "remove"
+      ]
+    },
+    {
+      "name": "Reply",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Respond",
+        "Answer"
+      ],
+      "tags": [
+        "reply",
+        "respond",
+        "answer"
+      ]
+    },
+    {
+      "name": "Rocket",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Launch",
+        "Startup"
+      ],
+      "tags": [
+        "rocket",
+        "launch",
+        "startup",
+        "space"
+      ]
+    },
+    {
+      "name": "Rolodex",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Contacts",
+        "AddressBook",
+        "CardIndex",
+        "Alphabet"
+      ],
+      "tags": [
+        "rolodex",
+        "contacts",
+        "address-book",
+        "directory"
+      ]
+    },
+    {
+      "name": "RotateCcw",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "RotateLeft",
+        "CounterClockwise"
+      ],
+      "tags": [
+        "rotate",
+        "undo",
+        "counter-clockwise",
+        "turn"
+      ]
+    },
+    {
+      "name": "RotateCw",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Rotate",
+        "Turn",
+        "Redo"
+      ],
+      "tags": [
+        "rotate",
+        "turn",
+        "redo"
+      ]
+    },
+    {
+      "name": "Save",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Floppy",
+        "Disk",
+        "Preserve"
+      ],
+      "tags": [
+        "save",
+        "disk",
+        "preserve"
+      ]
+    },
+    {
+      "name": "Search",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Find",
+        "Lookup",
+        "MagnifyingGlass",
+        "Query",
+        "Explore"
+      ],
+      "tags": [
+        "search",
+        "find",
+        "lookup"
+      ]
+    },
+    {
+      "name": "SearchUser",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "FindUser",
+        "UserSearch",
+        "LookupPerson",
+        "SearchPerson"
+      ],
+      "tags": [
+        "search",
+        "user",
+        "find"
+      ]
+    },
+    {
+      "name": "Share",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Forward",
+        "ShareLink"
+      ],
+      "tags": [
+        "share",
+        "send",
+        "forward"
+      ]
+    },
+    {
+      "name": "Shield",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Security",
+        "Protect",
+        "Defense"
+      ],
+      "tags": [
+        "shield",
+        "security",
+        "protect",
+        "defense"
+      ]
+    },
+    {
+      "name": "ShieldCheck",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "ShieldVerified",
+        "ShieldSecure"
+      ],
+      "tags": [
+        "shield",
+        "check",
+        "verified",
+        "secure",
+        "protected"
+      ]
+    },
+    {
+      "name": "ShieldOff",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Unprotected",
+        "Insecure",
+        "Vulnerable"
+      ],
+      "tags": [
+        "shield",
+        "off",
+        "unprotected",
+        "insecure"
+      ]
+    },
+    {
+      "name": "ShieldPlus",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "AddSecurity",
+        "NewShield"
+      ],
+      "tags": [
+        "shield",
+        "plus",
+        "add",
+        "security"
+      ]
+    },
+    {
+      "name": "ShieldUser",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "UserSecurity",
+        "Privacy"
+      ],
+      "tags": [
+        "shield",
+        "user",
+        "security",
+        "privacy"
+      ]
+    },
+    {
+      "name": "ShieldX",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "ShieldRemove",
+        "ShieldCancel",
+        "Unshielded"
+      ],
+      "tags": [
+        "shield",
+        "remove",
+        "cancel",
+        "insecure"
+      ]
+    },
+    {
+      "name": "Slash",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "SlidersHorizontal",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Controls",
+        "Adjust",
+        "Filters",
+        "Equalizer"
+      ],
+      "tags": [
+        "sliders",
+        "settings",
+        "adjust"
+      ]
+    },
+    {
+      "name": "Smile",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Happy",
+        "Positive",
+        "Smiley"
+      ],
+      "tags": [
+        "smile",
+        "happy",
+        "positive"
+      ]
+    },
+    {
+      "name": "Sparkles",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Magic",
+        "Ai",
+        "Shine",
+        "Generate"
+      ],
+      "tags": [
+        "sparkles",
+        "magic",
+        "ai"
+      ]
+    },
+    {
+      "name": "Square",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Stop"
+      ],
+      "tags": [
+        "stop"
+      ]
+    },
+    {
+      "name": "SquarePen",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Compose",
+        "WriteNew",
+        "Draft",
+        "Editor"
+      ],
+      "tags": [
+        "compose",
+        "write",
+        "draft",
+        "editor"
+      ]
+    },
+    {
+      "name": "Star",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Favorite",
+        "Favourite",
+        "Rating"
+      ],
+      "tags": [
+        "star",
+        "favorite",
+        "rating"
+      ]
+    },
+    {
+      "name": "Sun",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Light",
+        "Day",
+        "Bright"
+      ],
+      "tags": [
+        "sun",
+        "light",
+        "day"
+      ]
+    },
+    {
+      "name": "Tag",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Label",
+        "Badge"
+      ],
+      "tags": [
+        "tag",
+        "label",
+        "category"
+      ]
+    },
+    {
+      "name": "Tags",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Labels",
+        "Categories"
+      ],
+      "tags": [
+        "tags",
+        "labels",
+        "categories"
+      ]
+    },
+    {
+      "name": "Target",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Bullseye",
+        "Goal",
+        "Aim"
+      ],
+      "tags": [
+        "target",
+        "goal",
+        "aim",
+        "focus"
+      ]
+    },
+    {
+      "name": "TextAlignCenter",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Center"
+      ],
+      "tags": [
+        "align",
+        "center",
+        "text"
+      ]
+    },
+    {
+      "name": "TextAlignEnd",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "AlignRight"
+      ],
+      "tags": [
+        "align",
+        "right",
+        "text"
+      ]
+    },
+    {
+      "name": "TextAlignJustify",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Justify"
+      ],
+      "tags": [
+        "align",
+        "justify",
+        "text"
+      ]
+    },
+    {
+      "name": "TextAlignStart",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "AlignLeft"
+      ],
+      "tags": [
+        "align",
+        "left",
+        "text"
+      ]
+    },
+    {
+      "name": "ThumbsDown",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Dislike",
+        "Disapprove",
+        "No"
+      ],
+      "tags": [
+        "dislike",
+        "disapprove",
+        "thumbs-down"
+      ]
+    },
+    {
+      "name": "ThumbsUp",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Like",
+        "Approve",
+        "Yes"
+      ],
+      "tags": [
+        "like",
+        "approve",
+        "thumbs-up"
+      ]
+    },
+    {
+      "name": "ToolCase",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Toolbox",
+        "Toolkit"
+      ],
+      "tags": [
+        "tools",
+        "toolbox",
+        "case",
+        "maintenance"
+      ]
+    },
+    {
+      "name": "Trash",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Delete",
+        "Remove",
+        "Bin",
+        "Garbage"
+      ],
+      "tags": [
+        "trash",
+        "delete",
+        "remove"
+      ]
+    },
+    {
+      "name": "TrashEmpty",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "TrendingDown",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Decline",
+        "Falling",
+        "Downtrend"
+      ],
+      "tags": [
+        "trending",
+        "decline",
+        "decrease"
+      ]
+    },
+    {
+      "name": "TrendingUp",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Growth",
+        "Increase",
+        "Rising"
+      ],
+      "tags": [
+        "trending",
+        "growth",
+        "increase"
+      ]
+    },
+    {
+      "name": "TriangleDown",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "TriangleDownUp",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "SortToggle",
+        "OrderToggle"
+      ],
+      "tags": [
+        "sort",
+        "toggle",
+        "order"
+      ]
+    },
+    {
+      "name": "TriangleUp",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Unlink",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Disconnect",
+        "Break"
+      ],
+      "tags": [
+        "unlink",
+        "disconnect",
+        "break"
+      ]
+    },
+    {
+      "name": "Unlock",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Unsecure",
+        "Unlocked",
+        "Public"
+      ],
+      "tags": [
+        "unlock",
+        "unsecure",
+        "public"
+      ]
+    },
+    {
+      "name": "Unplug",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Upload",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Import",
+        "Send"
+      ],
+      "tags": [
+        "upload",
+        "import",
+        "send"
+      ]
+    },
+    {
+      "name": "User",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Person",
+        "Profile",
+        "Account"
+      ],
+      "tags": [
+        "user",
+        "person",
+        "profile",
+        "account"
+      ]
+    },
+    {
+      "name": "UserArrowLeft",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "UserArrowLeftRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "UserArrowOutUpRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "UserArrowRight",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "UserCog",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "UserPlus",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Users",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "People",
+        "Group",
+        "Team",
+        "Persons"
+      ],
+      "tags": [
+        "users",
+        "people",
+        "group",
+        "team"
+      ]
+    },
+    {
+      "name": "Video",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Camera",
+        "Record",
+        "VideoCamera"
+      ],
+      "tags": [
+        "video",
+        "camera",
+        "film",
+        "record"
+      ]
+    },
+    {
+      "name": "Volume2",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Sound",
+        "Audio",
+        "Speaker",
+        "Volume"
+      ],
+      "tags": [
+        "volume",
+        "sound",
+        "audio"
+      ]
+    },
+    {
+      "name": "VolumeOff",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Mute",
+        "Silent",
+        "NoSound",
+        "SpeakerOff"
+      ],
+      "tags": [
+        "mute",
+        "silent",
+        "volume-off"
+      ]
+    },
+    {
+      "name": "X",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Close",
+        "Cancel",
+        "Times",
+        "Dismiss"
+      ],
+      "tags": [
+        "close",
+        "cancel",
+        "dismiss",
+        "remove"
+      ]
+    },
+    {
+      "name": "Zap",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "Lightning",
+        "Bolt",
+        "Flash",
+        "Power"
+      ],
+      "tags": [
+        "zap",
+        "lightning",
+        "bolt",
+        "flash",
+        "energy"
+      ]
+    },
+    {
+      "name": "ZapOff",
+      "kind": "icon",
+      "variants": [
+        "base",
+        "duotone",
+        "fill"
+      ],
+      "aliases": [
+        "LightningOff",
+        "NoFlash",
+        "PowerOff"
+      ],
+      "tags": [
+        "zap",
+        "off",
+        "lightning",
+        "disabled"
+      ]
+    }
+  ],
+  "logos": [
+    {
+      "name": "LogoFacebook",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoFile",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "dark"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoFilePdf",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "dark"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoFileSheet",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "dark"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoFoam",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "dark",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoFoamSymbol",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "dark"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoGmail",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoGoogle",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoInstagram",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "dark",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoLinkedin",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "dark",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoMicrosoft",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoSnapchat",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "dark",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoTiktok",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "dark",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "LogoYoutube",
+      "kind": "logo",
+      "variants": [
+        "color",
+        "fill"
+      ],
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "deprecated": {}
+}

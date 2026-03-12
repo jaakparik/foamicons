@@ -218,7 +218,7 @@ import { SettingsIcon, FoamSettings } from 'foamicons';
 | `CircleX` | `Close`, `Cancel`, `X`, `Times`, `Clear` |
 | `CircleAlert` | `WarningCircle`, `Error` |
 
-See [`icons/aliases.json`](../../icons/aliases.json) for the complete list.
+See the published metadata for the complete list: `import aliases from 'foamicons/aliases'`
 
 ### Alias Lookup Helpers
 
@@ -235,6 +235,39 @@ import {
 // Get canonical name from an alias
 getCanonicalName('Settings'); // 'Cog'
 getCanonicalName('Search');   // 'Search' (already canonical)
+```
+
+## Machine-Readable Metadata
+
+Foamicons ships metadata files for AI tools and editor plugins. No need to parse `dist/index.js`:
+
+```ts
+// Full catalog with all icons, logos, aliases, tags, and variants
+import catalog from 'foamicons/catalog';
+
+// Alias → canonical name mapping
+import aliases from 'foamicons/aliases';
+
+// Canonical name → tags mapping
+import tags from 'foamicons/tags';
+
+// Old name → new name mapping (for migrations)
+import deprecations from 'foamicons/deprecations';
+```
+
+### Typed Name Helpers
+
+```ts
+import {
+  iconNames,        // readonly array of all icon component names
+  logoNames,        // readonly array of all logo component names
+  allNames,         // combined icons + logos
+  baseIconNames,    // base names without variant suffixes
+  baseLogoNames,    // base logo names without variant suffixes
+} from 'foamicons';
+
+// TypeScript types for validation
+import type { IconName, LogoName, BaseIconName, BaseLogoName } from 'foamicons';
 ```
 
 ## Props
@@ -310,6 +343,19 @@ npm run build
 # Run tests
 npm test
 ```
+
+## For AI Assistants
+
+If you are an AI helping a user build a UI with foamicons:
+
+1. **Read the catalog first** — `import catalog from 'foamicons/catalog'` gives you every icon, logo, variant, alias, and tag without parsing JS.
+2. **Use canonical PascalCase names** — e.g. `Bell`, not `bell` or `bell-icon`.
+3. **Variants**: base (no suffix), `Duotone`, `Fill`. Logos: base (color), `Dark`, `Fill`.
+4. **Aliases exist but prefer canonical names** in generated code — `Cog` not `Settings`.
+5. **All icons import from `'foamicons'`** — there is one entry point.
+6. **Tailwind/shadcn pattern**: `<Bell className="h-4 w-4 text-muted-foreground" />`.
+7. **Check `foamicons/aliases`** to resolve user intent (e.g. user says "settings icon" → `Cog`).
+8. **See `llms.txt`** in the package root for a compact reference.
 
 ## License
 

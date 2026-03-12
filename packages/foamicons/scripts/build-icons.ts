@@ -324,6 +324,18 @@ function generateMainIndex(
   // Combined names array
   const allNames = [...iconNames, ...logoNames].sort();
 
+  // Build sorted base icon names (without variant suffixes)
+  const baseIconNames = [...new Set(
+    iconNames
+      .map((n) => n.replace(/(?:Duotone|Fill)$/, ''))
+  )].sort();
+
+  // Build sorted base logo names (without variant suffixes)
+  const baseLogoNames = [...new Set(
+    logoNames
+      .map((n) => n.replace(/(?:Dark|Fill)$/, ''))
+  )].sort();
+
   return `// Auto-generated - do not edit manually
 export type { IconProps, IconNode, IconNodeElement, FoamIcon } from './types';
 export { createFoamicon } from './createFoamicon';
@@ -339,6 +351,17 @@ export const logoNames = ${JSON.stringify(logoNames.sort())} as const;
 
 // All component names (icons + logos)
 export const allNames = ${JSON.stringify(allNames)} as const;
+
+// Typed name unions for validation
+export type IconName = typeof iconNames[number];
+export type LogoName = typeof logoNames[number];
+export type AnyIconName = IconName | LogoName;
+
+// Base icon names (without variant suffixes) for tooling
+export const baseIconNames = ${JSON.stringify(baseIconNames)} as const;
+export const baseLogoNames = ${JSON.stringify(baseLogoNames)} as const;
+export type BaseIconName = typeof baseIconNames[number];
+export type BaseLogoName = typeof baseLogoNames[number];
 
 // Alias lookup maps for tooling/search (icons)
 export const iconAliases: Record<string, string[]> = ${JSON.stringify(iconAliasesMap, null, 2)};

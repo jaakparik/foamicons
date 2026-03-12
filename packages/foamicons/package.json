@@ -16,15 +16,28 @@
         "types": "./dist/index.d.cts",
         "default": "./dist/index.cjs"
       }
+    },
+    "./catalog": {
+      "default": "./dist/catalog.json"
+    },
+    "./aliases": {
+      "default": "./dist/aliases.json"
+    },
+    "./tags": {
+      "default": "./dist/tags.json"
+    },
+    "./deprecations": {
+      "default": "./dist/deprecations.json"
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "llms.txt"
   ],
   "sideEffects": false,
   "scripts": {
     "generate": "tsx scripts/build-icons.ts",
-    "build": "pnpm run generate && tsup",
+    "build": "pnpm run generate && tsup && tsx scripts/build-metadata.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "prepublishOnly": "pnpm run build"
