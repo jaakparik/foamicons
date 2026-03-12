@@ -1,4 +1,7 @@
 // Auto-generated - do not edit manually
+export { ActivityDuotone } from './ActivityDuotone';
+export { ActivityFill } from './ActivityFill';
+export { Activity } from './Activity';
 export { AlertDuotone } from './AlertDuotone';
 export { AlertFill } from './AlertFill';
 export { Alert } from './Alert';
@@ -346,6 +349,9 @@ export { GripVertical } from './GripVertical';
 export { Grip } from './Grip';
 export { HeartDuotone } from './HeartDuotone';
 export { HeartFill } from './HeartFill';
+export { HeartPulseDuotone } from './HeartPulseDuotone';
+export { HeartPulseFill } from './HeartPulseFill';
+export { HeartPulse } from './HeartPulse';
 export { Heart } from './Heart';
 export { HistoryDuotone } from './HistoryDuotone';
 export { HistoryFill } from './HistoryFill';
