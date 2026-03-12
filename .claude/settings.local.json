@@ -36,7 +36,9 @@
       "Bash(du:*)",
       "Bash(pnpm install:*)",
       "Bash(pnpm run test:*)",
-      "Bash(pnpm test:*)"
+      "Bash(pnpm test:*)",
+      "Bash(git tag:*)",
+      "Bash(node -e \":*)"
     ]
   }
 }
