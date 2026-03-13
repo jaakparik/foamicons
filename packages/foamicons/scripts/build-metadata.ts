@@ -24,6 +24,7 @@ const ALIASES_FILE = join(MONOREPO_ROOT, 'icons/aliases.json');
 const LOGO_ALIASES_FILE = join(MONOREPO_ROOT, 'icons/logos/aliases.json');
 const PKG_FILE = join(process.cwd(), 'package.json');
 const DIST = join(process.cwd(), 'dist');
+const LLMS_TXT = join(process.cwd(), 'llms.txt');
 
 interface AliasEntry {
   aliases: string[];
@@ -160,6 +161,91 @@ async function main() {
 
   await writeFile(join(DIST, 'deprecations.json'), JSON.stringify(deprecated, null, 2) + '\n');
   console.log('  ✓ dist/deprecations.json');
+
+  // --- Update llms.txt with full icon name list ---
+  const allBaseIconNames = icons.map((i) => i.name).sort();
+  const allBaseLogoNames = logos.map((l) => l.name).sort();
+  const iconCount = allBaseIconNames.length;
+  const logoCount = allBaseLogoNames.length;
+
+  const llmsTxt = `# Foamicons
+
+React SVG icon library with ${iconCount}+ icons and ${logoCount} brand logos in three styles.
+
+## Naming
+
+- All component names are PascalCase.
+- Base (stroked) icons have no suffix: \`Bell\`
+- Duotone variant: \`BellDuotone\`
+- Filled variant: \`BellFill\`
+- Logos use \`Logo\` prefix: \`LogoInstagram\`
+  - Dark variant: \`LogoInstagramDark\`
+  - Fill variant (currentColor): \`LogoInstagramFill\`
+
+## Aliases
+
+Many icons have semantic aliases (e.g. \`Settings\` -> \`Cog\`, \`Home\` -> \`House\`).
+Aliases are valid imports but canonical names are preferred in generated code.
+Aliases apply to all variants: \`Settings\`, \`SettingsDuotone\`, \`SettingsFill\`.
+
+## Metadata (machine-readable)
+
+Read the catalog instead of parsing dist/index.js:
+
+\`\`\`js
+import catalog from 'foamicons/catalog';   // { version, icons, logos, deprecated }
+import aliases from 'foamicons/aliases';     // { alias: canonical }
+import tags from 'foamicons/tags';           // { canonical: [tags] }
+import deprecations from 'foamicons/deprecations'; // { old: new }
+\`\`\`
+
+Each catalog entry has: name, kind, variants, aliases, tags.
+
+## Typed helpers (runtime)
+
+\`\`\`ts
+import {
+  iconNames,        // readonly string[] of all icon component names
+  logoNames,        // readonly string[] of all logo component names
+  allNames,         // combined
+  baseIconNames,    // base names without variant suffixes
+  baseLogoNames,    // base logo names without variant suffixes
+  iconAliases,      // { canonical: [aliases] }
+  aliasToCanonical, // { alias: canonical }
+  iconTags,         // { canonical: [tags] }
+  getCanonicalName, // (nameOrAlias) => canonical
+} from 'foamicons';
+
+// TypeScript types
+import type { IconName, LogoName, BaseIconName, BaseLogoName } from 'foamicons';
+\`\`\`
+
+## Usage
+
+\`\`\`tsx
+import { Bell, BellDuotone, BellFill } from 'foamicons';
+
+<Bell className="h-4 w-4" />
+<BellDuotone secondaryOpacity={0.4} />
+<BellFill size={24} />
+\`\`\`
+
+## Props
+
+size (default 16), strokeWidth (default 1), absoluteStrokeWidth (default true),
+color, secondaryColor, secondaryOpacity (default 0.4), className, ...SVGProps.
+
+## Available icons (${iconCount} base icons, each with base/Duotone/Fill variants)
+
+${allBaseIconNames.join(', ')}
+
+## Available logos (${logoCount} logos, each with color/Dark/Fill variants)
+
+${allBaseLogoNames.join(', ')}
+`;
+
+  await writeFile(LLMS_TXT, llmsTxt);
+  console.log(`  ✓ llms.txt (${iconCount} icons, ${logoCount} logos)`);
 
   console.log('\n✓ Metadata generation complete');
 }

@@ -16,7 +16,8 @@
     "test": "turbo run test",
     "clean": "turbo run clean && rm -rf node_modules",
     "release": "node scripts/release.mjs",
-    "add-aliases": "node scripts/add-aliases.mjs"
+    "add-aliases": "node scripts/add-aliases.mjs",
+    "prepare": "bash scripts/setup-hooks.sh"
   },
   "devDependencies": {
     "turbo": "^2.0.0"

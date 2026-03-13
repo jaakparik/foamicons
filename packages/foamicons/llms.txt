@@ -1,6 +1,6 @@
 # Foamicons
 
-React SVG icon library with 170+ icons and 14 brand logos in three styles.
+React SVG icon library with 236+ icons and 14 brand logos in three styles.
 
 ## Naming
 
@@ -64,3 +64,11 @@ import { Bell, BellDuotone, BellFill } from 'foamicons';
 
 size (default 16), strokeWidth (default 1), absoluteStrokeWidth (default true),
 color, secondaryColor, secondaryOpacity (default 0.4), className, ...SVGProps.
+
+## Available icons (236 base icons, each with base/Duotone/Fill variants)
+
+Activity, Alert, Archive, ArchiveArrowUp, ArrowDown, ArrowDown01, ArrowDown10, ArrowDownCog, ArrowDownIG, ArrowDownLeft, ArrowDownMapPin, ArrowDownNarrowWide, ArrowDownRight, ArrowDownSC, ArrowDownTT, ArrowDownUp, ArrowDownWideNarrow, ArrowDownYT, ArrowLeft, ArrowRight, ArrowRightToLine, ArrowUp, ArrowUpAZ, ArrowUpCog, ArrowUpIG, ArrowUpLeft, ArrowUpMapPin, ArrowUpNarrowWide, ArrowUpRight, ArrowUpSC, ArrowUpTT, ArrowUpWideNarrow, ArrowUpYT, ArrowUpZA, AtSign, AudioLines, BadgeCheckbox, Ban, Bell, Bold, Bookmark, Brain, Calendar, ChartArea, ChartBarStacked, ChartColumn, ChartColumnSquare, ChartNetwork, ChartNoAxesCombined, ChartPie, Checkbox, Checkmark, ChevronDown, ChevronLeft, ChevronRight, ChevronUp, ChevronUpDown, Circle, CircleAlert, CircleCheck, CircleDashed, CircleDollarSign, CircleOverlap, CirclePlus, CircleQuestionMark, CircleX, ClipboardList, Clock, ClockArrowDown, ClockArrowUp, ClosedCaption, Cog, Columns3, Command, ContentHeart, ContentPlus, ContentUser, Copy, Download, Eclipse, Ellipsis, EllipsisVertical, ExternalLink, Eye, EyeOff, File, FileArrowDown, FileArrowLeft, FileArrowLeftRight, FileArrowRight, FileArrowUp, FileChartColumn, FileCheck, FileCog, FileImage, FilePlus, FileUser, FileX, Flame, Folder, FolderChartColumn, FolderCheck, FolderCog, FolderPlus, FolderX, Frown, Fullscreen, GalleryHorizontal, GalleryHorizontalEnd, GalleryThumbnails, GalleryVertical, GalleryVerticalEnd, Globe, Grip, GripHorizontal, GripVertical, Heart, HeartPulse, History, Hotspot, House, Image, Images, Inbox, Info, Italic, LayoutDashboard, LayoutGrid, LayoutList, LayoutPanelBottom, LayoutPanelLeft, LayoutPanelRight, LayoutPanelTop, LayoutRows, LayoutTemplate, Link, List, ListFilter, ListIndentDecrease, ListIndentIncrease, ListOrdered, LoaderCircle, Lock, LogOut, Mail, MailMove, MailPlus, MapPin, Maximize, Megaphone, MegaphoneActive, Menu, MessageSquare, MessagesSquare, Minus, Moon, MousePointerClick, Move, Notebook, Office, Palette, PanelLeft, PanelLeftChevronLeft, PanelLeftChevronRight, PanelRight, Pause, Pencil, Pin, Play, Plus, Pointer, QuotationMarkLeft, QuotationMarkRight, Reach, Reel, RefreshCw, RefreshCwOff, RemoveFormatting, Reply, Rocket, Rolodex, RotateCcw, RotateCw, Save, Search, SearchUser, Share, Shield, ShieldCheck, ShieldOff, ShieldPlus, ShieldUser, ShieldX, Slash, SlidersHorizontal, Smile, Sparkles, Square, SquarePen, Star, Sun, Tag, Tags, Target, TextAlignCenter, TextAlignEnd, TextAlignJustify, TextAlignStart, ThumbsDown, ThumbsUp, ToolCase, Trash, TrashEmpty, TrendingDown, TrendingUp, TriangleDown, TriangleDownUp, TriangleUp, Unlink, Unlock, Unplug, Upload, User, UserArrowLeft, UserArrowLeftRight, UserArrowOutUpRight, UserArrowRight, UserCog, UserPlus, Users, Video, Volume2, VolumeOff, X, Zap, ZapOff
+
+## Available logos (14 logos, each with color/Dark/Fill variants)
+
+LogoFacebook, LogoFile, LogoFilePdf, LogoFileSheet, LogoFoam, LogoFoamSymbol, LogoGmail, LogoGoogle, LogoInstagram, LogoLinkedin, LogoMicrosoft, LogoSnapchat, LogoTiktok, LogoYoutube
