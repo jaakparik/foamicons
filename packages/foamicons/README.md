@@ -132,16 +132,6 @@ import { BellFill } from 'foamicons';
 - The `secondaryColor` prop (or `--foamicon-secondary-color` CSS variable) controls the **stroke/detail color** for internal elements (like the clapper inside a bell)
 - Default: both use `currentColor`, so details blend with the fill unless you specify a secondary color
 
-### Tree-Shakeable Per-Icon Imports
-
-For optimal bundle size, import icons individually:
-
-```tsx
-import { Alert } from 'foamicons/icons/Alert';
-import { AlertDuotone } from 'foamicons/icons/AlertDuotone';
-import { AlertFill } from 'foamicons/icons/AlertFill';
-```
-
 ## Logos
 
 Foamicons includes **14 brand logos** with preserved brand colors. Logos are available in up to three variants:
@@ -155,11 +145,7 @@ Foamicons includes **14 brand logos** with preserved brand colors. Logos are ava
 ### Usage
 
 ```tsx
-// Import from the logos subpath
-import { LogoGoogle, LogoInstagram, LogoTiktok } from 'foamicons/logos';
-
-// Or import alongside icons from main entry
-import { Bell, LogoGoogle } from 'foamicons';
+import { Bell, LogoGoogle, LogoInstagram, LogoTiktok } from 'foamicons';
 
 // Logos preserve brand colors by default
 <LogoInstagram size={32} />
@@ -169,13 +155,6 @@ import { Bell, LogoGoogle } from 'foamicons';
 
 // Fill variant uses currentColor like regular icons
 <LogoInstagramFill className="h-8 w-8 text-pink-500" />
-```
-
-### Per-Logo Imports
-
-```tsx
-import { LogoGoogle } from 'foamicons/logos/LogoGoogle';
-import { LogoInstagramDark } from 'foamicons/logos/LogoInstagramDark';
 ```
 
 ### Available Logos
